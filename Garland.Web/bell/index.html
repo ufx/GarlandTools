@@ -1,0 +1,787 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Garland Bell</title>
+
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="shortcut icon" type="image/png" href="../favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.ravenjs.com/3.26.2/raven.min.js" crossorigin="anonymous"></script>
+    <script src="../db/ext/jquery-3.1.1.min.js"></script>
+    <script src="../db/ext/underscore-1.8.3.min.js"></script>
+    <script src="../db/ext/isotope-3.0.1.pkgd.min.js"></script>
+    <script src="../db/ext/doT.min.js"></script>
+    <script src="../db/ext/fastclick.js"></script>
+
+    <script src="gt.bell.js"></script>
+    <script src="nodes.js"></script>
+    <script src="timers.js"></script>
+    <script src="fish.js"></script>
+    <script src="locale.js"></script>
+
+    <script>
+        $(gt.bell.initialize);
+    </script>
+
+    <script id="timer-list-table-template" type="text/x-dot-template">
+        <table {{?it.main}}id="lmain"{{?}} class="timer-list node-list table-layout {{?!it.main}}user-list{{?}} {{?it.active}}active{{?}} {{?it.hidden}}hidden{{?}}" data-name="{{=it.name}}">
+            <thead>
+                <tr class="header">
+                    <td colspan="11"><img class="header-icon" src="../db/images/Clock.svg"> {{=it.name}}</td>
+                </tr>
+                <tr class="header-labels">
+                    <td class="icon"></td>
+                    <td class="name">Name</td>
+                    <td class="active">Active</td>
+                    <td class="local-time">Local Time</td>
+                    <td class="area">Area</td>
+                    <td class="zone">Zone</td>
+                    <td class="coords">Coords</td>
+                    <td class="eorzea-time">Eorzea Time</td>
+                    <td class="conditions">Conditions</td>
+                    <td class="type-icons"></td>
+                </tr>
+            </thead>
+        </table>
+    </script>
+
+    <script id="timer-list-block-template" type="text/x-dot-template">
+        <div {{?it.main}}id="lmain"{{?}} class="timer-list block-layout {{?!it.main}}user-list{{?}} {{?it.active}}active{{?}} {{?it.hidden}}hidden{{?}}" data-name="{{=it.name}}">
+            <div class="header"><img class="header-icon" src="../db/images/Clock.svg"> {{=it.name}}</div>
+            <div class="node-list"></div>
+        </div>
+    </script>
+
+    <script id="list-entry-template" type="text/x-dot-template">
+        <div class="entry">
+            ★ {{=it.name}}
+        </div>
+    </script>
+
+    <script id="node-content-block-template" type="text/x-dot-template">
+        <div class="entry-list">
+            {{~it.node.items :entry:itemIndex}}
+                <a class="entry" href="../db/#item/{{=entry.id}}">
+                    <img src="../files/icons/item/{{=entry.icon}}.png" class="icon">
+                    {{?entry.slot}}<span class="valign deemphasize">[{{=entry.slot}}]</span> {{?}}
+                    {{?entry.scrip}}
+                        <img src="../files/icons/item/{{=gt.scrips[entry.scrip]}}.png" class="suffix-icon" title="{{=gt.t(entry.scrip)}}">
+                    {{??entry.reduce}}
+                        <img src="../db/images/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
+                    {{??entry.collectable}}
+                        <img src="../db/images/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
+                    {{?}}
+                    <span class="valign">{{=gt.t(entry.item)}}</span>
+                </a>
+
+                {{?entry.reduce && entry.reduce.item}}
+                    <div class="bait">
+                        <img src="../files/icons/item/{{=entry.reduce.icon}}.png" class="icon" title="{{=entry.reduce.item}}, Purity 5+">
+                    </div>
+                {{?}}
+            {{~}}
+        </div>
+
+        <div class="info deemphasize">
+            <img src="{{=it.typeIcon}}" class="type-icon">
+            <div class="zone-time"><span class="zone">{{=gt.t(it.node.zone)}}{{?it.node.coords}} ({{=it.node.coords[0]}}, {{=it.node.coords[1]}}){{?}}</span> @ <span class="times">{{=it.timeText}}</span></div>
+            <div class="type">Lv. {{=it.node.lvl}} {{=gt.util.stars(it.node.stars)}} {{=gt.t(it.node.name)}} {{=gt.t(it.node.type)}}</div>
+            {{?it.condition}}
+                <div class="condition">{{=it.condition}} ➜ {{=it.bonus}}</div>
+            {{?}}
+            <div class="clear"></div>
+        </div>
+    </script>
+
+    <script id="node-content-table-template" type="text/x-dot-template">
+        {{~it.node.items :entry:itemIndex}}
+            <tr>
+                <td><img src="../files/icons/item/{{=entry.icon}}.png" class="icon"></td>
+                <td>
+                    {{?entry.slot}}<span class="deemphasize slot">[{{=entry.slot}}]</span> {{?}}
+                    {{?it.hidden}}<img src="icons/Check.svg" class="suffix-icon">{{?}}
+                    {{?entry.scrip}}
+                        <img src="../files/icons/item/{{=gt.scrips[entry.scrip]}}.png" class="suffix-icon" title="{{=gt.t(entry.scrip)}}">
+                    {{??entry.reduce}}
+                        <img src="../db/images/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
+                    {{??entry.collectable}}
+                        <img src="../db/images/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
+                    {{?}}
+
+                    <a class="entry" href="../db/#item/{{=entry.id}}">{{=gt.t(entry.item)}}</a>
+
+                    {{?entry.reduce && entry.reduce.item}}
+                        <div class="bait">
+                            <img src="../files/icons/item/{{=entry.reduce.icon}}.png" class="icon" title="{{=entry.reduce.item}}, Purity 5+">
+                        </div>
+                    {{?}}
+                </td>
+                <td class="countdown time-text">{{=it.progress.countdown}}</td>
+                <td class="spawn-time">{{=it.progress.time}}</td>
+                <td>{{=gt.t(it.title)}}</td>
+                <td>{{=gt.t(it.node.zone)}}</td>
+                <td>{{?it.node.coords}}{{=it.node.coords[0]}}, {{=it.node.coords[1]}}{{?}}</td>
+                <td>{{=it.timeText}}</td>
+                <td>
+                    {{?it.conditionAbbr}}{{=it.conditionAbbr}}{{?}}
+                </td>
+                <td>
+                    <img src="{{=it.typeIcon}}" class="suffix-icon">
+                </td>
+            </tr>
+        {{~}}
+    </script>
+
+    <script id="fish-bait-template" type="text/x-dot-template">
+        <div class="bait">
+            {{~it.baitTokens :token:index}}
+                {{?token.comma}}
+                    <span class="comma">, </span>
+                {{??token.arrow}}
+                    <span class="valign">➜</span> 
+                {{??}}
+                    <img src="../files/icons/item/{{=token.icon}}.png" class="icon" title="{{=gt.t(token.name)}}{{?token.mooch}} ({{=gt.t('mooch')}}){{?}}">
+                {{?}}
+            {{~}}
+        </div>
+    </script>
+
+    <script id="fish-entry-block-template" type="text/x-dot-template">
+        <a class="entry" href="../db/#item/{{=it.id}}">
+            <img src="../files/icons/item/{{=it.icon}}.png" class="icon">
+            <span class="valign">{{=gt.t(it.name)}}{{?it.predatorAmount}} [{{=it.predatorAmount}}]{{?}}</span>
+
+            {{?it.collectable}}
+                <img src="../db/images/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
+            {{?}}
+            {{?it.scrip}}
+                <img src="../files/icons/item/{{=gt.scrips[it.scrip]}}.png" class="suffix-icon" title="{{=gt.t(it.scrip)}}">
+            {{?}}
+            {{?it.reduce}}
+                <img src="../db/images/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
+            {{?}}
+            {{?it.folklore}}
+                <img src="../files/icons/item/7128.png" class="suffix-icon" title="{{=gt.t('Tome of Ichthyological Folklore')}}">
+            {{?}}
+            {{?it.fishEyes}}
+                <img src="../files/icons/action/1112.png" class="suffix-icon" title="{{=gt.t('Fish Eyes required')}}">
+            {{?}}
+            {{?it.snagging}}
+                <img src="../files/icons/action/1109.png" class="suffix-icon" title="{{=gt.t('Snagging required')}}">
+            {{?}}
+        </a>
+
+        {{=gt.layout.templates.fishBait(it)}}
+    </script>
+
+    <script id="fish-content-block-template" type="text/x-dot-template">
+        <div class="entry-list">
+            {{=gt.layout.engine.templates.fishEntry(it.def)}}
+            {{?it.def.predator}}
+                {{~it.def.predator :predator:pindex}}
+                    <div class="clear"></div>
+                    {{=gt.layout.engine.templates.fishEntry(predator)}}
+                {{~}}
+            {{?}}
+        </div>
+
+        <div class="info deemphasize">
+            <img src="{{=it.typeIcon}}" class="type-icon">
+            <div class="zone-time">
+                <span class="zone">{{=gt.t(it.def.zone)}}{{?it.def.coords}} ({{=parseInt(it.def.coords[0])}}, {{=parseInt(it.def.coords[1])}}){{?}}</span> 
+                {{?it.def.during}}
+                    @ {{=gt.bell.formatHours(it.def.during.start)}} - {{=gt.bell.formatHours(it.def.during.end)}}
+                {{?}}
+            </div>
+            <div class="type">Lv. {{=it.def.lvl}} {{=gt.util.stars(it.def.stars)}} {{=gt.t(it.def.category)}}</div>
+            <div class="condition">
+                {{?it.def.transition}}
+                    {{=gt.t(it.def.transition).join(', ')}} ➜ 
+                {{?}}
+                {{?it.def.weather}}
+                    {{=gt.t(it.def.weather).join(', ')}} 
+                {{?}}
+            </div>
+            <div class="clear"></div>
+        </div>
+    </script>
+
+    <script id="fish-content-table-template" type="text/x-dot-template">
+        <tr>
+            <td><img src="{{=it.icon}}" class="icon"></td>
+            <td>
+                {{?it.hidden}}<img src="icons/Check.svg" class="suffix-icon">{{?}}
+                {{?it.def.collectable}}
+                    <img src="../db/images/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
+                {{?}}
+                {{?it.def.scrip}}
+                    <img src="../files/icons/item/{{=gt.scrips[it.def.scrip]}}.png" class="suffix-icon" title="{{=gt.t(it.def.scrip)}}">
+                {{?}}
+                {{?it.def.reduce}}
+                    <img src="../db/images/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
+                {{?}}
+
+                <a class="entry" href="../db/#item/{{=it.id}}">
+                    {{=gt.t(it.def.name)}}{{?it.def.predatorAmount}} [{{=it.def.predatorAmount}}]{{?}}
+                </a>
+
+                {{=gt.layout.templates.fishBait(it.def)}}
+            </td>
+            {{?it.progress}}
+                <td class="countdown time-text">{{=it.progress.countdown}}</td>
+                <td class="spawn-time">{{=it.progress.time}}</td>
+            {{??}}
+                <td></td>
+                <td></td>
+            {{?}}
+            <td>{{=gt.t(it.title)}}</td>
+            <td>{{=gt.t(it.def.zone)}}</td>
+            <td>{{?it.def.coords}}{{=parseInt(it.def.coords[0])}}, {{=parseInt(it.def.coords[1])}}{{?}}</td>
+            <td>
+                {{?it.def.during}}
+                    {{=gt.bell.formatHours(it.def.during.start)}} - {{=gt.bell.formatHours(it.def.during.end)}}
+                {{?}}
+            </td>
+            <td class="weather">
+                {{?it.def.folklore}}
+                    <img src="../files/icons/item/7128.png" class="suffix-icon" title="{{=gt.t('Tome of Ichthyological Folklore')}}">
+                {{?}}
+                {{?it.def.fishEyes}}
+                    <img src="../files/icons/action/1112.png" class="suffix-icon" title="{{=gt.t('Fish Eyes required')}}">
+                {{?}}
+                {{?it.def.snagging}}
+                    <img src="../files/icons/action/1109.png" class="suffix-icon" title="{{=gt.t('Snagging required')}}">
+                {{?}}
+
+                {{?it.def.transition}}
+                    {{~it.def.transition :weather:windex}}
+                        <img src="../files/icons/weather/{{=weather}}.png" title="{{=weather}}" class="suffix-icon">
+                    {{~}}
+                     <span class="valign">➜</span>
+                {{?}}
+                {{?it.def.weather}}
+                    {{~it.def.weather :weather:windex}}
+                        <img src="../files/icons/weather/{{=weather}}.png" title="{{=weather}}" class="suffix-icon">
+                    {{~}}
+                {{?}}
+            </td>
+            <td>
+                <img src="{{=it.typeIcon}}" class="suffix-icon">
+            </td>
+        </tr>
+
+        {{?it.predator}}
+            {{~it.predator :predator:predIndex}}
+                {{=predator.contentTemplate(predator)}}
+            {{~}}
+        {{?}}
+    </script>
+
+    <script id="timer-table-template" type="text/x-dot-template">
+        <tbody class="timer {{=it.type}} {{?it.progress}}{{=it.progress.state}}{{??}}untimed{{?}} {{?it.star}}star{{?}} {{?it.hidden}}hidden{{?}}" data-id="{{=it.id}}">
+            {{?it.contentTemplate}}
+                {{=it.contentTemplate(it)}}
+            {{??}}
+                <tr>
+                    <td><img src="{{=it.icon}}" class="icon"></td>
+                    <td>
+                        {{?it.hidden}}<img src="icons/Check.svg" class="suffix-icon">{{?}}
+                        {{=gt.t(it.desc)}}
+                    </td>
+                    <td class="countdown time-text">{{=it.progress.countdown}}</td>
+                    <td class="spawn-time">{{=it.progress.time}}</td>
+                    <td>{{=gt.t(it.title || "")}}</td>
+                    <td>{{=gt.t(it.zone)}}</td>
+                    <td>{{?it.def.coords}}{{=parseInt(it.def.coords[0])}}, {{=parseInt(it.def.coords[1])}}{{?}}</td>
+                    <td>{{?it.timeText}}{{=it.timeText}}{{?}}</td>
+                    <td>{{?it.conditions}}{{=it.conditions}}{{?}}</td>
+                    <td>{{?it.typeIcon}}<img src="{{=it.typeIcon}}" class="suffix-icon">{{?}}</td>
+                </tr>
+            {{?}}
+        </tbody>
+    </script>
+
+    <script id="timer-block-template" type="text/x-dot-template">
+        {{?it.progress}}
+            <div class="timer {{=it.type}} {{=it.progress.state}} {{?it.star}}star{{?}} {{?it.hidden}}hidden{{?}}" data-time="{{=it.progress.sort}}" data-active="{{=it.progress.state == 'active' ? 1 : 0}}" data-id="{{=it.id}}">
+        {{??}}
+            <div class="timer {{=it.type}} untimed {{?it.star}}star{{?}} {{?it.hidden}}hidden{{?}}" data-time="0" data-active="0" data-id="{{=it.id}}">
+        {{?}}
+
+            <div class="title">
+                {{?it.hidden}}<img src="icons/Check.svg">{{?}}
+                <span class="text">{{=gt.t(it.title || "")}}</span>
+            </div>
+
+            {{?it.progress}}
+                <span class="spawn-time">{{=it.progress.countdown}} / {{=it.progress.time}}</span>
+
+                <div class="progress-container"><div class="progress" style="width: {{=it.progress.percent}}%;"></div></div>
+            {{?}}
+
+            <div class="content">
+                {{?it.contentTemplate}}
+                    {{=it.contentTemplate(it)}}
+                {{??}}
+                    <img src="{{=it.icon}}" class="type-icon">
+                    {{=gt.t(it.desc)}}
+                {{?}}
+            </div>
+        </div>
+    </script>
+
+    <script id="hunt-content-block-template" type="text/x-dot-template">
+        <div class="entry-list">
+            <span class="entry">
+                <img src="{{=it.icon}}" class="icon">
+                <span class="valign">{{=gt.t(it.def.name)}}</span>
+            </span>
+
+            {{?it.def.fish}}
+                <div class="clear"></div>
+                {{=gt.layout.engine.templates.fishEntry(it.def.fish)}}
+            {{?}}
+        </div>
+
+        <div class="info deemphasize">
+            <img src="{{=it.typeIcon}}" class="type-icon">
+            <div>{{=gt.t(it.cooldown)}}</div>
+            <div>{{=gt.t(it.def.conditions)}}</div>
+        </div>
+    </script>
+
+    <script id="hunt-content-table-template" type="text/x-dot-template">
+        <tr>
+            <td class="icon"><img src="{{=it.icon}}" class="icon"></td>
+            <td>
+                {{?it.hidden}}<img src="icons/Check.svg" class="suffix-icon">{{?}}
+                {{=gt.t(it.def.name)}}
+            </td>
+            <td class="countdown time-text">{{=it.progress.countdown}}</td>
+            <td class="spawn-time">{{=it.progress.time}}</td>
+            <td>{{=gt.t(it.title)}}</td>
+            <td></td>
+            <td></td>
+            <td colspan="2">{{=gt.t(it.def.conditions)}}</td>
+            <td><img class="suffix-icon" src="{{=it.typeIcon}}"></td>
+        </tr>
+        {{?it.fish}}
+            {{=it.fish.contentTemplate(it.fish)}}
+        {{??}}
+            <tr>
+                <td colspan="7"></td>
+                <td colspan="3">{{=it.cooldown}}</td>
+            </tr>
+        {{?}}
+    </script>
+
+    <script id="page-map-template" type="text/x-dot-template">
+        <div class="map-wrapper" data-id="{{=it.location.id}}">
+            <div class="map-container">
+                <span class="region">{{=gt.t(it.location.name)}}</span>
+                <span class="position"></span>
+                <canvas width="383" height="383" class="base map"></canvas>
+                <canvas width="383" height="383" class="points"></canvas>
+            </div>
+        </div>
+    </script>
+
+    <script id="main-template" type="text/x-dot-template">
+        <div id="sidebar">
+            <div id="time">#:##</div>
+
+            <div id="filters">
+                <div class="subheader">{{=gt.t('Search')}}</div>
+                <div id="search-bar">
+                    <input type="search" id="search">
+                </div>
+
+                <div class="subheader">{{=gt.t('Patches')}}</div>
+                <div data-filter=".patch-2" data-invert="0" class="active filter button short" title="A Realm Reborn">{{=gt.t('2.0')}}</div>
+                <div data-filter=".patch-3" data-invert="0" class="active filter button short" title="Heavensward">{{=gt.t('3.0')}}</div>
+                <div data-filter=".patch-4" data-invert="0" class="active filter button short" title="Heavensward">{{=gt.t('4.0')}}</div>
+
+                <div class="subheader">{{=gt.t('Classes')}}</div>
+                <div data-filter=".miner" data-invert="0" class="active filter button short"><img src="../db/images/MIN.png" title="{{=gt.t('Mining')}}"></div>
+                <div data-filter=".botanist" data-invert="0" class="active filter button short"><img src="../db/images/BTN.png" title="{{=gt.t('Botany')}}"></div>
+                <div data-filter=".fish" data-invert="0" class="active filter button short"><img src="../db/images/FSH.png" title="{{=gt.t('Fishing')}}"></div>
+
+                <div class="subheader">{{=gt.t('Types')}}</div>
+                <div data-filter=".unspoiled" data-invert="0" class="active filter button">{{=gt.t('Unspoiled')}}</div>
+                <div data-filter=".ephemeral" data-invert="0" class="active filter button">{{=gt.t('Ephemeral')}}</div>
+                <div data-filter=".legendary" data-invert="0" class="active filter button">{{=gt.t('Legendary')}}</div>
+
+                <div class="subheader">{{=gt.t('Tasks')}}</div>
+
+                <div data-filter=".collectable" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Collectable')}}"><img src="../db/images/Collectable.png"></div>
+                <div data-filter=".reducible" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Reducible')}}"><img src="../db/images/Reduce.png"></div>
+                <div data-filter=".redscrips" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Red Scrips')}}"><img src="../files/icons/item/7554.png"></div>
+                <div data-filter=".yellowscrips" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Yellow Scrips')}}"><img src="../files/icons/item/11090.png"></div>
+                <div data-filter=".hidden" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Hidden')}}"><img src="icons/Check.svg"></div>
+
+                <div class="subheader">{{=gt.t('Other')}}</div>
+                <div data-filter=".GATE" data-invert="0" class="active filter button"><img src="icons/GATE.png">{{=gt.t('Gold S.')}}</div>
+                <div data-filter=".hunt" data-invert="0" class="active filter button"><img src="icons/Hunt.png">{{=gt.t('Hunt')}}</div>
+            </div>
+
+            <div id="node-stats" class="deemphasize"></div>
+        </div>
+
+        <div id="main-content">
+            <div id="title">
+                <span id="options">
+                    <img src="icons/Bell.svg" id="alarm-toggle" class="active">
+                    <img src="../db/images/Flat.png" id="mode-toggle">
+                    <img src="../db/images/Setting.png" id="settings-toggle">
+                </span>
+
+                <a href="/">Garland Bell</a>
+            </div>
+
+            <div id="warnings">
+                <div id="audio-blocked" class="warning" style="display: none;">{{=gt.t('Audio notifications are blocked by your browser.  Garland Bell will be unable to sound alerts.')}} <span class="dismiss-link">{{=gt.t('Dismiss.')}}</span></div>
+                <div id="preload-failed" class="warning" style="display: none;">{{=gt.t('Audio preloading is not supported by your browser.  The first notification you receive may not play properly.')}} <span class="dismiss-link">{{=gt.t('Dismiss.')}}</span></div>
+                <div id="notification-blocked" class="warning" style="display: none;">{{=gt.t('Popup notifications can not be displayed.')}} <span class="dismiss-link">{{=gt.t('Dismiss.')}}</span></div>
+                <div id="storage-blocked" class="warning" style="display: none;">{{=gt.t('Local storage is blocked by your browser.  You may be in private browsing mode.  Changes will not be saved.')}} <span class="dismiss-link">{{=gt.t('Dismiss.')}}</span></div>
+            </div>
+
+            <div id="settings">
+                <div class="header">{{=gt.t('Settings')}}</div>
+                <table class="alarm-options">
+                    <tr>
+                        <td class="label">{{=gt.t('Early Warning Alarm')}}</td>
+                        <td>
+                            <select id="tone">
+                                <option value="alarm1" selected="selected">{{=gt.t('Linkshell')}}</option>
+                                <option value="alarm2">{{=gt.t('Tell 1')}}</option>
+                                <option value="alarm3">{{=gt.t('Tell 2')}}</option>
+                                <option value="alarm4">{{=gt.t('Tell 3')}}</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">{{=gt.t('Spawn Alarm')}}</td>
+                        <td>
+                            <select id="tone2">
+                                <option value="alarm1">{{=gt.t('Linkshell')}}</option>
+                                <option value="alarm2" selected="selected">{{=gt.t('Tell 1')}}</option>
+                                <option value="alarm3">{{=gt.t('Tell 2')}}</option>
+                                <option value="alarm4">{{=gt.t('Tell 3')}}</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td colspan="2" class="deemphasize">{{=gt.t('Alarm tone to sound for favorite nodes.')}}</td></tr>
+                    <tr>
+                        <td class="label">{{=gt.t('Early Warning Volume')}}</td>
+                        <td><input type="range" id="volume" value="50" min="0" max="100"></td>
+                    </tr>
+                    <tr>
+                        <td class="label">{{=gt.t('Spawn Volume')}}</td>
+                        <td><input type="range" id="volume2" value="50" min="0" max="100"></td>
+                    </tr>
+                    <tr><td colspan="2" class="deemphasize">{{=gt.t('Volume of the alarm.')}}</td></tr>
+                    <tr>
+                        <td class="label">{{=gt.t('Early Warning Time')}}</td>
+                        <td><input type="number" id="warning" value="60" min="0" max="300"></td>
+                    </tr>
+                    <tr>
+                        <td class="label">{{=gt.t('Spawn Time')}}</td>
+                        <td><input type="number" id="warning2" value="3" min="0" max="300"></td>
+                    </tr>
+                    <tr><td colspan="2" class="deemphasize">{{=gt.t('Wait this number of real seconds before sounding the alarm.')}}</td></tr>
+                    <tr>
+                        <td class="label"><label for="unlimited-columns-setting">{{=gt.t('Unlimited Columns')}}</label></td>
+                        <td><input type="checkbox" id="unlimited-columns-setting"></td>
+                    </tr>
+                    <tr><td colspan="2" class="deemphasize">{{=gt.t('Use as many columns as possible.')}}</td>
+                    <tr>
+                        <td class="label"><label for="compact-setting">{{=gt.t('Compact')}}</label></td>
+                        <td><input type="checkbox" id="compact-setting"></td>
+                    </tr>
+                    <tr><td colspan="2" class="deemphasize">{{=gt.t('Compact timer information to the essentials.')}}</td>
+                    <tr>
+                        <td class="label"><label for="colorblind-setting">{{=gt.t('Colorblind')}}</label></td>
+                        <td><input type="checkbox" id="colorblind-setting"></td>
+                    </tr>
+                    <tr><td colspan="2" class="deemphasize">{{=gt.t('Alter active bar colors to better suit colorblind users.')}}</td>
+                    <tr>
+                        <td class="label"><label for="servertime-setting">{{=gt.t('Server Time')}}</label></td>
+                        <td><input type="checkbox" id="servertime-setting"></td>
+                    </tr>
+                    <tr><td colspan="2" class="deemphasize">{{=gt.t('Calibrate time with the server.  Use if your time is wrong.')}}</td>
+                </table>
+            </div>
+
+            <div class="header" id="timeline-header">
+                <img class="header-icon" src="icons/Ruler.svg"> 
+                {{=gt.t('Timeline')}}
+            </div>
+            <div id="timeline">
+                <div class="hand"></div>
+                <div id="timeslots"></div>
+                <div class="hours"></div>
+            </div>
+
+            <div id="rotation-section">
+                <div class="header" id="rotation-header">
+                    <img class="header-icon" src="../db/images/Rotation.svg"> 
+                    {{=gt.t('Rotations')}}
+                </div>
+                <div id="rotations">
+                    <div id="rotations-filter" class="radio">
+                        <span class="option button heavensward" data-filter="heavensward">Heavensward</span>
+                        <span class="option button stormblood active" data-filter="stormblood">Stormblood</span>
+                    </div>
+
+                    <div class="rotation heavensward">
+                        <div class="info">{{=gt.t('Aetherial Reduction.  8/8 purity.  600 GP.')}}</div>
+                        <div class="rotation-set">
+                            <img src="../files/icons/action/1030.png" title="{{=gt.t('Impulsive Appraisal')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1028.png" title="{{=gt.t('Utmost Caution')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <img src="../files/icons/action/1030.png" title="{{=gt.t('Impulsive Appraisal')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 2')}}</span>
+                        </div>
+                        <div class="rotation-set">
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('no proc')}})" class="step proc fail">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 1')}}</span>
+                        </div>
+                        <div class="rotation-set">
+                            <span class="step placeholder"></span>
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('no proc')}})" class="step proc fail">
+                            <img src="../files/icons/action/1030.png" title="{{=gt.t('Impulsive Appraisal')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1028.png" title="{{=gt.t('Utmost Caution')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 1')}}</span>
+                        </div>
+                        <div class="rotation-set">
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('no proc')}})" class="step proc fail">
+                            <span class="instruction">{{=gt.t('Respawn node')}}</span>
+                        </div>
+                    </div>
+
+                    <div class="rotation heavensward">
+                        <div class="info">{{=gt.t('Red Scrips.  470 collectability.  600 GP.')}}</div>
+                        <div class="rotation-set">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1030.png" title="{{=gt.t('Impulsive Appraisal')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1030.png" title="{{=gt.t('Impulsive Appraisal')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 4')}}</span>
+                        </div>
+                        <div class="rotation-set">
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('no proc')}})" class="step proc fail">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1030.png" title="{{=gt.t('Impulsive Appraisal')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 3')}}</span>
+                        </div>
+                        <div class="rotation-set">
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('no proc')}})" class="step proc fail">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 2')}}</span>
+                        </div>
+                    </div>
+
+                    <div class="rotation stormblood active">
+                        <div class="info">{{=gt.t('Aetherial Reduction.  7/8 and 8/8 purity.  Adjust rating for perception.  600 GP.')}}</div>
+                        <div class="rotation-set">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1028.png" title="{{=gt.t('Utmost Caution')}}" class="step activate">
+                            <img src="../files/icons/action/1027.png" title="{{=gt.t('Instinctual Appraisal')}}" class="step activate">
+                            <img src="../files/icons/action/1027.png" title="{{=gt.t('Instinctual Appraisal')}}" class="step activate">
+                            <img src="../files/icons/action/1027.png" title="{{=gt.t('Instinctual Appraisal')}}" class="step activate">
+                            <span class="step proc success rating">{{=gt.t('Rating')}} &gt; 400</span>
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect')}}</span>
+                        </div>
+                        <div class="rotation-set">
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step proc fail rating">{{=gt.t('Rating')}} &lt; 400</span>
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect')}}</span>
+                        </div>
+                    </div>
+
+                    <div class="rotation stormblood active">
+                        <div class="info">{{=gt.t('Leveling and Red Scrips. 450 collectability.  600 GP.')}}</div>
+                        <div class="rotation-set">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect')}}</span>
+                        </div>
+                    </div>
+
+                    <div class="rotation stormblood active">
+                        <div class="info">{{=gt.t('Yellow Scrips.  470 collectability.  Low stat requirement.  600 GP.')}}</div>
+                        <div class="rotation-set">
+                            <img src="../files/icons/action/1028.png" title="{{=gt.t('Utmost Caution')}}" class="step activate">
+                            <img src="../files/icons/action/1087.png" title="{{=gt.t('Impulsive Appraisal II')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1087.png" title="{{=gt.t('Impulsive Appraisal II')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 3')}}</span>
+                        </div>
+                        <div class="rotation-set">
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('no proc')}})" class="step proc fail">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1087.png" title="{{=gt.t('Impulsive Appraisal II')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 2')}}</span>
+                        </div>
+                        <div class="rotation-set">
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('no proc')}})" class="step proc fail">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 1')}}</span>
+                        </div>
+                    </div>
+
+                    <div class="rotation stormblood active">
+                        <div class="info">{{=gt.t('Yellow Scrips.  470 collectability.  600 GP.')}}</div>
+                        <div class="rotation-set">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1087.png" title="{{=gt.t('Impulsive Appraisal II')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1087.png" title="{{=gt.t('Impulsive Appraisal II')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 4')}}</span>
+                        </div>
+                        <div class="rotation-set">
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('no proc')}})" class="step proc fail">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1087.png" title="{{=gt.t('Impulsive Appraisal II')}}" class="step activate">
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('proc')}})" class="step proc success">
+                            <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 3')}}</span>
+                        </div>
+                        <div class="rotation-set">
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <span class="step placeholder"></span>
+                            <img src="icons/DiscerningEyeProc.png" title="{{=gt.t('Discerning Eye')}} ({{=gt.t('no proc')}})" class="step proc fail">
+                            <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
+                            <img src="../files/icons/action/1025.png" title="{{=gt.t('Methodical Appraisal')}}" class="step activate">
+                            <span class="instruction">{{=gt.t('Collect 2')}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="maps-section">
+                <div class="header" id="maps-header">
+                    <img src="../db/images/Location.svg" class="header-icon">
+                    {{=gt.t('Maps')}}
+                </div>
+                <div id="maps"></div>
+            </div>
+
+            <div id="timer-container"></div>
+        </div>
+
+        <div id="list-popover">
+            <h2>{{=gt.t('Select a list for this timer')}}</h2>
+            <div id="list-popover-timer" class="block-layout"></div>
+            <div id="list-popover-check">
+                <div class="entry">
+                    <img src="icons/Check.svg">
+                    {{=gt.t('Completed')}}
+                </div>
+            </div>
+            <div id="list-popover-entries"></div>
+        </div>
+        <div id="global-popover-overlay"></div>
+        <div id="timer-remove-overlay">
+            <div>{{=gt.t('Remove from list?  Click again to confirm.')}}</div>
+        </div>
+
+        <audio id="alarm1" preload="none">
+            <source src="../db/audio/alarm.ogg" type="audio/ogg">
+            <source src="../db/audio/alarm.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="alarm2" preload="none">
+            <source src="../db/audio/alarm2.ogg" type="audio/ogg">
+            <source src="../db/audio/alarm2.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="alarm3" preload="none">
+            <source src="../db/audio/alarm3.ogg" type="audio/ogg">
+            <source src="../db/audio/alarm3.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="alarm4" preload="none">
+            <source src="../db/audio/alarm4.ogg" type="audio/ogg">
+            <source src="../db/audio/alarm4.mp3" type="audio/mpeg">
+        </audio>
+    </script>
+</head>
+<body>
+  Something went wrong!  Please check for Javascript errors and submit any information to the comments page on <a href="/">www.garlandtools.org</a>.
+</body>

@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Garland Model Viewer</title>
+
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta charset="utf-8">
+
+    <style>
+        body {
+            background: #111 url(../images/DarkTexture.png);
+            margin: 0px;
+            overflow: hidden;
+            user-select: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #menu-controls img {
+            width: 12px;
+            height: 12px;
+            margin-right: 10px;
+            margin-bottom: -1px;
+        }
+
+        #menu-controls a {
+            padding: 10px;
+            display: block;
+        }
+
+        #menu {
+            position: absolute;
+            top: 20px;
+            left: 25px;
+            z-index: 10;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        #swap {
+            position: absolute;
+            top: 25px;
+            left: 90px;
+            z-index: 10;
+        }
+
+        #swap img {
+            width: 26px;
+            height: 26px;
+        }
+
+        #menu-controls {
+            z-index: 10;
+            position: absolute;
+            top: 80px;
+            left: -200px;
+            transition: left .5s;
+        }
+
+        #sets {
+            position: absolute;
+            right: 30px;
+            top: 20px;
+            z-index: 10;
+            display: block;
+        }
+
+        #model-name {
+            position: absolute;
+            left: 25px;
+            bottom: 20px;
+        }
+
+        .overlayed {
+            color: #dcdcdc;
+            background-color: rgba(0, 0, 0, .5);
+            border: 1px solid #777;
+            border-radius: 4px;
+            padding: 10px;
+        }
+
+        option {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: #dcdcdc;
+        }
+
+        body.loading .loading-hide {
+            display: none !important;
+        }
+
+        body.background2 {
+            background: linear-gradient(to bottom, #606c88 0%,#3f4c6b 100%);
+        }
+
+        body.background2 #menu {
+            stroke: #bbb;
+        }
+
+        body.menu-open #menu-controls {
+            display: block;
+            left: -3px;
+        }
+        
+        body.menu-open #menu {
+            stroke: #fff;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/96/three.js"></script>
+    <script src="OBJLoader.js"></script>
+    <script src="OrbitControls.js"></script>
+
+    <script>
+        gt3d = {
+            basePath: '../../files/models/',
+            camera: null,
+            scene: null,
+            renderer: null,
+            controls: null,
+            objects: [],
+            metadata: null,
+            currentSet: null,
+            settings: null,
+
+            init: function(metadata) {
+                // Initialize with metadata.
+                gt3d.loadSettings();
+                gt3d.metadata = metadata;
+                var initialSet = gt3d.initSets();
+                var viewer = document.getElementById('viewer');
+
+                // Model name
+                var modelName = document.getElementById('model-name');
+                if (window == window.top) {
+                    modelName.innerText = metadata.name;
+                    document.title = metadata.name;
+                } else {
+                    // Hide the model name when in a frame.  It's assumed the
+                    // outer parent will display a name in its own style.
+                    modelName.parentElement.removeChild(modelName);
+                }
+
+                // Scene
+                gt3d.scene = new THREE.Scene();
+
+                // Camera
+                gt3d.camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, .1, 1000);
+                gt3d.scene.add(gt3d.camera);
+
+                // Lights
+                gt3d.light.ambientLight = new THREE.AmbientLight(0xcccccc, 0.5);
+                gt3d.scene.add(gt3d.light.ambientLight);
+
+                gt3d.light.pointLight = new THREE.PointLight(0xffffff, 1.5);
+                gt3d.light.pointLight.position.set(0, 0, 20);
+                gt3d.camera.add(gt3d.light.pointLight);
+
+                gt3d.light.startAnimation();
+
+                // Models and Textures
+                gt3d.loadSet(initialSet);
+
+                // Renderer
+                gt3d.renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+                gt3d.renderer.setPixelRatio(window.devicePixelRatio);
+                gt3d.renderer.setSize(window.innerWidth, window.innerHeight);
+                gt3d.renderer.setClearColor(0x000000, 0);
+
+                viewer.appendChild(gt3d.renderer.domElement);
+
+                // Controls
+                gt3d.controls = new THREE.OrbitControls(gt3d.camera, viewer);
+                gt3d.controls.autoRotate = true;
+
+                // Events not initialized elsewhere
+                window.addEventListener('resize', gt3d.events.onWindowResize, false);
+                window.addEventListener('mousedown', gt3d.events.onMouseDown);
+                window.addEventListener('touchstart', gt3d.events.onMouseDown);
+                document.getElementById('menu').addEventListener('click', gt3d.events.onMenuClicked);
+                document.getElementById('reset').addEventListener('click', gt3d.events.onResetClicked);
+                document.getElementById('background').addEventListener('click', gt3d.events.onChangeBackgroundClicked);
+            },
+
+            initSets: function() {
+                var setNamePreference = gt3d.settings ? gt3d.settings.raceGender : null;
+                var setsElement = document.getElementById('sets');
+                var sets = gt3d.metadata.sets;
+                var initialSet = sets[0];
+
+                if (gt3d.metadata.sets.length == 1) {
+                    // Hide set display when only one exists.
+                    setsElement.parentElement.removeChild(setsElement);
+                    return initialSet;
+                }
+
+                for (var i = 0; i < sets.length; i++) {
+                    var set = sets[i];
+                    var setName = set.name;
+                    var option = document.createElement("option");
+                    option.innerText = setName;
+
+                    if (setName == setNamePreference) {
+                        var selected = document.createAttribute("selected");
+                        selected.value = "selected";
+                        option.setAttributeNode(selected);
+                        initialSet = set;
+                    }
+
+                    setsElement.appendChild(option);
+                }
+
+                setsElement.addEventListener('change', gt3d.events.onSetsChanged);
+                return initialSet;
+            },
+
+            loadSet: function(set) {
+                gt3d.currentSet = set;
+
+                if (set.objects) {
+                    // The set already has objects loaded.
+                    for (var i = 0; i < set.objects.length; i++) {
+                        var object = set.objects[i];
+                        gt3d.objects.push(object);
+                        gt3d.scene.add(object);
+                    }
+                    gt3d.setCameraPositionFromObjects();
+                    return;
+                }
+
+                // Do a network load of these objects.
+                gt3d.currentSet.objects = [];
+
+                var models = [];
+                for (var i = 0; i < set.models.length; i++) {
+                    var modelMetadata = set.models[i];
+                    models.push({
+                        model: gt3d.repoPath(modelMetadata.obj, '.obj'),
+                        alphaMap: gt3d.repoPath(modelMetadata.alpha, '.png'),
+                        map: gt3d.repoPath(modelMetadata.diffuse, '.png'),
+                        emissiveMap: gt3d.repoPath(modelMetadata.emissive, '.png'),
+                        normalMap: gt3d.repoPath(modelMetadata.normal, '.png'),
+                        specularMap: gt3d.repoPath(modelMetadata.specular, '.png'),
+                        alphaTest: 0.8
+                    });
+                }
+
+                gt3d.loadModels(models);
+            },
+
+            repoPath: function(hash, ext) {
+                if (hash)
+                    return gt3d.basePath + 'repo/' + hash.substring(0, 2) + '/' + hash + ext;
+                return null;
+            },
+            
+            animate: function() {
+                requestAnimationFrame(gt3d.animate);
+                gt3d.controls.update();
+                gt3d.render();
+            },
+            
+            render: function() {
+                gt3d.renderer.render(gt3d.scene, gt3d.camera);
+            },
+
+            loadModels: function(models) {
+                var manager = new THREE.LoadingManager();
+                manager.onProgress = function(item, loaded, total) {
+                    console.log(item, loaded + '/' + total);
+
+                    if (loaded == total) {
+                        var body = document.getElementsByTagName('body')[0];
+                        body.classList.remove('loading');
+
+                        gt3d.setCameraPositionFromObjects();
+                    }
+                };
+
+                var textureLoader = new THREE.TextureLoader(manager);
+                var loader = new THREE.OBJLoader(manager);
+
+                function doLoad(modelData) {
+                    loader.load(modelData.model, function (object) {
+                        gt3d.loadModel(modelData, object, textureLoader);
+                    });
+                }
+
+                for (var i = 0; i < models.length; i++)
+                    doLoad(models[i]);
+            },
+
+            loadModel: function(modelData, object, textureLoader) {
+                object.traverse(function(child) {
+                    if (!(child instanceof THREE.Mesh))
+                        return;
+
+                    child.material.side = THREE.DoubleSide;
+                    child.material.map = textureLoader.load(modelData.map);
+
+                    if (modelData.normalMap)
+                        child.material.normalMap = textureLoader.load(modelData.normalMap);
+
+                    if (modelData.alphaMap) {
+                        child.material.alphaMap = textureLoader.load(modelData.alphaMap);
+                        child.material.alphaTest = modelData.alphaTest;
+                    }
+
+                    if (modelData.emissiveMap)
+                        child.material.emissiveMap = textureLoader.load(modelData.emissiveMap);
+                    
+                    if (modelData.specularMap)
+                        child.material.specularMap = textureLoader.load(modelData.specularMap);
+                });
+
+                gt3d.scene.add(object);
+                gt3d.objects.push(object);
+                gt3d.currentSet.objects.push(object);
+            },
+
+            setCameraPositionFromObjects: function() {
+                // Generate a bounding box of all the meshes.
+                var box = new THREE.Box3();
+                for (var i = 0; i < gt3d.objects.length; i++) {
+                    var object = gt3d.objects[i];
+                    object.traverse(function(child) {
+                        if (child instanceof THREE.Mesh) {
+                            child.geometry.computeBoundingBox();
+                            var childBox = child.geometry.boundingBox;
+                            box.min.min(childBox.min);
+                            box.max.max(childBox.max);
+                        }
+                    })
+                }
+
+                // Center camera on this box.
+                var center = box.getCenter(new THREE.Vector3());
+                var x = center.x;
+                var y = center.y;
+                var z = 15;
+
+                gt3d.camera.position.set(x, y, z);
+                gt3d.controls.target = center;
+                gt3d.controls.saveState();
+
+                // Find a FOV that encompasses the whole object.
+                var h = Math.abs(box.max.y - box.min.y);
+                var maxDim = Math.max(box.max.x, box.max.y) / 2;
+                var distance = center.distanceTo(gt3d.camera.position) - (maxDim / 2);
+                var fov = 2 * Math.atan(h / (2 * distance)) * (180 / Math.PI);
+
+                var w = Math.abs(box.max.x - box.min.x);
+                var aspectRatio = w / h;
+                if (aspectRatio > 1) {
+                    // Adjust FOV for wide aspect ratios.
+                    // I'm sure there's a better way to do this.
+                    fov *= aspectRatio;
+                } else {
+                    // Some items go off screen when rotated.
+                    // Reduce FOV to offset this.
+                    fov *= 1.05;
+                }
+
+                gt3d.camera.fov = fov;
+                gt3d.camera.updateProjectionMatrix();
+            },
+
+            loadSettings: function() {
+                // Load settings.
+                try {
+                    gt3d.settings = JSON.parse(localStorage.viewerSettings);
+                } catch (ex) {
+                    // Do nothing.
+                }
+
+                if (!gt3d.settings)
+                    gt3d.settings = { };
+
+                if (gt3d.settings.background)
+                    document.querySelector('body').classList.add('background2');
+            },
+
+            saveSettings: function() {
+                try {
+                    localStorage.viewerSettings = JSON.stringify(gt3d.settings);
+                } catch (ex) {
+                    // Do nothing.
+                }
+            }
+        };
+
+        gt3d.light = {
+            pointLight: null,
+            animationKey: null,
+            position: 0,
+            reverse: false,
+
+            startAnimation: function() {
+                gt3d.light.animationKey = setInterval(gt3d.light.runAnimation, 20);
+            },
+
+            toggleAnimation: function() {
+                if (gt3d.light.animationKey) {
+                    clearInterval(gt3d.light.animationKey);
+                    gt3d.light.animationKey = null;
+                } else
+                    gt3d.light.startAnimation();
+            },
+
+            runAnimation: function() {
+                var pos = gt3d.light.position;
+                var reverse = gt3d.light.reverse;
+
+                pos += reverse ? .2 : -.2;
+                if (pos > 100 || pos < -100)
+                    gt3d.light.reverse = !reverse;
+
+                gt3d.light.pointLight.position.set(pos, -pos, 20);
+                gt3d.light.position = pos;
+            }
+        };
+
+        gt3d.events = {
+            onWindowResize: function() {
+                gt3d.camera.aspect = window.innerWidth / window.innerHeight;
+                gt3d.camera.updateProjectionMatrix();
+                gt3d.renderer.setSize(window.innerWidth, window.innerHeight);
+            },
+
+            onResetClicked: function(e) {
+                e.preventDefault();
+
+                gt3d.controls.reset();
+                gt3d.controls.autoRotate = true;
+                gt3d.events.closeMenu();
+            },
+
+            onMouseDown: function(e) {
+                if (e.target.tagName == "CANVAS") {
+                    // Stop rotation when the user manually intervenes.
+                    gt3d.controls.autoRotate = false;
+
+                    gt3d.events.closeMenu();
+                }
+            },
+
+            onMenuClicked: function(e) {
+                var classList = document.querySelector('body').classList;
+                if (classList.contains('menu-open'))
+                    classList.remove('menu-open');
+                else
+                    classList.add('menu-open');
+            },
+
+            onSetsChanged: function(e) {
+                // Remove objects from the current scene.
+                var objects = gt3d.objects;
+                for (var i = 0; i < objects.length; i++)
+                    gt3d.scene.remove(objects[i]);
+                gt3d.objects = [];
+
+                // Load the new set.
+                var set = gt3d.metadata.sets[this.selectedIndex];
+                gt3d.loadSet(set);
+
+                gt3d.settings.raceGender = set.name;
+                gt3d.saveSettings();
+            },
+
+            closeMenu: function() {
+                var classList = document.querySelector('body').classList;
+                if (classList.contains('menu-open'))
+                    classList.remove('menu-open');
+            },
+
+            onChangeBackgroundClicked: function(e) {
+                e.preventDefault();
+
+                // Remove alternate background classes.
+                var classList = document.querySelector('body').classList;
+                classList.remove('background2');
+
+                // Toggle setting and add appropriate background class.
+                gt3d.settings.background = gt3d.settings.background ? 0 : 1;
+                if (gt3d.settings.background)
+                    classList.add('background2');
+
+                gt3d.saveSettings();
+                gt3d.events.closeMenu();
+            },
+        };
+    </script>
+
+    <script>
+        window.onload = () => {
+            var modelKeys =  location.search.substring(4).split('+');
+            var metadataUrl = gt3d.basePath + modelKeys[0] + '.json';
+
+            var swap = document.getElementById('swap');
+            if (modelKeys.length > 1) {
+                modelKeys.push(modelKeys.shift());
+                swap.setAttribute('href', window.location.pathname + '?id=' + modelKeys.join('+'));
+            } else
+                swap.parentElement.removeChild(swap);
+            
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', metadataUrl);
+            xhr.onload = function() {
+                if (xhr.status != 200) {
+                    console.error(xhr);
+                    return;
+                }
+
+                var metadata = JSON.parse(xhr.responseText);
+                gt3d.init(metadata);
+                gt3d.animate();
+            };
+            xhr.send();
+        };
+    </script>
+</head>
+<body class="loading">
+    <select id="sets" class="loading-hide overlayed"></select>
+
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="menu" x="0px" y="0px" viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve" width="512px" height="512px">
+        <g>
+            <path d="M28,0C12.561,0,0,12.561,0,28s12.561,28,28,28s28-12.561,28-28S43.439,0,28,0z M28,54C13.663,54,2,42.336,2,28   S13.663,2,28,2s26,11.664,26,26S42.337,54,28,54z" fill="#959595"/>
+            <path d="M40,16H16c-0.553,0-1,0.448-1,1s0.447,1,1,1h24c0.553,0,1-0.448,1-1S40.553,16,40,16z" fill="#959595"/>
+            <path d="M40,27H16c-0.553,0-1,0.448-1,1s0.447,1,1,1h24c0.553,0,1-0.448,1-1S40.553,27,40,27z" fill="#959595"/>
+            <path d="M40,38H16c-0.553,0-1,0.448-1,1s0.447,1,1,1h24c0.553,0,1-0.448,1-1S40.553,38,40,38z" fill="#959595"/>
+        </g>
+    </svg>
+
+    <section id="menu-controls" class="overlayed">
+        <a href="#" id="reset"><img src="../images/Rotation.svg">Reset position</a>
+        <a href="#" id="background"><img src="../images/Picture.svg">Change background</a>
+        <a href="#" target="_blank" id="new-window"><img src="../images/Link.svg">New window</a>
+    </section>
+
+    <a href="#" id="swap" class="loading-hide"><img src="../images/Swap.svg"></a>
+
+    <span id="model-name" class="loading-hide overlayed" title="Note: Models may share item names.">Model</span>
+
+    <div id="viewer"></div>
+</body>
+</html>

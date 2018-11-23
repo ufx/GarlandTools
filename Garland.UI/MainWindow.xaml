@@ -1,0 +1,36 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Garland.UI"
+        xmlns:Views="clr-namespace:Garland.UI.Views" x:Class="Garland.UI.MainWindow"
+        mc:Ignorable="d"
+        Title="Garland Control" Height="550" Width="900">
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Database">
+                <MenuItem Header="Convert game client files" Click="ConvertFiles_Click" />
+                <Separator/>
+                <MenuItem Header="Fetch item icons" Click="FetchIcons_Click" />
+                <Separator/>
+                <MenuItem Header="Deploy test data to production" Click="DeployTestToProduction_Click" />
+            </MenuItem>
+            
+            <MenuItem Header="Exports">
+                <MenuItem Header="Export data .zip" Click="ExportData_Click" />
+            </MenuItem>
+        </Menu>
+
+        <DockPanel LastChildFill="True">
+            <TextBox DockPanel.Dock="Bottom"
+                 x:Name="OutputText"
+                 Height="120" Background="#efefef"
+                 IsReadOnly="True"
+                 ScrollViewer.VerticalScrollBarVisibility="Auto" />
+
+            <Views:UpdateView x:Name="_updateView" Background="GhostWhite" />
+        </DockPanel>
+        
+    </DockPanel>
+</Window>

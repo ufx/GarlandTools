@@ -1,0 +1,21 @@
+<html>
+<script>
+	function clearSettings () {
+		localStorage.clear();
+		alert('Settings cleared.');
+	}
+
+	function clearBellSettings() {
+		delete localStorage.bellSettings;
+		alert('Bell settings cleared.');
+	}
+</script>
+<body>
+	<p>Click the button below to permanently clear ALL Garland Tools settings.  <b>This will wipe out any lists you've created with Garland Data.</b></p>
+	<button onclick="clearSettings(); return false;">Clear Settings</button>
+	<br/>
+
+	<p>Click the button below to permanently clear only Garland Bell settings.</p>
+	<button onclick="clearBellSettings(); return false;">Clear Bell Settings</button>
+</body>
+</html>

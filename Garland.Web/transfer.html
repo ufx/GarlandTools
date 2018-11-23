@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Garland Secure Transfer</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <script src="db/ext/jquery-3.1.1.min.js"></script>
+</head>
+<script>
+    function initialize() {
+        var info = [];
+
+        if (localStorage.dbSettings) {
+            var db = JSON.parse(localStorage.dbSettings);
+            if (db && db.lists) {
+                var dbKeys = Object.keys(db.lists);
+                for (var i = 0; i < dbKeys.length; i++)
+                    info.push("DB list: " + dbKeys[i]);
+            }
+        }
+
+        if (localStorage.bellSettings) {
+            var bell = JSON.parse(localStorage.bellSettings);
+            if (bell && bell.lists) {
+                for (var i = 0; i < bell.lists.length; i++)
+                    info.push("Bell list: " + bell.lists[i].name);
+            }
+        }
+
+        var sourceData = info.join('<br>\n');
+        $('#source-data').html(sourceData);
+    }
+
+    function transferClicked(e) {
+        //var url = "/api/storage.php";
+        var url = "http://test.garlandtools.org/api/storage.php";
+
+        $.post(garlandUrl)
+
+        window.alert('hi');
+        return true;
+    }
+
+    $(initialize);
+</script>
+<body>
+    <h1>Garland Secure Transfer</h1>
+    <p id="untransferred">
+        This page transfers all settings, lists, favorites, etc. to <a href="https://www.garlandtools.org">https://www.garlandtools.org</a>.  The secure site allows advanced features such as desktop notifications for alerts to work.  Use the buttons below to confirm.
+    </p>
+    <p id="transferring">
+        Transfer initiated.  Please confirm the transfer below, or abandon it by leaving this page.
+    </p>
+
+    <h2>Source Data</h2>    
+    <div id="source-data">Nothing.</div>
+
+    <h2>Destination Data (will be destroyed)</h2>
+    <div id="destination-data">Nothing.</div>
+
+    <br><br>
+    <button onclick="javascript:transferClicked();">Start Transfer</button>
+</body>
+</html>

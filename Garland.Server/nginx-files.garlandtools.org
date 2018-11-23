@@ -1,0 +1,15 @@
+# files.garlandtools.org
+# Reverse proxy because DO spaces can't handle hostname rewriting for cloudflare.
+# When that's supported, cloudflare cname to garland.nyc3.digitaloceanspaces.com should be fine.
+
+server {
+	listen 80;
+	listen [::]:80;
+	server_name files.garlandtools.org;
+
+	location / {
+		proxy_pass https://garland.nyc3.digitaloceanspaces.com/;
+		proxy_hide_header Strict-Transport-Security;
+	}
+}
+

@@ -1,0 +1,3551 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Garland Tools Database</title>
+
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="../favicon.png">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Garland Data Search" />
+
+    <script src="https://cdn.ravenjs.com/3.26.2/raven.min.js" crossorigin="anonymous"></script>
+    <script src="ext/jquery-3.1.1.min.js"></script>
+    <script src="ext/underscore-1.8.3.min.js"></script>
+    <script src="ext/isotope-3.0.1.pkgd.min.js"></script>
+    <script src="ext/doT.min.js"></script>
+    <script src="ext/fastclick.js"></script>
+    <script src="ext/he.js"></script>
+
+    <script src="js/gt.core.js"></script>
+    <script src="js/gt.util.js"></script>
+    <script src="js/gt.patch.js"></script>
+    <script src="js/gt.browse.js"></script>
+    <script src="js/gt.time.js"></script>
+    <script src="js/gt.item.js"></script>
+    <script src="js/gt.npc.js"></script>
+    <script src="js/gt.mob.js"></script>
+    <script src="js/gt.node.js"></script>
+    <script src="js/gt.fishing.js"></script>
+    <script src="js/gt.instance.js"></script>
+    <script src="js/gt.search.js"></script>
+    <script src="js/gt.settings.js"></script>
+    <script src="js/gt.display.js"></script>
+    <script src="js/gt.list.js"></script>
+    <script src="js/gt.quest.js"></script>
+    <script src="js/gt.achievement.js"></script>
+    <script src="js/gt.action.js"></script>
+    <script src="js/gt.fate.js"></script>
+    <script src="js/gt.leve.js"></script>
+    <script src="js/gt.venture.js"></script>
+    <script src="js/gt.equip.js"></script>
+    <script src="js/gt.skywatcher.js"></script>
+    <script src="js/gt.data.tables.js"></script>
+    <script src="js/gt.craft.js"></script>
+    <script src="js/gt.group.js"></script>
+    <script src="js/gt.map.js"></script>
+    <script src="js/gt.note.js"></script>
+
+    <script>
+        $(gt.core.initialize);
+    </script>
+
+    <script id="vendor-item-link-template" type="text/x-dot-template">
+        <div class="collapse-toggle source-link block-link pointer line hover-highlight" data-id="{{=it.id}}" data-type="item">
+            {{?it.vendors}}
+                <div class="right">
+                    <img class="icon small" src="../files/icons/item/1.png">{{=it.price.toLocaleString()}}
+                </div>
+            {{??it.groupTradeSource && it.groupTradeSource.item}}
+                <div class="right">
+                    {{?it.groupTradeSource.item[0].amount > 1}}<span>x{{=it.groupTradeSource.item[0].amount}} for</span>{{?}}
+                    {{~it.groupTradeSource.currency :currency:currencyIndex}}<div class="inline-block block-link trade hover-highlight pointer" data-id="{{=currency.id}}" data-type="item"><img class="icon small" src="{{=currency.obj.icon}}" title="{{=currency.obj.name}}">{{=currency.amount.toLocaleString()}}{{?currency.hq}} <img class="hq-icon" src="images/hq.png">{{?}}{{?currency.collectability}} <img class="icon small" src="images/Collectable.png" title="Collectability Rating">{{=currency.collectability}}{{?}}</span></div>{{~}}
+                </div>
+            {{??}}
+                <div class="right">?</div>
+            {{?}}
+            <div class="overflow-wrapper">
+                <img class="icon small" src="{{=it.icon}}">
+                {{?it.groupAmount != 1}}{{=it.groupAmount}}{{?}}
+                <span class="highlight entry-name {{?it.groupAmount == 0}}complete{{?}}">{{=it.name}}</span>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </script>
+
+    <script id="materia-select-template" type="text/x-dot-template">
+        <div class="materia-select">
+            <h2>Materia Melding</h2>
+
+            <div class="filters">
+                <img src="../files/icons/item/5838.png" data-category="category0" class="category0" title="DoW/DoM Materia">
+                <img src="../files/icons/item/5840.png" data-category="category2" class="category2" title="DoL Materia">
+                <img src="../files/icons/item/5841.png" data-category="category1" class="category1" title="DoH Materia">
+                <img src="../files/icons/item/5837.png" data-category="category19" class="category19" title="Elemental Materia">
+            </div>
+
+            <div class="materia line notmelded hover-highlight pointer row" data-id="0">
+                <img class="icon small" src="images/BlankItem.png">
+                <span class="highlight text">Not melded</span>
+            </div>
+
+            <div class="materia-attribute-groups">
+                {{~ _.pairs(it) :pair:pi }}
+                    <div class="attribute-group category{{=pair[1][0].materia.category}} {{?pi % 2 == 0}}odd{{?}}" data-baseparam="{{=pair[1][0].materia.attr}}">
+                        <div class="attribute-group-header">
+                            <span class="cap"></span>
+                            <span class="attribute-name right">{{=pair[0]}}</span>
+                            <div class="clear"></div>
+                        </div>
+                        {{~ pair[1] :materia:mi }}
+                            <div class="materia hover-highlight pointer row line" data-id="{{=materia.id}}">
+                                <img class="icon small" src="{{=materia.icon}}">
+                                <span class="right text">+{{=materia.materia.value}}</span>
+                                <span class="highlight text">{{=materia.text}}</span>
+                            </div>
+                        {{~}}
+                    </div>
+                {{~}}
+            </div>
+        </div>
+    </script>
+
+    <script id="materia-sockets-template" type="text/x-dot-template">
+        {{
+            var sockets = it.advancedMeldingForbidden ? it.sockets : Math.max(it.sockets, Math.min(it.melds.length + 1, 5));
+            for (var i = 0; i < sockets; i++) { }}
+            <div class="collapse-toggle line socket socket{{=i}}{{?i >= it.sockets}} overmeld{{?}} {{?i < it.melds.length}}melded{{?}} hover-highlight pointer" data-number="{{=i}}">
+                <span class="circle"></span>
+                    {{?i < it.melds.length}}
+                    {{var meld = it.melds[i];}}
+                        <img class="icon medium" src="{{=meld.item.icon}}">
+                        <div class="inline-block meld-info">
+                            <div class="highlight">{{=meld.text}}</div>
+                            <div class="{{?meld.reduced !== undefined}}highlight-red{{?}}">{{=meld.item.materia.attr}} {{=meld.info}}</div>
+                        </div>
+                    {{??}}
+                        <span class="meld-info highlight">Not melded</span>
+                    {{?}}
+            </div>
+        {{ } }}
+    </script>
+
+    <script id="attribute-value-template" type="text/x-dot-template">
+        <div class="attribute">
+            <span class="name">{{=it.name}}</span>
+
+            {{?it.stars}}
+                <span class="value">{{=gt.util.stars(it.value)}}</span>
+            {{??it.prime}}
+                <span class="value">{{=it.value}}</span>
+
+                {{?it.value_hq}}
+                    <span class="value hq">{{=it.value_hq}}</span>
+                {{?}}
+                <hr>
+            {{??it.rate}}
+                <span class="value">{{=it.rate}}% (Max {{=it.limit}})</span>
+                {{?it.rate_hq}}
+                        <span class="value hq">{{=it.rate_hq}}% (Max {{=it.limit_hq}})</span>
+                {{?}}
+            {{??}}
+                <span class="value">{{=it.value}}</span>
+                <span class="value hq">{{?it.value_hq}}{{=it.value_hq}}{{?}}</span>
+
+                {{?!it.action && (it.value_hq || it.value_meld || it.value_max)}}
+                    <span class="value meld text-right">{{?it.value_meld !== undefined}}{{=it.value_meld}}{{?}}</span> / <span class="value max">{{=it.value_max}}</span>
+                {{?}}
+            {{?}}
+        </div>
+    </script>
+
+    <script id="job-select-template" type="text/x-dot-template">
+        {{~ _.pairs(gt.equip.jobGroups) :pair:pi }}
+            <optgroup label="{{=pair[0]}}">
+                {{~ pair[1] :job:ji}}
+                    <option value="{{=job.id}}"{{?job.id == it}} selected="selected"{{?}}>{{=job.name}}</option>
+                {{~}}
+            </optgroup>
+        {{~}}
+    </script>
+
+    <script id="page-map-template" type="text/x-dot-template">
+        <div class="map-wrapper">
+            <div class="map-container" data-x="{{=it.coords[0]}}" data-y="{{=it.coords[1]}}" {{?it.radius}}data-r="{{=it.radius}}"{{?}} data-id="{{=it.location.id}}">
+                <span class="region">{{=it.location.name}}</span>
+                <span class="position" data-original="{{=it.displayCoords[0]}}, {{=it.displayCoords[1]}}">{{=it.displayCoords[0]}}, {{=it.displayCoords[1]}}</span>
+                <canvas data-image="{{=it.image}}" {{?it.icon}}data-icon="{{=it.icon}}"{{?}} {{?it.iconfilter}}data-iconfilter="{{=it.iconfilter}}"{{?}} width="2048" height="2048" class="map">
+            </div>
+        </div>
+    </script>
+
+    <script id="list-item-template" type="text/x-dot-template">
+        <div class="button list-item drag-target{{?it.current}} active{{?}} handle">
+            {{?it.icon != 'images/Journal.png'}}<img src="{{=it.icon}}" class="icon small">{{?}}
+            <span class="text">{{=it.displayName}}</span>
+        </div>
+    </script>
+
+    <script id="link-quest-template" type="text/x-dot-template">
+        <div class="line pointer hover-highlight block-link collapse-toggle" data-id="{{=it.id}}" data-type="quest">
+            <img src="{{=it.icon}}" class="icon small">
+            <span class="highlight text">{{=it.name}}</span>
+            <span class="location right text">{{=it.location}}</span>
+            <div class="clear"></div>
+        </div>
+    </script>
+
+    <script id="list-browse-template" type="text/x-dot-template">
+        {{?it.list == 'sort'}}
+            {{~it.entries :r:ri}}
+                {{=gt.search.resultTemplate(r)}}
+            {{~}}
+        {{??it.list == 'header'}}
+            {{~it.entries :h:hi}}
+                <div class="header depth{{=h.depth}}">{{=h.header}}</div>
+                {{=gt.browse.listTemplate(h)}}
+            {{~}}
+        {{?}}
+    </script>
+
+    <script id="group-browse-template" type="text/x-dot-template">
+        {{?it.list == 'group' || it.list == 'paginate'}}
+            <div class="menu nodefault" data-menu-name="{{=it.menu}}">
+                {{~it.entries :g:gi}}
+                    <div class="button depth{{=g.depth}} unselectable" data-page="{{=g.menu}}">
+                        <span class="right badge">{{=g.count}}</span>
+                        <img src="{{=g.browseIcon}}" class="icon small">
+                        <span class="text">{{=g.header}}</span>
+                    </div>
+                    <div class="category page search-list-page {{=g.menu}}">
+                        {{=gt.browse.groupTemplate(g)}}
+                    </div>
+                {{~}}
+            </div>
+        {{??it.list == 'icon-list'}}
+            <div class="menu icon-group" data-menu-name="{{=it.menu}}">
+                {{~it.entries :g:gi}}
+                    <div class="button depth{{=g.depth}} icon-group" data-page="{{=g.menu}}" title="{{=g.header}} {{=g.count}}">
+                        <img src="{{=g.browseIcon}}" class="icon size32">
+                    </div>
+                {{~}}
+            </div>
+            <div>
+                {{~it.entries :g:gi}}
+                    <div class="category page search-list-page {{=g.menu}}">
+                        <div class="header depth{{=g.depth}}">{{=g.header}}</div>
+                        {{=gt.browse.groupTemplate(g)}}
+                    </div>
+                {{~}}
+            </div>
+        {{??it.list == 'icon-group'}}
+            <div class="menu icon-group" data-menu-name="{{=it.menu}}">
+                {{~it.entries :g:gi}}
+                    <div class="button depth{{=g.depth}} icon-group" data-page="{{=g.menu}}" title="{{=g.header}} {{=g.count}}">
+                        <img src="images/{{=g.header}}.png" class="icon size32">
+                    </div>
+                {{~}}
+            </div>
+            <div>
+                {{~it.entries :g:gi}}
+                    <div class="category page search-list-page {{=g.menu}}">
+                        <div class="header depth{{=g.depth}}">{{=g.header}}</div>
+                        {{=gt.browse.groupTemplate(g)}}
+                    </div>
+                {{~}}
+            </div>
+        {{?}}
+    </script>
+
+    <script id="block-browse-template" type="text/x-dot-template">
+        <div class="content main">
+            {{?it.headerIcon}}
+                <img src="{{=it.headerIcon}}" class="header-icon">
+            {{?}}
+
+            {{=gt.browse.groupTemplate(it)}}
+        </div>
+    </script>
+
+    <script id="block-template" type="text/x-dot-template">
+        <div class="block {{=it.type}} {{?it.blockClass}}{{=it.blockClass}}{{?}}" data-id="{{=it.id}}" data-type="{{=it.type}}">
+            <div class="block-title handle">
+                {{?it.audio}}
+                    <img src="images/Speaker.svg" title="Play audio and desktop notifications" class="notifications-button button">
+                {{?}}
+                {{?it.settings}}
+                    <img src="images/Setting.png" class="settings-button button">
+                {{?}}
+                <img src="images/x.svg" class="close-button button">
+                {{?it.icon}}
+                    <img src="{{=it.icon}}" class="icon title-icon {{?it.iconBorder}}border{{?}}">
+                {{?}}
+                <h1 class="name {{?it.nameClass}}{{=it.nameClass}}{{?}}">
+                    {{?it.patch != '??' && it.patch >= gt.patch.current}}<img class="icon patch" src="images/LatestPatch.png" title="Latest Patch {{=it.patch}}">{{?}}
+                    <span class="name-handle">{{=it.displayName || it.name}}</span>
+                </h1>
+                {{?it.subheader}}<span class="subheader">{{=it.subheader}}</span>{{?}}
+                <div class="clear"></div>
+            </div>
+
+            <div class="settings">
+                {{?!it.tool}}
+                    {{?it.patch}}
+                        {{?it.patchCategory}}<span class="right">{{=it.patchCategory}}</span>{{?}}
+                        <div>Patch {{=it.patch}}</div>
+                    {{?}}
+
+                    <div>{{=it.name}} <span class="right">{{=it.type}}#{{=it.id}}</span></div>
+
+                    <div class="block-links">
+                        <a href="http://ffxiv.gamerescape.com/wiki/{{=it.name}}">Open on Gamer Escape</a>.
+                    </div>
+
+                    <hr>
+                {{?}}
+
+                <span class="action-link unlock-height-link">Toggle block height lock</span>.
+            </div>
+
+            {{=it.template(it)}}
+        </div>
+    </script>
+
+    <script id="block-note-template" type="text/x-dot-template">
+        <div class="content main">
+            <textarea class="note-text">{{=it.text}}</textarea>
+        </div>
+    </script>
+
+    <script id="menu-equip-template" type="text/x-dot-template">
+        <div class="content main">
+            {{~ _.pairs(gt.equip.jobGroups) :pair:pi }}
+                {{?pair[0] != 'Adventurer'}}
+                    <h3>{{=pair[0]}}</h3>
+                    <div class="subsection">
+                        {{~ pair[1] :job:ji}}
+                            {{?it.id == 'leveling' || job.isJob || job.category == "Disciple of the Land"}}
+                                <img src="images/{{=job.abbreviation}}.png" data-id="{{=it.id}}-{{=job.abbreviation}}" data-type="equip" class="icon medium block-link hover-highlight pointer">
+                            {{?}}
+                        {{~}}
+                    </div>
+                {{?}}
+            {{~}}
+        </div>
+    </script>
+
+    <script id="end-equip-template" type="text/x-dot-template">
+        <div class="content main">
+            <div class="equipment-list">
+                <div class="highlight-column"></div>
+                {{~it.equipment :equ:ei}}
+                    <div class="slot-line">
+                        {{ for (var i = 0; i < equ.length && i < 7; i++) {
+                                var item = equ[i]; }}
+                            {{?item}}
+                                <img src="{{=item.icon}}" title="{{=item.name}}" class="item icon block-link pointer" data-id="{{=item.id}}" data-type="item">
+                            {{??}}
+                                <span class="spacer"></span>
+                            {{?}}
+                        {{ } }}
+                    </div>
+                {{~}}
+            </div>
+        </div>
+    </script>
+
+    <script id="leveling-equip-template" type="text/x-dot-template">
+        <div class="content main">
+            <span class="right circle info" title="This feature shows leveling equipment.  New pieces are highlighted.  No starred recipes included.">?</span>
+
+            <span class="left icon-button">
+                Options
+                <img src="images/ARM.png" class="icon small toggleable toggle-crafted {{?!it.hideCrafted}}active{{?}}" title="Toggle Crafted Equipment">
+                <img src="../files/icons/item/22.png" class="icon small toggleable toggle-grand-company {{?!it.hideGC}}active{{?}}" title="Toggle Grand Company Equipment">
+            </span>
+
+            <div class="center">
+                Level <input type="number" class="lvl" max="69" min="3" value="{{=it.lvl}}">
+            </div>
+
+            <div class="action-list">
+                <span class="action-link new-crafting-list unselectable">Add new to crafting list.</span> <span class="action-link unselectable all-crafting-list">Add all to crafting list.</span>
+            </div>
+
+            <div class="equipment-list">
+                <div class="highlight-column"></div>
+                <div class="lvl-label-container">
+                    {{ for (var i = it.startLevel; i <= it.endLevel; i++) { }}
+                        <span class="lvl-label">{{=i}}</span>
+                    {{ } }}
+                </div>
+
+                {{~_.pairs(it.equipment) :pair:pi}}
+                    <div class="slot-line">
+                        {{~pair[1] :equ:ii}}
+                            {{?equ}}
+                                <img src="{{=equ.item.icon}}" title="{{=equ.item.name}}" class="item icon block-link pointer{{?equ.isNew}} highlight{{?}}" data-type="item" data-id="{{=equ.item.id}}">
+                            {{??}}
+                                <span class="spacer"></span>
+                            {{?}}
+                        {{~}}
+                    </div>
+                {{~}}
+            </div>
+        </div>
+    </script>
+
+    <script id="block-time-template" type="text/x-dot-template">
+        <div class="content main">
+            <div class="time-period {{=it.initialPeriod}}">
+                <img src="../files/icons/moon/{{=it.moon}}.png" title="{{=it.moon}}, {{=it.moonPercent}}%" class="moon">
+                <div class="current-time">{{=it.initialTime}}</div>
+            </div>
+        </div>
+    </script>
+
+    <script id="block-skywatcher-template" type="text/x-dot-template">
+        <div class="content main">
+            <div class="timing subsection">
+                <div class="weather-change">
+                    <div class="progress-container"><div class="progress" style="width: {{=it.initialProgressPercent}}%"></div></div>
+                    <span class="change-info">Weather changes at {{=it.initialChangeTime}}</span>
+                    <span class="time-remaining">{{=it.initialTimeRemaining}}</span>
+                </div>
+
+                {{~it.favorites :favorite:findex}}
+                    <div class="favorite zone" data-zoneid="{{=favorite.zone.id}}" data-weather="{{=favorite.weather}}">
+                        <div class="progress-container"><div class="progress {{=favorite.type}}" style="width: {{=favorite.initialProgressPercent}}%"></div></div>
+                        <img src="../files/icons/weather/{{=favorite.weather}}.png" class="icon hover-highlight" data-weather="{{=favorite.weather}}" title="{{=favorite.weather}}">
+                        <span class="change-info">{{=favorite.name}} {{?favorite.type == 'active'}}ends{{??}}starts{{?}} {{=favorite.initialChangeTime}}</span>
+                        <span class="time-remaining">{{=favorite.initialTimeRemaining}}</span>
+                    </div>
+                {{~}}
+            </div>
+
+            <div class="menu icon-group" data-menu-name="skywatcher-region-menu">
+                {{~it.regions :region:rindex}}
+                    <div class="button icon-group" data-page="{{=region.page}}" title="{{=region.name}}">
+                        <img src="{{=region.icon}}" class="icon size32">
+                    </div>
+                {{~}}
+            </div>
+
+            <div>
+                {{~it.regions :region:rindex}}
+                    <div class="forecast category page {{=region.page}}">
+                        <h3>{{=region.name}}</h3>
+
+                        <div class="right weather-container collapse-toggle omniscroll">
+                            <div class="text timestamps">
+                                {{~it.eorzeaTimestamps :timestamp:tindex}}
+                                    <span class="eorzea-timestamp{{?tindex == 1}} current{{??tindex > 4}} future{{?}}">{{=timestamp}}</span>
+                                {{~}}
+                            </div>
+
+                            {{~region.zones :zone:zindex}}
+                                <div class="weather-list zone" data-zoneid="{{=zone.id}}">
+                                    {{~zone.weather :weather:windex}}
+                                        {{?windex == 0}}
+                                            <img src="../files/icons/weather/{{=weather}}.png" class="icon hover-highlight{{?windex == 0}} past{{?}}" title="{{=weather}} ended at {{=it.localTimestamps[windex+1]}}" data-weather="{{=weather}}">
+                                        {{??}}
+                                            <span class="arrow">&#10140;</span>
+                                            <img src="../files/icons/weather/{{=weather}}.png" class="icon hover-highlight" title="{{=weather}} at {{=it.localTimestamps[windex]}}" data-weather="{{=weather}}">
+                                        {{?}}
+                                    {{~}}
+                                </div>
+                            {{~}}
+                        </div>
+
+                        <div>
+                            {{~region.zones :zone:zindex}}
+                                <div class="collapse-toggle forecast-line">
+                                    <span class="text location">{{=zone.name}}</span>
+                                </div>
+                            {{~}}
+                        </div>
+
+
+                        <div class="clear"></div>
+                    </div>
+                {{~}}
+            </div>
+        </div>
+    </script>
+
+    <script id="block-gearset-template" type="text/x-dot-template">
+        <div class="content header">
+            {{=gt.gearset.slotTemplate(it.equipment['Main Hand'])}}
+            {{=gt.gearset.slotTemplate(it.equipment['Off Hand'])}}
+            {{=gt.gearset.slotTemplate(it.equipment['Soul Crystal'])}}
+            <hr>
+            {{=gt.gearset.slotTemplate(it.equipment['Head'])}}
+            {{=gt.gearset.slotTemplate(it.equipment['Body'])}}
+            {{=gt.gearset.slotTemplate(it.equipment['Hands'])}}
+            {{=gt.gearset.slotTemplate(it.equipment['Waist'])}}
+            {{=gt.gearset.slotTemplate(it.equipment['Legs'])}}
+            {{=gt.gearset.slotTemplate(it.equipment['Feet'])}}
+            <hr>
+            {{=gt.gearset.slotTemplate(it.equipment['Neck'])}}
+            {{=gt.gearset.slotTemplate(it.equipment['Ears'])}}
+            {{=gt.gearset.slotTemplate(it.equipment['Wrists'])}}
+            {{=gt.gearset.slotTemplate(it.equipment['Left Ring'])}}
+            {{=gt.gearset.slotTemplate(it.equipment['Right Ring'])}}
+        </div>
+
+        <div class="content detail">
+        </div>
+    </script>
+
+    <script id="slot-gearset-template" type="text/x-dot-template">
+        {{?it.item}}
+            <div class="slot {{=it.slot}}">
+                <img src="{{=it.item.icon}}" class="slot-icon">
+            </div>
+        {{??}}
+            <div class="slot {{=it.slot}} empty">
+                <img src="images/{{=it.slot}}.png" class="slot-icon">
+            </div>
+        {{?}}
+    </script>
+
+    <script id="detail-gearset-template" type="text/x-dot-template">
+        {{?it.item}}
+            <div class="slot {{=it.slot}}">
+                <img src="{{=it.item.icon}}" class="slot-icon">
+                <div class="subsection bonuses">
+                    {{~it.bonuses :b:bindex}}
+                        <div class="bonus">
+                            <span class="name">{{=b.name}}</span>
+                            <span class="value">{{=b.value}}</span>
+                        </div>
+                    {{~}}
+                </div>
+            </div>
+        {{??}}
+            <div class="slot {{=it.slot}} empty">
+                <img src="images/{{=it.slot}}.png" class="slot-icon">
+            </div>
+        {{?}}
+    </script>
+
+    <script id="block-group-template" type="text/x-dot-template">
+        <div class="midline">
+            <div class="menu tab">
+                <div data-page="contents-page" class="button">Contents{{?it.contents.length}} ({{=it.contents.length}})&#x200E;{{?}}</div>
+                {{?it.shops || it.craftShops}}<div data-page="shops-page" class="button">Shops</div>{{?}}
+                {{?it.craftSet}}<div data-page="crafting-page" class="button">Crafting</div>{{?}}
+            </div>
+        </div>
+
+        <div class="content main has-pages">
+            <div class="header">
+                <img src="images/Atomos.png" class="atomos pointer" title="Atomos inserts every block you open into the group.  Useful for quickly generating crafting lists or equipment sets.">
+                <span class="atomos-message">Atomos is drawing in new blocks!</span>
+
+                {{?it.contents.length}}
+                    <div class="contents-icons line {{?it.contents.length >= 20}}big{{?}}">
+                        {{~it.contents :model:index}}
+                            <div class="contents-link pointer hover-highlight inline-block" data-type="{{=model.type}}" data-id="{{=model.view.id}}">
+                                <img src="{{=model.view.icon}}" class="icon size42" title="{{=model.view.name}}">
+                                {{?model.view.obj.tradeShops}}<img src="images/Trader.png" class="icon-badge icon mini">
+                                {{??model.view.vendors}}<img src="images/Shop.png" class="icon-badge icon mini">
+                                {{??model.view.craft}}<img src="images/{{=gt.jobs[model.view.craft.job].abbreviation}}.png" class="icon-badge icon mini">{{?}}
+                                {{?model.amount}}<span class="text">{{=model.amount}} </span>{{?}}
+                            </div>
+                        {{~}}
+                    </div>
+                {{?}}
+
+                <hr class="clear">
+            </div>
+
+            <div class="contents-page page bonuses">
+                {{?it.aggregateStats}}
+                    <div class="aggregate-stats collapsible collapsed" data-headername="stats-total">
+                        <h3 class="pointer">Equipment Totals</h3>
+
+                        {{?it.averageilvl}}
+                            <div class="ilvl left collapse-toggle"><img src="images/ilvl.png"><span class="text">{{=it.averageilvl}}</span></div>
+                        {{?}}
+
+                        <div class="attributes prime collapse-toggle">
+                            {{~it.aggregateStats.primes :p:pindex}}
+                                {{=gt.item.attributeValueTemplate(p)}}
+                            {{~}}
+                        </div>
+
+                        <div class="subsection collapse-toggle">
+                            {{~it.aggregateStats.bonuses :b:bindex}}
+                                {{=gt.item.attributeValueTemplate(b)}}
+                            {{~}}
+                        </div>
+                    </div>
+                {{?}}
+
+                {{?it.aggregateLeves}}
+                    <div class="aggregate-leves collapsible" data-headername="leves-total">
+                        <h3 class="pointer">Leve Calculator</h3>
+
+                        <div class="attributes prime collapse-toggle">
+                            <img class="reward-icon" src="images/xp.png" title="Experience">
+
+                            <div class="attribute">
+                                <span class="name">XP</span>
+                                <span class="value">{{=it.aggregateLeves.xp.toLocaleString()}}</span>
+                                <hr>
+                            </div>
+
+                            {{?it.aggregateLeves.hqXp}}
+                                <div class="attribute">
+                                    <span class="name">HQ XP</span>
+                                    <span class="value">{{=it.aggregateLeves.hqXp.toLocaleString()}}</span>
+                                    <hr>
+                                </div>
+                            {{?}}                            
+                        </div>
+                    </div>
+                {{?}}
+
+                {{?it.contents.length}}
+                    {{~it.contents :model:index}}
+                        <div class="block-stats {{?model.stats}}collapsible collapsed{{?}}" data-type="{{=model.type}}" data-id="{{=model.view.id}}" data-headername="contents-{{=model.view.id}}">
+                            <h3 class="block-name line pointer">
+                                <img src="images/x.svg" class="close-button remove-group-block">
+                                <img class="icon small" src="{{=model.view.icon}}">
+                                <input type="number" value="{{=model.amount || 1}}" min="1" max="999" class="amount">
+                                <span class="text">{{=model.view.name}}</span>
+                            </h3>
+
+                            {{?model.stats}}
+                                {{?model.stats.primes}}
+                                    <div class="attributes prime collapse-toggle">
+                                        {{~model.stats.primes :p:pindex}}
+                                            {{=gt.item.attributeValueTemplate(p)}}
+                                        {{~}}
+                                    </div>
+                                {{?}}
+
+                                {{?model.stats.bonuses}}
+                                    <div class="subsection collapse-toggle">
+                                        {{~model.stats.bonuses :b:bindex}}
+                                            {{=gt.item.attributeValueTemplate(b)}}
+                                        {{~}}
+                                    </div>
+                                {{?}}
+
+                                {{?model.stats.actions}}
+                                    <div class="attributes actions subsection collapse-toggle">
+                                        {{~model.stats.actions :a:aindex}}
+                                            {{=gt.item.attributeValueTemplate(a)}}
+                                        {{~}}
+                                    </div>
+                                {{?}}
+
+                                {{?model.view.sockets}}
+                                    <hr class="collapse-toggle">
+                                    
+                                    <div class="materia subsection collapse-toggle" data-headername="materia">
+                                        {{=gt.item.materiaSocketsTemplate(model.view)}}
+                                    </div>
+                                {{?}}
+                            {{?}}
+                        </div>
+                    {{~}}
+                {{??}}
+                    You can drag things in here.
+                {{?}}
+            </div> <!-- Stats Page End -->
+
+            {{?it.shops || it.craftShops}}
+                <div class="shops-page page">
+                    {{?it.shops}}
+                        <div class="contents-shops subsection collapsible" data-headername="contents-shops">
+                            <h3 class="pointer">Shops</h3>
+                            {{?it.shops.currency}}
+                                <div class="trades line collapse-toggle">
+                                    {{~it.shops.currency :trade:tindex}}
+                                        <span class="inline-block block-link trade hover-highlight pointer" data-type="item" data-id="{{=trade.currency.id}}" title="{{=trade.currency.name}}"><img src="{{=trade.currency.icon}}" class="icon small"><span class="text">{{=Math.ceil(trade.amount).toLocaleString()}}</span></span>
+                                    {{~}}
+                                </div>
+                            {{?}}
+
+                            {{~it.shops.vendors :vendor:sindex}}
+                                <h4 class="block-link pointer hover-highlight collapse-toggle" data-type="npc" data-id="{{=vendor.npc.id}}">
+                                    <span class="highlight">{{=vendor.npc.name}}</span>
+                                    <span class="deemphasize right">{{=vendor.npc.location}}</span>
+                                </h4>
+                                <div class="collapse-toggle shop-entry">
+                                    {{~vendor.items :item:iindex}}
+                                        {{=gt.item.vendorLinkTemplate(item)}}
+                                    {{~}}
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.craftShops}}
+                        <div class="craft-shops subsection collapsible" data-headername="craft-shops">
+                            <h3 class="pointer">Crafting Ingredient Shops</h3>
+                            {{?it.craftShops.currency}}
+                                <div class="trades line collapse-toggle">
+                                    {{~it.craftShops.currency :trade:tindex}}
+                                        <span class="inline-block block-link trade hover-highlight pointer" data-type="item" data-id="{{=trade.currency.id}}" title="{{=trade.currency.name}}"><img src="{{=trade.currency.icon}}" class="icon small"><span class="text">{{=Math.ceil(trade.amount).toLocaleString()}}</span></span>
+                                    {{~}}
+                                </div>
+                            {{?}}
+
+                            {{~it.craftShops.vendors :vendor:sindex}}
+                                <h4 class="block-link pointer hover-highlight collapse-toggle" data-type="npc" data-id="{{=vendor.npc.id}}">
+                                    <span class="highlight">{{=vendor.npc.name}}</span>
+                                    <span class="deemphasize right">{{=vendor.npc.location}}</span>
+                                </h4>
+                                <div class="collapse-toggle shop-entry">
+                                    {{~vendor.items :item:iindex}}
+                                        {{=gt.item.vendorLinkTemplate(item)}}
+                                    {{~}}
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+                </div> <!-- Shops Page End -->
+            {{?}}
+
+            {{?it.craftSet}}
+                <div class="crafting-page page">
+                    <div class="recipe subsection">
+                        <div class="craft-container">
+                            {{=gt.craft.recipeTemplate(it.craftSet)}}
+                        </div>
+                    </div>
+                </div> <!-- Crafting Page End -->
+            {{?}}
+        </div>
+    </script>
+
+    <script id="search-result-template" type="text/x-dot-template">
+        <div class="block-link search-result pointer hover-highlight {{=it.type}}" data-id="{{=it.id}}" data-type="{{=it.type}}">
+            <img class="icon small left" src="{{=it.icon}}" title="{{=it.name}}">
+            <span class="name">{{=it.name}}</span>
+            {{?it.byline}} <span class="byline">{{=it.byline}}</span>{{?}}
+        </div>
+    </script>
+
+    <script id="half-link-item-template" type="text/x-dot-template">
+        <div class="line half block-link hover-highlight pointer collapse-toggle" data-id="{{=it.id}}" data-type="item">
+            <img class="icon small" src="{{=it.icon}}" title="{{=it.name}}">
+            <span class="highlight text name">{{=it.name}}</span>
+        </div>
+    </script>
+
+    <script id="block-item-template" type="text/x-dot-template">
+        <div class="midline">
+            <div class="menu tab">
+                <div data-page="stats-page" class="button">Stats</div>
+                {{?it.hasSourcesUses}}
+                    <div data-page="sources-uses-page" class="button">Sources &amp; Uses</div>
+                {{?}}
+                {{?it.craft}}
+                    <div data-page="crafting-page" class="button">Crafting</div>
+                {{?}}
+                {{?it.models}}
+                    <div data-page="models-page" class="button">3D</div>
+                {{?}}
+            </div>
+        </div>
+
+        <div class="content main has-pages">
+            <div class="stats-page page">
+                <div class="vital-stats">
+                    <div class="category">{{=it.category}}</div>
+
+                    <span class="icon-container original-size" {{?it.tooltip}}title="{{=it.tooltip}}"{{?}}>
+                        <img class="icon full" src="{{=it.icon}}">
+                        <img class="reflection-overlay icon full" src="images/ReflectionOverlayCropped.png">
+                    </span>
+
+                    {{?it.desynthSkill}}
+                        <img class="icon mini" src="images/Desynth.png" title="Desynthesis">
+                    {{?}}
+
+                    {{?it.reducible}}
+                        <img class="icon mini" src="images/Reduce.png" title="Aetherial Reduction">
+                    {{?}}
+
+                    {{?it.convertable}}
+                        <img class="icon mini" src="images/Convert.png" title="Materia Conversion">
+                    {{?}}
+
+                    {{?it.dyeable}}
+                        <img class="icon mini" src="images/Dye.png" title="Dye">
+                    {{?}}
+
+                    {{?it.crestworthy}}
+                        <img class="icon mini" src="images/Crestworthy.png" title="Crestworthy">
+                    {{?}}
+
+                    {{?it.glamourous}}
+                        <img class="icon mini" src="images/GlamourConvertable.png" title="Glamour Dresser Convertable">
+                    {{?}}
+
+                    {{?it.storable}}
+                        <img class="icon mini" src="images/ArmoireStorable.png" title="Armoire Storable">
+                    {{?}}
+
+                    {{?it.hasPrimes && !it.minion}}
+                        {{?!it.glamour_item && !it.desynthable && !it.convertable && !it.reducible && !it.dyeable}}
+                            <span class="spacer"> </span>
+                        {{?}}
+
+                        <div class="attributes prime">
+                            {{?it.Defense}}{{=gt.item.attributeValueTemplate(it.Defense)}}{{?}}
+                            {{?it["Magic Defense"]}}{{=gt.item.attributeValueTemplate(it["Magic Defense"])}}{{?}}
+                            {{?it["Magic Damage"]}}{{=gt.item.attributeValueTemplate(it["Magic Damage"])}}{{?}}
+                            {{?it["Physical Damage"]}}{{=gt.item.attributeValueTemplate(it["Physical Damage"])}}{{?}}
+                            {{?it["Auto-attack"]}}{{=gt.item.attributeValueTemplate(it["Auto-attack"])}}{{?}}
+                            {{?it.Delay}}{{=gt.item.attributeValueTemplate(it.Delay)}}{{?}}
+                            {{?it["Block Strength"]}}{{=gt.item.attributeValueTemplate(it["Block Strength"])}}{{?}}
+                            {{?it["Block Rate"]}}{{=gt.item.attributeValueTemplate(it["Block Rate"])}}{{?}}
+                        </div>
+                    {{?}}
+
+                    {{?it.help}}
+                        <div class="help clear-right">{{=it.help}}</div>
+                    {{?}}
+
+                    <div class="circle-line">
+                        {{?it.untradeable}}<span class="inline-block"><span class="circle"></span>Untradeable</span>{{?}}
+                        {{?it.unique}}<span class="inline-block"><span class="circle"></span>Unique</span>{{?}}
+                        {{?it.unlistable && !it.untradeable}}<span class="inline-block"><span class="circle"></span>Market Prohibited</span>{{?}}
+                        {{?it.craft}}
+                            {{?!it.craft.hq}}<span class="inline-block"><span class="circle"></span>HQ Uncraftable</span>{{?}}
+                            {{?!it.craft.quickSynth}}<span class="inline-block"><span class="circle"></span>No Quick Synth</span>{{?}}
+                        {{?}}
+                        {{?!it.sell_price}}<span class="inline-block"><span class="circle"></span>Unsellable</span>{{?}}
+                        {{?it.materia}}
+                            <span class="inline-block"><span class="circle"></span>Tier {{=it.materia.tier}}</span>
+                            <span class="inline-block"><span class="circle"></span>{{=it.materia.attr}} +{{=it.materia.value}}</span>
+                        {{?}}
+                        {{?it.advancedMeldingForbidden}}<span class="inline-block"><span class="circle"></span>Advanced Melding Forbidden</span>{{?}}
+                        {{?it.tripletriad && it.tripletriad.sellMgp}}<span class="inline-block"><span class="circle"></span>Sells for {{=it.tripletriad.sellMgp}} MGP</span>{{?}}
+                    </div>
+
+                    <div class="clear-left"></div>
+                </div>
+
+                <div>
+                    {{?it.jobs}}
+                        <span class="jobs highlight-green">{{=it.jobs}} </span>
+                    {{?}}
+
+                    {{?it.elvl}}
+                        <span class="elvl highlight-green">Lv. {{=it.elvl}}</span>
+                    {{?}}
+                </div>
+                
+                {{?it.minion}}
+                    <div class="attributes prime clear">
+                        {{=gt.item.attributeValueTemplate(it.HP)}}
+                        {{=gt.item.attributeValueTemplate(it.Attack)}}
+                        {{=gt.item.attributeValueTemplate(it.Defense)}}
+                        {{=gt.item.attributeValueTemplate(it.Speed)}}
+                    </div>
+
+                   <table class="right">
+                        <tr><td>{{=it.minionRace}}</td><td><img src="images/Minion{{=it.minionRace}}.png" class="minion-race-icon"></td></tr>
+                    </table>
+                
+                    <div class="verminion-info bonuses subsection">
+                        <div class="bonus"><span class="name">Cost</span>{{=it.obj.cost}}</div>
+                        <div class="bonus"><span class="name">Auto-attack</span>{{?it.obj.aoe}}AoE{{??}}Single-target{{?}}</div>
+                        <div class="bonus"><span class="name">Strengths</span>{{=it.strengths || "None"}}</div>
+                    </div>
+
+                    {{?it.minionSkillType}}
+                        <div class="verminion-special subsection">
+                            <h3>{{=it.specialAction}} ({{=it.minionSkillType}})<span class="right">{{=it.bonuses[0].value}} Points{{?it.specialActionAngle}}, {{=it.specialActionAngle}}°{{?}}</h3>
+                            <img class="right minion-skill-icon" src="images/MinionAngle{{=it.specialActionAngle}}.png">
+                            <div class="line">{{=it.specialActionDesc}}</div>
+                        </div>
+                    {{?}}
+                {{??it.mount}}
+                    <div>
+                        <div class="mount-name highlight">{{=it.mount.name}}</div>
+
+                        <img src="../files/icons/mount/{{=it.mount.icon}}.png" class="left mount-icon icon">
+                        <div>{{=it.mount.action}}</div>
+                        <hr class="clear">
+
+                        {{?it.mount.guideIcon}}
+                            <img src="../files/icons/mount/{{=it.mount.guideIcon}}.png" class="right mount-guide-icon">
+                            <div class="block-description">{{=it.mount.description}}</div>
+                            <hr>
+                        {{?}}
+
+                        <div>{{=it.mount.tooltip}}</div>
+                        <div class="clear"></div>
+                    </div>
+                {{??it.tripletriad}}
+                    {{?it.tripletriad.type}}<div class="right deemphasize tripletriad-type">{{=it.tripletriad.type}}</div>{{?}}
+
+                    <div class="tripletriad-plate-container">
+                        <img src="../files/icons/triad/plate/{{=it.tripletriad.plate}}.png" class="left tripletriad-plate">
+                        <div class="tripletriad-plate-background"></div>
+                        <span class="tripletriad-top value">{{=it.tripletriad.top}}</span>
+                        <span class="tripletriad-right value">{{=it.tripletriad.right}}</span>
+                        <span class="tripletriad-bottom value">{{=it.tripletriad.bottom}}</span>
+                        <span class="tripletriad-left value">{{=it.tripletriad.left}}</span>
+                    </div>
+
+                    <div class="block-description">{{=it.tripletriad.en.description}}</div>
+
+                    <div class="clear"></div>
+                {{??it.fish}}
+                    {{?it.fish.folklore}}
+                        <div class="line block-link hover-highlight pointer" data-type="item" data-id="{{=it.fish.folklore.id}}">
+                            <img class="icon mini" src="{{=it.fish.folklore.icon}}">
+                            <span class="highlight">{{=it.fish.folklore.name}}</span>
+                        </div>
+                    {{?}}
+
+                    {{?it.fish.guide}}
+                        <div class="fish-guide subsection collapsible" data-headername="fish-guide">
+                            <h3 class="pointer">Fish Guide</h3>
+
+                            <div class="collapse-toggle block-description"><img src="{{=it.fish.icon}}" class="icon right">{{=it.fish.guide}}</div>
+                        </div>
+                    {{?}}
+
+                    {{?it.fish.spots}}
+                        <div class="catching subsection collapsible" data-headername="catching">
+                            <h3 class="pointer">Catching<a href="http://en.ff14angler.com/?search={{=encodeURIComponent(it.name)}}" target="_blank" class="right">ff14angler</a></h3>
+
+                            {{?it.fish.gatheringReq}}
+                                <div class="line collapse-toggle">
+                                    <span class="name">Requires</span>
+                                    {{=it.fish.gatheringReq}} Gathering
+                                </div>
+                            {{?}}
+
+                            {{?it.fish.weather}}
+                                <div class="line half collapse-toggle">
+                                    {{?it.fish.transition}}
+                                        {{~it.fish.transition :transition:tindex}}
+                                            <img class="icon small" src="../files/icons/weather/{{=transition}}.png" title="{{=transition}}">
+                                        {{~}}
+                                        <span class="text">➜</span>
+                                    {{?}}
+
+                                    {{~it.fish.weather :weather:windex}}
+                                        <img class="icon small" src="../files/icons/weather/{{=weather}}.png" title="{{=weather}}">
+                                    {{~}}
+                                </div>
+                            {{?}}
+
+                            {{?it.fish.during}}
+                                <div class="line half collapse-toggle">
+                                    <img class="icon small" src="images/Clock.svg">
+                                    <span class="text">{{=gt.time.formatHours(it.fish.during.start)}} - {{=gt.time.formatHours(it.fish.during.end)}}</span>
+                                </div>
+                            {{?}}
+
+                            {{?it.fish.fishEyes}}
+                                <div class="line half collapse-toggle">
+                                    <img class="icon small" src="../files/icons/action/1112.png">
+                                    <span class="text">Fish Eyes</span>
+                                </div>
+                            {{?}}
+
+                            {{?it.fish.snagging}}
+                                <div class="line half collapse-toggle">
+                                    <img class="icon mini" src="../files/icons/action/1109.png">
+                                    <span class="text">Snagging</span>
+                                </div>
+                            {{?}}
+
+                            {{?it.fish.hookset}}
+                                <div class="line half collapse-toggle">
+                                    <img class="icon small" src="../files/icons/action/{{=it.fish.hooksetIcon}}.png">
+                                    <span class="text">{{=it.fish.hookset}}</span>
+                                </div>
+                            {{?}}
+
+                            {{?it.fish.predator}}
+                                {{~it.fish.predator :predator:pindex}}
+                                    <div class="line block-link hover-highlight pointer collapse-toggle" data-id="{{=predator.item.id}}" data-type="item">
+                                        <img class="icon small" src="{{=predator.item.icon}}">
+                                        <span class="text">{{?predator.amount > 1}}{{=predator.amount}} {{?}}<span class="highlight">{{=predator.item.name}}</span></span>
+                                        <span class="text right">{{=it.fish.predatorType}}</span>
+                                    </div>
+                                {{~}}
+                            {{?}}
+
+                            {{~it.fish.groups :group:gindex}}
+                                <hr class="collapse-toggle">
+
+                                {{?group.bait}}
+                                    {{~group.bait :bait:bindex}}
+                                        <div class="line block-link hover-highlight pointer collapse-toggle" data-id="{{=bait.id}}" data-type="item">
+                                            <img class="icon small" src="{{=bait.icon}}">
+                                            <span class="highlight text">{{=bait.name}}</span>
+                                            <span class="text right">{{?bindex == 0}}Bait{{??}}Mooch{{?}}</span>
+                                        </div>
+                                    {{~}}
+                                {{??group.gig}}
+                                    {{~group.gig :gig:gindex}}
+                                        <div class="line collapse-toggle">
+                                            <img class="icon small" src="images/{{=gig}}.png">
+                                            <span class="text">{{=gig}}</span>
+                                            <span class="text right">Gig</span>
+                                        </div>
+                                    {{~}}
+                                {{??}}
+                                    <div class="line collapse-toggle">No bait information is available.</div>
+                                {{?}}
+
+                                <hr class="collapse-toggle">
+
+                                {{~group.spots :spot:sindex}}
+                                    <div class="line block-link hover-highlight pointer collapse-toggle" data-type="{{=spot.spotType}}" data-id="{{=spot.spot.id}}">
+                                        <span class="highlight">{{=spot.spot.name}}</span>
+                                        <span class="right">{{=spot.spot.location}}</span>
+                                    </div>
+                                {{~}}
+                            {{~}}
+                        </div>
+                    {{?}}
+                {{??}}
+                    {{?it.bonuses || it.special}}
+                        <div class="bonuses subsection">
+                            <h3>Bonuses{{?it.hasBonusMeter}}<span class="bonus-help deemphasize"><span class="value">nq</span> <span class="value">{{?it.obj.attr_hq}}hq{{?}}</span> <span class="value text-right">meld</span> <span class="value">/ max</span></span>{{?}}</h3>
+
+                            {{?it.bonuses}}
+                                {{~it.bonuses :b:index}}{{=gt.item.attributeValueTemplate(b)}}{{~}}
+                            {{?}}
+
+                            {{?it.rarity == 7}}
+                                <div class="bonus">?</div>
+                            {{?}}
+
+                            {{?it.special}}
+                                <div class="special-bonus highlight-green">{{=it.special.name}}{{?it.special.series}} {{=it.special.series}}{{?}}</div>
+                                {{?it.special.condition}}<div>{{=it.special.condition}}</div>{{?}}
+
+                                {{~it.special.attr :attr:aindex}}
+                                    <div class="bonus">{{?attr.prefix}}{{=attr.prefix}}{{?}} {{=attr.name}} {{=attr.value}}</div>
+                                {{~}}
+                            {{?}}
+                        </div>
+                    {{?}}
+                {{?}}
+
+                {{?it.actions}}
+                    <div class="attributes actions subsection">
+                        <h3>Actions</h3>
+
+                        {{~it.actions :b:index}}
+                            {{=gt.item.attributeValueTemplate(b)}}
+                        {{~}}
+                    </div>
+                {{?}}
+
+                {{?it.sockets}}
+                    <div class="materia subsection collapsible {{?!it.melds.length}}collapsed{{?}}" data-headername="materia">
+                        <h3 class="pointer">Materia ({{=it.sockets}} slots) <span class="right">{{=it.repair_job}} Lv. {{=it.meld_lvl}}</span></h3>
+                        
+                        {{=gt.item.materiaSocketsTemplate(it)}}
+                    </div>
+                {{?}}
+
+                {{?it.upgrades || it.downgrades}}
+                    <div class="progression subsection collapsible collapsed" data-headername="progression">
+                        <h3 class="pointer">Progression <span class="right">{{=it.progressionText}}</span></h3>
+                        {{~it.upgrades :value:index}}
+                            <div class="line block-link hover-highlight pointer collapse-toggle" data-id="{{=value.id}}" data-type="item">
+                                <img class="icon small" src="{{=value.icon}}" title="{{=value.name}}">
+                                <span class="highlight text name">{{=value.name}}</span>
+                                <span class="text right">Upgrade</span>
+                            </div>
+                        {{~}}
+                        {{~it.downgrades :value:index}}
+                            <div class="line block-link hover-highlight pointer collapse-toggle" data-id="{{=value.id}}" data-type="item">
+                                <img class="icon small" src="{{=value.icon}}" title="{{=value.name}}">
+                                <span class="highlight text name">{{=value.name}}</span>
+                                <span class="text right">Downgrade</span>
+                            </div>
+                        {{~}}
+                    </div>
+                {{?}}
+
+                {{?it.sharedModels}}
+                    <div class="shared-models subsection collapsible collapsed" data-headername="shared-models">
+                        <h3 class="pointer">Shared Models</h3>
+                        {{~it.sharedModels :value:index}}
+                            {{=gt.item.halfLinkTemplate(value)}}
+                        {{~}}
+                    </div>
+                {{?}}
+
+                {{?it.elvl && it.repair_job}}
+                    <div class="repairs subsection" data-headername="repairs">
+                        <h3>Repairs <span class="right">{{?it.repair_item}}{{=it.repair_item.name}}, {{?}}{{=it.repair_job}} Lv. {{=it.repair_lvl}}</span></h3>
+                    </div>
+                {{?}}
+
+                {{?it.desynthSkill}}
+                    <div class="desynthSkill subsection">
+                        <h3>Desynthesis <span class="right">{{=it.desynth_job}} [Optimal Skill: {{=it.desynthSkill}}]</span></h3>
+                    </div>
+                {{?}}
+
+                {{?it.orchestrion}}
+                    <div class="orchestrion subsection">
+                        <h3>Orchestrion</h3>
+                        <div>{{=it.orchestrion.category}} / {{=it.orchestrion.name}}</div>
+                        <div>{{=it.orchestrion.description}}</div>
+                        <br>
+                        <audio controls controlsList="nodownload">
+                            <source src="{{=it.orchestrion.path}}" type="audio/ogg">
+                        </audio>
+                        <br>
+                        <div>Note: This is a shortened, inferior sample of the original music recording and contributes significantly to the database entry.</div>
+                    </div>
+                {{?}}
+            </div> <!-- Stats Page End -->
+
+            {{?it.hasSourcesUses}}
+                <div class="sources-uses-page page">
+                    {{?it.ingredient_of && it.craft && (it.vendors || it.ventures || it.nodes)}}
+                        <div class="source-link line" data-id="0" data-type="craft">
+                            <label><input type="checkbox"> Craft with {{=gt.jobs[it.craft.job].abbreviation}} Lv. {{=it.craft.lvl}}</label>
+                        </div>
+                    {{?}}
+
+                    {{?it.sell_price}}
+                        <div>Sells to vendors for {{=it.sell_price.toLocaleString()}} gil</div>
+                    {{?}}
+
+                    {{?(it.ingredient_of || it.craft || it.obj.category == 59) && !it.unlistable && !it.untradeable}}
+                        <div class="marketboard subsection collapsible collapsed" data-headername="marketboard">
+                            <img src="images/Marketboard.png" class="subsection-icon">
+                            <h2 class="pointer">Marketboard{{?it.marketType}}<span class="right">{{=it.marketType}}</span>{{?}}</h2>
+
+                            <div class="source-link collapse-toggle line" data-id="0" data-type="market">
+                                <span class="name">
+                                    {{?it.ingredient_of || it.obj.category == 59}}<label><input type="checkbox"> Market Price</label>{{??}}Market Price{{?}}
+                                </span>
+                                <input type="number" class="market-price" {{?it.marketPrice}}value="{{=it.marketPrice}}"{{?}}>
+                            </div>
+                        </div>
+                    {{?}}
+
+                    {{?it.vendors}}
+                        <div class="vendors subsection collapsible collapsed" data-headername="vendors">
+                            <img src="images/Shop.png" class="subsection-icon">
+                            <h2 class="pointer">Shops<span class="right badge">{{=it.vendors.length}}</span></h2>
+ 
+                            {{?it.vendors}}
+                                {{~it.vendors :value:index}}
+                                    <div class="collapse-toggle source-link block-link pointer line hover-highlight" data-id="{{=value.id}}" data-type="npc">
+                                        <div class="right"><img class="icon small" src="../files/icons/item/1.png">{{=it.price.toLocaleString()}}</div>
+                                        <div class="overflow-wrapper">
+                                            {{?it.ingredient_of}}<input type="checkbox">{{?}}
+                                            <span class="highlight">{{=value.name}}</span>
+                                            {{?value.location}}<span class="byline"> {{=value.location}}</span>{{?}}
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                {{~}}
+                            {{?}}
+                        </div>
+                    {{?}}
+
+                    {{?it.trades}}
+                        {{~it.trades :shop:shopIndex}}
+                            <div class="trades subsection collapsible collapsed" data-headername="trade {{=shop.shop}}">
+                                <img src="images/Trader.png" class="subsection-icon">
+                                <h2 class="pointer">{{=shop.shop}}<span class="right badge">{{=shop.listings.length}}</span></h2>
+
+                                <div class="subsection-header">
+                                    {{~shop.npcs :npc:npcIndex}}
+                                        <div class="source-link line collapse-toggle" data-id="{{=npc.id}}" data-type="trade">
+                                            {{?it.ingredient_of}}<input type="checkbox"> {{?}}
+                                            <div class="inline-block block-link pointer hover-highlight collapse-toggle" data-id="{{=npc.id}}" data-type="npc">
+                                                <span class="highlight">{{=npc.name}}</span>
+                                                {{?npc.location}}<span class="byline">{{=npc.location}}</span>{{?}}
+                                            </div>
+                                        </div>
+                                    {{~}}
+                                </div>
+
+                                {{~shop.listings :listing:listingIndex}}
+                                    <div class="line collapse-toggle">
+                                        {{=gt.npc.tradeEntryTemplate(listing)}}
+                                    </div>
+                                {{~}}
+                            </div>
+                        {{~}}
+                    {{?}}
+
+                    {{?it.tripletriadReward}}
+                        <div class="tripletriadreward subsection collapsible" data-headername="tripletriadreward">
+                            <img src="images/TripleTriadReward.png" class="subsection-icon">
+                            <h2 class="pointer">Triple Triad Reward</h2>
+
+                            {{~it.tripletriadReward :npc:npcIndex}}
+                                <div class="line collapse-toggle hover-highlight block-link pointer" data-id="{{=npc.id}}" data-type="npc">
+                                    <img src="{{=npc.icon}}" class="icon small">
+                                    <span class="highlight">{{=npc.name}}</span>
+                                    {{?npc.location}}<span class="byline">{{=npc.location}}</span>{{?}}
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.disposal}}
+                        <div class="disposal subsection collapsible" data-headername="disposal">
+                            <img src="{{=it.disposal[0].item.icon}}" class="subsection-icon">
+                            <h2 class="pointer">Disposal Shop <span class="right badge">{{=it.disposal.length}}</span></h2>
+
+                            {{~it.disposal :shop:index}}
+                                <h4 class="line collapse-toggle hover-highlight block-link pointer" data-id="{{=shop.item.id}}" data-type="item">
+                                    <div class="right">
+                                        <div class="inline-block trade"><img class="icon small" src="{{=shop.item.icon}}" title="{{=shop.item.name}}">{{=shop.amount.toLocaleString()}}</div>
+                                    </div>
+
+                                    <div class="overflow-wrapper">{{=shop.shop}}</div>
+                                    <div class="clear"></div>
+                                </h4>
+                                {{~shop.npcs :npc:nindex}}
+                                    <div class="line collapse-toggle block-link hover-highlight pointer" data-id="{{=npc.id}}" data-type="npc">
+                                        <span class="highlight">{{=npc.name}}</span>
+                                        {{?npc.location}}<span class="byline">{{=npc.location}}</span>{{?}}
+                                    </div>
+                                {{~}}
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.drops}}
+                        <div class="mobs subsection collapsible collapsed" data-headername="mobs">
+                            <img src="images/Mob.png" class="subsection-icon">
+                            <h2 class="pointer">Drops <span class="right badge">{{=it.drops.length}}</span></h2>
+
+                            {{~it.drops :value:index}}
+                                <div class="collapse-toggle line pointer source-link block-link hover-highlight" data-id="{{=value.id}}" data-type="mob">
+                                    <div class="overflow-wrapper">
+                                        {{?it.ingredient_of}}<input type="checkbox">{{?}}
+                                        <span class="highlight">Lv. {{=value.lvl}} {{=value.name}}</span>
+                                        <span class="byline">{{=value.location}}</span>
+                                    </div>
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.nodes}}
+                        <div class="nodes subsection collapsible collapsed" data-headername="nodes">
+                            <img src="{{=it.nodes[0].icon}}" class="subsection-icon">
+                            <h2 class="pointer">Gathering <span class="right badge">{{=it.nodes.length}}</span></h2>
+
+                            {{?it.unlockItem}}
+                                <div class="block-link line pointer hover-highlight collapse-toggle" data-id="{{=it.unlockItem.id}}" data-type="item">
+                                    <img src="{{=it.unlockItem.icon}}" class="icon small">
+                                    <span class="highlight">{{=it.unlockItem.name}}</span>
+                                    <span class="right">Unlock</span>
+                                </div>
+                            {{?}}
+
+                            {{~it.nodes :value:index}}
+                                <div class="block-link source-link line pointer hover-highlight collapse-toggle" data-id="{{=value.id}}" data-type="node">
+                                    <div class="overflow-wrapper">
+                                        {{?it.ingredient_of}}<input type="checkbox">{{?}}
+                                        <img src="{{=value.icon}}" class="icon small">
+                                        <span class="highlight">Lv. {{=value.lvl}}{{=gt.util.stars(value.stars)}} {{=value.name}}</span>
+                                        <span class="byline">{{=value.location}}</span>
+                                    </div>
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.fishingSpots}}
+                        <div class="fishing subsection collapsible collapsed" data-headername="fishing">
+                            <img src="images/FSH.png" class="subsection-icon">
+                            <h2 class="pointer">Fishing <span class="right badge">{{=it.fishingSpots.length}}</span></h2>
+
+                            {{~it.fishingSpots :value:index}}
+                                <div class="block-link source-link line pointer hover-highlight collapse-toggle" data-id="{{=value.id}}" data-type="fishing">
+                                    <div class="overflow-wrapper">
+                                       {{?it.ingredient_of}}<input type="checkbox">{{?}}
+                                       <span class="highlight">Lv. {{=value.lvl}} {{=value.name}}</span>
+                                       <span class="byline">{{=value.location}}</span>
+                                    </div>
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.instances}}
+                        <div class="instances subsection collapsible collapsed" data-headername="instances">
+                            <img src="images/BronzeCoffer.png" class="subsection-icon">
+                            <h2 class="pointer">Instance Coffers <span class="right badge">{{=it.instances.length}}</span></h2>
+
+                            {{~it.instances :value:index}}
+                                <div class="block-link source-link line pointer hover-highlight collapse-toggle" data-id="{{=value.id}}" data-type="instance">
+                                    <div class="overflow-wrapper">
+                                       {{?it.ingredient_of}}<input type="checkbox">{{?}}
+                                        <img src="{{=value.icon}}" class="icon small">
+                                       <span class="highlight"> {{=value.name}}</span>
+                                        <span class="byline">{{=value.byline}}</span>
+                                    </div>
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.quests || it.usedInQuest}}
+                        <div class="quests subsection collapsible collapsed" data-headername="quests">
+                            <img src="../files/icons/journal/61411.png" class="subsection-icon">
+                            <h2 class="pointer">Quests <span class="right badge">{{=(it.quests ? it.quests.length : 0) + (it.usedInQuest ? it.usedInQuest.length : 0)}}</span></h3>
+
+                            {{?it.quests}}
+                                {{~it.quests :value:index}}
+                                    <div class="collapse-toggle line pointer source-link block-link hover-highlight" data-id="{{=value.id}}" data-type="quest">
+                                        <span class="right">Reward</span>
+                                        <div class="overflow-wrapper">
+                                            <span class="highlight">{{=value.name}}</span>
+                                            <span class="byline">{{=value.location}}</span>
+                                        </div>
+                                    </div>
+                                {{~}}
+                            {{?}}
+
+                            {{?it.usedInQuest}}
+                                {{~it.usedInQuest :value:index}}
+                                    <div class="collapse-toggle line pointer source-link block-link hover-highlight" data-id="{{=value.id}}" data-type="quest">
+                                        <span class="right">Used</span>
+                                        <div class="overflow-wrapper">
+                                            <span class="highlight">{{=value.name}}</span>
+                                            <span class="byline">{{=value.location}}</span>
+                                        </div>
+                                    </div>
+                                {{~}}
+                            {{?}}
+                        </div>
+                    {{?}}
+
+                    {{?it.leves || it.requiredByLeves}}
+                        <div class="leves subsection collapsible collapsed" data-headername="leves">
+                            <img src="images/Leve.png" class="subsection-icon">
+                            <h2 class="pointer">Levequests <span class="right badge">{{=(it.leves ? it.leves.length : 0) + (it.requiredByLeves ? it.requiredByLeves.length : 0)}}</span></h2>
+
+                            {{?it.leves}}
+                                {{~it.leves :value:index}}
+                                    <div class="collapse-toggle line pointer source-link block-link hover-highlight" data-id="{{=value.id}}" data-type="leve">
+                                        <span class="right">Reward</span>
+                                        <div class="overflow-wrapper">
+                                           {{?it.ingredient_of}}<input type="checkbox">{{?}}
+                                           <span class="highlight">Lv. {{=value.lvl}} {{=value.name}}</span>
+                                           <span class="byline">{{=value.location}}</span>
+                                        </div>
+                                    </div>
+                                {{~}}
+                            {{?}}
+
+                            {{?it.requiredByLeves}}
+                                {{~it.requiredByLeves :value:index}}
+                                    <div class="collapse-toggle line pointer source-link block-link hover-highlight" data-id="{{=value.id}}" data-type="leve">
+                                        <span class="right">Used</span>
+                                        <div class="overflow-wrapper">
+                                           <span class="highlight">Lv. {{=value.lvl}} {{=value.name}}</span>
+                                           <span class="byline">{{=value.location}}</span>
+                                        </div>
+                                    </div>
+                                {{~}}
+                            {{?}}
+                        </div>
+                    {{?}}
+
+                    {{?it.loot}}
+                        <div class="treasure subsection collapsible collapsed" data-headername="treasure">
+                            <img src="{{=it.loot[0].icon}}" class="subsection-icon">
+                            <h2 class="pointer">Loot <span class="right badge">{{=it.loot.length}}</span></h2>
+
+                            {{~it.loot :value:index}}
+                                {{=gt.item.halfLinkTemplate(value)}}
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.ventures}}
+                        <div class="ventures subsection collapsible collapsed" data-headername="ventures">
+                            <img src="../files/icons/item/3503.png" class="subsection-icon">
+                            <h2 class="pointer">Ventures <span class="right badge">{{=it.ventures.length}}</span></h2>
+                            {{~it.ventures :value:index}}
+                                <div class="collapse-toggle line grow source-link clear" data-id="{{=value.id}}" data-type="venture">
+                                    <div>
+                                       {{?it.ingredient_of}}<input type="checkbox">{{?}}
+                                       <span>Lv. {{=value.lvl}} {{?value.name}}{{=value.name}}{{??}}{{=value.jobs}}{{?}}</span>
+                                    </div>
+
+                                    {{?value.random}}
+                                        <table class="left">
+                                            <tr>
+                                                <td><img src="{{=value.requireIcon}}" class="icon small">{{=value.requireList[0]}}</td>
+                                                <td>{{?value.random}}Random{{??}}x{{=value.amounts[0]}}{{?}}</td>
+                                            </tr>
+                                        </table>
+                                        <table class="right">
+                                            <tr>
+                                                <td>Lv. {{=value.lvl}}</td>
+                                                <td><img src="images/Clock.svg" class="icon small">{{=value.minutes}}m</td>
+                                            </tr>
+                                        </table>
+                                    {{??value.requireList}}
+                                        <table class="left">
+                                            {{~value.requireList :required:reqIndex}}
+                                                <tr>
+                                                    <td>{{?reqIndex == 0}}<img src="{{=value.requireIcon}}" class="icon small">{{?}}{{=required}}</td>
+                                                    <td>{{?value.random}}Random{{??}}x{{=value.amounts[reqIndex]}}{{?}}</td>
+                                                </tr>
+                                            {{~}}
+                                        </table>
+
+                                        <table class="right">
+                                            <tr>
+                                                <td>Lv. {{=value.lvl}}</td>
+                                                <td><img src="images/Clock.svg" class="icon small">{{=value.minutes}}m</td>
+                                            </tr>
+                                            <tr><td>{{=value.lvl+10}}</td><td>{{=Math.floor(value.minutes*.84)}}m</td></tr>
+                                            <tr><td>{{=value.lvl+20}}</td><td>{{=Math.floor(value.minutes*.67)}}m</td></tr>
+                                        </table>
+                                    {{?}}
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.reducedFrom}}
+                        <div class="reducedFrom subsection collapsible collapsed" data-headername="reduction">
+                            <img src="images/Reduce.png" class="subsection-icon">
+                            <h2 class="pointer">Aetherial Reduction <span class="right badge">{{=it.reducedFrom.length}}</span></h2>
+
+                            <div class="collapse-toggle line">Purity 5+</div>
+                            {{~it.reducedFrom :value:index}}
+                                {{=gt.item.halfLinkTemplate(value)}}
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.other}}
+                        <div class="other subsection collapsible collapsed" data-headername="other">
+                            <img src="{{=it.other[0].icon}}" class="subsection-icon">
+                            <h2 class="pointer">Other <span class="right badge">{{=it.other.length}}</span></h2>
+
+                            {{~it.other :value:index}}
+                                {{?value.id}}
+                                    <div class="block-link collapse-toggle pointer line hover-highlight" data-type="{{=value.type}}" data-id="{{=value.id}}">
+                                {{??}}
+                                    <div class="collapse-toggle line">
+                                {{?}}
+                                    {{?value.right}}<span class="right">{{=value.right}}</span>{{?}}
+                                    <div class="overflow-wrapper">
+                                        <img class="icon small" src="{{=value.icon}}">
+                                        <span class="highlight">{{=value.name}}</span>
+                                        {{?value.byline}}<span class="byline">{{=value.byline}}</span>{{?}}
+                                    </div>
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.masterpiece}}
+                        <div class="masterpiece subsection collapsible collapsed" data-headername="masterpiece">
+                            <img src="images/Rowena.png" class="subsection-icon">
+                            <h2 class="pointer">Rowena's House of Splendors</h2>
+
+                            {{?it.masterpiece.complexity}}
+                                <div class="collapse-toggle deemphasize">Complexity: {{=it.masterpiece.complexity}}, Efficiency Score: ★{{=it.masterpiece.efficiencyScore}}</div>
+                            {{?}}
+
+                            <div class="collapse-toggle line source-link block-link pointer hover-highlight" data-id="1012300" data-type="npc">
+                                <span class="right">Level {{=it.masterpiece.lvl[0]}}{{?it.masterpiece.lvl[0]!=it.masterpiece.lvl[1]}}-{{=it.masterpiece.lvl[1]}}{{?}}{{?it.masterpiece.stars}} {{=gt.util.stars(it.masterpiece.stars)}}{{?}}</span>
+                                <div class="overflow-wrapper">
+                                    <span class="highlight">Collectable Appraiser</span>
+                                </div>
+                            </div>
+
+                            <table class="collapse-toggle">
+                                <tr>
+                                    <td><img src="images/Collectable.png" class="icon small">{{=it.masterpiece.rating[0]}}-{{=it.masterpiece.rating[1]-1}}</td>
+                                    <td><img src="images/xp.png" class="icon small">{{=it.masterpiece.xp[0].toLocaleString()}}</td>
+                                    <td><img class="icon small" src="{{=it.masterpiece.rewardItem.icon}}" title="{{=it.masterpiece.rewardItem.name}}">{{=it.masterpiece.rewardAmount[0]}}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{=it.masterpiece.rating[1]}}-{{=it.masterpiece.rating[2]-1}}</td>
+                                    <td>{{=it.masterpiece.xp[1].toLocaleString()}}</td>
+                                    <td>{{=it.masterpiece.rewardAmount[1]}}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{=it.masterpiece.rating[2]}}-</td>
+                                    <td>{{=it.masterpiece.xp[2].toLocaleString()}}</td>
+                                    <td>{{=it.masterpiece.rewardAmount[2]}}</td>
+                                </tr>
+                            </table>
+
+                            <div class="collapse-toggle line source-link block-link pointer hover-highlight" data-id="1012300" data-type="npc">
+                                <span class="right"><span class="highlight">★</span> Bonus, Level {{=it.masterpiece.lvl[0]}}{{?it.masterpiece.lvl[0]!=it.masterpiece.lvl[1]}}-{{=it.masterpiece.lvl[1]}}{{?}}{{?it.masterpiece.stars}} {{=gt.util.stars(it.masterpiece.stars)}}{{?}}</span>
+                                <div class="overflow-wrapper">
+                                    <span class="highlight">Collectable Appraiser</span>
+                                </div>
+                            </div>
+
+                            <table class="collapse-toggle">
+                                <tr>
+                                    <td><img src="images/Collectable.png" class="icon small">{{=it.masterpiece.rating[0]}}-{{=it.masterpiece.rating[1]-1}}</td>
+                                    <td><img src="images/xp.png" class="icon small">{{=it.masterpiece.xpBonus[0].toLocaleString()}}</td>
+                                    <td><img class="icon small" src="{{=it.masterpiece.rewardItem.icon}}" title="{{=it.masterpiece.rewardItem.name}}">{{=it.masterpiece.rewardAmountBonus[0]}}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{=it.masterpiece.rating[1]}}-{{=it.masterpiece.rating[2]-1}}</td>
+                                    <td>{{=it.masterpiece.xpBonus[1].toLocaleString()}}</td>
+                                    <td>{{=it.masterpiece.rewardAmountBonus[1]}}</td>
+                                </tr>
+                                <tr>
+                                    <td>{{=it.masterpiece.rating[2]}}-</td>
+                                    <td>{{=it.masterpiece.xpBonus[2].toLocaleString()}}</td>
+                                    <td>{{=it.masterpiece.rewardAmountBonus[2]}}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    {{?}}
+
+                    {{?it.satisfaction}}
+                        <div class="satisfaction subsection collapsible" data-headername="satisfaction">
+                            <img src="images/CustomDelivery.png" class="subsection-icon">
+                            <h2 class="pointer">Custom Deliveries</h2>
+
+                            {{~it.satisfaction :satisfaction:sindex}}
+                                <div class="collapse-toggle source-link block-link pointer line hover-highlight" data-id="{{=satisfaction.npc.id}}" data-type="npc">
+                                    <span class="right">{{?satisfaction.probability>1}}{{=satisfaction.probability}}%, {{?}}Level {{=satisfaction.level}}</span>
+                                    <div class="overflow-wrapper">
+                                        <span class="highlight">{{=satisfaction.npc.name}}</span>
+                                        <span class="byline">{{=satisfaction.npc.location}}</span>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <table class="collapse-toggle">
+                                    <tr>
+                                        <td><img src="images/Collectable.png" class="icon small">{{=satisfaction.rating[0]}}</td>
+                                        <td><img src="images/Satisfaction.png" class="icon small">{{=satisfaction.satisfaction[0]}}</td>
+                                        <td><img src="../files/icons/item/1.png" class="icon small" >{{=satisfaction.gil[0].toLocaleString()}}</td>
+                                        {{~satisfaction.items :rewardItem:rindex}}
+                                            <td><img class="icon small" src="{{=rewardItem.icon}}" title="{{=rewardItem.name}}">{{=rewardItem.amount[0]}}</td>
+                                        {{~}}
+                                    </tr>
+                                    <tr>
+                                        <td>{{=satisfaction.rating[1]}}</td>
+                                        <td>{{=satisfaction.satisfaction[1]}}</td>
+                                        <td>{{=satisfaction.gil[1].toLocaleString()}}</td>
+                                        {{~satisfaction.items :rewardItem:rindex}}
+                                            <td>{{=rewardItem.amount[1]}}</td>
+                                        {{~}}
+                                    </tr>
+                                    <tr>
+                                        <td>{{=satisfaction.rating[2]}}</td>
+                                        <td>{{=satisfaction.satisfaction[2]}}</td>
+                                        <td>{{=satisfaction.gil[2].toLocaleString()}}</td>
+                                        {{~satisfaction.items :rewardItem:rindex}}
+                                            <td>{{=rewardItem.amount[2]}}</td>
+                                        {{~}}
+                                    </tr>
+                                </table>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.supplyReward}}
+                        <div class="supply-reward subsection collapsible collapsed" data-headername="supply-reward">
+                            <img src="images/Rowena.png" class="subsection-icon">
+                            <h2 class="pointer">Supply Rewards <span class="right badge">{{=it.supplyReward.length}}</span></h2>
+
+                            {{~it.supplyReward :value:index}}
+                                <div class="line pointer block-link collapse-toggle hover-highlight" data-id="{{=value.item.id}}" data-type="item">
+                                    <span class="right">
+                                        {{=value.reward}}
+                                        <img class="icon small" src="{{=it.icon}}">
+                                        <img class="icon small" src="images/{{=value.job.abbreviation}}.png">
+                                    </span>
+                                    <div class="overflow-wrapper">
+                                        <img class="icon small" src="{{=value.item.icon}}">
+                                        <span class="highlight">{{=value.item.name}}</span>
+                                        <span class="deemphasize">★{{=value.efficiencyScore}}</span>
+                                    </div>
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.supply || it.delivery}}
+                        <div class="supply subsection collapsible collapsed" data-headername="supply">
+                            <img src="../files/icons/item/22.png" class="subsection-icon">
+                            <h2 class="pointer">Grand Company</h2>
+
+                            {{?it.supply}}
+                                <div class="collapse-toggle line">
+                                    <div class="right">
+                                        <div class="inline-block block-link trade hover-highlight pointer" data-id="22" data-type="item"><img class="icon small" src="../files/icons/item/22.png" title="Flame Seal">{{=it.supply.seals.toLocaleString()}}</div><div class="inline-block trade"><img class="icon small" src="images/xp.png" title="Experience">{{=it.supply.xp.toLocaleString()}}</div>
+                                    </div>
+                                    <div class="overflow-wrapper">
+                                        <span>Personnel Officer</span>
+                                        <span class="byline">Supply/Provisioning</span>
+                                    </div>
+                                </div>
+                            {{?}}
+
+                            {{?it.delivery}}
+                                <div class="collapse-toggle line">
+                                    <div class="right">
+                                        <div class="inline-block block-link trade hover-highlight pointer" data-id="22" data-type="item">
+                                            <img class="icon small" src="../files/icons/item/22.png" title="Flame Seal">
+                                            {{=it.delivery.toLocaleString()}}
+                                        </div>
+                                    </div>
+                                    <div class="overflow-wrapper">
+                                        <span>Personnel Officer</span>
+                                        <span class="byline">Expert Delivery</span>
+                                    </div>
+                                </div>
+                            {{?}}
+                        </div>
+                    {{?}}
+
+                    {{?it.unlocks}}
+                        <div class="unlocks subsection collapsible collapsed" data-headername="unlocks">
+                            <img src="{{=it.unlocks[0].icon}}" class="subsection-icon">
+                            <h2 class="pointer">Unlocks <span class="right badge">{{=it.unlocks.length}}</span></h2>
+
+                            {{~it.unlocks :value:index}}
+                                {{=gt.item.halfLinkTemplate(value)}}
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.ingredient_of}}
+                        <div class="ingredient-of subsection collapsible collapsed" data-headername="ingredient-of">
+                            <img src="{{=it.ingredient_of[0].icon}}" class="subsection-icon">
+                            <h2 class="pointer">Crafting Ingredient <span class="right badge">{{=it.ingredient_of.length}}</span></h2>
+
+                            {{~it.ingredient_of :value:index}}
+                                <div class="line pointer block-link collapse-toggle hover-highlight" data-id="{{=value.i}}" data-type="item">
+                                    <img class="icon small" src="{{=value.icon}}">
+                                    {{=value.a}} <span class="highlight">{{=value.n}}</span>
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.desynthedFrom}}
+                        <div class="desynthesis subsection collapsible collapsed" data-headername="desynthesis">
+                            <img src="images/Desynth.png" class="subsection-icon">
+                            <h2 class="pointer">Desynthesis{{?it.desynth_job}}<span class="right">{{=it.desynth_job}} Lv. {{=it.rlvl}}</span>{{?}}</h2>
+
+                            {{?it.desynthedFrom.length}}
+                                {{~it.desynthedFrom :value:index}}
+                                    {{=gt.item.halfLinkTemplate(value)}}
+                                {{~}}
+                            {{??}}
+                                Something
+                            {{?}}
+                        </div>
+                    {{?}}
+
+                    {{?it.bingoData}}
+                        {{~it.bingoData :list:lindex}}
+                            <div class="bingo-rewards-other bingo-rewards subsection collapsible collapsed" data-headername="bingo-{{=list.name}}">
+                                <h3 class="pointer">{{=list.name}}</h3>
+                                {{~list.rewards :reward:rindex}}
+                                    <div class="bingo-reward collapse-toggle">
+                                        {{~reward :option:oindex}}
+                                            <div class="block-link pointer hover-highlight reward-item" data-id="{{=option.item.id}}" data-type="item">
+                                                <img class="icon" src="{{=option.item.icon}}" title="{{=option.item.name}}">
+                                                {{?option.hq}}<img src="images/HQOverlay.png" class="hq-overlay icon">{{?}}
+                                                {{?option.amount > 1}}{{=option.amount}} {{?}}
+                                            </div> 
+                                        {{~}}
+                                    </div>
+                                {{~}}
+                            </div>
+                        {{~}}
+                    {{?}}
+
+                    {{?it.customize}}
+                        <div class="customize subsection collapsible" data-headername="customize">
+                            <img src="../files/icons/customize/{{=it.customize[0]}}.png" class="subsection-icon">
+                            <h2 class="pointer">Character Customization <span class="right badge">{{=it.customize.length}}</span></h2>
+
+                            <div class="icons collapse-toggle">
+                                {{~it.customize :value:index}}
+                                    <img src="../files/icons/customize/{{=value}}.png">
+                                {{~}}
+                            </div>
+                        </div>
+                    {{?}}
+                </div> <!-- Sources & Uses Page End -->
+            {{?}}
+
+            {{?it.craft}}
+                <div class="crafting-page page">
+                    <div class="craftinfo subsection collapsible" data-headername="craftinfo">
+                        <h3 class="pointer">{{=gt.jobs[it.craft.job].abbreviation}} Lv. {{=it.craft.lvl}}{{=gt.util.stars(it.craft.stars)}} <span class="right deemphasize">rLv. {{=it.craft.rlvl}}</span></h3>
+
+                        {{?it.crafts.length > 1}}
+                            <div class="line collapse-toggle">
+                                <span class="name">Select Class</span>
+                                <select class="recipe-select">
+                                    {{~it.crafts :value:index}}
+                                        <option value="{{=value.id}}" {{?it.craft == value}}selected="selected"{{?}}>{{=gt.jobs[value.job].abbreviation}} Lv. {{=value.lvl}}</option>
+                                    {{~}}
+                                </select>
+                            </div>
+                        {{?}}
+
+                        {{?it.unlockItem}}
+                            <div class="line collapse-toggle">
+                                <span class="name">Unlock Item</span>
+                                <span class="hover-highlight block-link pointer" data-type="item" data-id="{{=it.unlockItem.id}}"><img class="icon mini" src="{{=it.unlockItem.icon}}"> <span class="highlight">{{=it.unlockItem.name}}</span></span>
+                            </div>
+                        {{?}}
+
+                        {{?it.crafterSoul}}
+                            <div class="line collapse-toggle">
+                                <span class="name">Soul Crystal</span>
+                                <span class="hover-highlight block-link pointer" data-type="item" data-id="{{=it.crafterSoul.id}}"><img class="icon mini" src="{{=it.crafterSoul.icon}}"> <span class="highlight">{{=it.crafterSoul.name}}</span></span>
+                            </div>
+                        {{?}}
+
+                        {{?it.craft.craftsmanshipReq || it.craft.controlReq}}
+                            <div class="line collapse-toggle">
+                                <span class="name">Requires</span>
+                                {{
+                                    var craftReqs = [];
+                                    if (it.craft.craftsmanshipReq)
+                                        craftReqs.push(it.craft.craftsmanshipReq + ' Craftsmanship');
+                                    if (it.craft.controlReq)
+                                        craftReqs.push(it.craft.controlReq + ' Control');
+                                }}
+                                {{=craftReqs.join(', ')}}
+                            </div>
+                        {{?}}
+
+                        {{?it.craft.quickSynthCraftsmanship || it.craft.quickSynthControl}}
+                            <div class="line collapse-toggle">
+                                <span class="name">Quick Synth</span>
+                                {{
+                                    var quickSynthReqs = [];
+                                    if (it.craft.quickSynthCraftsmanship)
+                                        quickSynthReqs.push(it.craft.quickSynthCraftsmanship + ' Craftsmanship');
+                                    if (it.craft.quickSynthControl)
+                                        quickSynthReqs.push(it.craft.quickSynthControl + ' Control');
+                                }}
+                                {{=quickSynthReqs.join(', ')}}
+                            </div>
+                        {{?}}
+
+                        <div class="line collapse-toggle">
+                            <span class="action-link unselectable copy-recipe">Copy recipe.</span> 
+                            <a href="http://ermad.github.io/ffxiv-craft-opt-web/app/#/recipe?lang={{=gt.settings.data.lang}}&class={{=gt.jobs[it.craft.job].name}}&name={{=it.name}}" target="_blank">Open simulator.</a>
+                            <span class="action-link unselectable new-group">Add to crafting list.</span>
+                        </div>
+                    </div>
+
+                    <div class="recipe subsection">
+                        <h3><span class="craft-info center inline-block">
+                            {{?it.craft.fc}}
+                                Free Company Craft
+                            {{??}}
+                                Durability {{=it.craft.durability}}, Progress {{=it.craft.progress}}, Quality {{?it.craftSet.startingQuality}}{{=it.craftSet.startingQuality}}/{{?}}{{=it.craft.quality}}{{?it.craft.yield}}, Yields {{=it.craft.yield}}{{?}}
+                            {{?}}
+                        </span></h3>
+
+                        <div class="craft-container">
+                            {{=gt.craft.recipeTemplate(it.craftSet)}}
+                        </div>
+                    </div>
+                </div> <!-- Crafting Page End -->
+            {{?}}
+
+            {{?it.models}}
+                <div class="models-page page"></div>
+            {{?}}
+        </div>
+    </script>
+
+    <script id="block-npc-template" type="text/x-dot-template">
+        <div class="midline">
+            <div class="menu tab">
+                <div data-page="info-page" class="button">Info</div>
+                {{?it.map}}<div data-page="maps-page" class="button">Map</div>{{?}}
+            </div>
+        </div>
+
+        <div class="content main has-pages">
+            <div class="info-page page">
+                {{?it.fullLocation}}
+                    <div class="location right">{{=it.fullLocation}}</div>
+                {{?}}
+
+                {{?it.area}}
+                    <div class="right clear-right">{{=it.area}}</div>
+                {{?}}
+
+                {{?it.title}}
+                    <div>{{=it.title}}</div>
+                {{?}}
+
+                {{?it.appearance}}
+                    {{=it.appearance.gender}} {{=it.appearance.race}}
+                {{?}}
+
+                <div class="clear"></div>
+
+                {{?it.tripletriad}}
+                    <div class="tripletriad subsection collapsible collapsed" data-headername="tripletriad">
+                        <h3 class="pointer">Triple Triad</h3>
+
+                        {{?it.timer}}
+                            <div class="availability collapse-toggle">
+                                <span class="spawn-text">{{=it.timer.progress.text}}</span> <span class="spawn-time">{{=it.timer.progress.time}}</span>
+                                <span class="spawn-countdown">{{=it.timer.progress.countdown}}</span>
+                                <div class="progress-container"><div class="progress {{=it.timer.progress.state}}" style="width: {{=it.timer.progress.percent}}%;"></div></div>
+                            </div>
+                        {{?}}
+
+                        <h4 class="collapse-toggle">Rules</h4>
+
+                        <div class="line collapse-toggle half">Fee: {{=it.tripletriad.fee}} MGP</div>
+
+                        {{?it.tripletriad.regionalRules}}
+                            <div class="line collapse-toggle half">Uses Regional Rules</div>
+                        {{?}}
+
+                        {{?it.tripletriad.rules}}
+                            {{~it.tripletriad.rules :rule:index}}
+                                <div class="line collapse-toggle half">{{=rule}}</div>
+                            {{~}}
+                        {{?}}
+
+                        <h4 class="collapse-toggle">Cards Used</h4>
+
+                        {{~it.tripletriad.cards :value:index}}
+                            {{=gt.item.halfLinkTemplate(value)}}
+                        {{~}}
+
+                        {{?it.tripletriad.rewards}}
+                            <h4 class="collapse-toggle">Cards Rewarded</h4>
+
+                            {{~it.tripletriad.rewards :value:index}}
+                                {{=gt.item.halfLinkTemplate(value)}}
+                            {{~}}
+                        {{?}}
+                    </div>
+                {{?}}
+
+                {{?it.shops}}
+                    {{~it.shops :shop:shopIndex}}
+                        <div class="items subsection collapsible collapsed" data-headername="{{=shop.name}}">
+                            <h3 class="pointer">{{=shop.name}}</h3>
+
+                            {{~shop.items :value:itemIndex}}
+                                <div class="line collapse-toggle block-link hover-highlight pointer" data-id="{{=value.id}}" data-type="item">
+                                    <img class="icon small" src="{{=value.icon}}">
+                                    <span class="highlight">{{=value.name}}</span>
+                                    <span class="price right"><img src="../files/icons/item/1.png" title="Gil" class="icon small">{{=value.price.toLocaleString()}}</span>
+                                </div>
+                            {{~}}
+                        </div>
+                    {{~}}
+                {{?}}
+
+                {{?it.trades}}
+                    {{~it.trades :trade:tradeIndex}}
+                        <div class="items subsection collapsible collapsed" data-headername="{{=trade.name}}">
+                            <h3 class="pointer">{{=trade.name}}</h3>
+
+                            {{~trade.entries :entry:entryIndex}}
+                                <div class="collapse-toggle line">
+                                    {{=gt.npc.tradeEntryTemplate(entry)}}
+                                </div>
+                            {{~}}
+                        </div>
+                    {{~}}
+                {{?}}
+
+                {{?it.quests}}
+                    <div class="quests subsection collapsible collapsed" data-headername="quests">
+                        <h3 class="pointer">Quests</h3>
+
+                        {{~it.quests :value:index}}
+                            <div class="line collapse-toggle">
+                                {{=gt.quest.linkTemplate(value)}}
+                            </div>
+                        {{~}}
+                    </div>
+                {{?}}
+
+                {{?it.appearance}}
+                    <div class="appearance subsection collapsible collapsed" data-headername="appearance">
+                        <h3 class="pointer">Appearance</h3>
+
+                        <table class="collapse-toggle">
+                            <tr><td colspan="4" class="grouping">Body{{?it.appearance.bodyType}} ({{=it.appearance.bodyType}}){{?}}</td></tr>
+                            {{?it.appearance.hairStyle}}
+                                <tr><td colspan="3"></td><td rowspan="6"><img class="right" src="../files/icons/customize/{{=it.appearance.hairStyle}}.png"></td></tr>
+                            {{?}}
+                            <tr><td>Race</td><td>{{=it.appearance.race}}</td></tr>
+                            <tr><td>Tribe</td><td>{{=it.appearance.tribe}}</td></tr>
+                            <tr><td>Gender</td><td>{{=it.appearance.gender}}</td></tr>
+                            <tr><td>Height</td><td>{{=it.appearance.height}}</td></tr>
+                            {{?it.appearance.muscle !== undefined}}
+                                <tr><td>Muscle Tone</td><td>{{=it.appearance.muscle}}</td></tr>
+                            {{?}}
+                            {{?it.appearance.bust !== undefined}}
+                                <tr><td>Bust</td><td>{{=it.appearance.bust}}</td></tr>
+                            {{?}}
+                            <tr>
+                                <td>Skin Color</td><td>{{=it.appearance.skinColor}}</td>
+                                <td><span class="color" style="background-color:{{=it.appearance.skinColorCode}};"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Hair Color</td><td>{{=it.appearance.hairColor}}</td>
+                                <td><span class="color" style="background-color:{{=it.appearance.hairColorCode}};"></span></td>
+                            </tr>
+                            {{?it.appearance.highlightColor}}
+                                <tr>
+                                    <td>Highlights</td><td>{{=it.appearance.highlightColor}}</td>
+                                    <td><span class="color" style="background-color:{{=it.appearance.highlightColorCode}};"></span></td>
+                                </tr>
+                            {{?}}
+
+                            <tr><td colspan="4" class="grouping">Face {{?it.appearance.customFace}}(Custom){{?}}</td></tr>
+                            <tr><td>Face</td><td>#{{=it.appearance.face}}</td></tr>
+                            <tr><td>Jaw</td><td>Type {{=it.appearance.jaw}}</td></tr>
+                            <tr><td>Eye Shape</td><td>Type {{=it.appearance.eyeShape}}</td></tr>
+                            <tr><td>Iris Size</td><td>{{=it.appearance.eyeSize}}</tr>
+                            <tr>
+                                <td>Eye Color</td><td>{{=it.appearance.eyeColor}}</td>
+                                <td><span class="color" style="background-color:{{=it.appearance.eyeColorCode}};"></span></td>
+                            </tr>
+                            {{?it.appearance.heterochromia}}
+                                <tr>
+                                    <td>Odd Eyes</td><td>{{=it.appearance.heterochromia}}</td>
+                                    <td><span class="color" style="background-color:{{=it.appearance.heterochromiaCode}};"></span></td>
+                                </tr>
+                            {{?}}
+                            <tr><td>Eyebrows</td><td>Type {{=it.appearance.eyebrows}}</td></tr>
+                            <tr><td>Nose</td><td>Type {{=it.appearance.nose}}</td></tr>
+                            <tr><td>Mouth</td><td>Type {{=it.appearance.mouth}}</td></tr>
+                            {{?it.appearance.lipShade}}
+                                <tr>
+                                    <td>Lip Color</td><td>{{=it.appearance.lipShade}} {{=it.appearance.lipColor}}</td>
+                                    <td><span class="color" style="background-color:{{=it.appearance.lipColorCode}};"></span></td>
+                                </tr>
+                            {{?}}
+
+                            {{?it.appearance.extraFeatureName}}
+                                <tr><td colspan="4" class="grouping">{{=it.appearance.extraFeatureName}}</td></tr>
+                                <tr><td>Shape</td><td>#{{=it.appearance.extraFeatureShape}}</td></tr>
+                                <tr><td>Size</td><td>{{=it.appearance.extraFeatureSize}}</td></tr>
+                            {{?}}
+
+                            {{?it.appearance.facialfeatures}}
+                                <tr><td colspan="4" class="grouping">Facial Features</td></tr>
+                                <tr>
+                                    <td colspan="4">
+                                        {{~it.appearance.facialfeatures :feature:findex}}
+                                            <img src="../files/icons/customize/{{=feature}}.png">
+                                        {{~}}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Color</td><td>{{=it.appearance.facialfeatureColor}}</td>
+                                </tr>                            
+                            {{?}}
+
+                            {{?it.appearance.facepaint}}
+                                <tr><td colspan="4" class="grouping">Face Paint</td></tr>
+                                <tr>
+                                    <td><img src="../files/icons/customize/{{=it.appearance.facepaint}}.png"></td>
+                                    <td>{{?it.appearance.facepaintReverse}}Reverse{{?}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Color</td><td>{{=it.appearance.facepaintShade}} {{=it.appearance.facepaintColor}}</td>
+                                    <td><span class="color" style="background-color:{{=it.appearance.facepaintColorCode}};"></span></td>
+                                </tr>
+                            {{?}}
+                        </table>
+                    </div>
+                {{?}}
+
+                {{?it.equipment}}
+                    <div class="equipment subsection collapsible collapsed" data-headername="equipment">
+                        <h3 class="pointer">Equipment</h3>
+                        {{~it.equipment :value:index}}
+                            <div class="line collapse-toggle block-link hover-highlight pointer" data-id="{{=value.id}}" data-type="item">
+                                <img class="icon small" src="{{=value.icon}}">
+                                <span class="highlight text">{{?value.uncertainty}}<span title="Uncertainty: {{=value.uncertainty}}">~</span>{{?}}{{=value.name}}</span>
+                                {{?value.dye}}<span class="right text">{{=value.dye.name}}</span>{{?}}
+                            </div>
+                        {{~}}
+                    </div>
+                {{?}}
+
+                {{?it.talk}}
+                    <div class="talk subsection collapsible collapsed" data-headername="talk">
+                        <h3 class="pointer">Talk Dialogue</h3>
+
+                        {{~it.talk :value:index}}
+                            <div class="line collapse-toggle">
+                                {{?value.quest}}
+                                    {{=gt.quest.linkTemplate(value.quest)}}
+                                {{??}}
+                                    General Dialogue
+                                {{?}}
+                            </div>
+                            {{~value.lines :line:lindex}}
+                                <div class="dialogue-entry dialogue-line collapse-toggle">
+                                    {{=line}}
+                                </div>
+                            {{~}}
+                        {{~}}
+                    </div>
+                {{?}}
+
+                {{?it.alts}}
+                    <div class="alts subsection collapsible collapsed" data-headername="alts">
+                        <h3 class="pointer">Alternate Instances</h3>
+
+                        {{~it.alts :alt:altIndex}}
+                            <div class="block-link pointer hover-highlight collapse-toggle" data-id="{{=alt.id}}" data-type="npc">
+                                {{?alt.isCurrent}}&#9733; {{?}}{{=alt.desc}}
+                                <span class="right">{{=alt.location}}</span>
+                                <div class="clear"></div>
+                            </div>
+                        {{~}}
+                    </div>
+                {{?}}
+
+                <div class="clear"></div>
+            </div>
+
+            {{?it.map}}
+                <div class="maps-page page">
+                    {{=gt.map.pageTemplate(it.map)}}
+                </div>
+            {{?}}
+        </div>
+    </script>
+
+    <script id="block-leve-template" type="text/x-dot-template">
+        <div class="midline">
+            <div class="menu tab">
+                <div data-page="stats-page" class="button">Stats</div>
+                <div data-page="lore-page" class="button">Lore</div>
+            </div>
+        </div>
+
+        <div class="content main has-pages">
+            <img class="full-width-icon" src="{{=it.areaIcon}}">
+
+            <div class="stats-page page">
+                <div class="lvl-container circle"><span class="lvl">Lv. {{=it.lvl}}</span></div>
+                {{?it.gcIcon}}<img src="{{=it.gcIcon}}" class="icon medium">{{?}}
+
+                <div class="right text-right">
+                    <div>{{=it.location}}{{?it.coords}} ({{=Math.round(it.coords[0])}}, {{=Math.round(it.coords[1])}}){{?}}</div>
+                </div>
+
+                {{?it.levemete}}
+                    <div class="levemete subsection" data-headername="levemete">
+                        <h3>Levemete</h3>
+
+                        <div class="block-link pointer line hover-highlight" data-id="{{=it.levemete.id}}" data-type="npc">
+                            <img class="icon small" src="images/Levequest.png"><span class="highlight text">{{=it.levemete.name}}</span>
+                            {{?it.levemete.location}}<span class="byline text">{{=it.levemete.location}}</span>{{?}}
+                        </div>
+                    </div>
+                {{?}}
+
+                {{?it.requires}}
+                    <div class="requires subsection" data-headername="requires">
+                        <h3>Requires{{?it.repeats}}<span class="right">Repeats: {{=it.repeats}}</span>{{?}}</h3>
+
+                        {{~it.requires :value:index}}
+                            <div class="line half block-link hover-highlight pointer" data-id="{{=value.item.id}}" data-type="item">
+                                <img class="icon small" src="{{=value.item.icon}}" title="{{=value.item.name}}">
+                                <span class="text">{{?value.amount}}{{=value.amount}} {{?}}<span class="highlight">{{=value.item.name}}</span></span>
+                            </div>
+                        {{~}}
+                    </div>
+                {{?}}
+
+                {{?it.xp || it.gil || it.gcseals}}
+                    <div class="rewards subsection" data-headername="rewards">
+                        <h3>Rewards</h3>
+
+                        {{?it.xp}}
+                            <div class="reward prime">
+                                <img class="reward-icon" src="images/xp.png" title="Experience">
+                                <span class="value">{{=it.xp}}</span>
+                                <hr>
+                            </div>
+                        {{?}}
+
+                        {{?it.gil}}
+                            <div class="reward prime">
+                                <img class="reward-icon" src="../files/icons/item/1.png" title="Gil">
+                                <span class="value">{{=it.gil}}</span>
+                                <hr>
+                            </div>
+                        {{?}}
+
+                        {{?it.complexity}}
+                            <hr>
+                            <div>NQ Complexity: {{=it.complexity.nq}}, XP / NQ Complexity: {{=it.xpPerComplexity}}</div>
+                            <div>HQ Complexity: {{=it.complexity.hq}}, XP / HQ Complexity: {{=it.xpPerComplexityHq}}</div>
+
+                            <div>
+                                <span class="action-link unselectable new-group">Add to leve calculator.</span>
+                            </div>
+                        {{?}}
+                    </div>
+                {{?}}
+
+                {{?it.rewards}}
+                    <div class="items subsection collapsible" data-headername="items">
+                        <h3 class="pointer">Items</h3>
+
+                        {{~it.rewards :value:index}}
+                            <div class="line block-link hover-highlight pointer collapse-toggle" data-id="{{=value.item.id}}" data-type="item">
+                                <img class="icon small" src="{{=value.item.icon}}">
+                                <span class="text right">{{=parseInt(value.rate * 100)}}%</span>
+                                <span class="text">{{?value.amount}}{{=value.amount}}{{?}} <span class="highlight">{{=value.item.name}}</span></span>
+                            </div>
+                        {{~}}
+                    </div>
+                {{?}}
+            </div>
+
+            <div class="lore-page page">
+                <div class="client">{{=it.client}}</div>
+
+                <div class="left plate-container">
+                    <img src="{{=it.plateIcon}}" class="plate">
+                    <img src="{{=it.frameIcon}}" class="frame">
+                </div>
+
+                <div class="block-description">{{=it.desc}}</div>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+    </script>
+
+    <script id="block-quest-template" type="text/x-dot-template">
+        <div class="midline">
+            <div class="menu tab">
+                <div data-page="stats-page" class="button">Stats</div>
+                <div data-page="lore-page" class="button">Lore</div>
+                {{?it.issuer && it.issuer.map}}
+                    <div data-page="maps-page" class="button">Maps</div>
+                {{?}}
+            </div>
+        </div>
+
+        <div class="content main has-pages">
+            {{?it.fullIcon}}
+                <img class="full-width-icon" src="{{=it.fullIcon}}">
+            {{?}}
+
+            <div class="stats-page page">
+                <div class="lvl-container circle"><span class="lvl">Lv. {{=it.lvl}}</span></div>
+                {{?it.beast}}
+                    <img src="../files/icons/beast/{{=it.beast}}.png" class="icon medium">
+                {{?}}
+
+                <div class="right text-right">
+                    <div>{{=it.location}}</div>
+                    <div>{{=it.genre}}</div>
+                </div>
+
+                {{?it.reqs}}
+                    {{?it.reqs.jobs}}<span class="jobs highlight-green">{{=it.reqs.jobs}}</span>{{?}}
+
+                    {{?it.reqs.beastrank || it.reqs.house || it.reqs.mount || it.reqs.gc || it.reqs.gcrank}}
+                        <span class="circle-line">
+                            {{?it.reqs.beastrank}}<span><span class="circle"></span>Rank {{=it.reqs.beastrank}}</span>{{?}}
+                            {{?it.reqs.house}}<span><span class="circle"></span>House</span>{{?}}
+                            {{?it.reqs.mount}}<span><span class="circle"></span>Mount</span>{{?}}
+                            {{?it.reqs.gc}}<span><span class="circle"></span>{{=it.reqs.gc}}</span>{{?}}
+                            {{?it.reqs.gcrank}}<span><span class="circle"></span>Rank {{=it.reqs.gcrank}}</span>{{?}}
+                        </span>
+                    {{?}}
+                {{?}}
+                
+                {{?it.reward}}
+                    <div class="rewards subsection" data-headername="rewards">
+                        <h3>Rewards</h3>
+
+                        {{?it.reward.xp}}
+                            <div class="reward prime">
+                                <img class="reward-icon" src="images/xp.png" title="Experience">
+                                <span class="value">{{=it.reward.xp}}</span>
+                                <hr>
+                            </div>
+                        {{?}}
+
+                        {{?it.reward.gil}}
+                            <div class="reward prime">
+                                <img class="reward-icon" src="../files/icons/item/1.png" title="Gil">
+                                <span class="value">{{=it.reward.gil}}</span>
+                                <hr>
+                            </div>
+                        {{?}}
+
+                        {{?it.reward.gcseal}}
+                            <div class="reward prime">
+                                <img class="reward-icon" src="../files/icons/item/22.png" title="GC Seal">
+                                <span class="value">{{=it.reward.gcseal}}</span>
+                                <hr>
+                            </div>
+                        {{?}}
+
+                        {{?it.reward.reputation}}
+                            <div class="reward prime">
+                                <img class="reward-icon" src="../files/icons/beast/{{=it.beast}}.png" title="Reputation">
+                                <span class="value">{{=it.reward.reputation}}</span>
+                                <hr>
+                            </div>
+                        {{?}}
+
+                        {{?it.reward.job}}
+                            <div class="reward">
+                                <img class="reward-icon" src="images/{{=it.reward.job.abbreviation}}.png" title="{{=it.reward.job.name}}">
+                            </div>
+                        {{?}}
+
+                        {{?it.reward.aetherCurrent}}
+                            <div class="reward">
+                                <img class="reward-icon" src="images/AetherCurrent.png" title="Aether Current">
+                            </div>
+                        {{?}}
+
+                        {{?it.reward.action}}
+                            <div class="reward">
+                                <img class="reward-icon block-link pointer" src="{{=it.reward.action.icon}}" title="{{=it.reward.action.name}}" data-type="action" data-id="{{=it.reward.action.id}}">
+                            </div>
+                        {{?}}
+
+                        {{?it.reward.items}}
+                            {{~it.reward.items :value:index}}
+                                <div class="item reward block-link pointer hover-highlight" data-id="{{=value.item.id}}" data-type="item">
+                                    <span class="icon-container">
+                                        <img class="reward-icon" src="{{=value.item.icon}}" title="{{=value.item.name}}">
+                                        {{?value.hq}}<img src="images/HQOverlay.png" class="hq-overlay reward-icon">{{?}}
+                                    </span>
+                                    {{?value.num}}<span class="item-amount">{{=value.num}}</span>{{?}}
+                                </div>
+                            {{~}}
+                        {{?}}
+                    </div>
+
+                    {{?it.reward.optional}}
+                        <div class="rewards subsection" data-headername="optional-rewards">
+                            <h3>Optional Rewards</h3>
+
+                            {{~it.reward.optional :value:index}}
+                                <div class="item reward block-link pointer hover-highlight" data-id="{{=value.item.id}}" data-type="item">
+                                    <span class="icon-container">
+                                        <img class="reward-icon" src="{{=value.item.icon}}" title="{{=value.item.name}}">
+                                        {{?value.hq}}<img src="images/HQOverlay.png" class="hq-overlay reward-icon">{{?}}
+                                    </span>
+                                    {{?value.num}}<span class="item-amount">{{=value.num}}</span>{{?}}
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+                {{?}}
+
+                {{?it.next || (it.reward && (it.reward.instance || it.reward.emote))}}
+                    <div class="next subsection" data-headername="next">
+                        <h3>Unlocks</h3>
+                        {{?it.next}}
+                            {{~it.next :value:index}}
+                                {{=gt.quest.linkTemplate(value)}}
+                            {{~}}
+                        {{?}}
+
+                        {{?it.reward}}
+                            {{?it.reward.instance}}
+                                <div class="line pointer hover-highlight block-link" data-id="{{=it.reward.instance.id}}" data-type="instance">
+                                    <img class="icon small" src="{{=it.reward.instance.icon}}">
+                                    <span class="highlight text">{{=it.reward.instance.name}}</span>
+                                </div>
+                            {{?}}
+
+                            {{?it.reward.emote}}
+                                <div class="line">
+                                    <span class="highlight">{{=it.reward.emote}}</span> emote
+                                </div>
+                            {{?}}
+                        {{?}}
+                    </div>
+                {{?}}
+
+                {{?it.usedItems || (it.reqs && (it.reqs.instances || it.reqs.quests))}}
+                    <div class="requires subsection" data-headername="requires">
+                        <h3>Requires {{?it.reqs.questsType}}{{=it.reqs.questsType}}{{?}}</h3>
+                        {{?it.reqs && it.reqs.quests}}
+                            {{~it.reqs.quests :value:index}}
+                                {{=gt.quest.linkTemplate(value)}}
+                            {{~}}
+                        {{?}}
+
+                        {{?it.reqs && it.reqs.instances}}
+                            {{~it.reqs.instances :value:index}}
+                                <div class="line pointer hover-highlight block-link" data-id="{{=value.id}}" data-type="instance">
+                                    <img class="icon small" src="{{=value.icon}}">
+                                    <span class="highlight text">{{=value.name}}</span>
+                                </div>
+                            {{~}}
+                        {{?}}
+
+                        {{?it.usedItems}}
+                            {{~it.usedItems :value:index}}
+                                {{=gt.item.halfLinkTemplate(value)}}
+                            {{~}}
+                        {{?}}
+                    </div>
+                {{?}}
+
+                <div class="npc subsection collapsible" data-headername="npc">
+                    <h3 class="pointer">Involved NPCs</h3>
+
+                    {{?it.issuer}}
+                        <div class="collapse-toggle line block-link pointer hover-highlight" data-id="{{=it.issuer.id}}" data-type="npc">
+                            <span><span class="highlight">{{=it.issuer.name}}</span> <span class="byline involved-text">Issuer{{?it.target && it.issuer.id == it.target.id}}, Target{{?}}</span></span>
+                            {{?it.issuer.location}}<span class="location right">{{=it.issuer.location}}</span>{{?}}
+                            <div class="clear"></div>
+                        </div>
+                    {{?}}
+
+                    {{?it.target && (!it.issuer || it.target.id != it.issuer.id)}}
+                        <div class="collapse-toggle line block-link pointer hover-highlight" data-id="{{=it.target.id}}" data-type="npc">
+                            <span class="highlight">{{=it.target.name}}</span> <span class="byline involved-text">Target</span>
+                            {{?it.target.location}}<span class="location right">{{=it.target.location}}</span>{{?}}
+                            <div class="clear"></div>
+                        </div>
+                    {{?}}
+
+                    {{?it.involved}}
+                        {{~it.involved :npc:index}}
+                            <div class="collapse-toggle line block-link pointer hover-highlight" data-id="{{=npc.id}}" data-type="npc">
+                                <span class="highlight">{{=npc.name}}</span>
+                                {{?npc.location}}<span class="location right">{{=npc.location}}</span>{{?}}
+                                <div class="clear"></div>
+                            </div>
+                        {{~}}
+                    {{?}}
+                </div>
+            </div>
+
+            <div class="lore-page page">
+                <div class="objectives subsection collapsible" data-headername="objectives">
+                    <h3 class="pointer">Objectives</h3>
+
+                    {{~it.objectives :value:index}}
+                        <div class="objective-entry collapse-toggle">&#x2713; {{=value}}</div>
+                    {{~}}
+                </div>
+
+                <div class="journal subsection collapsible collapsed" data-headername="journal">
+                    <h3 class="pointer">Journal</h3>
+
+                    {{~it.journal :value:index}}
+                        <div class="journal-entry collapse-toggle">
+                            {{=value}}
+                            <hr>
+                        </div>
+                    {{~}}
+                </div>
+
+                <div class="dialogue subsection collapsible collapsed" data-headername="dialogue">
+                    <h3 class="pointer">Dialogue</h3>
+
+                    {{~it.dialogue :value:index}}
+                        <div class="dialogue-entry collapse-toggle {{=value.type}}">
+                            {{=value.text}}
+                        </div>
+                    {{~}}
+                </div>
+
+                {{?it.talk}}
+                    <div class="talk subsection collapsible collapsed" data-headername="talk">
+                        <h3 class="pointer">Talk Dialogue</h3>
+
+                        {{~it.talk :value:index}}
+                            {{?value.npc}}
+                                <div class="line block-link pointer hover-highlight collapse-toggle" data-id="{{=value.npc.id}}" data-type="npc">
+                                    <span class="highlight">{{=value.text}}</span>
+                                    {{?value.npc.location}}<span class="location right">{{=value.npc.location}}</span>{{?}}
+                                    <div class="clear"></div>
+                                </div>
+                            {{??}}
+                                <div class="dialogue-entry collapse-toggle {{=value.type}}">
+                                    {{=value.text}}
+                                </div>
+                            {{?}}
+                        {{~}}
+                    </div>
+                {{?}}
+            </div>
+
+            {{?it.issuer && it.issuer.map}}
+                <div class="maps-page page">
+                    <div>Issuer: {{=it.issuer.name}}</div>
+                    {{=gt.map.pageTemplate(it.issuer.map)}}
+                </div>
+            {{?}}
+        </div>
+    </script>
+
+    <script id="block-mob-template" type="text/x-dot-template">
+        <div class="content main">
+            {{?it.location_type == 'instance'}}
+                <div class="location right pointer highlight block-link" data-id="{{=it.location_id}}" data-type="{{=it.location_type}}">{{=it.location}}</div>
+            {{??}}
+                <div class="location right">{{=it.location}}</div>
+            {{?}}
+
+            {{?it.currency}}
+                <div class="currency line">
+                    {{~it.currency :value:index}}
+                        <img class="icon small" src="{{=gt.item.iconPath(value.item.c)}}" title="{{=value.item.n}}">
+                        <span class="text">{{=value.amount}}</span>
+                    {{~}}
+                </div>
+            {{?}}
+
+            {{?it.drops}}
+                <div class="items subsection" data-headername="items">
+                    <h3>{{=it.item_text}}</h3>
+
+                    {{~it.drops :value:index}}
+                        {{=gt.item.halfLinkTemplate(value)}}
+                    {{~}}
+                </div>
+            {{?}}
+        </div>
+    </script>
+
+    <script id="block-fishing-template" type="text/x-dot-template">
+        <div class="midline">
+            <div class="menu tab">
+                <div data-page="fish-page" class="button">Fish</div>
+                {{?it.map}}<div data-page="map-page" class="button">Map</div>{{?}}
+            </div>
+        </div>
+
+        <div class="content main has-pages">
+            <div class="fish-page page">
+                <div class="items subsection">
+                    {{~it.items :value:index}}
+                        <div class="line half block-link hover-highlight pointer" data-id="{{=value.item.id}}" data-type="item">
+                            <img class="icon small" src="{{=value.item.icon}}">
+                            <span class="text">{{=value.lvl}}</span> 
+                            <span class="highlight text">{{=value.item.name}}</span>
+                        </div>
+                    {{~}}
+                </div>
+            </div>
+
+            {{?it.map}}
+                <div class="map-page page">
+                    <div class="collapse-toggle">{{=gt.map.pageTemplate(it.map)}}</div>
+                </div>
+            {{?}}
+        </div>
+    </script>
+
+    <script id="block-fate-template" type="text/x-dot-template">
+        <div class="midline">
+            <div class="menu tab">
+                <div data-page="map-page" class="button">Map</div>
+                <div data-page="info-page" class="button">Info</div>
+            </div>
+        </div>
+
+        <div class="content main has-pages">
+            <div class="map-page page">
+                {{?it.map}}
+                    {{=gt.map.pageTemplate(it.map)}}
+                {{??}}
+                    Somewhere in {{=it.fullLocation}}.  Please submit coordinates!
+                {{?}}
+            </div>
+
+            <div class="info-page page">
+                <div class="block-description">{{=it.description}}</div>
+                <div class="clear"></div>
+
+                {{?it.items}}
+                    <div class="subsection">
+                        <h3>Rewards</h3>
+                        {{~it.items :value:index}}
+                            {{=gt.item.halfLinkTemplate(value)}}
+                        {{~}}
+                    </div>
+                {{?}}
+            </div>
+        </div>
+    </script>
+
+    <script id="block-node-template" type="text/x-dot-template">
+        <div class="midline">
+            <div class="menu tab">
+                <div data-page="info-page" class="button">Info</div>
+                {{?it.map}}<div data-page="map-page" class="button">Map</div>{{?}}
+            </div>
+        </div>
+
+        <div class="content main has-pages {{?!it.map}}one-page{{?}}s">
+            <div class="info-page page">
+                <div class="items subsection">
+                    {{~it.items :value:index}}
+                        <div class="line half block-link hover-highlight pointer" data-id="{{=value.id}}" data-type="item">
+                            <img class="icon small" src="{{=value.icon}}">
+                            {{?value.node_slot}}<span class="text">[{{=value.node_slot}}]</span> {{?}}
+                            <span class="highlight text">{{=value.name}}</span>
+                        </div>
+                    {{~}}
+                </div>
+
+                <hr>
+                <div class="location right">{{=it.location}}{{?it.timeText}} @ {{=it.timeText}} ET{{?}}</div>
+                <div class="highlight-green">Lv. {{=it.lvl}} {{=it.job}}</div>
+
+                {{?it.time}}
+                    <div class="limited subsection">
+                        <div class="progress-container"><div class="progress {{=it.spawnState}}" style="width: {{=it.initialProgressPercent}}%;"></div></div>
+                        <span class="spawn-info">{{=it.spawnText}}</span>
+                        <span class="spawn-remaining">{{=it.initialSpawnRemaining}}</span>
+                    </div>
+                {{?}}
+
+                {{?it.bonus}}
+                    {{~it.bonus :bonus:index}}
+                        <div class="deemphasize">{{=bonus.condition}} ➜ {{=bonus.bonus}}</div>
+                    {{~}}
+                {{?}}
+
+                {{?it.unlock}}
+                    <hr>
+                    <div>{{=gt.item.halfLinkTemplate(it.unlock)}}</div>
+                {{?}}
+            </div>
+
+            {{?it.map}}
+                <div class="map-page page">
+                    <div class="collapse-toggle">{{=gt.map.pageTemplate(it.map)}}</div>
+                </div>
+            {{?}}
+        </div>
+    </script>
+
+    <script id="block-instance-template" type="text/x-dot-template">
+        <div class="type midline">
+            <div class="menu tab">
+                <div data-page="stats-page" class="button">Stats</div>
+                {{?it.treasure || it.coffers || it.rewards}}
+                    <div data-page="treasures-page" class="button">Treasure</div>
+                {{?}}
+                {{?it.fights}}
+                    <div data-page="fights-page" class="button">Fights</div>
+                {{?}}
+            </div>
+        </div>
+
+        <div class="content main has-pages">
+            {{?it.fullIcon}}
+                <img class="full-width-icon" src="{{=it.fullIcon}}">
+            {{?}}
+
+            <div class="stats-page page">
+                <div class="right">{{=it.time}} minutes</div>
+
+                <div class="highlight-green">
+                    {{=it.requirements}}
+                </div>
+
+                {{?it.roulette}}
+                    <div class="right">{{=it.roulette.name}}</div>
+                {{?}}
+
+                <div class="currency line clear">
+                    {{~it.currency :value:index}}
+                        <img class="icon small" src="{{=value.item.icon}}" title="{{=value.item.name}}">
+                        <span class="text">{{=value.amount}}</span>
+                    {{~}}
+
+                    {{?it.roulette}}
+                        <img class="icon small roulette-icon" src="images/DutyRoulette.png">
+                        {{~it.roulette.reward :value:index}}
+                            <img class="icon small" src="{{=value.item.icon}}" title="{{=value.item.name}}">
+                            <span class="text">{{=value.amount}}</span>
+                        {{~}}
+                    {{?}}
+                </div>
+
+                {{?it.desc}}
+                    <div class="block-description">{{=it.desc}}</div>
+                {{?}}
+
+                {{?it.healer || it.tank || it.dps}}
+                    <div class="party subsection collapsible" data-headername="party">
+                        <h3 class="pointer">Party</h3>
+                        <div class="party-line collapse-toggle">
+                            {{?it.tank}}
+                                <img class="icon" src="images/Tank.png" title="Tank">
+                                <span class="text">{{=it.tank}}</span>
+                            {{?}}
+
+                            {{?it.healer}}
+                                <img class="icon" src="images/Healer.png" title="Healer">
+                                <span class="text">{{=it.healer}}</span>
+                            {{?}}
+
+                            {{?it.dps}}
+                                <img class="icon" src="images/DPS.png" title="DPS (Melee {{=it.melee}}, Ranged {{=it.ranged}})">
+                                <span class="text">{{=it.dps}}</span>
+                            {{?}}
+                        </div>
+                    </div>
+                {{?}}
+
+                {{?it.requiredForQuest}}
+                    <div class="required-for-quest subsection collapsible" data-headername="requiredfor">
+                        <h3 class="pointer">Required For</h3>
+                        {{~it.requiredForQuest :value:index}}
+                            {{=gt.quest.linkTemplate(value)}}
+                        {{~}}
+                    </div>
+                {{?}}
+
+                {{?it.unlockedByQuest}}
+                    <div class="unlocked-by-quest subsection collapsible" data-headername="unlockedby">
+                        <h3 class="pointer">Unlocked By</h3>
+                        {{=gt.quest.linkTemplate(it.unlockedByQuest)}}
+                    </div>
+                {{?}}
+            </div>
+
+            {{?it.coffers || it.rewards}}
+                <div class="treasures-page page">
+                    {{?it.coffers}}
+                        {{~it.coffers :coffer:cindex}}
+                            <div class="coffer subsection collapsible collapsed" data-headername="coffer{{=cindex}}">
+                                <h3 class="pointer">Coffer{{?coffer.coords}} ({{=coffer.coords[0]}}, {{=coffer.coords[1]}}){{?}} <span class="right badge">{{=coffer.items.length}}</span></h3>
+                                {{~coffer.items :item:iindex}}
+                                    {{=gt.item.halfLinkTemplate(item)}}
+                                {{~}}
+                            </div>
+                        {{~}}
+                    {{?}}
+
+                    {{?it.rewards}}
+                        <div class="other subsection collapsible collapsed" data-headername="other">
+                            <h3 class="pointer">Other Rewards <span class="right badge">{{=it.rewards.length}}</span></h3>
+                            {{~it.rewards :item:index}}
+                                {{=gt.item.halfLinkTemplate(item)}}
+                            {{~}}
+                        </div>
+                    {{?}}
+                </div>
+            {{?}}
+
+            {{?it.fights}}
+                <div class="fights-page page">
+                    {{~it.fights :fight:findex}}
+                        <div class="fight subsection{{?fight.mobs || fight.coffer || fight.currency}} collapsible collapsed{{?}}" data-headername="fight{{=findex}}">
+                            <h3 {{?fight.mobs || fight.coffer || fight.currency}}class="pointer"{{?}}>
+                                {{=fight.type}}
+                                {{?fight.header}}
+                                    <span class="right highlight block-link pointer" data-id="{{=fight.header.id}}" data-type="mob">{{=fight.header.name}}</span>
+                                {{?}}
+                            </h3>
+
+                            {{?fight.currency}}
+                                <div class="currency line collapse-toggle">
+                                    {{~fight.currency :value:index}}
+                                        <img class="icon small" src="{{=value.item.icon}}" title="{{=value.item.name}}">
+                                        <span class="text">{{=value.amount}}</span>
+                                    {{~}}
+                                </div>
+                            {{?}}
+
+                            {{?fight.mobs}}
+                                {{~fight.mobs :mob:mindex}}
+                                    <div class="clear line pointer block-link hover-highlight collapse-toggle" data-id="{{=mob.id}}" data-type="mob">
+                                        <span class="highlight">Lv. {{=mob.lvl}} {{=mob.name}}</span>
+                                    </div>
+                                {{~}}
+                            {{?}}
+
+                            {{?fight.coffer}}
+                                {{~fight.coffer.items :item:iindex}}
+                                    {{=gt.item.halfLinkTemplate(item)}}
+                                {{~}}
+                            {{?}}
+                        </div>
+                    {{~}}
+                </div>
+            {{?}}
+        </div>
+    </script>
+
+    <script id="block-action-template" type="text/x-dot-template">
+        <div class="content main">
+            <div class="right ranges-container">
+                {{?it.range}}<span class="deemphasize">Range</span> {{=it.range}}{{?}}{{?it.size}} <span class="deemphasize">Radius</span> {{=it.size}}{{?}}
+            </div>
+
+            {{?it.pet}}<div>{{=it.pet}}</div>{{?}}
+            <div class="left">{{=it.category}}</div>
+
+            <div class="clear attributes prime right">
+                {{?it.cast}}{{=gt.item.attributeValueTemplate(it.cast)}}{{?}}
+                {{?it.recast}}{{=gt.item.attributeValueTemplate(it.recast)}}{{?}}
+                {{?it.cost}}
+                    {{?!it.cost.status}}
+                        {{=gt.item.attributeValueTemplate(it.cost)}}
+                    {{??}}
+                        <div class="attribute status">
+                            <span class="name">{{=it.cost.name}}</span>
+                            <span class="value"><img src="{{=it.cost.status}}" class="icon small"></span>
+                            <hr>
+                        </div>
+                    {{?}}
+                {{?}}
+            </div>
+
+            {{?it.gcd}}
+                <div class="clear-right"></div>
+
+                <div class="circle-line">
+                    <span class="inline-block"><span class="circle"></span>{{=it.gcd}}</span>
+                </div>
+            {{?}}
+
+            <div class="clear"></div>
+
+            <hr>
+
+            <div class="description">{{=it.desc}}</div>
+
+            <div><span class="highlight">Affinity</span> {{=it.affinity}}</div>
+
+            {{?it.status}}
+                <div class="separator"></div>
+
+                {{~it.status :status:sindex}}
+                    <div class="line status">
+                        <img src="{{=status.icon}}" class="icon small" title="{{=status.desc}}">
+                        <span class="text">{{=status.name}} {{=status.relationship}}</span>
+                    </div>
+                {{~}}
+            {{?}}
+
+            {{?it.comboFrom || it.comboTo}}
+                <div class="combo subsection collapsible" data-headername="combo">
+                    <h3 class="pointer">Combos</h3>
+
+                    {{?it.comboFrom}}
+                        <div class="collapse-toggle block-link hover-highlight line pointer" data-type="action" data-id="{{=it.comboFrom.id}}">
+                            <span class="text right">From Weaponskill</span>
+                            <img src="{{=it.comboFrom.icon}}" class="icon small">
+                            <span class="highlight text">{{=it.comboFrom.name}}</span>
+                        </div>
+                    {{?}}
+
+                    {{?it.comboTo}}
+                        {{~it.comboTo :combo:cindex}}
+                            <div class="collapse-toggle block-link hover-highlight line pointer" data-type="action" data-id="{{=combo.id}}">
+                                <span class="text right">To Weaponskill</span>
+                                <img src="{{=combo.icon}}" class="icon small">
+                                <span class="highlight text">{{=combo.name}}</span>
+                            </div>
+                        {{~}}
+                    {{?}}
+                </div>
+            {{?}}
+
+            {{?it.traits}}
+                <div class="trait subsection collapsible" data-headername="traits">
+                    <h3 class="pointer">Traits</h3>
+
+                    {{~it.traits :trait:tindex}}
+                        <div class="collapse-toggle block-link hover-highlight line half pointer" data-type="action" data-id="{{=trait.id}}">
+                            <img src="{{=trait.icon}}" class="icon small">
+                            <span class="highlight text">{{=trait.name}}</span>
+                        </div>
+                    {{~}}
+                </div>
+            {{?}}
+        </div>
+    </script>
+
+    <script id="block-achievement-template" type="text/x-dot-template">
+        <div class="content main">
+            <div class="right points">{{=it.points}}</div>
+            <span>{{=it.desc}}</span>
+
+            {{?it.title || it.item}}
+                <div class="rewards subsection">
+                    <h3>Rewards</h3>
+
+                    {{?it.title}}
+                        <div><span class="name">Title</span>{{=it.title}}</div>
+                    {{?}}
+
+                    {{?it.item}}
+                        {{=gt.item.halfLinkTemplate(it.item)}}
+                    {{?}}
+                </div>
+            {{?}}
+
+            <div class="clear"></div>
+        </div>
+    </script>
+
+    <script id="tree-craft-template" type="text/x-dot-template">
+        <div class="tree">
+            <div class="craft-mode line pointer">
+                <span class="text">Mode: Tree</span> <img src="images/Tree.png" class="icon small"> <span class="text action-link">Change crafting display mode.</span>
+            </div>
+
+            {{?!it.showGoals}}
+                {{var goalStep = it.groups.goal[0];}}
+                <div class="step {{?goalStep.isReady}}ready{{?}} {{?goalStep.required == goalStep.finished}}finished{{?}}" data-stepid="{{=goalStep.id}}">
+                    <span class="progress-container right pointer"><span class="progress"></span></span>
+                </div>
+            {{?}}
+
+            {{?it.crystal || it.price}}
+                {{=gt.craft.crystalTemplate(it)}}
+            {{?}}
+
+            {{~it.children :goal:gindex}}
+                {{=gt.craft.treeNodeTemplate({node: goal, depth: 1, show: it.showGoals, index: gindex})}}
+                {{?gindex + 1 < it.children.length}}<div class="separator"></div>{{?}}
+            {{~}}
+
+            {{?it.revenue}}{{=gt.craft.profitTemplate(it)}}{{?}}
+        </div>
+    </script>
+
+    <script id="tree-craft-node-template" type="text/x-dot-template">
+        <div class="node depth{{=it.depth}} step-{{?it.show}}visible{{??}}hidden{{?}}" data-index="{{=it.index}}">
+            {{?it.show}}
+                <div class="step">
+                    {{=gt.craft.stepTemplate(it.node)}}
+                </div>
+            {{?}}
+
+            {{~it.node.children :child:cindex}}
+                {{=gt.craft.treeNodeTemplate({node: child, depth: it.depth + 1, show: true, index: cindex})}}
+            {{~}}
+        </div>
+    </script>
+
+    <script id="step-craft-template" type="text/x-dot-template">
+        <div class="collapse-toggle">
+            <span class="progress-container right pointer"><span class="progress"></span></span>
+
+            <div class="line pointer block-link hover-highlight" data-id="{{=it.item.id}}" data-type="item">
+                <span class="icon-container">
+                    <img class="icon small" src="{{=it.view.icon}}">
+                    {{?it.affectsQuality}}<img src="images/HQOverlay.png" class="hq-overlay icon small">{{?}}
+                </span>
+
+                <span class="text">{{=it.required - it.finished}} <span class="highlight">{{=it.view.name}}</span>{{?it.craft && it.craft.yield > 1}}({{=it.craft.yield}}){{?}}</span>
+
+                {{?!it.craft}}
+                    {{?it.sourceView}}
+                        <span class="right {{?it.sourceView.limited}}specialist{{?}}">
+                            {{?it.sourceView.longSourceName}}<span class="text long-name" title="{{=it.sourceView.longSourceName}}">{{=it.sourceView.longSourceName}}</span>{{?}}
+                            <span class="text short-name" title="{{=it.sourceView.longSourceName || ""}}">{{=it.sourceView.sourceName}}</span>
+                            {{?it.sourceView.stars}}<span class="text">{{=gt.util.stars(it.sourceView.stars)}}</span>{{?}}
+                            {{?it.sourceView.icon}}
+                                <img class="job-icon" src="{{=it.sourceView.icon}}">
+                            {{?}}
+                        </span>
+                    {{?}}
+                {{??!it.craft.fc}}
+                    <span class="right {{?it.craft.special}}specialist{{?}}">
+                        <span class="text">Lv. {{=it.craft.lvl}}{{=gt.util.stars(it.craft.stars)}}</span>
+                        <img class="job-icon" src="images/{{=gt.jobs[it.craft.job].abbreviation}}.png">
+                     </span>
+                {{?}}
+                <div class="clear"></div>
+            </div>
+        </div>
+    </script>
+
+    <script id="expanded-step-craft-template" type="text/x-dot-template">
+        <div class="collapse-toggle line expanded">
+            <span class="progress-container right pointer"><span class="progress"></span></span>
+
+            <span class="amounts">
+                <input type="number" value="{{=it.finished}}" class="finished">
+                <span class="text">/ {{?it.required - it.finished == 0}}--{{??}}+{{=it.required - it.finished}}{{?}}</span>
+                <span class="text">/ {{=it.required}}</span>
+            </span>
+            <span class="pointer block-link hover-highlight inline-block" data-id="{{=it.item.id}}" data-type="item">
+                <span class="icon-container">
+                    <img class="icon small" src="{{=it.view.icon}}">
+                    {{?it.affectsQuality}}<img src="images/HQOverlay.png" class="hq-overlay icon small">{{?}}
+                </span>
+
+                <span class="text"><span class="highlight">{{=it.view.name}}</span>{{?it.craft && it.craft.yield > 1}}({{=it.craft.yield}}){{?}}</span>
+            </span>
+
+            {{?!it.craft}}
+                {{?it.sourceView}}
+                    <span class="right {{?it.sourceView.limited}}specialist{{?}}">
+                        {{?it.sourceView.longSourceName}}<span class="text long-name" title="{{=it.sourceView.longSourceName}}">{{=it.sourceView.longSourceName}}</span>{{?}}
+                        <span class="text short-name" title="{{=it.sourceView.longSourceName || ""}}">{{=it.sourceView.sourceName}}</span>
+                        {{?it.sourceView.stars}}<span class="text">{{=gt.util.stars(it.sourceView.stars)}}</span>{{?}}
+                        {{?it.sourceView.icon}}
+                            <img class="job-icon" src="{{=it.sourceView.icon}}">
+                        {{?}}
+                    </span>
+                {{?}}
+            {{??!it.craft.fc}}
+                <span class="right {{?it.craft.special}}specialist{{?}}">
+                    <span class="text">Lv. {{=it.craft.lvl}}{{=gt.util.stars(it.craft.stars)}}</span>
+                    <img class="job-icon" src="images/{{=gt.jobs[it.craft.job].abbreviation}}.png">
+                    </span>
+            {{?}}
+            <div class="clear"></div>
+        </div>
+    </script>
+
+    <script id="crystal-craft-template" type="text/x-dot-template">
+        <div class="crystals line">
+            {{~it.groups.crystal :step:index}}
+                <span class="inline-block block-link hover-highlight pointer" data-type="item" data-id="{{=step.item.id}}">
+                    <img class="icon small" src="{{=step.view.icon}}" title="{{=step.view.name}}">
+                    <span class="text">{{=step.required - step.finished}}</span>
+                </span>
+            {{~}}
+            {{~it.priceViews :value:index}}
+                <span class="inline-block">
+                    <img class="icon small" src="{{=value.icon}}" title="{{=value.name}}">
+                    <span class="text">{{=value.amount.toLocaleString()}}</span>
+                </span>
+            {{~}}
+        </div>
+    </script>
+
+    <script id="flat-craft-template" type="text/x-dot-template">
+        <div class="craft-mode line pointer">
+            {{?it.amounts}}
+                <span class="text">Mode: Expanded</span> <img src="images/Amount.png" class="icon small">
+            {{??}}
+                <span class="text">Mode: Flat</span> <img src="images/Flat.png" class="icon small">
+            {{?}}
+            <span class="text action-link">Change crafting display mode.</span>
+        </div>
+
+        {{##def.step:s:
+            <div class="step {{?s.isReady}}ready{{?}} {{?s.required == s.finished}}finished{{?}}" data-stepid="{{=s.id}}">
+                {{?it.amounts}}
+                    {{=gt.craft.expandedStepTemplate(s)}}
+                {{??}}
+                    {{=gt.craft.stepTemplate(s)}}
+                {{?}}
+                <div class="clear"></div>
+            </div>
+        #}}
+
+        {{?!it.showGoals}}
+            {{var goalStep = it.groups.goal[0];}}
+            <div class="step {{?goalStep.isReady}}ready{{?}} {{?goalStep.required == goalStep.finished}}finished{{?}}" data-stepid="{{=goalStep.id}}">
+                <span class="progress-container right pointer"><span class="progress"></span></span>
+            </div>
+        {{?}}
+
+        {{?it.groups.crystal || it.price}}
+            {{=gt.craft.crystalTemplate(it)}}
+        {{?}}
+
+        {{~it.categories :category:cindex}}
+            {{?category.visible}}
+                <div class="craft-category collapsible" data-headername="{{=category.name}}">
+                    <h3 class="pointer">{{=category.name}}<span class="right">{{=gt.craft.completeText(category.steps)}}</span></h3>
+                    {{~category.steps :step:index}}
+                        {{#def.step:step}}
+                    {{~}}
+                </div>
+            {{?}}
+        {{~}}
+
+        {{?it.showGoals || it.groups.goal.length > 1}}
+            <div class="goal collapsible" data-headername="goal">
+                <h3 class="pointer">Goal<span class="right">{{=gt.craft.completeText(it.groups.goal)}}</span></h3>
+                {{~it.groups.goal :step:index}}
+                    {{#def.step:step}}
+                {{~}}
+            </div>
+        {{?}}
+
+        {{?it.revenue}}{{=gt.craft.profitTemplate(it)}}{{?}}
+    </script>
+
+    <script id="profit-craft-template" type="text/x-dot-template">
+        <div class="profit collapsible collapsed" data-headername="profit">
+            <h3 class="pointer">{{?it.profit > 0}}Profit{{??}}Loss{{?}} <span class="right">{{=it.profit.toLocaleString()}}</span></h3>
+            <div class="line collapse-toggle">
+                <span class="text">Revenue</span>
+                <span class="right">
+                    <span class="text">{{=it.revenue.toLocaleString()}}</span>
+                    <img class="job-icon" src="../files/icons/item/1.png">
+                </span>
+            </div>
+            {{?it.expense > 0}}
+                <div class="line collapse-toggle clear">
+                    <span class="text">Expenses</span>
+                    <span class="right">
+                        <span class="text">-{{=it.expense.toLocaleString()}}</span>
+                        <img class="job-icon" src="../files/icons/item/1.png">
+                    </span>
+                </div>
+            {{?}}
+            <div class="separator collapse-toggle"></div>
+            <div class="line collapse-toggle clear">
+                <span class="text">Net Profit</span>
+                <span class="right">
+                    <span class="text">{{=it.profit.toLocaleString()}}</span>
+                    <img class="job-icon" src="../files/icons/item/1.png">
+                </span>
+            </div>
+        </div>
+    </script>
+
+    <script id="trade-entry-template" type="text/x-dot-template">
+        {{~it.item :item:itemIndex}}
+            <div class="inline-block block-link hover-highlight trade pointer" data-id="{{=item.id}}" data-type="item">
+                <img class="icon small" src="{{=item.icon}}" title="{{=item.name}}">
+                {{?item.amount > 1}}{{=item.amount}} {{?}}
+                <span class="highlight">{{=item.name}}{{?item.hq}} <img class="hq-icon small" src="images/hq.png">{{?}}</span>
+            </div>
+        {{~}}
+
+        {{?it.currency.length}}
+            <div class="right">
+                {{~it.currency :currency:currencyIndex}}
+                    <div class="inline-block block-link trade hover-highlight pointer" data-id="{{=currency.id}}" data-type="item">
+                        <img class="icon small" src="{{=currency.icon}}" title="{{=currency.name}}">
+                        <span class="right"> {{=currency.amount.toLocaleString()}}{{?currency.hq}} <img class="hq-icon" src="images/hq.png">{{?}}{{?currency.collectability}} <img class="icon small" src="images/Collectable.png" title="Collectability Rating">{{=currency.collectability}}{{?}}</span>
+                    </div>
+                {{~}}
+            </div>
+        {{?}}
+
+        <div class="clear"></div>
+    </script>
+
+    <script id="list-header-template" type="text/x-dot-template">
+        <img src="{{=it.icon}}" class="icon">
+        <span class="name">{{=it.displayName}}</span>
+        <input type="text" value="{{=it.displayName}}">
+        <div class="right list-actions">
+            <span class="badge">{{=it.amount}}</span>
+            <img src="images/Share.svg" id="share-list">
+            <img src="images/SortAlpha.svg" id="sort-alpha">
+            <img src="images/x.svg" class="close-button" id="delete-list">
+        </div>
+        <div class="clear"></div>
+    </script>
+
+    <script id="block-error-template" type="text/x-dot-template">
+        <div class="content main">
+            <div>{{=it.type}}/{{=it.id}}</div>
+            <br>
+            <div>An error was logged opening this block.  This is usually caused by a bad link or old cached data.  Please use <b>Ctrl+F5</b> or <b>Shift+F5</b> to refresh.  Sorry for the inconvenience.  This block is safe to close.</div>
+            <br>
+            <div class="deemphasize">Details: {{=it.exception.message}}</div>
+        </div>
+    </script>
+</head>
+<body>
+    <div id="sidebar">
+        <div class="title center">
+            <img id="main-logo" src="images/Garland.png" title="The o is silent.">
+            <div class="text">
+                <a class="title-link" href="/">Garland Data</a>
+                <div class="subtitle">An unofficial FFXIV database</div>
+                <a class="patch-link highlight block-link" data-type="patch">[patch link]</a>
+            </div>
+        </div>
+
+        <div id="pin-marker"></div>
+        <div id="pinned"></div>
+
+        <img src="images/Search.png" title="Search" id="open-search-button">
+
+        <div id="sidebar-search-container">
+            <div id="search-section">
+                <div id="search-header">
+                    <img src="images/Search.png" title="Search">
+                        <input type="search" id="search-input" placeholder="Search" />
+
+                        <span id="search-filters-button" class="button" title="Filters"></span>
+                </div>
+
+                <div id="search-filters-page" class="content">
+                    <span class="button" id="clear-filters">Clear Filters</span>
+
+                    <table>
+                        <tr>
+                            <td colspan="2"><h3>Item Filters</h3></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" class="filter" id="filter-item-craftable"><label for="filter-item-craftable">Craftable</label></td>
+                            <td><input type="checkbox" class="filter" id="filter-item-desynthable"><label for="filter-item-desynthable">Desynthable</label></td>
+                        </tr>
+                        <tr>
+                            <td><label for="filter-item-level-min">Item Level</label></td>
+                            <td><input type="number" id="filter-item-level-min" class="filter" min="0" max="9999"> - <input type="number" id="filter-item-level-max" class="filter" min="0" max="9999"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="filter-item-equippable">Equippable By</label></td>
+                            <td>
+                                <select id="filter-item-equippable">
+                                    <option value="0">All</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="filter-item-category">Category</label></td>
+                            <td>
+                                <select id="filter-item-category">
+                                    <option value="0">All</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="filter-item-rarity">Rarity</label></td>
+                            <td>
+                                <select id="filter-item-rarity">
+                                    <option value="0" class="normal-color">All</option>
+                                    <option value="1" class="normal-color">Common</option>
+                                    <option value="2" class="rarity2">Uncommon</option>
+                                    <option value="3" class="rarity3">Rare</option>
+                                    <option value="4" class="rarity4">Relic</option>
+                                    <option value="7" class="rarity7">Aetherial</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="search-page">
+                    <div class="search-pagination">
+                        <span class="button search-previous">Previous Page</span>
+                        <span class="button search-next">Next Page</span>
+                    </div>        
+
+                    <div class="midline">
+                        <div class="menu tab noclose" data-menu-name="search-menu">
+                            <div class="button" data-page="search-list-page">Results</div>
+                            <div class="button" data-page="search-icons-page">Icons</div>
+                            <div id="search-results-count" class="text">Search</div>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="search-list-page content has-pages page"></div>
+                    <div class="search-icons-page content has-pages page"></div>
+
+                    <div id="search-loading">
+                        <div>Loading...</div>
+                        <img src="images/Atomos.png">
+                    </div>
+
+                    <div class="search-pagination">
+                        <span class="button search-previous">Previous Page</span>
+                        <span class="button search-next">Next Page</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="minimap"></div>
+    </div>
+
+    <div id="popover-container"></div>
+
+    <div id="header">
+        <div class="title">
+            <img src="images/Garland.png" title="The o is silent.">
+            <div class="text">
+                <a class="title-link" href="/">Garland Data</a>
+                <div class="subtitle">An unofficial FFXIV database</div>
+                <a class="patch-link highlight block-link" data-type="patch">[patch link]</a>
+            </div>
+        </div>
+
+        <div class="menu unselectable">
+            <img id="toggle-sidebar" src="images/Collapse.png" class="button" title="Toggle Sidebar">
+            <h3 class="button" data-page="database-page">Database</h3>
+            <h3 class="button" data-page="tools-page">Tools</h3>
+            <span class="menu-ext">
+                <img src="images/Help.png" class="button" data-page="about-page" title="About"><img src="images/Setting.png" class="button" data-page="settings-page" title="Settings"><img src="images/Links.png" class="button" data-page="links-page" title="Links"><a href="/"><img src="images/Comment.png" class="button" title="Comments"></a><a href="https://discord.gg/hfzmApj"><img src="images/Discord.svg" class="button" title="Discord"></a>
+            </span>
+            <h3 class="language-flag en" data-lang="en"><span class="deemphasize">English</span> EN</h3>
+            <h3 class="language-flag fr" data-lang="fr"><span class="deemphasize">Francais</span> FR</h3>
+            <h3 class="language-flag de" data-lang="de"><span class="deemphasize">Deutsch</span> DE</h3>
+            <h3 class="language-flag ja" data-lang="ja"><span class="deemphasize">日本語</span> JA</h3>
+        </div>
+
+        <div class="drawer">
+            <div class="database-page page actions">
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="patch">
+                    <img src="images/LatestPatch.png" class="icon small">
+                    <span class="text">Patches</span>
+                </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="action">
+                    <img src="../files/icons/action/103.png" class="icon small">
+                    <span class="text">Actions</span>
+                </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="achievement">
+                    <img src="../files/icons/achievement/3773.png" class="icon small">
+                    <span class="text">Achievements</span>
+                </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="instance">
+                    <img src="../files/icons/instance/type/61802.png" class="icon small">
+                    <span class="text">Instances</span>
+                </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="quest">
+                    <img src="../files/icons/journal/61412.png" class="icon small">
+                    <span class="text">Quests</span>
+                </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="fate">
+                    <img src="../files/icons/fate/Unknown.png" class="icon small">
+                    <span class="text">Fates</span>
+                </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="leve">
+                    <img src="images/Leve.png" class="icon small">
+                    <span class="text">Leves</span>
+                </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="node">
+                    <img src="images/MIN.png" class="icon small">
+                    <span class="text">Gathering Nodes</span>
+                </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="fishing">
+                    <img src="images/FSH.png" class="icon small">
+                    <span class="text">Fishing Spots</span>
+                </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="npc">
+                    <img src="images/Shop.png" class="icon small">
+                    <span class="text">NPCs</span>
+                </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="mob">
+                    <img src="images/Mob.png" class="icon small">
+                    <span class="text">Mobs</span>
+                </div>
+            </div>
+
+            <div class="tools-page page actions">
+                <div class="icon-button hover-highlight" id="new-group">
+                    <img src="images/Atomos.png" class="icon small">
+                    <span class="text">New Group</span>
+                </div>
+                <div class="icon-button hover-highlight" id="new-note">
+                    <img src="images/Note.png" class="icon small">
+                    <span class="text">New Note</span>
+                </div>
+                <div class="icon-button block-link hover-highlight" data-id="all" data-type="time">
+                    <img src="../files/icons/moon/Full Moon.png" class="icon small">
+                    <span class="text">Eorzea Time</span>
+                </div>
+                <div class="icon-button block-link hover-highlight" data-id="all" data-type="skywatcher">
+                    <img src="images/Skywatcher.png" class="icon small">
+                    <span class="text">Skywatcher</span>
+                </div>
+                <div class="icon-button block-link hover-highlight" data-id="leveling" data-type="equip">
+                    <img src="images/Leveling.png" class="icon small">
+                    <span class="text">Leveling Equipment</span>
+                </div>
+                <div class="icon-button block-link hover-highlight" data-id="end" data-type="equip">
+                    <img src="images/Mentor.png" class="icon small">
+                    <span class="text">End Game Equipment</span>
+                </div>
+                <div class="icon-button hover-highlight">
+                    <img src="images/Eraser.svg" class="icon small">
+                    <span class="text" id="clear-list">Clear List</span>
+                </div>
+            </div>
+
+            <div class="content page about-page short">
+                <div id="credits" class="center">Written by Clorifex Ezalor of Zalera, with special thanks to Rogueadyn.  <a href="credits.html">More credits.</a></div>
+
+                <h3>Usage</h3>
+                <ul>
+                    <li>Everything is a block.</li>
+                    <li>Add blocks with search.</li>
+                    <li>Grab a block title to arrange your list.</li>
+                </ul>
+
+                <h3>FAQ</h3>
+                <div class="question">Can I contribute to the database?</div>
+                For corrections or bug reports, please <a href="/">leave a comment here</a>.
+
+                <div class="separator"></div>
+                <div class="question">Why are there checkboxes next to item sources?</div>
+                These change your preferred crafting source.
+
+                <div class="separator"></div>
+                <div class="question">Why are some crafting materials HQ?</div>
+                This marks anything directly used by the craft that will increase starting quality.
+
+                <div class="separator"></div>
+                <div class="question">Will the database have everything?</div>
+                Mostly.  Select legacy data is excluded.
+
+                <div class="separator"></div>
+                <div class="question">Why is the interface weird?</div>
+                It's more fun to see stuff swooshing around.  Traditional UIs are boring, and plenty of other sites cover that.
+
+                <div class="separator"></div>
+                <div class="question">Do you accept donations?</div>
+                I'm accepting limited donations for server costs.  Please <a href="https://www.patreon.com/bePatron?u=14110588">see my Patreon</a> if you'd like to contribute.
+
+                <h3>Notices for game images and data</h3>
+                <div>FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.</div>
+                <div>FINAL FANTASY XIV © 2010 - 2016 SQUARE ENIX CO., LTD. All Rights Reserved.</div>
+                <div>Garland Tools is not affiliated with Square Enix.</div>
+            </div>
+
+            <div class="content page links-page short">
+                <h3>General</h3>
+                <ul>
+                    <li><a href="http://gamerescape.com/">gamerescape</a> News, podcasts, lore and wiki.</li>
+                    <li><a href="http://www.reddit.com/r/ffxiv">/r/ffxiv</a></li>
+                </ul>
+
+                <h3>External Tools</h3>
+                <ul>
+                    <li><a href="http://www.xivdb.com">XIVDB</a></li>
+                    <li><a href="http://ffxiv.ariyala.com">Ariyala's Final Fantasy XIV Toolkit</a></li>
+                    <li><a href="http://www.ffxivcrafting.com">Crafting as a Service</a> Crafting lists.</li>
+                    <li><a href="http://ffxiv-beta.lokyst.net/#/simulator">FFXIV Crafting Optimizer</a> Crafting simulator.</li>
+                    <li><a href="http://super-aardvark.github.io/yuryu/">FFXIV Cactpot Solver</a></li>
+                    <li><a href="http://vistas.explorexiv.com/">explore x|v</a> Sightseeing log.</li>
+                    <li><a href="http://www.ffxivgardening.com/">FFXIV Gardening</a></li>
+                    <li><a href="http://ffxivchocobo.com/">FFXIV Chocobo Colour Calculator</a></li>
+                    <li><a href="http://arrtripletriad.com/">ARR Triple Triad</a></li>
+                    <li><a href="http://ff14fish.carbuncleplushy.com/">FFX|V Fish Tracker App</a></li>
+                </ul>
+
+                <h3>Theorycrafting</h3>
+                <ul>
+                    <li><a href="https://dervyxiv.wordpress.com/">Dervy does Theorycrafting</a> Source for stat weights.</li>
+                    <li><a href="http://forum.square-enix.com/ffxiv/threads/185390-Let-s-talk-about-Hunts-a-detailed-rundown-of-their-assumed-mechanics">Let's talk about Hunts</a></li>
+                    <li><a href="http://forum.square-enix.com/ffxiv/threads/181498-Desynthesis-Endgame-Guide">Desynthesis Endgame Guide</a></li>
+                    <li><a href="http://forum.square-enix.com/ffxiv/threads/245872-Airship-Guide">Airship Guide</a></li>
+                    <li><a href="https://docs.google.com/document/d/1a8YqXavtbljQmK5cBAD725AN-GPxuuhsqg7BhhasNh8/edit">Spiritbonding for Anybody</a></li>
+                </ul>
+
+                <h3>Advanced</h3>
+                <ul>
+                    <li><a href="https://github.com/ufx/SaintCoinach">Saint Coinach, Godbert</a> Datamining.</li>
+                    <li><a href="http://ffxivexplorer.fragmenterworks.com/">FFXIV Explorer</a> Datamining.</li>
+                </ul>
+            </div>
+
+            <div class="content page settings-page short">
+                <table>
+                    <!-- Crafting -->
+                    <tr><td colspan="4"><h3>Crafting</h3></td></tr>
+
+                    <tr>
+                        <td class="value"><input type="number" id="craft-depth-setting" min="1"></td><td><label for="craft-depth-setting">Craft Depth</label></td>
+                        <td colspan="2" class="deemphasize">Crafting lists will not exceed this ingredient depth.  A depth of 1 only shows immediate ingredients.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="value"><input type="checkbox" id="shorter-names-setting"></td><td><label for="shorter-names-setting">Shorter Names</label></td>
+                        <td colspan="2" class="deemphasize">Abbreviates location names.  E.g., ST for Southern Thanalan.  Hover over the location to see its full name.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="value"><input type="checkbox" id="prefer-miner-ventures-setting"></td><td><label for="prefer-miner-ventures-setting">Miner Ventures</label></td>
+                        <td colspan="2" class="deemphasize">Prefers miner ventures above manual gathering on crafting lists.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="value"><input type="checkbox" id="prefer-botany-ventures-setting"></td><td><label for="prefer-botany-ventures-setting">Botany Ventures</label></td>
+                        <td colspan="2" class="deemphasize">Prefers botany ventures above manual gathering on crafting lists.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="value"><input type="checkbox" id="prefer-fisher-ventures-setting"></td><td><label for="prefer-fisher-ventures-setting">Fisher Ventures</label></td>
+                        <td colspan="2" class="deemphasize">Prefers fisher ventures above manual fishing on crafting lists.</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="value"><input type="checkbox" id="prefer-combat-ventures-setting"></td><td><label for="prefer-combat-ventures-setting">Combat Ventures</label></td>
+                        <td colspan="2" class="deemphasize">Prefers combat ventures above manual loot drops on crafting lists.</td>
+                    </tr>
+
+                    <!-- Crafting Categories -->
+                    <tr><td colspan="4"><h3>Crafting Categories</h3></td></tr>
+                    <tr><td colspan="4" class="deemphasize">Categories separate ingredients on crafting lists.  Any not falling into the below are shown under the catchall "Gather" category.</td></tr>
+
+                    <tr><td colspan="4"><h4>Uncommon</h4></td></tr>
+                    <tr>
+                        <td class="value"><input type="checkbox" id="craft-category-desynth" class="craft-category" data-category="Desynthesis / Reduction"></td><td><label for="craft-category-desynth">Desynthesis / Reduction</label></td>
+                        <td class="value"><input type="checkbox" id="craft-category-voyage" class="craft-category" data-category="Voyage"></td><td><label for="craft-category-voyage">Voyage</label></td>
+                    </tr>
+                    <tr>
+                        <td class="value"><input type="checkbox" id="craft-category-treasure" class="craft-category" data-category="Treasure Map"></td><td><label for="craft-category-treasure">Treasure Map</label></td>
+                        <td class="value"><input type="checkbox" id="craft-category-instance" class="craft-category" data-category="Instance"></td><td><label for="craft-category-instance">Instance</label></td>
+                    </tr>
+                    <tr>
+                        <td class="value"><input type="checkbox" id="craft-category-leve" class="craft-category" data-category="Leve"></td><td><label for="craft-category-leve">Leve</label></td>
+                        <td class="value"><input type="checkbox" id="craft-category-fate" class="craft-category" data-category="FATE"></td><td><label for="craft-category-fate">FATE</label></td>
+                    </tr>
+                    <tr>
+                        <td class="value"><input type="checkbox" id="craft-category-other" class="craft-category" data-category="Other"></td><td><label for="craft-category-other">Other</label></td>
+                        <td class="value"><input type="checkbox" id="craft-category-unknown" class="craft-category" data-category="Unknown"></td><td><label for="craft-category-unknown">Unknown</label></td>
+                    </tr>
+
+                    <tr><td colspan="4"><h4>Common</h4></td></tr>
+                    <tr>
+                        <td class="value"><input type="checkbox" id="craft-category-venture" class="craft-category" data-category="Venture"></td><td><label for="craft-category-venture">Venture</label></td>
+                        <td class="value"><input type="checkbox" id="craft-category-mob" class="craft-category" data-category="Mob"></td><td><label for="craft-category-mob">Mob</label></td>
+                    </tr>
+
+                    <tr><td colspan="4"><h4>Purchased</h4></td></tr>
+
+                    <tr>
+                        <td class="value"><input type="checkbox" id="craft-category-gil" class="craft-category" data-category="Gil Vendor"></td><td><label for="craft-category-gil">Gil Vendor</label></td>
+                        <td class="value"><input type="checkbox" id="craft-category-currency" class="craft-category" data-category="Currency Vendor"></td><td><label for="craft-category-currency">Currency Vendor</label></td>
+                    </tr>
+                    <tr>
+                        <td class="value"><input type="checkbox" id="craft-category-vendor" class="craft-category" data-category="Vendor"></td><td><label for="craft-category-vendor">Vendor</label></td>
+                        <td class="value"><input type="checkbox" id="craft-category-marketboard" class="craft-category" data-category="Marketboard"></td><td><label for="craft-category-marketboard">Marketboard</label></td>
+                    </tr>
+
+                    <!-- Alerts -->
+                    <tr><td colspan="4"><h3>Alerts</h3></td></tr>
+                    <tr>
+                        <td class="value">
+                            <select id="warning-tone">
+                                <option value="none">None</option>
+                                <option value="alarm1">Tone 1</option>
+                                <option value="alarm2">Tone 2</option>
+                                <option value="alarm3">Tone 3</option>
+                                <option value="alarm4">Tone 4</option>
+                            </select>
+                        </td>
+                        <td><label>Warning Tone</label></td>
+                        <td colspan="2" class="deemphasize">Sound this tone two minutes prior to timer availability.  None disables.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="value">
+                            <select id="available-tone">
+                                <option value="none">None</option>
+                                <option value="alarm1">Tone 1</option>
+                                <option value="alarm2">Tone 2</option>
+                                <option value="alarm3">Tone 3</option>
+                                <option value="alarm4">Tone 4</option>
+                            </select>
+                        </td>
+                        <td><label>Available Tone</label></td>
+                        <td colspan="2" class="deemphasize">Sound this tone one second prior to availability.  None disables.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="value"><input type="range" id="alarm-volume" value="50" min="0" max="100"></td><td><label>Alarm Volume</label></td>
+                        <td colspan="2" class="deemphasize">Play any audio alarms at this volume.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="value"><input type="checkbox" id="desktop-notifications"></td><td><label>Desktop Notifications</label></td>
+                        <td colspan="2" class="deemphasize">Display desktop notifications for any alerts.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="value"><input type="checkbox" id="eorzea-time-in-title"></td><td><label for="eorzea-time-in-title">Eorzea Time in Title</label></td>
+                        <td colspan="2" class="deemphasize">Shows the Eorzea time in the site's title.</td>
+                    </tr>
+                    <!-- Accessibility -->
+                    <tr><td colspan="4"><h3>Accessibility</h3></td></tr>
+                    <tr>
+                        <td class="value"><input type="checkbox" id="colorblind-setting"></td><td><label for="colorblind-setting">Colorblind</label></td>
+                        <td colspan="2" class="deemphasize">Alter colors to better suit colorblind users.</td>
+                    </tr>
+
+                    <!-- System -->
+                    <tr><td colspan="4"><h3>System</h3></td></tr>
+                    <tr>
+                        <td class="value"><input type="checkbox" id="disable-touch"></td><td><label for="disable-touch">Disable Touch Mode</label></td>
+                        <td colspan="2" class="deemphasize">Disable the auto-detected touch mode for hybrid devices.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="value"><input type="checkbox" id="unlock-heights"></td><td><label for="unlock-heights">Unlock Block Heights</label></td>
+                        <td colspan="2" class="deemphasize">Block heights match the exact size of their contents.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="value"><input type="checkbox" id="sort-melds"></td><td><label for="sort-melds">Sort Materia Melds</label></td>
+                        <td colspan="2" class="deemphasize">Automatically sort new materia melds by tier.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div id="list-container" class="unselectable">
+            <span id="lists"></span><span id="new-list" class="list-item">&#9733;New List</span>
+        </div>
+
+        <div id="list-header"></div>
+    </div>
+
+    <div id="main"></div>
+
+    <audio id="alarm1" preload="none">
+        <source src="../db/audio/alarm.ogg" type="audio/ogg">
+        <source src="../db/audio/alarm.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="alarm2" preload="none">
+        <source src="../db/audio/alarm2.ogg" type="audio/ogg">
+        <source src="../db/audio/alarm2.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="alarm3" preload="none">
+        <source src="../db/audio/alarm3.ogg" type="audio/ogg">
+        <source src="../db/audio/alarm3.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="alarm4" preload="none">
+        <source src="../db/audio/alarm4.ogg" type="audio/ogg">
+        <source src="../db/audio/alarm4.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

@@ -1,0 +1,10 @@
+*.sublime-workspace
+*.code-workspace
+*/obj/*
+*/bin/*
+**/packages/
+.vs/
+*.vspx
+*.psess
+Updates/
+External/

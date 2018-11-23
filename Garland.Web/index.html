@@ -1,0 +1,198 @@
+<html>
+<head>
+    <title>Garland Tools</title>
+
+    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Garland Data Search" />
+
+    <style>
+    body {
+        margin: 20px;
+        color: #ddd;
+        background-color: black;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 14px;
+        text-shadow: 1px 1px 0px #222;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    #logo {
+        width: 452px;
+        height: 468px;
+        float: left;
+        position: relative;
+        z-index: 2;
+    }
+
+    h1 {
+        font-weight: normal;
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 6px;
+        color: #D11F3F;
+    }
+
+    #header {
+        text-align: center;
+    }
+
+    #header .subtitle {
+        margin-top: -9px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-weight: normal;
+        margin: 0;
+        font-size: 24px;
+        color: #eee;
+        display: inline-block;
+    }
+
+    a h2 {
+        text-decoration: underline;
+    }
+
+    #main {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+
+    #menu {
+        position: relative;
+        z-index: 1;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    #menu .subtitle {
+        color: #ccc;
+    }
+
+    #menu .info {
+        background: linear-gradient(to left, rgba(50, 50, 50, .5) 0%, rgba(0, 0, 0, 0) 100%);
+        padding: 10px;
+        border-radius: 8px;
+        min-height: 90px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    #menu .info-wrapper {
+        float: right;
+    }
+
+    #credit {
+        clear: right;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    #credit a {
+        color: #6495ED;
+    }
+
+    #disqus_thread {
+        clear: both;
+    }
+
+    .flag {
+        width: 36px;
+        height: 24px;
+        display: inline-block;
+        vertical-align: bottom;
+        float: right;
+        margin-right: 14px;
+        margin-top: 6px;
+    }
+
+    .spacer {
+        height: 1px;
+    }
+
+    @media (max-width: 800px) {
+        body {
+            margin: 5px;
+        }
+
+        #logo {
+            float: none;
+            margin: 0 auto;
+            display: block;
+            height: auto;
+            width: 100%;
+            max-width: 452px;
+            max-height: 468px;
+        }
+
+        #menu .info-wrapper {
+            float: none;
+            display: inline-block;
+        }
+
+        .flag {
+            float: none;
+            vertical-align: top;
+            margin-left: 14px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <h1 title="It'll knock you down!">Garland Tools</h1>
+            <div class="subtitle">FFXIV tools &amp; resources</div>
+        </div>
+
+        <img id="logo" src="GarlandLogo.png">
+
+        <div id="menu">
+            <div class="info">
+                <a href="db/" class="info-wrapper">
+                    <h2>Garland Data</h2>
+                    <div class="spacer"></div>
+                    <div class="subtitle">everything database</div>
+                    <div class="subtitle">crafting lists</div>
+                    <div class="subtitle">equipment calculators</div>
+                </a>
+            </div>
+
+            <div class="info">
+                    <a href="bell/" class="info-wrapper">
+                        <h2>Garland Bell</h2>
+                        <div class="subtitle">gathering timers</div>
+                        <div class="subtitle">collectable resources</div>
+                        <div class="subtitle">hunt windows</div>
+                    </a>
+            </div>
+
+            <div class="info">
+                <a href="ffxivfisher/" class="info-wrapper"><h2>FFXIV Fisher</h2>
+                    <div class="subtitle">daily fishing windows</div>
+                    <div class="subtitle">bait paths</div>
+                    <div class="subtitle">catch checklist</div>
+                </a>
+            </div>
+        </div>
+
+        <div id="credit">Written by <a href="http://na.finalfantasyxiv.com/lodestone/character/8330449/">Clorifex Ezalor of Zalera</a>.</div>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'garlandtools';
+            var disqus_url = 'http://www.garlandtools.org/';
+            
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+    </div>
+</body>

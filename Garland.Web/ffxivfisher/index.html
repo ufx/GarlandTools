@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>FFXIV Fisher</title>
+    <meta name="description" content="Catch all the big fish in Final Fantasy 14.  Weather is updated in real time.  Color code fish of interest or ones you've caught and optionally filter by color.">
+    <link href="favicon.ico" type="image/png" rel="icon">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link href="fisher.css" rel="stylesheet" type="text/css">
+
+    <script src="../db/ext/jquery-3.1.1.min.js"></script>
+    <script src="../db/ext/doT.min.js"></script>
+    <script src="../db/ext/underscore-1.8.3.min.js"></script>
+    <script src="fisher.js"></script>
+    <script src="../bell/fish.js"></script>
+  </head>
+  <body>
+    <script>
+      var appengine = goog.appengine;
+      goog.require('ff.fisher.Main');
+    </script>
+
+    <script id="fish-row-template" type="text/x-dot-template">
+      <div class="ff-fish-row">
+        <div class="ff-fish-row-cells">
+          <div id="{{=it.ids.COLOR_CHOOSER}}" class="ff-fish-cell ff-fish-row-color-chooser-container"></div>
+          <img src="{{=it.imageSrc}}" class="ff-fish-cell ff-fish-row-icon">
+          <div id="{{=it.ids.NAME}}" class="ff-fish-cell ff-fish-row-name" title="{{=it.name}} - {{=it.fish.patch_}}">
+            <a href="{{=it.fishDetailUrl}}" target="_blank">{{=it.name}}</a>
+          </div>
+          <div id="{{=it.ids.TIME}}" class="ff-fish-cell ff-fish-row-time"></div>
+          <div id="{{=it.ids.LOCATION}}" class="ff-fish-cell ff-fish-row-location">
+            <a href="{{=it.locationDetailUrl}}" target="_blank">{{=it.location}}</a>
+          </div>
+
+          {{?it.fish.folklore_}}
+            <div class="ff-fish-cell ff-fish-row-action">
+              <img src="../files/icons/item/7128.png" class="ff-fish-row-action-image" title="Tome of Ichthyological Folklore">
+            </div>
+          {{?}}
+
+          {{?it.fish.fishEyes_}}
+            <div class="ff-fish-cell ff-fish-row-action">
+              <img src="../files/icons/action/1112.png" class="ff-fish-row-action-image" title="Fish Eyes">
+            </div>
+          {{?}}
+
+          {{?it.fish.snagging_}}
+            <div class="ff-fish-cell ff-fish-row-action">
+              <img src="../files/icons/action/1109.png" class="ff-fish-row-action-image" title="Snagging">
+            </div>
+          {{?}}
+
+          {{?it.predator}}
+            {{~it.predator :predator:pindex}}
+                <div class="ff-fish-cell ff-fish-row-predator-info">
+                    <a href="http://ff14angler.com/?search={{=encodeURIComponent(predator.name)}}" target="_blank">
+                        <img src="../files/icons/item/{{=predator.icon}}.png" class="ff-fish-row-predator-image">
+                        <div class="ff-fish-row-predator-count" title="Predator: {{=predator.name}}">{{=predator.predatorAmount}}</div>
+                    </a>
+                </div>
+            {{~}}
+          {{?}} 
+          <div id="{{=it.ids.BEST_CATCH_PATH}}" class="ff-fish-cell ff-fish-row-best-catch-path {{?it.predatorCount > 0}}ff-fish-row-predator-present{{?}}"></div>
+        </div>
+      </div>
+    </script>
+
+    <script>
+      ff.fisher.Main.bootstrap('{"signedIn":false,"admin":false}');
+    </script>
+  </body>
+</html>

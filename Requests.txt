@@ -1,0 +1,76 @@
+------------------------------------
+    PRIORITY
+
+* Bell: close timers, click hunt or gold saucer.  reopened timers will be too large.
+
+------------------
+
+* Add setting to unlock block heights in Bell.  Always use it in single-column mode?  How to override?
+* filter for gatherable items
+* filter for items used as part of a craft
+* add copy isearch link button to items
+
+------------------------------------
+    TODO
+
+* Item sorting:
+Yeah looks like it might be sorted by the SortKeys of their ItemUICategory > Required Level > Item Level > Stack Size > #18
+
+* Do something about same-name groups with different contents.  Maybe go to Links anyway and rename?
+
+* Convert IDs to object entirely?
+
+* Talan shop can now do 2 FC3s per NQ trade of Reinforced Spruce Plywood!
+
+* Leve XP and repeat data in leve partials for Miu?
+
+------------------------------------
+    CLEANUP
+
+* Remove craftCategories checks in gt.craft
+* Remove type= and category= stuff in gt.craft step ctor.
+
+* Clean out version 2 core, item, leve.
+
+* Remove it.groupTradeSource.item check from vendor-item-link-template in db/index.html
+
+* Remove gt.action.statusIndex.
+
+------------------------------------
+    SEARCH
+
+filtering needing UI:
+* equip level min/max
+* craft job
+* craft level min/max
+
+------------------------------------
+    FUTURE
+
+* import role actions    
+
+* Show gardening seeds & plants they grow!  in db already
+* Natural sort to a->z sort function.
+
+AMA requests:
+* Showing items from the same sets (Associate by name)
+
+Fishing:
+* End time for Thunderbolt Eel is 3:30am, not 3am!  Fractional!
+
+Group goals:
+* Show gatherable items (fishing/nodes) in the crafting tab under goal, for one gc supply stop.
+* Craft as a collectable (disregards yields)
+
+Quest stuff:
+quest xp formula from vekien: (base * paramgrow * (50 + 5 * level)) / 100;
+player mp formula from nemekh: rounddown((base_value * MpMod/100) + rounddown((CurrentPie - 218) * 540/100 * mpmod/100))  (base_value: index 5 of ParamGrow, MpMod: index 10 of ClassJob)
+* Questing tab in groups that collects all issuers and levels?
+
+Glorious future:
+* Account system for saving lists across machines.
+* Instance maps with markers for coffers!
+* Show venture costs in the crafting currency line (take view.price objs?)
+
+Search project:
+* Filtering quests by level.

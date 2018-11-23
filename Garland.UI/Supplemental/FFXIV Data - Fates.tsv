@@ -1,0 +1,974 @@
+Fate	Fate ID	Zone	Coords	Patch	Reward
+Clever Girls	120	Central Shroud	25, 19	1	
+One Enchanted Eve	121	Central Shroud	25, 18	1	
+Sprig Cleaning	122	Central Shroud	15, 17	1	
+Something in the Water	123	Central Shroud	23, 24	1	
+The Sting	124	Central Shroud	27, 29	1	
+Asipatra Attacks	125	Central Shroud	17, 22	1	
+Leader of the Pack	126	Central Shroud	31, 21	1	
+A Mother Scorned	127	Central Shroud	30, 23	1	
+Alux of the Draw	128	Central Shroud	25, 25	1	
+エバーシェイドの収穫祭	130	Central Shroud		1	
+Lethe on My Mind	131	Central Shroud	18, 19	1	
+Training Day	136	Central Shroud	21, 18	1	
+Bleeding Green	137	Central Shroud	20, 30	1	
+Tastes Like Chick	138	Central Shroud		1	
+Sleep Tight	139	Central Shroud	18, 27	1	
+Spirithold Run	140	Central Shroud	27, 24	1	
+Love Is in the Air	141	Central Shroud	22, 26	1	
+There's Something about Lou	142	Central Shroud	14, 25	1	
+Now I See Bees I Won	143	East Shroud	11, 24	1	
+Royal Rumble	144	East Shroud	19, 27	1	
+戦場までは何マルム？	145	East Shroud		1	
+What a Bee Wants	148	East Shroud		1	
+Stopping the Spread	149	East Shroud	21, 26	1	
+Jack of All Trades	150	East Shroud	20, 29	1	
+リトルブリッジの戦い	151	East Shroud		1	
+Protecting the Patch	152	East Shroud	18, 25	1	
+The Hunted	153	South Shroud	19, 22	1	
+Eft for Dead	154	South Shroud	21, 29	1	
+The Negotiators	158	South Shroud	26, 22	1	
+Breaching the Hive	159	South Shroud	22, 18	1	
+Clearing the Hive	160	South Shroud	22, 17	1	
+Defending the Hive	161	South Shroud	22, 17	1	
+Keeping the Hive	162	South Shroud		1	
+Kickin' It with the Kedtraps	163	South Shroud	22, 21	1	
+The Coeurl King	164	South Shroud	30, 19	1	
+Another Round	166	South Shroud	17, 20	1	
+Stag Parting	167	South Shroud	15, 18	1	
+Hide and Seek	168	South Shroud	28, 21	1	
+A Tale of Two-tails	169	South Shroud	15, 33	1	
+To Whom the Toll Goes	170	South Shroud	20, 20	1	
+Eat In, Hide Out	171	South Shroud		1	
+Robbin' Goblins	172	South Shroud	27, 20	1	
+※β1不要：ウォータースプライトの大量発生	173	South Shroud		1	
+No Birds Allowed	174	North Shroud	27, 23	1	
+Dschubba Snacks	178	North Shroud	25, 28	1	
+Now Fall	179			1	
+That Which Binds Us	180	North Shroud	17, 28	1	
+真理は死んだ	182			1	
+Breaking Bud	183	North Shroud	25, 28	1	
+The Magical Fruit	184	North Shroud	28, 19	1	
+Micromanaging	185	North Shroud	26, 21	1	
+The Big Issue	187	North Shroud	22, 26	1	
+It Ziz What It Is	188	North Shroud	18, 26	1	
+Hare Today	189	North Shroud	14, 25	1	
+Where the Stone Rolls	190	South Shroud	15, 30	1	
+Attack on Highbridge: Prelude	191	Eastern Thanalan	21, 22	1	
+Attack on Highbridge: Act I	192	Eastern Thanalan	22, 21	1	
+Attack on Highbridge: Act II	193	Eastern Thanalan	22, 21	1	
+Attack on Highbridge: Act III	194	Eastern Thanalan	23, 23	1	
+Attack on Highbridge: Denouement	195	Eastern Thanalan	23, 22	1	
+Steel Reign	196	Central Shroud		2	Odin's Mantle
+Steel Reign	197	Central Shroud		2	Odin's Mantle
+Steel Reign	198	East Shroud		2	Odin's Mantle
+Steel Reign	199	East Shroud		2	Odin's Mantle
+Steel Reign	200	East Shroud		2	Odin's Mantle
+Steel Reign	201	South Shroud		2	Odin's Mantle
+Steel Reign	202	South Shroud		2	Odin's Mantle
+Steel Reign	203	South Shroud		2	Odin's Mantle
+Steel Reign	204	South Shroud		2	Odin's Mantle
+Steel Reign	205	North Shroud		2	Odin's Mantle
+Steel Reign	206	North Shroud		2	Odin's Mantle
+Steel Reign	207	North Shroud		2	Odin's Mantle
+Lady Killer	208	Central Shroud	29, 21	1	
+My Baby Green	209	Central Shroud	13, 22	1	
+Ivy League	212	East Shroud	20, 29	1	
+Thunderstruck	213	East Shroud	19, 21	1	
+Carrion Baggage	214	East Shroud	12, 26	1	
+Conspiracy Theory	215	South Shroud	16, 22	1	
+Waiting for a Moon to Fall	216	North Shroud	15, 31	1	
+What Have You Done for Mead Lately	217	East Shroud	17, 26	1	
+Lazy for You	218	East Shroud	23, 29	1	
+Menuis at Work	220	Middle La Noscea	18, 17	1	
+Overnight Migration	221	Middle La Noscea	22, 20	1	
+Go Wespe	222	Middle La Noscea	14, 15	1	
+A Mad, Mad, Mad Sergeant	223	Middle La Noscea	17, 5	1	
+Thwack-a-Mole	225	Middle La Noscea	23, 18	1	
+Yellow-bellied Greenbacks	226	Middle La Noscea	24, 27	1	
+On the Lamb	227	Middle La Noscea	22, 24	1	
+The Orange Boxes	229	Middle La Noscea	21, 15	1	
+Shearing Is Caring	231	Middle La Noscea	16, 14	1	
+The Boy Who Cried Jackal	233	Middle La Noscea	17, 9	1	
+Sister Crustacean	235	Middle La Noscea	16, 12	1	
+Hello, Work	237	Middle La Noscea	22, 18	1	
+The Truth Is out There	238	Middle La Noscea	16, 9	1	
+Taking It to the Streams	239	Middle La Noscea	20, 22	1	
+Crying over Spilled Salt	240	Middle La Noscea	18, 24	1	
+One Prince	245	Lower La Noscea	19, 37	1	
+Fight the Flower	246	Lower La Noscea	30, 19	1	
+You Call That a Toad	249	Lower La Noscea	24, 22	1	
+Caving In	250	Lower La Noscea	27, 17	1	
+Man of the Flour	251	Lower La Noscea	35, 15	1	
+I Melt with You	257	Lower La Noscea	26, 25	1	
+Away in a Bilge Hold	260	Lower La Noscea	21, 38	1	
+In the Name of Love	261	Lower La Noscea	20, 38	1	
+Don't Drink the Water	262	Lower La Noscea	21, 34	1	
+Enter Beastman	264	Lower La Noscea	31, 15	1	
+One Pickman Enters	265	Lower La Noscea	31, 12	1	
+Finding Wine	267	Eastern La Noscea	21, 23	1	
+The Thirst	268	Eastern La Noscea	16, 24	1	
+Thrill of the Hunt	271	Eastern La Noscea	20, 29	1	
+The Pelican Briefing	272	Eastern La Noscea	20, 31	1	
+Them	274	Eastern La Noscea	16, 27	1	
+Careless Whiskers	278	Eastern La Noscea	29, 34	1	
+No Lip	279	Eastern La Noscea	32, 24	1	
+Jewels of the Isle	280	Eastern La Noscea	26, 32	1	
+Crab and Go	282	Eastern La Noscea	29, 35	1	
+Follow the Light	286	Eastern La Noscea	30, 28	1	
+Just a Matter of Rut	287	Eastern La Noscea	29, 26	1	
+Absolutely, Positively	289	Western La Noscea	26, 25	1	
+Tender Buttons	290	Western La Noscea	32, 28	1	
+The Killing Fields	291	Western La Noscea	34, 29	1	
+(I Just) Died in Six Arms Tonight	295	Western La Noscea	30, 29	1	
+Iron Contra Affair	297	Western La Noscea	28, 24	1	
+Don't Call Him a Fishback	298	Western La Noscea	24, 23	1	
+Letters from Tidegate	303	Western La Noscea	24, 24	1	
+The Last Straw	304	Western La Noscea	33, 29	1	
+Barometz Soup	306	Western La Noscea	36, 28	1	
+Goblin Chain	308	Western La Noscea	27, 24	1	
+Tryp Fantastic	309	Western La Noscea	26, 22	1	
+Between Aurochs	310	Western La Noscea	29, 25	1	
+In the Sac	312	Western La Noscea	22, 23	1	
+Simurgh Is the Word	314	Upper La Noscea	8, 21	1	
+Surprise	317	Upper La Noscea	26, 18	1	
+The Road More Traveled	320	Upper La Noscea	32, 24	1	
+Nine-ilm Snails	321	Upper La Noscea	33, 24	1	
+Truth in Faerie Tales	322	Upper La Noscea	34, 24	1	
+Giant Enemy Crab	323	Upper La Noscea	13, 24	1	
+Shell Shocked	329	Upper La Noscea	28, 24	1	
+Peeping Ja	331	Upper La Noscea	28, 23	1	
+Hop, Skip, and a Jump	332	Upper La Noscea	28, 22	1	
+Under the Bridge	333	Lower La Noscea	20, 33	1	
+Consigned, Sealed, and Undelivered	334	Eastern La Noscea	30, 29	1	
+It's Not Lupus	335	Eastern La Noscea	31, 34	1	
+The Mandragoras	336	Western La Noscea	16, 35	2.3	
+Needles to Slay	342	Western Thanalan	23, 25	1	
+Things that Make You Go Home	343	Western Thanalan	23, 26	1	
+Deface the Facts	344	Western Thanalan	20, 28	1	
+Please Hammers, Don't Hurt Them	345	Western Thanalan	18, 28	1	
+The Cores	346	Western Thanalan	17, 29	1	
+Doomed	347	Western Thanalan	24, 21	1	
+The Villain	348	Western Thanalan	22, 23	1	
+Copied Peistes	349	Western Thanalan	24, 20	1	
+Dog Eat Dog	350	Western Thanalan	25, 19	1	
+Bigger Fish to Fry	352	Western Thanalan	15, 16	1	
+Bubble Trouble	353	Western Thanalan	15, 16	1	
+Tripped up by the Fruit of Another	354	Western Thanalan	14, 9	1	
+Juggernaut Down	355	Western Thanalan	13, 7	1	
+A Matter of Rust	356	Western Thanalan	23, 25	1	
+There Might Be Giants	357	Western Thanalan	13, 10	1	
+Pound for Pound	361	Western Thanalan	23, 21	1	
+He's Got Legs	366	Western Thanalan	14, 6	1	
+Staying Dead	367	Western Thanalan	13, 11	1	
+Something to Prove	370	Central Thanalan	21, 23	1	
+Like an Eft out of Water	373	Central Thanalan	21, 23	1	
+Wrecked Rats	374	Central Thanalan	19, 20	1	
+Survivor Rats	375	Central Thanalan	18, 20	1	
+Cracked	376	Central Thanalan	17, 19	1	
+Orobon Part Two: The Spawning	377	Central Thanalan	29, 20	1	
+Let them Eat Cactus	378	Central Thanalan	23, 16	1	
+For the Queen	379	Central Thanalan	19, 15	1	
+A Few Arrows Short of a Quiver	381	Central Thanalan	23, 20	1	
+Big Time	383	Central Thanalan	15, 22	1	
+Cold-blooded	385	Central Thanalan	28, 19	1	
+A Warm Welcome	389	Central Thanalan	18, 23	1	
+Leaving the Nest	393	Central Thanalan	17, 15	1	
+Men Who See Goats	394	Eastern Thanalan	17, 29	1	
+License to Quill	395	Eastern Thanalan	12, 27	1	
+Westward Bound	397	Eastern Thanalan	16, 26	1	
+Bad Camp	398	Eastern Thanalan	19, 27	1	
+Bazaar Blood Triangle	400	Eastern Thanalan	11, 16	1	
+Grim Undertakings	401	Eastern Thanalan	14, 17	1	
+Simple Minds	402	Eastern Thanalan	12, 19	1	
+Manifest Destiny	406	Eastern Thanalan	24, 20	1	
+Spare the Hair	407	Eastern Thanalan	26, 21	1	
+Desert Rose	409	Eastern Thanalan	27, 17	1	
+Almost Paradise	412	Eastern Thanalan	13, 20	1	
+Deep in the Heart of Sagolii	413	Eastern Thanalan	17, 24	1	
+Adventures in Throat Slitting	419	Southern Thanalan	22, 9	1	
+The Corpse Bribe	420	Southern Thanalan	20, 8	1	
+Downwind	421	Southern Thanalan	15, 14	1	
+Soul Man	422	Southern Thanalan	25, 12	1	
+Bigger than Life	423	Southern Thanalan	20, 20	1	
+Heroes of the 2nd	424	Southern Thanalan	21, 16	1	
+Diamond in the Rough	427	Southern Thanalan	18, 24	1	
+Children of the Sands	429	Southern Thanalan	14, 32	1	
+Return to Cinder	430	Southern Thanalan	24, 26	1	
+Hunters and the Hunted	431	Southern Thanalan	23, 27	1	
+From Point A	432	Southern Thanalan	19, 34	1	
+Run Like a Flame	434	Southern Thanalan	18, 18	1	
+Blood, Augur, Hex, Magicks	436	Southern Thanalan	25, 34	1	
+Fish out of Water	437	Southern Thanalan	14, 38	1	
+Harder, Bigger, Faster, Stronger	441	Southern Thanalan	16, 12	1	
+With One Eye Open	446	Northern Thanalan	25, 20	1	
+Under the Nails	447	Northern Thanalan	24, 21	1	
+Boom Goes the Ceruleum	449	Northern Thanalan	18, 18	1	
+Knock on Steel	450	Northern Thanalan	18, 14	1	
+Poor Maid's Mess	451	Upper La Noscea	11, 24	1	
+Poor Maid's Mishap	452	Upper La Noscea	12, 24	1	
+Poor Maid's Misfortune	453	Upper La Noscea	12, 24	1	
+Poor Maid's Misadventure	454	Upper La Noscea		1	
+Revenge of the Worms	455	Southern Thanalan	14, 30	1	
+Bump and Grind	456	Southern Thanalan	23, 10	1	
+Reverse Engineering	457	Northern Thanalan	18, 15	1	
+Twelve Ilms of Snow	460	Coerthas Central Highlands	23, 28	1	
+Baa Baa Black Sheep	463	Coerthas Central Highlands	27, 23	1	
+Gavial	464	Coerthas Central Highlands	24, 23	1	
+Whiteout	465	Coerthas Central Highlands	25, 19	1	
+A Log Up	466	Coerthas Central Highlands	26, 27	1	
+Croc-y Road	467	Coerthas Central Highlands		1	
+The Grey	469	Coerthas Central Highlands	27, 11	1	
+Simply Red	470	Coerthas Central Highlands	24, 13	1	
+Spring Forward, Fall Back	472	Coerthas Central Highlands	31, 7	1	
+A Fire in the Distance	473	Coerthas Central Highlands	31, 12	1	
+Coming to a Head	474	Coerthas Central Highlands	26, 15	1	
+Bellyful	475	Coerthas Central Highlands	34, 13	1	
+A Freeze Is Coming	479	Coerthas Central Highlands	15, 20	1	
+Giant Seps	480	Coerthas Central Highlands	8, 11	1	
+Riddle Me This	482	Coerthas Central Highlands	9, 19	1	
+Judge, Jury, and Executioner	483	Coerthas Central Highlands	18, 17	1	
+In the Saint's Wake	484	Coerthas Central Highlands	13, 23	1	
+Tower of Power	486	Coerthas Central Highlands	10, 28	1	
+Turn Off Your Hearthlight	487	Coerthas Central Highlands	19, 30	1	
+What's on Your Mind	489	Coerthas Central Highlands	9, 27	1	
+The Bigger They Are	490	Coerthas Central Highlands	12, 25	1	
+Wish Upon a Star	491	Coerthas Central Highlands	26, 28	1	
+The Taste of Fear	493	Coerthas Central Highlands	5, 22	1	
+Roc of Ages	494	Coerthas Central Highlands	21, 17	1	
+Front and Center	496	Coerthas Central Highlands	10, 15	1	
+If This Wall Could Talk	497	Coerthas Central Highlands	13, 18	1	
+Does Anyone Hear It	498	Coerthas Central Highlands	33, 21	1	
+The Four Winds	499	Coerthas Central Highlands	34, 20	1	
+Inspector Hatchet	500	Coerthas Central Highlands	33, 23	1	
+Svara's Flight	501	Coerthas Central Highlands	26, 15	1	
+Svara's Fear	502	Coerthas Central Highlands	26, 8	1	
+Svara's Fall	503	Coerthas Central Highlands	26, 7	1	
+Svara's Fury	504	Coerthas Central Highlands		1	
+Behold Now Behemoth	505	Coerthas Central Highlands	6, 21	1	
+He Taketh It with His Eyes	506	Coerthas Central Highlands	4, 15	1	Behemoth Horn
+The Eyes Have It	507	Coerthas Central Highlands	15, 19	1	
+The Storm Caller	508	Coerthas Central Highlands	33, 19	2.1	
+Toll Collector	512	Mor Dhona	19, 9	1	
+Mud about You	514	Mor Dhona	14, 12	1	
+Black and Nburu	516	Mor Dhona	15, 13	1	
+Good to Be Bud	517	Mor Dhona	13, 12	1	
+Standing Guard	520	Mor Dhona	12, 12	1	
+Another Notch on the Torch	521	Mor Dhona	31, 5	1	
+One Giant Leap	522	Mor Dhona	29, 13	1	
+Among Giants	523	Mor Dhona	26, 11	1	
+Another Day, Another Demon	524	Mor Dhona	27, 10	1	
+That's What Adventurers Are For	525	Mor Dhona	29, 14	1	
+Home Is Where the Horn Is	526	Mor Dhona	32, 11	1	
+Gone with the Shadow	527	Mor Dhona	27, 6	1	
+The Prodigal Son	529	Mor Dhona	22, 8	1	
+V for Vinedetta	530	Mor Dhona	13, 10	1	
+Return of the King	532	Eastern La Noscea		2	
+Return of the King	533	Middle La Noscea		2	
+Return of the King	534	Lower La Noscea		2	
+Return of the King	535	Central Thanalan		2	
+Return of the King	536	Eastern Thanalan		2	
+Return of the King	537	Central Shroud		2	
+Return of the King	538	North Shroud		2	
+Quartz Coupling	540	Eastern Thanalan	26, 24	1	
+A Man Rides Through	541	Eastern Thanalan	29, 23	1	
+Bad Hair Day	542	Eastern Thanalan	27, 24	1	
+The Big Bagoly Theory	543	Eastern Thanalan	30, 25	1	
+Call Me, Mayhaps	545	Southern Thanalan	22, 18	1	
+Book of Pride	546	Southern Thanalan	21, 19	1	
+Tempered, Tempered	548	Southern Thanalan	16, 23	1	
+Full of Rigor Mortis	549	Southern Thanalan	19, 27	1	
+An Inconvenient Truth	550	Southern Thanalan	23, 21	1	
+Future Shock	551	Southern Thanalan	22, 25	1	
+Taken	552	Southern Thanalan	18, 20	1	
+Gyve Talk	553	Southern Thanalan	29, 20	1	
+Spark off the Bench	554	Southern Thanalan	32, 19	1	
+Fallen Corpses Writhe in Style	555	Southern Thanalan	16, 25	2.1	
+Core Blimey	556	Northern Thanalan	22, 22	1	
+Quenching the Flame	557	Southern Thanalan	32, 20	2.1	
+He's a Firestarter	558	Southern Thanalan	26, 21	2.1	
+9 to 5	560	Eastern La Noscea	23, 19	1	
+Closing Time	561	Eastern La Noscea	17, 28	1	
+Sweeter than Honey	562	Eastern La Noscea	16, 28	1	
+Ho Ho Ho	563	Eastern La Noscea	17, 31	1	
+Say My Name	564	Eastern La Noscea	18, 24	1	
+Long Way Home	565	Eastern La Noscea		1	
+Cliff Hanger	566	Eastern La Noscea	18, 34	1	
+Gauging North Tidegate	568	Western La Noscea	20, 19	1	
+Breaching North Tidegate	569	Western La Noscea	21, 19	1	
+Gauging South Tidegate	570	Western La Noscea	18, 21	1	
+Breaching South Tidegate	571	Western La Noscea	18, 22	1	
+Sharknado	572	Western La Noscea	17, 19	1	
+Tail of a Whale	574	Western La Noscea	17, 16	1	
+Watch Your Tongue	575	Western La Noscea	14, 17	1	
+Dead Man's Rest	576	Western La Noscea	16, 32	1	
+The King's Justice	577	Western La Noscea	14, 34	1	
+Making Waves	578	Western La Noscea	11, 13	2.1	
+The Only Way Is Up	580	Outer La Noscea	17, 16	1	
+By a Whisker	581	Outer La Noscea	15, 15	1	
+When the Coeurl's Away	583	Outer La Noscea	14, 11	1	
+The Miner in the Mirror	586	Outer La Noscea	23, 12	1	
+Schism	587	Outer La Noscea	25, 16	1	
+Fire in the Hole	588	Outer La Noscea	21, 16	1	
+Make It Rain	589	Outer La Noscea	25, 17	1	
+Peryton, Perhaps	591	Outer La Noscea	15, 18	1	
+Restless in O'Ghomoro	593	Outer La Noscea	19, 15	1	
+I'm a Rock, Not a Number	594	Outer La Noscea	14, 15	1	
+Overlooking the Obvious	595	Outer La Noscea	22, 17	1	
+Full Metal Alchemist	597	Outer La Noscea	24, 6	1	
+Spandy Balidet	598	Outer La Noscea	21, 6	1	
+Stopping the Shakes	599	Outer La Noscea	23, 8	2.1	
+The Lindwurm Has Turned	600	Central Shroud	15, 17	1	
+What's Your Poison	601	Central Shroud	15, 20	1	
+Revenant Things	602	Central Shroud	13, 19	1	
+If I Only Had a Soul	603	Central Shroud	11, 16	1	
+In Spite of It All	604	Central Shroud	11, 18	1	
+Collecting Keepsakes	607	East Shroud	23, 20	1	
+All Vine and No Popotoes	608	East Shroud	26, 23	1	
+The Squirrel Trapper's Wife	609	East Shroud	23, 20	1	
+The Enemy of My Enemy	610	East Shroud	27, 21	1	
+The Enmity of My Enemy	611	East Shroud	27, 21	1	
+Below His Station	612	East Shroud	32, 20	1	
+Got Milkroot	615	East Shroud	28, 17	1	
+Breaking Dawn	616	East Shroud	32, 14	1	
+Handful of Dreams	618	East Shroud	24, 11	1	
+Bush Blade	619	East Shroud	29, 13	1	
+Everything's Better	620	East Shroud	23, 14	1	
+The Gale that Rocks the Cradle	622	East Shroud	20, 10	1	
+Rogue on the Water	624	South Shroud	18, 29	1	
+To Train a Tortoise	626	South Shroud	16, 27	1	
+Fate Is a Fecal Mistress	627	South Shroud	16, 29	1	
+What Gored Before	628	South Shroud	32, 25	1	
+Don't Disturb This Grove	631	North Shroud	22, 23	1	
+Rude Awakening	632	North Shroud	21, 19	1	
+Air Supply	633	North Shroud	19, 20	1	
+Smells Like Tree Spirit	634	North Shroud	23, 24	1	
+The Red Baron	637	Northern Thanalan	24, 23	1	
+Just a Sip	638	Northern Thanalan	22, 23	1	
+East Meets Worst	639	Northern Thanalan	22, 24	1	
+Twinkle, Twinkle Little Trap	641	Northern Thanalan	20, 26	1	
+The Ceruleum Road	642	Northern Thanalan	21, 29	1	
+Dark Devices - The Plea	643	Northern Thanalan	26, 22	1	
+Dark Devices - The Bait	644	Northern Thanalan	26, 22	1	
+Dark Devices - The Switch	645	Northern Thanalan	26, 22	1	
+Dark Devices - The End	646	Northern Thanalan	26, 22	1	
+Go, Go, Gorgimera	647	Northern Thanalan	17, 14	1	
+Sister Crustacean	649	Middle La Noscea	16, 12	2.05	
+Tender Buttons	650	Western La Noscea	32, 28	2.05	
+Lightning Strikes - Armored Beast	651	Southern Thanalan	21, 11	2.05	
+Lightning Strikes - Armored Beast	652	Eastern Thanalan	21, 11	2.05	
+Lightning Strikes - Dread on Arrival	653	Coerthas Central Highlands	30, 8	2.05	
+Lightning Strikes - Dread on Arrival	654	Coerthas Central Highlands	30, 8	2.05	
+Lightning Strikes - Anubys Assault	655	Mor Dhona	26, 12	2.05	
+Lightning Strikes - Anubys Assault	656	Mor Dhona	26, 12	2.05	
+Lightning Strikes - On Wings of Chaos	657	Mor Dhona	27, 11	2.05	
+Lightning Strikes - On Wings of Chaos	658	Mor Dhona	27, 11	2.05	
+Brick by Brick	660	Central Thanalan	17, 23	2.1	
+Brick by Stone Brick	661	Central Thanalan	17, 23	2.1	
+Brick by Brick	662			2.1	
+Brick by Stone Brick	663			2.1	
+Brick by Brick	664			2.1	
+Brick by Gold Brick	665			2.1	
+Brick by Brick	666	Lower La Noscea	17, 23	2.1	
+Brick by Stone Brick	667	Lower La Noscea	17, 23	2.1	
+Brick by Brick	668	Upper La Noscea	17, 23	2.1	
+Brick by Stone Brick	669	Upper La Noscea	17, 23	2.1	
+Brick by Brick	670	Upper La Noscea	17, 23	2.1	
+Brick by Gold Brick	671	Upper La Noscea	34, 24	2.1	
+Brick by Brick	672	Central Shroud	17, 23	2.1	
+Brick by Stone Brick	673	Central Shroud	17, 23	2.1	
+Brick by Brick	674	North Shroud	17, 23	2.1	
+Brick by Stone Brick	675	North Shroud	17, 23	2.1	
+Brick by Brick	676	North Shroud	17, 23	2.1	
+Brick by Gold Brick	677	North Shroud	34, 24	2.1	
+Embiggened Spriggans	679	East Shroud		2.1	
+Tower of Power	680	East Shroud	10, 28	2.1	
+Embiggened Spriggans	681	South Shroud		2.1	
+Tower of Power	682	South Shroud	10, 28	2.1	
+Embiggened Spriggans	683	Western Thanalan		2.1	
+Tower of Power	684	Western Thanalan	10, 28	2.1	
+Embiggened Spriggans	685	Southern Thanalan		2.1	
+Tower of Power	686	Southern Thanalan	10, 28	2.1	
+Embiggened Spriggans	687	Middle La Noscea		2.1	
+Tower of Power	688	Middle La Noscea	10, 28	2.1	
+Embiggened Spriggans	689	Eastern La Noscea		2.1	
+Tower of Power	690	Eastern La Noscea	10, 28	2.1	
+A Wrench in the Works	691	East Shroud	29, 21	2.1	
+What a Boar	692	East Shroud	23, 17	2.1	
+Stay Frosty	693	Middle La Noscea		2.1	
+Stay Frosty	694	Lower La Noscea		2.1	
+Stay Frosty	695	Central Thanalan		2.1	
+Stay Frosty	696	Eastern Thanalan		2.1	
+Stay Frosty	697	Central Shroud		2.1	
+Stay Frosty	698	North Shroud		2.1	
+Stay Frosty	699	Coerthas Central Highlands		2.1	
+Making the Rounds	700	Outer La Noscea	22, 6	2.2	
+What's Yours Is Mine	701	Eastern La Noscea		2.2	
+Eggcelsior	702	Western La Noscea		2.2	
+What's Yours Is Mine	703	Upper La Noscea		2.2	
+What's Yours Is Mine	704	Western Thanalan		2.2	
+Eggcelsior	705	Eastern Thanalan		2.2	
+What's Yours Is Mine	706	Southern Thanalan		2.2	
+What's Yours Is Mine	707	Central Shroud		2.2	
+What's Yours Is Mine	708	South Shroud		2.2	
+Eggcelsior	709	Coerthas Central Highlands		2.2	
+Main Street Spectral Parade	716	Ul'dah - Steps of Nald	10, 8	2.38	
+Gloria in Eggcelsis	717	Middle La Noscea		2.55	
+Gloria in Eggcelsis	718	Lower La Noscea		2.55	
+Gloria in Eggcelsis	719	Central Thanalan		2.55	
+Gloria in Eggcelsis	720	Eastern Thanalan		2.55	
+Gloria in Eggcelsis	722	North Shroud		2.55	
+Wave Good-bye	725	The Churning Mists	27, 32	3	
+The Nuts	726	The Churning Mists	29, 28	3	
+Glycon Air	727	The Churning Mists	32, 24	3	
+Coin Toss	728	The Churning Mists		3	
+Supper Time	731	The Churning Mists	36, 32	3	
+Sprite Club	732	The Churning Mists	33, 35	3	
+Whole Food	735	The Churning Mists	29, 23	3	
+Say it Tulihand	736	The Churning Mists	27, 19	3	
+Vouivre Believre	737	The Churning Mists		3	
+Waugyl Waugyl Waugyl	738	The Churning Mists	33, 16	3	
+How to Cane Your Dragon	740	The Churning Mists		3	
+Aevis Has Left the Building	741	The Churning Mists		3	
+Asah, I Came, I Conquered	742	The Churning Mists	21, 29	3	
+Waiting for Fjalar to Stall	744	The Churning Mists		3	
+Don't Know Wyvern	746	The Churning Mists	8, 17	3.01	
+From Dusk Till Gone	747	The Churning Mists	20, 17	3	
+Treehouse of the Spirits	748	The Churning Mists	8, 14	3	
+As the World Burns	751	The Churning Mists	25, 8	3.01	
+It's the Moogle, Reinvented	752	The Churning Mists	14, 31	3	
+Corporal Pomishment	753	The Churning Mists	21, 23	3	
+Infamous	754	The Churning Mists		3	
+Ain't Misbehaving	755	The Churning Mists	16, 31	3	
+Metal Gears Rising	756	The Dravanian Hinterlands		3	
+Metal Gears Revengeance	757	The Dravanian Hinterlands		3	
+Metal Gears Revengeance 2	758	The Dravanian Hinterlands	31, 22	3	Qiqirn Earring
+Tarantula Hawk, Pro Stinger	759	The Dravanian Hinterlands	34, 30	3	
+Wild Wilde Death	760	The Dravanian Hinterlands	33, 27	3	
+Gets the Red Out	761	The Dravanian Hinterlands	37, 22	3	
+Makes the Very Best...Nests	762	The Dravanian Hinterlands	26, 35	3	
+Olympus Has Pollen	763	The Dravanian Hinterlands	23, 25	3	
+Feed Me, See More	764	The Dravanian Hinterlands	36, 24	3	
+Pop Goes the Whizzle	766	The Dravanian Hinterlands		3	
+Revenge of the Vengeful Revengeance	767	The Dravanian Hinterlands		3	
+Ratel and Hum	768	The Dravanian Hinterlands		3	
+Dobharch Did It for the Best	769	The Dravanian Hinterlands	28, 26	3	
+Infant Vangob	770	The Dravanian Hinterlands	26, 23	3	
+Morbol Man	771	The Dravanian Hinterlands	13, 31	3	
+On Melancholic Hill	772	The Dravanian Hinterlands	11, 23	3	
+Sun Bear, Sun Bear, What Do You Eat	773	The Dravanian Hinterlands	16, 22	3	
+The Bear Up There	774	The Dravanian Hinterlands	7, 20	3	
+The Birds and the Bears	775	The Dravanian Hinterlands	14, 29	3	
+Poroggo Stuck	777	The Dravanian Hinterlands		3	
+Frog Days of Summer	778	The Dravanian Hinterlands	20, 37	3	
+Toss 'Em Back	779	The Dravanian Hinterlands	11, 31	3	
+Tome Raider	780	The Dravanian Hinterlands	13, 24	3	
+Cockatrice Block	781	The Dravanian Hinterlands	26, 38	3	
+Come Shells or High Water	782	The Dravanian Hinterlands	15, 33	3	
+Toad Alone	783	The Dravanian Hinterlands	11, 34	3	
+How Do You Feed a Hungry Manlike Monster	784	The Dravanian Hinterlands		3	
+Out of the Woodwork	785	The Dravanian Hinterlands	10, 25	3	
+Silkworm	786	The Dravanian Hinterlands	15, 19	3	
+Eye in the Sky	787	Coerthas Western Highlands	28, 31	3	
+A Dung Deal	788	Coerthas Western Highlands	31, 31	3	
+Land of the Freeze	789	Coerthas Western Highlands	25, 22	3	
+Dawn of the Mylodons	791	Coerthas Western Highlands	31, 20	3	
+Don of the Mylodons	792	Coerthas Western Highlands		3	
+We Fought a Dzu	793	Coerthas Western Highlands	20, 33	3	Behemoth Earring
+True Convictions	794	Coerthas Western Highlands	19, 21	3	
+The Polar Express	795	Coerthas Western Highlands	15, 20	3	
+Apparent Trap	796	Coerthas Western Highlands	27, 13	3	
+Abominable Me	798	Coerthas Western Highlands	8, 10	3	
+Requiem for a Dragon	800	Coerthas Western Highlands	13, 19	3	
+Follow the Sleet	801	Coerthas Western Highlands	34, 14	3	
+Sick Pack	802	Coerthas Western Highlands	12, 10	3	
+In Command	805	Coerthas Western Highlands	16, 13	3	
+What You See Is What You Get	807	Coerthas Western Highlands	30, 28	3	
+Panic Rheum	809	Coerthas Western Highlands	26, 18	3	
+Sugar, Sugar	810	Coerthas Western Highlands	26, 17	3	
+Unsilent Vigil	811	Coerthas Western Highlands	19, 15	3	
+Pico de Gallows	812	Coerthas Western Highlands	19, 15	3	
+Run, Riders, Run	813	Coerthas Western Highlands	31, 34	3	
+One Whiskey, One Goat, One Spear	814	Coerthas Western Highlands	27, 26	3	
+No Ifs, Ands, or Butts	815	Coerthas Western Highlands	31, 32	3	
+Null and Void	816	Coerthas Western Highlands	31, 32	3	
+Dishonored	817	Coerthas Western Highlands	17, 22	3	
+By the Horns	818	The Dravanian Forelands	34, 31	3	
+Ladies First	819	The Dravanian Forelands		3	
+Run, Run Away	820	The Dravanian Forelands	38, 20	3	
+Birds of a Feather	821	The Dravanian Forelands		3	
+Glawackus On, Glawackus Off	822	The Dravanian Forelands	36, 9	3	
+Bear Apparent	823	The Dravanian Forelands	31, 15	3	
+Who's the Moss	824	The Dravanian Forelands		3	
+The Rite Stuff	825	The Dravanian Forelands	26, 13	3	
+Dead Meat	826	The Dravanian Forelands	24, 20	3	
+The Whole Truth	827	The Dravanian Forelands	25, 22	3	
+Nothing but the Truth	828	The Dravanian Forelands	25, 21	3	
+Drone Under	829	The Dravanian Forelands		3	
+El Miacid	830	The Dravanian Forelands	22, 33	3	
+Cerf's Up	831	The Dravanian Forelands	19, 28	3	
+Elephant in the Brume	832	The Dravanian Forelands	16, 35	3	
+The Migas Touch	833	The Dravanian Forelands	22, 31	3	
+Hearing Voices	834	The Dravanian Forelands	13, 18	3	
+The Mourning After	835	The Dravanian Forelands	18, 6	3	
+Stamp the Yard	836	The Dravanian Forelands	15, 20	3	
+Come to My Arms	837	The Dravanian Forelands	28, 8	3	
+Special Tarasque Force	838	The Dravanian Forelands	13, 36	3	Fat Chocobo Card
+Mint Condition	839	The Sea of Clouds		3	
+Saved the Nests for Last	840	The Sea of Clouds	20, 32	3	
+One Turned Over the Cloudkin's Nest	841	The Sea of Clouds		3	
+Food Fight	842	The Sea of Clouds	28, 32	3	
+Leech the Sky	843	The Sea of Clouds	25, 35	3	
+Anzu Trois	844	The Sea of Clouds	29, 35	3	
+Youth Must Be Severed	845	The Sea of Clouds	30, 30	3	
+A Long Way Down	846	The Sea of Clouds	36, 32	3	
+This Is How We Gundu	847	The Sea of Clouds	34, 30	3	
+Come to My Window	851	The Sea of Clouds	6, 21	3	
+Obey their Thirst	852	The Sea of Clouds		3	
+The Fugitive	853	The Sea of Clouds		3	
+Zuns on the Run	854	The Sea of Clouds		3	
+On Dangerous Ground	855	The Sea of Clouds	21, 12	3	Gold Rush Minecart
+Leather and Mace	856	The Sea of Clouds	26, 10	3	
+Hearts Like Steel, Fists Like Thunder	857	The Sea of Clouds	29, 15	3	
+Bones	860	The Sea of Clouds	23, 19	3	
+Bismarcking Time	861	The Sea of Clouds	20, 23	3	
+Let There Be Acolytes	862	The Sea of Clouds		3	
+A Disturbing Lack of Faith	863	The Sea of Clouds		3	
+Guano a Mano	864	The Sea of Clouds	36, 36	3.01	
+The Sound of Madness	865	The Sea of Clouds	10, 25	3.01	
+You Eat What You Aren't	866	The Sea of Clouds	36, 9	3.01	
+A Dream, Perchance to Eat	867	The Sea of Clouds	21, 6	3.01	
+Darkscale Descendeth	868	The Churning Mists	18, 12	3	
+Darkscale Disappeareth	869	The Churning Mists		3	
+Darkscale Devoureth	870	The Churning Mists		3	
+Vedrfolnir Devoteth	871	The Churning Mists		3	Ishgardian Half Barding
+End of the Rainbow	872	The Churning Mists		3	
+Rastaban Vibration	873	The Churning Mists	14, 13	3	
+Mogicide	874	The Churning Mists	22, 21	3	
+Rebel Yehl	875	The Sea of Clouds	37, 14	3.01	
+Prey Online	877	Azys Lla		3	Proto Ultima Exoplating
+Prey Online	878	Azys Lla		3	Proto Ultima Exoplating
+Prey Online	879	Azys Lla		3	Proto Ultima Exoplating
+A Bug's Death	880	Azys Lla		3	
+The Late Escape	881	Azys Lla	19, 7	3	
+Still Ticking	882	Azys Lla	18, 12	3	
+Life of Brain	883	Azys Lla	30, 7	3	
+The Monster Mass	884	Azys Lla	37, 6	3	
+Pet, Smart	885	Azys Lla	35, 12	3	
+The Root of Evil	886	Azys Lla	34, 9	3	
+The Mystery Machine	887	Azys Lla	37, 25	3	
+Rampant Speculation	888	Azys Lla	24, 28	3	
+Put the Knives Down	889	Azys Lla	34, 36	3	
+Scared Sylla	890	Azys Lla		3	
+Phi Slamma Gamma East	891	Azys Lla	37, 29	3	
+Phi Slamma Gamma West	892	Azys Lla	30, 32	3	
+Phi Slamma Gamma South	893	Azys Lla	28, 38	3	
+Yak it Up	894	Azys Lla	6, 35	3	
+No Greater Goryshche	895	Azys Lla	12, 33	3	
+Harvest Moon	897	Azys Lla	12, 17	3	
+Out of Sight, Out of Mind	898	Azys Lla	9, 21	3	
+A Room Without Books	899	Azys Lla	12, 29	3	
+Curiously Strong Things	900	Azys Lla	31, 12	3	
+Do Spinners Dream of Electric Rooks	901	Azys Lla	12, 13	3	
+Long Live the Coeurl	902	The Dravanian Forelands		3	
+Coeurls Chase Boys	903	The Dravanian Forelands		3	Coeurlregina Horn
+Coeurls Chase Boys	904	The Dravanian Forelands		3	Coeurlregina Horn
+Coeurls Chase Boys Chase Coeurls	905	The Dravanian Forelands		3	Coeurlregina Horn
+Coeurls Chase Boys Chase Coeurls	906	The Dravanian Forelands		3	Coeurlregina Horn
+Coeurls Chase Boys Chase Coeurls	907	The Dravanian Forelands		3	Coeurlregina Horn
+Sphenopalatine Ganglioneuralgia	908	Coerthas Western Highlands	22, 27	3.01	
+A Stihi Situation	909	Coerthas Western Highlands	13, 23	3.01	
+Ware the Maiden Fair	910	The Dravanian Forelands	12, 39	3.01	
+Recurring Bugs	911	Western Thanalan		3.07	
+Recurring Bugs	912	Central Thanalan		3.07	
+The Sarong Song	913	Eastern La Noscea		3.07	
+The Belle of the Beach	914	Eastern La Noscea		3.07	
+Sparking Up the Wrong Beach	915	Eastern La Noscea		3.07	
+It Came from Beneath the Deep	916	Eastern La Noscea		3.07	
+Life's a Beach	917	Eastern La Noscea		3.07	
+Feeling Groggy	918	Eastern La Noscea		3.07	
+Our Favorite Pastime	932			3.1	
+The Way of the Samurai	933			3.1	
+Serket Breaker	934			3.1	
+The Key to Amatsu: Kyori	935			3.1	
+Pounding Rice, Pounding Hearts	936			3.1	
+Pounding Rice, Pounding Hearts	937			3.1	
+Pounding Rice, Pounding Hearts	938			3.1	
+Pounding Rice, Pounding Hearts	939			3.1	
+Pounding Rice, Pounding Hearts	940			3.1	
+Pounding Rice, Pounding Hearts	941			3.1	
+Eggstract and Eggspedite	942			3.2	
+Eggstract and Eggspedite	943			3.2	
+Eggstract and Eggspedite	944			3.2	
+In Deep Water	945			3.35	
+Trial by Fire	946			3.35	
+Pounding More Mochi, Pounding More Hearts	959			3.45	
+Pounding More Mochi, Pounding More Hearts	960			3.45	
+Excitable Boys	963	The Diadem		3.55	
+Mad Ventures in Retainer-sitting	964	The Diadem		3.55	
+Excitable Boys	965	The Diadem		3.55	
+Prepare for Gory	966	The Diadem		3.55	
+Prepare for Gory	967	The Diadem		3.55	
+Secret of the Lost Legend	968	The Diadem		3.55	
+Excitable Boys	969	The Diadem		3.55	
+Slaughter of the Lost Legend	970	The Diadem		3.55	
+Embrace of the Serpent	971	The Diadem		3.55	
+The Pelican Grief	972	The Diadem		3.55	
+Excitable Boys	973	The Diadem		3.55	
+Late Night Torama Queen	974	The Diadem		3.55	
+Late Night Torama Queen	975	The Diadem		3.55	
+Mad Ventures in Retainer-sitting	976	The Diadem		3.55	
+Crawllateral Damage	977	The Diadem		3.55	
+Excitable Boys	978	The Diadem		3.55	
+Mad Ventures in Retainer-sitting	979	The Diadem		3.55	
+I Can Wring a Rainbow	980	The Diadem		3.55	
+I Can Wring a Rainbow	981	The Diadem		3.55	
+I Can Wring a Rainbow	982	The Diadem		3.55	
+Excitable Boys	983	The Diadem		3.55	
+Excitable Boys	984	The Diadem		3.55	
+Shard to Get	985	The Diadem		3.55	
+Shard to Get	986	The Diadem		3.55	
+Shard to Get	987	The Diadem		3.55	
+Shard to Get	988	The Diadem		3.55	
+Shard to Get	989	The Diadem		3.55	
+Shard to Get	990	The Diadem		3.55	
+Shard to Get	991	The Diadem		3.55	
+Shard to Get	992	The Diadem		3.55	
+Shard to Get	993	The Diadem		3.55	
+Shard to Get	994	The Diadem		3.55	
+Shard to Get	995	The Diadem		3.55	
+Shard to Get	996	The Diadem		3.55	
+Excitable Boys	997	The Diadem		3.55	
+How I Met Your Marid	998	The Diadem		3.55	
+Shard to Get	999	The Diadem		3.55	
+Shard to Get	1000	The Diadem		3.55	
+Shard to Get	1001	The Diadem		3.55	
+Shard to Get	1002	The Diadem		3.55	
+Shard to Get	1003	The Diadem		3.55	
+Shard to Get	1004	The Diadem		3.55	
+Root of the Problem	1005	The Diadem		3.55	
+Root of the Problem	1006	The Diadem		3.55	
+Root of the Problem	1007	The Diadem		3.55	
+Nice Pirates	1008	The Diadem		3.55	
+Excitable Boys	1009	The Diadem		3.55	
+Pretty Flies	1010	The Diadem		3.55	
+Late-night Snack	1011	The Diadem		3.55	
+Late-night Snack	1012	The Diadem		3.55	
+Any Which Way	1013	The Diadem		3.55	
+Any Which Way	1014	The Diadem		3.55	
+Nice Pirates	1015	The Diadem		3.55	
+Who'll Stop the Sovereign	1016	The Diadem		3.55	
+Who'll Stop the Sovereign	1017	The Diadem		3.55	
+Hard of Heren	1019	The Diadem		3.55	
+Battle Toads	1020	The Diadem		3.55	
+Battle Toads	1021	The Diadem		3.55	
+Battle Toads	1022	The Diadem		3.55	
+Excitable Boys	1023	The Diadem		3.55	
+Loose Endymions	1024	The Diadem		3.55	
+Bounty Hunter	1025	The Diadem		3.55	
+Bounty Hunter	1026	The Diadem		3.55	
+Lords of the Sting	1027	The Diadem		3.55	
+Lords of the Sting	1028	The Diadem		3.55	
+Lords of the Sting	1029	The Diadem		3.55	
+Lords of the Sting	1030	The Diadem		3.55	
+Cloudy with a Chance of...Thal's Balls	1031	The Diadem		3.55	
+Cloudy with a Chance of...Thal's Balls	1032	The Diadem		3.55	
+Cloudy with a Chance of...Thal's Balls	1033	The Diadem		3.55	
+Mad Ventures in Retainer-sitting	1034	The Diadem		3.55	
+Where's the Beef	1035	The Diadem		3.55	
+Excitable Boys	1036	The Diadem		3.55	
+Sticking Celphies	1037	The Diadem		3.55	
+Can You Smell the Blood Tonight	1038	The Diadem		3.55	
+Can You Smell the Blood Tonight	1039	The Diadem		3.55	
+Excitable Boys	1040	The Diadem		3.55	
+Hail to the E	1041	The Diadem		3.55	
+Lunantishee in the Sky	1042	The Diadem		3.55	
+Lunantishee in the Sky	1043	The Diadem		3.55	
+Excitable Boys	1044	The Diadem		3.55	
+Excitable Boys	1045	The Diadem		3.55	
+Excitable Boys	1046	The Diadem		3.55	
+Whiplash	1047	The Diadem		3.55	
+Whiplash	1048	The Diadem		3.55	
+Excitable Boys	1049	The Diadem		3.55	
+Blood Wings	1050	The Diadem		3.55	
+Excitable Boys	1051	The Diadem		3.55	
+NOT THE TREES	1052	The Diadem		3.55	
+NOT THE TREES	1053	The Diadem		3.55	
+NOT THE TREES	1054	The Diadem		3.55	
+Excitable Boys	1055	The Diadem		3.55	
+Tightropen	1056	The Diadem		3.55	
+I'm the Scatman	1057	The Diadem		3.55	
+Wild Hunt	1058	The Diadem		3.55	
+Wild Hunt	1059	The Diadem		3.55	
+Excitable Boys	1060	The Diadem		3.55	
+Excitable Boys	1061	The Diadem		3.55	
+Mad Ventures in Retainer-sitting	1062	The Diadem		3.55	
+(You're) Killing My Mitelings	1063	The Diadem		3.55	
+(You're) Killing My Mitelings	1064	The Diadem		3.55	
+(You're) Killing My Mitelings	1065	The Diadem		3.55	
+(You're) Killing My Mitelings	1066	The Diadem		3.55	
+(You're) Having My Mitelings	1067	The Diadem		3.55	
+Nice Pirates	1068	The Diadem		3.55	
+Excitable Boys	1069	The Diadem		3.55	
+(You're Not) Having My Mitelings	1070	The Diadem		3.55	
+(You're Not) Having My Mitelings	1071	The Diadem		3.55	
+Root of the Problem	1072	The Diadem		3.55	
+Good-bye Solo	1073	The Diadem		3.55	
+Purple Haze	1074	The Diadem		3.55	
+Excitable Boys	1075	The Diadem		3.55	
+Fly by Day	1076	The Diadem		3.55	
+Excitable Boys	1077	The Diadem		3.55	
+Excitable Boys	1078	The Diadem		3.55	
+Forest for the Trees	1079	The Diadem		3.55	
+Forest for the Trees	1080	The Diadem		3.55	
+Excitable Boys	1081	The Diadem		3.55	
+Hard of Heren	1082	The Diadem		3.55	
+Excitable Boys	1083	The Diadem		3.55	
+The Other White Meat	1084	The Diadem		3.55	
+Mad Ventures in Retainer-sitting	1085	The Diadem		3.55	
+Excitable Boys	1086	The Diadem		3.55	
+Westwhirled	1087	The Diadem		3.55	
+Am I Blue	1088	The Diadem		3.55	
+Excitable Boys	1089	The Diadem		3.55	
+Excitable Boys	1090	The Diadem		3.55	
+Who's for Dinner	1091	The Diadem		3.55	
+Who's for Dinner	1092	The Diadem		3.55	
+Who's for Dinner	1093	The Diadem		3.55	
+On the Inside	1094	The Diadem		3.55	
+Blacker than the Foulest Witch	1095	The Diadem		3.55	
+Blacker than the Foulest Witch	1096	The Diadem		3.55	
+Blacker than the Foulest Witch	1097	The Diadem		3.55	
+How I Met Your Marid	1098	The Diadem		3.55	
+Lunantishee in the Sky	1099	The Diadem		3.55	
+Pretty Flies	1100	The Diadem		3.55	
+A Horse Outside	1103	The Lochs	16, 22	4	Ixion Horn
+A Horse Outside	1104	The Lochs	29, 10	4	Ixion Horn
+A Horse Outside	1105	The Lochs	5, 16	4	Ixion Horn
+Foxy Lady	1106	Yanxia	12, 18	4	Sassho-seki Fragment
+Foxy Lady	1107	Yanxia	16, 13	4	Sassho-seki Fragment
+Foxy Lady	1108	Yanxia	24, 34	4	Sassho-seki Fragment
+Outfoxed	1109	Yanxia	31, 9	4	Sassho-seki Fragment
+Freedom Flies	1110			4	
+More to Offer	1111	Yanxia	20, 8	4	
+Showing the Recruits What For	1112	The Fringes	9, 16	4	
+Showing the Officers What For	1113	The Fringes	9, 16	4	
+Showing the Commanders What For	1114	The Fringes	9, 16	4	
+Death Beckons	1115			4	
+Unbearable	1116			4	
+The Secret Life of Plants	1117			4	
+Dizzy Miss Grizzly	1118			4	
+Roid Rage	1119	The Fringes	18, 11	4	
+Keeping the Peace	1120			4	
+Keeping More Peace	1121			4	
+Double Dhara	1122			4	
+Bold This Way	1124			4	
+The Morning After	1125	The Fringes	10, 29	4	
+Thank You for Not Mossling	1126			4	
+The Mail Must Get Through	1127			4	
+Diakka Round	1128			4	
+The Evil Seed	1129	The Fringes	15, 23	4	
+The Spiderweb Chronicles	1130	The Fringes	18, 17	4	
+The Antlion's Share	1131			4	
+Really Don't Keratyrannos	1132	The Fringes	30, 24	4	
+Get Sharp	1133			4	
+The Tele-tale Hunt	1134	The Fringes	36, 30	4	
+Pop the Trunk	1135	The Fringes	31, 22	4	
+A Pain in the Neck	1136			4	
+Flappy Berda	1137			4	
+Ananta and Her Sisters	1138			4	
+Raisin' Hell	1139			4	
+Yes, This Is Dogs	1140			4	
+M Bop	1141			4	
+Wet	1142	The Ruby Sea	34, 11	4	
+Clean Bill of Health	1143			4	
+Quoth the Raven	1144	The Ruby Sea	32, 20	4	
+Lay of the Lang	1145	The Ruby Sea	11, 7	4	
+Pool Party	1146	The Ruby Sea	33, 25	4	
+Soak Up the Sun	1147	The Ruby Sea	31, 26	4	
+Agni's Philosophy	1148	The Ruby Sea	24, 36	4	
+The Coral High Ground	1149			4	
+The Big Banquet Theory	1150	The Ruby Sea	33, 6	4	
+Uncivil Serpents	1151	The Ruby Sea	38, 22	4	
+Ray Band	1152			4	
+Princess, Princess	1153	The Ruby Sea	26, 30	4	
+Kill the Messenger	1154	The Ruby Sea	9, 6	4	
+The F-bomb	1155	The Ruby Sea	29, 33	4	
+Raise the Red Flag	1156			4	
+Double Dream Clams	1157	The Ruby Sea	35, 25	4	
+There Be Dragonflies	1158	The Ruby Sea	35, 18	4	
+Bilge-hold Jin	1159			4	
+Days of Plunder	1160			4	
+Forever Younglier	1161			4	
+Treasure Island	1162			4	
+Sailor Marooned	1163	The Ruby Sea	35, 16	4	
+Jumping the Shark	1164	The Ruby Sea	15, 10	4	
+Red Cliff	1165	The Ruby Sea	26, 6	4	
+Ranging Bull	1166	The Ruby Sea	23, 6	4	
+Another One Bites the Dust	1167			4	
+Turtle Power	1168			4	
+Crab Mentality	1170	The Ruby Sea	30, 35	4	
+Independence Ray	1171	The Ruby Sea	35, 23	4	
+Never Say Daimyo	1172	The Ruby Sea	18, 9	4	
+A New Leaf	1173			4	
+Salad Days	1174			4	
+A Bone to Pick	1175			4	
+And the Bandits Played On	1176			4	
+Of Mice and Men	1177			4	
+Churlish Chapuli	1178			4	
+Down with the Sickness	1179			4	
+Child's Plague	1180	The Peaks	18, 12	4	
+You Don't Know Jack	1181			4	
+Winging It	1182			4	
+Beat Boxes	1184	The Peaks	19, 16	4	
+Barbershoppe	1185	The Peaks	23, 9	4	
+Fletching Returns	1186	The Peaks	26, 28	4	
+Days of Fluturini Past	1187			4	
+Diceman Cometh	1188	The Peaks	35, 9	4	
+Stuck in the Muud	1189	The Peaks	25, 14	4	
+Eat Big or Go Home	1190	The Peaks	17, 29	4	
+Love Me, Tindalos	1191	The Peaks	13, 30	4	
+Home on the Range	1193			4	
+Rattle and Humbaba	1194	The Peaks	16, 30	4	Ala Mhigan Barding
+Forget-me-not	1195			4	
+The Day of the Griffins	1196	The Peaks	15, 25	4	
+Venting	1197			4	
+Breakneck	1198			4	
+Attack of the Groans	1199	The Peaks	10, 14	4	
+Moth to a Flame	1200			4	
+Resist, Die, Repeat	1201			4	
+Slaughterwife-five	1202	The Peaks	23, 30	4	
+Das Bhoot	1203			4	
+5-year Energy	1204	The Peaks	28, 31	4	
+Mouth for Water	1205			4	
+The Magitek Is Back	1207	The Peaks	12, 27	4	
+A Tisket, A Tasket	1208			4	
+A Fish to Fry	1209			4	
+Falling Drown	1210			4	
+Scared Straightheart	1211			4	
+Wolves of a Feather	1212			4	
+Goodwill Hunterling	1213			4	
+Stay of Eggsecution	1214			4	
+Get Ready for a Nu Wave	1215			4	
+Deep Red Sea	1216			4	
+To Catch a Weasel	1217	Yanxia	34, 30	4	
+Footing the Bills	1218			4	
+Tiger Need	1219	Yanxia	38, 21	4	
+Leave the Meters Running	1220	Yanxia	33, 17	4	
+The Long and Rhino Road	1221			4	
+Raze the Red Lantern	1222			4	
+Long Hands, Long Fingers	1223			4	
+Rice and Shine	1224			4	
+In One Basket	1225			4	
+Tsurubebi Snugly	1226			4	
+Motherly Love	1227	Yanxia	27, 25	4	
+Killer Apsaras	1228			4	
+Linquan Continental	1229			4	
+This Is a Da, This Is a Peng	1230			4	
+Oneblade Wonder	1231			4	
+Mister Whiskers	1232			4	
+Crying Wolves	1233			4	
+Mada's Ilk	1234			4	
+Tora Tora Tora	1235			4	
+Ragoh to Extremes	1236	Yanxia	18, 8	4	
+Très Bian	1237			4	
+Curiosity Killed the Catfish	1238	Yanxia	16, 11	4	Kidomaru
+The Virgin Homicides	1239			4	
+Dead to Rites: Kiyofusa	1240			4	
+Dead to Rites: Koja	1241	Yanxia	18, 34	4	
+Don't You Mean Kirata	1242			4	
+The State of Reunion	1243	The Azim Steppe	33, 24	4	
+Cold Comes the Wind	1244			4	
+A Tall Order	1245	The Azim Steppe	20, 16	4	
+Duck and Cover	1246	The Azim Steppe	35, 17	4	
+Feel the Noise	1247			4	
+Get Out the Vochu	1248	The Azim Steppe	20, 30	4	
+Buzzkill	1249			4	
+A Good Day to Die	1250	The Azim Steppe	28, 17	4	
+Wooly Boys	1251			4	
+Razing the Baras	1252			4	
+The Fangover	1253			4	
+Hat's Off	1254			4	
+Rock for Food	1255			4	
+Purbol Reign	1256			4	
+Eat You Better	1257	The Azim Steppe	28, 28	4	
+Man to Mangas	1258			4	
+Not Just a Tribute	1259	The Azim Steppe	13, 15	4	
+Good Day to Mate	1260			4	
+Killing Dzo	1261			4	
+Burn After Evening	1262			4	
+Hey, Manzasiri	1263	The Azim Steppe	18, 28	4	
+Khan Artist	1264	The Azim Steppe	15, 32	4	
+Hook, Like, and Stinker	1265	The Azim Steppe	23, 14	4	
+Fired	1266	The Azim Steppe	23, 32	4	
+Wham, Bam, Thank You, Mammoth	1267	The Azim Steppe	30, 23	4	
+More than You Chaochu	1268	The Azim Steppe	34, 23	4	
+They Shall Not Want	1269			4	
+A Walk Through the Valley	1270			4	
+Live for the Mettle	1271			4	
+Off Their Yabby	1272			4	
+Foul Bachelor Frogamander	1273	The Lochs	22, 32	4	
+Old Bucket of Boruta	1274			4	
+Dusk Till Abaddon	1275			4	
+The Smell That Leeched Her Heart	1276			4	
+Tall Tale	1277	The Lochs	22, 25	4	
+Taking Kurrea Business	1278			4	
+Dude, Where's My Karya	1279			4	
+Sisyphus Cooling	1280			4	
+Minotaurs on My Mind	1281	The Lochs	26, 32	4	
+Dive In	1282			4	
+Pounding Salt	1283	The Lochs	9, 25	4	
+Lalla Land	1284	The Lochs	15, 13	4	
+When It Pains It Pours	1285			4	
+Sob Story	1286			4	
+Par for the Course	1287			4	
+Sip When I'm Dead	1288	The Lochs	26, 9	4	
+Who's Phoebad	1289	The Lochs	25, 31	4	
+Yabby Hunters	1290			4	
+Enemy Territory	1291			4	
+One Bad Mother Chukwa	1292			4	
+Give Bees a Chance	1293			4	
+About Face	1294			4	
+No Time Is a Good Time	1295	The Lochs	27, 28	4	
+Mazeless Runner	1296	The Lochs	29, 19	4	
+Kingsgrave	1297			4	
+Fate No Morpho	1298			4	
+I Can Feel the Earth Move	1299			4	
+To Leech His Own	1300			4	
+Tellus a Tale	1301	The Lochs	12, 27	4	
+OK, Golem	1302	The Lochs	14, 31	4	
+Ancelot's Fear	1303			4	
+Ancelot's Folly	1304			4	
+Ancelot's Finale	1305			4	
+The Dataqi Chronicles: Departures	1306	The Azim Steppe	27, 30	4	
+The Dataqi Chronicles: Distractions	1307	The Azim Steppe	25, 25	4	
+The Dataqi Chronicles: Duty	1308	The Azim Steppe	26, 25	4	
+The Dataqi Chronicles: Deprivation	1309	The Azim Steppe	26, 26	4	
+The Dataqi Chronicles: Deterrence	1310	The Azim Steppe	26, 25	4	
+The Dataqi Chronicles: Desperation	1311	The Azim Steppe	32, 22	4	
+The Dataqi Chronicles: Distress	1312	The Azim Steppe	34, 19	4	
+The Dataqi Chronicles: Displacement	1313	The Azim Steppe	35, 20	4	
+The Dataqi Chronicles: Diplomacy	1315	The Azim Steppe	33, 19	4	
+The Dataqi Chronicles: Decimation	1316	The Azim Steppe	22, 19	4	
+The Dataqi Chronicles: Divergence	1318	The Azim Steppe	11, 17	4	
+The Dataqi Chronicles: Declarations	1319	The Azim Steppe	11, 17	4	
+The Dataqi Chronicles: Dominion	1320	The Azim Steppe	11, 17	4	Dataqi Standard
+Unsafety Dance	1332	Eureka Anemos		4.25	
+The Shadow over Anemos	1348	Eureka Anemos		4.25	The Prince of Anemos
+Teles House	1333	Eureka Anemos		4.25	
+The Swarm Never Sets	1328	Eureka Anemos		4.25	Emperor Hairpin
+One Missed Callisto	1344	Eureka Anemos		4.25	
+By Numbers	1347	Eureka Anemos		4.25	
+Disinherit the Wind	1345	Eureka Anemos		4.25	
+Prove your Amemettle	1334	Eureka Anemos		4.25	
+Caym What May	1335	Eureka Anemos		4.25	
+The Killing of a Sacred Bombadier	1336	Eureka Anemos		4.25	
+Short Serket 2	1339	Eureka Anemos		4.25	Scorpion Harness, Wind-up Mithra
+Don't Judge Me, Morbol	1346	Eureka Anemos		4.25	
+When You Ride Alone	1343	Eureka Anemos		4.25	
+Sing, Muse	1337	Eureka Anemos		4.25	
+Simurghasbord	1342	Eureka Anemos		4.25	Strider Boots
+To the Mat	1341	Eureka Anemos		4.25	
+Wine and Honey	1331	Eureka Anemos		4.25	
+I Amarok	1340	Eureka Anemos		4.25	
+Drama Lamashtu	1338	Eureka Anemos		4.25	
+Wail in the Willows	1329	Eureka Anemos	7, 21	4.25	Pazuzu's Feather, Altar to Pazuzu

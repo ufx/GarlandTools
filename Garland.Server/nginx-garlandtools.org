@@ -1,0 +1,71 @@
+# garlandtools.org server
+
+server {
+	# SSL configuration
+	#
+	# listen 443 ssl default_server;
+	# listen [::]:443 ssl default_server;
+	#
+	# Note: You should disable gzip for SSL traffic.
+	# See: https://bugs.debian.org/773332
+	#
+	# Read up on ssl_ciphers to ensure a secure configuration.
+	# See: https://bugs.debian.org/765782
+
+	listen 80;
+	listen [::]:80;
+	root /var/www/html;
+	index index.html;
+	server_name garlandtools.org *.garlandtools.org;
+
+	location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+		try_files $uri $uri/ =404;
+	}
+
+	# Caching
+	location ~* \.(css|js|html)$ {
+		expires 15h;
+	}
+
+	location ~* \.(jpg|jpeg|png|gif|ico|mp3|ogg|obj)$ {
+		expires 10d;
+	}
+
+	# JSON API
+	location ~* \.(json)$ {
+		add_header 'Access-Control-Allow-Origin' '*';
+		add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+
+		# v2 format
+		rewrite ^/db/doc/(.*)/(.*)/(.*)/(.*)\.json$ /api/get.php?type=$1&lang=$2&version=$3&id=$4 last;
+
+		expires 2d;
+	}
+
+	# FastCGI PHP API
+	location ~ \.php$ {
+		include snippets/fastcgi-php.conf;
+		fastcgi_pass unix:/run/php/php7.2-fpm.sock;
+	}
+
+	location = /api/search.php {
+		include snippets/fastcgi-php.conf;
+		fastcgi_pass unix:/run/php/php7.2-fpm.sock;
+
+		add_header 'Access-Control-Allow-Origin' '*';
+		add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+	}
+
+    location = /api/get.php {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php7.2-fpm.sock;
+
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+
+        expires 2d;
+    }
+}
+
