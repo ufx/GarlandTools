@@ -44,6 +44,7 @@ namespace Garland.Data.Modules
                     item.tripletriad.type = type;
 
                 if (sResident.SaleValue > 0)
+                    item.tripletriad.sellMgp = sResident.SaleValue;
 
                 // unlock.TripleTriadCard.Icon is only 40x40 and looks awful.
                 item.tripletriad.plate = IconDatabase.EnsureEntry("triad\\plate", sCard.PlateIcon);
