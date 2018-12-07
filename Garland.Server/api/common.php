@@ -1,5 +1,7 @@
 <?php
 
+require 'config.php';
+
 //
 // Utility
 //
