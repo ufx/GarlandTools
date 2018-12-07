@@ -17,16 +17,6 @@ namespace Garland.Data
             1769524, // Items in Development
         };
 
-        public static HashSet<int> NoSharedModelCategories = new HashSet<int>()
-        {
-            // Subset of NoModelCategories.
-
-            40, // Necklace
-            41, // Earrings
-            42, // Bracelets
-            43  // Ring
-        };
-
         public static HashSet<int> NoModelCategories = new HashSet<int>()
         {
             33, // Fishing Tackle

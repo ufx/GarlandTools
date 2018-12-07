@@ -300,11 +300,13 @@ namespace Garland.Data.Modules
                     if (!sEquipment.SecondaryModelKey.IsEmpty)
                         item.models.Add(sEquipment.SecondaryModelKey.ToString().Replace(", ", "-"));
 
-                    // Record items with similar models.
-                    if (!Hacks.NoSharedModelCategories.Contains(sEquipment.ItemUICategory.Key) && sEquipment.Rarity != 7) // Skip belts, accessories, aetherial loot.
+                    if (sEquipment.Rarity != 7)
                     {
                         var sEquipSlot = sEquipment.EquipSlotCategory.PossibleSlots.First();
                         var modelKey = sEquipSlot.GetModelKey(sEquipment.PrimaryModelKey, characterType);
+
+                        // We compare only the primary model key for now.
+                        // Not sure if the secondary key is valuable too?
                         if (!_itemsBySlotModelId.TryGetValue(modelKey, out var itemsWithModel))
                         {
                             itemsWithModel = new List<dynamic>();
