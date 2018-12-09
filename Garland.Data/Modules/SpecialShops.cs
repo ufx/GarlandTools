@@ -55,8 +55,8 @@ namespace Garland.Data.Modules
         {
             foreach (var sTopicSelect in _builder.Sheet("TopicSelect"))
             {
-                var npcs = sTopicSelect.Sheet.Collection.ENpcs.FindWithData(sTopicSelect.Key).ToArray();
-                if (npcs.Length == 0)
+                var sNpcs = sTopicSelect.Sheet.Collection.ENpcs.FindWithData(sTopicSelect.Key).ToArray();
+                if (sNpcs.Length == 0)
                     continue;
 
                 for (var i = 0; i < 10; i++)
@@ -65,15 +65,15 @@ namespace Garland.Data.Modules
                     if (sShop == null || sShop.Key == 0)
                         continue;
 
-                    if (sShop is Saint.SpecialShop specialShop)
+                    if (sShop is Saint.SpecialShop sSpecialShop)
                     {
                         var shop = _shopsByKey[sShop.Key];
-                        shop.ENpcs = npcs;
+                        shop.ENpcs = sNpcs;
                     }
-                    else if (sShop is Saint.GilShop gilShop)
+                    else if (sShop is Saint.GilShop sGilShop)
                     {
-                        var fullName = sTopicSelect["Name"].ToString() + "<br>" + gilShop.Name.ToString();
-                        _shops.Add(new GarlandShop(fullName, npcs, gilShop.Items));
+                        var fullName = sTopicSelect["Name"].ToString() + "<br>" + sGilShop.Name.ToString();
+                        _shops.Add(new GarlandShop(fullName, sNpcs, sGilShop.Items));
                     }
                     else
                         throw new NotImplementedException();
@@ -91,8 +91,8 @@ namespace Garland.Data.Modules
                 if (shopInstructions.Length == 0)
                     continue;
 
-                var npcs = sCustomTalk.Sheet.Collection.ENpcs.FindWithData(sCustomTalk.Key).ToArray();
-                if (npcs.Length == 0)
+                var sNpcs = sCustomTalk.Sheet.Collection.ENpcs.FindWithData(sCustomTalk.Key).ToArray();
+                if (sNpcs.Length == 0)
                     continue;
 
                 foreach (var shopInstruction in shopInstructions)
@@ -104,7 +104,7 @@ namespace Garland.Data.Modules
                     // Setup a disposal shop.
                     if (shopInstruction.Label == "SHOP_DISPOSAL")
                     {
-                        DisposalShops.BuildShop(_builder, npcs, (int)shopInstruction.Argument);
+                        DisposalShops.BuildShop(_builder, sNpcs, (int)shopInstruction.Argument);
                         continue;
                     }
 
@@ -121,13 +121,13 @@ namespace Garland.Data.Modules
                         var name = Hacks.GetShopName((SaintCoinach.Text.XivString)sCustomTalk.GetRaw("Name"), shopInstruction);
                         if (name.Contains("[not in Saint]"))
                         {
-                            DatabaseBuilder.PrintLine($"{string.Join(", ", npcs.Select(e => e.Singular.ToString()))} has shop {name}");
+                            DatabaseBuilder.PrintLine($"{string.Join(", ", sNpcs.Select(e => e.Singular.ToString()))} has shop {name}");
                             continue;
                         }
                         shop.Name = name;
                     }
 
-                    shop.ENpcs = npcs.Union(shop.ENpcs).Distinct().ToArray();
+                    shop.ENpcs = sNpcs.Union(shop.ENpcs).Distinct().ToArray();
                 }
             }
         }
