@@ -1003,6 +1003,18 @@ gt.item = {
         return null;
     },
 
+    setBlockExpansion: function($block, data) {
+        // This function may be called for a group too.  No worries.
+        var isExpanded = false;
+        
+        if (data.craftAmount)
+            isExpanded = true;
+        else if (data.activePage == 'models-page')
+            isExpanded = true;
+
+        $block.toggleClass('expanded', isExpanded ? true : false);
+    },
+
     menuPageLoaded: function(e) {
         var $block = $(e.currentTarget);
         var $page = $('.models-page', $block);
@@ -1013,7 +1025,7 @@ gt.item = {
                 $page.data('viewer-injected', false);
             }
 
-            $block.removeClass('expanded');
+            gt.item.setBlockExpansion($block, $block.data('block'));
             return;
         }
 

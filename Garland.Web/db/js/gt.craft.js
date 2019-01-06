@@ -53,6 +53,8 @@ gt.craft = {
             .blur(gt.craft.amountFinishedBlurred)
             .change(gt.craft.amountFinishedChanged);
 
+        // todo: switch to setBlockExpansion.  1/10.
+        //gt.item.setBlockExpansion($block, data);
         $block.toggleClass('expanded', view.craftSet.amounts ? true : false);
     },
 
