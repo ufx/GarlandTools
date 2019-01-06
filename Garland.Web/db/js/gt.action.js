@@ -2,7 +2,6 @@ gt.action = {
     index: {},
     partialIndex: {},
     categoryIndex: {},
-    statusIndex: null,
     blockTemplate: null,
     pluralName: 'Actions',
     type: 'action',
@@ -159,10 +158,6 @@ gt.action = {
     },
 
     getStatusViewModel: function(status, relationship) {
-        // todo: remove when status things are embedded.
-        if (typeof status == "number")
-            status = gt.action.statusIndex[status];
-
         return {
             relationship: relationship,
             name: status.name,

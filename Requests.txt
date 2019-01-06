@@ -3,6 +3,10 @@
 
 * Bell: close timers, click hunt or gold saucer.  reopened timers will be too large.
 
+Teamcraft crafting list import:
+so the url is https://ffxivteamcraft.com/list-import/<import string>
+Where import string is base64(itemId, recipeId, quantity;)
+
 ------------------
 
 * Add setting to unlock block heights in Bell.  Always use it in single-column mode?  How to override?
@@ -34,7 +38,7 @@ Yeah looks like it might be sorted by the SortKeys of their ItemUICategory > Req
 
 * Remove it.groupTradeSource.item check from vendor-item-link-template in db/index.html
 
-* Remove gt.action.statusIndex.
+* Switch gt.craft gt.item.setBlockExpansion in bindEvents.  1/10.
 
 ------------------------------------
     SEARCH

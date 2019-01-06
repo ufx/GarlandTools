@@ -156,7 +156,6 @@ gt.core = {
         gt.quest.genreIndex = data.questGenreIndex;
         gt.venture.index = data.ventureIndex;
         gt.action.categoryIndex = data.action.categoryIndex;
-        gt.action.statusIndex = data.action.statusIndex; // todo: remove
         gt.achievement.categoryIndex = data.achievementCategoryIndex;
         gt.item.categoryIndex = data.item.categoryIndex;
         gt.item.specialBonusIndex = data.item.specialBonusIndex;
