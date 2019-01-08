@@ -96,6 +96,13 @@ namespace Garland.Data.Modules
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
             };
 
+            // Blue Mage
+            _statWeightsByJob[36] = new SW[] {
+                new SW("Magic Damage", 15), new SW("Intelligence", 1),
+                new SW("Determination", .001), new SW("Spell Speed", .001),
+                new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
+            };
+
             // Warrior (Defiance)
             _statWeightsByJob[21] = new SW[] {
                 new SW("Physical Damage", 15),

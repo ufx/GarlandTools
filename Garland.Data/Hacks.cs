@@ -244,9 +244,10 @@ namespace Garland.Data
                 case 20: return "Novice Hall";
                 case 22: return "Seasonal Dungeon";
                 case 23: return "Airship Expedition";
+                case 27: return "The Masked Carnivale"; // fixme: verify this when content is released
             }
 
-            throw new InvalidOperationException("Invalid missing ContentType override.");
+            throw new InvalidOperationException($"Invalid missing ContentType override for {sContentType}.");
         }
 
         public static string GetCategoryDamageAttribute(SaintCoinach.Xiv.ItemUICategory category)
@@ -286,6 +287,7 @@ namespace Garland.Data
                 case 89: // Astrologian's Arm
                 case 97: // Red Mage's Arm
                 case 98: // Scholar's Arm
+                case 105: // Blue Mage's Arm
                     return "Magic Damage";
 
                 default:

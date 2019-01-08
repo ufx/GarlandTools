@@ -60,6 +60,8 @@ namespace Garland.Data
                         return "[Item Level]";
                     else if (genericText == "<Sheet(ContentFinderCondition,IntegerParameter(2),32)/>")
                         return "[Instance]";
+                    else if (genericText == "<Sheet(ContentFinderCondition,IntegerParameter(2),34)/>")
+                        return "[Instance]";
                     else if (genericText.StartsWith("<Sheet(") && !genericText.Contains("PlayerParameter("))
                     {
                         var genericElementArgs = genericElement.Arguments.ToArray();

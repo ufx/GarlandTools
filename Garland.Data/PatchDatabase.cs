@@ -142,6 +142,7 @@ namespace Garland.Data
             ItemPatchCategoryByUICategory[102] = 15; // Submersible Stern
             ItemPatchCategoryByUICategory[103] = 15; // Submersible Bow
             ItemPatchCategoryByUICategory[104] = 15; // Submersible Bridge
+            ItemPatchCategoryByUICategory[105] = 0; // Blue Mage's Arm
         }
 
         public static void Initialize()

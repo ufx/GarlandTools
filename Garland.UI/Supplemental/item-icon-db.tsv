@@ -11951,10 +11951,10 @@
 17504	9389	48208	Proto Ultima Ring of Fending
 17521	9390	26502	Proto Ultima Heat Shielding
 17528	10904	28729	Wind-up Hraesvelgr
-17549	9393	28205	Near Eastern Antique
-17550	9394	28204	Coerthan Souvenir
-17551	9395	28206	Maelstrom Materiel
-17553	9396	28207	Orphanage Donation
+25018	12880	38582	Bokuto
+25019	12879	34329	Colossus Guillotine
+25020	0	34328	Gigas Greatsword
+25021	0	35766	Tonberry Knife
 17559	9397	25011	Duskfall Moss
 17561	9398	22851	Rainbow Pigment
 17575	10902	52842	Stuffed Sabotender
@@ -15403,86 +15403,322 @@
 23888	12846	52951	Glass Jars
 23882	12847	52939	Spice Rack
 23881	12848	52953	Adventuring Pack
-24196	0	47170	Moddey Dhoo Sabatons
-24195	0	49880	Moddey Dhoo Cuisses
-24194	0	49609	Moddey Dhoo Gauntlets
-24193	0	43423	Moddey Dhoo Armor
-24192	0	41520	Moddey Dhoo Helm
-24185	0	51243	Golden Kasamatsu Interior Wall
-24184	0	51242	Golden Upholstered Interior Wall
-24163	0	40923	Matoya's Hat
-24162	0	46077	Leal Samurai's Geta
-24161	0	49876	Leal Samurai's Tsutsu-hakama
-24160	0	49620	Leal Samurai's Tekko
-24159	0	42622	Leal Samurai's Dogi
-24158	0	40920	Leal Samurai's Kasa
-24147	0	49991	Choir Shoes
-24146	0	42621	Choir Robe
-24145	0	40919	Choir Hat
-24121	0	49980	Elemental Shoes of Casting
-24120	0	49853	Elemental Bottoms of Casting
-24119	0	49342	Elemental Gloves of Casting
-24118	0	42612	Elemental Coat of Casting
-24117	0	41630	Elemental Circlet of Casting
-24116	0	49981	Elemental Shoes of Healing
-24115	0	49855	Elemental Bottoms of Healing
-24114	0	49343	Elemental Gloves of Healing
-24113	0	42613	Elemental Coat of Healing
-24112	0	41631	Elemental Circlet of Healing
-24111	0	47167	Elemental Boots of Scouting
-24110	0	49859	Elemental Breeches of Scouting
-24109	0	49346	Elemental Gloves of Scouting
-24108	0	43834	Elemental Jacket of Scouting
-24107	0	41632	Elemental Circlet of Scouting
-24106	0	47166	Elemental Boots of Aiming
-24105	0	49858	Elemental Breeches of Aiming
-24104	0	49345	Elemental Gloves of Aiming
-24103	0	43833	Elemental Jacket of Aiming
-24102	0	40918	Elemental Hat of Aiming
-24101	0	47165	Elemental Boots of Striking
-24100	0	49857	Elemental Breeches of Striking
-24099	0	49344	Elemental Gloves of Striking
-24098	0	43832	Elemental Jacket of Striking
-24097	0	40917	Elemental Hat of Striking
-24096	0	47164	Elemental Shoes of Maiming
-24095	0	49856	Elemental Trousers of Maiming
-24094	0	49616	Elemental Gauntlets of Maiming
-24093	0	43422	Elemental Armor of Maiming
-24092	0	41519	Elemental Helm of Maiming
-24091	0	47163	Elemental Shoes of Fending
-24090	0	49854	Elemental Trousers of Fending
-24089	0	49615	Elemental Gauntlets of Fending
-24088	0	43421	Elemental Armor of Fending
-24087	0	41518	Elemental Helm of Fending
+19726	12869	49989	Ala Mhigan Shoes of Gathering
+19725	12870	49874	Ala Mhigan Bottoms of Gathering
+19724	12871	49356	Ala Mhigan Gloves of Gathering
+19723	12872	42619	Ala Mhigan Coat of Gathering
+19722	12873	47914	Ala Mhigan Turban of Gathering
+19721	12874	49990	Ala Mhigan Shoes of Crafting
+19720	12875	49875	Ala Mhigan Bottoms of Crafting
+19719	12876	49357	Ala Mhigan Gloves of Crafting
+19718	12877	42620	Ala Mhigan Doublet of Crafting
+19717	12878	47915	Ala Mhigan Turban of Crafting
+25017	12881	33117	Kum Kum Staff
+25016	12882	31975	Faust Lance
+25015	12883	31573	Giant Axe
+25014	12884	30599	Halicarnassus Sword
+25013	12885	30189	Gigas Shield
+25011	12886	43864	Far Eastern Smock
+25010	12887	43865	Ishgardian Gown
+25000	0	49692	Skirt of Light
+24999	0	42628	Gown of Light
+24903	12888	28830	Hedgehoglet
+24902	12889	28829	Abroader Otter
+24892	12890	29547	Garden Skipper
+24889	12891	29546	Axelrod
+24887	12892	29545	Hermit's End
+24886	12893	29544	Glarramundi
+24883	12894	29163	Seven Stars
+24882	12895	29162	The Vegetarian
+24881	12896	29161	Lily of the Veil
+24868	12897	51135	Carbuncle Chandelier
+24867	12898	41867	Rainbow Lily of the Valley Corsage
+24866	12899	41866	Black Lily of the Valley Corsage
+24865	12900	41871	White Lily of the Valley Corsage
+24864	12901	41868	Purple Lily of the Valley Corsage
+24863	12902	41864	Orange Lily of the Valley Corsage
+24862	12903	41872	Green Lily of the Valley Corsage
+24861	12904	41865	Yellow Lily of the Valley Corsage
+24860	12905	41869	Blue Lily of the Valley Corsage
+24859	12906	41870	Red Lily of the Valley Corsage
+24799	12907	49204	Seiryu Barding
+24798	0	26283	Mullondeis Coin
+24797	12908	26545	Seiryu Totem
+24796	12909	39901	Azulmagia
+24642	0	28817	Baby Gremlin
+24639	12910	28821	Wind-up Weapon
+24636	12911	28824	Minitek Conveyor
+24634	12912	28827	Seitei
+24615	0	48495	Mameshiba Neckerchief
+24614	0	48728	Mameshiba Earring
+24613	0	48494	Namazu Neckerchief
+24612	0	48727	Namazu Earring
+24607	0	49910	スプリガンブーツ
+24606	0	49697	スプリガンボトム
+24605	0	43858	スプリガンジャケット
+24604	0	49914	Far Eastern Schoolgirl's Boots
+24603	0	43862	Far Eastern Schoolgirl's Hakama
+24602	0	47924	Far Eastern Schoolgirl's Hair Ribbon
+24601	0	46079	Far Eastern Schoolboy's Zori
+24600	0	43863	Far Eastern Schoolboy's Hakama
+24599	0	40930	Far Eastern Schoolboy's Hat
+24593	12913	49911	Rain Boots
+24592	12914	43859	Raincoat
+24591	12915	47923	Rain Hood
+24590	0	47925	Flower Crown
+24589	0	48729	Aetheryte Earring
+24586	12916	49913	True Blue Boots
+24585	12917	49699	True Blue Trousers
+24584	12918	49374	True Blue Gloves
+24583	12919	43861	True Blue Coat
+24582	12920	40929	True Blue Hat
+24566	12921	26547	Arkhi Brewing Set
+24565	12922	26546	Hard Place Decorative Furnishings
+24564	12923	26549	Signature Buuz Cookware
+24563	12924	26550	Fermented Juice
+24562	12925	26548	Ishgardian Culinary Essentials
+24556	12926	49912	Magus's Shoes
+24555	12927	49698	Magus's Trousers
+24554	12928	49373	Magus's Gloves
+24553	12929	43860	Magus's Jacket
+24552	12930	41725	Magus's Mask
+24551	12931	39902	The Spirit of the Whalaqee
+24550	12932	25576	Rainbow Lilies of the Valley
+24549	12933	25575	Black Lilies of the Valley
+24548	12934	25580	White Lilies of the Valley
+24547	12935	25577	Purple Lilies of the Valley
+24546	12936	25573	Orange Lilies of the Valley
+24545	12937	25581	Green Lilies of the Valley
+24544	12938	25574	Yellow Lilies of the Valley
+24543	12939	25578	Blue Lilies of the Valley
+24542	12940	25579	Red Lilies of the Valley
+24541	12941	27468	Lily of the Valley Pips
+24540	12942	51906	Moonlit Tank Trimmings
+24539	12943	51244	Black-and-white Interior Wall
+24538	12944	51038	Teal Blue Carpeting
+24536	12945	53168	Botanist's Garden
+24534	0	52970	Season Twelve Lone Wolf Trophy
+24533	12946	52969	Season Eleven Lone Wolf Trophy
+24532	0	52989	Festive Sushi Balls
+24531	0	52988	Festive Chirashi-zushi
+24530	0	52975	Stuffed Mammet
+24529	0	52976	Enormous Stuffed Alpha
+24528	12947	52650	Fat Cat Sofa
+24527	12948	52959	Plush Pile
+24526	12949	52387	Hanging Planter Shelf
+24525	12950	52029	Red Carpet
+24524	12951	52960	Honey Pot
+24523	12952	52985	Marimo Lamp
+24522	12953	52961	Prism Pouch
+24521	12954	52983	Potion Rack
+24520	12955	52980	Fabric Rack
+24519	12956	52981	Mineral Display
+24518	12957	52978	Pastry Cupboard
+24517	12958	52982	Vegetable Stall
+24516	12959	52979	Fruit Stall
+24515	12960	52987	Bowl of Oden
+24514	12961	52986	White Rectangular Partition
+24513	12962	52393	Wooden Beam
+24512	12963	52390	Wooden Steps
+24511	12964	52388	Wooden Loft
+24510	12965	52391	Four Lords
+24509	12966	52281	Steppe Kitchen
+24508	12967	52389	Botanist's Dried Herbs
+24507	12968	52280	Tree Slice Tower
+24506	12969	52971	Fat Cat Bank
+24505	12970	52968	Cerulean Crystal Boule
+24504	12971	52966	Level Checker Replica
+24503	12972	52974	Undersea Spoils
+24502	12973	52973	Bag of Booty
+24501	12974	52392	Small Imitation Window
+24500	0	52965	アルコンエッグス
+24499	0	52991	エッグ・チョコレートケーキ
+24498	0	52990	エッグ・クラウンロースト
+24497	0	52993	Valentione Cake Pairing
+24496	0	52992	Valentione Lobster Platter
+24495	12975	52977	Seiryu Statuette
+24494	12976	52972	Travel Paint Set
+24493	12977	52962	Tier 4 Metal Aquarium
+24492	12978	52963	Tier 3 Metal Aquarium
+24491	12979	52652	Mirific Mogshelf
+24490	12980	52994	Emerald Crystal Boule
+24489	12981	52967	Paint Can
+24487	12982	30187	Seiryu's Shield
+24486	12983	38880	Seiryu's Rapier
+24485	12984	38579	Seiryu's Rippled Katana
+24484	12985	34922	Seiryu's Ephemeris
+24483	12986	39454	Seiryu's Codex
+24482	12987	39455	Seiryu's Grimoire
+24481	12988	33114	Seiryu's Rod
+24480	12989	32746	Seiryu's Cane
+24479	12990	39723	Seiryu's Revolver
+24478	12991	34325	Seiryu's Spine
+24477	12992	33949	Seiryu's Daggers
+24476	12993	32362	Seiryu's Greatbow
+24475	12994	31971	Seiryu's Lance
+24474	12995	31571	Seiryu's War Axe
+24473	12996	31163	Seiryu's Bladed Tekko
+24472	12997	30597	Seiryu's Longsword
+24470	12998	49996	Ivalician Oracle's Shoes
+24469	12999	49882	Ivalician Oracle's Bottoms
+24468	13000	49359	Ivalician Oracle's Halfgloves
+24467	13001	42623	Ivalician Oracle's Coat
+24466	13002	40924	Ivalician Oracle's Mask
+24464	13003	49998	Ivalician Mystic's Shoes
+24463	13004	49884	Ivalician Mystic's Bottoms
+24462	13005	49361	Ivalician Mystic's Halfgloves
+24461	13006	42624	Ivalician Mystic's Coat
+24460	13007	40925	Ivalician Mystic's Hat
+24458	13008	47173	Ivalician Mercenary's Greaves
+24457	13009	49888	Ivalician Mercenary's Trousers
+24456	13010	49624	Ivalician Mercenary's Gauntlets
+24455	13011	43428	Ivalician Mercenary's Jacket
+24454	13012	47919	Ivalician Mercenary's Circlet
+24452	13013	46078	Ivalician Sky Pirate's Shoes
+24451	13014	49887	Ivalician Sky Pirate's Trousers
+24450	13015	44856	Ivalician Sky Pirate's Plunder
+24449	13016	43849	Ivalician Sky Pirate's Jacket
+24448	13017	40926	Ivalician Sky Pirate's Hat
+24446	13018	47172	Ivalician Brave's Greaves
+24445	13019	49886	Ivalician Brave's Trousers
+24444	13020	49623	Ivalician Brave's Gauntlets
+24443	13021	43427	Ivalician Brave's Jacket
+24442	13022	47918	Ivalician Brave's Circlet
+24440	13023	49999	Ivalician Royal Knight's Boots
+24439	13024	49885	Ivalician Royal Knight's Trousers
+24438	13025	49362	Ivalician Royal Knight's Gloves
+24437	13026	43426	Ivalician Royal Knight's Armor
+24436	13027	47917	Ivalician Royal Knight's Circlet
+24435	13028	47348	Ivalician Holy Knight's Belt
+24434	13029	49997	Ivalician Holy Knight's Boots
+24433	13030	49883	Ivalician Holy Knight's Trousers
+24432	13031	49360	Ivalician Holy Knight's Gloves
+24431	13032	43425	Ivalician Holy Knight's Armor
+24430	13033	47916	Ivalician Holy Knight's Circlet
+24408	13034	49900	Alliance Boots of Casting
+24407	13035	49889	Alliance Bottoms of Casting
+24406	13036	49363	Alliance Fingerless Gloves of Casting
+24405	13037	43850	Alliance Coat of Casting
+24404	13038	47920	Alliance Circlet of Casting
+24402	13039	49902	Alliance Boots of Healing
+24401	13040	49891	Alliance Bottoms of Healing
+24400	13041	49364	Alliance Fingerless Gloves of Healing
+24399	13042	43852	Alliance Coat of Healing
+24398	13043	47921	Alliance Circlet of Healing
+24396	13044	49906	Alliance Shoes of Scouting
+24395	13045	49895	Alliance Skirt of Scouting
+24394	13046	49366	Alliance Fingerless Gloves of Scouting
+24393	13047	42976	Alliance Vest of Scouting
+24392	13048	41523	Alliance Helm of Scouting
+24390	13049	49905	Alliance Shoes of Aiming
+24389	13050	49894	Alliance Trousers of Aiming
+24388	13051	49626	Alliance Armguards of Aiming
+24387	13052	43853	Alliance Jacket of Aiming
+24386	13053	41724	Alliance Visor of Aiming
+24384	13054	49904	Alliance Shoes of Striking
+24383	13055	49893	Alliance Skirt of Striking
+24382	13056	49365	Alliance Fingerless Gloves of Striking
+24381	13057	42975	Alliance Vest of Striking
+24380	13058	41723	Alliance Visor of Striking
+24378	13059	49903	Alliance Boots of Maiming
+24377	13060	49892	Alliance Trousers of Maiming
+24376	13061	49625	Alliance Armguards of Maiming
+24375	13062	42974	Alliance Vest of Maiming
+24374	13063	41722	Alliance Visor of Maiming
+24372	13064	49901	Alliance Boots of Fending
+24371	13065	49890	Alliance Trousers of Fending
+24370	13066	49589	Alliance Armguards of Fending
+24369	13067	43851	Alliance Coat of Fending
+24368	13068	41522	Alliance Helm of Fending
+24347	13069	27825	Syldra-class Stern
+24346	13070	27845	Syldra-class Hull
+24345	13071	27805	Syldra-class Bridge
+24344	13072	27785	Syldra-class Bow
+24196	13073	47170	Moddey Dhoo Sabatons
+24195	13074	49880	Moddey Dhoo Cuisses
+24194	13075	49609	Moddey Dhoo Gauntlets
+24193	13076	43423	Moddey Dhoo Armor
+24192	13077	41520	Moddey Dhoo Helm
+24185	13078	51243	Golden Kasamatsu Interior Wall
+24184	13079	51242	Golden Upholstered Interior Wall
+24163	13080	40923	Matoya's Hat
+24162	13081	46077	Leal Samurai's Geta
+24161	13082	49876	Leal Samurai's Tsutsu-hakama
+24160	13083	49620	Leal Samurai's Tekko
+24159	13084	42622	Leal Samurai's Dogi
+24158	13085	40920	Leal Samurai's Kasa
+24147	13086	49991	Choir Shoes
+24146	13087	42621	Choir Robe
+24145	13088	40919	Choir Hat
+24121	13089	49980	Elemental Shoes of Casting
+24120	13090	49853	Elemental Bottoms of Casting
+24119	13091	49342	Elemental Gloves of Casting
+24118	13092	42612	Elemental Coat of Casting
+24117	13093	41630	Elemental Circlet of Casting
+24116	13094	49981	Elemental Shoes of Healing
+24115	13095	49855	Elemental Bottoms of Healing
+24114	13096	49343	Elemental Gloves of Healing
+24113	13097	42613	Elemental Coat of Healing
+24112	13098	41631	Elemental Circlet of Healing
+24111	13099	47167	Elemental Boots of Scouting
+24110	13100	49859	Elemental Breeches of Scouting
+24109	13101	49346	Elemental Gloves of Scouting
+24108	13102	43834	Elemental Jacket of Scouting
+24107	13103	41632	Elemental Circlet of Scouting
+24106	13104	47166	Elemental Boots of Aiming
+24105	13105	49858	Elemental Breeches of Aiming
+24104	13106	49345	Elemental Gloves of Aiming
+24103	13107	43833	Elemental Jacket of Aiming
+24102	13108	40918	Elemental Hat of Aiming
+24101	13109	47165	Elemental Boots of Striking
+24100	13110	49857	Elemental Breeches of Striking
+24099	13111	49344	Elemental Gloves of Striking
+24098	13112	43832	Elemental Jacket of Striking
+24097	13113	40917	Elemental Hat of Striking
+24096	13114	47164	Elemental Shoes of Maiming
+24095	13115	49856	Elemental Trousers of Maiming
+24094	13116	49616	Elemental Gauntlets of Maiming
+24093	13117	43422	Elemental Armor of Maiming
+24092	13118	41519	Elemental Helm of Maiming
+24091	13119	47163	Elemental Shoes of Fending
+24090	13120	49854	Elemental Trousers of Fending
+24089	13121	49615	Elemental Gauntlets of Fending
+24088	13122	43421	Elemental Armor of Fending
+24087	13123	41518	Elemental Helm of Fending
 24025	0	28254	Featherfoot L
 24024	0	28255	Paralyze L
 24022	0	28256	Protect L
 24019	0	28253	Wisdom of the Ordained
 24017	0	28251	Wisdom of the Platebearer
 24015	0	28252	Wisdom of the Aetherweaver
-23997	0	28811	Wind-up Tifa
-23994	0	28808	Little Yang
-23993	0	28807	Little Yin
-23873	0	52938	Opened Twinkleboxes
-23872	0	52950	Evercold Starlight Snowman
-23871	0	52955	Starlight Donuts
-23870	0	52643	Silver Starlight Sentinel
-23869	0	52380	Familiar Pawprints
-23868	0	52957	Pumpkin Pastry Platter
-23867	0	52384	Pumpkin Party Pennants
-23861	0	52943	Season Ten Lone Wolf Trophy
-23858	0	52648	Odder Otter Round Andon Lamp
+23997	13124	28811	Wind-up Tifa
+23996	0	28810	Wind-up Aerith
+23995	0	28809	Wind-up Cloud
+23994	13125	28808	Little Yang
+23993	13126	28807	Little Yin
+23873	13127	52938	Opened Twinkleboxes
+23872	13128	52950	Evercold Starlight Snowman
+23871	13129	52955	Starlight Donuts
+23870	13130	52643	Silver Starlight Sentinel
+23869	13131	52380	Familiar Pawprints
+23868	13132	52957	Pumpkin Pastry Platter
+23867	13133	52384	Pumpkin Party Pennants
+23861	13134	52943	Season Ten Lone Wolf Trophy
+23858	13135	52648	Odder Otter Round Andon Lamp
 23383	0	22218	Rathalos Scale+
-23012	0	49965	Eastern Socialite's Boots
-23011	0	49829	Eastern Socialite's Skirt
-23010	0	49335	Eastern Socialite's Gloves
-23009	0	42607	Eastern Socialite's Cheongsam
-23008	0	40912	Eastern Socialite's Hat
-23007	0	49964	Mun'gaek Boots
-23006	0	49823	Mun'gaek Trousers
-23005	0	49332	Mun'gaek Cuffs
-23004	0	42601	Mun'gaek Uibok
-23003	0	40910	Mun'gaek Hat
+23310	13136	26543	Whalaqee Off-guard Totem
+23012	13137	49965	Eastern Socialite's Boots
+23011	13138	49829	Eastern Socialite's Skirt
+23010	13139	49335	Eastern Socialite's Gloves
+23009	13140	42607	Eastern Socialite's Cheongsam
+23008	13141	40912	Eastern Socialite's Hat
+23007	13142	49964	Mun'gaek Boots
+23006	13143	49823	Mun'gaek Trousers
+23005	13144	49332	Mun'gaek Cuffs
+23004	13145	42601	Mun'gaek Uibok
+23003	13146	40910	Mun'gaek Hat
+22747	13147	26058	Soul of the Blue Mage
+22746	13148	39903	Rainmaker
 22614	0	49814	Augmented Rathalos Coil [F]
 22612	0	43407	Augmented Rathalos Mail [F]
 22610	0	47145	Augmented Rathalos Greaves [M]
@@ -15494,16 +15730,18 @@
 22457	0	40298	Inoshishi Kabuto
 21870	0	52893	Melodious Mogchestrion
 21814	0	52628	Boar's Head Kadomatsu
+21061	13149	28770	Wind-up Ramza
 20562	0	49174	Oriental Barding
 20467	0	44979	Red Gloves
 20028	0	29461	Samurai Fish
-19726	12869	49989	Ala Mhigan Shoes of Gathering
-19725	12870	49874	Ala Mhigan Bottoms of Gathering
-19724	12871	49356	Ala Mhigan Gloves of Gathering
-19723	12872	42619	Ala Mhigan Coat of Gathering
-19722	12873	47914	Ala Mhigan Turban of Gathering
-19721	12874	49990	Ala Mhigan Shoes of Crafting
-19720	12875	49875	Ala Mhigan Bottoms of Crafting
-19719	12876	49357	Ala Mhigan Gloves of Crafting
-19718	12877	42620	Ala Mhigan Doublet of Crafting
-19717	12878	47915	Ala Mhigan Turban of Crafting
+17553	13150	26554	Orphanage Donation
+17551	13151	26553	Maelstrom Materiel
+17550	13152	26551	Coerthan Souvenir
+17549	13153	26552	Near Eastern Antique
+17495	0	48683	Paissa Earring
+17470	0	43647	Inferno Jacket
+15955	0	53140	Oasis Chocobo Stable
+15954	0	53139	Glade Chocobo Stable
+15953	0	53138	Riviera Chocobo Stable
+15449	0	28711	Taoist Moogle
+15144	13154	52651	Washbasin
