@@ -33,6 +33,8 @@ namespace Garland.Data.Modules
                 if (sJob.SoulCrystal != null && sJob.SoulCrystal.Key != 0)
                     job.isJob = 1;
 
+                job.icon = IconDatabase.EnsureEntry("job", sJob.FramedIcon);
+
                 _builder.Db.Jobs.Add(job);
             }
         }
