@@ -24,20 +24,19 @@ namespace Garland.Data.Models
             GtShopListings = listings.Select(l => new GtShopListing(l)).ToList();
         }
 
-        public GarlandShop(string name, IEnumerable<Saint.ENpc> enpcs)
-        {
-            Name = string.IsNullOrEmpty(name) ? "Unknown Shop" : name;
-            ENpcs = enpcs;
-            GtShopListings = new List<GtShopListing>();
-        }
-
         public GarlandShop(Saint.IShop shop)
             : this(shop.Name, shop.ENpcs, shop.ShopListings) { }
 
         public static IEnumerable<GarlandShop> Convert(IEnumerable<Saint.IShop> sShops, DatabaseBuilder builder)
         {
-            return sShops.Select(s =>
-                new GarlandShop(s.Name, s.ENpcs, FilterListings(s.ShopListings, builder)) { Key = s.Key });
+            var results = new List<GarlandShop>();
+            foreach (var sShop in sShops)
+            {
+                var shop = new GarlandShop(sShop.Name, sShop.ENpcs, FilterListings(sShop.ShopListings, builder));
+                shop.Key = sShop.Key;
+                results.Add(shop);
+            }
+            return results;
         }
 
         static IEnumerable<Saint.IShopListing> FilterListings(IEnumerable<Saint.IShopListing> sShopListings, DatabaseBuilder builder)

@@ -28,6 +28,7 @@ namespace Garland.Data.Modules
             // Fill extra information on shop names and NPCs from chat tables and hacks.
             TopicSelectShops();
             CustomTalkShops();
+            PreHandlerShops();
 
             Hacks.SetManualShops(_builder.Realm, _shopsByKey);
 
@@ -129,6 +130,24 @@ namespace Garland.Data.Modules
 
                     shop.ENpcs = sNpcs.Union(shop.ENpcs).Distinct().ToArray();
                 }
+            }
+        }
+
+        void PreHandlerShops()
+        {
+            foreach (var sPreHandler in _builder.Sheet("PreHandler"))
+            {
+                var sNpcs = _builder.Realm.GameData.ENpcs.FindWithData(sPreHandler.Key);
+                var sTarget = (Saint.XivRow)sPreHandler["Target"];
+                if (sTarget is Saint.IShop sShop)
+                {
+                    var shop = new GarlandShop(sShop);
+                    shop.Key = sShop.Key;
+                    shop.ENpcs = sNpcs; // Overwrite, FindWithData doesn't see this.
+                    _shops.Add(shop);
+                }
+
+                // Otherwise it's likely a link to some other non-shop thing.
             }
         }
 

@@ -54,10 +54,11 @@ namespace Garland.Data.Modules
             foreach (var sNpc in _builder.NpcsToImport)
             {
                 var race = (Saint.Race)sNpc.Base["Race"];
-                if (race == null || race.Key == 0)
-                    continue;
 
                 var npc = _builder.GetOrCreateNpc(sNpc);
+                if (race == null || race.Key == 0)
+                    continue; // Unique or beast NPCs, can't do appearance now.
+
                 dynamic appearance = new JObject();
                 npc.appearance = appearance;
 
@@ -75,8 +76,6 @@ namespace Garland.Data.Modules
                 var bodyType = (byte)sNpc.Base["BodyType"];
                 if (bodyType != 1)
                     appearance.bodyType = GetBodyType(bodyType);
-
-                var type = CharaMakeTypeRow(tribe.Key, gender);
 
                 // Faces
                 var baseFace = (byte)sNpc.Base["Face"];
@@ -190,6 +189,8 @@ namespace Garland.Data.Modules
                 var facialfeature = (byte)sNpc.Base["FacialFeature"];
                 if (facialfeature != 0 && isValidFace)
                 {
+                    var type = CharaMakeTypeRow(tribe.Key, gender);
+
                     appearance.facialfeatures = new JArray();
 
                     // There are only 7 groups of facial features at the moment.
