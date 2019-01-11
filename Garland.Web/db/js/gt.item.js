@@ -532,7 +532,8 @@ gt.item = {
                 name: item.orchestrion.name,
                 description: item.orchestrion.description,
                 category: item.orchestrion.category,
-                path: '../files/orchestrion/' + item.orchestrion.id + '.ogg'
+                path: '../files/orchestrion/' + item.orchestrion.id + '.ogg',
+                order: gt.util.zeroPad(item.orchestrion.order, 3)
             };
         }
 

@@ -39,6 +39,7 @@ namespace Garland.Data.Modules
                 item.orchestrion.name = sOrchestrion.AsString("Name").ToString();
                 item.orchestrion.description = HtmlStringFormatter.Convert(sOrchestrion.AsString("Description"));
                 item.orchestrion.category = sOrchestrionUiparam["OrchestrionCategory"].ToString();
+                item.orchestrion.order = sOrchestrionUiparam.AsInt32("Order");
 
                 ExportOrchestrionMusic(sOrchestrion.Key, item.orchestrion);
             }
