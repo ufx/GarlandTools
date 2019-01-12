@@ -262,6 +262,7 @@ namespace Garland.Data.Modules
                 item.slot = sEquipment.EquipSlotCategory.Key;
                 item.elvl = sEquipment.EquipmentLevel;
                 item.jobs = sEquipment.ClassJobCategory.Key;
+                _builder.Localize.Column(item, sEquipment.ClassJobCategory, null, "Name", "jobCategories");
 
                 // Set all normal and hq parameters specified on the item.
                 Saint.BaseParam[] extraParams = null;

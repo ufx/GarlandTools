@@ -94,7 +94,8 @@ gt.item = {
             rarity: item.rarity,
             mount: item.mount,
             slot: item.slot,
-            models: item.models
+            models: item.models,
+            jobs: item.jobCategories
         };
 
         view.sourceName = view.name;
@@ -144,7 +145,7 @@ gt.item = {
         }
 
         // Jobs
-        if (item.jobs)
+        if (item.jobs) //  todo: remove 1/15
             view.jobs = gt.jobCategories[item.jobs].name;
 
         // Bonuses
