@@ -199,20 +199,15 @@ namespace Garland.Data.Modules
                     spot.tmpBait = bait;
 
                     // If not otherwise specified, fish should inherit the time
-                    // and weather restrictions of restricted bait.
+                    // and weather restrictions of restricted bait (like predators).
                     var baitItem = _builder.Db.ItemsByName[bait];
                     if (baitItem.fish != null)
                     {
                         dynamic baitSpotView = ((JArray)baitItem.fish.spots).FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);
                         if (baitSpotView == null)
-                            throw new InvalidOperationException($"Can't find bait view for {name} bait {bait}");
+                            throw new InvalidOperationException($"Can't find bait view for {name} bait {bait}.");
 
-                        if (weather == "" && baitSpotView.weather != null)
-                            spot.weather = new JArray(baitSpotView.weather);
-                        if (transition == "" && baitSpotView.transition != null)
-                            spot.transition = new JArray(baitSpotView.transition);
-                        if (start == "" && end == "" && baitSpotView.during != null)
-                            spot.during = new JObject(baitSpotView.during);
+                        InheritConditions(spot, baitSpotView, weather, transition, start, end);
                     }
                 }
 
@@ -247,7 +242,29 @@ namespace Garland.Data.Modules
                     var tokens = predator.Split(comma, StringSplitOptions.None);
                     spot.predator = new JArray();
                     for (var i = 0; i < tokens.Length; i += 2)
-                        spot.predator.Add(BuildPredator(tokens[i], tokens[i + 1]));
+                    {
+                        var predatorName = tokens[i];
+                        spot.predator.Add(BuildPredator(predatorName, tokens[i + 1]));
+
+                        // If not otherwise specified, fish should inherit the time
+                        // and weather restrictions of restricted predators (like bait).
+                        var predatorItem = _builder.Db.ItemsByName[predatorName];
+                        if (predatorItem.fish != null)
+                        {
+                            var predatorSpots = (JArray)predatorItem.fish.spots;
+                            dynamic predatorSpotView = predatorSpots.FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);
+                            if (predatorSpotView == null)
+                            {
+                                // Predators for spearfishing nodes may not exist on this spot/node.
+                                // Fallback to any available spot.
+                                predatorSpotView = predatorSpots.FirstOrDefault();
+                                if (predatorSpotView == null)
+                                    throw new InvalidOperationException($"Can't find predator view for {name} predator {predatorName}.");
+                            }
+
+                            InheritConditions(spot, predatorSpotView, weather, transition, start, end);
+                        }
+                    }
                 }
 
                 // Other properties.
@@ -291,6 +308,16 @@ namespace Garland.Data.Modules
 
                 item.fish.spots.Add(spot);
             }
+        }
+
+        void InheritConditions(dynamic spot, dynamic inheritSpot, string weather, string transition, string start, string end)
+        {
+            if (weather == "" && inheritSpot.weather != null)
+                spot.weather = new JArray(inheritSpot.weather);
+            if (transition == "" && inheritSpot.transition != null)
+                spot.transition = new JArray(inheritSpot.transition);
+            if (start == "" && end == "" && inheritSpot.during != null)
+                spot.during = new JObject(inheritSpot.during);
         }
 
         void CheckConditions(string name, dynamic fish, ref string weather, ref string transition, ref string start, ref string end)

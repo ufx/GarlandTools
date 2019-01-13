@@ -4282,6 +4282,10 @@ gt.bell.fish = [
         "icon": 5193
       }
     ],
+    "weather": [
+      "Thunder",
+      "Thunderstorms"
+    ],
     "id": 8775,
     "icon": 5194,
     "func": "fish",
@@ -6781,6 +6785,10 @@ gt.bell.fish = [
       "Silverfish",
       "Assassin Betta"
     ],
+    "during": {
+      "start": 8,
+      "end": 18
+    },
     "predator": [
       {
         "name": "Canavan",
@@ -6793,6 +6801,9 @@ gt.bell.fish = [
         "id": 8762,
         "icon": 5181
       }
+    ],
+    "weather": [
+      "Gloom"
     ],
     "id": 8763,
     "icon": 5182,
