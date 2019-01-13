@@ -27,46 +27,56 @@ namespace Garland.Data.Modules
                 var itemName = line[0];
                 var item = _builder.Db.ItemsByName[itemName];
 
-                switch (type)
+                try
                 {
-                    case "Desynth":
-                        BuildDesynth(item, args);
-                        break;
+                    switch (type)
+                    {
+                        case "Desynth":
+                            BuildDesynth(item, args);
+                            break;
 
-                    case "Reduce":
-                        BuildReduce(item, args);
-                        break;
+                        case "Reduce":
+                            BuildReduce(item, args);
+                            break;
 
-                    case "Loot":
-                        BuildLoot(item, args);
-                        break;
+                        case "Loot":
+                            BuildLoot(item, args);
+                            break;
 
-                    case "Venture":
-                        BuildVentures(item, args);
-                        break;
+                        case "Venture":
+                            BuildVentures(item, args);
+                            break;
 
-                    case "Node":
-                        BuildNodes(item, args);
-                        break;
+                        case "Node":
+                            BuildNodes(item, args);
+                            break;
 
-                    case "FishingSpot":
-                        BuildFishingSpots(item, args);
-                        break;
+                        case "FishingSpot":
+                            BuildFishingSpots(item, args);
+                            break;
 
-                    case "Instance":
-                        BuildInstances(item, args);
-                        break;
+                        case "Instance":
+                            BuildInstances(item, args);
+                            break;
 
-                    case "Voyage":
-                        BuildVoyages(item, args);
-                        break;
+                        case "Voyage":
+                            BuildVoyages(item, args);
+                            break;
 
-                    case "Gardening":
-                        BuildGardening(item, args);
-                        break;
+                        case "Gardening":
+                            BuildGardening(item, args);
+                            break;
 
-                    default:
-                        throw new NotImplementedException();
+                        default:
+                            throw new NotImplementedException();
+                    }
+                }
+                catch (Exception)
+                {
+                    DatabaseBuilder.PrintLine($"Error importing supplemental source '${itemName}' with args '{args}'.");
+                    if (System.Diagnostics.Debugger.IsAttached)
+                        System.Diagnostics.Debugger.Break();
+                    throw;
                 }
             }
         }

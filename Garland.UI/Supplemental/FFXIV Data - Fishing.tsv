@@ -1007,7 +1007,7 @@ La Reale	Brute Leech											464
 West Banepool												
 Fanged Clam												
 Lake Urchin												
-Ice Faerie	Caddisfly Larva											316
+Ice Faerie	Purse Web Spider											316
 Mercy Staff	Brute Leech				Snow, Blizzards							365
 Snowcaller	Brute Leech				Snow, Blizzards							363
 Coerthan Oyster	Brute Leech									1		457
@@ -1442,11 +1442,11 @@ Heather Charr	Suspending Minnow											547
 Meditator	Suspending Minnow											612
 Stonytongue	Suspending Minnow											613
 Deemster	Stonefly Larva				Wind							631
-Moksha	Suspending Minnow	N/A	N/A		Clear Skies							
+Moksha	Suspending Minnow	N/A	N/A	Clouds, Wind, Fog, Dust Storms	Clear Skies							
 The Bull's Bath												
 Death Loach	Salmon Roe											549
 Invisible Crayfish	Nightcrawler											551
-Bull's Bite	Midge Larva				Fog, Wind, Clouds, Dust Storms							600
+Bull's Bite	Midge Larva				Clouds, Wind, Fog, Dust Storms							600
 Peeping Pisces	Midge Larva											601
 Meditator	Suspending Minnow											612
 Alligator Snapping Turtle	Suspending Minnow				Fair Skies, Clear Skies							
@@ -1464,7 +1464,7 @@ Saltshield Snapper	Silkworm											611
 Whitehorse	Silkworm											624
 Pearl-eye	Rock Saltfish											626
 Sculptor	Rock Saltfish	12	18		Thunderstorms						1	625
-Saltmill	Rock Saltfish				Fog, Clouds							
+Saltmill	Rock Saltfish				Clouds, Fog							
 Diamond-eye	Rock Saltfish				Clear Skies							765
 The Ruby Price												
 Grinning Anchovy	Live Shrimp											539
@@ -1608,7 +1608,7 @@ Water Fan	Salmon Roe
 Gigas Catfish	Salmon Roe											
 Greasy Strangler	Salmon Roe											
 Spikefish	Salmon Roe											
-Duskfish	Zagas Khaal	10	14		Clouds							
+Duskfish	Zagas Khaal	10	15	Rain, Gales	Clouds							
 Tao Khaal												
 Zagas Khaal	Nightcrawler											577
 Dry Steppe Skipper	Midge Larva											586

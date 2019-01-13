@@ -6063,7 +6063,7 @@ gt.bell.fish = [
     "name": "Ice Faerie",
     "patch": 3.0,
     "bait": [
-      "Caddisfly Larva"
+      "Purse Web Spider"
     ],
     "id": 12715,
     "icon": 7136,
@@ -6531,7 +6531,7 @@ gt.bell.fish = [
     "patch": 3.4,
     "folklore": 1,
     "bait": [
-      "Caddisfly Larva",
+      "Purse Web Spider",
       "Ice Faerie"
     ],
     "weather": [
@@ -11949,6 +11949,12 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "transition": [
+      "Clouds",
+      "Wind",
+      "Fog",
+      "Dust Storms"
+    ],
     "id": 24212,
     "icon": 12400,
     "func": "fish",
@@ -11970,9 +11976,9 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "weather": [
-      "Fog",
-      "Wind",
       "Clouds",
+      "Wind",
+      "Fog",
       "Dust Storms"
     ],
     "id": 20076,
@@ -12299,8 +12305,8 @@ gt.bell.fish = [
       "Rock Saltfish"
     ],
     "weather": [
-      "Fog",
-      "Clouds"
+      "Clouds",
+      "Fog"
     ],
     "id": 22394,
     "icon": 11593,
@@ -15312,10 +15318,14 @@ gt.bell.fish = [
     ],
     "during": {
       "start": 10,
-      "end": 14
+      "end": 15
     },
     "weather": [
       "Clouds"
+    ],
+    "transition": [
+      "Rain",
+      "Gales"
     ],
     "id": 24217,
     "icon": 12395,

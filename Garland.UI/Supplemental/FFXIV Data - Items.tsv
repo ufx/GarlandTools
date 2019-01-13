@@ -103,6 +103,9 @@ Nagxian Leather	Loot	Timeworn Gaganaskin Map
 Moai Statue	Loot	Timeworn Gazelleskin Map									
 Autumnal Maple Tree	Loot	Timeworn Gazelleskin Map									
 Maple Leaf Pile	Loot	Timeworn Gazelleskin Map									
+Waterproof Cloth	Loot	Timeworn Gazelleskin Map	Timeworn Thief's Map								
+Hedgehoglet	Loot	Timeworn Thief's Map									
+The Gold Whisker	Loot	Timeworn Thief's Map									
 Polarized Glass	Loot	Unhidden Leather Map									
 Page 63	Loot	Silver-trimmed Sack									
 Anemos Hat	Loot	Anemos Lockbox									
@@ -124,6 +127,18 @@ Red Mage Barding	Loot	Anemos Lockbox
 Wicked Winds Whisper Orchestrion Roll	Loot	Anemos Lockbox									
 No Quarter Orchestrion Roll	Loot	Anemos Lockbox									
 Protean Crystal	Loot	Anemos Crystal									
+Antiquated Machinist's Boots	Loot	Machinist's Armor Coffer									
+Antiquated Machinist's Brais	Loot	Machinist's Armor Coffer									
+Antiquated Machinist's Gloves	Loot	Machinist's Armor Coffer									
+Antiquated Machinist's Goggles	Loot	Machinist's Armor Coffer									
+Antiquated Machinist's Shirt	Loot	Machinist's Armor Coffer									
+Ardent Belt of Aiming	Loot	Machinist's Armor Coffer									
+Bard's Chapeau	Loot	Bard's Attire Coffer									
+Bard's Ringbands	Loot	Bard's Attire Coffer									
+Bard's Sandals	Loot	Bard's Attire Coffer									
+Bard's Shirt	Loot	Bard's Attire Coffer									
+Bard's Tights	Loot	Bard's Attire Coffer									
+Hero's Belt of Aiming	Loot	Bard's Attire Coffer									
 Mossy Stone Sword	Venture	Field Exploration XII	Field Exploration XIV								
 Mossy Stone Claws	Venture	Field Exploration XII	Field Exploration XIV								
 Mossy Stone Spear	Venture	Field Exploration XII	Field Exploration XIV								
@@ -159,6 +174,7 @@ Swordleaf	Node	332
 Dragon's Wart	Node	334	393								
 Mute Swan Feather	Node	338									
 Tiny Tatsunoko	Node	480									
+Verdant Partition	Instance	Saint Mocianne's Arboretum (Hard)									
 Shinryu's Scale	Instance	The Minstrel's Ballad: Shinryu's Domain									
 Pellitory	Instance	The Aquapolis									
 Thavnairian Armlets	Instance	The Aquapolis									
@@ -213,13 +229,13 @@ Plundered Treasure	Instance	The Aquapolis
 Wool Top	Instance	The Aquapolis									
 New World Macrame	Instance	The Aquapolis									
 Ratanhia Leaves	Instance	The Lost Canals of Uznair									
-Wind-up Namazu	Instance	The Lost Canals of Uznair									
-Nagxian Silk	Instance	The Lost Canals of Uznair									
+Wind-up Namazu	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
+Nagxian Silk	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
 Nagxian Leather	Instance	The Lost Canals of Uznair									
 Matanga Lamp	Instance	The Lost Canals of Uznair									
-The Twin Faces of Fate - The Theme of Ul'dah Orchestrion Roll	Instance	The Lost Canals of Uznair									
-Navigator's Glory - The Theme of Limsa Lominsa Orchestrion Roll	Instance	The Lost Canals of Uznair									
-Born of the Boughs - The Theme of Gridania Orchestrion Roll	Instance	The Lost Canals of Uznair									
+The Twin Faces of Fate - The Theme of Ul'dah Orchestrion Roll	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
+Navigator's Glory - The Theme of Limsa Lominsa Orchestrion Roll	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
+Born of the Boughs - The Theme of Gridania Orchestrion Roll	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
 Cracked Cluster	Instance	The Lost Canals of Uznair									
 Taoist's Wool	Instance	The Lost Canals of Uznair									
 Autumnal Maple Tree	Instance	The Lost Canals of Uznair									
@@ -227,11 +243,22 @@ Maple Leaf Pile	Instance	The Lost Canals of Uznair
 Holy Linen	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
 Hannish Wool	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
 Thavnairian Wool	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
-Timeworn Thief's Map	Instance	The Lost Canals of Uznair									
+Timeworn Thief's Map	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair								
 A Father's Pride Orchestrion Roll	Instance	The Hidden Canals of Uznair									
 Ala Mhigan Weave	Instance	The Hidden Canals of Uznair									
 Wind-up Matanga	Instance	The Hidden Canals of Uznair									
 Crimson Sunrise Orchestrion Roll	Instance	The Hidden Canals of Uznair									
+Ballroom Etiquette - Scholarly Certitude	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair	The Shifting Altars of Uznair							
+Whisperfine Fleece	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair								
+Divine Chandelier	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair								
+Birdbath	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair								
+Little Chef's Playset	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair								
+Capybara Pup	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair	The Hidden Canals of Uznair							
+Neo Aetherstone - Foot Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3								
+Neo Aetherstone - Hand Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3								
+Neo Aetherstone - Headgear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 2								
+Neo Aetherstone - Leg Gear	Instance	The Final Coil of Bahamut - Turn 2									
+Neo Aetherstone - Body Gear	Instance	The Final Coil of Bahamut - Turn 4									
 Blue Oldroses	Gardening	Oldrose Seeds									
 Yellow Oldroses	Gardening	Oldrose Seeds									
 Green Oldroses	Gardening	Oldrose Seeds									
@@ -341,7 +368,7 @@ Quicktongue Materia III	Voyage	Sea of Clouds 02	Sea of Clouds 06	Sea of Clouds 1
 Quicktongue Materia IV	Voyage	Sea of Clouds 11	Sea of Clouds 21								
 Raw Celestine	Voyage	Sea of Clouds 08	Sea of Clouds 09	Sea of Clouds 10							
 Red Clay	Voyage	Sea of Clouds 07									
-Red Moko Grass	Voyage	Sea of Clouds 03	Sea of Clouds 04	Deep-sea site 3							
+Red Moko Grass	Voyage	Sea of Clouds 03	Sea of Clouds 04	Deep-sea Site 3	Deep-sea Site 2	The Ivory Shoals	The Umbrella Narrow				
 Savage Aim Materia III	Voyage	Sea of Clouds 08	Sea of Clouds 15	Sea of Clouds 24							
 Savage Aim Materia IV	Voyage	Sea of Clouds 15									
 Savage Aim Materia V	Voyage	Sea of Clouds 24									
@@ -372,3 +399,4 @@ Vitality Materia II	Voyage	Deep-sea site 3
 Piety Materia II	Voyage	Southern Rimilala Trench									
 Salvaged Necklace	Voyage	Unidentified Derelict									
 Crimson Coral	Voyage	The Lightless Basin									
+Kamacite Ore	Voyage	Rimiala Shelf									
