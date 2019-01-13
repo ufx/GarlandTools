@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using Game = SaintCoinach.Xiv;
+using Saint = SaintCoinach.Xiv;
 using Garland.Data.Models;
 
 namespace Garland.Data.Modules
@@ -38,7 +38,7 @@ namespace Garland.Data.Modules
         {
             var lQuestsByKey = _builder.Libra.Table<Libra.Quest>().ToDictionary(q => q.Key);
 
-            foreach (var sQuest in _builder.Sheet<Game.Quest>())
+            foreach (var sQuest in _builder.Sheet<Saint.Quest>())
             {
                 if (sQuest.Key == 65536 || sQuest.Name == "")
                     continue; // Test quests
@@ -51,6 +51,7 @@ namespace Garland.Data.Modules
 
                 var questIssuer = sQuest.IssuingENpc;
 
+
                 if (sQuest.PlaceName.Name == "")
                 {
                     if (questIssuer != null)
@@ -62,9 +63,9 @@ namespace Garland.Data.Modules
                 if (quest.zoneid != null)
                     _builder.Db.AddLocationReference((int)quest.zoneid);
 
-                if (sQuest.RepeatInterval == Game.QuestRepeatInterval.Daily)
+                if (sQuest.RepeatInterval == Saint.QuestRepeatInterval.Daily)
                     quest.interval = "daily";
-                else if (sQuest.RepeatInterval == Game.QuestRepeatInterval.Weekly)
+                else if (sQuest.RepeatInterval == Saint.QuestRepeatInterval.Weekly)
                     quest.interval = "weekly";
 
                 if (sQuest.IsRepeatable)
@@ -172,7 +173,7 @@ namespace Garland.Data.Modules
                             o.num = maxCount;
                         o.id = sQuestRewardItem.Item.Key;
 
-                        if (sQuestRewardItemGroup.Type == Game.QuestRewardGroupType.One)
+                        if (sQuestRewardItemGroup.Type == Saint.QuestRewardGroupType.One)
                             o.one = 1;
 
                         if (sQuestRewardItem.IsHq)
@@ -298,7 +299,7 @@ namespace Garland.Data.Modules
 
         void BuildJournalGenres()
         {
-            foreach (var sJournalGenre in _builder.Sheet<Game.JournalGenre>())
+            foreach (var sJournalGenre in _builder.Sheet<Saint.JournalGenre>())
             {
                 dynamic genre = new JObject();
                 genre.id = sJournalGenre.Key;
@@ -307,14 +308,13 @@ namespace Garland.Data.Modules
                 if (!sJournalGenre.Icon.Path.EndsWith("000000.tex"))
                     genre.icon = IconDatabase.EnsureEntry("journal", sJournalGenre.Icon);
 
-                Game.IXivRow r = sJournalGenre.JournalCategory;
                 genre.category = sJournalGenre.JournalCategory.Name.ToString();
                 genre.section = sJournalGenre.JournalCategory?.JournalSection?.Name?.ToString() ?? "Other Quests";
                 _builder.Db.QuestJournalGenres.Add(genre);
             }
         }
 
-        dynamic AddQuestNpc(dynamic quest, Game.ENpc sNpc)
+        dynamic AddQuestNpc(dynamic quest, Saint.ENpc sNpc)
         {
             var questId = (int)quest.id;
 
@@ -336,9 +336,9 @@ namespace Garland.Data.Modules
             return npc;
         }
 
-        void ImportQuestEventIcon(dynamic quest, Game.Quest sQuest)
+        void ImportQuestEventIcon(dynamic quest, Saint.Quest sQuest)
         {
-            var sEventIconType = (Game.IXivRow)sQuest["EventIconType"];
+            var sEventIconType = (Saint.IXivRow)sQuest["EventIconType"];
             var baseIconIndex = (int)(UInt32)sEventIconType.GetRaw(0);
 
             // Mark function quests
@@ -358,7 +358,7 @@ namespace Garland.Data.Modules
             quest.eventIcon = IconDatabase.EnsureEntry("event", eventIcon);
         }
 
-        void ImportQuestRequirements(dynamic quest, Game.Quest sQuest)
+        void ImportQuestRequirements(dynamic quest, Saint.Quest sQuest)
         {
             dynamic requirements = new JObject();
 
@@ -432,7 +432,7 @@ namespace Garland.Data.Modules
             // sQuest.Requirements.QuestLevelOffset: Not sure what this is for.
         }
 
-        void ImportQuestLore(dynamic quest, Game.Quest sQuest, ScriptInstruction[] instructions)
+        void ImportQuestLore(dynamic quest, Saint.Quest sQuest, ScriptInstruction[] instructions)
         {
             // todo: retrieve sheets for all languages, index using english version, then push into localized quest obj.
 
@@ -523,9 +523,9 @@ namespace Garland.Data.Modules
                     refname = "Player";
                 else if (!_builder.Db.NpcsById.ContainsKey(arg))
                 {
-                    var enpcs = _builder.Sheet<Game.ENpcResident>();
-                    if (enpcs.ContainsRow(arg))
-                        refname = Utils.CapitalizeWords(enpcs[arg].Singular.ToString());
+                    var sENpcs = _builder.Sheet<Saint.ENpcResident>();
+                    if (sENpcs.ContainsRow(arg))
+                        refname = Utils.CapitalizeWords(sENpcs[arg].Singular.ToString());
                 }
             }
             else if (instruction.Label.StartsWith("ITEM")
@@ -539,14 +539,14 @@ namespace Garland.Data.Modules
             {
                 ins.type = "instance";
                 if (!_builder.Db.InstancesById.ContainsKey(arg))
-                    refname = _builder.Sheet<Game.InstanceContent>()[arg].Name.ToString();
+                    refname = _builder.Sheet<Saint.InstanceContent>()[arg].Name.ToString();
             }
             else if (instruction.Label.StartsWith("ENEMY"))
             {
                 ins.type = "mob";
                 if (!_builder.Db.MobsById.ContainsKey(arg))
                 {
-                    var bnpcs = _builder.Sheet<Game.BNpcName>();
+                    var bnpcs = _builder.Sheet<Saint.BNpcName>();
                     if (bnpcs.ContainsRow(arg))
                         refname = Utils.CapitalizeWords(bnpcs[arg].Singular.ToString());
                     // else possible Level reference - location?
@@ -555,13 +555,13 @@ namespace Garland.Data.Modules
             else if (instruction.Label.StartsWith("EOBJECT"))
             {
                 //ins.type = "object";
-                var eventitems = _builder.Sheet<Game.EventItem>();
+                var eventitems = _builder.Sheet<Saint.EventItem>();
                 if (eventitems.ContainsRow(arg))
                     refname = eventitems[arg].Name.ToString();
             }
             else if (instruction.Label.StartsWith("TERRITORYTYPE"))
             {
-                var territoryType = _builder.Sheet<Game.TerritoryType>()[arg];
+                var territoryType = _builder.Sheet<Saint.TerritoryType>()[arg];
                 refname = territoryType.PlaceName.ToString();
             }
             else if (instruction.Label.Contains("EMOTE")
@@ -578,9 +578,9 @@ namespace Garland.Data.Modules
                     refname = _builder.Db.ActionsById[arg].name;
                 else
                 {
-                    var actionSheet = _builder.Sheet<Game.Action>();
-                    if (actionSheet.ContainsRow(arg))
-                        refname = actionSheet[arg].Name.ToString();
+                    var sActions = _builder.Sheet<Saint.Action>();
+                    if (sActions.ContainsRow(arg))
+                        refname = sActions[arg].Name.ToString();
                     else
                         refname = "Unknown";
                 }
