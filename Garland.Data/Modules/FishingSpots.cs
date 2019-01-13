@@ -185,7 +185,10 @@ namespace Garland.Data.Modules
                     spot.node = currentNode.id;
 
                 // Sanity check weather and time restrictions.
-                CheckConditions(name, item.fish, ref weather, ref transition, ref start, ref end);
+                // Sanity check only applies to normal fishing spots.  The
+                // fields aren't available for spearfishing yet.
+                if (currentFishingSpot != null)
+                    CheckConditions(name, item.fish, ref weather, ref transition, ref start, ref end);
 
                 // Baits & Gigs
                 if (bait.Contains("Gig Head"))
