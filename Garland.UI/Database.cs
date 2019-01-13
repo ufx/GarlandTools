@@ -33,6 +33,7 @@ namespace Garland.UI
             using (var cmd = conn.CreateCommand())
             {
                 cmd.CommandText = sql;
+                cmd.CommandTimeout = 60;
                 return cmd.ExecuteNonQuery();
             }
         }

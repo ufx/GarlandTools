@@ -253,7 +253,7 @@ namespace Garland.Data
 
             npc = new JObject();
             npc.id = sNpc.Key;
-            Localize.Column((JObject)npc, sNpc.Resident, Utils.CapitalizeWords, "Singular", "name");
+            Localize.Column((JObject)npc, sNpc.Resident, "Singular", "name", Utils.CapitalizeWords);
             string name = npc.en.name;
             npc.patch = PatchDatabase.Get("npc", sNpc.Key);
 

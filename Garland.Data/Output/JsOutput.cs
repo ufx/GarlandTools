@@ -64,7 +64,7 @@ namespace Garland.Data.Output
             {
                 dynamic partial = new JObject();
                 partial.i = action.id;
-                AddPartialLocaleStrings(action, partial, lang);
+                partial.n = (string)action[lang]["name"];
                 partial.c = action.icon;
                 partial.j = action.job;
                 partial.t = action.category;
@@ -79,7 +79,7 @@ namespace Garland.Data.Output
             {
                 dynamic partial = new JObject();
                 partial.i = achievement.id;
-                AddPartialLocaleStrings(achievement, partial, lang);
+                partial.n = (string)achievement[lang]["name"];
                 partial.c = achievement.icon;
                 partial.t = achievement.category;
 
@@ -106,7 +106,7 @@ namespace Garland.Data.Output
             {
                 dynamic partial = new JObject();
                 partial.i = leve.id;
-                AddPartialLocaleStrings(leve, partial, lang);
+                partial.n = (string)leve[lang]["name"];
                 partial.l = leve.lvl;
                 partial.j = leve.jobCategory;
                 partial.p = leve.areaid;
@@ -120,7 +120,7 @@ namespace Garland.Data.Output
             {
                 dynamic partial = new JObject();
                 partial.i = fate.id;
-                AddPartialLocaleStrings(fate, partial, lang);
+                partial.n = (string)fate[lang]["name"];
                 partial.l = fate.lvl;
                 partial.t = fate.type;
 
@@ -136,9 +136,9 @@ namespace Garland.Data.Output
             {
                 dynamic partial = new JObject();
                 partial.i = quest.id;
-                AddPartialLocaleStrings(quest, partial, lang);
+                partial.n = (string)quest[lang]["name"];
                 partial.g = quest.genre;
-                partial.l = quest.zoneid;
+                partial.l = (string)quest[lang]["location"];
                 partial.s = quest.sort;
                 if (quest.repeatable != null)
                     partial.r = 1;
@@ -154,7 +154,7 @@ namespace Garland.Data.Output
             {
                 dynamic partial = new JObject();
                 partial.i = npc.id;
-                AddPartialLocaleStrings(npc, partial, lang);
+                partial.n = (string)npc[lang]["name"];
                 if (npc.zoneid != null)
                     partial.l = npc.zoneid;
                 if (npc.shops != null)
@@ -185,7 +185,7 @@ namespace Garland.Data.Output
             {
                 dynamic partial = new JObject();
                 partial.i = mob.id;
-                AddPartialLocaleStrings(mob, partial, lang);
+                partial.n = (string)mob[lang]["name"];
                 partial.l = mob.lvl;
 
                 if (mob.zoneid != null)
@@ -202,7 +202,7 @@ namespace Garland.Data.Output
             {
                 dynamic partial = new JObject();
                 partial.i = instance.id;
-                AddPartialLocaleStrings(instance, partial, lang);
+                partial.n = (string)instance[lang]["name"];
                 partial.c = instance.categoryIcon;
                 partial.t = (string)instance[lang]["category"];
 
@@ -223,7 +223,7 @@ namespace Garland.Data.Output
             {
                 dynamic partial = new JObject();
                 partial.i = item.id;
-                AddPartialLocaleStrings(item, partial, lang);
+                partial.n = (string)item[lang]["name"];
                 partial.l = item.ilvl;
                 partial.c = item.icon;
                 partial.t = item.category;
@@ -243,7 +243,7 @@ namespace Garland.Data.Output
             {
                 dynamic partial = new JObject();
                 partial.i = spot.id;
-                AddPartialLocaleStrings(spot, partial, lang);
+                partial.n = (string)spot[lang]["name"];
                 partial.l = spot.lvl;
                 partial.c = spot.category;
 
@@ -544,11 +544,6 @@ namespace Garland.Data.Output
         }
 
         #region Utility
-        void AddPartialLocaleStrings(JObject obj, dynamic partial, string lang)
-        {
-            partial.n = (string)obj[lang]["name"];
-        }
-
         JsWrapper GetItemData(dynamic item, string lang)
         {
             var wrapper = new JsWrapper(lang, "item", item);

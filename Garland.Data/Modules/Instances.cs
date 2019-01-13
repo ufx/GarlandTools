@@ -61,8 +61,8 @@ namespace Garland.Data.Modules
                 _builder.Localize.Strings((JObject)instance, sInstanceContent, Utils.SanitizeInstanceName, "Name");
                 instance.patch = PatchDatabase.Get("instance", sInstanceContent.Key);
                 instance.categoryIcon = IconDatabase.EnsureEntry("instance/type", sContentFinderCondition.ContentType.Icon);
-                _builder.Localize.Column((JObject)instance, sContentFinderCondition.ContentType,
-                    x => string.IsNullOrEmpty(x) ? Hacks.GetContentTypeNameOverride(sContentFinderCondition.ContentType) : x, "Name", "category");
+                _builder.Localize.Column((JObject)instance, sContentFinderCondition.ContentType, "Name", "category",
+                    x => string.IsNullOrEmpty(x) ? Hacks.GetContentTypeNameOverride(sContentFinderCondition.ContentType) : x);
                
                 _builder.Localize.Strings((JObject)instance, sContentFinderConditionTransient, "Description");
                 instance.time = (int)sInstanceContent.TimeLimit.TotalMinutes;

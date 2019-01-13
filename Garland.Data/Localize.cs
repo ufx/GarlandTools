@@ -67,7 +67,7 @@ namespace Garland.Data
             Strings(obj, row, HtmlStringFormatter.Convert, cols);
         }
 
-        public void Column(JObject obj, IXivRow row, Func<XivString, string> transform, string fromColumn, string toColumn)
+        public void Column(JObject obj, IXivRow row, string fromColumn, string toColumn, Func<XivString, string> transform = null)
         {
             var currentLang = _data.ActiveLanguage;
 

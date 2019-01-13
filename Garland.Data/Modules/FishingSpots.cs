@@ -547,7 +547,7 @@ namespace Garland.Data.Modules
 
                 dynamic spot = new JObject();
                 spot.id = sFishingSpot.Key;
-                _builder.Localize.Column((JObject)spot, sFishingSpot, null, "PlaceName", "name");
+                _builder.Localize.Column(spot, sFishingSpot, "PlaceName", "name");
                 spot.patch = PatchDatabase.Get("fishing", sFishingSpot.Key);
                 spot.category = sFishingSpot.FishingSpotCategory - 1;
                 spot.lvl = sFishingSpot.GatheringLevel;

@@ -49,20 +49,16 @@ namespace Garland.Data.Modules
                 quest.patch = PatchDatabase.Get("quest", sQuest.Key);
                 quest.sort = sQuest.SortKey;
 
+                // Quest location
                 var questIssuer = sQuest.IssuingENpc;
+                var sPlaceName = sQuest.PlaceName;
+                if (sPlaceName.Name == "" && questIssuer != null)
+                    sPlaceName = questIssuer.Locations.First().PlaceName;
 
+                _builder.Localize.Column((JObject)quest, sPlaceName, "Name", "location",
+                    x => x == "" ? "???" : x.ToString());
 
-                if (sQuest.PlaceName.Name == "")
-                {
-                    if (questIssuer != null)
-                        quest.zoneid = questIssuer.Locations.First().PlaceName.Key;
-                }
-                else
-                    quest.zoneid = sQuest.PlaceName.Key;
-
-                if (quest.zoneid != null)
-                    _builder.Db.AddLocationReference((int)quest.zoneid);
-
+                // Repeatability
                 if (sQuest.RepeatInterval == Saint.QuestRepeatInterval.Daily)
                     quest.interval = "daily";
                 else if (sQuest.RepeatInterval == Saint.QuestRepeatInterval.Weekly)
@@ -71,6 +67,7 @@ namespace Garland.Data.Modules
                 if (sQuest.IsRepeatable)
                     quest.repeatable = 1;
 
+                // Miscellaneous
                 if (!sQuest.Icon.Path.EndsWith("000000.tex"))
                     quest.icon = IconDatabase.EnsureEntry("quest", sQuest.Icon);
 

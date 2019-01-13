@@ -40,12 +40,12 @@ gt.quest = {
             
             genreIcon: gt.quest.getGenreIcon(quest.genre),
             interval: quest.interval ? gt.util.pascalCase(quest.interval) : null,
-            location: quest.zoneid ? gt.location.index[quest.zoneid].name : '???',
             issuer: quest.issuer ? gt.model.partial(gt.npc, quest.issuer) : null,
             beast: quest.beast,
             lvl: 1,
             objectives: quest.objectives,
-            journal: quest.journal
+            journal: quest.journal,
+            location: quest.location
         };
 
         var genre = gt.quest.genreIndex[quest.genre];
@@ -170,19 +170,12 @@ gt.quest = {
     },
 
     getPartialViewModel: function(partial) {
-        var locationName = '???';
-        if (partial.l) {
-            var location = gt.location.index[partial.l];
-            if (location)
-                locationName = location.name;
-        }
-
         var view = {
             id: partial.i,
             type: 'quest',
             name: gt.model.name(partial),
             icon: gt.quest.getQuestIcon(partial.g, partial.r, partial.f),
-            location: locationName,
+            location: partial.l,
             sort: partial.s
         };
 
