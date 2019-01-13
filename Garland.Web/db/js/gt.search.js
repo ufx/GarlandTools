@@ -128,7 +128,7 @@ gt.search = {
             return;
 
         obj.search = name.toLowerCase();
-        obj.search += ' ' + obj.search.replace(/[\-()']/g, "");
+        obj.search += ' ' + obj.search.replace(/[\-()']|<SoftHyphen\/>/gi, "");
         obj.searchWords = obj.search.split(/[ \-()]/);
     },
 
