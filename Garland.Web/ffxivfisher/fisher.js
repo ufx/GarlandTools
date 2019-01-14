@@ -39166,7 +39166,7 @@ ff.model.LocationEnum = {
   'Dimwold': new ff.model.Location(ff.model.AreaEnum.THE_FRINGES, 'Dimwold'),
   'Mirage Creek': new ff.model.Location(ff.model.AreaEnum.THE_FRINGES, 'Mirage Creek'),
   'The Velodyna River': new ff.model.Location(ff.model.AreaEnum.THE_FRINGES, 'The Velodyna River'),
-  'The Slow Wash': new ff.model.Location(ff.model.AreaEnum.THE_FRINGES, 'The Slow Wash'),
+  'The Slow Wash': new ff.model.Location(ff.model.AreaEnum.THE_PEAKS, 'The Slow Wash'),
   "The Comet's Tail": new ff.model.Location(ff.model.AreaEnum.THE_FRINGES, "The Comet's Tail"),
   "Timmon Beck": new ff.model.Location(ff.model.AreaEnum.THE_FRINGES, "Timmon Beck"),
   'Kugane Piers': new ff.model.Location(ff.model.AreaEnum.KUGANE, 'Kugane Piers'),
