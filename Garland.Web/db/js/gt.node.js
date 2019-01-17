@@ -8,7 +8,7 @@ gt.node = {
     bonusIndex: null,
     limitedNodeUpdateKey: null,
     browse: [
-        { type: 'icon-group', prop: 'job' },
+        { type: 'icon-list', prop: 'job' },
         { type: 'group', prop: 'region' },
         { type: 'header', prop: 'location' },
         { type: 'sort', func: gt.browse.transformLevelAndName }

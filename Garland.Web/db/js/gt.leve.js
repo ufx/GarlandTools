@@ -7,7 +7,7 @@ gt.leve = {
     blockTemplate: null,
     version: 3,
     browse: [
-        { type: 'icon-group', prop: 'jobCategory' },
+        { type: 'icon-list', prop: 'jobCategory', iconFunc: function(k) { return '../files/icons/job/' + k + '.png'; } },
         { type: 'group', reverse: 1, func: function(l) { return gt.browse.transformLevelRangeCore(l.lvl, 10); } },
         { type: 'header', func: function(l) { return gt.browse.transformLevel(l) + ', ' + l.location; } },
         { type: 'sort', func: function(l) { return l.name; } }

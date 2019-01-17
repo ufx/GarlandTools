@@ -99,6 +99,7 @@ gt.browse = {
             var result = _.sortBy(list, categoryFunc);
             return category.reverse ? result.reverse() : result;
         }
+        var iconFunc = category.iconFunc || function(k, e) { return e.browseIcon || e.icon; };
 
         var groupObject;
         if (category.type == 'paginate')
@@ -130,7 +131,7 @@ gt.browse = {
                 entries: entries,
                 count: firstEntry.count ? gt.util.sum(entries, function(e) { return e.count; }) : entries.length,
                 icon: firstEntry.icon,
-                browseIcon: firstEntry.browseIcon || firstEntry.icon,
+                browseIcon: iconFunc(key, firstEntry)
             };
             group.push(sub);
 
