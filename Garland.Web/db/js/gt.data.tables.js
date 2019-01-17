@@ -80,6 +80,7 @@ gt.list.specialIcons = {
     ACN: 'ACN', ARC: 'ACN',
     SMN: 'SMN', SUMMONER: 'SMN',
     RDM: 'RDM', 'RED MAGE': 'RDM',
+    BLU: 'BLU', 'BLUE MAGE': 'BLU',
 
     BRD: 'BRD', BARD: 'BRD',
     MCN: 'MCH', MCH: 'MCH', MACHINIST: 'MCH',

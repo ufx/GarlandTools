@@ -324,7 +324,7 @@
                     <div class="subsection">
                         {{~ pair[1] :job:ji}}
                             {{?it.id == 'leveling' || job.isJob || job.category == "Disciple of the Land"}}
-                                <img src="images/{{=job.abbreviation}}.png" data-id="{{=it.id}}-{{=job.abbreviation}}" data-type="equip" class="icon medium block-link hover-highlight pointer">
+                                <img src="../files/icons/job/{{=job.abbreviation}}.png" data-id="{{=it.id}}-{{=job.abbreviation}}" data-type="equip" class="icon medium block-link hover-highlight pointer">
                             {{?}}
                         {{~}}
                     </div>
@@ -359,7 +359,7 @@
 
             <span class="left icon-button">
                 Options
-                <img src="images/ARM.png" class="icon small toggleable toggle-crafted {{?!it.hideCrafted}}active{{?}}" title="Toggle Crafted Equipment">
+                <img src="../files/icons/job/ARM.png" class="icon small toggleable toggle-crafted {{?!it.hideCrafted}}active{{?}}" title="Toggle Crafted Equipment">
                 <img src="../files/icons/item/22.png" class="icon small toggleable toggle-grand-company {{?!it.hideGC}}active{{?}}" title="Toggle Grand Company Equipment">
             </span>
 
@@ -549,7 +549,7 @@
                                 <img src="{{=model.view.icon}}" class="icon size42" title="{{=model.view.name}}">
                                 {{?model.view.obj.tradeShops}}<img src="images/Trader.png" class="icon-badge icon mini">
                                 {{??model.view.vendors}}<img src="images/Shop.png" class="icon-badge icon mini">
-                                {{??model.view.craft}}<img src="images/{{=gt.jobs[model.view.craft.job].abbreviation}}.png" class="icon-badge icon mini">{{?}}
+                                {{??model.view.craft}}<img src="../files/icons/job/{{=gt.jobs[model.view.craft.job].abbreviation}}.png" class="icon-badge icon mini">{{?}}
                                 {{?model.amount}}<span class="text">{{=model.amount}} </span>{{?}}
                             </div>
                         {{~}}
@@ -1270,7 +1270,7 @@
 
                     {{?it.fishingSpots}}
                         <div class="fishing subsection collapsible collapsed" data-headername="fishing">
-                            <img src="images/FSH.png" class="subsection-icon">
+                            <img src="../files/icons/job/FSH.png" class="subsection-icon">
                             <h2 class="pointer">Fishing <span class="right badge">{{=it.fishingSpots.length}}</span></h2>
 
                             {{~it.fishingSpots :value:index}}
@@ -1575,7 +1575,7 @@
                                     <span class="right">
                                         {{=value.reward}}
                                         <img class="icon small" src="{{=it.icon}}">
-                                        <img class="icon small" src="images/{{=value.job.abbreviation}}.png">
+                                        <img class="icon small" src="../files/icons/job/{{=value.job.abbreviation}}.png">
                                     </span>
                                     <div class="overflow-wrapper">
                                         <img class="icon small" src="{{=value.item.icon}}">
@@ -2231,7 +2231,7 @@
 
                         {{?it.reward.job}}
                             <div class="reward">
-                                <img class="reward-icon" src="images/{{=it.reward.job.abbreviation}}.png" title="{{=it.reward.job.name}}">
+                                <img class="reward-icon" src="../files/icons/job/{{=it.reward.job.abbreviation}}.png" title="{{=it.reward.job.name}}">
                             </div>
                         {{?}}
 
@@ -2894,7 +2894,7 @@
                 {{??!it.craft.fc}}
                     <span class="right {{?it.craft.special}}specialist{{?}}">
                         <span class="text">Lv. {{=it.craft.lvl}}{{=gt.util.stars(it.craft.stars)}}</span>
-                        <img class="job-icon" src="images/{{=gt.jobs[it.craft.job].abbreviation}}.png">
+                        <img class="job-icon" src="../files/icons/job/{{=gt.jobs[it.craft.job].abbreviation}}.png">
                      </span>
                 {{?}}
                 <div class="clear"></div>
@@ -2934,7 +2934,7 @@
             {{??!it.craft.fc}}
                 <span class="right {{?it.craft.special}}specialist{{?}}">
                     <span class="text">Lv. {{=it.craft.lvl}}{{=gt.util.stars(it.craft.stars)}}</span>
-                    <img class="job-icon" src="images/{{=gt.jobs[it.craft.job].abbreviation}}.png">
+                    <img class="job-icon" src="../files/icons/job/{{=gt.jobs[it.craft.job].abbreviation}}.png">
                     </span>
             {{?}}
             <div class="clear"></div>
@@ -3252,11 +3252,11 @@
                     <span class="text">Leves</span>
                 </div>
                 <div class="block-link hover-highlight icon-button" data-type="browse" data-id="node">
-                    <img src="images/MIN.png" class="icon small">
+                    <img src="../files/icons/job//MIN.png" class="icon small">
                     <span class="text">Gathering Nodes</span>
                 </div>
                 <div class="block-link hover-highlight icon-button" data-type="browse" data-id="fishing">
-                    <img src="images/FSH.png" class="icon small">
+                    <img src="../files/icons/job//FSH.png" class="icon small">
                     <span class="text">Fishing Spots</span>
                 </div>
                 <div class="block-link hover-highlight icon-button" data-type="browse" data-id="npc">

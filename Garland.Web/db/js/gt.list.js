@@ -14,6 +14,18 @@ gt.list = {
         gt.list.initializeIsotope();
         $('#new-list').click(gt.list.newListClicked);
         $('#clear-list').click(gt.list.clearListClicked);
+
+        gt.list.initializeSpecialIcons();
+    },
+
+    initializeSpecialIcons: function() {
+        // Add jobs.
+        for (var i = 0; i < gt.jobs.length; i++) {
+            var job = gt.jobs[i];
+            var iconPath = '../files/icons/job/' + job.abbreviation + '.png';
+            gt.list.specialIcons[job.abbreviation.toUpperCase()] = iconPath;
+            gt.list.specialIcons[job.name.toUpperCase()] = iconPath;
+        }
     },
 
     reinitialize: function() {
@@ -94,7 +106,6 @@ gt.list = {
         if (icon.indexOf('/') == -1)
             icon = 'images/' + icon + '.png';
 
-        // todo: remove check for he module
         var view = {
             name: name,
             displayName: he.encode(name),

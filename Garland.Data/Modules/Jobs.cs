@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,8 @@ namespace Garland.Data.Modules
 {
     public class Jobs : Module
     {
+        const string JobIconPath = Config.IconPath + "job\\";
+
         public override string Name => "Jobs";
 
         public override void Start()
@@ -33,7 +36,12 @@ namespace Garland.Data.Modules
                 if (sJob.SoulCrystal != null && sJob.SoulCrystal.Key != 0)
                     job.isJob = 1;
 
-                job.icon = IconDatabase.EnsureEntry("job", sJob.FramedIcon);
+                var iconPath = JobIconPath + sJob.Abbreviation.ToString() + ".png";
+                if (!File.Exists(iconPath))
+                {
+                    var icon = sJob.Icon.GetImage();
+                    icon.Save(iconPath, System.Drawing.Imaging.ImageFormat.Png);
+                }
 
                 _builder.Db.Jobs.Add(job);
             }
