@@ -856,12 +856,16 @@ gt.craft.step.prototype.getSortKey = function() {
         return this.view.name;
 
     if (this.type == 'gathered') {
+        var sort = this.sourceView.region + ' ' + this.sourceView.location;
+
         if (this.sourceType == 'node')
-            return 'node' + this.sourceView.zone.name + this.sourceView.lvl + this.sourceView.category;
+            return sort + 'node ' + this.sourceView.zone.name + this.sourceView.lvl + this.sourceView.category;
         else if (this.sourceType == 'trade')
-            return 'trade' + this.sourceView.currencyView.n + this.view.name;
+            return sort + 'trade ' + this.sourceView.currencyView.n + this.view.name;
+        else if (this.sourceType == 'npc')
+            return sort + 'npc ' + this.item.category + ' ' + this.view.name;
         else
-            return (this.sourceType || '') + this.view.name;
+            return sort + ' ' + (this.sourceType || '') + this.view.name;
     }
 
     if (this.craft) {
