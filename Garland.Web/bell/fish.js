@@ -45,6 +45,11 @@
     "id": 2617,
     "icon": 905
   },
+  "Midge Basket": {
+    "name": "Midge Basket",
+    "id": 2592,
+    "icon": 881
+  },
   "Butterworm": {
     "name": "Butterworm",
     "id": 2594,
@@ -133,11 +138,6 @@
     "name": "Brass Spoon Lure",
     "id": 2612,
     "icon": 900
-  },
-  "Midge Basket": {
-    "name": "Midge Basket",
-    "id": 2592,
-    "icon": 881
   },
   "Honey Worm": {
     "name": "Honey Worm",
@@ -919,8 +919,8 @@ gt.bell.fish = [
       "Sinking Minnow"
     ],
     "during": {
-      "start": 17,
-      "end": 20
+      "start": 5,
+      "end": 8
     },
     "id": 7709,
     "icon": 4626,
@@ -940,7 +940,7 @@ gt.bell.fish = [
     "name": "Copperfish",
     "patch": 1.0,
     "bait": [
-      "Butterworm"
+      "Midge Basket"
     ],
     "id": 4948,
     "icon": 2978,
@@ -2554,7 +2554,7 @@ gt.bell.fish = [
     "name": "Mirrorscale",
     "patch": 2.3,
     "bait": [
-      "Butterworm",
+      "Midge Basket",
       "Copperfish"
     ],
     "during": {
@@ -6440,6 +6440,26 @@ gt.bell.fish = [
     "zone": "Coerthas Western Highlands"
   },
   {
+    "name": "Northern Oyster",
+    "patch": 4.5,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 24557,
+    "icon": 9745,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Ashpool",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      14.07,
+      15.71
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
     "name": "La Reale",
     "patch": 3.3,
     "folklore": 1,
@@ -9814,8 +9834,8 @@ gt.bell.fish = [
       "end": 17
     },
     "weather": [
-      "Fair Skies",
-      "Clear Skies"
+      "Clear Skies",
+      "Fair Skies"
     ],
     "id": 13731,
     "icon": 7770,
@@ -11104,6 +11124,26 @@ gt.bell.fish = [
     "scrip": "Yellow Gatherers' Scrip"
   },
   {
+    "name": "Chakrafish",
+    "patch": 4.5,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 24559,
+    "icon": 2993,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dimwold",
+    "category": "Freshwater Fishing",
+    "lvl": 62,
+    "coords": [
+      9.61,
+      29.03
+    ],
+    "radius": 1100,
+    "zone": "The Fringes"
+  },
+  {
     "name": "Sapphire Fan",
     "patch": 4.3,
     "folklore": 1,
@@ -12034,8 +12074,8 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "weather": [
-      "Fair Skies",
-      "Clear Skies"
+      "Clear Skies",
+      "Fair Skies"
     ],
     "id": 22391,
     "icon": 11596,
@@ -12186,6 +12226,33 @@ gt.bell.fish = [
     "icon": 11266,
     "func": "fish",
     "rarity": 1,
+    "title": "The Arms of Meed",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      9.21,
+      37.44
+    ],
+    "radius": 500,
+    "zone": "The Peaks"
+  },
+  {
+    "name": "Lily of the Veil",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Suspending Minnow"
+    ],
+    "weather": [
+      "Fair Skies"
+    ],
+    "transition": [
+      "Clear Skies"
+    ],
+    "id": 24881,
+    "icon": 12896,
+    "func": "fish",
+    "rarity": 2,
     "title": "The Arms of Meed",
     "category": "Freshwater Fishing",
     "lvl": 70,
@@ -12847,6 +12914,55 @@ gt.bell.fish = [
     "zone": "The Ruby Sea"
   },
   {
+    "name": "Wicked Wartfish",
+    "patch": 4.5,
+    "bait": [
+      "Bream Lure"
+    ],
+    "id": 24560,
+    "icon": 2919,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Hells' Lid",
+    "category": "Ocean Fishing",
+    "lvl": 62,
+    "coords": [
+      25.82,
+      33.63
+    ],
+    "radius": 2000,
+    "zone": "The Ruby Sea"
+  },
+  {
+    "name": "The Vegetarian",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Live Shrimp",
+      "Ruby Shrimp"
+    ],
+    "during": {
+      "start": 20,
+      "end": 24
+    },
+    "weather": [
+      "Thunder"
+    ],
+    "id": 24882,
+    "icon": 12895,
+    "func": "fish",
+    "rarity": 2,
+    "title": "Hells' Lid",
+    "category": "Ocean Fishing",
+    "lvl": 62,
+    "coords": [
+      25.82,
+      33.63
+    ],
+    "radius": 2000,
+    "zone": "The Ruby Sea"
+  },
+  {
     "name": "Dafu",
     "patch": 4.0,
     "bait": [
@@ -12969,6 +13085,37 @@ gt.bell.fish = [
     "icon": 11594,
     "func": "fish",
     "rarity": 1,
+    "title": "The Isle of Bekko",
+    "category": "Ocean Fishing",
+    "lvl": 65,
+    "coords": [
+      34.63,
+      20.22
+    ],
+    "radius": 2000,
+    "zone": "The Ruby Sea"
+  },
+  {
+    "name": "Seven Stars",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Blue Bobbit"
+    ],
+    "during": {
+      "start": 10,
+      "end": 16
+    },
+    "weather": [
+      "Fair Skies"
+    ],
+    "transition": [
+      "Thunder"
+    ],
+    "id": 24883,
+    "icon": 12894,
+    "func": "fish",
+    "rarity": 2,
     "title": "The Isle of Bekko",
     "category": "Ocean Fishing",
     "lvl": 65,
@@ -13107,6 +13254,26 @@ gt.bell.fish = [
     "zone": "The Ruby Sea"
   },
   {
+    "name": "Ruby Laver",
+    "patch": 4.5,
+    "bait": [
+      "Live Shrimp"
+    ],
+    "id": 24558,
+    "icon": 2815,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Shoal Rock",
+    "category": "Ocean Fishing",
+    "lvl": 63,
+    "coords": [
+      32.63,
+      8.21
+    ],
+    "radius": 1000,
+    "zone": "The Ruby Sea"
+  },
+  {
     "name": "The Winter Queen",
     "patch": 4.3,
     "folklore": 1,
@@ -13199,8 +13366,7 @@ gt.bell.fish = [
     "patch": 4.0,
     "folklore": 1,
     "bait": [
-      "Live Shrimp",
-      "Ruby Shrimp"
+      "Blue Bobbit"
     ],
     "during": {
       "start": 8,
@@ -13387,6 +13553,34 @@ gt.bell.fish = [
     "icon": 2930,
     "func": "fish",
     "rarity": 1,
+    "title": "Isari",
+    "category": "Ocean Fishing",
+    "lvl": 64,
+    "coords": [
+      9.01,
+      11.93
+    ],
+    "radius": 1000,
+    "zone": "The Ruby Sea"
+  },
+  {
+    "name": "Pinhead",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Live Shrimp"
+    ],
+    "during": {
+      "start": 16,
+      "end": 24
+    },
+    "weather": [
+      "Thunder"
+    ],
+    "id": 24884,
+    "icon": 4708,
+    "func": "fish",
+    "rarity": 2,
     "title": "Isari",
     "category": "Ocean Fishing",
     "lvl": 64,
@@ -13770,6 +13964,30 @@ gt.bell.fish = [
     "zone": "Yanxia"
   },
   {
+    "name": "Pomegranate Trout",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Nightcrawler"
+    ],
+    "weather": [
+      "Rain"
+    ],
+    "id": 24885,
+    "icon": 4728,
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Heron's Nest",
+    "category": "Freshwater Fishing",
+    "lvl": 64,
+    "coords": [
+      34.83,
+      14.01
+    ],
+    "radius": 300,
+    "zone": "Yanxia"
+  },
+  {
     "name": "River Barramundi",
     "patch": 4.0,
     "bait": [
@@ -13779,6 +13997,33 @@ gt.bell.fish = [
     "icon": 9782,
     "func": "fish",
     "rarity": 1,
+    "title": "The Heron's Way",
+    "category": "Freshwater Fishing",
+    "lvl": 64,
+    "coords": [
+      35.83,
+      17.02
+    ],
+    "radius": 200,
+    "zone": "Yanxia"
+  },
+  {
+    "name": "Glarramundi",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Suspending Minnow"
+    ],
+    "weather": [
+      "Clear Skies"
+    ],
+    "transition": [
+      "Fair Skies"
+    ],
+    "id": 24886,
+    "icon": 12893,
+    "func": "fish",
+    "rarity": 2,
     "title": "The Heron's Way",
     "category": "Freshwater Fishing",
     "lvl": 64,
@@ -13828,6 +14073,34 @@ gt.bell.fish = [
     ],
     "radius": 500,
     "zone": "Shirogane"
+  },
+  {
+    "name": "Hermit's End",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Stonefly Larva"
+    ],
+    "during": {
+      "start": 20,
+      "end": 24
+    },
+    "transition": [
+      "Clear Skies"
+    ],
+    "id": 24887,
+    "icon": 12892,
+    "func": "fish",
+    "rarity": 2,
+    "title": "Namai",
+    "category": "Freshwater Fishing",
+    "lvl": 64,
+    "coords": [
+      29.53,
+      15.61
+    ],
+    "radius": 300,
+    "zone": "Yanxia"
   },
   {
     "name": "Yanxian Koi",
@@ -13994,6 +14267,57 @@ gt.bell.fish = [
     "zone": "Yanxia"
   },
   {
+    "name": "Othardian Salmon",
+    "patch": 4.5,
+    "bait": [
+      "Nightcrawler"
+    ],
+    "id": 24561,
+    "icon": 2997,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The One River (East)",
+    "category": "Freshwater Fishing",
+    "lvl": 65,
+    "coords": [
+      20.02,
+      24.22
+    ],
+    "radius": 1000,
+    "zone": "Yanxia"
+  },
+  {
+    "name": "Axelrod",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Stonefly Larva"
+    ],
+    "during": {
+      "start": 0,
+      "end": 6
+    },
+    "weather": [
+      "Fair Skies"
+    ],
+    "transition": [
+      "Clouds"
+    ],
+    "id": 24889,
+    "icon": 12891,
+    "func": "fish",
+    "rarity": 2,
+    "title": "The One River (East)",
+    "category": "Freshwater Fishing",
+    "lvl": 65,
+    "coords": [
+      20.02,
+      24.22
+    ],
+    "radius": 1000,
+    "zone": "Yanxia"
+  },
+  {
     "name": "Seraphim",
     "patch": 4.0,
     "bait": [
@@ -14150,6 +14474,34 @@ gt.bell.fish = [
     "icon": 2983,
     "func": "fish",
     "rarity": 1,
+    "title": "Prism Canyon",
+    "category": "Freshwater Fishing",
+    "lvl": 67,
+    "coords": [
+      31.73,
+      7.21
+    ],
+    "radius": 200,
+    "zone": "Yanxia"
+  },
+  {
+    "name": "The Unraveled Bow",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Suspending Minnow"
+    ],
+    "during": {
+      "start": 12,
+      "end": 16
+    },
+    "weather": [
+      "Fog"
+    ],
+    "id": 24890,
+    "icon": 4700,
+    "func": "fish",
+    "rarity": 2,
     "title": "Prism Canyon",
     "category": "Freshwater Fishing",
     "lvl": 67,
@@ -14392,6 +14744,37 @@ gt.bell.fish = [
     "icon": 2979,
     "func": "fish",
     "rarity": 1,
+    "title": "Mercantile Docks",
+    "category": "Freshwater Fishing",
+    "lvl": 67,
+    "coords": [
+      11.41,
+      14.01
+    ],
+    "radius": 1000,
+    "zone": "Yanxia"
+  },
+  {
+    "name": "Suiten Ippeki",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Stonefly Larva"
+    ],
+    "during": {
+      "start": 16,
+      "end": 24
+    },
+    "weather": [
+      "Showers"
+    ],
+    "transition": [
+      "Fair Skies"
+    ],
+    "id": 24888,
+    "icon": 4616,
+    "func": "fish",
+    "rarity": 2,
     "title": "Mercantile Docks",
     "category": "Freshwater Fishing",
     "lvl": 67,
@@ -14829,6 +15212,37 @@ gt.bell.fish = [
     "zone": "The Azim Steppe"
   },
   {
+    "name": "Garden Skipper",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Midge Larva"
+    ],
+    "during": {
+      "start": 8,
+      "end": 12
+    },
+    "weather": [
+      "Clear Skies"
+    ],
+    "transition": [
+      "Fair Skies"
+    ],
+    "id": 24892,
+    "icon": 12890,
+    "func": "fish",
+    "rarity": 2,
+    "title": "Nem Khaal",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      32.43,
+      30.43
+    ],
+    "radius": 200,
+    "zone": "The Azim Steppe"
+  },
+  {
     "name": "Curtain Pleco",
     "patch": 4.0,
     "bait": [
@@ -14999,6 +15413,38 @@ gt.bell.fish = [
     "radius": 300,
     "zone": "The Azim Steppe",
     "scrip": "Yellow Gatherers' Scrip"
+  },
+  {
+    "name": "Banderole",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Nightcrawler",
+      "Zagas Khaal"
+    ],
+    "during": {
+      "start": 0,
+      "end": 8
+    },
+    "weather": [
+      "Fog"
+    ],
+    "transition": [
+      "Fair Skies"
+    ],
+    "id": 24893,
+    "icon": 5179,
+    "func": "fish",
+    "rarity": 2,
+    "title": "Hak Khaal",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      29.03,
+      20.42
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
   },
   {
     "name": "Tail Mountains Minnow",
@@ -15772,6 +16218,37 @@ gt.bell.fish = [
     "icon": 9727,
     "func": "fish",
     "rarity": 1,
+    "title": "Dotharl Khaa",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      12.51,
+      33.23
+    ],
+    "radius": 200,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Nhaama's Treasure",
+    "patch": 4.5,
+    "folklore": 1,
+    "bait": [
+      "Suspending Minnow"
+    ],
+    "during": {
+      "start": 4,
+      "end": 8
+    },
+    "weather": [
+      "Clear Skies"
+    ],
+    "transition": [
+      "Rain"
+    ],
+    "id": 24891,
+    "icon": 4606,
+    "func": "fish",
+    "rarity": 2,
     "title": "Dotharl Khaa",
     "category": "Freshwater Fishing",
     "lvl": 60,

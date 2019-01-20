@@ -64,7 +64,7 @@ Dusk Goby
 Gudgeon												
 Maiden Carp												
 La Noscean Perch												
-High Perch	Sinking Minnow	17	20									232
+High Perch	Sinking Minnow	5	8									232
 Woad Whisper Canyon												
 Dwarf Catfish												
 Dusk Goby												
@@ -219,7 +219,7 @@ Mitten Crab
 Spotted Puffer												
 Discus												
 Kobold Puffer												
-The Salter	Honey Worm	17	20		N/A							261
+The Salter	Honey Worm	17	20		N/A		Light					261
 East Agelyss River												
 Copperfish												
 Lamprey												
@@ -242,7 +242,7 @@ Archerfish
 Agelyss Carp												
 The Terpsichorean	Honey Worm				Fog							275
 The Juggernaut												
-Copperfish	Butterworm											
+Copperfish	Midge Basket											
 Mudcrab												
 Lamprey												
 Grip Killifish												
@@ -1003,6 +1003,7 @@ Fanged Clam
 Lake Urchin												
 Gigant Grouper												
 Battle Galley												
+Northern Oyster	Stonefly Nymph											
 La Reale	Brute Leech											464
 West Banepool												
 Fanged Clam												
@@ -1296,7 +1297,7 @@ Cloud Rider
 Blue Medusa												
 Letter Puffer												
 Dragon's Soul												
-Sunsail	Giant Crane Fly	15	17		Fair Skies, Clear Skies							442
+Sunsail	Giant Crane Fly	15	17		Clear Skies, Fair Skies							442
 The Soul of the Martyr	Giant Crane Fly	4	6		Clear Skies, Fair Skies							470
 Sohm Al Summit												
 Sky Faerie	Red Balloon											353
@@ -1392,6 +1393,7 @@ Fallen Leaf	Suspending Minnow											525
 Padjali Loach	Salmon Roe											530
 Cave Killifish	Suspending Minnow											553
 Wraithfish	Stonefly Larva	0	4		Fog						1	635
+Chakrafish	Salmon Roe											
 Sapphire Fan	Stonefly Larva				Thunder							761
 The Comet's Tail												
 Bone Melter	Salmon Roe											524
@@ -1449,7 +1451,7 @@ Invisible Crayfish	Nightcrawler											551
 Bull's Bite	Midge Larva				Clouds, Wind, Fog, Dust Storms							600
 Peeping Pisces	Midge Larva											601
 Meditator	Suspending Minnow											612
-Alligator Snapping Turtle	Suspending Minnow				Fair Skies, Clear Skies							
+Alligator Snapping Turtle	Suspending Minnow				Clear Skies, Fair Skies							
 Hemon	Suspending Minnow	16	20		Clouds							
 The Arms of Meed												
 Gyr Abanian Trout	Midge Larva											531
@@ -1458,6 +1460,7 @@ Eastern Pike	Suspending Minnow				Clear Skies, Fair Skies							607
 Scimitarfish	Suspending Minnow											614
 Ala Mhigan Ribbon	Suspending Minnow											619
 Rockfish	Suspending Minnow	12	16		Clouds, Wind, Fog, Dust Storms					1		
+Lily of the Veil	Suspending Minnow			Clear Skies	Fair Skies							
 Loch Seld												
 Rock Saltfish	Silkworm											608
 Saltshield Snapper	Silkworm											611
@@ -1480,6 +1483,8 @@ Blockhead	Ruby Shrimp											615
 Liopleurodon	Ruby Shrimp				Thunder			Powerful				618
 Ukiki	Blue Bobbit	8	12		Wind							
 Shrieker	Ruby Shrimp											
+Wicked Wartfish	Bream Lure											
+The Vegetarian	Ruby Shrimp	20	24		Thunder							
 The Isle of Bekko												
 Grinning Anchovy	Live Shrimp											539
 Hellyfish	Live Shrimp											541
@@ -1488,6 +1493,7 @@ Dafu	Ruby Shrimp											556
 Glass Tuna	Ruby Shrimp											605
 Tawny Wench Shark	Ruby Shrimp	10	16		Clear Skies						1	609
 Usuginu Octopus	Live Shrimp											
+Seven Stars	Blue Bobbit	10	16	Thunder	Fair Skies							
 Shoal Rock												
 Grinning Anchovy	Live Shrimp											539
 Ruby Coral	Live Shrimp									1		542
@@ -1496,13 +1502,14 @@ Bone Coral	Live Shrimp									1		544
 Butterfly Fish	Blue Bobbit											555
 Harutsuge	Blue Bobbit							Precision				628
 Harutsuge Sprag	Live Shrimp							Precision				5001
+Ruby Laver	Live Shrimp											
 The Winter Queen	Blue Bobbit	16	20									768
 Onokoro												
 Ruby Shrimp	Live Shrimp											545
 Leaf Tatsunoko	Ruby Shrimp											557
 Glass Flounder	Ruby Shrimp											558
 Blackfin Snake Eel	Ruby Shrimp											621
-Swordfish	Ruby Shrimp	8	16		Clouds, Wind						1	632
+Swordfish	Blue Bobbit	8	16		Clouds, Wind						1	632
 Giant Plesiosaur	Live Shrimp							Powerful				5003
 Argonautica	Ruby Shrimp				Wind							
 Isari												
@@ -1513,6 +1520,7 @@ Fan Clam	Live Shrimp									1		561
 Ruby Meagre	Bream Lure											563
 Triplespine	Blue Bobbit	5	7									748
 Shirogane Clam	Live Shrimp											
+Pinhead	Live Shrimp	16	24		Thunder							
 The Isle of Zekki												
 Ruby Shrimp	Live Shrimp											545
 Daio Squid	Ruby Shrimp							Powerful				603
@@ -1524,18 +1532,23 @@ The Heron's Nest
 Doman Trout	Nightcrawler											571
 Doman Crayfish	Nightcrawler											575
 Maiden's Heart	Nightcrawler											
+Pomegranate Trout	Nightcrawler				Rain							
 The Heron's Way												
 River Barramundi	Nightcrawler											564
 Doman Trout	Nightcrawler											571
 Doman Crayfish	Nightcrawler											575
+Glarramundi	Suspending Minnow			Fair Skies	Clear Skies							
 Namai												
 Nogoi	Nightcrawler											565
+Hermit's End	Stonefly Larva	20	24	Clear Skies								
 The One River (East)												
 Yanxian Koi	Nightcrawler											569
 Longhair Catfish	Suspending Minnow				N/A			Powerful				570
 Doman Trout	Nightcrawler											571
 Yanxian Barramundi	Nightcrawler							Powerful				572
 Kotsu Zetsu	Suspending Minnow											616
+Othardian Salmon	Nightcrawler											
+Axelrod	Stonefly Larva	0	6	Clouds	Fair Skies							
 The One River (West)												
 Longhair Catfish	Suspending Minnow				N/A			Powerful				570
 Doman Trout	Nightcrawler											571
@@ -1553,6 +1566,7 @@ Prism Canyon
 Doman Trout	Nightcrawler											571
 Doman Crayfish	Nightcrawler											575
 Doman Eel	Midge Larva											584
+The Unraveled Bow	Suspending Minnow	12	16		Fog							
 Prism Lake												
 Yellow Prismfish	Suspending Minnow											598
 Blue Prismfish	Suspending Minnow											599
@@ -1567,6 +1581,7 @@ Doman Trout	Nightcrawler											571
 Doman Grass Carp	Midge Larva	20	4					Powerful				592
 Lordly Salmon	Midge Larva											597
 Kotsu Zetsu	Suspending Minnow											616
+Suiten Ippeki	Stonefly Larva	16	24	Fair Skies	Showers							
 Doma Castle												
 Doman Trout	Nightcrawler											571
 Samurai Fish	Midge Larva											593
@@ -1580,12 +1595,14 @@ Zagas Khaal	Nightcrawler											577
 Othardian Trout	Zagas Khaal											576
 Steppe Skipper	Midge Larva							Precision				578
 Dawn Crayfish	Zagas Khaal											580
+Garden Skipper	Midge Larva	8	12	Fair Skies	Clear Skies							
 Hak Khaal												
 Zagas Khaal	Nightcrawler											577
 Curtain Pleco	Suspending Minnow											581
 Dry Steppe Skipper	Midge Larva											586
 Dusk Crayfish	Zagas Khaal											588
 Hak Bitterling	Stonefly Larva	0	4		Rain						1	623
+Banderole	Zagas Khaal	0	8	Fair Skies	Fog							
 Upper Yat Khaal												
 Tail Mountains Minnow	Midge Larva											573
 Zagas Khaal	Nightcrawler											577
@@ -1639,6 +1656,7 @@ Steppe Barramundi	Salmon Roe
 Arrowhead Snail	Salmon Roe											
 Plump Trout	Salmon Roe											
 Crawling Cog	Salmon Roe											
+Nhaama's Treasure	Suspending Minnow	4	8	Rain	Clear Skies							
 Kugane Piers												
 Grinning Anchovy	Live Shrimp											539
 Ruby Shrimp	Live Shrimp											545
