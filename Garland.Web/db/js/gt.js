@@ -6883,8 +6883,6 @@ gt.equip = {
         };
 
         var equipment = gt.equip.index[data.id];
-        view.maxLvl = equipment.length;
-        console.log(view, equipment);
 
         // Filter the equipment to find the highest ranking item per slot and level.
         var validKeys = ['gil'];
@@ -6944,7 +6942,8 @@ gt.equip = {
             if (hasItems)
                 view.equipment[slot] = items;
         }
-
+        
+        view.maxLvl = equipment.length;
         view.startLevel = startLevel;
         view.endLevel = endLevel;
         return view;

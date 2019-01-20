@@ -219,6 +219,7 @@ namespace Garland.Data.Modules
                 var weights = jobData.Weights.OrderByDescending(w => w.Value).ToArray();
                 var scoredJobEquipment = relevantEquipment
                     .Where(e => e.ClassJobs.Contains(sJob))
+                    .Where(e => e.Equipment.EquipmentLevel <= jobData.MaxLevel)
                     .Select(e => new EquipmentJobRank()
                     {
                         Equipment = e.Equipment,
@@ -264,7 +265,7 @@ namespace Garland.Data.Modules
 
         EquipmentRank Rank(Saint.Items.Equipment equipment, JobData jobData, SW[] weights, bool isCombatJob)
         {
-            if (isCombatJob && equipment.EquipmentLevel == jobData.MaxLevel)
+            if (isCombatJob && equipment.EquipmentLevel >= jobData.MaxLevel)
                 return null; // Optimization: Stat ranks at cap are obsolete for combat jobs.
 
             var rank = new EquipmentRank() { Equipment = equipment };
