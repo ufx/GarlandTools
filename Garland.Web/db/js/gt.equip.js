@@ -155,7 +155,8 @@ gt.equip = {
             if (hasItems)
                 view.equipment[slot] = items;
         }
-
+        
+        view.maxLvl = equipment.length;
         view.startLevel = startLevel;
         view.endLevel = endLevel;
         return view;

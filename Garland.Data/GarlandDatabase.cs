@@ -36,7 +36,8 @@ namespace Garland.Data
             new Patch(4.5m, "A Requiem for Heroes", "Stormblood")
         };
 
-        public static int LevelCap = -1;
+        public static int LevelCap = -1; // Filled in from Miscellaneous.
+        public static int BlueMageLevelCap = 50;
 
         public HashSet<int> LocationReferences = new HashSet<int>();
         public Dictionary<object, List<DataReference>> DataReferencesBySource = new Dictionary<object, List<DataReference>>();

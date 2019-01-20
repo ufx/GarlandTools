@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Game = SaintCoinach.Xiv;
+using Saint = SaintCoinach.Xiv;
 
 namespace Garland.Data.Modules
 {
@@ -13,7 +13,7 @@ namespace Garland.Data.Modules
     {
         public override string Name => "Equipment Scores";
 
-        static Dictionary<int, SW[]> _statWeightsByJob = new Dictionary<int, SW[]>();
+        Dictionary<int, JobData> _jobsByKey = new Dictionary<int, JobData>();
         readonly double[,] OvermeldPenalties = new double[,]
         {
             // T1, T2,  T3,  T4,  T5,  T6
@@ -24,196 +24,190 @@ namespace Garland.Data.Modules
         };
         const double OvermeldPenalty = 2.0;
 
-        static EquipmentScorer()
+        void Initialize(Saint.BaseParam[] sBaseParams, Saint.Materia[] sMateria)
         {
             // Monk
-            _statWeightsByJob[20] = new SW[] {
+            _jobsByKey[20] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Physical Damage", 15), new SW("Strength", 1),
                 new SW("Determination", .001), new SW("Skill Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-
-            };
-            _statWeightsByJob[2] = _statWeightsByJob[20]; // Pugilist
+            });
+            _jobsByKey[2] = _jobsByKey[20]; // Pugilist
 
             // Dragoon
-            _statWeightsByJob[22] = new SW[] {
+            _jobsByKey[22] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Physical Damage", 15), new SW("Strength", 1),
                 new SW("Determination", .001), new SW("Skill Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
-            _statWeightsByJob[4] = _statWeightsByJob[22]; // Lancer
+            });
+            _jobsByKey[4] = _jobsByKey[22]; // Lancer
 
             // Bard
-            _statWeightsByJob[23] = new SW[] {
+            _jobsByKey[23] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Physical Damage", 15), new SW("Dexterity", 1),
                 new SW("Determination", .001), new SW("Skill Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
-            _statWeightsByJob[5] = _statWeightsByJob[23]; // Archer
+            });
+            _jobsByKey[5] = _jobsByKey[23]; // Archer
 
             // Machinist
-            _statWeightsByJob[31] = new SW[] {
+            _jobsByKey[31] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Physical Damage", 15), new SW("Dexterity", 1),
                 new SW("Determination", .001), new SW("Skill Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
+            });
 
             // Black Mage
-            _statWeightsByJob[25] = new SW[] {
+            _jobsByKey[25] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Magic Damage", 15), new SW("Intelligence", 1),
                 new SW("Determination", .001), new SW("Spell Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
-            _statWeightsByJob[7] = _statWeightsByJob[25]; // Thaumaturge
+            });
+            _jobsByKey[7] = _jobsByKey[25]; // Thaumaturge
 
             // Summoner (Garuda)
-            _statWeightsByJob[27] = new SW[] {
+            _jobsByKey[27] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Magic Damage", 15), new SW("Intelligence", 1),
                 new SW("Determination", .001), new SW("Spell Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
-            _statWeightsByJob[26] = _statWeightsByJob[27]; // Arcanist
+            });
+            _jobsByKey[26] = _jobsByKey[27]; // Arcanist
 
             // Ninja
-            _statWeightsByJob[30] = new SW[] {
+            _jobsByKey[30] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Physical Damage", 15), new SW("Dexterity", 1),
                 new SW("Determination", .001), new SW("Skill Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
-            _statWeightsByJob[29] = _statWeightsByJob[30]; // Rogue
+            });
+            _jobsByKey[29] = _jobsByKey[30]; // Rogue
 
             // Samurai
-            _statWeightsByJob[34] = new SW[] {
+            _jobsByKey[34] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Physical Damage", 15), new SW("Strength", 1),
                 new SW("Determination", .001), new SW("Skill Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
+            });
 
             // Red Mage
-            _statWeightsByJob[35] = new SW[] {
+            _jobsByKey[35] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Magic Damage", 15), new SW("Intelligence", 1),
                 new SW("Determination", .001), new SW("Spell Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
+            });
 
             // Blue Mage
-            _statWeightsByJob[36] = new SW[] {
+            _jobsByKey[36] = new JobData(GarlandDatabase.BlueMageLevelCap, new SW[] {
                 new SW("Magic Damage", 15), new SW("Intelligence", 1),
                 new SW("Determination", .001), new SW("Spell Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
+            });
 
             // Warrior (Defiance)
-            _statWeightsByJob[21] = new SW[] {
+            _jobsByKey[21] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Physical Damage", 15),
                 new SW("Vitality", 1.3), new SW("Strength", 1),
                 new SW("Defense", 2), new SW("Magic Defense", 2)
-            };
-            _statWeightsByJob[3] = _statWeightsByJob[21]; // Marauder
+            });
+            _jobsByKey[3] = _jobsByKey[21]; // Marauder
 
             // Paladin (Shield Oath)
-            _statWeightsByJob[19] = new SW[] {
+            _jobsByKey[19] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Physical Damage", 15),
                 new SW("Vitality", 1.3), new SW("Strength", 1),
                 new SW("Defense", 2), new SW("Magic Defense", 2),
                 new SW("Block Strength", 2), new SW("Block Rate", 2)
-            };
-            _statWeightsByJob[1] = _statWeightsByJob[19]; // Gladiator
+            });
+            _jobsByKey[1] = _jobsByKey[19]; // Gladiator
 
             // Dark Knight
-            _statWeightsByJob[32] = new SW[] {
+            _jobsByKey[32] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Physical Damage", 15),
                 new SW("Vitality", 1.3), new SW("Strength", 1),
                 new SW("Defense", 2), new SW("Magic Defense", 2)
-            };
+            });
 
             // White Mage
-            _statWeightsByJob[24] = new SW[] {
+            _jobsByKey[24] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Magic Damage", 15),
                 new SW("Mind", 1), new SW("Vitality", .1),
                 new SW("Defense", .5, true), new SW("Magic Defense", .5, true),
                 new SW("Determination", .001), new SW("Spell Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
-            _statWeightsByJob[6] = _statWeightsByJob[24]; // Conjurer
+            });
+            _jobsByKey[6] = _jobsByKey[24]; // Conjurer
 
             // Astrologian
-            _statWeightsByJob[33] = new SW[] {
+            _jobsByKey[33] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Magic Damage", 15),
                 new SW("Mind", 1), new SW("Vitality", .1),
                 new SW("Defense", .5, true), new SW("Magic Defense", .5, true),
                 new SW("Determination", .001), new SW("Spell Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
+            });
 
             // Scholar
-            _statWeightsByJob[28] = new SW[] {
+            _jobsByKey[28] = new JobData(GarlandDatabase.LevelCap, new SW[] {
                 new SW("Magic Damage", 15),
                 new SW("Mind", 1), new SW("Vitality", .1),
                 new SW("Defense", .5, true), new SW("Magic Defense", .5, true),
                 new SW("Determination", .001), new SW("Spell Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
-            };
+            });
 
             // Miner, Botanist, Fisher
-            _statWeightsByJob[16] = new SW[] { new SW("Gathering", 1), new SW("Perception", 1), new SW("GP", 1) };
-            _statWeightsByJob[17] = _statWeightsByJob[16];
-            _statWeightsByJob[18] = _statWeightsByJob[16];
+            _jobsByKey[16] = new JobData(GarlandDatabase.LevelCap, new SW[] { new SW("Gathering", 1), new SW("Perception", 1), new SW("GP", 1) });
+            _jobsByKey[17] = _jobsByKey[16];
+            _jobsByKey[18] = _jobsByKey[16];
 
             // Disciples of the Hand
-            _statWeightsByJob[8] = new SW[] { new SW("Craftsmanship", .85), new SW("Control", 1), new SW("CP", 1.1) };
-            _statWeightsByJob[9] = _statWeightsByJob[8];
-            _statWeightsByJob[10] = _statWeightsByJob[8];
-            _statWeightsByJob[11] = _statWeightsByJob[8];
-            _statWeightsByJob[12] = _statWeightsByJob[8];
-            _statWeightsByJob[13] = _statWeightsByJob[8];
-            _statWeightsByJob[14] = _statWeightsByJob[8];
-            _statWeightsByJob[15] = _statWeightsByJob[8];
-        }
+            _jobsByKey[8] = new JobData(GarlandDatabase.LevelCap, new SW[] { new SW("Craftsmanship", .85), new SW("Control", 1), new SW("CP", 1.1) });
+            _jobsByKey[9] = _jobsByKey[8];
+            _jobsByKey[10] = _jobsByKey[8];
+            _jobsByKey[11] = _jobsByKey[8];
+            _jobsByKey[12] = _jobsByKey[8];
+            _jobsByKey[13] = _jobsByKey[8];
+            _jobsByKey[14] = _jobsByKey[8];
+            _jobsByKey[15] = _jobsByKey[8];
 
-        public static void Initialize(Game.BaseParam[] baseParams, Game.Materia[] materia)
-        {
-            foreach (var pair in _statWeightsByJob)
+            // Fill materia info.
+            foreach (var weight in _jobsByKey.Values.SelectMany(j => j.Weights))
             {
-                foreach (var weight in pair.Value)
+                weight.BaseParam = sBaseParams.First(bp => bp.Name == weight.Attribute);
+                var applicableMateria = sMateria.FirstOrDefault(m => m.BaseParam == weight.BaseParam);
+                if (applicableMateria != null)
                 {
-                    weight.BaseParam = baseParams.First(bp => bp.Name == weight.Attribute);
-                    var applicableMateria = materia.FirstOrDefault(m => m.BaseParam == weight.BaseParam);
-                    if (applicableMateria != null)
-                    {
-                        weight.Materia = applicableMateria.Items
-                            .Where(i => !string.IsNullOrEmpty(i.Item.Name))
-                            .OrderBy(i => i.Tier)
-                            .ToArray();
-                    }
+                    weight.Materia = applicableMateria.Items
+                        .Where(i => !string.IsNullOrEmpty(i.Item.Name))
+                        .OrderBy(i => i.Tier)
+                        .ToArray();
                 }
             }
         }
 
         public override void Start()
         {
-            var baseParams = _builder.Sheet<Game.BaseParam>().ToArray();
-            var materia = _builder.Sheet<Game.Materia>().ToArray();
-            Initialize(baseParams, materia);
+            var sBaseParam = _builder.Sheet<Saint.BaseParam>().ToArray();
+            var sMateria = _builder.Sheet<Saint.Materia>().ToArray();
+            Initialize(sBaseParam, sMateria);
 
             var equipment = _builder.ItemsToImport
-                .OfType<Game.Items.Equipment>()
+                .OfType<Saint.Items.Equipment>()
                 // Select only two-handed weapons or equipment that doesn't block anything else.
                 .Where(e => e.EquipSlotCategory.Key == 13 || e.EquipSlotCategory.BlockedSlots.Count() == 0)
                 .Select(e => new { Equipment = e, e.ClassJobCategory.ClassJobs, Item = _builder.Db.ItemsById[e.Key] })
                 .ToArray();
 
-            foreach (var job in _builder.Sheet<Game.ClassJob>())
+            foreach (var sJob in _builder.Sheet<Saint.ClassJob>())
             {
-                if (job.Key == 0 || string.IsNullOrEmpty(job.Name))
+                if (sJob.Key == 0 || string.IsNullOrEmpty(sJob.Name))
                     continue; // Skip adventurer and unreleased jobs.
 
-                var isCombatJob = job.ClassJobCategory.Key != 32 && job.ClassJobCategory.Key != 33; // DoH or DoL
+                var isCombatJob = sJob.ClassJobCategory.Key != 32 && sJob.ClassJobCategory.Key != 33; // DoH or DoL
 
                 var relevantEquipment = equipment;
 
                 // Skip one-handed weapons and shields for blm and whm.
-                if (job.Key == 6 || job.Key == 7 || job.Key == 24 || job.Key == 25)
+                if (sJob.Key == 6 || sJob.Key == 7 || sJob.Key == 24 || sJob.Key == 25)
                 {
                     relevantEquipment = relevantEquipment
                         .Where(e => e.Equipment.EquipSlotCategory.Key != 1 && e.Equipment.EquipSlotCategory.Key != 2)
@@ -221,16 +215,17 @@ namespace Garland.Data.Modules
                 }
 
                 // Generate scores for this equipment for this job.
-                var weights = _statWeightsByJob[job.Key].OrderByDescending(w => w.Value).ToArray();
+                var jobData = _jobsByKey[sJob.Key];
+                var weights = jobData.Weights.OrderByDescending(w => w.Value).ToArray();
                 var scoredJobEquipment = relevantEquipment
-                    .Where(e => e.ClassJobs.Contains(job))
+                    .Where(e => e.ClassJobs.Contains(sJob))
                     .Select(e => new EquipmentJobRank()
                     {
                         Equipment = e.Equipment,
                         Item = e.Item,
                         EquipmentLevel = e.Equipment.EquipmentLevel,
                         Slot = e.Equipment.EquipSlotCategory,
-                        Rank = Rank(e.Equipment, weights, isCombatJob),
+                        Rank = Rank(e.Equipment, jobData, weights, isCombatJob),
                         HasCraftingRecipe = e.Item.craft != null && e.Item.craft[0].stars == null,
                         HasGilVendor = e.Item.vendors != null,
                         HasGcVendor = HasGcVendor(e.Item),
@@ -240,8 +235,8 @@ namespace Garland.Data.Modules
                     .ToArray();
 
                 // Generate!
-                BuildLevelingEquipment(scoredJobEquipment, job);
-                BuildEndGameEquipment(scoredJobEquipment, job, isCombatJob);
+                BuildLevelingEquipment(scoredJobEquipment, jobData, sJob);
+                BuildEndGameEquipment(scoredJobEquipment, jobData, sJob, isCombatJob);
             }
         }
 
@@ -267,9 +262,9 @@ namespace Garland.Data.Modules
             return false;
         }
 
-        EquipmentRank Rank(Game.Items.Equipment equipment, SW[] weights, bool isCombatJob)
+        EquipmentRank Rank(Saint.Items.Equipment equipment, JobData jobData, SW[] weights, bool isCombatJob)
         {
-            if (isCombatJob && equipment.EquipmentLevel == GarlandDatabase.LevelCap)
+            if (isCombatJob && equipment.EquipmentLevel == jobData.MaxLevel)
                 return null; // Optimization: Stat ranks at cap are obsolete for combat jobs.
 
             var rank = new EquipmentRank() { Equipment = equipment };
@@ -313,23 +308,23 @@ namespace Garland.Data.Modules
                     var statRank = ranksByWeight[weight];
 
                     // Check each meld tier.
-                    foreach (var materia in weight.Materia)
+                    foreach (var sMateria in weight.Materia)
                     {
-                        var newValue = Math.Min(statRank.MaxValue, statRank.Value + materia.Value);
+                        var newValue = Math.Min(statRank.MaxValue, statRank.Value + sMateria.Value);
                         var weightedIncrease = (newValue - statRank.Value) * weight.Value;
 
                         // Don't count advanced melds that can't overcome their overmeld penalty.
                         double penalty = 0;
                         if (melds >= equipment.FreeMateriaSlots)
                         {
-                            if (!materia.Item.IsAdvancedMeldingPermitted)
+                            if (!sMateria.Item.IsAdvancedMeldingPermitted)
                                 continue;
 
                             var slot = melds - equipment.FreeMateriaSlots;
-                            if (materia.Tier == 5 && slot > 0)
+                            if (sMateria.Tier == 5 && slot > 0)
                                 continue; // Can't overmeld VI past the first slot.
 
-                            penalty = OvermeldPenalties[slot, materia.Tier];
+                            penalty = OvermeldPenalties[slot, sMateria.Tier];
                             if (weightedIncrease < penalty)
                                 continue;
                         }
@@ -372,16 +367,16 @@ namespace Garland.Data.Modules
             return rank;
         }
 
-        void BuildLevelingEquipment(EquipmentJobRank[] scoredJobEquipment, Game.ClassJob job)
+        void BuildLevelingEquipment(EquipmentJobRank[] scoredJobEquipment, JobData jobData, Saint.ClassJob sJob)
         {
             var levelingJobEquipmentArray = new JArray();
-            _builder.Db.LevelingEquipmentByJob[job.Abbreviation] = levelingJobEquipmentArray;
-            Dictionary<Game.EquipSlotCategory, List<EquipmentJobRank>> previousLevelingItems = null;
+            _builder.Db.LevelingEquipmentByJob[sJob.Abbreviation] = levelingJobEquipmentArray;
+            Dictionary<Saint.EquipSlotCategory, List<EquipmentJobRank>> previousLevelingItems = null;
 
             // Find the best crafted equipment from 1-max that isn't a star recipe.
-            for (var elvl = 1; elvl < GarlandDatabase.LevelCap; elvl++)
+            for (var elvl = 1; elvl < jobData.MaxLevel; elvl++)
             {
-                var currentLevelingItems = new Dictionary<Game.EquipSlotCategory, List<EquipmentJobRank>>();
+                var currentLevelingItems = new Dictionary<Saint.EquipSlotCategory, List<EquipmentJobRank>>();
 
                 var relevantEquipment = scoredJobEquipment
                     .Where(e => e.HasCraftingRecipe || e.HasGcVendor || e.HasGilVendor)
@@ -474,21 +469,21 @@ namespace Garland.Data.Modules
             }
         }
 
-        void BuildEndGameEquipment(EquipmentJobRank[] scoredJobEquipment, Game.ClassJob job, bool isCombatJob)
+        void BuildEndGameEquipment(EquipmentJobRank[] scoredJobEquipment, JobData jobData, Saint.ClassJob sJob, bool isCombatJob)
         {
             // We only want endgame equipment for jobs, not starting classes.
             // Filter out DoW/M classes that don't have a parent.
             // Everything before the Heavensward classless jobs.
-            if (job.Key < 31 && isCombatJob && job.ParentClassJob == job)
+            if (sJob.Key < 31 && isCombatJob && sJob.ParentClassJob == sJob)
                 return;
 
             // EndGame equipment is simply grouped by slot and ordered.
             var endGameJobEquipmentList = new JObject();
-            _builder.Db.EndGameEquipmentByJob[job.Abbreviation] = endGameJobEquipmentList;
+            _builder.Db.EndGameEquipmentByJob[sJob.Abbreviation] = endGameJobEquipmentList;
 
             var endGameEquipmentBySlot = scoredJobEquipment
                 // Go back 10 levels for non-combat jobs, so Lv. 60 shows prior Lv. 50 gear for comparison.
-                .Where(e => e.EquipmentLevel >= GarlandDatabase.LevelCap - (isCombatJob ? 0 : 10))
+                .Where(e => e.EquipmentLevel >= jobData.MaxLevel - (isCombatJob ? 0 : 10))
                 .GroupBy(e => e.Slot);
 
             foreach (var endGameSlot in endGameEquipmentBySlot)
@@ -501,7 +496,7 @@ namespace Garland.Data.Modules
                     orderedResults = endGameSlot.OrderByDescending(e => e.Rank.Score).ToArray();
 
                 // Skip slots that don't have a single piece at cap. (WHM wands and shields)
-                if (orderedResults.Max(e => e.EquipmentLevel) < GarlandDatabase.LevelCap)
+                if (orderedResults.Max(e => e.EquipmentLevel) < jobData.MaxLevel)
                     continue;
 
                 // Add references to top results.
@@ -539,7 +534,7 @@ namespace Garland.Data.Modules
 
     public class EquipmentRank
     {
-        public Game.Items.Equipment Equipment;
+        public Saint.Items.Equipment Equipment;
         public double Score; // Score after melding
         public double BaseScore; // Score before melding, excluding defense.
         public double OvermeldPenalty; // Penalty for overmelds.
@@ -559,10 +554,10 @@ namespace Garland.Data.Modules
 
     public class EquipmentJobRank
     {
-        public Game.Items.Equipment Equipment;
+        public Saint.Items.Equipment Equipment;
         public dynamic Item;
         public int EquipmentLevel;
-        public Game.EquipSlotCategory Slot;
+        public Saint.EquipSlotCategory Slot;
         public bool HasCraftingRecipe;
         public bool HasGcVendor;
         public bool HasGilVendor;
@@ -575,12 +570,24 @@ namespace Garland.Data.Modules
         }
     }
 
+    public class JobData
+    {
+        public SW[] Weights;
+        public int MaxLevel;
+
+        public JobData(int maxLevel, SW[] weights)
+        {
+            MaxLevel = maxLevel;
+            Weights = weights;
+        }
+    }
+
     public class SW
     {
         public string Attribute { get; set; }
         public double Value { get; set; }
-        public Game.BaseParam BaseParam { get; set; }
-        public Game.Materia.ItemValue[] Materia { get; set; }
+        public Saint.BaseParam BaseParam { get; set; }
+        public Saint.Materia.ItemValue[] Materia { get; set; }
         public bool ExcludeFromBaseValue { get; set; }
         public bool IsAdvancedMeldingForbidden { get; private set; }
 
