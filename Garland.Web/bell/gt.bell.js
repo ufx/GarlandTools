@@ -1777,7 +1777,7 @@ gt.timer.fish = function(now, def) {
     this.def = def;
     this.contentTemplate = gt.layout.engine.templates.fishContent;
     this.icon = '../files/icons/item/' + def.icon + '.png';
-    this.typeIcon = '../db/images/FSH.png';
+    this.typeIcon = '../files/icons/job/FSH.png';
     this.tooltip = def.name;
     this.title = def.title;
     this.isTimed = def.during || def.weather;
@@ -1852,11 +1852,11 @@ gt.timer.node = function(now, def) {
 
     if (def.type == 'Mature Tree' || def.type == 'Lush Vegetation') {
         this.requiredClass = 'botanist';
-        this.typeIcon = '../db/images/BTN.png';
+        this.typeIcon = '../files/icons/job/BTN.png';
     }
     else {
         this.requiredClass = 'miner';
-        this.typeIcon = '../db/images/MIN.png';
+        this.typeIcon = '../files/icons/job/MIN.png';
     }
 
     this.timeText = _.map(def.time, function(t) {
