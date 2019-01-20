@@ -144,4 +144,4 @@ gt.leve = {
         step.sourceView = { id: id, type: 'leve', name: 'Leve', sourceName: 'Leve', icon: 'images/Leve.png' };
         step.setCategory(['Leve', 'Other']);
     },
-}
+};
