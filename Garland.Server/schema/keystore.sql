@@ -16,16 +16,6 @@ CREATE VIEW `ListSummary` AS
 select `Id` AS `Id`,`Name` AS `Name`,`Uses` AS `Uses`,`Shared` AS `Shared`,`Hash` AS `Hash`,`IP` AS `IP`,length(`List`) AS `ListLength`
 from `Lists`;
 
--- Accounts
-CREATE TABLE AccountSettings (
-    Id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    LastModified datetime not null,
-    AccountKey char(16) NOT NULL,
-    AppName nvarchar(100) NOT NULL,
-    Settings TEXT NOT NULL,
-    UNIQUE KEY AccountApp (AccountKey, AppName)
-);
-
 -- Search
 CREATE TABLE Search (
     Id varchar(15) not null,
@@ -88,9 +78,10 @@ CREATE TABLE DataJsonTest (
 
 -- Storage
 CREATE TABLE Storage (
-    Id char(10) not null,
-    Value text not null,
+    Account char(10) not null,
+    Id varchar(16) not null,
     IP varchar(100) not null,
     Modified datetime not null,
-    primary key(Id)
+    Value text not null,
+    primary key(Account, Id)
 );

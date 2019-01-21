@@ -5,16 +5,17 @@ require 'common.php';
 gtMain();
 
 function gtRead() {
+    $account = $_POST["account"];
     $id = $_POST["id"];
     $modified = $_POST["modified"];
     
-    $result = gtReadCore($id, $modified);
+    $result = gtReadCore($account, $id, $modified);
     echo json_encode($result);
 }
 
-function gtReadCore($id, $modified) {
+function gtReadCore($account, $id, $modified) {
     $db = gtConnect();
-    $select = gtExecute($db, "SELECT Value, Modified FROM Storage WHERE Id = ? AND Modified > ?", "ss", $id, $modified);
+    $select = gtExecute($db, "SELECT Value, Modified FROM Storage WHERE Account = ? AND Id = ? AND Modified > ?", "sss", $account, $id, $modified);
 
     $value = NULL;
     $newModified = NULL;
@@ -34,16 +35,17 @@ function gtWrite() {
         gtError("Value is too large.");
 
     $modified = date('Y-m-d H:i:s');
-    $id = array_key_exists("id", $_POST) ? $_POST["id"] : gtRandomString(10);
+    $account = $_POST["account"];
+    $id = $_POST["id"];
     $ip = gtIP();
 
-    gtWriteCore($id, $value, $ip, $modified);
-    echo json_encode(array('id' => id, 'modified' => $modified));
+    gtWriteCore($account, $id, $value, $ip, $modified);
+    echo json_encode(array('modified' => $modified));
 }
 
-function gtWriteCore($id, $value, $ip, $modified) {
+function gtWriteCore($account, $id, $value, $ip, $modified) {
     $db = gtConnect();
-    gtExecute($db, "REPLACE INTO Storage VALUES (?, ?, ?, ?)", "ssss", $id, $value, $ip, $modified);
+    gtExecute($db, "REPLACE INTO Storage VALUES (?, ?, ?, ?, ?)", "sssss", $account, $id, $ip, $modified, $value);
 }
 
 function gtMain() {
