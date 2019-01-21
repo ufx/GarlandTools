@@ -118,6 +118,11 @@ function gtSearchSql($db, $text, $lang, $type, $filters, $offset, $exact) {
         $filterCriteria .= " AND SearchItem.Category = $itemCategory";
         $hasItemFilters = true;
     }
+    if (array_key_exists("itemCategories", $filters)) {
+        $itemCategories = gtNumericStringArray($filters["itemCategories"]);
+        $filterCriteria .= " AND SearchItem.Category IN ($itemCategories)";
+        $hasItemFilters = true;
+    }
     if (array_key_exists("jobCategories", $filters)) {
         $jobCategories = gtNumericStringArray($filters["jobCategories"]);
         $filterCriteria .= " AND SearchItem.Jobs IN ($jobCategories)";
