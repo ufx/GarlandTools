@@ -777,6 +777,7 @@ body.unlock-heights .block .content.main,
     margin-left: 8px;
 }
 
+
 #header .menu .menu-ext img,
 #header #toggle-sidebar {
     height: 24px;
@@ -788,9 +789,15 @@ body.unlock-heights .block .content.main,
     margin-bottom: 4px;
 }
 
-#header .menu img:hover,
-#header .menu img.active {
+#header .menu-ext img:hover,
+#header .menu-ext img.active {
     background-color: #454545;
+}
+
+#header .menu h3 img {
+    height: 21px;
+    width: 21px;
+    vertical-align: bottom;
 }
 
 #header .menu-ext > :first-child {
@@ -1516,6 +1523,16 @@ body.unlock-heights .block .content.main,
     text-align: right;
     width: 75px;
     padding-right: 10px;
+}
+
+/* Sync */
+
+#header .drawer .sync-page {
+    padding: 7px;
+}
+
+.sync-page h3 {
+    margin-bottom: 10px;
 }
 
 /* Tab Menus */

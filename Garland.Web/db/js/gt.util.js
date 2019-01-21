@@ -149,6 +149,12 @@ gt.util = {
         return String(string).replace(/[&<>"'`=\/]/g, function (s) {
             return gt.util.htmlEntityMap[s];
         });
+    },
+
+    makeId: function(len) {
+        var keyspace = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        var values = crypto.getRandomValues(new Uint8Array(len));
+        return Array.from(values, function(i) { return keyspace.charAt(i % keyspace.length); }).join('');
     }
 };
 
