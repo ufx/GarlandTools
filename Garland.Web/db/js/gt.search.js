@@ -10,7 +10,7 @@ gt.search = {
 
     initialize: function(data) {
         if (!gt.core.isLive)
-            gt.search.url = 'http://test.garlandtools.org' + gt.search.url;
+            gt.search.url = gt.serverPath + gt.search.url;
 
         gt.search.resultTemplate = doT.template($('#search-result-template').text());
 

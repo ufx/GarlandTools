@@ -1,5 +1,6 @@
 gt.settings = {
     languageFlagsExpanded: false,
+    dirty: false,
 
     defaultSearchFilters:  {
         ilvlMin: 0, ilvlMax: 0,
@@ -11,6 +12,8 @@ gt.settings = {
     },
 
     data: {
+        account: null,
+        syncModified: null,
         search: null,
         filtersOpen: 0,
         globalSearch: { activePage: '_none', 'filters-menu': { activePage: '_none' } },
@@ -57,6 +60,7 @@ gt.settings = {
 
         try {
             localStorage.dbSettings = JSON.stringify(gt.settings.data);
+            gt.settings.dirty = true;
         } catch (ex) {
             // Ignore.  Can be caused by users blocking access to localStorage, and private browsing modes.
         }
@@ -212,6 +216,12 @@ gt.settings = {
             if (checkbox)
                 $(checkbox).prop('checked', 1);
         }
+
+        $('#account-key-setting')
+            .val(data.account)
+            .change(gt.settings.accontKeSettingChanged);
+        
+        $('#sync-now').click(gt.settings.syncNowClicked);
     },
 
     unlockHeightsChanged: function(e) {
@@ -341,6 +351,75 @@ gt.settings = {
         for (var i = 0; i < $matches.length; i++) {
             var $block = $($matches[i]);
             gt.core.redisplay($block);
+        }
+    },
+
+    accountKeySettingChanged: function(e) {
+        var value = $(this).val();
+        gt.settings.save({account: value});
+    },
+
+    syncNowClicked: function(e) {
+        if (!data.account)
+            data.account = gt.util.makeId(10);
+        else if (data.account.length != 10) {
+            gt.display.alertp('Account Key must be 10 characters.');
+            return;
+        }
+
+        gt.settings.sync();
+    },
+
+    sync: function() {
+        var data = gt.settings.data;
+
+        // No syncing unless account key is complete.
+        if (!data.account || data.account.length != 10)
+            return;
+
+        if (gt.settings.dirty) {
+            // Settings are dirty.  Do a write.
+
+            var writeData = {
+                method: 'write',
+                id: 'sync-db',
+                account: data.account,
+                value: localStorage.dbSettings
+            };
+
+            // Clear dirty flag before I/O, in case more work happens
+            // during call.
+            gt.settings.dirty = false;
+            gt.util.post('/api/storage.php', writeData, function(result) {
+                data.syncModified = result.modified;
+
+                try {
+                    localStorage.dbSettings = JSON.stringify(data);
+                    // fixme: start/restart auto sync.
+                } catch (ex) {
+                    console.error('Sync write error.', result);
+                }
+            });
+        } else {
+            // Settings are clean.  Check for updates.
+            var readData = {
+                method: 'read',
+                id: 'sync-db',
+                account: data.account,
+                modified: data.syncModified || '1900-01-01'
+            };
+
+            gt.util.post('/api/storage.php', readData, function(result) {
+                try {
+                    data = JSON.parse(result.value);
+                    data.syncModified = result.modified;
+                    gt.settings.data = data;
+                    localStorage.dbSettings = JSON.stringify(data);
+                    // fixme: start/restart auto sync.
+                } catch (ex) {
+                    console.error('Sync read error.', result);
+                }
+            });
         }
     }
 };

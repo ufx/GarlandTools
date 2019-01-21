@@ -1,5 +1,6 @@
 gt = {
     filePath: '../files/',
+    serverPath: '',
 
     location: {
         index: null
@@ -102,6 +103,9 @@ gt.core = {
 
     initialize: function() {
         try {
+            if (!gt.core.isLive)
+                gt.serverPath = 'http://test.garlandtools.org';
+
             if (window.Raven && gt.core.isLive) {
                 window.Raven.config('https://b4e595358f314806a2bd3063f04fb1d7@sentry.io/172355', {
                     environment: gt.core.isLive ? 'prod' : 'dev'
@@ -446,7 +450,7 @@ gt.core = {
 
     makeFetchUrl: function(module, id) {
         if (!gt.core.isLive && module.version)
-            return 'http://test.garlandtools.org/api/get.php?id=' + id + '&type=' + module.type + '&lang=' + gt.settings.data.lang  + '&version=' + module.version + '&test=1';
+            return gt.serverPath + '/api/get.php?id=' + id + '&type=' + module.type + '&lang=' + gt.settings.data.lang  + '&version=' + module.version + '&test=1';
 
         return 'doc/' + module.type + '/' + gt.settings.data.lang + '/' + module.version + '/' + id + '.json';
     },

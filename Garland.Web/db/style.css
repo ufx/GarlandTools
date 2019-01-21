@@ -794,12 +794,6 @@ body.unlock-heights .block .content.main,
     background-color: #454545;
 }
 
-#header .menu h3 img {
-    height: 21px;
-    width: 21px;
-    vertical-align: bottom;
-}
-
 #header .menu-ext > :first-child {
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
@@ -1531,8 +1525,8 @@ body.unlock-heights .block .content.main,
     padding: 7px;
 }
 
-.sync-page h3 {
-    margin-bottom: 10px;
+#account-key-setting {
+    width: 130px;
 }
 
 /* Tab Menus */

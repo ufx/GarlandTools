@@ -3188,7 +3188,7 @@
             <span class="menu-ext">
                 <img src="images/Help.png" class="button" data-page="about-page" title="About"><img src="images/Setting.png" class="button" data-page="settings-page" title="Settings"><img src="images/Links.png" class="button" data-page="links-page" title="Links"><a href="https://discord.gg/hfzmApj"><img src="images/Discord.svg" class="button" title="Discord"></a>
             </span>
-            <h3 class="button" data-page="sync-page"><img src="images/Rotation.svg"> Sync</h3>
+            <h3 class="button" data-page="sync-page">Sync<span id="sync-status"></span></h3>
             <h3 class="language-flag en" data-lang="en"><span class="deemphasize">English</span> EN</h3>
             <h3 class="language-flag fr" data-lang="fr"><span class="deemphasize">Francais</span> FR</h3>
             <h3 class="language-flag de" data-lang="de"><span class="deemphasize">Deutsch</span> DE</h3>
@@ -3494,6 +3494,20 @@
                         <td colspan="2" class="deemphasize">Automatically sort new materia melds by tier.</td>
                     </tr>
                 </table>
+            </div>
+
+            <div class="content page sync-page short">
+                <h3>Server Sync <span class="right">Last sync time: Never</span></h3>
+                
+                <p>Use this feature to store all lists and settings on the Garland Tools server.
+                    Data is synchronized automatically between devices sharing an <b>Account Key</b>.
+                    Please keep it private.  A new key will be assigned if none is provided.</p>
+
+                <div>
+                    <label for="account-key-setting">Account Key</label>
+                    <input type="text" maxlength="10" id="account-key-setting">
+                    <span class="action-link" id="sync-now">Sync Now</span>
+                </div>
             </div>
         </div>
 
