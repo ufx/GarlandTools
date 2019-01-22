@@ -4741,6 +4741,7 @@ gt.settings = {
             });
         } else {
             // Settings are clean.  Check for updates.
+            
             var readData = {
                 method: 'read',
                 id: 'sync-db',
