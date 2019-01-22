@@ -856,7 +856,9 @@ gt.craft.step.prototype.getSortKey = function() {
         return this.view.name;
 
     if (this.type == 'gathered') {
-        var sort = this.sourceView.region + ' ' + this.sourceView.location;
+        var sort = '';
+        if (this.sourceView)
+            sort = this.sourceView.region + ' ' + this.sourceView.location;
 
         if (this.sourceType == 'node')
             return sort + 'node ' + this.sourceView.zone.name + this.sourceView.lvl + this.sourceView.category;
