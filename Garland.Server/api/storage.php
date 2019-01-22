@@ -23,10 +23,10 @@ function gtReadCore($account, $id, $modified) {
     if ($select->fetch()) {
         $select->close();
         if ($value != NULL)
-            return array('value' => $value, 'modified' => $newModified);
+            return array('status' => 'ok', 'modified' => $newModified, 'value' => $value);
     }
 
-    return NULL;
+    return array('status' => 'not modified');
 }
 
 function gtWrite() {
@@ -56,7 +56,7 @@ function gtMain() {
     else if ($method == "write")
         gtWrite();
     else
-        gtError("Invalid list method.");
+        gtError("Invalid storage method.");
 }
 
 ?>
