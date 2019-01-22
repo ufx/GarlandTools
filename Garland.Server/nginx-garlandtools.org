@@ -48,11 +48,6 @@ server {
 	location ~ \.php$ {
 		include snippets/fastcgi-php.conf;
 		fastcgi_pass unix:/run/php/php7.2-fpm.sock;
-	}
-
-	location = /api/search.php {
-		include snippets/fastcgi-php.conf;
-		fastcgi_pass unix:/run/php/php7.2-fpm.sock;
 
 		add_header 'Access-Control-Allow-Origin' '*';
 		add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';

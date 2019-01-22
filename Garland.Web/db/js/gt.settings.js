@@ -360,6 +360,8 @@ gt.settings = {
     },
 
     syncNowClicked: function(e) {
+        var data = gt.settings.data;
+
         if (!data.account)
             data.account = gt.util.makeId(10);
         else if (data.account.length != 10) {

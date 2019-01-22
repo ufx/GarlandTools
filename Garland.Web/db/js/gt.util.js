@@ -109,7 +109,7 @@ gt.util = {
     },
 
     post: function(url, data, callback) {
-        $.post(url, data, function(result) {
+        $.post(gt.serverPath + url, data, function(result) {
             if (!result)
                 callback(null, "No result.");
             else if (result.error)
@@ -120,7 +120,7 @@ gt.util = {
     },
 
     api: function(data, callback) {
-        gt.util.post(gt.serverPath + "/api.php", data, callback);
+        gt.util.post("/api.php", data, callback);
     },
 
     mapByIndex: function(map, indexes) {
