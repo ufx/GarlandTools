@@ -1529,6 +1529,15 @@ body.unlock-heights .block .content.main,
     width: 130px;
 }
 
+#dirty-indicator {
+    display: none;
+}
+
+body.dirty #dirty-indicator {
+    display: inline-block;
+    margin-left: 2px;
+}
+
 /* Tab Menus */
 
 .midline {

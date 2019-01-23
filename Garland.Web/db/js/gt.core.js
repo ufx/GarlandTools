@@ -223,6 +223,9 @@ gt.core = {
                 $('#search-input').focus();
 
             $('body').addClass('loaded');
+
+            // Start the initial sync in a few seconds.
+            gt.settings.startSync(gt.settings.initialSyncTime);
         } catch (ex) {
             if (!gt.core.retryLoad())
                 gt.core.writeError(ex);

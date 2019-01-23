@@ -223,6 +223,9 @@ gt.core = {
                 $('#search-input').focus();
 
             $('body').addClass('loaded');
+
+            // Start the initial sync in a few seconds.
+            gt.settings.startSync(gt.settings.initialSyncTime);
         } catch (ex) {
             if (!gt.core.retryLoad())
                 gt.core.writeError(ex);
@@ -4338,6 +4341,9 @@ gt.search = {
 gt.settings = {
     languageFlagsExpanded: false,
     dirty: false,
+    syncTime: 1 * 60 * 1000,
+    initialSyncTime: 3 * 1000,
+    syncKey: null,
 
     defaultSearchFilters:  {
         ilvlMin: 0, ilvlMax: 0,
@@ -4391,13 +4397,17 @@ gt.settings = {
         gt.settings.save();
     },
 
-    save: function(changes) {
+    save: function(changes, clean) {
         if (changes)
             gt.settings.data = $.extend(gt.settings.data, changes);
 
         try {
             localStorage.dbSettings = JSON.stringify(gt.settings.data);
-            gt.settings.dirty = true;
+
+            if (!clean) {
+                gt.settings.dirty = true;
+                $('body').addClass('dirty');
+            }
         } catch (ex) {
             // Ignore.  Can be caused by users blocking access to localStorage, and private browsing modes.
         }
@@ -4556,7 +4566,7 @@ gt.settings = {
 
         $('#account-key-setting')
             .val(data.account)
-            .change(gt.settings.accontKeSettingChanged);
+            .change(gt.settings.accountKeySettingChanged);
         
         $('#sync-now').click(gt.settings.syncNowClicked);
     },
@@ -4693,7 +4703,7 @@ gt.settings = {
 
     accountKeySettingChanged: function(e) {
         var value = $(this).val();
-        gt.settings.save({account: value});
+        gt.settings.save({ account: value }, true);
     },
 
     syncNowClicked: function(e) {
@@ -4707,6 +4717,13 @@ gt.settings = {
         }
 
         gt.settings.sync();
+    },
+
+    startSync: function(time) {
+        if (gt.settings.syncKey)
+            clearTimeout(gt.settings.syncKey);
+        
+        gt.settings.syncKey = setTimeout(gt.settings.sync, time);
     },
 
     sync: function() {
@@ -4729,38 +4746,48 @@ gt.settings = {
             // Clear dirty flag before I/O, in case more work happens
             // during call.
             gt.settings.dirty = false;
+            $('body').removeClass('dirty');
             gt.util.post('/api/storage.php', writeData, function(result) {
-                data.syncModified = result.modified;
-
-                try {
-                    localStorage.dbSettings = JSON.stringify(data);
-                    // fixme: start/restart auto sync.
-                } catch (ex) {
-                    console.error('Sync write error.', result);
-                }
+                gt.settings.save({ syncModified: result.modified }, true);
+                gt.settings.startSync(gt.settings.syncTime);
             });
         } else {
             // Settings are clean.  Check for updates.
-            
-            var readData = {
-                method: 'read',
-                id: 'sync-db',
-                account: data.account,
-                modified: data.syncModified || '1900-01-01'
-            };
-
-            gt.util.post('/api/storage.php', readData, function(result) {
-                try {
-                    data = JSON.parse(result.value);
-                    data.syncModified = result.modified;
-                    gt.settings.data = data;
-                    localStorage.dbSettings = JSON.stringify(data);
-                    // fixme: start/restart auto sync.
-                } catch (ex) {
-                    console.error('Sync read error.', result);
-                }
-            });
+            gt.settings.syncRead();
         }
+    },
+
+    syncRead: function() {
+        var data = gt.settings.data;
+
+        var readData = {
+            method: 'read',
+            id: 'sync-db',
+            account: data.account,
+            modified: data.syncModified || '1900-01-01'
+        };
+
+        function onSyncReadResult(result) {
+            var newData = JSON.parse(result.value);
+            newData.syncModified = result.modified;
+            console.log('New sync data received', result.modified);
+
+            gt.settings.data = newData;
+            localStorage.dbSettings = JSON.stringify(newData);
+
+            gt.list.reinitialize();
+        }
+
+        gt.util.post('/api/storage.php', readData, function(result) {
+            try {
+                if (result.status == 'ok')
+                    onSyncReadResult(result);
+
+                gt.settings.startSync(gt.settings.syncTime);
+            } catch (ex) {
+                console.error('Sync read error.', result);
+            }
+        });
     }
 };
 gt.display = {
