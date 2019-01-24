@@ -196,22 +196,6 @@ gt.equip = {
         return view;
     },
 
-    equipmentSelected: function(e) {
-        var $this = $(this);
-        var $block = $this.closest('.block');
-        var data = $block.data('block');
-
-        var id = $this.data('id');
-        if (data.selected == id)
-            delete data.selected;
-        else
-            data.selected = id;
-
-        gt.core.redisplay($block);
-        gt.settings.save();
-        return true;
-    },
-
     lvlChanged: function(e) {
         var $this = $(this);
         var $block = $this.closest('.block');
@@ -221,7 +205,7 @@ gt.equip = {
         data.lvl = Math.min(Math.max(data.lvl, 3), 69)
 
         gt.core.redisplay($block);
-        gt.settings.save();
+        gt.settings.saveDirty();
         return true;
     },
 
@@ -282,7 +266,7 @@ gt.equip = {
 
         data.hideCrafted = !data.hideCrafted;
         gt.core.redisplay($block);
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     toggleGrandCompanyClicked: function(e) {
@@ -291,6 +275,6 @@ gt.equip = {
 
         data.hideGC = !data.hideGC;
         gt.core.redisplay($block);
-        gt.settings.save();
+        gt.settings.saveDirty();
     }
 };

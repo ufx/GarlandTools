@@ -38,7 +38,7 @@ gt.note = {
         gt.note.adjustHeight($block, data.notes);
         gt.list.resized($block);
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     adjustHeight: function($block, notes) {

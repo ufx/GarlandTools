@@ -845,7 +845,7 @@ gt.item = {
         if ($block.is('.active'))
             gt.core.setHash($block);
 
-        gt.settings.save();
+        gt.settings.saveDirty();
 
         return false;
     },

@@ -275,7 +275,7 @@ gt.search = {
         var query = gt.search.createSearchQuery();
 
         if (!isInitializing)
-            gt.settings.save({search: query.name});
+            gt.settings.saveDirty({ search: query.name });
 
         // If the search is functionally identical to the current query, abort.
         // Usually this means the user typed a trailing space.
@@ -391,7 +391,7 @@ gt.search = {
         gt.settings.data.filters = $.extend({}, gt.settings.defaultSearchFilters);
         gt.search.loadFilters(gt.settings.data.filters);
         gt.search.execute(e);
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     filterItemLevelMaxChanged: function(e) {
@@ -440,7 +440,7 @@ gt.search = {
         var filters = gt.settings.data.filters;
         filters.activeSearch = filters.ilvlMin || filters.ilvlMax || filters.craftable || filters.desynthable || filters.rarity || filters.equippable || filters.category;
         gt.search.execute(e);
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     getViewModel: function(searchResult) {
@@ -475,7 +475,7 @@ gt.search = {
             gt.settings.data.filtersOpen = 1;
         }
 
-        gt.settings.save();
+        gt.settings.saveClean();
     },
 
     searchNextClicked: function(e) {

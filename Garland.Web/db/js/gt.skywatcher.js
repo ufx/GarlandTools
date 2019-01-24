@@ -367,7 +367,7 @@ gt.skywatcher = {
             data.favorites.splice(index, 1);
 
         gt.core.redisplay($block);
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     getShortZoneName: function(name) {

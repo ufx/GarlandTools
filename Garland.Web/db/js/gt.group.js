@@ -125,7 +125,7 @@ gt.group = {
         else if (data.craft)
             delete data.craft;
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     getViewModel: function(group, data) {

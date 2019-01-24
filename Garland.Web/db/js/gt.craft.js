@@ -146,7 +146,7 @@ gt.craft = {
         var data = $block.data('block');
         data.craft = view.craftSet.save();
         gt.core.redisplay($block);
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     toggleTreeNodeProgress: function($this, $block, view) {
@@ -201,7 +201,7 @@ gt.craft = {
 
         gt.core.redisplay($block);
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     stepTapped: function(e) {
@@ -245,7 +245,7 @@ gt.craft = {
             view.craftSet.finish(step, newAmount - step.finished);
 
         data.craft = view.craftSet.save();
-        gt.settings.save();
+        gt.settings.saveDirty();
 
         // Change ready state after a delay to give a new focus time.
         setTimeout(function() {

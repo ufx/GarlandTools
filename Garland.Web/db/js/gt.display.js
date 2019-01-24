@@ -46,7 +46,7 @@ gt.display = {
 
         gt.list.layout();
         gt.display.minimap();
-        gt.settings.save();
+        gt.settings.saveClean();
     },
 
     collapseSidebar: function() {
@@ -149,7 +149,7 @@ gt.display = {
         gt.display.menuPageCheck($('> .button, > .menu-ext > .button[data-page]', $menu), $container, activeButton);
 
         gt.list.resized($container);
-        gt.settings.save();
+        gt.settings.saveClean();
     },
 
     menuPageCheck: function($buttons, $container, activeButton) {
@@ -230,7 +230,7 @@ gt.display = {
         gt.list.resized($block);
 
         blockData.headers[headerName] = isVisible ? false : true;
-        gt.settings.save();
+        gt.settings.saveClean();
     },
 
     toggleCollapseState: function($collapsibleArea, isVisible) {
@@ -442,7 +442,7 @@ gt.display = {
 
         gt.settings.data.lists = newLists;
         gt.list.redisplayLists();
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     findBlockAtPoint: function(e) {
@@ -628,7 +628,7 @@ gt.display = {
         else
             delete data.alarms;
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     playTone: function(tone) {

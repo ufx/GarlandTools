@@ -135,7 +135,7 @@ gt.list = {
                     gt.core.setActiveBlock($block);
                     gt.isotope.layout();
                     gt.core.scrollToBlock($block);
-                    gt.settings.save();
+                    gt.settings.saveDirty();
                 }
             } else
                 gt.isotope.arrange();
@@ -261,7 +261,7 @@ gt.list = {
                 blocks.push(block);
         }
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     getOrCreateList: function(name) {
@@ -328,7 +328,7 @@ gt.list = {
         gt.isotope.updateSortData();
         gt.isotope.arrange();
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     shareClicked: function(e) {
@@ -366,7 +366,7 @@ gt.list = {
 
         gt.list.current.splice(0, gt.list.current.length);
         gt.list.reinitialize();
-        gt.settings.save();
+        gt.settings.saveDirty();
         gt.core.setHash(null);
     },
 
@@ -412,7 +412,7 @@ gt.list = {
         data.current = name;
 
         gt.list.redisplayLists();
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     switchToList: function(listName) {
@@ -433,7 +433,7 @@ gt.list = {
         $('#list-header input').val(listName);
 
         gt.list.reinitialize();
-        gt.settings.save();
+        gt.settings.saveClean();
     },
 
     findContainingList: function(query) {
@@ -490,7 +490,7 @@ gt.list = {
 
         blocks.splice(index, 1);
         gt.list.redisplayLists();
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     moveBlockTo: function($block, listName) {
@@ -537,7 +537,7 @@ gt.list = {
                     gt.settings.data.lists[result.name] = newList;
                     gt.settings.data.current = result.name;
                     gt.list.current = newList;
-                    gt.settings.save();
+                    gt.settings.saveDirty();
                 }
                 else
                     gt.display.alertp("The list '" + result.name + "' could not be loaded.");

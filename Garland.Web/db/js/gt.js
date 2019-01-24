@@ -225,7 +225,7 @@ gt.core = {
             $('body').addClass('loaded');
 
             // Start the initial sync in a few seconds.
-            gt.settings.startSync(gt.settings.initialSyncTime);
+            setTimeout(gt.settings.syncRead, gt.settings.initialSyncTime);
         } catch (ex) {
             if (!gt.core.retryLoad())
                 gt.core.writeError(ex);
@@ -677,7 +677,7 @@ gt.core = {
         $block.removeClass('settings-open');
 
         gt.list.layout();
-        gt.settings.save();
+        gt.settings.saveDirty();
 
         return false;
     },
@@ -724,14 +724,7 @@ gt.core = {
         $block.addClass('pinned');
         $('#pinned').prepend($block);
 
-        gt.settings.save();
-    },
-
-    unpin: function($block) {
-        var data = $block.data('block');
-        delete data.pin;
-
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     parseHashQuery: function(parts) {
@@ -932,7 +925,7 @@ gt.core = {
 
             gt.display.minimap();
             gt.core.setHash(null);
-            gt.settings.save();
+            gt.settings.saveDirty();
         });
     }
 };
@@ -2659,7 +2652,7 @@ gt.item = {
         if ($block.is('.active'))
             gt.core.setHash($block);
 
-        gt.settings.save();
+        gt.settings.saveDirty();
 
         return false;
     },
@@ -4123,7 +4116,7 @@ gt.search = {
         var query = gt.search.createSearchQuery();
 
         if (!isInitializing)
-            gt.settings.save({search: query.name});
+            gt.settings.saveDirty({ search: query.name });
 
         // If the search is functionally identical to the current query, abort.
         // Usually this means the user typed a trailing space.
@@ -4239,7 +4232,7 @@ gt.search = {
         gt.settings.data.filters = $.extend({}, gt.settings.defaultSearchFilters);
         gt.search.loadFilters(gt.settings.data.filters);
         gt.search.execute(e);
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     filterItemLevelMaxChanged: function(e) {
@@ -4288,7 +4281,7 @@ gt.search = {
         var filters = gt.settings.data.filters;
         filters.activeSearch = filters.ilvlMin || filters.ilvlMax || filters.craftable || filters.desynthable || filters.rarity || filters.equippable || filters.category;
         gt.search.execute(e);
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     getViewModel: function(searchResult) {
@@ -4323,7 +4316,7 @@ gt.search = {
             gt.settings.data.filtersOpen = 1;
         }
 
-        gt.settings.save();
+        gt.settings.saveClean();
     },
 
     searchNextClicked: function(e) {
@@ -4341,8 +4334,8 @@ gt.search = {
 gt.settings = {
     languageFlagsExpanded: false,
     dirty: false,
-    syncTime: 1 * 60 * 1000,
-    initialSyncTime: 3 * 1000,
+    syncTime: 20 * 1000,
+    initialSyncTime: 2 * 1000,
     syncKey: null,
 
     defaultSearchFilters:  {
@@ -4394,19 +4387,30 @@ gt.settings = {
             gt.settings.data.items[id] = item;
         else
             delete gt.settings.data.items[id];
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
-    save: function(changes, clean) {
+    saveClean: function(changes) {
+        gt.settings.saveCore(changes, false);
+    },
+
+    saveDirty: function(changes) {
+        gt.settings.saveCore(changes, true);
+        console.log('*** Saved dirty change');
+    },
+
+    saveCore: function(changes, markDirty) {
         if (changes)
             gt.settings.data = $.extend(gt.settings.data, changes);
 
         try {
             localStorage.dbSettings = JSON.stringify(gt.settings.data);
 
-            if (!clean) {
+            if (markDirty) {
                 gt.settings.dirty = true;
                 $('body').addClass('dirty');
+
+                // todo: reset timing on the sync callback.
             }
         } catch (ex) {
             // Ignore.  Can be caused by users blocking access to localStorage, and private browsing modes.
@@ -4569,11 +4573,14 @@ gt.settings = {
             .change(gt.settings.accountKeySettingChanged);
         
         $('#sync-now').click(gt.settings.syncNowClicked);
+
+        if (gt.settings.syncTime)
+            $('#last-sync-time').text(data.syncModified);
     },
 
     unlockHeightsChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({unlockHeights: value ? 1 : 0});
+        gt.settings.saveDirty({ unlockHeights: value ? 1 : 0 });
         $('body').toggleClass('unlock-heights', value);
         gt.list.layout();
     },
@@ -4581,42 +4588,42 @@ gt.settings = {
     shorterNamesChanged: function(e) {
         var value = $(this).is(':checked');
         $('body').toggleClass('long-names', !value);
-        gt.settings.save({shorterNames: value ? 1 : 0});
+        gt.settings.saveDirty({ shorterNames: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     craftDepthChanged: function(e) {
         var value = $(this).val();
-        gt.settings.save({craftDepth: parseInt(value)});
+        gt.settings.saveDirty({ craftDepth: parseInt(value) });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     alarmVolumeChanged: function(e) {
         var value = $(this).val();
-        gt.settings.save({alarmVolume: parseInt(value)});
+        gt.settings.saveDirty({ alarmVolume: parseInt(value) });
         gt.display.playAnyTone();
     },
 
     alarmToneChanged: function(e) {
         var value = $(this).val();
-        gt.settings.save({alarmTone: value});
+        gt.settings.saveDirty({ alarmTone: value });
         gt.display.playWarningAlarm();
     },
 
     availableToneChanged: function(e) {
         var value = $(this).val();
-        gt.settings.save({availableTone: value});
+        gt.settings.saveDirty({ availableTone: value });
         gt.display.playAvailableAlarm();
     },
 
     desktopNotificationsChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({notifications: value ? 1 : 0});
+        gt.settings.saveDirty({ notifications: value ? 1 : 0 });
     },
 
     eorzeaTimeInTitleChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({eorzeaTimeInTitle: value ? 1 : 0});
+        gt.settings.saveDirty({ eorzeaTimeInTitle: value ? 1 : 0 });
 
         if (value)
             gt.time.ensureTimeUpdate();
@@ -4626,27 +4633,27 @@ gt.settings = {
 
     disableTouchChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({disableTouch: value ? 1 : 0});
+        gt.settings.saveDirty({ disableTouch: value ? 1 : 0 });
 
         window.location.reload(true);
     },
 
     colorblindChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({colorblind: value ? 1 : 0});
+        gt.settings.saveDirty({ colorblind: value ? 1 : 0 });
 
         $('body').toggleClass('colorblind', value);
     },
 
     sortMeldsChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({sortMelds: value ? 1 : 0});
+        gt.settings.saveDirty({ sortMelds: value ? 1 : 0 });
     },
 
     languageFlagClicked: function(e) {
         if (gt.settings.languageFlagsExpanded) {
             gt.settings.data.lang = $(this).data('lang');
-            gt.settings.save();
+            gt.settings.saveDirty();
             window.location.reload();
         } else
             $('.language-flag').addClass('visible');
@@ -4665,31 +4672,31 @@ gt.settings = {
         else
             craftCategories[category] = 1;
 
-        gt.settings.save();
+        gt.settings.saveDirty();
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     preferMinerVenturesChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({minerVentures: value ? 1 : 0 });
+        gt.settings.saveDirty({ minerVentures: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     preferBotanyVenturesChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({botanyVentures: value ? 1 : 0 });
+        gt.settings.saveDirty({ botanyVentures: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     preferFisherVenturesChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({fisherVentures: value ? 1 : 0 });
+        gt.settings.saveDirty({ fisherVentures: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     preferCombatVenturesChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({combatVentures: value ? 1 : 0 });
+        gt.settings.saveDirty({ combatVentures: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
@@ -4703,7 +4710,7 @@ gt.settings = {
 
     accountKeySettingChanged: function(e) {
         var value = $(this).val();
-        gt.settings.save({ account: value }, true);
+        gt.settings.saveClean({ account: value });
     },
 
     syncNowClicked: function(e) {
@@ -4727,55 +4734,71 @@ gt.settings = {
     },
 
     sync: function() {
-        var data = gt.settings.data;
-
-        // No syncing unless account key is complete.
-        if (!data.account || data.account.length != 10)
-            return;
-
         if (gt.settings.dirty) {
             // Settings are dirty.  Do a write.
-
-            var writeData = {
-                method: 'write',
-                id: 'sync-db',
-                account: data.account,
-                value: localStorage.dbSettings
-            };
-
-            // Clear dirty flag before I/O, in case more work happens
-            // during call.
-            gt.settings.dirty = false;
-            $('body').removeClass('dirty');
-            gt.util.post('/api/storage.php', writeData, function(result) {
-                gt.settings.save({ syncModified: result.modified }, true);
-                gt.settings.startSync(gt.settings.syncTime);
-            });
+            gt.settings.syncWrite();
         } else {
             // Settings are clean.  Check for updates.
             gt.settings.syncRead();
         }
     },
 
+    syncWrite: function() {
+        if (!gt.settings.hasValidAccount())
+            return;
+
+        var writeData = {
+            method: 'write',
+            id: 'sync-db',
+            account: gt.settings.data.account,
+            value: localStorage.dbSettings
+        };
+
+        // Clear dirty flag before I/O, in case more work happens
+        // during call.
+        gt.settings.dirty = false;
+        $('body').removeClass('dirty');
+        gt.util.post('/api/storage.php', writeData, function(result) {
+            gt.settings.saveClean({ syncModified: result.modified });
+            $('#last-sync-time').text(result.modified);
+            gt.settings.startSync(gt.settings.syncTime);
+        });
+    },
+
     syncRead: function() {
-        var data = gt.settings.data;
+        if (!gt.settings.hasValidAccount())
+            return;
 
         var readData = {
             method: 'read',
             id: 'sync-db',
-            account: data.account,
-            modified: data.syncModified || '1900-01-01'
+            account: gt.settings.data.account,
+            modified: gt.settings.data.syncModified || '1900-01-01'
         };
 
         function onSyncReadResult(result) {
+            var oldList = gt.settings.data.current;
+
             var newData = JSON.parse(result.value);
             newData.syncModified = result.modified;
             console.log('New sync data received', result.modified);
+            $('#last-sync-time').text(result.modified);
 
             gt.settings.data = newData;
-            localStorage.dbSettings = JSON.stringify(newData);
 
-            gt.list.reinitialize();
+            // Preserve the last list this device was on.
+            gt.list.current = newData.lists[oldList];
+            if (gt.list.current) {
+                newData.current = oldList;
+                gt.list.reinitialize();
+            }
+            else {
+                // Last list doesn't exist anymore.
+                // Switch to the current list in settings.
+                gt.list.switchToList(newData.current, true);
+            }
+
+            localStorage.dbSettings = JSON.stringify(newData);
         }
 
         gt.util.post('/api/storage.php', readData, function(result) {
@@ -4785,9 +4808,15 @@ gt.settings = {
 
                 gt.settings.startSync(gt.settings.syncTime);
             } catch (ex) {
+                console.error(ex);
                 console.error('Sync read error.', result);
             }
         });
+    },
+
+    hasValidAccount: function() {
+        var data = gt.settings.data;
+        return data.account && data.account.length == 10;
     }
 };
 gt.display = {
@@ -4838,7 +4867,7 @@ gt.display = {
 
         gt.list.layout();
         gt.display.minimap();
-        gt.settings.save();
+        gt.settings.saveClean();
     },
 
     collapseSidebar: function() {
@@ -4941,7 +4970,7 @@ gt.display = {
         gt.display.menuPageCheck($('> .button, > .menu-ext > .button[data-page]', $menu), $container, activeButton);
 
         gt.list.resized($container);
-        gt.settings.save();
+        gt.settings.saveClean();
     },
 
     menuPageCheck: function($buttons, $container, activeButton) {
@@ -5022,7 +5051,7 @@ gt.display = {
         gt.list.resized($block);
 
         blockData.headers[headerName] = isVisible ? false : true;
-        gt.settings.save();
+        gt.settings.saveClean();
     },
 
     toggleCollapseState: function($collapsibleArea, isVisible) {
@@ -5234,7 +5263,7 @@ gt.display = {
 
         gt.settings.data.lists = newLists;
         gt.list.redisplayLists();
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     findBlockAtPoint: function(e) {
@@ -5420,7 +5449,7 @@ gt.display = {
         else
             delete data.alarms;
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     playTone: function(tone) {
@@ -5734,7 +5763,7 @@ gt.list = {
                     gt.core.setActiveBlock($block);
                     gt.isotope.layout();
                     gt.core.scrollToBlock($block);
-                    gt.settings.save();
+                    gt.settings.saveDirty();
                 }
             } else
                 gt.isotope.arrange();
@@ -5860,7 +5889,7 @@ gt.list = {
                 blocks.push(block);
         }
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     getOrCreateList: function(name) {
@@ -5927,7 +5956,7 @@ gt.list = {
         gt.isotope.updateSortData();
         gt.isotope.arrange();
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     shareClicked: function(e) {
@@ -5965,7 +5994,7 @@ gt.list = {
 
         gt.list.current.splice(0, gt.list.current.length);
         gt.list.reinitialize();
-        gt.settings.save();
+        gt.settings.saveDirty();
         gt.core.setHash(null);
     },
 
@@ -6011,10 +6040,10 @@ gt.list = {
         data.current = name;
 
         gt.list.redisplayLists();
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
-    switchToList: function(listName) {
+    switchToList: function(listName, disableSave) {
         $('.active', '#lists').removeClass('active');
 
         var $listItems = $('#lists .list-item');
@@ -6032,7 +6061,9 @@ gt.list = {
         $('#list-header input').val(listName);
 
         gt.list.reinitialize();
-        gt.settings.save();
+
+        if (!disableSave)
+            gt.settings.saveClean();
     },
 
     findContainingList: function(query) {
@@ -6089,7 +6120,7 @@ gt.list = {
 
         blocks.splice(index, 1);
         gt.list.redisplayLists();
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     moveBlockTo: function($block, listName) {
@@ -6136,7 +6167,7 @@ gt.list = {
                     gt.settings.data.lists[result.name] = newList;
                     gt.settings.data.current = result.name;
                     gt.list.current = newList;
-                    gt.settings.save();
+                    gt.settings.saveDirty();
                 }
                 else
                     gt.display.alertp("The list '" + result.name + "' could not be loaded.");
@@ -7102,22 +7133,6 @@ gt.equip = {
         return view;
     },
 
-    equipmentSelected: function(e) {
-        var $this = $(this);
-        var $block = $this.closest('.block');
-        var data = $block.data('block');
-
-        var id = $this.data('id');
-        if (data.selected == id)
-            delete data.selected;
-        else
-            data.selected = id;
-
-        gt.core.redisplay($block);
-        gt.settings.save();
-        return true;
-    },
-
     lvlChanged: function(e) {
         var $this = $(this);
         var $block = $this.closest('.block');
@@ -7127,7 +7142,7 @@ gt.equip = {
         data.lvl = Math.min(Math.max(data.lvl, 3), 69)
 
         gt.core.redisplay($block);
-        gt.settings.save();
+        gt.settings.saveDirty();
         return true;
     },
 
@@ -7188,7 +7203,7 @@ gt.equip = {
 
         data.hideCrafted = !data.hideCrafted;
         gt.core.redisplay($block);
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     toggleGrandCompanyClicked: function(e) {
@@ -7197,7 +7212,7 @@ gt.equip = {
 
         data.hideGC = !data.hideGC;
         gt.core.redisplay($block);
-        gt.settings.save();
+        gt.settings.saveDirty();
     }
 };gt.skywatcher = {
     type: 'skywatcher',
@@ -7568,7 +7583,7 @@ gt.equip = {
             data.favorites.splice(index, 1);
 
         gt.core.redisplay($block);
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     getShortZoneName: function(name) {
@@ -7865,7 +7880,7 @@ gt.craft = {
         var data = $block.data('block');
         data.craft = view.craftSet.save();
         gt.core.redisplay($block);
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     toggleTreeNodeProgress: function($this, $block, view) {
@@ -7920,7 +7935,7 @@ gt.craft = {
 
         gt.core.redisplay($block);
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     stepTapped: function(e) {
@@ -7964,7 +7979,7 @@ gt.craft = {
             view.craftSet.finish(step, newAmount - step.finished);
 
         data.craft = view.craftSet.save();
-        gt.settings.save();
+        gt.settings.saveDirty();
 
         // Change ready state after a delay to give a new focus time.
         setTimeout(function() {
@@ -8762,7 +8777,7 @@ gt.group = {
         else if (data.craft)
             delete data.craft;
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     getViewModel: function(group, data) {
@@ -9470,7 +9485,7 @@ gt.note = {
         gt.note.adjustHeight($block, data.notes);
         gt.list.resized($block);
 
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     adjustHeight: function($block, notes) {

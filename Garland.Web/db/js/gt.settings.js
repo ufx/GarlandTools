@@ -1,8 +1,8 @@
 gt.settings = {
     languageFlagsExpanded: false,
     dirty: false,
-    syncTime: 1 * 60 * 1000,
-    initialSyncTime: 3 * 1000,
+    syncTime: 20 * 1000,
+    initialSyncTime: 2 * 1000,
     syncKey: null,
 
     defaultSearchFilters:  {
@@ -54,19 +54,29 @@ gt.settings = {
             gt.settings.data.items[id] = item;
         else
             delete gt.settings.data.items[id];
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
-    save: function(changes, clean) {
+    saveClean: function(changes) {
+        gt.settings.saveCore(changes, false);
+    },
+
+    saveDirty: function(changes) {
+        gt.settings.saveCore(changes, true);
+    },
+
+    saveCore: function(changes, markDirty) {
         if (changes)
             gt.settings.data = $.extend(gt.settings.data, changes);
 
         try {
             localStorage.dbSettings = JSON.stringify(gt.settings.data);
 
-            if (!clean) {
+            if (markDirty) {
                 gt.settings.dirty = true;
                 $('body').addClass('dirty');
+
+                // todo: reset timing on the sync callback.
             }
         } catch (ex) {
             // Ignore.  Can be caused by users blocking access to localStorage, and private browsing modes.
@@ -229,11 +239,14 @@ gt.settings = {
             .change(gt.settings.accountKeySettingChanged);
         
         $('#sync-now').click(gt.settings.syncNowClicked);
+
+        if (gt.settings.syncTime)
+            $('#last-sync-time').text(data.syncModified);
     },
 
     unlockHeightsChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({unlockHeights: value ? 1 : 0});
+        gt.settings.saveDirty({ unlockHeights: value ? 1 : 0 });
         $('body').toggleClass('unlock-heights', value);
         gt.list.layout();
     },
@@ -241,42 +254,42 @@ gt.settings = {
     shorterNamesChanged: function(e) {
         var value = $(this).is(':checked');
         $('body').toggleClass('long-names', !value);
-        gt.settings.save({shorterNames: value ? 1 : 0});
+        gt.settings.saveDirty({ shorterNames: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     craftDepthChanged: function(e) {
         var value = $(this).val();
-        gt.settings.save({craftDepth: parseInt(value)});
+        gt.settings.saveDirty({ craftDepth: parseInt(value) });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     alarmVolumeChanged: function(e) {
         var value = $(this).val();
-        gt.settings.save({alarmVolume: parseInt(value)});
+        gt.settings.saveDirty({ alarmVolume: parseInt(value) });
         gt.display.playAnyTone();
     },
 
     alarmToneChanged: function(e) {
         var value = $(this).val();
-        gt.settings.save({alarmTone: value});
+        gt.settings.saveDirty({ alarmTone: value });
         gt.display.playWarningAlarm();
     },
 
     availableToneChanged: function(e) {
         var value = $(this).val();
-        gt.settings.save({availableTone: value});
+        gt.settings.saveDirty({ availableTone: value });
         gt.display.playAvailableAlarm();
     },
 
     desktopNotificationsChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({notifications: value ? 1 : 0});
+        gt.settings.saveDirty({ notifications: value ? 1 : 0 });
     },
 
     eorzeaTimeInTitleChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({eorzeaTimeInTitle: value ? 1 : 0});
+        gt.settings.saveDirty({ eorzeaTimeInTitle: value ? 1 : 0 });
 
         if (value)
             gt.time.ensureTimeUpdate();
@@ -286,27 +299,27 @@ gt.settings = {
 
     disableTouchChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({disableTouch: value ? 1 : 0});
+        gt.settings.saveDirty({ disableTouch: value ? 1 : 0 });
 
         window.location.reload(true);
     },
 
     colorblindChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({colorblind: value ? 1 : 0});
+        gt.settings.saveDirty({ colorblind: value ? 1 : 0 });
 
         $('body').toggleClass('colorblind', value);
     },
 
     sortMeldsChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({sortMelds: value ? 1 : 0});
+        gt.settings.saveDirty({ sortMelds: value ? 1 : 0 });
     },
 
     languageFlagClicked: function(e) {
         if (gt.settings.languageFlagsExpanded) {
             gt.settings.data.lang = $(this).data('lang');
-            gt.settings.save();
+            gt.settings.saveDirty();
             window.location.reload();
         } else
             $('.language-flag').addClass('visible');
@@ -325,31 +338,31 @@ gt.settings = {
         else
             craftCategories[category] = 1;
 
-        gt.settings.save();
+        gt.settings.saveDirty();
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     preferMinerVenturesChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({minerVentures: value ? 1 : 0 });
+        gt.settings.saveDirty({ minerVentures: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     preferBotanyVenturesChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({botanyVentures: value ? 1 : 0 });
+        gt.settings.saveDirty({ botanyVentures: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     preferFisherVenturesChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({fisherVentures: value ? 1 : 0 });
+        gt.settings.saveDirty({ fisherVentures: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
     preferCombatVenturesChanged: function(e) {
         var value = $(this).is(':checked');
-        gt.settings.save({combatVentures: value ? 1 : 0 });
+        gt.settings.saveDirty({ combatVentures: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
@@ -363,7 +376,7 @@ gt.settings = {
 
     accountKeySettingChanged: function(e) {
         var value = $(this).val();
-        gt.settings.save({ account: value }, true);
+        gt.settings.saveClean({ account: value });
     },
 
     syncNowClicked: function(e) {
@@ -387,55 +400,71 @@ gt.settings = {
     },
 
     sync: function() {
-        var data = gt.settings.data;
-
-        // No syncing unless account key is complete.
-        if (!data.account || data.account.length != 10)
-            return;
-
         if (gt.settings.dirty) {
             // Settings are dirty.  Do a write.
-
-            var writeData = {
-                method: 'write',
-                id: 'sync-db',
-                account: data.account,
-                value: localStorage.dbSettings
-            };
-
-            // Clear dirty flag before I/O, in case more work happens
-            // during call.
-            gt.settings.dirty = false;
-            $('body').removeClass('dirty');
-            gt.util.post('/api/storage.php', writeData, function(result) {
-                gt.settings.save({ syncModified: result.modified }, true);
-                gt.settings.startSync(gt.settings.syncTime);
-            });
+            gt.settings.syncWrite();
         } else {
             // Settings are clean.  Check for updates.
             gt.settings.syncRead();
         }
     },
 
+    syncWrite: function() {
+        if (!gt.settings.hasValidAccount())
+            return;
+
+        var writeData = {
+            method: 'write',
+            id: 'sync-db',
+            account: gt.settings.data.account,
+            value: localStorage.dbSettings
+        };
+
+        // Clear dirty flag before I/O, in case more work happens
+        // during call.
+        gt.settings.dirty = false;
+        $('body').removeClass('dirty');
+        gt.util.post('/api/storage.php', writeData, function(result) {
+            gt.settings.saveClean({ syncModified: result.modified });
+            $('#last-sync-time').text(result.modified);
+            gt.settings.startSync(gt.settings.syncTime);
+        });
+    },
+
     syncRead: function() {
-        var data = gt.settings.data;
+        if (!gt.settings.hasValidAccount())
+            return;
 
         var readData = {
             method: 'read',
             id: 'sync-db',
-            account: data.account,
-            modified: data.syncModified || '1900-01-01'
+            account: gt.settings.data.account,
+            modified: gt.settings.data.syncModified || '1900-01-01'
         };
 
         function onSyncReadResult(result) {
+            var oldList = gt.settings.data.current;
+
             var newData = JSON.parse(result.value);
             newData.syncModified = result.modified;
             console.log('New sync data received', result.modified);
+            $('#last-sync-time').text(result.modified);
 
             gt.settings.data = newData;
-            localStorage.dbSettings = JSON.stringify(newData);
 
-            gt.list.reinitialize();
+            // Preserve the last list this device was on.
+            gt.list.current = newData.lists[oldList];
+            if (gt.list.current) {
+                newData.current = oldList;
+                gt.list.reinitialize();
+            }
+            else {
+                // Last list doesn't exist anymore.
+                // Switch to the current list in settings.
+                gt.list.switchToList(newData.current);
+            }
+
+            localStorage.dbSettings = JSON.stringify(newData);
         }
 
         gt.util.post('/api/storage.php', readData, function(result) {
@@ -445,8 +474,14 @@ gt.settings = {
 
                 gt.settings.startSync(gt.settings.syncTime);
             } catch (ex) {
+                console.error(ex);
                 console.error('Sync read error.', result);
             }
         });
+    },
+
+    hasValidAccount: function() {
+        var data = gt.settings.data;
+        return data.account && data.account.length == 10;
     }
 };

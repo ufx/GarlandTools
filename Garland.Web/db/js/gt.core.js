@@ -225,7 +225,7 @@ gt.core = {
             $('body').addClass('loaded');
 
             // Start the initial sync in a few seconds.
-            gt.settings.startSync(gt.settings.initialSyncTime);
+            setTimeout(gt.settings.syncRead, gt.settings.initialSyncTime);
         } catch (ex) {
             if (!gt.core.retryLoad())
                 gt.core.writeError(ex);
@@ -677,7 +677,7 @@ gt.core = {
         $block.removeClass('settings-open');
 
         gt.list.layout();
-        gt.settings.save();
+        gt.settings.saveDirty();
 
         return false;
     },
@@ -724,14 +724,7 @@ gt.core = {
         $block.addClass('pinned');
         $('#pinned').prepend($block);
 
-        gt.settings.save();
-    },
-
-    unpin: function($block) {
-        var data = $block.data('block');
-        delete data.pin;
-
-        gt.settings.save();
+        gt.settings.saveDirty();
     },
 
     parseHashQuery: function(parts) {
@@ -932,7 +925,7 @@ gt.core = {
 
             gt.display.minimap();
             gt.core.setHash(null);
-            gt.settings.save();
+            gt.settings.saveDirty();
         });
     }
 };
