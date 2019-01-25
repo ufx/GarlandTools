@@ -225,7 +225,8 @@ gt.core = {
             $('body').addClass('loaded');
 
             // Start the initial sync in a few seconds.
-            setTimeout(gt.settings.syncRead, gt.settings.initialSyncTime);
+            if (gt.settings.data.syncEnabled)
+                setTimeout(gt.settings.syncRead, gt.settings.initialSyncTime);
         } catch (ex) {
             if (!gt.core.retryLoad())
                 gt.core.writeError(ex);

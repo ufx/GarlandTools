@@ -2,7 +2,8 @@ gt.settings = {
     languageFlagsExpanded: false,
     dirty: false,
     syncTime: 20 * 1000,
-    initialSyncTime: 2 * 1000,
+    initialSyncTime: 1 * 1000,
+    syncDirtyTime: 20 * 1000,
     syncKey: null,
 
     defaultSearchFilters:  {
@@ -17,6 +18,7 @@ gt.settings = {
     data: {
         account: null,
         syncModified: null,
+        syncEnabled: 0,
         search: null,
         filtersOpen: 0,
         globalSearch: { activePage: '_none', 'filters-menu': { activePage: '_none' } },
@@ -63,6 +65,7 @@ gt.settings = {
 
     saveDirty: function(changes) {
         gt.settings.saveCore(changes, true);
+        console.log('*** Saved dirty change');
     },
 
     saveCore: function(changes, markDirty) {
@@ -76,7 +79,7 @@ gt.settings = {
                 gt.settings.dirty = true;
                 $('body').addClass('dirty');
 
-                // todo: reset timing on the sync callback.
+                gt.settings.startSync(gt.settings.syncDirtyTime);
             }
         } catch (ex) {
             // Ignore.  Can be caused by users blocking access to localStorage, and private browsing modes.
@@ -234,12 +237,14 @@ gt.settings = {
                 $(checkbox).prop('checked', 1);
         }
 
-        $('#account-key-setting')
+        $('#account-key')
             .val(data.account)
-            .change(gt.settings.accountKeySettingChanged);
-        
-        $('#sync-now').click(gt.settings.syncNowClicked);
+            .change(gt.settings.accountKeyChanged);
 
+        $('#sync-enabled')
+            .prop('checked', data.syncEnabled)
+            .change(gt.settings.syncEnabledChanged);
+        
         if (gt.settings.syncTime)
             $('#last-sync-time').text(data.syncModified);
     },
@@ -374,22 +379,32 @@ gt.settings = {
         }
     },
 
-    accountKeySettingChanged: function(e) {
+    accountKeyChanged: function(e) {
         var value = $(this).val();
         gt.settings.saveClean({ account: value });
     },
 
-    syncNowClicked: function(e) {
-        var data = gt.settings.data;
+    syncEnabledChanged: function(e) {
+        var value = $(this).is(':checked');
+        gt.settings.saveClean({ syncEnabled: value ? 1 : 0 });
 
-        if (!data.account)
-            data.account = gt.util.makeId(10);
-        else if (data.account.length != 10) {
-            gt.display.alertp('Account Key must be 10 characters.');
-            return;
+        if (value) {
+            // Create an account key.
+            if (!gt.settings.data.account) {
+                gt.settings.saveDirty({ account: gt.util.makeId(10) });
+                $('#account-key').val(gt.settings.data.account);
+            } else if (data.account.length != 10) {
+                gt.display.alertp('Account Key must be 10 characters or blank.');
+                return;
+            }
+
+            // Start syncing.
+            gt.settings.startSync(gt.settings.initialSyncTime);
+        } else {
+            // Stop syncing.
+            if (gt.settings.syncKey)
+                clearTimeout(gt.settings.syncKey);
         }
-
-        gt.settings.sync();
     },
 
     startSync: function(time) {
@@ -400,13 +415,10 @@ gt.settings = {
     },
 
     sync: function() {
-        if (gt.settings.dirty) {
-            // Settings are dirty.  Do a write.
+        if (gt.settings.dirty)
             gt.settings.syncWrite();
-        } else {
-            // Settings are clean.  Check for updates.
+        else
             gt.settings.syncRead();
-        }
     },
 
     syncWrite: function() {

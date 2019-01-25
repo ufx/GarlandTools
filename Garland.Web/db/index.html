@@ -3502,11 +3502,14 @@
                 <p>Use this feature to store all lists and settings on the Garland Tools server.
                     Data is synchronized automatically between devices sharing an <b>Account Key</b>.
                     Please keep it private.  A new key will be assigned if none is provided.</p>
+                <p><b>Warning</b>: Enabling sync on an existing account key will overwrite your
+                    lists with those on the server.  Use at your own risk!</p>
 
                 <div>
-                    <label for="account-key-setting">Account Key</label>
-                    <input type="text" maxlength="10" id="account-key-setting">
-                    <span class="action-link" id="sync-now">Sync Now</span>
+                    <input type="checkbox" id="sync-enabled">
+                    <label for="sync-enabled">Sync</label>
+                    <input type="text" maxlength="10" id="account-key">
+                    <label for="account-key">Account Key</label>
                 </div>
             </div>
         </div>
