@@ -1398,14 +1398,25 @@
                         </div>
                     {{?}}
 
-                    {{?it.reducedFrom}}
+                    {{?it.reducedFrom || it.reducesTo}}
                         <div class="reducedFrom subsection collapsible collapsed" data-headername="reduction">
                             <img src="images/Reduce.png" class="subsection-icon">
-                            <h2 class="pointer">Aetherial Reduction <span class="right badge">{{=it.reducedFrom.length}}</span></h2>
+                            <h2 class="pointer">Aetherial Reduction <span class="right badge">{{=it.reduceTotal}}</span></h2>
 
-                            <div class="collapse-toggle line">Purity 5+</div>
                             {{~it.reducedFrom :value:index}}
-                                {{=gt.item.halfLinkTemplate(value)}}
+                                <div class="block-link line pointer hover-highlight collapse-toggle" data-id="{{=value.id}}" data-type="item">
+                                    <img src="{{=value.icon}}" class="icon small">
+                                    <span class="highlight">{{=value.name}}</span>
+                                    <span class="right">Reduced From</span>
+                                </div>
+                            {{~}}
+
+                            {{~it.reducesTo :value:index}}
+                                <div class="block-link line pointer hover-highlight collapse-toggle" data-id="{{=value.id}}" data-type="item">
+                                    <img src="{{=value.icon}}" class="icon small">
+                                    <span class="highlight">{{=value.name}}</span>
+                                    <span class="right">Reduces To</span>
+                                </div>
                             {{~}}
                         </div>
                     {{?}}
@@ -3497,7 +3508,7 @@
             </div>
 
             <div class="content page sync-page short">
-                <h3>Server Sync <span class="right">Last sync time: <span id="last-sync-time">Never</span></span></h3>
+                <h3>Server Sync <span class="right">Last sync: <span id="last-sync-time">Never</span></span></h3>
                 
                 <p>Use this feature to store all lists and settings on the Garland Tools server.
                     Data is synchronized automatically between devices sharing an <b>Account Key</b>.

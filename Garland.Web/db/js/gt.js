@@ -2130,8 +2130,17 @@ gt.item = {
             view.loot = gt.model.partialList(gt.item, item.loot);
 
         // Aetherial Reduction
-        if (item.reducedFrom)
+        view.reduceTotal = 0;
+
+        if (item.reducedFrom) {
             view.reducedFrom = gt.model.partialList(gt.item, item.reducedFrom);
+            view.reduceTotal += view.reducedFrom.length;
+        }
+
+        if (item.reducesTo) {
+            view.reducesTo = gt.model.partialList(gt.item, item.reducesTo);
+            view.reduceTotal += view.reducesTo.length;
+        }
 
         // Other Sources
         if (item.bingoReward)
@@ -2355,7 +2364,7 @@ gt.item = {
             || view.unlocks || view.usedInQuest || view.ingredient_of || view.loot
             || view.masterpiece || view.supply || view.delivery || view.bingoData || view.other
             || view.satisfaction || view.customize || view.reducedFrom || view.disposal || view.tripletriadReward
-            || view.sell_price || view.supplyReward || (!view.unlistable && !view.untradeable));
+            || view.sell_price || view.supplyReward || (!view.unlistable && !view.untradeable) || view.reducesTo);
 
         return view;
     },
