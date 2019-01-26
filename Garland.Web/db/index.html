@@ -3188,7 +3188,7 @@
             <span class="menu-ext">
                 <img src="images/Help.png" class="button" data-page="about-page" title="About"><img src="images/Setting.png" class="button" data-page="settings-page" title="Settings"><img src="images/Links.png" class="button" data-page="links-page" title="Links"><a href="https://discord.gg/hfzmApj"><img src="images/Discord.svg" class="button" title="Discord"></a>
             </span>
-            <!-- <h3 class="button" data-page="sync-page">Sync<span id="sync-status"></span></h3> -->
+            <h3 class="button" data-page="sync-page">Sync<span id="dirty-indicator"> 💾</span></h3>
             <h3 class="language-flag en" data-lang="en"><span class="deemphasize">English</span> EN</h3>
             <h3 class="language-flag fr" data-lang="fr"><span class="deemphasize">Francais</span> FR</h3>
             <h3 class="language-flag de" data-lang="de"><span class="deemphasize">Deutsch</span> DE</h3>
@@ -3502,14 +3502,21 @@
                 <p>Use this feature to store all lists and settings on the Garland Tools server.
                     Data is synchronized automatically between devices sharing an <b>Account Key</b>.
                     Please keep it private.  A new key will be assigned if none is provided.</p>
-                <p><b>Warning</b>: Enabling sync on an existing account key will overwrite your
-                    lists with those on the server.  Use at your own risk!</p>
+                <p><b>Upload and Sync</b> will send data on this device to the server.
+                    Any other devices synced with this account key will have their data erased
+                    and replaced with the data on this device.</p>
+                <p><b>Download and Sync</b> will erase everything on this device and replace
+                    it with the data synced with this account key on the server.</p>
+                <p><b>Stop Sync</b> will halt syncing.  All data will stay on the server
+                    indefinitely, to be downloaded again at any time.</p>
+                <p>Use at your own risk!  Your data can not be retrieved once erased!</p>
 
                 <div>
-                    <input type="checkbox" id="sync-enabled">
-                    <label for="sync-enabled">Sync</label>
-                    <input type="text" maxlength="10" id="account-key">
                     <label for="account-key">Account Key</label>
+                    <input type="text" maxlength="10" id="account-key">
+                    <input type="button" id="upload-sync" value="💻 Upload and Sync">
+                    <input type="button" id="download-sync" value="☁️ Download and Sync">
+                    <input type="button" id="stop-sync" value="🚫 Stop Sync">
                 </div>
             </div>
         </div>

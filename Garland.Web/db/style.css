@@ -1538,6 +1538,17 @@ body.dirty #dirty-indicator {
     margin-left: 2px;
 }
 
+
+#header .drawer .sync-page.enabled #upload-sync,
+#header .drawer .sync-page.enabled #download-sync,
+#header .drawer .sync-page #stop-sync {
+    display: none;
+}
+
+#header .drawer .sync-page.enabled #stop-sync {
+    display: inline-block;
+}
+
 /* Tab Menus */
 
 .midline {

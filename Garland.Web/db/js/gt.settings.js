@@ -1,7 +1,7 @@
 gt.settings = {
     languageFlagsExpanded: false,
     dirty: false,
-    syncTime: 20 * 1000,
+    syncTime: 120 * 1000,
     initialSyncTime: 1 * 1000,
     syncDirtyTime: 20 * 1000,
     syncKey: null,
@@ -75,7 +75,7 @@ gt.settings = {
         try {
             localStorage.dbSettings = JSON.stringify(gt.settings.data);
 
-            if (markDirty) {
+            if (markDirty && gt.settings.data.syncEnabled) {
                 gt.settings.dirty = true;
                 $('body').addClass('dirty');
 
@@ -241,12 +241,13 @@ gt.settings = {
             .val(data.account)
             .change(gt.settings.accountKeyChanged);
 
-        $('#sync-enabled')
-            .prop('checked', data.syncEnabled)
-            .change(gt.settings.syncEnabledChanged);
-        
         if (gt.settings.syncTime)
             $('#last-sync-time').text(data.syncModified);
+
+        $('.sync-page').toggleClass('enabled', data.syncEnabled ? true : false);
+        $('#upload-sync').click(gt.settings.uploadSyncClicked);
+        $('#download-sync').click(gt.settings.downloadSyncClicked);
+        $('#stop-sync').click(gt.settings.stopSyncClicked);
     },
 
     unlockHeightsChanged: function(e) {
@@ -384,27 +385,37 @@ gt.settings = {
         gt.settings.saveClean({ account: value });
     },
 
-    syncEnabledChanged: function(e) {
-        var value = $(this).is(':checked');
-        gt.settings.saveClean({ syncEnabled: value ? 1 : 0 });
+    downloadSyncClicked: function(e) {
+        $('.sync-page').addClass('enabled');
+        gt.settings.saveClean({ syncEnabled: 1 });
+        gt.settings.dirty = false;
+        gt.settings.syncRead();
+    },
 
-        if (value) {
+    uploadSyncClicked: function(e) {
+        if (!gt.settings.data.account) {
             // Create an account key.
-            if (!gt.settings.data.account) {
-                gt.settings.saveDirty({ account: gt.util.makeId(10) });
-                $('#account-key').val(gt.settings.data.account);
-            } else if (data.account.length != 10) {
-                gt.display.alertp('Account Key must be 10 characters or blank.');
-                return;
-            }
-
-            // Start syncing.
-            gt.settings.startSync(gt.settings.initialSyncTime);
-        } else {
-            // Stop syncing.
-            if (gt.settings.syncKey)
-                clearTimeout(gt.settings.syncKey);
+            gt.settings.saveClean({ account: gt.util.makeId(10) });
+            $('#account-key').val(gt.settings.data.account);
+        } else if (gt.settings.data.account.length != 10) {
+            gt.display.alertp('Account Key must be 10 characters or blank.');
+            return;
         }
+        
+        $('.sync-page').addClass('enabled');
+        gt.settings.saveClean({ syncEnabled: 1 });
+        gt.settings.dirty = true;
+        gt.settings.syncWrite();
+    },
+
+    stopSyncClicked: function(e) {
+        if (gt.settings.syncKey) {
+            clearTimeout(gt.settings.syncKey);
+            gt.settings.syncKey = null;
+        }
+
+        gt.settings.saveClean({ syncEnabled: 0 });
+        $('.sync-page').removeClass('enabled');
     },
 
     startSync: function(time) {
