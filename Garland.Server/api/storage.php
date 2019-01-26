@@ -40,7 +40,7 @@ function gtWrite() {
     $ip = gtIP();
 
     gtWriteCore($account, $id, $value, $ip, $modified);
-    echo json_encode(array('modified' => $modified));
+    echo json_encode(array('status' => 'ok', 'modified' => $modified));
 }
 
 function gtWriteCore($account, $id, $value, $ip, $modified) {

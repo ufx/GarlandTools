@@ -4781,7 +4781,12 @@ gt.settings = {
         // during call.
         gt.settings.dirty = false;
         $('body').removeClass('dirty');
-        gt.util.post('/api/storage.php', writeData, function(result) {
+        gt.util.post('/api/storage.php', writeData, function(result, error) {
+            if (error) {
+                gt.display.alertp("Sync write failed: " + error);
+                return;
+            }
+
             gt.settings.saveClean({ syncModified: result.modified });
             $('#last-sync-time').text(result.modified);
             gt.settings.startSync(gt.settings.syncTime);

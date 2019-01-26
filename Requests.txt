@@ -34,8 +34,6 @@ Yeah looks like it might be sorted by the SortKeys of their ItemUICategory > Req
 * Remove craftCategories checks in gt.craft
 * Remove type= and category= stuff in gt.craft step ctor.
 
-* Clean out version 2 core, item, leve.
-
 * Remove it.groupTradeSource.item check from vendor-item-link-template in db/index.html
 
 * Switch gt.craft gt.item.setBlockExpansion in bindEvents.  1/10.
