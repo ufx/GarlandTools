@@ -210,22 +210,6 @@
                     </div>
                 {{~}}
             </div>
-        {{??it.list == 'icon-group'}}
-            <div class="menu icon-group" data-menu-name="{{=it.menu}}">
-                {{~it.entries :g:gi}}
-                    <div class="button depth{{=g.depth}} icon-group" data-page="{{=g.menu}}" title="{{=g.header}} {{=g.count}}">
-                        <img src="images/{{=g.header}}.png" class="icon size32">
-                    </div>
-                {{~}}
-            </div>
-            <div>
-                {{~it.entries :g:gi}}
-                    <div class="category page search-list-page {{=g.menu}}">
-                        <div class="header depth{{=g.depth}}">{{=g.header}}</div>
-                        {{=gt.browse.groupTemplate(g)}}
-                    </div>
-                {{~}}
-            </div>
         {{?}}
     </script>
 

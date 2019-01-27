@@ -40,8 +40,6 @@ Yeah looks like it might be sorted by the SortKeys of their ItemUICategory > Req
 
 * Switch gt.craft gt.item.setBlockExpansion in bindEvents.  1/10.
 
-* Remove icon-group browse list type (replaced by icon-list).  1/20
-
 * Remove gt.data.tables.js 1/30
 
 ------------------------------------
