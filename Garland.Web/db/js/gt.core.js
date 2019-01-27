@@ -1,6 +1,7 @@
 gt = {
     filePath: '../files/',
     serverPath: '',
+    grandCompanies: { "1": "Maelstrom", "2": "Twin Adders", "3": "Immortal Flames" },
 
     location: {
         index: null
@@ -11,7 +12,7 @@ gt = {
             return "??";
 
         return p == parseInt(p) ? p.toFixed(1) : p;
-    },
+    }
 };
 
 gt.model = {

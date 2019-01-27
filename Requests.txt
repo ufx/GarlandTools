@@ -28,6 +28,8 @@ Yeah looks like it might be sorted by the SortKeys of their ItemUICategory > Req
 
 * Leve XP and repeat data in leve partials for Miu?
 
+* Show names from other languages directly on their source blocks without the need for switching languages.
+
 ------------------------------------
     CLEANUP
 
@@ -38,8 +40,9 @@ Yeah looks like it might be sorted by the SortKeys of their ItemUICategory > Req
 
 * Switch gt.craft gt.item.setBlockExpansion in bindEvents.  1/10.
 
-* Clean obsolete classjobs from special list icon init in gt.data.tables.js.  1/19
 * Remove icon-group browse list type (replaced by icon-list).  1/20
+
+* Remove gt.data.tables.js 1/30
 
 ------------------------------------
     SEARCH

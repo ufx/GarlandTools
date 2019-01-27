@@ -4,7 +4,37 @@ gt.list = {
     listItemTemplate: null,
     listHeaderTemplate: null,
     current: null,
-    specialIcons: null,
+    specialIcons: {
+        DOL: 'DOL', GATHER: 'DOL', GATHERING: 'DOL', GATHERER: 'DOL',
+        DOH: 'DOH', CRAFT: 'DOH', CRAFTING: 'DOH', CRAFTER: 'DOH',
+    
+        SCRIP: '../files/icons/item/11091.png', SCRIPS: '../files/icons/item/11091.png',
+        'RED SCRIP': '../files/icons/item/7553.png', 'RED SCRIPS': '../files/icons/item/7553.png',
+        'YELLOW SCRIP': '../files/icons/item/11091.png',
+    
+        EUREKA: '../files/icons/item/12032.png', RELIC: '../files/icons/item/12032.png',
+    
+        GLAMOUR: '../files/icons/item/11717.png', GLAM: '../files/icons/item/11717.png', FASHION: '../files/icons/item/11717.png',
+    
+        SPIRITBOND: 'images/Convert.png', SPIRITBONDING: 'images/Convert.png',
+    
+        VOYAGE: 'images/Voyage.png', VOYAGES: 'images/Voyage.png',
+        AIRSHIP: 'images/Voyage.png', AIRSHIPS: 'images/Voyage.png',
+        SUB: 'images/Voyage.png', SUBS: 'images/Voyage.png',
+        SUBMARINE: 'images/Voyage.png', SUBMARINES: 'images/Voyage.png',
+    
+        HOUSE: 'images/House.png', HOUSING: 'images/House.png',
+        MANSION: 'images/House.png', COTTAGE: 'images/House.png',
+        APARTMENT: 'images/House.png',
+        DECORATION: 'images/House.png', DECORATIONS: 'images/House.png',
+        FURNISHING: 'images/House.png', FURNISHINGS: 'images/House.png',
+    
+        PATCH: 'LatestPatch',
+        DAILY: '../files/icons/event/71222.png', DAILIES: '../files/icons/event/71222.png',
+        QUEST: '../files/icons/event/71221.png', QUESTS: '../files/icons/event/71221.png',
+        ORCHESTRION: '../files/icons/item/7977.png', ORCH: '../files/icons/item/7977.png',
+        SATISFACTION: 'Satisfaction', DELIVERY: 'Satisfaction',
+    },
 
     initialize: function(data) {
         gt.list.listItemTemplate = doT.template($('#list-item-template').text());

@@ -1,6 +1,9 @@
 gt.group = {
     blockTemplate: null,
     type: 'group',
+    baseParamValues: {
+        CP: 180
+    },
 
     initialize: function(data) {
         gt.group.blockTemplate = doT.template($('#block-group-template').text());
@@ -362,8 +365,8 @@ gt.group = {
                 delete attr.value_hq;
 
             // Add extra base param values.
-            if (gt.baseParamValues[attr.key]) {
-                var value = gt.baseParamValues[attr.key];
+            if (gt.group.baseParamValues[attr.key]) {
+                var value = gt.group.baseParamValues[attr.key];
                 if (value) {
                     attr.value += value;
                     if (attr.value_hq)

@@ -5,6 +5,7 @@ gt.fishing = {
     index: {},
     version: 2,
     partialIndex: {},
+    categories: ['Ocean Fishing', 'Freshwater Fishing', 'Dunefishing', 'Skyfishing', 'Cloudfishing', 'Hellfishing', 'Aetherfishing', 'Saltfishing'],
     browse: [
         { type: 'group', prop: 'region' },
         { type: 'group', prop: 'location' },
@@ -33,7 +34,7 @@ gt.fishing = {
 
             lvl: spot.lvl,
             zone: spot.zoneid ? gt.location.index[spot.zoneid] : null,
-            category: gt.fishingSpotCategories[spot.category],
+            category: gt.fishing.categories[spot.category],
             browseIcon: 'images/FSH.png'
         };
 
@@ -78,7 +79,7 @@ gt.fishing = {
             name: name,
             sourceName: gt.util.abbr(zoneName) + ', Lv. ' + partial.l,
             longSourceName: zoneName + ', Lv. ' + partial.l,
-            byline: 'Level ' + partial.l + ' ' + gt.fishingSpotCategories[partial.c],
+            byline: 'Level ' + partial.l + ' ' + gt.fishing.categories[partial.c],
             region: region ? region.name : "Unknown",
             location: zoneName,
             icon: 'images/FSH.png',

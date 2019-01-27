@@ -1,12 +1,14 @@
 gt.node = {
     pluralName: 'Gathering Nodes',
-    type: 'node',
+    type: 'node',   
     blockTemplate: null,
     index: {},
     partialIndex: {},
     version: 2,
     bonusIndex: null,
     limitedNodeUpdateKey: null,
+    types: ['Mineral Deposit', 'Rocky Outcropping', 'Mature Tree', 'Lush Vegetation', 'Spearfishing'],
+    jobAbbreviations: ['MIN', 'MIN', 'BTN', 'BTN', 'FSH'],
     browse: [
         { type: 'icon-list', prop: 'job' },
         { type: 'group', prop: 'region' },
@@ -48,8 +50,8 @@ gt.node = {
             settings: 1,
 
             lvl: node.lvl,
-            job: gt.nodeJobAbbreviations[node.type],
-            category: gt.nodeTypes[node.type],
+            job: gt.node.jobAbbreviations[node.type],
+            category: gt.node.types[node.type],
             limited: node.time ? 1 : 0,
             stars: node.stars,
             time: node.time,
@@ -116,7 +118,7 @@ gt.node = {
 
     getPartialViewModel: function(partial) {
         var name = gt.model.name(partial);
-        var category = gt.nodeTypes[partial.t];
+        var category = gt.node.types[partial.t];
         var typePrefix = partial.lt ? (partial.lt + ' ') : '';
         var zone = gt.location.index[partial.z];
         var region = gt.location.index[zone.parentId];
@@ -129,7 +131,7 @@ gt.node = {
             longSourceName: zone.name + ', Lv. ' + partial.l,
             byline: 'Lv. ' + partial.l + gt.util.stars(partial.s) + ' ' + typePrefix + category,
             icon: 'images/' + category + '.png',
-            job: gt.nodeJobAbbreviations[partial.t],
+            job: gt.node.jobAbbreviations[partial.t],
             zone: zone,
             location: zone.name,
             lvl: partial.l,

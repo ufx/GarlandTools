@@ -1,6 +1,7 @@
 gt = {
     filePath: '../files/',
     serverPath: '',
+    grandCompanies: { "1": "Maelstrom", "2": "Twin Adders", "3": "Immortal Flames" },
 
     location: {
         index: null
@@ -11,7 +12,7 @@ gt = {
             return "??";
 
         return p == parseInt(p) ? p.toFixed(1) : p;
-    },
+    }
 };
 
 gt.model = {
@@ -1807,6 +1808,7 @@ gt.time = {
     }
 };
 gt.item = {
+    // Data
     pluralName: 'Items',
     type: 'item',
     blockTemplate: null,
@@ -1816,7 +1818,7 @@ gt.item = {
     materiaSocketsTemplate: null,
     vendorLinkTemplate: null,
     categoryIndex: null,
-    equipSlotNames: null,
+    equipSlotNames: [null, 'Main Hand', 'Off Hand', 'Head', 'Body', 'Hands', 'Waist', 'Legs', 'Feet', 'Ears', 'Neck', 'Wrists', 'Rings', 'Main Hand', 'Main Hand', null, null, 'Soul Crystal'],
     specialBonusIndex: null,
     seriesIndex: null,
     index: {},
@@ -1827,8 +1829,37 @@ gt.item = {
     itemPrimeKeys: ['Defense', 'Magic Defense', 'Physical Damage', 'Magic Damage', 'Auto-attack', 'Delay', 'Block Rate', 'Block Strength'],
     minionPrimeKeys: ['HP', 'Attack', 'Defense', 'Speed'],
     mainAttributeKeys: { Strength: 1, Dexterity: 1, Vitality: 1, Intelligence: 1, Mind: 1 },
+    baseParamAbbreviations: {
+        'Magic Damage': 'Damage',
+        'Physical Damage': 'Damage',
+        'Reduced Durability Loss': 'Red. Dur. Loss',
+        'Increased Spiritbond Gain': 'Inc. Spr. Gain',
+        'Careful Desynthesis': 'C. Desynthesis',
+        'Critical Hit Rate': 'Critical Rate'
+    },
+    nqMateriaMeldRates = [
+        // Sockets
+        //2, 3,  4,  5      // Tier
+        [40, 20, 10, 5],    // I
+        [36, 18, 9,  5],    // II
+        [30, 15, 8,  4],    // III
+        [24, 12, 6,  3],    // IV
+        [12, 6,  3,  2],    // V
+        [12, 0,  0,  0]     // VI
+    ],
+    hqMateriaMeldRates = [
+        // Sockets
+        //2, 3,  4,  5     // Tier
+        [45, 24, 14, 8],   // I
+        [41, 22, 13, 8],   // II
+        [35, 19, 11, 7],   // III
+        [29, 16, 10, 6],   // IV
+        [17, 10, 7,  5],   // V
+        [17, 0,  0,  0]    // VI
+    ],
     browse: [ { type: 'sort', prop: 'name' } ],
-
+    
+    // Functions
     initialize: function(data) {
         gt.item.blockTemplate = doT.template($('#block-item-template').text());
         gt.item.halfLinkTemplate = doT.template($('#half-link-item-template').text());
@@ -2458,8 +2489,8 @@ gt.item = {
                     var meld = melds[ii];
                     var materia = meld.item.materia;
                     if (ii >= item.sockets) {
-                        meld.nqRate = gt.nqMateriaMeldRates[materia.tier][ii - item.sockets];
-                        meld.hqRate = gt.hqMateriaMeldRates[materia.tier][ii - item.sockets];
+                        meld.nqRate = gt.item.nqMateriaMeldRates[materia.tier][ii - item.sockets];
+                        meld.hqRate = gt.item.hqMateriaMeldRates[materia.tier][ii - item.sockets];
                         meld.overmeld = 1;
                     }
 
@@ -2775,7 +2806,7 @@ gt.item = {
     },
 
     baseParamName: function(name) {
-        var n = gt.baseParamAbbreviations[name];
+        var n = gt.item.baseParamAbbreviations[name];
         return n ? n : name.replace('Resistance', 'Res.');
     },
 
@@ -3309,13 +3340,15 @@ gt.mob = {
 };
 gt.node = {
     pluralName: 'Gathering Nodes',
-    type: 'node',
+    type: 'node',   
     blockTemplate: null,
     index: {},
     partialIndex: {},
     version: 2,
     bonusIndex: null,
     limitedNodeUpdateKey: null,
+    types: ['Mineral Deposit', 'Rocky Outcropping', 'Mature Tree', 'Lush Vegetation', 'Spearfishing'],
+    jobAbbreviations: ['MIN', 'MIN', 'BTN', 'BTN', 'FSH'],
     browse: [
         { type: 'icon-list', prop: 'job' },
         { type: 'group', prop: 'region' },
@@ -3357,8 +3390,8 @@ gt.node = {
             settings: 1,
 
             lvl: node.lvl,
-            job: gt.nodeJobAbbreviations[node.type],
-            category: gt.nodeTypes[node.type],
+            job: gt.node.jobAbbreviations[node.type],
+            category: gt.node.types[node.type],
             limited: node.time ? 1 : 0,
             stars: node.stars,
             time: node.time,
@@ -3425,7 +3458,7 @@ gt.node = {
 
     getPartialViewModel: function(partial) {
         var name = gt.model.name(partial);
-        var category = gt.nodeTypes[partial.t];
+        var category = gt.node.types[partial.t];
         var typePrefix = partial.lt ? (partial.lt + ' ') : '';
         var zone = gt.location.index[partial.z];
         var region = gt.location.index[zone.parentId];
@@ -3438,7 +3471,7 @@ gt.node = {
             longSourceName: zone.name + ', Lv. ' + partial.l,
             byline: 'Lv. ' + partial.l + gt.util.stars(partial.s) + ' ' + typePrefix + category,
             icon: 'images/' + category + '.png',
-            job: gt.nodeJobAbbreviations[partial.t],
+            job: gt.node.jobAbbreviations[partial.t],
             zone: zone,
             location: zone.name,
             lvl: partial.l,
@@ -3618,6 +3651,7 @@ gt.fishing = {
     index: {},
     version: 2,
     partialIndex: {},
+    categories: ['Ocean Fishing', 'Freshwater Fishing', 'Dunefishing', 'Skyfishing', 'Cloudfishing', 'Hellfishing', 'Aetherfishing', 'Saltfishing'],
     browse: [
         { type: 'group', prop: 'region' },
         { type: 'group', prop: 'location' },
@@ -3646,7 +3680,7 @@ gt.fishing = {
 
             lvl: spot.lvl,
             zone: spot.zoneid ? gt.location.index[spot.zoneid] : null,
-            category: gt.fishingSpotCategories[spot.category],
+            category: gt.fishing.categories[spot.category],
             browseIcon: 'images/FSH.png'
         };
 
@@ -3691,7 +3725,7 @@ gt.fishing = {
             name: name,
             sourceName: gt.util.abbr(zoneName) + ', Lv. ' + partial.l,
             longSourceName: zoneName + ', Lv. ' + partial.l,
-            byline: 'Level ' + partial.l + ' ' + gt.fishingSpotCategories[partial.c],
+            byline: 'Level ' + partial.l + ' ' + gt.fishing.categories[partial.c],
             region: region ? region.name : "Unknown",
             location: zoneName,
             icon: 'images/FSH.png',
@@ -5669,7 +5703,37 @@ gt.list = {
     listItemTemplate: null,
     listHeaderTemplate: null,
     current: null,
-    specialIcons: null,
+    specialIcons: {
+        DOL: 'DOL', GATHER: 'DOL', GATHERING: 'DOL', GATHERER: 'DOL',
+        DOH: 'DOH', CRAFT: 'DOH', CRAFTING: 'DOH', CRAFTER: 'DOH',
+    
+        SCRIP: '../files/icons/item/11091.png', SCRIPS: '../files/icons/item/11091.png',
+        'RED SCRIP': '../files/icons/item/7553.png', 'RED SCRIPS': '../files/icons/item/7553.png',
+        'YELLOW SCRIP': '../files/icons/item/11091.png',
+    
+        EUREKA: '../files/icons/item/12032.png', RELIC: '../files/icons/item/12032.png',
+    
+        GLAMOUR: '../files/icons/item/11717.png', GLAM: '../files/icons/item/11717.png', FASHION: '../files/icons/item/11717.png',
+    
+        SPIRITBOND: 'images/Convert.png', SPIRITBONDING: 'images/Convert.png',
+    
+        VOYAGE: 'images/Voyage.png', VOYAGES: 'images/Voyage.png',
+        AIRSHIP: 'images/Voyage.png', AIRSHIPS: 'images/Voyage.png',
+        SUB: 'images/Voyage.png', SUBS: 'images/Voyage.png',
+        SUBMARINE: 'images/Voyage.png', SUBMARINES: 'images/Voyage.png',
+    
+        HOUSE: 'images/House.png', HOUSING: 'images/House.png',
+        MANSION: 'images/House.png', COTTAGE: 'images/House.png',
+        APARTMENT: 'images/House.png',
+        DECORATION: 'images/House.png', DECORATIONS: 'images/House.png',
+        FURNISHING: 'images/House.png', FURNISHINGS: 'images/House.png',
+    
+        PATCH: 'LatestPatch',
+        DAILY: '../files/icons/event/71222.png', DAILIES: '../files/icons/event/71222.png',
+        QUEST: '../files/icons/event/71221.png', QUESTS: '../files/icons/event/71221.png',
+        ORCHESTRION: '../files/icons/item/7977.png', ORCH: '../files/icons/item/7977.png',
+        SATISFACTION: 'Satisfaction', DELIVERY: 'Satisfaction',
+    },
 
     initialize: function(data) {
         gt.list.listItemTemplate = doT.template($('#list-item-template').text());
@@ -7630,143 +7694,6 @@ gt.equip = {
         return name;
     }
 };
-// Node Types
-gt.nodeTypes = ['Mineral Deposit', 'Rocky Outcropping', 'Mature Tree', 'Lush Vegetation', 'Spearfishing'];
-gt.nodeJobAbbreviations = ['MIN', 'MIN', 'BTN', 'BTN', 'FSH'];
-gt.fishingSpotCategories = ['Ocean Fishing', 'Freshwater Fishing', 'Dunefishing', 'Skyfishing', 'Cloudfishing', 'Hellfishing', 'Aetherfishing', 'Saltfishing'];
-
-// Base Parameters
-gt.baseParamAbbreviations = {
-    'Magic Damage': 'Damage',
-    'Physical Damage': 'Damage',
-    'Reduced Durability Loss': 'Red. Dur. Loss',
-    'Increased Spiritbond Gain': 'Inc. Spr. Gain',
-    'Careful Desynthesis': 'C. Desynthesis',
-    'Critical Hit Rate': 'Critical Rate'
-};
-
-gt.baseParamValues = {
-    CP: 180
-};
-
-// Materia
-gt.hqMateriaMeldRates = [
-    // Sockets
-    //2, 3,  4,  5     // Tier
-    [45, 24, 14, 8],   // I
-    [41, 22, 13, 8],   // II
-    [35, 19, 11, 7],   // III
-    [29, 16, 10, 6],   // IV
-    [17, 10, 7,  5],   // V
-    [17, 0,  0,  0]    // VI
-];
-
-gt.nqMateriaMeldRates = [
-    // Sockets
-    //2, 3,  4,  5      // Tier
-    [40, 20, 10, 5],    // I
-    [36, 18, 9,  5],    // II
-    [30, 15, 8,  4],    // III
-    [24, 12, 6,  3],    // IV
-    [12, 6,  3,  2],    // V
-    [12, 0,  0,  0]     // VI
-];
-
-// Grand Companies
-gt.grandCompanies = { "1": "Maelstrom", "2": "Twin Adders", "3": "Immortal Flames" };
-
-// Leve categories
-gt.leve.category = {
-    "Disciples of War or Magic": 'Battlecraft',
-    MIN: 'Gathering',
-    BTN: 'Gathering',
-    FSH: 'Gathering',
-    CRP: 'Crafting',
-    BSM: 'Crafting',
-    ARM: 'Crafting',
-    GSM: 'Crafting',
-    LTW: 'Crafting',
-    WVR: 'Crafting',
-    ALC: 'Crafting',
-    CUL: 'Crafting',
-    "Brotherhood of the Broken Blade": 'Legacy',
-    "Azeyma's Shields": 'Legacy',
-    "The Horn and Hand": 'Legacy',
-    "The Maelstrom": 'Grand Company',
-    "Order of the Twin Adder": 'Grand Company',
-    "Immortal Flames": 'Grand Company'
-};
-
-// Special list icons
-gt.list.specialIcons = {
-    ALC: 'ALC', ALCHEMIST: 'ALC',
-    ARM: 'ARM', ARMORER: 'ARM',
-    BSM: 'BSM', BLACKSMITH: 'BSM',
-    CRP: 'CRP', CARPENTER: 'CRP',
-    CUL: 'CUL', CULINARIAN: 'CUL',
-    GSM: 'GSM', GOLDSMITH: 'GSM',
-    LTW: 'LTW', LEATHERWORKER: 'LTW',
-    WVR: 'WVR', WEAVER: 'WVR',
-
-    BLM: 'BLM', BLACK: 'BLM',
-    ACN: 'ACN', ARC: 'ACN',
-    SMN: 'SMN', SUMMONER: 'SMN',
-    RDM: 'RDM', 'RED MAGE': 'RDM',
-    BLU: 'BLU', 'BLUE MAGE': 'BLU',
-
-    BRD: 'BRD', BARD: 'BRD',
-    MCN: 'MCH', MCH: 'MCH', MACHINIST: 'MCH',
-
-    DRG: 'DRG', DRAGOON: 'DRG',
-    MNK: 'MNK', MONK: 'MNK',
-    NIN: 'NIN', NINJA: 'NIN',
-    SAM: 'SAM', SAMURAI: 'SAM',
-
-    PLD: 'PLD', PALADIN: 'PLD',
-    DRK: 'DRK', DARK: 'DRK',
-    WAR: 'WAR', WARRIOR: 'WAR',
-
-    AST: 'AST', ASTROLOGIAN: 'AST', ASTRO: 'AST',
-    SCH: 'SCH', SCHOLAR: 'SCH',
-    WHM: 'WHM', WHITE: 'WHM',
-
-    MIN: 'MIN', MINER: 'MIN',
-    BTN: 'BTN', BOTANIST: 'BTN',
-    FIS: 'FSH', FSH: 'FSH', FISHER: 'FSH', FISH: 'FSH',
-
-    DOL: 'DOL', GATHER: 'DOL', GATHERING: 'DOL', GATHERER: 'DOL',
-    DOH: 'DOH', CRAFT: 'DOH', CRAFTING: 'DOH', CRAFTER: 'DOH',
-
-    SCRIP: '../files/icons/item/11091.png', SCRIPS: '../files/icons/item/11091.png',
-    'RED SCRIP': '../files/icons/item/7553.png', 'RED SCRIPS': '../files/icons/item/7553.png',
-    'YELLOW SCRIP': '../files/icons/item/11091.png',
-
-    EUREKA: '../files/icons/item/12032.png', RELIC: '../files/icons/item/12032.png',
-
-    GLAMOUR: '../files/icons/item/11717.png', GLAM: '../files/icons/item/11717.png', FASHION: '../files/icons/item/11717.png',
-
-    SPIRITBOND: 'images/Convert.png', SPIRITBONDING: 'images/Convert.png',
-
-    VOYAGE: 'images/Voyage.png', VOYAGES: 'images/Voyage.png',
-    AIRSHIP: 'images/Voyage.png', AIRSHIPS: 'images/Voyage.png',
-    SUB: 'images/Voyage.png', SUBS: 'images/Voyage.png',
-    SUBMARINE: 'images/Voyage.png', SUBMARINES: 'images/Voyage.png',
-
-    HOUSE: 'images/House.png', HOUSING: 'images/House.png',
-    MANSION: 'images/House.png', COTTAGE: 'images/House.png',
-    APARTMENT: 'images/House.png',
-    DECORATION: 'images/House.png', DECORATIONS: 'images/House.png',
-    FURNISHING: 'images/House.png', FURNISHINGS: 'images/House.png',
-
-    PATCH: 'LatestPatch',
-    DAILY: '../files/icons/event/71222.png', DAILIES: '../files/icons/event/71222.png',
-    QUEST: '../files/icons/event/71221.png', QUESTS: '../files/icons/event/71221.png',
-    ORCHESTRION: '../files/icons/item/7977.png', ORCH: '../files/icons/item/7977.png',
-    SATISFACTION: 'Satisfaction', DELIVERY: 'Satisfaction',
-};
-
-// Equipment slots
-gt.item.equipSlotNames = [null, 'Main Hand', 'Off Hand', 'Head', 'Body', 'Hands', 'Waist', 'Legs', 'Feet', 'Ears', 'Neck', 'Wrists', 'Rings', 'Main Hand', 'Main Hand', null, null, 'Soul Crystal'];
 gt.craft = {
     flatTemplate: null,
     treeTemplate: null,
@@ -8688,6 +8615,9 @@ gt.craft.step.prototype.eachIngredient = function(func) {
 gt.group = {
     blockTemplate: null,
     type: 'group',
+    baseParamValues: {
+        CP: 180
+    },
 
     initialize: function(data) {
         gt.group.blockTemplate = doT.template($('#block-group-template').text());
@@ -9049,8 +8979,8 @@ gt.group = {
                 delete attr.value_hq;
 
             // Add extra base param values.
-            if (gt.baseParamValues[attr.key]) {
-                var value = gt.baseParamValues[attr.key];
+            if (gt.group.baseParamValues[attr.key]) {
+                var value = gt.group.baseParamValues[attr.key];
                 if (value) {
                     attr.value += value;
                     if (attr.value_hq)

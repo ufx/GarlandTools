@@ -1,4 +1,5 @@
 gt.item = {
+    // Data
     pluralName: 'Items',
     type: 'item',
     blockTemplate: null,
@@ -8,7 +9,7 @@ gt.item = {
     materiaSocketsTemplate: null,
     vendorLinkTemplate: null,
     categoryIndex: null,
-    equipSlotNames: null,
+    equipSlotNames: [null, 'Main Hand', 'Off Hand', 'Head', 'Body', 'Hands', 'Waist', 'Legs', 'Feet', 'Ears', 'Neck', 'Wrists', 'Rings', 'Main Hand', 'Main Hand', null, null, 'Soul Crystal'],
     specialBonusIndex: null,
     seriesIndex: null,
     index: {},
@@ -19,8 +20,37 @@ gt.item = {
     itemPrimeKeys: ['Defense', 'Magic Defense', 'Physical Damage', 'Magic Damage', 'Auto-attack', 'Delay', 'Block Rate', 'Block Strength'],
     minionPrimeKeys: ['HP', 'Attack', 'Defense', 'Speed'],
     mainAttributeKeys: { Strength: 1, Dexterity: 1, Vitality: 1, Intelligence: 1, Mind: 1 },
+    baseParamAbbreviations: {
+        'Magic Damage': 'Damage',
+        'Physical Damage': 'Damage',
+        'Reduced Durability Loss': 'Red. Dur. Loss',
+        'Increased Spiritbond Gain': 'Inc. Spr. Gain',
+        'Careful Desynthesis': 'C. Desynthesis',
+        'Critical Hit Rate': 'Critical Rate'
+    },
+    nqMateriaMeldRates = [
+        // Sockets
+        //2, 3,  4,  5      // Tier
+        [40, 20, 10, 5],    // I
+        [36, 18, 9,  5],    // II
+        [30, 15, 8,  4],    // III
+        [24, 12, 6,  3],    // IV
+        [12, 6,  3,  2],    // V
+        [12, 0,  0,  0]     // VI
+    ],
+    hqMateriaMeldRates = [
+        // Sockets
+        //2, 3,  4,  5     // Tier
+        [45, 24, 14, 8],   // I
+        [41, 22, 13, 8],   // II
+        [35, 19, 11, 7],   // III
+        [29, 16, 10, 6],   // IV
+        [17, 10, 7,  5],   // V
+        [17, 0,  0,  0]    // VI
+    ],
     browse: [ { type: 'sort', prop: 'name' } ],
-
+    
+    // Functions
     initialize: function(data) {
         gt.item.blockTemplate = doT.template($('#block-item-template').text());
         gt.item.halfLinkTemplate = doT.template($('#half-link-item-template').text());
@@ -650,8 +680,8 @@ gt.item = {
                     var meld = melds[ii];
                     var materia = meld.item.materia;
                     if (ii >= item.sockets) {
-                        meld.nqRate = gt.nqMateriaMeldRates[materia.tier][ii - item.sockets];
-                        meld.hqRate = gt.hqMateriaMeldRates[materia.tier][ii - item.sockets];
+                        meld.nqRate = gt.item.nqMateriaMeldRates[materia.tier][ii - item.sockets];
+                        meld.hqRate = gt.item.hqMateriaMeldRates[materia.tier][ii - item.sockets];
                         meld.overmeld = 1;
                     }
 
@@ -967,7 +997,7 @@ gt.item = {
     },
 
     baseParamName: function(name) {
-        var n = gt.baseParamAbbreviations[name];
+        var n = gt.item.baseParamAbbreviations[name];
         return n ? n : name.replace('Resistance', 'Res.');
     },
 
