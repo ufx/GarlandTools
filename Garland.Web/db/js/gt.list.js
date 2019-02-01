@@ -373,7 +373,7 @@ gt.list = {
             if (error)
                 gt.display.alertp("Share error: " + error);
             else
-                gt.display.alertp("Copy share link:<br>" + "https://www.garlandtools.org/db/#list/" + result.id);
+                gt.display.alertp("Copy share link:<br>" + "https://garlandtools.org/db/#list/" + result.id);
         });
     },
 
