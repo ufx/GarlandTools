@@ -40290,6 +40290,75 @@ ff.service.WeatherService.prototype.calculateWeather = function() {
   return { a: weatherMap, b: startHour };
 };
 
+// Calculates the first next catch window for a fish.
+ff.service.WeatherService.prototype.nextFishWindow = function(fish) {
+  // Calculate the time it takes for a certain weather combination to appear.
+  
+  var weatherRate = this.zoneWeather[fish.getLocation().getArea().getName()];
+  var prevWeatherArray = fish.previousWeatherSet_;
+  var nextWeatherArray = fish.weatherSet_;
+  
+  var fishStart = fish.getStartHour();
+  var fishEnd = fish.getEndHour();
+
+  var eTime = this.eorzeaTime_.getCurrentEorzeaDate().date;
+  eTime.setUTCMinutes(0); // not sure if setting these to 0 matters.
+  eTime.setUTCSeconds(0);
+	
+  var prevTime = this.eorzeaTime_.getCurrentEorzeaDate().date;
+  prevTime.setUTCMinutes(0);
+  prevTime.setUTCSeconds(0);
+  prevTime.setUTCHours(eTime.getUTCHours() - 8); // 8 hours before eTime will always be in the previous weather block.
+  
+  var tries = 0; // hardcap just in case.
+  while (tries < 8640 * 2)  { // 8640 windows = 10080 hours (1 week) earth time. (Bobgoblin can take longer)
+	tries++;
+	
+	// Get weather 8 hours ago
+	var prevForecastTarget = this.calculateForecastTarget(this.eorzeaToLocal(prevTime));
+	var prevRate = _.find(weatherRate, function(r) { return prevForecastTarget < r.rate; });
+	var prevWeather = this.weatherIndex[prevRate.weather];
+	
+	// Get weather now
+	var nextForecastTarget = this.calculateForecastTarget(this.eorzeaToLocal(eTime));
+	var nextRate = _.find(weatherRate, function(r) { return nextForecastTarget < r.rate; });
+	var nextWeather = this.weatherIndex[nextRate.weather];	
+	
+	var currentTime = eTime.getUTCHours();
+	
+	if ( // If we have no weather requirements, or
+		(prevWeatherArray.getCount() == 0 && 
+		 nextWeatherArray.getCount() == 0) 
+		 || // If we have previous weather requirements and both that and the current weather are met, or
+		(prevWeatherArray.getCount() > 0 &&
+		 prevWeatherArray.getValues().find(obj => obj.name_ == prevWeather) !== undefined && 
+		 nextWeatherArray.getValues().find(obj => obj.name_ == nextWeather) !== undefined)
+		 || // If we have no previous weather requirement and the current weather is met
+		(prevWeatherArray.getCount() == 0 && 
+		 nextWeatherArray.getCount() > 0 &&
+		 nextWeatherArray.getValues().find(obj => obj.name_ == nextWeather) !== undefined)
+	   ){
+	   if(fishStart < fishEnd){ // Check if the time crosses the midnight mark
+		   if (fishEnd > currentTime && currentTime >= fishStart) { // If we're within the catching window
+				break;
+		   }
+	   }
+	   else if (fishEnd < fishStart){ // Gotta flip the booleans if we're crossing 0am.
+		   if (fishEnd > currentTime || fishStart <= currentTime) {
+			   break;
+		   }
+	   }
+	} 
+	
+	// If we made it here, go an hour forward in time and loop.
+	prevTime.setUTCHours(prevTime.getUTCHours() + 1);
+    eTime.setUTCHours(eTime.getUTCHours() + 1);
+  }
+  
+  // If we hit break (or ran out of tries), return the time we found the fish window on.
+  return eTime;
+};
+
 /**
  * Called when weather loads from the server.
  * @param {Object} json
@@ -52761,7 +52830,7 @@ ff.fisher.ui.fish.soy.FISH_TIME = function(opt_data, opt_ignored) {
  * @notypecheck
  */
 ff.fisher.ui.fish.soy.FISH_TIME_TOOLTIP = function(opt_data, opt_ignored) {
-  return '<div class="ff-fish-time-tooltip"><div class="ff-fish-time-tooltip-weather"><span>Weather: </span><span id="' + soy.$$escapeHtml(opt_data.weatherId) + '"></span></div><span id="' + soy.$$escapeHtml(opt_data.eorzeaTimeId) + '"></span> (Eorzea)<br><span id="' + soy.$$escapeHtml(opt_data.earthTimeId) + '"></span> (Earth)<br><span id="' + soy.$$escapeHtml(opt_data.remainingTimeId) + '"></span></div>';
+  return '<div class="ff-fish-time-tooltip"><div class="ff-fish-time-tooltip-weather"><span>Weather: </span><span id="' + soy.$$escapeHtml(opt_data.weatherId) + '"></span></div><span id="' + soy.$$escapeHtml(opt_data.eorzeaTimeId) + '"></span> (Eorzea)<br><span id="' + soy.$$escapeHtml(opt_data.earthTimeId) + '"></span> (Earth)<br><span id="' + soy.$$escapeHtml(opt_data.remainingTimeId) + '"></span><br><span id="' + soy.$$escapeHtml(opt_data.nextWindowTimeId) + '">Next Window: </span></div>';
 };
 
 
@@ -54528,6 +54597,7 @@ ff.fisher.ui.fish.FishTimeTooltip = function() {
         eorzeaTimeId: ff.fisher.ui.fish.FishTimeTooltip.Id_.EORZEA_TIME,
         earthTimeId: ff.fisher.ui.fish.FishTimeTooltip.Id_.EARTH_TIME,
         remainingTimeId: ff.fisher.ui.fish.FishTimeTooltip.Id_.REMAINING_TIME,
+		nextWindowTimeId: ff.fisher.ui.fish.FishTimeTooltip.Id_.NEXT_WINDOW_TIME,
         weatherId: ff.fisher.ui.fish.FishTimeTooltip.Id_.WEATHER
       });
 
@@ -54544,6 +54614,10 @@ ff.fisher.ui.fish.FishTimeTooltip = function() {
   /** @private {Element} */
   this.remainingTimeElement_ = document.getElementById(
       ff.fisher.ui.fish.FishTimeTooltip.Id_.REMAINING_TIME);
+	  
+  /** @private {Element} */
+  this.nextWindowTimeElement_ = document.getElementById(
+      ff.fisher.ui.fish.FishTimeTooltip.Id_.NEXT_WINDOW_TIME);
 
   /** @private {Element} */
   this.weatherElement_ = document.getElementById(
@@ -54566,6 +54640,7 @@ ff.fisher.ui.fish.FishTimeTooltip.Id_ = {
   EARTH_TIME: ff.getUniqueId('earth-time'),
   EORZEA_TIME: ff.getUniqueId('eorzea-time'),
   REMAINING_TIME: ff.getUniqueId('remaining-time'),
+  NEXT_WINDOW_TIME: ff.getUniqueId('next-window-time'),
   WEATHER: ff.getUniqueId('weather')
 };
 
@@ -54582,12 +54657,14 @@ ff.fisher.ui.fish.FishTimeTooltip.prototype.getElement = function() {
  * @param {string} eorzeaTime
  * @param {string} earthTime
  * @param {string} remainingTime
+ * @param {string} nextWindowTime
  */
 ff.fisher.ui.fish.FishTimeTooltip.prototype.setText =
-    function(eorzeaTime, earthTime, remainingTime) {
+    function(eorzeaTime, earthTime, remainingTime, nextWindowTime) {
   goog.dom.setTextContent(this.eorzeaTimeElement_, eorzeaTime);
   goog.dom.setTextContent(this.earthTimeElement_, earthTime);
   goog.dom.setTextContent(this.remainingTimeElement_, remainingTime);
+  goog.dom.setTextContent(this.nextWindowTimeElement_, nextWindowTime);
 };
 
 
@@ -54749,6 +54826,7 @@ ff.fisher.ui.fish.FishTime.Id_ = {
   RANGE_1: ff.getUniqueId('range-1'),
   RANGE_2: ff.getUniqueId('range-2'),
   REMAINING_TIME: ff.getUniqueId('remaining-time'),
+  NEXT_WINDOW_TIME: ff.getUniqueId('next-window-time'),
   WEATHER_CHANGE_1: ff.getUniqueId('weather-change-1'),
   WEATHER_CHANGE_2: ff.getUniqueId('weather-change-2'),
   WEATHER_CHANGE_3: ff.getUniqueId('weather-change-3'),
@@ -55017,7 +55095,35 @@ ff.fisher.ui.fish.FishTime.prototype.updateCursorTime_ = function(
     timeUntilText = 'in ' + earthMinutesToTarget + ' minutes';
   }
 
-  this.tooltip_.setText(eorzeaString, earthString, timeUntilText);
+  // Figure out when the first next catching window opens.
+  var nextWindowDate = this.weatherService_.nextFishWindow(this.fish_);
+
+  // Figure out the Earth date based on the Eorzea date.
+  // copypasted. reformat?
+  var windowUtcDate = this.eorzeaTime_.toEarth(nextWindowDate);
+  var windowDate = goog.date.DateTime.fromTimestamp(windowUtcDate.getTime());
+  var windowString = ff.fisher.ui.fish.FishTime.FORMAT_.format(windowDate);
+  var windowMinutesToTarget = Math.round(
+      (windowDate.getTime() - goog.now()) / (60 * 1000));
+  var windowSecondsToTarget = Math.round(
+      (windowDate.getTime() - goog.now()) / 1000);
+
+  var nextWindowText = '';
+  if (windowSecondsToTarget < 60) {
+    if (windowSecondsToTarget <= 0) {
+      nextWindowText += 'Window open';
+    } else if (windowSecondsToTarget == 1) {
+      nextWindowText += 'Opens in ' + windowSecondsToTarget + ' second';
+    } else {
+      nextWindowText += 'Opens in ' + windowSecondsToTarget + ' seconds';
+    }
+  } else if (windowMinutesToTarget == 1) {
+    nextWindowText += 'Opens in ' + windowMinutesToTarget + ' minute';
+  } else {
+    nextWindowText += 'Opens in ' + windowMinutesToTarget + ' minutes';
+  }
+
+  this.tooltip_.setText(eorzeaString, earthString, timeUntilText, nextWindowText);
 
   // Figure out which weather is under the cursor.
   var area = this.fish_.getLocation().getArea();
