@@ -1837,7 +1837,7 @@ gt.item = {
         'Careful Desynthesis': 'C. Desynthesis',
         'Critical Hit Rate': 'Critical Rate'
     },
-    nqMateriaMeldRates = [
+    nqMateriaMeldRates: [
         // Sockets
         //2, 3,  4,  5      // Tier
         [40, 20, 10, 5],    // I
@@ -1847,7 +1847,7 @@ gt.item = {
         [12, 6,  3,  2],    // V
         [12, 0,  0,  0]     // VI
     ],
-    hqMateriaMeldRates = [
+    hqMateriaMeldRates: [
         // Sockets
         //2, 3,  4,  5     // Tier
         [45, 24, 14, 8],   // I
