@@ -34,35 +34,36 @@ namespace Garland.Data.Modules
 
                 var sNpcEquip = (Saint.XivRow)sNpc.Base["NpcEquip"];
                 var modelKeys = GetModelKeys(sNpcEquip, sNpc.Base);
-                var matches = new List<Tuple<Saint.Items.Equipment, Saint.Stain, int>>();
+                if (modelKeys.Count == 0)
+                    continue;
+
+                var npc = _builder.GetOrCreateNpc(sNpc);
+                npc.equipment = new JArray();
 
                 foreach (var pair in modelKeys)
                 {
                     var slot = pair.Key;
                     var modelData = pair.Value;
 
-                    var match = Match(slot, modelData.Key);
-                    if (match.Item1 != null)
-                        matches.Add(Tuple.Create(match.Item1, modelData.Stain, match.Item2));
-                }
-
-                if (matches.Count == 0)
-                    continue;
-
-                var npc = _builder.GetOrCreateNpc(sNpc);
-                npc.equipment = new JArray();
-
-                foreach (var match in matches)
-                {
                     dynamic obj = new JObject();
-                    obj.id = match.Item1.Key;
-                    if (match.Item2.Key > 0)
-                        obj.dye = match.Item2.Key;
-                    if (match.Item3 > 0)
-                        obj.uncertainty = match.Item3;
+                    obj.slot = EquipSlotToEquipSlotCategoryKey(slot);
+                    obj.model = modelData.Key.ToString().Replace(", ", "-");
+
+                    var match = Match(slot, modelData.Key);
+                    var equipment = match.Item1;
+                    var uncertainty = match.Item2;
+                    if (equipment != null)
+                    {
+                        obj.id = equipment.Key;
+                        if (modelData.Stain.Key > 0)
+                            obj.dye = modelData.Stain.Key;
+                        if (uncertainty > 0)
+                            obj.uncertainty = uncertainty;
+
+                        _builder.Db.AddReference(npc, "item", equipment.Key, false);
+                    }
 
                     npc.equipment.Add(obj);
-                    _builder.Db.AddReference(npc, "item", match.Item1.Key, false);
                 }
             }
         }
@@ -118,24 +119,24 @@ namespace Garland.Data.Modules
                 .Where(e => e.Rarity != 7)
                 .Where(e => e.EquipRestriction != 0);
 
-            foreach (var equipment in equipmentWithModels)
+            foreach (var sEquipment in equipmentWithModels)
             {
-                foreach (var slot in equipment.EquipSlotCategory.PossibleSlots)
+                foreach (var sEquipSlot in sEquipment.EquipSlotCategory.PossibleSlots)
                 {
-                    if (!_equipmentBySlotByModelKey.TryGetValue(slot, out var equipmentByModelKey))
-                        _equipmentBySlotByModelKey[slot] = equipmentByModelKey = new Dictionary<Saint.Quad, Saint.Items.Equipment>();
+                    if (!_equipmentBySlotByModelKey.TryGetValue(sEquipSlot, out var equipmentByModelKey))
+                        _equipmentBySlotByModelKey[sEquipSlot] = equipmentByModelKey = new Dictionary<Saint.Quad, Saint.Items.Equipment>();
 
-                    if (equipmentByModelKey.TryGetValue(equipment.PrimaryModelKey, out var previousEquipment))
+                    if (equipmentByModelKey.TryGetValue(sEquipment.PrimaryModelKey, out var sPreviousEquipment))
                     {
                         // Compare this equipment with the previous equipment,
                         // preferring the least complex source.
-                        var complexity1 = _complexity.GetNqComplexity(equipment.Key);
-                        var complexity2 = _complexity.GetNqComplexity(previousEquipment.Key);
+                        var complexity1 = _complexity.GetNqComplexity(sEquipment.Key);
+                        var complexity2 = _complexity.GetNqComplexity(sPreviousEquipment.Key);
                         if (complexity1 < complexity2)
-                            equipmentByModelKey[equipment.PrimaryModelKey] = equipment;
+                            equipmentByModelKey[sEquipment.PrimaryModelKey] = sEquipment;
                     }
                     else
-                        equipmentByModelKey[equipment.PrimaryModelKey] = equipment;
+                        equipmentByModelKey[sEquipment.PrimaryModelKey] = sEquipment;
                 }
             }
         }
@@ -168,6 +169,32 @@ namespace Garland.Data.Modules
             StoreModelKey(keys, (UInt32)row["Model{Wrists}"], (Saint.Stain)row["Dye{Wrists}"], _slots[10]);
             StoreModelKey(keys, (UInt32)row["Model{LeftRing}"], (Saint.Stain)row["Dye{LeftRing}"], _slots[11]);
             StoreModelKey(keys, (UInt32)row["Model{RightRing}"], (Saint.Stain)row["Dye{RightRing}"], _slots[12]);
+        }
+
+        int EquipSlotToEquipSlotCategoryKey (Saint.EquipSlot sEquipSlot)
+        {
+            switch (sEquipSlot.Key)
+            {
+                case 0:
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+                case 10:
+                case 11:
+                    return sEquipSlot.Key + 1;
+
+                case 12: // Fingers share an EquipSlotCategory
+                    return 12;
+
+                default:
+                    throw new NotImplementedException();
+            }
         }
 
         void StoreModelKey(Dictionary<Saint.EquipSlot, ModelData> keys, Saint.Quad model, Saint.Stain stain, Saint.EquipSlot slot)

@@ -2499,6 +2499,14 @@ body.dirty #dirty-indicator {
     top: 1px;
 }
 
+.block.npc .equipment.subsection .slot {
+    border-bottom: 1px solid #333;
+}
+
+.block.npc .equipment.subsection .slot:last-child {
+    border-bottom: 0;
+}
+
 /* Crafting Recipe */
 
 .recipe .separator {

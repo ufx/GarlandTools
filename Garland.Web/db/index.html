@@ -1956,16 +1956,31 @@
                     </div>
                 {{?}}
 
-                {{?it.equipment}}
+                {{?it.equip}}
                     <div class="equipment subsection collapsible collapsed" data-headername="equipment">
                         <h3 class="pointer">Equipment</h3>
-                        {{~it.equipment :value:index}}
-                            <div class="line collapse-toggle block-link hover-highlight pointer" data-id="{{=value.id}}" data-type="item">
-                                <img class="icon small" src="{{=value.icon}}">
-                                <span class="highlight text">{{?value.uncertainty}}<span title="Uncertainty: {{=value.uncertainty}}">~</span>{{?}}{{=value.name}}</span>
-                                {{?value.dye}}<span class="right text">{{=value.dye.name}}</span>{{?}}
-                            </div>
-                        {{~}}
+
+                        <div class="collapse-toggle">
+                            {{~it.equip :value:index}}
+                                <div class="slot">
+                                    <div class="line">
+                                        <img class="icon small" src="images/{{=value.slot}}.png">
+                                        <span class="text">
+                                            {{=value.slot}} {{=value.model}}
+                                            {{?!value.item}}(Custom){{?}}
+                                        </span>
+                                    </div>
+                                    {{?value.item}}
+                                        <div class="line collapse-toggle block-link hover-highlight pointer" data-id="{{=value.item.id}}" data-type="item">
+                                            <img class="icon small" src="{{=value.item.icon}}">
+                                            <span class="highlight text">{{=value.item.name}} {{?value.uncertainty}}</span>
+                                            <span class="text" title="Uncertainty: {{=value.uncertainty}}">(Guess)</span>{{?}}
+                                            {{?value.dye}}<span class="right text">{{=value.dye.name}}</span>{{?}}
+                                        </div>
+                                    {{?}}
+                                </div>
+                            {{~}}
+                        </div>
                     </div>
                 {{?}}
 

@@ -3085,12 +3085,17 @@ gt.npc = {
             }
 
             if (npc.equipment) {
-                view.equipment = gt.model.partialList(gt.item, npc.equipment, function(v, e) {
-                    v.uncertainty = e.uncertainty;
-                    if (e.dye)
-                        v.dye = gt.dyes[e.dye];
-                    return v;
-                });
+                view.equip = [];
+                for (var i = 0; i < npc.equipment.length; i++) {
+                    var entry = npc.equipment[i];
+                    view.equip.push({
+                        item: entry.id ? gt.model.partial(gt.item, entry.id) : null,
+                        uncertainty: entry.uncertainty,
+                        dye: entry.dye ? gt.dyes[entry.dye] : null,
+                        slot: gt.item.equipSlotNames[entry.slot],
+                        model: entry.model
+                    });
+                }
             }
         }
 
@@ -6072,7 +6077,7 @@ gt.list = {
             if (error)
                 gt.display.alertp("Share error: " + error);
             else
-                gt.display.alertp("Copy share link:<br>" + "https://www.garlandtools.org/db/#list/" + result.id);
+                gt.display.alertp("Copy share link:<br>" + "https://garlandtools.org/db/#list/" + result.id);
         });
     },
 
