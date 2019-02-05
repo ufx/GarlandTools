@@ -1,5 +1,5 @@
 -- Lists
-CREATE TABLE `Lists` (
+CREATE TABLE Lists (
   Id char(10) NOT NULL,
   Name varchar(100) CHARACTER SET utf8 NOT NULL,
   Hash char(40) NOT NULL,
@@ -7,8 +7,8 @@ CREATE TABLE `Lists` (
   Shared datetime NOT NULL,
   List text NOT NULL,
   Uses int(11) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`Id`),
-  UNIQUE KEY `Hash` (`Hash`)
+  PRIMARY KEY (Id),
+  UNIQUE KEY Hash (Hash)
 );
 
 -- ListSummary
@@ -63,6 +63,7 @@ CREATE TABLE DataJson (
     Lang char(2) not null,
     Version smallint unsigned not null,
     Json mediumtext character set utf8 not null,
+    CommentCount smallint unsigned not null default 0,
     primary key (Id, Type, Lang, Version)
 );
 
@@ -84,4 +85,21 @@ CREATE TABLE Storage (
     Modified datetime not null,
     Value text not null,
     primary key(Account, Id)
+);
+
+-- Comments
+CREATE TABLE Comment (
+    Id int not null auto_increment,
+    Account char(10) not null,
+    IP varchar(100) not null,
+    Score smallint not null default 0,
+    ForType varchar(15) not null,
+    ForLang char(2) not null,
+    ForId varchar(15) not null,
+    SourceType varchar(15),
+    SourceId varchar(15),
+    SourceCategory varchar(15),
+    Text text not null,
+    primary key(Id),
+    key Index_ForTypeId (ForType, ForId)
 );
