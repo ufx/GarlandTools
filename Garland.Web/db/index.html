@@ -1973,8 +1973,8 @@
                                     {{?value.item}}
                                         <div class="line collapse-toggle block-link hover-highlight pointer" data-id="{{=value.item.id}}" data-type="item">
                                             <img class="icon small" src="{{=value.item.icon}}">
-                                            <span class="highlight text">{{=value.item.name}} {{?value.uncertainty}}</span>
-                                            <span class="text" title="Uncertainty: {{=value.uncertainty}}">(Guess)</span>{{?}}
+                                            <span class="highlight text">{{=value.item.name}}</span>
+                                            {{?value.uncertainty}}<span class="text" title="Uncertainty: {{=value.uncertainty}}">(Guess)</span>{{?}}
                                             {{?value.dye}}<span class="right text">{{=value.dye.name}}</span>{{?}}
                                         </div>
                                     {{?}}
