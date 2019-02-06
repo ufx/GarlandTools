@@ -5869,6 +5869,7 @@ gt.bell.fish = [
   {
     "name": "Warballoon",
     "patch": 3.0,
+    "fishEyes": 1,
     "bait": [
       "Giant Crane Fly",
       "Skyworm"
@@ -6242,6 +6243,7 @@ gt.bell.fish = [
     "name": "Bishopfish",
     "patch": 3.5,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Brute Leech"
     ],
@@ -6378,6 +6380,7 @@ gt.bell.fish = [
     "name": "Mountain Kraken",
     "patch": 3.2,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Brute Leech"
     ],
@@ -6554,6 +6557,7 @@ gt.bell.fish = [
     "name": "Merciless",
     "patch": 3.4,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Purse Web Spider",
       "Ice Faerie"
@@ -7098,6 +7102,7 @@ gt.bell.fish = [
     "name": "Inkfish",
     "patch": 3.3,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Brute Leech"
     ],
@@ -7831,6 +7836,7 @@ gt.bell.fish = [
     "name": "Aetherochemical Compound #666",
     "patch": 3.4,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Fiend Worm",
       "Platinum Fish"
@@ -7929,6 +7935,7 @@ gt.bell.fish = [
     "name": "Ceti",
     "patch": 3.5,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Fiend Worm"
     ],
@@ -8237,6 +8244,7 @@ gt.bell.fish = [
     "name": "Crystal Pigeon",
     "patch": 3.5,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Giant Crane Fly",
       "Rudderfish"
@@ -8290,6 +8298,7 @@ gt.bell.fish = [
     "name": "Barreleye",
     "patch": 3.0,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Fiend Worm",
       "Platinum Fish"
@@ -8316,6 +8325,7 @@ gt.bell.fish = [
     "name": "Functional Proto-hropken",
     "patch": 3.1,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Fiend Worm",
       "Platinum Fish"
@@ -9030,6 +9040,7 @@ gt.bell.fish = [
     "name": "Hraesvelgr's Tear",
     "patch": 3.4,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Magma Worm"
     ],
@@ -9054,6 +9065,7 @@ gt.bell.fish = [
   {
     "name": "Magma Louse",
     "patch": 3.0,
+    "fishEyes": 1,
     "bait": [
       "Magma Worm",
       "Granite Crab"
@@ -9080,6 +9092,7 @@ gt.bell.fish = [
     "name": "Riddle",
     "patch": 3.5,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Magma Worm",
       "Granite Crab"
@@ -9111,6 +9124,7 @@ gt.bell.fish = [
   {
     "name": "Fossiltongue",
     "patch": 3.0,
+    "fishEyes": 1,
     "bait": [
       "Magma Worm",
       "Granite Crab"
@@ -9133,6 +9147,7 @@ gt.bell.fish = [
     "name": "Lavalord",
     "patch": 3.0,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Magma Worm",
       "Granite Crab"
@@ -9163,6 +9178,7 @@ gt.bell.fish = [
     "name": "The Lord of Lords",
     "patch": 3.5,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Magma Worm",
       "Granite Crab"
@@ -9546,6 +9562,7 @@ gt.bell.fish = [
     "name": "Goblin Bass",
     "patch": 3.1,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Brute Leech"
     ],
@@ -9799,6 +9816,7 @@ gt.bell.fish = [
     "name": "Thousand Fin",
     "patch": 3.5,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Brute Leech"
     ],
@@ -9908,6 +9926,7 @@ gt.bell.fish = [
     "name": "Dimorphodon",
     "patch": 3.4,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Giant Crane Fly",
       "Rudderfish"
@@ -10008,6 +10027,7 @@ gt.bell.fish = [
     "name": "Bloodchaser",
     "patch": 3.5,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Giant Crane Fly"
     ],
@@ -11098,6 +11118,7 @@ gt.bell.fish = [
     "name": "Wraithfish",
     "patch": 4.0,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Stonefly Larva"
     ],
@@ -12348,6 +12369,7 @@ gt.bell.fish = [
     "name": "Sculptor",
     "patch": 4.0,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Silkworm",
       "Rock Saltfish"
@@ -13049,6 +13071,7 @@ gt.bell.fish = [
   {
     "name": "Tawny Wench Shark",
     "patch": 4.0,
+    "fishEyes": 1,
     "bait": [
       "Live Shrimp",
       "Ruby Shrimp"
@@ -13365,6 +13388,7 @@ gt.bell.fish = [
     "name": "Swordfish",
     "patch": 4.0,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Blue Bobbit"
     ],
@@ -14398,6 +14422,7 @@ gt.bell.fish = [
     "name": "Silken Koi",
     "patch": 4.0,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Stonefly Larva"
     ],
@@ -14444,6 +14469,7 @@ gt.bell.fish = [
     "name": "Hagoromo Koi",
     "patch": 4.3,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Stonefly Larva"
     ],
@@ -15389,6 +15415,7 @@ gt.bell.fish = [
     "name": "Hak Bitterling",
     "patch": 4.0,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Stonefly Larva"
     ],

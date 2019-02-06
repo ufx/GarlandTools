@@ -1225,6 +1225,25 @@
                         </div>
                     {{?}}
 
+                    {{?it.gardening}}
+                        <div class="gardening subsection collapsible collapsed" data-headername="gardening">
+                            <img src="images/Leveling.png" class="subsection-icon">
+                            <h2 class="pointer">Gardening <span class="right badge">{{=it.gardening.length}}</span></h2>
+
+                            <div class="collapse-toggle">
+                                <p><a href="http://www.ffxivgardening.com/seed-details.php?SeedID={{=it.id}}" target="_blank" class="action-link">Open in ffxivgardening.</a></p>
+                            </div>
+
+                            {{~it.gardening :value:index}}
+                                <div class="block-link line pointer hover-highlight collapse-toggle" data-id="{{=value.id}}" data-type="item">
+                                    <img src="{{=value.icon}}" class="icon small">
+                                    <span class="highlight">{{=value.name}}</span>
+                                    <span class="right">{{=value.right}}</span>
+                                </div>
+                            {{~}}
+                        </div>
+                    {{?}}
+
                     {{?it.fishingSpots}}
                         <div class="fishing subsection collapsible collapsed" data-headername="fishing">
                             <img src="../files/icons/job/FSH.png" class="subsection-icon">

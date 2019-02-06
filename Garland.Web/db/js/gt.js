@@ -2386,6 +2386,13 @@ gt.item = {
             };
         }
 
+        // Gardening
+        if (item.grow)
+            view.gardening = _.union(view.gardening, gt.model.partialList(gt.item, item.grow, function(v) { v.right = 'Grows'; return v; }));
+
+        if (item.seeds)
+            view.gardening = _.union(view.gardening, gt.model.partialList(gt.item, item.seeds, function(v) { v.right = 'Seed'; return v; }));
+
         // Stats
         view.hasStats = (view.fish || view.equip || view.actions || view.bonuses || view.special || view.upgrades
             || view.downgrades || view.sharedModels || view.minion || view.tripletriad || view.mount
@@ -2395,7 +2402,8 @@ gt.item = {
             || view.unlocks || view.usedInQuest || view.ingredient_of || view.loot
             || view.masterpiece || view.supply || view.delivery || view.bingoData || view.other
             || view.satisfaction || view.customize || view.reducedFrom || view.disposal || view.tripletriadReward
-            || view.sell_price || view.supplyReward || (!view.unlistable && !view.untradeable) || view.reducesTo);
+            || view.sell_price || view.supplyReward || (!view.unlistable && !view.untradeable) || view.reducesTo
+            || view.gardening);
 
         return view;
     },

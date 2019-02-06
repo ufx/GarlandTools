@@ -277,7 +277,7 @@ namespace Garland.Data.Modules
                     spot.gatheringReq = int.Parse(gathering);
                 if (snagging != "")
                     spot.snagging = 1;
-                if (fishEyes == "Y")
+                if (fishEyes != "")
                     spot.fishEyes = 1;
 
                 // Add the fish to this gathering point if it's not otherwise there.
