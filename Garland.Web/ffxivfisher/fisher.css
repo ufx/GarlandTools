@@ -1,6 +1,6 @@
 .ff-fisher-root {
     margin: auto;
-    width: 900px;
+    width: 940px;
 }
 
 .ff-fisher-header {
@@ -44,7 +44,7 @@
 }
 
 .ff-fisher-all-fish,.ff-fisher-areas {
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .ff-fisher-areas-container {

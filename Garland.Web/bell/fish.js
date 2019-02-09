@@ -14109,7 +14109,7 @@ gt.bell.fish = [
       "start": 20,
       "end": 24
     },
-    "transition": [
+    "weather": [
       "Clear Skies"
     ],
     "id": 24887,
