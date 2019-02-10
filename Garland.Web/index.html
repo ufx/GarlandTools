@@ -93,26 +93,17 @@
         margin-bottom: 10px;
     }
 
-    #credit a {
+    a.external-link {
         color: #6495ED;
-    }
-
-    #disqus_thread {
-        clear: both;
-    }
-
-    .flag {
-        width: 36px;
-        height: 24px;
-        display: inline-block;
-        vertical-align: bottom;
-        float: right;
-        margin-right: 14px;
-        margin-top: 6px;
     }
 
     .spacer {
         height: 1px;
+    }
+
+    #discord-link img {
+        width: 40px;
+        height: 40px;
     }
 
     @media (max-width: 800px) {
@@ -133,12 +124,6 @@
         #menu .info-wrapper {
             float: none;
             display: inline-block;
-        }
-
-        .flag {
-            float: none;
-            vertical-align: top;
-            margin-left: 14px;
         }
     }
     </style>
@@ -181,18 +166,7 @@
             </div>
         </div>
 
-        <div id="credit">Written by <a href="http://na.finalfantasyxiv.com/lodestone/character/8330449/">Clorifex Ezalor of Zalera</a>.</div>
-
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            var disqus_shortname = 'garlandtools';
-            var disqus_url = 'http://www.garlandtools.org/';
-            
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
+        <div id="credit">Written by <a class="external-link" href="http://na.finalfantasyxiv.com/lodestone/character/8330449/">Clorifex Ezalor of Zalera</a>.</div>
+        <div><a class="external-link" href="https://discord.gg/hfzmApj">Join our Discord!</a></div>
     </div>
 </body>
