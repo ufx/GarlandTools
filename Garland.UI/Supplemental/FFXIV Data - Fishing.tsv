@@ -889,13 +889,13 @@ Daniffen Pass
 Striped Goby												
 Blindfish												
 Lamp Marimo	Chocobo Fly											74
-Abalathian Smelt												
+Abalathian Smelt	Stonefly Nymph											
 Golden Loach												
 Cave Cherax												
 Charon's Lantern	Glowworm	0	4		N/A							269
 The Nail												
 Striped Goby												
-Abalathian Smelt	Honey Worm											
+Abalathian Smelt	Stonefly Nymph											
 Giant Bass												
 Crimson Trout												
 Bronze Lake Trout												
@@ -906,20 +906,20 @@ Starbright	Abalathian Smelt	21	4		Clear Skies, Fair Skies							281
 Dragonhead Latrines												
 Striped Goby												
 Rainbow Trout							Medium					
-Abalathian Smelt												
+Abalathian Smelt	Stonefly Nymph											
 Seema												
 Crimson Trout												
 Kissing Trout												
 Dawn Maiden	Wildfowl Fly	5	7		Clear Skies, Fair Skies							280
 Exploratory Ice Hole												
 Lamp Marimo	Chocobo Fly											74
-Abalathian Smelt	Honey Worm											
+Abalathian Smelt	Stonefly Nymph											
 Northern Pike												
 Kissing Trout												
 The Matriarch	Abalathian Smelt											282
 The Weeping Saint												
 Lamp Marimo	Chocobo Fly											74
-Abalathian Smelt	Honey Worm											
+Abalathian Smelt	Stonefly Nymph											
 Giant Bass												
 Crimson Trout												
 Common Sculpin												
@@ -983,8 +983,8 @@ Dragonspit
 Ogre Horn Snail												
 Cherry Trout												
 Hospitalier Fish												
-Spring Urchin												
-The Impaler	Brute Leech									1		463
+Spring Urchin	Brute Leech									1		
+The Impaler	Brute Leech							Precision		1		463
 South Banepool												
 Abalathian Smelt	Stonefly Nymph											
 Icepick	Goblin Jig							Precision				314
@@ -997,12 +997,12 @@ Mountain Kraken	Brute Leech				N/A						1	459
 Magic Bucket	Brute Leech									1		461
 Captain Nemo	Brute Leech				Blizzards							490
 Ashpool												
-Abalathian Smelt												
+Abalathian Smelt	Stonefly Nymph											
 Ice Faerie	Purse Web Spider											316
-Fanged Clam												
-Lake Urchin												
-Gigant Grouper												
-Battle Galley												
+Fanged Clam	Goblin Jig											
+Lake Urchin	Stonefly Nymph									1		
+Gigant Grouper	Abalathian Smelt											
+Battle Galley	Ice Faerie											
 Northern Oyster	Stonefly Nymph											
 La Reale	Brute Leech											464
 West Banepool												
@@ -1252,7 +1252,7 @@ Yalm Lobster
 Orn Butterfly												
 Tigerfish												
 Gnomefish	Brute Leech				N/A							452
-Madam Butterfly	Hedgemole Cricket	22	3		Clear Skies							481
+Madam Butterfly	Hedgemole Cricket	21	2		Clear Skies							481
 Upper Thaliak River												
 Hedgemole Cricket	Stonefly Nymph											357
 Scholar Sculpin												
@@ -1509,7 +1509,7 @@ Ruby Shrimp	Live Shrimp											545
 Leaf Tatsunoko	Ruby Shrimp											557
 Glass Flounder	Ruby Shrimp											558
 Blackfin Snake Eel	Ruby Shrimp											621
-Swordfish	Blue Bobbit	8	16		Clouds, Wind						1	632
+Swordfish	Blue Bobbit	8	16		Clouds, Wind			Powerful			1	632
 Giant Plesiosaur	Live Shrimp							Powerful				5003
 Argonautica	Ruby Shrimp				Wind							
 Isari												
@@ -1540,7 +1540,7 @@ Doman Crayfish	Nightcrawler											575
 Glarramundi	Suspending Minnow			Fair Skies	Clear Skies							
 Namai												
 Nogoi	Nightcrawler											565
-Hermit's End	Stonefly Larva	20	24	Clear Skies								
+Hermit's End	Stonefly Larva	20	24		Clear Skies							
 The One River (East)												
 Yanxian Koi	Nightcrawler											569
 Longhair Catfish	Suspending Minnow				N/A			Powerful				570
@@ -1620,7 +1620,7 @@ Othardian Trout	Zagas Khaal											576
 Sun Bass	Midge Larva											579
 Hardscale	Suspending Minnow											591
 Sweatfish	Stonefly Larva							Precision				622
-Guppy	Stonefly Larva	16	20		Fair Skies, Clear Skies							
+Guppy	Stonefly Larva	16	20		Clear Skies, Fair Skies							
 Water Fan	Salmon Roe											
 Gigas Catfish	Salmon Roe											
 Greasy Strangler	Salmon Roe											

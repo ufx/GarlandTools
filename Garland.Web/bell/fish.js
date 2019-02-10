@@ -5345,7 +5345,27 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Honey Worm"
+      "Stonefly Nymph"
+    ],
+    "id": 4937,
+    "icon": 2967,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Daniffen Pass",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      13.25,
+      22.8
+    ],
+    "radius": 300,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Abalathian Smelt",
+    "patch": 1.0,
+    "bait": [
+      "Stonefly Nymph"
     ],
     "id": 4937,
     "icon": 2967,
@@ -5365,7 +5385,27 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Honey Worm"
+      "Stonefly Nymph"
+    ],
+    "id": 4937,
+    "icon": 2967,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dragonhead Latrines",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      27.91,
+      16.94
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Abalathian Smelt",
+    "patch": 1.0,
+    "bait": [
+      "Stonefly Nymph"
     ],
     "id": 4937,
     "icon": 2967,
@@ -5385,7 +5425,7 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Honey Worm"
+      "Stonefly Nymph"
     ],
     "id": 4937,
     "icon": 2967,
@@ -5482,6 +5522,26 @@ gt.bell.fish = [
     "zone": "Coerthas Western Highlands"
   },
   {
+    "name": "Abalathian Smelt",
+    "patch": 1.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 4937,
+    "icon": 2967,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Ashpool",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      14.07,
+      15.71
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
     "name": "Charon's Lantern",
     "patch": 2.3,
     "bait": [
@@ -5509,7 +5569,7 @@ gt.bell.fish = [
     "name": "Starbright",
     "patch": 2.3,
     "bait": [
-      "Honey Worm",
+      "Stonefly Nymph",
       "Abalathian Smelt"
     ],
     "during": {
@@ -5566,7 +5626,7 @@ gt.bell.fish = [
     "name": "The Matriarch",
     "patch": 2.3,
     "bait": [
-      "Honey Worm",
+      "Stonefly Nymph",
       "Abalathian Smelt"
     ],
     "id": 7946,
@@ -5587,7 +5647,7 @@ gt.bell.fish = [
     "name": "Darkstar",
     "patch": 2.4,
     "bait": [
-      "Honey Worm",
+      "Stonefly Nymph",
       "Abalathian Smelt"
     ],
     "during": {
@@ -6314,6 +6374,28 @@ gt.bell.fish = [
     "zone": "Coerthas Western Highlands"
   },
   {
+    "name": "Spring Urchin",
+    "patch": 3.0,
+    "snagging": 1,
+    "folklore": 1,
+    "bait": [
+      "Brute Leech"
+    ],
+    "id": 12823,
+    "icon": 7140,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dragonspit",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      8.71,
+      9.72
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
     "name": "The Impaler",
     "patch": 3.3,
     "snagging": 1,
@@ -6321,6 +6403,7 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Precision Hookset",
     "id": 15627,
     "icon": 8553,
     "func": "fish",
@@ -6331,6 +6414,27 @@ gt.bell.fish = [
     "coords": [
       8.71,
       9.72
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Lake Urchin",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12720,
+    "icon": 7140,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Ashpool",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      14.07,
+      15.71
     ],
     "radius": 300,
     "zone": "Coerthas Western Highlands"
@@ -6372,6 +6476,26 @@ gt.bell.fish = [
     "coords": [
       21.78,
       11.33
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Fanged Clam",
+    "patch": 3.0,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12719,
+    "icon": 7139,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Ashpool",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      14.07,
+      15.71
     ],
     "radius": 300,
     "zone": "Coerthas Western Highlands"
@@ -6438,6 +6562,48 @@ gt.bell.fish = [
     "coords": [
       21.78,
       11.33
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Gigant Grouper",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph",
+      "Abalathian Smelt"
+    ],
+    "id": 12748,
+    "icon": 7163,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Ashpool",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      14.07,
+      15.71
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Battle Galley",
+    "patch": 3.0,
+    "bait": [
+      "Purse Web Spider",
+      "Ice Faerie"
+    ],
+    "id": 12817,
+    "icon": 7201,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Ashpool",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      14.07,
+      15.71
     ],
     "radius": 300,
     "zone": "Coerthas Western Highlands"
@@ -9369,8 +9535,8 @@ gt.bell.fish = [
       "Hedgemole Cricket"
     ],
     "during": {
-      "start": 22,
-      "end": 3
+      "start": 21,
+      "end": 2
     },
     "weather": [
       "Clear Skies"
@@ -13400,6 +13566,7 @@ gt.bell.fish = [
       "Clouds",
       "Wind"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20100,
     "icon": 2947,
     "func": "fish",
@@ -15695,8 +15862,8 @@ gt.bell.fish = [
       "end": 20
     },
     "weather": [
-      "Fair Skies",
-      "Clear Skies"
+      "Clear Skies",
+      "Fair Skies"
     ],
     "id": 21178,
     "icon": 11263,
