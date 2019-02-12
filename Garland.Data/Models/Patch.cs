@@ -10,23 +10,25 @@ namespace Garland.Data.Models
 {
     public class Patch
     {
-        public decimal id;
-        public string name;
-        public string series;
+        public decimal Id;
+        public string Name;
+        public string Series;
+
+        public string FormattedId => Id.ToString("0.0", new CultureInfo("en-US", false));
 
         public Patch(decimal idArg, string nameArg, string seriesArg)
         {
-            id = idArg;
-            name = nameArg;
-            series = seriesArg;
+            Id = idArg;
+            Name = nameArg;
+            Series = seriesArg;
         }
 
         public JObject ToJObject()
         {
             return new JObject(
-                new JProperty("id", id.ToString("0.0", new CultureInfo("en-US", false))),
-                new JProperty("name", name),
-                new JProperty("series", series));
+                new JProperty("id", FormattedId),
+                new JProperty("name", Name),
+                new JProperty("series", Series));
         }
     }
 }

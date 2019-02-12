@@ -203,7 +203,7 @@ namespace Garland.Data
 
             foreach (var majorPatch in GarlandDatabase.MajorPatches)
             {
-                var majorPatchEnd = majorPatch.id + .1m;
+                var majorPatchEnd = majorPatch.Id + .1m;
 
                 // Collect data.
                 var idsByTypeByPatch = new Dictionary<decimal, Dictionary<string, List<string>>>();
@@ -211,7 +211,7 @@ namespace Garland.Data
                 {
                     foreach (var idPair in typePair.Value)
                     {
-                        if (idPair.Value < majorPatch.id || idPair.Value >= majorPatchEnd)
+                        if (idPair.Value < majorPatch.Id || idPair.Value >= majorPatchEnd)
                             continue;
 
                         if (!idsByTypeByPatch.TryGetValue(idPair.Value, out var idsByType))
@@ -233,9 +233,9 @@ namespace Garland.Data
                 // Write it out.
                 dynamic root = new JObject();
                 root.patch = new JObject();
-                root.patch.id = majorPatch.id.ToString("0.0", new CultureInfo("en-US", false));
-                root.patch.name = majorPatch.name;
-                root.patch.series = majorPatch.series;
+                root.patch.id = majorPatch.FormattedId;
+                root.patch.name = majorPatch.Name;
+                root.patch.series = majorPatch.Series;
 
                 var patches = new JObject();
                 root.patch.patches = patches;
@@ -261,7 +261,7 @@ namespace Garland.Data
                 }
 
                 var contents = JsonConvert.SerializeObject(root);
-                update.IncludeDocument(majorPatch.id.ToString("0.0", new CultureInfo("en-US", false)), "patch", lang, 2, contents);
+                update.IncludeDocument(majorPatch.FormattedId, "patch", lang, 2, contents);
             }
         }
 

@@ -290,11 +290,11 @@ namespace Garland.Data.Output
 
             // Patches
             core.patch = new JObject();
-            core.patch.current = GarlandDatabase.MajorPatches.Last().id;
+            core.patch.current = GarlandDatabase.MajorPatches.Last().Id;
 
             core.patch.partialIndex = new JObject();
             foreach (var patch in GarlandDatabase.MajorPatches)
-                core.patch.partialIndex.Add(patch.id.ToString("0.0", new CultureInfo("en-US", false)), patch.ToJObject());
+                core.patch.partialIndex.Add(patch.FormattedId, patch.ToJObject());
 
             core.patch.categoryIndex = new JObject();
             foreach (var category in PatchDatabase.ItemPatchCategories)
