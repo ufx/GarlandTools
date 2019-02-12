@@ -158,9 +158,11 @@ namespace Garland.Data.Modules
             _builder.Db.AddLocationReference(2414);
             _builder.Db.AddLocationReference(2462);
             _builder.Db.AddLocationReference(2530);
+            _builder.Db.AddLocationReference(2545);
             locationsById[2414].weatherRate = 91; // fixme: should be auto-filled
             locationsById[2462].weatherRate = 94; // fixme: should be auto-filled
             locationsById[2530].weatherRate = 96; // fixme: should be auto-filled
+            locationsById[2545].weatherRate = 100; // fixme: should be auto-filled
         }
 
         static string ConvertPlaceNameName(Game.PlaceName sPlaceName)

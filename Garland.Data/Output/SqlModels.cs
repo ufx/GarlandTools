@@ -37,7 +37,8 @@ namespace Garland.Data.Output
 
         public static Row ReadFromBatchFile(StreamReader reader)
         {
-            var metadata = reader.ReadLine().Split(' ');
+            var line = reader.ReadLine();
+            var metadata = line.Split(' ');
             var rowType = metadata[0];
             if (rowType == "DataJson")
                 return DataJsonRow.ReadFromBatchFile(metadata, reader);
@@ -79,6 +80,7 @@ namespace Garland.Data.Output
             // Delimiters are handled two ways.  They are:
             // 1. Eliminated for indexing purposes to allow searches to work without them, e.g. Wind-up becomes Windup.
             // 2. Split up to allow both sides of the delimiter to be indexes.  E.g. Mini-Shinryu becomes Mini Shinryu.
+            // 3. Concatenated into one string index.
             //
             // Examples:
             // Mini-Shinryu = MiniShinryu Mini Shinryu

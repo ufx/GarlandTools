@@ -7338,7 +7338,7 @@ gt.equip = {
         { icon: "images/Region Ishgard.png", name: "Ishgard and Surrounds", page: "Ishgard", zones: [62, 63, 2200, 2100, 2101, 2082, 2000, 2001, 2002, 1647] },
         { icon: "images/Region Gyr Abania.png", name: "Gyr Abania", page: "GyrAbania", zones: [2403, 2406, 2407, 2408] },
         { icon: "images/Region Kugane.png", name: "Far East", page: "FarEast", zones: [513, 2412, 2409, 2410, 2411] },
-        { icon: "images/Aetheryte.png", name: "Others", page: "Others", zones: [67, 2414, 2462, 2530] }
+        { icon: "images/Aetheryte.png", name: "Others", page: "Others", zones: [67, 2414, 2462, 2530, 2545] }
     ],
     weatherUpdateKey: null,
     lWeatherStart: null,

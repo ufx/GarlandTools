@@ -54,11 +54,10 @@ namespace Garland.Data.Output
             if (!_hashChanges)
                 return;
 
-            var path = Config.SupplementalPath + "hash-db.txt";
-            DatabaseBuilder.PrintLine($"Writing hashes: {path}");
+            DatabaseBuilder.PrintLine($"Writing hashes: {HashPath}");
 
             var lines = _hashesByPath.Select(kv => kv.Key + "," + kv.Value);
-            File.WriteAllLines(path, lines);
+            File.WriteAllLines(HashPath, lines);
         }
     }
 }

@@ -96,6 +96,8 @@ namespace Garland.Data.Output
 
         public static UpdatePackage Load(string path)
         {
+            Debug.WriteLine($"Loading update package {System.IO.Path.GetFullPath(path)}");
+
             var fileName = System.IO.Path.GetFileName(path);
             var package = new UpdatePackage(fileName);
             package.FileName = fileName;

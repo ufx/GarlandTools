@@ -11953,8 +11953,6 @@
 17528	10904	28729	Wind-up Hraesvelgr
 25018	12880	38582	Bokuto
 25019	12879	34329	Colossus Guillotine
-25020	0	34328	Gigas Greatsword
-25021	0	35766	Tonberry Knife
 17559	9397	25011	Duskfall Moss
 17561	9398	22851	Rainbow Pigment
 17575	10902	52842	Stuffed Sabotender
@@ -15420,8 +15418,6 @@
 25013	12885	30189	Gigas Shield
 25011	12886	43864	Far Eastern Smock
 25010	12887	43865	Ishgardian Gown
-25000	0	49692	Skirt of Light
-24999	0	42628	Gown of Light
 24903	12888	28830	Hedgehoglet
 24902	12889	28829	Abroader Otter
 24892	12890	29547	Garden Skipper
@@ -15442,31 +15438,14 @@
 24860	12905	41869	Blue Lily of the Valley Corsage
 24859	12906	41870	Red Lily of the Valley Corsage
 24799	12907	49204	Seiryu Barding
-24798	0	26283	Mullondeis Coin
 24797	12908	26545	Seiryu Totem
 24796	12909	39901	Azulmagia
-24642	0	28817	Baby Gremlin
 24639	12910	28821	Wind-up Weapon
 24636	12911	28824	Minitek Conveyor
 24634	12912	28827	Seitei
-24615	0	48495	Mameshiba Neckerchief
-24614	0	48728	Mameshiba Earring
-24613	0	48494	Namazu Neckerchief
-24612	0	48727	Namazu Earring
-24607	0	49910	スプリガンブーツ
-24606	0	49697	スプリガンボトム
-24605	0	43858	スプリガンジャケット
-24604	0	49914	Far Eastern Schoolgirl's Boots
-24603	0	43862	Far Eastern Schoolgirl's Hakama
-24602	0	47924	Far Eastern Schoolgirl's Hair Ribbon
-24601	0	46079	Far Eastern Schoolboy's Zori
-24600	0	43863	Far Eastern Schoolboy's Hakama
-24599	0	40930	Far Eastern Schoolboy's Hat
 24593	12913	49911	Rain Boots
 24592	12914	43859	Raincoat
 24591	12915	47923	Rain Hood
-24590	0	47925	Flower Crown
-24589	0	48729	Aetheryte Earring
 24586	12916	49913	True Blue Boots
 24585	12917	49699	True Blue Trousers
 24584	12918	49374	True Blue Gloves
@@ -15497,12 +15476,7 @@
 24539	12943	51244	Black-and-white Interior Wall
 24538	12944	51038	Teal Blue Carpeting
 24536	12945	53168	Botanist's Garden
-24534	0	52970	Season Twelve Lone Wolf Trophy
 24533	12946	52969	Season Eleven Lone Wolf Trophy
-24532	0	52989	Festive Sushi Balls
-24531	0	52988	Festive Chirashi-zushi
-24530	0	52975	Stuffed Mammet
-24529	0	52976	Enormous Stuffed Alpha
 24528	12947	52650	Fat Cat Sofa
 24527	12948	52959	Plush Pile
 24526	12949	52387	Hanging Planter Shelf
@@ -15531,11 +15505,6 @@
 24503	12972	52974	Undersea Spoils
 24502	12973	52973	Bag of Booty
 24501	12974	52392	Small Imitation Window
-24500	0	52965	アルコンエッグス
-24499	0	52991	エッグ・チョコレートケーキ
-24498	0	52990	エッグ・クラウンロースト
-24497	0	52993	Valentione Cake Pairing
-24496	0	52992	Valentione Lobster Platter
 24495	12975	52977	Seiryu Statuette
 24494	12976	52972	Travel Paint Set
 24493	12977	52962	Tier 4 Metal Aquarium
@@ -15685,15 +15654,7 @@
 24089	13121	49615	Elemental Gauntlets of Fending
 24088	13122	43421	Elemental Armor of Fending
 24087	13123	41518	Elemental Helm of Fending
-24025	0	28254	Featherfoot L
-24024	0	28255	Paralyze L
-24022	0	28256	Protect L
-24019	0	28253	Wisdom of the Ordained
-24017	0	28251	Wisdom of the Platebearer
-24015	0	28252	Wisdom of the Aetherweaver
 23997	13124	28811	Wind-up Tifa
-23996	0	28810	Wind-up Aerith
-23995	0	28809	Wind-up Cloud
 23994	13125	28808	Little Yang
 23993	13126	28807	Little Yin
 23873	13127	52938	Opened Twinkleboxes
@@ -15705,7 +15666,6 @@
 23867	13133	52384	Pumpkin Party Pennants
 23861	13134	52943	Season Ten Lone Wolf Trophy
 23858	13135	52648	Odder Otter Round Andon Lamp
-23383	0	22218	Rathalos Scale+
 23310	13136	26543	Whalaqee Off-guard Totem
 23012	13137	49965	Eastern Socialite's Boots
 23011	13138	49829	Eastern Socialite's Skirt
@@ -15719,29 +15679,124 @@
 23003	13146	40910	Mun'gaek Hat
 22747	13147	26058	Soul of the Blue Mage
 22746	13148	39903	Rainmaker
-22614	0	49814	Augmented Rathalos Coil [F]
-22612	0	43407	Augmented Rathalos Mail [F]
-22610	0	47145	Augmented Rathalos Greaves [M]
-22609	0	49815	Augmented Rathalos Coil [M]
-22608	0	49590	Augmented Rathalos Vambraces [M]
-22607	0	43408	Augmented Rathalos Mail [M]
-22606	0	41629	Augmented Rathalos Helm [M]
-22458	0	40299	Crimson Inoshishi Kabuto
-22457	0	40298	Inoshishi Kabuto
-21870	0	52893	Melodious Mogchestrion
-21814	0	52628	Boar's Head Kadomatsu
 21061	13149	28770	Wind-up Ramza
-20562	0	49174	Oriental Barding
-20467	0	44979	Red Gloves
-20028	0	29461	Samurai Fish
 17553	13150	26554	Orphanage Donation
 17551	13151	26553	Maelstrom Materiel
 17550	13152	26551	Coerthan Souvenir
 17549	13153	26552	Near Eastern Antique
-17495	0	48683	Paissa Earring
-17470	0	43647	Inferno Jacket
-15955	0	53140	Oasis Chocobo Stable
-15954	0	53139	Glade Chocobo Stable
-15953	0	53138	Riviera Chocobo Stable
-15449	0	28711	Taoist Moogle
 15144	13154	52651	Washbasin
+25021	0	35766	Tonberry Knife
+25020	0	34328	Gigas Greatsword
+25000	0	49692	Skirt of Light
+24999	0	42628	Gown of Light
+24998	13155	31972	Absolute Lance
+24997	13156	38580	Shin-Zantetsuken
+24996	13157	34326	Great Shin-Zantetsuken
+24907	13158	26542	Aetheric Stabilizer
+24904	13159	20968	Aetherially Conductive Plate
+24858	13160	31973	Penthesilea's Spear
+24857	13161	33115	Shantotto's Staff
+24855	13162	42627	Vermilion Cloak of Casting
+24850	13163	43431	Kirin's Osode of Fending
+24808	13164	26544	Eureka Fragment
+24807	13165	20037	Hydatos Crystal
+24806	13166	22265	Crystalline Scale
+24798	13167	26283	Mullondeis Coin
+24757	0	49907	Elemental Shoes of Casting +1
+24756	0	49896	Elemental Bottoms of Casting +1
+24755	0	49367	Elemental Gloves of Casting +1
+24754	0	42625	Elemental Coat of Casting +1
+24753	0	41645	Elemental Circlet of Casting +1
+24752	0	49908	Elemental Shoes of Healing +1
+24751	0	49898	Elemental Bottoms of Healing +1
+24750	0	49368	Elemental Gloves of Healing +1
+24749	0	42626	Elemental Coat of Healing +1
+24748	0	41646	Elemental Circlet of Healing +1
+24747	0	47178	Elemental Boots of Scouting +1
+24746	0	49695	Elemental Breeches of Scouting +1
+24745	0	49371	Elemental Gloves of Scouting +1
+24744	0	43856	Elemental Jacket of Scouting +1
+24743	0	41647	Elemental Circlet of Scouting +1
+24742	0	47177	Elemental Boots of Aiming +1
+24741	0	49694	Elemental Breeches of Aiming +1
+24740	0	49370	Elemental Gloves of Aiming +1
+24739	0	43855	Elemental Jacket of Aiming +1
+24738	0	40928	Elemental Hat of Aiming +1
+24737	0	47176	Elemental Boots of Striking +1
+24736	0	49693	Elemental Breeches of Striking +1
+24735	0	49369	Elemental Gloves of Striking +1
+24734	0	43854	Elemental Jacket of Striking +1
+24733	0	40927	Elemental Hat of Striking +1
+24732	0	47175	Elemental Shoes of Maiming +1
+24731	0	49899	Elemental Trousers of Maiming +1
+24730	0	49622	Elemental Gauntlets of Maiming +1
+24729	0	43430	Elemental Armor of Maiming +1
+24728	0	41525	Elemental Helm of Maiming +1
+24727	0	47174	Elemental Shoes of Fending +1
+24726	0	49897	Elemental Trousers of Fending +1
+24725	0	49621	Elemental Gauntlets of Fending +1
+24724	0	43429	Elemental Armor of Fending +1
+24723	0	41524	Elemental Helm of Fending +1
+24706	0	30188	Bellerophon Eureka
+24705	0	38881	Brunello Eureka
+24704	0	38581	Torigashira Eureka
+24703	0	34923	Albireo Eureka
+24702	0	39456	Jebat Eureka
+24701	0	39457	Tuah Eureka
+24700	0	33116	Paikea Eureka
+24699	0	32747	Rose Couverte Eureka
+24698	0	39724	Mollfrith Eureka
+24697	0	34327	Xiphias Eureka
+24696	0	33950	Kasasagi Eureka
+24695	0	32363	Circinae Eureka
+24694	0	31974	Daboya Eureka
+24693	0	31572	Shamash Eureka
+24692	0	31164	Dumuzis Eureka
+24691	0	30598	Antea Eureka
+24690	0	30186	Bellerophon
+24689	0	38879	Brunello
+24688	0	38578	Torigashira
+24687	0	34921	Albireo
+24686	0	39452	Jebat
+24685	0	39453	Tuah
+24684	0	33113	Paikea
+24683	0	32745	Rose Couverte
+24682	0	39722	Mollfrith
+24681	0	34324	Xiphias
+24680	0	33948	Kasasagi
+24679	0	32361	Circinae
+24678	0	31970	Daboya
+24677	0	31570	Shamash
+24676	0	31162	Dumuzis
+24675	0	30596	Antea
+24642	0	28817	Baby Gremlin
+24640	13168	28819	Yukinko Snowflake
+24635	13169	28818	Conditional Virtue
+24626	13170	26060	Demi-Ozma
+24615	0	48495	Mameshiba Neckerchief
+24614	0	48728	Mameshiba Earring
+24613	0	48494	Namazu Neckerchief
+24612	0	48727	Namazu Earring
+24607	0	49910	Spriggan Boots
+24606	0	49697	Spriggan Bottoms
+24605	0	43858	Spriggan Jacket
+24604	0	49914	Far Eastern Schoolgirl's Boots
+24603	0	43862	Far Eastern Schoolgirl's Hakama
+24602	0	47924	Far Eastern Schoolgirl's Hair Ribbon
+24601	0	46079	Far Eastern Schoolboy's Zori
+24600	0	43863	Far Eastern Schoolboy's Hakama
+24599	0	40930	Far Eastern Schoolboy's Hat
+24590	0	47925	Flower Crown
+24589	0	48729	Aetheryte Earring
+24535	13171	53169	Simple Treehouse
+24534	13172	52970	Season Twelve Lone Wolf Trophy
+24532	0	52989	Festive Sushi Balls
+24531	0	52988	Festive Chirashi-zushi
+24530	0	52975	Stuffed Mammet
+24529	0	52976	Enormous Stuffed Alpha
+24500	0	52965	Archon Egg Pile
+24499	0	52991	Eggcentric Chocolate Cake
+24498	0	52990	Eggcentric Crown Roast
+24497	0	52993	Valentione Cake Pairing
+24496	0	52992	Valentione Lobster Platter
+24488	13173	52984	Paissa Chronometer

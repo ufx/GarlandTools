@@ -88,6 +88,7 @@ namespace Garland.Data
             return str.ToString()
                 .Replace("", "") // Down arrow
                 .Replace("", "") // X mark
+                .Replace("\r\n", "")
                 .TrimStart();
         }
 
