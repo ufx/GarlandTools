@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -232,7 +233,7 @@ namespace Garland.Data
                 // Write it out.
                 dynamic root = new JObject();
                 root.patch = new JObject();
-                root.patch.id = majorPatch.id.ToString("0.0");
+                root.patch.id = majorPatch.id.ToString("0.0", new CultureInfo("en-US", false));
                 root.patch.name = majorPatch.name;
                 root.patch.series = majorPatch.series;
 
@@ -255,12 +256,12 @@ namespace Garland.Data
                     }
 
                     var patchKey = patchPair.Key;
-                    var patchKeyStr = Math.Floor(patchKey) == patchKey ? patchPair.Key.ToString("0.0") : patchPair.Key.ToString();
+                    var patchKeyStr = Math.Floor(patchKey) == patchKey ? patchPair.Key.ToString("0.0", new CultureInfo("en-US", false)) : patchPair.Key.ToString();
                     patches[patchKeyStr] = patch;
                 }
 
                 var contents = JsonConvert.SerializeObject(root);
-                update.IncludeDocument(majorPatch.id.ToString("0.0"), "patch", lang, 2, contents);
+                update.IncludeDocument(majorPatch.id.ToString("0.0", new CultureInfo("en-US", false)), "patch", lang, 2, contents);
             }
         }
 

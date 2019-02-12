@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -293,7 +294,7 @@ namespace Garland.Data.Output
 
             core.patch.partialIndex = new JObject();
             foreach (var patch in GarlandDatabase.MajorPatches)
-                core.patch.partialIndex.Add(patch.id.ToString("0.0"), patch.ToJObject());
+                core.patch.partialIndex.Add(patch.id.ToString("0.0", new CultureInfo("en-US", false)), patch.ToJObject());
 
             core.patch.categoryIndex = new JObject();
             foreach (var category in PatchDatabase.ItemPatchCategories)

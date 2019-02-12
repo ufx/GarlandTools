@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,7 +24,7 @@ namespace Garland.Data.Models
         public JObject ToJObject()
         {
             return new JObject(
-                new JProperty("id", id.ToString("0.0")),
+                new JProperty("id", id.ToString("0.0", new CultureInfo("en-US", false))),
                 new JProperty("name", name),
                 new JProperty("series", series));
         }
