@@ -11,45 +11,64 @@ namespace Garland.Data.Modules
 {
     public class Mobs : Module
     {
-        Dictionary<int, List<Libra.BNpcName>> _lBNpcNamesByBaseKey = new Dictionary<int, List<Libra.BNpcName>>();
+        Dictionary<int, List<BNpcData>> _bnpcDataByBaseKey = new Dictionary<int, List<BNpcData>>();
 
         public override string Name => "Mobs";
 
-        void IndexLibraMobs()
+        void IndexLibraData()
         {
             foreach (var lBNpcName in _builder.Libra.Table<Libra.BNpcName>())
             {
-                //var key = (int)(libraMob.Key % 10000000000);
+                var nameKey = (int)(lBNpcName.Key % 10000000000);
                 var baseKey = (int)(lBNpcName.Key / 10000000000);
 
-                // Can't be more than one name per BNpcBase right?
-                if (!_lBNpcNamesByBaseKey.TryGetValue(baseKey, out var lBNpcNames))
+                if (!_bnpcDataByBaseKey.TryGetValue(baseKey, out var bnpcDataList))
                 {
-                    lBNpcNames = new List<Libra.BNpcName>();
-                    _lBNpcNamesByBaseKey[baseKey] = lBNpcNames;
+                    bnpcDataList = new List<BNpcData>();
+                    _bnpcDataByBaseKey[baseKey] = bnpcDataList;
                 }
 
-                lBNpcNames.Add(lBNpcName);
+                var bnpcData = new BNpcData();
+                bnpcData.BNpcBaseKey = baseKey;
+                bnpcData.BNpcNameKey = nameKey;
+
+                dynamic data = JsonConvert.DeserializeObject((string)lBNpcName.data);
+                if (data.nonpop != null)
+                    bnpcData.HasSpecialSpawnRules = true;
+
+                if (data.region != null)
+                {
+                    var area = Utils.GetPair(data.region);
+                    var zone = Utils.GetPair(area.Value);
+                    var levelRange = (JArray)zone.Value;
+
+                    var location = new BNpcLocation();
+                    location.TerritoryTypeKey = int.Parse(zone.Key);
+                    location.LevelRange = string.Join(" - ", levelRange.Select(v => (string)v));
+                    bnpcData.Locations.Add(location);
+                }
+
+                bnpcDataList.Add(bnpcData);
             }
         }
 
         public override void Start()
         {
-            IndexLibraMobs();
+            IndexLibraData();
 
             var sBNpcNames = _builder.Sheet<Saint.BNpcName>();
 
             foreach (var sBNpcBase in _builder.Sheet<Saint.BNpcBase>())
             {
-                if (!_lBNpcNamesByBaseKey.TryGetValue(sBNpcBase.Key, out var lBNpcNames))
+                if (!_bnpcDataByBaseKey.TryGetValue(sBNpcBase.Key, out var bnpcDataList))
                     continue;
 
                 // No unnamed mobs right now.  Need to figure out how to fit
                 // them in the base key - name key id structure.
 
-                foreach (var lBNpcName in lBNpcNames)
+                foreach (var bnpcData in bnpcDataList)
                 {
-                    var sBNpcName = sBNpcNames[(int)(lBNpcName.Key % 10000000000)];
+                    var sBNpcName = sBNpcNames[bnpcData.BNpcNameKey];
                     var fullKey = (sBNpcBase.Key * 10000000000) + sBNpcName.Key;
 
                     dynamic mob = new JObject();
@@ -57,22 +76,23 @@ namespace Garland.Data.Modules
 
                     _builder.Localize.Column((JObject)mob, sBNpcName, "Singular", "name", Utils.CapitalizeWords);
 
-                    // defunct, renamed to mob-old
-                    //mob.patch = PatchDatabase.Get("mob-old", (int)libraNpc.Key);
-
-                    dynamic data = JsonConvert.DeserializeObject((string)lBNpcName.data);
-                    if (data.nonpop != null)
+                    if (bnpcData.HasSpecialSpawnRules)
                         mob.quest = 1;
 
-                    if (data.region != null)
+                    foreach (var location in bnpcData.Locations)
                     {
-                        var area = Utils.GetPair(data.region);
-                        var zone = Utils.GetPair(area.Value);
-                        mob.zoneid = int.Parse(zone.Key);
-                        _builder.Db.AddLocationReference((int)mob.zoneid);
+                        // fixme: Store in a location range.
 
-                        var levelRange = (JArray)zone.Value;
-                        mob.lvl = string.Join(" - ", levelRange.Select(v => (string)v));
+                        if (location.Radius != 0)
+                        {
+                            // todo: coordinates
+                        }
+
+                        mob.zoneid = location.TerritoryTypeKey;
+                        _builder.Db.AddLocationReference(location.TerritoryTypeKey);
+
+                        // Technically level ranges are per-location, but for now the last range wins.
+                        mob.lvl = location.LevelRange;
                     }
 
                     if (_builder.ItemDropsByMobId.TryGetValue(fullKey, out var itemDropIds))
@@ -103,6 +123,24 @@ namespace Garland.Data.Modules
                     _builder.Db.Mobs.Add(mob);
                 }
             }
+        }
+
+        class BNpcData
+        {
+            public int BNpcBaseKey;
+            public int BNpcNameKey;
+            public bool HasSpecialSpawnRules;
+            public List<BNpcLocation> Locations = new List<BNpcLocation>();
+        }
+
+        class BNpcLocation
+        {
+            public int TerritoryTypeKey;
+            public float X;
+            public float Y;
+            public float Z;
+            public float Radius;
+            public string LevelRange;
         }
     }
 }
