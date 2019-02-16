@@ -81,7 +81,6 @@ namespace Garland.Data
         public Dictionary<int, dynamic> NpcsById = new Dictionary<int, dynamic>();
         public Dictionary<int, dynamic> LeveRewardsById = new Dictionary<int, dynamic>();
         public Dictionary<int, dynamic> InstancesById = new Dictionary<int, dynamic>();
-        public Dictionary<int, dynamic> MobsById = new Dictionary<int, dynamic>();
         public Dictionary<int, dynamic> ActionsById = new Dictionary<int, dynamic>();
         public Dictionary<int, dynamic> FishingSpotsById = new Dictionary<int, dynamic>();
         public Dictionary<int, dynamic> QuestsById = new Dictionary<int, dynamic>();

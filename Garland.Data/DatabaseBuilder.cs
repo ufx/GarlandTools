@@ -23,8 +23,8 @@ namespace Garland.Data
         static Dictionary<long, JArray> _bossCurrency = new Dictionary<long, JArray>();
         static Dictionary<int, Libra.ENpcResident> _libraNpcIndex;
 
-        public Dictionary<long, List<int>> ItemDropsByLibraMobId = new Dictionary<long, List<int>>();
-        public Dictionary<long, int> InstanceIdsByLibraMobId = new Dictionary<long, int>();
+        public Dictionary<long, List<int>> ItemDropsByMobId = new Dictionary<long, List<int>>();
+        public Dictionary<long, int> InstanceIdsByMobId = new Dictionary<long, int>();
         public int[] TomestoneIds = new int[3];
         #endregion
 
@@ -310,7 +310,7 @@ namespace Garland.Data
             return npc;
         }
 
-        public void AddBossCurrency(int amount, int currencyId, long mob)
+        public void AddBossCurrency(int amount, int currencyId, long mobId)
         {
             if (amount == 0)
                 return;
@@ -318,10 +318,10 @@ namespace Garland.Data
             if (currencyId == 0)
                 throw new ArgumentException("Bad currencyId", "currencyId");
 
-            if (!_bossCurrency.TryGetValue(mob, out var list))
+            if (!_bossCurrency.TryGetValue(mobId, out var list))
             {
                 list = new JArray();
-                _bossCurrency[mob] = list;
+                _bossCurrency[mobId] = list;
             }
 
             dynamic obj = new JObject();
@@ -330,11 +330,9 @@ namespace Garland.Data
             list.Add(obj);
         }
 
-        public JArray GetBossCurrency(long mobKey)
+        public JArray GetBossCurrency(long mobId)
         {
-            if (_bossCurrency.ContainsKey(mobKey))
-                return _bossCurrency[mobKey];
-            return null;
+            return _bossCurrency.TryGetValue(mobId, out var result) ? result : null;
         }
 
         public dynamic CreateItem(object id)

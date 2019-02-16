@@ -5,26 +5,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Saint = SaintCoinach.Xiv;
 
 namespace Garland.Data.Modules
 {
     public class Mobs : Module
     {
-        Dictionary<int, List<Libra.BNpcName>> _libraMobsByGameKey = new Dictionary<int, List<Libra.BNpcName>>();
+        Dictionary<int, List<Libra.BNpcName>> _lBNpcNamesByBaseKey = new Dictionary<int, List<Libra.BNpcName>>();
 
         public override string Name => "Mobs";
 
         void IndexLibraMobs()
         {
-            foreach (var libraMob in _builder.Libra.Table<Libra.BNpcName>())
+            foreach (var lBNpcName in _builder.Libra.Table<Libra.BNpcName>())
             {
-                var key = (int)(libraMob.Key % 1000000);
-                if (!_libraMobsByGameKey.TryGetValue(key, out var mobs))
+                //var key = (int)(libraMob.Key % 10000000000);
+                var baseKey = (int)(lBNpcName.Key / 10000000000);
+
+                // Can't be more than one name per BNpcBase right?
+                if (!_lBNpcNamesByBaseKey.TryGetValue(baseKey, out var lBNpcNames))
                 {
-                    mobs = new List<Libra.BNpcName>();
-                    _libraMobsByGameKey[key] = mobs;
+                    lBNpcNames = new List<Libra.BNpcName>();
+                    _lBNpcNamesByBaseKey[baseKey] = lBNpcNames;
                 }
-                mobs.Add(libraMob);
+
+                lBNpcNames.Add(lBNpcName);
             }
         }
 
@@ -32,32 +37,28 @@ namespace Garland.Data.Modules
         {
             IndexLibraMobs();
 
-            foreach (var sBNpcName in _builder.Sheet<SaintCoinach.Xiv.BNpcName>())
+            var sBNpcNames = _builder.Sheet<Saint.BNpcName>();
+
+            foreach (var sBNpcBase in _builder.Sheet<Saint.BNpcBase>())
             {
-                if (!_libraMobsByGameKey.TryGetValue(sBNpcName.Key, out var lBNpcNames))
+                if (!_lBNpcNamesByBaseKey.TryGetValue(sBNpcBase.Key, out var lBNpcNames))
                     continue;
+
+                // No unnamed mobs right now.  Need to figure out how to fit
+                // them in the base key - name key id structure.
 
                 foreach (var lBNpcName in lBNpcNames)
                 {
-                    var hasDrops = _builder.ItemDropsByLibraMobId.TryGetValue(lBNpcName.Key, out var itemDropIds);
-                    var hasInstance = _builder.InstanceIdsByLibraMobId.TryGetValue(lBNpcName.Key, out var instanceId);
-                    if (!hasDrops && !hasInstance)
-                        continue;
-
-                    // fixme: Restructure mobs so they have a single game key, plus
-                    // a list of locations and instances where item drops occur.
+                    var sBNpcName = sBNpcNames[(int)(lBNpcName.Key % 10000000000)];
+                    var fullKey = (sBNpcBase.Key * 10000000000) + sBNpcName.Key;
 
                     dynamic mob = new JObject();
-                    mob.id = lBNpcName.Key;
-                    mob.en = new JObject();
-                    mob.en.name = lBNpcName.Index_en;
-                    mob.fr = new JObject();
-                    mob.fr.name = lBNpcName.Index_fr;
-                    mob.de = new JObject();
-                    mob.de.name = lBNpcName.Index_de;
-                    mob.ja = new JObject();
-                    mob.ja.name = lBNpcName.Index_ja;
-                    //mob.patch = PatchDatabase.Get("mob", (int)libraNpc.Key);
+                    mob.id = fullKey;
+
+                    _builder.Localize.Column((JObject)mob, sBNpcName, "Singular", "name", Utils.CapitalizeWords);
+
+                    // defunct, renamed to mob-old
+                    //mob.patch = PatchDatabase.Get("mob-old", (int)libraNpc.Key);
 
                     dynamic data = JsonConvert.DeserializeObject((string)lBNpcName.data);
                     if (data.nonpop != null)
@@ -74,27 +75,32 @@ namespace Garland.Data.Modules
                         mob.lvl = string.Join(" - ", levelRange.Select(v => (string)v));
                     }
 
-                    if (hasDrops)
+                    if (_builder.ItemDropsByMobId.TryGetValue(fullKey, out var itemDropIds))
                     {
                         mob.drops = new JArray(itemDropIds);
                         _builder.Db.AddReference(mob, "item", itemDropIds, false);
                         foreach (var itemId in itemDropIds)
-                            _builder.Db.AddReference(_builder.Db.ItemsById[itemId], "mob", lBNpcName.Key.ToString(), true);
+                            _builder.Db.AddReference(_builder.Db.ItemsById[itemId], "mob", fullKey.ToString(), true);
                     }
 
-                    if (hasInstance)
+                    if (_builder.InstanceIdsByMobId.TryGetValue(fullKey, out var instanceId))
                     {
                         mob.instance = instanceId;
                         _builder.Db.AddReference(mob, "instance", instanceId, false);
-                        _builder.Db.AddReference(_builder.Db.InstancesById[instanceId], "mob", lBNpcName.Key.ToString(), false);
+                        _builder.Db.AddReference(_builder.Db.InstancesById[instanceId], "mob", fullKey.ToString(), false);
                     }
 
-                    var currency = _builder.GetBossCurrency(sBNpcName.Key);
+                    var currency = _builder.GetBossCurrency(fullKey);
                     if (currency != null)
                         mob.currency = currency;
 
+                    // todo: modelchara info
+                    // todo: NpcEquip for equipment
+                    // todo: BNpcCustomize for appearance
+                    // todo: link all other mobs with this appearance
+                    // todo: link all other mobs with this name
+
                     _builder.Db.Mobs.Add(mob);
-                    _builder.Db.MobsById[sBNpcName.Key] = mob;
                 }
             }
         }

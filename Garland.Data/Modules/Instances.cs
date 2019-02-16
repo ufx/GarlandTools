@@ -144,7 +144,7 @@ namespace Garland.Data.Modules
                     
                     foreach (var sBoss in sFight.PrimaryBNpcs)
                     {
-                        _builder.InstanceIdsByLibraMobId[sBoss.Key] = sInstanceContent.Key;
+                        _builder.InstanceIdsByMobId[sBoss.Key] = sInstanceContent.Key;
 
                         if (!mobs.Any(b => ((long)b) == sBoss.Key))
                         {
@@ -152,10 +152,10 @@ namespace Garland.Data.Modules
                             mobs.Add(sBoss.Key);
                         }
 
-                        if (!_builder.ItemDropsByLibraMobId.TryGetValue(sBoss.Key, out var itemIds))
+                        if (!_builder.ItemDropsByMobId.TryGetValue(sBoss.Key, out var itemIds))
                         {
                             itemIds = new List<int>();
-                            _builder.ItemDropsByLibraMobId[sBoss.Key] = itemIds;
+                            _builder.ItemDropsByMobId[sBoss.Key] = itemIds;
                         }
 
                         foreach (var sTreasureItem in sFight.Treasures.SelectMany(t => t.Items))

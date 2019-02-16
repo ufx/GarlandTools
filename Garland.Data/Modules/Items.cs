@@ -140,10 +140,10 @@ namespace Garland.Data.Modules
                         {
                             mobIds.Add(mob);
 
-                            if (!_builder.ItemDropsByLibraMobId.TryGetValue(mob, out var itemIds))
+                            if (!_builder.ItemDropsByMobId.TryGetValue(mob, out var itemIds))
                             {
                                 itemIds = new List<int>();
-                                _builder.ItemDropsByLibraMobId[mob] = itemIds;
+                                _builder.ItemDropsByMobId[mob] = itemIds;
                             }
                             itemIds.Add(sItem.Key);
                         }
