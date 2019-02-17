@@ -69,7 +69,7 @@ namespace Garland.UI.ViewModels
             PrettyJsonUpdated = JsonConvert.SerializeObject(updatedObject, Formatting.Indented);
 
             // Retrieve the original JSON for this object.
-            Task.Run(() => Database.WithConnection(c => SetOriginalJsonDiff(c)));
+            Task.Run(() => SqlDatabase.WithConnection(Config.ConnectionString, c => SetOriginalJsonDiff(c)));
         }
 
         void SetOriginalJsonDiff(MySqlConnection conn)
@@ -79,14 +79,14 @@ namespace Garland.UI.ViewModels
             if (SelectedRow is DataJsonRow)
             {
                 var sql = $"SELECT Json FROM DataJson WHERE Id = '{SelectedRow.Id}' AND Type = '{SelectedRow.Type}' AND Lang = '{SelectedRow.Lang}' ORDER BY Version DESC LIMIT 1";
-                json = (string)Database.ExecuteScalar(conn, sql);
+                json = (string)SqlDatabase.ExecuteScalar(conn, sql);
                 if (json == null)
                     errorMessage = "File does not exist.";
             }
             else if (SelectedRow is SearchRow)
             {
                 var sql = $"SELECT Json FROM Search WHERE Id = '{SelectedRow.Id}' AND Type = '{SelectedRow.Type}' AND Lang = '{SelectedRow.Lang}' LIMIT 1";
-                json = (string)Database.ExecuteScalar(conn, sql);
+                json = (string)SqlDatabase.ExecuteScalar(conn, sql);
                 if (json == null)
                     errorMessage = "Search does not exist.";
             }

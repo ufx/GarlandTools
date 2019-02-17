@@ -146,6 +146,7 @@
     <Compile Include="PatchDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RenderCapture.cs" />
+    <Compile Include="SqlDatabase.cs" />
     <Compile Include="SQLite.cs" />
     <Compile Include="Statistics\CraftsByItemLevel.cs" />
     <Compile Include="Statistics\RareItemsFromCheapDesynth.cs" />

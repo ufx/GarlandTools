@@ -80,7 +80,7 @@ namespace Garland.UI.Views
         {
             Task.Run(() =>
             {
-                Database.WithConnection(c => _model.SelectedUpdatePackage.Run(DatabaseBuilder.Printer, c));
+                SqlDatabase.WithConnection(Config.ConnectionString, c => _model.SelectedUpdatePackage.Run(DatabaseBuilder.Printer, c));
             });
         }
 

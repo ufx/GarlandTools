@@ -778,6 +778,8 @@ namespace Garland.Data.Output
 
         void CombinePartials(List<JsPartial> main, List<JsPartial> supplement)
         {
+            // todo: make partials list a dictionary for faster lookups.
+
             if (supplement == null)
                 return;
 

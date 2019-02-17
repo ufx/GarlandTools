@@ -101,15 +101,15 @@ namespace Garland.UI
 
             Task.Run(() =>
             {
-                Database.WithConnection(c =>
+                SqlDatabase.WithConnection(Config.ConnectionString, c =>
                 {
                     _printer.PrintLine("Deploying test data to production.");
 
                     var sql = "REPLACE INTO DataJson (Id, Type, Lang, Version, Json) SELECT Id, Type, Lang, Version, Json FROM DataJsonTest";
-                    var rowsAffected = Database.ExecuteNonQuery(c, sql);
+                    var rowsAffected = SqlDatabase.ExecuteNonQuery(c, sql);
                     _printer.PrintLine($"Deployed {rowsAffected} records.");
 
-                    Database.ExecuteNonQuery(c, "DELETE FROM DataJsonTest");
+                    SqlDatabase.ExecuteNonQuery(c, "DELETE FROM DataJsonTest");
                 });
             });
         }

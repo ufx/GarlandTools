@@ -108,7 +108,6 @@
     <Compile Include="Views\BrowserBehavior.cs" />
     <Compile Include="Commands\CommandBase.cs" />
     <Compile Include="Commands\DelegateCommand.cs" />
-    <Compile Include="Database.cs" />
     <Compile Include="External\DiffMatchPatch.cs" />
     <Compile Include="ObservableBase.cs" />
     <Compile Include="Settings.cs" />

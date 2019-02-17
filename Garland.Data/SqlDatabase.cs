@@ -1,18 +1,17 @@
-﻿using Garland.Data;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Garland.UI
+namespace Garland.Data
 {
-    public static class Database
+    public static class SqlDatabase
     {
-        public static void WithConnection(Action<MySqlConnection> action)
+        public static void WithConnection(string connectionString, Action<MySqlConnection> action)
         {
-            using (var conn = new MySqlConnection(Config.ConnectionString))
+            using (var conn = new MySqlConnection(connectionString))
             {
                 try
                 {
@@ -20,7 +19,7 @@ namespace Garland.UI
                 }
                 catch (MySqlException ex)
                 {
-                    Data.DatabaseBuilder.Printer.PrintLine(ex.Message);
+                    DatabaseBuilder.Printer.PrintLine(ex.Message);
                     return;
                 }
 
