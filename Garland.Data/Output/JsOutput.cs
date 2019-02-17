@@ -193,7 +193,7 @@ namespace Garland.Data.Output
                 if (mob.zoneid != null)
                     partial.z = mob.zoneid;
                 if (mob.instance != null)
-                    partial.t = _db.InstancesById[(int)mob.instance].name;
+                    partial.t = (string)_db.InstancesById[(int)mob.instance][lang]["name"];
 
                 mobs[(string)mob.id] = partial;
             }

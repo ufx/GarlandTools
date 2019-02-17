@@ -123,10 +123,10 @@ namespace Garland.UI.ViewModels
                 OnPropertyChanged("SelectedUpdatePackage");
                 OnPropertyChanged("SelectedUpdatePackageRows");
 
-                if (value == null || value.Rows.Count == 0)
+                if (value == null || value.RowCount == 0)
                     SelectedRow = null;
                 else
-                    SelectedRow = value.Rows.First();
+                    SelectedRow = value.OrderedRows().First();
             }
         }
 
@@ -138,9 +138,9 @@ namespace Garland.UI.ViewModels
                     return null;
 
                 if (string.IsNullOrEmpty(_packageSearchText))
-                    return _selectedUpdatePackage.Rows;
+                    return _selectedUpdatePackage.OrderedRows();
 
-                return _selectedUpdatePackage.Rows.Where(r => r.Json.Contains(_packageSearchText));
+                return _selectedUpdatePackage.OrderedRows().Where(r => r.Json.Contains(_packageSearchText));
             }
         }
 

@@ -166,15 +166,15 @@ namespace Garland.UI
             var sqlout = new SearchOutput(jsout, searchUpdate);
             sqlout.Write();
 
-            if (dataUpdate.Rows.Count > 0)
+            if (dataUpdate.RowCount > 0)
             {
-                DatabaseBuilder.PrintLine($"Updating {dataUpdate.Rows.Count} data rows.");
+                DatabaseBuilder.PrintLine($"Updating {dataUpdate.RowCount} data rows.");
                 dataUpdate.Write();
             }
 
-            if (searchUpdate.Rows.Count > 0)
+            if (searchUpdate.RowCount > 0)
             {
-                DatabaseBuilder.PrintLine($"Updating {searchUpdate.Rows.Count} data rows.");
+                DatabaseBuilder.PrintLine($"Updating {searchUpdate.RowCount} data rows.");
                 searchUpdate.Write();
             }
 
@@ -192,7 +192,7 @@ namespace Garland.UI
 
             var zip = new Ionic.Zip.ZipFile("export.zip");
             zip.UseZip64WhenSaving = Ionic.Zip.Zip64Option.Always;
-            foreach (var row in update.Rows.OfType<DataJsonRow>())
+            foreach (var row in update.OrderedRows().OfType<DataJsonRow>())
             {
                 var path = $"{row.Lang}\\{row.Type}\\{row.Id}.json";
                 zip.AddEntry(path, row.Json, Encoding.UTF8);

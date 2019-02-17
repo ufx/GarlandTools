@@ -17,11 +17,22 @@ namespace Garland.Data.Output
 
         ConcurrentBag<Row> _rows = new ConcurrentBag<Row>();
         string _name;
+        static Dictionary<string, byte> _languageSort = new Dictionary<string, byte>();
 
         public string FileName { get; private set; }
         public string Path { get; private set; }
         public DateTime? LastRun { get; private set; }
         public bool IncludeAll { get; set; }
+
+        static UpdatePackage()
+        {
+            _languageSort["en"] = 1;
+            _languageSort["de"] = 2;
+            _languageSort["fr"] = 3;
+            _languageSort["jp"] = 4;
+            _languageSort["kr"] = 5;
+            _languageSort["cn"] = 6;
+        }
 
         public UpdatePackage(string name)
         {
@@ -46,7 +57,7 @@ namespace Garland.Data.Output
             var packageSize = 0;
             var batch = new List<Row>();
 
-            foreach (var row in _rows)
+            foreach (var row in OrderedRows())
             {
                 if (packageSize > PackageSizeLimit)
                 {
@@ -61,6 +72,22 @@ namespace Garland.Data.Output
 
             if (batch.Count > 0)
                 WriteUpdatePackageBatch(batch.ToArray());
+        }
+
+        public IOrderedEnumerable<Row> OrderedRows()
+        {
+            var languageSort = new Dictionary<string, byte>();
+            languageSort["en"] = 1;
+            languageSort["de"] = 2;
+            languageSort["fr"] = 3;
+            languageSort["ja"] = 4;
+            languageSort["kr"] = 5;
+            languageSort["cn"] = 6;
+
+            return _rows
+                .OrderBy(r => languageSort[r.Lang])
+                .ThenBy(r => r.Type)
+                .ThenBy(r => r.Id);
         }
 
         void WriteUpdatePackageBatch(Row[] batch)
@@ -179,7 +206,7 @@ namespace Garland.Data.Output
             cmd.ExecuteNonQuery();
         }
 
-        public ConcurrentBag<Row> Rows => _rows;
+        public int RowCount => _rows.Count;
 
         public override string ToString() => $"{FileName}  ({_rows.Count}) {LastRun?.ToString() ?? ""}";
     }
