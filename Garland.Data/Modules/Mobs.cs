@@ -108,8 +108,9 @@ namespace Garland.Data.Modules
 
                 bnpcLocation.Radius = reader.GetFloat("r");
                 bnpcLocation.X = sTerritoryType.Map.ToMapCoordinate3d(reader.GetDouble("x"), sMap.OffsetX);
-                bnpcLocation.Y = sTerritoryType.Map.ToMapCoordinate3d(reader.GetDouble("y"), sMap.OffsetY);
-                bnpcLocation.Z = sTerritoryType.Map.ToMapCoordinate3d(reader.GetDouble("z"), 0);
+                // Z is intentionally used for Y here.
+                bnpcLocation.Y = sTerritoryType.Map.ToMapCoordinate3d(reader.GetDouble("z"), sMap.OffsetY);
+                bnpcLocation.Z = sTerritoryType.Map.ToMapCoordinate3d(reader.GetDouble("y"), 0);
 
                 if (bnpcLocation.LevelRange == null)
                 {
