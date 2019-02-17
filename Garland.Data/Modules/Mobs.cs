@@ -142,16 +142,14 @@ namespace Garland.Data.Modules
                 if (bnpcData.HasSpecialSpawnRules)
                     mob.quest = 1;
 
-                // todo: Store in a location range.
+                // todo: Store in a location array.
+                // Technically this is per-location, but for now the first record wins.
                 var location = bnpcData.Locations.FirstOrDefault();
                 if (location != null)
                 {
                     if (location.X != 0)
-                    {
-                        // todo: coordinates
-                    }
+                        mob.coords = new JArray(Math.Round(location.X, 2), Math.Round(location.Y, 2), Math.Round(location.Z, 2));
 
-                    // Technically this is per-location, but for now the first record wins.
                     mob.zoneid = location.PlaceNameKey;
                     _builder.Db.AddLocationReference(location.PlaceNameKey);
                     mob.lvl = location.LevelRange;

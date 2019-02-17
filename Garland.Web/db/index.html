@@ -2423,29 +2423,46 @@
     </script>
 
     <script id="block-mob-template" type="text/x-dot-template">
-        <div class="content main">
-            {{?it.location_type == 'instance'}}
-                <div class="location right pointer highlight block-link" data-id="{{=it.location_id}}" data-type="{{=it.location_type}}">{{=it.location}}</div>
-            {{??}}
-                <div class="location right">{{=it.location}}</div>
-            {{?}}
+        <div class="midline">
+            <div class="menu tab">
+                {{?it.hasInfo}}<div data-page="info-page" class="button">Info</div>{{?}}
+                {{?it.map}}<div data-page="map-page" class="button">Map</div>{{?}}
+            </div>
+        </div>
 
-            {{?it.currency}}
-                <div class="currency line">
-                    {{~it.currency :value:index}}
-                        <img class="icon small" src="{{=gt.item.iconPath(value.item.c)}}" title="{{=value.item.n}}">
-                        <span class="text">{{=value.amount}}</span>
-                    {{~}}
+        <div class="content main has-pages">
+            {{?it.hasInfo}}
+                <div class="info-page page">
+                    {{?it.location_type == 'instance'}}
+                        <div class="location right pointer highlight block-link" data-id="{{=it.location_id}}" data-type="{{=it.location_type}}">{{=it.location}}</div>
+                    {{??}}
+                        <div class="location right">{{=it.location}}</div>
+                    {{?}}
+
+                    {{?it.currency}}
+                        <div class="currency line">
+                            {{~it.currency :value:index}}
+                                <img class="icon small" src="{{=gt.item.iconPath(value.item.c)}}" title="{{=value.item.n}}">
+                                <span class="text">{{=value.amount}}</span>
+                            {{~}}
+                        </div>
+                    {{?}}
+
+                    {{?it.drops}}
+                        <div class="items subsection" data-headername="items">
+                            <h3>{{=it.item_text}}</h3>
+
+                            {{~it.drops :value:index}}
+                                {{=gt.item.halfLinkTemplate(value)}}
+                            {{~}}
+                        </div>
+                    {{?}}
                 </div>
             {{?}}
 
-            {{?it.drops}}
-                <div class="items subsection" data-headername="items">
-                    <h3>{{=it.item_text}}</h3>
-
-                    {{~it.drops :value:index}}
-                        {{=gt.item.halfLinkTemplate(value)}}
-                    {{~}}
+            {{?it.map}}
+                <div class="map-page page">
+                    {{=gt.map.pageTemplate(it.map)}}
                 </div>
             {{?}}
         </div>

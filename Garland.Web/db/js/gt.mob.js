@@ -67,6 +67,9 @@ gt.mob = {
                     view.region = gt.location.index[location.parentId].name;
                 else
                     view.region = 'Instance';
+
+                if (mob.coords)
+                    view.map = gt.map.getViewModel({ location: location, coords: mob.coords, icon: view.icon });
             }
         }
 
@@ -79,6 +82,8 @@ gt.mob = {
 
             if (mob.currency)
                 view.currency = _.map(mob.currency, function(c) { return { item: gt.model.partial(gt.item, c.id), amount: c.amount }; });
+
+            view.hasInfo = view.drops || view.currency || view.location_type == 'instance';
         }
 
         return view;
