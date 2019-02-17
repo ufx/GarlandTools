@@ -126,7 +126,7 @@ namespace Garland.UI.ViewModels
                 if (value == null || value.Rows.Count == 0)
                     SelectedRow = null;
                 else
-                    SelectedRow = value.Rows[0];
+                    SelectedRow = value.Rows.First();
             }
         }
 

@@ -198,8 +198,8 @@ namespace Garland.Data
 
         public static void WritePatchLists(JsOutput jsout, UpdatePackage update, string lang)
         {
-            //if (!_patchesChanged)
-            //    return;
+            if (!_patchesChanged)
+                return;
 
             foreach (var majorPatch in GarlandDatabase.MajorPatches)
             {

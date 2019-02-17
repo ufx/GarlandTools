@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Collections.Concurrent;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace Garland.Data.Output
     {
         GarlandDatabase _db;
         UpdatePackage _update;
-        Dictionary<object, HashSet<int>> _componentsByItemId = new Dictionary<object, HashSet<int>>();
+        ConcurrentDictionary<object, HashSet<int>> _componentsByItemId = new ConcurrentDictionary<object, HashSet<int>>();
         Dictionary<Tuple<string, string>, Dictionary<string, JObject>> _partialsByLangTypeById = new Dictionary<Tuple<string, string>, Dictionary<string, JObject>>();
         Dictionary<dynamic, dynamic> _ingredientsByItem = new Dictionary<dynamic, dynamic>();
         static JsonConverter[] _converters = new[] { new WrapperConverter() };
@@ -384,114 +385,116 @@ namespace Garland.Data.Output
 
         void WriteItems(string lang)
         {
-            foreach (var item in _db.Items)
+            Parallel.ForEach(_db.Items, item =>
             {
                 var json = Wrapper(GetItemData(item, lang));
                 _update.IncludeDocument((string)item.id, "item", lang, 3, json);
-            }
+            });
         }
 
         void WriteQuests(string lang)
         {
-            foreach (var quest in _db.Quests)
+            Parallel.ForEach(_db.Quests, quest =>
             {
                 var wrapper = new JsWrapper(lang, "quest", quest);
                 AddPartials(wrapper, quest);
                 _update.IncludeDocument((string)quest.id, "quest", lang, 2, Wrapper(wrapper));
-            }
+            });
         }
 
         void WriteActions(string lang)
         {
-            foreach (var action in _db.Actions)
+            Parallel.ForEach(_db.Actions, action =>
             {
                 var wrapper = new JsWrapper(lang, "action", action);
                 AddPartials(wrapper, action);
                 _update.IncludeDocument((string)action.id, "action", lang, 2, Wrapper(wrapper));
-            }
+            });
         }
 
         void WriteNpcs(string lang)
         {
-            foreach (var npc in _db.Npcs)
+            Parallel.ForEach(_db.Npcs, npc =>
             {
                 var wrapper = new JsWrapper(lang, "npc", npc);
                 AddPartials(wrapper, npc);
                 _update.IncludeDocument((string)npc.id, "npc", lang, 2, Wrapper(wrapper));
-            }
+            });
         }
 
         void WriteEquipmentCalculators(string lang)
         {
-            foreach (var pair in _db.LevelingEquipmentByJob)
+            Parallel.ForEach(_db.LevelingEquipmentByJob, pair =>
             {
                 var wrapper = new JsWrapper(lang, "equip", pair.Value);
                 AddPartials(wrapper, pair.Value);
                 _update.IncludeDocument("leveling-" + pair.Key, "equip", lang, 2, Wrapper(wrapper));
-            }
+            });
 
-            foreach (var pair in _db.EndGameEquipmentByJob)
+            Parallel.ForEach(_db.EndGameEquipmentByJob, pair =>
             {
                 var wrapper = new JsWrapper(lang, "equip", pair.Value);
                 AddPartials(wrapper, pair.Value);
                 _update.IncludeDocument("end-" + pair.Key, "equip", lang, 2, Wrapper(wrapper));
-            }
+            });
         }
 
         void WriteAchievements(string lang)
         {
-            foreach (var achievement in _db.Achievements)
+            Parallel.ForEach(_db.Achievements, achievement =>
             {
                 var wrapper = new JsWrapper(lang, "achievement", achievement);
                 AddPartials(wrapper, achievement);
                 _update.IncludeDocument((string)achievement.id, "achievement", lang, 2, Wrapper(wrapper));
-            }
+            });
         }
 
         void WriteInstances(string lang)
         {
-            foreach (var instance in _db.Instances)
+            Parallel.ForEach(_db.Instances, instance =>
             {
                 var wrapper = new JsWrapper(lang, "instance", instance);
                 AddPartials(wrapper, instance);
                 _update.IncludeDocument((string)instance.id, "instance", lang, 2, Wrapper(wrapper));
-            }
+            });
         }
 
         void WriteFates(string lang)
         {
-            foreach (var fate in _db.Fates)
+            Parallel.ForEach(_db.Fates, fate =>
             {
                 var wrapper = new JsWrapper(lang, "fate", fate);
                 AddPartials(wrapper, fate);
                 _update.IncludeDocument((string)fate.id, "fate", lang, 2, Wrapper(wrapper));
-            }
+            });
         }
 
         void WriteMobs(string lang)
         {
-            foreach (var mob in _db.Mobs)
+            Parallel.ForEach(_db.Mobs, mob =>
             {
                 var wrapper = new JsWrapper(lang, "mob", mob);
                 AddPartials(wrapper, mob);
                 _update.IncludeDocument((string)mob.id, "mob", lang, 2, Wrapper(wrapper));
-            }
+            });
         }
 
         void WriteLeves(string lang)
         {
-            foreach (var leve in _db.Leves)
+            Parallel.ForEach(_db.Leves, leve =>
+            {
                 _update.IncludeDocument((string)leve.id, "leve", lang, 3, Wrapper(GetLeveData(leve, lang)));
+            });
         }
 
         void WriteFish(string lang)
         {
-            foreach (var spot in _db.FishingSpots)
+            Parallel.ForEach(_db.FishingSpots, spot =>
             {
                 var wrapper = new JsWrapper(lang, "fishing", spot);
                 AddPartials(wrapper, spot);
                 _update.IncludeDocument((string)spot.id, "fishing", lang, 2, Wrapper(wrapper));
-            }
+            });
 
             // Garland Bell and FFXIVFisher data.
 
@@ -515,12 +518,12 @@ namespace Garland.Data.Output
 
         void WriteNodes(string lang)
         {
-            foreach (var node in _db.Nodes)
+            Parallel.ForEach(_db.Nodes, node =>
             {
                 var wrapper = new JsWrapper(lang, "node", node);
                 AddPartials(wrapper, node);
                 _update.IncludeDocument((string)node.id, "node", lang, 2, Wrapper(wrapper));
-            }
+            });
 
             // Garland Bell node data.
 
@@ -694,10 +697,13 @@ namespace Garland.Data.Output
 
             var item = _db.ItemsById[itemId];
 
-            _componentsByItemId[itemId] = components = new HashSet<int>();
             if (item.craft == null)
+            {
+                _componentsByItemId[itemId] = components = new HashSet<int>();
                 return components;
+            }
 
+            components = new HashSet<int>();
             foreach (var craft in item.craft)
             {
                 foreach (var ingredientInfo in craft.ingredients)
@@ -710,6 +716,7 @@ namespace Garland.Data.Output
                 }
             }
 
+            _componentsByItemId[itemId] = components;
             return components;
         }
 

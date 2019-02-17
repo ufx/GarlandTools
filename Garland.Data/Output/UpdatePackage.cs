@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace Garland.Data.Output
         const int PackageSizeLimit = 200 * 1000000;
         const int BatchSizeLimit = 2 * 1000000;
 
-        List<Row> _rows = new List<Row>();
+        ConcurrentBag<Row> _rows = new ConcurrentBag<Row>();
         string _name;
 
         public string FileName { get; private set; }
@@ -142,7 +143,7 @@ namespace Garland.Data.Output
 
         void RunCore(IPrinter output, MySqlCommand cmd)
         {
-            var currentHeader = _rows[0].TableHeader;
+            var currentHeader = _rows.First().TableHeader;
             var sql = new StringBuilder(currentHeader);
 
             var count = 0;
@@ -178,7 +179,7 @@ namespace Garland.Data.Output
             cmd.ExecuteNonQuery();
         }
 
-        public List<Row> Rows => _rows;
+        public ConcurrentBag<Row> Rows => _rows;
 
         public override string ToString() => $"{FileName}  ({_rows.Count}) {LastRun?.ToString() ?? ""}";
     }
