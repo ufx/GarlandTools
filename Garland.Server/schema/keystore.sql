@@ -83,7 +83,7 @@ CREATE TABLE Storage (
     Id varchar(16) not null,
     IP varchar(100) not null,
     Modified datetime not null,
-    Value text not null,
+    Value text character set utf8 not null,
     primary key(Account, Id)
 );
 
