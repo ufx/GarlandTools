@@ -1,7 +1,7 @@
 gt.search = {
     resultTemplate: null,
     page: 0,
-    maxResults: 50,
+    maxResults: 100,
     url: '/api/search.php',
     cachedQueries: [],
     resultIndex: { quest: { }, leve: { }, action: { }, achievement: { }, instance: { }, fate: { }, npc: { }, mob: { }, item: { }, fishing: { }, node: { } },
