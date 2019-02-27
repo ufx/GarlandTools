@@ -15,11 +15,16 @@ function gtRandomString($length, $keyspace = '0123456789abcdefghijklmnopqrstuvwx
 }
 
 function gtNumericStringArray($input) {
+    $results = gtNumericArray($input);
+    return join(",", $results);
+}
+
+function gtNumericArray($input) {
     $parts = explode(",", $input);
     $results = array();
     foreach ($parts as $key => $value)
         $results[$key] = (int)$value;
-    return join(",", $results);
+    return $results;
 }
 
 function gtError($msg) {

@@ -6,20 +6,17 @@ function gtSearch() {
     header("Content-Type: application/json; charset=utf-8");
 
     $text = array_key_exists("text", $_GET) ? $_GET["text"] : "";
-    $lang = gtValidateSearchLang(array_key_exists("lang", $_GET) ? $_GET["lang"] : "en");
     $type = array_key_exists("type", $_GET) ? $_GET["type"] : NULL;
-    $offset = array_key_exists("page", $_GET) ? $_GET["page"] * 50 : 0;
     $debug = array_key_exists("udebug", $_GET) ? true : false;
-    $exact = array_key_exists("exact", $_GET) ? true : false;
 
-    $result = gtSearchCore($text, $lang, $type, $_GET, $offset, $debug, $exact);
+    $result = gtSearchCore($text, $type, $_GET, $debug);
     echo json_encode($result);
 }
 
-function gtSearchCore($text, $lang, $type, $filters, $offset, $debug, $exact) {
+function gtSearchCore($text, $type, $filters, $debug) {
     // Generate SQL.
     $db = gtConnect();
-    $sql = gtSearchSql($db, $text, $lang, $type, $filters, $offset, $exact);
+    $sql = gtSearchSql($db, $text, $type, $filters);
 
     // Return SQL for debug.
     if ($debug)
@@ -58,8 +55,12 @@ function gtValidateSearchLang($lang) {
     return "en";
 }
 
-function gtSearchSql($db, $text, $lang, $type, $filters, $offset, $exact) {
+function gtSearchSql($db, $text, $type, $filters) {
     // Parameters and extra criteria.
+    $limit = 100;
+    $lang = gtValidateSearchLang(array_key_exists("lang", $filters) ? $filters["lang"] : "en");
+    $exact = array_key_exists("exact", $filters) ? true : false;
+    $offset = array_key_exists("page", $filters) ? $filters["page"] * $limit : 0;
     $filterCriteria = "";
     $filterJoin = "";
 
@@ -140,6 +141,14 @@ function gtSearchSql($db, $text, $lang, $type, $filters, $offset, $exact) {
         $craftJob = (int)$filters["craftJob"];
         $filterCriteria .= " AND Search.Id IN (SELECT ItemId FROM SearchRecipe WHERE Job = $craftJob)";
     }
+    if (array_key_exists("ids", $filters)) {
+        $ids = gtNumericArray($filters["ids"]);
+        foreach ($ids as $key => $value)
+            $ids[$key] = "'" . $value . "'";
+        $ids = join(",", $ids);
+
+        $filterCriteria .= " AND Search.Id IN ($ids)";
+    }
     if ($exact) {
         $text = $db->real_escape_string($text);
         $filterCriteria .= " AND Search.OriginalName = '$text'";
@@ -163,10 +172,10 @@ function gtSearchSql($db, $text, $lang, $type, $filters, $offset, $exact) {
 
         $sql .= " UNION (SELECT 1 AS Rank, Search.Type, Search.Id, Search.Name, Search.Json FROM Search $filterJoin WHERE Search.Lang = '$lang' AND MATCH(Search.Name) AGAINST('$wordCriteria' IN BOOLEAN MODE) $filterCriteria)";
 
-        $sql .= ") UnorderedResults) Results GROUP BY Type, Id, Json, Name ORDER BY MAX(Rank) DESC, Name LIMIT 50 OFFSET $offset";
+        $sql .= ") UnorderedResults) Results GROUP BY Type, Id, Json, Name ORDER BY MAX(Rank) DESC, Name LIMIT $limit OFFSET $offset";
         return $sql;
     } else {
-        return "SELECT Search.Type, Search.Id, Search.Json FROM Search $filterJoin WHERE Search.Lang = '$lang' $filterCriteria ORDER BY Search.Name LIMIT 50 OFFSET $offset";
+        return "SELECT Search.Type, Search.Id, Search.Json FROM Search $filterJoin WHERE Search.Lang = '$lang' $filterCriteria ORDER BY Search.Name LIMIT $limit OFFSET $offset";
     }
 }
 
