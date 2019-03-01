@@ -14,10 +14,10 @@ function gtGet() {
     $result = NULL;
     if ($idCount == 1)
         $result = gtGetCore($id, $type, $lang, $version, $test);
-    else if ($idCount <= 50)
+    else if ($idCount <= 100)
         $result = gtMultiGetCore($ids, $type, $lang, $version);
     else {
-        // No more than 50 ids can be retrieved at a time.
+        // No more than 100 ids can be retrieved at a time.
         http_response_code(403);
         echo "Attempt to query too many ids.";
         exit(-1);
