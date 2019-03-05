@@ -839,6 +839,8 @@ body.colorblind #rotations .step.proc.fail {
     z-index: 10;
     border-radius: 8px;
     min-width: 350px;
+    max-height: 90%;
+    overflow-y: auto;
 }
 
 #list-popover-timer .entry-list .entry {
