@@ -1,17 +1,6 @@
 # garlandtools.org server
 
 server {
-	# SSL configuration
-	#
-	# listen 443 ssl default_server;
-	# listen [::]:443 ssl default_server;
-	#
-	# Note: You should disable gzip for SSL traffic.
-	# See: https://bugs.debian.org/773332
-	#
-	# Read up on ssl_ciphers to ensure a secure configuration.
-	# See: https://bugs.debian.org/765782
-
 	listen 80;
 	listen [::]:80;
 	root /var/www/html;
@@ -35,9 +24,6 @@ server {
 
 	# JSON API
 	location ~* \.(json)$ {
-		add_header 'Access-Control-Allow-Origin' '*';
-		add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
-
 		# v2 format
 		rewrite ^/db/doc/(.*)/(.*)/(.*)/(.*)\.json$ /api/get.php?type=$1&lang=$2&version=$3&id=$4 last;
 
@@ -56,9 +42,6 @@ server {
     location = /api/get.php {
         include snippets/fastcgi-php.conf;
         fastcgi_pass unix:/run/php/php7.2-fpm.sock;
-
-        add_header 'Access-Control-Allow-Origin' '*';
-        add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
 
         expires 2d;
     }
