@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/png" href="../favicon.png">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Garland Data Search" />
+    <link rel="manifest" href="manifest.json">
 
     <script src="https://cdn.ravenjs.com/3.26.2/raven.min.js" crossorigin="anonymous"></script>
     <script src="ext/jquery-3.1.1.min.js"></script>
@@ -17,6 +18,13 @@
     <script src="ext/he.js"></script>
 
     <script src="js/gt.js"></script>
+
+    <script>
+        // Register the service worker that will provide the "offline page"
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js');
+        }
+    </script>
 
     <script>
         $(gt.core.initialize);
