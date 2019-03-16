@@ -20,7 +20,6 @@ namespace Garland.Data
         public static Dictionary<ImageFile, Queue<Saint.Item>> AlternatesNeedingIcons = new Dictionary<ImageFile, Queue<Saint.Item>>();
         public static Dictionary<int, ItemIconData> IconDataByItemId = new Dictionary<int, ItemIconData>();
 
-
         public static void Initialize(IEnumerable<Saint.Item> items)
         {
             // Load map file.
