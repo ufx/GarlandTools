@@ -65,7 +65,7 @@ namespace Garland.Data.Modules
                             JOIN spawngroup ON spawngroup.bNpcTemplateId = bnpctemplate.Id
                             JOIN spawnpoint ON spawnpoint.spawnGroupId = spawngroup.id
                             GROUP BY level, maxHp, territoryTypeId, bNPCBaseId, bNPCNameId, aggressionMode, enemyType, name, spawnGroupId
-                            ORDER BY bNPCBaseId, bNPCNameId";
+                            ORDER BY bNPCBaseId, bNPCNameId, spawnGroupId";
 
                     using (var reader = cmd.ExecuteReader())
                         IndexSapphireDataCore(reader, sTerritoryTypes);
@@ -107,10 +107,10 @@ namespace Garland.Data.Modules
                 }
 
                 bnpcLocation.Radius = reader.GetFloat("r");
-                bnpcLocation.X = sTerritoryType.Map.ToMapCoordinate3d(reader.GetDouble("x"), sMap.OffsetX);
+                bnpcLocation.X = sMap.ToMapCoordinate3d(reader.GetDouble("x"), sMap.OffsetX);
                 // Z is intentionally used for Y here.
-                bnpcLocation.Y = sTerritoryType.Map.ToMapCoordinate3d(reader.GetDouble("z"), sMap.OffsetY);
-                bnpcLocation.Z = sTerritoryType.Map.ToMapCoordinate3d(reader.GetDouble("y"), 0);
+                bnpcLocation.Y = sMap.ToMapCoordinate3d(reader.GetDouble("z"), sMap.OffsetY);
+                bnpcLocation.Z = sMap.ToMapCoordinate3d(reader.GetDouble("y"), 0);
 
                 if (bnpcLocation.LevelRange == null)
                 {
