@@ -24,6 +24,8 @@ namespace Garland.Data.Modules
 
         Dictionary<int, Libra.ENpcResident> _libraNpcIndex;
         Dictionary<string, List<dynamic>> _alternatesByName = new Dictionary<string, List<dynamic>>();
+        Dictionary<int, int> _zoneByNpcId = new Dictionary<int, int>();
+        Dictionary<int, Saint.Level> _levelByNpcObjectKey = new Dictionary<int, Saint.Level>();
 
 
         public override string Name => "NPCs";
@@ -36,9 +38,34 @@ namespace Garland.Data.Modules
 
             _libraNpcIndex = _builder.Libra.Table<Libra.ENpcResident>().ToDictionary(e => e.Key);
 
+            IndexLevels();
             BuildNpcs();
             BuildSupplementalData();
             LinkAlternates();
+        }
+
+        void IndexLevels()
+        {
+            foreach (var sLevel in _builder.Sheet<Saint.Level>())
+            {
+                // NPC
+                if (sLevel.Type == 8 && sLevel.Object != null && !_levelByNpcObjectKey.ContainsKey(sLevel.Object.Key))
+                    _levelByNpcObjectKey[sLevel.Object.Key] = sLevel;
+            }
+
+            // todo: remove?
+            // Supplemental Libra places.
+            foreach (var lPlaceName in _builder.Libra.Table<Libra.ENpcResident_PlaceName>())
+                _zoneByNpcId[lPlaceName.ENpcResident_Key] = lPlaceName.PlaceName_Key;
+
+            // Some NPC locations are wrong or ambiguous - this helps.
+            _zoneByNpcId[1004418] = 698;
+            _zoneByNpcId[1006747] = 698;
+            _zoneByNpcId[1002299] = 698;
+            _zoneByNpcId[1002281] = 698;
+            _zoneByNpcId[1001766] = 698;
+            _zoneByNpcId[1001945] = 698;
+            _zoneByNpcId[1001821] = 698;
         }
 
         void BuildNpcs()
@@ -68,7 +95,7 @@ namespace Garland.Data.Modules
                     npc.title = title;
 
                 // Map and coordinates.
-                if (_builder.LevelByNpcObjectKey.TryGetValue(sNpc.Key, out var level) &&
+                if (_levelByNpcObjectKey.TryGetValue(sNpc.Key, out var level) &&
                     _builder.LocationInfoByMapId.TryGetValue(level.Map.Key, out var locationInfo))
                 {
                     npc.zoneid = locationInfo.PlaceName.Key;
@@ -77,11 +104,10 @@ namespace Garland.Data.Modules
                 }
                 else
                 {
-                    if (_builder.Db.NpcZoneByNpcId.ContainsKey(sNpc.Key))
+                    if (_zoneByNpcId.TryGetValue(sNpc.Key, out var zoneId))
                     {
-                        var zoneid = _builder.Db.NpcZoneByNpcId[sNpc.Key];
-                        npc.zoneid = zoneid;
-                        _builder.Db.AddLocationReference(zoneid);
+                        npc.zoneid = zoneId;
+                        _builder.Db.AddLocationReference(zoneId);
                     }
 
                     if (_libraNpcIndex.TryGetValue(sNpc.Key, out var lNpc))

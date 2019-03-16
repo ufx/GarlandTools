@@ -92,7 +92,6 @@ namespace Garland.Data
         public Dictionary<int, dynamic> NodesById = new Dictionary<int, dynamic>();
         public Dictionary<string, dynamic> SpearfishingNodesByName = new Dictionary<string, dynamic>();
         public Dictionary<int, dynamic> VenturesById = new Dictionary<int, dynamic>();
-        public Dictionary<int, int> NpcZoneByNpcId = new Dictionary<int, int>();
 
         public static HashSet<string> LocalizedTypes = new HashSet<string>() { "achievement", "action", "fate", "fishing", "instance", "item", "leve", "quest", "npc", "mob" };
 

@@ -34,7 +34,6 @@ namespace Garland.Data
         public Saint.Item[] ItemsToImport;
         public Dictionary<int, LocationInfo> LocationInfoByMapId = new Dictionary<int, LocationInfo>();
         public Dictionary<int, string> EmoteNamesById = new Dictionary<int, string>();
-        public Dictionary<int, Saint.Level> LevelByNpcObjectKey = new Dictionary<int, Saint.Level>();
         public Dictionary<int, List<MapMarker>> MapMarkersByMapKey = new Dictionary<int, List<MapMarker>>();
         public Dictionary<Saint.InstanceContent, Saint.ContentFinderCondition> ContentFinderConditionByInstanceContent = new Dictionary<Saint.InstanceContent, Saint.ContentFinderCondition>();
         public static IPrinter Printer;

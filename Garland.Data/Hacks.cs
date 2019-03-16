@@ -24,18 +24,6 @@ namespace Garland.Data
             62  // Job Soul
         };
 
-        public static void ApplyNpcZoneOverrides(GarlandDatabase db)
-        {
-            // Some NPC locations are wrong or ambiguous - this helps.
-            db.NpcZoneByNpcId[1004418] = 698;
-            db.NpcZoneByNpcId[1006747] = 698;
-            db.NpcZoneByNpcId[1002299] = 698;
-            db.NpcZoneByNpcId[1002281] = 698;
-            db.NpcZoneByNpcId[1001766] = 698;
-            db.NpcZoneByNpcId[1001945] = 698;
-            db.NpcZoneByNpcId[1001821] = 698;
-        }
-
         public static string GetShopName(string customName, ScriptInstruction si)
         {
             if (si.Label.Contains("FCCSHOP"))

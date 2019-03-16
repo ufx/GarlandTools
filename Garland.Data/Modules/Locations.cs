@@ -16,7 +16,6 @@ namespace Garland.Data.Modules
         public override void Start()
         {
             BuildLocations();
-            IndexNpcZones();
         }
 
         void BuildLocations()
@@ -182,23 +181,6 @@ namespace Garland.Data.Modules
             _builder.Db.Locations.Add(loc);
             _builder.Db.LocationsById[id] = loc;
             return loc;
-        }
-
-        void IndexNpcZones()
-        {
-            // Level table.
-            foreach (var sLevel in _builder.Sheet<Game.Level>())
-            {
-                // NPC
-                if (sLevel.Type == 8 && sLevel.Object != null && !_builder.LevelByNpcObjectKey.ContainsKey(sLevel.Object.Key))
-                    _builder.LevelByNpcObjectKey[sLevel.Object.Key] = sLevel;
-            }
-
-            // Supplemental Libra places.
-            foreach (var lPlaceName in _builder.Libra.Table<Libra.ENpcResident_PlaceName>())
-                _builder.Db.NpcZoneByNpcId[lPlaceName.ENpcResident_Key] = lPlaceName.PlaceName_Key;
-
-            Hacks.ApplyNpcZoneOverrides(_builder.Db);
         }
     }
 }
