@@ -1,4 +1,5 @@
 ﻿using Garland.Data.Models;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using SaintCoinach.Imaging;
 using System;
@@ -12,8 +13,8 @@ namespace Garland.Data.Modules
 {
     public class NPCs : Module
     {
-        Saint.IXivSheet<Saint.IXivRow> _customize;
-        Saint.IXivSheet<Saint.IXivRow> _type;
+        Saint.IXivSheet<Saint.IXivRow> _sCharaMakeCustomize;
+        Saint.IXivSheet<Saint.IXivRow> _sCharaMakeType;
         SaintCoinach.Graphics.ColorMap _colorMap;
 
         const int EyeColorOffset = 0;
@@ -21,16 +22,91 @@ namespace Garland.Data.Modules
         const int DarkLipFacePaintColorOffset = 512;
         const int LightLipFacePaintColorOffset = 1792;
 
+        Dictionary<int, Libra.ENpcResident> _libraNpcIndex;
+
         public override string Name => "NPCs";
 
         public override void Start()
         {
-            _customize = _builder.Sheet("CharaMakeCustomize");
-            _type = _builder.Sheet("CharaMakeType");
+            _sCharaMakeCustomize = _builder.Sheet("CharaMakeCustomize");
+            _sCharaMakeType = _builder.Sheet("CharaMakeType");
             _colorMap = new SaintCoinach.Graphics.ColorMap(_builder.Realm.GameData.PackCollection.GetFile("chara/xls/charamake/human.cmp"));
 
+            _libraNpcIndex = _builder.Libra.Table<Libra.ENpcResident>().ToDictionary(e => e.Key);
+
+            BuildNpcs();
             BuildSupplementalData();
-            BuildAppearanceData();
+        }
+
+        void BuildNpcs()
+        {
+            var sENpcs = _builder.Realm.GameData.ENpcs
+                .Where(n => !Hacks.IsNpcSkipped(n))
+                .ToArray();
+
+            foreach (var sNpc in sENpcs)
+            {
+                dynamic npc = new JObject();
+                npc.id = sNpc.Key;
+                _builder.Localize.Column((JObject)npc, sNpc.Resident, "Singular", "name", Utils.CapitalizeWords);
+                string name = npc.en.name;
+                npc.patch = PatchDatabase.Get("npc", sNpc.Key);
+
+                // Set base information.
+                if (!_builder.Db.NpcAlternatesByName.TryGetValue(name, out var alts))
+                {
+                    alts = new List<dynamic>();
+                    _builder.Db.NpcAlternatesByName[name] = alts;
+                }
+                alts.Add(npc);
+
+                var title = sNpc.Title.ToString();
+                if (!string.IsNullOrEmpty(title))
+                    npc.title = title;
+
+                // Map and coordinates.
+                if (_builder.LevelByNpcObjectKey.TryGetValue(sNpc.Key, out var level) &&
+                    _builder.LocationInfoByMapId.TryGetValue(level.Map.Key, out var locationInfo))
+                {
+                    npc.zoneid = locationInfo.PlaceName.Key;
+                    npc.coords = _builder.GetCoords(level);
+                    _builder.Db.AddLocationReference(locationInfo.PlaceName.Key);
+                }
+                else
+                {
+                    if (_builder.Db.NpcZoneByNpcId.ContainsKey(sNpc.Key))
+                    {
+                        var zoneid = _builder.Db.NpcZoneByNpcId[sNpc.Key];
+                        npc.zoneid = zoneid;
+                        _builder.Db.AddLocationReference(zoneid);
+                    }
+
+                    if (_libraNpcIndex.TryGetValue(sNpc.Key, out var lNpc))
+                    {
+                        dynamic data = JsonConvert.DeserializeObject((string)lNpc.data);
+                        var zone = Utils.GetPair(data.coordinate);
+                        npc.coords = Utils.GetFirst(zone.Value);
+                        npc.approx = 1;
+                    }
+                }
+
+                // Closest map marker.
+                if (level != null)
+                {
+                    var marker = MapMarker.FindClosest(_builder, level.Map, level.MapX, level.MapY);
+                    if (marker != null)
+                    {
+                        npc.areaid = marker.PlaceName.Key;
+                        _builder.Db.AddLocationReference(marker.PlaceName.Key);
+                    }
+                }
+
+                // Other work.
+                BuildAppearanceData(npc, sNpc);
+
+                _builder.Db.Npcs.Add(npc);
+                _builder.Db.NpcsById[sNpc.Key] = npc;
+            }
         }
 
         void BuildSupplementalData()
@@ -41,182 +117,176 @@ namespace Garland.Data.Modules
                 var id = int.Parse(line[1]);
                 var isEventNpc = int.Parse(line[2]) == 1;
 
-                var sNpc = _builder.Realm.GameData.ENpcs[id];
-                var npc = _builder.GetOrCreateNpc(sNpc);
+                var npc = _builder.Db.NpcsById[id];
 
                 if (isEventNpc)
                     npc["event"] = 1;
             }
         }
 
-        void BuildAppearanceData()
+        void BuildAppearanceData(dynamic npc, Saint.ENpc sNpc)
         {
-            foreach (var sNpc in _builder.NpcsToImport)
+            var race = (Saint.Race)sNpc.Base["Race"];
+            if (race == null || race.Key == 0)
+                return; // Unique or beast NPCs, can't do appearance now.
+
+            dynamic appearance = new JObject();
+            npc.appearance = appearance;
+
+            var gender = (byte)sNpc.Base["Gender"];
+            var isMale = gender == 0;
+            appearance.gender = isMale ? "Male" : "Female";
+
+            appearance.race = isMale ? race.Masculine.ToString() : race.Feminine.ToString();
+
+            var tribe = (Saint.Tribe)sNpc.Base["Tribe"];
+            appearance.tribe = isMale ? tribe.Masculine.ToString() : tribe.Feminine.ToString();
+
+            appearance.height = sNpc.Base["Height"];
+
+            var bodyType = (byte)sNpc.Base["BodyType"];
+            if (bodyType != 1)
+                appearance.bodyType = GetBodyType(bodyType);
+
+            // Faces
+            var baseFace = (byte)sNpc.Base["Face"];
+            var face = baseFace % 100; // Value matches the asset number, % 100 approximate face # nicely.
+            appearance.face = face;
+
+            var isValidFace = face < 8;
+            var isCustomFace = baseFace > 7;
+            if (isCustomFace)
+                appearance.customFace = 1;
+
+            appearance.jaw = 1 + (byte)sNpc.Base["Jaw"];
+
+            appearance.eyebrows = 1 + (byte)sNpc.Base["Eyebrows"];
+
+            appearance.nose = 1 + (byte)sNpc.Base["Nose"];
+
+            appearance.skinColor = FormatColorCoordinates((byte)sNpc.Base["SkinColor"]);
+            appearance.skinColorCode = FormatColor((byte)sNpc.Base["SkinColor"], GetSkinColorMapIndex(tribe.Key, isMale));
+
+            // Bust & Muscles - flex fields.
+            if (race.Key == 5 || race.Key == 1)
             {
-                var race = (Saint.Race)sNpc.Base["Race"];
-
-                var npc = _builder.GetOrCreateNpc(sNpc);
-                if (race == null || race.Key == 0)
-                    continue; // Unique or beast NPCs, can't do appearance now.
-
-                dynamic appearance = new JObject();
-                npc.appearance = appearance;
-
-                var gender = (byte)sNpc.Base["Gender"];
-                var isMale = gender == 0;
-                appearance.gender = isMale ? "Male" : "Female";
-
-                appearance.race = isMale ? race.Masculine.ToString() : race.Feminine.ToString();
-
-                var tribe = (Saint.Tribe)sNpc.Base["Tribe"];
-                appearance.tribe = isMale ? tribe.Masculine.ToString() : tribe.Feminine.ToString();
-
-                appearance.height = sNpc.Base["Height"];
-
-                var bodyType = (byte)sNpc.Base["BodyType"];
-                if (bodyType != 1)
-                    appearance.bodyType = GetBodyType(bodyType);
-
-                // Faces
-                var baseFace = (byte)sNpc.Base["Face"];
-                var face = baseFace % 100; // Value matches the asset number, % 100 approximate face # nicely.
-                appearance.face = face;
-
-                var isValidFace = face < 8;
-                var isCustomFace = baseFace > 7;
-                if (isCustomFace)
-                    appearance.customFace = 1;
-
-                appearance.jaw = 1 + (byte)sNpc.Base["Jaw"];
-
-                appearance.eyebrows = 1 + (byte)sNpc.Base["Eyebrows"];
-
-                appearance.nose = 1 + (byte)sNpc.Base["Nose"];
-
-                appearance.skinColor = FormatColorCoordinates((byte)sNpc.Base["SkinColor"]);
-                appearance.skinColorCode = FormatColor((byte)sNpc.Base["SkinColor"], GetSkinColorMapIndex(tribe.Key, isMale));
-
-                // Bust & Muscles - flex fields.
-                if (race.Key == 5 || race.Key == 1)
-                {
-                    // Roegadyn & Hyur
-                    appearance.muscle = (byte)sNpc.Base["BustOrTone1"];
-                    if (!isMale)
-                        appearance.bust = (byte)sNpc.Base["ExtraFeature2OrBust"];
-                }
-                else if (race.Key == 6 && isMale)
-                {
-                    // Au Ra male muscles
-                    appearance.muscle = (byte)sNpc.Base["BustOrTone1"];
-                }
-                else if (!isMale)
-                {
-                    // Other female bust sizes
-                    appearance.bust = (byte)sNpc.Base["BustOrTone1"];
-                }
-
-                // Hair & Highlights
-                var hairstyle = (byte)sNpc.Base["HairStyle"];
-                var hairstyleIcon = CustomizeIcon(GetHairstyleCustomizeIndex(tribe.Key, isMale), 100, hairstyle, npc);
-                if (hairstyleIcon > 0)
-                    appearance.hairStyle = hairstyleIcon;
-
-                appearance.hairColor = FormatColorCoordinates((byte)sNpc.Base["HairColor"]);
-                appearance.hairColorCode = FormatColor((byte)sNpc.Base["HairColor"], GetHairColorMapIndex(tribe.Key, isMale));
-
-                var highlights = Unpack2((byte)sNpc.Base["HairHighlight"]);
-                if (highlights.Item1 == 1)
-                {
-                    appearance.highlightColor = FormatColorCoordinates((byte)sNpc.Base["HairHighlightColor"]);
-                    appearance.highlightColorCode = FormatColor((byte)sNpc.Base["HairHighlightColor"], HairHighlightColorOffset);
-                }
-
-                // Eyes & Heterochromia
-                var eyeShape = Unpack2((byte)sNpc.Base["EyeShape"]);
-                appearance.eyeSize = eyeShape.Item1 == 1 ? "Small" : "Large";
-                appearance.eyeShape = 1 + eyeShape.Item2;
-
-                var eyeColor = (byte)sNpc.Base["EyeColor"];
-                appearance.eyeColor = FormatColorCoordinates(eyeColor);
-                appearance.eyeColorCode = FormatColor(eyeColor, EyeColorOffset);
-
-                var heterochromia = (byte)sNpc.Base["EyeHeterochromia"];
-                if (heterochromia != eyeColor)
-                {
-                    appearance.heterochromia = FormatColorCoordinates(heterochromia);
-                    appearance.heterochromiaCode = FormatColor(heterochromia, EyeColorOffset);
-                }
-
-                // Mouth & Lips
-                var mouth = Unpack2((byte)sNpc.Base["Mouth"]);
-                appearance.mouth = 1 + mouth.Item2;
-
-                if (mouth.Item1 == 1)
-                {
-                    var lipColor = Unpack2((byte)sNpc.Base["LipColor"]);
-                    appearance.lipShade = lipColor.Item1 == 1 ? "Light" : "Dark";
-                    appearance.lipColor = FormatColorCoordinates(lipColor.Item2);
-                    appearance.lipColorCode = FormatColor(lipColor.Item2, lipColor.Item1 == 1 ? LightLipFacePaintColorOffset : DarkLipFacePaintColorOffset);
-                }
-
-                // Extra Features
-                var extraFeatureName = ExtraFeatureName(race.Key);
-                if (extraFeatureName != null)
-                {
-                    appearance.extraFeatureName = extraFeatureName;
-
-                    appearance.extraFeatureShape = (byte)sNpc.Base["ExtraFeature1"];
-                    appearance.extraFeatureSize = (byte)sNpc.Base["ExtraFeature2OrBust"];
-                }
-
-                // Facepaint
-                var facepaint = Unpack2((byte)sNpc.Base["FacePaint"]);
-                var facepaintIcon = CustomizeIcon(GetFacePaintCustomizeIndex(tribe.Key, isMale), 50, facepaint.Item2, npc);
-                if (facepaintIcon > 0)
-                {
-                    appearance.facepaint = facepaintIcon;
-
-                    if (facepaint.Item1 == 1)
-                        appearance.facepaintReverse = 1;
-
-                    var facepaintColor = Unpack2((byte)sNpc.Base["FacePaintColor"]);
-                    appearance.facepaintShade = facepaintColor.Item1 == 1 ? "Light" : "Dark";
-                    appearance.facepaintColor = FormatColorCoordinates(facepaintColor.Item2);
-                    appearance.facepaintColorCode = FormatColor(facepaintColor.Item2, facepaintColor.Item1 == 1 ? LightLipFacePaintColorOffset : DarkLipFacePaintColorOffset);
-                }
-
-                // Facial Features
-                var facialfeature = (byte)sNpc.Base["FacialFeature"];
-                if (facialfeature != 0 && isValidFace)
-                {
-                    var type = CharaMakeTypeRow(tribe.Key, gender);
-
-                    appearance.facialfeatures = new JArray();
-
-                    // There are only 7 groups of facial features at the moment.
-                    var facialfeatures = new System.Collections.BitArray(new byte[] { facialfeature });
-                    for (var i = 0; i < 7; i++)
-                    {
-                        if (!facialfeatures[i])
-                            continue;
-
-                        // Columns are split into groups of 6, 1 for each face type.
-                        var iconIndex = (i * 6) + face - 1;
-                        var icon = (ImageFile)type["FacialFeatureIcon[" + iconIndex + "]"];
-                        appearance.facialfeatures.Add(IconDatabase.EnsureEntry("customize", icon));
-                    }
-
-                    appearance.facialfeatureColor = FormatColorCoordinates((byte)sNpc.Base["FacialFeatureColor"]);
-                    appearance.facialfeatureColorCode = FormatColor((byte)sNpc.Base["FacialFeatureColor"], 0);
-                }
-
-                // todo: CharaMakeType ExtraFeatureData for faces, extra feature icons.
+                // Roegadyn & Hyur
+                appearance.muscle = (byte)sNpc.Base["BustOrTone1"];
+                if (!isMale)
+                    appearance.bust = (byte)sNpc.Base["ExtraFeature2OrBust"];
             }
+            else if (race.Key == 6 && isMale)
+            {
+                // Au Ra male muscles
+                appearance.muscle = (byte)sNpc.Base["BustOrTone1"];
+            }
+            else if (!isMale)
+            {
+                // Other female bust sizes
+                appearance.bust = (byte)sNpc.Base["BustOrTone1"];
+            }
+
+            // Hair & Highlights
+            var hairstyle = (byte)sNpc.Base["HairStyle"];
+            var hairstyleIcon = CustomizeIcon(GetHairstyleCustomizeIndex(tribe.Key, isMale), 100, hairstyle, npc);
+            if (hairstyleIcon > 0)
+                appearance.hairStyle = hairstyleIcon;
+
+            appearance.hairColor = FormatColorCoordinates((byte)sNpc.Base["HairColor"]);
+            appearance.hairColorCode = FormatColor((byte)sNpc.Base["HairColor"], GetHairColorMapIndex(tribe.Key, isMale));
+
+            var highlights = Unpack2((byte)sNpc.Base["HairHighlight"]);
+            if (highlights.Item1 == 1)
+            {
+                appearance.highlightColor = FormatColorCoordinates((byte)sNpc.Base["HairHighlightColor"]);
+                appearance.highlightColorCode = FormatColor((byte)sNpc.Base["HairHighlightColor"], HairHighlightColorOffset);
+            }
+
+            // Eyes & Heterochromia
+            var eyeShape = Unpack2((byte)sNpc.Base["EyeShape"]);
+            appearance.eyeSize = eyeShape.Item1 == 1 ? "Small" : "Large";
+            appearance.eyeShape = 1 + eyeShape.Item2;
+
+            var eyeColor = (byte)sNpc.Base["EyeColor"];
+            appearance.eyeColor = FormatColorCoordinates(eyeColor);
+            appearance.eyeColorCode = FormatColor(eyeColor, EyeColorOffset);
+
+            var heterochromia = (byte)sNpc.Base["EyeHeterochromia"];
+            if (heterochromia != eyeColor)
+            {
+                appearance.heterochromia = FormatColorCoordinates(heterochromia);
+                appearance.heterochromiaCode = FormatColor(heterochromia, EyeColorOffset);
+            }
+
+            // Mouth & Lips
+            var mouth = Unpack2((byte)sNpc.Base["Mouth"]);
+            appearance.mouth = 1 + mouth.Item2;
+
+            if (mouth.Item1 == 1)
+            {
+                var lipColor = Unpack2((byte)sNpc.Base["LipColor"]);
+                appearance.lipShade = lipColor.Item1 == 1 ? "Light" : "Dark";
+                appearance.lipColor = FormatColorCoordinates(lipColor.Item2);
+                appearance.lipColorCode = FormatColor(lipColor.Item2, lipColor.Item1 == 1 ? LightLipFacePaintColorOffset : DarkLipFacePaintColorOffset);
+            }
+
+            // Extra Features
+            var extraFeatureName = ExtraFeatureName(race.Key);
+            if (extraFeatureName != null)
+            {
+                appearance.extraFeatureName = extraFeatureName;
+
+                appearance.extraFeatureShape = (byte)sNpc.Base["ExtraFeature1"];
+                appearance.extraFeatureSize = (byte)sNpc.Base["ExtraFeature2OrBust"];
+            }
+
+            // Facepaint
+            var facepaint = Unpack2((byte)sNpc.Base["FacePaint"]);
+            var facepaintIcon = CustomizeIcon(GetFacePaintCustomizeIndex(tribe.Key, isMale), 50, facepaint.Item2, npc);
+            if (facepaintIcon > 0)
+            {
+                appearance.facepaint = facepaintIcon;
+
+                if (facepaint.Item1 == 1)
+                    appearance.facepaintReverse = 1;
+
+                var facepaintColor = Unpack2((byte)sNpc.Base["FacePaintColor"]);
+                appearance.facepaintShade = facepaintColor.Item1 == 1 ? "Light" : "Dark";
+                appearance.facepaintColor = FormatColorCoordinates(facepaintColor.Item2);
+                appearance.facepaintColorCode = FormatColor(facepaintColor.Item2, facepaintColor.Item1 == 1 ? LightLipFacePaintColorOffset : DarkLipFacePaintColorOffset);
+            }
+
+            // Facial Features
+            var facialfeature = (byte)sNpc.Base["FacialFeature"];
+            if (facialfeature != 0 && isValidFace)
+            {
+                var type = CharaMakeTypeRow(tribe.Key, gender);
+
+                appearance.facialfeatures = new JArray();
+
+                // There are only 7 groups of facial features at the moment.
+                var facialfeatures = new System.Collections.BitArray(new byte[] { facialfeature });
+                for (var i = 0; i < 7; i++)
+                {
+                    if (!facialfeatures[i])
+                        continue;
+
+                    // Columns are split into groups of 6, 1 for each face type.
+                    var iconIndex = (i * 6) + face - 1;
+                    var icon = (ImageFile)type["FacialFeatureIcon[" + iconIndex + "]"];
+                    appearance.facialfeatures.Add(IconDatabase.EnsureEntry("customize", icon));
+                }
+
+                appearance.facialfeatureColor = FormatColorCoordinates((byte)sNpc.Base["FacialFeatureColor"]);
+                appearance.facialfeatureColorCode = FormatColor((byte)sNpc.Base["FacialFeatureColor"], 0);
+            }
+
+            // todo: CharaMakeType ExtraFeatureData for faces, extra feature icons.
         }
 
         Saint.IXivRow CharaMakeTypeRow(int tribeKey, byte gender)
         {
-            foreach (var row in _type)
+            foreach (var row in _sCharaMakeType)
             {
                 var tribe = (Saint.Tribe)row["Tribe"];
                 if (tribe.Key == tribeKey && (sbyte)row["Gender"] == gender)
@@ -261,7 +331,7 @@ namespace Garland.Data.Modules
 
             for (var i = 1; i < length; i++)
             {
-                var row = _customize[startIndex + i];
+                var row = _sCharaMakeCustomize[startIndex + i];
                 if ((byte)row[0] == dataKey)
                 {
                     var icon = (ImageFile)row["Icon"];

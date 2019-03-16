@@ -26,18 +26,20 @@ namespace Garland.Data.Modules
         {
             Index();
 
-            foreach (var sNpc in _builder.NpcsToImport)
+            var sENpcs = _builder.Realm.GameData.ENpcs;
+
+            foreach (var npc in _builder.Db.Npcs)
             {
-                var sRace = (Saint.Race)sNpc.Base["Race"];
+                var sENpc = sENpcs[(int)npc.id];
+                var sRace = (Saint.Race)sENpc.Base["Race"];
                 if (sRace == null || sRace.Key == 0)
                     continue; // Filter out demihuman NPCs.
 
-                var sNpcEquip = (Saint.XivRow)sNpc.Base["NpcEquip"];
-                var modelKeys = GetModelKeys(sNpcEquip, sNpc.Base);
+                var sNpcEquip = (Saint.XivRow)sENpc.Base["NpcEquip"];
+                var modelKeys = GetModelKeys(sNpcEquip, sENpc.Base);
                 if (modelKeys.Count == 0)
                     continue;
 
-                var npc = _builder.GetOrCreateNpc(sNpc);
                 npc.equipment = new JArray();
 
                 foreach (var pair in modelKeys)

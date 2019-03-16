@@ -313,15 +313,15 @@ namespace Garland.Data.Modules
 
         dynamic AddQuestNpc(dynamic quest, Saint.ENpc sNpc)
         {
-            var questId = (int)quest.id;
-
-            var npc = _builder.GetOrCreateNpc(sNpc);
-            if (npc == null)
+            if (Hacks.IsNpcSkipped(sNpc))
                 return null;
+
+            var npc = _builder.Db.NpcsById[sNpc.Key];
 
             if (npc.quests == null)
                 npc.quests = new JArray();
 
+            var questId = (int)quest.id;
             JArray quests = npc.quests;
             if (!quests.Any(id => ((int)id) == questId))
             {

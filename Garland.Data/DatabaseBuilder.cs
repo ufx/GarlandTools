@@ -21,7 +21,6 @@ namespace Garland.Data
 
         #region Builder state - to organize
         static Dictionary<long, JArray> _bossCurrency = new Dictionary<long, JArray>();
-        static Dictionary<int, Libra.ENpcResident> _libraNpcIndex;
 
         public Dictionary<long, List<int>> ItemDropsByMobId = new Dictionary<long, List<int>>();
         public Dictionary<long, int> InstanceIdsByMobId = new Dictionary<long, int>();
@@ -33,7 +32,6 @@ namespace Garland.Data
         public SaintCoinach.ARealmReversed Realm => _realm;
         public GarlandDatabase Db => _db;
         public Saint.Item[] ItemsToImport;
-        public Saint.ENpc[] NpcsToImport;
         public Dictionary<int, LocationInfo> LocationInfoByMapId = new Dictionary<int, LocationInfo>();
         public Dictionary<int, string> EmoteNamesById = new Dictionary<int, string>();
         public Dictionary<int, Saint.Level> LevelByNpcObjectKey = new Dictionary<int, Saint.Level>();
@@ -61,13 +59,6 @@ namespace Garland.Data
             ItemsToImport = Sheet<Saint.Item>()
                 .Where(i => !Hacks.IsItemSkipped(i.Name, i.Key))
                 .ToArray();
-
-            NpcsToImport = _realm.GameData.ENpcs
-                .Where(n => n.Resident != null)
-                .Where(n => !string.IsNullOrWhiteSpace(n.Singular))
-                .ToArray();
-
-            _libraNpcIndex = _libra.Table<Libra.ENpcResident>().ToDictionary(e => e.Key);
 
             FileDatabase.Initialize();
             IconDatabase.Initialize();
@@ -241,73 +232,6 @@ namespace Garland.Data
             var x = Math.Round(level.MapX, 2);
             var y = Math.Round(level.MapY, 2);
             return new JArray(x, y);
-        }
-
-        public dynamic GetOrCreateNpc(Saint.ENpc sNpc)
-        {
-            if (_db.NpcsById.TryGetValue(sNpc.Key, out var npc))
-                return npc;
-
-            if (string.IsNullOrWhiteSpace(sNpc.Singular))
-                return null; // Bad or unreferenced NPC.
-
-            npc = new JObject();
-            npc.id = sNpc.Key;
-            Localize.Column((JObject)npc, sNpc.Resident, "Singular", "name", Utils.CapitalizeWords);
-            string name = npc.en.name;
-            npc.patch = PatchDatabase.Get("npc", sNpc.Key);
-
-            // Set base information.
-            if (!_db.NpcAlternatesByName.TryGetValue(name, out var alts))
-            {
-                alts = new List<dynamic>();
-                _db.NpcAlternatesByName[name] = alts;
-            }
-            alts.Add(npc);
-
-            var title = sNpc.Title.ToString();
-            if (!string.IsNullOrEmpty(title))
-                npc.title = title;
-
-            // Map and coordinates.
-            if (LevelByNpcObjectKey.TryGetValue(sNpc.Key, out var level) && LocationInfoByMapId.TryGetValue(level.Map.Key, out var locationInfo))
-            {
-                npc.zoneid = locationInfo.PlaceName.Key;
-                npc.coords = GetCoords(level);
-                _db.AddLocationReference(locationInfo.PlaceName.Key);
-            }
-            else
-            {
-                if (_db.NpcZoneByNpcId.ContainsKey(sNpc.Key))
-                {
-                    var zoneid = _db.NpcZoneByNpcId[sNpc.Key];
-                    npc.zoneid = zoneid;
-                    _db.AddLocationReference(zoneid);
-                }
-
-                if (_libraNpcIndex.TryGetValue(sNpc.Key, out var lNpc))
-                {
-                    dynamic data = JsonConvert.DeserializeObject((string)lNpc.data);
-                    var zone = Utils.GetPair(data.coordinate);
-                    npc.coords = Utils.GetFirst(zone.Value);
-                    npc.approx = 1;
-                }
-            }
-
-            // Closest map marker.
-            if (level != null)
-            {
-                var marker = MapMarker.FindClosest(this, level.Map, level.MapX, level.MapY);
-                if (marker != null)
-                {
-                    npc.areaid = marker.PlaceName.Key;
-                    _db.AddLocationReference(marker.PlaceName.Key);
-                }
-            }
-
-            _db.Npcs.Add(npc);
-            _db.NpcsById[sNpc.Key] = npc;
-            return npc;
         }
 
         public void AddBossCurrency(int amount, int currencyId, long mobId)

@@ -83,7 +83,7 @@ namespace Garland.Data.Modules
                 if (sNpc == null)
                     continue;
 
-                var npc = _builder.GetOrCreateNpc(sNpc);
+                var npc = _builder.Db.NpcsById[sNpc.Key];
                 if (npc.tripletriad != null)
                     throw new InvalidOperationException();
 

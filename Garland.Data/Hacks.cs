@@ -103,6 +103,17 @@ namespace Garland.Data
             return false;
         }
 
+        public static bool IsNpcSkipped(ENpc sNpc)
+        {
+            if (sNpc.Resident == null)
+                return true;
+
+            if (string.IsNullOrWhiteSpace(sNpc.Resident.Singular))
+                return true;
+
+            return false;
+        }
+
         public static void SetManualShops(SaintCoinach.ARealmReversed realm, Dictionary<int, GarlandShop> shopsByKey)
         {
             // Special Shops

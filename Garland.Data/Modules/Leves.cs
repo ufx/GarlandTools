@@ -74,7 +74,7 @@ namespace Garland.Data.Modules
             leve.jobCategory = sLeve.ClassJobCategory.Key;
 
             var sNpc = _builder.Realm.GameData.ENpcs[sLeve.LevemeteLevel.Object.Key];
-            var levemete = _builder.GetOrCreateNpc(sNpc);
+            var levemete = _builder.Db.NpcsById[sNpc.Key];
             leve.levemete = sNpc.Key;
             _builder.Db.AddReference(leve, "npc", sNpc.Key, false);
 

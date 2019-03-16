@@ -33,7 +33,7 @@ namespace Garland.Data.Modules
             var appraiserIds = new int[] { 1012300 }; // Just use this one for now.
             List<dynamic> appraisers = new List<dynamic>();
             foreach (var appraiserId in appraiserIds)
-                appraisers.Add(_builder.GetOrCreateNpc(_builder.Realm.GameData.ENpcs[appraiserId]));
+                appraisers.Add(_builder.Db.NpcsById[appraiserId]);
 
             foreach (var sMasterpieceSupplyDuty in _builder.Sheet<Saint.MasterpieceSupplyDuty>())
             {

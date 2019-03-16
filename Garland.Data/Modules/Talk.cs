@@ -94,7 +94,7 @@ namespace Garland.Data.Modules
                         questTalk.questid = sQuest.Key;
                         questTalk.lines = new JArray(lines.ToArray());
 
-                        var npc = _builder.GetOrCreateNpc(sNpc);
+                        var npc = _builder.Db.NpcsById[sNpc.Key];
                         if (npc.talk == null)
                             npc.talk = new JArray();
                         npc.talk.Add(questTalk);
@@ -114,6 +114,9 @@ namespace Garland.Data.Modules
 
                 foreach (var sNpc in npcs)
                 {
+                    if (Hacks.IsNpcSkipped(sNpc))
+                        continue;
+
                     // Check that the entry wasn't already seen by a quest SwitchTalk.
                     if (defaultTalkByNpc.TryGetValue(sNpc.Key, out var seenDefaultTalk))
                     {
@@ -121,9 +124,7 @@ namespace Garland.Data.Modules
                             continue;
                     }
 
-                    var npc = _builder.GetOrCreateNpc(sNpc);
-                    if (npc == null)
-                        continue;
+                    var npc = _builder.Db.NpcsById[sNpc.Key];
 
                     // No quest - add the dialogue.
                     var lines = GetDefaultTalkLines(sDefaultTalk);
