@@ -117,7 +117,6 @@ namespace Garland.Data
                 new Jobs(),
                 new Dyes(),
                 new NpcEquipment(itemSourceComplexityModule),
-                new NpcAlternates(), // Has to be the very end.
                 new StatisticsModule(itemSourceComplexityModule),
             });
 

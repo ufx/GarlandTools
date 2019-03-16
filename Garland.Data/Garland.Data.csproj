@@ -118,7 +118,6 @@
     <Compile Include="Modules\Module.cs" />
     <Compile Include="Modules\Mounts.cs" />
     <Compile Include="Modules\Nodes.cs" />
-    <Compile Include="Modules\NpcAlternates.cs" />
     <Compile Include="Modules\NpcEquipment.cs" />
     <Compile Include="Modules\NPCs.cs" />
     <Compile Include="Modules\Orchestrion.cs" />

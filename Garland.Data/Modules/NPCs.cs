@@ -23,6 +23,8 @@ namespace Garland.Data.Modules
         const int LightLipFacePaintColorOffset = 1792;
 
         Dictionary<int, Libra.ENpcResident> _libraNpcIndex;
+        Dictionary<string, List<dynamic>> _alternatesByName = new Dictionary<string, List<dynamic>>();
+
 
         public override string Name => "NPCs";
 
@@ -36,6 +38,7 @@ namespace Garland.Data.Modules
 
             BuildNpcs();
             BuildSupplementalData();
+            LinkAlternates();
         }
 
         void BuildNpcs()
@@ -53,10 +56,10 @@ namespace Garland.Data.Modules
                 npc.patch = PatchDatabase.Get("npc", sNpc.Key);
 
                 // Set base information.
-                if (!_builder.Db.NpcAlternatesByName.TryGetValue(name, out var alts))
+                if (!_alternatesByName.TryGetValue(name, out var alts))
                 {
                     alts = new List<dynamic>();
-                    _builder.Db.NpcAlternatesByName[name] = alts;
+                    _alternatesByName[name] = alts;
                 }
                 alts.Add(npc);
 
@@ -284,6 +287,29 @@ namespace Garland.Data.Modules
             // todo: CharaMakeType ExtraFeatureData for faces, extra feature icons.
         }
 
+        void LinkAlternates()
+        {
+            foreach (var npc in _builder.Db.Npcs)
+            {
+                string name = npc.en.name ?? "";
+                var alts = _alternatesByName[name];
+
+                var otherAlts = alts.Where(a => a != npc).OrderBy(a => (int)a.id).ToArray();
+                if (otherAlts.Length > 0)
+                {
+                    npc.alts = new JArray();
+
+                    foreach (var alt in otherAlts)
+                    {
+                        int altId = alt.id;
+                        npc.alts.Add(altId);
+                        _builder.Db.AddReference(npc, "npc", altId, false);
+                    }
+                }
+            }
+        }
+
+        #region Appearance Utilities
         Saint.IXivRow CharaMakeTypeRow(int tribeKey, byte gender)
         {
             foreach (var row in _sCharaMakeType)
@@ -493,5 +519,6 @@ namespace Garland.Data.Modules
             var c = _colorMap.Colors[offset + colorIndex];
             return $"#{c.R.ToString("X2")}{c.G.ToString("X2")}{c.B.ToString("X2")}";
         }
+        #endregion
     }
 }
