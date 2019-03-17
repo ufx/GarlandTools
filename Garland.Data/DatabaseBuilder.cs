@@ -112,6 +112,7 @@ namespace Garland.Data
                 itemSourceComplexityModule,
                 new SupplyDuties(itemSourceComplexityModule),
                 new Maps(),
+                new Territories(),
                 new EquipmentScorer(),
                 new Jobs(),
                 new Dyes(),

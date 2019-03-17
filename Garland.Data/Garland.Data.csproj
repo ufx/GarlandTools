@@ -130,6 +130,7 @@
     <Compile Include="Modules\StatisticsModule.cs" />
     <Compile Include="Modules\SupplyDuties.cs" />
     <Compile Include="Modules\Talk.cs" />
+    <Compile Include="Modules\Territories.cs" />
     <Compile Include="Modules\TripleTriad.cs" />
     <Compile Include="Modules\Ventures.cs" />
     <Compile Include="Modules\Weather.cs" />
