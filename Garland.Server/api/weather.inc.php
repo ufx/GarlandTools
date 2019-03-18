@@ -2,8 +2,7 @@
 
 $weatherIndex = array("","Clear Skies","Fair Skies","Clouds","Fog","Wind","Gales","Rain","Showers","Thunder","Thunderstorms","Dust Storms","Sandstorms","Hot Spells","Heat Waves","Snow","Blizzards","Gloom","Auroras","Darkness","Tension","Clouds","Storm Clouds","Rough Seas","Rough Seas","Louring","Heat Waves","Gloom","Gales","Eruptions","Fair Skies","Fair Skies","Fair Skies","Fair Skies","Fair Skies","Irradiance","Core Radiation","Core Radiation","Core Radiation","Core Radiation","Shelf Clouds","Shelf Clouds","Shelf Clouds","Shelf Clouds","Oppression","Oppression","Oppression","Oppression","Oppression","Umbral Wind","Umbral Static","Smoke","Fair Skies","Royal Levin","Hyperelectricity","Royal Levin","Oppression","Thunder","Thunder","CutScene","Multiplicity","Multiplicity","Rain","Fair Skies","Rain","Fair Skies","Dragonstorms","Dragonstorms","Subterrain","Concordance","Concordance","Beyond Time","Beyond Time","Beyond Time","Demonic Infinity","Demonic Infinity","Demonic Infinity","Dimensional Disruption","Dimensional Disruption","Dimensional Disruption","Revelstorms","Revelstorms","Eternal Bliss","Eternal Bliss","Wyrmstorms","Wyrmstorms","Revelstorms","Quicklevin","Thunder","Dimensional Disruption","Fair Skies","Clear Skies","White Cyclones","White Cyclones","White Cyclones","Ultimania","White Cyclones","Moonlight","Moonlight","Moonlight","Moonlight","Fair Skies","Scarlet","Scarlet","Scarlet","Fair Skies","Fair Skies","Fair Skies","Fair Skies","Flames","Tsunamis","Cyclones","Geostorms","True Blue","True Blue","True Blue","Umbral Turbulence","True Blue","","","","");
 
-$zoneWeather = array('Mor Dhona - ' => array(array('Rate' => 15, 'Weather' => 3), array('Rate' => 30, 'Weather' => 4), array('Rate' => 60, 'Weather' => 17), array('Rate' => 75, 'Weather' => 1), array('Rate' => 100, 'Weather' => 2)),
-    'Limsa Lominsa' => array(array('Rate' => 20, 'Weather' => 3), array('Rate' => 50, 'Weather' => 1), array('Rate' => 80, 'Weather' => 2), array('Rate' => 90, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
+$zoneWeather = array('Limsa Lominsa' => array(array('Rate' => 20, 'Weather' => 3), array('Rate' => 50, 'Weather' => 1), array('Rate' => 80, 'Weather' => 2), array('Rate' => 90, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
     'Limsa Lominsa Upper Decks' => array(array('Rate' => 20, 'Weather' => 3), array('Rate' => 50, 'Weather' => 1), array('Rate' => 80, 'Weather' => 2), array('Rate' => 90, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
     'Limsa Lominsa Lower Decks' => array(array('Rate' => 20, 'Weather' => 3), array('Rate' => 50, 'Weather' => 1), array('Rate' => 80, 'Weather' => 2), array('Rate' => 90, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
     'Middle La Noscea' => array(array('Rate' => 20, 'Weather' => 3), array('Rate' => 50, 'Weather' => 1), array('Rate' => 70, 'Weather' => 2), array('Rate' => 80, 'Weather' => 5), array('Rate' => 90, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
@@ -42,7 +41,6 @@ $zoneWeather = array('Mor Dhona - ' => array(array('Rate' => 15, 'Weather' => 3)
     'The Navel' => array(array('Rate' => 100, 'Weather' => 29)),
     'Thornmarch' => array(array('Rate' => 100, 'Weather' => 27)),
     'The Howling Eye' => array(array('Rate' => 100, 'Weather' => 28)),
-    'Ul\'dah - Steps of Thal - Merchant Strip' => array(array('Rate' => 40, 'Weather' => 1), array('Rate' => 60, 'Weather' => 2), array('Rate' => 85, 'Weather' => 3), array('Rate' => 95, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
     'Stone Vigil' => array(array('Rate' => 100, 'Weather' => 15)),
     'Snowcloak' => array(array('Rate' => 100, 'Weather' => 16)),
     'Steps of Faith' => array(array('Rate' => 100, 'Weather' => 3)),
@@ -57,10 +55,6 @@ $zoneWeather = array('Mor Dhona - ' => array(array('Rate' => 15, 'Weather' => 3)
     'Ul\'dah - Steps of Nald - Airship Landing' => array(array('Rate' => 40, 'Weather' => 1), array('Rate' => 60, 'Weather' => 2), array('Rate' => 85, 'Weather' => 3), array('Rate' => 95, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
     'Ul\'dah - Steps of Thal - Hustings Strip' => array(array('Rate' => 40, 'Weather' => 1), array('Rate' => 60, 'Weather' => 2), array('Rate' => 85, 'Weather' => 3), array('Rate' => 95, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
     'Limsa Lominsa Upper Decks - Airship Landing' => array(array('Rate' => 20, 'Weather' => 3), array('Rate' => 50, 'Weather' => 1), array('Rate' => 80, 'Weather' => 2), array('Rate' => 90, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
-    'Mist' => array(array('Rate' => 20, 'Weather' => 3), array('Rate' => 50, 'Weather' => 1), array('Rate' => 70, 'Weather' => 2), array('Rate' => 80, 'Weather' => 2), array('Rate' => 90, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
-    'The Goblet' => array(array('Rate' => 40, 'Weather' => 1), array('Rate' => 60, 'Weather' => 2), array('Rate' => 85, 'Weather' => 3), array('Rate' => 95, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
-    'The Goblet - The Goblet Subdivision' => array(array('Rate' => 40, 'Weather' => 1), array('Rate' => 60, 'Weather' => 2), array('Rate' => 85, 'Weather' => 3), array('Rate' => 95, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
-    'The Lavender Beds' => array(array('Rate' => 5, 'Weather' => 3), array('Rate' => 20, 'Weather' => 7), array('Rate' => 30, 'Weather' => 4), array('Rate' => 40, 'Weather' => 3), array('Rate' => 55, 'Weather' => 2), array('Rate' => 85, 'Weather' => 1), array('Rate' => 100, 'Weather' => 2)),
     'The Outer Coil - Incubation Bay' => array(array('Rate' => 100, 'Weather' => 3)),
     'The Whorleater' => array(array('Rate' => 100, 'Weather' => 23)),
     'The Striking Tree' => array(array('Rate' => 100, 'Weather' => 22)),
@@ -93,7 +87,6 @@ $zoneWeather = array('Mor Dhona - ' => array(array('Rate' => 15, 'Weather' => 3)
     'Emanation' => array(array('Rate' => 100, 'Weather' => 82)),
     'Foundation' => array(array('Rate' => 60, 'Weather' => 15), array('Rate' => 70, 'Weather' => 2), array('Rate' => 75, 'Weather' => 1), array('Rate' => 90, 'Weather' => 3), array('Rate' => 100, 'Weather' => 4)),
     'The Pillars' => array(array('Rate' => 60, 'Weather' => 15), array('Rate' => 70, 'Weather' => 2), array('Rate' => 75, 'Weather' => 1), array('Rate' => 90, 'Weather' => 3), array('Rate' => 100, 'Weather' => 4)),
-    'Shirogane' => array(array('Rate' => 10, 'Weather' => 7), array('Rate' => 20, 'Weather' => 4), array('Rate' => 40, 'Weather' => 3), array('Rate' => 80, 'Weather' => 2), array('Rate' => 100, 'Weather' => 1)),
     'The Jade Stoa' => array(array('Rate' => 100, 'Weather' => 92)),
     'Deltascape V1.0' => array(array('Rate' => 100, 'Weather' => 79)),
     'Deltascape V2.0' => array(array('Rate' => 100, 'Weather' => 79)),

@@ -25,7 +25,7 @@ namespace Garland.Data.Modules
         Dictionary<string, List<dynamic>> _alternatesByName = new Dictionary<string, List<dynamic>>();
         Dictionary<int, int> _zoneByNpcId = new Dictionary<int, int>();
         Dictionary<int, Saint.Level> _levelByNpcObjectKey = new Dictionary<int, Saint.Level>();
-
+        Dictionary<int, Libra.ENpcResident> _libraNpcIndex;
 
         public override string Name => "NPCs";
 
@@ -51,6 +51,8 @@ namespace Garland.Data.Modules
             }
 
             // Supplemental Libra places.
+            _libraNpcIndex = _builder.Libra.Table<Libra.ENpcResident>().ToDictionary(e => e.Key);
+
             foreach (var lPlaceName in _builder.Libra.Table<Libra.ENpcResident_PlaceName>())
                 _zoneByNpcId[lPlaceName.ENpcResident_Key] = lPlaceName.PlaceName_Key;
 
@@ -91,21 +93,33 @@ namespace Garland.Data.Modules
                     npc.title = title;
 
                 // Map and coordinates.
-                if (_levelByNpcObjectKey.TryGetValue(sNpc.Key, out var level) &&
-                    _builder.LocationInfoByMapId.TryGetValue(level.Map.Key, out var locationInfo))
+                if (_levelByNpcObjectKey.TryGetValue(sNpc.Key, out var level))
                 {
-                    npc.zoneid = locationInfo.PlaceName.Key;
                     npc.coords = _builder.GetCoords(level);
-                    _builder.Db.AddLocationReference(locationInfo.PlaceName.Key);
-                }
-                else if (_zoneByNpcId.TryGetValue(sNpc.Key, out var zoneid))
-                {
-                    npc.zoneid = zoneid;
-                    _builder.Db.AddLocationReference(zoneid);
-                }
 
-                if (level != null)
+                    if (level.Map.PlaceName.Key > 0)
+                    {
+                        npc.zoneid = level.Map.PlaceName.Key;
+                        _builder.Db.AddLocationReference(level.Map.PlaceName.Key);
+                    }
+
                     UpdateArea(_builder, npc, level.Map, level.MapX, level.MapY);
+                }
+                else 
+                {
+                    if (_libraNpcIndex.TryGetValue(sNpc.Key, out var lNpc))
+                    {
+                        dynamic lData = JsonConvert.DeserializeObject((string)lNpc.data);
+                        var lZone = Utils.GetPair(lData.coordinate);
+                        npc.coords = Utils.GetFirst(lZone.Value);
+                    }
+
+                    if (_zoneByNpcId.TryGetValue(sNpc.Key, out var zoneid))
+                    {
+                        npc.zoneid = zoneid;
+                        _builder.Db.AddLocationReference(zoneid);
+                    }
+                }
 
                 // Other work.
                 BuildAppearanceData(npc, sNpc);
