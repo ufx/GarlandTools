@@ -114,6 +114,7 @@ $zoneWeather = array('Mor Dhona - ' => array(array('Rate' => 15, 'Weather' => 3)
     'Eureka Hydatos' => array(array('Rate' => 12, 'Weather' => 2), array('Rate' => 34, 'Weather' => 8), array('Rate' => 56, 'Weather' => 17), array('Rate' => 78, 'Weather' => 10), array('Rate' => 100, 'Weather' => 15)),
     'The Royal Airship Landing' => array(array('Rate' => 100, 'Weather' => 84)),
     'Transparency' => array(array('Rate' => 100, 'Weather' => 84)),
+    'The Interdimensional Rift' => array(array('Rate' => 100, 'Weather' => 77)),
     'The House of the Fierce' => array(array('Rate' => 5, 'Weather' => 8), array('Rate' => 15, 'Weather' => 7), array('Rate' => 25, 'Weather' => 4), array('Rate' => 40, 'Weather' => 3), array('Rate' => 80, 'Weather' => 2), array('Rate' => 100, 'Weather' => 1)),
     'The Doman Enclave' => array(array('Rate' => 5, 'Weather' => 8), array('Rate' => 15, 'Weather' => 7), array('Rate' => 25, 'Weather' => 4), array('Rate' => 40, 'Weather' => 3), array('Rate' => 80, 'Weather' => 2), array('Rate' => 100, 'Weather' => 1)),
     'Bokairo Inn' => array(array('Rate' => 10, 'Weather' => 7), array('Rate' => 20, 'Weather' => 4), array('Rate' => 40, 'Weather' => 3), array('Rate' => 80, 'Weather' => 2), array('Rate' => 100, 'Weather' => 1)));

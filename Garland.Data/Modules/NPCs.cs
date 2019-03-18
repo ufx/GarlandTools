@@ -22,7 +22,6 @@ namespace Garland.Data.Modules
         const int DarkLipFacePaintColorOffset = 512;
         const int LightLipFacePaintColorOffset = 1792;
 
-        Dictionary<int, Libra.ENpcResident> _libraNpcIndex;
         Dictionary<string, List<dynamic>> _alternatesByName = new Dictionary<string, List<dynamic>>();
         Dictionary<int, int> _zoneByNpcId = new Dictionary<int, int>();
         Dictionary<int, Saint.Level> _levelByNpcObjectKey = new Dictionary<int, Saint.Level>();
@@ -35,8 +34,6 @@ namespace Garland.Data.Modules
             _sCharaMakeCustomize = _builder.Sheet("CharaMakeCustomize");
             _sCharaMakeType = _builder.Sheet("CharaMakeType");
             _colorMap = new SaintCoinach.Graphics.ColorMap(_builder.Realm.GameData.PackCollection.GetFile("chara/xls/charamake/human.cmp"));
-
-            _libraNpcIndex = _builder.Libra.Table<Libra.ENpcResident>().ToDictionary(e => e.Key);
 
             IndexLevels();
             BuildNpcs();
@@ -53,7 +50,6 @@ namespace Garland.Data.Modules
                     _levelByNpcObjectKey[sLevel.Object.Key] = sLevel;
             }
 
-            // todo: remove?
             // Supplemental Libra places.
             foreach (var lPlaceName in _builder.Libra.Table<Libra.ENpcResident_PlaceName>())
                 _zoneByNpcId[lPlaceName.ENpcResident_Key] = lPlaceName.PlaceName_Key;
@@ -102,39 +98,30 @@ namespace Garland.Data.Modules
                     npc.coords = _builder.GetCoords(level);
                     _builder.Db.AddLocationReference(locationInfo.PlaceName.Key);
                 }
-                else
+                else if (_zoneByNpcId.TryGetValue(sNpc.Key, out var zoneid))
                 {
-                    if (_zoneByNpcId.TryGetValue(sNpc.Key, out var zoneId))
-                    {
-                        npc.zoneid = zoneId;
-                        _builder.Db.AddLocationReference(zoneId);
-                    }
-
-                    if (_libraNpcIndex.TryGetValue(sNpc.Key, out var lNpc))
-                    {
-                        dynamic data = JsonConvert.DeserializeObject((string)lNpc.data);
-                        var zone = Utils.GetPair(data.coordinate);
-                        npc.coords = Utils.GetFirst(zone.Value);
-                        npc.approx = 1;
-                    }
+                    npc.zoneid = zoneid;
+                    _builder.Db.AddLocationReference(zoneid);
                 }
 
-                // Closest map marker.
                 if (level != null)
-                {
-                    var marker = MapMarker.FindClosest(_builder, level.Map, level.MapX, level.MapY);
-                    if (marker != null)
-                    {
-                        npc.areaid = marker.PlaceName.Key;
-                        _builder.Db.AddLocationReference(marker.PlaceName.Key);
-                    }
-                }
+                    UpdateArea(_builder, npc, level.Map, level.MapX, level.MapY);
 
                 // Other work.
                 BuildAppearanceData(npc, sNpc);
 
                 _builder.Db.Npcs.Add(npc);
                 _builder.Db.NpcsById[sNpc.Key] = npc;
+            }
+        }
+
+        public static void UpdateArea(DatabaseBuilder builder, dynamic npc, Saint.Map sMap, double mapX, double mapY)
+        {
+            var marker = MapMarker.FindClosest(builder, sMap, mapX, mapY);
+            if (marker != null)
+            {
+                npc.areaid = marker.PlaceName.Key;
+                builder.Db.AddLocationReference(marker.PlaceName.Key);
             }
         }
 
