@@ -77,6 +77,7 @@ namespace Garland.Data.Output
         public IOrderedEnumerable<Row> OrderedRows()
         {
             var languageSort = new Dictionary<string, byte>();
+            languageSort[""] = 1;
             languageSort["en"] = 1;
             languageSort["de"] = 2;
             languageSort["fr"] = 3;
