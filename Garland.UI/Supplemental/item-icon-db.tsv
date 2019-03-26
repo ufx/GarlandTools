@@ -15685,10 +15685,6 @@
 17550	13152	26551	Coerthan Souvenir
 17549	13153	26552	Near Eastern Antique
 15144	13154	52651	Washbasin
-25021	0	35766	Tonberry Knife
-25020	0	34328	Gigas Greatsword
-25000	0	49692	Skirt of Light
-24999	0	42628	Gown of Light
 24998	13155	31972	Absolute Lance
 24997	13156	38580	Shin-Zantetsuken
 24996	13157	34326	Great Shin-Zantetsuken
@@ -15702,6 +15698,24 @@
 24807	13165	20037	Hydatos Crystal
 24806	13166	22265	Crystalline Scale
 24798	13167	26283	Mullondeis Coin
+24640	13168	28819	Yukinko Snowflake
+24635	13169	28818	Conditional Virtue
+24626	13170	26060	Demi-Ozma
+24535	13171	53169	Simple Treehouse
+24534	13172	52970	Season Twelve Lone Wolf Trophy
+24488	13173	52984	Paissa Chronometer
+25021	0	35766	Tonberry Knife
+25020	0	34328	Gigas Greatsword
+25000	0	49692	Skirt of Light
+24999	0	42628	Gown of Light
+24995	13174	29551	The Unconditional
+24994	13175	29550	Warden of the Seven Hues
+24993	13176	29164	The Ruby Dragon
+24992	13177	29927	Stethacanthus
+24991	13178	29549	Drepanaspis
+24990	13179	29548	Xenacanthus
+24901	13180	28828	Zephyrous Zabuton
+24800	13181	49207	Yojimbo Barding
 24757	0	49907	Elemental Shoes of Casting +1
 24756	0	49896	Elemental Bottoms of Casting +1
 24755	0	49367	Elemental Gloves of Casting +1
@@ -15770,13 +15784,19 @@
 24676	0	31162	Dumuzis
 24675	0	30596	Antea
 24642	0	28817	Baby Gremlin
-24640	13168	28819	Yukinko Snowflake
-24635	13169	28818	Conditional Virtue
-24626	13170	26060	Demi-Ozma
+24641	0	28820	Dress-up Tataru
+24638	13182	28823	Wind-up Redback
+24637	13183	28822	Wind-up Qalyana
+24624	0	26059	Regalia Type-G Title
+24617	13184	52964	Ananta Metalworks
 24615	0	48495	Mameshiba Neckerchief
 24614	0	48728	Mameshiba Earring
 24613	0	48494	Namazu Neckerchief
 24612	0	48727	Namazu Earring
+24611	0	49995	Lucian Prince's Boots
+24610	0	45772	Lucian Prince's Bottoms
+24609	0	49358	Lucian Prince's Fingerless Glove
+24608	0	43848	Lucian Prince's Jacket
 24607	0	49910	Spriggan Boots
 24606	0	49697	Spriggan Bottoms
 24605	0	43858	Spriggan Jacket
@@ -15786,10 +15806,14 @@
 24601	0	46079	Far Eastern Schoolboy's Zori
 24600	0	43863	Far Eastern Schoolboy's Hakama
 24599	0	40930	Far Eastern Schoolboy's Hat
+24598	13185	49909	Scion Traveler's Boots
+24597	13186	49696	Scion Traveler's Trousers
+24596	13187	49372	Scion Traveler's Gloves
+24595	13188	43857	Scion Traveler's Jacket
+24594	13189	47922	Scion Traveler's Mask
 24590	0	47925	Flower Crown
 24589	0	48729	Aetheryte Earring
-24535	13171	53169	Simple Treehouse
-24534	13172	52970	Season Twelve Lone Wolf Trophy
+24537	13190	53167	Big One Festival Float
 24532	0	52989	Festive Sushi Balls
 24531	0	52988	Festive Chirashi-zushi
 24530	0	52975	Stuffed Mammet
@@ -15799,4 +15823,24 @@
 24498	0	52990	Eggcentric Crown Roast
 24497	0	52993	Valentione Cake Pairing
 24496	0	52992	Valentione Lobster Platter
-24488	13173	52984	Paissa Chronometer
+24164	13191	41721	Namazu Mask
+24025	0	28254	Featherfoot L
+24024	0	28255	Paralyze L
+24022	0	28256	Protect L
+24019	0	28253	Wisdom of the Ordained
+24017	0	28251	Wisdom of the Platebearer
+24015	0	28252	Wisdom of the Aetherweaver
+23996	0	28810	Wind-up Aerith
+23995	0	28809	Wind-up Cloud
+23383	0	22218	Rathalos Scale+
+22614	0	49814	Augmented Rathalos Coil [F]
+22612	0	43407	Augmented Rathalos Mail [F]
+22610	0	47145	Augmented Rathalos Greaves [M]
+22609	0	49815	Augmented Rathalos Coil [M]
+22608	0	49590	Augmented Rathalos Vambraces [M]
+22607	0	43408	Augmented Rathalos Mail [M]
+22606	0	41629	Augmented Rathalos Helm [M]
+22458	13192	40299	Crimson Inoshishi Kabuto
+22457	13193	40298	Inoshishi Kabuto
+21870	13194	52893	Melodious Mogchestrion
+21814	13195	52628	Boar's Head Kadomatsu
