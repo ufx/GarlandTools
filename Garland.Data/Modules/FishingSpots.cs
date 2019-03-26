@@ -91,7 +91,7 @@ namespace Garland.Data.Modules
 
                     var folkloreItem = _builder.Db.ItemsById[sGatheringSubCategory.Item.Key];
                     if (folkloreItem.unlocks == null)
-                        folkloreItem.unlocks = new JArray();
+                       folkloreItem.unlocks = new JArray();
                     folkloreItem.unlocks.Add(sFishParameter.Item.Key);
                     _builder.Db.AddReference(folkloreItem, "item", sFishParameter.Item.Key, false);
                 }

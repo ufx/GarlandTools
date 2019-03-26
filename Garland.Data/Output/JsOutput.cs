@@ -507,9 +507,7 @@ namespace Garland.Data.Output
             parts.Add("gt.bell.bait = " + Json(baitData, Formatting.Indented));
 
             // Fish
-            var fishData = new JArray();
-            foreach (var fish in _db.Fish)
-                fishData.Add(fish);
+            var fishData = new JArray(_db.Fish);
             parts.Add("gt.bell.fish = " + Json(fishData, Formatting.Indented));
 
             parts.Add("");
