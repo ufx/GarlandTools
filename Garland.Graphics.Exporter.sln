@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garland.Graphics.Exporter", "Garland.Graphics.Exporter\Garland.Graphics.Exporter.csproj", "{0437AECD-D824-4E8D-A5C6-D82B9C66B0CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xivModdingFramework", "..\xivModdingFramework\xivModdingFramework\xivModdingFramework.csproj", "{08241AEE-F18E-43DC-BD98-540A9F137E99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0437AECD-D824-4E8D-A5C6-D82B9C66B0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0437AECD-D824-4E8D-A5C6-D82B9C66B0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0437AECD-D824-4E8D-A5C6-D82B9C66B0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0437AECD-D824-4E8D-A5C6-D82B9C66B0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08241AEE-F18E-43DC-BD98-540A9F137E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08241AEE-F18E-43DC-BD98-540A9F137E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08241AEE-F18E-43DC-BD98-540A9F137E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08241AEE-F18E-43DC-BD98-540A9F137E99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2919C9E8-28BC-49CF-9DB9-919869051307}
+	EndGlobalSection
+EndGlobal
