@@ -206,9 +206,9 @@ namespace Garland.Data.Modules
                     var baitItem = _builder.Db.ItemsByName[bait];
                     if (baitItem.fish != null)
                     {
-                        dynamic baitSpotView = ((JArray)baitItem.fish.spots).FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);
+                        dynamic baitSpotView = ((JArray)baitItem.fish?.spots)?.FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);
                         if (baitSpotView == null)
-                            throw new InvalidOperationException($"Can't find bait view for {name} bait {bait}.");
+                            throw new InvalidOperationException($"Can't find mooch {bait} for {name} at {currentFishingSpot.en.name}.  Did you forget to add it to the spot?");
 
                         InheritConditions(spot, baitSpotView, weather, transition, start, end);
                     }

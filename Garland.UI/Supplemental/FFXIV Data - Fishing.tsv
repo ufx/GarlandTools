@@ -1,58 +1,58 @@
 Fish	Bait	Start	End	Transition	Weather	Predator, Amount	Tug	Hookset	Gathering	Snagging?	Fish Eyes?	ID
 Limsa Lominsa Upper Decks												
-Merlthor Goby												
-Lominsan Anchovy												
-Malm Kelp												
-Finger Shrimp												
-Ocean Cloud												
-Harbor Herring												
-Coral Butterfly												
-Blue Octopus												
+Merlthor Goby	Lugworm											
+Lominsan Anchovy	Lugworm											
+Malm Kelp	Pill Bug											
+Finger Shrimp	Lugworm											
+Ocean Cloud	Pill Bug											
+Harbor Herring	Pill Bug											
+Coral Butterfly	Pill Bug											
+Blue Octopus	Merlthor Goby											
 Goldenfin	Pill Bug	9	14									208
 Limsa Lominsa Lower Decks												
-Merlthor Goby												
-Lominsan Anchovy												
-Malm Kelp												
-Finger Shrimp												
-Ocean Cloud												
+Merlthor Goby	Lugworm											
+Lominsan Anchovy	Lugworm											
+Malm Kelp	Pill Bug											
+Finger Shrimp	Lugworm											
+Ocean Cloud	Pill Bug											
 Harbor Herring	Pill Bug											
-Coral Butterfly												
-Blue Octopus												
+Coral Butterfly	Pill Bug											
+Blue Octopus	Merlthor Goby											
 Octomammoth	Harbor Herring	9	17									230
 Zephyr Drift												
-Merlthor Goby												
-Lominsan Anchovy												
-Finger Shrimp												
-Ocean Cloud												
+Merlthor Goby	Lugworm											
+Lominsan Anchovy	Lugworm											
+Finger Shrimp	Lugworm											
+Ocean Cloud	Pill Bug											
 Sea Cucumber												
-Harbor Herring												
-Coral Butterfly												
+Harbor Herring	Pill Bug											
+Coral Butterfly	Pill Bug											
 Angelfish												
-Blue Octopus												
+Blue Octopus	Merlthor Goby											
 Zalera	Rat Tail	9	14									201
 Rogue River												
-Crayfish												
+Crayfish	Moth Pupa											
 Chub												
 Dwarf Catfish												
 Princess Trout												
 La Noscean Perch												
 Beguiler Chub	Moth Pupa	9	14									202
 West Agelyss River												
-Crayfish												
+Crayfish	Moth Pupa											
 Chub												
 Dwarf Catfish												
 Princess Trout												
-Gudgeon												
+Gudgeon	Crayfish Ball											
 La Noscean Perch												
 Great Gudgeon	Crayfish Ball											211
 Summerford												
 Merlthor Goby	Lugworm											
-Finger Shrimp												
+Finger Shrimp	Lugworm											
 White Coral												
-Ocean Cloud												
-Harbor Herring	Floating Minnow											
+Ocean Cloud	Pill Bug											
+Harbor Herring	Pill Bug											
 Vongola Clam												
-Blue Octopus												
+Blue Octopus	Merlthor Goby											
 Ogre Barracuda												
 Silver Shark												
 Gigantshark	Harbor Herring				Clear Skies, Fair Skies							209
@@ -61,46 +61,46 @@ Chub
 Dwarf Catfish												
 Princess Trout												
 Dusk Goby												
-Gudgeon												
+Gudgeon	Crayfish Ball											
 Maiden Carp												
 La Noscean Perch												
 High Perch	Sinking Minnow	5	8									232
 Woad Whisper Canyon												
 Dwarf Catfish												
 Dusk Goby												
-River Crab												
+River Crab	Butterworm											
 La Noscean Perch												
-Copperfish												
-Eunuch Crayfish												
+Copperfish	Butterworm											
+Eunuch Crayfish	Copperfish											
 Glass Perch												
 Crystal Perch	Butterworm				Fog, Clouds, Wind							205
 The Mourning Widow												
-Crayfish												
+Crayfish	Moth Pupa											
 Chub												
 Dwarf Catfish												
 Princess Trout												
 Dusk Goby												
-Gudgeon												
+Gudgeon	Crayfish Ball											
 Maiden Carp												
 Caterwauler	Moth Pupa											204
 Moraby Bay												
-Merlthor Goby												
-Malm Kelp												
-Ocean Cloud												
+Merlthor Goby	Lugworm											
+Malm Kelp	Pill Bug											
+Ocean Cloud	Pill Bug											
 Sea Cucumber												
 Vongola Clam												
 Moraby Flounder												
 Pebble Crab												
-Blue Octopus												
+Blue Octopus	Merlthor Goby											
 Oschon's Print	Goby Ball											203
 Cedarwood												
-Merlthor Goby												
-Ocean Cloud												
-Harbor Herring												
+Merlthor Goby	Lugworm											
+Ocean Cloud	Pill Bug											
+Harbor Herring	Pill Bug											
 Moraby Flounder												
 Pebble Crab												
 Tiger Cod												
-Blue Octopus												
+Blue Octopus	Merlthor Goby											
 Leafy Seadragon												
 Syldra	Spoon Worm				Rain							233
 Oschon's Torch												
@@ -113,7 +113,7 @@ Rothlyt Oyster
 Mahi-Mahi	Yumizuno	10	18									159
 Silver Sovereign	Yumizuno											213
 Candlekeep Quay												
-Lominsan Anchovy												
+Lominsan Anchovy	Lugworm											
 Vongola Clam												
 Moraby Flounder												
 Pebble Crab												
@@ -122,23 +122,24 @@ Rothlyt Oyster
 Shall Shell												
 Sabertooth Cod	Goby Ball	16	22									214
 Moraby Drydocks												
-Ocean Cloud												
-Harbor Herring												
+Merlthor Goby	Lugworm											
+Ocean Cloud	Pill Bug											
+Harbor Herring	Pill Bug											
 Moraby Flounder												
 Pebble Crab												
 Tiger Cod												
 Rothlyt Oyster												
 Navigator's Dagger												
-Blue Octopus												
+Blue Octopus	Merlthor Goby											
 Jacques the Snipper	Goby Ball	21	3									235
 Empty Heart												
 Dusk Goby												
 Crimson Crayfish												
-Faerie Bass												
-Acorn Snail												
-Moat Carp												
-Copperfish												
-Eunuch Crayfish												
+Faerie Bass	Midge Basket											
+Acorn Snail	Midge Basket											
+Moat Carp	Crow Fly											
+Copperfish	Butterworm											
+Eunuch Crayfish	Copperfish											
 Grip Killifish												
 Faerie Queen	Spinnerbait				Fog, Clouds, Wind							220
 The Salt Strand												
@@ -152,15 +153,15 @@ Black Sole
 Tiny Tortoise												
 Meteor Survivor	Rat Tail	3	5		Fog, Clouds, Wind							239
 Blind Iron Mines												
-Bone Crayfish												
-Acorn Snail												
+Bone Crayfish	Moth Pupa											
+Acorn Snail	Midge Basket											
 Blindfish												
 Lamp Marimo	Chocobo Fly											74
 Cupfish	Syrphid Basket	17	19									238
 South Bloodshore												
-Merlthor Goby												
-Coral Butterfly												
-Blue Octopus												
+Merlthor Goby	Lugworm											
+Coral Butterfly	Pill Bug											
+Blue Octopus	Merlthor Goby											
 Blue Coral												
 Sea Bo												
 Bianaq Bream												
@@ -180,7 +181,7 @@ Silver Shark
 Little Thalaos	Northern Krill				Rain, Showers							155
 Shark Tuna	Fullmoon Sardine	19	21		Clear Skies, Fair Skies							251
 North Bloodshore												
-Harbor Herring												
+Harbor Herring	Pill Bug											
 Ogre Barracuda												
 Black Sole												
 Sea Pickle												
@@ -191,7 +192,7 @@ Red Coral
 Mazlaya Marlin												
 Bombardfish	Herring Ball	9	15		Clear Skies							260
 Rhotano Sea (Privateer Forecastle)												
-Finger Shrimp												
+Finger Shrimp	Lugworm											
 Harbor Herring	Pill Bug											
 Blowfish												
 Balloonfish												
@@ -215,26 +216,27 @@ Nepto Dragon	Northern Krill				Rain, Showers	Little Thalaos, 3						290
 Hidden Falls												
 Crimson Crayfish												
 Dark Sleeper	Brass Spoon Lure	15	10		N/A		Light					
-Mitten Crab												
+Mitten Crab	Honey Worm											
 Spotted Puffer												
 Discus												
 Kobold Puffer												
 The Salter	Honey Worm	17	20		N/A		Light					261
 East Agelyss River												
-Copperfish												
+Ala Mhigan Fighting Fish	Midge Basket						Light					
+Copperfish	Butterworm											
 Lamprey												
-Monke Onke												
-Mitten Crab												
+Monke Onke	Ala Mhigan Fighting Fish											
+Mitten Crab	Honey Worm											
 Discus												
 Loyal Pleco												
 Archerfish												
 Agelyss Carp												
 The Drowned Sniper	Snurble Fly				Clear Skies, Fair Skies							274
 Raincatcher Gully												
-Copperfish												
+Copperfish	Butterworm											
 Lamprey												
-Mitten Crab												
-Giant Bass												
+Mitten Crab	Honey Worm											
+Giant Bass	Honey Worm											
 Discus												
 Loyal Pleco												
 Thunderbolt Sculpin	Spinner				Rain, Showers							113
@@ -242,8 +244,8 @@ Archerfish
 Agelyss Carp												
 The Terpsichorean	Honey Worm				Fog							275
 The Juggernaut												
-Copperfish	Midge Basket											
-Mudcrab												
+Copperfish	Butterworm											
+Mudcrab	Honey Worm											
 Lamprey												
 Grip Killifish												
 Silverfish												
@@ -251,9 +253,9 @@ Sludgeskipper
 Vampire Lampern												
 Mirrorscale	Copperfish	9	16		Clear Skies, Fair Skies							276
 Red Mantis Falls												
-Mitten Crab												
+Mitten Crab	Honey Worm											
 Silverfish	Honey Worm											
-Clown Loach												
+Clown Loach	Honey Worm											
 Discus												
 Knifefish												
 Agelyss Carp												
@@ -272,14 +274,15 @@ Giant Squid
 Castaway Chocobo Chick												
 Little Perykos	Wahoo				Rain, Showers							637
 Swiftperch												
-Lominsan Anchovy												
+Merlthor Goby	Lugworm											
+Lominsan Anchovy	Lugworm											
 White Coral												
-Harbor Herring												
+Harbor Herring	Pill Bug											
 Moraby Flounder												
 Pebble Crab												
 Tiger Cod												
 Rothlyt Oyster												
-Blue Octopus												
+Blue Octopus	Merlthor Goby											
 Halibut												
 Armorer	Northern Krill	19	3		N/A							210
 Skull Valley												
@@ -287,13 +290,13 @@ Merlthor Goby	Lugworm
 Tiger Cod												
 Rothlyt Oyster												
 Razor Clam												
-Blue Octopus												
+Blue Octopus	Merlthor Goby											
 Wahoo	Merlthor Goby											116
 Goosefish												
 Junkmonger	Wahoo	16	2									207
 The Brewer's Beacon												
 White Coral												
-Harbor Herring												
+Harbor Herring	Pill Bug											
 Helmet Crab												
 Rothlyt Oyster												
 Navigator's Dagger												
@@ -351,7 +354,7 @@ Coelacanth	Fullmoon Sardine	N/A	N/A									166
 Coelacanthus	Fullmoon Sardine	22	3		Fog, Clouds, Wind							291
 Endoceras	Fullmoon Sardine	20	4	Clear Skies, Fair Skies	Fog, Clouds, Wind							292
 Reaver Hide												
-Lominsan Anchovy												
+Lominsan Anchovy	Lugworm											
 Merlthor Goby	Lugworm											
 Red Coral												
 Wahoo	Merlthor Goby											116
@@ -360,47 +363,47 @@ Rock Lobster	Northern Krill	17	21									149
 Dinichthys												
 Seahag	Wahoo	19	2		Clear Skies, Fair Skies							293
 Oakwood												
-River Crab												
-Faerie Bass												
+River Crab	Butterworm											
+Faerie Bass	Midge Basket											
 Jade Eel												
-Pond Mussel												
+Pond Mussel	Butterworm											
 Warmwater Trout												
 Four-eyed Fish												
-Dark Bass												
+Dark Bass	Crow Fly											
 Common Sculpin	Spinner											
 Coeurlfish												
 Toramafish	Common Sculpin	17	20		Fog, Clouds							241
 Fool Falls												
 Crimson Crayfish												
-River Crab												
-Copperfish												
-Bluebell Salmon												
+River Crab	Butterworm											
+Copperfish	Butterworm											
+Bluebell Salmon	Floating Minnow							Powerful				
 Jade Eel												
 Warmwater Trout												
 Four-eyed Fish												
-Dark Bass												
-Fall Jumper												
+Dark Bass	Crow Fly											
+Fall Jumper	Copperfish				Rain			Powerful				
 Joan of Trout	Crow Fly	4	6									240
 Bronze Lake Shallows												
 Crimson Crayfish												
-River Crab												
-Faerie Bass												
+River Crab	Butterworm											
+Faerie Bass	Midge Basket											
 Jade Eel												
-Pond Mussel												
+Pond Mussel	Butterworm											
 Worm of Nym	Butterworm	19	22									252
 Northeast Bronze Lake												
 Jade Eel												
-Pond Mussel												
+Pond Mussel	Butterworm											
 Four-eyed Fish												
-Bonytongue												
-Mitten Crab												
+Bonytongue	Streamer											
+Mitten Crab	Honey Worm											
 Silverfish												
-Giant Bass												
+Giant Bass	Honey Worm											
 Bronze Lake Trout												
 Giant Catfish												
 King of the Spring	Spinnerbait	16	19									263
 The Long Climb												
-Giant Bass												
+Giant Bass	Honey Worm											
 Ignus Snail												
 Thunderbolt Sculpin	Spinner				Rain, Showers							113
 Warmwater Trout												
@@ -409,18 +412,19 @@ Giant Donko	Spinnerbait	4	12									157
 Thundergut	Stem Borer	19	3		Rain							273
 Northwest Bronze Lake												
 Jade Eel												
-Pond Mussel												
+Pond Mussel	Butterworm											
 Four-eyed Fish												
-Bonytongue												
-Mitten Crab												
+Bonytongue	Streamer											
+Mitten Crab	Honey Worm											
 Silverfish												
-Giant Bass												
+Giant Bass	Honey Worm											
 Bronze Lake Trout												
 Giant Catfish												
 King of the Spring	Spinnerbait	16	19									263
 Mist												
-Harbor Herring												
-Blue Octopus												
+Merlthor Goby	Lugworm											
+Harbor Herring	Pill Bug											
+Blue Octopus	Merlthor Goby											
 Blowfish												
 Bianaq Bream												
 Indigo Herring												
@@ -429,189 +433,194 @@ Fullmoon Sardine	Spoon Worm	18	6									83
 Nautilus	Fullmoon Sardine	N/A	N/A									124
 Twitchbeard	Fullmoon Sardine	4	6		Clear Skies, Fair Skies							253
 Jadeite Flood												
-Crayfish												
-Pipira												
-Gudgeon												
+Crayfish	Moth Pupa											
+Pipira	Crayfish Ball											
+Gudgeon	Crayfish Ball											
 Maiden Carp							Medium					
-Moat Carp												
+Moat Carp	Crow Fly											
 Raincaller	Stem Borer				Rain							117
 Stormdancer	Stem Borer	17	2		Rain							236
 Lower Black Tea Brook												
-Crayfish												
-Pipira												
-Gudgeon												
+Crayfish	Moth Pupa											
+Pipira	Crayfish Ball											
+Gudgeon	Crayfish Ball											
 Maiden Carp												
-Moat Carp												
+Moat Carp	Crow Fly											
 Bloody Brewer	Crayfish Ball											219
 Whispering Gorge												
-Crayfish												
-Pipira												
-Gudgeon												
+Crayfish	Moth Pupa											
+Pipira	Crayfish Ball											
+Gudgeon	Crayfish Ball											
 Maiden Carp												
-Moat Carp												
+Moat Carp	Crow Fly											
 Raincaller	Stem Borer				Rain							117
 Matron Carp	Bloodworm	15	21									231
 Upper Black Tea Brook												
-Crayfish												
-Pipira												
-Gudgeon												
+Crayfish	Moth Pupa											
+Pipira	Crayfish Ball											
+Gudgeon	Crayfish Ball											
 Maiden Carp												
-Moat Carp												
+Moat Carp	Crow Fly											
 Carp Diem	Crow Fly	9	14		Fog, Clouds							224
 The Vein												
-Crayfish												
+Copperfish	Butterworm											
+Crayfish	Moth Pupa											
 Striped Goby	Moth Pupa											
-Pipira												
-Gudgeon												
+Pipira	Crayfish Ball											
+Gudgeon	Crayfish Ball											
 Brass Loach							Medium					
 Maiden Carp												
-Eunuch Crayfish												
+Eunuch Crayfish	Copperfish											
 Chirurgeon	Striped Goby											228
 The Mirror												
-Bone Crayfish												
-Pipira												
-Gudgeon												
+Bone Crayfish	Moth Pupa											
+Pipira	Crayfish Ball											
+Gudgeon	Crayfish Ball											
 Brass Loach							Medium					
 Maiden Carp												
-Moat Carp												
-Tri-colored Carp												
+Moat Carp	Crow Fly											
+Tri-colored Carp	Butterworm											
 Ghost Carp	Butterworm	21	3		Rain							223
 Everschade												
-Black Eel												
+Black Eel	Butterworm	17	9									
 Ala Mhigan Fighting Fish	Midge Basket						Light					
-Monke Onke												
-Mitten Crab												
-Spotted Pleco												
-Bonytongue												
+Monke Onke	Ala Mhigan Fighting Fish											
+Mitten Crab	Honey Worm											
+Spotted Pleco	Syrphid Basket						Medium	Powerful				
+Bonytongue	Streamer											
 Levinlight	Syrphid Basket	18	23									256
 Hopeseed Pond												
-Mudcrab												
-Black Eel												
+Mudcrab	Honey Worm											
+Black Eel	Butterworm	17	9									
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Black Ghost	Ala Mhigan Fighting Fish											
-Mudskipper												
-Clown Loach												
-Seema												
+Mudskipper	Midge Basket											
+Clown Loach	Honey Worm											
+Seema	Wildfowl Fly						Medium					
 The Green Jester	Honey Worm	18	21									270
 Haukke Manor												
-Mudskipper												
-Ala Mhigan Fighting Fish							Light					
-Mudcrab												
-Monke Onke												
+Mudskipper	Midge Basket											
+Ala Mhigan Fighting Fish	Midge Basket						Light					
+Mudcrab	Honey Worm											
+Monke Onke	Ala Mhigan Fighting Fish											
 Silverfish	Honey Worm											
 Bloodbath	Silverfish				Thunder							271
 Sweetbloom Pier												
-Bone Crayfish												
+Copperfish	Butterworm											
+Bone Crayfish	Moth Pupa											
 Striped Goby	Moth Pupa											
-Pipira												
+Pipira	Crayfish Ball											
 Maiden Carp												
-River Crab												
+River Crab	Butterworm											
 Dark Sleeper	Midge Basket	15	10		N/A							
-Eunuch Crayfish												
+Eunuch Crayfish	Copperfish											
 Dark Ambusher	Striped Goby	21	3									217
 Springripple Brook												
+Copperfish	Butterworm											
 Brass Loach							Medium					
 Maiden Carp												
 Rainbow Trout							Medium					
-River Crab												
+River Crab	Butterworm											
 Ala Mhigan Fighting Fish	Midge Basket						Light					
-Bluebell Salmon												
-Eunuch Crayfish												
+Bluebell Salmon	Floating Minnow							Powerful				
+Eunuch Crayfish	Copperfish											
 Moldva	Ala Mhigan Fighting Fish	18	2									206
 Sanctum of the Twelve												
-Bone Crayfish												
-River Crab												
-Acorn Snail												
-Moat Carp												
-Tri-colored Carp												
-Pond Mussel												
-Dark Bass												
+Bone Crayfish	Moth Pupa											
+River Crab	Butterworm											
+Acorn Snail	Midge Basket											
+Moat Carp	Crow Fly											
+Tri-colored Carp	Butterworm											
+Pond Mussel	Butterworm											
+Dark Bass	Crow Fly											
 The Assassin	Butterworm	21	23									243
 Verdant Drop												
 Rainbow Trout							Medium					
-River Crab												
+River Crab	Butterworm											
 Copperfish	Butterworm											
-Black Eel												
-Climbing Perch												
-Yugr'am Salmon												
-Spotted Pleco												
-Fall Jumper												
+Black Eel	Butterworm	17	9									
+Climbing Perch	Bass Ball											
+Yugr'am Salmon	Bass Ball											
+Spotted Pleco	Syrphid Basket						Medium	Powerful				
+Fall Jumper	Copperfish				Rain			Powerful				
 Sylphsbane	Copperfish				Rain							248
 Sylphlands												
-Giant Bass												
-Velodyna Carp												
-Oakroot												
+Giant Bass	Honey Worm											
+Velodyna Carp	Streamer							Powerful				
+Oakroot	Streamer	17	10									
 Common Sculpin	Spinner											
-Southern Pike												
+Southern Pike	Topwater Frog											
 Mushroom Crab	Common Sculpin				Fog, Clouds							173
 Magicked Mushroom	Common Sculpin			Rain, Thunder	Fog, Clouds							309
 Upper Hathoeva River												
+Copperfish	Butterworm											
 Rainbow Trout							Medium					
-River Crab												
-Ala Mhigan Fighting Fish							Light					
-Faerie Bass												
+River Crab	Butterworm											
+Ala Mhigan Fighting Fish	Midge Basket						Light					
+Faerie Bass	Midge Basket											
 Dark Sleeper	Midge Basket	15	10		N/A							
-Eunuch Crayfish												
-Black Eel												
-Velodyna Carp												
+Eunuch Crayfish	Copperfish											
+Black Eel	Butterworm	17	9									
+Velodyna Carp	Streamer							Powerful				
 Vip Viper	Butterworm	18	19									244
 Lower Hathoeva River												
+Copperfish	Butterworm											
 Rainbow Trout							Medium					
-Ala Mhigan Fighting Fish							Light					
-Faerie Bass												
-Mudcrab												
-Eunuch Crayfish												
-Black Eel												
-Climbing Perch												
-Yugr'am Salmon												
-Velodyna Carp												
+Ala Mhigan Fighting Fish	Midge Basket						Light					
+Faerie Bass	Midge Basket											
+Mudcrab	Honey Worm											
+Eunuch Crayfish	Copperfish											
+Black Eel	Butterworm	17	9									
+Climbing Perch	Bass Ball											
+Yugr'am Salmon	Bass Ball											
+Velodyna Carp	Streamer							Powerful				
 Floating Boulder	Bass Ball	0	8		Fog, Clouds							249
 East Hathoeva River												
 Rainbow Trout							Medium					
-Faerie Bass												
+Faerie Bass	Midge Basket											
 Dark Sleeper	Midge Basket	15	10		N/A							
-Copperfish												
-Mudcrab												
-Eunuch Crayfish												
-Black Eel												
-Velodyna Carp												
+Copperfish	Butterworm											
+Mudcrab	Honey Worm											
+Eunuch Crayfish	Copperfish											
+Black Eel	Butterworm	17	9									
+Velodyna Carp	Streamer							Powerful				
 The Grinner	Syrphid Basket											250
 Middle Hathoeva River												
 Rainbow Trout							Medium					
 Dark Sleeper	Butterworm	15	10		N/A							
 Five-ilm Pleco												
-Yugr'am Salmon												
-Mitten Crab												
-Seema												
+Yugr'am Salmon	Bass Ball											
+Mitten Crab	Honey Worm											
+Seema	Wildfowl Fly						Medium					
 Armored Pleco												
-Velodyna Carp												
+Velodyna Carp	Streamer							Powerful				
 The Sinker	Sinking Minnow	21	3		Clear Skies, Fair Skies							257
 Goblinblood												
-Ala Mhigan Fighting Fish							Light					
-Mudcrab												
-Dark Bass												
+Ala Mhigan Fighting Fish	Midge Basket						Light					
+Mudcrab	Honey Worm											
+Dark Bass	Crow Fly											
 Five-ilm Pleco												
 Black Ghost												
-Yugr'am Salmon												
-Bonytongue												
+Yugr'am Salmon	Bass Ball											
+Bonytongue	Streamer											
 Silverfish	Honey Worm											
 Goblin Perch												
 The Gobfather	Silverfish				Thunder, Thunderstorms							258
 Rootslake												
-Bone Crayfish												
-Climbing Perch												
+Bone Crayfish	Moth Pupa											
+Climbing Perch	Bass Ball											
 Root Skipper												
-Mitten Crab												
+Mitten Crab	Honey Worm											
 Armored Pleco												
 Judgment Staff	Caddisfly Larva				Thunder, Thunderstorms							174
 Son of Levin	Caddisfly Larva				Thunderstorms							272
 Urth's Gift												
-Ala Mhigan Fighting Fish							Light					
-Monke Onke												
-Bonytongue												
-Mitten Crab												
-Velodyna Carp												
-Southern Pike												
+Ala Mhigan Fighting Fish	Midge Basket						Light					
+Monke Onke	Ala Mhigan Fighting Fish											
+Bonytongue	Streamer											
+Mitten Crab	Honey Worm											
+Velodyna Carp	Streamer							Powerful				
+Southern Pike	Topwater Frog											
 Boxing Pleco	Glowworm											141
 Takitaro												
 Giant Takitaro	Glowworm				Thunder, Thunderstorms							310
@@ -620,9 +629,9 @@ Murmur Rills
 Brass Loach							Medium					
 Maiden Carp							Medium					
 Rainbow Trout							Medium					
-River Crab												
-Bluebell Salmon												
-Tri-colored Carp												
+River Crab	Butterworm											
+Bluebell Salmon	Floating Minnow							Powerful				
+Tri-colored Carp	Butterworm											
 Blue Widow	Floating Minnow	9	14		N/A							222
 Fallgourd Float												
 Striped Goby												
@@ -630,24 +639,24 @@ Brass Loach	Wildfowl Fly						Medium
 Maiden Carp	Wildfowl Fly						Medium					
 Rainbow Trout	Wildfowl Fly						Medium					
 Ala Mhigan Fighting Fish	Wildfowl Fly						Light					
-Faerie Bass												
+Faerie Bass	Midge Basket											
 Dark Sleeper	Brass Spoon Lure	15	10		N/A							
 Shadow Catfish												
 Judgeray	Wildfowl Fly	17	21				Heavy					218
 Proud Creek												
-Pond Mussel												
-Mitten Crab												
-Seema												
+Pond Mussel	Butterworm											
+Mitten Crab	Honey Worm											
+Seema	Wildfowl Fly						Medium					
 Golden Loach												
 Loyal Pleco												
-Oakroot												
-Southern Pike												
+Oakroot	Streamer	17	10									
+Southern Pike	Topwater Frog											
 Pirarucu												
 Shadowstreak	Topwater Frog	4	10		Fog							283
 Lake Tahtotl												
-Mudcrab												
-Pond Mussel												
-Bonytongue												
+Mudcrab	Honey Worm											
+Pond Mussel	Butterworm											
+Bonytongue	Streamer											
 Silverfish												
 Assassin Betta												
 Boxing Pleco	Glowworm											141
@@ -655,43 +664,44 @@ Goldfish
 Bowfin												
 Cornelia	Rainbow Spoon Lure					Boxing Pleco, 5						296
 The Lavender Beds												
-Pipira												
+Pipira	Crayfish Ball											
 Dark Sleeper	Brass Spoon Lure	15	10		N/A		Light					
 Ala Mhigan Fighting Fish	Midge Basket						Light					
-Tri-colored Carp												
+Tri-colored Carp	Butterworm											
 Shadow Catfish												
-Spotted Pleco												
-Bonytongue												
-Monke Onke												
+Spotted Pleco	Syrphid Basket						Medium	Powerful				
+Bonytongue	Streamer											
+Monke Onke	Ala Mhigan Fighting Fish											
 Sweetnewt	Ala Mhigan Fighting Fish	23	4		Fog							259
 Nophica's Wells												
-Bone Crayfish												
+Bone Crayfish	Moth Pupa											
 Dusk Goby												
-Gudgeon												
+Gudgeon	Crayfish Ball											
 Brass Loach							Medium					
 Maiden Carp							Medium					
-Copperfish												
-Eunuch Crayfish												
+Copperfish	Butterworm											
+Eunuch Crayfish	Copperfish											
 Glimmerscale	Butterworm				Clear Skies, Fair Skies							237
 The Footfalls												
-Crayfish												
-Mudskipper												
-Faerie Bass												
-Mudcrab												
-Acorn Snail												
-Copperfish												
-Eunuch Crayfish												
+Crayfish	Moth Pupa											
+Mudskipper	Midge Basket											
+Faerie Bass	Midge Basket											
+Mudcrab	Honey Worm											
+Acorn Snail	Midge Basket											
+Copperfish	Butterworm											
+Eunuch Crayfish	Copperfish											
 Mud Golem	Butterworm	21	3									229
 Vesper Bay												
-Lominsan Anchovy												
-Harbor Herring												
+Merlthor Goby	Lugworm											
+Lominsan Anchovy	Lugworm											
+Harbor Herring	Pill Bug											
 Pebble Crab												
 Tiger Cod												
 Rothlyt Oyster												
-Blue Octopus												
+Blue Octopus	Merlthor Goby											
 Rivet Oyster	Heavy Steel Jig											234
 Crescent Cove												
-Lominsan Anchovy												
+Lominsan Anchovy	Lugworm											
 Razor Clam												
 Blowfish												
 Saber Sardine												
@@ -700,7 +710,7 @@ Spotted Puffer
 Rock Lobster	Northern Krill	17	21									149
 Fingers	Northern Krill	17	18									242
 The Silver Bazaar												
-Lominsan Anchovy												
+Lominsan Anchovy	Lugworm											
 Pebble Crab												
 Tiger Cod												
 Rothlyt Oyster												
@@ -736,94 +746,94 @@ Ilsabardian Bass
 Vampire Lampern												
 Bat-o'-Nine-Tails	Silverfish			Rain	Fog, Clouds, Clear Skies, Fair Skies							302
 Upper Soot Creek												
-Bone Crayfish												
+Bone Crayfish	Moth Pupa											
 Dusk Goby												
 Brass Loach							Medium					
 Maiden Carp							Medium					
-Dark Bass												
+Dark Bass	Crow Fly											
 Dream Goby	Crayfish Ball	17	3									215
 Lower Soot Creek												
-Bone Crayfish												
+Bone Crayfish	Moth Pupa											
 Dusk Goby												
 Brass Loach							Medium					
 Maiden Carp							Medium					
-Dark Bass												
+Dark Bass	Crow Fly											
 Aegis Shrimp												
 Slime King	Crayfish Ball	19	24									221
 The Clutch												
-Bone Crayfish												
+Bone Crayfish	Moth Pupa											
 Dusk Goby												
 Brass Loach							Medium					
 Maiden Carp							Medium					
-Dark Bass												
+Dark Bass	Crow Fly											
 Old Softie	Bloodworm	17	21		N/A							226
 The Unholy Heir												
-Bone Crayfish												
+Bone Crayfish	Moth Pupa											
 Maiden Carp							Medium					
-Mudskipper												
-Mudcrab												
-Acorn Snail												
-Dark Bass												
+Mudskipper	Midge Basket											
+Mudcrab	Honey Worm											
+Acorn Snail	Midge Basket											
+Dark Bass	Crow Fly											
 Aegis Shrimp												
 Dark Knight	Crow Fly				Fog, Clouds, Dust Storms							212
 North Drybone												
 Dusk Goby												
-Mudskipper												
-Faerie Bass												
-Acorn Snail												
-Mudcrab												
+Mudskipper	Midge Basket											
+Faerie Bass	Midge Basket											
+Acorn Snail	Midge Basket											
+Mudcrab	Honey Worm											
 Bone Cleaner												
 Marrow Sucker	Syrphid Basket	20	3		Rain, Showers							227
 South Drybone												
 Dusk Goby												
-Mudskipper												
-Faerie Bass												
-Acorn Snail												
-Mudcrab												
+Mudskipper	Midge Basket											
+Faerie Bass	Midge Basket											
+Acorn Snail	Midge Basket											
+Mudcrab	Honey Worm											
 Bone Cleaner												
 Mud Pilgrim	Midge Basket	17	7		Rain, Showers							225
 Yugr'am River												
 Warmwater Trout												
-Black Eel												
-Dark Bass												
-Yugr'am Salmon												
-Mitten Crab												
+Black Eel	Butterworm	17	9									
+Dark Bass	Crow Fly											
+Yugr'am Salmon	Bass Ball											
+Mitten Crab	Honey Worm											
 Trader Eel												
 The Warden's Wand	Honey Worm	17	20		Clear Skies							254
 The Burning Wall												
-Yugr'am Salmon												
-Bonytongue												
+Yugr'am Salmon	Bass Ball											
+Bonytongue	Streamer											
 Discus												
 Ignus Snail												
 Loyal Pleco												
 Knifefish												
-Southern Pike												
+Southern Pike	Topwater Frog											
 Gigantpole												
 Sundisc	Caddisfly Larva	10	15		Clear Skies, Fair Skies							158
 The Thousand-year Itch	Stem Borer				Fog							278
 Burnt Lizard Creek												
 Copperfish	Butterworm											
 Warmwater Trout												
-Dark Bass												
+Dark Bass	Crow Fly											
 Lamprey												
 Plaguefish												
 Old Hollow Eyes	Copperfish				Fog							247
 Zahar'ak												
-Moat Carp												
-Mudcrab												
+Moat Carp	Crow Fly											
+Mudcrab	Honey Worm											
 Plaguefish												
-Clown Loach												
+Clown Loach	Honey Worm											
 Discus												
 Ignus Snail												
 Paglth'an Discus	Glowworm				Heat Waves, Fair Skies, Clear Skies							140
 Discobolus	Glowworm	12	18		Heat Waves							264
 Forgotten Springs												
-Copperfish												
+Copperfish	Butterworm											
 Warmwater Trout												
 Lamprey												
 Plaguefish												
 Ropefish												
-Clown Loach												
+Clown Loach	Honey Worm											
 Golden Loach												
 Iron Noose	Spinner				Fog							265
 Sagolii Desert												
@@ -846,9 +856,9 @@ Dune Manta
 Caravan Eel												
 Olgoi-Khorkhoi	Storm Rider				Heat Waves							266
 Bluefog												
-Bone Crayfish												
+Bone Crayfish	Moth Pupa											
 Silverfish												
-Giant Bass												
+Giant Bass	Honey Worm											
 Golden Loach												
 Ignus Snail												
 Knifefish												
@@ -868,10 +878,10 @@ Wootz Knifefish
 Wootz Knifefish Zenith	Silverfish	1	4	Clear Skies, Fair Skies	Fog							303
 The Goblet												
 Brass Loach							Medium					
-Faerie Bass												
-Copperfish												
-Eunuch Crayfish												
-Dark Bass												
+Faerie Bass	Midge Basket											
+Copperfish	Butterworm											
+Eunuch Crayfish	Copperfish											
+Dark Bass	Crow Fly											
 Lamprey												
 Silverfish												
 Goldfish												
@@ -880,8 +890,8 @@ Coerthas River
 Striped Goby												
 Maiden Carp							Medium					
 Rainbow Trout							Medium					
-Seema							Medium					
-Giant Bass												
+Seema	Wildfowl Fly						Medium					
+Giant Bass	Honey Worm											
 Crimson Trout												
 Kissing Trout												
 Daniffen's Mark	Wildfowl Fly				Blizzards							268
@@ -896,7 +906,7 @@ Charon's Lantern	Glowworm	0	4		N/A							269
 The Nail												
 Striped Goby												
 Abalathian Smelt	Stonefly Nymph											
-Giant Bass												
+Giant Bass	Honey Worm											
 Crimson Trout												
 Bronze Lake Trout												
 Northern Pike												
@@ -907,20 +917,20 @@ Dragonhead Latrines
 Striped Goby												
 Rainbow Trout							Medium					
 Abalathian Smelt	Stonefly Nymph											
-Seema												
+Seema	Wildfowl Fly						Medium					
 Crimson Trout												
 Kissing Trout												
 Dawn Maiden	Wildfowl Fly	5	7		Clear Skies, Fair Skies							280
 Exploratory Ice Hole												
 Lamp Marimo	Chocobo Fly											74
-Abalathian Smelt	Stonefly Nymph											
+Abalathian Smelt	Brute Leech											
 Northern Pike												
 Kissing Trout												
 The Matriarch	Abalathian Smelt											282
 The Weeping Saint												
 Lamp Marimo	Chocobo Fly											74
 Abalathian Smelt	Stonefly Nymph											
-Giant Bass												
+Giant Bass	Honey Worm											
 Crimson Trout												
 Common Sculpin												
 Northern Pike												
@@ -928,7 +938,7 @@ Angry Pike
 Darkstar	Abalathian Smelt	19	4		Blizzards, Snow	Lamp Marimo, 5						305
 Snowcloak												
 Rainbow Trout							Medium					
-Seema												
+Seema	Wildfowl Fly						Medium					
 Crimson Trout												
 Wandering Sculpin												
 Blue Corpse	Caddisfly Larva			Blizzards, Snow	Clear Skies, Fair Skies							306
@@ -963,7 +973,7 @@ Rime Eater	Glacier Core				Snow, Blizzards							366
 Hailfinder	Glacier Core				Blizzards							478
 Unfrozen Pond												
 Abalathian Smelt	Stonefly Nymph											
-Icepick	Goblin Jig											314
+Icepick	Goblin Jig							Precision				314
 Ice Faerie	Purse Web Spider											316
 Sorcerer Fish	Stonefly Nymph	8	20									326
 Albino Octopus	Brute Leech	8	17									396
@@ -1024,21 +1034,21 @@ Goldfish
 Heliobatis	Caddisfly Larva	17	9									178
 Aetherlouse	Glowworm	3	13		Gloom							287
 The Deep Tangle												
-Ala Mhigan Fighting Fish							Light					
-Dark Bass												
-Mitten Crab												
-Giant Bass												
+Ala Mhigan Fighting Fish	Midge Basket						Light					
+Dark Bass	Crow Fly											
+Mitten Crab	Honey Worm											
+Giant Bass	Honey Worm											
 Ignus Snail												
 Knifefish												
 Boxing Pleco	Glowworm											141
-Monke Onke												
+Monke Onke	Ala Mhigan Fighting Fish											
 Ignus Horn	Glowworm			Gloom	Clear Skies, Fair Skies							294
 Singing Shards												
-Mudcrab												
+Mudcrab	Honey Worm											
 Lamp Marimo	Chocobo Fly											74
-Bonytongue												
+Bonytongue	Streamer											
 Silverfish	Honey Worm											
-Giant Bass												
+Giant Bass	Honey Worm											
 Knifefish												
 Garpike												
 Ilsabardian Bass												
@@ -1046,7 +1056,7 @@ Blood Red Bonytongue	Silverfish	4	12	Clear Skies, Fair Skies	Fog							312
 Rathefrost												
 Lamp Marimo	Chocobo Fly											74
 Silverfish												
-Giant Bass												
+Giant Bass	Honey Worm											
 Ignus Snail												
 Knifefish												
 Assassin Betta												
@@ -1055,7 +1065,7 @@ Goldfish
 Poxpike												
 Void Bass	Glowworm			Clear Skies, Fair Skies	Gloom							295
 The Tangle												
-Bone Crayfish												
+Bone Crayfish	Moth Pupa											
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Silverfish												
 Sludgeskipper												
@@ -1067,7 +1077,7 @@ Ninja Betta	Assassin Betta	18	9		Gloom							297
 The North Shards												
 Lamp Marimo	Chocobo Fly											74
 Silverfish	Honey Worm											
-Giant Bass												
+Giant Bass	Honey Worm											
 Ignus Snail												
 Assassin Betta	Silverfish											
 Ilsabardian Bass												
@@ -1231,7 +1241,7 @@ Granite Crab	Magma Worm
 Magma Tree												
 Cometoise												
 Fossiltongue	Granite Crab										1	400
-Lavalord	Granite Crab	10	16		Fair Skies, Clear Skies						1	432
+Lavalord	Granite Crab	10	16		Heat Waves, Clear Skies, Fair Skies						1	432
 Lava Snail												
 The Lord of Lords	Granite Crab	8	16		Clear Skies, Fair Skies						1	496
 Problematicus	Granite Crab	10	15		Clear Skies, Fair Skies	Fossiltongue, 3, Granite Crab, 5						500
@@ -1271,7 +1281,7 @@ Sweetfish	Goblin Jig
 Hedgemole Cricket	Stonefly Nymph											357
 Bullfrog	Bladed Steel Jig											
 Thaliak Caiman	Bullfrog	15	18									431
-Berserker Betta	Brute Leech				Fair Skies, Clear Skies							436
+Berserker Betta	Brute Leech				Clear Skies, Fair Skies							436
 Goblin Bass	Brute Leech	0	5		Clouds, Fog						1	443
 Bobgoblin Bass	Sweetfish	2	6	Rain	Showers							487
 Eil Tohm												
@@ -1386,6 +1396,7 @@ Balloon Frog	Salmon Roe											520
 Death Loach	Salmon Roe											549
 Gyr Abanian Chub	Salmon Roe											
 Hardhead Trout	Stonefly Larva	16	20									
+Xenacanthus	Hardhead Trout											
 Dimwold												
 Miounnefish	Stonefly Larva				Clouds, Fog							518
 Bone Melter	Salmon Roe											524
@@ -1424,6 +1435,7 @@ Grymm Crab	Nightcrawler											550
 Enid Shrimp	Nightcrawler											567
 Curefish	Salmon Roe											
 Bondsplitter	Suspending Minnow				Dust Storms							763
+Drepanaspis	Suspending Minnow					Bondsplitter, 2						
 The Slow Wash												
 Idle Goby	Salmon Roe											515
 Rapids Jumper	Nightcrawler											522
@@ -1469,12 +1481,14 @@ Pearl-eye	Rock Saltfish											626
 Sculptor	Rock Saltfish	12	18		Thunderstorms						1	625
 Saltmill	Rock Saltfish				Clouds, Fog							
 Diamond-eye	Rock Saltfish				Clear Skies							765
+Stethacanthus	Rock Saltfish					Sculptor, 2						
 The Ruby Price												
 Grinning Anchovy	Live Shrimp											539
 Glass Herring	Live Shrimp											540
 Coeurl Snake Eel	Live Shrimp											546
 Coral Horse	Live Shrimp											
 Ku'er	Blue Bobbit	0	8	Thunder	Clouds							
+The Ruby Dragon												
 Hells' Lid												
 Grinning Anchovy	Live Shrimp											539
 Hellyfish	Live Shrimp											541
@@ -1492,8 +1506,8 @@ Ruby Shrimp	Live Shrimp											545
 Dafu	Ruby Shrimp											556
 Glass Tuna	Ruby Shrimp											605
 Tawny Wench Shark	Ruby Shrimp	10	16		Clear Skies						1	609
-Usuginu Octopus	Live Shrimp											
-Seven Stars	Blue Bobbit	10	16	Thunder	Fair Skies							
+Usuginu Octopus	Live Shrimp											22393
+Seven Stars	Blue Bobbit	10	16	Thunder	Fair Skies							24883
 Shoal Rock												
 Grinning Anchovy	Live Shrimp											539
 Ruby Coral	Live Shrimp									1		542
@@ -1554,7 +1568,7 @@ Longhair Catfish	Suspending Minnow				N/A			Powerful				570
 Doman Trout	Nightcrawler											571
 Kotsu Zetsu	Suspending Minnow											616
 Seraphim	Suspending Minnow	16	24									620
-Hagoromo Bijin	Stonefly Larva			Clouds	Fair Skies, Clear Skies							
+Hagoromo Bijin	Stonefly Larva			Clouds	Clear Skies, Fair Skies							
 Plum Spring												
 Doman Trout	Nightcrawler											571
 Kotsu Zetsu	Suspending Minnow											616
@@ -1575,7 +1589,8 @@ Red Prismfish	Stonefly Larva	4	8									755
 White Goldfish	Red Prismfish	N/A	N/A									758
 Firelight Goldfish	Red Prismfish	N/A	N/A									
 Indigo Prismfish	Violet Prismfish	N/A	N/A									
-Green Prismfish	Stonefly Larva	0	16		Fair Skies, Clear Skies							
+Green Prismfish	Stonefly Larva	0	16		Clear Skies, Fair Skies							
+Warden of the Seven Hues	Stonefly Larva					Indigo Prismfish, 3, Firelight Goldfish, 3, Green Prismfish, 5						
 Mercantile Docks												
 Doman Trout	Nightcrawler											571
 Doman Grass Carp	Midge Larva	20	4					Powerful				592
@@ -1588,7 +1603,7 @@ Samurai Fish	Midge Larva											593
 Blank Oscar	Midge Larva											595
 Dragonfish	Suspending Minnow											596
 Raitonfish	Suspending Minnow				Rain, Showers			Powerful				606
-Bokuden	Stonefly Larva	12	14									
+Bokuden	Stonefly Larva	12	14									23067
 Nem Khaal												
 Killifish	Midge Larva				Clear Skies							574
 Zagas Khaal	Nightcrawler											577
@@ -1657,6 +1672,7 @@ Arrowhead Snail	Salmon Roe
 Plump Trout	Salmon Roe											
 Crawling Cog	Salmon Roe											
 Nhaama's Treasure	Suspending Minnow	4	8	Rain	Clear Skies							
+The Unconditional												
 Kugane Piers												
 Grinning Anchovy	Live Shrimp											539
 Ruby Shrimp	Live Shrimp											545
