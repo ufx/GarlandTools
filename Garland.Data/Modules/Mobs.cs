@@ -53,24 +53,18 @@ namespace Garland.Data.Modules
         {
             var sTerritoryTypes = _builder.Sheet<Saint.TerritoryType>();
 
-            SqlDatabase.WithConnection(Config.SapphireConnectionString, conn =>
-            {
-                using (var cmd = conn.CreateCommand())
-                {
-                    cmd.CommandText =
-                        @"SELECT AVG(spawnpoint.x) x, AVG(spawnpoint.y) y, AVG(spawnpoint.z) z, AVG(spawnpoint.r) r, spawnpoint.spawnGroupId,
-                                spawngroup.level, spawngroup.maxHp, spawngroup.territoryTypeId,
-                                bnpctemplate.bNPCBaseId, bnpctemplate.bNPCNameId, bnpctemplate.aggressionMode, bnpctemplate.enemyType, bnpctemplate.name
-                            FROM bnpctemplate
-                            JOIN spawngroup ON spawngroup.bNpcTemplateId = bnpctemplate.Id
-                            JOIN spawnpoint ON spawnpoint.spawnGroupId = spawngroup.id
-                            GROUP BY level, maxHp, territoryTypeId, bNPCBaseId, bNPCNameId, aggressionMode, enemyType, name, spawnGroupId
-                            ORDER BY bNPCBaseId, bNPCNameId, spawnGroupId";
+            var sql =
+                @"SELECT AVG(spawnpoint.x) x, AVG(spawnpoint.y) y, AVG(spawnpoint.z) z, AVG(spawnpoint.r) r, spawnpoint.spawnGroupId,
+                        spawngroup.level, spawngroup.maxHp, spawngroup.territoryTypeId,
+                        bnpctemplate.bNPCBaseId, bnpctemplate.bNPCNameId, bnpctemplate.aggressionMode, bnpctemplate.enemyType, bnpctemplate.name
+                    FROM bnpctemplate
+                    JOIN spawngroup ON spawngroup.bNpcTemplateId = bnpctemplate.Id
+                    JOIN spawnpoint ON spawnpoint.spawnGroupId = spawngroup.id
+                    GROUP BY level, maxHp, territoryTypeId, bNPCBaseId, bNPCNameId, aggressionMode, enemyType, name, spawnGroupId
+                    ORDER BY bNPCBaseId, bNPCNameId, spawnGroupId";
 
-                    using (var reader = cmd.ExecuteReader())
-                        IndexSapphireDataCore(reader, sTerritoryTypes);
-                }
-            });
+            SqlDatabase.WithReader(Config.SapphireConnectionString, sql,
+                r => IndexSapphireDataCore(r, sTerritoryTypes));
         }
 
         void IndexSapphireDataCore(MySql.Data.MySqlClient.MySqlDataReader reader, Saint.IXivSheet<Saint.TerritoryType> sTerritoryTypes)

@@ -11,46 +11,40 @@ namespace Garland.Data.Output
     public static class FileDatabase
     {
         static Dictionary<string, uint> _hashesByPath = new Dictionary<string, uint>();
+        static bool _ready;
 
         public static void Initialize()
         {
-            //LoadPaths("SELECT Id, Type, Lang, Version, HashCode FROM DataJson",
-            //    r => $"sql\\DataJson\\{r.GetString("Type")}\\{r.GetString("Lang")}\\{r.GetUInt16("Version")}\\{r.GetString("Id")}");
-            //// This intentionally overrides the paths of the above.
-            //LoadPaths("SELECT Id, Type, Lang, Version, HashCode FROM DataJsonTest",
-            //    r => $"sql\\DataJson\\{r.GetString("Type")}\\{r.GetString("Lang")}\\{r.GetUInt16("Version")}\\{r.GetString("Id")}");
-            //LoadPaths("SELECT Id, Type, Lang, HashCode FROM Search", 
-            //    r => $"sql\\Search\\{r.GetString("Type")}\\{r.GetString("Lang")}\\0\\{r.GetString("Id")}");
-            //LoadPaths("SELECT Id, HashCode FROM SearchRecipe",
-            //    r => $"sql\\SearchRecipe\\search-recipe\\0\\{r.GetString("Id")}");
-            //LoadPaths("SELECT Id, HashCode FROM SearchItem",
-            //    r => $"sql\\SearchItem\\search-item\\0\\{r.GetString("Id")}");
+            Task.Factory.StartNew(() =>
+            {
+                LoadPaths("SELECT Id, Type, Lang, Version, HashCode FROM DataJson",
+                    r => $"sql\\DataJson\\{r.GetString("Type")}\\{r.GetString("Lang")}\\{r.GetUInt16("Version")}\\{r.GetString("Id")}");
+                // This intentionally overrides the paths of the above.
+                LoadPaths("SELECT Id, Type, Lang, Version, HashCode FROM DataJsonTest",
+                    r => $"sql\\DataJson\\{r.GetString("Type")}\\{r.GetString("Lang")}\\{r.GetUInt16("Version")}\\{r.GetString("Id")}");
+                LoadPaths("SELECT Id, Type, Lang, HashCode FROM Search",
+                    r => $"sql\\Search\\{r.GetString("Type")}\\{r.GetString("Lang")}\\0\\{r.GetString("Id")}");
+                LoadPaths("SELECT Id, HashCode FROM SearchRecipe",
+                    r => $"sql\\SearchRecipe\\search-recipe\\0\\{r.GetString("Id")}");
+                LoadPaths("SELECT Id, HashCode FROM SearchItem",
+                    r => $"sql\\SearchItem\\search-item\\0\\{r.GetString("Id")}");
 
-            //foreach (var line in File.ReadAllLines(HashPath))
-            //{
-            //    var parts = line.Split(',');
-            //    var hash = uint.Parse(parts[1]);
-            //    _hashesByPath[parts[0]] = hash;
-            //}
+                // Hashes only take a few seconds to load and aren't needed until
+                // the end of processing (currently taking 2 minutes.)  If hash
+                // database isn't ready by then something is wrong.
+                _ready = true;
+            });
         }
 
         static void LoadPaths(string sql, Func<MySqlDataReader, string> getPath)
         {
-            SqlDatabase.WithConnection(Config.ConnectionString, conn =>
+            SqlDatabase.WithReader(Config.ConnectionString, sql, reader =>
             {
-                using (var cmd = conn.CreateCommand())
+                while (reader.Read())
                 {
-                    cmd.CommandText = sql;
-
-                    using (var reader = cmd.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            var path = getPath(reader);
-                            var hashCode = reader.GetUInt32("HashCode");
-                            _hashesByPath[path] = hashCode;
-                        }
-                    }
+                    var path = getPath(reader);
+                    var hashCode = reader.GetUInt32("HashCode");
+                    _hashesByPath[path] = hashCode;
                 }
             });
         }
@@ -68,6 +62,9 @@ namespace Garland.Data.Output
 
         public static bool NeedsUpdate(string path, uint contentsHashCode)
         {
+            if (!_ready)
+                throw new InvalidOperationException("Hashes should have loaded by now.  Bad server connection?");
+
             if (_hashesByPath.TryGetValue(path, out var hash) && hash == contentsHashCode)
                 return false; // Hash match.  No need to write.
 
