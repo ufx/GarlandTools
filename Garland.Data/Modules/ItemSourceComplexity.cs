@@ -214,8 +214,8 @@ namespace Garland.Data.Modules
                 var itemName = (string)item.en.name;
                 if (itemName.EndsWith("Materials") && item.usedInQuest != null)
                     complexity.RecordNqScore(5);
-                else if (!SkipComplexityAlert(itemName, item))
-                    DatabaseBuilder.PrintLine($"Item {itemId} {item.en.name} has no sources for complexity");
+                //else if (!SkipComplexityAlert(itemName, item))
+                //    DatabaseBuilder.PrintLine($"Item {itemId} {item.en.name} has no sources for complexity");
             }
 
             return complexity;

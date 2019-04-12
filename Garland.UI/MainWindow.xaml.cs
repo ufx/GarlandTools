@@ -105,7 +105,7 @@ namespace Garland.UI
                 {
                     _printer.PrintLine("Deploying test data to production.");
 
-                    var sql = "REPLACE INTO DataJson (Id, Type, Lang, Version, Json) SELECT Id, Type, Lang, Version, Json FROM DataJsonTest";
+                    var sql = "REPLACE INTO DataJson (Id, Type, Lang, Version, HashCode, Json) SELECT Id, Type, Lang, Version, HashCode, Json FROM DataJsonTest";
                     var rowsAffected = SqlDatabase.ExecuteNonQuery(c, sql);
                     _printer.PrintLine($"Deployed {rowsAffected} records.");
 
@@ -177,8 +177,6 @@ namespace Garland.UI
                 DatabaseBuilder.PrintLine($"Updating {searchUpdate.RowCount} data rows.");
                 searchUpdate.Write();
             }
-
-            FileDatabase.WriteHashUpdates();
 
             writing.Stop();
             DatabaseBuilder.PrintLine($"Writing elapsed: {writing.Elapsed}");

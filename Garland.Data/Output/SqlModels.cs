@@ -35,6 +35,14 @@ namespace Garland.Data.Output
         public abstract void WriteToSql(StringBuilder sql);
         public abstract void WriteToBatchFile(StreamWriter writer);
 
+        uint _jsonHashCode;
+        public uint GetJsonHashCode()
+        {
+            if (_jsonHashCode == 0)
+                _jsonHashCode = (uint)Json.GetHashCode();
+            return _jsonHashCode;
+        }
+
         public static Row ReadFromBatchFile(StreamReader reader)
         {
             var line = reader.ReadLine();
@@ -55,7 +63,7 @@ namespace Garland.Data.Output
 
     public class SearchRow : Row
     {
-        public override string TableHeader => "REPLACE INTO Search (Id, Type, Lang, Name, OriginalName, Json) VALUES";
+        public override string TableHeader => "REPLACE INTO Search (Id, Type, Lang, Name, OriginalName, HashCode, Json) VALUES";
 
         public override string Id { get; set; }
         public override string Table => "Search";
@@ -68,7 +76,7 @@ namespace Garland.Data.Output
         {
             var json = Utils.SqlEscape(Json);
             var originalName = Utils.SqlEscape(Name);
-            sql.Append($"('{Id}', '{Type}', '{Lang}', {MakeKey(Name)}, '{originalName}', '{json}'),");
+            sql.Append($"('{Id}', '{Type}', '{Lang}', {MakeKey(Name)}, '{originalName}', {GetJsonHashCode()}, '{json}'),");
         }
 
         static string[] SearchKeyDelimiters = new[] { " ", "'", "-" };
@@ -159,7 +167,7 @@ namespace Garland.Data.Output
         public bool IsCollectable { get; set; }
         [JsonIgnore] public override string Type { get => "search-item"; set => throw new NotImplementedException(); }
         [JsonIgnore] public override string Json { get; set; }
-        [JsonIgnore] public override string TableHeader => "REPLACE INTO SearchItem(Id, ItemLevel, Rarity, Category, Jobs, EquipLevel, IsPvP, IsCraftable, IsDesynthable, IsCollectable) VALUES";
+        [JsonIgnore] public override string TableHeader => "REPLACE INTO SearchItem(Id, ItemLevel, Rarity, Category, Jobs, EquipLevel, IsPvP, IsCraftable, IsDesynthable, IsCollectable, HashCode) VALUES";
 
         public override void WriteToSql(StringBuilder sql)
         {
@@ -167,7 +175,7 @@ namespace Garland.Data.Output
             var isCraftable = IsCraftable ? 1 : 0;
             var isDesynthable = IsDesynthable ? 1 : 0;
             var isCollectable = IsCollectable ? 1 : 0;
-            sql.Append($"('{Id}', {ItemLevel}, {Rarity}, {Category}, {Jobs}, {EquipLevel}, b'{isPvP}', b'{isCraftable}', b'{isDesynthable}', b'{isCollectable}'),");
+            sql.Append($"('{Id}', {ItemLevel}, {Rarity}, {Category}, {Jobs}, {EquipLevel}, b'{isPvP}', b'{isCraftable}', b'{isDesynthable}', b'{isCollectable}', {GetJsonHashCode()}),");
         }
 
         public override void WriteToBatchFile(StreamWriter writer)
@@ -204,7 +212,7 @@ namespace Garland.Data.Output
         public short RecipeLevel { get; set; }
         [JsonIgnore] public override string Type { get => "search-recipe"; set => throw new NotImplementedException(); }
         [JsonIgnore] public override string Json { get; set; }
-        [JsonIgnore] public override string TableHeader => "REPLACE INTO SearchRecipe(Id, ItemId, Job, JobLevel, Stars, RecipeLevel) VALUES";
+        [JsonIgnore] public override string TableHeader => "REPLACE INTO SearchRecipe(Id, ItemId, Job, JobLevel, Stars, RecipeLevel, HashCode) VALUES";
 
         public override void WriteToBatchFile(StreamWriter writer)
         {
@@ -226,13 +234,13 @@ namespace Garland.Data.Output
 
         public override void WriteToSql(StringBuilder sql)
         {
-            sql.Append($"('{Id}', '{ItemId}', {Job}, {JobLevel}, {Stars}, {RecipeLevel}),");
+            sql.Append($"('{Id}', '{ItemId}', {Job}, {JobLevel}, {Stars}, {RecipeLevel}, {GetJsonHashCode()}),");
         }
     }
 
     public class DataJsonRow : Row
     {
-        public override string TableHeader => "REPLACE INTO DataJsonTest (Id, Type, Lang, Version, Json) VALUES";
+        public override string TableHeader => "REPLACE INTO DataJsonTest (Id, Type, Lang, Version, HashCode, Json) VALUES";
 
         public override string Id { get; set; }
         public override string Table => "DataJson";
@@ -244,7 +252,7 @@ namespace Garland.Data.Output
         public override void WriteToSql(StringBuilder sql)
         {
             var json = Utils.SqlEscape(Json);
-            sql.Append($"('{Id}', '{Type}', '{Lang}', {Version}, '{json}'),");
+            sql.Append($"('{Id}', '{Type}', '{Lang}', {Version}, {GetJsonHashCode()}, '{json}'),");
         }
 
         public static DataJsonRow ReadFromBatchFile(string[] metadata, StreamReader reader)

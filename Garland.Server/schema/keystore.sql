@@ -23,6 +23,7 @@ CREATE TABLE Search (
     Name varchar(200) character set utf8 not null,
     OriginalName varchar(200) character set utf8 not null,
     Lang char(2) not null,
+    HashCode int unsigned not null,
     Json text character set utf8 not null,
     primary key(Id, Type, Lang),
     key Index_Name (Name),
@@ -42,6 +43,7 @@ CREATE TABLE SearchItem (
     IsCraftable bit(1) not null, -- bool
     IsDesynthable bit(1) not null, -- bool
     IsCollectable bit(1) not null, -- bool
+    HashCode int unsigned not null,
     primary key(Id)
 );
 
@@ -53,6 +55,7 @@ CREATE TABLE SearchRecipe (
     JobLevel smallint unsigned not null, -- uint16
     Stars tinyint unsigned not null, -- byte
     RecipeLevel smallint unsigned not null, -- uint16
+    HashCode int unsigned not null,
     primary key(Id)
 );
 
@@ -62,6 +65,7 @@ CREATE TABLE DataJson (
     Type varchar(15) not null,
     Lang char(2) not null,
     Version smallint unsigned not null,
+    HashCode int unsigned not null,
     Json mediumtext character set utf8 not null,
     CommentCount smallint unsigned not null default 0,
     primary key (Id, Type, Lang, Version)
@@ -73,6 +77,7 @@ CREATE TABLE DataJsonTest (
     Type varchar(15) not null,
     Lang char(2) not null,
     Version smallint unsigned not null,
+    HashCode int unsigned not null,
     Json mediumtext character set utf8 not null,
     primary key (Id, Type, Lang, Version)
 );

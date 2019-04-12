@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -10,54 +11,68 @@ namespace Garland.Data.Output
     public static class FileDatabase
     {
         static Dictionary<string, uint> _hashesByPath = new Dictionary<string, uint>();
-        static bool _hashChanges = false;
-        const string HashPath = Config.SupplementalPath + "hash-db.txt";
 
         public static void Initialize()
         {
-            foreach (var line in File.ReadAllLines(HashPath))
+            //LoadPaths("SELECT Id, Type, Lang, Version, HashCode FROM DataJson",
+            //    r => $"sql\\DataJson\\{r.GetString("Type")}\\{r.GetString("Lang")}\\{r.GetUInt16("Version")}\\{r.GetString("Id")}");
+            //// This intentionally overrides the paths of the above.
+            //LoadPaths("SELECT Id, Type, Lang, Version, HashCode FROM DataJsonTest",
+            //    r => $"sql\\DataJson\\{r.GetString("Type")}\\{r.GetString("Lang")}\\{r.GetUInt16("Version")}\\{r.GetString("Id")}");
+            //LoadPaths("SELECT Id, Type, Lang, HashCode FROM Search", 
+            //    r => $"sql\\Search\\{r.GetString("Type")}\\{r.GetString("Lang")}\\0\\{r.GetString("Id")}");
+            //LoadPaths("SELECT Id, HashCode FROM SearchRecipe",
+            //    r => $"sql\\SearchRecipe\\search-recipe\\0\\{r.GetString("Id")}");
+            //LoadPaths("SELECT Id, HashCode FROM SearchItem",
+            //    r => $"sql\\SearchItem\\search-item\\0\\{r.GetString("Id")}");
+
+            //foreach (var line in File.ReadAllLines(HashPath))
+            //{
+            //    var parts = line.Split(',');
+            //    var hash = uint.Parse(parts[1]);
+            //    _hashesByPath[parts[0]] = hash;
+            //}
+        }
+
+        static void LoadPaths(string sql, Func<MySqlDataReader, string> getPath)
+        {
+            SqlDatabase.WithConnection(Config.ConnectionString, conn =>
             {
-                var parts = line.Split(',');
-                var hash = uint.Parse(parts[1]);
-                _hashesByPath[parts[0]] = hash;
-            }
+                using (var cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = sql;
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var path = getPath(reader);
+                            var hashCode = reader.GetUInt32("HashCode");
+                            _hashesByPath[path] = hashCode;
+                        }
+                    }
+                }
+            });
         }
 
         public static void Write(string relativePath, string contents)
         {
+            // Hashes are not used for local filesystem files.
             var fullPath = Config.DeployPath + relativePath;
-            WriteCore(fullPath, relativePath, contents);
-        }
-
-        static void WriteCore(string fullPath, string hashPath, string contents)
-        {
-            if (NeedsUpdate(hashPath, contents))
-            {
-                DatabaseBuilder.PrintLine($"Writing {fullPath}");
-                File.WriteAllText(fullPath, contents, Encoding.UTF8);
-            }
-        }
-
-        public static bool NeedsUpdate(string path, string contents)
-        {
-            var contentsHash = (uint)contents.GetHashCode();
-            if (_hashesByPath.TryGetValue(path, out var hash) && hash == contentsHash)
-                return false; // Hash match.  No need to write.
-
-            _hashesByPath[path] = contentsHash;
-            _hashChanges = true;
-            return true;
-        }
-
-        public static void WriteHashUpdates()
-        {
-            if (!_hashChanges)
+            if (File.ReadAllText(fullPath) == contents)
                 return;
 
-            DatabaseBuilder.PrintLine($"Writing hashes: {HashPath}");
+            DatabaseBuilder.PrintLine($"Writing {fullPath}");
+            File.WriteAllText(fullPath, contents, Encoding.UTF8);
+        }
 
-            var lines = _hashesByPath.Select(kv => kv.Key + "," + kv.Value);
-            File.WriteAllLines(HashPath, lines);
+        public static bool NeedsUpdate(string path, uint contentsHashCode)
+        {
+            if (_hashesByPath.TryGetValue(path, out var hash) && hash == contentsHashCode)
+                return false; // Hash match.  No need to write.
+
+            _hashesByPath[path] = contentsHashCode;
+            return true;
         }
     }
 }

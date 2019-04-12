@@ -48,7 +48,7 @@ namespace Garland.Data.Output
 
         public void Include(Row row)
         {
-            if (IncludeAll || FileDatabase.NeedsUpdate(row.Path, row.Json))
+            if (IncludeAll || FileDatabase.NeedsUpdate(row.Path, row.GetJsonHashCode()))
                 _rows.Add(row);
         }
 
