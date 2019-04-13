@@ -14,12 +14,14 @@ namespace Garland.Data.Modules
     public class Maps : Module
     {
         const string _baseMapPath = "output\\maps\\";
-        const string _resultMapPath = Config.FilesPath + "maps\\";
+        string _resultMapPath;
 
         public override string Name => "Maps";
 
         public override void Start()
         {
+            _resultMapPath = Config.FilesPath + "maps\\";
+
             foreach (var m in _builder.Sheet<Map>())
             {
                 if (m.PlaceName.Key == 0 || m.PlaceName.ToString() == "???" || m.Id.ToString() == "")
@@ -29,7 +31,7 @@ namespace Garland.Data.Modules
             }
         }
 
-        static void ExportSingleMap(Map map)
+        void ExportSingleMap(Map map)
         {
             var regionPlaceName = ConvertRegion(map.RegionPlaceName.ToString());
             var path = _resultMapPath + regionPlaceName;

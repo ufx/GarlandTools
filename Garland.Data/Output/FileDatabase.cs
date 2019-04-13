@@ -49,10 +49,10 @@ namespace Garland.Data.Output
             });
         }
 
-        public static void Write(string relativePath, string contents)
+        public static void WriteFile(string relativePath, string contents)
         {
             // Hashes are not used for local filesystem files.
-            var fullPath = Config.DeployPath + relativePath;
+            var fullPath = Config.BasePath + relativePath;
             if (File.ReadAllText(fullPath) == contents)
                 return;
 

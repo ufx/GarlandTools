@@ -105,7 +105,7 @@ namespace Garland.Data
 
         public static void WriteTemporaryIcons()
         {
-            const string basePath = Config.IconPath + "item\\t";
+            string basePath = Config.IconPath + "item\\t";
 
             if (_temporaryIcons.Count == 0)
                 return;

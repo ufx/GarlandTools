@@ -11,12 +11,14 @@ namespace Garland.Data.Modules
 {
     public class Jobs : Module
     {
-        const string JobIconPath = Config.IconPath + "job\\";
+        string _jobIconPath;
 
         public override string Name => "Jobs";
 
         public override void Start()
         {
+            _jobIconPath = Config.IconPath + "job\\";
+
             foreach (var sJob in _builder.Sheet<Saint.ClassJob>())
             {
                 var name = sJob.Name.ToString();
@@ -36,7 +38,7 @@ namespace Garland.Data.Modules
                 if (sJob.SoulCrystal != null && sJob.SoulCrystal.Key != 0)
                     job.isJob = 1;
 
-                var iconPath = JobIconPath + sJob.Abbreviation.ToString() + ".png";
+                var iconPath = _jobIconPath + sJob.Abbreviation.ToString() + ".png";
                 if (!File.Exists(iconPath))
                 {
                     var icon = sJob.Icon.GetImage();

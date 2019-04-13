@@ -52,7 +52,7 @@ namespace Garland.Data.Output
             // Done
             parts.Add("");
             var result = "<?php\r\n\r\n" + string.Join(";\r\n\r\n", parts) + "?>\r\n";
-            FileDatabase.Write(Config.ServerPath + "api\\weather.inc.php", result);
+            FileDatabase.WriteFile("Garland.Server\\api\\weather.inc.php", result);
         }
 
         static string PhpEscape(string str)

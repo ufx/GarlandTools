@@ -511,7 +511,7 @@ namespace Garland.Data.Output
             parts.Add("gt.bell.fish = " + Json(fishData, Formatting.Indented));
 
             parts.Add("");
-            FileDatabase.Write("bell\\fish.js", string.Join(";\r\n\r\n", parts));
+            FileDatabase.WriteFile("Garland.Web\\bell\\fish.js", string.Join(";\r\n\r\n", parts));
         }
 
         void WriteNodes(string lang)
@@ -526,7 +526,7 @@ namespace Garland.Data.Output
             // Garland Bell node data.
 
             var contents = "gt.bell.nodes = " + Json(_db.NodeViews, Formatting.Indented) + ";\r\n";
-            FileDatabase.Write("bell\\nodes.js", contents);
+            FileDatabase.WriteFile("Garland.Web\\bell\\nodes.js", contents);
         }
 
         void WriteBrowsers(string lang)

@@ -1,0 +1,15 @@
+// This file must be copied from Config.json.default to Config.json.
+
+{
+	// MySql databases
+	"database": "Persist Security Info=False;database=keystore;server=localhost;user id=my-user;pwd=my-password;CharSet=utf8",
+	"sapphireDatabase": "Persist Security Info=False;database=Sapphire;server=localhost;user id=my-user;pwd=my-password;CharSet=utf8",
+
+	// File repository
+	"files": "/path/to/gtfiles",
+
+	// External programs
+	"imageMagickConvert": "/path/to/convert.exe",
+	"diff": "/path/to/WinMergeU.exe",
+	"ffmpeg": "path/to/ffmpeg.exe"
+}
