@@ -19,7 +19,7 @@ namespace Garland.Data.Models
 
         public GarlandShop(string name, IEnumerable<Saint.ENpc> enpcs, IEnumerable<Saint.IShopListing> listings)
         {
-            Name = string.IsNullOrEmpty(name) ? "Unknown Shop" : name;
+            Name = string.IsNullOrEmpty(name) ? "Shop" : name;
             ENpcs = enpcs;
             GtShopListings = listings.Select(l => new GtShopListing(l)).ToList();
         }

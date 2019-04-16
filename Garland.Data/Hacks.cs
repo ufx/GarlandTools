@@ -24,7 +24,7 @@ namespace Garland.Data
             62  // Job Soul
         };
 
-        public static string GetShopName(string customName, ScriptInstruction si)
+        public static string GetShopName(ScriptInstruction si)
         {
             if (si.Label.Contains("FCCSHOP"))
                 return "Spend company credits (items)";
@@ -68,7 +68,11 @@ namespace Garland.Data
                 return "Exploration Achievement Rewards";
             else if (si.Label == "FREE_SHOP_GRANDCOMPANY" && si.Argument == 1769906)
                 return "Grand Company Achievement Rewards";
-            throw new NotImplementedException();
+            else
+            {
+                DatabaseBuilder.PrintLine($"Unknown shop label {si.Label}, arg {si.Argument}.");
+                return si.Label;
+            }
         }
 
         public static bool IsItemSkipped(string name, int key)

@@ -117,16 +117,8 @@ namespace Garland.Data.Modules
                         continue;
                     }
 
-                    if (shop.Name == "Unknown Shop")
-                    {
-                        var name = Hacks.GetShopName((SaintCoinach.Text.XivString)sCustomTalk.GetRaw("Name"), shopInstruction);
-                        if (name.Contains("[not in Saint]"))
-                        {
-                            DatabaseBuilder.PrintLine($"{string.Join(", ", sNpcs.Select(e => e.Singular.ToString()))} has shop {name}");
-                            continue;
-                        }
-                        shop.Name = name;
-                    }
+                    if (shop.Name == "Shop")
+                        shop.Name = Hacks.GetShopName(shopInstruction);
 
                     shop.ENpcs = sNpcs.Union(shop.ENpcs).Distinct().ToArray();
                 }

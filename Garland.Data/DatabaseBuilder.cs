@@ -133,7 +133,7 @@ namespace Garland.Data
 
         public void CreateNpcGilShop(GarlandShop gShop, dynamic npc)
         {
-            var shopName = gShop.Name == "Unknown Shop" ? "Purchase Items" : gShop.Name;
+            var shopName = gShop.Name == "Shop" ? "Purchase Items" : gShop.Name;
             var shop = CreateShop(shopName, npc, false);
             if (shop == null)
                 return; // Skipped.
