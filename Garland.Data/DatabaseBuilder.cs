@@ -60,7 +60,6 @@ namespace Garland.Data
                 .ToArray();
 
             FileDatabase.Initialize();
-            IconDatabase.Initialize();
             ItemIconDatabase.Initialize(ItemsToImport);
             PatchDatabase.Initialize();
 

@@ -10,41 +10,37 @@ namespace Garland.Data
 {
     public static class IconDatabase
     {
-        private static Dictionary<string, IconEntry> _entries = new Dictionary<string, IconEntry>();
-
-        public static void Initialize()
-        {
-            var separator = new[] { ", " };
-            var text = File.ReadAllText("Supplemental\\icon-db.txt")
-                .Replace("\r\n", "\n")
-                .Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
-
-            foreach (var line in text)
-            {
-                var parts = line.Split(separator, StringSplitOptions.None);
-                var entry = new IconEntry()
-                {
-                    Type = parts[0],
-                    Id = int.Parse(parts[1])
-                };
-
-                _entries[entry.Key] = entry;
-            }
-        }
+        static HashSet<string> _iconsByKey = new HashSet<string>();
 
         public static int EnsureEntry(string type, ImageFile icon, int id)
         {
             if (icon.Path.EndsWith("000000.tex"))
+            {
+                // If you've triggered this it's usually because a reference
+                // to bad data crept in somewhere.  Check up the stack!
+                // Protip: The first row of many sheets is filled with 0s and 
+                // can be safely skipped.
                 throw new ArgumentException("bad icon", "icon");
+            }
 
-            var key = type + ", " + id;
-            if (_entries.ContainsKey(key))
+            // Check the type-id combo is already stored.
+            var key = type + "-" + id;
+            if (_iconsByKey.Contains(key))
                 return id;
 
-            // New entries here!
-            var entry = new IconEntry() { Type = type, Id = id, Icon = icon };
-            _entries[entry.Key] = entry;
-            HasNewEntries = true;
+            // Always add it to the list.
+            _iconsByKey.Add(key);
+
+            // Check the file exists already.
+            var iconDirectory = Path.Combine(Config.IconPath, type);
+            var fullPath = Path.Combine(iconDirectory, id.ToString() + ".png");
+            if (File.Exists(fullPath))
+                return id;
+
+            // Write icons that don't yet exist.
+            Directory.CreateDirectory(iconDirectory);
+            var image = icon.GetImage();
+            image.Save(fullPath, System.Drawing.Imaging.ImageFormat.Png);
 
             return id;
         }
@@ -52,38 +48,6 @@ namespace Garland.Data
         public static int EnsureEntry(string type, ImageFile icon)
         {
             return EnsureEntry(type, icon, Utils.GetIconId(icon));
-        }
-
-        public static void WriteUpdates()
-        {
-            if (!HasNewEntries)
-                return;
-
-            var newEntries = _entries.Values.Where(e => e.Icon != null);
-            foreach (var entry in newEntries) {
-                var path = Config.IconPath + entry.Type;
-                Directory.CreateDirectory(path);
-
-                var image = entry.Icon.GetImage();
-                image.Save(path + "\\" + entry.Id + ".png", System.Drawing.Imaging.ImageFormat.Png);
-            }
-
-            var text = _entries.Select(e => e.Value.Key).ToArray();
-            File.WriteAllLines(Config.SupplementalPath + "icon-db.txt", text);
-        }
-
-        public static bool HasNewEntries { get; private set; }
-    }
-
-    public class IconEntry
-    {
-        public int Id { get; set; }
-        public string Type { get; set; }
-        public ImageFile Icon { get; set; }
-
-        public string Key
-        {
-            get { return Type + ", " + Id; }
         }
     }
 }
