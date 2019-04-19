@@ -6,6 +6,7 @@
 	"sapphireDatabase": "Persist Security Info=False;database=Sapphire;server=localhost;user id=my-user;pwd=my-password;CharSet=utf8",
 
 	// File repository
+	"gamePath": "/path/to/game"
 	"files": "/path/to/gtfiles",
 
 	// External programs

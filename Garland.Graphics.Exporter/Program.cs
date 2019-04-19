@@ -21,8 +21,10 @@ namespace Garland.Graphics.Exporter
 {
     class Program
     {
-        const string GamePath = @"D:\Games\SteamApps\common\FINAL FANTASY XIV - A Realm Reborn\game\sqpack\ffxiv";
-        const string RepoPath = @"E:\gtfiles\models";
+        const string ConfigPath = @"..\\..\\..\\Config.json";
+
+        static string _repoPath;
+        static string _gamePath;
 
         static DirectoryInfo _gameDir;
         static Obj _ttObj;
@@ -32,9 +34,11 @@ namespace Garland.Graphics.Exporter
 
         static void Main(string[] args)
         {
+            ReadConfig();
+
             var lang = XivLanguage.English;
 
-            _gameDir = new DirectoryInfo(GamePath);
+            _gameDir = new DirectoryInfo(_gamePath);
             _ttObj = new Obj(_gameDir);
             _gear = new Gear(_gameDir, lang);
             _companions = new Companions(_gameDir, lang);
@@ -45,9 +49,17 @@ namespace Garland.Graphics.Exporter
             Console.ReadKey();
         }
 
+        static void ReadConfig()
+        {
+            var text = File.ReadAllText(ConfigPath);
+            dynamic values = JsonConvert.DeserializeObject(text);
+            _repoPath = Path.Combine(values.files, "models");
+            _gamePath = Path.Combine(values.gamePath, @"game\sqpack\ffxiv");
+        }
+
         static void BatchExport()
         {
-            _repo = new ExportRepository(Path.Combine(RepoPath, "repo"));
+            _repo = new ExportRepository(Path.Combine(_repoPath, "repo"));
 
             // Gear
             var badGear = new HashSet<string>(new[]
@@ -154,7 +166,7 @@ namespace Garland.Graphics.Exporter
 
         static string EnsurePath(string category, string modelKey)
         {
-            var categoryPath = Path.Combine(RepoPath, category);
+            var categoryPath = Path.Combine(_repoPath, category);
             Directory.CreateDirectory(categoryPath);
             return Path.Combine(categoryPath, modelKey) + ".json";
 

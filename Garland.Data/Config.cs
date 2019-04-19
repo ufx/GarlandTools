@@ -20,6 +20,7 @@ namespace Garland.Data
         // These values are configured in Config.json.
         public static string ConnectionString { get; private set; }
         public static string SapphireConnectionString { get; private set; }
+        public static string GamePath { get; private set; }
         public static string FilesPath { get; private set; }
         public static string ImageMagickPath { get; private set; }
         public static string DiffPath { get; private set; }
@@ -32,6 +33,7 @@ namespace Garland.Data
 
             Config.ConnectionString = values.database;
             Config.SapphireConnectionString = values.sapphireDatabase;
+            Config.GamePath = values.gamePath;
             Config.FilesPath = values.files;
             Config.ImageMagickPath = values.imageMagickConvert;
             Config.DiffPath = values.diff;

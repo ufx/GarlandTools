@@ -25,12 +25,6 @@ namespace Garland.UI
     /// </summary>
     public partial class MainWindow : Window
     {
-        readonly static string[] _paths = new[] {
-            @"D:\Games\SteamApps\common\FINAL FANTASY XIV - A Realm Reborn",
-            @"C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV - A Realm Reborn",
-            //@"D:\Games\FFXIV Alt"
-        };
-
         IPrinter _printer;
 
         public MainWindow()
@@ -118,8 +112,7 @@ namespace Garland.UI
 
         void BuildDatabase(bool fetchIconsOnly)
         {
-            var path = _paths.FirstOrDefault(p => Directory.Exists(p));
-            var realm = new SaintCoinach.ARealmReversed(path, "SaintCoinach.History.zip", SaintCoinach.Ex.Language.English, "app_data.sqlite");
+            var realm = new SaintCoinach.ARealmReversed(Config.GamePath, "SaintCoinach.History.zip", SaintCoinach.Ex.Language.English, "app_data.sqlite");
             var libra = new SQLite.SQLiteConnection("app_data.sqlite", SQLite.SQLiteOpenFlags.ReadOnly);
             var builder = new DatabaseBuilder(libra, realm);
 
