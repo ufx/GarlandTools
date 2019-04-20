@@ -1,7 +1,7 @@
 ﻿using Garland.Data.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using SaintCoinach.Xiv;
+using Saint = SaintCoinach.Xiv;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -25,8 +25,12 @@ namespace Garland.Data.Lodestone
 
         public void FetchIcons()
         {
-            // Run the process with an initial queue of items.
-            foreach (var sItem in ItemIconDatabase.ItemsNeedingIcons)
+            // Start at a random place in the set.
+            var start = (new Random()).Next(ItemIconDatabase.ItemsNeedingIcons.Count);
+            var itemsToFetch = new List<Saint.Item>(ItemIconDatabase.ItemsNeedingIcons.Skip(start));
+            itemsToFetch.AddRange(ItemIconDatabase.ItemsNeedingIcons.Take(start));
+
+            foreach (var sItem in itemsToFetch)
             {
                 // A prior item may share this icon, so always check if it was written.
                 var iconId = (UInt16)sItem.GetRaw("Icon");

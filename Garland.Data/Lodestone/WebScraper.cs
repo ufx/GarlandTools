@@ -11,8 +11,8 @@ namespace Garland.Data.Lodestone
 {
     public class WebScraper
     {
-        protected int _sleepMin = 15;
-        protected int _sleepMax = 70;
+        protected int _sleepMin = 10;
+        protected int _sleepMax = 40;
         private Random _random = new Random();
 
         protected string Request(string url)

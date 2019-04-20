@@ -59,9 +59,7 @@ namespace Garland.Data
                 .Where(i => !Hacks.IsItemSkipped(i.Name, i.Key))
                 .ToArray();
 
-            FileDatabase.Initialize();
             ItemIconDatabase.Initialize(ItemsToImport);
-            PatchDatabase.Initialize();
 
             if (fetchIconsOnly)
             {
@@ -69,6 +67,9 @@ namespace Garland.Data
                 PrintLine("All icons fetched.  Stopping.");
                 return;
             }
+
+            FileDatabase.Initialize();
+            PatchDatabase.Initialize();
 
             var itemSourceComplexityModule = new ItemSourceComplexity();
 
