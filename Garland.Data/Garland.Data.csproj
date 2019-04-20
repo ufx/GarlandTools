@@ -86,7 +86,6 @@
     <Compile Include="Models\ModelMetadata.cs" />
     <Compile Include="Models\GarlandShop.cs" />
     <Compile Include="Models\IngredientModel.cs" />
-    <Compile Include="Models\ItemIconData.cs" />
     <Compile Include="Models\LocationInfo.cs" />
     <Compile Include="Models\MapMarker.cs" />
     <Compile Include="Models\OutputModels.cs" />

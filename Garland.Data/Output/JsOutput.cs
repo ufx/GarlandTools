@@ -30,8 +30,6 @@ namespace Garland.Data.Output
 
         public void Write()
         {
-            ItemIconDatabase.WriteUpdates();
-
             foreach (var lang in _languagesCodes)
             {
                 CreatePartials(lang);

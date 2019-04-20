@@ -115,7 +115,7 @@ namespace Garland.Data.Modules
 
                 BuildAttributes(item, sItem);
 
-                item.icon = ItemIconDatabase.GetIconId(sItem);
+                item.icon = ItemIconDatabase.EnsureIcon(sItem);
 
                 // Additional data
                 var additionalData = sItem.AdditionalData;
