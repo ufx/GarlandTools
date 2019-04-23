@@ -47,7 +47,7 @@ namespace Garland.Data
             using (var cmd = conn.CreateCommand())
             {
                 cmd.CommandText = sql;
-                cmd.CommandTimeout = 60;
+                cmd.CommandTimeout = 90;
                 return cmd.ExecuteNonQuery();
             }
         }

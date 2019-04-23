@@ -27198,7 +27198,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20028,
-    "icon": "t/29461",
+    "icon": 29461,
     "func": "fish",
     "rarity": 1,
     "title": "Doma Castle",

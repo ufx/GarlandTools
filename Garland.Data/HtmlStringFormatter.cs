@@ -84,8 +84,13 @@ namespace Garland.Data
                         return "{";
                     else if (genericText == "<Gui(55)/>")
                         return "}";
+                    else if (genericText == "<Gui(63)/>")
+                        return "*"; // Not sure about this.
                     else
-                        throw new NotImplementedException();
+                    {
+                        DatabaseBuilder.PrintLine($"Unknown GUI string flag: {genericText}, defaulting to *.");
+                        return "*";
+                    }
 
                 case TagType.Time:
                     return "[Time]";
@@ -287,9 +292,11 @@ namespace Garland.Data
                 case "F201F6": return "highlight";
                 case "F20222": return "highlight";
                 case "F20223": return "highlight-purple";
+                case "F20215": return "highlight-yellow"; // Unsure about this one.  Used to note "Legacy of Allag" quest needs to be abandoned and reacquired.
 
                 default:
-                    throw new NotImplementedException();
+                    DatabaseBuilder.PrintLine($"Unknown color code '{color}'.");
+                    return "highlight";
             }
         }
 
