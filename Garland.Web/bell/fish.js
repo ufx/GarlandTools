@@ -2,499 +2,499 @@
   "Lugworm": {
     "name": "Lugworm",
     "id": 2585,
-    "icon": 874
+    "icon": 27004
   },
   "Pill Bug": {
     "name": "Pill Bug",
     "id": 2587,
-    "icon": 876
+    "icon": 27005
   },
   "Merlthor Goby": {
     "name": "Merlthor Goby",
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "mooch": 1
   },
   "Harbor Herring": {
     "name": "Harbor Herring",
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "mooch": 1
   },
   "Rat Tail": {
     "name": "Rat Tail",
     "id": 2591,
-    "icon": 880
+    "icon": 27001
   },
   "Moth Pupa": {
     "name": "Moth Pupa",
     "id": 2586,
-    "icon": 875
+    "icon": 27003
   },
   "Crayfish Ball": {
     "name": "Crayfish Ball",
     "id": 2588,
-    "icon": 877
+    "icon": 27008
   },
   "Sinking Minnow": {
     "name": "Sinking Minnow",
     "id": 2617,
-    "icon": 905
+    "icon": 27055
   },
   "Goby Ball": {
     "name": "Goby Ball",
     "id": 2589,
-    "icon": 878
+    "icon": 27009
   },
   "Wildfowl Fly": {
     "name": "Wildfowl Fly",
     "id": 2623,
-    "icon": 910
+    "icon": 27059
   },
   "Butterworm": {
     "name": "Butterworm",
     "id": 2594,
-    "icon": 883
+    "icon": 27019
   },
   "Copperfish": {
     "name": "Copperfish",
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "mooch": 1
   },
   "Yumizuno": {
     "name": "Yumizuno",
     "id": 2628,
-    "icon": 915
+    "icon": 27068
   },
   "Northern Krill": {
     "name": "Northern Krill",
     "id": 2606,
-    "icon": 894
+    "icon": 27023
   },
   "Spoon Worm": {
     "name": "Spoon Worm",
     "id": 2596,
-    "icon": 885
+    "icon": 27015
   },
   "Midge Basket": {
     "name": "Midge Basket",
     "id": 2592,
-    "icon": 881
+    "icon": 27002
   },
   "Crow Fly": {
     "name": "Crow Fly",
     "id": 2614,
-    "icon": 902
+    "icon": 27057
   },
   "Chocobo Fly": {
     "name": "Chocobo Fly",
     "id": 2610,
-    "icon": 898
+    "icon": 27056
   },
   "Spinnerbait": {
     "name": "Spinnerbait",
     "id": 2626,
-    "icon": 913
+    "icon": 27063
   },
   "Shrimp Cage Feeder": {
     "name": "Shrimp Cage Feeder",
     "id": 2613,
-    "icon": 901
+    "icon": 27053
   },
   "Herring Ball": {
     "name": "Herring Ball",
     "id": 2598,
-    "icon": 886
+    "icon": 27007
   },
   "Syrphid Basket": {
     "name": "Syrphid Basket",
     "id": 2597,
-    "icon": 881
+    "icon": 27002
   },
   "Heavy Steel Jig": {
     "name": "Heavy Steel Jig",
     "id": 2619,
-    "icon": 907
+    "icon": 27065
   },
   "Fullmoon Sardine": {
     "name": "Fullmoon Sardine",
     "id": 4898,
-    "icon": 2928,
+    "icon": 29055,
     "mooch": 1
   },
   "Ogre Barracuda": {
     "name": "Ogre Barracuda",
     "id": 4888,
-    "icon": 2918,
+    "icon": 29035,
     "mooch": 1
   },
   "Wahoo": {
     "name": "Wahoo",
     "id": 4904,
-    "icon": 2934,
+    "icon": 29025,
     "mooch": 1
   },
   "Honey Worm": {
     "name": "Honey Worm",
     "id": 2599,
-    "icon": 887
+    "icon": 27018
   },
   "Ala Mhigan Fighting Fish": {
     "name": "Ala Mhigan Fighting Fish",
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "mooch": 1
   },
   "Stem Borer": {
     "name": "Stem Borer",
     "id": 2601,
-    "icon": 889
+    "icon": 27017
   },
   "Snurble Fly": {
     "name": "Snurble Fly",
     "id": 2618,
-    "icon": 906
+    "icon": 27058
   },
   "Silverfish": {
     "name": "Silverfish",
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "mooch": 1
   },
   "Glowworm": {
     "name": "Glowworm",
     "id": 2603,
-    "icon": 891
+    "icon": 27021
   },
   "Goldfish": {
     "name": "Goldfish",
     "id": 5011,
-    "icon": 3041,
+    "icon": 29311,
     "mooch": 1
   },
   "Steel Jig": {
     "name": "Steel Jig",
     "id": 2616,
-    "icon": 904
+    "icon": 27067
   },
   "Ocean Cloud": {
     "name": "Ocean Cloud",
     "id": 4872,
-    "icon": 2902,
+    "icon": 29005,
     "mooch": 1
   },
   "Krill Cage Feeder": {
     "name": "Krill Cage Feeder",
     "id": 2621,
-    "icon": 901
+    "icon": 27053
   },
   "Giant Squid": {
     "name": "Giant Squid",
     "id": 4919,
-    "icon": 2949,
+    "icon": 29027,
     "mooch": 1
   },
   "Common Sculpin": {
     "name": "Common Sculpin",
     "id": 4995,
-    "icon": 3025,
+    "icon": 29250,
     "mooch": 1
   },
   "Floating Minnow": {
     "name": "Floating Minnow",
     "id": 2611,
-    "icon": 899
+    "icon": 27051
   },
   "Streamer": {
     "name": "Streamer",
     "id": 2627,
-    "icon": 914
+    "icon": 27060
   },
   "Bloodworm": {
     "name": "Bloodworm",
     "id": 2590,
-    "icon": 879
+    "icon": 27006
   },
   "Striped Goby": {
     "name": "Striped Goby",
     "id": 4927,
-    "icon": 2957,
+    "icon": 29230,
     "mooch": 1
   },
   "Bass Ball": {
     "name": "Bass Ball",
     "id": 2595,
-    "icon": 884
+    "icon": 27010
   },
   "Topwater Frog": {
     "name": "Topwater Frog",
     "id": 2624,
-    "icon": 911
+    "icon": 27054
   },
   "Caddisfly Larva": {
     "name": "Caddisfly Larva",
     "id": 2607,
-    "icon": 895
+    "icon": 27013
   },
   "Rainbow Spoon Lure": {
     "name": "Rainbow Spoon Lure",
     "id": 2625,
-    "icon": 912
+    "icon": 27061
   },
   "Assassin Betta": {
     "name": "Assassin Betta",
     "id": 5002,
-    "icon": 3032,
+    "icon": 29238,
     "mooch": 1
   },
   "Spinner": {
     "name": "Spinner",
     "id": 2620,
-    "icon": 908
+    "icon": 27062
   },
   "Sand Leech": {
     "name": "Sand Leech",
     "id": 2600,
-    "icon": 888
+    "icon": 27014
   },
   "Storm Rider": {
     "name": "Storm Rider",
     "id": 5035,
-    "icon": 3065,
+    "icon": 29606,
     "mooch": 1
   },
   "Stonefly Nymph": {
     "name": "Stonefly Nymph",
     "id": 12704,
-    "icon": 7129
+    "icon": 27028
   },
   "Brute Leech": {
     "name": "Brute Leech",
     "id": 12711,
-    "icon": 3396
+    "icon": 22635
   },
   "Abalathian Smelt": {
     "name": "Abalathian Smelt",
     "id": 4937,
-    "icon": 2967,
+    "icon": 29310,
     "mooch": 1
   },
   "Hoverworm": {
     "name": "Hoverworm",
     "id": 2605,
-    "icon": 893
+    "icon": 27022
   },
   "Cloud Cutter": {
     "name": "Cloud Cutter",
     "id": 5040,
-    "icon": 3070,
+    "icon": 29655,
     "mooch": 1
   },
   "Mahar": {
     "name": "Mahar",
     "id": 8771,
-    "icon": 5190,
+    "icon": 29660,
     "mooch": 1
   },
   "Purse Web Spider": {
     "name": "Purse Web Spider",
     "id": 12705,
-    "icon": 3398
+    "icon": 22619
   },
   "Giant Crane Fly": {
     "name": "Giant Crane Fly",
     "id": 12712,
-    "icon": 881
+    "icon": 27002
   },
   "Red Balloon": {
     "name": "Red Balloon",
     "id": 12708,
-    "icon": 7132
+    "icon": 27025
   },
   "Skyworm": {
     "name": "Skyworm",
     "id": 12716,
-    "icon": 7137,
+    "icon": 29722,
     "mooch": 1
   },
   "Glacier Core": {
     "name": "Glacier Core",
     "id": 12724,
-    "icon": 7144,
+    "icon": 29706,
     "mooch": 1
   },
   "Goblin Jig": {
     "name": "Goblin Jig",
     "id": 12706,
-    "icon": 7130
+    "icon": 27069
   },
   "Ice Faerie": {
     "name": "Ice Faerie",
     "id": 12715,
-    "icon": 7136,
+    "icon": 29803,
     "mooch": 1
   },
   "Bladed Steel Jig": {
     "name": "Bladed Steel Jig",
     "id": 12707,
-    "icon": 7131
+    "icon": 27070
   },
   "Bullfrog": {
     "name": "Bullfrog",
     "id": 12730,
-    "icon": 3079,
+    "icon": 29233,
     "mooch": 1
   },
   "Blueclaw Shrimp": {
     "name": "Blueclaw Shrimp",
     "id": 12722,
-    "icon": 7142,
+    "icon": 29404,
     "mooch": 1
   },
   "Sky Faerie": {
     "name": "Sky Faerie",
     "id": 12753,
-    "icon": 7168,
+    "icon": 29716,
     "mooch": 1
   },
   "Fiend Worm": {
     "name": "Fiend Worm",
     "id": 12710,
-    "icon": 7134
+    "icon": 27027
   },
   "Platinum Fish": {
     "name": "Platinum Fish",
     "id": 12776,
-    "icon": 3008,
+    "icon": 29312,
     "mooch": 1
   },
   "Aether Eye": {
     "name": "Aether Eye",
     "id": 12777,
-    "icon": 2968,
+    "icon": 29214,
     "mooch": 1
   },
   "Rudderfish": {
     "name": "Rudderfish",
     "id": 12805,
-    "icon": 7194,
+    "icon": 29717,
     "mooch": 1
   },
   "Magma Worm": {
     "name": "Magma Worm",
     "id": 12709,
-    "icon": 7133
+    "icon": 27026
   },
   "Granite Crab": {
     "name": "Granite Crab",
     "id": 12754,
-    "icon": 7169,
+    "icon": 29854,
     "mooch": 1
   },
   "Hedgemole Cricket": {
     "name": "Hedgemole Cricket",
     "id": 12757,
-    "icon": 7172,
+    "icon": 29801,
     "mooch": 1
   },
   "Sweetfish": {
     "name": "Sweetfish",
     "id": 12780,
-    "icon": 7181,
+    "icon": 29395,
     "mooch": 1
   },
   "Salmon Roe": {
     "name": "Salmon Roe",
     "id": 20613,
-    "icon": 9532
+    "icon": 27031
   },
   "Midge Larva": {
     "name": "Midge Larva",
     "id": 20615,
-    "icon": 9530
+    "icon": 27033
   },
   "Gyr Abanian Trout": {
     "name": "Gyr Abanian Trout",
     "id": 20056,
-    "icon": 2970,
+    "icon": 29204,
     "mooch": 1
   },
   "Suspending Minnow": {
     "name": "Suspending Minnow",
     "id": 20619,
-    "icon": 9526
+    "icon": 27072
   },
   "Stonefly Larva": {
     "name": "Stonefly Larva",
     "id": 20675,
-    "icon": 895
+    "icon": 27013
   },
   "Balloon Frog": {
     "name": "Balloon Frog",
     "id": 20064,
-    "icon": 3079,
+    "icon": 29233,
     "mooch": 1
   },
   "Hardhead Trout": {
     "name": "Hardhead Trout",
     "id": 24207,
-    "icon": 12404,
+    "icon": 29535,
     "mooch": 1
   },
   "Nightcrawler": {
     "name": "Nightcrawler",
     "id": 20614,
-    "icon": 9531
+    "icon": 27032
   },
   "Silkworm": {
     "name": "Silkworm",
     "id": 20616,
-    "icon": 9529
+    "icon": 27034
   },
   "Rock Saltfish": {
     "name": "Rock Saltfish",
     "id": 20025,
-    "icon": 9802,
+    "icon": 29901,
     "mooch": 1
   },
   "Live Shrimp": {
     "name": "Live Shrimp",
     "id": 20617,
-    "icon": 9528
+    "icon": 27035
   },
   "Blue Bobbit": {
     "name": "Blue Bobbit",
     "id": 20676,
-    "icon": 874
+    "icon": 27004
   },
   "Ruby Shrimp": {
     "name": "Ruby Shrimp",
     "id": 20112,
-    "icon": 2901,
+    "icon": 29008,
     "mooch": 1
   },
   "Bream Lure": {
     "name": "Bream Lure",
     "id": 20618,
-    "icon": 9527
+    "icon": 27071
   },
   "Red Prismfish": {
     "name": "Red Prismfish",
     "id": 22397,
-    "icon": 11590,
+    "icon": 29521,
     "mooch": 1
   },
   "Violet Prismfish": {
     "name": "Violet Prismfish",
     "id": 21177,
-    "icon": 11264,
+    "icon": 29517,
     "mooch": 1
   },
   "Zagas Khaal": {
     "name": "Zagas Khaal",
     "id": 20127,
-    "icon": 2967,
+    "icon": 29310,
     "mooch": 1
   }
 };
@@ -507,7 +507,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
@@ -527,7 +527,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
@@ -547,7 +547,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
@@ -567,7 +567,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
@@ -587,7 +587,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
@@ -607,7 +607,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
@@ -627,7 +627,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
@@ -647,7 +647,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
@@ -667,7 +667,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
@@ -687,7 +687,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
@@ -707,7 +707,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "North Isle of Endless Summer",
@@ -727,7 +727,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
@@ -747,7 +747,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Skull Valley",
@@ -767,7 +767,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
@@ -787,7 +787,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
@@ -807,7 +807,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Reaver Hide",
@@ -827,7 +827,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Mist",
@@ -847,7 +847,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Vesper Bay",
@@ -867,7 +867,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4869,
-    "icon": 2899,
+    "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
@@ -887,7 +887,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4870,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
@@ -907,7 +907,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4870,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
@@ -927,7 +927,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4870,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
@@ -947,7 +947,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4870,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Candlekeep Quay",
@@ -967,7 +967,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4870,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
@@ -987,7 +987,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4870,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Reaver Hide",
@@ -1007,7 +1007,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4870,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Vesper Bay",
@@ -1027,7 +1027,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4870,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Crescent Cove",
@@ -1047,7 +1047,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4870,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Bazaar",
@@ -1067,7 +1067,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4776,
-    "icon": 2815,
+    "icon": 29063,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
@@ -1087,7 +1087,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4776,
-    "icon": 2815,
+    "icon": 29063,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
@@ -1107,7 +1107,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4776,
-    "icon": 2815,
+    "icon": 29063,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
@@ -1127,7 +1127,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4871,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
@@ -1147,7 +1147,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4871,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
@@ -1167,7 +1167,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4871,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
@@ -1187,7 +1187,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4871,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
@@ -1207,7 +1207,7 @@ gt.bell.fish = [
       "Lugworm"
     ],
     "id": 4871,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
@@ -1227,7 +1227,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4872,
-    "icon": 2902,
+    "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
@@ -1247,7 +1247,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4872,
-    "icon": 2902,
+    "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
@@ -1267,7 +1267,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4872,
-    "icon": 2902,
+    "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
@@ -1287,7 +1287,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4872,
-    "icon": 2902,
+    "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
@@ -1307,7 +1307,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4872,
-    "icon": 2902,
+    "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
@@ -1327,7 +1327,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4872,
-    "icon": 2902,
+    "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
@@ -1347,7 +1347,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4872,
-    "icon": 2902,
+    "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
@@ -1367,7 +1367,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4872,
-    "icon": 2902,
+    "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
@@ -1387,7 +1387,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
@@ -1407,7 +1407,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
@@ -1427,7 +1427,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
@@ -1447,7 +1447,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
@@ -1467,7 +1467,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
@@ -1487,7 +1487,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
@@ -1507,7 +1507,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
@@ -1527,7 +1527,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
@@ -1547,7 +1547,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
@@ -1567,7 +1567,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "The Brewer's Beacon",
@@ -1587,7 +1587,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Mist",
@@ -1607,7 +1607,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4874,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Vesper Bay",
@@ -1627,7 +1627,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4876,
-    "icon": 2906,
+    "icon": 29016,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
@@ -1647,7 +1647,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4876,
-    "icon": 2906,
+    "icon": 29016,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
@@ -1667,7 +1667,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4876,
-    "icon": 2906,
+    "icon": 29016,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
@@ -1687,7 +1687,7 @@ gt.bell.fish = [
       "Pill Bug"
     ],
     "id": 4876,
-    "icon": 2906,
+    "icon": 29016,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
@@ -1708,7 +1708,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
@@ -1729,7 +1729,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
@@ -1750,7 +1750,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
@@ -1771,7 +1771,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
@@ -1792,7 +1792,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
@@ -1813,7 +1813,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
@@ -1834,7 +1834,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
@@ -1855,7 +1855,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
@@ -1876,7 +1876,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
@@ -1897,7 +1897,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "Skull Valley",
@@ -1918,7 +1918,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "Mist",
@@ -1939,7 +1939,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4885,
-    "icon": 2915,
+    "icon": 29051,
     "func": "fish",
     "rarity": 1,
     "title": "Vesper Bay",
@@ -1963,7 +1963,7 @@ gt.bell.fish = [
       "end": 14
     },
     "id": 7685,
-    "icon": 4602,
+    "icon": 29068,
     "func": "fish",
     "rarity": 2,
     "title": "Limsa Lominsa Upper Decks",
@@ -1988,7 +1988,7 @@ gt.bell.fish = [
       "end": 17
     },
     "id": 7707,
-    "icon": 4624,
+    "icon": 29072,
     "func": "fish",
     "rarity": 2,
     "title": "Limsa Lominsa Lower Decks",
@@ -2008,7 +2008,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4873,
-    "icon": 2903,
+    "icon": 29028,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
@@ -2028,7 +2028,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4873,
-    "icon": 2903,
+    "icon": 29028,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
@@ -2048,7 +2048,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4873,
-    "icon": 2903,
+    "icon": 29028,
     "func": "fish",
     "rarity": 1,
     "title": "Oschon's Torch",
@@ -2068,7 +2068,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4873,
-    "icon": 2903,
+    "icon": 29028,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
@@ -2088,7 +2088,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4883,
-    "icon": 2913,
+    "icon": 29033,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
@@ -2108,7 +2108,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4883,
-    "icon": 2913,
+    "icon": 29033,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
@@ -2132,7 +2132,7 @@ gt.bell.fish = [
       "end": 14
     },
     "id": 7678,
-    "icon": 4595,
+    "icon": 29069,
     "func": "fish",
     "rarity": 2,
     "title": "Zephyr Drift",
@@ -2152,7 +2152,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4925,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "Rogue River",
@@ -2172,7 +2172,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4925,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "West Agelyss River",
@@ -2192,7 +2192,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4925,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "The Mourning Widow",
@@ -2212,7 +2212,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4925,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "Jadeite Flood",
@@ -2232,7 +2232,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4925,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Black Tea Brook",
@@ -2252,7 +2252,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4925,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "Whispering Gorge",
@@ -2272,7 +2272,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4925,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Black Tea Brook",
@@ -2292,7 +2292,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4925,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
@@ -2312,7 +2312,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4925,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
@@ -2332,7 +2332,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4926,
-    "icon": 2956,
+    "icon": 29247,
     "func": "fish",
     "rarity": 1,
     "title": "Rogue River",
@@ -2352,7 +2352,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4926,
-    "icon": 2956,
+    "icon": 29247,
     "func": "fish",
     "rarity": 1,
     "title": "West Agelyss River",
@@ -2372,7 +2372,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4926,
-    "icon": 2956,
+    "icon": 29247,
     "func": "fish",
     "rarity": 1,
     "title": "Nym River",
@@ -2392,7 +2392,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4926,
-    "icon": 2956,
+    "icon": 29247,
     "func": "fish",
     "rarity": 1,
     "title": "The Mourning Widow",
@@ -2412,7 +2412,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4928,
-    "icon": 2958,
+    "icon": 29253,
     "func": "fish",
     "rarity": 1,
     "title": "Rogue River",
@@ -2432,7 +2432,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4928,
-    "icon": 2958,
+    "icon": 29253,
     "func": "fish",
     "rarity": 1,
     "title": "West Agelyss River",
@@ -2452,7 +2452,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4928,
-    "icon": 2958,
+    "icon": 29253,
     "func": "fish",
     "rarity": 1,
     "title": "Nym River",
@@ -2472,7 +2472,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4928,
-    "icon": 2958,
+    "icon": 29253,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
@@ -2492,7 +2492,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4928,
-    "icon": 2958,
+    "icon": 29253,
     "func": "fish",
     "rarity": 1,
     "title": "The Mourning Widow",
@@ -2512,7 +2512,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4930,
-    "icon": 2960,
+    "icon": 29285,
     "func": "fish",
     "rarity": 1,
     "title": "Rogue River",
@@ -2532,7 +2532,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4930,
-    "icon": 2960,
+    "icon": 29285,
     "func": "fish",
     "rarity": 1,
     "title": "West Agelyss River",
@@ -2552,7 +2552,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4930,
-    "icon": 2960,
+    "icon": 29285,
     "func": "fish",
     "rarity": 1,
     "title": "Nym River",
@@ -2572,7 +2572,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4930,
-    "icon": 2960,
+    "icon": 29285,
     "func": "fish",
     "rarity": 1,
     "title": "The Mourning Widow",
@@ -2592,7 +2592,7 @@ gt.bell.fish = [
       "Sinking Minnow"
     ],
     "id": 4946,
-    "icon": 2976,
+    "icon": 29304,
     "func": "fish",
     "rarity": 1,
     "title": "Rogue River",
@@ -2612,7 +2612,7 @@ gt.bell.fish = [
       "Sinking Minnow"
     ],
     "id": 4946,
-    "icon": 2976,
+    "icon": 29304,
     "func": "fish",
     "rarity": 1,
     "title": "West Agelyss River",
@@ -2632,7 +2632,7 @@ gt.bell.fish = [
       "Sinking Minnow"
     ],
     "id": 4946,
-    "icon": 2976,
+    "icon": 29304,
     "func": "fish",
     "rarity": 1,
     "title": "Nym River",
@@ -2652,7 +2652,7 @@ gt.bell.fish = [
       "Sinking Minnow"
     ],
     "id": 4946,
-    "icon": 2976,
+    "icon": 29304,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
@@ -2676,7 +2676,7 @@ gt.bell.fish = [
       "end": 14
     },
     "id": 7679,
-    "icon": 4596,
+    "icon": 29324,
     "func": "fish",
     "rarity": 2,
     "title": "Rogue River",
@@ -2696,7 +2696,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4934,
-    "icon": 2964,
+    "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "West Agelyss River",
@@ -2716,7 +2716,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4934,
-    "icon": 2964,
+    "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Nym River",
@@ -2736,7 +2736,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4934,
-    "icon": 2964,
+    "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "The Mourning Widow",
@@ -2756,7 +2756,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4934,
-    "icon": 2964,
+    "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Jadeite Flood",
@@ -2776,7 +2776,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4934,
-    "icon": 2964,
+    "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Black Tea Brook",
@@ -2796,7 +2796,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4934,
-    "icon": 2964,
+    "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Whispering Gorge",
@@ -2816,7 +2816,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4934,
-    "icon": 2964,
+    "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Black Tea Brook",
@@ -2836,7 +2836,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4934,
-    "icon": 2964,
+    "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
@@ -2856,7 +2856,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4934,
-    "icon": 2964,
+    "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "The Mirror",
@@ -2876,7 +2876,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4934,
-    "icon": 2964,
+    "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
@@ -2896,7 +2896,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 7688,
-    "icon": 4605,
+    "icon": 29325,
     "func": "fish",
     "rarity": 2,
     "title": "West Agelyss River",
@@ -2916,7 +2916,7 @@ gt.bell.fish = [
       "Goby Ball"
     ],
     "id": 5460,
-    "icon": 3339,
+    "icon": 29062,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
@@ -2936,7 +2936,7 @@ gt.bell.fish = [
       "Goby Ball"
     ],
     "id": 5460,
-    "icon": 3339,
+    "icon": 29062,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
@@ -2956,7 +2956,7 @@ gt.bell.fish = [
       "Goby Ball"
     ],
     "id": 5460,
-    "icon": 3339,
+    "icon": 29062,
     "func": "fish",
     "rarity": 1,
     "title": "The Brewer's Beacon",
@@ -2976,7 +2976,7 @@ gt.bell.fish = [
       "Goby Ball"
     ],
     "id": 4875,
-    "icon": 2905,
+    "icon": 29031,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
@@ -2996,7 +2996,7 @@ gt.bell.fish = [
       "Goby Ball"
     ],
     "id": 4875,
-    "icon": 2905,
+    "icon": 29031,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
@@ -3016,7 +3016,7 @@ gt.bell.fish = [
       "Goby Ball"
     ],
     "id": 4875,
-    "icon": 2905,
+    "icon": 29031,
     "func": "fish",
     "rarity": 1,
     "title": "Oschon's Torch",
@@ -3036,7 +3036,7 @@ gt.bell.fish = [
       "Goby Ball"
     ],
     "id": 4875,
-    "icon": 2905,
+    "icon": 29031,
     "func": "fish",
     "rarity": 1,
     "title": "Candlekeep Quay",
@@ -3057,7 +3057,7 @@ gt.bell.fish = [
       "Harbor Herring"
     ],
     "id": 4888,
-    "icon": 2918,
+    "icon": 29035,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
@@ -3078,7 +3078,7 @@ gt.bell.fish = [
       "Harbor Herring"
     ],
     "id": 4888,
-    "icon": 2918,
+    "icon": 29035,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
@@ -3099,7 +3099,7 @@ gt.bell.fish = [
       "Harbor Herring"
     ],
     "id": 4888,
-    "icon": 2918,
+    "icon": 29035,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
@@ -3120,7 +3120,7 @@ gt.bell.fish = [
       "Harbor Herring"
     ],
     "id": 4888,
-    "icon": 2918,
+    "icon": 29035,
     "func": "fish",
     "rarity": 1,
     "title": "The Brewer's Beacon",
@@ -3141,7 +3141,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4903,
-    "icon": 2933,
+    "icon": 29011,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
@@ -3162,7 +3162,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4903,
-    "icon": 2933,
+    "icon": 29011,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
@@ -3183,7 +3183,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4903,
-    "icon": 2933,
+    "icon": 29011,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
@@ -3204,7 +3204,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4903,
-    "icon": 2933,
+    "icon": 29011,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
@@ -3225,7 +3225,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4903,
-    "icon": 2933,
+    "icon": 29011,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
@@ -3250,7 +3250,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 7686,
-    "icon": 4603,
+    "icon": 29065,
     "func": "fish",
     "rarity": 2,
     "title": "Summerford",
@@ -3270,7 +3270,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4931,
-    "icon": 2961,
+    "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Nym River",
@@ -3290,7 +3290,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4931,
-    "icon": 2961,
+    "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
@@ -3310,7 +3310,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4931,
-    "icon": 2961,
+    "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "The Mourning Widow",
@@ -3330,7 +3330,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4931,
-    "icon": 2961,
+    "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
@@ -3350,7 +3350,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4931,
-    "icon": 2961,
+    "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
@@ -3370,7 +3370,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4931,
-    "icon": 2961,
+    "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Soot Creek",
@@ -3390,7 +3390,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4931,
-    "icon": 2961,
+    "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Soot Creek",
@@ -3410,7 +3410,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4931,
-    "icon": 2961,
+    "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "The Clutch",
@@ -3430,7 +3430,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4931,
-    "icon": 2961,
+    "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "North Drybone",
@@ -3450,7 +3450,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4931,
-    "icon": 2961,
+    "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "South Drybone",
@@ -3470,7 +3470,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Nym River",
@@ -3490,7 +3490,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "The Mourning Widow",
@@ -3510,7 +3510,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Jadeite Flood",
@@ -3530,7 +3530,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Black Tea Brook",
@@ -3550,7 +3550,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Whispering Gorge",
@@ -3570,7 +3570,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Black Tea Brook",
@@ -3590,7 +3590,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
@@ -3610,7 +3610,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "The Mirror",
@@ -3630,7 +3630,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
@@ -3650,7 +3650,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Springripple Brook",
@@ -3670,7 +3670,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Murmur Rills",
@@ -3690,7 +3690,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
@@ -3710,7 +3710,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
@@ -3730,7 +3730,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Soot Creek",
@@ -3750,7 +3750,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Soot Creek",
@@ -3770,7 +3770,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "The Clutch",
@@ -3790,7 +3790,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "The Unholy Heir",
@@ -3810,7 +3810,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4936,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "Coerthas River",
@@ -3834,7 +3834,7 @@ gt.bell.fish = [
       "end": 8
     },
     "id": 7709,
-    "icon": 4626,
+    "icon": 29338,
     "func": "fish",
     "rarity": 2,
     "title": "Nym River",
@@ -3854,7 +3854,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4941,
-    "icon": 2971,
+    "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
@@ -3874,7 +3874,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4941,
-    "icon": 2971,
+    "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
@@ -3894,7 +3894,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4941,
-    "icon": 2971,
+    "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
@@ -3914,7 +3914,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4941,
-    "icon": 2971,
+    "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Bronze Lake Shallows",
@@ -3934,7 +3934,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4941,
-    "icon": 2971,
+    "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
@@ -3954,7 +3954,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4941,
-    "icon": 2971,
+    "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Springripple Brook",
@@ -3974,7 +3974,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4941,
-    "icon": 2971,
+    "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
@@ -3994,7 +3994,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4941,
-    "icon": 2971,
+    "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Verdant Drop",
@@ -4014,7 +4014,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4941,
-    "icon": 2971,
+    "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
@@ -4034,7 +4034,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4941,
-    "icon": 2971,
+    "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Murmur Rills",
@@ -4054,7 +4054,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
@@ -4074,7 +4074,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
@@ -4094,7 +4094,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
@@ -4114,7 +4114,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
@@ -4134,7 +4134,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
@@ -4154,7 +4154,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
@@ -4174,7 +4174,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
@@ -4194,7 +4194,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
@@ -4214,7 +4214,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Springripple Brook",
@@ -4234,7 +4234,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Verdant Drop",
@@ -4254,7 +4254,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
@@ -4274,7 +4274,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
@@ -4294,7 +4294,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "East Hathoeva River",
@@ -4314,7 +4314,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
@@ -4334,7 +4334,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
@@ -4354,7 +4354,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Burnt Lizard Creek",
@@ -4374,7 +4374,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Forgotten Springs",
@@ -4394,7 +4394,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4948,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
@@ -4415,7 +4415,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4952,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
@@ -4436,7 +4436,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4952,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
@@ -4457,7 +4457,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4952,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
@@ -4478,7 +4478,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4952,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
@@ -4499,7 +4499,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4952,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Springripple Brook",
@@ -4520,7 +4520,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4952,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
@@ -4541,7 +4541,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4952,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
@@ -4562,7 +4562,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4952,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "East Hathoeva River",
@@ -4583,7 +4583,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4952,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
@@ -4604,7 +4604,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4952,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
@@ -4625,7 +4625,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4952,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
@@ -4645,7 +4645,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4956,
-    "icon": 2986,
+    "icon": 29256,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
@@ -4670,7 +4670,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 7682,
-    "icon": 4599,
+    "icon": 29327,
     "func": "fish",
     "rarity": 2,
     "title": "Woad Whisper Canyon",
@@ -4690,7 +4690,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 7681,
-    "icon": 4598,
+    "icon": 29326,
     "func": "fish",
     "rarity": 2,
     "title": "The Mourning Widow",
@@ -4710,7 +4710,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4877,
-    "icon": 2907,
+    "icon": 29052,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
@@ -4730,7 +4730,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4877,
-    "icon": 2907,
+    "icon": 29052,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
@@ -4750,7 +4750,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4877,
-    "icon": 2907,
+    "icon": 29052,
     "func": "fish",
     "rarity": 1,
     "title": "Oschon's Torch",
@@ -4770,7 +4770,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4877,
-    "icon": 2907,
+    "icon": 29052,
     "func": "fish",
     "rarity": 1,
     "title": "Candlekeep Quay",
@@ -4790,7 +4790,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4877,
-    "icon": 2907,
+    "icon": 29052,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
@@ -4810,7 +4810,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4877,
-    "icon": 2907,
+    "icon": 29052,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
@@ -4830,7 +4830,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4878,
-    "icon": 2908,
+    "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
@@ -4850,7 +4850,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4878,
-    "icon": 2908,
+    "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
@@ -4870,7 +4870,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4878,
-    "icon": 2908,
+    "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Oschon's Torch",
@@ -4890,7 +4890,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4878,
-    "icon": 2908,
+    "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Candlekeep Quay",
@@ -4910,7 +4910,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4878,
-    "icon": 2908,
+    "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
@@ -4930,7 +4930,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4878,
-    "icon": 2908,
+    "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
@@ -4950,7 +4950,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4878,
-    "icon": 2908,
+    "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
@@ -4970,7 +4970,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4878,
-    "icon": 2908,
+    "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Vesper Bay",
@@ -4990,7 +4990,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4878,
-    "icon": 2908,
+    "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Bazaar",
@@ -5010,7 +5010,7 @@ gt.bell.fish = [
       "Goby Ball"
     ],
     "id": 7680,
-    "icon": 4597,
+    "icon": 29073,
     "func": "fish",
     "rarity": 2,
     "title": "Moraby Bay",
@@ -5030,7 +5030,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4879,
-    "icon": 2909,
+    "icon": 29012,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
@@ -5050,7 +5050,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4879,
-    "icon": 2909,
+    "icon": 29012,
     "func": "fish",
     "rarity": 1,
     "title": "Oschon's Torch",
@@ -5070,7 +5070,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4879,
-    "icon": 2909,
+    "icon": 29012,
     "func": "fish",
     "rarity": 1,
     "title": "Candlekeep Quay",
@@ -5090,7 +5090,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4879,
-    "icon": 2909,
+    "icon": 29012,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
@@ -5110,7 +5110,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4879,
-    "icon": 2909,
+    "icon": 29012,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
@@ -5130,7 +5130,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4879,
-    "icon": 2909,
+    "icon": 29012,
     "func": "fish",
     "rarity": 1,
     "title": "Skull Valley",
@@ -5150,7 +5150,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4879,
-    "icon": 2909,
+    "icon": 29012,
     "func": "fish",
     "rarity": 1,
     "title": "Vesper Bay",
@@ -5170,7 +5170,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4879,
-    "icon": 2909,
+    "icon": 29012,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Bazaar",
@@ -5190,7 +5190,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4897,
-    "icon": 2927,
+    "icon": 29053,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
@@ -5210,7 +5210,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4897,
-    "icon": 2927,
+    "icon": 29053,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
@@ -5230,7 +5230,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4897,
-    "icon": 2927,
+    "icon": 29053,
     "func": "fish",
     "rarity": 1,
     "title": "North Isle of Endless Summer",
@@ -5253,7 +5253,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 7710,
-    "icon": 4627,
+    "icon": 29074,
     "func": "fish",
     "rarity": 2,
     "title": "Cedarwood",
@@ -5273,7 +5273,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4881,
-    "icon": 2911,
+    "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Oschon's Torch",
@@ -5293,7 +5293,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4881,
-    "icon": 2911,
+    "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Candlekeep Quay",
@@ -5313,7 +5313,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4881,
-    "icon": 2911,
+    "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
@@ -5333,7 +5333,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4881,
-    "icon": 2911,
+    "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
@@ -5353,7 +5353,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4881,
-    "icon": 2911,
+    "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Skull Valley",
@@ -5373,7 +5373,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4881,
-    "icon": 2911,
+    "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "The Brewer's Beacon",
@@ -5393,7 +5393,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4881,
-    "icon": 2911,
+    "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Vesper Bay",
@@ -5413,7 +5413,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4881,
-    "icon": 2911,
+    "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Bazaar",
@@ -5437,7 +5437,7 @@ gt.bell.fish = [
       "end": 18
     },
     "id": 4915,
-    "icon": 2945,
+    "icon": 29050,
     "func": "fish",
     "rarity": 1,
     "title": "Oschon's Torch",
@@ -5457,7 +5457,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 7690,
-    "icon": 4607,
+    "icon": 29078,
     "func": "fish",
     "rarity": 2,
     "title": "Oschon's Torch",
@@ -5477,7 +5477,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4914,
-    "icon": 2944,
+    "icon": 29047,
     "func": "fish",
     "rarity": 1,
     "title": "Candlekeep Quay",
@@ -5497,7 +5497,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4914,
-    "icon": 2944,
+    "icon": 29047,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
@@ -5517,7 +5517,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4914,
-    "icon": 2944,
+    "icon": 29047,
     "func": "fish",
     "rarity": 1,
     "title": "North Isle of Endless Summer",
@@ -5541,7 +5541,7 @@ gt.bell.fish = [
       "end": 22
     },
     "id": 7691,
-    "icon": 4608,
+    "icon": 29066,
     "func": "fish",
     "rarity": 2,
     "title": "Candlekeep Quay",
@@ -5561,7 +5561,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4882,
-    "icon": 2912,
+    "icon": 29042,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
@@ -5581,7 +5581,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4882,
-    "icon": 2912,
+    "icon": 29042,
     "func": "fish",
     "rarity": 1,
     "title": "The Brewer's Beacon",
@@ -5605,7 +5605,7 @@ gt.bell.fish = [
       "end": 3
     },
     "id": 7712,
-    "icon": 4629,
+    "icon": 29075,
     "func": "fish",
     "rarity": 2,
     "title": "Moraby Drydocks",
@@ -5625,7 +5625,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4933,
-    "icon": 2963,
+    "icon": 29207,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
@@ -5645,7 +5645,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4933,
-    "icon": 2963,
+    "icon": 29207,
     "func": "fish",
     "rarity": 1,
     "title": "Hidden Falls",
@@ -5665,7 +5665,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4933,
-    "icon": 2963,
+    "icon": 29207,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
@@ -5685,7 +5685,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4933,
-    "icon": 2963,
+    "icon": 29207,
     "func": "fish",
     "rarity": 1,
     "title": "Bronze Lake Shallows",
@@ -5705,7 +5705,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4943,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
@@ -5725,7 +5725,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4943,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
@@ -5745,7 +5745,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4943,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "Bronze Lake Shallows",
@@ -5765,7 +5765,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4943,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
@@ -5785,7 +5785,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4943,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
@@ -5805,7 +5805,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4943,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "East Hathoeva River",
@@ -5825,7 +5825,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4943,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
@@ -5845,7 +5845,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4943,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
@@ -5865,7 +5865,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4943,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "North Drybone",
@@ -5885,7 +5885,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4943,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "South Drybone",
@@ -5905,7 +5905,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4943,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
@@ -5925,7 +5925,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4944,
-    "icon": 2974,
+    "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
@@ -5945,7 +5945,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4944,
-    "icon": 2974,
+    "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "Blind Iron Mines",
@@ -5965,7 +5965,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4944,
-    "icon": 2974,
+    "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
@@ -5985,7 +5985,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4944,
-    "icon": 2974,
+    "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
@@ -6005,7 +6005,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4944,
-    "icon": 2974,
+    "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "The Unholy Heir",
@@ -6025,7 +6025,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4944,
-    "icon": 2974,
+    "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "North Drybone",
@@ -6045,7 +6045,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4944,
-    "icon": 2974,
+    "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "South Drybone",
@@ -6065,7 +6065,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4947,
-    "icon": 2977,
+    "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
@@ -6085,7 +6085,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4947,
-    "icon": 2977,
+    "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Jadeite Flood",
@@ -6105,7 +6105,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4947,
-    "icon": 2977,
+    "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Black Tea Brook",
@@ -6125,7 +6125,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4947,
-    "icon": 2977,
+    "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Whispering Gorge",
@@ -6145,7 +6145,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4947,
-    "icon": 2977,
+    "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Black Tea Brook",
@@ -6165,7 +6165,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4947,
-    "icon": 2977,
+    "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "The Mirror",
@@ -6185,7 +6185,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4947,
-    "icon": 2977,
+    "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
@@ -6205,7 +6205,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4947,
-    "icon": 2977,
+    "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Zahar'ak",
@@ -6225,7 +6225,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 4970,
-    "icon": 3000,
+    "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
@@ -6245,7 +6245,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 4970,
-    "icon": 3000,
+    "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
@@ -6265,7 +6265,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 4970,
-    "icon": 3000,
+    "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "Moondrip",
@@ -6285,7 +6285,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 4970,
-    "icon": 3000,
+    "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "Parata's Peace",
@@ -6305,7 +6305,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 4970,
-    "icon": 3000,
+    "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "Ceruleum Field",
@@ -6330,7 +6330,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 7697,
-    "icon": 4614,
+    "icon": 29330,
     "func": "fish",
     "rarity": 2,
     "title": "Empty Heart",
@@ -6350,7 +6350,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4880,
-    "icon": 2910,
+    "icon": 29032,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
@@ -6370,7 +6370,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4880,
-    "icon": 2910,
+    "icon": 29032,
     "func": "fish",
     "rarity": 1,
     "title": "The Brewer's Beacon",
@@ -6390,7 +6390,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4884,
-    "icon": 2914,
+    "icon": 29030,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
@@ -6410,7 +6410,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4884,
-    "icon": 2914,
+    "icon": 29030,
     "func": "fish",
     "rarity": 1,
     "title": "Skull Valley",
@@ -6430,7 +6430,7 @@ gt.bell.fish = [
       "Rat Tail"
     ],
     "id": 4884,
-    "icon": 2914,
+    "icon": 29030,
     "func": "fish",
     "rarity": 1,
     "title": "Crescent Cove",
@@ -6450,7 +6450,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4886,
-    "icon": 2916,
+    "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
@@ -6470,7 +6470,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4886,
-    "icon": 2916,
+    "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
@@ -6490,7 +6490,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4886,
-    "icon": 2916,
+    "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
@@ -6510,7 +6510,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4886,
-    "icon": 2916,
+    "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
@@ -6530,7 +6530,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4886,
-    "icon": 2916,
+    "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "North Isle of Endless Summer",
@@ -6550,7 +6550,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4886,
-    "icon": 2916,
+    "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "Mist",
@@ -6570,7 +6570,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4886,
-    "icon": 2916,
+    "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "Crescent Cove",
@@ -6590,7 +6590,7 @@ gt.bell.fish = [
       "Shrimp Cage Feeder"
     ],
     "id": 4890,
-    "icon": 2920,
+    "icon": 29040,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
@@ -6610,7 +6610,7 @@ gt.bell.fish = [
       "Shrimp Cage Feeder"
     ],
     "id": 4890,
-    "icon": 2920,
+    "icon": 29040,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
@@ -6630,7 +6630,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 4892,
-    "icon": 2922,
+    "icon": 29014,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
@@ -6650,7 +6650,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 4892,
-    "icon": 2922,
+    "icon": 29014,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
@@ -6670,7 +6670,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 6185,
-    "icon": 3686,
+    "icon": 29064,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
@@ -6699,7 +6699,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 7903,
-    "icon": 4687,
+    "icon": 29086,
     "func": "fish",
     "rarity": 2,
     "title": "The Salt Strand",
@@ -6719,7 +6719,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Blind Iron Mines",
@@ -6739,7 +6739,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Mirror",
@@ -6759,7 +6759,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
@@ -6779,7 +6779,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
@@ -6799,7 +6799,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Rootslake",
@@ -6819,7 +6819,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
@@ -6839,7 +6839,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Soot Creek",
@@ -6859,7 +6859,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Soot Creek",
@@ -6879,7 +6879,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Clutch",
@@ -6899,7 +6899,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Unholy Heir",
@@ -6919,7 +6919,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Bluefog",
@@ -6939,7 +6939,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4929,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Tangle",
@@ -6959,7 +6959,7 @@ gt.bell.fish = [
       "Syrphid Basket"
     ],
     "id": 4938,
-    "icon": 2968,
+    "icon": 29214,
     "func": "fish",
     "rarity": 1,
     "title": "Blind Iron Mines",
@@ -6979,7 +6979,7 @@ gt.bell.fish = [
       "Syrphid Basket"
     ],
     "id": 4938,
-    "icon": 2968,
+    "icon": 29214,
     "func": "fish",
     "rarity": 1,
     "title": "Moondrip",
@@ -6999,7 +6999,7 @@ gt.bell.fish = [
       "Syrphid Basket"
     ],
     "id": 4938,
-    "icon": 2968,
+    "icon": 29214,
     "func": "fish",
     "rarity": 1,
     "title": "Daniffen Pass",
@@ -7019,7 +7019,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 5544,
-    "icon": 3385,
+    "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Blind Iron Mines",
@@ -7039,7 +7039,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 5544,
-    "icon": 3385,
+    "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Daniffen Pass",
@@ -7059,7 +7059,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 5544,
-    "icon": 3385,
+    "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Exploratory Ice Hole",
@@ -7079,7 +7079,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 5544,
-    "icon": 3385,
+    "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "The Weeping Saint",
@@ -7099,7 +7099,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 5544,
-    "icon": 3385,
+    "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
@@ -7119,7 +7119,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 5544,
-    "icon": 3385,
+    "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Singing Shards",
@@ -7139,7 +7139,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 5544,
-    "icon": 3385,
+    "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
@@ -7159,7 +7159,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 5544,
-    "icon": 3385,
+    "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
@@ -7179,7 +7179,7 @@ gt.bell.fish = [
       "Chocobo Fly"
     ],
     "id": 5544,
-    "icon": 3385,
+    "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Eil Tohm",
@@ -7203,7 +7203,7 @@ gt.bell.fish = [
       "end": 19
     },
     "id": 7902,
-    "icon": 4686,
+    "icon": 29373,
     "func": "fish",
     "rarity": 2,
     "title": "Blind Iron Mines",
@@ -7223,7 +7223,7 @@ gt.bell.fish = [
       "Shrimp Cage Feeder"
     ],
     "id": 5461,
-    "icon": 3340,
+    "icon": 29061,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
@@ -7243,7 +7243,7 @@ gt.bell.fish = [
       "Shrimp Cage Feeder"
     ],
     "id": 5461,
-    "icon": 3340,
+    "icon": 29061,
     "func": "fish",
     "rarity": 1,
     "title": "Halfstone",
@@ -7263,7 +7263,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 4891,
-    "icon": 2921,
+    "icon": 29009,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
@@ -7283,7 +7283,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 4891,
-    "icon": 2921,
+    "icon": 29009,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
@@ -7303,7 +7303,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 4891,
-    "icon": 2921,
+    "icon": 29009,
     "func": "fish",
     "rarity": 1,
     "title": "Mist",
@@ -7327,7 +7327,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 4898,
-    "icon": 2928,
+    "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
@@ -7351,7 +7351,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 4898,
-    "icon": 2928,
+    "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
@@ -7375,7 +7375,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 4898,
-    "icon": 2928,
+    "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
@@ -7399,7 +7399,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 4898,
-    "icon": 2928,
+    "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
@@ -7423,7 +7423,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 4898,
-    "icon": 2928,
+    "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
@@ -7447,7 +7447,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 4898,
-    "icon": 2928,
+    "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "Mist",
@@ -7471,7 +7471,7 @@ gt.bell.fish = [
       "end": 2
     },
     "id": 10123,
-    "icon": 2944,
+    "icon": 29047,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
@@ -7495,7 +7495,7 @@ gt.bell.fish = [
       "end": 23
     },
     "id": 7909,
-    "icon": 4693,
+    "icon": 29080,
     "func": "fish",
     "rarity": 2,
     "title": "South Bloodshore",
@@ -7515,7 +7515,7 @@ gt.bell.fish = [
       "Spoon Worm"
     ],
     "id": 4895,
-    "icon": 2925,
+    "icon": 29010,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
@@ -7535,7 +7535,7 @@ gt.bell.fish = [
       "Spoon Worm"
     ],
     "id": 4895,
-    "icon": 2925,
+    "icon": 29010,
     "func": "fish",
     "rarity": 1,
     "title": "Mist",
@@ -7555,7 +7555,7 @@ gt.bell.fish = [
       "Spoon Worm"
     ],
     "id": 4895,
-    "icon": 2925,
+    "icon": 29010,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Bazaar",
@@ -7575,7 +7575,7 @@ gt.bell.fish = [
       "Spoon Worm"
     ],
     "id": 4896,
-    "icon": 2926,
+    "icon": 29018,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
@@ -7595,7 +7595,7 @@ gt.bell.fish = [
       "Spoon Worm"
     ],
     "id": 4896,
-    "icon": 2926,
+    "icon": 29018,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
@@ -7615,7 +7615,7 @@ gt.bell.fish = [
       "Spoon Worm"
     ],
     "id": 4896,
-    "icon": 2926,
+    "icon": 29018,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
@@ -7635,7 +7635,7 @@ gt.bell.fish = [
       "Spoon Worm"
     ],
     "id": 4896,
-    "icon": 2926,
+    "icon": 29018,
     "func": "fish",
     "rarity": 1,
     "title": "Mist",
@@ -7655,7 +7655,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 4901,
-    "icon": 2931,
+    "icon": 29038,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
@@ -7675,7 +7675,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 4901,
-    "icon": 2931,
+    "icon": 29038,
     "func": "fish",
     "rarity": 1,
     "title": "Halfstone",
@@ -7695,7 +7695,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 4901,
-    "icon": 2931,
+    "icon": 29038,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
@@ -7719,7 +7719,7 @@ gt.bell.fish = [
       "Showers"
     ],
     "id": 4913,
-    "icon": 2943,
+    "icon": 29054,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
@@ -7743,7 +7743,7 @@ gt.bell.fish = [
       "Showers"
     ],
     "id": 4913,
-    "icon": 2943,
+    "icon": 29054,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
@@ -7767,7 +7767,7 @@ gt.bell.fish = [
       "Showers"
     ],
     "id": 4913,
-    "icon": 2943,
+    "icon": 29054,
     "func": "fish",
     "rarity": 1,
     "title": "North Isle of Endless Summer",
@@ -7796,7 +7796,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 7915,
-    "icon": 4699,
+    "icon": 29083,
     "func": "fish",
     "rarity": 2,
     "title": "Costa del Sol",
@@ -7816,7 +7816,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 4894,
-    "icon": 2924,
+    "icon": 29029,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
@@ -7836,7 +7836,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 4894,
-    "icon": 2924,
+    "icon": 29029,
     "func": "fish",
     "rarity": 1,
     "title": "Halfstone",
@@ -7856,7 +7856,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 4900,
-    "icon": 2930,
+    "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
@@ -7876,7 +7876,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 4900,
-    "icon": 2930,
+    "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "Halfstone",
@@ -7896,7 +7896,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 4900,
-    "icon": 2930,
+    "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
@@ -7916,7 +7916,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 4900,
-    "icon": 2930,
+    "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
@@ -7936,7 +7936,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 4902,
-    "icon": 2932,
+    "icon": 29046,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
@@ -7956,7 +7956,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 4902,
-    "icon": 2932,
+    "icon": 29046,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
@@ -7976,7 +7976,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 4902,
-    "icon": 2932,
+    "icon": 29046,
     "func": "fish",
     "rarity": 1,
     "title": "Halfstone",
@@ -7996,7 +7996,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 5462,
-    "icon": 3341,
+    "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
@@ -8016,7 +8016,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 5462,
-    "icon": 3341,
+    "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
@@ -8036,7 +8036,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 5462,
-    "icon": 3341,
+    "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
@@ -8056,7 +8056,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 5462,
-    "icon": 3341,
+    "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
@@ -8076,7 +8076,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 5462,
-    "icon": 3341,
+    "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
@@ -8096,7 +8096,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 5462,
-    "icon": 3341,
+    "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
@@ -8116,7 +8116,7 @@ gt.bell.fish = [
       "Herring Ball"
     ],
     "id": 5462,
-    "icon": 3341,
+    "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Reaver Hide",
@@ -8138,7 +8138,7 @@ gt.bell.fish = [
       "Ogre Barracuda"
     ],
     "id": 4917,
-    "icon": 2947,
+    "icon": 29022,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
@@ -8160,7 +8160,7 @@ gt.bell.fish = [
       "Ogre Barracuda"
     ],
     "id": 4917,
-    "icon": 2947,
+    "icon": 29022,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
@@ -8187,7 +8187,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 7924,
-    "icon": 4708,
+    "icon": 29087,
     "func": "fish",
     "rarity": 2,
     "title": "North Bloodshore",
@@ -8209,7 +8209,7 @@ gt.bell.fish = [
       "Ogre Barracuda"
     ],
     "id": 4920,
-    "icon": 2950,
+    "icon": 29023,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
@@ -8231,7 +8231,7 @@ gt.bell.fish = [
       "Ogre Barracuda"
     ],
     "id": 4920,
-    "icon": 2950,
+    "icon": 29023,
     "func": "fish",
     "rarity": 1,
     "title": "The Brewer's Beacon",
@@ -8260,7 +8260,7 @@ gt.bell.fish = [
       "Showers"
     ],
     "id": 8753,
-    "icon": 5172,
+    "icon": 29095,
     "func": "fish",
     "rarity": 2,
     "title": "Rhotano Sea (Privateer Forecastle)",
@@ -8284,7 +8284,7 @@ gt.bell.fish = [
       "end": 22
     },
     "id": 4911,
-    "icon": 2941,
+    "icon": 29013,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
@@ -8308,7 +8308,7 @@ gt.bell.fish = [
       "end": 22
     },
     "id": 4911,
-    "icon": 2941,
+    "icon": 29013,
     "func": "fish",
     "rarity": 1,
     "title": "Reaver Hide",
@@ -8332,7 +8332,7 @@ gt.bell.fish = [
       "end": 22
     },
     "id": 4911,
-    "icon": 2941,
+    "icon": 29013,
     "func": "fish",
     "rarity": 1,
     "title": "Crescent Cove",
@@ -8356,7 +8356,7 @@ gt.bell.fish = [
       "end": 22
     },
     "id": 4911,
-    "icon": 2941,
+    "icon": 29013,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Bazaar",
@@ -8377,7 +8377,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4904,
-    "icon": 2934,
+    "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
@@ -8398,7 +8398,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4904,
-    "icon": 2934,
+    "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "North Isle of Endless Summer",
@@ -8419,7 +8419,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4904,
-    "icon": 2934,
+    "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "Skull Valley",
@@ -8440,7 +8440,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4904,
-    "icon": 2934,
+    "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
@@ -8461,7 +8461,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4904,
-    "icon": 2934,
+    "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
@@ -8482,7 +8482,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4904,
-    "icon": 2934,
+    "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "Reaver Hide",
@@ -8503,7 +8503,7 @@ gt.bell.fish = [
       "Merlthor Goby"
     ],
     "id": 4904,
-    "icon": 2934,
+    "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
@@ -8525,7 +8525,7 @@ gt.bell.fish = [
       "Wahoo"
     ],
     "id": 4923,
-    "icon": 2953,
+    "icon": 29024,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
@@ -8547,7 +8547,7 @@ gt.bell.fish = [
       "Wahoo"
     ],
     "id": 4923,
-    "icon": 2953,
+    "icon": 29024,
     "func": "fish",
     "rarity": 1,
     "title": "North Isle of Endless Summer",
@@ -8569,7 +8569,7 @@ gt.bell.fish = [
       "Wahoo"
     ],
     "id": 4923,
-    "icon": 2953,
+    "icon": 29024,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
@@ -8591,7 +8591,7 @@ gt.bell.fish = [
       "Wahoo"
     ],
     "id": 4919,
-    "icon": 2949,
+    "icon": 29027,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
@@ -8613,7 +8613,7 @@ gt.bell.fish = [
       "Wahoo"
     ],
     "id": 4919,
-    "icon": 2949,
+    "icon": 29027,
     "func": "fish",
     "rarity": 1,
     "title": "North Isle of Endless Summer",
@@ -8635,7 +8635,7 @@ gt.bell.fish = [
       "Wahoo"
     ],
     "id": 4919,
-    "icon": 2949,
+    "icon": 29027,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
@@ -8662,7 +8662,7 @@ gt.bell.fish = [
           "Northern Krill"
         ],
         "id": 4913,
-        "icon": 2943
+        "icon": 29054
       }
     ],
     "weather": [
@@ -8670,7 +8670,7 @@ gt.bell.fish = [
       "Showers"
     ],
     "id": 8754,
-    "icon": 5173,
+    "icon": 29094,
     "func": "fish",
     "rarity": 2,
     "title": "Rhotano Sea (Privateer Sterncastle)",
@@ -8694,7 +8694,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4945,
-    "icon": 2975,
+    "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "Hidden Falls",
@@ -8718,7 +8718,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4945,
-    "icon": 2975,
+    "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
@@ -8742,7 +8742,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4945,
-    "icon": 2975,
+    "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
@@ -8766,7 +8766,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4945,
-    "icon": 2975,
+    "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "East Hathoeva River",
@@ -8790,7 +8790,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4945,
-    "icon": 2975,
+    "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Hathoeva River",
@@ -8814,7 +8814,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4945,
-    "icon": 2975,
+    "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
@@ -8838,7 +8838,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4945,
-    "icon": 2975,
+    "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
@@ -8858,7 +8858,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Hidden Falls",
@@ -8878,7 +8878,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
@@ -8898,7 +8898,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
@@ -8918,7 +8918,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
@@ -8938,7 +8938,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
@@ -8958,7 +8958,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
@@ -8978,7 +8978,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Everschade",
@@ -8998,7 +8998,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Hathoeva River",
@@ -9018,7 +9018,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Rootslake",
@@ -9038,7 +9038,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Urth's Gift",
@@ -9058,7 +9058,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Proud Creek",
@@ -9078,7 +9078,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Yugr'am River",
@@ -9098,7 +9098,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4974,
-    "icon": 3004,
+    "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
@@ -9118,7 +9118,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4983,
-    "icon": 3013,
+    "icon": 29297,
     "func": "fish",
     "rarity": 1,
     "title": "Hidden Falls",
@@ -9138,7 +9138,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4983,
-    "icon": 3013,
+    "icon": 29297,
     "func": "fish",
     "rarity": 1,
     "title": "Crescent Cove",
@@ -9158,7 +9158,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4987,
-    "icon": 3017,
+    "icon": 29275,
     "func": "fish",
     "rarity": 1,
     "title": "Hidden Falls",
@@ -9178,7 +9178,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4987,
-    "icon": 3017,
+    "icon": 29275,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
@@ -9198,7 +9198,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4987,
-    "icon": 3017,
+    "icon": 29275,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
@@ -9218,7 +9218,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4987,
-    "icon": 3017,
+    "icon": 29275,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
@@ -9238,7 +9238,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4987,
-    "icon": 3017,
+    "icon": 29275,
     "func": "fish",
     "rarity": 1,
     "title": "The Burning Wall",
@@ -9258,7 +9258,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4987,
-    "icon": 3017,
+    "icon": 29275,
     "func": "fish",
     "rarity": 1,
     "title": "Zahar'ak",
@@ -9278,7 +9278,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4998,
-    "icon": 3028,
+    "icon": 29276,
     "func": "fish",
     "rarity": 1,
     "title": "Hidden Falls",
@@ -9302,7 +9302,7 @@ gt.bell.fish = [
       "end": 20
     },
     "id": 7925,
-    "icon": 4709,
+    "icon": 29365,
     "func": "fish",
     "rarity": 2,
     "title": "Hidden Falls",
@@ -9322,7 +9322,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
@@ -9342,7 +9342,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Everschade",
@@ -9362,7 +9362,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Hopeseed Pond",
@@ -9382,7 +9382,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Haukke Manor",
@@ -9402,7 +9402,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Springripple Brook",
@@ -9422,7 +9422,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
@@ -9442,7 +9442,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
@@ -9462,7 +9462,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Goblinblood",
@@ -9482,7 +9482,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Urth's Gift",
@@ -9502,7 +9502,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
@@ -9522,7 +9522,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
@@ -9542,7 +9542,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
@@ -9562,7 +9562,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4942,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "The Tangle",
@@ -9583,7 +9583,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4965,
-    "icon": 2995,
+    "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
@@ -9604,7 +9604,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4965,
-    "icon": 2995,
+    "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
@@ -9625,7 +9625,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4965,
-    "icon": 2995,
+    "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
@@ -9646,7 +9646,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4965,
-    "icon": 2995,
+    "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "Burnt Lizard Creek",
@@ -9667,7 +9667,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4965,
-    "icon": 2995,
+    "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "Forgotten Springs",
@@ -9688,7 +9688,7 @@ gt.bell.fish = [
       "Copperfish"
     ],
     "id": 4965,
-    "icon": 2995,
+    "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
@@ -9709,7 +9709,7 @@ gt.bell.fish = [
       "Ala Mhigan Fighting Fish"
     ],
     "id": 4975,
-    "icon": 3005,
+    "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
@@ -9730,7 +9730,7 @@ gt.bell.fish = [
       "Ala Mhigan Fighting Fish"
     ],
     "id": 4975,
-    "icon": 3005,
+    "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "Everschade",
@@ -9751,7 +9751,7 @@ gt.bell.fish = [
       "Ala Mhigan Fighting Fish"
     ],
     "id": 4975,
-    "icon": 3005,
+    "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "Haukke Manor",
@@ -9772,7 +9772,7 @@ gt.bell.fish = [
       "Ala Mhigan Fighting Fish"
     ],
     "id": 4975,
-    "icon": 3005,
+    "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "Urth's Gift",
@@ -9793,7 +9793,7 @@ gt.bell.fish = [
       "Ala Mhigan Fighting Fish"
     ],
     "id": 4975,
-    "icon": 3005,
+    "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
@@ -9814,7 +9814,7 @@ gt.bell.fish = [
       "Ala Mhigan Fighting Fish"
     ],
     "id": 4975,
-    "icon": 3005,
+    "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
@@ -9834,7 +9834,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4990,
-    "icon": 3020,
+    "icon": 29309,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
@@ -9854,7 +9854,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4990,
-    "icon": 3020,
+    "icon": 29309,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
@@ -9874,7 +9874,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4990,
-    "icon": 3020,
+    "icon": 29309,
     "func": "fish",
     "rarity": 1,
     "title": "Proud Creek",
@@ -9894,7 +9894,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4990,
-    "icon": 3020,
+    "icon": 29309,
     "func": "fish",
     "rarity": 1,
     "title": "The Burning Wall",
@@ -9914,7 +9914,7 @@ gt.bell.fish = [
       "Snurble Fly"
     ],
     "id": 4999,
-    "icon": 3029,
+    "icon": 29274,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
@@ -9934,7 +9934,7 @@ gt.bell.fish = [
       "Snurble Fly"
     ],
     "id": 4999,
-    "icon": 3029,
+    "icon": 29274,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
@@ -9954,7 +9954,7 @@ gt.bell.fish = [
       "Snurble Fly"
     ],
     "id": 5001,
-    "icon": 3031,
+    "icon": 29239,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
@@ -9974,7 +9974,7 @@ gt.bell.fish = [
       "Snurble Fly"
     ],
     "id": 5001,
-    "icon": 3031,
+    "icon": 29239,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
@@ -9994,7 +9994,7 @@ gt.bell.fish = [
       "Snurble Fly"
     ],
     "id": 5001,
-    "icon": 3031,
+    "icon": 29239,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
@@ -10018,7 +10018,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 7938,
-    "icon": 4722,
+    "icon": 29361,
     "func": "fish",
     "rarity": 2,
     "title": "East Agelyss River",
@@ -10038,7 +10038,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
@@ -10058,7 +10058,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
@@ -10078,7 +10078,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "The Long Climb",
@@ -10098,7 +10098,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
@@ -10118,7 +10118,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "Sylphlands",
@@ -10138,7 +10138,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "Bluefog",
@@ -10158,7 +10158,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "Coerthas River",
@@ -10178,7 +10178,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "The Nail",
@@ -10198,7 +10198,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "The Weeping Saint",
@@ -10218,7 +10218,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
@@ -10238,7 +10238,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "Singing Shards",
@@ -10258,7 +10258,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
@@ -10278,7 +10278,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4981,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
@@ -10302,7 +10302,7 @@ gt.bell.fish = [
       "Showers"
     ],
     "id": 4991,
-    "icon": 3021,
+    "icon": 29303,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
@@ -10326,7 +10326,7 @@ gt.bell.fish = [
       "Showers"
     ],
     "id": 4991,
-    "icon": 3021,
+    "icon": 29303,
     "func": "fish",
     "rarity": 1,
     "title": "The Long Climb",
@@ -10349,7 +10349,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 7939,
-    "icon": 4723,
+    "icon": 29364,
     "func": "fish",
     "rarity": 2,
     "title": "Raincatcher Gully",
@@ -10369,7 +10369,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
@@ -10389,7 +10389,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Hopeseed Pond",
@@ -10409,7 +10409,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Haukke Manor",
@@ -10429,7 +10429,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
@@ -10449,7 +10449,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "East Hathoeva River",
@@ -10469,7 +10469,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Goblinblood",
@@ -10489,7 +10489,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
@@ -10509,7 +10509,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
@@ -10529,7 +10529,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "The Unholy Heir",
@@ -10549,7 +10549,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "North Drybone",
@@ -10569,7 +10569,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "South Drybone",
@@ -10589,7 +10589,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Zahar'ak",
@@ -10609,7 +10609,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4950,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Singing Shards",
@@ -10629,7 +10629,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
@@ -10649,7 +10649,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
@@ -10669,7 +10669,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
@@ -10689,7 +10689,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
@@ -10709,7 +10709,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Haukke Manor",
@@ -10729,7 +10729,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Goblinblood",
@@ -10749,7 +10749,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
@@ -10769,7 +10769,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Moondrip",
@@ -10789,7 +10789,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Parata's Peace",
@@ -10809,7 +10809,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Bluefog",
@@ -10829,7 +10829,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Ceruleum Field",
@@ -10849,7 +10849,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
@@ -10869,7 +10869,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
@@ -10889,7 +10889,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Singing Shards",
@@ -10909,7 +10909,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
@@ -10929,7 +10929,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "The Tangle",
@@ -10949,7 +10949,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4978,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
@@ -10969,7 +10969,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 5003,
-    "icon": 3033,
+    "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
@@ -10989,7 +10989,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 5003,
-    "icon": 3033,
+    "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "Parata's Peace",
@@ -11009,7 +11009,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 5003,
-    "icon": 3033,
+    "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "Ceruleum Field",
@@ -11029,7 +11029,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 5003,
-    "icon": 3033,
+    "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
@@ -11049,7 +11049,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 5003,
-    "icon": 3033,
+    "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "The Tangle",
@@ -11070,7 +11070,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5012,
-    "icon": 3042,
+    "icon": 29248,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
@@ -11091,7 +11091,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5012,
-    "icon": 3042,
+    "icon": 29248,
     "func": "fish",
     "rarity": 1,
     "title": "Parata's Peace",
@@ -11120,7 +11120,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 7940,
-    "icon": 4724,
+    "icon": 29371,
     "func": "fish",
     "rarity": 2,
     "title": "The Juggernaut",
@@ -11140,7 +11140,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4979,
-    "icon": 3009,
+    "icon": 29255,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
@@ -11160,7 +11160,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4979,
-    "icon": 3009,
+    "icon": 29255,
     "func": "fish",
     "rarity": 1,
     "title": "Hopeseed Pond",
@@ -11180,7 +11180,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4979,
-    "icon": 3009,
+    "icon": 29255,
     "func": "fish",
     "rarity": 1,
     "title": "Zahar'ak",
@@ -11200,7 +11200,7 @@ gt.bell.fish = [
       "Honey Worm"
     ],
     "id": 4979,
-    "icon": 3009,
+    "icon": 29255,
     "func": "fish",
     "rarity": 1,
     "title": "Forgotten Springs",
@@ -11220,7 +11220,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "id": 4993,
-    "icon": 3023,
+    "icon": 29278,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
@@ -11240,7 +11240,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "id": 4993,
-    "icon": 3023,
+    "icon": 29278,
     "func": "fish",
     "rarity": 1,
     "title": "The Burning Wall",
@@ -11260,7 +11260,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "id": 4993,
-    "icon": 3023,
+    "icon": 29278,
     "func": "fish",
     "rarity": 1,
     "title": "Bluefog",
@@ -11280,7 +11280,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "id": 4993,
-    "icon": 3023,
+    "icon": 29278,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
@@ -11300,7 +11300,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "id": 4993,
-    "icon": 3023,
+    "icon": 29278,
     "func": "fish",
     "rarity": 1,
     "title": "Singing Shards",
@@ -11320,7 +11320,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "id": 4993,
-    "icon": 3023,
+    "icon": 29278,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
@@ -11341,7 +11341,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5011,
-    "icon": 3041,
+    "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
@@ -11362,7 +11362,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5011,
-    "icon": 3041,
+    "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
@@ -11383,7 +11383,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5011,
-    "icon": 3041,
+    "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "Ceruleum Field",
@@ -11404,7 +11404,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5011,
-    "icon": 3041,
+    "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
@@ -11425,7 +11425,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5011,
-    "icon": 3041,
+    "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
@@ -11446,7 +11446,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5011,
-    "icon": 3041,
+    "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
@@ -11467,7 +11467,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5011,
-    "icon": 3041,
+    "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
@@ -11489,7 +11489,7 @@ gt.bell.fish = [
       "Goldfish"
     ],
     "id": 5031,
-    "icon": 3061,
+    "icon": 29265,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
@@ -11519,11 +11519,11 @@ gt.bell.fish = [
           "Goldfish"
         ],
         "id": 5031,
-        "icon": 3061
+        "icon": 29265
       }
     ],
     "id": 8752,
-    "icon": 5171,
+    "icon": 29392,
     "func": "fish",
     "rarity": 2,
     "title": "Red Mantis Falls",
@@ -11549,7 +11549,7 @@ gt.bell.fish = [
       "end": 16
     },
     "id": 20524,
-    "icon": 9563,
+    "icon": 29148,
     "func": "fish",
     "rarity": 1,
     "title": "North Isle of Endless Summer",
@@ -11575,7 +11575,7 @@ gt.bell.fish = [
       "Showers"
     ],
     "id": 20143,
-    "icon": 9772,
+    "icon": 29147,
     "func": "fish",
     "rarity": 2,
     "title": "North Isle of Endless Summer",
@@ -11595,7 +11595,7 @@ gt.bell.fish = [
       "Northern Krill"
     ],
     "id": 4916,
-    "icon": 2946,
+    "icon": 29036,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
@@ -11619,7 +11619,7 @@ gt.bell.fish = [
       "end": 3
     },
     "id": 7687,
-    "icon": 4604,
+    "icon": 29077,
     "func": "fish",
     "rarity": 2,
     "title": "Swiftperch",
@@ -11641,7 +11641,7 @@ gt.bell.fish = [
       "Wahoo"
     ],
     "id": 4912,
-    "icon": 2942,
+    "icon": 29037,
     "func": "fish",
     "rarity": 1,
     "title": "Skull Valley",
@@ -11667,7 +11667,7 @@ gt.bell.fish = [
       "end": 2
     },
     "id": 7684,
-    "icon": 4601,
+    "icon": 29070,
     "func": "fish",
     "rarity": 2,
     "title": "Skull Valley",
@@ -11695,7 +11695,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 7693,
-    "icon": 4610,
+    "icon": 29071,
     "func": "fish",
     "rarity": 2,
     "title": "The Brewer's Beacon",
@@ -11715,7 +11715,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 4887,
-    "icon": 2917,
+    "icon": 29004,
     "func": "fish",
     "rarity": 1,
     "title": "Halfstone",
@@ -11735,7 +11735,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 4887,
-    "icon": 2917,
+    "icon": 29004,
     "func": "fish",
     "rarity": 1,
     "title": "Crescent Cove",
@@ -11755,7 +11755,7 @@ gt.bell.fish = [
       "Steel Jig"
     ],
     "id": 4893,
-    "icon": 2923,
+    "icon": 29026,
     "func": "fish",
     "rarity": 1,
     "title": "Halfstone",
@@ -11775,7 +11775,7 @@ gt.bell.fish = [
       "Steel Jig"
     ],
     "id": 4893,
-    "icon": 2923,
+    "icon": 29026,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Bazaar",
@@ -11799,7 +11799,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 7926,
-    "icon": 4710,
+    "icon": 29085,
     "func": "fish",
     "rarity": 2,
     "title": "Halfstone",
@@ -11819,7 +11819,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4907,
-    "icon": 2937,
+    "icon": 29045,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
@@ -11839,7 +11839,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4907,
-    "icon": 2937,
+    "icon": 29045,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
@@ -11860,7 +11860,7 @@ gt.bell.fish = [
       "Ocean Cloud"
     ],
     "id": 4921,
-    "icon": 2951,
+    "icon": 29021,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
@@ -11890,7 +11890,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 7941,
-    "icon": 4725,
+    "icon": 29084,
     "func": "fish",
     "rarity": 2,
     "title": "Isles of Umbra Northshore",
@@ -11910,7 +11910,7 @@ gt.bell.fish = [
       "Krill Cage Feeder"
     ],
     "id": 5466,
-    "icon": 3345,
+    "icon": 29058,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
@@ -11930,7 +11930,7 @@ gt.bell.fish = [
       "Krill Cage Feeder"
     ],
     "id": 5466,
-    "icon": 3345,
+    "icon": 29058,
     "func": "fish",
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
@@ -11950,7 +11950,7 @@ gt.bell.fish = [
       "Krill Cage Feeder"
     ],
     "id": 5466,
-    "icon": 3345,
+    "icon": 29058,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
@@ -11970,7 +11970,7 @@ gt.bell.fish = [
       "Krill Cage Feeder"
     ],
     "id": 5466,
-    "icon": 3345,
+    "icon": 29058,
     "func": "fish",
     "rarity": 1,
     "title": "Reaver Hide",
@@ -11990,7 +11990,7 @@ gt.bell.fish = [
       "Krill Cage Feeder"
     ],
     "id": 5466,
-    "icon": 3345,
+    "icon": 29058,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
@@ -12010,7 +12010,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4908,
-    "icon": 2938,
+    "icon": 29043,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
@@ -12030,7 +12030,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4908,
-    "icon": 2938,
+    "icon": 29043,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
@@ -12050,7 +12050,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4909,
-    "icon": 2939,
+    "icon": 29048,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
@@ -12070,7 +12070,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4909,
-    "icon": 2939,
+    "icon": 29048,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
@@ -12090,7 +12090,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4909,
-    "icon": 2939,
+    "icon": 29048,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
@@ -12122,7 +12122,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 7950,
-    "icon": 4734,
+    "icon": 29088,
     "func": "fish",
     "rarity": 2,
     "title": "The Ship Graveyard",
@@ -12147,7 +12147,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 4906,
-    "icon": 2936,
+    "icon": 29006,
     "func": "fish",
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
@@ -12172,7 +12172,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 4906,
-    "icon": 2936,
+    "icon": 29006,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
@@ -12197,7 +12197,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 4906,
-    "icon": 2936,
+    "icon": 29006,
     "func": "fish",
     "rarity": 1,
     "title": "Mist",
@@ -12217,7 +12217,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4910,
-    "icon": 2940,
+    "icon": 29039,
     "func": "fish",
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
@@ -12237,7 +12237,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4910,
-    "icon": 2940,
+    "icon": 29039,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
@@ -12257,7 +12257,7 @@ gt.bell.fish = [
       "Yumizuno"
     ],
     "id": 4910,
-    "icon": 2940,
+    "icon": 29039,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
@@ -12282,7 +12282,7 @@ gt.bell.fish = [
       "end": 2
     },
     "id": 7948,
-    "icon": 4732,
+    "icon": 29079,
     "func": "fish",
     "rarity": 2,
     "title": "Sapsa Spawning Grounds",
@@ -12307,7 +12307,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 4918,
-    "icon": 2948,
+    "icon": 29041,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
@@ -12337,7 +12337,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 8755,
-    "icon": 5174,
+    "icon": 29091,
     "func": "fish",
     "rarity": 2,
     "title": "Isles of Umbra Southshore",
@@ -12371,7 +12371,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 8756,
-    "icon": 5175,
+    "icon": 29090,
     "func": "fish",
     "rarity": 2,
     "title": "Isles of Umbra Southshore",
@@ -12393,7 +12393,7 @@ gt.bell.fish = [
       "Wahoo"
     ],
     "id": 4922,
-    "icon": 2952,
+    "icon": 29019,
     "func": "fish",
     "rarity": 1,
     "title": "Reaver Hide",
@@ -12427,7 +12427,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 8757,
-    "icon": 5176,
+    "icon": 29093,
     "func": "fish",
     "rarity": 2,
     "title": "Reaver Hide",
@@ -12451,7 +12451,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4953,
-    "icon": 2983,
+    "icon": 29257,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
@@ -12475,7 +12475,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4953,
-    "icon": 2983,
+    "icon": 29257,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
@@ -12499,7 +12499,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4953,
-    "icon": 2983,
+    "icon": 29257,
     "func": "fish",
     "rarity": 1,
     "title": "Bronze Lake Shallows",
@@ -12523,7 +12523,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4953,
-    "icon": 2983,
+    "icon": 29257,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
@@ -12547,7 +12547,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4953,
-    "icon": 2983,
+    "icon": 29257,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
@@ -12567,7 +12567,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4954,
-    "icon": 2984,
+    "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
@@ -12587,7 +12587,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4954,
-    "icon": 2984,
+    "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Bronze Lake Shallows",
@@ -12607,7 +12607,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4954,
-    "icon": 2984,
+    "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
@@ -12627,7 +12627,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4954,
-    "icon": 2984,
+    "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
@@ -12647,7 +12647,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4954,
-    "icon": 2984,
+    "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
@@ -12667,7 +12667,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4954,
-    "icon": 2984,
+    "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Proud Creek",
@@ -12687,7 +12687,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4954,
-    "icon": 2984,
+    "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
@@ -12707,7 +12707,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4955,
-    "icon": 2985,
+    "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
@@ -12727,7 +12727,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4955,
-    "icon": 2985,
+    "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
@@ -12747,7 +12747,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4955,
-    "icon": 2985,
+    "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "The Long Climb",
@@ -12767,7 +12767,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4955,
-    "icon": 2985,
+    "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "Yugr'am River",
@@ -12787,7 +12787,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4955,
-    "icon": 2985,
+    "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "Burnt Lizard Creek",
@@ -12807,7 +12807,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4955,
-    "icon": 2985,
+    "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "Forgotten Springs",
@@ -12827,7 +12827,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4957,
-    "icon": 2987,
+    "icon": 29301,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
@@ -12847,7 +12847,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4957,
-    "icon": 2987,
+    "icon": 29301,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
@@ -12867,7 +12867,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4957,
-    "icon": 2987,
+    "icon": 29301,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
@@ -12887,7 +12887,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4957,
-    "icon": 2987,
+    "icon": 29301,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
@@ -12907,7 +12907,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
@@ -12927,7 +12927,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
@@ -12947,7 +12947,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
@@ -12967,7 +12967,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "Goblinblood",
@@ -12987,7 +12987,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Soot Creek",
@@ -13007,7 +13007,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Soot Creek",
@@ -13027,7 +13027,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "The Clutch",
@@ -13047,7 +13047,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "The Unholy Heir",
@@ -13067,7 +13067,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "Yugr'am River",
@@ -13087,7 +13087,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "Burnt Lizard Creek",
@@ -13107,7 +13107,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
@@ -13127,7 +13127,7 @@ gt.bell.fish = [
       "Crow Fly"
     ],
     "id": 4959,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
@@ -13147,7 +13147,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4995,
-    "icon": 3025,
+    "icon": 29250,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
@@ -13167,7 +13167,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4995,
-    "icon": 3025,
+    "icon": 29250,
     "func": "fish",
     "rarity": 1,
     "title": "Sylphlands",
@@ -13187,7 +13187,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4995,
-    "icon": 3025,
+    "icon": 29250,
     "func": "fish",
     "rarity": 1,
     "title": "Bluefog",
@@ -13207,7 +13207,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4995,
-    "icon": 3025,
+    "icon": 29250,
     "func": "fish",
     "rarity": 1,
     "title": "The Weeping Saint",
@@ -13228,7 +13228,7 @@ gt.bell.fish = [
       "Common Sculpin"
     ],
     "id": 5015,
-    "icon": 3045,
+    "icon": 29261,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
@@ -13257,7 +13257,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 7905,
-    "icon": 4689,
+    "icon": 29358,
     "func": "fish",
     "rarity": 2,
     "title": "Oakwood",
@@ -13278,7 +13278,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4949,
-    "icon": 2979,
+    "icon": 29282,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
@@ -13299,7 +13299,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4949,
-    "icon": 2979,
+    "icon": 29282,
     "func": "fish",
     "rarity": 1,
     "title": "Springripple Brook",
@@ -13320,7 +13320,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4949,
-    "icon": 2979,
+    "icon": 29282,
     "func": "fish",
     "rarity": 1,
     "title": "Murmur Rills",
@@ -13342,7 +13342,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4992,
-    "icon": 3022,
+    "icon": 29270,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
@@ -13364,7 +13364,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4992,
-    "icon": 3022,
+    "icon": 29270,
     "func": "fish",
     "rarity": 1,
     "title": "Verdant Drop",
@@ -13388,7 +13388,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 7904,
-    "icon": 4688,
+    "icon": 29351,
     "func": "fish",
     "rarity": 2,
     "title": "Fool Falls",
@@ -13412,7 +13412,7 @@ gt.bell.fish = [
       "end": 22
     },
     "id": 7916,
-    "icon": 4700,
+    "icon": 29355,
     "func": "fish",
     "rarity": 2,
     "title": "Bronze Lake Shallows",
@@ -13432,7 +13432,7 @@ gt.bell.fish = [
       "Streamer"
     ],
     "id": 4973,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
@@ -13452,7 +13452,7 @@ gt.bell.fish = [
       "Streamer"
     ],
     "id": 4973,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
@@ -13472,7 +13472,7 @@ gt.bell.fish = [
       "Streamer"
     ],
     "id": 4973,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "Everschade",
@@ -13492,7 +13492,7 @@ gt.bell.fish = [
       "Streamer"
     ],
     "id": 4973,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "Goblinblood",
@@ -13512,7 +13512,7 @@ gt.bell.fish = [
       "Streamer"
     ],
     "id": 4973,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "Urth's Gift",
@@ -13532,7 +13532,7 @@ gt.bell.fish = [
       "Streamer"
     ],
     "id": 4973,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
@@ -13552,7 +13552,7 @@ gt.bell.fish = [
       "Streamer"
     ],
     "id": 4973,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
@@ -13572,7 +13572,7 @@ gt.bell.fish = [
       "Streamer"
     ],
     "id": 4973,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "The Burning Wall",
@@ -13592,7 +13592,7 @@ gt.bell.fish = [
       "Streamer"
     ],
     "id": 4973,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "Singing Shards",
@@ -13612,7 +13612,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4988,
-    "icon": 3018,
+    "icon": 29284,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
@@ -13632,7 +13632,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4988,
-    "icon": 3018,
+    "icon": 29284,
     "func": "fish",
     "rarity": 1,
     "title": "The Long Climb",
@@ -13652,7 +13652,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4988,
-    "icon": 3018,
+    "icon": 29284,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
@@ -13672,7 +13672,7 @@ gt.bell.fish = [
       "Spinnerbait"
     ],
     "id": 4988,
-    "icon": 3018,
+    "icon": 29284,
     "func": "fish",
     "rarity": 1,
     "title": "The Nail",
@@ -13693,7 +13693,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5020,
-    "icon": 3050,
+    "icon": 29217,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
@@ -13714,7 +13714,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5020,
-    "icon": 3050,
+    "icon": 29217,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
@@ -13738,7 +13738,7 @@ gt.bell.fish = [
       "end": 19
     },
     "id": 7927,
-    "icon": 4711,
+    "icon": 29362,
     "func": "fish",
     "rarity": 2,
     "title": "Northeast Bronze Lake",
@@ -13762,7 +13762,7 @@ gt.bell.fish = [
       "end": 19
     },
     "id": 7927,
-    "icon": 4711,
+    "icon": 29362,
     "func": "fish",
     "rarity": 2,
     "title": "Northwest Bronze Lake",
@@ -13782,7 +13782,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4989,
-    "icon": 3019,
+    "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "The Long Climb",
@@ -13802,7 +13802,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4989,
-    "icon": 3019,
+    "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "Parata's Peace",
@@ -13822,7 +13822,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4989,
-    "icon": 3019,
+    "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "The Burning Wall",
@@ -13842,7 +13842,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4989,
-    "icon": 3019,
+    "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "Zahar'ak",
@@ -13862,7 +13862,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4989,
-    "icon": 3019,
+    "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "Bluefog",
@@ -13882,7 +13882,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4989,
-    "icon": 3019,
+    "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "Ceruleum Field",
@@ -13902,7 +13902,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4989,
-    "icon": 3019,
+    "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
@@ -13922,7 +13922,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4989,
-    "icon": 3019,
+    "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
@@ -13942,7 +13942,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4989,
-    "icon": 3019,
+    "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
@@ -13962,7 +13962,7 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "id": 4989,
-    "icon": 3019,
+    "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
@@ -13986,7 +13986,7 @@ gt.bell.fish = [
       "end": 9
     },
     "id": 5016,
-    "icon": 3046,
+    "icon": 29222,
     "func": "fish",
     "rarity": 1,
     "title": "The Long Climb",
@@ -14013,7 +14013,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 7937,
-    "icon": 4721,
+    "icon": 29368,
     "func": "fish",
     "rarity": 2,
     "title": "The Long Climb",
@@ -14042,7 +14042,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 7917,
-    "icon": 4701,
+    "icon": 29374,
     "func": "fish",
     "rarity": 2,
     "title": "Mist",
@@ -14062,7 +14062,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4932,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Jadeite Flood",
@@ -14082,7 +14082,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4932,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Black Tea Brook",
@@ -14102,7 +14102,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4932,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Whispering Gorge",
@@ -14122,7 +14122,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4932,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Black Tea Brook",
@@ -14142,7 +14142,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4932,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
@@ -14162,7 +14162,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4932,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "The Mirror",
@@ -14182,7 +14182,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4932,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
@@ -14202,7 +14202,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 4932,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
@@ -14225,7 +14225,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 4905,
-    "icon": 2935,
+    "icon": 29057,
     "func": "fish",
     "rarity": 1,
     "title": "Jadeite Flood",
@@ -14248,7 +14248,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 4905,
-    "icon": 2935,
+    "icon": 29057,
     "func": "fish",
     "rarity": 1,
     "title": "Whispering Gorge",
@@ -14275,7 +14275,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 7713,
-    "icon": 4630,
+    "icon": 29076,
     "func": "fish",
     "rarity": 2,
     "title": "Jadeite Flood",
@@ -14295,7 +14295,7 @@ gt.bell.fish = [
       "Crayfish Ball"
     ],
     "id": 7696,
-    "icon": 4613,
+    "icon": 29321,
     "func": "fish",
     "rarity": 2,
     "title": "Lower Black Tea Brook",
@@ -14319,7 +14319,7 @@ gt.bell.fish = [
       "end": 21
     },
     "id": 7708,
-    "icon": 4625,
+    "icon": 29320,
     "func": "fish",
     "rarity": 2,
     "title": "Whispering Gorge",
@@ -14347,7 +14347,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 7701,
-    "icon": 4618,
+    "icon": 29333,
     "func": "fish",
     "rarity": 2,
     "title": "Upper Black Tea Brook",
@@ -14367,7 +14367,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4927,
-    "icon": 2957,
+    "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
@@ -14387,7 +14387,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4927,
-    "icon": 2957,
+    "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
@@ -14407,7 +14407,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4927,
-    "icon": 2957,
+    "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
@@ -14427,7 +14427,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4927,
-    "icon": 2957,
+    "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "Coerthas River",
@@ -14447,7 +14447,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4927,
-    "icon": 2957,
+    "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "Daniffen Pass",
@@ -14467,7 +14467,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4927,
-    "icon": 2957,
+    "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "The Nail",
@@ -14487,7 +14487,7 @@ gt.bell.fish = [
       "Moth Pupa"
     ],
     "id": 4927,
-    "icon": 2957,
+    "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "Dragonhead Latrines",
@@ -14507,7 +14507,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4935,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
@@ -14527,7 +14527,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4935,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "The Mirror",
@@ -14547,7 +14547,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4935,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Springripple Brook",
@@ -14567,7 +14567,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4935,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Murmur Rills",
@@ -14587,7 +14587,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4935,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
@@ -14607,7 +14607,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4935,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
@@ -14627,7 +14627,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4935,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Soot Creek",
@@ -14647,7 +14647,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4935,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Soot Creek",
@@ -14667,7 +14667,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4935,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "The Clutch",
@@ -14687,7 +14687,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4935,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
@@ -14708,7 +14708,7 @@ gt.bell.fish = [
       "Striped Goby"
     ],
     "id": 7705,
-    "icon": 4622,
+    "icon": 29336,
     "func": "fish",
     "rarity": 2,
     "title": "The Vein",
@@ -14728,7 +14728,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4951,
-    "icon": 2981,
+    "icon": 29283,
     "func": "fish",
     "rarity": 1,
     "title": "The Mirror",
@@ -14748,7 +14748,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4951,
-    "icon": 2981,
+    "icon": 29283,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
@@ -14768,7 +14768,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4951,
-    "icon": 2981,
+    "icon": 29283,
     "func": "fish",
     "rarity": 1,
     "title": "Murmur Rills",
@@ -14788,7 +14788,7 @@ gt.bell.fish = [
       "Butterworm"
     ],
     "id": 4951,
-    "icon": 2981,
+    "icon": 29283,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
@@ -14815,7 +14815,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 7700,
-    "icon": 4617,
+    "icon": 29332,
     "func": "fish",
     "rarity": 2,
     "title": "The Mirror",
@@ -14839,7 +14839,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4958,
-    "icon": 2988,
+    "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "Everschade",
@@ -14863,7 +14863,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4958,
-    "icon": 2988,
+    "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "Hopeseed Pond",
@@ -14887,7 +14887,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4958,
-    "icon": 2988,
+    "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "Verdant Drop",
@@ -14911,7 +14911,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4958,
-    "icon": 2988,
+    "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
@@ -14935,7 +14935,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4958,
-    "icon": 2988,
+    "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
@@ -14959,7 +14959,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4958,
-    "icon": 2988,
+    "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "East Hathoeva River",
@@ -14983,7 +14983,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4958,
-    "icon": 2988,
+    "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "Yugr'am River",
@@ -15004,7 +15004,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4968,
-    "icon": 2998,
+    "icon": 29254,
     "func": "fish",
     "rarity": 1,
     "title": "Everschade",
@@ -15025,7 +15025,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4968,
-    "icon": 2998,
+    "icon": 29254,
     "func": "fish",
     "rarity": 1,
     "title": "Verdant Drop",
@@ -15046,7 +15046,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4968,
-    "icon": 2998,
+    "icon": 29254,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
@@ -15070,7 +15070,7 @@ gt.bell.fish = [
       "end": 23
     },
     "id": 7920,
-    "icon": 4704,
+    "icon": 29353,
     "func": "fish",
     "rarity": 2,
     "title": "Everschade",
@@ -15091,7 +15091,7 @@ gt.bell.fish = [
       "Ala Mhigan Fighting Fish"
     ],
     "id": 4964,
-    "icon": 2994,
+    "icon": 29213,
     "func": "fish",
     "rarity": 1,
     "title": "Hopeseed Pond",
@@ -15111,7 +15111,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4939,
-    "icon": 2969,
+    "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "Hopeseed Pond",
@@ -15131,7 +15131,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4939,
-    "icon": 2969,
+    "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "Haukke Manor",
@@ -15151,7 +15151,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4939,
-    "icon": 2969,
+    "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
@@ -15171,7 +15171,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4939,
-    "icon": 2969,
+    "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "The Unholy Heir",
@@ -15191,7 +15191,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4939,
-    "icon": 2969,
+    "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "North Drybone",
@@ -15211,7 +15211,7 @@ gt.bell.fish = [
       "Midge Basket"
     ],
     "id": 4939,
-    "icon": 2969,
+    "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "South Drybone",
@@ -15231,7 +15231,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4976,
-    "icon": 3006,
+    "icon": 29300,
     "func": "fish",
     "rarity": 1,
     "title": "Hopeseed Pond",
@@ -15251,7 +15251,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4976,
-    "icon": 3006,
+    "icon": 29300,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Hathoeva River",
@@ -15271,7 +15271,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4976,
-    "icon": 3006,
+    "icon": 29300,
     "func": "fish",
     "rarity": 1,
     "title": "Proud Creek",
@@ -15291,7 +15291,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4976,
-    "icon": 3006,
+    "icon": 29300,
     "func": "fish",
     "rarity": 1,
     "title": "Coerthas River",
@@ -15311,7 +15311,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4976,
-    "icon": 3006,
+    "icon": 29300,
     "func": "fish",
     "rarity": 1,
     "title": "Dragonhead Latrines",
@@ -15331,7 +15331,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4976,
-    "icon": 3006,
+    "icon": 29300,
     "func": "fish",
     "rarity": 1,
     "title": "Snowcloak",
@@ -15355,7 +15355,7 @@ gt.bell.fish = [
       "end": 21
     },
     "id": 7934,
-    "icon": 4718,
+    "icon": 29354,
     "func": "fish",
     "rarity": 2,
     "title": "Hopeseed Pond",
@@ -15379,7 +15379,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 7935,
-    "icon": 4719,
+    "icon": 29344,
     "func": "fish",
     "rarity": 2,
     "title": "Haukke Manor",
@@ -15404,7 +15404,7 @@ gt.bell.fish = [
       "end": 3
     },
     "id": 7694,
-    "icon": 4611,
+    "icon": 29329,
     "func": "fish",
     "rarity": 2,
     "title": "Sweetbloom Pier",
@@ -15424,7 +15424,7 @@ gt.bell.fish = [
       "Wildfowl Fly"
     ],
     "id": 4940,
-    "icon": 2970,
+    "icon": 29204,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
@@ -15449,7 +15449,7 @@ gt.bell.fish = [
       "end": 2
     },
     "id": 7683,
-    "icon": 4600,
+    "icon": 29323,
     "func": "fish",
     "rarity": 2,
     "title": "Springripple Brook",
@@ -15473,7 +15473,7 @@ gt.bell.fish = [
       "end": 23
     },
     "id": 7907,
-    "icon": 4691,
+    "icon": 29347,
     "func": "fish",
     "rarity": 2,
     "title": "Sanctum of the Twelve",
@@ -15493,7 +15493,7 @@ gt.bell.fish = [
       "Bass Ball"
     ],
     "id": 4962,
-    "icon": 2992,
+    "icon": 29252,
     "func": "fish",
     "rarity": 1,
     "title": "Verdant Drop",
@@ -15513,7 +15513,7 @@ gt.bell.fish = [
       "Bass Ball"
     ],
     "id": 4962,
-    "icon": 2992,
+    "icon": 29252,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
@@ -15533,7 +15533,7 @@ gt.bell.fish = [
       "Bass Ball"
     ],
     "id": 4962,
-    "icon": 2992,
+    "icon": 29252,
     "func": "fish",
     "rarity": 1,
     "title": "Rootslake",
@@ -15553,7 +15553,7 @@ gt.bell.fish = [
       "Bass Ball"
     ],
     "id": 4967,
-    "icon": 2997,
+    "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "Verdant Drop",
@@ -15573,7 +15573,7 @@ gt.bell.fish = [
       "Bass Ball"
     ],
     "id": 4967,
-    "icon": 2997,
+    "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
@@ -15593,7 +15593,7 @@ gt.bell.fish = [
       "Bass Ball"
     ],
     "id": 4967,
-    "icon": 2997,
+    "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Hathoeva River",
@@ -15613,7 +15613,7 @@ gt.bell.fish = [
       "Bass Ball"
     ],
     "id": 4967,
-    "icon": 2997,
+    "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "Goblinblood",
@@ -15633,7 +15633,7 @@ gt.bell.fish = [
       "Bass Ball"
     ],
     "id": 4967,
-    "icon": 2997,
+    "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "Yugr'am River",
@@ -15653,7 +15653,7 @@ gt.bell.fish = [
       "Bass Ball"
     ],
     "id": 4967,
-    "icon": 2997,
+    "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "The Burning Wall",
@@ -15677,7 +15677,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 7912,
-    "icon": 4696,
+    "icon": 29360,
     "func": "fish",
     "rarity": 2,
     "title": "Verdant Drop",
@@ -15698,7 +15698,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4982,
-    "icon": 3012,
+    "icon": 29211,
     "func": "fish",
     "rarity": 1,
     "title": "Sylphlands",
@@ -15719,7 +15719,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4982,
-    "icon": 3012,
+    "icon": 29211,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
@@ -15740,7 +15740,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4982,
-    "icon": 3012,
+    "icon": 29211,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
@@ -15761,7 +15761,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4982,
-    "icon": 3012,
+    "icon": 29211,
     "func": "fish",
     "rarity": 1,
     "title": "East Hathoeva River",
@@ -15782,7 +15782,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4982,
-    "icon": 3012,
+    "icon": 29211,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Hathoeva River",
@@ -15803,7 +15803,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 4982,
-    "icon": 3012,
+    "icon": 29211,
     "func": "fish",
     "rarity": 1,
     "title": "Urth's Gift",
@@ -15827,7 +15827,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4994,
-    "icon": 3024,
+    "icon": 29263,
     "func": "fish",
     "rarity": 1,
     "title": "Sylphlands",
@@ -15851,7 +15851,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 4994,
-    "icon": 3024,
+    "icon": 29263,
     "func": "fish",
     "rarity": 1,
     "title": "Proud Creek",
@@ -15871,7 +15871,7 @@ gt.bell.fish = [
       "Topwater Frog"
     ],
     "id": 4996,
-    "icon": 3026,
+    "icon": 29221,
     "func": "fish",
     "rarity": 1,
     "title": "Sylphlands",
@@ -15891,7 +15891,7 @@ gt.bell.fish = [
       "Topwater Frog"
     ],
     "id": 4996,
-    "icon": 3026,
+    "icon": 29221,
     "func": "fish",
     "rarity": 1,
     "title": "Urth's Gift",
@@ -15911,7 +15911,7 @@ gt.bell.fish = [
       "Topwater Frog"
     ],
     "id": 4996,
-    "icon": 3026,
+    "icon": 29221,
     "func": "fish",
     "rarity": 1,
     "title": "Proud Creek",
@@ -15931,7 +15931,7 @@ gt.bell.fish = [
       "Topwater Frog"
     ],
     "id": 4996,
-    "icon": 3026,
+    "icon": 29221,
     "func": "fish",
     "rarity": 1,
     "title": "The Burning Wall",
@@ -15956,7 +15956,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 5022,
-    "icon": 3052,
+    "icon": 29293,
     "func": "fish",
     "rarity": 1,
     "title": "Sylphlands",
@@ -15985,7 +15985,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 8773,
-    "icon": 5192,
+    "icon": 29387,
     "func": "fish",
     "rarity": 2,
     "title": "Sylphlands",
@@ -16009,7 +16009,7 @@ gt.bell.fish = [
       "end": 19
     },
     "id": 7908,
-    "icon": 4692,
+    "icon": 29342,
     "func": "fish",
     "rarity": 2,
     "title": "Upper Hathoeva River",
@@ -16037,7 +16037,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 7913,
-    "icon": 4697,
+    "icon": 29352,
     "func": "fish",
     "rarity": 2,
     "title": "Lower Hathoeva River",
@@ -16057,7 +16057,7 @@ gt.bell.fish = [
       "Syrphid Basket"
     ],
     "id": 7914,
-    "icon": 4698,
+    "icon": 29343,
     "func": "fish",
     "rarity": 2,
     "title": "East Hathoeva River",
@@ -16085,7 +16085,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 7921,
-    "icon": 4705,
+    "icon": 29341,
     "func": "fish",
     "rarity": 2,
     "title": "Middle Hathoeva River",
@@ -16110,7 +16110,7 @@ gt.bell.fish = [
       "Thunderstorms"
     ],
     "id": 7922,
-    "icon": 4706,
+    "icon": 29357,
     "func": "fish",
     "rarity": 2,
     "title": "Goblinblood",
@@ -16134,7 +16134,7 @@ gt.bell.fish = [
       "Thunderstorms"
     ],
     "id": 5023,
-    "icon": 3053,
+    "icon": 29302,
     "func": "fish",
     "rarity": 1,
     "title": "Rootslake",
@@ -16157,7 +16157,7 @@ gt.bell.fish = [
       "Thunderstorms"
     ],
     "id": 7936,
-    "icon": 4720,
+    "icon": 29367,
     "func": "fish",
     "rarity": 2,
     "title": "Rootslake",
@@ -16177,7 +16177,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "id": 5008,
-    "icon": 3038,
+    "icon": 29237,
     "func": "fish",
     "rarity": 1,
     "title": "Urth's Gift",
@@ -16197,7 +16197,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "id": 5008,
-    "icon": 3038,
+    "icon": 29237,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
@@ -16217,7 +16217,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "id": 5008,
-    "icon": 3038,
+    "icon": 29237,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
@@ -16241,7 +16241,7 @@ gt.bell.fish = [
       "Thunderstorms"
     ],
     "id": 8774,
-    "icon": 5193,
+    "icon": 29382,
     "func": "fish",
     "rarity": 2,
     "title": "Urth's Gift",
@@ -16268,7 +16268,7 @@ gt.bell.fish = [
           "Glowworm"
         ],
         "id": 8774,
-        "icon": 5193
+        "icon": 29382
       }
     ],
     "weather": [
@@ -16276,7 +16276,7 @@ gt.bell.fish = [
       "Thunderstorms"
     ],
     "id": 8775,
-    "icon": 5194,
+    "icon": 29384,
     "func": "fish",
     "rarity": 2,
     "title": "Urth's Gift",
@@ -16300,7 +16300,7 @@ gt.bell.fish = [
       "end": 14
     },
     "id": 7699,
-    "icon": 4616,
+    "icon": 29331,
     "func": "fish",
     "rarity": 2,
     "title": "Murmur Rills",
@@ -16324,7 +16324,7 @@ gt.bell.fish = [
       "end": 21
     },
     "id": 7695,
-    "icon": 4612,
+    "icon": 29340,
     "func": "fish",
     "rarity": 2,
     "title": "Fallgourd Float",
@@ -16351,7 +16351,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 7947,
-    "icon": 4731,
+    "icon": 29346,
     "func": "fish",
     "rarity": 2,
     "title": "Proud Creek",
@@ -16372,7 +16372,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5002,
-    "icon": 3032,
+    "icon": 29238,
     "func": "fish",
     "rarity": 1,
     "title": "Moondrip",
@@ -16392,7 +16392,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "id": 5002,
-    "icon": 3032,
+    "icon": 29238,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
@@ -16413,7 +16413,7 @@ gt.bell.fish = [
       "Ala Mhigan Fighting Fish"
     ],
     "id": 5002,
-    "icon": 3032,
+    "icon": 29238,
     "func": "fish",
     "rarity": 1,
     "title": "The Tangle",
@@ -16434,7 +16434,7 @@ gt.bell.fish = [
       "Silverfish"
     ],
     "id": 5002,
-    "icon": 3032,
+    "icon": 29238,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
@@ -16461,11 +16461,11 @@ gt.bell.fish = [
           "Glowworm"
         ],
         "id": 5008,
-        "icon": 3038
+        "icon": 29237
       }
     ],
     "id": 8760,
-    "icon": 5179,
+    "icon": 29377,
     "func": "fish",
     "rarity": 2,
     "title": "Lake Tahtotl",
@@ -16493,7 +16493,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 7923,
-    "icon": 4707,
+    "icon": 29375,
     "func": "fish",
     "rarity": 2,
     "title": "The Lavender Beds",
@@ -16517,7 +16517,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 7714,
-    "icon": 4631,
+    "icon": 29339,
     "func": "fish",
     "rarity": 2,
     "title": "Nophica's Wells",
@@ -16541,7 +16541,7 @@ gt.bell.fish = [
       "end": 3
     },
     "id": 7706,
-    "icon": 4623,
+    "icon": 29337,
     "func": "fish",
     "rarity": 2,
     "title": "The Footfalls",
@@ -16561,7 +16561,7 @@ gt.bell.fish = [
       "Heavy Steel Jig"
     ],
     "id": 7711,
-    "icon": 4628,
+    "icon": 29067,
     "func": "fish",
     "rarity": 2,
     "title": "Vesper Bay",
@@ -16585,7 +16585,7 @@ gt.bell.fish = [
       "end": 18
     },
     "id": 7906,
-    "icon": 4690,
+    "icon": 29082,
     "func": "fish",
     "rarity": 2,
     "title": "Crescent Cove",
@@ -16609,7 +16609,7 @@ gt.bell.fish = [
       "end": 22
     },
     "id": 7910,
-    "icon": 4694,
+    "icon": 29081,
     "func": "fish",
     "rarity": 2,
     "title": "The Silver Bazaar",
@@ -16639,7 +16639,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 4924,
-    "icon": 2954,
+    "icon": 29020,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
@@ -16669,11 +16669,11 @@ gt.bell.fish = [
           "Merlthor Goby"
         ],
         "id": 4904,
-        "icon": 2934
+        "icon": 29025
       }
     ],
     "id": 8764,
-    "icon": 5183,
+    "icon": 29092,
     "func": "fish",
     "rarity": 2,
     "title": "Cape Westwind",
@@ -16702,7 +16702,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 8765,
-    "icon": 5184,
+    "icon": 29391,
     "func": "fish",
     "rarity": 2,
     "title": "Moondrip",
@@ -16722,7 +16722,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "id": 5006,
-    "icon": 3036,
+    "icon": 29305,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
@@ -16752,7 +16752,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 8766,
-    "icon": 5185,
+    "icon": 29380,
     "func": "fish",
     "rarity": 2,
     "title": "Parata's Peace",
@@ -16776,7 +16776,7 @@ gt.bell.fish = [
       "end": 3
     },
     "id": 7692,
-    "icon": 4609,
+    "icon": 29328,
     "func": "fish",
     "rarity": 2,
     "title": "Upper Soot Creek",
@@ -16800,7 +16800,7 @@ gt.bell.fish = [
       "end": 24
     },
     "id": 7698,
-    "icon": 4615,
+    "icon": 29322,
     "func": "fish",
     "rarity": 2,
     "title": "Lower Soot Creek",
@@ -16824,7 +16824,7 @@ gt.bell.fish = [
       "end": 21
     },
     "id": 7703,
-    "icon": 4620,
+    "icon": 29319,
     "func": "fish",
     "rarity": 2,
     "title": "The Clutch",
@@ -16849,7 +16849,7 @@ gt.bell.fish = [
       "Dust Storms"
     ],
     "id": 7689,
-    "icon": 4606,
+    "icon": 29318,
     "func": "fish",
     "rarity": 2,
     "title": "The Unholy Heir",
@@ -16877,7 +16877,7 @@ gt.bell.fish = [
       "Showers"
     ],
     "id": 7704,
-    "icon": 4621,
+    "icon": 29334,
     "func": "fish",
     "rarity": 2,
     "title": "North Drybone",
@@ -16905,7 +16905,7 @@ gt.bell.fish = [
       "Showers"
     ],
     "id": 7702,
-    "icon": 4619,
+    "icon": 29335,
     "func": "fish",
     "rarity": 2,
     "title": "South Drybone",
@@ -16932,7 +16932,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 7918,
-    "icon": 4702,
+    "icon": 29356,
     "func": "fish",
     "rarity": 2,
     "title": "Yugr'am River",
@@ -16960,7 +16960,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 5017,
-    "icon": 3047,
+    "icon": 29262,
     "func": "fish",
     "rarity": 1,
     "title": "The Burning Wall",
@@ -16983,7 +16983,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 7942,
-    "icon": 4726,
+    "icon": 29369,
     "func": "fish",
     "rarity": 2,
     "title": "The Burning Wall",
@@ -17007,7 +17007,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 7911,
-    "icon": 4695,
+    "icon": 29363,
     "func": "fish",
     "rarity": 2,
     "title": "Burnt Lizard Creek",
@@ -17032,7 +17032,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 5007,
-    "icon": 3037,
+    "icon": 29241,
     "func": "fish",
     "rarity": 1,
     "title": "Zahar'ak",
@@ -17059,7 +17059,7 @@ gt.bell.fish = [
       "Heat Waves"
     ],
     "id": 7928,
-    "icon": 4712,
+    "icon": 29349,
     "func": "fish",
     "rarity": 2,
     "title": "Zahar'ak",
@@ -17082,7 +17082,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 7929,
-    "icon": 4713,
+    "icon": 29350,
     "func": "fish",
     "rarity": 2,
     "title": "Forgotten Springs",
@@ -17102,7 +17102,7 @@ gt.bell.fish = [
       "Sand Leech"
     ],
     "id": 5035,
-    "icon": 3065,
+    "icon": 29606,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Desert",
@@ -17122,7 +17122,7 @@ gt.bell.fish = [
       "Sand Leech"
     ],
     "id": 5035,
-    "icon": 3065,
+    "icon": 29606,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Dunes",
@@ -17150,7 +17150,7 @@ gt.bell.fish = [
       "Heat Waves"
     ],
     "id": 7931,
-    "icon": 4715,
+    "icon": 29610,
     "func": "fish",
     "rarity": 2,
     "title": "Sagolii Desert",
@@ -17182,7 +17182,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 8768,
-    "icon": 5187,
+    "icon": 29612,
     "func": "fish",
     "rarity": 2,
     "title": "Sagolii Desert",
@@ -17206,7 +17206,7 @@ gt.bell.fish = [
       "Heat Waves"
     ],
     "id": 7930,
-    "icon": 4714,
+    "icon": 29376,
     "func": "fish",
     "rarity": 2,
     "title": "Sagolii Dunes",
@@ -17234,7 +17234,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 7943,
-    "icon": 4727,
+    "icon": 29345,
     "func": "fish",
     "rarity": 2,
     "title": "Bluefog",
@@ -17266,7 +17266,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 8767,
-    "icon": 5186,
+    "icon": 29383,
     "func": "fish",
     "rarity": 2,
     "title": "Ceruleum Field",
@@ -17294,7 +17294,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 7919,
-    "icon": 4703,
+    "icon": 29611,
     "func": "fish",
     "rarity": 2,
     "title": "The Goblet",
@@ -17317,7 +17317,7 @@ gt.bell.fish = [
       "Blizzards"
     ],
     "id": 7932,
-    "icon": 4716,
+    "icon": 29366,
     "func": "fish",
     "rarity": 2,
     "title": "Coerthas River",
@@ -17337,7 +17337,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 4937,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Daniffen Pass",
@@ -17357,7 +17357,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 4937,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "The Nail",
@@ -17377,7 +17377,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 4937,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Dragonhead Latrines",
@@ -17397,7 +17397,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 4937,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Exploratory Ice Hole",
@@ -17417,7 +17417,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 4937,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "The Weeping Saint",
@@ -17437,7 +17437,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 4937,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Riversmeet",
@@ -17457,7 +17457,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 4937,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Unfrozen Pond",
@@ -17477,7 +17477,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 4937,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Clearpool",
@@ -17497,7 +17497,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 4937,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
@@ -17517,7 +17517,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 4937,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
@@ -17541,7 +17541,7 @@ gt.bell.fish = [
       "end": 4
     },
     "id": 7933,
-    "icon": 4717,
+    "icon": 29372,
     "func": "fish",
     "rarity": 2,
     "title": "Daniffen Pass",
@@ -17570,7 +17570,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 7945,
-    "icon": 4729,
+    "icon": 29359,
     "func": "fish",
     "rarity": 2,
     "title": "The Nail",
@@ -17598,7 +17598,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 7944,
-    "icon": 4728,
+    "icon": 29348,
     "func": "fish",
     "rarity": 2,
     "title": "Dragonhead Latrines",
@@ -17619,7 +17619,7 @@ gt.bell.fish = [
       "Abalathian Smelt"
     ],
     "id": 7946,
-    "icon": 4730,
+    "icon": 29370,
     "func": "fish",
     "rarity": 2,
     "title": "Exploratory Ice Hole",
@@ -17651,7 +17651,7 @@ gt.bell.fish = [
           "Chocobo Fly"
         ],
         "id": 5544,
-        "icon": 3385
+        "icon": 29316
       }
     ],
     "weather": [
@@ -17659,7 +17659,7 @@ gt.bell.fish = [
       "Snow"
     ],
     "id": 8769,
-    "icon": 5188,
+    "icon": 29385,
     "func": "fish",
     "rarity": 2,
     "title": "The Weeping Saint",
@@ -17687,7 +17687,7 @@ gt.bell.fish = [
       "Snow"
     ],
     "id": 8770,
-    "icon": 5189,
+    "icon": 29388,
     "func": "fish",
     "rarity": 2,
     "title": "Snowcloak",
@@ -17707,7 +17707,7 @@ gt.bell.fish = [
       "Hoverworm"
     ],
     "id": 5038,
-    "icon": 3068,
+    "icon": 29657,
     "func": "fish",
     "rarity": 1,
     "title": "Sea of Clouds",
@@ -17727,7 +17727,7 @@ gt.bell.fish = [
       "Hoverworm"
     ],
     "id": 5039,
-    "icon": 3069,
+    "icon": 29653,
     "func": "fish",
     "rarity": 1,
     "title": "Sea of Clouds",
@@ -17747,7 +17747,7 @@ gt.bell.fish = [
       "Hoverworm"
     ],
     "id": 5040,
-    "icon": 3070,
+    "icon": 29655,
     "func": "fish",
     "rarity": 1,
     "title": "Sea of Clouds",
@@ -17767,7 +17767,7 @@ gt.bell.fish = [
       "Hoverworm"
     ],
     "id": 5040,
-    "icon": 3070,
+    "icon": 29655,
     "func": "fish",
     "rarity": 1,
     "title": "Witchdrop",
@@ -17787,7 +17787,7 @@ gt.bell.fish = [
       "Hoverworm"
     ],
     "id": 5042,
-    "icon": 3072,
+    "icon": 29652,
     "func": "fish",
     "rarity": 1,
     "title": "Sea of Clouds",
@@ -17816,7 +17816,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 7949,
-    "icon": 4733,
+    "icon": 29658,
     "func": "fish",
     "rarity": 2,
     "title": "Sea of Clouds",
@@ -17844,7 +17844,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 8771,
-    "icon": 5190,
+    "icon": 29660,
     "func": "fish",
     "rarity": 2,
     "title": "Witchdrop",
@@ -17873,7 +17873,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 8772,
-    "icon": 5191,
+    "icon": 29659,
     "func": "fish",
     "rarity": 2,
     "title": "Witchdrop",
@@ -17897,7 +17897,7 @@ gt.bell.fish = [
       "Blizzards"
     ],
     "id": 12762,
-    "icon": 3028,
+    "icon": 29276,
     "func": "fish",
     "rarity": 1,
     "title": "Riversmeet",
@@ -17917,7 +17917,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 15626,
-    "icon": 8552,
+    "icon": 29425,
     "func": "fish",
     "rarity": 2,
     "title": "Riversmeet",
@@ -17937,7 +17937,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 12716,
-    "icon": 7137,
+    "icon": 29722,
     "func": "fish",
     "rarity": 1,
     "title": "Greytail Falls",
@@ -17961,7 +17961,7 @@ gt.bell.fish = [
       "Snow"
     ],
     "id": 12724,
-    "icon": 7144,
+    "icon": 29706,
     "func": "fish",
     "rarity": 1,
     "title": "Greytail Falls",
@@ -17988,7 +17988,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 12799,
-    "icon": 3068,
+    "icon": 29657,
     "func": "fish",
     "rarity": 1,
     "title": "Greytail Falls",
@@ -18013,7 +18013,7 @@ gt.bell.fish = [
       "Blizzards"
     ],
     "id": 12766,
-    "icon": 3074,
+    "icon": 29656,
     "func": "fish",
     "rarity": 1,
     "title": "Greytail Falls",
@@ -18037,7 +18037,7 @@ gt.bell.fish = [
       "Blizzards"
     ],
     "id": 16745,
-    "icon": 9036,
+    "icon": 29661,
     "func": "fish",
     "rarity": 2,
     "title": "Greytail Falls",
@@ -18058,7 +18058,7 @@ gt.bell.fish = [
     ],
     "hookset": "Precision Hookset",
     "id": 12713,
-    "icon": 7135,
+    "icon": 29809,
     "func": "fish",
     "rarity": 1,
     "title": "Unfrozen Pond",
@@ -18080,7 +18080,7 @@ gt.bell.fish = [
     ],
     "hookset": "Precision Hookset",
     "id": 12713,
-    "icon": 7135,
+    "icon": 29809,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
@@ -18101,7 +18101,7 @@ gt.bell.fish = [
       "Purse Web Spider"
     ],
     "id": 12715,
-    "icon": 7136,
+    "icon": 29803,
     "func": "fish",
     "rarity": 1,
     "title": "Unfrozen Pond",
@@ -18121,7 +18121,7 @@ gt.bell.fish = [
       "Purse Web Spider"
     ],
     "id": 12715,
-    "icon": 7136,
+    "icon": 29803,
     "func": "fish",
     "rarity": 1,
     "title": "Clearpool",
@@ -18141,7 +18141,7 @@ gt.bell.fish = [
       "Purse Web Spider"
     ],
     "id": 12715,
-    "icon": 7136,
+    "icon": 29803,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
@@ -18161,7 +18161,7 @@ gt.bell.fish = [
       "Purse Web Spider"
     ],
     "id": 12715,
-    "icon": 7136,
+    "icon": 29803,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
@@ -18181,7 +18181,7 @@ gt.bell.fish = [
       "Purse Web Spider"
     ],
     "id": 12715,
-    "icon": 7136,
+    "icon": 29803,
     "func": "fish",
     "rarity": 1,
     "title": "West Banepool",
@@ -18205,7 +18205,7 @@ gt.bell.fish = [
       "end": 20
     },
     "id": 12726,
-    "icon": 7146,
+    "icon": 29807,
     "func": "fish",
     "rarity": 1,
     "title": "Unfrozen Pond",
@@ -18230,7 +18230,7 @@ gt.bell.fish = [
       "end": 17
     },
     "id": 12796,
-    "icon": 7190,
+    "icon": 29705,
     "func": "fish",
     "rarity": 1,
     "title": "Unfrozen Pond",
@@ -18258,7 +18258,7 @@ gt.bell.fish = [
       "Blizzards"
     ],
     "id": 13728,
-    "icon": 7168,
+    "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "Unfrozen Pond",
@@ -18286,7 +18286,7 @@ gt.bell.fish = [
       "Blizzards"
     ],
     "id": 16746,
-    "icon": 9037,
+    "icon": 29815,
     "func": "fish",
     "rarity": 2,
     "title": "Unfrozen Pond",
@@ -18310,7 +18310,7 @@ gt.bell.fish = [
       "Blizzards"
     ],
     "id": 12727,
-    "icon": 7147,
+    "icon": 29810,
     "func": "fish",
     "rarity": 1,
     "title": "Clearpool",
@@ -18335,7 +18335,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 12837,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Clearpool",
@@ -18370,7 +18370,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 17577,
-    "icon": 9357,
+    "icon": 29098,
     "func": "fish",
     "rarity": 2,
     "title": "Clearpool",
@@ -18403,14 +18403,14 @@ gt.bell.fish = [
           "Purse Web Spider"
         ],
         "id": 12715,
-        "icon": 7136
+        "icon": 29803
       }
     ],
     "weather": [
       "Blizzards"
     ],
     "id": 17592,
-    "icon": 9370,
+    "icon": 29734,
     "func": "fish",
     "rarity": 2,
     "title": "Clearpool",
@@ -18432,7 +18432,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 12823,
-    "icon": 7140,
+    "icon": 29804,
     "func": "fish",
     "rarity": 1,
     "title": "Dragonspit",
@@ -18455,7 +18455,7 @@ gt.bell.fish = [
     ],
     "hookset": "Precision Hookset",
     "id": 15627,
-    "icon": 8553,
+    "icon": 29813,
     "func": "fish",
     "rarity": 2,
     "title": "Dragonspit",
@@ -18476,7 +18476,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 12720,
-    "icon": 7140,
+    "icon": 29804,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
@@ -18496,7 +18496,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 12737,
-    "icon": 3006,
+    "icon": 29300,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
@@ -18517,7 +18517,7 @@ gt.bell.fish = [
       "Ice Faerie"
     ],
     "id": 12719,
-    "icon": 7139,
+    "icon": 29806,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
@@ -18537,7 +18537,7 @@ gt.bell.fish = [
       "Goblin Jig"
     ],
     "id": 12719,
-    "icon": 7139,
+    "icon": 29806,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
@@ -18559,7 +18559,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 14219,
-    "icon": 2949,
+    "icon": 29027,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
@@ -18580,7 +18580,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 15439,
-    "icon": 8483,
+    "icon": 29431,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
@@ -18603,7 +18603,7 @@ gt.bell.fish = [
       "Blizzards"
     ],
     "id": 17578,
-    "icon": 9358,
+    "icon": 29816,
     "func": "fish",
     "rarity": 2,
     "title": "South Banepool",
@@ -18624,7 +18624,7 @@ gt.bell.fish = [
       "Abalathian Smelt"
     ],
     "id": 12748,
-    "icon": 7163,
+    "icon": 29812,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
@@ -18645,7 +18645,7 @@ gt.bell.fish = [
       "Ice Faerie"
     ],
     "id": 12817,
-    "icon": 7201,
+    "icon": 29802,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
@@ -18665,7 +18665,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 24557,
-    "icon": 9745,
+    "icon": 29503,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
@@ -18686,7 +18686,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 15628,
-    "icon": 8554,
+    "icon": 29814,
     "func": "fish",
     "rarity": 2,
     "title": "Ashpool",
@@ -18710,7 +18710,7 @@ gt.bell.fish = [
       "Blizzards"
     ],
     "id": 12765,
-    "icon": 3053,
+    "icon": 29302,
     "func": "fish",
     "rarity": 1,
     "title": "West Banepool",
@@ -18734,7 +18734,7 @@ gt.bell.fish = [
       "Blizzards"
     ],
     "id": 12763,
-    "icon": 2935,
+    "icon": 29057,
     "func": "fish",
     "rarity": 1,
     "title": "West Banepool",
@@ -18756,7 +18756,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 14217,
-    "icon": 7974,
+    "icon": 29097,
     "func": "fish",
     "rarity": 1,
     "title": "West Banepool",
@@ -18786,7 +18786,7 @@ gt.bell.fish = [
       "Blizzards"
     ],
     "id": 16756,
-    "icon": 4720,
+    "icon": 29367,
     "func": "fish",
     "rarity": 2,
     "title": "West Banepool",
@@ -18810,7 +18810,7 @@ gt.bell.fish = [
       "end": 9
     },
     "id": 5027,
-    "icon": 3057,
+    "icon": 29313,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
@@ -18837,7 +18837,7 @@ gt.bell.fish = [
       "Gloom"
     ],
     "id": 7951,
-    "icon": 4735,
+    "icon": 29089,
     "func": "fish",
     "rarity": 2,
     "title": "North Silvertear",
@@ -18864,7 +18864,7 @@ gt.bell.fish = [
       "Gloom"
     ],
     "id": 8758,
-    "icon": 5177,
+    "icon": 29390,
     "func": "fish",
     "rarity": 2,
     "title": "The Deep Tangle",
@@ -18896,7 +18896,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 8776,
-    "icon": 5195,
+    "icon": 29379,
     "func": "fish",
     "rarity": 2,
     "title": "Singing Shards",
@@ -18923,7 +18923,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 8759,
-    "icon": 5178,
+    "icon": 29389,
     "func": "fish",
     "rarity": 2,
     "title": "Rathefrost",
@@ -18946,7 +18946,7 @@ gt.bell.fish = [
       "Gloom"
     ],
     "id": 5021,
-    "icon": 3051,
+    "icon": 29315,
     "func": "fish",
     "rarity": 1,
     "title": "The Tangle",
@@ -18975,7 +18975,7 @@ gt.bell.fish = [
       "Gloom"
     ],
     "id": 8761,
-    "icon": 5180,
+    "icon": 29378,
     "func": "fish",
     "rarity": 2,
     "title": "The Tangle",
@@ -19004,7 +19004,7 @@ gt.bell.fish = [
       "Gloom"
     ],
     "id": 8762,
-    "icon": 5181,
+    "icon": 29386,
     "func": "fish",
     "rarity": 2,
     "title": "The North Shards",
@@ -19039,14 +19039,14 @@ gt.bell.fish = [
           "Goldfish"
         ],
         "id": 8762,
-        "icon": 5181
+        "icon": 29386
       }
     ],
     "weather": [
       "Gloom"
     ],
     "id": 8763,
-    "icon": 5182,
+    "icon": 29381,
     "func": "fish",
     "rarity": 2,
     "title": "The North Shards",
@@ -19066,7 +19066,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 12757,
-    "icon": 7172,
+    "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "Voor Sian Siran",
@@ -19086,7 +19086,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 12757,
-    "icon": 7172,
+    "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
@@ -19106,7 +19106,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 12757,
-    "icon": 7172,
+    "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "Thaliak River",
@@ -19126,7 +19126,7 @@ gt.bell.fish = [
       "Purse Web Spider"
     ],
     "id": 12757,
-    "icon": 7172,
+    "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "Quickspill Delta",
@@ -19146,7 +19146,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 12757,
-    "icon": 7172,
+    "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Thaliak River",
@@ -19166,7 +19166,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 12757,
-    "icon": 7172,
+    "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Thaliak River",
@@ -19186,7 +19186,7 @@ gt.bell.fish = [
       "Bladed Steel Jig"
     ],
     "id": 12730,
-    "icon": 3079,
+    "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "Voor Sian Siran",
@@ -19206,7 +19206,7 @@ gt.bell.fish = [
       "Bladed Steel Jig"
     ],
     "id": 12730,
-    "icon": 3079,
+    "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
@@ -19226,7 +19226,7 @@ gt.bell.fish = [
       "Bladed Steel Jig"
     ],
     "id": 12730,
-    "icon": 3079,
+    "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Thaliak River",
@@ -19250,7 +19250,7 @@ gt.bell.fish = [
       "end": 18
     },
     "id": 12739,
-    "icon": 7156,
+    "icon": 29408,
     "func": "fish",
     "rarity": 1,
     "title": "Voor Sian Siran",
@@ -19276,7 +19276,7 @@ gt.bell.fish = [
       "end": 21
     },
     "id": 12802,
-    "icon": 7193,
+    "icon": 29393,
     "func": "fish",
     "rarity": 1,
     "title": "Voor Sian Siran",
@@ -19301,7 +19301,7 @@ gt.bell.fish = [
       "end": 21
     },
     "id": 12802,
-    "icon": 7193,
+    "icon": 29393,
     "func": "fish",
     "rarity": 1,
     "title": "The Iron Feast",
@@ -19327,7 +19327,7 @@ gt.bell.fish = [
       "end": 16
     },
     "id": 15635,
-    "icon": 8559,
+    "icon": 29429,
     "func": "fish",
     "rarity": 2,
     "title": "Voor Sian Siran",
@@ -19351,7 +19351,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 12749,
-    "icon": 7164,
+    "icon": 29398,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
@@ -19375,7 +19375,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 12829,
-    "icon": 7208,
+    "icon": 29414,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
@@ -19407,7 +19407,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 17579,
-    "icon": 9359,
+    "icon": 29436,
     "func": "fish",
     "rarity": 2,
     "title": "The Eddies",
@@ -19431,7 +19431,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 12723,
-    "icon": 7143,
+    "icon": 29715,
     "func": "fish",
     "rarity": 1,
     "title": "Cloudtop",
@@ -19455,7 +19455,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 12723,
-    "icon": 7143,
+    "icon": 29715,
     "func": "fish",
     "rarity": 1,
     "title": "Mok Oogl Island",
@@ -19480,7 +19480,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 14213,
-    "icon": 7970,
+    "icon": 29728,
     "func": "fish",
     "rarity": 1,
     "title": "Cloudtop",
@@ -19509,7 +19509,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 16750,
-    "icon": 9041,
+    "icon": 29732,
     "func": "fish",
     "rarity": 2,
     "title": "Cloudtop",
@@ -19529,7 +19529,7 @@ gt.bell.fish = [
       "Red Balloon"
     ],
     "id": 12753,
-    "icon": 7168,
+    "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "The Blue Window",
@@ -19549,7 +19549,7 @@ gt.bell.fish = [
       "Red Balloon"
     ],
     "id": 12753,
-    "icon": 7168,
+    "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "Mok Oogl Island",
@@ -19569,7 +19569,7 @@ gt.bell.fish = [
       "Red Balloon"
     ],
     "id": 12753,
-    "icon": 7168,
+    "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "The Habisphere",
@@ -19589,7 +19589,7 @@ gt.bell.fish = [
       "Red Balloon"
     ],
     "id": 12753,
-    "icon": 7168,
+    "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "Landlord Colony",
@@ -19609,7 +19609,7 @@ gt.bell.fish = [
       "Red Balloon"
     ],
     "id": 12753,
-    "icon": 7168,
+    "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "Sohm Al Summit",
@@ -19629,7 +19629,7 @@ gt.bell.fish = [
       "Red Balloon"
     ],
     "id": 12753,
-    "icon": 7168,
+    "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "Tharl Oom Khash",
@@ -19654,7 +19654,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 12746,
-    "icon": 7162,
+    "icon": 29718,
     "func": "fish",
     "rarity": 1,
     "title": "The Blue Window",
@@ -19678,7 +19678,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 15636,
-    "icon": 4603,
+    "icon": 29065,
     "func": "fish",
     "rarity": 2,
     "title": "The Blue Window",
@@ -19698,7 +19698,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 12810,
-    "icon": 7196,
+    "icon": 29721,
     "func": "fish",
     "rarity": 1,
     "title": "Mok Oogl Island",
@@ -19718,7 +19718,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 12814,
-    "icon": 7198,
+    "icon": 29702,
     "func": "fish",
     "rarity": 1,
     "title": "Mok Oogl Island",
@@ -19739,7 +19739,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 12814,
-    "icon": 7198,
+    "icon": 29702,
     "func": "fish",
     "rarity": 1,
     "title": "Swirling Cloudtop",
@@ -19760,7 +19760,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 12834,
-    "icon": 7212,
+    "icon": 29701,
     "func": "fish",
     "rarity": 1,
     "title": "Mok Oogl Island",
@@ -19781,7 +19781,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 12834,
-    "icon": 7212,
+    "icon": 29701,
     "func": "fish",
     "rarity": 1,
     "title": "Swirling Cloudtop",
@@ -19812,7 +19812,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 13730,
-    "icon": 7769,
+    "icon": 29725,
     "func": "fish",
     "rarity": 1,
     "title": "Mok Oogl Island",
@@ -19840,7 +19840,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 16743,
-    "icon": 9034,
+    "icon": 29731,
     "func": "fish",
     "rarity": 2,
     "title": "Mok Oogl Island",
@@ -19872,7 +19872,7 @@ gt.bell.fish = [
           "Giant Crane Fly"
         ],
         "id": 12810,
-        "icon": 7196
+        "icon": 29721
       },
       {
         "name": "Sky Faerie",
@@ -19881,14 +19881,14 @@ gt.bell.fish = [
           "Red Balloon"
         ],
         "id": 12753,
-        "icon": 7168
+        "icon": 29716
       }
     ],
     "weather": [
       "Clear Skies"
     ],
     "id": 17591,
-    "icon": 9369,
+    "icon": 29662,
     "func": "fish",
     "rarity": 2,
     "title": "Mok Oogl Island",
@@ -19908,7 +19908,7 @@ gt.bell.fish = [
       "Fiend Worm"
     ],
     "id": 12776,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Alpha Quadrant",
@@ -19928,7 +19928,7 @@ gt.bell.fish = [
       "Fiend Worm"
     ],
     "id": 12776,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Aetherochemical Spill",
@@ -19948,7 +19948,7 @@ gt.bell.fish = [
       "Fiend Worm"
     ],
     "id": 12776,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Hyperstellar Downconverter",
@@ -19968,7 +19968,7 @@ gt.bell.fish = [
       "Fiend Worm"
     ],
     "id": 12776,
-    "icon": 3008,
+    "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "The Flagship",
@@ -19991,7 +19991,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 12812,
-    "icon": 3033,
+    "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "Alpha Quadrant",
@@ -20014,7 +20014,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 12812,
-    "icon": 3033,
+    "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "Aetherochemical Spill",
@@ -20035,7 +20035,7 @@ gt.bell.fish = [
       "Platinum Fish"
     ],
     "id": 15637,
-    "icon": 4687,
+    "icon": 29086,
     "func": "fish",
     "rarity": 2,
     "title": "Alpha Quadrant",
@@ -20058,7 +20058,7 @@ gt.bell.fish = [
       "Platinum Fish"
     ],
     "id": 16752,
-    "icon": 9043,
+    "icon": 29760,
     "func": "fish",
     "rarity": 2,
     "title": "Aetherochemical Spill",
@@ -20082,7 +20082,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 12815,
-    "icon": 7199,
+    "icon": 29751,
     "func": "fish",
     "rarity": 1,
     "title": "Hyperstellar Downconverter",
@@ -20106,7 +20106,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 12815,
-    "icon": 7199,
+    "icon": 29751,
     "func": "fish",
     "rarity": 1,
     "title": "The Flagship",
@@ -20134,7 +20134,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 14218,
-    "icon": 7975,
+    "icon": 29613,
     "func": "fish",
     "rarity": 1,
     "title": "Hyperstellar Downconverter",
@@ -20166,7 +20166,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 17580,
-    "icon": 4703,
+    "icon": 29611,
     "func": "fish",
     "rarity": 2,
     "title": "Hyperstellar Downconverter",
@@ -20186,7 +20186,7 @@ gt.bell.fish = [
       "Purse Web Spider"
     ],
     "id": 12777,
-    "icon": 2968,
+    "icon": 29214,
     "func": "fish",
     "rarity": 1,
     "title": "Delta Quadrant",
@@ -20206,7 +20206,7 @@ gt.bell.fish = [
       "Purse Web Spider"
     ],
     "id": 12777,
-    "icon": 2968,
+    "icon": 29214,
     "func": "fish",
     "rarity": 1,
     "title": "The Pappus Tree",
@@ -20233,7 +20233,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 12803,
-    "icon": 3059,
+    "icon": 29224,
     "func": "fish",
     "rarity": 1,
     "title": "Delta Quadrant",
@@ -20262,7 +20262,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 15638,
-    "icon": 8560,
+    "icon": 29430,
     "func": "fish",
     "rarity": 2,
     "title": "Delta Quadrant",
@@ -20285,7 +20285,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 12751,
-    "icon": 7166,
+    "icon": 29400,
     "func": "fish",
     "rarity": 1,
     "title": "The Pappus Tree",
@@ -20309,7 +20309,7 @@ gt.bell.fish = [
       "end": 24
     },
     "id": 12774,
-    "icon": 7180,
+    "icon": 29396,
     "func": "fish",
     "rarity": 1,
     "title": "The Pappus Tree",
@@ -20336,7 +20336,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 16753,
-    "icon": 9044,
+    "icon": 29761,
     "func": "fish",
     "rarity": 2,
     "title": "The Pappus Tree",
@@ -20356,7 +20356,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 12805,
-    "icon": 7194,
+    "icon": 29717,
     "func": "fish",
     "rarity": 1,
     "title": "The Habisphere",
@@ -20376,7 +20376,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 12805,
-    "icon": 7194,
+    "icon": 29717,
     "func": "fish",
     "rarity": 1,
     "title": "Sohm Al Summit",
@@ -20396,7 +20396,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 12805,
-    "icon": 7194,
+    "icon": 29717,
     "func": "fish",
     "rarity": 1,
     "title": "Tharl Oom Khash",
@@ -20420,7 +20420,7 @@ gt.bell.fish = [
       "end": 18
     },
     "id": 12833,
-    "icon": 7211,
+    "icon": 29709,
     "func": "fish",
     "rarity": 1,
     "title": "The Habisphere",
@@ -20442,7 +20442,7 @@ gt.bell.fish = [
       "Rudderfish"
     ],
     "id": 12825,
-    "icon": 7205,
+    "icon": 29703,
     "func": "fish",
     "rarity": 1,
     "title": "The Habisphere",
@@ -20472,7 +20472,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 17581,
-    "icon": 9360,
+    "icon": 29735,
     "func": "fish",
     "rarity": 2,
     "title": "The Habisphere",
@@ -20497,7 +20497,7 @@ gt.bell.fish = [
       "end": 3
     },
     "id": 12816,
-    "icon": 7200,
+    "icon": 29755,
     "func": "fish",
     "rarity": 1,
     "title": "The Flagship",
@@ -20523,7 +20523,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 12827,
-    "icon": 7207,
+    "icon": 29754,
     "func": "fish",
     "rarity": 1,
     "title": "The Flagship",
@@ -20550,7 +20550,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 13727,
-    "icon": 7768,
+    "icon": 29758,
     "func": "fish",
     "rarity": 1,
     "title": "The Flagship",
@@ -20578,7 +20578,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 16744,
-    "icon": 9035,
+    "icon": 29759,
     "func": "fish",
     "rarity": 2,
     "title": "The Flagship",
@@ -20608,7 +20608,7 @@ gt.bell.fish = [
           "Platinum Fish"
         ],
         "id": 13727,
-        "icon": 7768
+        "icon": 29758
       }
     ],
     "weather": [
@@ -20618,7 +20618,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 17589,
-    "icon": 9368,
+    "icon": 29762,
     "func": "fish",
     "rarity": 2,
     "title": "The Flagship",
@@ -20638,7 +20638,7 @@ gt.bell.fish = [
       "Goblin Jig"
     ],
     "id": 12721,
-    "icon": 7141,
+    "icon": 29405,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
@@ -20659,7 +20659,7 @@ gt.bell.fish = [
       "Goblin Jig"
     ],
     "id": 12721,
-    "icon": 7141,
+    "icon": 29405,
     "func": "fish",
     "rarity": 1,
     "title": "Whilom River",
@@ -20680,7 +20680,7 @@ gt.bell.fish = [
       "Goblin Jig"
     ],
     "id": 12721,
-    "icon": 7141,
+    "icon": 29405,
     "func": "fish",
     "rarity": 1,
     "title": "The Smoldering Wastes",
@@ -20706,7 +20706,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 12741,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
@@ -20731,7 +20731,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 12741,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Whilom River",
@@ -20756,7 +20756,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 12741,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "The Iron Feast",
@@ -20776,7 +20776,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 12722,
-    "icon": 7142,
+    "icon": 29404,
     "func": "fish",
     "rarity": 1,
     "title": "Whilom River",
@@ -20796,7 +20796,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 12722,
-    "icon": 7142,
+    "icon": 29404,
     "func": "fish",
     "rarity": 1,
     "title": "The Iron Feast",
@@ -20821,7 +20821,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 12740,
-    "icon": 7157,
+    "icon": 29407,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
@@ -20841,7 +20841,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 13729,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
@@ -20862,7 +20862,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 17566,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
@@ -20888,7 +20888,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 15629,
-    "icon": 8555,
+    "icon": 29426,
     "func": "fish",
     "rarity": 2,
     "title": "The Hundred Throes",
@@ -20909,7 +20909,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 12733,
-    "icon": 7152,
+    "icon": 29413,
     "func": "fish",
     "rarity": 1,
     "title": "Whilom River",
@@ -20930,7 +20930,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 12733,
-    "icon": 7152,
+    "icon": 29413,
     "func": "fish",
     "rarity": 1,
     "title": "The Smoldering Wastes",
@@ -20960,7 +20960,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 12761,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "Whilom River",
@@ -20992,7 +20992,7 @@ gt.bell.fish = [
       "Dust Storms"
     ],
     "id": 16747,
-    "icon": 9038,
+    "icon": 29432,
     "func": "fish",
     "rarity": 2,
     "title": "Whilom River",
@@ -21016,7 +21016,7 @@ gt.bell.fish = [
       "end": 3
     },
     "id": 12767,
-    "icon": 7174,
+    "icon": 29402,
     "func": "fish",
     "rarity": 1,
     "title": "The Smoldering Wastes",
@@ -21047,7 +21047,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 15630,
-    "icon": 8556,
+    "icon": 29427,
     "func": "fish",
     "rarity": 2,
     "title": "The Smoldering Wastes",
@@ -21072,7 +21072,7 @@ gt.bell.fish = [
       "end": 4
     },
     "id": 12828,
-    "icon": 2988,
+    "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "The Iron Feast",
@@ -21097,7 +21097,7 @@ gt.bell.fish = [
       "end": 4
     },
     "id": 12828,
-    "icon": 2988,
+    "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "Diadem Grotto",
@@ -21123,7 +21123,7 @@ gt.bell.fish = [
       "end": 12
     },
     "id": 14211,
-    "icon": 7968,
+    "icon": 29424,
     "func": "fish",
     "rarity": 1,
     "title": "The Iron Feast",
@@ -21157,7 +21157,7 @@ gt.bell.fish = [
       "Dust Storms"
     ],
     "id": 17582,
-    "icon": 9361,
+    "icon": 29437,
     "func": "fish",
     "rarity": 2,
     "title": "The Iron Feast",
@@ -21177,7 +21177,7 @@ gt.bell.fish = [
       "Magma Worm"
     ],
     "id": 12754,
-    "icon": 7169,
+    "icon": 29854,
     "func": "fish",
     "rarity": 1,
     "title": "Mourn",
@@ -21197,7 +21197,7 @@ gt.bell.fish = [
       "Magma Worm"
     ],
     "id": 12754,
-    "icon": 7169,
+    "icon": 29854,
     "func": "fish",
     "rarity": 1,
     "title": "Anyx Old",
@@ -21217,7 +21217,7 @@ gt.bell.fish = [
       "Magma Worm"
     ],
     "id": 12754,
-    "icon": 7169,
+    "icon": 29854,
     "func": "fish",
     "rarity": 1,
     "title": "Halo",
@@ -21239,7 +21239,7 @@ gt.bell.fish = [
       "Granite Crab"
     ],
     "id": 15631,
-    "icon": 8557,
+    "icon": 29861,
     "func": "fish",
     "rarity": 2,
     "title": "Mourn",
@@ -21265,7 +21265,7 @@ gt.bell.fish = [
       "end": 6
     },
     "id": 16751,
-    "icon": 9042,
+    "icon": 29862,
     "func": "fish",
     "rarity": 2,
     "title": "West Mourn",
@@ -21291,7 +21291,7 @@ gt.bell.fish = [
       "end": 5
     },
     "id": 12786,
-    "icon": 7186,
+    "icon": 29856,
     "func": "fish",
     "rarity": 1,
     "title": "Anyx Old",
@@ -21324,7 +21324,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 17583,
-    "icon": 9362,
+    "icon": 29864,
     "func": "fish",
     "rarity": 2,
     "title": "Anyx Old",
@@ -21346,7 +21346,7 @@ gt.bell.fish = [
       "Granite Crab"
     ],
     "id": 12800,
-    "icon": 7191,
+    "icon": 29853,
     "func": "fish",
     "rarity": 1,
     "title": "Halo",
@@ -21378,7 +21378,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 12832,
-    "icon": 7210,
+    "icon": 29859,
     "func": "fish",
     "rarity": 1,
     "title": "Halo",
@@ -21409,7 +21409,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 17584,
-    "icon": 9363,
+    "icon": 29865,
     "func": "fish",
     "rarity": 2,
     "title": "Halo",
@@ -21443,7 +21443,7 @@ gt.bell.fish = [
           "Granite Crab"
         ],
         "id": 12800,
-        "icon": 7191
+        "icon": 29853
       },
       {
         "name": "Granite Crab",
@@ -21452,7 +21452,7 @@ gt.bell.fish = [
           "Magma Worm"
         ],
         "id": 12754,
-        "icon": 7169
+        "icon": 29854
       }
     ],
     "weather": [
@@ -21460,7 +21460,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 17588,
-    "icon": 9367,
+    "icon": 29863,
     "func": "fish",
     "rarity": 2,
     "title": "Halo",
@@ -21480,7 +21480,7 @@ gt.bell.fish = [
       "Goblin Jig"
     ],
     "id": 12780,
-    "icon": 7181,
+    "icon": 29395,
     "func": "fish",
     "rarity": 1,
     "title": "Thaliak River",
@@ -21500,7 +21500,7 @@ gt.bell.fish = [
       "Goblin Jig"
     ],
     "id": 12780,
-    "icon": 7181,
+    "icon": 29395,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Thaliak River",
@@ -21521,7 +21521,7 @@ gt.bell.fish = [
       "Hedgemole Cricket"
     ],
     "id": 12804,
-    "icon": 3030,
+    "icon": 29260,
     "func": "fish",
     "rarity": 1,
     "title": "Thaliak River",
@@ -21543,7 +21543,7 @@ gt.bell.fish = [
       "Sweetfish"
     ],
     "id": 15632,
-    "icon": 4626,
+    "icon": 29338,
     "func": "fish",
     "rarity": 2,
     "title": "Thaliak River",
@@ -21564,7 +21564,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 14212,
-    "icon": 7969,
+    "icon": 29421,
     "func": "fish",
     "rarity": 1,
     "title": "Quickspill Delta",
@@ -21593,7 +21593,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 16748,
-    "icon": 9039,
+    "icon": 29433,
     "func": "fish",
     "rarity": 2,
     "title": "Quickspill Delta",
@@ -21618,7 +21618,7 @@ gt.bell.fish = [
       "end": 20
     },
     "id": 12830,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Thaliak River",
@@ -21644,7 +21644,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 14220,
-    "icon": 7976,
+    "icon": 29422,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Thaliak River",
@@ -21673,7 +21673,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 17585,
-    "icon": 9364,
+    "icon": 29438,
     "func": "fish",
     "rarity": 2,
     "title": "Upper Thaliak River",
@@ -21705,14 +21705,14 @@ gt.bell.fish = [
           "Stonefly Nymph"
         ],
         "id": 12757,
-        "icon": 7172
+        "icon": 29801
       }
     ],
     "weather": [
       "Clear Skies"
     ],
     "id": 17590,
-    "icon": 9377,
+    "icon": 29435,
     "func": "fish",
     "rarity": 2,
     "title": "Upper Thaliak River",
@@ -21737,7 +21737,7 @@ gt.bell.fish = [
       "end": 18
     },
     "id": 12831,
-    "icon": 7209,
+    "icon": 29415,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Thaliak River",
@@ -21762,7 +21762,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 12836,
-    "icon": 3032,
+    "icon": 29238,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Thaliak River",
@@ -21792,7 +21792,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 13732,
-    "icon": 2973,
+    "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Thaliak River",
@@ -21824,7 +21824,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 16754,
-    "icon": 4614,
+    "icon": 29330,
     "func": "fish",
     "rarity": 2,
     "title": "Middle Thaliak River",
@@ -21848,7 +21848,7 @@ gt.bell.fish = [
       "end": 2
     },
     "id": 12743,
-    "icon": 7159,
+    "icon": 29410,
     "func": "fish",
     "rarity": 1,
     "title": "Eil Tohm",
@@ -21868,7 +21868,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 12768,
-    "icon": 7175,
+    "icon": 29403,
     "func": "fish",
     "rarity": 1,
     "title": "Eil Tohm",
@@ -21889,7 +21889,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "id": 12768,
-    "icon": 7175,
+    "icon": 29403,
     "func": "fish",
     "rarity": 1,
     "title": "Diadem Grotto",
@@ -21915,7 +21915,7 @@ gt.bell.fish = [
       "end": 10
     },
     "id": 15633,
-    "icon": 8558,
+    "icon": 29428,
     "func": "fish",
     "rarity": 2,
     "title": "Eil Tohm",
@@ -21946,7 +21946,7 @@ gt.bell.fish = [
       "Gales"
     ],
     "id": 16749,
-    "icon": 9040,
+    "icon": 29434,
     "func": "fish",
     "rarity": 2,
     "title": "Greensward",
@@ -21970,7 +21970,7 @@ gt.bell.fish = [
       "end": 19
     },
     "id": 12742,
-    "icon": 7158,
+    "icon": 29397,
     "func": "fish",
     "rarity": 1,
     "title": "Weston Waters",
@@ -21995,7 +21995,7 @@ gt.bell.fish = [
       "end": 12
     },
     "id": 12792,
-    "icon": 3053,
+    "icon": 29302,
     "func": "fish",
     "rarity": 1,
     "title": "Weston Waters",
@@ -22016,7 +22016,7 @@ gt.bell.fish = [
       "Bladed Steel Jig"
     ],
     "id": 17565,
-    "icon": 7189,
+    "icon": 29419,
     "func": "fish",
     "rarity": 1,
     "title": "Weston Waters",
@@ -22044,7 +22044,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 17586,
-    "icon": 9365,
+    "icon": 29439,
     "func": "fish",
     "rarity": 2,
     "title": "Weston Waters",
@@ -22073,7 +22073,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 13731,
-    "icon": 7770,
+    "icon": 29726,
     "func": "fish",
     "rarity": 1,
     "title": "Landlord Colony",
@@ -22102,7 +22102,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 15634,
-    "icon": 4627,
+    "icon": 29074,
     "func": "fish",
     "rarity": 2,
     "title": "Landlord Colony",
@@ -22126,7 +22126,7 @@ gt.bell.fish = [
       "end": 17
     },
     "id": 12821,
-    "icon": 7203,
+    "icon": 29707,
     "func": "fish",
     "rarity": 1,
     "title": "Sohm Al Summit",
@@ -22155,7 +22155,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 16742,
-    "icon": 9033,
+    "icon": 29730,
     "func": "fish",
     "rarity": 2,
     "title": "Sohm Al Summit",
@@ -22184,7 +22184,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 12784,
-    "icon": 7185,
+    "icon": 29704,
     "func": "fish",
     "rarity": 1,
     "title": "Tharl Oom Khash",
@@ -22207,7 +22207,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 12789,
-    "icon": 3077,
+    "icon": 29232,
     "func": "fish",
     "rarity": 1,
     "title": "Tharl Oom Khash",
@@ -22227,7 +22227,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 12835,
-    "icon": 7213,
+    "icon": 29712,
     "func": "fish",
     "rarity": 1,
     "title": "Tharl Oom Khash",
@@ -22255,7 +22255,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 17587,
-    "icon": 9366,
+    "icon": 29736,
     "func": "fish",
     "rarity": 2,
     "title": "Tharl Oom Khash",
@@ -22288,14 +22288,14 @@ gt.bell.fish = [
           "Giant Crane Fly"
         ],
         "id": 12805,
-        "icon": 7194
+        "icon": 29717
       }
     ],
     "weather": [
       "Gales"
     ],
     "id": 17593,
-    "icon": 9371,
+    "icon": 29733,
     "func": "fish",
     "rarity": 2,
     "title": "Tharl Oom Khash",
@@ -22315,7 +22315,7 @@ gt.bell.fish = [
       "Bladed Steel Jig"
     ],
     "id": 13740,
-    "icon": 7773,
+    "icon": 29420,
     "func": "fish",
     "rarity": 1,
     "title": "Diadem Grotto",
@@ -22335,7 +22335,7 @@ gt.bell.fish = [
       "Bladed Steel Jig"
     ],
     "id": 13740,
-    "icon": 7773,
+    "icon": 29420,
     "func": "fish",
     "rarity": 1,
     "title": "Southern Diadem Lake",
@@ -22355,7 +22355,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 13737,
-    "icon": 3039,
+    "icon": 29266,
     "func": "fish",
     "rarity": 1,
     "title": "Diadem Grotto",
@@ -22375,7 +22375,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 13737,
-    "icon": 3039,
+    "icon": 29266,
     "func": "fish",
     "rarity": 1,
     "title": "Southern Diadem Lake",
@@ -22395,7 +22395,7 @@ gt.bell.fish = [
       "Stonefly Nymph"
     ],
     "id": 13737,
-    "icon": 3039,
+    "icon": 29266,
     "func": "fish",
     "rarity": 1,
     "title": "Northern Diadem Lake",
@@ -22415,7 +22415,7 @@ gt.bell.fish = [
       "Purse Web Spider"
     ],
     "id": 13738,
-    "icon": 3053,
+    "icon": 29302,
     "func": "fish",
     "rarity": 1,
     "title": "Diadem Grotto",
@@ -22435,7 +22435,7 @@ gt.bell.fish = [
       "Purse Web Spider"
     ],
     "id": 13738,
-    "icon": 3053,
+    "icon": 29302,
     "func": "fish",
     "rarity": 1,
     "title": "Southern Diadem Lake",
@@ -22455,7 +22455,7 @@ gt.bell.fish = [
       "Purse Web Spider"
     ],
     "id": 13738,
-    "icon": 3053,
+    "icon": 29302,
     "func": "fish",
     "rarity": 1,
     "title": "Northern Diadem Lake",
@@ -22475,7 +22475,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 13734,
-    "icon": 7772,
+    "icon": 29727,
     "func": "fish",
     "rarity": 1,
     "title": "Calm Cloudtop",
@@ -22495,7 +22495,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 13734,
-    "icon": 7772,
+    "icon": 29727,
     "func": "fish",
     "rarity": 1,
     "title": "Swirling Cloudtop",
@@ -22515,7 +22515,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 13736,
-    "icon": 3385,
+    "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Calm Cloudtop",
@@ -22535,7 +22535,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 13733,
-    "icon": 7771,
+    "icon": 29724,
     "func": "fish",
     "rarity": 1,
     "title": "Calm Cloudtop",
@@ -22555,7 +22555,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 13733,
-    "icon": 7771,
+    "icon": 29724,
     "func": "fish",
     "rarity": 1,
     "title": "Swirling Cloudtop",
@@ -22575,7 +22575,7 @@ gt.bell.fish = [
       "Giant Crane Fly"
     ],
     "id": 13733,
-    "icon": 7771,
+    "icon": 29724,
     "func": "fish",
     "rarity": 1,
     "title": "Blustery Cloudtop",
@@ -22595,7 +22595,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20042,
-    "icon": 9786,
+    "icon": 29465,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Mirage Creek",
@@ -22615,7 +22615,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20055,
-    "icon": 2971,
+    "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Mirage Creek",
@@ -22635,7 +22635,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20056,
-    "icon": 2970,
+    "icon": 29204,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Mirage Creek",
@@ -22655,7 +22655,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20056,
-    "icon": 2970,
+    "icon": 29204,
     "func": "fish",
     "rarity": 1,
     "title": "Rhalgr's Reach",
@@ -22675,7 +22675,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20056,
-    "icon": 2970,
+    "icon": 29204,
     "func": "fish",
     "rarity": 1,
     "title": "The Slow Wash",
@@ -22695,7 +22695,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20056,
-    "icon": 2970,
+    "icon": 29204,
     "func": "fish",
     "rarity": 1,
     "title": "The Arms of Meed",
@@ -22720,7 +22720,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 20058,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Mirage Creek",
@@ -22744,7 +22744,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 20058,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Timmon Beck",
@@ -22768,7 +22768,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 20058,
-    "icon": 2962,
+    "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Dimwold",
@@ -22789,7 +22789,7 @@ gt.bell.fish = [
       "Gyr Abanian Trout"
     ],
     "id": 20057,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Mirage Creek",
@@ -22809,7 +22809,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20057,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "The Outer Fist",
@@ -22829,7 +22829,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20057,
-    "icon": 2982,
+    "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "The Velodyna River",
@@ -22851,7 +22851,7 @@ gt.bell.fish = [
       "Gyr Abanian Trout"
     ],
     "id": 23057,
-    "icon": 12086,
+    "icon": 29523,
     "func": "fish",
     "rarity": 2,
     "title": "Upper Mirage Creek",
@@ -22871,7 +22871,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20029,
-    "icon": 9799,
+    "icon": 29463,
     "func": "fish",
     "rarity": 1,
     "title": "Rhalgr's Reach",
@@ -22891,7 +22891,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20062,
-    "icon": 2977,
+    "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Rhalgr's Reach",
@@ -22912,7 +22912,7 @@ gt.bell.fish = [
       "Gyr Abanian Trout"
     ],
     "id": 20059,
-    "icon": 2972,
+    "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Rhalgr's Reach",
@@ -22932,7 +22932,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20060,
-    "icon": 2993,
+    "icon": 29249,
     "func": "fish",
     "rarity": 1,
     "title": "Rhalgr's Reach",
@@ -22953,7 +22953,7 @@ gt.bell.fish = [
       "Gyr Abanian Trout"
     ],
     "id": 20061,
-    "icon": 3059,
+    "icon": 29224,
     "func": "fish",
     "rarity": 1,
     "title": "Rhalgr's Reach",
@@ -22978,7 +22978,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 24205,
-    "icon": 12406,
+    "icon": 29533,
     "func": "fish",
     "rarity": 2,
     "title": "Rhalgr's Reach",
@@ -22998,7 +22998,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20064,
-    "icon": 3079,
+    "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "The Outer Fist",
@@ -23018,7 +23018,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20064,
-    "icon": 3079,
+    "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "Timmon Beck",
@@ -23044,7 +23044,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 22392,
-    "icon": 11595,
+    "icon": 29520,
     "func": "fish",
     "rarity": 1,
     "title": "The Outer Fist",
@@ -23073,7 +23073,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 24206,
-    "icon": 12405,
+    "icon": 29534,
     "func": "fish",
     "rarity": 2,
     "title": "The Outer Fist",
@@ -23093,7 +23093,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20066,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Timmon Beck",
@@ -23113,7 +23113,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20066,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Grymm & Enid",
@@ -23133,7 +23133,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20066,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "The Slow Wash",
@@ -23153,7 +23153,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20066,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Heather Falls",
@@ -23173,7 +23173,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20066,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "The Bull's Bath",
@@ -23193,7 +23193,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20785,
-    "icon": 2956,
+    "icon": 29247,
     "func": "fish",
     "rarity": 1,
     "title": "Timmon Beck",
@@ -23218,7 +23218,7 @@ gt.bell.fish = [
       "end": 20
     },
     "id": 24207,
-    "icon": 12404,
+    "icon": 29535,
     "func": "fish",
     "rarity": 2,
     "title": "Timmon Beck",
@@ -23244,7 +23244,7 @@ gt.bell.fish = [
       "end": 20
     },
     "id": 24990,
-    "icon": 13179,
+    "icon": 29548,
     "func": "fish",
     "rarity": 2,
     "title": "Timmon Beck",
@@ -23264,7 +23264,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20082,
-    "icon": 3001,
+    "icon": 29289,
     "func": "fish",
     "rarity": 1,
     "title": "Dimwold",
@@ -23284,7 +23284,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20082,
-    "icon": 3001,
+    "icon": 29289,
     "func": "fish",
     "rarity": 1,
     "title": "The Comet's Tail",
@@ -23304,7 +23304,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20083,
-    "icon": 7184,
+    "icon": 29417,
     "func": "fish",
     "rarity": 1,
     "title": "Dimwold",
@@ -23324,7 +23324,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20136,
-    "icon": 9774,
+    "icon": 29488,
     "func": "fish",
     "rarity": 1,
     "title": "Dimwold",
@@ -23344,7 +23344,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20081,
-    "icon": 3000,
+    "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "Dimwold",
@@ -23373,7 +23373,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 20142,
-    "icon": 2986,
+    "icon": 29256,
     "func": "fish",
     "rarity": 1,
     "title": "Dimwold",
@@ -23394,7 +23394,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 24559,
-    "icon": 2993,
+    "icon": 29249,
     "func": "fish",
     "rarity": 1,
     "title": "Dimwold",
@@ -23418,7 +23418,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 23058,
-    "icon": 12085,
+    "icon": 29524,
     "func": "fish",
     "rarity": 2,
     "title": "Dimwold",
@@ -23442,7 +23442,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 20084,
-    "icon": 7162,
+    "icon": 29718,
     "func": "fish",
     "rarity": 1,
     "title": "The Comet's Tail",
@@ -23462,7 +23462,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20085,
-    "icon": 7158,
+    "icon": 29397,
     "func": "fish",
     "rarity": 1,
     "title": "The Comet's Tail",
@@ -23486,7 +23486,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 20086,
-    "icon": 3052,
+    "icon": 29293,
     "func": "fish",
     "rarity": 1,
     "title": "The Comet's Tail",
@@ -23514,7 +23514,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 21174,
-    "icon": 11267,
+    "icon": 29515,
     "func": "fish",
     "rarity": 1,
     "title": "The Comet's Tail",
@@ -23534,7 +23534,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 23072,
-    "icon": 3045,
+    "icon": 29261,
     "func": "fish",
     "rarity": 1,
     "title": "The Comet's Tail",
@@ -23559,7 +23559,7 @@ gt.bell.fish = [
       "end": 16
     },
     "id": 23059,
-    "icon": 12084,
+    "icon": 29525,
     "func": "fish",
     "rarity": 2,
     "title": "The Comet's Tail",
@@ -23579,7 +23579,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20087,
-    "icon": 7157,
+    "icon": 29407,
     "func": "fish",
     "rarity": 1,
     "title": "The Velodyna River",
@@ -23600,7 +23600,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20033,
-    "icon": 9795,
+    "icon": 29479,
     "func": "fish",
     "rarity": 1,
     "title": "The Velodyna River",
@@ -23620,7 +23620,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20088,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "The Velodyna River",
@@ -23640,7 +23640,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 17949,
-    "icon": 2966,
+    "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "The Velodyna River",
@@ -23660,7 +23660,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20788,
-    "icon": 2979,
+    "icon": 29282,
     "func": "fish",
     "rarity": 1,
     "title": "The Velodyna River",
@@ -23684,7 +23684,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 24208,
-    "icon": 12403,
+    "icon": 29536,
     "func": "fish",
     "rarity": 2,
     "title": "The Velodyna River",
@@ -23704,7 +23704,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20090,
-    "icon": 3030,
+    "icon": 29260,
     "func": "fish",
     "rarity": 1,
     "title": "Mirage Creek",
@@ -23724,7 +23724,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20047,
-    "icon": 9781,
+    "icon": 29496,
     "func": "fish",
     "rarity": 1,
     "title": "Mirage Creek",
@@ -23744,7 +23744,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20091,
-    "icon": 2964,
+    "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Mirage Creek",
@@ -23764,7 +23764,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20089,
-    "icon": 2988,
+    "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "Mirage Creek",
@@ -23789,7 +23789,7 @@ gt.bell.fish = [
       "end": 8
     },
     "id": 22389,
-    "icon": 11598,
+    "icon": 29518,
     "func": "fish",
     "rarity": 1,
     "title": "Mirage Creek",
@@ -23817,7 +23817,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 24209,
-    "icon": 12402,
+    "icon": 29537,
     "func": "fish",
     "rarity": 2,
     "title": "Mirage Creek",
@@ -23837,7 +23837,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20067,
-    "icon": 2980,
+    "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Grymm & Enid",
@@ -23857,7 +23857,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20068,
-    "icon": 7142,
+    "icon": 29404,
     "func": "fish",
     "rarity": 1,
     "title": "Grymm & Enid",
@@ -23877,7 +23877,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 23071,
-    "icon": 2996,
+    "icon": 29288,
     "func": "fish",
     "rarity": 1,
     "title": "Grymm & Enid",
@@ -23901,7 +23901,7 @@ gt.bell.fish = [
       "Dust Storms"
     ],
     "id": 23060,
-    "icon": 12083,
+    "icon": 29526,
     "func": "fish",
     "rarity": 2,
     "title": "Grymm & Enid",
@@ -23929,14 +23929,14 @@ gt.bell.fish = [
           "Suspending Minnow"
         ],
         "id": 23060,
-        "icon": 12083
+        "icon": 29526
       }
     ],
     "weather": [
       "Dust Storms"
     ],
     "id": 24991,
-    "icon": 13178,
+    "icon": 29549,
     "func": "fish",
     "rarity": 2,
     "title": "Grymm & Enid",
@@ -23956,7 +23956,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 20045,
-    "icon": 9783,
+    "icon": 29492,
     "func": "fish",
     "rarity": 1,
     "title": "The Slow Wash",
@@ -23976,7 +23976,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20070,
-    "icon": 3022,
+    "icon": 29270,
     "func": "fish",
     "rarity": 1,
     "title": "The Slow Wash",
@@ -23996,7 +23996,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20050,
-    "icon": 9779,
+    "icon": 29498,
     "func": "fish",
     "rarity": 1,
     "title": "The Slow Wash",
@@ -24016,7 +24016,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20050,
-    "icon": 9779,
+    "icon": 29498,
     "func": "fish",
     "rarity": 1,
     "title": "The Ephor",
@@ -24036,7 +24036,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20069,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Slow Wash",
@@ -24056,7 +24056,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20069,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Bull's Bath",
@@ -24082,7 +24082,7 @@ gt.bell.fish = [
       "end": 12
     },
     "id": 23061,
-    "icon": 4696,
+    "icon": 29360,
     "func": "fish",
     "rarity": 2,
     "title": "The Slow Wash",
@@ -24102,7 +24102,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20072,
-    "icon": 7174,
+    "icon": 29402,
     "func": "fish",
     "rarity": 1,
     "title": "Heather Falls",
@@ -24122,7 +24122,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20071,
-    "icon": 7968,
+    "icon": 29424,
     "func": "fish",
     "rarity": 1,
     "title": "Heather Falls",
@@ -24145,7 +24145,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 20043,
-    "icon": 9785,
+    "icon": 29466,
     "func": "fish",
     "rarity": 1,
     "title": "Heather Falls",
@@ -24165,7 +24165,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20789,
-    "icon": 9789,
+    "icon": 29909,
     "func": "fish",
     "rarity": 1,
     "title": "Heather Falls",
@@ -24192,7 +24192,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 24210,
-    "icon": 9361,
+    "icon": 29437,
     "func": "fish",
     "rarity": 2,
     "title": "Heather Falls",
@@ -24212,7 +24212,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20073,
-    "icon": 7166,
+    "icon": 29400,
     "func": "fish",
     "rarity": 1,
     "title": "The Ephor",
@@ -24232,7 +24232,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20073,
-    "icon": 7166,
+    "icon": 29400,
     "func": "fish",
     "rarity": 1,
     "title": "The Bull's Bath",
@@ -24252,7 +24252,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20075,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "The Ephor",
@@ -24275,7 +24275,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 20074,
-    "icon": 3060,
+    "icon": 29287,
     "func": "fish",
     "rarity": 1,
     "title": "The Ephor",
@@ -24306,7 +24306,7 @@ gt.bell.fish = [
       "Dust Storms"
     ],
     "id": 24212,
-    "icon": 12400,
+    "icon": 29539,
     "func": "fish",
     "rarity": 2,
     "title": "The Ephor",
@@ -24332,7 +24332,7 @@ gt.bell.fish = [
       "Dust Storms"
     ],
     "id": 20076,
-    "icon": 3021,
+    "icon": 29303,
     "func": "fish",
     "rarity": 1,
     "title": "The Bull's Bath",
@@ -24352,7 +24352,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20077,
-    "icon": 2987,
+    "icon": 29301,
     "func": "fish",
     "rarity": 1,
     "title": "The Bull's Bath",
@@ -24377,7 +24377,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 22391,
-    "icon": 11596,
+    "icon": 29519,
     "func": "fish",
     "rarity": 1,
     "title": "The Bull's Bath",
@@ -24405,7 +24405,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 24211,
-    "icon": 12401,
+    "icon": 29538,
     "func": "fish",
     "rarity": 2,
     "title": "The Bull's Bath",
@@ -24425,7 +24425,7 @@ gt.bell.fish = [
       "Stonefly Larva"
     ],
     "id": 20079,
-    "icon": 3011,
+    "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "The Arms of Meed",
@@ -24449,7 +24449,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 20141,
-    "icon": 7208,
+    "icon": 29414,
     "func": "fish",
     "rarity": 1,
     "title": "The Arms of Meed",
@@ -24469,7 +24469,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20078,
-    "icon": 3023,
+    "icon": 29278,
     "func": "fish",
     "rarity": 1,
     "title": "The Arms of Meed",
@@ -24489,7 +24489,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20019,
-    "icon": 9808,
+    "icon": 29103,
     "func": "fish",
     "rarity": 1,
     "title": "The Arms of Meed",
@@ -24522,7 +24522,7 @@ gt.bell.fish = [
       "Dust Storms"
     ],
     "id": 21175,
-    "icon": 11266,
+    "icon": 29516,
     "func": "fish",
     "rarity": 1,
     "title": "The Arms of Meed",
@@ -24549,7 +24549,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 24881,
-    "icon": 12896,
+    "icon": 29161,
     "func": "fish",
     "rarity": 2,
     "title": "The Arms of Meed",
@@ -24569,7 +24569,7 @@ gt.bell.fish = [
       "Silkworm"
     ],
     "id": 20025,
-    "icon": 9802,
+    "icon": 29901,
     "func": "fish",
     "rarity": 1,
     "title": "Loch Seld",
@@ -24589,7 +24589,7 @@ gt.bell.fish = [
       "Silkworm"
     ],
     "id": 20039,
-    "icon": 9789,
+    "icon": 29909,
     "func": "fish",
     "rarity": 1,
     "title": "Loch Seld",
@@ -24609,7 +24609,7 @@ gt.bell.fish = [
       "Silkworm"
     ],
     "id": 20035,
-    "icon": 9793,
+    "icon": 29906,
     "func": "fish",
     "rarity": 1,
     "title": "Loch Seld",
@@ -24630,7 +24630,7 @@ gt.bell.fish = [
       "Rock Saltfish"
     ],
     "id": 20041,
-    "icon": 9787,
+    "icon": 29923,
     "func": "fish",
     "rarity": 1,
     "title": "Loch Seld",
@@ -24660,7 +24660,7 @@ gt.bell.fish = [
       "Thunderstorms"
     ],
     "id": 20040,
-    "icon": 9788,
+    "icon": 29922,
     "func": "fish",
     "rarity": 1,
     "title": "Loch Seld",
@@ -24687,7 +24687,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 22394,
-    "icon": 11593,
+    "icon": 29917,
     "func": "fish",
     "rarity": 1,
     "title": "Loch Seld",
@@ -24712,7 +24712,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 23062,
-    "icon": 12082,
+    "icon": 29926,
     "func": "fish",
     "rarity": 2,
     "title": "Loch Seld",
@@ -24746,14 +24746,14 @@ gt.bell.fish = [
           "Rock Saltfish"
         ],
         "id": 20040,
-        "icon": 9788
+        "icon": 29922
       }
     ],
     "weather": [
       "Thunderstorms"
     ],
     "id": 24992,
-    "icon": 13177,
+    "icon": 29927,
     "func": "fish",
     "rarity": 2,
     "title": "Loch Seld",
@@ -24773,7 +24773,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20092,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "The Ruby Price",
@@ -24793,7 +24793,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20092,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
@@ -24813,7 +24813,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20092,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
@@ -24833,7 +24833,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20092,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
@@ -24853,7 +24853,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20092,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Kugane Piers",
@@ -24873,7 +24873,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20092,
-    "icon": 2900,
+    "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Shirogane",
@@ -24893,7 +24893,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20093,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "The Ruby Price",
@@ -24913,7 +24913,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20093,
-    "icon": 2904,
+    "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Isari",
@@ -24933,7 +24933,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20037,
-    "icon": 9791,
+    "icon": 29126,
     "func": "fish",
     "rarity": 1,
     "title": "The Ruby Price",
@@ -24953,7 +24953,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20786,
-    "icon": 9775,
+    "icon": 29123,
     "func": "fish",
     "rarity": 1,
     "title": "The Ruby Price",
@@ -24984,7 +24984,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 24214,
-    "icon": 12398,
+    "icon": 29159,
     "func": "fish",
     "rarity": 2,
     "title": "The Ruby Price",
@@ -25004,7 +25004,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20094,
-    "icon": 2902,
+    "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
@@ -25024,7 +25024,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20094,
-    "icon": 2902,
+    "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
@@ -25044,7 +25044,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20112,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
@@ -25064,7 +25064,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20112,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
@@ -25084,7 +25084,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20112,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Onokoro",
@@ -25104,7 +25104,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20112,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Zekki",
@@ -25124,7 +25124,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20112,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Kugane Piers",
@@ -25144,7 +25144,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20112,
-    "icon": 2901,
+    "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Shirogane",
@@ -25165,7 +25165,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20109,
-    "icon": 2952,
+    "icon": 29019,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
@@ -25191,7 +25191,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 20018,
-    "icon": 10768,
+    "icon": 29115,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
@@ -25219,7 +25219,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 21176,
-    "icon": 11265,
+    "icon": 29150,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
@@ -25241,7 +25241,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 23054,
-    "icon": 12088,
+    "icon": 29154,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
@@ -25261,7 +25261,7 @@ gt.bell.fish = [
       "Bream Lure"
     ],
     "id": 24560,
-    "icon": 2919,
+    "icon": 29049,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
@@ -25290,7 +25290,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 24882,
-    "icon": 12895,
+    "icon": 29162,
     "func": "fish",
     "rarity": 2,
     "title": "Hells' Lid",
@@ -25311,7 +25311,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20099,
-    "icon": 2951,
+    "icon": 29021,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
@@ -25332,7 +25332,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20110,
-    "icon": 2926,
+    "icon": 29018,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
@@ -25353,7 +25353,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20110,
-    "icon": 2926,
+    "icon": 29018,
     "func": "fish",
     "rarity": 1,
     "title": "Kugane Piers",
@@ -25374,7 +25374,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20110,
-    "icon": 2926,
+    "icon": 29018,
     "func": "fish",
     "rarity": 1,
     "title": "Shirogane",
@@ -25403,7 +25403,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 20034,
-    "icon": 9794,
+    "icon": 29121,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
@@ -25424,7 +25424,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 22393,
-    "icon": 11594,
+    "icon": 29153,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
@@ -25455,7 +25455,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 24883,
-    "icon": 12894,
+    "icon": 29163,
     "func": "fish",
     "rarity": 2,
     "title": "The Isle of Bekko",
@@ -25476,7 +25476,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20095,
-    "icon": 3341,
+    "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
@@ -25497,7 +25497,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20096,
-    "icon": 3340,
+    "icon": 29061,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
@@ -25518,7 +25518,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20097,
-    "icon": 3339,
+    "icon": 29062,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
@@ -25538,7 +25538,7 @@ gt.bell.fish = [
       "Blue Bobbit"
     ],
     "id": 20098,
-    "icon": 2906,
+    "icon": 29016,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
@@ -25561,7 +25561,7 @@ gt.bell.fish = [
     ],
     "hookset": "Precision Hookset",
     "id": 20048,
-    "icon": 10770,
+    "icon": 29139,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
@@ -25582,7 +25582,7 @@ gt.bell.fish = [
     ],
     "hookset": "Precision Hookset",
     "id": 17950,
-    "icon": 10770,
+    "icon": 29139,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
@@ -25602,7 +25602,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 24558,
-    "icon": 2815,
+    "icon": 29063,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
@@ -25627,7 +25627,7 @@ gt.bell.fish = [
       "end": 20
     },
     "id": 23065,
-    "icon": 12079,
+    "icon": 29157,
     "func": "fish",
     "rarity": 2,
     "title": "Shoal Rock",
@@ -25648,7 +25648,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20101,
-    "icon": 2927,
+    "icon": 29053,
     "func": "fish",
     "rarity": 1,
     "title": "Onokoro",
@@ -25669,7 +25669,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20102,
-    "icon": 2907,
+    "icon": 29052,
     "func": "fish",
     "rarity": 1,
     "title": "Onokoro",
@@ -25690,7 +25690,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20022,
-    "icon": 9805,
+    "icon": 29128,
     "func": "fish",
     "rarity": 1,
     "title": "Onokoro",
@@ -25721,7 +25721,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 20100,
-    "icon": 2947,
+    "icon": 29022,
     "func": "fish",
     "rarity": 1,
     "title": "Onokoro",
@@ -25743,7 +25743,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 17952,
-    "icon": 10768,
+    "icon": 29115,
     "func": "fish",
     "rarity": 1,
     "title": "Onokoro",
@@ -25768,7 +25768,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 24215,
-    "icon": 12397,
+    "icon": 29160,
     "func": "fish",
     "rarity": 2,
     "title": "Onokoro",
@@ -25788,7 +25788,7 @@ gt.bell.fish = [
       "Bream Lure"
     ],
     "id": 20106,
-    "icon": 2912,
+    "icon": 29042,
     "func": "fish",
     "rarity": 1,
     "title": "Isari",
@@ -25808,7 +25808,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20107,
-    "icon": 2932,
+    "icon": 29046,
     "func": "fish",
     "rarity": 1,
     "title": "Isari",
@@ -25829,7 +25829,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 20108,
-    "icon": 2944,
+    "icon": 29047,
     "func": "fish",
     "rarity": 1,
     "title": "Isari",
@@ -25849,7 +25849,7 @@ gt.bell.fish = [
       "Bream Lure"
     ],
     "id": 20032,
-    "icon": 9796,
+    "icon": 29474,
     "func": "fish",
     "rarity": 1,
     "title": "Isari",
@@ -25874,7 +25874,7 @@ gt.bell.fish = [
       "end": 7
     },
     "id": 22390,
-    "icon": 11597,
+    "icon": 29152,
     "func": "fish",
     "rarity": 1,
     "title": "Isari",
@@ -25894,7 +25894,7 @@ gt.bell.fish = [
       "Live Shrimp"
     ],
     "id": 23074,
-    "icon": 2930,
+    "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "Isari",
@@ -25922,7 +25922,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 24884,
-    "icon": 4708,
+    "icon": 29087,
     "func": "fish",
     "rarity": 2,
     "title": "Isari",
@@ -25944,7 +25944,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 20104,
-    "icon": 2949,
+    "icon": 29027,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Zekki",
@@ -25967,7 +25967,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 20105,
-    "icon": 2950,
+    "icon": 29023,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Zekki",
@@ -25988,7 +25988,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20038,
-    "icon": 9790,
+    "icon": 29133,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Zekki",
@@ -26009,7 +26009,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20103,
-    "icon": 2953,
+    "icon": 29024,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Zekki",
@@ -26034,7 +26034,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 23066,
-    "icon": 12078,
+    "icon": "t/29158",
     "func": "fish",
     "rarity": 2,
     "title": "The Isle of Zekki",
@@ -26054,7 +26054,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20123,
-    "icon": 3016,
+    "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The Heron's Nest",
@@ -26074,7 +26074,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20123,
-    "icon": 3016,
+    "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The Heron's Way",
@@ -26094,7 +26094,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20123,
-    "icon": 3016,
+    "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (East)",
@@ -26114,7 +26114,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20123,
-    "icon": 3016,
+    "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (West)",
@@ -26134,7 +26134,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20123,
-    "icon": 3016,
+    "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "Plum Spring",
@@ -26154,7 +26154,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20123,
-    "icon": 3016,
+    "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Canyon",
@@ -26174,7 +26174,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20123,
-    "icon": 3016,
+    "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "Mercantile Docks",
@@ -26194,7 +26194,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20123,
-    "icon": 3016,
+    "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "Doma Castle",
@@ -26214,7 +26214,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20123,
-    "icon": 3016,
+    "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Canal",
@@ -26234,7 +26234,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20111,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "The Heron's Nest",
@@ -26254,7 +26254,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20111,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "The Heron's Way",
@@ -26274,7 +26274,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20111,
-    "icon": 2955,
+    "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Canyon",
@@ -26294,7 +26294,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20787,
-    "icon": 7173,
+    "icon": 29406,
     "func": "fish",
     "rarity": 1,
     "title": "The Heron's Nest",
@@ -26318,7 +26318,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 24885,
-    "icon": 4728,
+    "icon": 29348,
     "func": "fish",
     "rarity": 2,
     "title": "The Heron's Nest",
@@ -26338,7 +26338,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20046,
-    "icon": 9782,
+    "icon": 29495,
     "func": "fish",
     "rarity": 1,
     "title": "The Heron's Way",
@@ -26365,7 +26365,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 24886,
-    "icon": 12893,
+    "icon": 29544,
     "func": "fish",
     "rarity": 2,
     "title": "The Heron's Way",
@@ -26385,7 +26385,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20137,
-    "icon": 9773,
+    "icon": 29457,
     "func": "fish",
     "rarity": 1,
     "title": "Namai",
@@ -26405,7 +26405,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20137,
-    "icon": 9773,
+    "icon": 29457,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Canal",
@@ -26433,7 +26433,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 24887,
-    "icon": 12892,
+    "icon": 29545,
     "func": "fish",
     "rarity": 2,
     "title": "Namai",
@@ -26453,7 +26453,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20118,
-    "icon": 3031,
+    "icon": 29239,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (East)",
@@ -26475,7 +26475,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 20120,
-    "icon": 7976,
+    "icon": 29422,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (East)",
@@ -26496,7 +26496,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 20120,
-    "icon": 7976,
+    "icon": 29422,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (West)",
@@ -26517,7 +26517,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 20020,
-    "icon": 9807,
+    "icon": 29445,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (East)",
@@ -26537,7 +26537,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20119,
-    "icon": 3059,
+    "icon": 29224,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (East)",
@@ -26557,7 +26557,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20119,
-    "icon": 3059,
+    "icon": 29224,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (West)",
@@ -26577,7 +26577,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20119,
-    "icon": 3059,
+    "icon": 29224,
     "func": "fish",
     "rarity": 1,
     "title": "Plum Spring",
@@ -26597,7 +26597,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20119,
-    "icon": 3059,
+    "icon": 29224,
     "func": "fish",
     "rarity": 1,
     "title": "Mercantile Docks",
@@ -26617,7 +26617,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 24561,
-    "icon": 2997,
+    "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (East)",
@@ -26648,7 +26648,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 24889,
-    "icon": 12891,
+    "icon": 29546,
     "func": "fish",
     "rarity": 2,
     "title": "The One River (East)",
@@ -26672,7 +26672,7 @@ gt.bell.fish = [
       "end": 24
     },
     "id": 20021,
-    "icon": 9806,
+    "icon": 29446,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (West)",
@@ -26701,7 +26701,7 @@ gt.bell.fish = [
       "Clouds"
     ],
     "id": 24216,
-    "icon": 12396,
+    "icon": 29541,
     "func": "fish",
     "rarity": 2,
     "title": "The One River (West)",
@@ -26725,7 +26725,7 @@ gt.bell.fish = [
       "end": 18
     },
     "id": 20122,
-    "icon": 7156,
+    "icon": 29408,
     "func": "fish",
     "rarity": 1,
     "title": "Plum Spring",
@@ -26751,7 +26751,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 20051,
-    "icon": 9778,
+    "icon": 29455,
     "func": "fish",
     "rarity": 1,
     "title": "Plum Spring",
@@ -26772,7 +26772,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20121,
-    "icon": 7182,
+    "icon": 29401,
     "func": "fish",
     "rarity": 1,
     "title": "Plum Spring",
@@ -26797,7 +26797,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 23068,
-    "icon": 12076,
+    "icon": 29528,
     "func": "fish",
     "rarity": 2,
     "title": "Plum Spring",
@@ -26817,7 +26817,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20124,
-    "icon": 2983,
+    "icon": 29257,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Canyon",
@@ -26845,7 +26845,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 24890,
-    "icon": 4700,
+    "icon": 29355,
     "func": "fish",
     "rarity": 2,
     "title": "Prism Canyon",
@@ -26865,7 +26865,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20052,
-    "icon": 9777,
+    "icon": 29458,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
@@ -26885,7 +26885,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20053,
-    "icon": 9776,
+    "icon": 29459,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
@@ -26910,7 +26910,7 @@ gt.bell.fish = [
       "end": 4
     },
     "id": 21177,
-    "icon": 11264,
+    "icon": 29517,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
@@ -26935,7 +26935,7 @@ gt.bell.fish = [
       "end": 8
     },
     "id": 22397,
-    "icon": 11590,
+    "icon": 29521,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
@@ -26961,7 +26961,7 @@ gt.bell.fish = [
       "end": 8
     },
     "id": 23055,
-    "icon": 7157,
+    "icon": 29407,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
@@ -26987,7 +26987,7 @@ gt.bell.fish = [
       "end": 8
     },
     "id": 23056,
-    "icon": 12087,
+    "icon": 29522,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
@@ -27013,7 +27013,7 @@ gt.bell.fish = [
       "end": 4
     },
     "id": 24203,
-    "icon": 12408,
+    "icon": 29531,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
@@ -27042,7 +27042,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 24204,
-    "icon": 12407,
+    "icon": 29532,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
@@ -27075,7 +27075,7 @@ gt.bell.fish = [
           "Violet Prismfish"
         ],
         "id": 24203,
-        "icon": 12408
+        "icon": 29531
       },
       {
         "name": "Firelight Goldfish",
@@ -27085,7 +27085,7 @@ gt.bell.fish = [
           "Red Prismfish"
         ],
         "id": 23056,
-        "icon": 12087
+        "icon": 29522
       },
       {
         "name": "Green Prismfish",
@@ -27094,7 +27094,7 @@ gt.bell.fish = [
           "Stonefly Larva"
         ],
         "id": 24204,
-        "icon": 12407
+        "icon": 29532
       }
     ],
     "weather": [
@@ -27102,7 +27102,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 24994,
-    "icon": 13175,
+    "icon": 29550,
     "func": "fish",
     "rarity": 2,
     "title": "Prism Lake",
@@ -27127,7 +27127,7 @@ gt.bell.fish = [
     },
     "hookset": "Powerful Hookset",
     "id": 20027,
-    "icon": 9800,
+    "icon": 29454,
     "func": "fish",
     "rarity": 1,
     "title": "Mercantile Docks",
@@ -27147,7 +27147,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20117,
-    "icon": 2979,
+    "icon": 29282,
     "func": "fish",
     "rarity": 1,
     "title": "Mercantile Docks",
@@ -27178,7 +27178,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 24888,
-    "icon": 4616,
+    "icon": 29331,
     "func": "fish",
     "rarity": 2,
     "title": "Mercantile Docks",
@@ -27219,7 +27219,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20115,
-    "icon": 7175,
+    "icon": 29403,
     "func": "fish",
     "rarity": 1,
     "title": "Doma Castle",
@@ -27239,7 +27239,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20116,
-    "icon": 3003,
+    "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "Doma Castle",
@@ -27264,7 +27264,7 @@ gt.bell.fish = [
     ],
     "hookset": "Powerful Hookset",
     "id": 20114,
-    "icon": 3053,
+    "icon": 29302,
     "func": "fish",
     "rarity": 1,
     "title": "Doma Castle",
@@ -27289,7 +27289,7 @@ gt.bell.fish = [
       "end": 14
     },
     "id": 23067,
-    "icon": 12077,
+    "icon": 29527,
     "func": "fish",
     "rarity": 2,
     "title": "Doma Castle",
@@ -27312,7 +27312,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 20036,
-    "icon": 9792,
+    "icon": 29483,
     "func": "fish",
     "rarity": 1,
     "title": "Nem Khaal",
@@ -27336,7 +27336,7 @@ gt.bell.fish = [
       "Clear Skies"
     ],
     "id": 20036,
-    "icon": 9792,
+    "icon": 29483,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Canal",
@@ -27357,7 +27357,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20127,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Nem Khaal",
@@ -27377,7 +27377,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20127,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Hak Khaal",
@@ -27397,7 +27397,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20127,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Yat Khaal",
@@ -27417,7 +27417,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20127,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
@@ -27437,7 +27437,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20127,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
@@ -27457,7 +27457,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20127,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Yat Khaal",
@@ -27478,7 +27478,7 @@ gt.bell.fish = [
       "Zagas Khaal"
     ],
     "id": 20126,
-    "icon": 2985,
+    "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "Nem Khaal",
@@ -27499,7 +27499,7 @@ gt.bell.fish = [
       "Zagas Khaal"
     ],
     "id": 20126,
-    "icon": 2985,
+    "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
@@ -27520,7 +27520,7 @@ gt.bell.fish = [
       "Zagas Khaal"
     ],
     "id": 20126,
-    "icon": 2985,
+    "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Yat Khaal",
@@ -27541,7 +27541,7 @@ gt.bell.fish = [
     ],
     "hookset": "Precision Hookset",
     "id": 20128,
-    "icon": 3002,
+    "icon": 29306,
     "func": "fish",
     "rarity": 1,
     "title": "Nem Khaal",
@@ -27562,7 +27562,7 @@ gt.bell.fish = [
     ],
     "hookset": "Precision Hookset",
     "id": 20128,
-    "icon": 3002,
+    "icon": 29306,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Yat Khaal",
@@ -27583,7 +27583,7 @@ gt.bell.fish = [
       "Zagas Khaal"
     ],
     "id": 20132,
-    "icon": 2963,
+    "icon": 29207,
     "func": "fish",
     "rarity": 1,
     "title": "Nem Khaal",
@@ -27604,7 +27604,7 @@ gt.bell.fish = [
       "Zagas Khaal"
     ],
     "id": 20132,
-    "icon": 2963,
+    "icon": 29207,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Yat Khaal",
@@ -27635,7 +27635,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 24892,
-    "icon": 12890,
+    "icon": 29547,
     "func": "fish",
     "rarity": 2,
     "title": "Nem Khaal",
@@ -27655,7 +27655,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20138,
-    "icon": 3038,
+    "icon": 29237,
     "func": "fish",
     "rarity": 1,
     "title": "Hak Khaal",
@@ -27675,7 +27675,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20129,
-    "icon": 3033,
+    "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "Hak Khaal",
@@ -27695,7 +27695,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20129,
-    "icon": 3033,
+    "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Yat Khaal",
@@ -27715,7 +27715,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20129,
-    "icon": 3033,
+    "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
@@ -27736,7 +27736,7 @@ gt.bell.fish = [
       "Zagas Khaal"
     ],
     "id": 20133,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Hak Khaal",
@@ -27757,7 +27757,7 @@ gt.bell.fish = [
       "Zagas Khaal"
     ],
     "id": 20133,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Yat Khaal",
@@ -27778,7 +27778,7 @@ gt.bell.fish = [
       "Zagas Khaal"
     ],
     "id": 20133,
-    "icon": 2959,
+    "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
@@ -27807,7 +27807,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 20030,
-    "icon": 9798,
+    "icon": 29464,
     "func": "fish",
     "rarity": 1,
     "title": "Hak Khaal",
@@ -27840,7 +27840,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 24893,
-    "icon": 5179,
+    "icon": 29377,
     "func": "fish",
     "rarity": 2,
     "title": "Hak Khaal",
@@ -27860,7 +27860,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20023,
-    "icon": 9804,
+    "icon": 29485,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Yat Khaal",
@@ -27880,7 +27880,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20131,
-    "icon": 2956,
+    "icon": 29247,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Yat Khaal",
@@ -27900,7 +27900,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 22668,
-    "icon": 9757,
+    "icon": 29107,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Yat Khaal",
@@ -27920,7 +27920,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22675,
-    "icon": 2965,
+    "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Yat Khaal",
@@ -27940,7 +27940,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22685,
-    "icon": 9746,
+    "icon": 29475,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Yat Khaal",
@@ -27960,7 +27960,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22692,
-    "icon": 9755,
+    "icon": 29490,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Yat Khaal",
@@ -27988,7 +27988,7 @@ gt.bell.fish = [
       "Fog"
     ],
     "id": 24218,
-    "icon": 12394,
+    "icon": 29543,
     "func": "fish",
     "rarity": 2,
     "title": "Upper Yat Khaal",
@@ -28008,7 +28008,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20130,
-    "icon": 3036,
+    "icon": 29305,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
@@ -28028,7 +28028,7 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "id": 20140,
-    "icon": 3054,
+    "icon": 29267,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
@@ -28050,7 +28050,7 @@ gt.bell.fish = [
     ],
     "hookset": "Precision Hookset",
     "id": 20024,
-    "icon": 9803,
+    "icon": 29447,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
@@ -28079,7 +28079,7 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "id": 21178,
-    "icon": 11263,
+    "icon": 29444,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
@@ -28099,7 +28099,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22670,
-    "icon": 2944,
+    "icon": 29047,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
@@ -28119,7 +28119,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22678,
-    "icon": 3050,
+    "icon": 29217,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
@@ -28139,7 +28139,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22681,
-    "icon": 2988,
+    "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
@@ -28159,7 +28159,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22687,
-    "icon": 9696,
+    "icon": 29501,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
@@ -28192,7 +28192,7 @@ gt.bell.fish = [
       "Gales"
     ],
     "id": 24217,
-    "icon": 12395,
+    "icon": 29542,
     "func": "fish",
     "rarity": 2,
     "title": "Azim Khaat",
@@ -28212,7 +28212,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20134,
-    "icon": 3049,
+    "icon": 29272,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
@@ -28232,7 +28232,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20044,
-    "icon": 9784,
+    "icon": 29468,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
@@ -28258,7 +28258,7 @@ gt.bell.fish = [
       "end": 24
     },
     "id": 23069,
-    "icon": 12075,
+    "icon": 29529,
     "func": "fish",
     "rarity": 2,
     "title": "Tao Khaal",
@@ -28278,7 +28278,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22674,
-    "icon": 7181,
+    "icon": 29395,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
@@ -28298,7 +28298,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22677,
-    "icon": 2967,
+    "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
@@ -28318,7 +28318,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22680,
-    "icon": 9703,
+    "icon": 29500,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
@@ -28338,7 +28338,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22684,
-    "icon": 2930,
+    "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
@@ -28358,7 +28358,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20031,
-    "icon": 9797,
+    "icon": 29472,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Yat Khaal",
@@ -28378,7 +28378,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20135,
-    "icon": 3043,
+    "icon": 29299,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Yat Khaal",
@@ -28402,7 +28402,7 @@ gt.bell.fish = [
       "Wind"
     ],
     "id": 23070,
-    "icon": 12074,
+    "icon": 29530,
     "func": "fish",
     "rarity": 2,
     "title": "Lower Yat Khaal",
@@ -28422,7 +28422,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22676,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Yat Khaal",
@@ -28442,7 +28442,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22686,
-    "icon": 7189,
+    "icon": 29419,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Yat Khaal",
@@ -28462,7 +28462,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22690,
-    "icon": 3054,
+    "icon": 29267,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Yat Khaal",
@@ -28482,7 +28482,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 23171,
-    "icon": 3031,
+    "icon": 29239,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Yat Khaal",
@@ -28502,7 +28502,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20125,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Dotharl Khaa",
@@ -28522,7 +28522,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 20125,
-    "icon": 2978,
+    "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Canal",
@@ -28542,7 +28542,7 @@ gt.bell.fish = [
       "Midge Larva"
     ],
     "id": 20080,
-    "icon": 2989,
+    "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "Dotharl Khaa",
@@ -28562,7 +28562,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22669,
-    "icon": 9782,
+    "icon": 29495,
     "func": "fish",
     "rarity": 1,
     "title": "Dotharl Khaa",
@@ -28582,7 +28582,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22671,
-    "icon": 12202,
+    "icon": 29101,
     "func": "fish",
     "rarity": 1,
     "title": "Dotharl Khaa",
@@ -28602,7 +28602,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22691,
-    "icon": 2985,
+    "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "Dotharl Khaa",
@@ -28622,7 +28622,7 @@ gt.bell.fish = [
       "Salmon Roe"
     ],
     "id": 22693,
-    "icon": 9727,
+    "icon": 29491,
     "func": "fish",
     "rarity": 1,
     "title": "Dotharl Khaa",
@@ -28653,7 +28653,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 24891,
-    "icon": 4606,
+    "icon": 29318,
     "func": "fish",
     "rarity": 2,
     "title": "Dotharl Khaa",
@@ -28684,7 +28684,7 @@ gt.bell.fish = [
       "Rain"
     ],
     "id": 24995,
-    "icon": 13174,
+    "icon": 29551,
     "func": "fish",
     "rarity": 2,
     "title": "Dotharl Khaa",
@@ -28705,7 +28705,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20113,
-    "icon": 2916,
+    "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "Kugane Piers",
@@ -28726,7 +28726,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20113,
-    "icon": 2916,
+    "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "Shirogane",
@@ -28748,7 +28748,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 20054,
-    "icon": 9775,
+    "icon": 29123,
     "func": "fish",
     "rarity": 1,
     "title": "Kugane Piers",
@@ -28770,7 +28770,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 22396,
-    "icon": 11591,
+    "icon": 29143,
     "func": "fish",
     "rarity": 1,
     "title": "Kugane Piers",
@@ -28792,7 +28792,7 @@ gt.bell.fish = [
       "Ruby Shrimp"
     ],
     "id": 23063,
-    "icon": 12081,
+    "icon": 29155,
     "func": "fish",
     "rarity": 2,
     "title": "Kugane Piers",
@@ -28813,7 +28813,7 @@ gt.bell.fish = [
       "Blue Bobbit"
     ],
     "id": 23064,
-    "icon": 12080,
+    "icon": 29156,
     "func": "fish",
     "rarity": 2,
     "title": "Shirogane",
@@ -28834,7 +28834,7 @@ gt.bell.fish = [
       "Nightcrawler"
     ],
     "id": 22395,
-    "icon": 11592,
+    "icon": 29440,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Canal",
@@ -28860,7 +28860,7 @@ gt.bell.fish = [
     },
     "hookset": "Precision Hookset",
     "id": 24213,
-    "icon": 12399,
+    "icon": 29540,
     "func": "fish",
     "rarity": 2,
     "title": "The Silver Canal",

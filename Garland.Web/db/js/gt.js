@@ -3904,7 +3904,7 @@ gt.instance = {
 gt.search = {
     resultTemplate: null,
     page: 0,
-    maxResults: 50,
+    maxResults: 100,
     url: '/api/search.php',
     cachedQueries: [],
     resultIndex: { quest: { }, leve: { }, action: { }, achievement: { }, instance: { }, fate: { }, npc: { }, mob: { }, item: { }, fishing: { }, node: { } },
@@ -5725,13 +5725,11 @@ gt.list = {
         DOL: 'DOL', GATHER: 'DOL', GATHERING: 'DOL', GATHERER: 'DOL',
         DOH: 'DOH', CRAFT: 'DOH', CRAFTING: 'DOH', CRAFTER: 'DOH',
     
-        SCRIP: '../files/icons/item/11091.png', SCRIPS: '../files/icons/item/11091.png',
-        'RED SCRIP': '../files/icons/item/7553.png', 'RED SCRIPS': '../files/icons/item/7553.png',
-        'YELLOW SCRIP': '../files/icons/item/11091.png',
+        SCRIP: '../files/icons/item/65044.png', SCRIPS: '../files/icons/item/65044.png',
+        'RED SCRIP': '../files/icons/item/65031.png', 'RED SCRIPS': '../files/icons/item/65031.png',
+        'YELLOW SCRIP': '../files/icons/item/65044.png',
     
-        EUREKA: '../files/icons/item/12032.png', RELIC: '../files/icons/item/12032.png',
-    
-        GLAMOUR: '../files/icons/item/11717.png', GLAM: '../files/icons/item/11717.png', FASHION: '../files/icons/item/11717.png',
+        GLAMOUR: '../files/icons/item/28010.png', GLAM: '../files/icons/item/28010.png', FASHION: '../files/icons/item/28010.png',
     
         SPIRITBOND: 'images/Convert.png', SPIRITBONDING: 'images/Convert.png',
     
@@ -5749,7 +5747,7 @@ gt.list = {
         PATCH: 'LatestPatch',
         DAILY: '../files/icons/event/71222.png', DAILIES: '../files/icons/event/71222.png',
         QUEST: '../files/icons/event/71221.png', QUESTS: '../files/icons/event/71221.png',
-        ORCHESTRION: '../files/icons/item/7977.png', ORCH: '../files/icons/item/7977.png',
+        ORCHESTRION: '../files/icons/item/25945.png', ORCH: '../files/icons/item/25945.png',
         SATISFACTION: 'Satisfaction', DELIVERY: 'Satisfaction',
     },
 
@@ -6991,7 +6989,7 @@ gt.venture = {
         var view = {
             id: venture.id,
             type: 'venture',
-            icon: '../files/icons/item/3503.png',
+            icon: '../files/icons/item/65049.png',
             lvl: venture.lvl,
             cost: venture.cost,
             minutes: venture.minutes,

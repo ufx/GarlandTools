@@ -6,7 +6,7 @@ gt.venture = {
         var view = {
             id: venture.id,
             type: 'venture',
-            icon: '../files/icons/item/3503.png',
+            icon: '../files/icons/item/65049.png',
             lvl: venture.lvl,
             cost: venture.cost,
             minutes: venture.minutes,

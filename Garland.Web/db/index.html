@@ -51,10 +51,10 @@
             <h2>Materia Melding</h2>
 
             <div class="filters">
-                <img src="../files/icons/item/5838.png" data-category="category0" class="category0" title="DoW/DoM Materia">
-                <img src="../files/icons/item/5840.png" data-category="category2" class="category2" title="DoL Materia">
-                <img src="../files/icons/item/5841.png" data-category="category1" class="category1" title="DoH Materia">
-                <img src="../files/icons/item/5837.png" data-category="category19" class="category19" title="Elemental Materia">
+                <img src="../files/icons/item/20263.png" data-category="category0" class="category0" title="DoW/DoM Materia">
+                <img src="../files/icons/item/20266.png" data-category="category2" class="category2" title="DoL Materia">
+                <img src="../files/icons/item/20270.png" data-category="category1" class="category1" title="DoH Materia">
+                <img src="../files/icons/item/20268.png" data-category="category19" class="category19" title="Elemental Materia">
             </div>
 
             <div class="materia line notmelded hover-highlight pointer row" data-id="0">
@@ -318,7 +318,7 @@
             <span class="left icon-button">
                 Options
                 <img src="../files/icons/job/ARM.png" class="icon small toggleable toggle-crafted {{?!it.hideCrafted}}active{{?}}" title="Toggle Crafted Equipment">
-                <img src="../files/icons/item/22.png" class="icon small toggleable toggle-grand-company {{?!it.hideGC}}active{{?}}" title="Toggle Grand Company Equipment">
+                <img src="../files/icons/item/65005.png" class="icon small toggleable toggle-grand-company {{?!it.hideGC}}active{{?}}" title="Toggle Grand Company Equipment">
             </span>
 
             <div class="center">
@@ -1356,7 +1356,7 @@
 
                     {{?it.ventures}}
                         <div class="ventures subsection collapsible collapsed" data-headername="ventures">
-                            <img src="../files/icons/item/3503.png" class="subsection-icon">
+                            <img src="../files/icons/item/65049.png" class="subsection-icon">
                             <h2 class="pointer">Ventures <span class="right badge">{{=it.ventures.length}}</span></h2>
                             {{~it.ventures :value:index}}
                                 <div class="collapse-toggle line grow source-link clear" data-id="{{=value.id}}" data-type="venture">
@@ -1577,13 +1577,13 @@
 
                     {{?it.supply || it.delivery}}
                         <div class="supply subsection collapsible collapsed" data-headername="supply">
-                            <img src="../files/icons/item/22.png" class="subsection-icon">
+                            <img src="../files/icons/item/65005.png" class="subsection-icon">
                             <h2 class="pointer">Grand Company</h2>
 
                             {{?it.supply}}
                                 <div class="collapse-toggle line">
                                     <div class="right">
-                                        <div class="inline-block block-link trade hover-highlight pointer" data-id="22" data-type="item"><img class="icon small" src="../files/icons/item/22.png" title="Flame Seal">{{=it.supply.seals.toLocaleString()}}</div><div class="inline-block trade"><img class="icon small" src="images/xp.png" title="Experience">{{=it.supply.xp.toLocaleString()}}</div>
+                                        <div class="inline-block block-link trade hover-highlight pointer" data-id="22" data-type="item"><img class="icon small" src="../files/icons/item/65005.png" title="Flame Seal">{{=it.supply.seals.toLocaleString()}}</div><div class="inline-block trade"><img class="icon small" src="images/xp.png" title="Experience">{{=it.supply.xp.toLocaleString()}}</div>
                                     </div>
                                     <div class="overflow-wrapper">
                                         <span>Personnel Officer</span>
@@ -1596,7 +1596,7 @@
                                 <div class="collapse-toggle line">
                                     <div class="right">
                                         <div class="inline-block block-link trade hover-highlight pointer" data-id="22" data-type="item">
-                                            <img class="icon small" src="../files/icons/item/22.png" title="Flame Seal">
+                                            <img class="icon small" src="../files/icons/item/65005.png" title="Flame Seal">
                                             {{=it.delivery.toLocaleString()}}
                                         </div>
                                     </div>
@@ -2218,7 +2218,7 @@
 
                         {{?it.reward.gcseal}}
                             <div class="reward prime">
-                                <img class="reward-icon" src="../files/icons/item/22.png" title="GC Seal">
+                                <img class="reward-icon" src="../files/icons/item/65005.png" title="GC Seal">
                                 <span class="value">{{=it.reward.gcseal}}</span>
                                 <hr>
                             </div>
