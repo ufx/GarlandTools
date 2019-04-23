@@ -17,10 +17,10 @@ namespace Garland.Data.Modules
         Saint.IXivSheet<Saint.IXivRow> _sCharaMakeType;
         SaintCoinach.Graphics.ColorMap _colorMap;
 
-        const int EyeColorOffset = 0;
-        const int HairHighlightColorOffset = 256;
-        const int DarkLipFacePaintColorOffset = 512;
-        const int LightLipFacePaintColorOffset = 1792;
+        const int EyeColorOffset = 0 * 256; // Might just be for the left eye.
+        const int HairHighlightColorOffset = 1 * 256; // Might be 6 *.
+        const int DarkLipFacePaintColorOffset = 2 * 256;
+        const int LightLipFacePaintColorOffset = 7 * 256;
 
         Dictionary<string, List<dynamic>> _alternatesByName = new Dictionary<string, List<dynamic>>();
         Dictionary<int, int> _zoneByNpcId = new Dictionary<int, int>();
@@ -398,68 +398,16 @@ namespace Garland.Data.Modules
 
         static int GetSkinColorMapIndex(int tribeKey, bool isMale)
         {
-            switch (tribeKey)
-            {
-                case 1: // Midlander
-                    return isMale ? 3328 : 4608;
-                case 2: // Highlander
-                    return isMale ? 5888 : 7168;
-                case 3: // Wildwood
-                    return isMale ? 8448 : 9728;
-                case 4: // Duskwight
-                    return isMale ? 11008 : 12288;
-                case 5: // Plainsfolks
-                    return isMale ? 13568 : 14848;
-                case 6: // Dunesfolk
-                    return isMale ? 16128 : 17408;
-                case 7: // Seeker of the Sun
-                    return isMale ? 18688 : 19968;
-                case 8: // Keeper of the Moon
-                    return isMale ? 21248 : 22528;
-                case 9: // Sea Wolf
-                    return isMale ? 23808 : 25088;
-                case 10: // Hellsguard
-                    return isMale ? 26368 : 27648;
-                case 11: // Raen
-                    return isMale ? 28928 : 30208;
-                case 12: // Xaela
-                    return isMale ? 31488 : 32768;
-            }
-
-            throw new NotImplementedException();
+            var genderValue = isMale ? 0 : 1;
+            var listIndex = (tribeKey * 2 + genderValue) * 5 + 3;
+            return listIndex * 256;
         }
 
         static int GetHairColorMapIndex(int tribeKey, bool isMale)
         {
-            switch (tribeKey)
-            {
-                case 1: // Midlander
-                    return isMale ? 3584 : 4864;
-                case 2: // Highlander
-                    return isMale ? 6144 : 7424;
-                case 3: // Wildwood
-                    return isMale ? 8704 : 9984;
-                case 4: // Duskwight
-                    return isMale ? 11264 : 12544;
-                case 5: // Plainsfolks
-                    return isMale ? 13824 : 15104;
-                case 6: // Dunesfolk
-                    return isMale ? 16384 : 17664;
-                case 7: // Seeker of the Sun
-                    return isMale ? 18944 : 20224;
-                case 8: // Keeper of the Moon
-                    return isMale ? 21504 : 22784;
-                case 9: // Sea Wolf
-                    return isMale ? 24064 : 25344;
-                case 10: // Hellsguard
-                    return isMale ? 26624 : 27904;
-                case 11: // Raen
-                    return isMale ? 29184 : 30464;
-                case 12: // Xaela
-                    return isMale ? 31744 : 33024;
-            }
-
-            throw new NotImplementedException();
+            var genderValue = isMale ? 0 : 1;
+            var listIndex = (tribeKey * 2 + genderValue) * 5 + 4;
+            return listIndex * 256;
         }
 
         static int GetHairstyleCustomizeIndex(int tribeKey, bool isMale)
