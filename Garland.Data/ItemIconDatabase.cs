@@ -15,16 +15,20 @@ namespace Garland.Data
         // todo: do not keep this a static class so sequential runs work.
 
         static string _itemIconPath;
-        static Dictionary<UInt16, string> _iconPathsByIconId = new Dictionary<UInt16, string>();
+        static Dictionary<UInt16, object> _iconPathsByIconId = new Dictionary<UInt16, object>();
         public static List<Saint.Item> ItemsNeedingIcons = new List<Saint.Item>();
 
         public static void Initialize(IEnumerable<Saint.Item> sItems)
         {
             _itemIconPath = Path.Combine(Config.IconPath, "item");
+            Directory.CreateDirectory(Path.Combine(_itemIconPath, "t"));
 
             // Load set of existing icon ids.
-            foreach (var iconId in Directory.EnumerateFiles(_itemIconPath))
-                _iconPathsByIconId[UInt16.Parse(Path.GetFileNameWithoutExtension(iconId))] = iconId;
+            foreach (var iconFileName in Directory.EnumerateFiles(_itemIconPath))
+            {
+                var iconId = UInt16.Parse(Path.GetFileNameWithoutExtension(iconFileName));
+                _iconPathsByIconId[iconId] = iconId;
+            }
 
             // Mark items that do not have an icon.
             foreach (var sItem in sItems)
