@@ -203,7 +203,9 @@ namespace Garland.Data.Modules
 
                     // If not otherwise specified, fish should inherit the time
                     // and weather restrictions of restricted bait (like predators).
-                    var baitItem = _builder.Db.ItemsByName[bait];
+                    if (!_builder.Db.ItemsByName.TryGetValue(bait, out var baitItem))
+                        throw new InvalidOperationException($"Can't find bait {bait} for {name} at {currentFishingSpot.en.name}.  Is the spelling correct?");
+
                     if (baitItem.fish != null)
                     {
                         dynamic baitSpotView = ((JArray)baitItem.fish?.spots)?.FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);

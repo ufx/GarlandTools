@@ -1,23 +1,23 @@
-L	Bait	Start	End	Transition	Weather	Predator, Amount	Tug	Hookset	Gathering	Snagging?	Fish Eyes?	ID
+Location	Bait	Start	End	Transition	Weather	Predator, Amount	Tug	Hookset	Gathering	Snagging?	Fish Eyes?	ID
 Limsa Lominsa Upper Decks												
-Merlthor Goby	Lugworm						Light					
-Lominsan Anchovy	Lugworm						Light					
-Malm Kelp	Pill Bug						Light					
-Finger Shrimp	Lugworm						Light					
-Ocean Cloud	Pill Bug						Light					
-Harbor Herring	Pill Bug						Medium					
-Coral Butterfly	Pill Bug						Medium					
-Blue Octopus	Merlthor Goby						Medium					
+Merlthor Goby	Lugworm						Light					4
+Lominsan Anchovy	Lugworm						Light					5
+Malm Kelp	Lugworm						Light					1
+Finger Shrimp	Lugworm						Light					8
+Ocean Cloud	Pill Bug						Light					12
+Harbor Herring	Pill Bug						Medium					15
+Coral Butterfly	Pill Bug						Medium					20
+Blue Octopus	Merlthor Goby						Medium					45
 Goldenfin	Pill Bug	9	14				Heavy					208
 Limsa Lominsa Lower Decks												
-Merlthor Goby	Lugworm						Light					
-Lominsan Anchovy	Lugworm						Light					
-Malm Kelp	Pill Bug						Light					
-Finger Shrimp	Lugworm						Light					
-Ocean Cloud	Pill Bug						Light					
-Harbor Herring	Pill Bug						Medium					
-Coral Butterfly	Pill Bug						Medium					
-Blue Octopus	Merlthor Goby						Medium					
+Merlthor Goby	Lugworm						Light					4
+Lominsan Anchovy	Lugworm						Light					5
+Malm Kelp	Pill Bug						Light					1
+Finger Shrimp	Lugworm						Light					8
+Ocean Cloud	Pill Bug						Light					12
+Harbor Herring	Pill Bug						Medium					15
+Coral Butterfly	Pill Bug						Medium					20
+Blue Octopus	Merlthor Goby						Medium					45
 Octomammoth	Harbor Herring	9	17				Heavy					230
 Zephyr Drift												
 Merlthor Goby	Lugworm						Light					
@@ -177,7 +177,7 @@ Bianaq Bream	Heavy Steel Jig						Medium
 Indigo Herring	Spoon Worm						Medium					
 Ash Tuna	Spoon Worm						Medium					
 Fullmoon Sardine	Spoon Worm	18	6				Light					83
-Lavender Remora	Heavy Steel Jig				Gales		Medium					
+Lavender Remora	Heavy Steel Jig						Medium					
 Silver Shark	Merlthor Goby						Medium					
 Little Thalaos	Northern Krill				Rain, Showers		Medium					155
 Shark Tuna	Fullmoon Sardine	19	21		Clear Skies, Fair Skies		Heavy					251
@@ -218,10 +218,10 @@ Hidden Falls
 Crimson Crayfish	Crayfish Ball						Light					
 Dark Sleeper	Midge Basket	15	10				Light					
 Mitten Crab	Honey Worm						Light					
-Spotted Puffer	Honey Worm	16	21				Light					
+Spotted Puffer	Honey Worm						Light					
 Discus	Honey Worm						Medium					
-Kobold Puffer	Spinnerbait				Clear Skies, Fair Skies, Clouds		Light					
-The Salter	Honey Worm	17	20		Clear Skies, Fair Skies		Heavy					261
+Kobold Puffer	Spinnerbait						Light					
+The Salter	Honey Worm	17	20				Heavy					261
 East Agelyss River												
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Copperfish	Butterworm						Light					
@@ -351,7 +351,7 @@ Nautilus	Fullmoon Sardine						Medium					124
 Mummer Wrasse	Yumizuno						Medium					
 Plaice	Yumizuno						Medium					
 Sea Devil	Yumizuno						Medium					
-Coelacanth	Fullmoon Sardine	18	6				Medium					166
+Coelacanth	Fullmoon Sardine						Medium					166
 Coelacanthus	Fullmoon Sardine	22	3		Fog, Clouds, Wind		Heavy					291
 Endoceras	Fullmoon Sardine	20	4	Clear Skies, Fair Skies	Fog, Clouds, Wind		Heavy					292
 Reaver Hide												
@@ -383,7 +383,7 @@ Jade Eel	Butterworm	17	10				Medium
 Warmwater Trout	Crow Fly						Medium					
 Four-eyed Fish	Spinnerbait						Medium					
 Dark Bass	Crow Fly						Medium					
-Fall Jumper	Copperfish				Rain		Medium	Powerful				
+Fall Jumper	Copperfish						Medium	Powerful				
 Joan of Trout	Crow Fly	4	6				Heavy					240
 Bronze Lake Shallows												
 Crimson Crayfish	Crayfish Ball						Light					
@@ -707,7 +707,7 @@ Razor Clam	Rat Tail						Light
 Blowfish	Northern Krill						Medium					
 Saber Sardine	Heavy Steel Jig											
 Monkfish												
-Spotted Puffer	Honey Worm	16	21				Light					
+Spotted Puffer	Honey Worm						Light					
 Rock Lobster	Northern Krill	17	22				Medium					149
 Fingers	Northern Krill	17	18									242
 The Silver Bazaar												
@@ -1181,13 +1181,13 @@ Jeweled Jellyfish	Platinum Fish	20	3		N/A							416
 Barreleye	Platinum Fish				Thunder						1	427
 Functional Proto-hropken	Platinum Fish				Thunder						1	438
 Allagan Bladeshark	Platinum Fish			Clouds	Thunder							477
-Opabinia	Platinum Fish			Thunder	Thunder	Functional Proto-hropken, 3						501
+Opabinia	Platinum Fish				Thunder	Functional Proto-hropken, 3						501
 The Hundred Throes												
 Whilom Catfish	Goblin Jig											321
 Pipira Pira	Goblin Jig				Dust Storms, Fog, Clouds							341
-Blueclaw Shrimp												
+Blueclaw Shrimp	Stonefly Nymph											
 Grass Carp	Bladed Steel Jig				Dust Storms, Clouds, Fog							340
-Shadowhisker												
+Shadowhisker	Brute Leech											
 Dravanian Smelt	Brute Leech											440
 River Shrimp	Brute Leech						Light					
 Scaleripper	Brute Leech				Dust Storms, Fog, Clouds							465
@@ -1202,7 +1202,7 @@ Twin-tongued Carp	Brute Leech	12	16	Clouds, Dust Storms	Clear Skies							480
 The Smoldering Wastes												
 Whilom Catfish	Goblin Jig											321
 Rock Mussel	Stonefly Nymph									1		333
-Blueclaw Shrimp												
+Blueclaw Shrimp	Stonefly Nymph											
 Three-lip Carp												
 Warmwater Bichir	Purse Web Spider	21	3									367
 Marble Oscar												
@@ -1216,11 +1216,11 @@ Thunderbolt Eel	Blueclaw Shrimp	22	4									428
 Amber Salamander	Brute Leech	6	12									451
 Thunderscale	Blueclaw Shrimp	6	8	Clouds, Dust Storms	Thunder							494
 Mourn												
-Lava Crab												
-Granite Crab	Magma Worm											
-Cindersmith												
-Cometoise												
-Oven Catfish												
+Lava Crab	Magma Worm											
+Granite Crab	Magma Worm							Precision				
+Cindersmith	Magma Worm							Precision				
+Cometoise	Granite Crab						Medium	Powerfull				
+Oven Catfish	Granite Crab							Powerfull				
 Meteortoise	Granite Crab				N/A							467
 West Mourn												
 Granite Crab												
@@ -1489,7 +1489,7 @@ Glass Herring	Live Shrimp											540
 Coeurl Snake Eel	Live Shrimp											546
 Coral Horse	Live Shrimp											
 Ku'er	Blue Bobbit	0	8	Thunder	Clouds							
-The Ruby Dragon												
+The Ruby Dragon	Ku'er											
 Hells' Lid												
 Grinning Anchovy	Live Shrimp											539
 Hellyfish	Live Shrimp											541
@@ -1585,12 +1585,12 @@ The Unraveled Bow	Suspending Minnow	12	16		Fog
 Prism Lake												
 Yellow Prismfish	Suspending Minnow											598
 Blue Prismfish	Suspending Minnow											599
-Violet Prismfish	Stonefly Larva	0	4									
-Red Prismfish	Stonefly Larva	4	8									755
+Violet Prismfish	Stonefly Larva	0	4					Powerful				
+Red Prismfish	Stonefly Larva	4	8					Powerful				755
 White Goldfish	Red Prismfish	N/A	N/A									758
 Firelight Goldfish	Red Prismfish	N/A	N/A									
 Indigo Prismfish	Violet Prismfish	N/A	N/A									
-Green Prismfish	Stonefly Larva	0	16		Clear Skies, Fair Skies							
+Green Prismfish	Stonefly Larva	0	16	Clear Skies, Fair Skies	Clear Skies, Fair Skies							
 Warden of the Seven Hues	Stonefly Larva					Indigo Prismfish, 3, Firelight Goldfish, 3, Green Prismfish, 5						
 Mercantile Docks												
 Doman Trout	Nightcrawler											571

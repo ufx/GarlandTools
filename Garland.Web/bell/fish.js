@@ -468,6 +468,12 @@
     "id": 20676,
     "icon": 27004
   },
+  "Ku'er": {
+    "name": "Ku'er",
+    "id": 24214,
+    "icon": 29159,
+    "mooch": 1
+  },
   "Ruby Shrimp": {
     "name": "Ruby Shrimp",
     "id": 20112,
@@ -1064,7 +1070,7 @@ gt.bell.fish = [
     "name": "Malm Kelp",
     "patch": 1.0,
     "bait": [
-      "Pill Bug"
+      "Lugworm"
     ],
     "id": 4776,
     "icon": 29063,
@@ -20614,9 +20620,6 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
-    "transition": [
-      "Thunder"
-    ],
     "id": 17589,
     "icon": 29762,
     "func": "fish",
@@ -20779,12 +20782,52 @@ gt.bell.fish = [
     "icon": 29404,
     "func": "fish",
     "rarity": 1,
+    "title": "The Hundred Throes",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      31.39,
+      10.1
+    ],
+    "radius": 400,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Blueclaw Shrimp",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12722,
+    "icon": 29404,
+    "func": "fish",
+    "rarity": 1,
     "title": "Whilom River",
     "category": "Freshwater Fishing",
     "lvl": 52,
     "coords": [
       30.63,
       14.82
+    ],
+    "radius": 600,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Blueclaw Shrimp",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12722,
+    "icon": 29404,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Smoldering Wastes",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      25.28,
+      25.82
     ],
     "radius": 600,
     "zone": "The Dravanian Forelands"
@@ -20822,6 +20865,26 @@ gt.bell.fish = [
     ],
     "id": 12740,
     "icon": 29407,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Hundred Throes",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      31.39,
+      10.1
+    ],
+    "radius": 400,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Shadowhisker",
+    "patch": 3.0,
+    "bait": [
+      "Brute Leech"
+    ],
+    "id": 12769,
+    "icon": 29265,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
@@ -21171,11 +21234,32 @@ gt.bell.fish = [
     "zone": "The Dravanian Forelands"
   },
   {
+    "name": "Lava Crab",
+    "patch": 3.0,
+    "bait": [
+      "Magma Worm"
+    ],
+    "id": 12745,
+    "icon": 29860,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Mourn",
+    "category": "Hellfishing",
+    "lvl": 55,
+    "coords": [
+      13.14,
+      13.39
+    ],
+    "radius": 600,
+    "zone": "The Dravanian Forelands"
+  },
+  {
     "name": "Granite Crab",
     "patch": 3.0,
     "bait": [
       "Magma Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12754,
     "icon": 29854,
     "func": "fish",
@@ -21228,6 +21312,71 @@ gt.bell.fish = [
       5.43
     ],
     "radius": 200,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Cindersmith",
+    "patch": 3.0,
+    "bait": [
+      "Magma Worm"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 12772,
+    "icon": 29857,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Mourn",
+    "category": "Hellfishing",
+    "lvl": 55,
+    "coords": [
+      13.14,
+      13.39
+    ],
+    "radius": 600,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Cometoise",
+    "patch": 3.0,
+    "bait": [
+      "Magma Worm",
+      "Granite Crab"
+    ],
+    "hookset": "Powerfull Hookset",
+    "id": 12787,
+    "icon": 29855,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Mourn",
+    "category": "Hellfishing",
+    "lvl": 55,
+    "coords": [
+      13.14,
+      13.39
+    ],
+    "radius": 600,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Oven Catfish",
+    "patch": 3.0,
+    "bait": [
+      "Magma Worm",
+      "Granite Crab"
+    ],
+    "hookset": "Powerfull Hookset",
+    "id": 12820,
+    "icon": 29852,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Mourn",
+    "category": "Hellfishing",
+    "lvl": 55,
+    "coords": [
+      13.14,
+      13.39
+    ],
+    "radius": 600,
     "zone": "The Dravanian Forelands"
   },
   {
@@ -24998,6 +25147,38 @@ gt.bell.fish = [
     "zone": "The Ruby Sea"
   },
   {
+    "name": "The Ruby Dragon",
+    "patch": 4.56,
+    "folklore": 1,
+    "bait": [
+      "Blue Bobbit",
+      "Ku'er"
+    ],
+    "during": {
+      "start": 0,
+      "end": 8
+    },
+    "weather": [
+      "Clouds"
+    ],
+    "transition": [
+      "Thunder"
+    ],
+    "id": 24993,
+    "icon": 29164,
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Ruby Price",
+    "category": "Ocean Fishing",
+    "lvl": 62,
+    "coords": [
+      38.44,
+      38.44
+    ],
+    "radius": 400,
+    "zone": "The Ruby Sea"
+  },
+  {
     "name": "Hellyfish",
     "patch": 4.0,
     "bait": [
@@ -26034,7 +26215,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 23066,
-    "icon": "t/29158",
+    "icon": 29158,
     "func": "fish",
     "rarity": 2,
     "title": "The Isle of Zekki",
@@ -26909,6 +27090,7 @@ gt.bell.fish = [
       "start": 0,
       "end": 4
     },
+    "hookset": "Powerful Hookset",
     "id": 21177,
     "icon": 29517,
     "func": "fish",
@@ -26934,6 +27116,7 @@ gt.bell.fish = [
       "start": 4,
       "end": 8
     },
+    "hookset": "Powerful Hookset",
     "id": 22397,
     "icon": 29521,
     "func": "fish",
@@ -27041,6 +27224,10 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "transition": [
+      "Clear Skies",
+      "Fair Skies"
+    ],
     "id": 24204,
     "icon": 29532,
     "func": "fish",
@@ -27098,6 +27285,10 @@ gt.bell.fish = [
       }
     ],
     "weather": [
+      "Clear Skies",
+      "Fair Skies"
+    ],
+    "transition": [
       "Clear Skies",
       "Fair Skies"
     ],
