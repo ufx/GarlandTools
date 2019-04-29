@@ -7116,17 +7116,18 @@ gt.equip = {
         if (data.id.indexOf('leveling') == 0) {
             var abbr = data.id.substr(9);
             var job = _.find(gt.jobs, function(j) { return j.abbreviation == abbr; });
-            return gt.equip.getLevelingViewModel(job, data);
+            if (job)
+                return gt.equip.getLevelingViewModel(job, data);
         }
         else if (data.id.indexOf('end') == 0) {
             var abbr = data.id.substr(4);
             var job = _.find(gt.jobs, function(j) { return j.abbreviation == abbr; });
-            return gt.equip.getEndViewModel(job, data);
+            if (job)
+                return gt.equip.getEndViewModel(job, data);
         }
-        else {
-            console.error('Invalid id for view model', data);
-            return null;
-        }
+
+        console.error('Invalid id for view model', data);
+        return null;
     },
 
     getLevelingViewModel: function(job, data) {
