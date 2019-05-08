@@ -1,402 +1,700 @@
-Item	Type	Sources									
-Fieldcraft Demimateria I	Desynth										
-Fieldcraft Demimateria II	Desynth										
-Fieldcraft Demimateria III	Desynth	Best Man's Gaiters	Best Man's Jacket	Best Man's Slacks	Bridesmaid's Dress	Bridesmaid's Sandals	Bridesmaid's Tights				
-Battlecraft Demimateria I	Desynth										
-Battlecraft Demimateria II	Desynth										
-Battlecraft Demimateria III	Desynth										
-Mastercraft Demimateria	Desynth										
-Demimateria of the Inferno	Desynth										
-Demimateria of the Vortex	Desynth										
-Demimateria of Crags	Desynth										
-Assassin Fry	Desynth	Ninja Betta									
-Gold Roselle Capeline	Desynth	Toramafish									
-Oschon Roselle Capeline	Desynth	The Greatest Bream in the World									
-Red Summer Maro	Desynth	Twitchbeard									
-Red Summer Pareo	Desynth	Twitchbeard									
-Sea Breeze Summer Halter	Desynth	Gigantshark									
-Sea Breeze Summer Pareo	Desynth	Octomammoth									
-South Seas Talisman	Desynth	Gigantshark									
-Summer Sandals	Desynth	Shark Tuna	Magic Carpet	Spearnose							
-Ti Leaf Lei	Desynth	Frilled Shark									
-Coronal Summer Halter	Desynth	Frilled Shark									
-Allagan Wootz Nugget	Desynth	Wootz Knifefish Zenith	High Allagan Helmet								
-Allagan Silk	Desynth	Blood Red Bonytongue									
-Pterodactyl Leather	Desynth	Magma Louse									
-Waterproof Cotton Cloth	Desynth	Sweetnewt	The Lone Ripper	Olgoi-Khorkhoi							
-Polarized Glass	Desynth	Imperial Shadow Visor									
-Stormsap	Desynth	The Word of God									
-Cooking Sherry	Desynth	Aged Decanter									
-Dark Vinegar	Desynth	Aged Decanter									
-Sour Red	Desynth	Aged Decanter									
-Vintage Cooking Sherry	Desynth	Aged Decanter									
-Aged Vellum	Desynth	Aged Grimoire									
-Hard Leather	Desynth	Aged Grimoire									
-Leather	Desynth	Aged Grimoire									
-Aged Mortar Pieces	Desynth	Aged Mortar									
-Steel Ingot	Desynth	Aged Mortar	Aged Pestle	Aged Spear							
-Iron Ingot	Desynth	Aged Mortar	Aged Pestle	Aged Spear							
-Aged Pestle Pieces	Desynth	Aged Pestle									
-Brimstone	Desynth	Aged Phial									
-Clear Demimateria II	Desynth	Aged Phial	Aged Robe	Aged Spear							
-Dried Ether	Desynth	Aged Phial									
-Natron	Desynth	Aged Phial									
-Vitriol	Desynth	Aged Phial									
-Aged Eye of Fire	Desynth	Aged Ring									
-Garnet	Desynth	Aged Ring									
-Silver Ingot	Desynth	Aged Ring									
-Sunstone	Desynth	Aged Ring									
-Cotton Yarn	Desynth	Aged Robe									
-Dew Thread	Desynth	Aged Robe									
-Stained Cloth	Desynth	Aged Robe									
-Undyed Cotton Cloth	Desynth	Aged Robe									
-Undyed Velveteen	Desynth	Aged Robe									
-Aged Spear Shaft	Desynth	Aged Spear									
-Ash Lumber	Desynth	Aged Spear									
-Elm Lumber	Desynth	Aged Spear									
-Duskborne Aethersand	Reduce	Fire Moraine	Lightning Moraine	Granular Clay	Highland Oregano						
-Dawnborne Aethersand	Reduce	Bright Fire Rock	Bright Lightning Rock	Peat Moss	Furymint						
-Landborne Aethersand	Reduce	Radiant Fire Moraine	Radiant Lightning Moraine								
-Leafborne Aethersand	Reduce	Black Soil	Clary Sage								
-Seaborne Aethersand	Reduce	Thaliak Caiman	Tupuxuara								
-Light-kissed Aethersand	Reduce	Lover's Laurel	Radiant Astral Moraine								
-Dawnlight Aethersand	Reduce	Schorl	Windtea Leaves	Snow Crab							
-Everbright Aethersand	Reduce	Perlite									
-Dusklight Aethersand	Reduce	Doman Yellow	Almandine	False Scad							
-Everdeep Aethersand	Reduce	Sweatfish									
-Everborn Aethersand	Reduce	Torreya Branch									
-Duskglow Aethersand	Reduce	Yanxian Soil	Yanxian Verbena								
-Lotus Leaf	Loot	Timeworn Leather Map									
-Ahriman Tears	Loot	Timeworn Leather Map									
-Tiny Bulb	Loot	Timeworn Toadskin Map									
-Cutting Oil	Loot	Timeworn Toadskin Map	Timeworn Peisteskin Map	Unhidden Leather Map							
-Swan Feather	Loot	Timeworn Boarskin Map									
-Mariner Cotton Cloth	Loot	Timeworn Boarskin Map	Unhidden Leather Map								
-Eagle Feather	Loot	Timeworn Boarskin Map									
-Wind-up Tonberry	Loot	Timeworn Boarskin Map									
-Frosted Glass Lens	Loot	Timeworn Peisteskin Map	Unhidden Leather Map								
-Chinchilla Hide	Loot	Timeworn Peisteskin Map	Unhidden Leather Map								
-Blue Fox Hide	Loot	Timeworn Goatskin Map	Timeworn Peisteskin Map	Timeworn Dragonskin Map	Timeworn Wyvernskin Map						
-Bluebird	Loot	Timeworn Peisteskin Map	Timeworn Dragonskin Map								
-Nutkin	Loot	Unhidden Leather Map									
-Mist Silk	Loot	Unhidden Leather Map									
-Atomos Corpulence	Loot	Timeworn Wyvernskin Map									
-Steel Wheel Bearing	Loot	Timeworn Wyvernskin Map									
-Thavnairian Leather	Loot	Timeworn Dragonskin Map									
-Thavnairian Silk	Loot	Timeworn Dragonskin Map									
-Rush Grass	Loot	Timeworn Dragonskin Map									
-Unhidden Leather Map	Loot	Timeworn Peisteskin Map	Timeworn Dragonskin Map								
-Imperial Shadow Visor	Loot	Unhidden Leather Map									
-Dress Material	Loot	Unhidden Leather Map									
-Morbol Saliva	Loot	Unhidden Leather Map	Timeworn Toadskin Map								
-Falconer's Hemp	Loot	Timeworn Wyvernskin Map									
-Antique Rug	Loot	Timeworn Wyvernskin Map									
-Antique Leather	Loot	Timeworn Wyvernskin Map									
-Faded Copy of The Only Path	Loot	Timeworn Dragonskin Map	Unhidden Leather Map								
-Paissa Brat	Loot	Timeworn Dragonskin Map									
-Unidentifiable Ore	Loot	Timeworn Dragonskin Map									
-Exquisite Buttons	Loot	Timeworn Goatskin Map	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Unhidden Leather Map					
-Stygian Ash	Loot	Timeworn Gazelleskin Map	Timeworn Gaganaskin Map								
-Unmoving Maneki Moogle	Loot	Timeworn Gaganaskin Map									
-Taoist's Wool	Loot	Timeworn Gaganaskin Map									
-Nagxian Leather	Loot	Timeworn Gaganaskin Map									
-Moai Statue	Loot	Timeworn Gazelleskin Map									
-Autumnal Maple Tree	Loot	Timeworn Gazelleskin Map									
-Maple Leaf Pile	Loot	Timeworn Gazelleskin Map									
-Waterproof Cloth	Loot	Timeworn Gazelleskin Map	Timeworn Thief's Map								
-Hedgehoglet	Loot	Timeworn Thief's Map									
-The Gold Whisker	Loot	Timeworn Thief's Map									
-Polarized Glass	Loot	Unhidden Leather Map									
-Page 63	Loot	Silver-trimmed Sack									
-Anemos Hat	Loot	Anemos Lockbox									
-Anemos Gloves	Loot	Anemos Lockbox									
-Anemos Chaps	Loot	Anemos Lockbox									
-Anemos Boots	Loot	Anemos Lockbox									
-Anemos Pot Helm	Loot	Anemos Lockbox									
-Anemos Gambison	Loot	Anemos Lockbox									
-Anemos Expeditionary's Gloves	Loot	Anemos Lockbox									
-Anemos Sarouel	Loot	Anemos Lockbox									
-Anemos Expeditionary's Boots	Loot	Anemos Lockbox									
-Anemos Suspenders	Loot	Anemos Lockbox									
-Sharlayan Wardrobe	Loot	Anemos Lockbox									
-Wind-up Fafnir	Loot	Anemos Lockbox									
-Wind-up Mithra	Loot	Anemos Lockbox									
-The Prince of Anemos	Loot	Anemos Lockbox									
-Tyrannosaur Horn	Loot	Anemos Lockbox									
-Red Mage Barding	Loot	Anemos Lockbox									
-Wicked Winds Whisper Orchestrion Roll	Loot	Anemos Lockbox									
-No Quarter Orchestrion Roll	Loot	Anemos Lockbox									
-Protean Crystal	Loot	Anemos Crystal									
-Antiquated Machinist's Boots	Loot	Machinist's Armor Coffer									
-Antiquated Machinist's Brais	Loot	Machinist's Armor Coffer									
-Antiquated Machinist's Gloves	Loot	Machinist's Armor Coffer									
-Antiquated Machinist's Goggles	Loot	Machinist's Armor Coffer									
-Antiquated Machinist's Shirt	Loot	Machinist's Armor Coffer									
-Ardent Belt of Aiming	Loot	Machinist's Armor Coffer									
-Bard's Chapeau	Loot	Bard's Attire Coffer									
-Bard's Ringbands	Loot	Bard's Attire Coffer									
-Bard's Sandals	Loot	Bard's Attire Coffer									
-Bard's Shirt	Loot	Bard's Attire Coffer									
-Bard's Tights	Loot	Bard's Attire Coffer									
-Hero's Belt of Aiming	Loot	Bard's Attire Coffer									
-Mossy Stone Sword	Venture	Field Exploration XII	Field Exploration XIV								
-Mossy Stone Claws	Venture	Field Exploration XII	Field Exploration XIV								
-Mossy Stone Spear	Venture	Field Exploration XII	Field Exploration XIV								
-Mossy Stone Rod	Venture	Field Exploration XII	Field Exploration XIV								
-Mossy Stone Staff	Venture	Field Exploration XII	Field Exploration XIV								
-Mossy Stone Bow	Venture	Field Exploration XII	Field Exploration XIV								
-Mossy Stone Axe	Venture	Field Exploration XII	Field Exploration XIV								
-Littlefoot	Venture	Woodland Exploration XIV	Woodland Exploration XV	Woodland Exploration XVI							
-Gestahl	Venture	Waterside Exploration XVIII									
-Miniature Minecart	Venture	Highland Exploration XIV	Highland Exploration XVIII								
-Iron Giant Scrap	Venture	Field Exploration XVIII									
-Steel Mainspring	Venture	Highland Exploration XVIII									
-Minute Mindflayer	Venture	Field Exploration XIII	Highland Exploration XIII								
-Tiny Tapir	Venture	Field Exploration XIV									
-Gysahl Ring	Venture	Field Exploration X									
-Lupin Seedling	Venture	Woodland Exploration XVIII	Woodland Exploration XIX								
-Odder Otter	Venture	Woodland Exploration XX	Highland Exploration XX	Waterside Exploration XX	Highland Exploration XXII						
-Light Steel Plate	Venture	Field Exploration XIII	Highland Exploration XIII	Waterside Exploration XIII							
-Weathered Tome	Venture	Woodland Exploration XIV									
-Faded Tome	Venture	Waterside Exploration XII									
-Taffeta Cloth	Venture	Field Exploration XIII	Field Exploration XVII	Field Exploration XVIII	Highland Exploration XIII						
-Mameshiba	Venture	Highland Exploration XXII									
-Koala Joey	Venture	Field Exploration XXII									
-Axolotl Eft	Venture	Waterside Exploration XXII									
-Red Roundstone	Node	306									
-Violet Roundstone	Node	314									
-Green Roundstone	Node	308									
-Yellow Roundstone	Node	312									
-Blue Roundstone	Node	310									
-Bitter Foxglove	Node	330									
-Heavensnut	Node	336	328								
-Swordleaf	Node	332									
-Dragon's Wart	Node	334	393								
-Mute Swan Feather	Node	338									
-Tiny Tatsunoko	Node	480									
-Verdant Partition	Instance	Saint Mocianne's Arboretum (Hard)									
-Shinryu's Scale	Instance	The Minstrel's Ballad: Shinryu's Domain									
-Pellitory	Instance	The Aquapolis									
-Thavnairian Armlets	Instance	The Aquapolis									
-Thavnairian Babouches	Instance	The Aquapolis									
-Thavnairian Bolero	Instance	The Aquapolis									
-Thavnairian Bustier	Instance	The Aquapolis									
-Thavnairian Gloves	Instance	The Aquapolis									
-Thavnairian Headdress	Instance	The Aquapolis									
-Thavnairian Sandals	Instance	The Aquapolis									
-Thavnairian Sarouel	Instance	The Aquapolis									
-Thavnairian Tights	Instance	The Aquapolis									
-Thavnairian Turban	Instance	The Aquapolis									
-Falconer's Boots	Instance	The Aquapolis									
-Falconer's Bottoms	Instance	The Aquapolis									
-Falconer's Shirt	Instance	The Aquapolis									
-Expeditioner's Cap	Instance	The Aquapolis									
-Expeditioner's Coat	Instance	The Aquapolis									
-Expeditioner's Flyers	Instance	The Aquapolis									
-Expeditioner's Gloves	Instance	The Aquapolis									
-Expeditioner's Kecks	Instance	The Aquapolis									
-Expeditioner's Moccasins	Instance	The Aquapolis									
-Expeditioner's Pantalettes	Instance	The Aquapolis									
-Expeditioner's Tabard	Instance	The Aquapolis									
-Expeditioner's Thighboots	Instance	The Aquapolis									
-Twilight over Thanalan Orchestrion Roll	Instance	The Aquapolis									
-Whisper of the Land Orchestrion Roll	Instance	The Aquapolis									
-On Windy Meadows Orchestrion Roll	Instance	The Aquapolis									
-Minute Mindflayer	Instance	The Aquapolis									
-Wind-up Tonberry	Instance	The Aquapolis									
-Baby Opo-opo	Instance	The Aquapolis									
-Mummy's Little Mummy	Instance	The Aquapolis									
-Nutkin	Instance	The Aquapolis									
-Owlet	Instance	The Aquapolis									
-Paissa Brat	Instance	The Aquapolis									
-Page 63	Instance	The Aquapolis									
-Bluebird	Instance	The Aquapolis									
-Dwarf Rabbit	Instance	The Aquapolis									
-Unicolt	Instance	The Aquapolis									
-Lesser Panda	Instance	The Aquapolis									
-Ugly Duckling	Instance	The Aquapolis									
-Tiny Bulb	Instance	The Aquapolis									
-Tight-beaked Parrot	Instance	The Aquapolis									
-Glass Fiber	Instance	The Aquapolis									
-Carbon Fiber	Instance	The Aquapolis									
-Luminous Fiber	Instance	The Aquapolis									
-Odorless Animal Fat	Instance	The Aquapolis									
-Astral Silk	Instance	The Aquapolis									
-Moonbeam Silk	Instance	The Aquapolis									
-Skyspring Water	Instance	The Aquapolis									
-Luminous Fiber	Instance	The Aquapolis									
-Plundered Treasure	Instance	The Aquapolis									
-Wool Top	Instance	The Aquapolis									
-New World Macrame	Instance	The Aquapolis									
-Ratanhia Leaves	Instance	The Lost Canals of Uznair									
-Wind-up Namazu	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
-Nagxian Silk	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
-Nagxian Leather	Instance	The Lost Canals of Uznair									
-Matanga Lamp	Instance	The Lost Canals of Uznair									
-The Twin Faces of Fate - The Theme of Ul'dah Orchestrion Roll	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
-Navigator's Glory - The Theme of Limsa Lominsa Orchestrion Roll	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
-Born of the Boughs - The Theme of Gridania Orchestrion Roll	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
-Cracked Cluster	Instance	The Lost Canals of Uznair									
-Taoist's Wool	Instance	The Lost Canals of Uznair									
-Autumnal Maple Tree	Instance	The Lost Canals of Uznair									
-Maple Leaf Pile	Instance	The Lost Canals of Uznair									
-Holy Linen	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
-Hannish Wool	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
-Thavnairian Wool	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair								
-Timeworn Thief's Map	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair								
-A Father's Pride Orchestrion Roll	Instance	The Hidden Canals of Uznair									
-Ala Mhigan Weave	Instance	The Hidden Canals of Uznair									
-Wind-up Matanga	Instance	The Hidden Canals of Uznair									
-Crimson Sunrise Orchestrion Roll	Instance	The Hidden Canals of Uznair									
-Ballroom Etiquette - Scholarly Certitude	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair	The Shifting Altars of Uznair							
-Whisperfine Fleece	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair								
-Divine Chandelier	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair								
-Birdbath	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair								
-Little Chef's Playset	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair								
-Capybara Pup	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair	The Hidden Canals of Uznair							
-Neo Aetherstone - Foot Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3								
-Neo Aetherstone - Hand Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3								
-Neo Aetherstone - Headgear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 2								
-Neo Aetherstone - Leg Gear	Instance	The Final Coil of Bahamut - Turn 2									
-Neo Aetherstone - Body Gear	Instance	The Final Coil of Bahamut - Turn 4									
-Blue Oldroses	Gardening	Oldrose Seeds									
-Yellow Oldroses	Gardening	Oldrose Seeds									
-Green Oldroses	Gardening	Oldrose Seeds									
-Orange Oldroses	Gardening	Oldrose Seeds									
-Purple Oldroses	Gardening	Oldrose Seeds									
-White Oldroses	Gardening	Oldrose Seeds									
-Black Oldroses	Gardening	Oldrose Seeds									
-Rainbow Oldroses	Gardening	Oldrose Seeds									
-Red Violas	Gardening	Viola Seeds									
-Blue Violas	Gardening	Viola Seeds									
-Yellow Violas	Gardening	Viola Seeds									
-Green Violas	Gardening	Viola Seeds									
-Orange Violas	Gardening	Viola Seeds									
-White Violas	Gardening	Viola Seeds									
-Black Violas	Gardening	Viola Seeds									
-Rainbow Violas	Gardening	Viola Seeds									
-Blue Cherry Blossoms	Gardening	Shroud Cherry Sapling									
-Yellow Cherry Blossoms	Gardening	Shroud Cherry Sapling									
-Green Cherry Blossoms	Gardening	Shroud Cherry Sapling									
-Orange Cherry Blossoms	Gardening	Shroud Cherry Sapling									
-Purple Cherry Blossoms	Gardening	Shroud Cherry Sapling									
-White Cherry Blossoms	Gardening	Shroud Cherry Sapling									
-Black Cherry Blossoms	Gardening	Shroud Cherry Sapling									
-Pink Cherry Blossoms	Gardening	Shroud Cherry Sapling									
-Red Daisies	Gardening	Daisy Seeds									
-Blue Daisies	Gardening	Daisy Seeds									
-Green Daisies	Gardening	Daisy Seeds									
-Orange Daisies	Gardening	Daisy Seeds									
-Purple Daisies	Gardening	Daisy Seeds									
-White Daisies	Gardening	Daisy Seeds									
-Black Daisies	Gardening	Daisy Seeds									
-Rainbow Daisies	Gardening	Daisy Seeds									
-Aetherochemical Fiber	Voyage	Sea of Clouds 14	Sea of Clouds 15								
-Althyk Lavender Seeds	Voyage	Sea of Clouds 13	Sea of Clouds 15								
-Antique Leather	Voyage	Sea of Clouds 20									
-Balsa Wood Lumber	Voyage	Sea of Clouds 08	Sea of Clouds 09								
-Balsa Wood Scrap	Voyage	Sea of Clouds 03	Sea of Clouds 04								
-Bamboo Weave	Voyage	Sea of Clouds 01	Sea of Clouds 02	Deep-sea site 1	Deep-sea site 2	Deep-sea site 3					
-Battledance Materia II	Voyage	Sea of Clouds 02									
-Battledance Materia III	Voyage	Sea of Clouds 02	Sea of Clouds 20								
-Battledance Materia IV	Voyage	Sea of Clouds 20									
-Bear Fat	Voyage	Sea of Clouds 23									
-Birch Branch	Voyage	Sea of Clouds 05	Sea of Clouds 11	Sea of Clouds 17							
-Black Clay	Voyage	Sea of Clouds 10									
-Cassia Log	Voyage	Sea of Clouds 14	Sea of Clouds 15	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 18	Sea of Clouds 19	Sea of Clouds 20	Sea of Clouds 21	Sea of Clouds 23	Sea of Clouds 24
-Chemically Treated Chimera Hide	Voyage	Sea of Clouds 11	Sea of Clouds 12	Sea of Clouds 13							
-Cloudsbreath Seeds	Voyage	Sea of Clouds 17	Sea of Clouds 21	Sea of Clouds 24							
-Copper Voyage Spoil	Voyage	Sea of Clouds 09									
-Craftsman's Command Materia II	Voyage	Sea of Clouds 07	Umbrella Narrow								
-Craftsman's Command Materia III	Voyage	Sea of Clouds 03	Sea of Clouds 07	Sea of Clouds 17	Deep-sea site 2						
-Craftsman's Command Materia IV	Voyage	Sea of Clouds 17									
-Craftsman's Competence Materia III	Voyage	Sea of Clouds 03	Sea of Clouds 17	Deep-sea site 2							
-Craftsman's Competence Materia IV	Voyage	Sea of Clouds 13	Sea of Clouds 17								
-Craftsman's Cunning Materia III	Voyage	Sea of Clouds 07									
-Craftsman's Cunning Materia IV	Voyage	Sea of Clouds 13									
-Dark Chestnut Branch	Voyage	Sea of Clouds 06	Sea of Clouds 12	Sea of Clouds 18	Sea of Clouds 24						
-Deep-blue Cluster	Voyage	Sea of Clouds 13	Sea of Clouds 19	Sea of Clouds 22							
-Deep-blue Crystal	Voyage	Sea of Clouds 07	Sea of Clouds 10	Sea of Clouds 13							
-Deep-green Cluster	Voyage	Sea of Clouds 18	Sea of Clouds 21	Sea of Clouds 24							
-Deep-green Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 15	Southern Rimilala Trench						
-Deep-red Cluster	Voyage	Sea of Clouds 17	Sea of Clouds 20	Sea of Clouds 23							
-Deep-red Crystal	Voyage	Sea of Clouds 05	Deep-sea site 3								
-Dexterity Materia III	Voyage	Sea of Clouds 01	Sea of Clouds 20								
-Dexterity Materia IV	Voyage	Sea of Clouds 12	Sea of Clouds 20								
-Dinosaur Leather	Voyage	Sea of Clouds 19									
-Dravanian Mote	Voyage	Sea of Clouds 06	Sea of Clouds 13								
-Dusk Leather	Voyage	Sea of Clouds 17	Sea of Clouds 18	Sea of Clouds 19	Sea of Clouds 20	Sea of Clouds 21	Sea of Clouds 22				
-Earth Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 11	Sea of Clouds 13	Sea of Clouds 14	Sea of Clouds 15	Deep-sea site 1			
-Empty Cluster	Voyage	Sea of Clouds 16									
-Empty Crystal	Voyage	Sea of Clouds 05	Sea of Clouds 06	The Lightless Basin	Neolith Island						
-Faded Copy of A World Apart	Voyage	Sea of Clouds 23									
-Far Eastern Coin	Voyage	Sea of Clouds 16									
-Ferberite	Voyage	Sea of Clouds 01	Sea of Clouds 07	Sea of Clouds 13	Sea of Clouds 19	Sea of Clouds 23					
-Fine Alumen	Voyage	Sea of Clouds 04	Sea of Clouds 07	Sea of Clouds 13							
-Fire Crystal	Voyage	Sea of Clouds 02	Sea of Clouds 04	Sea of Clouds 07	Sea of Clouds 10	Sea of Clouds 12	Sea of Clouds 16				
-Gatherer's Grasp Materia III	Voyage	Sea of Clouds 04	Sea of Clouds 16	Sea of Clouds 22							
-Gatherer's Grasp Materia IV	Voyage	Sea of Clouds 16	Sea of Clouds 22								
-Gatherer's Guerdon Materia III	Voyage	Sea of Clouds 10									
-Gatherer's Guerdon Materia IV	Voyage	Sea of Clouds 16									
-Gatherer's Guile Materia III	Voyage	Sea of Clouds 04	Sea of Clouds 10	Sea of Clouds 22	The Lightless Basin						
-Gatherer's Guile Materia IV	Voyage	Sea of Clouds 22									
-Gold Ore	Voyage	Sea of Clouds 02	Sea of Clouds 08	Sea of Clouds 14	Sea of Clouds 20						
-Gold Sand	Voyage	Sea of Clouds 19									
-Heavens' Eye Materia III	Voyage	Sea of Clouds 23									
-Heavens' Eye Materia IV	Voyage	Sea of Clouds 12	Sea of Clouds 14								
-Ice Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 11	Sea of Clouds 13	Sea of Clouds 14	Sea of Clouds 15	Deep-sea site 1			
-Intelligence Materia III	Voyage	Sea of Clouds 23									
-Intelligence Materia IV	Voyage	Sea of Clouds 11	Sea of Clouds 14	Sea of Clouds 23							
-Intelligence Materia V	Voyage	Sea of Clouds 23									
-Iron Giant Core	Voyage	Sea of Clouds 08	Sea of Clouds 14	Sea of Clouds 18	Sea of Clouds 19	Sea of Clouds 20	Sea of Clouds 22				
-Iron Voyage Spoil	Voyage	Sea of Clouds 24									
-Lightning Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Clouds 09						
-Magnanimous Mogcrown	Voyage	Sea of Clouds 01	Sea of Clouds 10	Sea of Clouds 11	Sea of Clouds 15						
-Mind Materia III	Voyage	Sea of Clouds 08	Sea of Clouds 19								
-Mind Materia IV	Voyage	Sea of Clouds 19									
-Mythrite Sand	Voyage	Sea of Clouds 20									
-Oriental Grass Tuft	Voyage	Sea of Clouds 08	Sea of Clouds 14								
-Piety Materia III	Voyage	Sea of Clouds 06	Sea of Clouds 19								
-Piety Materia IV	Voyage	Sea of Clouds 19									
-Piety Materia V	Voyage	Sea of Clouds 19									
-Platinum Ore	Voyage	Sea of Clouds 03	Sea of Clouds 09	Sea of Clouds 15	Sea of Clouds 21						
-Potters Stone	Voyage	Sea of Clouds 01	Sea of Clouds 10								
-Quickarm Materia III	Voyage	Sea of Clouds 09	Sea of Clouds 18								
-Quickarm Materia IV	Voyage	Sea of Clouds 18									
-Quicktongue Materia II	Voyage	Sea of Clouds 06	Deep-sea site 1								
-Quicktongue Materia III	Voyage	Sea of Clouds 02	Sea of Clouds 06	Sea of Clouds 11	Sea of Clouds 21	Southern Rimilala Trench					
-Quicktongue Materia IV	Voyage	Sea of Clouds 11	Sea of Clouds 21								
-Raw Celestine	Voyage	Sea of Clouds 08	Sea of Clouds 09	Sea of Clouds 10							
-Red Clay	Voyage	Sea of Clouds 07									
-Red Moko Grass	Voyage	Sea of Clouds 03	Sea of Clouds 04	Deep-sea Site 3	Deep-sea Site 2	The Ivory Shoals	The Umbrella Narrow				
-Savage Aim Materia III	Voyage	Sea of Clouds 08	Sea of Clouds 15	Sea of Clouds 24							
-Savage Aim Materia IV	Voyage	Sea of Clouds 15									
-Savage Aim Materia V	Voyage	Sea of Clouds 24									
-Savage Might Materia III	Voyage	Sea of Clouds 05	Sea of Clouds 21								
-Savage Might Materia IV	Voyage	Sea of Clouds 21									
-Savage Might Materia V	Voyage	Sea of Clouds 21									
-Scarlet Sap	Voyage	Sea of Clouds 04	Sea of Clouds 10	Sea of Clouds 16	Sea of Clouds 22						
-Shrub Seedling	Voyage	Sea of Clouds 02	Sea of Clouds 06	Sea of Clouds 12							
-Silver Ore	Voyage	Sea of Clouds 17									
-Strength Materia III	Voyage	Sea of Clouds 09	Sea of Clouds 18								
-Strength Materia IV	Voyage	Sea of Clouds 18									
-Synthetic Fiber	Voyage	Sea of Clouds 11	Sea of Clouds 12								
-Synthetic Resin	Voyage	Sea of Clouds 13									
-Tincalconite	Voyage	Sea of Clouds 07									
-Toy Box Schema	Voyage	Sea of Clouds 05	Sea of Clouds 09	Sea of Clouds 14	Sea of Clouds 17	Sea of Clouds 21					
-Unaspected Crystal	Voyage	Sea of Clouds 08	Sea of Clouds 10	Deep-sea site 2	Southern Rimilala Trench						
-Vitality Materia III	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 24	Deep-sea site 3						
-Vitality Materia IV	Voyage	Sea of Clouds 15									
-Vitality Materia V	Voyage	Sea of Clouds 24									
-Vivianite	Voyage	Sea of Clouds 01	Sea of Clouds 02	Deep-sea site 1							
-Voidrake Seeds	Voyage	Sea of Clouds 12	Sea of Clouds 14	Sea of Clouds 16							
-Water Crystal	Voyage	Sea of Clouds 02	Sea of Clouds 04	Sea of Clouds 07	Sea of Clouds 10	Sea of Clouds 12	Sea of Clouds 16	Deep-sea site 2			
-Wind Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Clouds 09	Ivory Shoals	Deep-sea site 2	Deep-sea site 3	Umbrella Narrow		
-Wind Silk	Voyage	Sea of Clouds 13	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 21						
-Aurelia Polyp	Voyage	Deep-sea site 3	Umbrella Narrow								
-Dexterity Materia II	Voyage	Ivory Shoals									
-Vitality Materia II	Voyage	Deep-sea site 3									
-Piety Materia II	Voyage	Southern Rimilala Trench									
-Salvaged Necklace	Voyage	Unidentified Derelict									
-Crimson Coral	Voyage	The Lightless Basin									
-Kamacite Ore	Voyage	Rimiala Shelf									
+Item	Category	Sources											
+Aged Eye of Fire	Desynth	Aged Ring											
+Aged Mortar Pieces	Desynth	Aged Mortar											
+Aged Pestle Pieces	Desynth	Aged Pestle											
+Aged Spear Shaft	Desynth	Aged Spear											
+Aged Vellum	Desynth	Aged Grimoire											
+Allagan Silk	Desynth	Blood Red Bonytongue											
+Allagan Wootz Nugget	Desynth	Wootz Knifefish Zenith	High Allagan Helmet										
+Ash Lumber	Desynth	Aged Spear											
+Assassin Fry	Desynth	Ninja Betta											
+Astral Birch Lumber	Desynth	Handmaster's Earrings											
+Battlecraft Demimateria I	Desynth												
+Battlecraft Demimateria II	Desynth												
+Battlecraft Demimateria III	Desynth												
+Brimstone	Desynth	Aged Phial											
+Clear Demimateria II	Desynth	Aged Phial	Aged Robe	Aged Spear									
+Cooking Sherry	Desynth	Aged Decanter											
+Coronal Summer Halter	Desynth	Frilled Shark											
+Cotton Yarn	Desynth	Aged Robe											
+Dark Vinegar	Desynth	Aged Decanter											
+Demimateria of Crags	Desynth												
+Demimateria of the Inferno	Desynth												
+Demimateria of the Vortex	Desynth												
+Dew Thread	Desynth	Aged Robe											
+Dried Ether	Desynth	Aged Phial											
+Elm Lumber	Desynth	Aged Spear											
+Fieldcraft Demimateria I	Desynth												
+Fieldcraft Demimateria II	Desynth												
+Fieldcraft Demimateria III	Desynth	Best Man's Gaiters	Best Man's Jacket	Best Man's Slacks	Bridesmaid's Dress	Bridesmaid's Sandals	Bridesmaid's Tights	Handmaster's Earrings					
+Garnet	Desynth	Aged Ring											
+Glass Fiber	Desynth	Handmaster's Earrings											
+Gold Roselle Capeline	Desynth	Toramafish											
+Hard Leather	Desynth	Aged Grimoire											
+Iron Ingot	Desynth	Aged Mortar	Aged Pestle	Aged Spear									
+Leather	Desynth	Aged Grimoire											
+Mastercraft Demimateria	Desynth												
+Natron	Desynth	Aged Phial											
+Oschon Roselle Capeline	Desynth	The Greatest Bream in the World											
+Polarized Glass	Desynth	Imperial Shadow Visor											
+Pterodactyl Leather	Desynth	Magma Louse											
+Red Summer Maro	Desynth	Twitchbeard											
+Red Summer Pareo	Desynth	Twitchbeard											
+Sea Breeze Summer Halter	Desynth	Gigantshark											
+Sea Breeze Summer Pareo	Desynth	Octomammoth											
+Silver Ingot	Desynth	Aged Ring											
+Sour Red	Desynth	Aged Decanter											
+South Seas Talisman	Desynth	Gigantshark											
+Stained Cloth	Desynth	Aged Robe											
+Steel Ingot	Desynth	Aged Mortar	Aged Pestle	Aged Spear									
+Stormsap	Desynth	The Word of God											
+Summer Sandals	Desynth	Shark Tuna	Magic Carpet	Spearnose									
+Sunstone	Desynth	Aged Ring											
+Ti Leaf Lei	Desynth	Frilled Shark											
+Undyed Cotton Cloth	Desynth	Aged Robe											
+Undyed Velveteen	Desynth	Aged Robe											
+Vintage Cooking Sherry	Desynth	Aged Decanter											
+Vitriol	Desynth	Aged Phial											
+Waterproof Cotton Cloth	Desynth	Sweetnewt	The Lone Ripper	Olgoi-Khorkhoi									
+Duskborne Aethersand	Reduce	Fire Moraine	Lightning Moraine	Granular Clay	Highland Oregano								
+Dawnborne Aethersand	Reduce	Bright Fire Rock	Bright Lightning Rock	Peat Moss	Furymint								
+Landborne Aethersand	Reduce	Radiant Fire Moraine	Radiant Lightning Moraine										
+Leafborne Aethersand	Reduce	Black Soil	Clary Sage										
+Seaborne Aethersand	Reduce	Thaliak Caiman	Tupuxuara										
+Light-kissed Aethersand	Reduce	Lover's Laurel	Radiant Astral Moraine										
+Dawnlight Aethersand	Reduce	Schorl	Windtea Leaves	Snow Crab									
+Everbright Aethersand	Reduce	Perlite											
+Dusklight Aethersand	Reduce	Doman Yellow	Almandine	False Scad									
+Everdeep Aethersand	Reduce	Sweatfish											
+Everborn Aethersand	Reduce	Torreya Branch											
+Duskglow Aethersand	Reduce	Yanxian Soil	Yanxian Verbena										
+Earth Cluster	Reduce	Black Soil	Doman Yellow	Granular Clay	Peat Moss								
+Earth Crystal	Reduce	Black Soil	Doman Yellow	Granular Clay	Peat Moss								
+Fire Cluster	Reduce	Almandine	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine								
+Fire Crystal	Reduce	Almandine	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine								
+Ice Cluster	Reduce	Lover's Laurel	Torreya Branch										
+Ice Crystal	Reduce	Lover's Laurel	Torreya Branch										
+Lightning Cluster	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena							
+Lightning Crystal	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena							
+Water Cluster	Reduce	Radiant Astral Moraine	Perlite										
+Water Crystal	Reduce	Radiant Astral Moraine	Perlite										
+Wind Cluster	Reduce	Clary Sage	Furymint	Highland Oregano	Windtea Leaves	Yanxian Soil							
+Wind Crystal	Reduce	Clary Sage	Furymint	Highland Oregano	Windtea Leaves	Yanxian Soil							
+Lotus Leaf	Loot	Timeworn Leather Map											
+Ahriman Tears	Loot	Timeworn Leather Map	Unhidden Leather Map										
+Tiny Bulb	Loot	Timeworn Toadskin Map											
+Cutting Oil	Loot	Timeworn Toadskin Map	Timeworn Peisteskin Map	Unhidden Leather Map									
+Swan Feather	Loot	Timeworn Boarskin Map											
+Mariner Cotton Cloth	Loot	Timeworn Boarskin Map	Unhidden Leather Map										
+Eagle Feather	Loot	Timeworn Boarskin Map											
+Wind-up Tonberry	Loot	Timeworn Boarskin Map											
+Frosted Glass Lens	Loot	Timeworn Peisteskin Map	Unhidden Leather Map										
+Chinchilla Hide	Loot	Timeworn Peisteskin Map	Unhidden Leather Map										
+Blue Fox Hide	Loot	Timeworn Goatskin Map	Timeworn Peisteskin Map	Timeworn Dragonskin Map	Timeworn Wyvernskin Map								
+Bluebird	Loot	Timeworn Peisteskin Map	Timeworn Dragonskin Map										
+Nutkin	Loot	Unhidden Leather Map											
+Mist Silk	Loot	Unhidden Leather Map											
+Atomos Corpulence	Loot	Timeworn Wyvernskin Map											
+Steel Wheel Bearing	Loot	Timeworn Wyvernskin Map											
+Thavnairian Leather	Loot	Timeworn Dragonskin Map											
+Thavnairian Silk	Loot	Timeworn Dragonskin Map											
+Rush Grass	Loot	Timeworn Dragonskin Map											
+Unhidden Leather Map	Loot	Timeworn Peisteskin Map	Timeworn Dragonskin Map										
+Imperial Shadow Visor	Loot	Unhidden Leather Map											
+Dress Material	Loot	Unhidden Leather Map											
+Morbol Saliva	Loot	Unhidden Leather Map	Timeworn Toadskin Map										
+Falconer's Hemp	Loot	Timeworn Wyvernskin Map											
+Antique Rug	Loot	Timeworn Wyvernskin Map											
+Antique Leather	Loot	Timeworn Wyvernskin Map											
+Faded Copy of The Only Path	Loot	Timeworn Dragonskin Map	Unhidden Leather Map										
+Paissa Brat	Loot	Timeworn Dragonskin Map											
+Unidentifiable Ore	Loot	Timeworn Dragonskin Map											
+Exquisite Buttons	Loot	Timeworn Goatskin Map	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Unhidden Leather Map							
+Stygian Ash	Loot	Timeworn Gazelleskin Map	Timeworn Gaganaskin Map										
+Unmoving Maneki Moogle	Loot	Timeworn Gaganaskin Map											
+Taoist's Wool	Loot	Timeworn Gaganaskin Map											
+Nagxian Leather	Loot	Timeworn Gaganaskin Map											
+Moai Statue	Loot	Timeworn Gazelleskin Map											
+Autumnal Maple Tree	Loot	Timeworn Gazelleskin Map											
+Maple Leaf Pile	Loot	Timeworn Gazelleskin Map											
+Waterproof Cloth	Loot	Timeworn Gazelleskin Map	Timeworn Thief's Map										
+Hedgehoglet	Loot	Timeworn Thief's Map											
+The Gold Whisker	Loot	Timeworn Thief's Map											
+Polarized Glass	Loot	Unhidden Leather Map											
+Anemos Hat	Loot	Anemos Lockbox											
+Anemos Gloves	Loot	Anemos Lockbox											
+Anemos Chaps	Loot	Anemos Lockbox											
+Anemos Boots	Loot	Anemos Lockbox											
+Anemos Pot Helm	Loot	Anemos Lockbox											
+Anemos Gambison	Loot	Anemos Lockbox											
+Anemos Expeditionary's Gloves	Loot	Anemos Lockbox											
+Anemos Sarouel	Loot	Anemos Lockbox											
+Anemos Expeditionary's Boots	Loot	Anemos Lockbox											
+Anemos Suspenders	Loot	Anemos Lockbox											
+Sharlayan Wardrobe	Loot	Anemos Lockbox											
+Wind-up Fafnir	Loot	Anemos Lockbox											
+Wind-up Mithra	Loot	Anemos Lockbox											
+The Prince of Anemos	Loot	Anemos Lockbox											
+Tyrannosaur Horn	Loot	Anemos Lockbox											
+Red Mage Barding	Loot	Anemos Lockbox											
+Wicked Winds Whisper Orchestrion Roll	Loot	Anemos Lockbox											
+No Quarter Orchestrion Roll	Loot	Anemos Lockbox											
+Protean Crystal	Loot	Anemos Crystal											
+Frosted Protean Crystal	Loot	Eureka Pagos, Crystal Forge 											
+Lizard Tail	Loot	Pagos Lockbox											
+Reishi Mushroom	Loot	Pagos Lockbox											
+Wind-up Tarutaru	Loot	Pagos Lockbox											
+Pagos Field Dressing	Loot	Pagos Lockbox											
+Pagos Bandana	Loot	Pagos Lockbox											
+Pagos Bolero	Loot	Pagos Lockbox											
+Pagos Boots	Loot	Pagos Lockbox											
+Pagos Circlet	Loot	Pagos Lockbox											
+Pagos Culottes	Loot	Pagos Lockbox											
+Pagos Gaskins	Loot	Pagos Lockbox											
+Pagos Gloves	Loot	Pagos Lockbox											
+Pagos Shirt	Loot	Pagos Lockbox											
+Cold-warped Lockbox	Loot	Eureka Pagos, Mutated Mobs	Mutated Anubys										
+Crossed Halberds	Loot	Cold-warped Lockbox											
+Golden Hakutaku Eye	Loot	Cold-warped Lockbox											
+Chainmail Hangers	Loot	Cold-warped Lockbox											
+Wind-up Tarutaru	Loot	Cold-warped Lockbox											
+Ballroom Etiquette - Insufficient Petticoats	Loot	Cold-warped Lockbox											
+Antiquated Machinist's Boots	Loot	Machinist's Armor Coffer											
+Antiquated Machinist's Brais	Loot	Machinist's Armor Coffer											
+Antiquated Machinist's Gloves	Loot	Machinist's Armor Coffer											
+Antiquated Machinist's Goggles	Loot	Machinist's Armor Coffer											
+Antiquated Machinist's Shirt	Loot	Machinist's Armor Coffer											
+Ardent Belt of Aiming	Loot	Machinist's Armor Coffer											
+Bard's Chapeau	Loot	Bard's Attire Coffer											
+Bard's Ringbands	Loot	Bard's Attire Coffer											
+Bard's Sandals	Loot	Bard's Attire Coffer											
+Bard's Shirt	Loot	Bard's Attire Coffer											
+Bard's Tights	Loot	Bard's Attire Coffer											
+Hero's Belt of Aiming	Loot	Bard's Attire Coffer											
+Allagan Platinum Piece	Loot	Bronze-trimmed Sack											
+Baby Opo-opo	Loot	Bronze-trimmed Sack											
+Battledance Materia IV	Loot	Bronze-trimmed Sack											
+Bluebird	Loot	Bronze-trimmed Sack											
+Cherry Confetti	Loot	Bronze-trimmed Sack											
+Clear Demimateria I	Loot	Bronze-trimmed Sack											
+Clear Demimateria II	Loot	Bronze-trimmed Sack											
+Clear Demimateria III	Loot	Bronze-trimmed Sack											
+Dexterity Materia IV	Loot	Bronze-trimmed Sack											
+Expeditioner's Coat	Loot	Bronze-trimmed Sack											
+Expeditioner's Moccasins	Loot	Bronze-trimmed Sack											
+Expeditioner's Pantalettes	Loot	Bronze-trimmed Sack											
+Falconer's Shirt	Loot	Bronze-trimmed Sack											
+Flame Tracer	Loot	Bronze-trimmed Sack											
+Gaelikitten	Loot	Bronze-trimmed Sack											
+Gryphonskin Breastguard	Loot	Bronze-trimmed Sack											
+Gryphonskin Pantalettes	Loot	Bronze-trimmed Sack											
+Heavens' Eye Materia IV	Loot	Bronze-trimmed Sack											
+Heavens' Eye Materia V	Loot	Bronze-trimmed Sack											
+High House Boots	Loot	Bronze-trimmed Sack											
+High House Halfboots	Loot	Bronze-trimmed Sack											
+High House Justaucorps	Loot	Bronze-trimmed Sack											
+Intelligence Materia IV	Loot	Bronze-trimmed Sack											
+Lesser Panda	Loot	Bronze-trimmed Sack											
+Lominsan Sparkler	Loot	Bronze-trimmed Sack											
+Magicked Prism (Crimson Star)	Loot	Bronze-trimmed Sack											
+Magicked Prism (Emerald Star)	Loot	Bronze-trimmed Sack											
+Magicked Prism (Harbor Herald)	Loot	Bronze-trimmed Sack											
+Magicked Prism (Immortal Flames)	Loot	Bronze-trimmed Sack											
+Magicked Prism (Indigo Star)	Loot	Bronze-trimmed Sack											
+Magicked Prism (Maelstrom)	Loot	Bronze-trimmed Sack											
+Magicked Prism (Mythril Eye)	Loot	Bronze-trimmed Sack											
+Magicked Prism (The Raven)	Loot	Bronze-trimmed Sack											
+Magicked Prism (Twin Adder)	Loot	Bronze-trimmed Sack											
+Mind Materia IV	Loot	Bronze-trimmed Sack											
+Mind Materia V	Loot	Bronze-trimmed Sack											
+Minute Mindflayer	Loot	Bronze-trimmed Sack											
+Modern Aesthetics - Samsonian Locks	Loot	Bronze-trimmed Sack											
+Moonfire Caligae	Loot	Bronze-trimmed Sack											
+Moonfire Halter	Loot	Bronze-trimmed Sack											
+Moonfire Hat	Loot	Bronze-trimmed Sack											
+Moonfire Tanga	Loot	Bronze-trimmed Sack											
+Mummy's Little Mummy	Loot	Bronze-trimmed Sack											
+Nutkin	Loot	Bronze-trimmed Sack											
+Page 63	Loot	Bronze-trimmed Sack											
+Paissa Brat	Loot	Bronze-trimmed Sack											
+Palace of the Dead Flooring	Loot	Bronze-trimmed Sack											
+Palace of the Dead Interior Wall	Loot	Bronze-trimmed Sack											
+Palace Pedestal	Loot	Bronze-trimmed Sack											
+Peach Confetti	Loot	Bronze-trimmed Sack											
+Piety Materia IV	Loot	Bronze-trimmed Sack											
+Piety Materia V	Loot	Bronze-trimmed Sack											
+Quickarm Materia IV	Loot	Bronze-trimmed Sack											
+Quickarm Materia V	Loot	Bronze-trimmed Sack											
+Quicktongue Materia IV	Loot	Bronze-trimmed Sack											
+Quicktongue Materia V	Loot	Bronze-trimmed Sack											
+Savage Aim Materia IV	Loot	Bronze-trimmed Sack											
+Savage Might Materia IV	Loot	Bronze-trimmed Sack											
+Savage Might Materia V	Loot	Bronze-trimmed Sack											
+Storm Tracer	Loot	Bronze-trimmed Sack											
+Strength Materia IV	Loot	Bronze-trimmed Sack											
+Survival Halfslops	Loot	Bronze-trimmed Sack											
+Survival Hat	Loot	Bronze-trimmed Sack											
+Survival Shirt	Loot	Bronze-trimmed Sack											
+Thavnairian Armlets	Loot	Bronze-trimmed Sack											
+Thavnairian Babouches	Loot	Bronze-trimmed Sack											
+Thavnairian Bolero	Loot	Bronze-trimmed Sack											
+Thavnairian Bustier	Loot	Bronze-trimmed Sack											
+Thavnairian Headdress	Loot	Bronze-trimmed Sack											
+Thavnairian Sandals	Loot	Bronze-trimmed Sack											
+Thavnairian Sarouel	Loot	Bronze-trimmed Sack											
+Thavnairian Tights	Loot	Bronze-trimmed Sack											
+Tiny Bulb	Loot	Bronze-trimmed Sack											
+Ugly Duckling	Loot	Bronze-trimmed Sack											
+Ul'dahn Sparkler	Loot	Bronze-trimmed Sack											
+Unicolt	Loot	Bronze-trimmed Sack											
+Vitality Materia V	Loot	Bronze-trimmed Sack											
+Wind Silk Bottoms	Loot	Bronze-trimmed Sack											
+Wind Silk Coatee	Loot	Bronze-trimmed Sack											
+Wind-up Tonberry	Loot	Bronze-trimmed Sack											
+Battledance Materia IV	Loot	Iron-trimmed Sack											
+Battledance Materia V	Loot	Iron-trimmed Sack											
+Blackbosom Orchestrion Roll	Loot	Iron-trimmed Sack											
+Cherry Confetti	Loot	Iron-trimmed Sack											
+Clear Demimateria II	Loot	Iron-trimmed Sack											
+Clear Demimateria III	Loot	Iron-trimmed Sack											
+Dexterity Materia IV	Loot	Iron-trimmed Sack											
+Dexterity Materia V	Loot	Iron-trimmed Sack											
+Dinosaur Leather Gloves	Loot	Iron-trimmed Sack											
+Dinosaur Leather Shoes	Loot	Iron-trimmed Sack											
+Expeditioner's Cap	Loot	Iron-trimmed Sack											
+Expeditioner's Moccasins	Loot	Iron-trimmed Sack											
+Expeditioner's Tabard	Loot	Iron-trimmed Sack											
+Expeditioner's Thighboots	Loot	Iron-trimmed Sack											
+Gridanian Sparkler	Loot	Iron-trimmed Sack											
+Gryphonskin Breastguard	Loot	Iron-trimmed Sack											
+Heavens' Eye Materia IV	Loot	Iron-trimmed Sack											
+Heavens' Eye Materia V	Loot	Iron-trimmed Sack											
+Intelligence Materia IV	Loot	Iron-trimmed Sack											
+Intelligence Materia V	Loot	Iron-trimmed Sack											
+Lominsan Sparkler	Loot	Iron-trimmed Sack											
+Magicked Prism (Crimson Star)	Loot	Iron-trimmed Sack											
+Magicked Prism (Harbor Herald)	Loot	Iron-trimmed Sack											
+Magicked Prism (Maelstrom)	Loot	Iron-trimmed Sack											
+Magicked Prism (The Raven)	Loot	Iron-trimmed Sack											
+Mind Materia IV	Loot	Iron-trimmed Sack											
+Mind Materia V	Loot	Iron-trimmed Sack											
+Moonfire Trunks	Loot	Iron-trimmed Sack											
+Moonfire Vest	Loot	Iron-trimmed Sack											
+Peach Confetti	Loot	Iron-trimmed Sack											
+Piety Materia IV	Loot	Iron-trimmed Sack											
+Piety Materia V	Loot	Iron-trimmed Sack											
+Quickarm Materia IV	Loot	Iron-trimmed Sack											
+Quickarm Materia V	Loot	Iron-trimmed Sack											
+Quicktongue Materia IV	Loot	Iron-trimmed Sack											
+Quicktongue Materia V	Loot	Iron-trimmed Sack											
+Replica Allagan Boots of Casting	Loot	Iron-trimmed Sack											
+Replica Allagan Boots of Healing	Loot	Iron-trimmed Sack											
+Replica Allagan Breeches of Casting	Loot	Iron-trimmed Sack											
+Replica Allagan Breeches of Healing	Loot	Iron-trimmed Sack											
+Replica Allagan Circlet of Casting	Loot	Iron-trimmed Sack											
+Replica Allagan Circlet of Healing	Loot	Iron-trimmed Sack											
+Replica Allagan Cuirass of Aiming	Loot	Iron-trimmed Sack											
+Replica Allagan Cuirass of Maiming	Loot	Iron-trimmed Sack											
+Replica Allagan Cuirass of Striking	Loot	Iron-trimmed Sack											
+Replica Allagan Gauntlets of Aiming	Loot	Iron-trimmed Sack											
+Replica Allagan Gauntlets of Maiming	Loot	Iron-trimmed Sack											
+Replica Allagan Gauntlets of Striking	Loot	Iron-trimmed Sack											
+Replica Allagan Gloves of Casting	Loot	Iron-trimmed Sack											
+Replica Allagan Gloves of Healing	Loot	Iron-trimmed Sack											
+Replica Allagan Helm	Loot	Iron-trimmed Sack											
+Replica Allagan Sollerets of Aiming	Loot	Iron-trimmed Sack											
+Replica Allagan Sollerets of Maiming	Loot	Iron-trimmed Sack											
+Replica Allagan Sollerets of Striking	Loot	Iron-trimmed Sack											
+Replica Allagan Trousers of Aiming	Loot	Iron-trimmed Sack											
+Replica Allagan Trousers of Maiming	Loot	Iron-trimmed Sack											
+Replica Allagan Trousers of Striking	Loot	Iron-trimmed Sack											
+Replica Allagan Tunic of Casting	Loot	Iron-trimmed Sack											
+Replica Allagan Tunic of Healing	Loot	Iron-trimmed Sack											
+Replica Allagan Visor of Aiming	Loot	Iron-trimmed Sack											
+Replica Allagan Visor of Maiming	Loot	Iron-trimmed Sack											
+Replica Allagan Visor of Striking	Loot	Iron-trimmed Sack											
+Replica Heavy Allagan Armor	Loot	Iron-trimmed Sack											
+Replica Heavy Allagan Cuisses	Loot	Iron-trimmed Sack											
+Replica Heavy Allagan Flanchard	Loot	Iron-trimmed Sack											
+Replica Heavy Allagan Gauntlets	Loot	Iron-trimmed Sack											
+Savage Aim Materia IV	Loot	Iron-trimmed Sack											
+Savage Aim Materia V	Loot	Iron-trimmed Sack											
+Savage Might Materia IV	Loot	Iron-trimmed Sack											
+Savage Might Materia V	Loot	Iron-trimmed Sack											
+Serpent Tracer	Loot	Iron-trimmed Sack											
+Storm Tracer	Loot	Iron-trimmed Sack											
+Strength Materia IV	Loot	Iron-trimmed Sack											
+Strength Materia V	Loot	Iron-trimmed Sack											
+Survival Halfslops	Loot	Iron-trimmed Sack											
+Survival Shirt	Loot	Iron-trimmed Sack											
+Ul'dahn Sparkler	Loot	Iron-trimmed Sack											
+Uraeus Body Armor	Loot	Iron-trimmed Sack											
+Vitality Materia IV	Loot	Iron-trimmed Sack											
+Vitality Materia V	Loot	Iron-trimmed Sack											
+Wind Silk Bottoms	Loot	Iron-trimmed Sack											
+Wind Silk Wedge Cap	Loot	Iron-trimmed Sack											
+Wind-up Edda	Loot	Iron-trimmed Sack											
+Abigail Barding	Loot	Silver-trimmed Sack											
+General-purpose Dark Purple Dye	Loot	Silver-trimmed Sack											
+General-purpose Metallic Silver Dye	Loot	Silver-trimmed Sack											
+General-purpose Pastel Green Dye	Loot	Silver-trimmed Sack											
+General-purpose Pastel Purple Dye	Loot	Silver-trimmed Sack											
+Inferno Codex	Loot	Silver-trimmed Sack											
+Mind Materia V	Loot	Silver-trimmed Sack											
+Replica Allagan Baghnakhs	Loot	Silver-trimmed Sack											
+Replica Allagan Battleaxe	Loot	Silver-trimmed Sack											
+Replica Allagan Blade	Loot	Silver-trimmed Sack											
+Replica Allagan Cane	Loot	Silver-trimmed Sack											
+Replica Allagan Composite Bow	Loot	Silver-trimmed Sack											
+Replica Allagan Daggers	Loot	Silver-trimmed Sack											
+Replica Allagan Grimoire of Casting	Loot	Silver-trimmed Sack											
+Replica Allagan Grimoire of Healing	Loot	Silver-trimmed Sack											
+Replica Allagan Guillotine	Loot	Silver-trimmed Sack											
+Replica Allagan Pistol	Loot	Silver-trimmed Sack											
+Replica Allagan Rod	Loot	Silver-trimmed Sack											
+Replica Allagan Round Shield	Loot	Silver-trimmed Sack											
+Replica Allagan Scepter	Loot	Silver-trimmed Sack											
+Replica Allagan Spear	Loot	Silver-trimmed Sack											
+Replica Allagan Star Globe	Loot	Silver-trimmed Sack											
+Replica High Allagan Gauntlets of Striking	Loot	Silver-trimmed Sack											
+Tremor Culverin	Loot	Silver-trimmed Sack											
+Abigail Barding	Loot	Gold-trimmed Sack											
+Dead Hive Battleaxe	Loot	Gold-trimmed Sack											
+Dead Hive Bow	Loot	Gold-trimmed Sack											
+Dead Hive Cane	Loot	Gold-trimmed Sack											
+Dead Hive Claws	Loot	Gold-trimmed Sack											
+Dead Hive Claymore	Loot	Gold-trimmed Sack											
+Dead Hive Codex	Loot	Gold-trimmed Sack											
+Dead Hive Grimoire	Loot	Gold-trimmed Sack											
+Dead Hive Kris	Loot	Gold-trimmed Sack											
+Dead Hive Longpole	Loot	Gold-trimmed Sack											
+Dead Hive Musketoon	Loot	Gold-trimmed Sack											
+Dead Hive Planisphere	Loot	Gold-trimmed Sack											
+Dead Hive Shamshir	Loot	Gold-trimmed Sack											
+Dead Hive Spear	Loot	Gold-trimmed Sack											
+Endless Expanse Astrometer	Loot	Gold-trimmed Sack											
+Endless Expanse Battleaxe	Loot	Gold-trimmed Sack											
+Endless Expanse Cane	Loot	Gold-trimmed Sack											
+Endless Expanse Codex	Loot	Gold-trimmed Sack											
+Endless Expanse Greatsword	Loot	Gold-trimmed Sack											
+Endless Expanse Grimoire	Loot	Gold-trimmed Sack											
+Endless Expanse Handgonne	Loot	Gold-trimmed Sack											
+Endless Expanse Longbow	Loot	Gold-trimmed Sack											
+Endless Expanse Longpole	Loot	Gold-trimmed Sack											
+Endless Expanse Machetes	Loot	Gold-trimmed Sack											
+Endless Expanse Partisan	Loot	Gold-trimmed Sack											
+Endless Expanse Patas	Loot	Gold-trimmed Sack											
+Endless Expanse Sword	Loot	Gold-trimmed Sack											
+High Adjudicator's Gavel	Loot	Gold-trimmed Sack											
+High Adjudicator's Staff	Loot	Gold-trimmed Sack											
+Majestic Moggle Mogtome	Loot	Gold-trimmed Sack											
+Maleficent Moggle Mogstaff	Loot	Gold-trimmed Sack											
+Malevolent Moggle Mogwand	Loot	Gold-trimmed Sack											
+Malignant Moggle Mogaxe	Loot	Gold-trimmed Sack											
+Melancholy Moggle Mogfork	Loot	Gold-trimmed Sack											
+Menacing Moggle Mog Gun	Loot	Gold-trimmed Sack											
+Mighty Moggle Mogrod	Loot	Gold-trimmed Sack											
+Mighty Thunderbolt	Loot	Gold-trimmed Sack											
+Mighty Thunderclap	Loot	Gold-trimmed Sack											
+Mighty Thundercrack	Loot	Gold-trimmed Sack											
+Mighty Thunderdart	Loot	Gold-trimmed Sack											
+Mighty Thunderdome	Loot	Gold-trimmed Sack											
+Mighty Thunderhead	Loot	Gold-trimmed Sack											
+Mighty Thundershower	Loot	Gold-trimmed Sack											
+Mighty Thundersparks	Loot	Gold-trimmed Sack											
+Mighty Thunderstorm	Loot	Gold-trimmed Sack											
+Mighty Thunderstrike	Loot	Gold-trimmed Sack											
+Mischievous Moggle Mogbow	Loot	Gold-trimmed Sack											
+Monstrous Moggle Mogsword	Loot	Gold-trimmed Sack											
+Moonlit Moggle Moglobe	Loot	Gold-trimmed Sack											
+Morbid Moggle Mogblade	Loot	Gold-trimmed Sack											
+Mortal Moggle Mogknives	Loot	Gold-trimmed Sack											
+Munificent Moggle Mogtome	Loot	Gold-trimmed Sack											
+Murderous Moggle Mogfists	Loot	Gold-trimmed Sack											
+Night Pegasus Whistle	Loot	Gold-trimmed Sack											
+Ona Ramuhda First Edition	Loot	Gold-trimmed Sack											
+Replica High Allagan Blade	Loot	Gold-trimmed Sack											
+The Law of Levin First Edition	Loot	Gold-trimmed Sack											
+Mossy Stone Sword	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Claws	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Spear	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Rod	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Staff	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Bow	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Axe	Venture	Field Exploration XII	Field Exploration XIV										
+Littlefoot	Venture	Woodland Exploration XIV	Woodland Exploration XV	Woodland Exploration XVI									
+Gestahl	Venture	Waterside Exploration XVIII											
+Miniature Minecart	Venture	Highland Exploration XIV	Highland Exploration XVIII										
+Iron Giant Scrap	Venture	Field Exploration XVIII											
+Steel Mainspring	Venture	Highland Exploration XVIII											
+Minute Mindflayer	Venture	Field Exploration XIII	Highland Exploration XIII										
+Tiny Tapir	Venture	Field Exploration XIV											
+Gysahl Ring	Venture	Field Exploration X											
+Lupin Seedling	Venture	Woodland Exploration XVIII	Woodland Exploration XIX										
+Odder Otter	Venture	Woodland Exploration XX	Highland Exploration XX	Waterside Exploration XX	Highland Exploration XXII								
+Light Steel Plate	Venture	Field Exploration XIII	Highland Exploration XIII	Waterside Exploration XIII									
+Weathered Tome	Venture	Woodland Exploration XIV											
+Faded Tome	Venture	Waterside Exploration XII											
+Taffeta Cloth	Venture	Field Exploration XIII	Field Exploration XVII	Field Exploration XVIII	Highland Exploration XIII								
+Mameshiba	Venture	Highland Exploration XXII											
+Koala Joey	Venture	Field Exploration XXII											
+Axolotl Eft	Venture	Waterside Exploration XXII											
+Red Roundstone	Node	306											
+Violet Roundstone	Node	314											
+Green Roundstone	Node	308											
+Yellow Roundstone	Node	312											
+Blue Roundstone	Node	310											
+Bitter Foxglove	Node	330											
+Heavensnut	Node	336	328										
+Swordleaf	Node	332											
+Dragon's Wart	Node	334	393										
+Mute Swan Feather	Node	338											
+Tiny Tatsunoko	Node	480											
+Verdant Partition	Instance	Saint Mocianne's Arboretum (Hard)											
+Shinryu's Scale	Instance	The Minstrel's Ballad: Shinryu's Domain											
+Pellitory	Instance	The Aquapolis											
+Thavnairian Armlets	Instance	The Aquapolis											
+Thavnairian Babouches	Instance	The Aquapolis											
+Thavnairian Bolero	Instance	The Aquapolis											
+Thavnairian Bustier	Instance	The Aquapolis											
+Thavnairian Gloves	Instance	The Aquapolis											
+Thavnairian Headdress	Instance	The Aquapolis											
+Thavnairian Sandals	Instance	The Aquapolis											
+Thavnairian Sarouel	Instance	The Aquapolis											
+Thavnairian Tights	Instance	The Aquapolis											
+Thavnairian Turban	Instance	The Aquapolis											
+Falconer's Boots	Instance	The Aquapolis											
+Falconer's Bottoms	Instance	The Aquapolis											
+Falconer's Shirt	Instance	The Aquapolis											
+Expeditioner's Cap	Instance	The Aquapolis											
+Expeditioner's Coat	Instance	The Aquapolis											
+Expeditioner's Flyers	Instance	The Aquapolis											
+Expeditioner's Gloves	Instance	The Aquapolis											
+Expeditioner's Kecks	Instance	The Aquapolis											
+Expeditioner's Moccasins	Instance	The Aquapolis											
+Expeditioner's Pantalettes	Instance	The Aquapolis											
+Expeditioner's Tabard	Instance	The Aquapolis											
+Expeditioner's Thighboots	Instance	The Aquapolis											
+Twilight over Thanalan Orchestrion Roll	Instance	The Aquapolis											
+Whisper of the Land Orchestrion Roll	Instance	The Aquapolis											
+On Windy Meadows Orchestrion Roll	Instance	The Aquapolis											
+Minute Mindflayer	Instance	The Aquapolis											
+Wind-up Tonberry	Instance	The Aquapolis											
+Baby Opo-opo	Instance	The Aquapolis											
+Mummy's Little Mummy	Instance	The Aquapolis											
+Nutkin	Instance	The Aquapolis											
+Owlet	Instance	The Aquapolis											
+Paissa Brat	Instance	The Aquapolis											
+Page 63	Instance	The Aquapolis											
+Bluebird	Instance	The Aquapolis											
+Dwarf Rabbit	Instance	The Aquapolis											
+Unicolt	Instance	The Aquapolis											
+Lesser Panda	Instance	The Aquapolis											
+Ugly Duckling	Instance	The Aquapolis											
+Tiny Bulb	Instance	The Aquapolis											
+Tight-beaked Parrot	Instance	The Aquapolis											
+Glass Fiber	Instance	The Aquapolis											
+Carbon Fiber	Instance	The Aquapolis											
+Luminous Fiber	Instance	The Aquapolis											
+Odorless Animal Fat	Instance	The Aquapolis											
+Astral Silk	Instance	The Aquapolis											
+Moonbeam Silk	Instance	The Aquapolis											
+Skyspring Water	Instance	The Aquapolis											
+Luminous Fiber	Instance	The Aquapolis											
+Plundered Treasure	Instance	The Aquapolis											
+Wool Top	Instance	The Aquapolis											
+New World Macrame	Instance	The Aquapolis											
+Bronze-trimmed Sack	Instance	the Palace of the Dead (Floors 1-10)	the Palace of the Dead (Floors 11-20)	the Palace of the Dead (Floors 21-30)	the Palace of the Dead (Floors 31-40)	the Palace of the Dead (Floors 41-50)							
+Iron-trimmed Sack	Instance	the Palace of the Dead (Floors 51-60)	the Palace of the Dead (Floors 61-70)	the Palace of the Dead (Floors 71-80)	the Palace of the Dead (Floors 81-90)	the Palace of the Dead (Floors 91-100)							
+Silver-trimmed Sack	Instance	the Palace of the Dead (Floors 101-110)	the Palace of the Dead (Floors 111-120)	the Palace of the Dead (Floors 121-130)	the Palace of the Dead (Floors 131-140)	the Palace of the Dead (Floors 141-150)							
+Gold-trimmed Sack	Instance	the Palace of the Dead (Floors 151-160)	the Palace of the Dead (Floors 161-170)	the Palace of the Dead (Floors 171-180)	the Palace of the Dead (Floors 181-190)	the Palace of the Dead (Floors 191-200)							
+Ratanhia Leaves	Instance	The Lost Canals of Uznair											
+Wind-up Namazu	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
+Nagxian Silk	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
+Nagxian Leather	Instance	The Lost Canals of Uznair											
+Matanga Lamp	Instance	The Lost Canals of Uznair											
+The Twin Faces of Fate - The Theme of Ul'dah Orchestrion Roll	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
+Navigator's Glory - The Theme of Limsa Lominsa Orchestrion Roll	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
+Born of the Boughs - The Theme of Gridania Orchestrion Roll	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
+Cracked Cluster	Instance	The Lost Canals of Uznair											
+Taoist's Wool	Instance	The Lost Canals of Uznair											
+Autumnal Maple Tree	Instance	The Lost Canals of Uznair											
+Maple Leaf Pile	Instance	The Lost Canals of Uznair											
+Holy Linen	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
+Hannish Wool	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
+Thavnairian Wool	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
+Timeworn Thief's Map	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair										
+A Father's Pride Orchestrion Roll	Instance	The Hidden Canals of Uznair											
+Ala Mhigan Weave	Instance	The Hidden Canals of Uznair											
+Wind-up Matanga	Instance	The Hidden Canals of Uznair											
+Crimson Sunrise Orchestrion Roll	Instance	The Hidden Canals of Uznair											
+Ballroom Etiquette - Scholarly Certitude	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair	The Shifting Altars of Uznair									
+Whisperfine Fleece	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair										
+Divine Chandelier	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair										
+Birdbath	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair										
+Little Chef's Playset	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair										
+Capybara Pup	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair	The Hidden Canals of Uznair									
+Neo Aetherstone - Foot Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3										
+Neo Aetherstone - Hand Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3										
+Neo Aetherstone - Headgear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 2										
+Neo Aetherstone - Leg Gear	Instance	The Final Coil of Bahamut - Turn 2											
+Neo Aetherstone - Body Gear	Instance	The Final Coil of Bahamut - Turn 4											
+Blue Oldroses	Gardening	Oldrose Seeds											
+Yellow Oldroses	Gardening	Oldrose Seeds											
+Green Oldroses	Gardening	Oldrose Seeds											
+Orange Oldroses	Gardening	Oldrose Seeds											
+Purple Oldroses	Gardening	Oldrose Seeds											
+White Oldroses	Gardening	Oldrose Seeds											
+Black Oldroses	Gardening	Oldrose Seeds											
+Rainbow Oldroses	Gardening	Oldrose Seeds											
+Red Violas	Gardening	Viola Seeds											
+Blue Violas	Gardening	Viola Seeds											
+Yellow Violas	Gardening	Viola Seeds											
+Green Violas	Gardening	Viola Seeds											
+Orange Violas	Gardening	Viola Seeds											
+White Violas	Gardening	Viola Seeds											
+Black Violas	Gardening	Viola Seeds											
+Rainbow Violas	Gardening	Viola Seeds											
+Blue Cherry Blossoms	Gardening	Shroud Cherry Sapling											
+Yellow Cherry Blossoms	Gardening	Shroud Cherry Sapling											
+Green Cherry Blossoms	Gardening	Shroud Cherry Sapling											
+Orange Cherry Blossoms	Gardening	Shroud Cherry Sapling											
+Purple Cherry Blossoms	Gardening	Shroud Cherry Sapling											
+White Cherry Blossoms	Gardening	Shroud Cherry Sapling											
+Black Cherry Blossoms	Gardening	Shroud Cherry Sapling											
+Pink Cherry Blossoms	Gardening	Shroud Cherry Sapling											
+Red Daisies	Gardening	Daisy Seeds											
+Blue Daisies	Gardening	Daisy Seeds											
+Green Daisies	Gardening	Daisy Seeds											
+Orange Daisies	Gardening	Daisy Seeds											
+Purple Daisies	Gardening	Daisy Seeds											
+White Daisies	Gardening	Daisy Seeds											
+Black Daisies	Gardening	Daisy Seeds											
+Rainbow Daisies	Gardening	Daisy Seeds											
+Abroader Otter	Voyage	Deep-sea site 7											
+Aetherochemical Fiber	Voyage	Sea of Clouds 14	Sea of Clouds 15										
+Althyk Lavender Seeds	Voyage	Sea of Clouds 13	Sea of Clouds 15										
+Antique Leather	Voyage	Sea of Clouds 20											
+Aurelia Polyp	Voyage	Deep-sea site 3	The Umbrella Narrow										
+Balsa Wood Lumber	Voyage	Sea of Clouds 08	Sea of Clouds 09	Komura									
+Balsa Wood Scrap	Voyage	Sea of Clouds 03	Sea of Clouds 04	The Umbrella Narrow									
+Bamboo Weave	Voyage	Sea of Clouds 01	Sea of Clouds 02	Deep-sea site 1	Deep-sea site 2	Deep-sea site 3	The Umbrella Narrow	The Cobalt Shoals					
+Battledance Materia II	Voyage	Sea of Clouds 02											
+Battledance Materia III	Voyage	Sea of Clouds 02	Sea of Clouds 20										
+Battledance Materia IV	Voyage	Sea of Clouds 20	Komura										
+Battledance Materia V	Voyage	Sea of Clouds 20											
+Bear Fat	Voyage	Sea of Clouds 23											
+Birch Branch	Voyage	Sea of Clouds 05	Sea of Clouds 11	Sea of Clouds 17	The Umbrella Narrow	Deep-sea site 4							
+Birch Log	Voyage	Komura											
+Black Clay	Voyage	Sea of Clouds 10											
+Cassia Log	Voyage	Sea of Clouds 14	Sea of Clouds 15	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 18	Sea of Clouds 19	Sea of Clouds 20	Sea of Clouds 21	Sea of Clouds 23	Sea of Clouds 24	Deep-sea Site 6	Deep-sea Site 7
+Chemically Treated Chimera Hide	Voyage	Sea of Clouds 11	Sea of Clouds 12	Sea of Clouds 13									
+Cloudsbreath Seeds	Voyage	Sea of Clouds 17	Sea of Clouds 21	Sea of Clouds 24									
+Copper Voyage Spoil	Voyage	Sea of Clouds 09											
+Craftsman's Command Materia II	Voyage	Sea of Clouds 07	The Umbrella Narrow										
+Craftsman's Command Materia III	Voyage	Sea of Clouds 03	Sea of Clouds 07	Sea of Clouds 17	Deep-sea site 2								
+Craftsman's Command Materia IV	Voyage	Sea of Clouds 17											
+Craftsman's Competence Materia III	Voyage	Sea of Clouds 03	Sea of Clouds 17	Deep-sea site 2									
+Craftsman's Competence Materia IV	Voyage	Sea of Clouds 13	Sea of Clouds 17										
+Craftsman's Cunning Materia III	Voyage	Sea of Clouds 07	The Cobalt Shoals										
+Craftsman's Cunning Materia IV	Voyage	Sea of Clouds 13											
+Crimson Coral	Voyage	The Lightless Basin											
+Dark Chestnut Branch	Voyage	Sea of Clouds 06	Sea of Clouds 12	Sea of Clouds 18	Sea of Clouds 24	Offender's Rot	Deep-sea site 3						
+Deep-blue Cluster	Voyage	Sea of Clouds 13	Sea of Clouds 19	Sea of Clouds 22	The Central Rimilala Trench	Deep-sea Site 5							
+Deep-blue Crystal	Voyage	Sea of Clouds 07	Sea of Clouds 10	Sea of Clouds 13	The Umbrella Narrow	The Cobalt Shoals							
+Deep-green Cluster	Voyage	Sea of Clouds 18	Sea of Clouds 21	Sea of Clouds 24	Komura								
+Deep-green Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 15	Southern Rimilala Trench								
+Deep-red Cluster	Voyage	Sea of Clouds 17	Sea of Clouds 20	Sea of Clouds 23	Kanayama								
+Deep-red Crystal	Voyage	Sea of Clouds 05	Deep-sea site 3	Neolith Island	Deep-sea site 3								
+Dexterity Materia II	Voyage	Ivory Shoals											
+Dexterity Materia III	Voyage	Sea of Clouds 01	Sea of Clouds 20										
+Dexterity Materia IV	Voyage	Sea of Clouds 12	Sea of Clouds 20										
+Dinosaur Fossil	Voyage	Purgatory											
+Dinosaur Leather	Voyage	Sea of Clouds 19											
+Dravanian Mote	Voyage	Sea of Clouds 06	Sea of Clouds 13										
+Dusk Leather	Voyage	Sea of Clouds 17	Sea of Clouds 18	Sea of Clouds 19	Sea of Clouds 20	Sea of Clouds 21	Sea of Clouds 22						
+Earth Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 11	Sea of Clouds 13	Sea of Clouds 14	Sea of Clouds 15	Deep-sea site 1					
+Emerald	Voyage	Unidentified Derelict	The Wreckage of Discovery I										
+Empty Cluster	Voyage	Sea of Clouds 16											
+Empty Crystal	Voyage	Sea of Clouds 05	Sea of Clouds 06	The Lightless Basin	Neolith Island	Deep-sea site 3							
+Faded Copy of A World Apart	Voyage	Sea of Clouds 23											
+Far Eastern Coin	Voyage	Sea of Clouds 16											
+Ferberite	Voyage	Sea of Clouds 01	Sea of Clouds 07	Sea of Clouds 13	Sea of Clouds 19	Sea of Clouds 23							
+Fine Alumen	Voyage	Sea of Clouds 04	Sea of Clouds 07	Sea of Clouds 13									
+Fire Crystal	Voyage	Sea of Clouds 02	Sea of Clouds 04	Sea of Clouds 07	Sea of Clouds 10	Sea of Clouds 12	Sea of Clouds 16	Sunken Vault					
+Fire Cluster	Voyage	Deep-sea Site 7											
+Gatherer's Grasp Materia III	Voyage	Sea of Clouds 04	Sea of Clouds 16	Sea of Clouds 22									
+Gatherer's Grasp Materia IV	Voyage	Sea of Clouds 16	Sea of Clouds 22										
+Gatherer's Guerdon Materia III	Voyage	Sea of Clouds 10											
+Gatherer's Guerdon Materia IV	Voyage	Sea of Clouds 16											
+Gatherer's Guile Materia III	Voyage	Sea of Clouds 04	Sea of Clouds 10	Sea of Clouds 22	The Lightless Basin								
+Gatherer's Guile Materia IV	Voyage	Sea of Clouds 22											
+Gold Ingot	Voyage	Concealed Bay											
+Gold Ore	Voyage	Sea of Clouds 02	Sea of Clouds 08	Sea of Clouds 14	Sea of Clouds 20	The Wreckage of the Headway							
+Gold Sand	Voyage	Sea of Clouds 19											
+Heavens' Eye Materia III	Voyage	Sea of Clouds 23											
+Heavens' Eye Materia IV	Voyage	Sea of Clouds 12	Sea of Clouds 14	Sea of Clouds 23									
+Heavens' Eye Materia V	Voyage	Sea of Clouds 23											
+Ice Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 11	Sea of Clouds 13	Sea of Clouds 14	Sea of Clouds 15	Deep-sea site 1	Neolith Island	Sunken Vault			
+Intelligence Materia III	Voyage	Sea of Clouds 23											
+Intelligence Materia IV	Voyage	Sea of Clouds 11	Sea of Clouds 14	Sea of Clouds 23									
+Intelligence Materia V	Voyage	Sea of Clouds 23											
+Iron Giant Core	Voyage	Sea of Clouds 08	Sea of Clouds 14	Sea of Clouds 18	Sea of Clouds 19	Sea of Clouds 20	Sea of Clouds 22						
+Iron Voyage Spoil	Voyage	Sea of Clouds 24											
+Kamacite Ore	Voyage	Rimiala Shelf											
+Lightning Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Clouds 09								
+Magnanimous Mogcrown	Voyage	Sea of Clouds 01	Sea of Clouds 10	Sea of Clouds 11	Sea of Clouds 15								
+Marble	Voyage	Flickering Dip											
+Marine Wax Ester	Voyage	Concealed Bay	Flickering Dip	The Wreckage of Discovery I									
+Mind Materia III	Voyage	Sea of Clouds 08	Sea of Clouds 19	The Mystic Basin	Offender's Rot								
+Mind Materia IV	Voyage	Sea of Clouds 19											
+Mythrite Sand	Voyage	Sea of Clouds 20											
+Oriental Grass Tuft	Voyage	Sea of Clouds 08	Sea of Clouds 14										
+Piety Materia II	Voyage	Southern Rimilala Trench											
+Piety Materia III	Voyage	Sea of Clouds 06	Sea of Clouds 19	Deep-sea site 4									
+Piety Materia IV	Voyage	Sea of Clouds 19											
+Piety Materia V	Voyage	Sea of Clouds 19											
+Platinum Ingot	Voyage	Concealed Bay											
+Platinum Ore	Voyage	Sea of Clouds 03	Sea of Clouds 09	Sea of Clouds 15	Sea of Clouds 21								
+Potters Stone	Voyage	Sea of Clouds 01	Sea of Clouds 10										
+Quickarm Materia III	Voyage	Sea of Clouds 09	Sea of Clouds 18										
+Quickarm Materia IV	Voyage	Sea of Clouds 18	Kanayama										
+Quicktongue Materia II	Voyage	Sea of Clouds 06	Deep-sea site 1										
+Quicktongue Materia III	Voyage	Sea of Clouds 02	Sea of Clouds 06	Sea of Clouds 11	Sea of Clouds 21	Southern Rimilala Trench	Deep-sea site 4						
+Quicktongue Materia IV	Voyage	Sea of Clouds 11	Sea of Clouds 21										
+Raw Celestine	Voyage	Sea of Clouds 08	Sea of Clouds 09	Sea of Clouds 10	The Mystic Basin	Kanayama	Deep-sea site 4						
+Red Clay	Voyage	Sea of Clouds 07											
+Red Moko Grass	Voyage	Sea of Clouds 03	Sea of Clouds 04	Deep-sea Site 3	Deep-sea Site 2	The Ivory Shoals	The Umbrella Narrow						
+Rose Gold Ingot	Voyage	The Wreckage of the Headway											
+Ruby	Voyage	The Wreckage of Discovery I											
+Salvaged Necklace	Voyage	Unidentified Derelict											
+Savage Aim Materia III	Voyage	Sea of Clouds 08	Sea of Clouds 15	Sea of Clouds 24	The Mystic Basin								
+Savage Aim Materia IV	Voyage	Sea of Clouds 15											
+Savage Aim Materia V	Voyage	Sea of Clouds 24											
+Savage Might Materia II	Voyage	Deep-sea site 3											
+Savage Might Materia III	Voyage	Sea of Clouds 05	Sea of Clouds 21	Deep-sea site 3									
+Savage Might Materia IV	Voyage	Sea of Clouds 21	Kanayama										
+Savage Might Materia V	Voyage	Sea of Clouds 21											
+Scarlet Sap	Voyage	Sea of Clouds 04	Sea of Clouds 10	Sea of Clouds 16	Sea of Clouds 22								
+Shrub Seedling	Voyage	Sea of Clouds 02	Sea of Clouds 06	Sea of Clouds 12									
+Siltstone	Voyage	Flickering Dip											
+Silver Ore	Voyage	Sea of Clouds 17											
+Star Ruby	Voyage	Unidentified Derelict	The Wreckage of Discovery I										
+Star Sapphire	Voyage	Unidentified Derelict											
+Strength Materia III	Voyage	Sea of Clouds 09	Sea of Clouds 18	Neolith Island									
+Strength Materia IV	Voyage	Sea of Clouds 18											
+Synthetic Fiber	Voyage	Sea of Clouds 11	Sea of Clouds 12										
+Synthetic Resin	Voyage	Sea of Clouds 13											
+Tincalconite	Voyage	Sea of Clouds 07											
+Toy Box Schema	Voyage	Sea of Clouds 05	Sea of Clouds 09	Sea of Clouds 14	Sea of Clouds 17	Sea of Clouds 21							
+Unaspected Crystal	Voyage	Sea of Clouds 08	Sea of Clouds 10	Deep-sea site 2	Southern Rimilala Trench								
+Vitality Materia II	Voyage	Deep-sea site 3											
+Vitality Materia III	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 24	Deep-sea site 3	The Central Rimilala Trench							
+Vitality Materia IV	Voyage	Sea of Clouds 15											
+Vitality Materia V	Voyage	Sea of Clouds 24											
+Vivianite	Voyage	Sea of Clouds 01	Sea of Clouds 02	Deep-sea site 1	Kanayama	Deep-sea site 4	The Southern Rimilala Trench	Purgatory					
+Voidrake Seeds	Voyage	Sea of Clouds 12	Sea of Clouds 14	Sea of Clouds 16									
+Water Crystal	Voyage	Sea of Clouds 02	Sea of Clouds 04	Sea of Clouds 07	Sea of Clouds 10	Sea of Clouds 12	Sea of Clouds 16	Deep-sea site 2	Deep-sea site 3	Offender's Rot			
+Wind Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Clouds 09	Ivory Shoals	Deep-sea site 2	Deep-sea site 3	The Umbrella Narrow				
+Wind Cluster	Voyage	The Wreckage of the Headway											
+Wind Silk	Voyage	Sea of Clouds 13	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 21								
