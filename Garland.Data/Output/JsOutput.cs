@@ -126,6 +126,9 @@ namespace Garland.Data.Output
                 if (fate.zoneid != null)
                     partial.z = fate.zoneid;
 
+                if (fate.coords != null)
+                    partial.c = fate.coords;
+
                 fates[(string)fate.id] = partial;
             }
 
