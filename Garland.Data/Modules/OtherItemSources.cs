@@ -67,6 +67,10 @@ namespace Garland.Data.Modules
                             BuildGardening(item, args);
                             break;
 
+                        case "Other":
+                            BuildOther(item, args);
+                            break;
+
                         default:
                             throw new NotImplementedException();
                     }
@@ -79,6 +83,15 @@ namespace Garland.Data.Modules
                     throw;
                 }
             }
+        }
+
+        void BuildOther(dynamic item, string[] sources)
+        {
+            // For unstructured source strings.
+            if (item.other != null)
+                throw new InvalidOperationException("item.other already exists.");
+
+            item.other = new JArray(sources);
         }
 
         void BuildGardening(dynamic item, string[] sources)
@@ -140,18 +153,19 @@ namespace Garland.Data.Modules
 
         void BuildLoot(dynamic item, string[] sources)
         {
-            if (item.treasure != null)
-                throw new InvalidOperationException("item.treasure already exists.");
+            if (item.treasure == null)
+                item.treasure = new JArray();
 
             var generators = sources.Select(j => _builder.Db.ItemsByName[j]).ToArray();
-            item.treasure = new JArray(generators.Select(i => (int)i.id));
-
             foreach (var generator in generators)
             {
                 if (generator.loot == null)
                     generator.loot = new JArray();
+
                 generator.loot.Add((int)item.id);
                 _builder.Db.AddReference(generator, "item", (int)item.id, false);
+
+                item.treasure.Add((int)generator.id);
                 _builder.Db.AddReference(item, "item", (int)generator.id, true);
             }
         }

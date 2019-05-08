@@ -140,7 +140,6 @@ Red Mage Barding	Loot	Anemos Lockbox
 Wicked Winds Whisper Orchestrion Roll	Loot	Anemos Lockbox											
 No Quarter Orchestrion Roll	Loot	Anemos Lockbox											
 Protean Crystal	Loot	Anemos Crystal											
-Frosted Protean Crystal	Loot	Eureka Pagos, Crystal Forge 											
 Lizard Tail	Loot	Pagos Lockbox											
 Reishi Mushroom	Loot	Pagos Lockbox											
 Wind-up Tarutaru	Loot	Pagos Lockbox											
@@ -153,10 +152,9 @@ Pagos Culottes	Loot	Pagos Lockbox
 Pagos Gaskins	Loot	Pagos Lockbox											
 Pagos Gloves	Loot	Pagos Lockbox											
 Pagos Shirt	Loot	Pagos Lockbox											
-Cold-warped Lockbox	Loot	Eureka Pagos, Mutated Mobs	Mutated Anubys										
 Crossed Halberds	Loot	Cold-warped Lockbox											
 Golden Hakutaku Eye	Loot	Cold-warped Lockbox											
-Chainmail Hangers	Loot	Cold-warped Lockbox											
+Chainmail Hanger	Loot	Cold-warped Lockbox											
 Wind-up Tarutaru	Loot	Cold-warped Lockbox											
 Ballroom Etiquette - Insufficient Petticoats	Loot	Cold-warped Lockbox											
 Antiquated Machinist's Boots	Loot	Machinist's Armor Coffer											
@@ -504,10 +502,10 @@ Luminous Fiber	Instance	The Aquapolis
 Plundered Treasure	Instance	The Aquapolis											
 Wool Top	Instance	The Aquapolis											
 New World Macrame	Instance	The Aquapolis											
-Bronze-trimmed Sack	Instance	the Palace of the Dead (Floors 1-10)	the Palace of the Dead (Floors 11-20)	the Palace of the Dead (Floors 21-30)	the Palace of the Dead (Floors 31-40)	the Palace of the Dead (Floors 41-50)							
-Iron-trimmed Sack	Instance	the Palace of the Dead (Floors 51-60)	the Palace of the Dead (Floors 61-70)	the Palace of the Dead (Floors 71-80)	the Palace of the Dead (Floors 81-90)	the Palace of the Dead (Floors 91-100)							
-Silver-trimmed Sack	Instance	the Palace of the Dead (Floors 101-110)	the Palace of the Dead (Floors 111-120)	the Palace of the Dead (Floors 121-130)	the Palace of the Dead (Floors 131-140)	the Palace of the Dead (Floors 141-150)							
-Gold-trimmed Sack	Instance	the Palace of the Dead (Floors 151-160)	the Palace of the Dead (Floors 161-170)	the Palace of the Dead (Floors 171-180)	the Palace of the Dead (Floors 181-190)	the Palace of the Dead (Floors 191-200)							
+Bronze-trimmed Sack	Instance	The Palace of the Dead (Floors 1-10)	The Palace of the Dead (Floors 11-20)	The Palace of the Dead (Floors 21-30)	The Palace of the Dead (Floors 31-40)	The Palace of the Dead (Floors 41-50)							
+Iron-trimmed Sack	Instance	The Palace of the Dead (Floors 51-60)	The Palace of the Dead (Floors 61-70)	The Palace of the Dead (Floors 71-80)	The Palace of the Dead (Floors 81-90)	The Palace of the Dead (Floors 91-100)							
+Silver-trimmed Sack	Instance	The Palace of the Dead (Floors 101-110)	The Palace of the Dead (Floors 111-120)	The Palace of the Dead (Floors 121-130)	The Palace of the Dead (Floors 131-140)	The Palace of the Dead (Floors 141-150)							
+Gold-trimmed Sack	Instance	The Palace of the Dead (Floors 151-160)	The Palace of the Dead (Floors 161-170)	The Palace of the Dead (Floors 171-180)	The Palace of the Dead (Floors 181-190)	The Palace of the Dead (Floors 191-200)							
 Ratanhia Leaves	Instance	The Lost Canals of Uznair											
 Wind-up Namazu	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
 Nagxian Silk	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
@@ -698,3 +696,5 @@ Water Crystal	Voyage	Sea of Clouds 02	Sea of Clouds 04	Sea of Clouds 07	Sea of C
 Wind Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Clouds 09	Ivory Shoals	Deep-sea site 2	Deep-sea site 3	The Umbrella Narrow				
 Wind Cluster	Voyage	The Wreckage of the Headway											
 Wind Silk	Voyage	Sea of Clouds 13	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 21								
+Cold-warped Lockbox	Other	Eureka Pagos, Mutated Mobs	Mutated Anubys										
+Frosted Protean Crystal	Other	Eureka Pagos, Crystal Forge 											
