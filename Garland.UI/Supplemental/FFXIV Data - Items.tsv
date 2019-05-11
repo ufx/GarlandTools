@@ -140,8 +140,8 @@ Red Mage Barding	Loot	Anemos Lockbox
 Wicked Winds Whisper Orchestrion Roll	Loot	Anemos Lockbox											
 No Quarter Orchestrion Roll	Loot	Anemos Lockbox											
 Protean Crystal	Loot	Anemos Crystal											
-Lizard Tail	Loot	Pagos Lockbox											
-Reishi Mushroom	Loot	Pagos Lockbox											
+Lizard Tail	Loot	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox									
+Reishi Mushroom	Loot	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox									
 Wind-up Tarutaru	Loot	Pagos Lockbox											
 Pagos Field Dressing	Loot	Pagos Lockbox											
 Pagos Bandana	Loot	Pagos Lockbox											
@@ -152,11 +152,21 @@ Pagos Culottes	Loot	Pagos Lockbox
 Pagos Gaskins	Loot	Pagos Lockbox											
 Pagos Gloves	Loot	Pagos Lockbox											
 Pagos Shirt	Loot	Pagos Lockbox											
+Boutique Batiste	Loot	Pagos Lockbox											
 Crossed Halberds	Loot	Cold-warped Lockbox											
 Golden Hakutaku Eye	Loot	Cold-warped Lockbox											
 Chainmail Hanger	Loot	Cold-warped Lockbox											
 Wind-up Tarutaru	Loot	Cold-warped Lockbox											
 Ballroom Etiquette - Insufficient Petticoats	Loot	Cold-warped Lockbox											
+Adventuring Pack	Loot	Pyros Lockbox											
+Pagos Sage	Loot	Pyros Lockbox	Hydatos Lockbox										
+Pagos Spring Water	Loot	Pyros Lockbox	Hydatos Lockbox										
+Glass Jars	Loot	Pyros Lockbox											
+Wooden Plates	Loot	Pyros Lockbox											
+Ballroom Etiquette - Ideal Gossip	Loot	Heat-warped Lockbox											
+Simple Treehouse	Loot	Hydatos Lockbox											
+Paissa Chronometer	Loot	Hydatos Lockbox											
+Gates of Paradise Orchestrion Roll	Loot	Hydatos Lockbox											
 Antiquated Machinist's Boots	Loot	Machinist's Armor Coffer											
 Antiquated Machinist's Brais	Loot	Machinist's Armor Coffer											
 Antiquated Machinist's Gloves	Loot	Machinist's Armor Coffer											
@@ -173,7 +183,7 @@ Allagan Platinum Piece	Loot	Bronze-trimmed Sack
 Baby Opo-opo	Loot	Bronze-trimmed Sack											
 Battledance Materia IV	Loot	Bronze-trimmed Sack											
 Bluebird	Loot	Bronze-trimmed Sack											
-Cherry Confetti	Loot	Bronze-trimmed Sack											
+Cherry Confetti	Loot	Bronze-trimmed Sack	Pagos Lockbox										
 Clear Demimateria I	Loot	Bronze-trimmed Sack											
 Clear Demimateria II	Loot	Bronze-trimmed Sack											
 Clear Demimateria III	Loot	Bronze-trimmed Sack											
