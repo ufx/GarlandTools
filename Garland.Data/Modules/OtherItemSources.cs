@@ -105,25 +105,27 @@ namespace Garland.Data.Modules
 
         void BuildDesynth(dynamic item, string[] sources)
         {
-            if (item.desynthedFrom != null)
-                throw new InvalidOperationException("item.desynthedFrom already exists.");
+            if (item.desynthedFrom == null)
+                item.desynthedFrom = new JArray();
 
-            item.desynthedFrom = new JArray();
             foreach (string itemName in sources)
             {
                 var desynthItem = _builder.Db.ItemsByName[itemName];
                 item.desynthedFrom.Add((int)desynthItem.id);
                 _builder.Db.AddReference(item, "item", (int)desynthItem.id, false);
+
+                if (desynthItem.desynthedTo == null)
+                    desynthItem.desynthedTo = new JArray();
+                desynthItem.desynthedTo.Add((int)item.id);
                 _builder.Db.AddReference(desynthItem, "item", (int)item.id, false);
             }
         }
 
         void BuildReduce(dynamic item, string[] sources)
         {
-            if (item.reducedFrom != null)
-                throw new InvalidOperationException("item.reducedFrom already exists.");
+            if (item.reducedFrom == null)
+                item.reducedFrom = new JArray();
 
-            item.reducedFrom = new JArray();
             foreach (string sourceItemName in sources)
             {
                 var sourceItem = _builder.Db.ItemsByName[sourceItemName];
