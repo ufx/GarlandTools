@@ -55,7 +55,7 @@ Undyed Cotton Cloth	Desynth	Aged Robe
 Undyed Velveteen	Desynth	Aged Robe											
 Vintage Cooking Sherry	Desynth	Aged Decanter											
 Vitriol	Desynth	Aged Phial											
-Waterproof Cotton Cloth	Desynth	Sweetnewt	The Lone Ripper	Olgoi-Khorkhoi									
+Waterproof Cotton Cloth	Desynth	Sweetnewt	The Lone Ripper	Olgoi-Khorkhoi	Shrieker								
 Duskborne Aethersand	Reduce	Fire Moraine	Lightning Moraine	Granular Clay	Highland Oregano								
 Dawnborne Aethersand	Reduce	Bright Fire Rock	Bright Lightning Rock	Peat Moss	Furymint								
 Landborne Aethersand	Reduce	Radiant Fire Moraine	Radiant Lightning Moraine										
@@ -163,7 +163,11 @@ Pagos Sage	Loot	Pyros Lockbox	Hydatos Lockbox
 Pagos Spring Water	Loot	Pyros Lockbox	Hydatos Lockbox										
 Glass Jars	Loot	Pyros Lockbox											
 Wooden Plates	Loot	Pyros Lockbox											
+Wooden Cups	Loot	Pyros Lockbox											
+Spice Rack	Loot	Pyros Lockbox											
 Ballroom Etiquette - Ideal Gossip	Loot	Heat-warped Lockbox											
+Samurai Barding	Loot	Heat-warped Lockbox											
+Tactical Logogram	Loot	Heat-warped Lockbox											
 Simple Treehouse	Loot	Hydatos Lockbox											
 Paissa Chronometer	Loot	Hydatos Lockbox											
 Gates of Paradise Orchestrion Roll	Loot	Hydatos Lockbox											
@@ -423,6 +427,7 @@ Night Pegasus Whistle	Loot	Gold-trimmed Sack
 Ona Ramuhda First Edition	Loot	Gold-trimmed Sack											
 Replica High Allagan Blade	Loot	Gold-trimmed Sack											
 The Law of Levin First Edition	Loot	Gold-trimmed Sack											
+Dodo Horn	Loot	Platinum-haloed Sack											
 Mossy Stone Sword	Venture	Field Exploration XII	Field Exploration XIV										
 Mossy Stone Claws	Venture	Field Exploration XII	Field Exploration XIV										
 Mossy Stone Spear	Venture	Field Exploration XII	Field Exploration XIV										
@@ -512,10 +517,140 @@ Luminous Fiber	Instance	The Aquapolis
 Plundered Treasure	Instance	The Aquapolis											
 Wool Top	Instance	The Aquapolis											
 New World Macrame	Instance	The Aquapolis											
+Astrometer of the Round	Loot	Platinum-haloed Sack											
+Axe of the Fiend	Loot	Platinum-haloed Sack											
+Axe of the Round	Loot	Platinum-haloed Sack											
+Blade of the Fiend	Loot	Platinum-haloed Sack											
+Bow of the Fiend	Loot	Platinum-haloed Sack											
+Bow of the Round	Loot	Platinum-haloed Sack											
+Cane of the Fiend	Loot	Platinum-haloed Sack											
+Cane of the Round	Loot	Platinum-haloed Sack											
+Claymore of the Round	Loot	Platinum-haloed Sack											
+Codex of the Round	Loot	Platinum-haloed Sack											
+Daggers of the Round	Loot	Platinum-haloed Sack											
+Dodo Horn	Loot	Platinum-haloed Sack											
+Edge of the Fiend	Loot	Platinum-haloed Sack											
+Fire of the Fiend	Loot	Platinum-haloed Sack											
+Fire of the Round	Loot	Platinum-haloed Sack											
+Fists of the Fiend	Loot	Platinum-haloed Sack											
+Grimoire of the Round	Loot	Platinum-haloed Sack											
+Halberd of the Round	Loot	Platinum-haloed Sack											
+Katana of the Fiend	Loot	Platinum-haloed Sack											
+Katana of the Round	Loot	Platinum-haloed Sack											
+Knuckles of the Round	Loot	Platinum-haloed Sack											
+Miniature Heaven-on-High	Loot	Platinum-haloed Sack											
+Pike of the Fiend	Loot	Platinum-haloed Sack											
+Points of the Fiend	Loot	Platinum-haloed Sack											
+Rapier of the Fiend	Loot	Platinum-haloed Sack											
+Rapier of the Round	Loot	Platinum-haloed Sack											
+Shield of the Fiend	Loot	Platinum-haloed Sack											
+Shield of the Round	Loot	Platinum-haloed Sack											
+Song of the Fiend	Loot	Platinum-haloed Sack											
+Staff of the Fiend	Loot	Platinum-haloed Sack											
+Staff of the Round	Loot	Platinum-haloed Sack											
+Star of the Fiend	Loot	Platinum-haloed Sack											
+Sword of the Round	Loot	Platinum-haloed Sack											
+The Open Box Orchestrion Roll	Loot	Platinum-haloed Sack											
+Wind-up Ifrit	Loot	Platinum-haloed Sack											
+Wind-up Titan	Loot	Platinum-haloed Sack											
+Word of the Fiend	Loot	Platinum-haloed Sack											
+Ao Dai	Loot	Gold-haloed Sack											
+Baby Bombfish	Loot	Gold-haloed Sack											
+Bibliophobia Orchestrion Roll	Loot	Gold-haloed Sack											
+Empyrean Clay	Loot	Gold-haloed Sack											
+Empyrean Pine Log	Loot	Gold-haloed Sack											
+Flannel Suspenders	Loot	Gold-haloed Sack											
+General-purpose Dark Blue Dye	Loot	Gold-haloed Sack											
+General-purpose Pure White Dye	Loot	Gold-haloed Sack											
+Ghido	Loot	Gold-haloed Sack											
+Hannish Wool	Loot	Gold-haloed Sack											
+Hatamoto Card	Loot	Gold-haloed Sack											
+Hiruko Card	Loot	Gold-haloed Sack											
+Hunting Hawk	Loot	Gold-haloed Sack											
+Imagination Orchestrion Roll	Loot	Gold-haloed Sack											
+Korpokkur Kid	Loot	Gold-haloed Sack											
+Morpho	Loot	Gold-haloed Sack											
+New World Headdress	Loot	Gold-haloed Sack											
+Odder Otter	Loot	Gold-haloed Sack											
+Oriental Rice Ball Lunch	Loot	Gold-haloed Sack											
+Quan	Loot	Gold-haloed Sack											
+Thavnairian Wool	Loot	Gold-haloed Sack											
+The Dark's Embrace Orchestrion Roll	Loot	Gold-haloed Sack											
+Tiny Tatsunoko	Loot	Gold-haloed Sack											
+Unbreakable (Duality) Orchestrion Roll	Loot	Gold-haloed Sack											
+Wanyudo & Katasharin Card	Loot	Gold-haloed Sack											
+Wind-up Bismarck	Loot	Gold-haloed Sack											
+Wind-up Ifrit	Loot	Gold-haloed Sack											
+Wind-up Lakshmi	Loot	Gold-haloed Sack											
+Wind-up Ramuh	Loot	Gold-haloed Sack											
+Wind-up Shiva	Loot	Gold-haloed Sack											
+Wind-up Susano	Loot	Gold-haloed Sack											
+Wind-up Titan	Loot	Gold-haloed Sack											
+Baby Bombfish	Loot	Silver-haloed Sack											
+Baby Brachiosaur	Loot	Silver-haloed Sack											
+Battledance Materia V	Loot	Silver-haloed Sack											
+Black Cherry Blossom Corsage	Loot	Silver-haloed Sack											
+Blissful Barding	Loot	Silver-haloed Sack											
+Bom Boko	Loot	Silver-haloed Sack											
+Castaway Chocobo Chick	Loot	Silver-haloed Sack											
+Clear Demimateria III	Loot	Silver-haloed Sack											
+Dried Green Oldrose	Loot	Silver-haloed Sack											
+Dwarf Rabbit	Loot	Silver-haloed Sack											
+Empyrean Clay	Loot	Silver-haloed Sack											
+Empyrean Pine Log	Loot	Silver-haloed Sack											
+Expanse Barding	Loot	Silver-haloed Sack											
+Falconer's Boots	Loot	Silver-haloed Sack											
+Falconer's Bottoms	Loot	Silver-haloed Sack											
+Falconer's Shirt	Loot	Silver-haloed Sack											
+Gestahl	Loot	Silver-haloed Sack											
+Ghido	Loot	Silver-haloed Sack											
+Hatamoto Card	Loot	Silver-haloed Sack											
+Hive Barding	Loot	Silver-haloed Sack											
+Horde Barding	Loot	Silver-haloed Sack											
+Hunting Hawk	Loot	Silver-haloed Sack											
+Ice Barding	Loot	Silver-haloed Sack											
+Intelligence Materia V	Loot	Silver-haloed Sack											
+Korpokkur Kid	Loot	Silver-haloed Sack											
+Levin Barding	Loot	Silver-haloed Sack											
+Lominsan Sparkler	Loot	Silver-haloed Sack											
+Magicked Prism (Crimson Star)	Loot	Silver-haloed Sack											
+Magicked Prism (Emerald Star)	Loot	Silver-haloed Sack											
+Magicked Prism (Harbor Herald)	Loot	Silver-haloed Sack											
+Magicked Prism (Immortal Flames)	Loot	Silver-haloed Sack											
+Magicked Prism (Twin Adder)	Loot	Silver-haloed Sack											
+Miniature Minecart	Loot	Silver-haloed Sack											
+Modern Aesthetics - Gyr Abanian Plait	Loot	Silver-haloed Sack											
+Morpho	Loot	Silver-haloed Sack											
+Odder Otter	Loot	Silver-haloed Sack											
+Oldrose Corsage	Loot	Silver-haloed Sack											
+Parting Ways Orchestrion Roll	Loot	Silver-haloed Sack											
+Reveler's Barding	Loot	Silver-haloed Sack											
+Road Sparrow	Loot	Silver-haloed Sack											
+Sephirotic Barding	Loot	Silver-haloed Sack											
+Shaggy Shoat	Loot	Silver-haloed Sack											
+Sophic Barding	Loot	Silver-haloed Sack											
+Strength Materia V	Loot	Silver-haloed Sack											
+Thavnairian Armlets	Loot	Silver-haloed Sack											
+Thavnairian Bolero	Loot	Silver-haloed Sack											
+Thavnairian Headdress	Loot	Silver-haloed Sack											
+Thavnairian Tights	Loot	Silver-haloed Sack											
+Tidal Barding	Loot	Silver-haloed Sack											
+Ul'dahn Sparkler	Loot	Silver-haloed Sack											
+Vitality Materia V	Loot	Silver-haloed Sack											
+Wanyudo & Katasharin Card	Loot	Silver-haloed Sack											
+Wind-up Lakshmi	Loot	Silver-haloed Sack											
+Wind-up Leviathan	Loot	Silver-haloed Sack											
+Wind-up Ramuh	Loot	Silver-haloed Sack											
+Wind-up Shiva	Loot	Silver-haloed Sack											
+Wind-up Susano	Loot	Silver-haloed Sack											
+Zurvanite Barding	Loot	Silver-haloed Sack											
 Bronze-trimmed Sack	Instance	The Palace of the Dead (Floors 1-10)	The Palace of the Dead (Floors 11-20)	The Palace of the Dead (Floors 21-30)	The Palace of the Dead (Floors 31-40)	The Palace of the Dead (Floors 41-50)							
 Iron-trimmed Sack	Instance	The Palace of the Dead (Floors 51-60)	The Palace of the Dead (Floors 61-70)	The Palace of the Dead (Floors 71-80)	The Palace of the Dead (Floors 81-90)	The Palace of the Dead (Floors 91-100)							
 Silver-trimmed Sack	Instance	The Palace of the Dead (Floors 101-110)	The Palace of the Dead (Floors 111-120)	The Palace of the Dead (Floors 121-130)	The Palace of the Dead (Floors 131-140)	The Palace of the Dead (Floors 141-150)							
 Gold-trimmed Sack	Instance	The Palace of the Dead (Floors 151-160)	The Palace of the Dead (Floors 161-170)	The Palace of the Dead (Floors 171-180)	The Palace of the Dead (Floors 181-190)	The Palace of the Dead (Floors 191-200)							
+Silver-haloed Sack	Instance	Heaven-on-High (Floors 1-10)	Heaven-on-High (Floors 11-20)	Heaven-on-High (Floors 21-30)									
+Gold-haloed Sack	Instance	Heaven-on-High (Floors 31-40)	Heaven-on-High (Floors 41-50)	Heaven-on-High (Floors 51-60)	Heaven-on-High (Floors 61-70)								
+Platinum-haloed Sack	Instance	Heaven-on-High (Floors 71-80)	Heaven-on-High (Floors 81-90)	Heaven-on-High (Floors 91-100)									
 Ratanhia Leaves	Instance	The Lost Canals of Uznair											
 Wind-up Namazu	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
 Nagxian Silk	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair										
@@ -640,6 +775,7 @@ Gatherer's Guile Materia IV	Voyage	Sea of Clouds 22
 Gold Ingot	Voyage	Concealed Bay											
 Gold Ore	Voyage	Sea of Clouds 02	Sea of Clouds 08	Sea of Clouds 14	Sea of Clouds 20	The Wreckage of the Headway							
 Gold Sand	Voyage	Sea of Clouds 19											
+Grade 6 Dark Matter	Voyage	The Upwell											
 Heavens' Eye Materia III	Voyage	Sea of Clouds 23											
 Heavens' Eye Materia IV	Voyage	Sea of Clouds 12	Sea of Clouds 14	Sea of Clouds 23									
 Heavens' Eye Materia V	Voyage	Sea of Clouds 23											
@@ -708,3 +844,7 @@ Wind Cluster	Voyage	The Wreckage of the Headway
 Wind Silk	Voyage	Sea of Clouds 13	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 21								
 Cold-warped Lockbox	Other	Eureka Pagos, Mutated Mobs	Mutated Anubys										
 Frosted Protean Crystal	Other	Eureka Pagos, Crystal Forge 											
+Auspicious Kamuy Fife	Instance	The Jade Stoa (Extreme)											
+Lunar Kamuy Fife	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
+Euphonious Kamuy Fife	Instance	Hells' Kier (Extreme)											
+Hallowed Kamuy Fife	Instance	The Wreath of Snakes (Extreme)											

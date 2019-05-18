@@ -25,10 +25,11 @@ namespace Garland.Data.Modules
                 var type = line[1];
                 var args = line.Skip(2).Where(c => c != "").ToArray();
                 var itemName = line[0];
-                var item = _builder.Db.ItemsByName[itemName];
 
                 try
                 {
+                    var item = _builder.Db.ItemsByName[itemName];
+
                     switch (type)
                     {
                         case "Desynth":
@@ -75,12 +76,12 @@ namespace Garland.Data.Modules
                             throw new NotImplementedException();
                     }
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    DatabaseBuilder.PrintLine($"Error importing supplemental source '${itemName}' with args '{args}'.");
+                    var joinedArgs = string.Join(", ", args);
+                    DatabaseBuilder.PrintLine($"Error importing supplemental source '{itemName}' with args '{joinedArgs}': {ex.Message}");
                     if (System.Diagnostics.Debugger.IsAttached)
                         System.Diagnostics.Debugger.Break();
-                    throw;
                 }
             }
         }
