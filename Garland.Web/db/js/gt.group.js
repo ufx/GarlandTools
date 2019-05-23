@@ -2,7 +2,8 @@ gt.group = {
     blockTemplate: null,
     type: 'group',
     baseParamValues: {
-        CP: 180
+        CP: 180,
+        GP: 400
     },
 
     initialize: function(data) {

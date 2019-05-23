@@ -25,10 +25,11 @@ namespace Garland.Data.Modules
                 var type = line[1];
                 var args = line.Skip(2).Where(c => c != "").ToArray();
                 var itemName = line[0];
-                var item = _builder.Db.ItemsByName[itemName];
 
                 try
                 {
+                    var item = _builder.Db.ItemsByName[itemName];
+
                     switch (type)
                     {
                         case "Desynth":
@@ -67,18 +68,31 @@ namespace Garland.Data.Modules
                             BuildGardening(item, args);
                             break;
 
+                        case "Other":
+                            BuildOther(item, args);
+                            break;
+
                         default:
                             throw new NotImplementedException();
                     }
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    DatabaseBuilder.PrintLine($"Error importing supplemental source '${itemName}' with args '{args}'.");
+                    var joinedArgs = string.Join(", ", args);
+                    DatabaseBuilder.PrintLine($"Error importing supplemental source '{itemName}' with args '{joinedArgs}': {ex.Message}");
                     if (System.Diagnostics.Debugger.IsAttached)
                         System.Diagnostics.Debugger.Break();
-                    throw;
                 }
             }
+        }
+
+        void BuildOther(dynamic item, string[] sources)
+        {
+            // For unstructured source strings.
+            if (item.other != null)
+                throw new InvalidOperationException("item.other already exists.");
+
+            item.other = new JArray(sources);
         }
 
         void BuildGardening(dynamic item, string[] sources)
@@ -92,25 +106,27 @@ namespace Garland.Data.Modules
 
         void BuildDesynth(dynamic item, string[] sources)
         {
-            if (item.desynthedFrom != null)
-                throw new InvalidOperationException("item.desynthedFrom already exists.");
+            if (item.desynthedFrom == null)
+                item.desynthedFrom = new JArray();
 
-            item.desynthedFrom = new JArray();
             foreach (string itemName in sources)
             {
                 var desynthItem = _builder.Db.ItemsByName[itemName];
                 item.desynthedFrom.Add((int)desynthItem.id);
                 _builder.Db.AddReference(item, "item", (int)desynthItem.id, false);
+
+                if (desynthItem.desynthedTo == null)
+                    desynthItem.desynthedTo = new JArray();
+                desynthItem.desynthedTo.Add((int)item.id);
                 _builder.Db.AddReference(desynthItem, "item", (int)item.id, false);
             }
         }
 
         void BuildReduce(dynamic item, string[] sources)
         {
-            if (item.reducedFrom != null)
-                throw new InvalidOperationException("item.reducedFrom already exists.");
+            if (item.reducedFrom == null)
+                item.reducedFrom = new JArray();
 
-            item.reducedFrom = new JArray();
             foreach (string sourceItemName in sources)
             {
                 var sourceItem = _builder.Db.ItemsByName[sourceItemName];
@@ -140,18 +156,19 @@ namespace Garland.Data.Modules
 
         void BuildLoot(dynamic item, string[] sources)
         {
-            if (item.treasure != null)
-                throw new InvalidOperationException("item.treasure already exists.");
+            if (item.treasure == null)
+                item.treasure = new JArray();
 
             var generators = sources.Select(j => _builder.Db.ItemsByName[j]).ToArray();
-            item.treasure = new JArray(generators.Select(i => (int)i.id));
-
             foreach (var generator in generators)
             {
                 if (generator.loot == null)
                     generator.loot = new JArray();
+
                 generator.loot.Add((int)item.id);
                 _builder.Db.AddReference(generator, "item", (int)item.id, false);
+
+                item.treasure.Add((int)generator.id);
                 _builder.Db.AddReference(item, "item", (int)generator.id, true);
             }
         }

@@ -162,8 +162,8 @@ Adventuring Pack	Loot	Pyros Lockbox
 Pagos Sage	Loot	Pyros Lockbox	Hydatos Lockbox										
 Pagos Spring Water	Loot	Pyros Lockbox	Hydatos Lockbox										
 Glass Jars	Loot	Pyros Lockbox											
-Wooden Plates	Loot	Pyros Lockbox											
-Wodden Cups	Loot	Pyros Lockbox											
+Wooden Plates	Loot	Pyros Lockbox
+Wooden Cups	Loot	Pyros Lockbox
 Spice Rack	Loot	Pyros Lockbox											
 Ballroom Etiquette - Ideal Gossip	Loot	Heat-warped Lockbox											
 Samurai Barding	Loot	Heat-warped Lockbox											
@@ -577,8 +577,8 @@ Quan	Loot	Gold-haloed Sack
 Thavnairian Wool	Loot	Gold-haloed Sack											
 The Dark's Embrace Orchestrion Roll	Loot	Gold-haloed Sack											
 Tiny Tatsunoko	Loot	Gold-haloed Sack											
-Unbreakable (Duality) Orchestrion Roll	Loot	Gold-haloed Sack											
-Wanyudo and Katasharin Card	Loot	Gold-haloed Sack											
+Unbreakable (Duality) Orchestrion Roll	Loot	Gold-haloed Sack
+Wanyudo & Katasharin Card	Loot	Gold-haloed Sack
 Wind-up Bismarck	Loot	Gold-haloed Sack											
 Wind-up Ifrit	Loot	Gold-haloed Sack											
 Wind-up Lakshmi	Loot	Gold-haloed Sack											
@@ -636,8 +636,8 @@ Thavnairian Headdress	Loot	Silver-haloed Sack
 Thavnairian Tights	Loot	Silver-haloed Sack											
 Tidal Barding	Loot	Silver-haloed Sack											
 Ul'dahn Sparkler	Loot	Silver-haloed Sack											
-Vitality Materia V	Loot	Silver-haloed Sack											
-Wanyudo and Katasharin Card	Loot	Silver-haloed Sack											
+Vitality Materia V	Loot	Silver-haloed Sack
+Wanyudo & Katasharin Card	Loot	Silver-haloed Sack
 Wind-up Lakshmi	Loot	Silver-haloed Sack											
 Wind-up Leviathan	Loot	Silver-haloed Sack											
 Wind-up Ramuh	Loot	Silver-haloed Sack											
@@ -842,5 +842,9 @@ Water Crystal	Voyage	Sea of Clouds 02	Sea of Clouds 04	Sea of Clouds 07	Sea of C
 Wind Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Clouds 09	Ivory Shoals	Deep-sea site 2	Deep-sea site 3	The Umbrella Narrow				
 Wind Cluster	Voyage	The Wreckage of the Headway											
 Wind Silk	Voyage	Sea of Clouds 13	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 21								
-Cold-warped Lockbox	Other	Eureka Pagos, Mutated Mobs	Mutated Anubys										
+Cold-warped Lockbox	Other	Eureka Pagos, Mutated Mobs	Mutated Anubys
 Frosted Protean Crystal	Other	Eureka Pagos, Crystal Forge 											
+Auspicious Kamuy Fife	Instance	The Jade Stoa (Extreme)											
+Lunar Kamuy Fife	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
+Euphonious Kamuy Fife	Instance	Hells' Kier (Extreme)											
+Hallowed Kamuy Fife	Instance	The Wreath of Snakes (Extreme)
