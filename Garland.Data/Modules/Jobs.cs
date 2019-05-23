@@ -19,6 +19,8 @@ namespace Garland.Data.Modules
         {
             _jobIconPath = Config.IconPath + "job\\";
 
+            Directory.CreateDirectory(_jobIconPath);
+
             foreach (var sJob in _builder.Sheet<Saint.ClassJob>())
             {
                 var name = sJob.Name.ToString();

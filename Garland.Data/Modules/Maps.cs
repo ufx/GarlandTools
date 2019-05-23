@@ -22,6 +22,8 @@ namespace Garland.Data.Modules
         {
             _resultMapPath = Config.FilesPath + "maps\\";
 
+            Directory.CreateDirectory(_resultMapPath);
+
             foreach (var m in _builder.Sheet<Map>())
             {
                 if (m.PlaceName.Key == 0 || m.PlaceName.ToString() == "???" || m.Id.ToString() == "")
@@ -93,7 +95,7 @@ namespace Garland.Data.Modules
             convert.WaitForExit();
 
             var crush = new Process();
-            crush.StartInfo = new ProcessStartInfo("pngcrush", "output\\reduced.png output\\crushed.png");
+            crush.StartInfo = new ProcessStartInfo(Config.PngCrushPath, "output\\reduced.png output\\crushed.png");
             crush.StartInfo.CreateNoWindow = true;
             crush.Start();
             crush.WaitForExit();
