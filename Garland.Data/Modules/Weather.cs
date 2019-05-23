@@ -17,6 +17,8 @@ namespace Garland.Data.Modules
         {
             var baseIconPath = Config.IconPath + "\\weather\\";
 
+            Directory.CreateDirectory(baseIconPath);
+
             // Extract weather names, ensure their icons are written.
             foreach (var sWeather in _builder.Sheet<Saint.Weather>())
             {
