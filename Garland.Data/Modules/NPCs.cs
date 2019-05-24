@@ -433,6 +433,16 @@ namespace Garland.Data.Modules
                 case 11: // Raen
                 case 12: // Xaela
                     return isMale ? 1200 : 1300;
+
+                // todo: Tentative
+                // No alternate genders for Hrothgar, Viera.
+                // For Hrothgar, these might be faces too?
+                case 13: // Helions 
+                case 14: // The Lost
+                    return 1400;
+                case 15: // Rava
+                case 16: // Veena
+                    return 1500;
             }
 
             throw new NotImplementedException();
@@ -440,32 +450,35 @@ namespace Garland.Data.Modules
 
         static int GetFacePaintCustomizeIndex(int tribeKey, bool isMale)
         {
+            //const int baseRowKey = 1600; // SH
+            const int baseRowKey = 1400; // SB
+
             switch (tribeKey)
             {
                 case 1: // Midlander
-                    return isMale ? 1400 : 1450;
                 case 2: // Highlander
-                    return isMale ? 1500 : 1550;
                 case 3: // Wildwood
-                    return isMale ? 1600 : 1650;
                 case 4: // Duskwight
-                    return isMale ? 1700 : 1750;
                 case 5: // Plainsfolks
-                    return isMale ? 1800 : 1850;
                 case 6: // Dunesfolk
-                    return isMale ? 1900 : 1950;
                 case 7: // Seeker of the Sun
-                    return isMale ? 2000 : 2050;
                 case 8: // Keeper of the Moon
-                    return isMale ? 2100 : 2150;
                 case 9: // Sea Wolf
-                    return isMale ? 2200 : 2250;
                 case 10: // Hellsguard
-                    return isMale ? 2300 : 2350;
                 case 11: // Raen
-                    return isMale ? 2400 : 2450;
                 case 12: // Xaela
-                    return isMale ? 2500 : 2550;
+                    var tribeOffset = baseRowKey + ((tribeKey - 1) * 100);
+                    return isMale ? tribeOffset : tribeOffset + 50;
+
+                // todo: Tentative
+                case 13: // Helions
+                    return 2800;
+                case 14: // The Lost
+                    return 2850;
+                case 15: // Rava
+                    return 2900;
+                case 16: // Veena
+                    return 2950;
             }
 
             throw new NotImplementedException();
