@@ -15,7 +15,7 @@ namespace Garland.Data
         public const string SupplementalPath = "..\\..\\..\\Supplemental\\";
         public const string UpdatesPath = "..\\..\\..\\..\\Updates\\";
 
-        public static string IconPath => FilesPath + "icons\\";
+        public static string IconPath => Path.Combine(FilesPath, "icons");
 
         // These values are configured in Config.json.
         public static string ConnectionString { get; private set; }
