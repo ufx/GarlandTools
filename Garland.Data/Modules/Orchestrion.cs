@@ -19,7 +19,7 @@ namespace Garland.Data.Modules
 
         public override void Start()
         {
-            _resultMusicPath = Config.FilesPath + "\\orchestrion";
+            _resultMusicPath = Path.Combine(Config.FilesPath, "orchestrion");
 
             Directory.CreateDirectory(_resultMusicPath);
 

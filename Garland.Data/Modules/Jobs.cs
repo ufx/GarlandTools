@@ -17,7 +17,9 @@ namespace Garland.Data.Modules
 
         public override void Start()
         {
-            _jobIconPath = Config.IconPath + "job\\";
+            _jobIconPath = Path.Combine(Config.IconPath, "job");
+
+            Directory.CreateDirectory(_jobIconPath);
 
             Directory.CreateDirectory(_jobIconPath);
 
@@ -40,7 +42,7 @@ namespace Garland.Data.Modules
                 if (sJob.SoulCrystal != null && sJob.SoulCrystal.Key != 0)
                     job.isJob = 1;
 
-                var iconPath = _jobIconPath + sJob.Abbreviation.ToString() + ".png";
+                var iconPath = Path.Combine(_jobIconPath, sJob.Abbreviation.ToString() + ".png");
                 if (!File.Exists(iconPath))
                 {
                     var icon = sJob.Icon.GetImage();

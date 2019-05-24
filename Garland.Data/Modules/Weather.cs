@@ -15,7 +15,9 @@ namespace Garland.Data.Modules
 
         public override void Start()
         {
-            var baseIconPath = Config.IconPath + "\\weather\\";
+            var baseIconPath = Path.Combine(Config.IconPath, "weather");
+
+            Directory.CreateDirectory(baseIconPath);
 
             Directory.CreateDirectory(baseIconPath);
 
@@ -23,7 +25,7 @@ namespace Garland.Data.Modules
             foreach (var sWeather in _builder.Sheet<Saint.Weather>())
             {
                 var name = sWeather.Name.ToString();
-                var iconPath = baseIconPath + name + ".png";
+                var iconPath = Path.Combine(baseIconPath, name + ".png");
                 if (!string.IsNullOrEmpty(name) && !File.Exists(iconPath))
                 {
                     var image = sWeather.Icon.GetImage();

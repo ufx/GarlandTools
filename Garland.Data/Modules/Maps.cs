@@ -20,7 +20,9 @@ namespace Garland.Data.Modules
 
         public override void Start()
         {
-            _resultMapPath = Config.FilesPath + "maps\\";
+            _resultMapPath = Path.Combine(Config.FilesPath, "maps");
+
+            Directory.CreateDirectory(_resultMapPath);
 
             Directory.CreateDirectory(_resultMapPath);
 
@@ -36,7 +38,7 @@ namespace Garland.Data.Modules
         void ExportSingleMap(Map map)
         {
             var regionPlaceName = ConvertRegion(map.RegionPlaceName.ToString());
-            var path = _resultMapPath + regionPlaceName;
+            var path = Path.Combine(_resultMapPath, regionPlaceName);
 
             var fileName = map.PlaceName.ToString();
             if (map.LocationPlaceName.Key != 0 && map.LocationPlaceName.ToString() != map.PlaceName.ToString() && map.LocationPlaceName.ToString() != "")
