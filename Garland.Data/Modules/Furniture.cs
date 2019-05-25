@@ -20,7 +20,9 @@ namespace Garland.Data.Modules
                 if (sFurniture.Item.Key == 0)
                     continue;
 
-                var item = _builder.Db.ItemsById[sFurniture.Item.Key];
+                if (!_builder.Db.ItemsById.TryGetValue(sFurniture.Item.Key, out var item))
+                    continue;
+
                 item.furniture = 1;
 
                 if (item.models == null)
