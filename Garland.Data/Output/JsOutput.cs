@@ -47,6 +47,7 @@ namespace Garland.Data.Output
                 WriteInstances(lang);
                 WriteFates(lang);
                 WriteMobs(lang);
+                WriteStatuses(lang);
                 WriteBrowsers(lang);
 
                 PatchDatabase.WritePatchLists(this, _update, lang);
@@ -280,6 +281,19 @@ namespace Garland.Data.Output
                     partial.ti = node.time;
 
                 nodes[(string)node.id] = partial;
+            }
+
+            // Actions
+            var statuses = _partialsByLangTypeById[Tuple.Create(lang, "status")] = new Dictionary<string, JObject>();
+            foreach (var status in _db.Statuses)
+            {
+                dynamic partial = new JObject();
+                partial.i = status.id;
+                partial.n = (string)status[lang]["name"];
+                partial.c = status.icon;
+                partial.t = status.category;
+
+                statuses[(string)status.id] = partial;
             }
         }
 
@@ -527,6 +541,16 @@ namespace Garland.Data.Output
 
             var contents = "gt.bell.nodes = " + Json(_db.NodeViews, Formatting.Indented) + ";\r\n";
             FileDatabase.WriteFile("Garland.Web\\bell\\nodes.js", contents);
+        }
+
+        void WriteStatuses(string lang)
+        {
+            Parallel.ForEach(_db.Statuses, status =>
+            {
+                var wrapper = new JsWrapper(lang, "status", status);
+                AddPartials(wrapper, status);
+                _update.IncludeDocument((string)status.id, "status", lang, 0, Wrapper(wrapper));
+            });
         }
 
         void WriteBrowsers(string lang)

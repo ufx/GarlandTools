@@ -83,6 +83,7 @@ namespace Garland.Data
                 //new ItemSets(),
                 new Orchestrion(),
                 new Actions(),
+                new Statuses(),
                 new Emotes(),
                 new Weather(),
                 new Instances(),

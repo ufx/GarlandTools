@@ -72,6 +72,7 @@ namespace Garland.Data
         public List<dynamic> Baits = new List<dynamic>();
         public List<dynamic> Jobs = new List<dynamic>();
         public List<dynamic> Dyes = new List<dynamic>();
+        public List<dynamic> Statuses = new List<dynamic>();
 
         public Dictionary<string, JArray> LevelingEquipmentByJob = new Dictionary<string, JArray>();
         public Dictionary<string, JObject> EndGameEquipmentByJob = new Dictionary<string, JObject>();
@@ -92,6 +93,7 @@ namespace Garland.Data
         public Dictionary<int, dynamic> NodesById = new Dictionary<int, dynamic>();
         public Dictionary<string, dynamic> SpearfishingNodesByName = new Dictionary<string, dynamic>();
         public Dictionary<int, dynamic> VenturesById = new Dictionary<int, dynamic>();
+        public Dictionary<int, dynamic> StatusesById = new Dictionary<int, dynamic>();
 
         public static HashSet<string> LocalizedTypes = new HashSet<string>() { "achievement", "action", "fate", "fishing", "instance", "item", "leve", "quest", "npc", "mob" };
 
