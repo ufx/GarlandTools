@@ -100,6 +100,7 @@
     <Compile Include="Modules\EquipmentScorer.cs" />
     <Compile Include="Modules\Fates.cs" />
     <Compile Include="Modules\FishingSpots.cs" />
+    <Compile Include="Modules\Furniture.cs" />
     <Compile Include="Modules\Indexes.cs" />
     <Compile Include="Modules\Instances.cs" />
     <Compile Include="Modules\Items.cs" />
