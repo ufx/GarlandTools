@@ -26215,7 +26215,7 @@ gt.bell.fish = [
       "Thunder"
     ],
     "id": 23066,
-    "icon": "t/29158",
+    "icon": 29158,
     "func": "fish",
     "rarity": 2,
     "title": "The Isle of Zekki",
