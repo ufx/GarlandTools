@@ -94,6 +94,7 @@ namespace Garland.Data
                 new Specializations(),
                 new Mounts(),
                 new Minions(),
+                new Furniture(),
                 new TripleTriad(),
                 new Customize(),
                 new Mobs(),
