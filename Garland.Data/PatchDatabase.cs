@@ -256,7 +256,7 @@ namespace Garland.Data
                     }
 
                     var patchKey = patchPair.Key;
-                    var patchKeyStr = Math.Floor(patchKey) == patchKey ? patchPair.Key.ToString("0.0", new CultureInfo("en-US", false)) : patchPair.Key.ToString();
+                    var patchKeyStr = Math.Floor(patchKey) == patchKey ? patchPair.Key.ToString("0.0", new CultureInfo("en-US", false)) : patchPair.Key.ToString(new CultureInfo("en-US", false));
                     patches[patchKeyStr] = patch;
                 }
 
