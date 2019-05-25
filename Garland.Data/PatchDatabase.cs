@@ -304,6 +304,9 @@ namespace Garland.Data
             var contents = JsonConvert.SerializeObject(patches);
             contents = contents.Replace("},", "},\r\n");
 
+            if (!Directory.Exists(Config.SupplementalPath))
+                Directory.CreateDirectory(Config.SupplementalPath);
+
             File.WriteAllText(Config.SupplementalPath + "patches.json", contents, Encoding.UTF8);
         }
 
