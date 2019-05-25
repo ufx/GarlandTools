@@ -23,6 +23,7 @@ namespace Garland.Data
         public static string GamePath { get; private set; }
         public static string FilesPath { get; private set; }
         public static string ImageMagickPath { get; private set; }
+        public static string PngCrushPath { get; private set; }
         public static string DiffPath { get; private set; }
         public static string FfmpegPath { get; private set; }
 
@@ -36,6 +37,7 @@ namespace Garland.Data
             Config.GamePath = values.gamePath;
             Config.FilesPath = values.files;
             Config.ImageMagickPath = values.imageMagickConvert;
+            Config.PngCrushPath = values.pngCrush;
             Config.DiffPath = values.diff;
             Config.FfmpegPath = values.ffmpeg;
         }

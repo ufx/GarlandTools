@@ -11,6 +11,7 @@
 
 	// External programs
 	"imageMagickConvert": "/path/to/convert.exe",
+	"pngCrush": "/path/to/pngcrush.exe",
 	"diff": "/path/to/WinMergeU.exe",
 	"ffmpeg": "path/to/ffmpeg.exe"
 }
