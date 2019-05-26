@@ -1934,7 +1934,8 @@ gt.item = {
             mount: item.mount,
             slot: item.slot,
             models: item.models,
-            jobs: item.jobCategories
+            jobs: item.jobCategories,
+            furniture: item.furniture
         };
 
         view.sourceName = view.name;
@@ -2900,7 +2901,7 @@ gt.item = {
         $page.data('viewer-injected', true);
 
         var view = $block.data('view');
-        var modelPrefix = view.minion ? 'minion' : view.mount ? 'mount' : view.slot;
+        var modelPrefix = view.minion ? 'minion' : view.mount ? 'mount' : view.furniture ? 'furniture' : view.slot;
         var modelKeys = _.map(view.models, function(m) { return modelPrefix + '/' + m; });
         var url = '3d/viewer.html?id=' + modelKeys.join('+');
         var html = '<iframe class="model-viewer" src="' + url + '"></iframe>';
@@ -8633,7 +8634,8 @@ gt.group = {
     blockTemplate: null,
     type: 'group',
     baseParamValues: {
-        CP: 180
+        CP: 180,
+        GP: 400
     },
 
     initialize: function(data) {
