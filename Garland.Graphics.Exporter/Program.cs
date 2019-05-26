@@ -112,7 +112,15 @@ namespace Garland.Graphics.Exporter
             {
                 var modelKey = $"{furniture.ModelInfo.ModelID}";
                 var path = EnsurePath("furniture", modelKey);
-                BatchExportItem(path, furniture, null, () => monsters);
+
+                try
+                {
+                    BatchExportItem(path, furniture, null, () => monsters);
+                }
+                catch (Exception ex)
+                {
+                    WriteLine($"Unable to export {furniture.Name}: {ex.Message}");
+                }
             }
         }
 
