@@ -30,6 +30,7 @@ namespace Garland.Graphics.Exporter
         static Obj _ttObj;
         static Gear _gear;
         static Companions _companions;
+        static Housing _housing;
         static ExportRepository _repo;
 
         static void Main(string[] args)
@@ -42,6 +43,7 @@ namespace Garland.Graphics.Exporter
             _ttObj = new Obj(_gameDir);
             _gear = new Gear(_gameDir, lang);
             _companions = new Companions(_gameDir, lang);
+            _housing = new Housing(_gameDir, lang);
 
             BatchExport();
 
@@ -53,8 +55,8 @@ namespace Garland.Graphics.Exporter
         {
             var text = File.ReadAllText(ConfigPath);
             dynamic values = JsonConvert.DeserializeObject(text);
-            _repoPath = Path.Combine(values.files, "models");
-            _gamePath = Path.Combine(values.gamePath, @"game\sqpack\ffxiv");
+            _repoPath = Path.Combine((string)values.files, "models");
+            _gamePath = Path.Combine((string)values.gamePath, @"game\sqpack\ffxiv");
         }
 
         static void BatchExport()
@@ -84,8 +86,9 @@ namespace Garland.Graphics.Exporter
                 }
             }
 
-            // Minions
             var monsters = new XivRace[] { XivRace.Monster };
+
+            // Minions
             var minionList = _companions.GetMinionList();
             foreach (var minion in minionList)
             {
@@ -101,6 +104,23 @@ namespace Garland.Graphics.Exporter
                 var modelKey = $"{mount.ModelInfo.ModelID}-{mount.ModelInfo.Body}-{mount.ModelInfo.Variant}";
                 var path = EnsurePath("mount", modelKey);
                 BatchExportItem(path, mount, null, () => monsters);
+            }
+
+            // Housing
+            var furnitureList = _housing.GetFurnitureList();
+            foreach (var furniture in furnitureList)
+            {
+                var modelKey = $"{furniture.ModelInfo.ModelID}";
+                var path = EnsurePath("furniture", modelKey);
+
+                try
+                {
+                    BatchExportItem(path, furniture, null, () => monsters);
+                }
+                catch (Exception ex)
+                {
+                    WriteLine($"Unable to export {furniture.Name}: {ex.Message}");
+                }
             }
         }
 
