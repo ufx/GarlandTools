@@ -567,6 +567,10 @@ gt.display = {
                     $e.append('<img src="' + view.icon + '" width="' + radius + 'px">');
                     break;
 
+                case 'status':
+                    $e.append('<img src="' + view.icon + '" style="height: 22px; margin-left: 2px;">');
+                    break;
+
                 case 'browse':
                 case 'patch':
                     $e.append('<img src="' + $block.data('view').browseIcon + '" width="' + (radius - 2) + '"px">');

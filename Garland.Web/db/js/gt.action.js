@@ -159,6 +159,7 @@ gt.action = {
 
     getStatusViewModel: function(status, relationship) {
         return {
+            id: status.id,
             relationship: relationship,
             name: status.name,
             desc: status.desc,
