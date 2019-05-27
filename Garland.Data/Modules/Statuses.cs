@@ -32,10 +32,13 @@ namespace Garland.Data.Modules
             status.patch = PatchDatabase.Get("status", sStatus.Key);
             status.category = sStatus.Category;
 
-            status.canDispell = sStatus.CanDispel;
+            status.canDispel = sStatus.CanDispel;
 
+            // If the status doesn't have an icon, we probably don't want it in our data
             if (sStatus.Icon != null && !sStatus.Icon.Path.EndsWith("000000.tex"))
-                status.icon = IconDatabase.EnsureEntry("action", sStatus.Icon);
+                status.icon = IconDatabase.EnsureEntry("status", sStatus.Icon);
+            else
+                return null;
 
             _builder.Db.Statuses.Add(status);
             _builder.Db.StatusesById[sStatus.Key] = status;

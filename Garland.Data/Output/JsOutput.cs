@@ -549,7 +549,7 @@ namespace Garland.Data.Output
             {
                 var wrapper = new JsWrapper(lang, "status", status);
                 AddPartials(wrapper, status);
-                _update.IncludeDocument((string)status.id, "status", lang, 0, Wrapper(wrapper));
+                _update.IncludeDocument((string)status.id, "status", lang, 2, Wrapper(wrapper));
             });
         }
 
@@ -567,6 +567,7 @@ namespace Garland.Data.Output
             _update.IncludeDocument("mob", "browse", lang, 2, wrap(_partialsByLangTypeById[Tuple.Create(lang, "mob")].Values));
             _update.IncludeDocument("fishing", "browse", lang, 2, wrap(_partialsByLangTypeById[Tuple.Create(lang, "fishing")].Values));
             _update.IncludeDocument("node", "browse", lang, 2, wrap(_partialsByLangTypeById[Tuple.Create(lang, "node")].Values));
+            _update.IncludeDocument("status", "browse", lang, 2, wrap(_partialsByLangTypeById[Tuple.Create(lang, "status")].Values));
         }
 
         #region Utility
