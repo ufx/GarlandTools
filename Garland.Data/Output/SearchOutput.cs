@@ -88,7 +88,7 @@ namespace Garland.Data.Output
             foreach (var fate in _db.Fates)
                 WriteIndex(fate, "fate", (string)fate.en.name, (string)fate.fr.name, (string)fate.de.name, (string)fate.ja.name);
 
-            // Actions
+            // Statuses
             foreach (var status in _db.Statuses)
                 WriteIndex(status, "status", (string)status.en.name, (string)status.fr.name, (string)status.de.name, (string)status.ja.name);
         }

@@ -283,7 +283,7 @@ namespace Garland.Data.Output
                 nodes[(string)node.id] = partial;
             }
 
-            // Actions
+            // Statuses
             var statuses = _partialsByLangTypeById[Tuple.Create(lang, "status")] = new Dictionary<string, JObject>();
             foreach (var status in _db.Statuses)
             {
