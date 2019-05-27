@@ -10,10 +10,10 @@ namespace Garland.Data
 {
     public static class Config
     {
-        public const string BasePath = "..\\..\\..\\..\\";
+        public const string BasePath = "..\\..\\..\\";
         public const string ConfigPath = BasePath + "Config.json";
         public const string SupplementalPath = "..\\..\\..\\Supplemental\\";
-        public const string UpdatesPath = "..\\..\\..\\..\\Updates\\";
+        public const string UpdatesPath = "..\\..\\..\\Updates\\";
 
         public static string IconPath => Path.Combine(FilesPath, "icons");
 

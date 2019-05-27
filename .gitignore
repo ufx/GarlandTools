@@ -1,5 +1,8 @@
 *.sublime-workspace
 *.code-workspace
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
 */obj/*
 */bin/*
 **/packages/
@@ -9,3 +12,5 @@
 Updates/
 /External/
 Config.json
+/Supplemental/
+/Updates/

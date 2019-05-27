@@ -256,7 +256,7 @@ namespace Garland.Data
                     }
 
                     var patchKey = patchPair.Key;
-                    var patchKeyStr = Math.Floor(patchKey) == patchKey ? patchPair.Key.ToString("0.0", new CultureInfo("en-US", false)) : patchPair.Key.ToString();
+                    var patchKeyStr = Math.Floor(patchKey) == patchKey ? patchPair.Key.ToString("0.0", new CultureInfo("en-US", false)) : patchPair.Key.ToString(new CultureInfo("en-US", false));
                     patches[patchKeyStr] = patch;
                 }
 
@@ -303,6 +303,9 @@ namespace Garland.Data
 
             var contents = JsonConvert.SerializeObject(patches);
             contents = contents.Replace("},", "},\r\n");
+
+            if (!Directory.Exists(Config.SupplementalPath))
+                Directory.CreateDirectory(Config.SupplementalPath);
 
             File.WriteAllText(Config.SupplementalPath + "patches.json", contents, Encoding.UTF8);
         }
