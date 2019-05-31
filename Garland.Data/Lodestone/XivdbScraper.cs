@@ -49,7 +49,7 @@ namespace Garland.Data.Lodestone
             _patches[25] = 3.2m; // Gears of Change
             _patches[26] = 3.25m;
 
-            _patchData = (JArray)JsonConvert.DeserializeObject(File.ReadAllText("Supplemental\\patches.json"));
+            _patchData = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(Config.PatchesPath));
         }
 
         public void FetchPatches()
@@ -122,7 +122,7 @@ namespace Garland.Data.Lodestone
             var contents = JsonConvert.SerializeObject(_patchData);
             contents = contents.Replace("},", "},\r\n");
 
-            File.WriteAllText(Config.SupplementalPath + "patches.json", contents, Encoding.UTF8);
+            File.WriteAllText(Config.PatchesPath, contents, Encoding.UTF8);
         }
     }
 }

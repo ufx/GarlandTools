@@ -12,8 +12,9 @@ namespace Garland.Data
     {
         public const string BasePath = "..\\..\\..\\";
         public const string ConfigPath = BasePath + "Config.json";
-        public const string SupplementalPath = "..\\..\\..\\Supplemental\\";
-        public const string UpdatesPath = "..\\..\\..\\Updates\\";
+        public const string SupplementalPath = BasePath + "Supplemental\\";
+        public const string UpdatesPath = BasePath + "Updates\\";
+        public const string PatchesPath = SupplementalPath + "patches.json";
 
         public static string IconPath => Path.Combine(FilesPath, "icons");
 
@@ -29,6 +30,9 @@ namespace Garland.Data
 
         public static void Load()
         {
+            if (!File.Exists(ConfigPath))
+                throw new FileNotFoundException($"{ConfigPath} not found.  Please see CONTRIBUTING.md for setup instructions.");
+
             var text = File.ReadAllText(ConfigPath);
             dynamic values = JsonConvert.DeserializeObject(text);
 

@@ -148,7 +148,7 @@ namespace Garland.Data
 
         public static void Initialize()
         {
-            var patchData = (JArray)JsonConvert.DeserializeObject(File.ReadAllText("Supplemental\\patches.json"));
+            var patchData = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(Config.PatchesPath));
             foreach (dynamic obj in patchData)
             {
                 var type = (string)obj.type;
@@ -307,7 +307,7 @@ namespace Garland.Data
             if (!Directory.Exists(Config.SupplementalPath))
                 Directory.CreateDirectory(Config.SupplementalPath);
 
-            File.WriteAllText(Config.SupplementalPath + "patches.json", contents, Encoding.UTF8);
+            File.WriteAllText(Config.PatchesPath, contents, Encoding.UTF8);
         }
 
         public static int GetPatchCategory(SaintCoinach.Xiv.Item item)

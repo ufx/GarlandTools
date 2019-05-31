@@ -9,8 +9,7 @@ _ReSharper*/
 .vs/
 *.vspx
 *.psess
-Updates/
-/External/
 Config.json
-/Supplemental/
+/Supplemental/app_data.sqlite
+Updates/
 /Updates/
