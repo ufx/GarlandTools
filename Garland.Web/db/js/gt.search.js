@@ -4,7 +4,7 @@ gt.search = {
     maxResults: 100,
     url: '/api/search.php',
     cachedQueries: [],
-    resultIndex: { quest: { }, leve: { }, action: { }, achievement: { }, instance: { }, fate: { }, npc: { }, mob: { }, item: { }, fishing: { }, node: { } },
+    resultIndex: { quest: { }, leve: { }, action: { }, achievement: { }, instance: { }, fate: { }, npc: { }, mob: { }, item: { }, fishing: { }, node: { }, status: { } },
     activeQuery: null,
     serverSearchId: 0,
 

@@ -235,7 +235,7 @@
                 {{?}}
                 <img src="images/x.svg" class="close-button button">
                 {{?it.icon}}
-                    <img src="{{=it.icon}}" class="icon title-icon {{?it.iconBorder}}border{{?}}">
+                    <img src="{{=it.icon}}" class="icon title-icon {{?it.iconBorder}}border{{?}} {{?it.type === 'status'}}status{{?}}">
                 {{?}}
                 <h1 class="name {{?it.nameClass}}{{=it.nameClass}}{{?}}">
                     {{?it.patch != '??' && it.patch >= gt.patch.current}}<img class="icon patch" src="images/LatestPatch.png" title="Latest Patch {{=it.patch}}">{{?}}
@@ -682,7 +682,7 @@
 
     <script id="search-result-template" type="text/x-dot-template">
         <div class="block-link search-result pointer hover-highlight {{=it.type}}" data-id="{{=it.id}}" data-type="{{=it.type}}">
-            <img class="icon small left" src="{{=it.icon}}" title="{{=it.name}}">
+            <img class="icon small left {{?it.type === 'status'}}status{{?}}" src="{{=it.icon}}" title="{{=it.name}}">
             <span class="name">{{=it.name}}</span>
             {{?it.byline}} <span class="byline">{{=it.byline}}</span>{{?}}
         </div>
@@ -2779,6 +2779,67 @@
                 <div class="separator"></div>
 
                 {{~it.status :status:sindex}}
+                    <div class="collapse-toggle block-link hover-highlight line half pointer" data-type="status" data-id="{{=status.id}}">
+                            <img src="{{=status.icon}}" class="icon small status">
+                            <span class="highlight text">{{=status.name}}</span> <span class="text">{{=status.relationship}}</span>
+                    </div>
+                {{~}}
+            {{?}}
+
+            {{?it.comboFrom || it.comboTo}}
+                <div class="combo subsection collapsible" data-headername="combo">
+                    <h3 class="pointer">Combos</h3>
+
+                    {{?it.comboFrom}}
+                        <div class="collapse-toggle block-link hover-highlight line pointer" data-type="action" data-id="{{=it.comboFrom.id}}">
+                            <span class="text right">From Weaponskill</span>
+                            <img src="{{=it.comboFrom.icon}}" class="icon small">
+                            <span class="highlight text">{{=it.comboFrom.name}}</span>
+                        </div>
+                    {{?}}
+
+                    {{?it.comboTo}}
+                        {{~it.comboTo :combo:cindex}}
+                            <div class="collapse-toggle block-link hover-highlight line pointer" data-type="action" data-id="{{=combo.id}}">
+                                <span class="text right">To Weaponskill</span>
+                                <img src="{{=combo.icon}}" class="icon small">
+                                <span class="highlight text">{{=combo.name}}</span>
+                            </div>
+                        {{~}}
+                    {{?}}
+                </div>
+            {{?}}
+
+            {{?it.traits}}
+                <div class="trait subsection collapsible" data-headername="traits">
+                    <h3 class="pointer">Traits</h3>
+
+                    {{~it.traits :trait:tindex}}
+                        <div class="collapse-toggle block-link hover-highlight line half pointer" data-type="action" data-id="{{=trait.id}}">
+                            <img src="{{=trait.icon}}" class="icon small">
+                            <span class="highlight text">{{=trait.name}}</span>
+                        </div>
+                    {{~}}
+                </div>
+            {{?}}
+        </div>
+    </script>
+
+    <script id="block-status-template" type="text/x-dot-template">
+        <div class="content main">
+            <div class="description">{{=it.desc}}</div>
+
+            <div class="clear"></div>
+
+            <hr>
+
+            <div><span class="highlight">Category</span> {{=it.category}}</div>
+            <div><span class="highlight">Can Dispel</span> {{?it.canDispel === true}}Yes{{?}}{{?it.canDispel === false}}No{{?}}</div>
+
+            {{?it.status}}
+                <div class="separator"></div>
+
+                {{~it.status :status:sindex}}
                     <div class="line status">
                         <img src="{{=status.icon}}" class="icon small" title="{{=status.desc}}">
                         <span class="text">{{=status.name}} {{=status.relationship}}</span>
@@ -3251,6 +3312,10 @@
                 <div class="block-link hover-highlight icon-button" data-type="browse" data-id="action">
                     <img src="../files/icons/action/103.png" class="icon small">
                     <span class="text">Actions</span>
+                </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="status">
+                    <img src="../files/icons/status/10101.png" class="icon small">
+                    <span class="text">Status Effects</span>
                 </div>
                 <div class="block-link hover-highlight icon-button" data-type="browse" data-id="achievement">
                     <img src="../files/icons/achievement/3773.png" class="icon small">

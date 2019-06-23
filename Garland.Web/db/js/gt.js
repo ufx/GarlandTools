@@ -99,7 +99,7 @@ gt.core = {
     hashExpression: /#?(\w+)\/(.*)/,
     groupHashExpression: /(.+?)\{(.*)\}/,
     errorTemplate: null,
-    isLive: window.location.hostname != 'localhost',
+    isLive: window.location.hostname != 'localhost' && window.location.hostname != 'test.garlandtools.org',
     //isLive: true,
 
     initialize: function() {
@@ -119,7 +119,7 @@ gt.core = {
                 return;
             }
             var modules = [gt.time, gt.patch, gt.map, gt.craft, gt.item, gt.npc, gt.fate, gt.mob,
-                gt.node, gt.fishing, gt.instance, gt.quest, gt.achievement, gt.action, gt.leve,
+                gt.node, gt.fishing, gt.instance, gt.quest, gt.achievement, gt.action, gt.status, gt.leve,
                 gt.group, gt.equip, gt.skywatcher, gt.note, gt.search, gt.browse, gt.list,
                 gt.settings, gt.display, gt.venture, gt.util, window.doT, window.Isotope,
                 window.$, window.he];
@@ -201,6 +201,7 @@ gt.core = {
             gt.quest.initialize(data);
             gt.achievement.initialize(data);
             gt.action.initialize(data);
+            gt.status.initialize(data);
             gt.leve.initialize(data);
             gt.group.initialize(data);
             gt.equip.initialize(data);
@@ -3908,7 +3909,7 @@ gt.search = {
     maxResults: 100,
     url: '/api/search.php',
     cachedQueries: [],
-    resultIndex: { quest: { }, leve: { }, action: { }, achievement: { }, instance: { }, fate: { }, npc: { }, mob: { }, item: { }, fishing: { }, node: { } },
+    resultIndex: { quest: { }, leve: { }, action: { }, achievement: { }, instance: { }, fate: { }, npc: { }, mob: { }, item: { }, fishing: { }, node: { }, status: { } },
     activeQuery: null,
     serverSearchId: 0,
 
@@ -5478,6 +5479,10 @@ gt.display = {
                     $e.append('<img src="' + view.icon + '" width="' + radius + 'px">');
                     break;
 
+                case 'status':
+                    $e.append('<img src="' + view.icon + '" style="height: 22px; margin-left: 2px;">');
+                    break;
+
                 case 'browse':
                 case 'patch':
                     $e.append('<img src="' + $block.data('view').browseIcon + '" width="' + (radius - 2) + '"px">');
@@ -6741,12 +6746,82 @@ gt.action = {
 
     getStatusViewModel: function(status, relationship) {
         return {
+            id: status.id,
             relationship: relationship,
             name: status.name,
             desc: status.desc,
             icon: '../files/icons/status/' + status.icon + '.png'
         };
     }
+};
+gt.status = {
+    index: {},
+    partialIndex: {},
+    categoryIndex: { 1: 'Beneficial', 2: 'Detrimental' },
+    blockTemplate: null,
+    pluralName: 'Status Effects',
+    type: 'Status',
+    version: 2,
+    browse: [
+        { type: 'group', prop: 'category' },
+        { type: 'paginate' },
+        { type: 'sort', prop: 'id' }
+    ],
+
+    initialize: function(data) {
+        gt.status.blockTemplate = doT.template($('#block-status-template').text());
+    },
+
+    cache: function(data) {
+        gt.status.index[data.status.id] = data.status;
+    },
+
+    bindEvents: function($block, data) {
+        gt.display.alternatives($block, data);
+    },
+
+    getViewModel: function(status, data) {
+        var category = gt.status.categoryIndex[status.category];
+
+        var view = {
+            id: status.id,
+            type: 'status',
+            name: status.name || "",
+            patch: gt.formatPatch(status.patch),
+            template: gt.status.blockTemplate,
+            settings: 1,
+            icon: '../files/icons/status/' + status.icon + '.png',
+            iconBorder: 0,
+            obj: status,
+            
+            desc: status.description || "",
+            category: category ? category : "Uncategorized",
+            canDispel: status.canDispel
+        };
+
+        view.subheader = view.category + ' Status Effect';
+
+        return view;
+    },
+
+    getPartialViewModel: function(partial) {
+        if (!partial)
+            return null;
+
+        var category = gt.status.categoryIndex[partial.t];
+
+        var view = {
+            id: partial.i,
+            type: 'status',
+            name: gt.model.name(partial) || "",
+            icon: '../files/icons/status/' + partial.c + '.png',
+            category: category ? category : "Uncategorized"
+        };
+
+        view.byline = view.category;
+
+        return view;
+    },
 };
 gt.fate = {
     pluralName: 'Fates',

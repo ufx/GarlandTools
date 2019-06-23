@@ -99,7 +99,7 @@ gt.core = {
     hashExpression: /#?(\w+)\/(.*)/,
     groupHashExpression: /(.+?)\{(.*)\}/,
     errorTemplate: null,
-    isLive: window.location.hostname != 'localhost',
+    isLive: window.location.hostname != 'localhost' && window.location.hostname != 'test.garlandtools.org',
     //isLive: true,
 
     initialize: function() {
@@ -119,7 +119,7 @@ gt.core = {
                 return;
             }
             var modules = [gt.time, gt.patch, gt.map, gt.craft, gt.item, gt.npc, gt.fate, gt.mob,
-                gt.node, gt.fishing, gt.instance, gt.quest, gt.achievement, gt.action, gt.leve,
+                gt.node, gt.fishing, gt.instance, gt.quest, gt.achievement, gt.action, gt.status, gt.leve,
                 gt.group, gt.equip, gt.skywatcher, gt.note, gt.search, gt.browse, gt.list,
                 gt.settings, gt.display, gt.venture, gt.util, window.doT, window.Isotope,
                 window.$, window.he];
@@ -201,6 +201,7 @@ gt.core = {
             gt.quest.initialize(data);
             gt.achievement.initialize(data);
             gt.action.initialize(data);
+            gt.status.initialize(data);
             gt.leve.initialize(data);
             gt.group.initialize(data);
             gt.equip.initialize(data);

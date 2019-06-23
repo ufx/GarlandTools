@@ -918,6 +918,10 @@ body.unlock-heights .block .content.main,
     pointer-events: none;
 }
 
+.block .block-title .icon.title-icon.status {
+    width: auto;
+}
+
 .block .block-title .icon.title-icon.border {
     border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, .2);    
@@ -1472,7 +1476,7 @@ body.unlock-heights .block .content.main,
     border: 1px solid #300C0C;
 }
 
-.minimap-block.item, .minimap-block.achievement, .minimap-block.action {
+.minimap-block.item, .minimap-block.achievement, .minimap-block.action, .minimap-block.status {
     background-color: #363636;
     border: 1px solid #1C1C1C;
 }
@@ -1801,6 +1805,10 @@ body.dirty #dirty-indicator {
     height: 24px;
     border: 1px solid transparent;
     border-radius: 3px;
+}
+
+.icon.status {
+    width: auto;
 }
 
 .icon.size32 {

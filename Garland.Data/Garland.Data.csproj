@@ -92,6 +92,7 @@
     <Compile Include="Models\ParameterInfo.cs" />
     <Compile Include="Models\Patch.cs" />
     <Compile Include="Modules\Achievements.cs" />
+    <Compile Include="Modules\Statuses.cs" />
     <Compile Include="Modules\Actions.cs" />
     <Compile Include="Modules\Customize.cs" />
     <Compile Include="Modules\DisposalShops.cs" />

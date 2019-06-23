@@ -20,6 +20,7 @@ type gt.list.js >> gt.js
 type gt.quest.js >> gt.js
 type gt.achievement.js >> gt.js
 type gt.action.js >> gt.js
+type gt.status.js >> gt.js
 type gt.fate.js >> gt.js
 type gt.leve.js >> gt.js
 type gt.venture.js >> gt.js
