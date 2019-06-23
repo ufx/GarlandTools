@@ -62,15 +62,19 @@ namespace Garland.Data
 
         public static bool HasIcon(UInt16 iconId)
         {
-            return _iconPathsByIconId.ContainsKey(iconId);
+            lock (_iconPathsByIconId)
+                return _iconPathsByIconId.ContainsKey(iconId);
         }
 
         public static void WriteIcon(UInt16 iconId, byte[] bytes)
         {
-            _iconPathsByIconId[iconId] = iconId.ToString();
+            lock (_iconPathsByIconId)
+            {
+                _iconPathsByIconId[iconId] = iconId.ToString();
 
-            var path = Path.Combine(_itemIconPath, iconId.ToString() + ".png");
-            File.WriteAllBytes(path, bytes);
+                var path = Path.Combine(_itemIconPath, iconId.ToString() + ".png");
+                File.WriteAllBytes(path, bytes);
+            }
         }
     }
 }

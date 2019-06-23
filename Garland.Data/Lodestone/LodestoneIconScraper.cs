@@ -30,28 +30,34 @@ namespace Garland.Data.Lodestone
             var itemsToFetch = new List<Saint.Item>(ItemIconDatabase.ItemsNeedingIcons.Skip(start));
             itemsToFetch.AddRange(ItemIconDatabase.ItemsNeedingIcons.Take(start));
 
-            foreach (var sItem in itemsToFetch)
+            var count = 0;
+            var options = new ParallelOptions() { MaxDegreeOfParallelism = 4 };
+            Parallel.ForEach(itemsToFetch, options, sItem =>
             {
+                var num = Interlocked.Increment(ref count);
+
                 // A prior item may share this icon, so always check if it was written.
                 var iconId = (UInt16)sItem.GetRaw("Icon");
                 if (ItemIconDatabase.HasIcon(iconId))
-                    continue;
+                    return;
+
+                var progress = $"{num}/{itemsToFetch.Count}, {100*num/itemsToFetch.Count}%";
 
                 // Scrape search data from Lodestone.
-                var itemUrl = SearchItem(iconId, sItem.Name);
+                var itemUrl = SearchItem(iconId, sItem.Name, progress);
                 string hash = null;
                 if (itemUrl != null)
-                    hash = FetchItem(iconId, sItem.Name, itemUrl);
+                    hash = FetchItem(iconId, sItem.Name, itemUrl, progress);
 
                 if (hash == null)
                 {
                     // Can't find this entry.  Move on.
-                    continue;
+                    return;
                 }
 
                 // Fetch the icon and write entries.
                 WriteIcon(iconId, hash);
-            }
+            });
         }
 
         void WriteIcon(UInt16 iconId, string hash)
@@ -61,37 +67,37 @@ namespace Garland.Data.Lodestone
             ItemIconDatabase.WriteIcon(iconId, bytes);
         }
 
-        string SearchItem(UInt16 iconId, string name)
+        string SearchItem(UInt16 iconId, string name, string progress)
         {
             var url = string.Format(_baseSearchFormat, HttpUtility.UrlEncode(name));
             var itemUrlRegex = new Regex(string.Format(_itemUrlRegexFormat, SanitizeRegex(name)));
 
             var html = Request(url);
-            
+
             var match = itemUrlRegex.Match(html);
             if (!match.Success || match.Groups.Count != 2)
             {
-                DatabaseBuilder.PrintLine($"Search match fail on {iconId}: {name}");
+                DatabaseBuilder.PrintLine($"Search match fail on {iconId}: {name} ({progress})");
                 return null;
             }
 
             return _baseUrl + match.Groups[1].Value;
         }
 
-        string FetchItem(int iconId, string name, string itemUrl)
+        string FetchItem(int iconId, string name, string itemUrl, string progress)
         {
             var html = Request(itemUrl);
 
             var match = _iconSuffixRegex.Match(html);
             if (!match.Success || match.Groups.Count != 2)
             {
-                DatabaseBuilder.PrintLine($"Fetch match fail on {iconId}: {name}");
+                DatabaseBuilder.PrintLine($"Fetch match fail on {iconId}: {name} ({progress})");
                 return null;
             }
             var iconSuffix = match.Groups[1].Value;
 
             var hash = match.Groups[1].Value;
-            DatabaseBuilder.PrintLine($"{iconId}: {name} {hash}");
+            DatabaseBuilder.PrintLine($"{iconId}: {name} {hash} ({progress})");
             return hash;
         }
 
