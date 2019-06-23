@@ -128,7 +128,7 @@ namespace Garland.Data.Modules
             dynamic currentNode = null;
             JArray currentNodeItems = null;
 
-            var lines = Utils.Tsv("Supplemental\\FFXIV Data - Fishing.tsv");
+            var lines = Utils.Tsv(Path.Combine(Config.SupplementalPath, "FFXIV Data - Fishing.tsv"));
             foreach (var rLine in lines.Skip(1))
             {
                 // Line data

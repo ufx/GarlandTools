@@ -229,7 +229,7 @@ namespace Garland.Data.Modules
         {
             var viewsByNodeId = new Dictionary<int, dynamic>();
 
-            var lines = Utils.Tsv("Supplemental\\FFXIV Data - Nodes.tsv");
+            var lines = Utils.Tsv(System.IO.Path.Combine(Config.SupplementalPath, "FFXIV Data - Nodes.tsv"));
             foreach (var line in lines.Skip(1))
             {
                 var itemName = line[0];

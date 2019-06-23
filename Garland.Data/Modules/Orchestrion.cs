@@ -12,7 +12,6 @@ namespace Garland.Data.Modules
 {
     public class Orchestrion : Module
     {
-        const string _baseMusicPath = "output\\orchestrion";
         string _resultMusicPath;
 
         public override string Name => "Orchestrion";
@@ -22,6 +21,7 @@ namespace Garland.Data.Modules
             _resultMusicPath = Path.Combine(Config.FilesPath, "orchestrion");
 
             Directory.CreateDirectory(_resultMusicPath);
+            Directory.CreateDirectory("output");
 
             var sOrchestrions = _builder.Sheet("Orchestrion");
             var sOrchestrionUiparams = _builder.Sheet("OrchestrionUiparam");

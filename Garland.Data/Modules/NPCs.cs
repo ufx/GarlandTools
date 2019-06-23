@@ -141,7 +141,7 @@ namespace Garland.Data.Modules
 
         void BuildSupplementalData()
         {
-            var lines = Utils.Tsv("Supplemental\\FFXIV Data - NPCs.tsv");
+            var lines = Utils.Tsv(System.IO.Path.Combine(Config.SupplementalPath, "FFXIV Data - NPCs.tsv"));
             foreach (var line in lines.Skip(1))
             {
                 var id = int.Parse(line[1]);
