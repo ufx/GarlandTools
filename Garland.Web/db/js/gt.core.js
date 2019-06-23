@@ -172,6 +172,8 @@ gt.core = {
     initializeCore: function() {
         try {
             var data = gt.settings.load();
+            if (gt.core.ensureNormalizedUrl(data))
+                return; // href is changing, don't do anything else.
 
             if ('ontouchstart' in window && !data.disableTouch) {
                 if (window.FastClick)
@@ -930,5 +932,17 @@ gt.core = {
             gt.core.setHash(null);
             gt.settings.saveDirty();
         });
+    },
+    
+    ensureNormalizedUrl: function(data) {
+        if (!data.normalizeUrl || !gt.core.isLive)
+            return false;
+
+        var baseUrl = "https://garlandtools.org";
+        if (window.location.origin.indexOf(baseUrl) == 0)
+            return false;
+
+        window.location.href = baseUrl + window.location.pathname + window.location.hash;
+        return true;
     }
 };
