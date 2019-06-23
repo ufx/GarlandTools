@@ -41,6 +41,9 @@ gt.patch = {
             for (var type in patchData) {
                 var typeData = patchData[type];
                 var module = gt[type];
+                if (!module)
+                    continue;
+
                 for (var i = 0; i < typeData.length; i++) {
                     var obj = typeData[i];
                     if (module.partialIndex)

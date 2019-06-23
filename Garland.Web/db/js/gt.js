@@ -1176,6 +1176,9 @@ gt.patch = {
             for (var type in patchData) {
                 var typeData = patchData[type];
                 var module = gt[type];
+                if (!module)
+                    continue;
+
                 for (var i = 0; i < typeData.length; i++) {
                     var obj = typeData[i];
                     if (module.partialIndex)
@@ -4126,7 +4129,9 @@ gt.search = {
                 var value = result[i];
 
                 // Store results in a separate index used for local searches.
-                gt.search.resultIndex[value.type][value.id] = value.obj;
+                var resultObjects = gt.search.resultIndex[value.type];
+                if (resultObjects)
+                    resultObjects[value.id] = value.obj;
             }
 
             // Toss results when a query with a larger ID is active.
@@ -4227,7 +4232,7 @@ gt.search = {
 
         $('.search-list-page, .search-icons-page', '.search-page')
             .empty()
-            .append(_.map(matches.result, gt.search.resultTemplate))
+            .append(_.map(_.filter(matches.result), gt.search.resultTemplate))
             .append('<div class="clear"></div>');
 
         $('.block-link', '.search-page').click(gt.core.blockLinkClicked);
@@ -4349,7 +4354,8 @@ gt.search = {
     },
 
     getViewModel: function(searchResult) {
-        return gt[searchResult.type].getPartialViewModel(searchResult.obj);
+        var module = gt[searchResult.type];
+        return module ? module.getPartialViewModel(searchResult.obj) : null;
     },
 
     openSearchButtonClicked: function(e) {
