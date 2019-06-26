@@ -13,27 +13,32 @@ namespace Garland.Data
     public class GarlandDatabase
     {
         // NOTE: This section must be updated with every patch!
-        public const decimal NextPatch = 4.56m;
+        public const decimal NextPatch = 5m;
         public static Patch[] MajorPatches = new[] {
             new Patch(1m, "Legacy", "Legacy"),
+
             new Patch(2m, "A Realm Reborn", "A Realm Reborn"),
             new Patch(2.1m, "A Realm Awoken", "A Realm Reborn"),
             new Patch(2.2m, "Through the Maelstrom", "A Realm Reborn"),
             new Patch(2.3m, "Defenders of Eorzea", "A Realm Reborn"),
             new Patch(2.4m, "Dreams of Ice", "A Realm Reborn"),
             new Patch(2.5m, "Before the Fall", "A Realm Reborn"),
+
             new Patch(3m, "Heavensward", "Heavensward"),
             new Patch(3.1m, "As Goes Light, So Goes Darkness", "Heavensward"),
             new Patch(3.2m, "The Gears of Change", "Heavensward"),
             new Patch(3.3m, "Revenge of the Horde", "Heavensward"),
             new Patch(3.4m, "Soul Surrender", "Heavensward"),
             new Patch(3.5m, "The Far Edge of Fate", "Heavensward"),
+
             new Patch(4m, "Stormblood", "Stormblood"),
             new Patch(4.1m, "The Legend Returns", "Stormblood"),
             new Patch(4.2m, "Rise of a New Sun", "Stormblood"),
             new Patch(4.3m, "Under the Moonlight", "Stormblood"),
             new Patch(4.4m, "Prelude in Violet", "Stormblood"),
-            new Patch(4.5m, "A Requiem for Heroes", "Stormblood")
+            new Patch(4.5m, "A Requiem for Heroes", "Stormblood"),
+
+            new Patch(5m, "Shadowbringers", "Shadowbringers")
         };
 
         public static int LevelCap = -1; // Filled in from Miscellaneous.
