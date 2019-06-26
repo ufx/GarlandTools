@@ -3426,10 +3426,6 @@ body.loaded #sidebar .patch-link {
         display: block;
     }
 
-    #header .menu-ext {
-        display: block;
-    }
-
     #header .drawer {
         margin-top: 4px;
         border-radius: 4px;
