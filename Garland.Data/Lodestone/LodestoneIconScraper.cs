@@ -31,7 +31,7 @@ namespace Garland.Data.Lodestone
             itemsToFetch.AddRange(ItemIconDatabase.ItemsNeedingIcons.Take(start));
 
             var count = 0;
-            var options = new ParallelOptions() { MaxDegreeOfParallelism = 4 };
+            var options = new ParallelOptions() { MaxDegreeOfParallelism = 8 };
             Parallel.ForEach(itemsToFetch, options, sItem =>
             {
                 var num = Interlocked.Increment(ref count);

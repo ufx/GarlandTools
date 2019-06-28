@@ -144,6 +144,8 @@ namespace Garland.Data
             ItemPatchCategoryByUICategory[103] = 15; // Submersible Bow
             ItemPatchCategoryByUICategory[104] = 15; // Submersible Bridge
             ItemPatchCategoryByUICategory[105] = 0; // Blue Mage's Arm
+            ItemPatchCategoryByUICategory[106] = 0; // Gunbreaker's Arm
+            ItemPatchCategoryByUICategory[107] = 0; // Dancer's Arm
         }
 
         public static void Initialize()
@@ -350,7 +352,8 @@ namespace Garland.Data
                 return 3;
             }
 
-            throw new NotImplementedException();
+            // If you're reading this update the ItemPatchCategoryByUICategory map at the top of this file.
+            throw new NotImplementedException($"Unknown patch category for {item.Name} ({item.Key}), ItemUICategory {item.ItemUICategory.Key}");
         }
 
         public static int? GetAttributePatchCategory(SaintCoinach.Xiv.BaseParam param)

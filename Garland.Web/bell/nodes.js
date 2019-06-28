@@ -89,7 +89,7 @@
     "time": [
       1
     ],
-    "title": "Haldrath's March",
+    "title": "Dragonhead",
     "zone": "Coerthas Central Highlands",
     "coords": [
       27,
@@ -173,7 +173,7 @@
     "time": [
       4
     ],
-    "title": "Lost Hope",
+    "title": "Black Brush",
     "zone": "Central Thanalan",
     "coords": [
       25,
@@ -212,7 +212,7 @@
     "time": [
       5
     ],
-    "title": "Yugr'am River",
+    "title": "Wellwick Wood",
     "zone": "Eastern Thanalan",
     "coords": [
       25,
@@ -302,7 +302,7 @@
     "time": [
       6
     ],
-    "title": "Rootslake",
+    "title": "Lower Paths",
     "zone": "South Shroud",
     "coords": [
       18,
@@ -353,7 +353,7 @@
     "time": [
       9
     ],
-    "title": "Burgundy Falls",
+    "title": "The Burning Wall",
     "zone": "Eastern Thanalan",
     "coords": [
       28,
@@ -423,7 +423,7 @@
       17,
       21
     ],
-    "title": "North Silvertear",
+    "title": "north Silvertear",
     "zone": "Mor Dhona",
     "coords": [
       27,
@@ -630,7 +630,7 @@
     "time": [
       1
     ],
-    "title": "Little Solace",
+    "title": "Nine Ivies",
     "zone": "East Shroud",
     "coords": [
       22,
@@ -700,7 +700,7 @@
       5,
       9
     ],
-    "title": "North Silvertear",
+    "title": "north Silvertear",
     "zone": "Mor Dhona",
     "coords": [
       32,
@@ -961,7 +961,7 @@
     "time": [
       6
     ],
-    "title": "Naked Rock",
+    "title": "Greentear",
     "zone": "Central Shroud",
     "coords": [
       30,
@@ -1546,7 +1546,7 @@
         "icon": 25035,
         "id": 12884,
         "slot": "1",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Pearl Sprout Seeds",
@@ -1565,21 +1565,21 @@
         "icon": 25208,
         "id": 12877,
         "slot": "6",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Coerthan Tea Leaves",
         "icon": 25020,
         "id": 12882,
         "slot": "7",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
       10,
       22
     ],
-    "title": "Black Iron Bridge",
+    "title": "Riversmeet",
     "zone": "Coerthas Western Highlands",
     "coords": [
       31,
@@ -1600,14 +1600,14 @@
         "icon": 25222,
         "id": 12900,
         "slot": "6",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
       8,
       20
     ],
-    "title": "Dragonspit",
+    "title": "Twinpools",
     "zone": "Coerthas Western Highlands",
     "coords": [
       8,
@@ -1628,7 +1628,7 @@
         "icon": 21207,
         "id": 5108,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Dark Matter Cluster",
@@ -1642,7 +1642,7 @@
       4,
       16
     ],
-    "title": "Black Iron Bridge",
+    "title": "Riversmeet",
     "zone": "Coerthas Western Highlands",
     "coords": [
       29,
@@ -1669,7 +1669,7 @@
         "icon": 25318,
         "id": 12896,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Dark Matter Cluster",
@@ -1704,28 +1704,28 @@
         "icon": 21209,
         "id": 12941,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Pyrite",
         "icon": 21207,
         "id": 5109,
         "slot": "3",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Limonite",
         "icon": 21206,
         "id": 5112,
         "slot": "4",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
       8,
       20
     ],
-    "title": "Loth ast Vath",
+    "title": "The Smoldering Wastes",
     "zone": "The Dravanian Forelands",
     "coords": [
       27,
@@ -1746,14 +1746,14 @@
         "icon": 25305,
         "id": 12889,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Abalathian Mistletoe",
         "icon": 25001,
         "id": 12944,
         "slot": "3",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
@@ -1781,21 +1781,21 @@
         "icon": 22617,
         "id": 12901,
         "slot": "1",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Red Quartz",
         "icon": 21456,
         "id": 5159,
         "slot": "6",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
       10,
       22
     ],
-    "title": "Coldwind",
+    "title": "The Gauntlet",
     "zone": "The Sea of Clouds",
     "coords": [
       7,
@@ -1816,21 +1816,21 @@
         "icon": 25001,
         "id": 12943,
         "slot": "3",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Porcini",
         "icon": 25401,
         "id": 12899,
         "slot": "7",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
       0,
       12
     ],
-    "title": "Easton Eyes",
+    "title": "Ohl Tahn",
     "zone": "The Churning Mists",
     "coords": [
       25,
@@ -1851,21 +1851,21 @@
         "icon": 21458,
         "id": 5162,
         "slot": "4",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Green Quartz",
         "icon": 21459,
         "id": 5161,
         "slot": "6",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
       6,
       18
     ],
-    "title": "The House of Letters",
+    "title": "Eil Tohm",
     "zone": "The Churning Mists",
     "coords": [
       35,
@@ -1886,14 +1886,14 @@
         "icon": 25319,
         "id": 12897,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Morel",
         "icon": 25408,
         "id": 12898,
         "slot": "7",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
@@ -1921,21 +1921,21 @@
         "icon": 21206,
         "id": 12942,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Light Kidney Ore",
         "icon": 21206,
         "id": 5117,
         "slot": "3",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
       2,
       14
     ],
-    "title": "The Daggers",
+    "title": "The Ruling Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
       35,
@@ -1956,7 +1956,7 @@
         "icon": 21224,
         "id": 12538,
         "slot": "6",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
@@ -1984,14 +1984,14 @@
         "icon": 21225,
         "id": 12536,
         "slot": "6",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Lumythrite Ore",
         "icon": 21221,
         "id": 14148,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -1999,7 +1999,7 @@
       2,
       14
     ],
-    "title": "Mother of the Sheave",
+    "title": "Greensward",
     "zone": "The Churning Mists",
     "coords": [
       11,
@@ -2020,7 +2020,7 @@
         "icon": 22627,
         "id": 12634,
         "slot": "1",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -2028,7 +2028,7 @@
       4,
       16
     ],
-    "title": "The Lost Landlord",
+    "title": "Greensward",
     "zone": "The Churning Mists",
     "coords": [
       16,
@@ -2049,7 +2049,7 @@
         "icon": 25306,
         "id": 12904,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -2057,7 +2057,7 @@
       10,
       22
     ],
-    "title": "The Daggers",
+    "title": "The Makers' Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
       39,
@@ -2078,14 +2078,14 @@
         "icon": 21463,
         "id": 5226,
         "slot": "4",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Violet Quartz",
         "icon": 21461,
         "id": 5163,
         "slot": "6",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -2093,7 +2093,7 @@
       0,
       12
     ],
-    "title": "Hemlock",
+    "title": "Riversmeet",
     "zone": "Coerthas Western Highlands",
     "coords": [
       37,
@@ -2114,7 +2114,7 @@
         "icon": 21457,
         "id": 5160,
         "slot": "7",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -2143,7 +2143,7 @@
         "icon": 21226,
         "id": 12540,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -2151,7 +2151,7 @@
       4,
       16
     ],
-    "title": "The Nidifice",
+    "title": "Voor Sian Siran",
     "zone": "The Sea of Clouds",
     "coords": [
       35,
@@ -2172,7 +2172,7 @@
         "icon": 22656,
         "id": 12945,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -2180,7 +2180,7 @@
       10,
       22
     ],
-    "title": "Habisphere Control",
+    "title": "The Habisphere",
     "zone": "Azys Lla",
     "coords": [
       35,
@@ -2201,7 +2201,7 @@
         "icon": 23001,
         "id": 12587,
         "slot": "5",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -2209,7 +2209,7 @@
       2,
       14
     ],
-    "title": "Alpha Quadrant",
+    "title": "Beta Quadrant",
     "zone": "Azys Lla",
     "coords": [
       22,
@@ -2230,7 +2230,7 @@
         "icon": 25017,
         "id": 12902,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -2259,21 +2259,21 @@
         "icon": 25014,
         "id": 4833,
         "slot": "3",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Dravanian Paprika",
         "icon": 25018,
         "id": 12903,
         "slot": "4",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Frost Cotton Boll",
         "icon": 25032,
         "id": 14154,
         "slot": "5",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -2281,7 +2281,7 @@
       6,
       18
     ],
-    "title": "The Watcher",
+    "title": "Twinpools",
     "zone": "Coerthas Western Highlands",
     "coords": [
       23,
@@ -3047,14 +3047,14 @@
         "icon": 20018,
         "id": 15647,
         "slot": "4",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Old-growth Camphorwood Log",
         "icon": 22414,
         "id": 14957,
         "slot": "6",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -3062,7 +3062,7 @@
       8,
       20
     ],
-    "title": "Weston Waters",
+    "title": "Ohl Tahn",
     "zone": "The Churning Mists",
     "coords": [
       11,
@@ -3083,14 +3083,14 @@
         "icon": 21473,
         "id": 14151,
         "slot": "2",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       },
       {
         "item": "Meteorite",
         "icon": 21203,
         "id": 15646,
         "slot": "3",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -3098,7 +3098,7 @@
       8,
       20
     ],
-    "title": "Hengr's Crucible",
+    "title": "The Gauntlet",
     "zone": "The Sea of Clouds",
     "coords": [
       38,
@@ -3126,7 +3126,7 @@
       4,
       16
     ],
-    "title": "Antithesis",
+    "title": "Delta Quadrant",
     "zone": "Azys Lla",
     "coords": [
       8,
@@ -3240,7 +3240,7 @@
       6,
       18
     ],
-    "title": "Hyperstellar Downconverter",
+    "title": "Alpha Quadrant",
     "zone": "Azys Lla",
     "coords": [
       5,
@@ -3268,7 +3268,7 @@
       8,
       20
     ],
-    "title": "Quickspill Delta",
+    "title": "The Ruling Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
       17,
@@ -3297,7 +3297,7 @@
       2,
       14
     ],
-    "title": "Dragonspit",
+    "title": "Twinpools",
     "zone": "Coerthas Western Highlands",
     "coords": [
       10,
@@ -3318,7 +3318,7 @@
         "icon": 21474,
         "id": 19968,
         "slot": "6",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 2,
@@ -3349,7 +3349,7 @@
         "icon": 22417,
         "id": 19936,
         "slot": "3",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "stars": 2,
@@ -3416,14 +3416,14 @@
         "icon": 21475,
         "id": 19970,
         "slot": "8",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
       0,
       12
     ],
-    "title": "Ten-thousand-year Pine",
+    "title": "East Othard Coastline",
     "zone": "The Ruby Sea",
     "coords": [
       15,
@@ -3476,7 +3476,7 @@
         "icon": 21472,
         "id": 19971,
         "slot": "7",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
@@ -3536,14 +3536,14 @@
         "icon": 25229,
         "id": 19860,
         "slot": "8",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
       10,
       22
     ],
-    "title": "Kusakari",
+    "title": "The Glittering Basin",
     "zone": "Yanxia",
     "coords": [
       30,
@@ -3566,7 +3566,7 @@
         "icon": 25226,
         "id": 19865,
         "slot": "7",
-        "scrip": "Red Gatherers' Scrip"
+        "scrip": "Yellow Gatherers' Scrip"
       }
     ],
     "time": [
@@ -3640,7 +3640,7 @@
       0,
       12
     ],
-    "title": "Ceol Aen",
+    "title": "Onsal Hakair",
     "zone": "The Azim Steppe",
     "coords": [
       20,
@@ -3676,7 +3676,7 @@
       4,
       16
     ],
-    "title": "The Royal Hunting Grounds",
+    "title": "Abalathia's Skull",
     "zone": "The Lochs",
     "coords": [
       7,
@@ -3707,7 +3707,7 @@
       6,
       18
     ],
-    "title": "Stacks",
+    "title": "The High Bank",
     "zone": "The Lochs",
     "coords": [
       11,
@@ -3775,7 +3775,7 @@
       4,
       16
     ],
-    "title": "Monzen",
+    "title": "Doma",
     "zone": "Yanxia",
     "coords": [
       20,
@@ -4104,7 +4104,7 @@
       6,
       18
     ],
-    "title": "The Isle of Zekki",
+    "title": "East Othard Coastline",
     "zone": "The Ruby Sea",
     "coords": [
       11,
@@ -4266,7 +4266,7 @@
       10,
       22
     ],
-    "title": "The Divine Audience",
+    "title": "Loch Seld",
     "zone": "The Lochs",
     "coords": [
       24,
@@ -4296,7 +4296,7 @@
       4,
       16
     ],
-    "title": "Sleeping Stones",
+    "title": "Rustrock",
     "zone": "The Peaks",
     "coords": [
       33,
@@ -4326,7 +4326,7 @@
       2,
       14
     ],
-    "title": "Castrum Fluminis",
+    "title": "The Glittering Basin",
     "zone": "Yanxia",
     "coords": [
       28,

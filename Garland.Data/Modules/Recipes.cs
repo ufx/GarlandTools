@@ -78,9 +78,6 @@ namespace Garland.Data.Modules
                     _builder.Db.AddReference(item, "item", sRecipe.UnlockItem.Key, true);
                 }
 
-                if (sRecipe.RecipeElement.Key != 0)
-                    recipe.element = sRecipe.RecipeElement.Key;
-
                 recipe.ingredients = new JArray();
                 foreach (var ingredient in sRecipe.Ingredients)
                     recipe.ingredients.Add(ConvertIngredient(new IngredientModel(ingredient), item));
