@@ -64,6 +64,7 @@ namespace Garland.Graphics.Exporter
             _repo = new ExportRepository(Path.Combine(_repoPath, "repo"));
 
             // Gear
+            WriteLine("Exporting gear...");
             var badGear = new HashSet<string>(new[]
             {
                 // ARR
@@ -94,25 +95,8 @@ namespace Garland.Graphics.Exporter
 
             var monsters = new XivRace[] { XivRace.Monster }.ToList();
 
-            // Minions
-            var minionList = await _companions.GetMinionList();
-            foreach (var minion in minionList)
-            {
-                var modelKey = $"{minion.ModelInfo.ModelID}-{minion.ModelInfo.Body}-{minion.ModelInfo.Variant}";
-                var path = EnsurePath("minion", modelKey);
-                await BatchExportItem(path, minion, null, () => Task.FromResult(monsters));
-            }
-
-            // Mounts
-            var mountList = await _companions.GetMountList();
-            foreach (var mount in mountList)
-            {
-                var modelKey = $"{mount.ModelInfo.ModelID}-{mount.ModelInfo.Body}-{mount.ModelInfo.Variant}";
-                var path = EnsurePath("mount", modelKey);
-                await BatchExportItem(path, mount, null, () => Task.FromResult(monsters));
-            }
-
             // Housing
+            WriteLine("Exporting furniture...");
             var furnitureList = await _housing.GetFurnitureList();
             foreach (var furniture in furnitureList)
             {
@@ -127,6 +111,26 @@ namespace Garland.Graphics.Exporter
                 {
                     WriteLine($"Unable to export {furniture.Name}: {ex.Message}");
                 }
+            }
+
+            // Mounts
+            WriteLine("Exporting mounts...");
+            var mountList = await _companions.GetMountList();
+            foreach (var mount in mountList)
+            {
+                var modelKey = $"{mount.ModelInfo.ModelID}-{mount.ModelInfo.Body}-{mount.ModelInfo.Variant}";
+                var path = EnsurePath("mount", modelKey);
+                await BatchExportItem(path, mount, null, () => Task.FromResult(monsters));
+            }
+
+            // Minions
+            WriteLine("Exporting minions...");
+            var minionList = await _companions.GetMinionList();
+            foreach (var minion in minionList)
+            {
+                var modelKey = $"{minion.ModelInfo.ModelID}-{minion.ModelInfo.Body}-{minion.ModelInfo.Variant}";
+                var path = EnsurePath("minion", modelKey);
+                await BatchExportItem(path, minion, null, () => Task.FromResult(monsters));
             }
         }
 

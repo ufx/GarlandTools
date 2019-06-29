@@ -248,7 +248,8 @@ namespace Garland.Data.Modules
 
                 node.limitType = type;
                 node.uptime = uptime;
-                node.coords = new JArray(coords);
+                if (coords != null)
+                    node.coords = new JArray(coords);
                 node.time = new JArray(times);
 
                 if (node.areaid == null && areaName != "")

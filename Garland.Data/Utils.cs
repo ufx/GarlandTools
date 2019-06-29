@@ -115,6 +115,9 @@ namespace Garland.Data
 
         public static int[] IntComma(string str)
         {
+            if (string.IsNullOrEmpty(str))
+                return null;
+
             return Comma(str).Select(int.Parse).ToArray();
         }
 

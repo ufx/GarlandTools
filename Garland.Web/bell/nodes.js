@@ -2301,6 +2301,7 @@
         "item": "Highland Oregano",
         "icon": 25015,
         "id": 12971,
+        "slot": "5",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2310,6 +2311,7 @@
         "item": "Lover's Laurel",
         "icon": 25009,
         "id": 15948,
+        "slot": "6",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -2319,6 +2321,7 @@
         "item": "Furymint",
         "icon": 25016,
         "id": 12972,
+        "slot": "7",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -2328,6 +2331,7 @@
         "item": "Clary Sage",
         "icon": 25009,
         "id": 12973,
+        "slot": "8",
         "reduce": {
           "item": "Leafborne Aethersand",
           "icon": 22649
@@ -2336,7 +2340,8 @@
       {
         "item": "Wind Cluster",
         "icon": 20016,
-        "id": 16
+        "id": 16,
+        "slot": "4"
       }
     ],
     "stars": 1,
@@ -2363,6 +2368,7 @@
         "item": "Highland Oregano",
         "icon": 25015,
         "id": 12971,
+        "slot": "5",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2372,6 +2378,7 @@
         "item": "Lover's Laurel",
         "icon": 25009,
         "id": 15948,
+        "slot": "6",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -2381,6 +2388,7 @@
         "item": "Furymint",
         "icon": 25016,
         "id": 12972,
+        "slot": "7",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -2390,6 +2398,7 @@
         "item": "Clary Sage",
         "icon": 25009,
         "id": 12973,
+        "slot": "8",
         "reduce": {
           "item": "Leafborne Aethersand",
           "icon": 22649
@@ -2398,7 +2407,8 @@
       {
         "item": "Wind Cluster",
         "icon": 20016,
-        "id": 16
+        "id": 16,
+        "slot": "4"
       }
     ],
     "stars": 1,
@@ -2425,6 +2435,7 @@
         "item": "Highland Oregano",
         "icon": 25015,
         "id": 12971,
+        "slot": "5",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2434,6 +2445,7 @@
         "item": "Lover's Laurel",
         "icon": 25009,
         "id": 15948,
+        "slot": "6",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -2443,6 +2455,7 @@
         "item": "Furymint",
         "icon": 25016,
         "id": 12972,
+        "slot": "7",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -2452,6 +2465,7 @@
         "item": "Clary Sage",
         "icon": 25009,
         "id": 12973,
+        "slot": "8",
         "reduce": {
           "item": "Leafborne Aethersand",
           "icon": 22649
@@ -2460,7 +2474,8 @@
       {
         "item": "Wind Cluster",
         "icon": 20016,
-        "id": 16
+        "id": 16,
+        "slot": "4"
       }
     ],
     "stars": 1,
@@ -2487,6 +2502,7 @@
         "item": "Granular Clay",
         "icon": 27407,
         "id": 12968,
+        "slot": "5",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2496,6 +2512,7 @@
         "item": "Lover's Laurel",
         "icon": 25009,
         "id": 15948,
+        "slot": "6",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -2505,6 +2522,7 @@
         "item": "Peat Moss",
         "icon": 27401,
         "id": 12969,
+        "slot": "4",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -2514,6 +2532,7 @@
         "item": "Black Soil",
         "icon": 27404,
         "id": 12970,
+        "slot": "8",
         "reduce": {
           "item": "Leafborne Aethersand",
           "icon": 22649
@@ -2522,7 +2541,8 @@
       {
         "item": "Earth Cluster",
         "icon": 20018,
-        "id": 17
+        "id": 17,
+        "slot": "7"
       }
     ],
     "stars": 1,
@@ -2549,6 +2569,7 @@
         "item": "Granular Clay",
         "icon": 27407,
         "id": 12968,
+        "slot": "5",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2558,6 +2579,7 @@
         "item": "Lover's Laurel",
         "icon": 25009,
         "id": 15948,
+        "slot": "6",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -2567,6 +2589,7 @@
         "item": "Peat Moss",
         "icon": 27401,
         "id": 12969,
+        "slot": "4",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -2576,6 +2599,7 @@
         "item": "Black Soil",
         "icon": 27404,
         "id": 12970,
+        "slot": "8",
         "reduce": {
           "item": "Leafborne Aethersand",
           "icon": 22649
@@ -2584,7 +2608,8 @@
       {
         "item": "Earth Cluster",
         "icon": 20018,
-        "id": 17
+        "id": 17,
+        "slot": "7"
       }
     ],
     "stars": 1,
@@ -2611,6 +2636,7 @@
         "item": "Granular Clay",
         "icon": 27407,
         "id": 12968,
+        "slot": "5",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2620,6 +2646,7 @@
         "item": "Lover's Laurel",
         "icon": 25009,
         "id": 15948,
+        "slot": "6",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -2629,6 +2656,7 @@
         "item": "Peat Moss",
         "icon": 27401,
         "id": 12969,
+        "slot": "4",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -2638,6 +2666,7 @@
         "item": "Black Soil",
         "icon": 27404,
         "id": 12970,
+        "slot": "8",
         "reduce": {
           "item": "Leafborne Aethersand",
           "icon": 22649
@@ -2646,7 +2675,8 @@
       {
         "item": "Earth Cluster",
         "icon": 20018,
-        "id": 17
+        "id": 17,
+        "slot": "7"
       }
     ],
     "stars": 1,
@@ -2674,6 +2704,7 @@
         "item": "Granular Clay",
         "icon": 27407,
         "id": 12968,
+        "slot": "5",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2683,6 +2714,7 @@
         "item": "Lover's Laurel",
         "icon": 25009,
         "id": 15948,
+        "slot": "6",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -2692,6 +2724,7 @@
         "item": "Peat Moss",
         "icon": 27401,
         "id": 12969,
+        "slot": "4",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -2701,6 +2734,7 @@
         "item": "Black Soil",
         "icon": 27404,
         "id": 12970,
+        "slot": "8",
         "reduce": {
           "item": "Leafborne Aethersand",
           "icon": 22649
@@ -2709,7 +2743,8 @@
       {
         "item": "Earth Cluster",
         "icon": 20018,
-        "id": 17
+        "id": 17,
+        "slot": "7"
       }
     ],
     "stars": 1,
@@ -2736,6 +2771,7 @@
         "item": "Lightning Moraine",
         "icon": 21461,
         "id": 5218,
+        "slot": "4",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2745,6 +2781,7 @@
         "item": "Radiant Astral Moraine",
         "icon": 21463,
         "id": 15949,
+        "slot": "7",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -2754,6 +2791,7 @@
         "item": "Radiant Lightning Moraine",
         "icon": 21461,
         "id": 5224,
+        "slot": "6",
         "reduce": {
           "item": "Landborne Aethersand",
           "icon": 21006
@@ -2763,6 +2801,7 @@
         "item": "Bright Lightning Rock",
         "icon": 21475,
         "id": 12967,
+        "slot": "5",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -2771,7 +2810,8 @@
       {
         "item": "Lightning Cluster",
         "icon": 20017,
-        "id": 18
+        "id": 18,
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -2798,6 +2838,7 @@
         "item": "Lightning Moraine",
         "icon": 21461,
         "id": 5218,
+        "slot": "4",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2807,6 +2848,7 @@
         "item": "Radiant Astral Moraine",
         "icon": 21463,
         "id": 15949,
+        "slot": "7",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -2816,6 +2858,7 @@
         "item": "Radiant Lightning Moraine",
         "icon": 21461,
         "id": 5224,
+        "slot": "6",
         "reduce": {
           "item": "Landborne Aethersand",
           "icon": 21006
@@ -2825,6 +2868,7 @@
         "item": "Bright Lightning Rock",
         "icon": 21475,
         "id": 12967,
+        "slot": "5",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -2833,7 +2877,8 @@
       {
         "item": "Lightning Cluster",
         "icon": 20017,
-        "id": 18
+        "id": 18,
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -2860,6 +2905,7 @@
         "item": "Fire Moraine",
         "icon": 21456,
         "id": 5214,
+        "slot": "5",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2869,6 +2915,7 @@
         "item": "Radiant Astral Moraine",
         "icon": 21463,
         "id": 15949,
+        "slot": "6",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -2878,6 +2925,7 @@
         "item": "Bright Fire Rock",
         "icon": 21471,
         "id": 12966,
+        "slot": "8",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -2887,6 +2935,7 @@
         "item": "Radiant Fire Moraine",
         "icon": 21456,
         "id": 5220,
+        "slot": "7",
         "reduce": {
           "item": "Landborne Aethersand",
           "icon": 21006
@@ -2895,7 +2944,8 @@
       {
         "item": "Fire Cluster",
         "icon": 20013,
-        "id": 14
+        "id": 14,
+        "slot": "3"
       }
     ],
     "stars": 1,
@@ -2922,6 +2972,7 @@
         "item": "Fire Moraine",
         "icon": 21456,
         "id": 5214,
+        "slot": "5",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2931,6 +2982,7 @@
         "item": "Radiant Astral Moraine",
         "icon": 21463,
         "id": 15949,
+        "slot": "6",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -2940,6 +2992,7 @@
         "item": "Bright Fire Rock",
         "icon": 21471,
         "id": 12966,
+        "slot": "8",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -2949,6 +3002,7 @@
         "item": "Radiant Fire Moraine",
         "icon": 21456,
         "id": 5220,
+        "slot": "7",
         "reduce": {
           "item": "Landborne Aethersand",
           "icon": 21006
@@ -2957,7 +3011,8 @@
       {
         "item": "Fire Cluster",
         "icon": 20013,
-        "id": 14
+        "id": 14,
+        "slot": "3"
       }
     ],
     "stars": 1,
@@ -2984,6 +3039,7 @@
         "item": "Fire Moraine",
         "icon": 21456,
         "id": 5214,
+        "slot": "5",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2993,6 +3049,7 @@
         "item": "Radiant Astral Moraine",
         "icon": 21463,
         "id": 15949,
+        "slot": "6",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -3002,6 +3059,7 @@
         "item": "Bright Fire Rock",
         "icon": 21471,
         "id": 12966,
+        "slot": "8",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
@@ -3011,6 +3069,7 @@
         "item": "Radiant Fire Moraine",
         "icon": 21456,
         "id": 5220,
+        "slot": "7",
         "reduce": {
           "item": "Landborne Aethersand",
           "icon": 21006
@@ -3019,7 +3078,8 @@
       {
         "item": "Fire Cluster",
         "icon": 20013,
-        "id": 14
+        "id": 14,
+        "slot": "3"
       }
     ],
     "stars": 1,
@@ -3826,6 +3886,7 @@
         "item": "Windtea Leaves",
         "icon": 25022,
         "id": 19916,
+        "slot": "1",
         "reduce": {
           "item": "Dawnlight Aethersand",
           "icon": 22210
@@ -3835,6 +3896,7 @@
         "item": "Yanxian Verbena",
         "icon": 25009,
         "id": 23221,
+        "slot": "3",
         "reduce": {
           "item": "Duskglow Aethersand",
           "icon": 21006
@@ -3843,7 +3905,8 @@
       {
         "item": "Wind Crystal",
         "icon": 20010,
-        "id": 10
+        "id": 10,
+        "slot": "5"
       }
     ],
     "stars": 2,
@@ -3870,6 +3933,7 @@
         "item": "Doman Yellow",
         "icon": 27407,
         "id": 20012,
+        "slot": "7",
         "reduce": {
           "item": "Dusklight Aethersand",
           "icon": 21219
@@ -3879,6 +3943,7 @@
         "item": "Yanxian Verbena",
         "icon": 25009,
         "id": 23221,
+        "slot": "3",
         "reduce": {
           "item": "Duskglow Aethersand",
           "icon": 21006
@@ -3887,7 +3952,8 @@
       {
         "item": "Earth Crystal",
         "icon": 20012,
-        "id": 11
+        "id": 11,
+        "slot": "5"
       }
     ],
     "stars": 2,
@@ -3914,6 +3980,7 @@
         "item": "Torreya Branch",
         "icon": 22416,
         "id": 19937,
+        "slot": "3",
         "reduce": {
           "item": "Everborn Aethersand",
           "icon": 22649
@@ -3923,6 +3990,7 @@
         "item": "Yanxian Verbena",
         "icon": 25009,
         "id": 23221,
+        "slot": "4",
         "reduce": {
           "item": "Duskglow Aethersand",
           "icon": 21006
@@ -3931,7 +3999,8 @@
       {
         "item": "Ice Crystal",
         "icon": 20009,
-        "id": 9
+        "id": 9,
+        "slot": "5"
       }
     ],
     "stars": 2,
@@ -3958,6 +4027,7 @@
         "item": "Perlite",
         "icon": 21463,
         "id": 20010,
+        "slot": "8",
         "reduce": {
           "item": "Everbright Aethersand",
           "icon": 21006
@@ -3967,6 +4037,7 @@
         "item": "Yanxian Soil",
         "icon": 21466,
         "id": 23220,
+        "slot": "2",
         "reduce": {
           "item": "Duskglow Aethersand",
           "icon": 21006
@@ -3975,7 +4046,8 @@
       {
         "item": "Fire Crystal",
         "icon": 20007,
-        "id": 8
+        "id": 8,
+        "slot": "5"
       }
     ],
     "stars": 2,
@@ -4002,6 +4074,7 @@
         "item": "Schorl",
         "icon": 21476,
         "id": 20009,
+        "slot": "4",
         "reduce": {
           "item": "Dawnlight Aethersand",
           "icon": 22210
@@ -4011,6 +4084,7 @@
         "item": "Yanxian Soil",
         "icon": 21466,
         "id": 23220,
+        "slot": "2",
         "reduce": {
           "item": "Duskglow Aethersand",
           "icon": 21006
@@ -4019,7 +4093,8 @@
       {
         "item": "Lightning Crystal",
         "icon": 20011,
-        "id": 12
+        "id": 12,
+        "slot": "5"
       }
     ],
     "stars": 2,
@@ -4046,6 +4121,7 @@
         "item": "Almandine",
         "icon": 21471,
         "id": 20011,
+        "slot": "7",
         "reduce": {
           "item": "Dusklight Aethersand",
           "icon": 21219
@@ -4055,6 +4131,7 @@
         "item": "Yanxian Soil",
         "icon": 21466,
         "id": 23220,
+        "slot": "2",
         "reduce": {
           "item": "Duskglow Aethersand",
           "icon": 21006
@@ -4063,7 +4140,8 @@
       {
         "item": "Ice Crystal",
         "icon": 20009,
-        "id": 9
+        "id": 9,
+        "slot": "5"
       }
     ],
     "stars": 2,
@@ -4339,5 +4417,465 @@
     "condition": "Perception < 1550",
     "bonus": " Gathering Fortune 0%",
     "patch": 4.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "White Oak Branch",
+        "icon": 22416,
+        "id": 27816,
+        "slot": "3",
+        "scrip": "Yellow Gatherers' Scrip"
+      }
+    ],
+    "stars": 2,
+    "time": [
+      10,
+      22
+    ],
+    "title": "Venmont Yards",
+    "zone": "Kholusia",
+    "coords": [
+      12,
+      28
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 627,
+    "condition": "Perception < 1350",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Hematite",
+        "icon": 21476,
+        "id": 27726,
+        "slot": "8",
+        "scrip": "Yellow Gatherers' Scrip"
+      }
+    ],
+    "stars": 2,
+    "time": [
+      2,
+      14
+    ],
+    "title": "Governor's Row",
+    "zone": "Kholusia",
+    "coords": [
+      34,
+      23
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 603,
+    "condition": "Perception < 1350",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Broad Beans",
+        "icon": 25353,
+        "id": 27833,
+        "slot": "2",
+        "scrip": "Yellow Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "Phisor Lran",
+    "zone": "Il Mheg",
+    "coords": [
+      25,
+      36
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 628,
+    "condition": "Perception < 1312",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Peppermint",
+        "icon": 25016,
+        "id": 27836,
+        "slot": "8"
+      }
+    ],
+    "time": [
+      10,
+      22
+    ],
+    "title": "Embrasure",
+    "zone": "Lakeland",
+    "coords": [
+      27,
+      21
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 629,
+    "condition": "Perception < 1350",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Russet Popoto",
+        "icon": 25204,
+        "id": 27822,
+        "slot": "7",
+        "scrip": "Yellow Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      8,
+      20
+    ],
+    "title": "The Dragging Tail",
+    "zone": "Amh Araeng",
+    "coords": null,
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 630,
+    "condition": "Perception < 1421",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Mist Spinach",
+        "icon": 25206,
+        "id": 27828,
+        "slot": "6",
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "Bowrest",
+    "zone": "The Rak'tika Greatwood",
+    "coords": null,
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 631,
+    "condition": "Perception < 1491",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Lemonette",
+        "icon": 25305,
+        "id": 27835,
+        "slot": "2",
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      6,
+      18
+    ],
+    "title": "Sharptongue Drip",
+    "zone": "Kholusia",
+    "coords": [
+      20,
+      27
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 632,
+    "condition": "Perception < 1562",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Sandalwood Log",
+        "icon": 22401,
+        "id": 27688,
+        "slot": "6",
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "stars": 1,
+    "time": [
+      2,
+      14
+    ],
+    "title": "Mjrl's Regret",
+    "zone": "The Rak'tika Greatwood",
+    "coords": null,
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 633,
+    "condition": "Perception < 1840",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Ethereal Cocoon",
+        "icon": 21661,
+        "id": 27761,
+        "slot": "4",
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "stars": 1,
+    "time": [
+      8,
+      20
+    ],
+    "title": "Inviolate Witness",
+    "zone": "Lakeland",
+    "coords": [
+      26,
+      11
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 634,
+    "condition": "Perception < 1840",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Diaspore",
+        "icon": 21473,
+        "id": 27727,
+        "slot": "6",
+        "scrip": "Yellow Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      6,
+      18
+    ],
+    "title": "Sextuplet Shallow",
+    "zone": "Il Mheg",
+    "coords": [
+      26,
+      13
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 604,
+    "condition": "Perception < 1312",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Lazurite",
+        "icon": 21472,
+        "id": 27728,
+        "slot": "7"
+      }
+    ],
+    "time": [
+      4,
+      16
+    ],
+    "title": "Cleric",
+    "zone": "The Rak'tika Greatwood",
+    "coords": null,
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 605,
+    "condition": "Perception < 1350",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Triplite",
+        "icon": 21471,
+        "id": 27729,
+        "slot": "7",
+        "scrip": "Yellow Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "Ladle",
+    "zone": "Amh Araeng",
+    "coords": null,
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 606,
+    "condition": "Perception < 1421",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Petalite",
+        "icon": 21477,
+        "id": 27730,
+        "slot": "8",
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      6,
+      18
+    ],
+    "title": "Weed",
+    "zone": "Lakeland",
+    "coords": [
+      29,
+      33
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 607,
+    "condition": "Perception < 1491",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Onyx",
+        "icon": 21231,
+        "id": 27731,
+        "slot": "7",
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "The Caliban Gorge",
+    "zone": "The Tempest",
+    "coords": null,
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 608,
+    "condition": "Perception < 1562",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Prismstone",
+        "icon": 21232,
+        "id": 27705,
+        "slot": "7",
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "stars": 1,
+    "time": [
+      4,
+      16
+    ],
+    "title": "Saint Fathric's Temple",
+    "zone": "Il Mheg",
+    "coords": null,
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 609,
+    "condition": "Perception < 1840",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Tungsten Ore",
+        "icon": 21203,
+        "id": 27704,
+        "slot": "3",
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "stars": 1,
+    "time": [
+      10,
+      22
+    ],
+    "title": "Where the Dry Return",
+    "zone": "The Tempest",
+    "coords": null,
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 610,
+    "condition": "Perception < 1840",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
   }
 ];
