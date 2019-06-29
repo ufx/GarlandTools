@@ -7059,7 +7059,8 @@ gt.leve = {
             icon: 'images/Leve.png'
         };
 
-        view.location = gt.location.index[partial.p].name;
+        var location = gt.location.index[partial.p];
+        view.location = location ? location.name : "???";
         view.byline = 'Lv. ' + partial.l + ', ' + view.location;
 
         return view;
