@@ -52,7 +52,12 @@ namespace Garland.Data.Modules
 
                 var name = sInstanceContent.Name.ToString();
                 if (name == "")
-                    continue;
+                {
+                    // These names appear to have moved to ContentFinderCondition.
+                    name = sContentFinderCondition.Name.ToString();
+                    if (name == "")
+                        continue;
+                }
 
                 var sContentFinderConditionTransient = _builder.Sheet("ContentFinderConditionTransient")[sContentFinderCondition.Key];
 
