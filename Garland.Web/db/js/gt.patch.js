@@ -21,8 +21,10 @@ gt.patch = {
     initialize: function(data) {
         var current = gt.patch.partialIndex[gt.patch.current];
 
-        if (!current)
+        if (!current) {
             console.error('Failed to find patch info', gt.patch.current, _.keys(gt.patch.partialIndex));
+            return;
+        }
 
         $('.title .patch-link')
             .attr('data-id', current.id)

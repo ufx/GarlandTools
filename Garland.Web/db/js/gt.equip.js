@@ -85,7 +85,7 @@ gt.equip = {
             name: 'Leveling ' + job.name,
             template: gt.equip.levelingTemplate,
             blockClass: 'early tool noexpand',
-            icon: 'images/' + job.abbreviation + '.png',
+            icon: '../files/icons/job/' + job.abbreviation + '.png',
             subheader: 'Recommendation Tool',
             tool: 1,
             settings: 1,

@@ -305,7 +305,7 @@ namespace Garland.Data.Output
 
             // Patches
             core.patch = new JObject();
-            core.patch.current = GarlandDatabase.MajorPatches.Last().Id;
+            core.patch.current = GarlandDatabase.MajorPatches.Last().FormattedId;
 
             core.patch.partialIndex = new JObject();
             foreach (var patch in GarlandDatabase.MajorPatches)
