@@ -78,7 +78,7 @@ gt.node = {
         view.location = view.zone.name;
         var region = gt.location.index[view.zone.parentId];
         if (region)
-            view.region = gt.location.index[view.zone.parentId].name;
+            view.region = region.name;
 
         if (data) {
             if (node.coords) {
@@ -120,7 +120,7 @@ gt.node = {
         var name = gt.model.name(partial);
         var category = gt.node.types[partial.t];
         var typePrefix = partial.lt ? (partial.lt + ' ') : '';
-        var zone = gt.location.index[partial.z];
+        var zone = gt.location.index[partial.z] || { name: 'Unknown' };
         var region = gt.location.index[zone.parentId];
 
         return {
