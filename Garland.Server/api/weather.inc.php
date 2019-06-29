@@ -52,6 +52,8 @@ $zoneWeather = array('Limsa Lominsa' => array(array('Rate' => 20, 'Weather' => 3
     'Porta Decumana' => array(array('Rate' => 100, 'Weather' => 25)),
     'Seal Rock' => array(array('Rate' => 15, 'Weather' => 4), array('Rate' => 40, 'Weather' => 7), array('Rate' => 100, 'Weather' => 2)),
     'Kugane' => array(array('Rate' => 10, 'Weather' => 7), array('Rate' => 20, 'Weather' => 4), array('Rate' => 40, 'Weather' => 3), array('Rate' => 80, 'Weather' => 2), array('Rate' => 100, 'Weather' => 1)),
+    'The Crystarium' => array(array('Rate' => 20, 'Weather' => 1), array('Rate' => 60, 'Weather' => 2), array('Rate' => 75, 'Weather' => 3), array('Rate' => 85, 'Weather' => 4), array('Rate' => 95, 'Weather' => 7), array('Rate' => 100, 'Weather' => 10)),
+    'Eulmore' => array(array('Rate' => 10, 'Weather' => 6), array('Rate' => 20, 'Weather' => 7), array('Rate' => 30, 'Weather' => 4), array('Rate' => 45, 'Weather' => 3), array('Rate' => 85, 'Weather' => 2), array('Rate' => 100, 'Weather' => 1)),
     'Ul\'dah - Steps of Nald - Airship Landing' => array(array('Rate' => 40, 'Weather' => 1), array('Rate' => 60, 'Weather' => 2), array('Rate' => 85, 'Weather' => 3), array('Rate' => 95, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
     'Ul\'dah - Steps of Thal - Hustings Strip' => array(array('Rate' => 40, 'Weather' => 1), array('Rate' => 60, 'Weather' => 2), array('Rate' => 85, 'Weather' => 3), array('Rate' => 95, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),
     'Limsa Lominsa Upper Decks - Airship Landing' => array(array('Rate' => 20, 'Weather' => 3), array('Rate' => 50, 'Weather' => 1), array('Rate' => 80, 'Weather' => 2), array('Rate' => 90, 'Weather' => 4), array('Rate' => 100, 'Weather' => 7)),

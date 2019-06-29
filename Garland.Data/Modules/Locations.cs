@@ -162,6 +162,17 @@ namespace Garland.Data.Modules
             locationsById[2462].weatherRate = 94; // fixme: should be auto-filled
             locationsById[2530].weatherRate = 96; // fixme: should be auto-filled
             locationsById[2545].weatherRate = 100; // fixme: should be auto-filled
+
+            // Norvrandt
+            _builder.Db.AddLocationReference(516); // The Crystarium
+            locationsById[516].weatherRate = 112;
+            _builder.Db.AddLocationReference(517); // Eulmore
+            locationsById[517].weatherRate = 113;
+            _builder.Db.AddLocationReference(2953); // Lakeland
+            _builder.Db.AddLocationReference(2954); // Kholusia
+            _builder.Db.AddLocationReference(2955); // Amh Araeng
+            _builder.Db.AddLocationReference(2956); // Il Mheg
+            _builder.Db.AddLocationReference(2957); // The Rak'Tika Greatwood
         }
 
         static string ConvertPlaceNameName(Game.PlaceName sPlaceName)

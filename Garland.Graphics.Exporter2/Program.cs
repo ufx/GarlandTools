@@ -21,7 +21,7 @@ namespace Garland.Graphics.Exporter
 {
     class Program
     {
-        const string ConfigPath = @"..\\..\\..\\Config.json";
+        const string ConfigPath = @"..\\..\\..\\..\\Config.json";
 
         static string _repoPath;
         static string _gamePath;
@@ -66,10 +66,16 @@ namespace Garland.Graphics.Exporter
             // Gear
             var badGear = new HashSet<string>(new[]
             {
-                "Doman Iron Hatchet", "Doman Iron Pickaxe",
+                // ARR
+                "SmallClothes Body", "SmallClothes Feet", "SmallClothes Legs",
                 "Mammon Lucis", "Kurdalegon Lucis", "Rauni Lucis",
                 "Kurdalegon Supra", "Rauni Supra",
-                "SmallClothes Body", "SmallClothes Feet", "SmallClothes Legs"
+
+                // Stormblood
+                "Doman Iron Hatchet", "Doman Iron Pickaxe",
+
+                // Shadowbringers
+                "Bluespirit Hatchet", "Weathered Godhands"
             });
 
             var gearList = (await _gear.GetGearList())

@@ -69,6 +69,12 @@ namespace Garland.Graphics.Exporter.TexTools
                 case XivRace.AuRa_Female:
                     return "Au Ra Female";
 
+                case XivRace.Viera:
+                    return "Viera Female";
+
+                case XivRace.Hrothgar:
+                    return "Hrothgar Male";
+
                 case XivRace.All_Races:
                     return "ALL";
 
@@ -92,6 +98,8 @@ namespace Garland.Graphics.Exporter.TexTools
                 case XivRace.Roegadyn_Female_NPC:
                 case XivRace.NPC_Male:
                 case XivRace.NPC_Female:
+                case XivRace.Hrothgar_NPC:
+                case XivRace.Viera_NPC:
                 default:
                     throw new NotImplementedException();
             }

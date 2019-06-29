@@ -1214,6 +1214,10 @@ body.unlock-heights .block .content.main,
 
 /* Skywatcher */
 
+.skywatcher .menu.icon-group .button.icon-group {
+    padding: 1px;
+}
+
 .skywatcher .forecast {
     position: relative;
 }
