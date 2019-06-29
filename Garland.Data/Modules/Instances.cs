@@ -50,20 +50,15 @@ namespace Garland.Data.Modules
                         continue;
                 }
 
-                var name = sInstanceContent.Name.ToString();
+                var name = sContentFinderCondition.Name.ToString();
                 if (name == "")
-                {
-                    // These names appear to have moved to ContentFinderCondition.
-                    name = sContentFinderCondition.Name.ToString();
-                    if (name == "")
-                        continue;
-                }
+                    continue;
 
                 var sContentFinderConditionTransient = _builder.Sheet("ContentFinderConditionTransient")[sContentFinderCondition.Key];
 
                 dynamic instance = new JObject();
                 instance.id = sInstanceContent.Key;
-                _builder.Localize.Strings((JObject)instance, sInstanceContent, Utils.SanitizeInstanceName, "Name");
+                _builder.Localize.Strings((JObject)instance, sContentFinderCondition, Utils.SanitizeInstanceName, "Name");
                 instance.patch = PatchDatabase.Get("instance", sInstanceContent.Key);
                 instance.categoryIcon = IconDatabase.EnsureEntry("instance/type", sContentFinderCondition.ContentType.Icon);
                 _builder.Localize.Column((JObject)instance, sContentFinderCondition.ContentType, "Name", "category",

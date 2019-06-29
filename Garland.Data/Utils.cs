@@ -97,7 +97,8 @@ namespace Garland.Data
             return Utils.Capitalize(
                 Utils.RemoveLineBreaks(
                 Utils.SanitizeTags(name)))
-                .Replace("–", "-");
+                .Replace("–", "-")
+                .Replace("  ", " ");
         }
 
         public static IEnumerable<string[]> Tsv(string path)
