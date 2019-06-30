@@ -4518,7 +4518,7 @@
         "item": "Peppermint",
         "icon": 25016,
         "id": 27836,
-        "slot": "8"
+        "slot": "6"
       }
     ],
     "time": [

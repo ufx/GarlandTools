@@ -108,19 +108,21 @@ namespace Garland.Data
 
         public static void SetManualShops(SaintCoinach.ARealmReversed realm, Dictionary<int, GarlandShop> shopsByKey)
         {
+            var sENpcs = realm.GameData.ENpcs;
+
             // Special Shops
-            var syndony = realm.GameData.ENpcs[1016289];
+            var syndony = sENpcs[1016289];
             shopsByKey[1769635].ENpcs = new ENpc[] { syndony };
 
-            var eunakotor = new ENpc[] { realm.GameData.ENpcs[1017338] };
+            var eunakotor = new ENpc[] { sENpcs[1017338] };
             shopsByKey[1769675].ENpcs = eunakotor;
             shopsByKey[1769869].Fill("Request to keep your aetherpool gear", eunakotor);
 
-            var disreputablePriest = new ENpc[] { realm.GameData.ENpcs[1018655] };
+            var disreputablePriest = new ENpc[] { sENpcs[1018655] };
             shopsByKey[1769743].Fill("Exchange Wolf Marks (Melee)", disreputablePriest);
             shopsByKey[1769744].Fill("Exchange Wolf Marks (Ranged)", disreputablePriest);
 
-            var eurekaGerolt = new ENpc[] { realm.GameData.ENpcs[1025047] };
+            var eurekaGerolt = new ENpc[] { sENpcs[1025047] };
             shopsByKey[1769820].Fill("Create or augment Eureka gear. (Paladin)", eurekaGerolt);
             shopsByKey[1769821].Fill("Create or augment Eureka gear. (Warrior)", eurekaGerolt);
             shopsByKey[1769822].Fill("Create or augment Eureka gear. (Dark Knight)", eurekaGerolt);
@@ -137,13 +139,23 @@ namespace Garland.Data
             shopsByKey[1769833].Fill("Create or augment Eureka gear. (Scholar)", eurekaGerolt);
             shopsByKey[1769834].Fill("Create or augment Eureka gear. (Astrologian)", eurekaGerolt);
 
-            var confederateCustodian = new ENpc[] { realm.GameData.ENpcs[1025848] };
+            var confederateCustodian = new ENpc[] { sENpcs[1025848] };
             shopsByKey[1769871].Fill("Exchange artifacts", confederateCustodian);
             shopsByKey[1769870].Fill("Request to keep your empyrean aetherpool gear", confederateCustodian);
 
             // Gil Shops
-            var domanJunkmonger = new ENpc[] { realm.GameData.ENpcs[1025763] };
+            var domanJunkmonger = new ENpc[] { sENpcs[1025763] };
             shopsByKey[262919].ENpcs = domanJunkmonger;
+
+            // Gemstone Traders
+            //shopsByKey[1769957].ENpcs = new ENpc[] { sENpcs[] }; //
+            //shopsByKey[1769958].ENpcs = new ENpc[] { sENpcs[] }; //
+            shopsByKey[1769959].ENpcs = new ENpc[] { sENpcs[1027385] }; // Siulmet, Lakeland
+            //shopsByKey[1769960].ENpcs = new ENpc[] { sENpcs[] }; //
+            shopsByKey[1769961].ENpcs = new ENpc[] { sENpcs[1027892] }; // Halden, Amh Araeng
+            shopsByKey[1769962].ENpcs = new ENpc[] { sENpcs[1027665] }; // Sul Lad, Il Mheg
+            shopsByKey[1769963].ENpcs = new ENpc[] { sENpcs[1027709] }; // Nacille, Rak'tika
+            //shopsByKey[1769964].ENpcs = new ENpc[] { sENpcs[] }; //
         }
 
         public static bool IsMainAttribute (string attribute)
