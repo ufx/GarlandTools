@@ -8423,6 +8423,9 @@ gt.craft.set.prototype.readyCheck = function() {
         this.startingQuality += step.startingQuality;
     }
 
+    if (this.startingQuality)
+        this.startingQuality = Math.floor(this.startingQuality);
+
     this.priceViews = [];
     for (var key in price) {
         var view = gt.model.partial(gt.item, key);
