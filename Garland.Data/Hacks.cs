@@ -148,14 +148,14 @@ namespace Garland.Data
             shopsByKey[262919].ENpcs = domanJunkmonger;
 
             // Gemstone Traders
-            //shopsByKey[1769957].ENpcs = new ENpc[] { sENpcs[] }; //
-            //shopsByKey[1769958].ENpcs = new ENpc[] { sENpcs[] }; //
+            shopsByKey[1769957].ENpcs = new ENpc[] { sENpcs[1027998] }; // Gramsol, Crystarium
+            shopsByKey[1769958].ENpcs = new ENpc[] { sENpcs[1027538] }; // Pedronille, Eulmore
             shopsByKey[1769959].ENpcs = new ENpc[] { sENpcs[1027385] }; // Siulmet, Lakeland
-            //shopsByKey[1769960].ENpcs = new ENpc[] { sENpcs[] }; //
+            shopsByKey[1769960].ENpcs = new ENpc[] { sENpcs[1027497] }; // ??, Kholusia
             shopsByKey[1769961].ENpcs = new ENpc[] { sENpcs[1027892] }; // Halden, Amh Araeng
             shopsByKey[1769962].ENpcs = new ENpc[] { sENpcs[1027665] }; // Sul Lad, Il Mheg
             shopsByKey[1769963].ENpcs = new ENpc[] { sENpcs[1027709] }; // Nacille, Rak'tika
-            //shopsByKey[1769964].ENpcs = new ENpc[] { sENpcs[] }; //
+            shopsByKey[1769964].ENpcs = new ENpc[] { sENpcs[1027766] }; // ??, Tempest
         }
 
         public static bool IsMainAttribute (string attribute)
