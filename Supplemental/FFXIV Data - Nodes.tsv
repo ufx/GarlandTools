@@ -287,15 +287,21 @@ White Oak Branch	3	627	10, 22	120	12, 28	Kholusia	Unspoiled
 Raw Hematite	8	603	2, 14	120	34, 23	Kholusia	Unspoiled
 Broad Beans	2	628	0, 12	120	25, 36	Il Mheg	Unspoiled
 Peppermint	6	629	10, 22	120	27, 21	Lakeland	Unspoiled
-Russet Popoto	7	630	8, 20	120		Amh Araeng	Unspoiled
-Mist Spinach	6	631	0, 12	120		The Rak'tika Greatwood	Unspoiled
+Russet Popoto	7	630	8, 20	120	19.6, 17.1	Amh Araeng	Unspoiled
+Mist Spinach	6	631	0, 12	120	35, 27	The Rak'tika Greatwood	Unspoiled
 Lemonette	2	632	6, 18	120	20, 27	Kholusia	Unspoiled
-Sandalwood Log	6	633	2, 14	120		The Rak'tika Greatwood	Legendary
+Sandalwood Log	6	633	2, 14	120	24, 36	The Rak'tika Greatwood	Legendary
 Ethereal Cocoon	4	634	8, 20	120	26, 11	Lakeland	Legendary
 Raw Diaspore	6	604	6, 18	120	26, 13	Il Mheg	Unspoiled
-Raw Lazurite	7	605	4, 16	120		The Rak'tika Greatwood	Unspoiled
-Raw Triplite	7	606	0, 12	120		Amh Araeng	Unspoiled
+Raw Lazurite	7	605	4, 16	120	19, 20	The Rak'tika Greatwood	Unspoiled
+Raw Triplite	7	606	0, 12	120	20.1, 28.8	Amh Araeng	Unspoiled
 Raw Petalite	8	607	6, 18	120	29, 33	Lakeland	Unspoiled
-Raw Onyx	7	608	0, 12	120		The Tempest	Unspoiled
-Prismstone	7	609	4, 16	120		Il Mheg	Legendary
-Tungsten Ore	3	610	10, 22	120		The Tempest	Legendary
+Raw Onyx	7	608	0, 12	120	15.8, 21.3	The Tempest	Unspoiled
+Prismstone	7	609	4, 16	120	31.4, 18.8	Il Mheg	Legendary
+Tungsten Ore	3	610	10, 22	120	37.3, 9.1	The Tempest	Legendary
+Gale Rock	6	597	0	240	25.7, 28.9	The Wild Fete	Ephemeral
+Water Cluster	5	597	0	240	25.7, 28.9	The Wild Fete	Ephemeral
+Solarite	8	599	8	240	36.9, 14.9	The Church of the First Light	Ephemeral
+Lightning Cluster	2	599	8	240	36.9, 14.9	The Church of the First Light	Ephemeral
+Shade Quartz	7	601	16	240	22.1, 18.4	Amity	Ephemeral
+Fire Cluster	3	601	16	240	22.1, 18.4	Amity	Ephemeral

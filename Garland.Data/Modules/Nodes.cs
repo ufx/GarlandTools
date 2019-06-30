@@ -237,7 +237,7 @@ namespace Garland.Data.Modules
                 var nodeId = int.Parse(line[2]);
                 var times = Utils.IntComma(line[3]);
                 var uptime = int.Parse(line[4]);
-                var coords = Utils.IntComma(line[5]);
+                var coords = Utils.FloatComma(line[5]);
                 var areaName = line[6];
                 var type = line[7];
 

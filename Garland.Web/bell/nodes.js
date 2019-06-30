@@ -47,8 +47,8 @@
     "title": "Raubahn's Push",
     "zone": "Northern Thanalan",
     "coords": [
-      17,
-      20
+      17.0,
+      20.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -92,8 +92,8 @@
     "title": "Dragonhead",
     "zone": "Coerthas Central Highlands",
     "coords": [
-      27,
-      19
+      27.0,
+      19.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -119,8 +119,8 @@
     "title": "Wellwick Wood",
     "zone": "Eastern Thanalan",
     "coords": [
-      26,
-      18
+      26.0,
+      18.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -176,8 +176,8 @@
     "title": "Black Brush",
     "zone": "Central Thanalan",
     "coords": [
-      25,
-      16
+      25.0,
+      16.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -215,8 +215,8 @@
     "title": "Wellwick Wood",
     "zone": "Eastern Thanalan",
     "coords": [
-      25,
-      23
+      25.0,
+      23.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -260,8 +260,8 @@
     "title": "Hammerlea",
     "zone": "Western Thanalan",
     "coords": [
-      19,
-      28
+      19.0,
+      28.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -305,8 +305,8 @@
     "title": "Lower Paths",
     "zone": "South Shroud",
     "coords": [
-      18,
-      31
+      18.0,
+      31.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -356,8 +356,8 @@
     "title": "The Burning Wall",
     "zone": "Eastern Thanalan",
     "coords": [
-      28,
-      22
+      28.0,
+      22.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -426,8 +426,8 @@
     "title": "north Silvertear",
     "zone": "Mor Dhona",
     "coords": [
-      27,
-      10
+      27.0,
+      10.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -459,8 +459,8 @@
     "title": "Raincatcher Gully",
     "zone": "Eastern La Noscea",
     "coords": [
-      18,
-      32
+      18.0,
+      32.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -510,8 +510,8 @@
     "title": "Moraby Bay",
     "zone": "Lower La Noscea",
     "coords": [
-      23,
-      21
+      23.0,
+      21.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -555,8 +555,8 @@
     "title": "Zephyr Drift",
     "zone": "Middle La Noscea",
     "coords": [
-      24,
-      27
+      24.0,
+      27.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -594,8 +594,8 @@
     "title": "Dragonhead",
     "zone": "Coerthas Central Highlands",
     "coords": [
-      23,
-      26
+      23.0,
+      26.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -633,8 +633,8 @@
     "title": "Nine Ivies",
     "zone": "East Shroud",
     "coords": [
-      22,
-      26
+      22.0,
+      26.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -703,8 +703,8 @@
     "title": "north Silvertear",
     "zone": "Mor Dhona",
     "coords": [
-      32,
-      11
+      32.0,
+      11.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -742,8 +742,8 @@
     "title": "Upper Paths",
     "zone": "South Shroud",
     "coords": [
-      18,
-      23
+      18.0,
+      23.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -787,8 +787,8 @@
     "title": "Sorrel Haven",
     "zone": "Central Shroud",
     "coords": [
-      15,
-      19
+      15.0,
+      19.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -826,8 +826,8 @@
     "title": "Alder Springs",
     "zone": "North Shroud",
     "coords": [
-      16,
-      28
+      16.0,
+      28.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -859,8 +859,8 @@
     "title": "The Bramble Patch",
     "zone": "East Shroud",
     "coords": [
-      17,
-      19
+      17.0,
+      19.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -892,8 +892,8 @@
     "title": "Bloodshore",
     "zone": "Eastern La Noscea",
     "coords": [
-      28,
-      32
+      28.0,
+      32.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -937,8 +937,8 @@
     "title": "Cedarwood",
     "zone": "Lower La Noscea",
     "coords": [
-      32,
-      11
+      32.0,
+      11.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -964,8 +964,8 @@
     "title": "Greentear",
     "zone": "Central Shroud",
     "coords": [
-      30,
-      21
+      30.0,
+      21.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1009,8 +1009,8 @@
     "title": "Bronze Lake",
     "zone": "Upper La Noscea",
     "coords": [
-      29,
-      25
+      29.0,
+      25.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1054,8 +1054,8 @@
     "title": "Quarterstone",
     "zone": "Western La Noscea",
     "coords": [
-      34,
-      28
+      34.0,
+      28.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1081,8 +1081,8 @@
     "title": "Summerford",
     "zone": "Middle La Noscea",
     "coords": [
-      19,
-      16
+      19.0,
+      16.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1120,8 +1120,8 @@
     "title": "Providence Point",
     "zone": "Coerthas Central Highlands",
     "coords": [
-      28,
-      13
+      28.0,
+      13.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1165,8 +1165,8 @@
     "title": "Bloodshore",
     "zone": "Eastern La Noscea",
     "coords": [
-      30,
-      27
+      30.0,
+      27.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1192,8 +1192,8 @@
     "title": "Dragonhead",
     "zone": "Coerthas Central Highlands",
     "coords": [
-      26,
-      22
+      26.0,
+      22.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1225,8 +1225,8 @@
     "title": "Raincatcher Gully",
     "zone": "Eastern La Noscea",
     "coords": [
-      16,
-      27
+      16.0,
+      27.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1252,8 +1252,8 @@
     "title": "Whitebrim",
     "zone": "Coerthas Central Highlands",
     "coords": [
-      7,
-      11
+      7.0,
+      11.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1291,8 +1291,8 @@
     "title": "The Honey Yard",
     "zone": "East Shroud",
     "coords": [
-      13,
-      23
+      13.0,
+      23.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1336,8 +1336,8 @@
     "title": "Broken Water",
     "zone": "Southern Thanalan",
     "coords": [
-      17,
-      9
+      17.0,
+      9.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1363,8 +1363,8 @@
     "title": "Zephyr Drift",
     "zone": "Middle La Noscea",
     "coords": [
-      23,
-      26
+      23.0,
+      26.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1390,8 +1390,8 @@
     "title": "Bentbranch",
     "zone": "Central Shroud",
     "coords": [
-      24,
-      31
+      24.0,
+      31.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1417,8 +1417,8 @@
     "title": "Raincatcher Gully",
     "zone": "Eastern La Noscea",
     "coords": [
-      17,
-      26
+      17.0,
+      26.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1450,8 +1450,8 @@
     "title": "Bluefog",
     "zone": "Northern Thanalan",
     "coords": [
-      23,
-      22
+      23.0,
+      22.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1483,8 +1483,8 @@
     "title": "Nine Ivies",
     "zone": "East Shroud",
     "coords": [
-      23,
-      30
+      23.0,
+      30.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1528,8 +1528,8 @@
     "title": "Drybone",
     "zone": "Eastern Thanalan",
     "coords": [
-      12,
-      15
+      12.0,
+      15.0
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1582,8 +1582,8 @@
     "title": "Riversmeet",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      31,
-      20
+      31.0,
+      20.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -1610,8 +1610,8 @@
     "title": "Twinpools",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      8,
-      9
+      8.0,
+      9.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -1645,8 +1645,8 @@
     "title": "Riversmeet",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      29,
-      24
+      29.0,
+      24.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -1686,8 +1686,8 @@
     "title": "Chocobo Forest",
     "zone": "The Dravanian Forelands",
     "coords": [
-      27,
-      14
+      27.0,
+      14.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -1728,8 +1728,8 @@
     "title": "The Smoldering Wastes",
     "zone": "The Dravanian Forelands",
     "coords": [
-      27,
-      17
+      27.0,
+      17.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -1763,8 +1763,8 @@
     "title": "Vundu Ok' Bendu",
     "zone": "The Sea of Clouds",
     "coords": [
-      34,
-      19
+      34.0,
+      19.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -1798,8 +1798,8 @@
     "title": "The Gauntlet",
     "zone": "The Sea of Clouds",
     "coords": [
-      7,
-      7
+      7.0,
+      7.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -1833,8 +1833,8 @@
     "title": "Ohl Tahn",
     "zone": "The Churning Mists",
     "coords": [
-      25,
-      6
+      25.0,
+      6.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -1868,8 +1868,8 @@
     "title": "Eil Tohm",
     "zone": "The Churning Mists",
     "coords": [
-      35,
-      21
+      35.0,
+      21.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -1903,8 +1903,8 @@
     "title": "The Ruling Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
-      19,
-      36
+      19.0,
+      36.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -1938,8 +1938,8 @@
     "title": "The Ruling Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
-      35,
-      30
+      35.0,
+      30.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -1966,8 +1966,8 @@
     "title": "Beta Quadrant",
     "zone": "Azys Lla",
     "coords": [
-      23,
-      5
+      23.0,
+      5.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -2002,8 +2002,8 @@
     "title": "Greensward",
     "zone": "The Churning Mists",
     "coords": [
-      11,
-      38
+      11.0,
+      38.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -2031,8 +2031,8 @@
     "title": "Greensward",
     "zone": "The Churning Mists",
     "coords": [
-      16,
-      36
+      16.0,
+      36.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -2060,8 +2060,8 @@
     "title": "The Makers' Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
-      39,
-      26
+      39.0,
+      26.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -2096,8 +2096,8 @@
     "title": "Riversmeet",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      37,
-      16
+      37.0,
+      16.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -2125,8 +2125,8 @@
     "title": "The Answering Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
-      11,
-      16
+      11.0,
+      16.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -2154,8 +2154,8 @@
     "title": "Voor Sian Siran",
     "zone": "The Sea of Clouds",
     "coords": [
-      35,
-      39
+      35.0,
+      39.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -2183,8 +2183,8 @@
     "title": "The Habisphere",
     "zone": "Azys Lla",
     "coords": [
-      35,
-      16
+      35.0,
+      16.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -2212,8 +2212,8 @@
     "title": "Beta Quadrant",
     "zone": "Azys Lla",
     "coords": [
-      22,
-      8
+      22.0,
+      8.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -2241,8 +2241,8 @@
     "title": "The Gauntlet",
     "zone": "The Sea of Clouds",
     "coords": [
-      24,
-      6
+      24.0,
+      6.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -2284,8 +2284,8 @@
     "title": "Twinpools",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      23,
-      21
+      23.0,
+      21.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -2351,8 +2351,8 @@
     "title": "Twinpools",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      10,
-      14
+      10.0,
+      14.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -2418,8 +2418,8 @@
     "title": "The Blue Window",
     "zone": "The Sea of Clouds",
     "coords": [
-      23,
-      12
+      23.0,
+      12.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -2485,8 +2485,8 @@
     "title": "Voor Sian Siran",
     "zone": "The Sea of Clouds",
     "coords": [
-      26,
-      35
+      26.0,
+      35.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -2552,8 +2552,8 @@
     "title": "Avalonia Fallen",
     "zone": "The Dravanian Forelands",
     "coords": [
-      10,
-      32
+      10.0,
+      32.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -2619,8 +2619,8 @@
     "title": "Four Arms",
     "zone": "The Churning Mists",
     "coords": [
-      20,
-      30
+      20.0,
+      30.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -2686,9 +2686,9 @@
     "title": "Eil Tohm",
     "zone": "The Churning Mists",
     "coords": [
-      32,
-      32,
-      1
+      32.0,
+      32.0,
+      1.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -2754,8 +2754,8 @@
     "title": "The Answering Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
-      13,
-      19
+      13.0,
+      19.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -2821,8 +2821,8 @@
     "title": "Red Rim",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      21,
-      28
+      21.0,
+      28.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -2888,8 +2888,8 @@
     "title": "Voor Sian Siran",
     "zone": "The Sea of Clouds",
     "coords": [
-      34,
-      30
+      34.0,
+      30.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -2955,8 +2955,8 @@
     "title": "Avalonia Fallen",
     "zone": "The Dravanian Forelands",
     "coords": [
-      17,
-      27
+      17.0,
+      27.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -3022,8 +3022,8 @@
     "title": "Landlord Colony",
     "zone": "The Churning Mists",
     "coords": [
-      29,
-      19
+      29.0,
+      19.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -3089,8 +3089,8 @@
     "title": "The Makers' Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
-      26,
-      24
+      26.0,
+      24.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -3125,8 +3125,8 @@
     "title": "Ohl Tahn",
     "zone": "The Churning Mists",
     "coords": [
-      11,
-      10
+      11.0,
+      10.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3161,8 +3161,8 @@
     "title": "The Gauntlet",
     "zone": "The Sea of Clouds",
     "coords": [
-      38,
-      14
+      38.0,
+      14.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3189,8 +3189,8 @@
     "title": "Delta Quadrant",
     "zone": "Azys Lla",
     "coords": [
-      8,
-      31
+      8.0,
+      31.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3217,9 +3217,9 @@
     "title": "Greensward",
     "zone": "The Churning Mists",
     "coords": [
-      12,
-      37,
-      2
+      12.0,
+      37.0,
+      2.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3246,8 +3246,8 @@
     "title": "The Answering Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
-      8,
-      29
+      8.0,
+      29.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3274,9 +3274,9 @@
     "title": "Chocobo Forest",
     "zone": "The Dravanian Forelands",
     "coords": [
-      34,
-      30,
-      1
+      34.0,
+      30.0,
+      1.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3303,8 +3303,8 @@
     "title": "Alpha Quadrant",
     "zone": "Azys Lla",
     "coords": [
-      5,
-      17
+      5.0,
+      17.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3331,9 +3331,9 @@
     "title": "The Ruling Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
-      17,
-      29,
-      1
+      17.0,
+      29.0,
+      1.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3360,8 +3360,8 @@
     "title": "Twinpools",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      10,
-      10
+      10.0,
+      10.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3389,8 +3389,8 @@
     "title": "The Striped Hills",
     "zone": "The Fringes",
     "coords": [
-      24,
-      7
+      24.0,
+      7.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3420,8 +3420,8 @@
     "title": "East End",
     "zone": "The Fringes",
     "coords": [
-      10,
-      20
+      10.0,
+      20.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3456,8 +3456,8 @@
     "title": "Rustrock",
     "zone": "The Peaks",
     "coords": [
-      26,
-      13
+      26.0,
+      13.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3486,8 +3486,8 @@
     "title": "East Othard Coastline",
     "zone": "The Ruby Sea",
     "coords": [
-      15,
-      5
+      15.0,
+      5.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3516,8 +3516,8 @@
     "title": "Valley of the Fallen Rainbow",
     "zone": "Yanxia",
     "coords": [
-      30,
-      9
+      30.0,
+      9.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3546,8 +3546,8 @@
     "title": "The Towering Still",
     "zone": "The Azim Steppe",
     "coords": [
-      5,
-      27
+      5.0,
+      27.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3576,8 +3576,8 @@
     "title": "Rustrock",
     "zone": "The Peaks",
     "coords": [
-      23,
-      16
+      23.0,
+      16.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3606,8 +3606,8 @@
     "title": "The Glittering Basin",
     "zone": "Yanxia",
     "coords": [
-      30,
-      26
+      30.0,
+      26.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3636,8 +3636,8 @@
     "title": "Valley of the Fallen Rainbow",
     "zone": "Yanxia",
     "coords": [
-      28,
-      8
+      28.0,
+      8.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3666,8 +3666,8 @@
     "title": "Onsal Hakair",
     "zone": "The Azim Steppe",
     "coords": [
-      27,
-      16
+      27.0,
+      16.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3703,8 +3703,8 @@
     "title": "Onsal Hakair",
     "zone": "The Azim Steppe",
     "coords": [
-      20,
-      10
+      20.0,
+      10.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3739,8 +3739,8 @@
     "title": "Abalathia's Skull",
     "zone": "The Lochs",
     "coords": [
-      7,
-      10
+      7.0,
+      10.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3770,8 +3770,8 @@
     "title": "The High Bank",
     "zone": "The Lochs",
     "coords": [
-      11,
-      12
+      11.0,
+      12.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3807,8 +3807,8 @@
     "title": "Wightrock",
     "zone": "The Peaks",
     "coords": [
-      16,
-      34
+      16.0,
+      34.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3838,8 +3838,8 @@
     "title": "Doma",
     "zone": "Yanxia",
     "coords": [
-      20,
-      10
+      20.0,
+      10.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3867,8 +3867,8 @@
     "title": "Loch Seld",
     "zone": "The Lochs",
     "coords": [
-      21,
-      29
+      21.0,
+      29.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3916,8 +3916,8 @@
     "title": "Doma",
     "zone": "Yanxia",
     "coords": [
-      22,
-      13
+      22.0,
+      13.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -3963,8 +3963,8 @@
     "title": "Nhaama's Retreat",
     "zone": "The Azim Steppe",
     "coords": [
-      16,
-      28
+      16.0,
+      28.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -4010,8 +4010,8 @@
     "title": "Abalathia's Skull",
     "zone": "The Lochs",
     "coords": [
-      28,
-      10
+      28.0,
+      10.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -4057,8 +4057,8 @@
     "title": "Unseen Spirits Laughing",
     "zone": "Yanxia",
     "coords": [
-      37,
-      19
+      37.0,
+      19.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -4104,8 +4104,8 @@
     "title": "Onsal Hakair",
     "zone": "The Azim Steppe",
     "coords": [
-      29,
-      15
+      29.0,
+      15.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -4151,8 +4151,8 @@
     "title": "The High Bank",
     "zone": "The Lochs",
     "coords": [
-      13,
-      16
+      13.0,
+      16.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -4185,8 +4185,8 @@
     "title": "East Othard Coastline",
     "zone": "The Ruby Sea",
     "coords": [
-      11,
-      22
+      11.0,
+      22.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -4221,8 +4221,8 @@
     "title": "Nhaama's Retreat",
     "zone": "The Azim Steppe",
     "coords": [
-      24,
-      37
+      24.0,
+      37.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -4257,8 +4257,8 @@
     "title": "Pike Falls",
     "zone": "The Fringes",
     "coords": [
-      15,
-      21
+      15.0,
+      21.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -4287,8 +4287,8 @@
     "title": "Mount Yorn",
     "zone": "The Peaks",
     "coords": [
-      24,
-      36
+      24.0,
+      36.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -4317,8 +4317,8 @@
     "title": "Virdjala",
     "zone": "The Fringes",
     "coords": [
-      27,
-      30
+      27.0,
+      30.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -4347,8 +4347,8 @@
     "title": "Loch Seld",
     "zone": "The Lochs",
     "coords": [
-      24,
-      12
+      24.0,
+      12.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -4377,8 +4377,8 @@
     "title": "Rustrock",
     "zone": "The Peaks",
     "coords": [
-      33,
-      10
+      33.0,
+      10.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -4407,8 +4407,8 @@
     "title": "The Glittering Basin",
     "zone": "Yanxia",
     "coords": [
-      28,
-      34
+      28.0,
+      34.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -4438,8 +4438,8 @@
     "title": "Venmont Yards",
     "zone": "Kholusia",
     "coords": [
-      12,
-      28
+      12.0,
+      28.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -4469,8 +4469,8 @@
     "title": "Governor's Row",
     "zone": "Kholusia",
     "coords": [
-      34,
-      23
+      34.0,
+      23.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -4499,8 +4499,8 @@
     "title": "Phisor Lran",
     "zone": "Il Mheg",
     "coords": [
-      25,
-      36
+      25.0,
+      36.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -4528,8 +4528,8 @@
     "title": "Embrasure",
     "zone": "Lakeland",
     "coords": [
-      27,
-      21
+      27.0,
+      21.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -4557,7 +4557,10 @@
     ],
     "title": "The Dragging Tail",
     "zone": "Amh Araeng",
-    "coords": null,
+    "coords": [
+      19.6,
+      17.1
+    ],
     "name": "Unspoiled",
     "uptime": 120,
     "lvl": 80,
@@ -4584,7 +4587,10 @@
     ],
     "title": "Bowrest",
     "zone": "The Rak'tika Greatwood",
-    "coords": null,
+    "coords": [
+      35.0,
+      27.0
+    ],
     "name": "Unspoiled",
     "uptime": 120,
     "lvl": 80,
@@ -4612,8 +4618,8 @@
     "title": "Sharptongue Drip",
     "zone": "Kholusia",
     "coords": [
-      20,
-      27
+      20.0,
+      27.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -4642,7 +4648,10 @@
     ],
     "title": "Mjrl's Regret",
     "zone": "The Rak'tika Greatwood",
-    "coords": null,
+    "coords": [
+      24.0,
+      36.0
+    ],
     "name": "Legendary",
     "uptime": 120,
     "lvl": 80,
@@ -4671,8 +4680,8 @@
     "title": "Inviolate Witness",
     "zone": "Lakeland",
     "coords": [
-      26,
-      11
+      26.0,
+      11.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -4701,8 +4710,8 @@
     "title": "Sextuplet Shallow",
     "zone": "Il Mheg",
     "coords": [
-      26,
-      13
+      26.0,
+      13.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -4729,7 +4738,10 @@
     ],
     "title": "Cleric",
     "zone": "The Rak'tika Greatwood",
-    "coords": null,
+    "coords": [
+      19.0,
+      20.0
+    ],
     "name": "Unspoiled",
     "uptime": 120,
     "lvl": 75,
@@ -4756,7 +4768,10 @@
     ],
     "title": "Ladle",
     "zone": "Amh Araeng",
-    "coords": null,
+    "coords": [
+      20.1,
+      28.8
+    ],
     "name": "Unspoiled",
     "uptime": 120,
     "lvl": 80,
@@ -4784,8 +4799,8 @@
     "title": "Weed",
     "zone": "Lakeland",
     "coords": [
-      29,
-      33
+      29.0,
+      33.0
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -4813,7 +4828,10 @@
     ],
     "title": "The Caliban Gorge",
     "zone": "The Tempest",
-    "coords": null,
+    "coords": [
+      15.8,
+      21.3
+    ],
     "name": "Unspoiled",
     "uptime": 120,
     "lvl": 80,
@@ -4841,7 +4859,10 @@
     ],
     "title": "Saint Fathric's Temple",
     "zone": "Il Mheg",
-    "coords": null,
+    "coords": [
+      31.4,
+      18.8
+    ],
     "name": "Legendary",
     "uptime": 120,
     "lvl": 80,
@@ -4869,13 +4890,112 @@
     ],
     "title": "Where the Dry Return",
     "zone": "The Tempest",
-    "coords": null,
+    "coords": [
+      37.3,
+      9.1
+    ],
     "name": "Legendary",
     "uptime": 120,
     "lvl": 80,
     "id": 610,
     "condition": "Perception < 1840",
     "bonus": " Gathering Fortune 0%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Gale Rock",
+        "icon": 21473,
+        "id": 27805,
+        "slot": "6"
+      },
+      {
+        "item": "Water Cluster",
+        "icon": 20014,
+        "id": 19,
+        "slot": "5"
+      }
+    ],
+    "time": [
+      0
+    ],
+    "title": "The Wild Fete",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      25.7,
+      28.9
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 597,
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Solarite",
+        "icon": 21467,
+        "id": 27806,
+        "slot": "8"
+      },
+      {
+        "item": "Lightning Cluster",
+        "icon": 20017,
+        "id": 18,
+        "slot": "2"
+      }
+    ],
+    "time": [
+      8
+    ],
+    "title": "The Church of the First Light",
+    "zone": "Lakeland",
+    "coords": [
+      36.9,
+      14.9
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 599,
+    "patch": 5.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Shade Quartz",
+        "icon": 21462,
+        "id": 27807,
+        "slot": "7"
+      },
+      {
+        "item": "Fire Cluster",
+        "icon": 20013,
+        "id": 14,
+        "slot": "3"
+      }
+    ],
+    "time": [
+      16
+    ],
+    "title": "Amity",
+    "zone": "Kholusia",
+    "coords": [
+      22.1,
+      18.4
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 601,
     "patch": 5.0
   }
 ];

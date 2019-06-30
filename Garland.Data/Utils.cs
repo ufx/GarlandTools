@@ -121,6 +121,14 @@ namespace Garland.Data
             return Comma(str).Select(int.Parse).ToArray();
         }
 
+        public static float[] FloatComma(string str)
+        {
+            if (string.IsNullOrEmpty(str))
+                return null;
+
+            return Comma(str).Select(float.Parse).ToArray();
+        }
+
         public static string[] Tokenize(string[] delimiters, string str)
         {
             var tokens = new List<string>();
