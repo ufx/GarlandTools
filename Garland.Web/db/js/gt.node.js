@@ -56,7 +56,7 @@ gt.node = {
             stars: node.stars,
             time: node.time,
             uptime: node.uptime,
-            zone: gt.location.index[node.zoneid],
+            zone: gt.location.index[node.zoneid] || { name: 'Unknown' },
             coords: node.coords,
             obj: node
         };
