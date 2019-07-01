@@ -749,12 +749,11 @@ gt.bell = {
         else
             settings.volume = 50;
 
-        if (settings.warning) {
-            gt.countdownWarning = gt.time.formatHoursMinutesSeconds(settings.warning);
-            $('#warning').val(settings.warning);
-        }
-        else
-            settings.warning = 90;
+        if (settings.warning === null || settings.warning === undefined)
+            settings.warning = 60;
+
+        gt.countdownWarning = settings.warning ? gt.time.formatHoursMinutesSeconds(settings.warning) : null;
+        $('#warning').val(settings.warning);
 
         if (settings.tone2)
             $('#tone2').val(settings.tone2);
@@ -766,12 +765,11 @@ gt.bell = {
         else
             settings.volume2 = 50;
 
-        if (settings.warning2) {
-            gt.countdownWarning2 = gt.time.formatHoursMinutesSeconds(settings.warning2);
-            $('#warning2').val(settings.warning2);
-        }
-        else
+        if (settings.warning2 === null || settings.warning2 === undefined)
             settings.warning2 = 5;
+
+        gt.countdownWarning2 = settings.warning2 ? gt.time.formatHoursMinutesSeconds(settings.warning2) : null;
+        $('#warning2').val(settings.warning2);
 
         if (settings.search)
             $('#search').val(settings.search);
@@ -1539,9 +1537,9 @@ gt.timer = {
             gt.layout.engine.updateSpawnTime(view, $timer);
 
             // Play an alarm if spawning node is a favorite.
-            if (view.progress.state == 'spawning' && (view.progress.countdown == gt.countdownWarning || view.progress.countdown == gt.countdownWarning2)) {
+            if (view.progress.state == 'spawning' && (view.progress.countdown === gt.countdownWarning || view.progress.countdown === gt.countdownWarning2)) {
                 if (!gt.bell.settings.mute && $timer.closest('.timer-list.active').length) {
-                    if (view.progress.countdown == gt.countdownWarning)
+                    if (view.progress.countdown === gt.countdownWarning)
                         gt.bell.playAlarm();
                     else
                         gt.bell.playAlarm2();
