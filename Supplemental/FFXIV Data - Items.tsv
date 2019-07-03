@@ -68,6 +68,10 @@ Dusklight Aethersand	Reduce	Doman Yellow	Almandine	False Scad
 Everdeep Aethersand	Reduce	Sweatfish											
 Everborn Aethersand	Reduce	Torreya Branch											
 Duskglow Aethersand	Reduce	Yanxian Soil	Yanxian Verbena										
+Agedeep Aethersand	Reduce	Shade Quartz											
+Chiaroglow Aethersand	Reduce	Gale Rock	White Clay	Voeburt Bichir									
+Scuroglow Aethersand	Reduce	Sweet Marjoram	Solarite	Poecilia									
+Agewood Aethersand	Reduce	Bog Sage											
 Earth Cluster	Reduce	Black Soil	Doman Yellow	Granular Clay	Peat Moss								
 Earth Crystal	Reduce	Black Soil	Doman Yellow	Granular Clay	Peat Moss								
 Fire Cluster	Reduce	Almandine	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine								
@@ -159,11 +163,11 @@ Chainmail Hanger	Loot	Cold-warped Lockbox
 Wind-up Tarutaru	Loot	Cold-warped Lockbox											
 Ballroom Etiquette - Insufficient Petticoats	Loot	Cold-warped Lockbox											
 Adventuring Pack	Loot	Pyros Lockbox											
-Pagos Sage	Loot	Pyros Lockbox	Hydatos Lockbox										
-Pagos Spring Water	Loot	Pyros Lockbox	Hydatos Lockbox										
+Pagos Sage	Loot	Pyros Lockbox	Hydatos Lockbox	Pagos Lockbox									
+Pagos Spring Water	Loot	Pyros Lockbox	Hydatos Lockbox	Pagos Lockbox									
 Glass Jars	Loot	Pyros Lockbox											
-Wooden Plates	Loot	Pyros Lockbox
-Wooden Cups	Loot	Pyros Lockbox
+Wooden Plates	Loot	Pyros Lockbox											
+Wooden Cups	Loot	Pyros Lockbox											
 Spice Rack	Loot	Pyros Lockbox											
 Ballroom Etiquette - Ideal Gossip	Loot	Heat-warped Lockbox											
 Samurai Barding	Loot	Heat-warped Lockbox											
@@ -577,8 +581,8 @@ Quan	Loot	Gold-haloed Sack
 Thavnairian Wool	Loot	Gold-haloed Sack											
 The Dark's Embrace Orchestrion Roll	Loot	Gold-haloed Sack											
 Tiny Tatsunoko	Loot	Gold-haloed Sack											
-Unbreakable (Duality) Orchestrion Roll	Loot	Gold-haloed Sack
-Wanyudo & Katasharin Card	Loot	Gold-haloed Sack
+Unbreakable (Duality) Orchestrion Roll	Loot	Gold-haloed Sack											
+Wanyudo & Katasharin Card	Loot	Gold-haloed Sack											
 Wind-up Bismarck	Loot	Gold-haloed Sack											
 Wind-up Ifrit	Loot	Gold-haloed Sack											
 Wind-up Lakshmi	Loot	Gold-haloed Sack											
@@ -629,15 +633,15 @@ Road Sparrow	Loot	Silver-haloed Sack
 Sephirotic Barding	Loot	Silver-haloed Sack											
 Shaggy Shoat	Loot	Silver-haloed Sack											
 Sophic Barding	Loot	Silver-haloed Sack											
-Strength Materia V	Loot	Silver-haloed Sack											
+Strength Materia V	Loot	Silver-haloed Sack	Pagos Lockbox	Anemos Lockbox	Hydatos Lockbox								
 Thavnairian Armlets	Loot	Silver-haloed Sack											
 Thavnairian Bolero	Loot	Silver-haloed Sack											
 Thavnairian Headdress	Loot	Silver-haloed Sack											
 Thavnairian Tights	Loot	Silver-haloed Sack											
 Tidal Barding	Loot	Silver-haloed Sack											
 Ul'dahn Sparkler	Loot	Silver-haloed Sack											
-Vitality Materia V	Loot	Silver-haloed Sack
-Wanyudo & Katasharin Card	Loot	Silver-haloed Sack
+Vitality Materia V	Loot	Silver-haloed Sack											
+Wanyudo & Katasharin Card	Loot	Silver-haloed Sack											
 Wind-up Lakshmi	Loot	Silver-haloed Sack											
 Wind-up Leviathan	Loot	Silver-haloed Sack											
 Wind-up Ramuh	Loot	Silver-haloed Sack											
@@ -682,6 +686,9 @@ Neo Aetherstone - Hand Gear	Instance	The Final Coil of Bahamut - Turn 1	The Fina
 Neo Aetherstone - Headgear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 2										
 Neo Aetherstone - Leg Gear	Instance	The Final Coil of Bahamut - Turn 2											
 Neo Aetherstone - Body Gear	Instance	The Final Coil of Bahamut - Turn 4											
+Uraeus Skin	Instance	The Wanderer's Palace											
+Dodore Wing	Instance	The Aurum Vale											
+Mossy Horn	Instance	The Aurum Vale											
 Blue Oldroses	Gardening	Oldrose Seeds											
 Yellow Oldroses	Gardening	Oldrose Seeds											
 Green Oldroses	Gardening	Oldrose Seeds											
@@ -719,7 +726,8 @@ Aetherochemical Fiber	Voyage	Sea of Clouds 14	Sea of Clouds 15
 Althyk Lavender Seeds	Voyage	Sea of Clouds 13	Sea of Clouds 15										
 Antique Leather	Voyage	Sea of Clouds 20											
 Aurelia Polyp	Voyage	Deep-sea site 3	The Umbrella Narrow										
-Balsa Wood Lumber	Voyage	Sea of Clouds 08	Sea of Clouds 09	Komura									
+Aurum Regis Sand	Voyage	Glittersand Basin											
+Balsa Wood Lumber	Voyage	Sea of Clouds 08	Sea of Clouds 09	Komura	Flickering Dip								
 Balsa Wood Scrap	Voyage	Sea of Clouds 03	Sea of Clouds 04	The Umbrella Narrow									
 Bamboo Weave	Voyage	Sea of Clouds 01	Sea of Clouds 02	Deep-sea site 1	Deep-sea site 2	Deep-sea site 3	The Umbrella Narrow	The Cobalt Shoals					
 Battledance Materia II	Voyage	Sea of Clouds 02											
@@ -747,7 +755,7 @@ Deep-blue Cluster	Voyage	Sea of Clouds 13	Sea of Clouds 19	Sea of Clouds 22	The 
 Deep-blue Crystal	Voyage	Sea of Clouds 07	Sea of Clouds 10	Sea of Clouds 13	The Umbrella Narrow	The Cobalt Shoals							
 Deep-green Cluster	Voyage	Sea of Clouds 18	Sea of Clouds 21	Sea of Clouds 24	Komura								
 Deep-green Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 15	Southern Rimilala Trench								
-Deep-red Cluster	Voyage	Sea of Clouds 17	Sea of Clouds 20	Sea of Clouds 23	Kanayama								
+Deep-red Cluster	Voyage	Sea of Clouds 17	Sea of Clouds 20	Sea of Clouds 23	Kanayama	Glittersand Basin							
 Deep-red Crystal	Voyage	Sea of Clouds 05	Deep-sea site 3	Neolith Island	Deep-sea site 3								
 Dexterity Materia II	Voyage	Ivory Shoals											
 Dexterity Materia III	Voyage	Sea of Clouds 01	Sea of Clouds 20										
@@ -772,10 +780,12 @@ Gatherer's Guerdon Materia III	Voyage	Sea of Clouds 10
 Gatherer's Guerdon Materia IV	Voyage	Sea of Clouds 16											
 Gatherer's Guile Materia III	Voyage	Sea of Clouds 04	Sea of Clouds 10	Sea of Clouds 22	The Lightless Basin								
 Gatherer's Guile Materia IV	Voyage	Sea of Clouds 22											
+Glamour Dispeller	Voyage	The Upwell											
 Gold Ingot	Voyage	Concealed Bay											
 Gold Ore	Voyage	Sea of Clouds 02	Sea of Clouds 08	Sea of Clouds 14	Sea of Clouds 20	The Wreckage of the Headway							
 Gold Sand	Voyage	Sea of Clouds 19											
 Grade 6 Dark Matter	Voyage	The Upwell											
+Hardsilver Sand	Voyage	Glittersand Basin											
 Heavens' Eye Materia III	Voyage	Sea of Clouds 23											
 Heavens' Eye Materia IV	Voyage	Sea of Clouds 12	Sea of Clouds 14	Sea of Clouds 23									
 Heavens' Eye Materia V	Voyage	Sea of Clouds 23											
@@ -792,13 +802,13 @@ Marble	Voyage	Flickering Dip
 Marine Wax Ester	Voyage	Concealed Bay	Flickering Dip	The Wreckage of Discovery I									
 Mind Materia III	Voyage	Sea of Clouds 08	Sea of Clouds 19	The Mystic Basin	Offender's Rot								
 Mind Materia IV	Voyage	Sea of Clouds 19											
-Mythrite Sand	Voyage	Sea of Clouds 20											
+Mythrite Sand	Voyage	Sea of Clouds 20	Glittersand Basin										
 Oriental Grass Tuft	Voyage	Sea of Clouds 08	Sea of Clouds 14										
 Piety Materia II	Voyage	Southern Rimilala Trench											
 Piety Materia III	Voyage	Sea of Clouds 06	Sea of Clouds 19	Deep-sea site 4									
 Piety Materia IV	Voyage	Sea of Clouds 19											
 Piety Materia V	Voyage	Sea of Clouds 19											
-Platinum Ingot	Voyage	Concealed Bay											
+Platinum Ingot	Voyage	Concealed Bay	Uncharted depths										
 Platinum Ore	Voyage	Sea of Clouds 03	Sea of Clouds 09	Sea of Clouds 15	Sea of Clouds 21								
 Potters Stone	Voyage	Sea of Clouds 01	Sea of Clouds 10										
 Quickarm Materia III	Voyage	Sea of Clouds 09	Sea of Clouds 18										
@@ -842,9 +852,9 @@ Water Crystal	Voyage	Sea of Clouds 02	Sea of Clouds 04	Sea of Clouds 07	Sea of C
 Wind Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Clouds 09	Ivory Shoals	Deep-sea site 2	Deep-sea site 3	The Umbrella Narrow				
 Wind Cluster	Voyage	The Wreckage of the Headway											
 Wind Silk	Voyage	Sea of Clouds 13	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 21								
-Cold-warped Lockbox	Other	Eureka Pagos, Mutated Mobs	Mutated Anubys
+Cold-warped Lockbox	Other	Eureka Pagos, Mutated Mobs	Mutated Anubys										
 Frosted Protean Crystal	Other	Eureka Pagos, Crystal Forge 											
 Auspicious Kamuy Fife	Instance	The Jade Stoa (Extreme)											
 Lunar Kamuy Fife	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
 Euphonious Kamuy Fife	Instance	Hells' Kier (Extreme)											
-Hallowed Kamuy Fife	Instance	The Wreath of Snakes (Extreme)
+Hallowed Kamuy Fife	Instance	The Wreath of Snakes (Extreme)											

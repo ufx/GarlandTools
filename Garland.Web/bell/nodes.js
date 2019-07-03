@@ -4588,8 +4588,8 @@
     "title": "Bowrest",
     "zone": "The Rak'tika Greatwood",
     "coords": [
-      35.0,
-      27.0
+      34.7,
+      21.5
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -4910,7 +4910,11 @@
         "item": "Gale Rock",
         "icon": 21473,
         "id": 27805,
-        "slot": "6"
+        "slot": "6",
+        "reduce": {
+          "item": "Chiaroglow Aethersand",
+          "icon": 21235
+        }
       },
       {
         "item": "Water Cluster",
@@ -4935,6 +4939,41 @@
     "patch": 5.0
   },
   {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Sweet Marjoram",
+        "icon": 25015,
+        "id": 27809,
+        "reduce": {
+          "item": "Scuroglow Aethersand",
+          "icon": 21233
+        }
+      },
+      {
+        "item": "Wind Cluster",
+        "icon": 20016,
+        "id": 16,
+        "slot": "4"
+      }
+    ],
+    "time": [
+      4
+    ],
+    "title": "The Wild Fete",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      29.0,
+      24.0
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 624,
+    "patch": 5.0
+  },
+  {
     "type": "Mineral Deposit",
     "func": "node",
     "items": [
@@ -4942,7 +4981,11 @@
         "item": "Solarite",
         "icon": 21467,
         "id": 27806,
-        "slot": "8"
+        "slot": "8",
+        "reduce": {
+          "item": "Scuroglow Aethersand",
+          "icon": 21233
+        }
       },
       {
         "item": "Lightning Cluster",
@@ -4967,6 +5010,41 @@
     "patch": 5.0
   },
   {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Bog Sage",
+        "icon": 25009,
+        "id": 27810,
+        "reduce": {
+          "item": "Agewood Aethersand",
+          "icon": 21236
+        }
+      },
+      {
+        "item": "Earth Cluster",
+        "icon": 20018,
+        "id": 17,
+        "slot": "7"
+      }
+    ],
+    "time": [
+      12
+    ],
+    "title": "Weed",
+    "zone": "Lakeland",
+    "coords": [
+      25.0,
+      29.0
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 622,
+    "patch": 5.0
+  },
+  {
     "type": "Rocky Outcropping",
     "func": "node",
     "items": [
@@ -4974,7 +5052,11 @@
         "item": "Shade Quartz",
         "icon": 21462,
         "id": 27807,
-        "slot": "7"
+        "slot": "7",
+        "reduce": {
+          "item": "Agedeep Aethersand",
+          "icon": 21234
+        }
       },
       {
         "item": "Fire Cluster",
@@ -4996,6 +5078,41 @@
     "uptime": 240,
     "lvl": 80,
     "id": 601,
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "White Clay",
+        "icon": 22610,
+        "id": 27808,
+        "reduce": {
+          "item": "Chiaroglow Aethersand",
+          "icon": 21235
+        }
+      },
+      {
+        "item": "Ice Cluster",
+        "icon": 20015,
+        "id": 15,
+        "slot": "6"
+      }
+    ],
+    "time": [
+      8
+    ],
+    "title": "Scree",
+    "zone": "Kholusia",
+    "coords": [
+      13.0,
+      13.0
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 626,
     "patch": 5.0
   }
 ];
