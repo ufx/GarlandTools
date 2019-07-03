@@ -845,8 +845,10 @@ gt.bell = {
 
         $('#alarm-toggle').toggleClass('active');
         gt.bell.settings.mute = !gt.bell.settings.mute;
-        if (!gt.bell.settings.mute)
-            gt.bell.playAlarm();
+        if (!gt.bell.settings.mute) {
+            if (!gt.bell.playAlarm())
+                gt.bell.playAlarm2();
+        }
 
         gt.bell.saveSettings();
 
@@ -1010,20 +1012,21 @@ gt.bell = {
     },
 
     playAlarm: function() {
-        gt.bell.playAlarmTone(gt.bell.settings.tone, gt.bell.settings.volume);
+        return gt.bell.playAlarmTone(gt.bell.settings.tone, gt.bell.settings.volume);
     },
 
     playAlarm2: function() {
-        gt.bell.playAlarmTone(gt.bell.settings.tone2, gt.bell.settings.volume2);
+        return gt.bell.playAlarmTone(gt.bell.settings.tone2, gt.bell.settings.volume2);
     },
 
     playAlarmTone: function(tone, volume) {
         var alarm = $('#' + tone)[0];
         if (!alarm)
-            return;
+            return false;
 
+        volume = parseInt(volume);
         if (!volume || volume < 0)
-            volume = 0;
+            return false;
         else if (volume > 100)
             volume = 100;
 
@@ -1034,6 +1037,8 @@ gt.bell = {
             // Warn about blocked audio.
             gt.bell.showWarning('audio-blocked');
         }
+
+        return true;
     },
 
     searchInput: function(e) {
