@@ -238,8 +238,7 @@ namespace Garland.Data.Modules
                 var times = Utils.IntComma(line[3]);
                 var uptime = int.Parse(line[4]);
                 var coords = Utils.FloatComma(line[5]);
-                var areaName = line[6];
-                var type = line[7];
+                var type = line[6];
 
                 var item = _builder.Db.ItemsByName[itemName];
 
@@ -252,18 +251,13 @@ namespace Garland.Data.Modules
                     node.coords = new JArray(coords);
                 node.time = new JArray(times);
 
-                if (node.areaid == null && areaName != "")
-                {
-                    var areaId = _builder.Db.LocationIdsByName[areaName];
-                    _builder.Db.AddLocationReference(areaId);
-                    node.areaid = areaId;
-                    node.name = areaName;
-                }
+                if (node.areaid == null)
+                    throw new Exception($"No area name for node {nodeId}.");
 
                 var nodeItems = (JArray)node.items;
                 dynamic nodeItem = nodeItems.FirstOrDefault(ni => (int)ni["id"] == (int)item.id);
                 if (nodeItem == null)
-                    throw new Exception("Invalid item " + itemName + " on node " + areaName);
+                    throw new Exception($"Invalid item {itemName} on node {nodeId}.");
                 nodeItem.slot = slot;
 
                 // Next build up the gathering node view.
