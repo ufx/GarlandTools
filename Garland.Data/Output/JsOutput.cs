@@ -109,7 +109,7 @@ namespace Garland.Data.Output
                 partial.n = (string)leve[lang]["name"];
                 partial.l = leve.lvl;
                 partial.j = leve.jobCategory;
-                partial.p = leve.areaid;
+                partial.p = leve.area;
 
                 leves[(string)leve.id] = partial;
             }
@@ -124,8 +124,8 @@ namespace Garland.Data.Output
                 partial.l = fate.lvl;
                 partial.t = fate.type;
 
-                if (fate.zoneid != null)
-                    partial.z = fate.zoneid;
+                if (fate.map != null)
+                    partial.map = fate.map;
 
                 if (fate.coords != null)
                     partial.c = fate.coords;
@@ -479,7 +479,7 @@ namespace Garland.Data.Output
             {
                 var wrapper = new JsWrapper(lang, "fate", fate);
                 AddPartials(wrapper, fate);
-                _update.IncludeDocument((string)fate.id, "fate", lang, 2, Wrapper(wrapper));
+                _update.IncludeDocument((string)fate.id, "fate", lang, 3, Wrapper(wrapper));
             });
         }
 
@@ -497,7 +497,7 @@ namespace Garland.Data.Output
         {
             Parallel.ForEach(_db.Leves, leve =>
             {
-                _update.IncludeDocument((string)leve.id, "leve", lang, 3, Wrapper(GetLeveData(leve, lang)));
+                _update.IncludeDocument((string)leve.id, "leve", lang, 4, Wrapper(GetLeveData(leve, lang)));
             });
         }
 

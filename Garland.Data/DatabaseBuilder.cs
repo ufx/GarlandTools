@@ -78,6 +78,7 @@ namespace Garland.Data
             {
                 new Indexes(),
                 new Miscellaneous(),
+                new Maps(),
                 new Locations(),
                 new Items(),
                 //new ItemSets(),
@@ -113,7 +114,6 @@ namespace Garland.Data
                 new Relics(),
                 itemSourceComplexityModule,
                 new SupplyDuties(itemSourceComplexityModule),
-                new Maps(),
                 new Territories(),
                 new EquipmentScorer(),
                 new Jobs(),

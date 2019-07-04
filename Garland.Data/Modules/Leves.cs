@@ -81,13 +81,11 @@ namespace Garland.Data.Modules
             if (sLeve.StartLevel != null && sLeve.StartLevel.Key != 0)
             {
                 leve.coords = _builder.GetCoords(sLeve.StartLevel);
-
-                var locationInfo = _builder.LocationInfoByMapId[sLeve.StartLevel.Map.Key];
-                leve.zoneid = locationInfo.PlaceName.Key;
+                leve.map = _builder.Db.MapsById[sLeve.StartLevel.Map.Key];
             }
 
             leve.areaid = sLeve.PlaceNameStart.Key;
-            _builder.Db.AddLocationReference(sLeve.PlaceNameStart.Key);
+            leve.area = sLeve.PlaceNameStart.ToString();
 
             if (sLeve.ExpReward > 0)
                 leve.xp = sLeve.ExpReward;

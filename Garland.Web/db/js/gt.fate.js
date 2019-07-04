@@ -4,7 +4,7 @@ gt.fate = {
     blockTemplate: null,
     index: {},
     partialIndex: {},
-    version: 2,
+    version: 3,
     browse: [
         { type: 'group', func: gt.browse.transformLevelRange },
         { type: 'header', prop: 'location' },
@@ -41,17 +41,14 @@ gt.fate = {
 
         view.sourceName = view.name;
 
-        if (fate.zoneid) {
-            var location = gt.location.index[fate.zoneid];
-            if (location) {
-                view.fullLocation = view.location = location.name;
-                if (fate.coords) {
-                    view.fullLocation += ' (' + fate.coords[0] + ', ' + fate.coords[1] + ')';
-                    view.map = gt.map.getViewModel({ location: location, coords: fate.coords, approx: 1, icon: view.icon });
-                }
-
-                view.byline = 'Lv. ' + fate.lvl + ', ' + location.name;
+        if (fate.map) {
+            view.fullLocation = view.location = fate.map.name;
+            if (fate.coords) {
+                view.fullLocation += ' (' + fate.coords[0] + ', ' + fate.coords[1] + ')';
+                view.map = gt.map.getViewModel2({ map: fate.map, coords: fate.coords, approx: 1, icon: view.icon });
             }
+            
+            view.byline = 'Lv. ' + fate.lvl + ', ' + fate.map.name;
         }
 
         var levelRange = fate.lvl == fate.maxlvl ? fate.lvl : (fate.lvl + "-" + fate.maxlvl);
@@ -70,7 +67,6 @@ gt.fate = {
     },
 
     getPartialViewModel: function(partial) {
-        var zone = partial.z ? gt.location.index[partial.z] : null;
         var name = gt.model.name(partial);
 
         return {
@@ -78,9 +74,9 @@ gt.fate = {
             type: 'fate',
             name: name,
             sourceName: name,
-            location: zone ? zone.name : '???',
+            location: partial.map ? partial.map.name : '???',
             icon: '../files/icons/fate/' + partial.t + '.png',
-            byline: 'Lv. ' + partial.l + (zone ? (', ' + zone.name) : ''),
+            byline: 'Lv. ' + partial.l + (partial.map ? (', ' + partial.map.name) : ''),
             lvl: partial.l
         };
     }

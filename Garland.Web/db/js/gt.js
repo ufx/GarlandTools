@@ -6892,17 +6892,14 @@ gt.fate = {
 
         view.sourceName = view.name;
 
-        if (fate.zoneid) {
-            var location = gt.location.index[fate.zoneid];
-            if (location) {
-                view.fullLocation = view.location = location.name;
-                if (fate.coords) {
-                    view.fullLocation += ' (' + fate.coords[0] + ', ' + fate.coords[1] + ')';
-                    view.map = gt.map.getViewModel({ location: location, coords: fate.coords, approx: 1, icon: view.icon });
-                }
-
-                view.byline = 'Lv. ' + fate.lvl + ', ' + location.name;
+        if (fate.map) {
+            view.fullLocation = view.location = fate.map.name;
+            if (fate.coords) {
+                view.fullLocation += ' (' + fate.coords[0] + ', ' + fate.coords[1] + ')';
+                view.map = gt.map.getViewModel2({ map: fate.map, coords: fate.coords, approx: 1, icon: view.icon });
             }
+            
+            view.byline = 'Lv. ' + fate.lvl + ', ' + fate.map.name;
         }
 
         var levelRange = fate.lvl == fate.maxlvl ? fate.lvl : (fate.lvl + "-" + fate.maxlvl);
@@ -6921,7 +6918,6 @@ gt.fate = {
     },
 
     getPartialViewModel: function(partial) {
-        var zone = partial.z ? gt.location.index[partial.z] : null;
         var name = gt.model.name(partial);
 
         return {
@@ -6929,9 +6925,9 @@ gt.fate = {
             type: 'fate',
             name: name,
             sourceName: name,
-            location: zone ? zone.name : '???',
+            location: partial.map ? partial.map.name : '???',
             icon: '../files/icons/fate/' + partial.t + '.png',
-            byline: 'Lv. ' + partial.l + (zone ? (', ' + zone.name) : ''),
+            byline: 'Lv. ' + partial.l + (partial.map ? (', ' + partial.map.name) : ''),
             lvl: partial.l
         };
     }
@@ -9410,6 +9406,35 @@ gt.map = {
 
         view.image = '../files/maps/' + view.parent.name + '/' + gt.map.sanitizeLocationName(view.location.name) + '.png';
 
+        return view;
+    },
+
+    getViewModel2: function(data) {
+        var map = data.map;
+        if (!map)
+            return null;
+
+        var view = {
+            location: map.name,
+            displayCoords: data.coords,
+            icon: data.icon,
+            iconfilter: data.iconfilter
+        };
+
+        var offset = data.approx ? 0.5 : 1;
+        var x = (data.coords[0] - offset) * gt.map.pixelsPerGrid * map.size;
+        var y = (data.coords[1] - offset) * gt.map.pixelsPerGrid * map.size;
+        view.coords = [x, y];
+
+        if (data.radius)
+            view.radius = gt.map.toMapCoordinate(data.radius, map.size) * Math.PI * 2;
+        else {
+            view.radius = gt.map.pixelsPerGrid / 2;
+            if (data.approx)
+                view.radius *= map.size;
+        }
+
+        view.image = '../files/maps/' + map.id + '.png';
         return view;
     },
 

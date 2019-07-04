@@ -51,16 +51,13 @@ gt.mob = {
             view.byline = view.location;
             view.region = 'Instance';
         } else {
-            var location = gt.location.index[mob.zoneid];
             view.sourceName = view.name;
             view.longSourceName = view.name;
             view.byline = 'Lv. ' + view.lvl;
-            if (location) {
-                view.location = location.name;
-                view.sourceName += ', ' + gt.util.abbr(location.name);
-                view.longSourceName += ', ' + location.name;
-                view.location_type = 'location';
-                view.location_id = mob.zoneid;
+            if (mob.map) {
+                view.location = mob.map.name;
+                view.sourceName += ', ' + gt.util.abbr(mob.map.name);
+                view.longSourceName += ', ' + mob.map.name;
                 view.byline += ', ' + view.location;
 
                 if (location.parentId)

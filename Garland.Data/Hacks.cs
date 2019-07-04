@@ -158,7 +158,7 @@ namespace Garland.Data
             shopsByKey[1769964].ENpcs = new ENpc[] { sENpcs[1027766] }; // ??, Tempest
         }
 
-        public static bool IsMainAttribute (string attribute)
+        public static bool IsMainAttribute(string attribute)
         {
             switch (attribute)
             {

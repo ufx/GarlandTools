@@ -40,9 +40,15 @@ namespace Garland.Data.Modules
                     var area = Utils.GetPair(data.region);
                     var zone = Utils.GetPair(area.Value);
                     var levelRange = (JArray)zone.Value;
+                    var placeNameKey = int.Parse(zone.Key);
 
                     var location = new BNpcLocation();
-                    location.PlaceNameKey = int.Parse(zone.Key);
+
+                    // Some mobs have placenames that can't be mapped, usually from instances.  Ignore their maps.
+                    if (_builder.Db.MapsByPlaceNameKey.TryGetValue(placeNameKey, out dynamic map))
+                        location.Map = map;
+
+                    location.PlaceNameKey = placeNameKey;
                     location.LevelRange = string.Join(" - ", levelRange.Select(v => (string)v));
                     bnpcData.Locations.Add(location);
                 }
@@ -92,11 +98,11 @@ namespace Garland.Data.Modules
                 var sTerritoryType = sTerritoryTypes[territoryTypeId];
                 var sMap = sTerritoryType.Map;
 
-                var bnpcLocation = bnpcData.Locations.FirstOrDefault(l => l.X == 0 && l.PlaceNameKey == sTerritoryType.PlaceName.Key);
+                var bnpcLocation = bnpcData.Locations.FirstOrDefault(l => l.X == 0 && l.Map != null && (int)l.Map.id == sMap.Key);
                 if (bnpcLocation == null)
                 {
                     bnpcLocation = new BNpcLocation();
-                    bnpcLocation.PlaceNameKey = sTerritoryType.PlaceName.Key;
+                    bnpcLocation.Map = _builder.Db.MapsById[sMap.Key];
                     bnpcData.Locations.Add(bnpcLocation);
                 }
 
@@ -142,11 +148,21 @@ namespace Garland.Data.Modules
                 var location = bnpcData.Locations.FirstOrDefault();
                 if (location != null)
                 {
-                    if (location.X != 0)
-                        mob.coords = new JArray(Math.Round(location.X, 2), Math.Round(location.Y, 2), Math.Round(location.Z, 2));
+                    if (location.Map == null)
+                    {
+                        if (location.PlaceNameKey != 0)
+                        {
+                            var sPlaceName = _builder.Sheet<Saint.PlaceName>()[location.PlaceNameKey];
+                            mob.placename = Utils.SanitizeTags(sPlaceName.Name.ToString());
+                        }
+                    }
+                    else
+                    {
+                        if (location.X != 0)
+                            mob.coords = new JArray(Math.Round(location.X, 2), Math.Round(location.Y, 2), Math.Round(location.Z, 2));
 
-                    mob.zoneid = location.PlaceNameKey;
-                    _builder.Db.AddLocationReference(location.PlaceNameKey);
+                        mob.map = location.Map;
+                    }
                     mob.lvl = location.LevelRange;
                 }
 
@@ -193,12 +209,13 @@ namespace Garland.Data.Modules
 
         class BNpcLocation
         {
-            public int PlaceNameKey;
+            public dynamic Map;
             public double X;
             public double Y;
             public double Z;
             public double Radius;
             public string LevelRange;
+            public int PlaceNameKey;
 
             public override string ToString() => $"({X}, {Y}, {Z}, r{Radius})";
         }

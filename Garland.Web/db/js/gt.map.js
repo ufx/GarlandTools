@@ -125,6 +125,35 @@ gt.map = {
         return view;
     },
 
+    getViewModel2: function(data) {
+        var map = data.map;
+        if (!map)
+            return null;
+
+        var view = {
+            location: map.name,
+            displayCoords: data.coords,
+            icon: data.icon,
+            iconfilter: data.iconfilter
+        };
+
+        var offset = data.approx ? 0.5 : 1;
+        var x = (data.coords[0] - offset) * gt.map.pixelsPerGrid * map.size;
+        var y = (data.coords[1] - offset) * gt.map.pixelsPerGrid * map.size;
+        view.coords = [x, y];
+
+        if (data.radius)
+            view.radius = gt.map.toMapCoordinate(data.radius, map.size) * Math.PI * 2;
+        else {
+            view.radius = gt.map.pixelsPerGrid / 2;
+            if (data.approx)
+                view.radius *= map.size;
+        }
+
+        view.image = '../files/maps/' + map.file + '.png';
+        return view;
+    },
+
     sanitizeLocationName: function(name) {
         if (name.indexOf('The Diadem') == 0)
             return 'The Diadem';

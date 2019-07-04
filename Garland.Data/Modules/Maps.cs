@@ -1,4 +1,5 @@
-﻿using SaintCoinach;
+﻿using Newtonsoft.Json.Linq;
+using SaintCoinach;
 using SaintCoinach.Xiv;
 using System;
 using System.Collections.Generic;
@@ -24,45 +25,58 @@ namespace Garland.Data.Modules
 
             Directory.CreateDirectory(_resultMapPath);
 
-            foreach (var m in _builder.Sheet<Map>())
+            foreach (var sMap in _builder.Sheet<Map>())
             {
-                if (m.PlaceName.Key == 0 || m.PlaceName.ToString() == "???" || m.Id.ToString() == "")
+                if (sMap.PlaceName.Key == 0 || sMap.PlaceName.ToString() == "???" || sMap.Id.ToString() == "")
                     continue;
 
-                ExportSingleMap(m);
+                BuildMap(sMap);
             }
         }
 
-        void ExportSingleMap(Map map)
+        void BuildMap(Map sMap)
         {
-            var regionPlaceName = ConvertRegion(map.RegionPlaceName.ToString());
-            var path = Path.Combine(_resultMapPath, regionPlaceName);
+            var file = sMap.Id.ToString().Replace("/", "-");
 
-            var fileName = map.PlaceName.ToString();
-            if (map.LocationPlaceName.Key != 0 && map.LocationPlaceName.ToString() != map.PlaceName.ToString() && map.LocationPlaceName.ToString() != "")
-                fileName += " - " + map.LocationPlaceName.ToString();
+            dynamic map = new JObject();
+            map.id = sMap.Key;
+            map.file = file;
+            map.size = sMap.SizeFactor / 100.0;
 
-            if (fileName.Trim() == "")
+            if (sMap.LocationPlaceName.Key == 0)
+            {
+                map.name = sMap.PlaceName.ToString();
+                map.placename = sMap.PlaceName.Key;
+                _builder.Db.MapsByPlaceNameKey[sMap.PlaceName.Key] = map;
+            }
+            else
+            {
+                map.name = sMap.PlaceName.ToString() + " - " + sMap.LocationPlaceName.ToString();
+                map.placename = sMap.LocationPlaceName.Key;
+                _builder.Db.MapsByPlaceNameKey[sMap.LocationPlaceName.Key] = map;
+
+                // Also index the maps by regular placename value, for imprecise
+                // Libra data.
+                if (!_builder.Db.MapsByPlaceNameKey.ContainsKey(sMap.PlaceName.Key))
+                    _builder.Db.MapsByPlaceNameKey[sMap.PlaceName.Key] = map;
+            }
+
+            _builder.Db.MapsById[sMap.Key] = map;
+            _builder.Db.MapsByName[(string)map.name] = map;
+
+            var path = Path.Combine(_resultMapPath, file) + ".png";
+            if (File.Exists(path))
                 return;
 
-            fileName = "\\" + Sanitize(fileName) + ".png";
-
-            var finalPath = path + fileName;
-            if (File.Exists(finalPath))
-                return;
-
-            var image = map.MediumImage;
+            var image = sMap.MediumImage;
             if (image == null)
             {
-                DatabaseBuilder.PrintLine($"Skipping map with no image {fileName}");
+                DatabaseBuilder.PrintLine($"Skipping map with no image {file}");
                 return;
             }
 
-            if (!Directory.Exists(path))
-                Directory.CreateDirectory(path);
-
-            DatabaseBuilder.PrintLine($"New map: {fileName}");
-            OptimizePng(image, finalPath);
+            DatabaseBuilder.PrintLine($"New map: {file}");
+            OptimizePng(image, path);
             image.Dispose();
         }
 
@@ -91,7 +105,6 @@ namespace Garland.Data.Modules
             convert.StartInfo = new ProcessStartInfo(Config.ImageMagickPath, "-colors 256 +dither output\\out.png png8:output\\reduced.png");
             convert.StartInfo.CreateNoWindow = true;
             convert.Start();
-
             convert.WaitForExit();
 
             var crush = new Process();

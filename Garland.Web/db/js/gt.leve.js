@@ -5,7 +5,7 @@ gt.leve = {
     partialIndex: {},
     rewardIndex: {},
     blockTemplate: null,
-    version: 3,
+    version: 4,
     browse: [
         { type: 'icon-list', prop: 'jobCategory', iconFunc: function(k) { return '../files/icons/job/' + k + '.png'; } },
         { type: 'group', reverse: 1, func: function(l) { return gt.browse.transformLevelRangeCore(l.lvl, 10); } },
@@ -54,10 +54,10 @@ gt.leve = {
             xp: leve.xp ? leve.xp.toLocaleString() : undefined,
             gil: leve.gil ? leve.gil.toLocaleString() : undefined,
             repeats: leve.repeats,
-            complexity: leve.complexity
+            complexity: leve.complexity,
+            location: leve.area
         };
 
-        view.location = gt.location.index[leve.areaid].name;
         view.byline = 'Lv. ' + leve.lvl + ', ' + view.location;
         view.subheader = "Level " + leve.lvl + " " + view.jobCategory + " Leve";
 
@@ -70,8 +70,8 @@ gt.leve = {
             if (leve.coords)
                 view.coords = leve.coords;
 
-            if (leve.zoneid)
-                view.zone = gt.location.index[leve.zoneid];
+            if (leve.map)
+                view.zone = leve.map.name;
 
             if (leve.rewards) {
                 var rewards = gt.leve.rewardIndex[leve.rewards];
@@ -111,21 +111,17 @@ gt.leve = {
     getPartialViewModel: function(partial) {
         var name = gt.model.name(partial);
 
-        var view = {
+        return {
             id: partial.i,
             type: 'leve',
             name: name,
             sourceName: name,
             jobCategory: gt.jobCategories[partial.j].name,
             lvl: partial.l,
-            icon: 'images/Leve.png'
+            icon: 'images/Leve.png',
+            location: partial.p,
+            byline: 'Lv. ' + partial.l + ', ' + partial.p
         };
-
-        var location = gt.location.index[partial.p];
-        view.location = location ? location.name : "???";
-        view.byline = 'Lv. ' + partial.l + ', ' + view.location;
-
-        return view;
     },
 
     newGroupClicked: function(e) {

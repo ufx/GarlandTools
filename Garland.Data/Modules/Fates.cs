@@ -42,10 +42,10 @@ namespace Garland.Data.Modules
                 fate.id = id;
 
                 if (zone != "")
-                    fate.zoneid = _builder.Db.LocationIdsByName[zone];
+                    fate.map = _builder.Db.MapsByName[zone];
 
                 if (coords != "")
-                    fate.coords = new JArray(Utils.IntComma(coords));
+                    fate.coords = new JArray(Utils.FloatComma(coords));
 
                 if (rewardItemNameStr != "")
                 {
@@ -84,17 +84,14 @@ namespace Garland.Data.Modules
 
             if (_fateDataById.TryGetValue(sFate.Key, out var data))
             {
-                if (data.zoneid != null)
-                {
-                    fate.zoneid = data.zoneid;
-                    _builder.Db.AddLocationReference((int)fate.zoneid);
-                }
+                if (data.map != null)
+                    fate.map = data.map;
                 //else
                 //    System.Diagnostics.Debug.WriteLine("FATE " + name + " has no zone");
 
                 if (data.coords != null)
                 {
-                    var coords = ((JArray)data.coords).Select(t => (int)t).ToArray();
+                    var coords = ((JArray)data.coords).Select(t => (float)t).ToArray();
                     fate.coords = new JArray(coords);
                 }
 
