@@ -5101,7 +5101,7 @@
       }
     ],
     "time": [
-      8
+      20
     ],
     "title": "Scree",
     "zone": "Kholusia",
