@@ -44,6 +44,8 @@ namespace Garland.Data
                 return "Gold Certificates of Commendation";
             else if (si.Label == "SHOP_1" && si.Argument == 1769841)
                 return "Silver Certificates of Commendation";
+            else if (si.Label == "SHOP_2" && si.Argument == 1769956)
+                return "Bronze Certificates of Commendation";
             else if (si.Label == "SHOP" && si.Argument == 1769812)
                 return "PVP Rewards";
             else if (si.Label == "REPLICA_SHOP0" && si.Argument == 262918)

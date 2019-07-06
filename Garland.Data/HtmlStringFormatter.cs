@@ -293,6 +293,7 @@ namespace Garland.Data
                 case "F20222": return "highlight";
                 case "F20223": return "highlight-purple";
                 case "F20215": return "highlight-yellow"; // Unsure about this one.  Used to note "Legacy of Allag" quest needs to be abandoned and reacquired.
+                case "F201FC": return "highlight-red";
 
                 default:
                     DatabaseBuilder.PrintLine($"Unknown color code '{color}'.");
