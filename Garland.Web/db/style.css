@@ -187,6 +187,10 @@ a:hover {
     color: #EF5B5B;
 }
 
+.highlight-blue {
+    color: #B7C6FB;
+}
+
 .emphasis {
     font-style: italic;
 }
