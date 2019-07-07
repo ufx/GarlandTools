@@ -45,7 +45,7 @@ namespace Garland.Data.Modules
         {
             foreach (var sTomestonesItem in _builder.Sheet<Game.TomestonesItem>())
             {
-                if (sTomestonesItem.Tomestone.Key == 0 || (sbyte)sTomestonesItem[1] == -1)
+                if (sTomestonesItem.Tomestone.Key == 0)
                     _builder.Db.IgnoredCurrencyItemIds.Add(sTomestonesItem.Item.Key);
             }
         }
