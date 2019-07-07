@@ -245,7 +245,7 @@ namespace Garland.Data
                 return;
             }
 
-            if (sContentFinderCondition.Image.Path.EndsWith("000000.tex"))
+            if (sContentFinderCondition.Image == null)
             {
                 DatabaseBuilder.PrintLine($"Content {sContentFinderCondition.Content.Key} {sContentFinderCondition.Content} has no icon");
                 return;

@@ -296,30 +296,24 @@ namespace Garland.Data.Modules
 
                 // There are only 7 groups of facial features at the moment.
                 var facialfeatures = new System.Collections.BitArray(new byte[] { facialfeature });
+                for (var i = 0; i < 7; i++)
+                {
+                    if (!facialfeatures[i])
+                        continue;
 
-                // The first facial feature uses 6 columns, 1 for each face type.
-                //if (facialfeatures[0])
-                //{
-                //    // Need to figure out the math for this first facial feature group:
-                //    // Gontrant, Wildwood Elezen #1000101 uses icon 1 face 4.
-                //    // Pfarahr, Sea Wolf Roegadyn #1000140 uses icon 0 face 1.
-                //    // Possibly uses a different offset for each race/tribe?
-                //    var iconIndex = face - 3;
-                //    var icon = (ImageFile)type["FacialFeatureIcon[" + iconIndex + "]"];
-                //    appearance.facialfeatures.Add(IconDatabase.EnsureEntry("customize", icon));
-                //}
+                    var iconIndex = (i * 8) + face - 1;
+                    if (race.Key == 7)
+                    {
+                        // Hrothgar are shifted up by 1 or 2.
+                        iconIndex++;
+                    }
 
-                // The rest are 8 columns a piece.
-                //for (var i = 1; i < 7; i++)
-                //{
-                //    // Nialla, Hyur Midlander #1011199 uses icon 6 face 207.
-                //    if (!facialfeatures[i])
-                //        continue;
-
-                //    var iconIndex = 6 + ((i - 1) * 8) + face - 1;
-                //    var icon = (ImageFile)type["FacialFeatureIcon[" + iconIndex + "]"];
-                //    appearance.facialfeatures.Add(IconDatabase.EnsureEntry("customize", icon));
-                //}
+                    var column = "FacialFeatureIcon[" + iconIndex + "]";
+                    var icon = (ImageFile)type[column];
+                    if (icon == null)
+                        continue; // Nothing to show.
+                    appearance.facialfeatures.Add(IconDatabase.EnsureEntry("customize", icon));
+                }
 
                 appearance.facialfeatureColor = FormatColorCoordinates((byte)sNpc.Base["FacialFeatureColor"]);
                 appearance.facialfeatureColorCode = FormatColor((byte)sNpc.Base["FacialFeatureColor"], 0);
@@ -450,7 +444,6 @@ namespace Garland.Data.Modules
                 case 12: // Xaela
                     return isMale ? 1200 : 1300;
 
-                // todo: Tentative
                 // No alternate genders for Hrothgar, Viera.
                 // For Hrothgar, these might be faces too?
                 case 13: // Helions 
@@ -466,8 +459,7 @@ namespace Garland.Data.Modules
 
         static int GetFacePaintCustomizeIndex(int tribeKey, bool isMale)
         {
-            //const int baseRowKey = 1600; // SH
-            const int baseRowKey = 1400; // SB
+            const int baseRowKey = 1600; // SH
 
             switch (tribeKey)
             {
@@ -486,7 +478,6 @@ namespace Garland.Data.Modules
                     var tribeOffset = baseRowKey + ((tribeKey - 1) * 100);
                     return isMale ? tribeOffset : tribeOffset + 50;
 
-                // todo: Tentative
                 case 13: // Helions
                     return 2800;
                 case 14: // The Lost

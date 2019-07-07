@@ -43,7 +43,7 @@ namespace Garland.Data.Modules
             action.patch = PatchDatabase.Get("action", sAction.Key);
             action.category = sAction.ActionCategory.Key;
 
-            if (!sAction.Icon.Path.EndsWith("000000.tex"))
+            if (sAction.Icon != null)
                 action.icon = IconDatabase.EnsureEntry("action", sAction.Icon);
 
             if (sAction.ClassJobCategory.Key > 0)
