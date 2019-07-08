@@ -3371,7 +3371,7 @@ body.loaded #sidebar .patch-link {
     #main .block,
     #pinned .block,
     #main .block.expanded {
-        width: 100%;
+        width: 99.6%;
     }
 
     .bonuses .progress-container {
