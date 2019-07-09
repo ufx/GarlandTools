@@ -2418,6 +2418,19 @@ gt.item = {
         if (item.seeds)
             view.gardening = _.union(view.gardening, gt.model.partialList(gt.item, item.seeds, function(v) { v.right = 'Seed'; return v; }));
 
+        // Craft source
+        if (view.ingredient_of) {
+            var set = new gt.craft.set("transient", []);
+            var step = new gt.craft.step(item.id, item, false, false, set);
+            step.setSource(set);
+
+            view.craftSource = step.sourceView;
+
+            // Little hack to stop ventures from showing as clickable.
+            if (step.sourceType != 'venture')
+                view.craftSourceType = step.sourceType;
+        }
+
         // Stats
         view.hasStats = (view.fish || view.equip || view.actions || view.bonuses || view.special || view.upgrades
             || view.downgrades || view.sharedModels || view.minion || view.tripletriad || view.mount
@@ -2642,9 +2655,7 @@ gt.item = {
 
         gt.settings.setItem(id, itemSettings);
         gt.item.redisplayUses(id);
-
-        if (sourceType == 'market')
-            gt.core.redisplay($block);
+        gt.core.redisplay($block);
     },
 
     redisplayUses: function(id) {

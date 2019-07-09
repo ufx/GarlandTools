@@ -1072,15 +1072,32 @@
 
             {{?it.hasSourcesUses}}
                 <div class="sources-uses-page page">
-                    {{?it.ingredient_of && it.craft && (it.vendors || it.ventures || it.nodes)}}
-                        <div class="source-link line" data-id="0" data-type="craft">
-                            <label><input type="checkbox"> Craft with {{=gt.jobs[it.craft.job].abbreviation}} Lv. {{=it.craft.lvl}}</label>
-                        </div>
-                    {{?}}
+                    <div class="subsection">
+                        {{?it.craftSource}}
+                            <div class="line {{?it.craftSourceType}}block-link hover-highlight pointer{{?}}" data-id="{{=it.craftSource.id}}" data-type="{{=it.craftSource.type}}">
+                                <span class="right deemphasize">Craft Source</span>
+                                <span class="{{?it.craftSource.limited}}specialist{{?}}">
+                                    {{?it.craftSource.icon}}
+                                        <img class="icon small" src="{{=it.craftSource.icon}}">
+                                    {{?}}
+                                    <span {{?it.craftSourceType}}class="highlight"{{?}}>
+                                        {{=it.craftSource.longSourceName || it.craftSource.sourceName}}
+                                        {{?it.craftSource.stars}} {{=gt.util.stars(it.craftSource.stars)}}{{?}}
+                                    </span>
+                                </span>
+                            </div>
+                        {{?}}
 
-                    {{?it.sell_price}}
-                        <div>Sells to vendors for {{=it.sell_price.toLocaleString()}} gil</div>
-                    {{?}}
+                        {{?it.ingredient_of && it.craft && (it.vendors || it.ventures || it.nodes)}}
+                            <div class="source-link line" data-id="0" data-type="craft">
+                                <label><input type="checkbox"> Craft with {{=gt.jobs[it.craft.job].abbreviation}} Lv. {{=it.craft.lvl}}</label>
+                            </div>
+                        {{?}}
+
+                        {{?it.sell_price}}
+                            <div class="line">Sells to vendors for <img class="icon small" src="../files/icons/item/65002.png" title="Gil"> {{=it.sell_price.toLocaleString()}}</div>
+                        {{?}}
+                    </div>
 
                     {{?(it.ingredient_of || it.craft || it.obj.category == 59) && !it.unlistable && !it.untradeable}}
                         <div class="marketboard subsection collapsible collapsed" data-headername="marketboard">

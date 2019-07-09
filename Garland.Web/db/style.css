@@ -2131,6 +2131,10 @@ body.dirty #dirty-indicator {
     margin-top: 10px;
 }
 
+.sources-uses-page .subsection:first-child {
+    margin-top: 0;
+}
+
 .sources-uses-page .subsection h2 {
     background-color: #3D3935;
     text-shadow: 1px 0 #4e4e4e;
