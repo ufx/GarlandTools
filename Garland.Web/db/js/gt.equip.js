@@ -170,7 +170,7 @@ gt.equip = {
             name: 'End Game ' + job.name,
             template: gt.equip.endTemplate,
             blockClass: 'end tool noexpand',
-            icon: 'images/' + job.abbreviation + '.png',
+            icon: '../files/icons/job/' + job.abbreviation + '.png',
             subheader: 'Progression Tool',
             tool: 1,
             settings: 1,

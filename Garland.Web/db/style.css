@@ -1102,6 +1102,18 @@ body.unlock-heights .block .content.main,
     height: inherit;
 }
 
+.group .aggregate-leves input.current-level {
+    width: 40px;
+}
+
+.group .aggregate-leves input.current-xp {
+    width: 100px;
+}
+
+.group .aggregate-leves h3 {
+    margin-bottom: 6px;
+}
+
 /* Equipment */
 
 .equip .slot-line .item.icon, .equip .slot-line .spacer {

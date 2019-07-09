@@ -544,6 +544,12 @@
                     <div class="aggregate-leves collapsible" data-headername="leves-total">
                         <h3 class="pointer">Leve Calculator</h3>
 
+                        <div>
+                            Current Level <input type="number" class="current-level" min="0" max="{{=gt.xp.length-1}}" value="{{=it.currentLevel}}">
+                            XP <input type="number" value="{{=it.currentXp}}" class="current-xp" min="0">
+                            <hr>
+                        </div>
+
                         <div class="attributes prime collapse-toggle">
                             <img class="reward-icon" src="images/xp.png" title="Experience">
 
@@ -559,8 +565,24 @@
                                     <span class="value">{{=it.aggregateLeves.hqXp.toLocaleString()}}</span>
                                     <hr>
                                 </div>
-                            {{?}}                            
+                            {{?}}
                         </div>
+
+                        {{?it.aggregateLeves.toStep}}
+                            <div class="attributes prime collapse-toggle">
+                                <div class="attribute">
+                                    <span class="name">XP to Lv {{=it.aggregateLeves.levelStep}}</span>
+                                    <span class="value">{{=it.aggregateLeves.toStep.toLocaleString()}}</span>
+                                    <hr>
+                                </div>
+
+                                <div class="attribute">
+                                    <span class="name"># Required</span>
+                                    <span class="value">{{=it.aggregateLeves.nqLevesToStep}}{{?it.aggregateLeves.hqLevesToStep}} / {{=it.aggregateLeves.hqLevesToStep}}{{?}}</span>
+                                    <hr>
+                                </div>
+                            </div>
+                        {{?}}
                     </div>
                 {{?}}
 
@@ -1766,7 +1788,7 @@
 
                         <div class="line collapse-toggle">
                             <span class="action-link unselectable copy-recipe">Copy recipe.</span> 
-                            <a href="http://ermad.github.io/ffxiv-craft-opt-web/app/#/recipe?lang={{=gt.settings.data.lang}}&class={{=gt.jobs[it.craft.job].name}}&name={{=it.name}}" target="_blank">Open simulator.</a>
+                            <a href="https://ffxivteamcraft.com/simulator/{{=it.id}}/{{=it.craft.id}}" target="_blank">Open simulator.</a>
                             <span class="action-link unselectable new-group">Add to crafting list.</span>
                         </div>
                     </div>
@@ -3461,7 +3483,6 @@
                     <li><a href="https://ffxivteamcraft.com">FFXIV Teamcraft</a> Shared crafting lists.</li>
                     <li><a href="http://ffxiv.ariyala.com">Ariyala's Final Fantasy XIV Toolkit</a></li>
                     <li><a href="http://www.ffxivcrafting.com">Crafting as a Service</a> Crafting lists.</li>
-                    <li><a href="http://ffxiv-beta.lokyst.net/#/simulator">FFXIV Crafting Optimizer</a> Crafting simulator.</li>
                     <li><a href="http://super-aardvark.github.io/yuryu/">FFXIV Cactpot Solver</a></li>
                     <li><a href="http://vistas.explorexiv.com/">explore x|v</a> Sightseeing log.</li>
                     <li><a href="http://www.ffxivgardening.com/">FFXIV Gardening</a></li>

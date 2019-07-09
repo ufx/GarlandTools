@@ -1022,7 +1022,11 @@ gt.item = {
 
     baseParamName: function(name) {
         var n = gt.item.baseParamAbbreviations[name];
-        return n ? n : name.replace('Resistance', 'Res.');
+        if (n)
+            return n;
+        if (name)
+            return name.replace('Resistance', 'Res.');
+        return "Error";
     },
 
     findSimplestTradeSource: function(item, traderId) {

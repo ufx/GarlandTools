@@ -294,6 +294,8 @@ namespace Garland.Data
                 case 87: // Dark Knight's Arm
                 case 88: // Machinist's Arm
                 case 96: // Samurai's Arm
+                case 106: // Gunbreaker's Arm
+                case 107: // Dancer's Arm
                     return "Physical Damage";
 
                 case 6: // One–handed Thaumaturge's Arm

@@ -17,6 +17,8 @@ gt.group = {
         $('.remove-group-block', $block).click(gt.group.removeGroupBlockClicked);
         $('.atomos', $block).click(gt.group.atomosClicked);
         $('.block-stats input.amount', $block).blur(gt.group.amountBlurred);
+        $('.aggregate-leves input.current-level', $block).blur(gt.group.currentLevelBlurred);
+        $('.aggregate-leves input.current-xp', $block).blur(gt.group.currentXpBlurred);
         $('.materia .socket', $block).click(gt.item.materiaSocketClicked);
         $('.contents-link', $block).click(gt.group.contentLinkClicked);
         gt.craft.bindEvents($block, data, view);
@@ -71,6 +73,26 @@ gt.group = {
                 block.amount = newAmount;
             return true;
         });
+    },
+
+    currentXpBlurred: function(e) {
+        var $this = $(this);
+        var $block = $this.closest('.block');
+        var data = $block.data('block');
+        data.currentXp = parseInt($this.val()) || 0;
+
+        gt.core.redisplay($block);
+        gt.settings.saveDirty();
+    },
+
+    currentLevelBlurred: function(e) {
+        var $this = $(this);
+        var $block = $this.closest('.block');
+        var data = $block.data('block');
+        data.currentLevel = parseInt($this.val()) || 0;
+
+        gt.core.redisplay($block);
+        gt.settings.saveDirty();
     },
 
     atomosClicked: function(e) {
@@ -186,6 +208,8 @@ gt.group = {
         // Aggregate leves.
         var leves = _.filter(view.contents, function(m) { return m.type == 'leve'; });
         view.aggregateLeves = gt.group.aggregateLeves(leves, data);
+        view.currentXp = data.currentXp || 0;
+        view.currentLevel = data.currentLevel || 0;
 
         // Aggregate items.
         var items = _.filter(view.contents, function(m) { return m.type == 'item'; });
@@ -238,7 +262,8 @@ gt.group = {
     },
 
     aggregateLeves: function(leves, data) {
-        var sums = { xp: 0, hqXp: 0 };
+        // Sum XP, accounting for repeats.
+        var sums = { xp: 0, hqXp: 0, toStep: 0, levelStep: 0, xpPerSet: 0, hqXpPerSet: 0, nqLevesToStep: 0, hqLevesToStep: 0 };
         for (var i = 0; i < leves.length; i++) {
             var block = leves[i];
             var leve = block.view.leve;
@@ -249,9 +274,33 @@ gt.group = {
             var repeats = (leve.repeats || 0) + 1;
             var xp = leve.xp * repeats;
             sums.xp += xp * amount;
+            sums.xpPerSet += xp;
 
-            if (leve.requires)
+            if (leve.requires) {
                 sums.hqXp += xp * 2 * amount;
+                sums.hqXpPerSet += xp * 2;
+            }
+        }
+
+        // No leves to sum.
+        if (!sums.xp)
+            return null;
+
+        // Calculate XP to next ten level.
+        if (data.currentLevel) {
+            var maxLevel = data.currentLevel + 10 - (data.currentLevel % 10);
+            var xpToStep = -data.currentXp || 0;
+            for (var level = data.currentLevel; level < maxLevel && level < gt.xp.length - 1; level++)
+                xpToStep += gt.xp[level];
+            
+            if (xpToStep > 0) {
+                sums.toStep = xpToStep;
+                sums.levelStep = maxLevel;
+
+                sums.nqLevesToStep = gt.util.round1(xpToStep / sums.xpPerSet);
+                if (sums.hqXpPerSet)
+                    sums.hqLevesToStep = gt.util.round1(xpToStep / sums.hqXpPerSet);
+            }
         }
 
         return sums.xp ? sums : null;
