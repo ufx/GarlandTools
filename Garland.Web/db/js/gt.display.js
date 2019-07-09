@@ -641,7 +641,15 @@ gt.display = {
 
         var alarm = $('#' + tone)[0];
         alarm.volume = gt.settings.data.alarmVolume / 100;
-        alarm.play();
+        var promise = alarm.play();
+        promise.catch(function(err) {
+            if (err && err.name == "NotAllowedError") {
+                gt.display.alertp("Error playing alarm because you haven't interacted with the page.<br>Dismiss this alert to reenable alarms.");
+                return;
+            }
+
+            gt.display.alertp("Error playing alarm: " + err);
+        });
     },
 
     playAnyTone: function() {

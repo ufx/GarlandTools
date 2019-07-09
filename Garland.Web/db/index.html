@@ -1111,17 +1111,19 @@
 
             {{?it.hasSourcesUses}}
                 <div class="sources-uses-page page">
-                    <div class="subsection">
-                        {{?it.ingredient_of && it.craft && (it.vendors || it.ventures || it.nodes)}}
-                            <div class="source-link line" data-id="0" data-type="craft">
-                                <label><input type="checkbox"> Craft with {{=gt.jobs[it.craft.job].abbreviation}} Lv. {{=it.craft.lvl}}</label>
-                            </div>
-                        {{?}}
+                    {{?(it.ingredient_of && it.craft) || (it.sell_price)}}
+                        <div class="subsection">
+                            {{?it.ingredient_of && it.craft && (it.vendors || it.ventures || it.nodes)}}
+                                <div class="source-link line" data-id="0" data-type="craft">
+                                    <label><input type="checkbox"> Craft with {{=gt.jobs[it.craft.job].abbreviation}} Lv. {{=it.craft.lvl}}</label>
+                                </div>
+                            {{?}}
 
-                        {{?it.sell_price}}
-                            <div class="line">Sells to vendors for <img class="icon small" src="../files/icons/item/65002.png" title="Gil"> {{=it.sell_price.toLocaleString()}}</div>
-                        {{?}}
-                    </div>
+                            {{?it.sell_price}}
+                                <div class="line">Sells to vendors for <img class="icon small" src="../files/icons/item/65002.png" title="Gil"> {{=it.sell_price.toLocaleString()}}</div>
+                            {{?}}
+                        </div>
+                    {{?}}
 
                     {{?it.ingredient_of}}
                         <div class="deemphasize">Set preferred craft sources with the checkboxes below.</div>

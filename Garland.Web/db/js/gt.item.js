@@ -1042,12 +1042,20 @@ gt.item = {
         }
 
         // Prefer GC seal trades first.
-        var gcTrade = gt.item.findTrade(item.tradeShops, function(itemId, type) {
-            return type == 'currency' && (itemId == 20 || itemId == 21 || itemId == 22);
+        var gcTrade = gt.item.findTrade(item.tradeShops, function(tradeItem, type) {
+            return type == 'currency' && (tradeItem.id == 20 || tradeItem.id == 21 || tradeItem.id == 22);
         });
         
         if (gcTrade)
             return gcTrade;
+
+        // Prefer nq listings next.
+        var nqTrade = gt.item.findTrade(item.tradeShops, function(tradeItem, type) {
+            return type == 'reward' && tradeItem.id == item.id && !tradeItem.hq
+        });
+
+        if (nqTrade)
+            return nqTrade;
 
         // Fallback to the first listed trade.
         return item.tradeShops[0].listings[0];
@@ -1059,11 +1067,11 @@ gt.item = {
             for (var ii = 0; ii < shop.listings.length; ii++) {
                 var listing = shop.listings[ii];
                 for (var iii = 0; iii < listing.item.length; iii++) {
-                    if (predicate(listing.item[iii].id, 'reward'))
+                    if (predicate(listing.item[iii], 'reward'))
                         return listing;
                 }
                 for (var iii = 0; iii < listing.currency.length; iii++) {
-                    if (predicate(listing.currency[iii].id, 'currency'))
+                    if (predicate(listing.currency[iii], 'currency'))
                         return listing;
                 }
             }
