@@ -2125,6 +2125,28 @@ body.dirty #dirty-indicator {
     top: 1px;
 }
 
+/* Craft Source */
+
+.subsection.craft-source {
+    display: block;
+    position: initial;
+    text-align: right;
+    margin-top: 6px;
+}
+
+.subsection.craft-source h3 {
+    margin-bottom: 1px;
+}
+
+.subsection.craft-source .line {
+    line-height: 26px;
+    margin-top: 0;
+}
+
+.subsection.craft-source .icon {
+    vertical-align: top;
+}
+
 /* Item Sources & Uses */
 
 .sources-uses-page .subsection {
