@@ -1,4 +1,5 @@
 ﻿using Garland.Data.Models;
+using Newtonsoft.Json.Linq;
 using SaintCoinach.Imaging;
 using SaintCoinach.Xiv;
 using System;
@@ -21,6 +22,7 @@ namespace Garland.Data.Modules
             IndexTomestones();
             IndexRetiredTomestones();
             IndexMapMarkers();
+            IndexMateriaJoinRates();
         }
 
         void IndexTomestones()
@@ -93,6 +95,34 @@ namespace Garland.Data.Modules
 
                 markers.Add(new MapMarker(sMapMarker, map));
             }
+        }
+
+        void IndexMateriaJoinRates()
+        {
+            dynamic rates = new JObject();
+            rates.nq = new JArray();
+            rates.hq = new JArray();
+
+            var sMateriaJoinRates = _builder.Sheet("MateriaJoinRate");
+            foreach (var sMateriaJoinRate in sMateriaJoinRates)
+            {
+                rates.hq.Add(new[]
+                {
+                    (int)(Single)sMateriaJoinRate.GetRaw(0),
+                    (int)(Single)sMateriaJoinRate.GetRaw(1),
+                    (int)(Single)sMateriaJoinRate.GetRaw(2),
+                    (int)(Single)sMateriaJoinRate.GetRaw(3)
+                });
+                rates.nq.Add(new[]
+                {
+                    (int)(Single)sMateriaJoinRate.GetRaw(4),
+                    (int)(Single)sMateriaJoinRate.GetRaw(5),
+                    (int)(Single)sMateriaJoinRate.GetRaw(6),
+                    (int)(Single)sMateriaJoinRate.GetRaw(7)
+                });
+            }
+
+            _builder.Db.MateriaJoinRates = rates;
         }
     }
 }

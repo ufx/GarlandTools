@@ -19,8 +19,8 @@ namespace Garland.Data.Output
         ConcurrentDictionary<object, HashSet<int>> _componentsByItemId = new ConcurrentDictionary<object, HashSet<int>>();
         Dictionary<Tuple<string, string>, Dictionary<string, JObject>> _partialsByLangTypeById = new Dictionary<Tuple<string, string>, Dictionary<string, JObject>>();
         Dictionary<dynamic, dynamic> _ingredientsByItem = new Dictionary<dynamic, dynamic>();
-        static JsonConverter[] _converters = new[] { new WrapperConverter() };
-        static string[] _languagesCodes = new[] { "en", "ja", "de", "fr" };
+        readonly static JsonConverter[] _converters = new[] { new WrapperConverter() };
+        readonly static string[] _languagesCodes = new[] { "en", "ja", "de", "fr" };
 
         public JsOutput(UpdatePackage update)
         {
@@ -369,6 +369,9 @@ namespace Garland.Data.Output
             core.achievementCategoryIndex = new JObject();
             foreach (var category in _db.AchievementCategories)
                 core.achievementCategoryIndex.Add((string)category.id, category);
+
+            // Materia Join Rates
+            core.materiaJoinRates = _db.MateriaJoinRates;
 
             // Item
             core.item = new JObject();

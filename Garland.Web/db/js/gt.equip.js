@@ -74,7 +74,7 @@ gt.equip = {
                 return gt.equip.getEndViewModel(job, data);
         }
 
-        console.error('Invalid id for view model', data);
+        console.error('Invalid id for view model', data.id);
         return null;
     },
 

@@ -28,30 +28,8 @@ gt.item = {
         'Careful Desynthesis': 'C. Desynthesis',
         'Critical Hit Rate': 'Critical Rate'
     },
-    nqMateriaMeldRates: [
-        // Sockets
-        //2, 3,  4,  5      // Tier
-        [40, 20, 10, 5],    // I
-        [36, 18, 9,  5],    // II
-        [30, 15, 8,  4],    // III
-        [24, 12, 6,  3],    // IV
-        [12, 6,  3,  2],    // V
-        [12, 0,  0,  0],    // VI
-        [12, 6,  3,  2],    // VII
-        [12, 0,  0,  0]     // VIII
-    ],
-    hqMateriaMeldRates: [
-        // Sockets
-        //2, 3,  4,  5     // Tier
-        [45, 24, 14, 8],   // I
-        [41, 22, 13, 8],   // II
-        [35, 19, 11, 7],   // III
-        [29, 16, 10, 6],   // IV
-        [17, 10, 7,  5],   // V
-        [17, 0,  0,  0],   // VI
-        [17, 10, 7,  5],   // VII
-        [17, 0,  0,  0]    // VIII
-    ],
+    // TODO: materiaJoinRates comes from core data, only here temporarily until old cache is removed.
+    materiaJoinRates: {"nq":[[90,48,28,16],[82,44,26,16],[70,38,22,14],[58,32,20,12],[17,10,7,5],[17,0,0,0],[17,10,7,5],[17,0,0,0],[100,100,100,100],[100,100,100,100]],"hq":[[80,40,20,10],[72,36,18,10],[60,30,16,8],[48,24,12,6],[12,6,3,2],[12,0,0,0],[12,6,3,2],[12,0,0,0],[100,100,100,100],[100,100,100,100]]},
     browse: [ { type: 'sort', prop: 'name' } ],
     
     // Functions
@@ -706,8 +684,8 @@ gt.item = {
                     var meld = melds[ii];
                     var materia = meld.item.materia;
                     if (ii >= item.sockets) {
-                        meld.nqRate = gt.item.nqMateriaMeldRates[materia.tier][ii - item.sockets];
-                        meld.hqRate = gt.item.hqMateriaMeldRates[materia.tier][ii - item.sockets];
+                        meld.nqRate = gt.item.materiaJoinRates.nq[materia.tier][ii - item.sockets];
+                        meld.hqRate = gt.item.materiaJoinRates.hq[materia.tier][ii - item.sockets];
                         meld.overmeld = 1;
                     }
 

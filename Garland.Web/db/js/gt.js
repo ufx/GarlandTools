@@ -107,10 +107,11 @@ gt.core = {
             if (!gt.core.isLive)
                 gt.serverPath = 'http://test.garlandtools.org';
 
-            if (window.Raven && gt.core.isLive) {
-                window.Raven.config('https://b4e595358f314806a2bd3063f04fb1d7@sentry.io/172355', {
+            if (window.Sentry && gt.core.isLive) {
+                Sentry.init({
+                    dsn: 'https://b4e595358f314806a2bd3063f04fb1d7@sentry.io/172355',
                     environment: gt.core.isLive ? 'prod' : 'dev'
-                }).install();
+                 });
             }
 
             // Sanity check for essential resources.
@@ -167,6 +168,7 @@ gt.core = {
         gt.item.seriesIndex = data.item.seriesIndex;
         gt.item.partialIndex = data.item.partialIndex;
         gt.item.ingredients = data.item.ingredients;
+        gt.item.materiaJoinRates = data.materiaJoinRates;
     },
 
     initializeCore: function() {
@@ -262,8 +264,8 @@ gt.core = {
     writeError: function(ex) {
         gt.core.writeErrorMessage(ex.stack, ex.data);
 
-        if (window.Raven && gt.core.isLive)
-            window.Raven.captureException(ex);
+        if (window.Sentry && gt.core.isLive)
+            window.Sentry.captureException(ex);
 
         console.error(ex.stack);
     },
@@ -382,8 +384,8 @@ gt.core = {
     },
 
     render: function(obj, blockData, module, blockLoaded) {
-        if (window.Raven && gt.core.isLive) {
-            window.Raven.captureBreadcrumb({
+        if (window.Sentry && gt.core.isLive) {
+            window.Sentry.addBreadcrumb({
                 message: 'Rendering block #' + blockData.type + '/' + blockData.id,
                 category: 'render',
                 data: blockData
@@ -396,8 +398,8 @@ gt.core = {
             blockLoaded($block, view);
         } catch (ex) {
             if (!gt.core.retryLoad()) {
-                if (window.Raven && gt.core.isLive)
-                    window.Raven.captureException(ex);
+                if (window.Sentry && gt.core.isLive)
+                    window.Sentry.captureException(ex);
 
                 console.error(ex);
                 var errorView = gt.core.createErrorView(blockData.type, blockData.id, ex);
@@ -443,8 +445,8 @@ gt.core = {
                     result = gt.core.createErrorView(module.type || module.pluralName, id, { message: 'Invalid link ' + url });
                 } else {
                     // Send this error.
-                    if (window.Raven && gt.core.isLive)
-                        window.Raven.captureException(new Error(status + ": " + url));
+                    if (window.Sentry && gt.core.isLive)
+                        window.Sentry.captureException(new Error(status + ": " + url));
                     result = gt.core.createErrorView(module.type || module.pluralName, id, { message: status });
                 }
 
@@ -484,8 +486,8 @@ gt.core = {
             gt.core.loadCore(blockData, blockLoaded);
         } catch (ex) {
             var desc = 'Block reload failed (' + blockData.type + ':' + blockData.id + ')';
-            if (window.Raven && gt.core.isLive) {
-                window.Raven.captureBreadcrumb({
+            if (window.Sentry && gt.core.isLive) {
+                window.Sentry.addBreadcrumb({
                     message: 'Block reload failure',
                     category: 'error',
                     data: blockData
@@ -1857,30 +1859,8 @@ gt.item = {
         'Careful Desynthesis': 'C. Desynthesis',
         'Critical Hit Rate': 'Critical Rate'
     },
-    nqMateriaMeldRates: [
-        // Sockets
-        //2, 3,  4,  5      // Tier
-        [40, 20, 10, 5],    // I
-        [36, 18, 9,  5],    // II
-        [30, 15, 8,  4],    // III
-        [24, 12, 6,  3],    // IV
-        [12, 6,  3,  2],    // V
-        [12, 0,  0,  0],    // VI
-        [12, 6,  3,  2],    // VII
-        [12, 0,  0,  0]     // VIII
-    ],
-    hqMateriaMeldRates: [
-        // Sockets
-        //2, 3,  4,  5     // Tier
-        [45, 24, 14, 8],   // I
-        [41, 22, 13, 8],   // II
-        [35, 19, 11, 7],   // III
-        [29, 16, 10, 6],   // IV
-        [17, 10, 7,  5],   // V
-        [17, 0,  0,  0],   // VI
-        [17, 10, 7,  5],   // VII
-        [17, 0,  0,  0]    // VIII
-    ],
+    // TODO: materiaJoinRates comes from core data, only here temporarily until old cache is removed.
+    materiaJoinRates: {"nq":[[90,48,28,16],[82,44,26,16],[70,38,22,14],[58,32,20,12],[17,10,7,5],[17,0,0,0],[17,10,7,5],[17,0,0,0],[100,100,100,100],[100,100,100,100]],"hq":[[80,40,20,10],[72,36,18,10],[60,30,16,8],[48,24,12,6],[12,6,3,2],[12,0,0,0],[12,6,3,2],[12,0,0,0],[100,100,100,100],[100,100,100,100]]},
     browse: [ { type: 'sort', prop: 'name' } ],
     
     // Functions
@@ -2535,8 +2515,8 @@ gt.item = {
                     var meld = melds[ii];
                     var materia = meld.item.materia;
                     if (ii >= item.sockets) {
-                        meld.nqRate = gt.item.nqMateriaMeldRates[materia.tier][ii - item.sockets];
-                        meld.hqRate = gt.item.hqMateriaMeldRates[materia.tier][ii - item.sockets];
+                        meld.nqRate = gt.item.materiaJoinRates.nq[materia.tier][ii - item.sockets];
+                        meld.hqRate = gt.item.materiaJoinRates.hq[materia.tier][ii - item.sockets];
                         meld.overmeld = 1;
                     }
 
@@ -5603,15 +5583,16 @@ gt.display = {
         var alarm = $('#' + tone)[0];
         alarm.volume = gt.settings.data.alarmVolume / 100;
         var promise = alarm.play();
-        promise.catch(function(err) {
-            console.log(err.name, 'msg', err.message);
-            if (err && err.name == "NotAllowedError") {
-                gt.display.alertp("Error playing alarm because you haven't interacted with the page.<br>Dismiss this alert to reenable alarms.");
-                return;
-            }
+        if (promise) {
+            promise.catch(function(err) {
+                if (err && err.name == "NotAllowedError") {
+                    gt.display.alertp("Error playing alarm because you haven't interacted with the page.<br>Dismiss this alert to reenable alarms.");
+                    return;
+                }
 
-            gt.display.alertp("Error playing alarm: " + err);
-        });
+                gt.display.alertp("Error playing alarm: " + err);
+            });
+        }
     },
 
     playAnyTone: function() {
@@ -7261,7 +7242,7 @@ gt.equip = {
                 return gt.equip.getEndViewModel(job, data);
         }
 
-        console.error('Invalid id for view model', data);
+        console.error('Invalid id for view model', data.id);
         return null;
     },
 

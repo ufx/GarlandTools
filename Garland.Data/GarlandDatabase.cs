@@ -79,6 +79,8 @@ namespace Garland.Data
         public List<dynamic> Dyes = new List<dynamic>();
         public List<dynamic> Statuses = new List<dynamic>();
 
+        public dynamic MateriaJoinRates;
+
         public Dictionary<string, JArray> LevelingEquipmentByJob = new Dictionary<string, JArray>();
         public Dictionary<string, JObject> EndGameEquipmentByJob = new Dictionary<string, JObject>();
         public Dictionary<int, int> ExperienceToNextByLevel = new Dictionary<int, int>();

@@ -57,10 +57,11 @@ gt.bell = {
 
     initialize: function() {
         try {
-            if (window.Raven && gt.bell.isLive) {
-                window.Raven.config('https://953f84152b6e41749c98236cb9e3f664@sentry.io/172375', {
+            if (window.Sentry && gt.bell.isLive) {
+                window.Sentry.init({
+                    dsn: 'https://953f84152b6e41749c98236cb9e3f664@sentry.io/172375',
                     environment: gt.bell.isLive ? 'prod' : 'dev'
-                }).install();
+                });
             }
 
             if ('ontouchstart' in window) {
