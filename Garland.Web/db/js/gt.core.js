@@ -168,7 +168,10 @@ gt.core = {
         gt.item.seriesIndex = data.item.seriesIndex;
         gt.item.partialIndex = data.item.partialIndex;
         gt.item.ingredients = data.item.ingredients;
-        gt.item.materiaJoinRates = data.materiaJoinRates;
+
+        // todo: remove this check.
+        if (data.materiaJoinRates)
+            gt.item.materiaJoinRates = data.materiaJoinRates;
     },
 
     initializeCore: function() {
