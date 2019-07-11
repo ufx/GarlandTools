@@ -1031,12 +1031,12 @@ gt.bell = {
         else if (volume > 100)
             volume = 100;
 
-        try {
-            alarm.volume = volume / 100;
-            alarm.play();
-        } catch (ex) {
-            // Warn about blocked audio.
-            gt.bell.showWarning('audio-blocked');
+        alarm.volume = volume / 100;
+        var promise = alarm.play();
+        if (promise) {
+            promise.catch(function(err) {
+                $('#audio-blocked').show();
+            });
         }
 
         return true;
