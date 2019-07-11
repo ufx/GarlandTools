@@ -907,7 +907,7 @@ gt.item = {
     materiaSocketClicked: function(e) {
         if (!gt.item.materiaSelectTemplate) {
             var template = doT.template($('#materia-select-template').text());
-            var materiaItems = _.filter(_.values(gt.item.partialIndex), function(i) { return i.materia; });
+            var materiaItems = _.filter(_.values(gt.item.partialIndex), function(i) { return i.materia && i.materia.value; });
             materiaItems = _.map(materiaItems, function(i) {
                 var view = gt.model.partial(gt.item, i.i);
                 view.text = view.name.replace(" Materia", "");
