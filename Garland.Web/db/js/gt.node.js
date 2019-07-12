@@ -128,7 +128,7 @@ gt.node = {
             type: 'node',
             name: name,
             sourceName: gt.util.abbr(zone.name) + ', Lv. ' + partial.l,
-            longSourceName: zone.name + ', Lv. ' + partial.l,
+            longSourceName: name + ', ' + zone.name + ', Lv. ' + partial.l,
             byline: 'Lv. ' + partial.l + gt.util.stars(partial.s) + ' ' + typePrefix + category,
             icon: 'images/' + category + '.png',
             job: gt.node.jobAbbreviations[partial.t],
