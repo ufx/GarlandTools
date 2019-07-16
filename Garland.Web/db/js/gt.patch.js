@@ -21,8 +21,10 @@ gt.patch = {
     initialize: function(data) {
         var current = gt.patch.partialIndex[gt.patch.current];
 
-        if (!current)
+        if (!current) {
             console.error('Failed to find patch info', gt.patch.current, _.keys(gt.patch.partialIndex));
+            return;
+        }
 
         $('.title .patch-link')
             .attr('data-id', current.id)
@@ -41,6 +43,9 @@ gt.patch = {
             for (var type in patchData) {
                 var typeData = patchData[type];
                 var module = gt[type];
+                if (!module)
+                    continue;
+
                 for (var i = 0; i < typeData.length; i++) {
                     var obj = typeData[i];
                     if (module.partialIndex)

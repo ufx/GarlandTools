@@ -187,6 +187,10 @@ a:hover {
     color: #EF5B5B;
 }
 
+.highlight-blue {
+    color: #B7C6FB;
+}
+
 .emphasis {
     font-style: italic;
 }
@@ -918,6 +922,10 @@ body.unlock-heights .block .content.main,
     pointer-events: none;
 }
 
+.block .block-title .icon.title-icon.status {
+    width: auto;
+}
+
 .block .block-title .icon.title-icon.border {
     border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, .2);    
@@ -1094,6 +1102,18 @@ body.unlock-heights .block .content.main,
     height: inherit;
 }
 
+.group .aggregate-leves input.current-level {
+    width: 40px;
+}
+
+.group .aggregate-leves input.current-xp {
+    width: 100px;
+}
+
+.group .aggregate-leves h3 {
+    margin-bottom: 6px;
+}
+
 /* Equipment */
 
 .equip .slot-line .item.icon, .equip .slot-line .spacer {
@@ -1209,6 +1229,10 @@ body.unlock-heights .block .content.main,
 }
 
 /* Skywatcher */
+
+.skywatcher .menu.icon-group .button.icon-group {
+    padding: 1px;
+}
 
 .skywatcher .forecast {
     position: relative;
@@ -1374,29 +1398,30 @@ body.unlock-heights .block .content.main,
     height: 171px;
     vertical-align: middle;
     background: transparent;
-    text-shadow: 2px 2px 0px #222;
+    text-shadow: 2px 2px 0px #aaa !important;
+    color: #333;
     transition: background-image 3s ease-out;
     position: relative;
 }
 
 .block.time .time-period.night {
-    background: url(images/Night.png);
+    background: url(images/EverlastingLight.png);
     background-size: 147%;
     text-shadow: 1px 1px 0px #777;
 }
 
 .block.time .time-period.morning {
-    background: url(images/Morning.png);
+    background: url(images/EverlastingLight.png);
     background-size: 147%;
 }
 
 .block.time .time-period.day {
-    background: url(images/Day.png);
+    background: url(images/EverlastingLight.png);
     background-size: 147%;
 }
 
 .block.time .time-period.dusk {
-    background: url(images/Dusk.png);
+    background: url(images/EverlastingLight.png);
     background-size: 147%;
 }
 
@@ -1472,7 +1497,7 @@ body.unlock-heights .block .content.main,
     border: 1px solid #300C0C;
 }
 
-.minimap-block.item, .minimap-block.achievement, .minimap-block.action {
+.minimap-block.item, .minimap-block.achievement, .minimap-block.action, .minimap-block.status {
     background-color: #363636;
     border: 1px solid #1C1C1C;
 }
@@ -1803,6 +1828,10 @@ body.dirty #dirty-indicator {
     border-radius: 3px;
 }
 
+.icon.status {
+    width: auto;
+}
+
 .icon.size32 {
     width: 32px;
     height: 32px;
@@ -2108,10 +2137,36 @@ body.dirty #dirty-indicator {
     top: 1px;
 }
 
+/* Craft Source */
+
+.subsection.craft-source {
+    display: block;
+    position: initial;
+    text-align: right;
+    margin-top: 6px;
+}
+
+.subsection.craft-source h3 {
+    margin-bottom: 1px;
+}
+
+.subsection.craft-source .line {
+    line-height: 26px;
+    margin-top: 0;
+}
+
+.subsection.craft-source .icon {
+    vertical-align: top;
+}
+
 /* Item Sources & Uses */
 
 .sources-uses-page .subsection {
     margin-top: 10px;
+}
+
+.sources-uses-page .subsection:first-child {
+    margin-top: 0;
 }
 
 .sources-uses-page .subsection h2 {
@@ -3264,7 +3319,7 @@ body .block.expanded .recipe .step .long-name.text {
     top: 50%;
     left: 50%;
     max-height: 40%;
-    width: 310px;
+    width: 311px;
     transform: translateY(-50%) translateX(-50%);
     padding: 5px;
     border: 8px solid #494949;
@@ -3308,8 +3363,8 @@ body .block.expanded .recipe .step .long-name.text {
 }
 
 .materia-select .filters img {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     margin-left: 4px;
     margin-right: 4px;
     border: 2px solid transparent;
@@ -3354,7 +3409,7 @@ body.loaded #sidebar .patch-link {
     #main .block,
     #pinned .block,
     #main .block.expanded {
-        width: 100%;
+        width: 99.6%;
     }
 
     .bonuses .progress-container {
@@ -3418,10 +3473,6 @@ body.loaded #sidebar .patch-link {
         display: block;
     }
 
-    #header .menu-ext {
-        display: block;
-    }
-
     #header .drawer {
         margin-top: 4px;
         border-radius: 4px;
@@ -3449,7 +3500,6 @@ body.loaded #sidebar .patch-link {
     }
 
     #lists {
-        display: block;
         margin-left: 0;
     }
 
@@ -3499,7 +3549,8 @@ body.loaded #sidebar .patch-link {
 
     .full-width-icon {
         width: 100%;
-        height: auto;
+        display: block;
+        margin: auto;
     }
 
     body {

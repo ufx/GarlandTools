@@ -16,11 +16,11 @@ namespace Garland.Data.Modules
         Dictionary<int, JobData> _jobsByKey = new Dictionary<int, JobData>();
         readonly double[,] OvermeldPenalties = new double[,]
         {
-            // T1, T2,  T3,  T4,  T5,  T6
-            { 0,   0.5, 1.0, 1.5, 3.0, 6.0 }, // Slot 2
-            { 0.5, 1.0, 1.5, 2.0, 3.5, 7.0 }, // Slot 3
-            { 1.0, 1.5, 2.0, 2.5, 4.0, 8.0 }, // Slot 4
-            { 1.5, 2.0, 2.5, 3.0, 4.5, 9.0 }  // Slot 5
+            // T1, T2,  T3,  T4,  T5,  T6,  T7,  T8
+            { 0,   0.5, 1.0, 1.5, 3.0, 6.0, 3.0, 6.0 }, // Slot 2
+            { 0.5, 1.0, 1.5, 2.0, 3.5, 7.0, 3.5, 7.0 }, // Slot 3
+            { 1.0, 1.5, 2.0, 2.5, 4.0, 8.0, 4.0, 8.0 }, // Slot 4
+            { 1.5, 2.0, 2.5, 3.0, 4.5, 9.0, 4.5, 9.0 }  // Slot 5
         };
         const double OvermeldPenalty = 2.0;
 
@@ -151,6 +151,20 @@ namespace Garland.Data.Modules
                 new SW("Mind", 1), new SW("Vitality", .1),
                 new SW("Defense", .5, true), new SW("Magic Defense", .5, true),
                 new SW("Determination", .001), new SW("Spell Speed", .001),
+                new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
+            });
+
+            // Gunbreaker
+            _jobsByKey[37] = new JobData(GarlandDatabase.LevelCap, new SW[] {
+                new SW("Physical Damage", 15),
+                new SW("Vitality", 1.3), new SW("Strength", 1),
+                new SW("Defense", 2), new SW("Magic Defense", 2)
+            });
+
+            // Dancer
+            _jobsByKey[38] = new JobData(GarlandDatabase.LevelCap, new SW[] {
+                new SW("Physical Damage", 15), new SW("Dexterity", 1),
+                new SW("Determination", .001), new SW("Skill Speed", .001),
                 new SW("Critical Hit", .001), new SW("Direct Hit Rate", .001)
             });
 

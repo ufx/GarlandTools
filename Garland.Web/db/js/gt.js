@@ -99,7 +99,7 @@ gt.core = {
     hashExpression: /#?(\w+)\/(.*)/,
     groupHashExpression: /(.+?)\{(.*)\}/,
     errorTemplate: null,
-    isLive: window.location.hostname != 'localhost',
+    isLive: window.location.hostname != 'localhost' && window.location.hostname != 'test.garlandtools.org',
     //isLive: true,
 
     initialize: function() {
@@ -107,10 +107,11 @@ gt.core = {
             if (!gt.core.isLive)
                 gt.serverPath = 'http://test.garlandtools.org';
 
-            if (window.Raven && gt.core.isLive) {
-                window.Raven.config('https://b4e595358f314806a2bd3063f04fb1d7@sentry.io/172355', {
+            if (window.Sentry && gt.core.isLive) {
+                Sentry.init({
+                    dsn: 'https://b4e595358f314806a2bd3063f04fb1d7@sentry.io/172355',
                     environment: gt.core.isLive ? 'prod' : 'dev'
-                }).install();
+                 });
             }
 
             // Sanity check for essential resources.
@@ -119,7 +120,7 @@ gt.core = {
                 return;
             }
             var modules = [gt.time, gt.patch, gt.map, gt.craft, gt.item, gt.npc, gt.fate, gt.mob,
-                gt.node, gt.fishing, gt.instance, gt.quest, gt.achievement, gt.action, gt.leve,
+                gt.node, gt.fishing, gt.instance, gt.quest, gt.achievement, gt.action, gt.status, gt.leve,
                 gt.group, gt.equip, gt.skywatcher, gt.note, gt.search, gt.browse, gt.list,
                 gt.settings, gt.display, gt.venture, gt.util, window.doT, window.Isotope,
                 window.$, window.he];
@@ -167,11 +168,17 @@ gt.core = {
         gt.item.seriesIndex = data.item.seriesIndex;
         gt.item.partialIndex = data.item.partialIndex;
         gt.item.ingredients = data.item.ingredients;
+
+        // todo: remove this check.
+        if (data.materiaJoinRates)
+            gt.item.materiaJoinRates = data.materiaJoinRates;
     },
 
     initializeCore: function() {
         try {
             var data = gt.settings.load();
+            if (gt.core.ensureNormalizedUrl(data))
+                return; // href is changing, don't do anything else.
 
             if ('ontouchstart' in window && !data.disableTouch) {
                 if (window.FastClick)
@@ -201,6 +208,7 @@ gt.core = {
             gt.quest.initialize(data);
             gt.achievement.initialize(data);
             gt.action.initialize(data);
+            gt.status.initialize(data);
             gt.leve.initialize(data);
             gt.group.initialize(data);
             gt.equip.initialize(data);
@@ -259,8 +267,8 @@ gt.core = {
     writeError: function(ex) {
         gt.core.writeErrorMessage(ex.stack, ex.data);
 
-        if (window.Raven && gt.core.isLive)
-            window.Raven.captureException(ex);
+        if (window.Sentry && gt.core.isLive)
+            window.Sentry.captureException(ex);
 
         console.error(ex.stack);
     },
@@ -379,8 +387,8 @@ gt.core = {
     },
 
     render: function(obj, blockData, module, blockLoaded) {
-        if (window.Raven && gt.core.isLive) {
-            window.Raven.captureBreadcrumb({
+        if (window.Sentry && gt.core.isLive) {
+            window.Sentry.addBreadcrumb({
                 message: 'Rendering block #' + blockData.type + '/' + blockData.id,
                 category: 'render',
                 data: blockData
@@ -393,8 +401,8 @@ gt.core = {
             blockLoaded($block, view);
         } catch (ex) {
             if (!gt.core.retryLoad()) {
-                if (window.Raven && gt.core.isLive)
-                    window.Raven.captureException(ex);
+                if (window.Sentry && gt.core.isLive)
+                    window.Sentry.captureException(ex);
 
                 console.error(ex);
                 var errorView = gt.core.createErrorView(blockData.type, blockData.id, ex);
@@ -440,8 +448,8 @@ gt.core = {
                     result = gt.core.createErrorView(module.type || module.pluralName, id, { message: 'Invalid link ' + url });
                 } else {
                     // Send this error.
-                    if (window.Raven && gt.core.isLive)
-                        window.Raven.captureException(new Error(status + ": " + url));
+                    if (window.Sentry && gt.core.isLive)
+                        window.Sentry.captureException(new Error(status + ": " + url));
                     result = gt.core.createErrorView(module.type || module.pluralName, id, { message: status });
                 }
 
@@ -481,8 +489,8 @@ gt.core = {
             gt.core.loadCore(blockData, blockLoaded);
         } catch (ex) {
             var desc = 'Block reload failed (' + blockData.type + ':' + blockData.id + ')';
-            if (window.Raven && gt.core.isLive) {
-                window.Raven.captureBreadcrumb({
+            if (window.Sentry && gt.core.isLive) {
+                window.Sentry.addBreadcrumb({
                     message: 'Block reload failure',
                     category: 'error',
                     data: blockData
@@ -929,6 +937,18 @@ gt.core = {
             gt.core.setHash(null);
             gt.settings.saveDirty();
         });
+    },
+    
+    ensureNormalizedUrl: function(data) {
+        if (!data.normalizeUrl || !gt.core.isLive)
+            return false;
+
+        var baseUrl = "https://garlandtools.org";
+        if (window.location.origin.indexOf(baseUrl) == 0)
+            return false;
+
+        window.location.href = baseUrl + window.location.pathname + window.location.hash;
+        return true;
     }
 };
 gt.util = {
@@ -1155,8 +1175,10 @@ gt.patch = {
     initialize: function(data) {
         var current = gt.patch.partialIndex[gt.patch.current];
 
-        if (!current)
+        if (!current) {
             console.error('Failed to find patch info', gt.patch.current, _.keys(gt.patch.partialIndex));
+            return;
+        }
 
         $('.title .patch-link')
             .attr('data-id', current.id)
@@ -1175,6 +1197,9 @@ gt.patch = {
             for (var type in patchData) {
                 var typeData = patchData[type];
                 var module = gt[type];
+                if (!module)
+                    continue;
+
                 for (var i = 0; i < typeData.length; i++) {
                     var obj = typeData[i];
                     if (module.partialIndex)
@@ -1837,26 +1862,8 @@ gt.item = {
         'Careful Desynthesis': 'C. Desynthesis',
         'Critical Hit Rate': 'Critical Rate'
     },
-    nqMateriaMeldRates: [
-        // Sockets
-        //2, 3,  4,  5      // Tier
-        [40, 20, 10, 5],    // I
-        [36, 18, 9,  5],    // II
-        [30, 15, 8,  4],    // III
-        [24, 12, 6,  3],    // IV
-        [12, 6,  3,  2],    // V
-        [12, 0,  0,  0]     // VI
-    ],
-    hqMateriaMeldRates: [
-        // Sockets
-        //2, 3,  4,  5     // Tier
-        [45, 24, 14, 8],   // I
-        [41, 22, 13, 8],   // II
-        [35, 19, 11, 7],   // III
-        [29, 16, 10, 6],   // IV
-        [17, 10, 7,  5],   // V
-        [17, 0,  0,  0]    // VI
-    ],
+    // TODO: materiaJoinRates comes from core data, only here temporarily until old cache is removed.
+    materiaJoinRates: {"nq":[[90,48,28,16],[82,44,26,16],[70,38,22,14],[58,32,20,12],[17,10,7,5],[17,0,0,0],[17,10,7,5],[17,0,0,0],[100,100,100,100],[100,100,100,100]],"hq":[[80,40,20,10],[72,36,18,10],[60,30,16,8],[48,24,12,6],[12,6,3,2],[12,0,0,0],[12,6,3,2],[12,0,0,0],[100,100,100,100],[100,100,100,100]]},
     browse: [ { type: 'sort', prop: 'name' } ],
     
     // Functions
@@ -1934,7 +1941,8 @@ gt.item = {
             mount: item.mount,
             slot: item.slot,
             models: item.models,
-            jobs: item.jobCategories
+            jobs: item.jobCategories,
+            furniture: item.furniture
         };
 
         view.sourceName = view.name;
@@ -2393,6 +2401,19 @@ gt.item = {
         if (item.seeds)
             view.gardening = _.union(view.gardening, gt.model.partialList(gt.item, item.seeds, function(v) { v.right = 'Seed'; return v; }));
 
+        // Craft source
+        if (view.ingredient_of) {
+            var set = new gt.craft.set("transient", []);
+            var step = new gt.craft.step(item.id, item, false, false, set);
+            step.setSource(set);
+
+            view.craftSource = step.sourceView;
+
+            // Little hack to stop ventures from showing as clickable.
+            if (step.sourceType != 'venture')
+                view.craftSourceType = step.sourceType;
+        }
+
         // Stats
         view.hasStats = (view.fish || view.equip || view.actions || view.bonuses || view.special || view.upgrades
             || view.downgrades || view.sharedModels || view.minion || view.tripletriad || view.mount
@@ -2497,8 +2518,8 @@ gt.item = {
                     var meld = melds[ii];
                     var materia = meld.item.materia;
                     if (ii >= item.sockets) {
-                        meld.nqRate = gt.item.nqMateriaMeldRates[materia.tier][ii - item.sockets];
-                        meld.hqRate = gt.item.hqMateriaMeldRates[materia.tier][ii - item.sockets];
+                        meld.nqRate = gt.item.materiaJoinRates.nq[materia.tier][ii - item.sockets];
+                        meld.hqRate = gt.item.materiaJoinRates.hq[materia.tier][ii - item.sockets];
                         meld.overmeld = 1;
                     }
 
@@ -2617,9 +2638,7 @@ gt.item = {
 
         gt.settings.setItem(id, itemSettings);
         gt.item.redisplayUses(id);
-
-        if (sourceType == 'market')
-            gt.core.redisplay($block);
+        gt.core.redisplay($block);
     },
 
     redisplayUses: function(id) {
@@ -2722,7 +2741,7 @@ gt.item = {
     materiaSocketClicked: function(e) {
         if (!gt.item.materiaSelectTemplate) {
             var template = doT.template($('#materia-select-template').text());
-            var materiaItems = _.filter(_.values(gt.item.partialIndex), function(i) { return i.materia; });
+            var materiaItems = _.filter(_.values(gt.item.partialIndex), function(i) { return i.materia && i.materia.value; });
             materiaItems = _.map(materiaItems, function(i) {
                 var view = gt.model.partial(gt.item, i.i);
                 view.text = view.name.replace(" Materia", "");
@@ -2815,7 +2834,11 @@ gt.item = {
 
     baseParamName: function(name) {
         var n = gt.item.baseParamAbbreviations[name];
-        return n ? n : name.replace('Resistance', 'Res.');
+        if (n)
+            return n;
+        if (name)
+            return name.replace('Resistance', 'Res.');
+        return "Error";
     },
 
     findSimplestTradeSource: function(item, traderId) {
@@ -2831,12 +2854,20 @@ gt.item = {
         }
 
         // Prefer GC seal trades first.
-        var gcTrade = gt.item.findTrade(item.tradeShops, function(itemId, type) {
-            return type == 'currency' && (itemId == 20 || itemId == 21 || itemId == 22);
+        var gcTrade = gt.item.findTrade(item.tradeShops, function(tradeItem, type) {
+            return type == 'currency' && (tradeItem.id == 20 || tradeItem.id == 21 || tradeItem.id == 22);
         });
         
         if (gcTrade)
             return gcTrade;
+
+        // Prefer nq listings next.
+        var nqTrade = gt.item.findTrade(item.tradeShops, function(tradeItem, type) {
+            return type == 'reward' && tradeItem.id == item.id && !tradeItem.hq
+        });
+
+        if (nqTrade)
+            return nqTrade;
 
         // Fallback to the first listed trade.
         return item.tradeShops[0].listings[0];
@@ -2848,11 +2879,11 @@ gt.item = {
             for (var ii = 0; ii < shop.listings.length; ii++) {
                 var listing = shop.listings[ii];
                 for (var iii = 0; iii < listing.item.length; iii++) {
-                    if (predicate(listing.item[iii].id, 'reward'))
+                    if (predicate(listing.item[iii], 'reward'))
                         return listing;
                 }
                 for (var iii = 0; iii < listing.currency.length; iii++) {
-                    if (predicate(listing.currency[iii].id, 'currency'))
+                    if (predicate(listing.currency[iii], 'currency'))
                         return listing;
                 }
             }
@@ -2900,7 +2931,7 @@ gt.item = {
         $page.data('viewer-injected', true);
 
         var view = $block.data('view');
-        var modelPrefix = view.minion ? 'minion' : view.mount ? 'mount' : view.slot;
+        var modelPrefix = view.minion ? 'minion' : view.mount ? 'mount' : view.furniture ? 'furniture' : view.slot;
         var modelKeys = _.map(view.models, function(m) { return modelPrefix + '/' + m; });
         var url = '3d/viewer.html?id=' + modelKeys.join('+');
         var html = '<iframe class="model-viewer" src="' + url + '"></iframe>';
@@ -3414,7 +3445,7 @@ gt.node = {
             stars: node.stars,
             time: node.time,
             uptime: node.uptime,
-            zone: gt.location.index[node.zoneid],
+            zone: gt.location.index[node.zoneid] || { name: 'Unknown' },
             coords: node.coords,
             obj: node
         };
@@ -3436,7 +3467,7 @@ gt.node = {
         view.location = view.zone.name;
         var region = gt.location.index[view.zone.parentId];
         if (region)
-            view.region = gt.location.index[view.zone.parentId].name;
+            view.region = region.name;
 
         if (data) {
             if (node.coords) {
@@ -3478,7 +3509,7 @@ gt.node = {
         var name = gt.model.name(partial);
         var category = gt.node.types[partial.t];
         var typePrefix = partial.lt ? (partial.lt + ' ') : '';
-        var zone = gt.location.index[partial.z];
+        var zone = gt.location.index[partial.z] || { name: 'Unknown' };
         var region = gt.location.index[zone.parentId];
 
         return {
@@ -3486,7 +3517,7 @@ gt.node = {
             type: 'node',
             name: name,
             sourceName: gt.util.abbr(zone.name) + ', Lv. ' + partial.l,
-            longSourceName: zone.name + ', Lv. ' + partial.l,
+            longSourceName: name + ', ' + zone.name + ', Lv. ' + partial.l,
             byline: 'Lv. ' + partial.l + gt.util.stars(partial.s) + ' ' + typePrefix + category,
             icon: 'images/' + category + '.png',
             job: gt.node.jobAbbreviations[partial.t],
@@ -3907,7 +3938,7 @@ gt.search = {
     maxResults: 100,
     url: '/api/search.php',
     cachedQueries: [],
-    resultIndex: { quest: { }, leve: { }, action: { }, achievement: { }, instance: { }, fate: { }, npc: { }, mob: { }, item: { }, fishing: { }, node: { } },
+    resultIndex: { quest: { }, leve: { }, action: { }, achievement: { }, instance: { }, fate: { }, npc: { }, mob: { }, item: { }, fishing: { }, node: { }, status: { } },
     activeQuery: null,
     serverSearchId: 0,
 
@@ -4124,7 +4155,9 @@ gt.search = {
                 var value = result[i];
 
                 // Store results in a separate index used for local searches.
-                gt.search.resultIndex[value.type][value.id] = value.obj;
+                var resultObjects = gt.search.resultIndex[value.type];
+                if (resultObjects)
+                    resultObjects[value.id] = value.obj;
             }
 
             // Toss results when a query with a larger ID is active.
@@ -4225,7 +4258,7 @@ gt.search = {
 
         $('.search-list-page, .search-icons-page', '.search-page')
             .empty()
-            .append(_.map(matches.result, gt.search.resultTemplate))
+            .append(_.map(_.filter(matches.result), gt.search.resultTemplate))
             .append('<div class="clear"></div>');
 
         $('.block-link', '.search-page').click(gt.core.blockLinkClicked);
@@ -4347,7 +4380,8 @@ gt.search = {
     },
 
     getViewModel: function(searchResult) {
-        return gt[searchResult.type].getPartialViewModel(searchResult.obj);
+        var module = gt[searchResult.type];
+        return module ? module.getPartialViewModel(searchResult.obj) : null;
     },
 
     openSearchButtonClicked: function(e) {
@@ -5477,6 +5511,10 @@ gt.display = {
                     $e.append('<img src="' + view.icon + '" width="' + radius + 'px">');
                     break;
 
+                case 'status':
+                    $e.append('<img src="' + view.icon + '" style="height: 22px; margin-left: 2px;">');
+                    break;
+
                 case 'browse':
                 case 'patch':
                     $e.append('<img src="' + $block.data('view').browseIcon + '" width="' + (radius - 2) + '"px">');
@@ -5547,7 +5585,17 @@ gt.display = {
 
         var alarm = $('#' + tone)[0];
         alarm.volume = gt.settings.data.alarmVolume / 100;
-        alarm.play();
+        var promise = alarm.play();
+        if (promise) {
+            promise.catch(function(err) {
+                if (err && err.name == "NotAllowedError") {
+                    gt.display.alertp("Error playing alarm because you haven't interacted with the page.<br>Dismiss this alert to reenable alarms.");
+                    return;
+                }
+
+                gt.display.alertp("Error playing alarm: " + err);
+            });
+        }
     },
 
     playAnyTone: function() {
@@ -6740,12 +6788,82 @@ gt.action = {
 
     getStatusViewModel: function(status, relationship) {
         return {
+            id: status.id,
             relationship: relationship,
             name: status.name,
             desc: status.desc,
             icon: '../files/icons/status/' + status.icon + '.png'
         };
     }
+};
+gt.status = {
+    index: {},
+    partialIndex: {},
+    categoryIndex: { 1: 'Beneficial', 2: 'Detrimental' },
+    blockTemplate: null,
+    pluralName: 'Status Effects',
+    type: 'Status',
+    version: 2,
+    browse: [
+        { type: 'group', prop: 'category' },
+        { type: 'paginate' },
+        { type: 'sort', prop: 'id' }
+    ],
+
+    initialize: function(data) {
+        gt.status.blockTemplate = doT.template($('#block-status-template').text());
+    },
+
+    cache: function(data) {
+        gt.status.index[data.status.id] = data.status;
+    },
+
+    bindEvents: function($block, data) {
+        gt.display.alternatives($block, data);
+    },
+
+    getViewModel: function(status, data) {
+        var category = gt.status.categoryIndex[status.category];
+
+        var view = {
+            id: status.id,
+            type: 'status',
+            name: status.name || "",
+            patch: gt.formatPatch(status.patch),
+            template: gt.status.blockTemplate,
+            settings: 1,
+            icon: '../files/icons/status/' + status.icon + '.png',
+            iconBorder: 0,
+            obj: status,
+            
+            desc: status.description || "",
+            category: category ? category : "Uncategorized",
+            canDispel: status.canDispel
+        };
+
+        view.subheader = view.category + ' Status Effect';
+
+        return view;
+    },
+
+    getPartialViewModel: function(partial) {
+        if (!partial)
+            return null;
+
+        var category = gt.status.categoryIndex[partial.t];
+
+        var view = {
+            id: partial.i,
+            type: 'status',
+            name: gt.model.name(partial) || "",
+            icon: '../files/icons/status/' + partial.c + '.png',
+            category: category ? category : "Uncategorized"
+        };
+
+        view.byline = view.category;
+
+        return view;
+    },
 };
 gt.fate = {
     pluralName: 'Fates',
@@ -6957,7 +7075,8 @@ gt.leve = {
             icon: 'images/Leve.png'
         };
 
-        view.location = gt.location.index[partial.p].name;
+        var location = gt.location.index[partial.p];
+        view.location = location ? location.name : "???";
         view.byline = 'Lv. ' + partial.l + ', ' + view.location;
 
         return view;
@@ -7126,7 +7245,7 @@ gt.equip = {
                 return gt.equip.getEndViewModel(job, data);
         }
 
-        console.error('Invalid id for view model', data);
+        console.error('Invalid id for view model', data.id);
         return null;
     },
 
@@ -7137,7 +7256,7 @@ gt.equip = {
             name: 'Leveling ' + job.name,
             template: gt.equip.levelingTemplate,
             blockClass: 'early tool noexpand',
-            icon: 'images/' + job.abbreviation + '.png',
+            icon: '../files/icons/job/' + job.abbreviation + '.png',
             subheader: 'Recommendation Tool',
             tool: 1,
             settings: 1,
@@ -7179,7 +7298,7 @@ gt.equip = {
         // Generate the equipment grid within the level range.
         view.equipment = {};
         var startLevel = Math.max(1, view.lvl - 2);
-        var endLevel = Math.min(69, view.lvl + 4);
+        var endLevel = Math.min(equipment.length, view.lvl + 4);
 
         // Each row represents a slot, so start iterating these.
         for (var slot = 0; slot <= 12; slot++) {
@@ -7222,7 +7341,7 @@ gt.equip = {
             name: 'End Game ' + job.name,
             template: gt.equip.endTemplate,
             blockClass: 'end tool noexpand',
-            icon: 'images/' + job.abbreviation + '.png',
+            icon: '../files/icons/job/' + job.abbreviation + '.png',
             subheader: 'Progression Tool',
             tool: 1,
             settings: 1,
@@ -7253,9 +7372,10 @@ gt.equip = {
         var $this = $(this);
         var $block = $this.closest('.block');
         var data = $block.data('block');
+        var view = $block.data('view');
 
         data.lvl = parseInt($this.val());
-        data.lvl = Math.min(Math.max(data.lvl, 3), 69)
+        data.lvl = Math.min(Math.max(data.lvl, 3), view.maxLvl);
 
         gt.core.redisplay($block);
         gt.settings.saveDirty();
@@ -7342,6 +7462,7 @@ gt.equip = {
         { icon: "images/Region Ishgard.png", name: "Ishgard and Surrounds", page: "Ishgard", zones: [62, 63, 2200, 2100, 2101, 2082, 2000, 2001, 2002, 1647] },
         { icon: "images/Region Gyr Abania.png", name: "Gyr Abania", page: "GyrAbania", zones: [2403, 2406, 2407, 2408] },
         { icon: "images/Region Kugane.png", name: "Far East", page: "FarEast", zones: [513, 2412, 2409, 2410, 2411] },
+        { icon: "images/Region Norvrandt.png", name: "Norvrandt", page: "Norvrandt", zones: [516, 517, 2953, 2954, 2955, 2956, 2957] },
         { icon: "images/Aetheryte.png", name: "Others", page: "Others", zones: [67, 2414, 2462, 2530, 2545] }
     ],
     weatherUpdateKey: null,
@@ -8318,6 +8439,9 @@ gt.craft.set.prototype.readyCheck = function() {
         this.startingQuality += step.startingQuality;
     }
 
+    if (this.startingQuality)
+        this.startingQuality = Math.floor(this.startingQuality);
+
     this.priceViews = [];
     for (var key in price) {
         var view = gt.model.partial(gt.item, key);
@@ -8633,7 +8757,8 @@ gt.group = {
     blockTemplate: null,
     type: 'group',
     baseParamValues: {
-        CP: 180
+        CP: 180,
+        GP: 400
     },
 
     initialize: function(data) {
@@ -8647,6 +8772,8 @@ gt.group = {
         $('.remove-group-block', $block).click(gt.group.removeGroupBlockClicked);
         $('.atomos', $block).click(gt.group.atomosClicked);
         $('.block-stats input.amount', $block).blur(gt.group.amountBlurred);
+        $('.aggregate-leves input.current-level', $block).blur(gt.group.currentLevelBlurred);
+        $('.aggregate-leves input.current-xp', $block).blur(gt.group.currentXpBlurred);
         $('.materia .socket', $block).click(gt.item.materiaSocketClicked);
         $('.contents-link', $block).click(gt.group.contentLinkClicked);
         gt.craft.bindEvents($block, data, view);
@@ -8701,6 +8828,26 @@ gt.group = {
                 block.amount = newAmount;
             return true;
         });
+    },
+
+    currentXpBlurred: function(e) {
+        var $this = $(this);
+        var $block = $this.closest('.block');
+        var data = $block.data('block');
+        data.currentXp = parseInt($this.val()) || 0;
+
+        gt.core.redisplay($block);
+        gt.settings.saveDirty();
+    },
+
+    currentLevelBlurred: function(e) {
+        var $this = $(this);
+        var $block = $this.closest('.block');
+        var data = $block.data('block');
+        data.currentLevel = parseInt($this.val()) || 0;
+
+        gt.core.redisplay($block);
+        gt.settings.saveDirty();
     },
 
     atomosClicked: function(e) {
@@ -8816,6 +8963,8 @@ gt.group = {
         // Aggregate leves.
         var leves = _.filter(view.contents, function(m) { return m.type == 'leve'; });
         view.aggregateLeves = gt.group.aggregateLeves(leves, data);
+        view.currentXp = data.currentXp || 0;
+        view.currentLevel = data.currentLevel || 0;
 
         // Aggregate items.
         var items = _.filter(view.contents, function(m) { return m.type == 'item'; });
@@ -8868,7 +9017,8 @@ gt.group = {
     },
 
     aggregateLeves: function(leves, data) {
-        var sums = { xp: 0, hqXp: 0 };
+        // Sum XP, accounting for repeats.
+        var sums = { xp: 0, hqXp: 0, toStep: 0, levelStep: 0, xpPerSet: 0, hqXpPerSet: 0, nqLevesToStep: 0, hqLevesToStep: 0 };
         for (var i = 0; i < leves.length; i++) {
             var block = leves[i];
             var leve = block.view.leve;
@@ -8879,9 +9029,33 @@ gt.group = {
             var repeats = (leve.repeats || 0) + 1;
             var xp = leve.xp * repeats;
             sums.xp += xp * amount;
+            sums.xpPerSet += xp;
 
-            if (leve.requires)
+            if (leve.requires) {
                 sums.hqXp += xp * 2 * amount;
+                sums.hqXpPerSet += xp * 2;
+            }
+        }
+
+        // No leves to sum.
+        if (!sums.xp)
+            return null;
+
+        // Calculate XP to next ten level.
+        if (data.currentLevel) {
+            var maxLevel = data.currentLevel + 10 - (data.currentLevel % 10);
+            var xpToStep = -data.currentXp || 0;
+            for (var level = data.currentLevel; level < maxLevel && level < gt.xp.length - 1; level++)
+                xpToStep += gt.xp[level];
+            
+            if (xpToStep > 0) {
+                sums.toStep = xpToStep;
+                sums.levelStep = maxLevel;
+
+                sums.nqLevesToStep = gt.util.round1(xpToStep / sums.xpPerSet);
+                if (sums.hqXpPerSet)
+                    sums.hqLevesToStep = gt.util.round1(xpToStep / sums.hqXpPerSet);
+            }
         }
 
         return sums.xp ? sums : null;

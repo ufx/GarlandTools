@@ -27,7 +27,7 @@ These are one-time steps needed to build the primary data importer and bootstrap
 1. Repositories must be cloned as siblings on the filesystem, e.g. `$HOME/code/gt, $HOME/code/SaintCoinach, $HOME/code/xivModdingFramework`.
 1. Open the `Garland.sln` solution in Visual Studio.
 1. Set active solution platform to x64 from Any CPU.
-1. Acquire a copy of Libra Eorzea's `app_data.sqlite`, and place it in `Garland.UI/External`.
+1. Acquire a copy of Libra Eorzea's `app_data.sqlite`, and place it in `Supplemental/app_data.sqlite`.
 1. Copy `Config.json.default` to `Config.json`.  Change everything for your setup.
 1. Import `Garland.Server/Schema/keystore.sql`.
 1. Import Sapphire's `schema.sql` and `inserts.sql`.
@@ -70,7 +70,7 @@ Some data isn't available from the client files and thus supplemental sources ar
     * Mobs: Mob locations.
     * Items: Item sources for desynth, aetherial reduction, treasure maps, ventures, concealed nodes, instances, gardening, and voyages.
     * NPCs: Event NPC indicators, used to exclude shops from complexity calculations.
-* Individual sheets from the data spreadsheet are exported as TSVs and stored in `Garland.UI/Supplemental` because the Google Sheets API sucks and can't retrieve individual sheet data.
+* Individual sheets from the data spreadsheet are exported as TSVs and stored in `Supplemental/` because the Google Sheets API sucks and can't retrieve individual sheet data.
 
 # Website
 There are three main sites and a supporting API in PHP.  No resources are compressed or minified.  Running the website should be as straightforward as synchronizing the files with the server.

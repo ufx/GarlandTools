@@ -567,6 +567,10 @@ gt.display = {
                     $e.append('<img src="' + view.icon + '" width="' + radius + 'px">');
                     break;
 
+                case 'status':
+                    $e.append('<img src="' + view.icon + '" style="height: 22px; margin-left: 2px;">');
+                    break;
+
                 case 'browse':
                 case 'patch':
                     $e.append('<img src="' + $block.data('view').browseIcon + '" width="' + (radius - 2) + '"px">');
@@ -637,7 +641,17 @@ gt.display = {
 
         var alarm = $('#' + tone)[0];
         alarm.volume = gt.settings.data.alarmVolume / 100;
-        alarm.play();
+        var promise = alarm.play();
+        if (promise) {
+            promise.catch(function(err) {
+                if (err && err.name == "NotAllowedError") {
+                    gt.display.alertp("Error playing alarm because you haven't interacted with the page.<br>Dismiss this alert to reenable alarms.");
+                    return;
+                }
+
+                gt.display.alertp("Error playing alarm: " + err);
+            });
+        }
     },
 
     playAnyTone: function() {

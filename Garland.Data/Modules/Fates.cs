@@ -27,7 +27,7 @@ namespace Garland.Data.Modules
 
         void ImportSupplementalData()
         {
-            var lines = Utils.Tsv("Supplemental\\FFXIV Data - Fates.tsv");
+            var lines = Utils.Tsv(Path.Combine(Config.SupplementalPath, "FFXIV Data - Fates.tsv"));
             foreach (var line in lines.Skip(1))
             {
                 var name = line[0];

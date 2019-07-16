@@ -43,7 +43,7 @@ namespace Garland.Data.Modules
             action.patch = PatchDatabase.Get("action", sAction.Key);
             action.category = sAction.ActionCategory.Key;
 
-            if (!sAction.Icon.Path.EndsWith("000000.tex"))
+            if (sAction.Icon != null)
                 action.icon = IconDatabase.EnsureEntry("action", sAction.Icon);
 
             if (sAction.ClassJobCategory.Key > 0)
@@ -222,6 +222,51 @@ namespace Garland.Data.Modules
                     action.cost = sAction.Cost;
                     break;
 
+                case Saint.ActionCostType.Polyglot:
+                    action.resource = "Polyglot";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.FourfoldFeather:
+                    action.resource = "Fourfold Feather";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Espirit:
+                    action.resource = "Espirit";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Cartridge:
+                    action.resource = "Cartridge";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.BloodLily:
+                    action.resource = "Blood Lily";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Lily:
+                    action.resource = "Lily";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.SealsAll:
+                    action.resource = "Seals";
+                    action.cost = "All";
+                    break;
+
+                case Saint.ActionCostType.SoulVoice:
+                    action.resource = "Soul Voice";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Heat:
+                    action.resource = "Heat";
+                    action.cost = sAction.Cost;
+                    break;
+
                 case Saint.ActionCostType.AstrologianCard:
                 case Saint.ActionCostType.AstrologianCard2:
                 case Saint.ActionCostType.AstrologianCard3:
@@ -240,7 +285,7 @@ namespace Garland.Data.Modules
                     break;
 
                 default:
-                    throw new NotImplementedException();
+                    throw new NotImplementedException($"Unknown action cost type {(byte)sAction.CostType} for action {sAction.Name} ({sAction.Key}).");
             }
         }
 

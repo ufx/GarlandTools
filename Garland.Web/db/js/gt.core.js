@@ -99,7 +99,7 @@ gt.core = {
     hashExpression: /#?(\w+)\/(.*)/,
     groupHashExpression: /(.+?)\{(.*)\}/,
     errorTemplate: null,
-    isLive: window.location.hostname != 'localhost',
+    isLive: window.location.hostname != 'localhost' && window.location.hostname != 'test.garlandtools.org',
     //isLive: true,
 
     initialize: function() {
@@ -107,10 +107,11 @@ gt.core = {
             if (!gt.core.isLive)
                 gt.serverPath = 'http://test.garlandtools.org';
 
-            if (window.Raven && gt.core.isLive) {
-                window.Raven.config('https://b4e595358f314806a2bd3063f04fb1d7@sentry.io/172355', {
+            if (window.Sentry && gt.core.isLive) {
+                Sentry.init({
+                    dsn: 'https://b4e595358f314806a2bd3063f04fb1d7@sentry.io/172355',
                     environment: gt.core.isLive ? 'prod' : 'dev'
-                }).install();
+                 });
             }
 
             // Sanity check for essential resources.
@@ -119,7 +120,7 @@ gt.core = {
                 return;
             }
             var modules = [gt.time, gt.patch, gt.map, gt.craft, gt.item, gt.npc, gt.fate, gt.mob,
-                gt.node, gt.fishing, gt.instance, gt.quest, gt.achievement, gt.action, gt.leve,
+                gt.node, gt.fishing, gt.instance, gt.quest, gt.achievement, gt.action, gt.status, gt.leve,
                 gt.group, gt.equip, gt.skywatcher, gt.note, gt.search, gt.browse, gt.list,
                 gt.settings, gt.display, gt.venture, gt.util, window.doT, window.Isotope,
                 window.$, window.he];
@@ -167,11 +168,17 @@ gt.core = {
         gt.item.seriesIndex = data.item.seriesIndex;
         gt.item.partialIndex = data.item.partialIndex;
         gt.item.ingredients = data.item.ingredients;
+
+        // todo: remove this check.
+        if (data.materiaJoinRates)
+            gt.item.materiaJoinRates = data.materiaJoinRates;
     },
 
     initializeCore: function() {
         try {
             var data = gt.settings.load();
+            if (gt.core.ensureNormalizedUrl(data))
+                return; // href is changing, don't do anything else.
 
             if ('ontouchstart' in window && !data.disableTouch) {
                 if (window.FastClick)
@@ -201,6 +208,7 @@ gt.core = {
             gt.quest.initialize(data);
             gt.achievement.initialize(data);
             gt.action.initialize(data);
+            gt.status.initialize(data);
             gt.leve.initialize(data);
             gt.group.initialize(data);
             gt.equip.initialize(data);
@@ -259,8 +267,8 @@ gt.core = {
     writeError: function(ex) {
         gt.core.writeErrorMessage(ex.stack, ex.data);
 
-        if (window.Raven && gt.core.isLive)
-            window.Raven.captureException(ex);
+        if (window.Sentry && gt.core.isLive)
+            window.Sentry.captureException(ex);
 
         console.error(ex.stack);
     },
@@ -379,8 +387,8 @@ gt.core = {
     },
 
     render: function(obj, blockData, module, blockLoaded) {
-        if (window.Raven && gt.core.isLive) {
-            window.Raven.captureBreadcrumb({
+        if (window.Sentry && gt.core.isLive) {
+            window.Sentry.addBreadcrumb({
                 message: 'Rendering block #' + blockData.type + '/' + blockData.id,
                 category: 'render',
                 data: blockData
@@ -393,8 +401,8 @@ gt.core = {
             blockLoaded($block, view);
         } catch (ex) {
             if (!gt.core.retryLoad()) {
-                if (window.Raven && gt.core.isLive)
-                    window.Raven.captureException(ex);
+                if (window.Sentry && gt.core.isLive)
+                    window.Sentry.captureException(ex);
 
                 console.error(ex);
                 var errorView = gt.core.createErrorView(blockData.type, blockData.id, ex);
@@ -440,8 +448,8 @@ gt.core = {
                     result = gt.core.createErrorView(module.type || module.pluralName, id, { message: 'Invalid link ' + url });
                 } else {
                     // Send this error.
-                    if (window.Raven && gt.core.isLive)
-                        window.Raven.captureException(new Error(status + ": " + url));
+                    if (window.Sentry && gt.core.isLive)
+                        window.Sentry.captureException(new Error(status + ": " + url));
                     result = gt.core.createErrorView(module.type || module.pluralName, id, { message: status });
                 }
 
@@ -481,8 +489,8 @@ gt.core = {
             gt.core.loadCore(blockData, blockLoaded);
         } catch (ex) {
             var desc = 'Block reload failed (' + blockData.type + ':' + blockData.id + ')';
-            if (window.Raven && gt.core.isLive) {
-                window.Raven.captureBreadcrumb({
+            if (window.Sentry && gt.core.isLive) {
+                window.Sentry.addBreadcrumb({
                     message: 'Block reload failure',
                     category: 'error',
                     data: blockData
@@ -929,5 +937,17 @@ gt.core = {
             gt.core.setHash(null);
             gt.settings.saveDirty();
         });
+    },
+    
+    ensureNormalizedUrl: function(data) {
+        if (!data.normalizeUrl || !gt.core.isLive)
+            return false;
+
+        var baseUrl = "https://garlandtools.org";
+        if (window.location.origin.indexOf(baseUrl) == 0)
+            return false;
+
+        window.location.href = baseUrl + window.location.pathname + window.location.hash;
+        return true;
     }
 };

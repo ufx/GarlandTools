@@ -55,7 +55,6 @@ namespace Garland.Data.Modules
                     else if (classJobCategoryKey == 19)
                     {
                         // FSH
-                        var isFisher = classJobCategoryKey == 19; // FSH
                         var gathering2 = sRetainerTaskParameter.AsInt32("Gathering{FSH}[0]");
                         var gathering3 = sRetainerTaskParameter.AsInt32("Gathering{FSH}[1]");
                         venture.gathering = new JArray(sVenture.RequiredGathering, gathering2, gathering3);

@@ -39,6 +39,9 @@ namespace Garland.Data.Modules
                 recipe.quality = sRecipe.RecipeLevel.Quality;
                 recipe.progress = sRecipe.RecipeLevel.Difficulty;
                 recipe.lvl = sRecipe.RecipeLevelTable.ClassJobLevel;
+                recipe.suggestedCraftsmanship = sRecipe.RecipeLevelTable.SuggestedCraftsmanship;
+                recipe.suggestedControl = sRecipe.RecipeLevelTable.SuggestedControl;
+                recipe.materialQualityFactor = sRecipe.MaterialQualityFactor;
 
                 if (sRecipe.RecipeLevelTable.Stars > 0)
                     recipe.stars = sRecipe.RecipeLevelTable.Stars;
@@ -77,9 +80,6 @@ namespace Garland.Data.Modules
                     _builder.Db.AddReference(unlockItem, "item", sRecipe.ResultItem.Key, false);
                     _builder.Db.AddReference(item, "item", sRecipe.UnlockItem.Key, true);
                 }
-
-                if (sRecipe.RecipeElement.Key != 0)
-                    recipe.element = sRecipe.RecipeElement.Key;
 
                 recipe.ingredients = new JArray();
                 foreach (var ingredient in sRecipe.Ingredients)

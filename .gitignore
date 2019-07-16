@@ -1,11 +1,15 @@
 *.sublime-workspace
 *.code-workspace
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
 */obj/*
 */bin/*
 **/packages/
 .vs/
 *.vspx
 *.psess
-Updates/
-/External/
 Config.json
+/Supplemental/app_data.sqlite
+Updates/
+/Updates/

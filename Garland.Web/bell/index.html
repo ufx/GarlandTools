@@ -8,7 +8,7 @@
     <link rel="shortcut icon" type="image/png" href="../favicon.png">
     <link rel="stylesheet" href="style.css">
 
-    <script src="https://cdn.ravenjs.com/3.26.2/raven.min.js" crossorigin="anonymous"></script>
+    <script src="https://browser.sentry-cdn.com/5.5.0/bundle.min.js" crossorigin="anonymous"></script>
     <script src="../db/ext/jquery-3.1.1.min.js"></script>
     <script src="../db/ext/underscore-1.8.3.min.js"></script>
     <script src="../db/ext/isotope-3.0.1.pkgd.min.js"></script>
@@ -402,6 +402,7 @@
                 <div data-filter=".patch-2" data-invert="0" class="active filter button short" title="A Realm Reborn">{{=gt.t('2.0')}}</div>
                 <div data-filter=".patch-3" data-invert="0" class="active filter button short" title="Heavensward">{{=gt.t('3.0')}}</div>
                 <div data-filter=".patch-4" data-invert="0" class="active filter button short" title="Heavensward">{{=gt.t('4.0')}}</div>
+                <div data-filter=".patch-5" data-invert="0" class="active filter button short" title="Heavensward">{{=gt.t('5.0')}}</div>
 
                 <div class="subheader">{{=gt.t('Classes')}}</div>
                 <div data-filter=".miner" data-invert="0" class="active filter button short"><img src="../files/icons/job/MIN.png" title="{{=gt.t('Mining')}}"></div>
@@ -415,9 +416,8 @@
 
                 <div class="subheader">{{=gt.t('Tasks')}}</div>
 
-                <div data-filter=".collectable" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Collectable')}}"><img src="../db/images/Collectable.png"></div>
                 <div data-filter=".reducible" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Reducible')}}"><img src="../db/images/Reduce.png"></div>
-                <div data-filter=".redscrips" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Red Scrips')}}"><img src="../files/icons/item/65029.png"></div>
+                <div data-filter=".whitescrips" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('White Scrips')}}"><img src="../files/icons/item/65069.png"></div>
                 <div data-filter=".yellowscrips" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Yellow Scrips')}}"><img src="../files/icons/item/65043.png"></div>
                 <div data-filter=".hidden" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Hidden')}}"><img src="icons/Check.svg"></div>
 
@@ -441,7 +441,7 @@
             </div>
 
             <div id="warnings">
-                <div id="audio-blocked" class="warning" style="display: none;">{{=gt.t('Audio notifications are blocked by your browser.  Garland Bell will be unable to sound alerts.')}} <span class="dismiss-link">{{=gt.t('Dismiss.')}}</span></div>
+                <div id="audio-blocked" class="warning" style="display: none;">{{=gt.t('Audio is blocked until you interact with the page.  Dismiss this warning to reenable.')}} <span class="dismiss-link">{{=gt.t('Dismiss.')}}</span></div>
                 <div id="preload-failed" class="warning" style="display: none;">{{=gt.t('Audio preloading is not supported by your browser.  The first notification you receive may not play properly.')}} <span class="dismiss-link">{{=gt.t('Dismiss.')}}</span></div>
                 <div id="notification-blocked" class="warning" style="display: none;">{{=gt.t('Popup notifications can not be displayed.')}} <span class="dismiss-link">{{=gt.t('Dismiss.')}}</span></div>
                 <div id="storage-blocked" class="warning" style="display: none;">{{=gt.t('Local storage is blocked by your browser.  You may be in private browsing mode.  Changes will not be saved.')}} <span class="dismiss-link">{{=gt.t('Dismiss.')}}</span></div>
@@ -583,7 +583,7 @@
                     </div>
 
                     <div class="rotation heavensward">
-                        <div class="info">{{=gt.t('Red Scrips.  470 collectability.  600 GP.')}}</div>
+                        <div class="info">{{=gt.t('Scrips.  470 collectability.  600 GP.')}}</div>
                         <div class="rotation-set">
                             <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
                             <img src="../files/icons/action/1030.png" title="{{=gt.t('Impulsive Appraisal')}}" class="step activate">
@@ -646,7 +646,7 @@
                     </div>
 
                     <div class="rotation stormblood active">
-                        <div class="info">{{=gt.t('Leveling and Red Scrips. 450 collectability.  600 GP.')}}</div>
+                        <div class="info">{{=gt.t('Leveling and Scrips. 450 collectability.  600 GP.')}}</div>
                         <div class="rotation-set">
                             <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
                             <img src="../files/icons/action/1032.png" title="{{=gt.t('Single Mind')}}" class="step activate">
@@ -659,7 +659,7 @@
                     </div>
 
                     <div class="rotation stormblood active">
-                        <div class="info">{{=gt.t('Yellow Scrips.  470 collectability.  Low stat requirement.  600 GP.')}}</div>
+                        <div class="info">{{=gt.t('Scrips.  470 collectability.  Low stat requirement.  600 GP.')}}</div>
                         <div class="rotation-set">
                             <img src="../files/icons/action/1028.png" title="{{=gt.t('Utmost Caution')}}" class="step activate">
                             <img src="../files/icons/action/1087.png" title="{{=gt.t('Impulsive Appraisal II')}}" class="step activate">
@@ -699,7 +699,7 @@
                     </div>
 
                     <div class="rotation stormblood active">
-                        <div class="info">{{=gt.t('Yellow Scrips.  470 collectability.  600 GP.')}}</div>
+                        <div class="info">{{=gt.t('Scrips.  470 collectability.  600 GP.')}}</div>
                         <div class="rotation-set">
                             <img src="../files/icons/action/1026.png" title="{{=gt.t('Discerning Eye')}}" class="step activate">
                             <img src="../files/icons/action/1087.png" title="{{=gt.t('Impulsive Appraisal II')}}" class="step activate">

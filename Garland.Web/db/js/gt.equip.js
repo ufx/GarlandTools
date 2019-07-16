@@ -74,7 +74,7 @@ gt.equip = {
                 return gt.equip.getEndViewModel(job, data);
         }
 
-        console.error('Invalid id for view model', data);
+        console.error('Invalid id for view model', data.id);
         return null;
     },
 
@@ -85,7 +85,7 @@ gt.equip = {
             name: 'Leveling ' + job.name,
             template: gt.equip.levelingTemplate,
             blockClass: 'early tool noexpand',
-            icon: 'images/' + job.abbreviation + '.png',
+            icon: '../files/icons/job/' + job.abbreviation + '.png',
             subheader: 'Recommendation Tool',
             tool: 1,
             settings: 1,
@@ -127,7 +127,7 @@ gt.equip = {
         // Generate the equipment grid within the level range.
         view.equipment = {};
         var startLevel = Math.max(1, view.lvl - 2);
-        var endLevel = Math.min(69, view.lvl + 4);
+        var endLevel = Math.min(equipment.length, view.lvl + 4);
 
         // Each row represents a slot, so start iterating these.
         for (var slot = 0; slot <= 12; slot++) {
@@ -170,7 +170,7 @@ gt.equip = {
             name: 'End Game ' + job.name,
             template: gt.equip.endTemplate,
             blockClass: 'end tool noexpand',
-            icon: 'images/' + job.abbreviation + '.png',
+            icon: '../files/icons/job/' + job.abbreviation + '.png',
             subheader: 'Progression Tool',
             tool: 1,
             settings: 1,
@@ -201,9 +201,10 @@ gt.equip = {
         var $this = $(this);
         var $block = $this.closest('.block');
         var data = $block.data('block');
+        var view = $block.data('view');
 
         data.lvl = parseInt($this.val());
-        data.lvl = Math.min(Math.max(data.lvl, 3), 69)
+        data.lvl = Math.min(Math.max(data.lvl, 3), view.maxLvl);
 
         gt.core.redisplay($block);
         gt.settings.saveDirty();

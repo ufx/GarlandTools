@@ -7108,7 +7108,7 @@ gt.bell.fish = [
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
-    "title": "North Silvertear",
+    "title": "north Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -10878,7 +10878,7 @@ gt.bell.fish = [
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
-    "title": "North Silvertear",
+    "title": "north Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -11038,7 +11038,7 @@ gt.bell.fish = [
     "icon": 29295,
     "func": "fish",
     "rarity": 1,
-    "title": "North Silvertear",
+    "title": "north Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -11434,7 +11434,7 @@ gt.bell.fish = [
     "icon": 29311,
     "func": "fish",
     "rarity": 1,
-    "title": "North Silvertear",
+    "title": "north Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -13911,7 +13911,7 @@ gt.bell.fish = [
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
-    "title": "North Silvertear",
+    "title": "north Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -16401,7 +16401,7 @@ gt.bell.fish = [
     "icon": 29238,
     "func": "fish",
     "rarity": 1,
-    "title": "North Silvertear",
+    "title": "north Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -16731,7 +16731,7 @@ gt.bell.fish = [
     "icon": 29305,
     "func": "fish",
     "rarity": 1,
-    "title": "North Silvertear",
+    "title": "north Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -17979,7 +17979,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "Coerthas Western Highlands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Warballoon",
@@ -18076,7 +18076,7 @@ gt.bell.fish = [
     ],
     "radius": 600,
     "zone": "Coerthas Western Highlands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Icepick",
@@ -18098,7 +18098,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "Coerthas Western Highlands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Ice Faerie",
@@ -18223,7 +18223,7 @@ gt.bell.fish = [
     ],
     "radius": 600,
     "zone": "Coerthas Western Highlands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Albino Octopus",
@@ -18353,7 +18353,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "Coerthas Western Highlands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Bishopfish",
@@ -18819,7 +18819,7 @@ gt.bell.fish = [
     "icon": 29313,
     "func": "fish",
     "rarity": 1,
-    "title": "North Silvertear",
+    "title": "north Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -18846,7 +18846,7 @@ gt.bell.fish = [
     "icon": 29089,
     "func": "fish",
     "rarity": 2,
-    "title": "North Silvertear",
+    "title": "north Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -19268,7 +19268,7 @@ gt.bell.fish = [
     ],
     "radius": 1000,
     "zone": "The Sea of Clouds",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Caiman",
@@ -19736,7 +19736,7 @@ gt.bell.fish = [
     ],
     "radius": 800,
     "zone": "The Sea of Clouds",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Moogle Spirit",
@@ -19757,7 +19757,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "The Diadem",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Vampiric Tapestry",
@@ -19778,7 +19778,7 @@ gt.bell.fish = [
     ],
     "radius": 800,
     "zone": "The Sea of Clouds",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Vampiric Tapestry",
@@ -19799,7 +19799,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "The Diadem",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Heavens Coral",
@@ -20327,7 +20327,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "Azys Lla",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Hundred-eyed Axolotl",
@@ -20460,7 +20460,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "Azys Lla",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Crystal Pigeon",
@@ -20541,7 +20541,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "Azys Lla",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Functional Proto-hropken",
@@ -20653,7 +20653,7 @@ gt.bell.fish = [
     ],
     "radius": 400,
     "zone": "The Dravanian Forelands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Whilom Catfish",
@@ -20674,7 +20674,7 @@ gt.bell.fish = [
     ],
     "radius": 600,
     "zone": "The Dravanian Forelands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Whilom Catfish",
@@ -20695,7 +20695,7 @@ gt.bell.fish = [
     ],
     "radius": 600,
     "zone": "The Dravanian Forelands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Pipira Pira",
@@ -20916,7 +20916,7 @@ gt.bell.fish = [
     ],
     "radius": 400,
     "zone": "The Dravanian Forelands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "River Shrimp",
@@ -21091,7 +21091,7 @@ gt.bell.fish = [
     ],
     "radius": 600,
     "zone": "The Dravanian Forelands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "The Dreamweaver",
@@ -21147,7 +21147,7 @@ gt.bell.fish = [
     ],
     "radius": 900,
     "zone": "The Dravanian Forelands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Thunderbolt Eel",
@@ -21172,7 +21172,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "The Diadem",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Amber Salamander",
@@ -21198,7 +21198,7 @@ gt.bell.fish = [
     ],
     "radius": 900,
     "zone": "The Dravanian Forelands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Thunderscale",
@@ -21682,7 +21682,7 @@ gt.bell.fish = [
     ],
     "radius": 400,
     "zone": "The Dravanian Hinterlands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "The Ewer King",
@@ -21779,7 +21779,7 @@ gt.bell.fish = [
     ],
     "radius": 800,
     "zone": "The Dravanian Hinterlands",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Armored Catfish",
@@ -22029,7 +22029,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "The Churning Mists",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Noontide Oscar",
@@ -22050,7 +22050,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "The Diadem",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Vidofnir",
@@ -22131,7 +22131,7 @@ gt.bell.fish = [
     ],
     "radius": 500,
     "zone": "The Churning Mists",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Weston Bowfin",
@@ -22156,7 +22156,7 @@ gt.bell.fish = [
     ],
     "radius": 500,
     "zone": "The Churning Mists",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Lovers' Clam",
@@ -23740,7 +23740,7 @@ gt.bell.fish = [
     ],
     "radius": 600,
     "zone": "The Fringes",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Greenstream Loach",
@@ -25731,7 +25731,7 @@ gt.bell.fish = [
     ],
     "radius": 1000,
     "zone": "The Ruby Sea",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Harutsuge",
@@ -26137,7 +26137,7 @@ gt.bell.fish = [
     ],
     "radius": 1000,
     "zone": "The Ruby Sea",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Koromo Octopus",
@@ -26646,7 +26646,7 @@ gt.bell.fish = [
     ],
     "radius": 1000,
     "zone": "Yanxia",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Longhair Catfish",
@@ -27401,7 +27401,7 @@ gt.bell.fish = [
     ],
     "radius": 500,
     "zone": "Yanxia",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Blank Oscar",
@@ -27515,7 +27515,7 @@ gt.bell.fish = [
     ],
     "radius": 200,
     "zone": "The Azim Steppe",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Killifish",
@@ -27539,7 +27539,7 @@ gt.bell.fish = [
     ],
     "radius": 500,
     "zone": "Shirogane",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "Zagas Khaal",
@@ -28435,7 +28435,7 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "The Azim Steppe",
-    "scrip": "Red Gatherers' Scrip"
+    "scrip": "Yellow Gatherers' Scrip"
   },
   {
     "name": "The Word of God",

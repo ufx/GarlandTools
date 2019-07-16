@@ -68,7 +68,7 @@ namespace Garland.Data.Modules
                     quest.repeatable = 1;
 
                 // Miscellaneous
-                if (!sQuest.Icon.Path.EndsWith("000000.tex"))
+                if (sQuest.Icon != null)
                     quest.icon = IconDatabase.EnsureEntry("quest", sQuest.Icon);
 
                 if (sQuest.BeastTribe.Key != 0)
@@ -302,7 +302,7 @@ namespace Garland.Data.Modules
                 genre.id = sJournalGenre.Key;
                 genre.name = sJournalGenre.Name.ToString();
 
-                if (!sJournalGenre.Icon.Path.EndsWith("000000.tex"))
+                if (sJournalGenre.Icon != null)
                     genre.icon = IconDatabase.EnsureEntry("journal", sJournalGenre.Icon);
 
                 genre.category = sJournalGenre.JournalCategory.Name.ToString();

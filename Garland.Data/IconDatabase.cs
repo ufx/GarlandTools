@@ -14,7 +14,7 @@ namespace Garland.Data
 
         public static int EnsureEntry(string type, ImageFile icon, int id)
         {
-            if (icon.Path.EndsWith("000000.tex"))
+            if (icon == null || icon.Path.EndsWith("000000.tex"))
             {
                 // If you've triggered this it's usually because a reference
                 // to bad data crept in somewhere.  Check up the stack!

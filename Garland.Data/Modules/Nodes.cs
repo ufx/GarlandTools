@@ -229,7 +229,7 @@ namespace Garland.Data.Modules
         {
             var viewsByNodeId = new Dictionary<int, dynamic>();
 
-            var lines = Utils.Tsv("Supplemental\\FFXIV Data - Nodes.tsv");
+            var lines = Utils.Tsv(System.IO.Path.Combine(Config.SupplementalPath, "FFXIV Data - Nodes.tsv"));
             foreach (var line in lines.Skip(1))
             {
                 var itemName = line[0];
@@ -237,9 +237,8 @@ namespace Garland.Data.Modules
                 var nodeId = int.Parse(line[2]);
                 var times = Utils.IntComma(line[3]);
                 var uptime = int.Parse(line[4]);
-                var coords = Utils.IntComma(line[5]);
-                var areaName = line[6];
-                var type = line[7];
+                var coords = Utils.FloatComma(line[5]);
+                var type = line[6];
 
                 var item = _builder.Db.ItemsByName[itemName];
 
@@ -248,21 +247,17 @@ namespace Garland.Data.Modules
 
                 node.limitType = type;
                 node.uptime = uptime;
-                node.coords = new JArray(coords);
+                if (coords != null)
+                    node.coords = new JArray(coords);
                 node.time = new JArray(times);
 
-                if (node.areaid == null && areaName != "")
-                {
-                    var areaId = _builder.Db.LocationIdsByName[areaName];
-                    _builder.Db.AddLocationReference(areaId);
-                    node.areaid = areaId;
-                    node.name = areaName;
-                }
+                if (node.areaid == null)
+                    throw new Exception($"No area name for node {nodeId}.");
 
                 var nodeItems = (JArray)node.items;
                 dynamic nodeItem = nodeItems.FirstOrDefault(ni => (int)ni["id"] == (int)item.id);
                 if (nodeItem == null)
-                    throw new Exception("Invalid item " + itemName + " on node " + areaName);
+                    throw new Exception($"Invalid item {itemName} on node {nodeId}.");
                 nodeItem.slot = slot;
 
                 // Next build up the gathering node view.

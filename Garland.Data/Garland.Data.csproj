@@ -92,6 +92,7 @@
     <Compile Include="Models\ParameterInfo.cs" />
     <Compile Include="Models\Patch.cs" />
     <Compile Include="Modules\Achievements.cs" />
+    <Compile Include="Modules\Statuses.cs" />
     <Compile Include="Modules\Actions.cs" />
     <Compile Include="Modules\Customize.cs" />
     <Compile Include="Modules\DisposalShops.cs" />
@@ -157,19 +158,19 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SaintCoinach\DotSquish\DotSquish.csproj">
+    <ProjectReference Include="..\lib\SaintCoinach\DotSquish\DotSquish.csproj">
       <Project>{f9681545-4bea-4fd3-9ab9-a67bd37ab36d}</Project>
       <Name>DotSquish</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SaintCoinach\SaintCoinach.Graphics.Viewer\SaintCoinach.Graphics.Viewer.csproj">
+    <ProjectReference Include="..\lib\SaintCoinach\SaintCoinach.Graphics.Viewer\SaintCoinach.Graphics.Viewer.csproj">
       <Project>{226bf71e-334f-4585-8fec-4239704cf539}</Project>
       <Name>SaintCoinach.Graphics.Viewer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SaintCoinach\SaintCoinach\SaintCoinach.csproj">
+    <ProjectReference Include="..\lib\SaintCoinach\SaintCoinach\SaintCoinach.csproj">
       <Project>{8a7d65eb-3de3-4631-b286-cc73a3126002}</Project>
       <Name>SaintCoinach</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SaintCoinach\YamlDotNet\YamlDotNet.csproj">
+    <ProjectReference Include="..\lib\SaintCoinach\YamlDotNet\YamlDotNet.csproj">
       <Project>{bf32de1b-6276-4341-b212-f8862adbba7a}</Project>
       <Name>YamlDotNet</Name>
     </ProjectReference>

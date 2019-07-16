@@ -15,7 +15,7 @@ namespace Garland.Data.Models
         public string Part;
         public int Phase;
         public string StepId;
-        public int QualityPerItem;
+        public float QualityPerItem;
 
         public IngredientModel(Item item, int quantity)
             : this(item, quantity, null, 0) { }

@@ -9,7 +9,7 @@
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Garland Data Search" />
     <link rel="manifest" href="manifest.json">
 
-    <script src="https://cdn.ravenjs.com/3.26.2/raven.min.js" crossorigin="anonymous"></script>
+    <script src="https://browser.sentry-cdn.com/5.5.0/bundle.min.js" crossorigin="anonymous"></script>
     <script src="ext/jquery-3.1.1.min.js"></script>
     <script src="ext/underscore-1.8.3.min.js"></script>
     <script src="ext/isotope-3.0.1.pkgd.min.js"></script>
@@ -27,7 +27,7 @@
         <div class="collapse-toggle source-link block-link pointer line hover-highlight" data-id="{{=it.id}}" data-type="item">
             {{?it.vendors}}
                 <div class="right">
-                    <img class="icon small" src="../files/icons/item/1.png">{{=it.price.toLocaleString()}}
+                    <img class="icon small" src="../files/icons/item/65002.png">{{=it.price.toLocaleString()}}
                 </div>
             {{??it.groupTradeSource && it.groupTradeSource.item}}
                 <div class="right">
@@ -51,10 +51,9 @@
             <h2>Materia Melding</h2>
 
             <div class="filters">
-                <img src="../files/icons/item/20263.png" data-category="category0" class="category0" title="DoW/DoM Materia">
+                <img src="../files/icons/item/20263.png" data-category="category0" class="category0" title="DoWoM Materia">
                 <img src="../files/icons/item/20266.png" data-category="category2" class="category2" title="DoL Materia">
                 <img src="../files/icons/item/20270.png" data-category="category1" class="category1" title="DoH Materia">
-                <img src="../files/icons/item/20268.png" data-category="category19" class="category19" title="Elemental Materia">
             </div>
 
             <div class="materia line notmelded hover-highlight pointer row" data-id="0">
@@ -235,7 +234,7 @@
                 {{?}}
                 <img src="images/x.svg" class="close-button button">
                 {{?it.icon}}
-                    <img src="{{=it.icon}}" class="icon title-icon {{?it.iconBorder}}border{{?}}">
+                    <img src="{{=it.icon}}" class="icon title-icon {{?it.iconBorder}}border{{?}} {{?it.type === 'status'}}status{{?}}">
                 {{?}}
                 <h1 class="name {{?it.nameClass}}{{=it.nameClass}}{{?}}">
                     {{?it.patch != '??' && it.patch >= gt.patch.current}}<img class="icon patch" src="images/LatestPatch.png" title="Latest Patch {{=it.patch}}">{{?}}
@@ -544,6 +543,12 @@
                     <div class="aggregate-leves collapsible" data-headername="leves-total">
                         <h3 class="pointer">Leve Calculator</h3>
 
+                        <div>
+                            Current Level <input type="number" class="current-level" min="0" max="{{=gt.xp.length-1}}" value="{{=it.currentLevel}}">
+                            XP <input type="number" value="{{=it.currentXp}}" class="current-xp" min="0">
+                            <hr>
+                        </div>
+
                         <div class="attributes prime collapse-toggle">
                             <img class="reward-icon" src="images/xp.png" title="Experience">
 
@@ -559,8 +564,24 @@
                                     <span class="value">{{=it.aggregateLeves.hqXp.toLocaleString()}}</span>
                                     <hr>
                                 </div>
-                            {{?}}                            
+                            {{?}}
                         </div>
+
+                        {{?it.aggregateLeves.toStep}}
+                            <div class="attributes prime collapse-toggle">
+                                <div class="attribute">
+                                    <span class="name">XP to Lv {{=it.aggregateLeves.levelStep}}</span>
+                                    <span class="value">{{=it.aggregateLeves.toStep.toLocaleString()}}</span>
+                                    <hr>
+                                </div>
+
+                                <div class="attribute">
+                                    <span class="name"># Required</span>
+                                    <span class="value">{{=it.aggregateLeves.nqLevesToStep}}{{?it.aggregateLeves.hqLevesToStep}} / {{=it.aggregateLeves.hqLevesToStep}}{{?}}</span>
+                                    <hr>
+                                </div>
+                            </div>
+                        {{?}}
                     </div>
                 {{?}}
 
@@ -682,7 +703,7 @@
 
     <script id="search-result-template" type="text/x-dot-template">
         <div class="block-link search-result pointer hover-highlight {{=it.type}}" data-id="{{=it.id}}" data-type="{{=it.type}}">
-            <img class="icon small left" src="{{=it.icon}}" title="{{=it.name}}">
+            <img class="icon small left {{?it.type === 'status'}}status{{?}}" src="{{=it.icon}}" title="{{=it.name}}">
             <span class="name">{{=it.name}}</span>
             {{?it.byline}} <span class="byline">{{=it.byline}}</span>{{?}}
         </div>
@@ -786,6 +807,23 @@
                         {{?it.advancedMeldingForbidden}}<span class="inline-block"><span class="circle"></span>Advanced Melding Forbidden</span>{{?}}
                         {{?it.tripletriad && it.tripletriad.sellMgp}}<span class="inline-block"><span class="circle"></span>Sells for {{=it.tripletriad.sellMgp}} MGP</span>{{?}}
                     </div>
+
+                    {{?it.craftSource}}
+                        <div class="craft-source subsection">
+                            <h3>Craft Source</h3>
+                            <div class="line {{?it.craftSourceType}}block-link hover-highlight pointer{{?}}" data-id="{{=it.craftSource.id}}" data-type="{{=it.craftSource.type}}">
+                                <span class="{{?it.craftSource.limited}}specialist{{?}}">
+                                    <span {{?it.craftSourceType}}class="highlight"{{?}}>
+                                        {{=it.craftSource.longSourceName || it.craftSource.sourceName}}
+                                        {{?it.craftSource.stars}} {{=gt.util.stars(it.craftSource.stars)}}{{?}}
+                                    </span>
+                                    {{?it.craftSource.icon}}
+                                        <img class="icon small" src="{{=it.craftSource.icon}}">
+                                    {{?}}
+                                </span>
+                            </div>
+                        </div>
+                    {{?}}
 
                     <div class="clear-left"></div>
                 </div>
@@ -1072,14 +1110,22 @@
 
             {{?it.hasSourcesUses}}
                 <div class="sources-uses-page page">
-                    {{?it.ingredient_of && it.craft && (it.vendors || it.ventures || it.nodes)}}
-                        <div class="source-link line" data-id="0" data-type="craft">
-                            <label><input type="checkbox"> Craft with {{=gt.jobs[it.craft.job].abbreviation}} Lv. {{=it.craft.lvl}}</label>
+                    {{?(it.ingredient_of && it.craft) || (it.sell_price)}}
+                        <div class="subsection">
+                            {{?it.ingredient_of && it.craft && (it.vendors || it.ventures || it.nodes)}}
+                                <div class="source-link line" data-id="0" data-type="craft">
+                                    <label><input type="checkbox"> Craft with {{=gt.jobs[it.craft.job].abbreviation}} Lv. {{=it.craft.lvl}}</label>
+                                </div>
+                            {{?}}
+
+                            {{?it.sell_price}}
+                                <div class="line">Sells to vendors for <img class="icon small" src="../files/icons/item/65002.png" title="Gil"> {{=it.sell_price.toLocaleString()}}</div>
+                            {{?}}
                         </div>
                     {{?}}
 
-                    {{?it.sell_price}}
-                        <div>Sells to vendors for {{=it.sell_price.toLocaleString()}} gil</div>
+                    {{?it.ingredient_of}}
+                        <div class="deemphasize">Set preferred craft sources with the checkboxes below.</div>
                     {{?}}
 
                     {{?(it.ingredient_of || it.craft || it.obj.category == 59) && !it.unlistable && !it.untradeable}}
@@ -1104,7 +1150,7 @@
                             {{?it.vendors}}
                                 {{~it.vendors :value:index}}
                                     <div class="collapse-toggle source-link block-link pointer line hover-highlight" data-id="{{=value.id}}" data-type="npc">
-                                        <div class="right"><img class="icon small" src="../files/icons/item/1.png">{{=it.price.toLocaleString()}}</div>
+                                        <div class="right"><img class="icon small" src="../files/icons/item/65002.png">{{=it.price.toLocaleString()}}</div>
                                         <div class="overflow-wrapper">
                                             {{?it.ingredient_of}}<input type="checkbox">{{?}}
                                             <span class="highlight">{{=value.name}}</span>
@@ -1527,7 +1573,7 @@
                                     <tr>
                                         <td><img src="images/Collectable.png" class="icon small">{{=satisfaction.rating[0]}}</td>
                                         <td><img src="images/Satisfaction.png" class="icon small">{{=satisfaction.satisfaction[0]}}</td>
-                                        <td><img src="../files/icons/item/1.png" class="icon small" >{{=satisfaction.gil[0].toLocaleString()}}</td>
+                                        <td><img src="../files/icons/item/65002.png" class="icon small" >{{=satisfaction.gil[0].toLocaleString()}}</td>
                                         {{~satisfaction.items :rewardItem:rindex}}
                                             <td><img class="icon small" src="{{=rewardItem.icon}}" title="{{=rewardItem.name}}">{{=rewardItem.amount[0]}}</td>
                                         {{~}}
@@ -1743,7 +1789,7 @@
 
                         <div class="line collapse-toggle">
                             <span class="action-link unselectable copy-recipe">Copy recipe.</span> 
-                            <a href="http://ermad.github.io/ffxiv-craft-opt-web/app/#/recipe?lang={{=gt.settings.data.lang}}&class={{=gt.jobs[it.craft.job].name}}&name={{=it.name}}" target="_blank">Open simulator.</a>
+                            <a href="https://ffxivteamcraft.com/simulator/{{=it.id}}/{{=it.craft.id}}" target="_blank">Open simulator.</a>
                             <span class="action-link unselectable new-group">Add to crafting list.</span>
                         </div>
                     </div>
@@ -1849,7 +1895,7 @@
                                 <div class="line collapse-toggle block-link hover-highlight pointer" data-id="{{=value.id}}" data-type="item">
                                     <img class="icon small" src="{{=value.icon}}">
                                     <span class="highlight">{{=value.name}}</span>
-                                    <span class="price right"><img src="../files/icons/item/1.png" title="Gil" class="icon small">{{=value.price.toLocaleString()}}</span>
+                                    <span class="price right"><img src="../files/icons/item/65002.png" title="Gil" class="icon small">{{=value.price.toLocaleString()}}</span>
                                 </div>
                             {{~}}
                         </div>
@@ -2107,7 +2153,7 @@
 
                         {{?it.gil}}
                             <div class="reward prime">
-                                <img class="reward-icon" src="../files/icons/item/1.png" title="Gil">
+                                <img class="reward-icon" src="../files/icons/item/65002.png" title="Gil">
                                 <span class="value">{{=it.gil}}</span>
                                 <hr>
                             </div>
@@ -2210,7 +2256,7 @@
 
                         {{?it.reward.gil}}
                             <div class="reward prime">
-                                <img class="reward-icon" src="../files/icons/item/1.png" title="Gil">
+                                <img class="reward-icon" src="../files/icons/item/65002.png" title="Gil">
                                 <span class="value">{{=it.reward.gil}}</span>
                                 <hr>
                             </div>
@@ -2779,6 +2825,67 @@
                 <div class="separator"></div>
 
                 {{~it.status :status:sindex}}
+                    <div class="collapse-toggle block-link hover-highlight line half pointer" data-type="status" data-id="{{=status.id}}">
+                            <img src="{{=status.icon}}" class="icon small status">
+                            <span class="highlight text">{{=status.name}}</span> <span class="text">{{=status.relationship}}</span>
+                    </div>
+                {{~}}
+            {{?}}
+
+            {{?it.comboFrom || it.comboTo}}
+                <div class="combo subsection collapsible" data-headername="combo">
+                    <h3 class="pointer">Combos</h3>
+
+                    {{?it.comboFrom}}
+                        <div class="collapse-toggle block-link hover-highlight line pointer" data-type="action" data-id="{{=it.comboFrom.id}}">
+                            <span class="text right">From Weaponskill</span>
+                            <img src="{{=it.comboFrom.icon}}" class="icon small">
+                            <span class="highlight text">{{=it.comboFrom.name}}</span>
+                        </div>
+                    {{?}}
+
+                    {{?it.comboTo}}
+                        {{~it.comboTo :combo:cindex}}
+                            <div class="collapse-toggle block-link hover-highlight line pointer" data-type="action" data-id="{{=combo.id}}">
+                                <span class="text right">To Weaponskill</span>
+                                <img src="{{=combo.icon}}" class="icon small">
+                                <span class="highlight text">{{=combo.name}}</span>
+                            </div>
+                        {{~}}
+                    {{?}}
+                </div>
+            {{?}}
+
+            {{?it.traits}}
+                <div class="trait subsection collapsible" data-headername="traits">
+                    <h3 class="pointer">Traits</h3>
+
+                    {{~it.traits :trait:tindex}}
+                        <div class="collapse-toggle block-link hover-highlight line half pointer" data-type="action" data-id="{{=trait.id}}">
+                            <img src="{{=trait.icon}}" class="icon small">
+                            <span class="highlight text">{{=trait.name}}</span>
+                        </div>
+                    {{~}}
+                </div>
+            {{?}}
+        </div>
+    </script>
+
+    <script id="block-status-template" type="text/x-dot-template">
+        <div class="content main">
+            <div class="description">{{=it.desc}}</div>
+
+            <div class="clear"></div>
+
+            <hr>
+
+            <div><span class="highlight">Category</span> {{=it.category}}</div>
+            <div><span class="highlight">Can Dispel</span> {{?it.canDispel === true}}Yes{{?}}{{?it.canDispel === false}}No{{?}}</div>
+
+            {{?it.status}}
+                <div class="separator"></div>
+
+                {{~it.status :status:sindex}}
                     <div class="line status">
                         <img src="{{=status.icon}}" class="icon small" title="{{=status.desc}}">
                         <span class="text">{{=status.name}} {{=status.relationship}}</span>
@@ -3040,7 +3147,7 @@
                 <span class="text">Revenue</span>
                 <span class="right">
                     <span class="text">{{=it.revenue.toLocaleString()}}</span>
-                    <img class="job-icon" src="../files/icons/item/1.png">
+                    <img class="job-icon" src="../files/icons/item/65002.png">
                 </span>
             </div>
             {{?it.expense > 0}}
@@ -3048,7 +3155,7 @@
                     <span class="text">Expenses</span>
                     <span class="right">
                         <span class="text">-{{=it.expense.toLocaleString()}}</span>
-                        <img class="job-icon" src="../files/icons/item/1.png">
+                        <img class="job-icon" src="../files/icons/item/65002.png">
                     </span>
                 </div>
             {{?}}
@@ -3057,7 +3164,7 @@
                 <span class="text">Net Profit</span>
                 <span class="right">
                     <span class="text">{{=it.profit.toLocaleString()}}</span>
-                    <img class="job-icon" src="../files/icons/item/1.png">
+                    <img class="job-icon" src="../files/icons/item/65002.png">
                 </span>
             </div>
         </div>
@@ -3252,6 +3359,10 @@
                     <img src="../files/icons/action/103.png" class="icon small">
                     <span class="text">Actions</span>
                 </div>
+                <div class="block-link hover-highlight icon-button" data-type="browse" data-id="status">
+                    <img src="../files/icons/status/10101.png" class="icon small">
+                    <span class="text">Status Effects</span>
+                </div>
                 <div class="block-link hover-highlight icon-button" data-type="browse" data-id="achievement">
                     <img src="../files/icons/achievement/3773.png" class="icon small">
                     <span class="text">Achievements</span>
@@ -3333,7 +3444,7 @@
 
                 <h3>FAQ</h3>
                 <div class="question">Can I contribute to the database?</div>
-                For corrections or bug reports, please <a href="/">leave a comment here</a>.
+                Data can be submitted via the <a href="https://docs.google.com/spreadsheets/d/1hEj9KCDv0TT1NiGJ0S7afS4hfGMPb6tetqXQetYETUE/edit">FFXIV Data Spreadsheet</a>.  Please request permission on the sheet with a note on what you'd like to change.
 
                 <div class="separator"></div>
                 <div class="question">Why are there checkboxes next to item sources?</div>
@@ -3373,7 +3484,6 @@
                     <li><a href="https://ffxivteamcraft.com">FFXIV Teamcraft</a> Shared crafting lists.</li>
                     <li><a href="http://ffxiv.ariyala.com">Ariyala's Final Fantasy XIV Toolkit</a></li>
                     <li><a href="http://www.ffxivcrafting.com">Crafting as a Service</a> Crafting lists.</li>
-                    <li><a href="http://ffxiv-beta.lokyst.net/#/simulator">FFXIV Crafting Optimizer</a> Crafting simulator.</li>
                     <li><a href="http://super-aardvark.github.io/yuryu/">FFXIV Cactpot Solver</a></li>
                     <li><a href="http://vistas.explorexiv.com/">explore x|v</a> Sightseeing log.</li>
                     <li><a href="http://www.ffxivgardening.com/">FFXIV Gardening</a></li>

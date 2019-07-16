@@ -144,11 +144,13 @@ namespace Garland.Data
             ItemPatchCategoryByUICategory[103] = 15; // Submersible Bow
             ItemPatchCategoryByUICategory[104] = 15; // Submersible Bridge
             ItemPatchCategoryByUICategory[105] = 0; // Blue Mage's Arm
+            ItemPatchCategoryByUICategory[106] = 0; // Gunbreaker's Arm
+            ItemPatchCategoryByUICategory[107] = 0; // Dancer's Arm
         }
 
         public static void Initialize()
         {
-            var patchData = (JArray)JsonConvert.DeserializeObject(File.ReadAllText("Supplemental\\patches.json"));
+            var patchData = (JArray)JsonConvert.DeserializeObject(File.ReadAllText(Config.PatchesPath));
             foreach (dynamic obj in patchData)
             {
                 var type = (string)obj.type;
@@ -256,7 +258,7 @@ namespace Garland.Data
                     }
 
                     var patchKey = patchPair.Key;
-                    var patchKeyStr = Math.Floor(patchKey) == patchKey ? patchPair.Key.ToString("0.0", new CultureInfo("en-US", false)) : patchPair.Key.ToString();
+                    var patchKeyStr = Math.Floor(patchKey) == patchKey ? patchPair.Key.ToString("0.0", new CultureInfo("en-US", false)) : patchPair.Key.ToString(new CultureInfo("en-US", false));
                     patches[patchKeyStr] = patch;
                 }
 
@@ -304,7 +306,10 @@ namespace Garland.Data
             var contents = JsonConvert.SerializeObject(patches);
             contents = contents.Replace("},", "},\r\n");
 
-            File.WriteAllText(Config.SupplementalPath + "patches.json", contents, Encoding.UTF8);
+            if (!Directory.Exists(Config.SupplementalPath))
+                Directory.CreateDirectory(Config.SupplementalPath);
+
+            File.WriteAllText(Config.PatchesPath, contents, Encoding.UTF8);
         }
 
         public static int GetPatchCategory(SaintCoinach.Xiv.Item item)
@@ -347,7 +352,8 @@ namespace Garland.Data
                 return 3;
             }
 
-            throw new NotImplementedException();
+            // If you're reading this update the ItemPatchCategoryByUICategory map at the top of this file.
+            throw new NotImplementedException($"Unknown patch category for {item.Name} ({item.Key}), ItemUICategory {item.ItemUICategory.Key}");
         }
 
         public static int? GetAttributePatchCategory(SaintCoinach.Xiv.BaseParam param)

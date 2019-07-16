@@ -15,6 +15,9 @@ namespace Garland.UI
 
         public static string FormatHtmlDiff(string original, string updated)
         {
+            if (original == null || updated == null)
+                return "";
+
             var diffAlg = new Garland.UI.External.diff_match_patch();
             var diffs = diffAlg.diff_lineModeCustom(original, updated, DateTime.MaxValue);
             diffAlg.diff_cleanupSemantic(diffs);

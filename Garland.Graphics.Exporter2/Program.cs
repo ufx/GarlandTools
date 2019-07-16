@@ -21,7 +21,7 @@ namespace Garland.Graphics.Exporter
 {
     class Program
     {
-        const string ConfigPath = @"..\\..\\..\\Config.json";
+        const string ConfigPath = @"..\\..\\..\\..\\Config.json";
 
         static string _repoPath;
         static string _gamePath;
@@ -45,7 +45,7 @@ namespace Garland.Graphics.Exporter
             _companions = new Companions(_gameDir, lang);
             _housing = new Housing(_gameDir, lang);
 
-            BatchExport();
+            BatchExport().Wait();
 
             Console.WriteLine("Done");
             Console.ReadKey();
@@ -59,55 +59,45 @@ namespace Garland.Graphics.Exporter
             _gamePath = Path.Combine((string)values.gamePath, @"game\sqpack\ffxiv");
         }
 
-        static void BatchExport()
+        static async Task BatchExport()
         {
             _repo = new ExportRepository(Path.Combine(_repoPath, "repo"));
 
             // Gear
+            WriteLine("Exporting gear...");
             var badGear = new HashSet<string>(new[]
             {
-                "Doman Iron Hatchet", "Doman Iron Pickaxe",
+                // ARR
+                "SmallClothes Body", "SmallClothes Feet", "SmallClothes Legs",
                 "Mammon Lucis", "Kurdalegon Lucis", "Rauni Lucis",
                 "Kurdalegon Supra", "Rauni Supra",
-                "SmallClothes Body", "SmallClothes Feet", "SmallClothes Legs"
+
+                // Stormblood
+                "Doman Iron Hatchet", "Doman Iron Pickaxe",
+
+                // Shadowbringers
+                "Bluespirit Hatchet", "Weathered Godhands"
             });
 
-            var gearList = _gear.GetGearList()
+            var gearList = (await _gear.GetGearList())
                 .Where(g => !badGear.Contains(g.Name));
             foreach (var item in gearList)
             {
                 var primaryPath = EnsurePath(item.EquipSlotCategory.ToString(), item.ModelInfo);
-                BatchExportItem(primaryPath, item, null, () => _gear.GetRacesForModels(item, item.DataFile));
+                await BatchExportItem(primaryPath, item, null, () => _gear.GetRacesForModels(item, item.DataFile));
 
                 if (item.SecondaryModelInfo.ModelID != 0)
                 {
                     var secondaryPath = EnsurePath(item.EquipSlotCategory.ToString(), item.SecondaryModelInfo);
-                    BatchExportItem(secondaryPath, item, item.SecondaryModelInfo, () => _gear.GetRacesForModels(item, item.DataFile));
+                    await BatchExportItem(secondaryPath, item, item.SecondaryModelInfo, () => _gear.GetRacesForModels(item, item.DataFile));
                 }
             }
 
-            var monsters = new XivRace[] { XivRace.Monster };
-
-            // Minions
-            var minionList = _companions.GetMinionList();
-            foreach (var minion in minionList)
-            {
-                var modelKey = $"{minion.ModelInfo.ModelID}-{minion.ModelInfo.Body}-{minion.ModelInfo.Variant}";
-                var path = EnsurePath("minion", modelKey);
-                BatchExportItem(path, minion, null, () => monsters);
-            }
-
-            // Mounts
-            var mountList = _companions.GetMountList();
-            foreach (var mount in mountList)
-            {
-                var modelKey = $"{mount.ModelInfo.ModelID}-{mount.ModelInfo.Body}-{mount.ModelInfo.Variant}";
-                var path = EnsurePath("mount", modelKey);
-                BatchExportItem(path, mount, null, () => monsters);
-            }
+            var monsters = new XivRace[] { XivRace.Monster }.ToList();
 
             // Housing
-            var furnitureList = _housing.GetFurnitureList();
+            WriteLine("Exporting furniture...");
+            var furnitureList = await _housing.GetFurnitureList();
             foreach (var furniture in furnitureList)
             {
                 var modelKey = $"{furniture.ModelInfo.ModelID}";
@@ -115,16 +105,36 @@ namespace Garland.Graphics.Exporter
 
                 try
                 {
-                    BatchExportItem(path, furniture, null, () => monsters);
+                    await BatchExportItem(path, furniture, null, () => Task.FromResult(monsters));
                 }
                 catch (Exception ex)
                 {
                     WriteLine($"Unable to export {furniture.Name}: {ex.Message}");
                 }
             }
+
+            // Mounts
+            WriteLine("Exporting mounts...");
+            var mountList = await _companions.GetMountList();
+            foreach (var mount in mountList)
+            {
+                var modelKey = $"{mount.ModelInfo.ModelID}-{mount.ModelInfo.Body}-{mount.ModelInfo.Variant}";
+                var path = EnsurePath("mount", modelKey);
+                await BatchExportItem(path, mount, null, () => Task.FromResult(monsters));
+            }
+
+            // Minions
+            WriteLine("Exporting minions...");
+            var minionList = await _companions.GetMinionList();
+            foreach (var minion in minionList)
+            {
+                var modelKey = $"{minion.ModelInfo.ModelID}-{minion.ModelInfo.Body}-{minion.ModelInfo.Variant}";
+                var path = EnsurePath("minion", modelKey);
+                await BatchExportItem(path, minion, null, () => Task.FromResult(monsters));
+            }
         }
 
-        static void BatchExportItem(string path, IItemModel item, XivModelInfo secondaryModelInfo, Func<IEnumerable<XivRace>> getRaces)
+        static async Task BatchExportItem(string path, IItemModel item, XivModelInfo secondaryModelInfo, Func<Task<List<XivRace>>> getRaces)
         {
             if (File.Exists(path))
                 return;
@@ -135,11 +145,11 @@ namespace Garland.Graphics.Exporter
             metadata.Name = item.Name;
 
             var mdl = new Mdl(_gameDir, item.DataFile);
-            var races = getRaces();
+            var races = await getRaces();
             foreach (var race in races)
             {
-                var mdlData = mdl.GetMdlData(item, race, secondaryModelInfo);
-                var textures = TexTools.MaterialsHelper.GetMaterials(_gameDir, item, mdlData, race);
+                var mdlData = await mdl.GetMdlData(item, race, secondaryModelInfo);
+                var textures = await TexTools.MaterialsHelper.GetMaterials(_gameDir, item, mdlData, race);
 
                 var set = BatchExportSet(mdlData, textures);
                 set.Name = TexTools.XivStringRaces.ToRaceGenderName(race);

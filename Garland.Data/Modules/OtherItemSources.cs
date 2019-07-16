@@ -19,7 +19,7 @@ namespace Garland.Data.Modules
         {
             _venturesByName = _builder.Db.Ventures.Where(v => v.name != null).ToDictionary(v => (string)v.name);
 
-            var lines = Utils.Tsv("Supplemental\\FFXIV Data - Items.tsv");
+            var lines = Utils.Tsv(Path.Combine(Config.SupplementalPath, "FFXIV Data - Items.tsv"));
             foreach (var line in lines.Skip(1))
             {
                 var type = line[1];

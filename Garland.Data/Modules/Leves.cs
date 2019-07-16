@@ -128,8 +128,8 @@ namespace Garland.Data.Modules
                 }
             }
 
-            leve.plate = Utils.GetIconId(sLeve.PlateIcon);
-            leve.frame = Utils.GetIconId(sLeve.FrameIcon);
+            leve.plate = IconDatabase.EnsureEntry("leve\\plate", sLeve.PlateIcon);
+            leve.frame = IconDatabase.EnsureEntry("leve\\frame", sLeve.FrameIcon);
             leve.areaicon = IconDatabase.EnsureEntry("leve\\area", sLeve.IssuerIcon);
 
             // Find turn-ins for crafting and fisher leves.

@@ -97,7 +97,8 @@ namespace Garland.Data
             return Utils.Capitalize(
                 Utils.RemoveLineBreaks(
                 Utils.SanitizeTags(name)))
-                .Replace("–", "-");
+                .Replace("–", "-")
+                .Replace("  ", " ");
         }
 
         public static IEnumerable<string[]> Tsv(string path)
@@ -114,7 +115,18 @@ namespace Garland.Data
 
         public static int[] IntComma(string str)
         {
+            if (string.IsNullOrEmpty(str))
+                return null;
+
             return Comma(str).Select(int.Parse).ToArray();
+        }
+
+        public static float[] FloatComma(string str)
+        {
+            if (string.IsNullOrEmpty(str))
+                return null;
+
+            return Comma(str).Select(float.Parse).ToArray();
         }
 
         public static string[] Tokenize(string[] delimiters, string str)

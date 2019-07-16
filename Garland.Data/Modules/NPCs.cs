@@ -141,7 +141,7 @@ namespace Garland.Data.Modules
 
         void BuildSupplementalData()
         {
-            var lines = Utils.Tsv("Supplemental\\FFXIV Data - NPCs.tsv");
+            var lines = Utils.Tsv(System.IO.Path.Combine(Config.SupplementalPath, "FFXIV Data - NPCs.tsv"));
             foreach (var line in lines.Skip(1))
             {
                 var id = int.Parse(line[1]);
@@ -301,9 +301,17 @@ namespace Garland.Data.Modules
                     if (!facialfeatures[i])
                         continue;
 
-                    // Columns are split into groups of 6, 1 for each face type.
-                    var iconIndex = (i * 6) + face - 1;
-                    var icon = (ImageFile)type["FacialFeatureIcon[" + iconIndex + "]"];
+                    var iconIndex = (i * 8) + face - 1;
+                    if (race.Key == 7)
+                    {
+                        // Hrothgar are shifted up by 1 or 2.
+                        iconIndex++;
+                    }
+
+                    var column = "FacialFeatureIcon[" + iconIndex + "]";
+                    var icon = (ImageFile)type[column];
+                    if (icon == null)
+                        continue; // Nothing to show.
                     appearance.facialfeatures.Add(IconDatabase.EnsureEntry("customize", icon));
                 }
 
@@ -359,10 +367,12 @@ namespace Garland.Data.Modules
 
                 case 2: // Elezen
                 case 3: // Lalafell
+                case 8: // Viera
                     return "Ears";
 
                 case 4: // Miqo'te
                 case 6: // Au Ra
+                case 7: // Hrothgar
                     return "Tail";
             }
 
@@ -434,7 +444,6 @@ namespace Garland.Data.Modules
                 case 12: // Xaela
                     return isMale ? 1200 : 1300;
 
-                // todo: Tentative
                 // No alternate genders for Hrothgar, Viera.
                 // For Hrothgar, these might be faces too?
                 case 13: // Helions 
@@ -450,8 +459,7 @@ namespace Garland.Data.Modules
 
         static int GetFacePaintCustomizeIndex(int tribeKey, bool isMale)
         {
-            //const int baseRowKey = 1600; // SH
-            const int baseRowKey = 1400; // SB
+            const int baseRowKey = 1600; // SH
 
             switch (tribeKey)
             {
@@ -470,7 +478,6 @@ namespace Garland.Data.Modules
                     var tribeOffset = baseRowKey + ((tribeKey - 1) * 100);
                     return isMale ? tribeOffset : tribeOffset + 50;
 
-                // todo: Tentative
                 case 13: // Helions
                     return 2800;
                 case 14: // The Lost

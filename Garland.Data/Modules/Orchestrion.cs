@@ -12,7 +12,6 @@ namespace Garland.Data.Modules
 {
     public class Orchestrion : Module
     {
-        const string _baseMusicPath = "output\\orchestrion";
         string _resultMusicPath;
 
         public override string Name => "Orchestrion";
@@ -22,6 +21,7 @@ namespace Garland.Data.Modules
             _resultMusicPath = Path.Combine(Config.FilesPath, "orchestrion");
 
             Directory.CreateDirectory(_resultMusicPath);
+            Directory.CreateDirectory("output");
 
             var sOrchestrions = _builder.Sheet("Orchestrion");
             var sOrchestrionUiparams = _builder.Sheet("OrchestrionUiparam");
@@ -78,7 +78,7 @@ namespace Garland.Data.Modules
 
                 var ffmpeg = new Process();
                 ffmpeg.StartInfo = new ProcessStartInfo(Config.FfmpegPath, "-ss 00:00:10.0 -t 00:00:15.0 -i output\\input.ogg -acodec libvorbis -b:a 32k output\\output.ogg");
-                ffmpeg.StartInfo.WindowStyle = ProcessWindowStyle.Minimized;
+                ffmpeg.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 ffmpeg.Start();
                 ffmpeg.WaitForExit();
 

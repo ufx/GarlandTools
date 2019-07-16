@@ -128,7 +128,7 @@ namespace Garland.Data.Modules
             dynamic currentNode = null;
             JArray currentNodeItems = null;
 
-            var lines = Utils.Tsv("Supplemental\\FFXIV Data - Fishing.tsv");
+            var lines = Utils.Tsv(Path.Combine(Config.SupplementalPath, "FFXIV Data - Fishing.tsv"));
             foreach (var rLine in lines.Skip(1))
             {
                 // Line data
@@ -577,7 +577,7 @@ namespace Garland.Data.Modules
                 if (_hackExcludedFishingSpots.Contains(sFishingSpot.Key))
                     continue;
 
-                var name = sFishingSpot.PlaceName.Name.ToString();
+                var name = Utils.Capitalize(sFishingSpot.PlaceName.Name.ToString());
 
                 dynamic spot = new JObject();
                 spot.id = sFishingSpot.Key;

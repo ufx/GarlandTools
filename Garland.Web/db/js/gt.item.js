@@ -28,26 +28,8 @@ gt.item = {
         'Careful Desynthesis': 'C. Desynthesis',
         'Critical Hit Rate': 'Critical Rate'
     },
-    nqMateriaMeldRates: [
-        // Sockets
-        //2, 3,  4,  5      // Tier
-        [40, 20, 10, 5],    // I
-        [36, 18, 9,  5],    // II
-        [30, 15, 8,  4],    // III
-        [24, 12, 6,  3],    // IV
-        [12, 6,  3,  2],    // V
-        [12, 0,  0,  0]     // VI
-    ],
-    hqMateriaMeldRates: [
-        // Sockets
-        //2, 3,  4,  5     // Tier
-        [45, 24, 14, 8],   // I
-        [41, 22, 13, 8],   // II
-        [35, 19, 11, 7],   // III
-        [29, 16, 10, 6],   // IV
-        [17, 10, 7,  5],   // V
-        [17, 0,  0,  0]    // VI
-    ],
+    // TODO: materiaJoinRates comes from core data, only here temporarily until old cache is removed.
+    materiaJoinRates: {"nq":[[90,48,28,16],[82,44,26,16],[70,38,22,14],[58,32,20,12],[17,10,7,5],[17,0,0,0],[17,10,7,5],[17,0,0,0],[100,100,100,100],[100,100,100,100]],"hq":[[80,40,20,10],[72,36,18,10],[60,30,16,8],[48,24,12,6],[12,6,3,2],[12,0,0,0],[12,6,3,2],[12,0,0,0],[100,100,100,100],[100,100,100,100]]},
     browse: [ { type: 'sort', prop: 'name' } ],
     
     // Functions
@@ -125,7 +107,8 @@ gt.item = {
             mount: item.mount,
             slot: item.slot,
             models: item.models,
-            jobs: item.jobCategories
+            jobs: item.jobCategories,
+            furniture: item.furniture
         };
 
         view.sourceName = view.name;
@@ -584,6 +567,19 @@ gt.item = {
         if (item.seeds)
             view.gardening = _.union(view.gardening, gt.model.partialList(gt.item, item.seeds, function(v) { v.right = 'Seed'; return v; }));
 
+        // Craft source
+        if (view.ingredient_of) {
+            var set = new gt.craft.set("transient", []);
+            var step = new gt.craft.step(item.id, item, false, false, set);
+            step.setSource(set);
+
+            view.craftSource = step.sourceView;
+
+            // Little hack to stop ventures from showing as clickable.
+            if (step.sourceType != 'venture')
+                view.craftSourceType = step.sourceType;
+        }
+
         // Stats
         view.hasStats = (view.fish || view.equip || view.actions || view.bonuses || view.special || view.upgrades
             || view.downgrades || view.sharedModels || view.minion || view.tripletriad || view.mount
@@ -688,8 +684,8 @@ gt.item = {
                     var meld = melds[ii];
                     var materia = meld.item.materia;
                     if (ii >= item.sockets) {
-                        meld.nqRate = gt.item.nqMateriaMeldRates[materia.tier][ii - item.sockets];
-                        meld.hqRate = gt.item.hqMateriaMeldRates[materia.tier][ii - item.sockets];
+                        meld.nqRate = gt.item.materiaJoinRates.nq[materia.tier][ii - item.sockets];
+                        meld.hqRate = gt.item.materiaJoinRates.hq[materia.tier][ii - item.sockets];
                         meld.overmeld = 1;
                     }
 
@@ -808,9 +804,7 @@ gt.item = {
 
         gt.settings.setItem(id, itemSettings);
         gt.item.redisplayUses(id);
-
-        if (sourceType == 'market')
-            gt.core.redisplay($block);
+        gt.core.redisplay($block);
     },
 
     redisplayUses: function(id) {
@@ -913,7 +907,7 @@ gt.item = {
     materiaSocketClicked: function(e) {
         if (!gt.item.materiaSelectTemplate) {
             var template = doT.template($('#materia-select-template').text());
-            var materiaItems = _.filter(_.values(gt.item.partialIndex), function(i) { return i.materia; });
+            var materiaItems = _.filter(_.values(gt.item.partialIndex), function(i) { return i.materia && i.materia.value; });
             materiaItems = _.map(materiaItems, function(i) {
                 var view = gt.model.partial(gt.item, i.i);
                 view.text = view.name.replace(" Materia", "");
@@ -1006,7 +1000,11 @@ gt.item = {
 
     baseParamName: function(name) {
         var n = gt.item.baseParamAbbreviations[name];
-        return n ? n : name.replace('Resistance', 'Res.');
+        if (n)
+            return n;
+        if (name)
+            return name.replace('Resistance', 'Res.');
+        return "Error";
     },
 
     findSimplestTradeSource: function(item, traderId) {
@@ -1022,12 +1020,20 @@ gt.item = {
         }
 
         // Prefer GC seal trades first.
-        var gcTrade = gt.item.findTrade(item.tradeShops, function(itemId, type) {
-            return type == 'currency' && (itemId == 20 || itemId == 21 || itemId == 22);
+        var gcTrade = gt.item.findTrade(item.tradeShops, function(tradeItem, type) {
+            return type == 'currency' && (tradeItem.id == 20 || tradeItem.id == 21 || tradeItem.id == 22);
         });
         
         if (gcTrade)
             return gcTrade;
+
+        // Prefer nq listings next.
+        var nqTrade = gt.item.findTrade(item.tradeShops, function(tradeItem, type) {
+            return type == 'reward' && tradeItem.id == item.id && !tradeItem.hq
+        });
+
+        if (nqTrade)
+            return nqTrade;
 
         // Fallback to the first listed trade.
         return item.tradeShops[0].listings[0];
@@ -1039,11 +1045,11 @@ gt.item = {
             for (var ii = 0; ii < shop.listings.length; ii++) {
                 var listing = shop.listings[ii];
                 for (var iii = 0; iii < listing.item.length; iii++) {
-                    if (predicate(listing.item[iii].id, 'reward'))
+                    if (predicate(listing.item[iii], 'reward'))
                         return listing;
                 }
                 for (var iii = 0; iii < listing.currency.length; iii++) {
-                    if (predicate(listing.currency[iii].id, 'currency'))
+                    if (predicate(listing.currency[iii], 'currency'))
                         return listing;
                 }
             }
@@ -1091,7 +1097,7 @@ gt.item = {
         $page.data('viewer-injected', true);
 
         var view = $block.data('view');
-        var modelPrefix = view.minion ? 'minion' : view.mount ? 'mount' : view.slot;
+        var modelPrefix = view.minion ? 'minion' : view.mount ? 'mount' : view.furniture ? 'furniture' : view.slot;
         var modelKeys = _.map(view.models, function(m) { return modelPrefix + '/' + m; });
         var url = '3d/viewer.html?id=' + modelKeys.join('+');
         var html = '<iframe class="model-viewer" src="' + url + '"></iframe>';

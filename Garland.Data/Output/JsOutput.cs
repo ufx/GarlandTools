@@ -19,8 +19,8 @@ namespace Garland.Data.Output
         ConcurrentDictionary<object, HashSet<int>> _componentsByItemId = new ConcurrentDictionary<object, HashSet<int>>();
         Dictionary<Tuple<string, string>, Dictionary<string, JObject>> _partialsByLangTypeById = new Dictionary<Tuple<string, string>, Dictionary<string, JObject>>();
         Dictionary<dynamic, dynamic> _ingredientsByItem = new Dictionary<dynamic, dynamic>();
-        static JsonConverter[] _converters = new[] { new WrapperConverter() };
-        static string[] _languagesCodes = new[] { "en", "ja", "de", "fr" };
+        readonly static JsonConverter[] _converters = new[] { new WrapperConverter() };
+        readonly static string[] _languagesCodes = new[] { "en", "ja", "de", "fr" };
 
         public JsOutput(UpdatePackage update)
         {
@@ -47,6 +47,7 @@ namespace Garland.Data.Output
                 WriteInstances(lang);
                 WriteFates(lang);
                 WriteMobs(lang);
+                WriteStatuses(lang);
                 WriteBrowsers(lang);
 
                 PatchDatabase.WritePatchLists(this, _update, lang);
@@ -281,6 +282,19 @@ namespace Garland.Data.Output
 
                 nodes[(string)node.id] = partial;
             }
+
+            // Statuses
+            var statuses = _partialsByLangTypeById[Tuple.Create(lang, "status")] = new Dictionary<string, JObject>();
+            foreach (var status in _db.Statuses)
+            {
+                dynamic partial = new JObject();
+                partial.i = status.id;
+                partial.n = (string)status[lang]["name"];
+                partial.c = status.icon;
+                partial.t = status.category;
+
+                statuses[(string)status.id] = partial;
+            }
         }
 
         void WriteCore(string lang)
@@ -291,7 +305,7 @@ namespace Garland.Data.Output
 
             // Patches
             core.patch = new JObject();
-            core.patch.current = GarlandDatabase.MajorPatches.Last().Id;
+            core.patch.current = GarlandDatabase.MajorPatches.Last().FormattedId;
 
             core.patch.partialIndex = new JObject();
             foreach (var patch in GarlandDatabase.MajorPatches)
@@ -355,6 +369,9 @@ namespace Garland.Data.Output
             core.achievementCategoryIndex = new JObject();
             foreach (var category in _db.AchievementCategories)
                 core.achievementCategoryIndex.Add((string)category.id, category);
+
+            // Materia Join Rates
+            core.materiaJoinRates = _db.MateriaJoinRates;
 
             // Item
             core.item = new JObject();
@@ -529,6 +546,16 @@ namespace Garland.Data.Output
             FileDatabase.WriteFile("Garland.Web\\bell\\nodes.js", contents);
         }
 
+        void WriteStatuses(string lang)
+        {
+            Parallel.ForEach(_db.Statuses, status =>
+            {
+                var wrapper = new JsWrapper(lang, "status", status);
+                AddPartials(wrapper, status);
+                _update.IncludeDocument((string)status.id, "status", lang, 2, Wrapper(wrapper));
+            });
+        }
+
         void WriteBrowsers(string lang)
         {
             string wrap(IEnumerable<JObject> p) => "{\"browse\":" + Json(p) + "}";
@@ -543,6 +570,7 @@ namespace Garland.Data.Output
             _update.IncludeDocument("mob", "browse", lang, 2, wrap(_partialsByLangTypeById[Tuple.Create(lang, "mob")].Values));
             _update.IncludeDocument("fishing", "browse", lang, 2, wrap(_partialsByLangTypeById[Tuple.Create(lang, "fishing")].Values));
             _update.IncludeDocument("node", "browse", lang, 2, wrap(_partialsByLangTypeById[Tuple.Create(lang, "node")].Values));
+            _update.IncludeDocument("status", "browse", lang, 2, wrap(_partialsByLangTypeById[Tuple.Create(lang, "status")].Values));
         }
 
         #region Utility
