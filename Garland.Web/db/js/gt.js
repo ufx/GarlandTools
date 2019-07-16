@@ -3041,10 +3041,12 @@ gt.npc = {
 
         if (npc.zoneid) {
             var location = gt.location.index[npc.zoneid];
-            view.fullLocation = view.location = location.name;
-            if (npc.coords) {
-                view.fullLocation += ' (' + Math.round(npc.coords[0]) + ', ' + Math.round(npc.coords[1]) + ')';
-                view.map = gt.map.getViewModel({ location: location, coords: npc.coords, approx: npc.approx, icon: view.icon });
+            if (location) {
+                view.fullLocation = view.location = location.name;
+                if (npc.coords) {
+                    view.fullLocation += ' (' + Math.round(npc.coords[0]) + ', ' + Math.round(npc.coords[1]) + ')';
+                    view.map = gt.map.getViewModel({ location: location, coords: npc.coords, approx: npc.approx, icon: view.icon });
+                }
             }
         }
 
