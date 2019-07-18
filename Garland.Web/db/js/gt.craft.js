@@ -809,7 +809,7 @@ gt.craft.step.prototype.setCraftSource = function(itemSettings) {
 gt.craft.step.prototype.setMarketSource = function(itemSettings) {
     var view = {
         amount: itemSettings.marketPrice,
-        icon: gt.item.iconPath(1),
+        icon: gt.item.iconPath(65002),
         currency: 1,
         sourceName: itemSettings.marketPrice.toLocaleString(),
         longSourceName: itemSettings.marketPrice.toLocaleString()

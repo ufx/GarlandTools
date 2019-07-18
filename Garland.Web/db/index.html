@@ -1138,6 +1138,8 @@
                                     {{?it.ingredient_of || it.obj.category == 59}}<label><input type="checkbox"> Market Price</label>{{??}}Market Price{{?}}
                                 </span>
                                 <input type="number" class="market-price" {{?it.marketPrice}}value="{{=it.marketPrice}}"{{?}}>
+
+                                <a href="https://mogboard.com/market/{{=it.id}}" class="right">Open mogboard.</a>
                             </div>
                         </div>
                     {{?}}
