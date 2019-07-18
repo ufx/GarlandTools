@@ -637,6 +637,9 @@ gt.bell = {
 
         var $containerList = $timer.closest('.timer-list');
         var list = $containerList.data('list');
+        if (!list)
+            return;
+            
         gt.layout.engine.remove(list, $timer);
 
         // Sort lists that still have some entries.
@@ -1353,6 +1356,9 @@ gt.layout.table = {
         var view1 = $(a).data('view');
         var view2 = $(b).data('view');
 
+        if (!view1 || !view2)
+            return view1 ? 1 : view2 ? -1 : 0;
+
         if (!view1.isTimed || !view2.isTimed) {
             if (view1.isTimed && !view2.isTimed)
                 return 1;
@@ -1423,7 +1429,8 @@ gt.layout.table = {
             var $elements = $('.timer', table.$element);
             for (var ii = 0; ii < $elements.length; ii++) {
                 var element = $elements[ii];
-                if (!$(element).data('view').isTimed)
+                var view = $(element).data('view');
+                if (!view || !view.isTimed)
                     continue;
 
                 if (soonestElement == null || gt.layout.table.compareElementTime(element, soonestElement) == -1)
