@@ -90,7 +90,7 @@ gt.bell.timers = [
               "Fair Skies"
             ],
             "id": 7714,
-            "icon": 4631,
+            "icon": 29339,
             "func": "fish",
             "title": "Nophica's Wells",
             "category": "Freshwater Fishing",
@@ -125,7 +125,7 @@ gt.bell.timers = [
               "end": 21
             },
             "id": 7695,
-            "icon": 4612,
+            "icon": 29340,
             "func": "fish",
             "title": "Fallgourd Float",
             "category": "Freshwater Fishing",
