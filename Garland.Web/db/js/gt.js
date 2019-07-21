@@ -2711,7 +2711,7 @@ gt.item = {
                 var materia = materiaItem.materia;
                 var rateStart = materia.tier * 4;
                 var cumulativeJoinRate = gt.util.sum(gt.item.materiaJoinRates.hq.slice(rateStart, rateStart + 4), function(i) { return i; });
-                var sortKey = gt.util.zeroPad(cumulativeJoinRate, 5) + "-" + gt.util.zeroPad(materia.value, 3) + "-" + materiaItem.n;
+                var sortKey = gt.util.zeroPad(cumulativeJoinRate, 5) + "-" + gt.util.zeroPad(99 - materia.tier, 2) + "-" + materiaItem.n;
                 return sortKey;
             });
         }
