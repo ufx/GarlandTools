@@ -138,16 +138,30 @@ namespace Garland.Data.Modules
                 _builder.Db.AddReference(sourceItem, "item", (int)item.id, false);
                 _builder.Db.AddReference(item, "item", (int)sourceItem.id, true);
 
-                // Set aetherial reduction info on the gathering node view.
-                foreach (var view in _builder.Db.NodeViews)
+                // Set aetherial reduction info on the gathering node views.
+                // Bell views
+                foreach (var nodeView in _builder.Db.NodeViews)
                 {
-                    foreach (var itemView in view.items)
+                    foreach (var slot in nodeView.items)
                     {
-                        if (itemView.id == sourceItem.id && itemView.reduce == null)
+                        if (slot.id == sourceItem.id && slot.reduce == null)
                         {
-                            itemView.reduce = new JObject();
-                            itemView.reduce.item = item.en.name;
-                            itemView.reduce.icon = item.icon;
+                            slot.reduce = new JObject();
+                            slot.reduce.item = item.en.name;
+                            slot.reduce.icon = item.icon;
+                        }
+                    }
+                }
+
+                // Database views
+                foreach (var node in _builder.Db.Nodes)
+                {
+                    foreach (var slot in node.items)
+                    {
+                        if (slot.id == sourceItem.id && slot.reduceId == null)
+                        {
+                            slot.reduceId = (int)item.id;
+                            _builder.Db.AddReference(node, "item", (int)item.id, false);
                         }
                     }
                 }

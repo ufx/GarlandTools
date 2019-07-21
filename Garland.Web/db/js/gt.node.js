@@ -88,7 +88,12 @@ gt.node = {
                 });
             }
 
-            view.items = gt.model.partialList(gt.item, node.items, function(v, i) { v.node_slot = i.slot; return v; });
+            view.items = gt.model.partialList(gt.item, node.items, function(v, i) {
+                v.node_slot = i.slot;
+                if (i.reduceId)
+                    v.reduce = gt.model.partial(gt.item, i.reduceId);
+                return v;
+            });
 
             if (node.time)
                 view.items = _.sortBy(view.items, function(i) { return i.node_slot || i.name; });

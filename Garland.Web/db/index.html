@@ -2591,15 +2591,24 @@
             <div class="info-page page">
                 <div class="items subsection">
                     {{~it.items :value:index}}
-                        <div class="line half block-link hover-highlight pointer" data-id="{{=value.id}}" data-type="item">
-                            <img class="icon small" src="{{=value.icon}}">
-                            {{?value.node_slot}}<span class="text">[{{=value.node_slot}}]</span> {{?}}
-                            <span class="highlight text">{{=value.name}}</span>
+                        <div class="line clear">
+                            {{?value.reduce}}
+                                <div class="block-link hover-highlight pointer right" title="Reduces to {{=value.reduce.name}}" data-id="{{=value.reduce.id}}" data-type="item">
+                                    <img class="icon small" src="images/Reduce.png">
+                                    <img class="icon small" src="{{=value.reduce.icon}}">
+                                </div>
+                            {{?}}
+
+                            <div class="block-link hover-highlight pointer" data-id="{{=value.id}}" data-type="item">
+                                <img class="icon small" src="{{=value.icon}}">
+                                {{?value.node_slot}}<span class="text">[{{=value.node_slot}}]</span> {{?}}
+                                <span class="highlight text">{{=value.name}}</span>
+                            </div>
                         </div>
                     {{~}}
                 </div>
 
-                <hr>
+                <hr class="clear">
                 <div class="location right">{{=it.location}}{{?it.timeText}} @ {{=it.timeText}} ET{{?}}</div>
                 <div class="highlight-green">Lv. {{=it.lvl}} {{=it.job}}</div>
 
