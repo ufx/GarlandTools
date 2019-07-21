@@ -5779,7 +5779,7 @@ gt.list = {
         DOL: 'DOL', GATHER: 'DOL', GATHERING: 'DOL', GATHERER: 'DOL',
         DOH: 'DOH', CRAFT: 'DOH', CRAFTING: 'DOH', CRAFTER: 'DOH',
     
-        SCRIP: '../files/icons/item/65044.png', SCRIPS: '../files/icons/item/65044.png',
+        SCRIP: 'images/Rowena.png', SCRIPS: 'images/Rowena.png',
         'RED SCRIP': '../files/icons/item/65031.png', 'RED SCRIPS': '../files/icons/item/65031.png',
         'YELLOW SCRIP': '../files/icons/item/65044.png',
     
