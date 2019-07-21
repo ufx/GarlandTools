@@ -873,9 +873,13 @@ gt.item = {
         // Sort by tier, then name if applicable.
         if (gt.settings.data.sortMelds) {
             data.melds = _.sortBy(data.melds, function(id) {
-                var item = gt.item.partialIndex[id];
-                return item.materia.tier + "-" + item.n;
-            }).reverse();
+                var materiaItem = gt.item.partialIndex[id];
+                var materia = materiaItem.materia;
+                var rateStart = materia.tier * 4;
+                var cumulativeJoinRate = gt.util.sum(gt.item.materiaJoinRates.hq.slice(rateStart, rateStart + 4), function(i) { return i; });
+                var sortKey = gt.util.zeroPad(cumulativeJoinRate, 5) + "-" + gt.util.zeroPad(materia.value, 3) + "-" + materiaItem.n;
+                return sortKey;
+            });
         }
 
         // Dismiss popover and redisplay.
