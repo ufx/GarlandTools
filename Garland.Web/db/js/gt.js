@@ -2518,8 +2518,8 @@ gt.item = {
                     var meld = melds[ii];
                     var materia = meld.item.materia;
                     if (ii >= item.sockets) {
-                        meld.nqRate = gt.item.materiaJoinRates.nq[materia.tier][ii - item.sockets];
-                        meld.hqRate = gt.item.materiaJoinRates.hq[materia.tier][ii - item.sockets];
+                        meld.nqRate = gt.item.materiaJoinRates.nq[materia.tier * 4 + ii - item.sockets];
+                        meld.hqRate = gt.item.materiaJoinRates.hq[materia.tier * 4 + ii - item.sockets];
                         meld.overmeld = 1;
                     }
 
