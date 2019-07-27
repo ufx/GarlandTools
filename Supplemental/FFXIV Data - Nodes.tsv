@@ -297,17 +297,17 @@ Raw Lazurite	7	605	4, 16	120	19, 20	Unspoiled
 Raw Triplite	7	606	0, 12	120	20.1, 28.8	Unspoiled
 Raw Petalite	8	607	6, 18	120	29, 33	Unspoiled
 Raw Onyx	7	608	0, 12	120	15.8, 21.3	Unspoiled
-Prismstone	7	609	4, 16	120	31.4, 18.8	Legendary
-Tungsten Ore	3	610	10, 22	120	37.3, 9.1	Legendary
+Prismstone	7	609	4, 16	120	30, 21	Legendary
+Tungsten Ore	3	610	10, 22	120	32.7, 8	Legendary
 Gale Rock	6	597	0	240	25.7, 28.9	Ephemeral
 Water Cluster	5	597	0	240	25.7, 28.9	Ephemeral
-Sweet Marjoram		624	4	240	29, 24	Ephemeral
-Wind Cluster	4	624	4	240	29, 24	Ephemeral
+Sweet Marjoram	6	624	4	240	26.9, 24.3	Ephemeral
+Wind Cluster	4	624	4	240	26.9, 24.3	Ephemeral
 Solarite	8	599	8	240	36.9, 14.9	Ephemeral
 Lightning Cluster	2	599	8	240	36.9, 14.9	Ephemeral
 Bog Sage		622	12	240	25, 29	Ephemeral
 Earth Cluster	7	622	12	240	25, 29	Ephemeral
 Shade Quartz	7	601	16	240	22.1, 18.4	Ephemeral
 Fire Cluster	3	601	16	240	22.1, 18.4	Ephemeral
-White Clay		626	20	240	13, 13	Ephemeral
+White Clay	7	626	20	240	13, 13	Ephemeral
 Ice Cluster	6	626	20	240	13, 13	Ephemeral

@@ -45,7 +45,7 @@ namespace Garland.Data.Modules
                     fate.zoneid = _builder.Db.LocationIdsByName[zone];
 
                 if (coords != "")
-                    fate.coords = new JArray(Utils.IntComma(coords));
+                    fate.coords = new JArray(Utils.FloatComma(coords));
 
                 if (rewardItemNameStr != "")
                 {

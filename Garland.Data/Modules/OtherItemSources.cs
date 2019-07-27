@@ -73,7 +73,11 @@ namespace Garland.Data.Modules
                             break;
 
                         default:
-                            throw new NotImplementedException();
+                            {
+                                var joinedArgs = string.Join(", ", args);
+                                DatabaseBuilder.PrintLine($"Error importing supplemental source '{itemName}' with args '{joinedArgs}': Unsupported type '{type}'");
+                                break;
+                            }
                     }
                 }
                 catch (Exception ex)

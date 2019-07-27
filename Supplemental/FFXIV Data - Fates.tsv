@@ -244,7 +244,7 @@ Inspector Hatchet	500	Coerthas Central Highlands	33, 23	1
 Svara's Flight	501	Coerthas Central Highlands	26, 15	1	
 Svara's Fear	502	Coerthas Central Highlands	26, 8	1	
 Svara's Fall	503	Coerthas Central Highlands	26, 7	1	
-Svara's Fury	504	Coerthas Central Highlands		1	
+Svara's Fury	504	Coerthas Central Highlands	26, 7	1	
 Behold Now Behemoth	505	Coerthas Central Highlands	6, 21	1	
 He Taketh It with His Eyes	506	Coerthas Central Highlands	4, 15	1	Behemoth Horn
 The Eyes Have It	507	Coerthas Central Highlands	15, 19	1	
@@ -356,7 +356,7 @@ Go, Go, Gorgimera	647	Northern Thanalan	17, 14	1
 Sister Crustacean	649	Middle La Noscea	16, 12	2.05	
 Tender Buttons	650	Western La Noscea	32, 28	2.05	
 Lightning Strikes - Armored Beast	651	Southern Thanalan	21, 11	2.05	
-Lightning Strikes - Armored Beast	652	Eastern Thanalan	21, 11	2.05	
+Lightning Strikes - Armored Beast	652	Eastern Thanalan	28, 16	2.05	
 Lightning Strikes - Dread on Arrival	653	Coerthas Central Highlands	30, 8	2.05	
 Lightning Strikes - Dread on Arrival	654	Coerthas Central Highlands	30, 8	2.05	
 Lightning Strikes - Anubys Assault	655	Mor Dhona	26, 12	2.05	
@@ -972,3 +972,185 @@ Wine and Honey	1331	Eureka Anemos		4.25
 I Amarok	1340	Eureka Anemos		4.25	
 Drama Lamashtu	1338	Eureka Anemos		4.25	
 Wail in the Willows	1329	Eureka Anemos	7, 21	4.25	Pazuzu's Feather, Altar to Pazuzu
+Color My World	1349			5	
+Color My World	1350			5	
+Eternity	1351			5	
+Cows for Concern	1352			5	
+Ash the Magic Dragon	1353			5	
+Conqueror Worm	1354			5	
+Melting Point	1355			5	
+Disorder in the Court	1356			5	
+Does It Have to Be a Snowman	1357			5	
+Brothers	1358			5	
+Eye of Horus	1359			5	
+Morte Arthro	1360			5	
+Apocalypse Cow	1361			5	
+Third Impact	1362			5	
+Eye Scream for Ice Cream	1363			5	
+Louhi on Ice	1364			5	
+Cassie and the Copycats	1365			5	
+The Wobbler in Darkness	1366			5	
+Down the Rabbit Hole	1367			5	
+Curiouser and Curiouser	1368			5	
+Cairn Blight 451	1369			5	
+Counter-void Training: A Giant Undertaking	1370			5	
+Counter-void Training: All Ogre It	1371			5	
+Counter-void Training: Toothsome Terrors	1372			5	
+Comprehensive Training: Double Trouble	1373			5	
+Counter-imperial Training: No Van's Land	1374			5	
+Counter-imperial Training: A Pinch of Assault	1375			5	
+Counter-imperial Training: Strike Out	1376			5	
+Counter-imperial Training: Strike Out	1377			5	
+Counter-void Training: Free-for-Ul'dah	1378			5	
+Counter-void Training: Doom and Gloom	1379			5	
+Counter-void Training: Premium Cuts	1380			5	
+Counter-void Training: Blood from Stone	1381			5	
+Counter-void Training: Undead Ahead	1382			5	
+Joint Training: The Quick and the Undead	1383			5	
+Counter-void Training: Soul of Destruction	1384			5	
+Counter-void Training: A Void at All Costs	1385			5	
+Counter-fiend Training: Less Is Morbol	1386			5	
+Medias Res	1388			5	
+High Voltage	1389			5	
+On the Non-existent	1390			5	
+Creepy Doll	1391			5	
+Quiet, Please	1392			5	
+Up and Batym	1393			5	
+Rondo Aetolus	1394			5	
+Scorchpion King	1395			5	
+Burning Hunger	1396			5	
+Dry Iris	1397			5	
+Thirty Whacks	1398			5	
+Put Up Your Dux	1399			5	
+You Do Know Jack	1400			5	
+Mister Bright-eyes	1401			5	
+Haunter of the Dark	1402			5	
+Heavens' Warg	1403			5	
+Lost Epic	1404			5	
+Counter-imperial Training: A Pinch of Assault	1405			5	
+Counter-fiend Training: Less Is Morbol	1406			5	
+We're All Mad Here	1407			5	
+Uncommon Nonsense	1408			5	
+Like Clockwork	1409			5	
+I Ink, Therefore I Am	1412			5	
+From Tusk till Dawn	1413			5	
+Bullheaded Berserker	1414			5	
+Mad, Bad, and Fabulous to Know	1415			5	
+Fearful Symmetry	1416			5	
+Crawling Chaos	1417			5	
+Duty-free	1418			5	
+Leukewarm Reception	1419			5	
+Robber Barong	1420			5	
+Stone-cold Killer	1421			5	
+The Baldesion Arsenal: Expedition Support	1422			5	
+Crystalline Provenance	1423			5	
+I Don't Want to Believe	1424			5	
+Drink Me	1425			5	
+Where Has the Dagon	1426	The Tempest	23, 23	5	
+Ondo of Blood	1427	The Tempest	28.7, 12.0	5	
+Lookin' Back on the Track	1428	The Tempest		5	
+Coral Support	1429	The Tempest	35, 9	5	
+Low Coral Fiber	1430	The Tempest	36, 6	5	
+Nothing Like a Trappin' Life	1431			5	
+The Head, the Tail, the Whole Damned Thing	1432	The Tempest	27.2, 26.5	5	
+The Devil in the Deep Blue Sea	1433			5	
+The Seashells He Sells	1434			5	
+Pearls Apart	1435			5	
+My Friend's Enemy is Anemone of Mine	1436			5	
+The Nets Best Thing	1437			5	
+Hydrozoan of the Enders	1438			5	
+A Lot to Swallow	1439			5	
+Natural Prawn Killers	1440			5	
+Barking Mad	1441			5	
+Creepy Crawlers	1442			5	
+Pluck of the Draw	1443			5	
+The End of the Sentry	1444			5	
+Tojil War	1445	The Rak'tika Greatwood	35.1, 24.2	5	
+Tojil Annihilation	1446			5	
+Tojil Annihilation	1447			5	
+Tojil Carnage	1448			5	
+Tojil Carnage	1449			5	
+Tojil Eclipse	1450	The Rak'tika Greatwood	24.6, 34.3	5	
+I'll Be Bark	1451			5	
+We Are Venom	1452			5	
+Picking up the Pieces	1453			5	
+Six Fulm Turkeys	1454			5	
+Dark Matters	1455			5	
+Attack of the Killer Tomatl	1456			5	
+Queen of the Harpies	1457			5	
+Nest of Kin	1458			5	
+Monkeying Around	1459			5	
+Shot Through the Hart	1460			5	
+Attack the Block	1461			5	
+Foes Most Formidable	1462			5	
+A Family Most Formidable	1463	Kholusia		5	
+A Finale Most Formidable	1464	Kholusia		5	
+Shadow Over Stilltide	1465			5	
+Shadow Over Stilltide	1466			5	
+The Wright Stuff	1467			5	
+The Wright Stuff	1468			5	
+Bitter Barley	1469			5	
+JELL-NO	1470			5	
+Roadside Dinner	1471			5	
+One-punch Mantis	1472			5	
+Knockout	1473			5	
+Season of Our Discord	1474			5	
+The Amity Village Horror	1475			5	
+Not Today	1476			5	
+Ironbeard Builders - Rebuilt	1477			5	
+Ironbeard Builders - Resist	1478			5	
+Ironbeard Builders - Revolt	1479			5	
+Frog Standard	1480			5	
+Great Daens	1481			5	
+Fuath of Habit	1482			5	
+Back and Fuath	1483			5	
+Brute Fuath	1484			5	
+Breaking the Fuath Wall	1485			5	
+Go Fuath a Conqueror	1486			5	
+Fuath to Be Reckoned With	1487			5	
+Mad Magic	1488			5	
+Bear Necessities	1489			5	
+Weave 'Em and Weep	1490			5	
+Locus Terribilis	1491			5	
+Twice Upon a Time	1492			5	
+Hedge Mazed	1493			5	
+Thrice Upon a Time	1494			5	
+Once Upon a Time	1495			5	
+Looming Nightshade	1496	Lakeland	24, 26	5	
+Creeping Nightshade	1497			5	
+Draconian Measures	1498	Lakeland	34, 10	5	
+Cry Not Wolf	1499			5	
+Pick-up Sticks	1500			5	
+Flowering Nightshade	1501			5	
+Subtle Nightshade	1502	Lakeland	25, 12	5	
+Toxic Nightshade	1503			5	
+Deadly Nightshade	1504			5	
+Economic Peril	1505			5	
+Don't Feed the Gremlins	1506			5	
+A Beast among Men	1507	Lakeland	15, 18	5	
+Little Gate of Horrors	1508	Lakeland	28, 23	5	
+Behind Anemone Lines	1509			5	
+Calm a Chameleon	1510			5	
+Scavengers Hunted	1511			5	
+Reptilian Roadblock	1512			5	
+Cactus Makes Perfect	1513			5	
+Theft from Above	1514			5	
+Sand and Deliver	1515	Amh Araeng	17.7, 16.2	5	
+This Time, It's Personal	1516			5	
+Armadillo Peccadillo	1517			5	
+The Elderblade	1518			5	
+Harbingers of Bloom	1519	Amh Araeng	33, 11.6	5	
+Pray Destroy the Waking Sands	1520	Amh Araeng	28.4, 13.9	5	
+Tolba No. 1	1521	Amh Araeng	31.8, 17.3	5	
+Bayawak Attack	1522	Amh Araeng	32.3, 14.4	5	
+Bloody Simple	1523			5	
+Baddie Longlegs	1524	Amh Araeng	21.3, 12.8	5	
+The Odd Couple	1525	Amh Araeng	17, 33.1	5	
+Anti-eruption Measures	1526	Amh Araeng	9.6, 32.2	5	
+Let's Dance (with Swords)	1527			5	
+Tojil Carnage	1528			5	
+Tojil Carnage	1529			5	
+Tojil Eclipse	1530			5	
+Great Daens	1531			5	
+Fuath of Habit	1532			5	
+Back and Fuath	1533			5	
