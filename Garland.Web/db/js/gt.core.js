@@ -524,6 +524,19 @@ gt.core = {
         $block.addClass('active');
 
         gt.core.setHash($block);
+
+        if (gt.settings.data.isearchOnActivate && navigator.clipboard) {
+            var view = $block.data('view');
+            if (view && view.type == 'item') {
+                var isearch = '/isearch "' + view.name + '"';
+                var promise = navigator.clipboard.writeText(isearch);
+                if (promise) {
+                    promise.catch(function(err) {
+                        console.error('Clipboard write error', err);
+                    });
+                }
+            }
+        }
     },
 
     addBlock: function($block, $from, blockData, view) {

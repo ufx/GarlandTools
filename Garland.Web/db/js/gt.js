@@ -524,6 +524,19 @@ gt.core = {
         $block.addClass('active');
 
         gt.core.setHash($block);
+
+        if (gt.settings.data.isearchOnActivate && navigator.clipboard) {
+            var view = $block.data('view');
+            if (view && view.type == 'item') {
+                var isearch = '/isearch "' + view.name + '"';
+                var promise = navigator.clipboard.writeText(isearch);
+                if (promise) {
+                    promise.catch(function(err) {
+                        console.error('Clipboard write error', err);
+                    });
+                }
+            }
+        }
     },
 
     addBlock: function($block, $from, blockData, view) {
@@ -4484,7 +4497,8 @@ gt.settings = {
         minerVentures: 0,
         botanyVentures: 0,
         fisherVentures: 0,
-        combatVentures: 0
+        combatVentures: 0,
+        isearchOnActivate: 0
     },
 
     getItem: function(id) {
@@ -4655,6 +4669,10 @@ gt.settings = {
             .prop('checked', data.combatVentures)
             .change(gt.settings.preferCombatVenturesChanged);
 
+        $('#isearch-on-activate')
+            .prop('checked', data.isearchOnActivate)
+            .change(gt.settings.isearchOnActivateChanged);
+
         if (data.colorblind)
             $('body').addClass('colorblind');
 
@@ -4810,6 +4828,11 @@ gt.settings = {
         var value = $(this).is(':checked');
         gt.settings.saveDirty({ combatVentures: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
+    },
+
+    isearchOnActivateChanged: function(e) {
+        var value = $(this).is(':checked');
+        gt.settings.saveDirty({ isearchOnActivate: value ? 1 : 0 });
     },
 
     redisplayMatchingBlocks: function(selector) {
