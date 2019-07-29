@@ -2959,7 +2959,6 @@ gt.item = {
             return;
 
         var isearch = '/isearch "' + itemName + '"';
-        console.log(isearch);
         var promise = navigator.clipboard.writeText(isearch);
         if (promise) {
             promise.catch(function(err) {
