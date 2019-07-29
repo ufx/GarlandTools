@@ -285,12 +285,18 @@ gt.core = {
 
     activate: function(type, id, $from, done) {
         gt.core.load(type, id, $from, function($block) {
-            gt.core.setActiveBlock($block);
+            gt.core.setActiveBlock($block, false);
             gt.list.blockSortingUpdated();
 
             if (done)
                 done($block);
         });
+
+        if (type == 'item' && gt.settings.data.isearchOnActivate) {
+            var itemPartial = gt.item.partialIndex[id];
+            if (itemPartial)
+                gt.item.isearchCopy(itemPartial.n);
+        }
     },
 
     load: function(type, id, $from, done) {
@@ -519,23 +525,16 @@ gt.core = {
         return $replacement;
     },
 
-    setActiveBlock: function($block) {
+    setActiveBlock: function($block, inUserEvent) {
         $('.block.active').removeClass('active');
         $block.addClass('active');
 
         gt.core.setHash($block);
 
-        if (gt.settings.data.isearchOnActivate && navigator.clipboard) {
+        if (inUserEvent && gt.settings.data.isearchOnActivate) {
             var view = $block.data('view');
-            if (view && view.type == 'item') {
-                var isearch = '/isearch "' + view.name + '"';
-                var promise = navigator.clipboard.writeText(isearch);
-                if (promise) {
-                    promise.catch(function(err) {
-                        console.error('Clipboard write error', err);
-                    });
-                }
-            }
+            if (view && view.type == 'item')
+                gt.item.isearchCopy(view.name);
         }
     },
 
@@ -917,7 +916,7 @@ gt.core = {
 
     headerClicked: function(e) {
         var $block = $(this).closest('.block');
-        gt.core.setActiveBlock($block);
+        gt.core.setActiveBlock($block, true);
         gt.isotope.layout();
     },
 

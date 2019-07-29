@@ -1106,5 +1106,19 @@ gt.item = {
         var url = '3d/viewer.html?id=' + modelKeys.join('+');
         var html = '<iframe class="model-viewer" src="' + url + '"></iframe>';
         $page.empty().append($(html));
+    },
+
+    isearchCopy(itemName) {
+        if (!navigator.clipboard)
+            return;
+
+        var isearch = '/isearch "' + itemName + '"';
+        console.log(isearch);
+        var promise = navigator.clipboard.writeText(isearch);
+        if (promise) {
+            promise.catch(function(err) {
+                console.error('Clipboard write error', err);
+            });
+        }
     }
 };

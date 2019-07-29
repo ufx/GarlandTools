@@ -295,7 +295,7 @@ gt.display = {
             .addClass('dragging');
 
         if ($draggable.hasClass('block'))
-            gt.core.setActiveBlock($draggable);
+            gt.core.setActiveBlock($draggable, true);
     },
 
     draggableUp: function(e) {
@@ -412,7 +412,7 @@ gt.display = {
         $element.attr('data-sort', gt.list.placeBefore($nearest));
 
         gt.list.blockSortingUpdated();
-        gt.core.setActiveBlock($element);
+        gt.core.setActiveBlock($element, true);
 
         gt.display.minimap();
     },
@@ -601,7 +601,7 @@ gt.display = {
         var $existing = $('.' + block.type + '.block[data-id="' + block.id + '"]');
         if ($existing.length) {
             gt.core.scrollToBlock($existing);
-            gt.core.setActiveBlock($existing);
+            gt.core.setActiveBlock($existing, true);
         }
     },
 
