@@ -2954,7 +2954,7 @@ gt.item = {
         $page.empty().append($(html));
     },
 
-    isearchCopy(itemName) {
+    isearchCopy: function(itemName) {
         if (!navigator.clipboard)
             return;
 
