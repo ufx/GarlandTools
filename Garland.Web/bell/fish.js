@@ -7230,7 +7230,7 @@ gt.bell.fish = [
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -11075,7 +11075,7 @@ gt.bell.fish = [
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -11235,7 +11235,7 @@ gt.bell.fish = [
     "icon": 29295,
     "func": "fish",
     "rarity": 1,
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -11639,7 +11639,7 @@ gt.bell.fish = [
     "icon": 29311,
     "func": "fish",
     "rarity": 1,
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -14193,7 +14193,7 @@ gt.bell.fish = [
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -16720,7 +16720,7 @@ gt.bell.fish = [
     "icon": 29238,
     "func": "fish",
     "rarity": 1,
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -17050,7 +17050,7 @@ gt.bell.fish = [
     "icon": 29305,
     "func": "fish",
     "rarity": 1,
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -19158,7 +19158,7 @@ gt.bell.fish = [
     "icon": 29313,
     "func": "fish",
     "rarity": 1,
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [
@@ -19185,7 +19185,7 @@ gt.bell.fish = [
     "icon": 29089,
     "func": "fish",
     "rarity": 2,
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "category": "Freshwater Fishing",
     "lvl": 45,
     "coords": [

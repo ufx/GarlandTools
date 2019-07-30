@@ -423,7 +423,7 @@
       17,
       21
     ],
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "zone": "Mor Dhona",
     "coords": [
       27.0,
@@ -700,7 +700,7 @@
       5,
       9
     ],
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "zone": "Mor Dhona",
     "coords": [
       32.0,
