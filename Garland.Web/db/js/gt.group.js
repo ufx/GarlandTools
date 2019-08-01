@@ -386,7 +386,7 @@ gt.group = {
                         sumMelds[meld.item.id] = meldAggregate = { item: meld.item, amount: 0, estimate: 0 };
                     
                     meldAggregate.amount++;
-                    meldAggregate.estimate += 100 / meld.hqRate;
+                    meldAggregate.estimate += 100 / (meld.hqRate || 100);
                 }
             }
         }
