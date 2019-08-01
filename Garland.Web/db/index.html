@@ -544,10 +544,7 @@
                                     <div class="block-link hover-highlight pointer collapse-toggle line" data-type="item" data-id="{{=meld.item.id}}">
                                         <img src="{{=meld.item.icon}}" class="icon small">
                                         <span class="text" title="Estimates based on HQ overmeld success rates and will vary individually.">
-                                            {{=meld.amount.toLocaleString()}}
-                                            {{?meld.estimate && meld.estimate != meld.amount}}
-                                                (~{{=gt.util.round1(meld.estimate).toLocaleString()}})
-                                            {{?}}
+                                            {{=meld.amount.toLocaleString()}}{{?meld.estimate && meld.estimate != meld.amount}}~{{=gt.util.round1(meld.estimate).toLocaleString()}}{{?}}
                                         </span>
                                         <span class="highlight text">{{=meld.item.name}}</span>
                                     </div>
