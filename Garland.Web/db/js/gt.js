@@ -9186,9 +9186,10 @@ gt.group = {
                     var meld = melds[ii];
                     var meldAggregate = sumMelds[meld.item.id];
                     if (!meldAggregate)
-                        sumMelds[meld.item.id] = meldAggregate = { item: meld.item, amount: 0 };
+                        sumMelds[meld.item.id] = meldAggregate = { item: meld.item, amount: 0, estimate: 0 };
                     
                     meldAggregate.amount++;
+                    meldAggregate.estimate += 100 / meld.hqRate;
                 }
             }
         }
