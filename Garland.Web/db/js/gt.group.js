@@ -348,7 +348,7 @@ gt.group = {
 
     aggregateAttributes: function(items) {
         // First aggregate the values.
-        var sumBonuses = {}, sumPrimes = {};
+        var sumBonuses = {}, sumPrimes = {}, sumMelds = {};
         var hasBonusMeter = false;
         var hasStats = false;
         var actions = [];
@@ -365,7 +365,8 @@ gt.group = {
                 continue;
 
             hasStats = true;
-            model.stats = gt.item.getAttributesViewModel(model.view.obj, model.view.melds);
+            var melds = model.view.melds;
+            model.stats = gt.item.getAttributesViewModel(model.view.obj, melds);
 
             // Remove useless large prime values for DoH/DoL and glamour equipment.
             if (model.view.obj.patchCategory != 0)
@@ -375,6 +376,18 @@ gt.group = {
             hasBonusMeter = hasBonusMeter || model.stats.hasBonusMeter;
             gt.group.aggregateAttributeList(model.stats.bonuses, sumBonuses, amount);
             gt.group.aggregateAttributeList(model.stats.primes, sumPrimes, amount);
+
+            // Sum materia melded to this item.
+            if (melds) {
+                for (var ii = 0; ii < melds.length; ii++) {
+                    var meld = melds[ii];
+                    var meldAggregate = sumMelds[meld.item.id];
+                    if (!meldAggregate)
+                        sumMelds[meld.item.id] = meldAggregate = { item: meld.item, amount: 0 };
+                    
+                    meldAggregate.amount++;
+                }
+            }
         }
 
         if (!hasStats)
@@ -429,6 +442,10 @@ gt.group = {
             }
         }
 
+        // Sum and sort melds.
+        var melds = _.sortBy(_.values(sumMelds), function(m) { return m.item.materia.tier + " " + m.item.name; });
+        melds.reverse();
+
         // Finally aggregate stats from actions.
         for (var i = 0; i < actions.length; i++) {
             var model = actions[i];
@@ -437,7 +454,7 @@ gt.group = {
 
         // Done!
         bonuses = _.sortBy(bonuses, function(b) { return b.sort; });
-        return { bonuses: bonuses, primes: primes, hasBonusMeter: hasBonusMeter };
+        return { bonuses: bonuses, primes: primes, melds: melds, hasBonusMeter: hasBonusMeter };
     },
 
     aggregateActionList: function(list, sum, amount) {

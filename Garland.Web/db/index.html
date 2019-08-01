@@ -536,6 +536,19 @@
                                 {{=gt.item.attributeValueTemplate(b)}}
                             {{~}}
                         </div>
+
+                        {{?it.aggregateStats.melds}}
+                            <div class="subsection collapse-toggle">
+                                <h4>Materia</h4>
+                                {{~it.aggregateStats.melds :meld:mindex}}
+                                    <div class="block-link hover-highlight pointer collapse-toggle line" data-type="item" data-id="{{=meld.item.id}}">
+                                        <img src="{{=meld.item.icon}}" class="icon small">
+                                        <span class="text">{{=meld.amount.toLocaleString()}}</span>
+                                        <span class="highlight text">{{=meld.item.name}}</span>
+                                    </div>
+                                {{~}}
+                            </div>
+                        {{?}}
                     </div>
                 {{?}}
 
