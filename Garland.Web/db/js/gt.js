@@ -2877,7 +2877,7 @@ gt.item = {
         if (gcTrade)
             return gcTrade;
 
-        // Prefer nq listings next.
+        // Prefer nq listings.
         var nqTrade = gt.item.findTrade(item.tradeShops, function(tradeItem, type) {
             return type == 'reward' && tradeItem.id == item.id && !tradeItem.hq
         });
@@ -8811,6 +8811,7 @@ gt.group = {
 
     initialize: function(data) {
         gt.group.blockTemplate = doT.template($('#block-group-template').text());
+        gt.group.shopTemplate = doT.template($('#block-group-shop-template').text());
 
         $('#new-group').click(gt.group.newGroupClicked);
     },
@@ -9037,8 +9038,34 @@ gt.group = {
             view.craftShops = gt.group.aggregateShops(gatheredItems);
         }
 
-        // Aggregate stats & shops.
+        // Aggregate stats.
         view.aggregateStats = gt.group.aggregateAttributes(items);
+
+        // Aggregate materia shops.
+        if (view.aggregateStats && view.aggregateStats.melds) {
+            var melds = view.aggregateStats.melds;
+            var materia = [];
+            for (var i = 0; i < melds.length; i++) {
+                var meld = melds[i];
+                var meldBlock = { type: 'item', id: meld.item.id };
+                var meldItem = gt.item.index[meld.item.id];
+                if (!meldItem) {
+                    deferredContents.push(meldBlock);
+                    continue;
+                }
+
+                materia.push({
+                    amount: meld.amount,
+                    block: meldBlock,
+                    view: gt.item.getViewModel(meldItem, {})
+                });
+            }
+
+            if (materia.length)
+                view.materiaShops = gt.group.aggregateShops(materia);
+        }
+
+        // Aggregate contents shops.
         view.shops = gt.group.aggregateShops(items);
 
         // Kick off a load of the deferred contents.
@@ -9296,7 +9323,6 @@ gt.group = {
     aggregateShops: function(items) {
         // First generate a list of purchasable items by NPC.
         var npcs = {};
-        var currency = {};
         for (var i = 0; i < items.length; i++) {
             var block = items[i];
             var itemView = block.view;
@@ -9308,35 +9334,15 @@ gt.group = {
                     var id = itemView.vendors[ii].id;
                     var list = npcs[id] || (npcs[id] = []);
                     list.push(itemView);
-
-                    if (ii == 0) {
-                        // Only count currencies once.
-                        var cost = itemView.groupAmount * itemView.price;
-                        currency[1] = (currency[1] || 0) + cost;
-                    }
                 }
             } else if (itemView.obj.tradeShops) {
-                itemView.groupTradeSource = gt.item.findSimplestTradeSource(itemView.obj);
+                for (var tradeShopIndex = 0; tradeShopIndex < itemView.obj.tradeShops.length; tradeShopIndex++) {
+                    var tradeShop = itemView.obj.tradeShops[tradeShopIndex];
 
-                // A bit backwards.  Go back and find the tradeShop for this source.
-                var tradeShop = _.find(itemView.obj.tradeShops, function(s) { return _.contains(s.listings, itemView.groupTradeSource);  });
-
-                for (var ii = 0; ii < tradeShop.npcs.length; ii++) {
-                    var npcId = tradeShop.npcs[ii];
-                    var list = npcs[npcId] || (npcs[npcId] = []);
-                    list.push(itemView);
-
-                    if (ii == 0) {
-                        // Only count currencies once.
-                        var rewardEntry = _.find(itemView.groupTradeSource.item, function(e) { return e.id == itemView.id; });
-                        for (var iii = 0; iii < itemView.groupTradeSource.currency.length; iii++) {
-                            var currencyEntryItem = itemView.groupTradeSource.currency[iii];
-                            currencyEntryItem.obj = gt.model.partial(gt.item, currencyEntryItem.id);
-                            var amount = currencyEntryItem.amount * (block.amount || 1) / rewardEntry.amount;
-                            var currentAmount = currency[currencyEntryItem.id] || 0;
-                            // Mobile Safari is injecting weird NaNs for index 0 and 2 here.  No idea why.
-                            currency[currencyEntryItem.id] = currentAmount + amount;
-                        }
+                    for (var npcIndex = 0; npcIndex < tradeShop.npcs.length; npcIndex++) {
+                        var npcId = tradeShop.npcs[npcIndex];
+                        var list = npcs[npcId] || (npcs[npcId] = []);
+                        list.push(itemView);
                     }
                 }
             }
@@ -9370,6 +9376,34 @@ gt.group = {
 
             // Re-sort the working set.
             workingSet = _.sortBy(workingSet, function(e) { return e.items.length; });
+        }
+
+        // Make a pass through shops to calculate currencies for these NPCs.
+        var currency = {};
+        for (var shopIndex = 0; shopIndex < shops.length; shopIndex++) {
+            var shop = shops[shopIndex];
+            for (var itemIndex = 0; itemIndex < shop.items.length; itemIndex++) {
+                var itemView = shop.items[itemIndex];
+                
+                if (itemView.vendors) {
+                    var cost = itemView.groupAmount * itemView.price;
+                    currency[1] = (currency[1] || 0) + cost;
+                } else if (itemView.obj.tradeShops) {
+                    var tradeShop = _.find(itemView.obj.tradeShops, function(s) { return _.contains(s.npcs, shop.npc.id); });
+                    var listing = tradeShop.listings[0];
+                    var rewardListing = _.find(listing.item, function(listingItem) { return listingItem.id == itemView.id; });
+
+                    itemView.groupTradeSource = listing;
+                    for (var currencyIndex = 0; currencyIndex < listing.currency.length; currencyIndex++) {
+                        var currencyListing = listing.currency[currencyIndex];
+                        currencyListing.obj = gt.model.partial(gt.item, currencyListing.id);
+                        var amount = currencyListing.amount * (block.amount || 1) / rewardListing.amount;
+                        var currentAmount = currency[currencyListing.id] || 0;
+                        // Mobile Safari is injecting weird NaNs for index 0 and 2 here.  No idea why.
+                        currency[currencyListing.id] = currentAmount + amount;
+                    }
+                }
+            }
         }
 
         // Convert currencies.

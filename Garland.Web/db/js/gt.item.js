@@ -1031,7 +1031,7 @@ gt.item = {
         if (gcTrade)
             return gcTrade;
 
-        // Prefer nq listings next.
+        // Prefer nq listings.
         var nqTrade = gt.item.findTrade(item.tradeShops, function(tradeItem, type) {
             return type == 'reward' && tradeItem.id == item.id && !tradeItem.hq
         });
