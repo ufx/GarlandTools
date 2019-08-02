@@ -538,6 +538,13 @@ gt.group = {
 
                     for (var npcIndex = 0; npcIndex < tradeShop.npcs.length; npcIndex++) {
                         var npcId = tradeShop.npcs[npcIndex];
+                        // For now, hardcode a skip on certain NPCs.
+                        // To anyone maintaining this in the future: The ultimate
+                        // goal is a ranking system for currencies which prefers
+                        // renewables like scrips over rare resources.
+                        if (npcId == 1027567 || npcId == 1027995)
+                            continue;
+
                         var list = npcs[npcId] || (npcs[npcId] = []);
                         list.push(itemView);
                     }

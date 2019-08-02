@@ -69,7 +69,7 @@ namespace Garland.Data.Modules
                     if (sShop is Saint.SpecialShop sSpecialShop)
                     {
                         var shop = _shopsByKey[sShop.Key];
-                        shop.ENpcs = sNpcs;
+                        shop.ENpcs = sNpcs.Union(shop.ENpcs).Distinct().ToArray();
                     }
                     else if (sShop is Saint.GilShop sGilShop)
                     {
