@@ -9404,7 +9404,7 @@ gt.group = {
                     for (var currencyIndex = 0; currencyIndex < listing.currency.length; currencyIndex++) {
                         var currencyListing = listing.currency[currencyIndex];
                         currencyListing.obj = gt.model.partial(gt.item, currencyListing.id);
-                        var amount = currencyListing.amount * (block.amount || 1) / rewardListing.amount;
+                        var amount = currencyListing.amount * itemView.groupAmount / rewardListing.amount;
                         var currentAmount = currency[currencyListing.id] || 0;
                         // Mobile Safari is injecting weird NaNs for index 0 and 2 here.  No idea why.
                         currency[currencyListing.id] = currentAmount + amount;
