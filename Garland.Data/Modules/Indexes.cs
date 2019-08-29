@@ -106,14 +106,14 @@ namespace Garland.Data.Modules
             var sMateriaJoinRates = _builder.Sheet("MateriaJoinRate");
             foreach (var sMateriaJoinRate in sMateriaJoinRates)
             {
-                rates.hq.Add(new[]
+                rates.nq.Add(new[]
                 {
                     (int)(Single)sMateriaJoinRate.GetRaw(0),
                     (int)(Single)sMateriaJoinRate.GetRaw(1),
                     (int)(Single)sMateriaJoinRate.GetRaw(2),
                     (int)(Single)sMateriaJoinRate.GetRaw(3)
                 });
-                rates.nq.Add(new[]
+                rates.hq.Add(new[]
                 {
                     (int)(Single)sMateriaJoinRate.GetRaw(4),
                     (int)(Single)sMateriaJoinRate.GetRaw(5),

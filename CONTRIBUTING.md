@@ -24,7 +24,7 @@ These are one-time steps needed to build the primary data importer and bootstrap
 * PHP
 
 ### Building
-1. Repositories must be cloned as siblings on the filesystem, e.g. `$HOME/code/gt, $HOME/code/SaintCoinach, $HOME/code/xivModdingFramework`.
+1. Repositories must be cloned as siblings on the filesystem, e.g. `$HOME/code/gt, $HOME/code/xivModdingFramework`.
 1. Open the `Garland.sln` solution in Visual Studio.
 1. Set active solution platform to x64 from Any CPU.
 1. Acquire a copy of Libra Eorzea's `app_data.sqlite`, and place it in `Supplemental/app_data.sqlite`.

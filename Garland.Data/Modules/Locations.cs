@@ -173,6 +173,7 @@ namespace Garland.Data.Modules
             _builder.Db.AddLocationReference(2955); // Amh Araeng
             _builder.Db.AddLocationReference(2956); // Il Mheg
             _builder.Db.AddLocationReference(2957); // The Rak'Tika Greatwood
+            _builder.Db.AddLocationReference(2958); // The Tempest
         }
 
         static string ConvertPlaceNameName(Game.PlaceName sPlaceName)

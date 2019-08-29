@@ -285,12 +285,18 @@ gt.core = {
 
     activate: function(type, id, $from, done) {
         gt.core.load(type, id, $from, function($block) {
-            gt.core.setActiveBlock($block);
+            gt.core.setActiveBlock($block, false);
             gt.list.blockSortingUpdated();
 
             if (done)
                 done($block);
         });
+
+        if (type == 'item' && gt.settings.data.isearchOnActivate) {
+            var itemPartial = gt.item.partialIndex[id];
+            if (itemPartial)
+                gt.item.isearchCopy(itemPartial.n);
+        }
     },
 
     load: function(type, id, $from, done) {
@@ -519,11 +525,17 @@ gt.core = {
         return $replacement;
     },
 
-    setActiveBlock: function($block) {
+    setActiveBlock: function($block, inUserEvent) {
         $('.block.active').removeClass('active');
         $block.addClass('active');
 
         gt.core.setHash($block);
+
+        if (inUserEvent && gt.settings.data.isearchOnActivate) {
+            var view = $block.data('view');
+            if (view && view.type == 'item')
+                gt.item.isearchCopy(view.name);
+        }
     },
 
     addBlock: function($block, $from, blockData, view) {
@@ -904,7 +916,7 @@ gt.core = {
 
     headerClicked: function(e) {
         var $block = $(this).closest('.block');
-        gt.core.setActiveBlock($block);
+        gt.core.setActiveBlock($block, true);
         gt.isotope.layout();
     },
 
@@ -2518,8 +2530,8 @@ gt.item = {
                     var meld = melds[ii];
                     var materia = meld.item.materia;
                     if (ii >= item.sockets) {
-                        meld.nqRate = gt.item.materiaJoinRates.nq[materia.tier][ii - item.sockets];
-                        meld.hqRate = gt.item.materiaJoinRates.hq[materia.tier][ii - item.sockets];
+                        meld.nqRate = gt.item.materiaJoinRates.nq[materia.tier * 4 + ii - item.sockets];
+                        meld.hqRate = gt.item.materiaJoinRates.hq[materia.tier * 4 + ii - item.sockets];
                         meld.overmeld = 1;
                     }
 
@@ -2707,9 +2719,13 @@ gt.item = {
         // Sort by tier, then name if applicable.
         if (gt.settings.data.sortMelds) {
             data.melds = _.sortBy(data.melds, function(id) {
-                var item = gt.item.partialIndex[id];
-                return item.materia.tier + "-" + item.n;
-            }).reverse();
+                var materiaItem = gt.item.partialIndex[id];
+                var materia = materiaItem.materia;
+                var rateStart = materia.tier * 4;
+                var cumulativeJoinRate = gt.util.sum(gt.item.materiaJoinRates.hq.slice(rateStart, rateStart + 4), function(i) { return i; });
+                var sortKey = gt.util.zeroPad(cumulativeJoinRate, 5) + "-" + gt.util.zeroPad(99 - materia.tier, 2) + "-" + materiaItem.n;
+                return sortKey;
+            });
         }
 
         // Dismiss popover and redisplay.
@@ -2861,7 +2877,7 @@ gt.item = {
         if (gcTrade)
             return gcTrade;
 
-        // Prefer nq listings next.
+        // Prefer nq listings.
         var nqTrade = gt.item.findTrade(item.tradeShops, function(tradeItem, type) {
             return type == 'reward' && tradeItem.id == item.id && !tradeItem.hq
         });
@@ -2936,6 +2952,19 @@ gt.item = {
         var url = '3d/viewer.html?id=' + modelKeys.join('+');
         var html = '<iframe class="model-viewer" src="' + url + '"></iframe>';
         $page.empty().append($(html));
+    },
+
+    isearchCopy: function(itemName) {
+        if (!navigator.clipboard)
+            return;
+
+        var isearch = '/isearch "' + itemName + '"';
+        var promise = navigator.clipboard.writeText(isearch);
+        if (promise) {
+            promise.catch(function(err) {
+                console.error('Clipboard write error', err);
+            });
+        }
     }
 };
 gt.npc = {
@@ -3041,10 +3070,12 @@ gt.npc = {
 
         if (npc.zoneid) {
             var location = gt.location.index[npc.zoneid];
-            view.fullLocation = view.location = location.name;
-            if (npc.coords) {
-                view.fullLocation += ' (' + Math.round(npc.coords[0]) + ', ' + Math.round(npc.coords[1]) + ')';
-                view.map = gt.map.getViewModel({ location: location, coords: npc.coords, approx: npc.approx, icon: view.icon });
+            if (location) {
+                view.fullLocation = view.location = location.name;
+                if (npc.coords) {
+                    view.fullLocation += ' (' + Math.round(npc.coords[0]) + ', ' + Math.round(npc.coords[1]) + ')';
+                    view.map = gt.map.getViewModel({ location: location, coords: npc.coords, approx: npc.approx, icon: view.icon });
+                }
             }
         }
 
@@ -3477,7 +3508,12 @@ gt.node = {
                 });
             }
 
-            view.items = gt.model.partialList(gt.item, node.items, function(v, i) { v.node_slot = i.slot; return v; });
+            view.items = gt.model.partialList(gt.item, node.items, function(v, i) {
+                v.node_slot = i.slot;
+                if (i.reduceId)
+                    v.reduce = gt.model.partial(gt.item, i.reduceId);
+                return v;
+            });
 
             if (node.time)
                 view.items = _.sortBy(view.items, function(i) { return i.node_slot || i.name; });
@@ -4096,9 +4132,11 @@ gt.search = {
             };
         } else {
             query.match = function(data) {
-                var set = bestMatches.length < maxSet ? bestMatches : allMatches;
-                set.push(data);
-                return bestMatches.length == maxSet && allMatches.length >= 1;
+                // Attempts to short-circuit here are wrong, because there
+                // isn't a search string to generates best matches from, and
+                // we need the full set for sorting.
+                allMatches.push(data);
+                return false;
             }
         }
 
@@ -4473,7 +4511,8 @@ gt.settings = {
         minerVentures: 0,
         botanyVentures: 0,
         fisherVentures: 0,
-        combatVentures: 0
+        combatVentures: 0,
+        isearchOnActivate: 0
     },
 
     getItem: function(id) {
@@ -4644,6 +4683,10 @@ gt.settings = {
             .prop('checked', data.combatVentures)
             .change(gt.settings.preferCombatVenturesChanged);
 
+        $('#isearch-on-activate')
+            .prop('checked', data.isearchOnActivate)
+            .change(gt.settings.isearchOnActivateChanged);
+
         if (data.colorblind)
             $('body').addClass('colorblind');
 
@@ -4799,6 +4842,11 @@ gt.settings = {
         var value = $(this).is(':checked');
         gt.settings.saveDirty({ combatVentures: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
+    },
+
+    isearchOnActivateChanged: function(e) {
+        var value = $(this).is(':checked');
+        gt.settings.saveDirty({ isearchOnActivate: value ? 1 : 0 });
     },
 
     redisplayMatchingBlocks: function(selector) {
@@ -5239,7 +5287,7 @@ gt.display = {
             .addClass('dragging');
 
         if ($draggable.hasClass('block'))
-            gt.core.setActiveBlock($draggable);
+            gt.core.setActiveBlock($draggable, true);
     },
 
     draggableUp: function(e) {
@@ -5356,7 +5404,7 @@ gt.display = {
         $element.attr('data-sort', gt.list.placeBefore($nearest));
 
         gt.list.blockSortingUpdated();
-        gt.core.setActiveBlock($element);
+        gt.core.setActiveBlock($element, true);
 
         gt.display.minimap();
     },
@@ -5545,7 +5593,7 @@ gt.display = {
         var $existing = $('.' + block.type + '.block[data-id="' + block.id + '"]');
         if ($existing.length) {
             gt.core.scrollToBlock($existing);
-            gt.core.setActiveBlock($existing);
+            gt.core.setActiveBlock($existing, true);
         }
     },
 
@@ -5773,7 +5821,7 @@ gt.list = {
         DOL: 'DOL', GATHER: 'DOL', GATHERING: 'DOL', GATHERER: 'DOL',
         DOH: 'DOH', CRAFT: 'DOH', CRAFTING: 'DOH', CRAFTER: 'DOH',
     
-        SCRIP: '../files/icons/item/65044.png', SCRIPS: '../files/icons/item/65044.png',
+        SCRIP: 'images/Rowena.png', SCRIPS: 'images/Rowena.png',
         'RED SCRIP': '../files/icons/item/65031.png', 'RED SCRIPS': '../files/icons/item/65031.png',
         'YELLOW SCRIP': '../files/icons/item/65044.png',
     
@@ -7462,7 +7510,7 @@ gt.equip = {
         { icon: "images/Region Ishgard.png", name: "Ishgard and Surrounds", page: "Ishgard", zones: [62, 63, 2200, 2100, 2101, 2082, 2000, 2001, 2002, 1647] },
         { icon: "images/Region Gyr Abania.png", name: "Gyr Abania", page: "GyrAbania", zones: [2403, 2406, 2407, 2408] },
         { icon: "images/Region Kugane.png", name: "Far East", page: "FarEast", zones: [513, 2412, 2409, 2410, 2411] },
-        { icon: "images/Region Norvrandt.png", name: "Norvrandt", page: "Norvrandt", zones: [516, 517, 2953, 2954, 2955, 2956, 2957] },
+        { icon: "images/Region Norvrandt.png", name: "Norvrandt", page: "Norvrandt", zones: [516, 517, 2953, 2954, 2955, 2956, 2957, 2958], },
         { icon: "images/Aetheryte.png", name: "Others", page: "Others", zones: [67, 2414, 2462, 2530, 2545] }
     ],
     weatherUpdateKey: null,
@@ -8643,7 +8691,7 @@ gt.craft.step.prototype.setCraftSource = function(itemSettings) {
 gt.craft.step.prototype.setMarketSource = function(itemSettings) {
     var view = {
         amount: itemSettings.marketPrice,
-        icon: gt.item.iconPath(1),
+        icon: gt.item.iconPath(65002),
         currency: 1,
         sourceName: itemSettings.marketPrice.toLocaleString(),
         longSourceName: itemSettings.marketPrice.toLocaleString()
@@ -8763,6 +8811,7 @@ gt.group = {
 
     initialize: function(data) {
         gt.group.blockTemplate = doT.template($('#block-group-template').text());
+        gt.group.shopTemplate = doT.template($('#block-group-shop-template').text());
 
         $('#new-group').click(gt.group.newGroupClicked);
     },
@@ -8989,8 +9038,34 @@ gt.group = {
             view.craftShops = gt.group.aggregateShops(gatheredItems);
         }
 
-        // Aggregate stats & shops.
+        // Aggregate stats.
         view.aggregateStats = gt.group.aggregateAttributes(items);
+
+        // Aggregate materia shops.
+        if (view.aggregateStats && view.aggregateStats.melds) {
+            var melds = view.aggregateStats.melds;
+            var materia = [];
+            for (var i = 0; i < melds.length; i++) {
+                var meld = melds[i];
+                var meldBlock = { type: 'item', id: meld.item.id };
+                var meldItem = gt.item.index[meld.item.id];
+                if (!meldItem) {
+                    deferredContents.push(meldBlock);
+                    continue;
+                }
+
+                materia.push({
+                    amount: meld.amount,
+                    block: meldBlock,
+                    view: gt.item.getViewModel(meldItem, {})
+                });
+            }
+
+            if (materia.length)
+                view.materiaShops = gt.group.aggregateShops(materia);
+        }
+
+        // Aggregate contents shops.
         view.shops = gt.group.aggregateShops(items);
 
         // Kick off a load of the deferred contents.
@@ -9103,7 +9178,7 @@ gt.group = {
 
     aggregateAttributes: function(items) {
         // First aggregate the values.
-        var sumBonuses = {}, sumPrimes = {};
+        var sumBonuses = {}, sumPrimes = {}, sumMelds = {};
         var hasBonusMeter = false;
         var hasStats = false;
         var actions = [];
@@ -9120,7 +9195,8 @@ gt.group = {
                 continue;
 
             hasStats = true;
-            model.stats = gt.item.getAttributesViewModel(model.view.obj, model.view.melds);
+            var melds = model.view.melds;
+            model.stats = gt.item.getAttributesViewModel(model.view.obj, melds);
 
             // Remove useless large prime values for DoH/DoL and glamour equipment.
             if (model.view.obj.patchCategory != 0)
@@ -9130,6 +9206,19 @@ gt.group = {
             hasBonusMeter = hasBonusMeter || model.stats.hasBonusMeter;
             gt.group.aggregateAttributeList(model.stats.bonuses, sumBonuses, amount);
             gt.group.aggregateAttributeList(model.stats.primes, sumPrimes, amount);
+
+            // Sum materia melded to this item.
+            if (melds) {
+                for (var ii = 0; ii < melds.length; ii++) {
+                    var meld = melds[ii];
+                    var meldAggregate = sumMelds[meld.item.id];
+                    if (!meldAggregate)
+                        sumMelds[meld.item.id] = meldAggregate = { item: meld.item, amount: 0, estimate: 0 };
+                    
+                    meldAggregate.amount++;
+                    meldAggregate.estimate += 100 / (meld.hqRate || 100);
+                }
+            }
         }
 
         if (!hasStats)
@@ -9184,6 +9273,10 @@ gt.group = {
             }
         }
 
+        // Sum and sort melds.
+        var melds = _.sortBy(_.values(sumMelds), function(m) { return m.item.materia.tier + " " + m.item.name; });
+        melds.reverse();
+
         // Finally aggregate stats from actions.
         for (var i = 0; i < actions.length; i++) {
             var model = actions[i];
@@ -9192,7 +9285,7 @@ gt.group = {
 
         // Done!
         bonuses = _.sortBy(bonuses, function(b) { return b.sort; });
-        return { bonuses: bonuses, primes: primes, hasBonusMeter: hasBonusMeter };
+        return { bonuses: bonuses, primes: primes, melds: melds, hasBonusMeter: hasBonusMeter };
     },
 
     aggregateActionList: function(list, sum, amount) {
@@ -9230,7 +9323,6 @@ gt.group = {
     aggregateShops: function(items) {
         // First generate a list of purchasable items by NPC.
         var npcs = {};
-        var currency = {};
         for (var i = 0; i < items.length; i++) {
             var block = items[i];
             var itemView = block.view;
@@ -9242,35 +9334,22 @@ gt.group = {
                     var id = itemView.vendors[ii].id;
                     var list = npcs[id] || (npcs[id] = []);
                     list.push(itemView);
-
-                    if (ii == 0) {
-                        // Only count currencies once.
-                        var cost = itemView.groupAmount * itemView.price;
-                        currency[1] = (currency[1] || 0) + cost;
-                    }
                 }
             } else if (itemView.obj.tradeShops) {
-                itemView.groupTradeSource = gt.item.findSimplestTradeSource(itemView.obj);
+                for (var tradeShopIndex = 0; tradeShopIndex < itemView.obj.tradeShops.length; tradeShopIndex++) {
+                    var tradeShop = itemView.obj.tradeShops[tradeShopIndex];
 
-                // A bit backwards.  Go back and find the tradeShop for this source.
-                var tradeShop = _.find(itemView.obj.tradeShops, function(s) { return _.contains(s.listings, itemView.groupTradeSource);  });
+                    for (var npcIndex = 0; npcIndex < tradeShop.npcs.length; npcIndex++) {
+                        var npcId = tradeShop.npcs[npcIndex];
+                        // For now, hardcode a skip on certain NPCs.
+                        // To anyone maintaining this in the future: The ultimate
+                        // goal is a ranking system for currencies which prefers
+                        // renewables like scrips over rare resources.
+                        if (npcId == 1027567 || npcId == 1027995)
+                            continue;
 
-                for (var ii = 0; ii < tradeShop.npcs.length; ii++) {
-                    var npcId = tradeShop.npcs[ii];
-                    var list = npcs[npcId] || (npcs[npcId] = []);
-                    list.push(itemView);
-
-                    if (ii == 0) {
-                        // Only count currencies once.
-                        var rewardEntry = _.find(itemView.groupTradeSource.item, function(e) { return e.id == itemView.id; });
-                        for (var iii = 0; iii < itemView.groupTradeSource.currency.length; iii++) {
-                            var currencyEntryItem = itemView.groupTradeSource.currency[iii];
-                            currencyEntryItem.obj = gt.model.partial(gt.item, currencyEntryItem.id);
-                            var amount = currencyEntryItem.amount * (block.amount || 1) / rewardEntry.amount;
-                            var currentAmount = currency[currencyEntryItem.id] || 0;
-                            // Mobile Safari is injecting weird NaNs for index 0 and 2 here.  No idea why.
-                            currency[currencyEntryItem.id] = currentAmount + amount;
-                        }
+                        var list = npcs[npcId] || (npcs[npcId] = []);
+                        list.push(itemView);
                     }
                 }
             }
@@ -9304,6 +9383,34 @@ gt.group = {
 
             // Re-sort the working set.
             workingSet = _.sortBy(workingSet, function(e) { return e.items.length; });
+        }
+
+        // Make a pass through shops to calculate currencies for these NPCs.
+        var currency = {};
+        for (var shopIndex = 0; shopIndex < shops.length; shopIndex++) {
+            var shop = shops[shopIndex];
+            for (var itemIndex = 0; itemIndex < shop.items.length; itemIndex++) {
+                var itemView = shop.items[itemIndex];
+                
+                if (itemView.vendors) {
+                    var cost = itemView.groupAmount * itemView.price;
+                    currency[1] = (currency[1] || 0) + cost;
+                } else if (itemView.obj.tradeShops) {
+                    var tradeShop = _.find(itemView.obj.tradeShops, function(s) { return _.contains(s.npcs, shop.npc.id); });
+                    var listing = tradeShop.listings[0];
+                    var rewardListing = _.find(listing.item, function(listingItem) { return listingItem.id == itemView.id; });
+
+                    itemView.groupTradeSource = listing;
+                    for (var currencyIndex = 0; currencyIndex < listing.currency.length; currencyIndex++) {
+                        var currencyListing = listing.currency[currencyIndex];
+                        currencyListing.obj = gt.model.partial(gt.item, currencyListing.id);
+                        var amount = currencyListing.amount * itemView.groupAmount / rewardListing.amount;
+                        var currentAmount = currency[currencyListing.id] || 0;
+                        // Mobile Safari is injecting weird NaNs for index 0 and 2 here.  No idea why.
+                        currency[currencyListing.id] = currentAmount + amount;
+                    }
+                }
+            }
         }
 
         // Convert currencies.

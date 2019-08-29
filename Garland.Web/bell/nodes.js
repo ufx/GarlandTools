@@ -423,7 +423,7 @@
       17,
       21
     ],
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "zone": "Mor Dhona",
     "coords": [
       27.0,
@@ -700,7 +700,7 @@
       5,
       9
     ],
-    "title": "north Silvertear",
+    "title": "North Silvertear",
     "zone": "Mor Dhona",
     "coords": [
       32.0,
@@ -4860,8 +4860,8 @@
     "title": "Saint Fathric's Temple",
     "zone": "Il Mheg",
     "coords": [
-      31.4,
-      18.8
+      30.0,
+      21.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -4891,8 +4891,8 @@
     "title": "Where the Dry Return",
     "zone": "The Tempest",
     "coords": [
-      37.3,
-      9.1
+      32.7,
+      8.0
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -4946,6 +4946,7 @@
         "item": "Sweet Marjoram",
         "icon": 25015,
         "id": 27809,
+        "slot": "6",
         "reduce": {
           "item": "Scuroglow Aethersand",
           "icon": 21233
@@ -4964,8 +4965,8 @@
     "title": "The Wild Fete",
     "zone": "The Rak'tika Greatwood",
     "coords": [
-      29.0,
-      24.0
+      26.9,
+      24.3
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -5088,6 +5089,7 @@
         "item": "White Clay",
         "icon": 22610,
         "id": 27808,
+        "slot": "7",
         "reduce": {
           "item": "Chiaroglow Aethersand",
           "icon": 21235

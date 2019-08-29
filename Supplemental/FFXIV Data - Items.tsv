@@ -72,18 +72,19 @@ Agedeep Aethersand	Reduce	Shade Quartz
 Chiaroglow Aethersand	Reduce	Gale Rock	White Clay	Voeburt Bichir									
 Scuroglow Aethersand	Reduce	Sweet Marjoram	Solarite	Poecilia									
 Agewood Aethersand	Reduce	Bog Sage											
-Earth Cluster	Reduce	Black Soil	Doman Yellow	Granular Clay	Peat Moss								
-Earth Crystal	Reduce	Black Soil	Doman Yellow	Granular Clay	Peat Moss								
-Fire Cluster	Reduce	Almandine	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine								
-Fire Crystal	Reduce	Almandine	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine								
-Ice Cluster	Reduce	Lover's Laurel	Torreya Branch										
-Ice Crystal	Reduce	Lover's Laurel	Torreya Branch										
-Lightning Cluster	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena							
-Lightning Crystal	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena							
-Water Cluster	Reduce	Radiant Astral Moraine	Perlite										
-Water Crystal	Reduce	Radiant Astral Moraine	Perlite										
-Wind Cluster	Reduce	Clary Sage	Furymint	Highland Oregano	Windtea Leaves	Yanxian Soil							
-Wind Crystal	Reduce	Clary Sage	Furymint	Highland Oregano	Windtea Leaves	Yanxian Soil							
+Ageflow Aethersand	Reduce	Predator											
+Earth Cluster	Reduce	Black Soil	Doman Yellow	Granular Clay	Peat Moss	White Clay							
+Earth Crystal	Reduce	Black Soil	Doman Yellow	Granular Clay	Peat Moss	White Clay							
+Fire Cluster	Reduce	Almandine	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine	Shade Quartz							
+Fire Crystal	Reduce	Almandine	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine	Shade Quartz							
+Ice Cluster	Reduce	Lover's Laurel	Torreya Branch	Bog Sage									
+Ice Crystal	Reduce	Lover's Laurel	Torreya Branch	Bog Sage									
+Lightning Cluster	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena	Solarite						
+Lightning Crystal	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena	Solarite						
+Water Cluster	Reduce	Radiant Astral Moraine	Perlite	Gale Rock									
+Water Crystal	Reduce	Radiant Astral Moraine	Perlite	Gale Rock									
+Wind Cluster	Reduce	Clary Sage	Furymint	Highland Oregano	Windtea Leaves	Yanxian Soil	Sweet Marjoram						
+Wind Crystal	Reduce	Clary Sage	Furymint	Highland Oregano	Windtea Leaves	Yanxian Soil	Sweet Marjoram						
 Lotus Leaf	Loot	Timeworn Leather Map											
 Ahriman Tears	Loot	Timeworn Leather Map	Unhidden Leather Map										
 Tiny Bulb	Loot	Timeworn Toadskin Map											
@@ -858,3 +859,4 @@ Auspicious Kamuy Fife	Instance	The Jade Stoa (Extreme)
 Lunar Kamuy Fife	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
 Euphonious Kamuy Fife	Instance	Hells' Kier (Extreme)											
 Hallowed Kamuy Fife	Instance	The Wreath of Snakes (Extreme)											
+Smilodon Skin	Drop	Smilodon											

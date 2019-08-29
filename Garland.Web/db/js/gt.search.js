@@ -162,9 +162,11 @@ gt.search = {
             };
         } else {
             query.match = function(data) {
-                var set = bestMatches.length < maxSet ? bestMatches : allMatches;
-                set.push(data);
-                return bestMatches.length == maxSet && allMatches.length >= 1;
+                // Attempts to short-circuit here are wrong, because there
+                // isn't a search string to generates best matches from, and
+                // we need the full set for sorting.
+                allMatches.push(data);
+                return false;
             }
         }
 

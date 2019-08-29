@@ -684,8 +684,8 @@ gt.item = {
                     var meld = melds[ii];
                     var materia = meld.item.materia;
                     if (ii >= item.sockets) {
-                        meld.nqRate = gt.item.materiaJoinRates.nq[materia.tier][ii - item.sockets];
-                        meld.hqRate = gt.item.materiaJoinRates.hq[materia.tier][ii - item.sockets];
+                        meld.nqRate = gt.item.materiaJoinRates.nq[materia.tier * 4 + ii - item.sockets];
+                        meld.hqRate = gt.item.materiaJoinRates.hq[materia.tier * 4 + ii - item.sockets];
                         meld.overmeld = 1;
                     }
 
@@ -873,9 +873,13 @@ gt.item = {
         // Sort by tier, then name if applicable.
         if (gt.settings.data.sortMelds) {
             data.melds = _.sortBy(data.melds, function(id) {
-                var item = gt.item.partialIndex[id];
-                return item.materia.tier + "-" + item.n;
-            }).reverse();
+                var materiaItem = gt.item.partialIndex[id];
+                var materia = materiaItem.materia;
+                var rateStart = materia.tier * 4;
+                var cumulativeJoinRate = gt.util.sum(gt.item.materiaJoinRates.hq.slice(rateStart, rateStart + 4), function(i) { return i; });
+                var sortKey = gt.util.zeroPad(cumulativeJoinRate, 5) + "-" + gt.util.zeroPad(99 - materia.tier, 2) + "-" + materiaItem.n;
+                return sortKey;
+            });
         }
 
         // Dismiss popover and redisplay.
@@ -1027,7 +1031,7 @@ gt.item = {
         if (gcTrade)
             return gcTrade;
 
-        // Prefer nq listings next.
+        // Prefer nq listings.
         var nqTrade = gt.item.findTrade(item.tradeShops, function(tradeItem, type) {
             return type == 'reward' && tradeItem.id == item.id && !tradeItem.hq
         });
@@ -1102,5 +1106,18 @@ gt.item = {
         var url = '3d/viewer.html?id=' + modelKeys.join('+');
         var html = '<iframe class="model-viewer" src="' + url + '"></iframe>';
         $page.empty().append($(html));
+    },
+
+    isearchCopy: function(itemName) {
+        if (!navigator.clipboard)
+            return;
+
+        var isearch = '/isearch "' + itemName + '"';
+        var promise = navigator.clipboard.writeText(isearch);
+        if (promise) {
+            promise.catch(function(err) {
+                console.error('Clipboard write error', err);
+            });
+        }
     }
 };

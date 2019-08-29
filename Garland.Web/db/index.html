@@ -485,11 +485,33 @@
         {{?}}
     </script>
 
+    <script id="block-group-shop-template" type="text/x-dot-template">
+        {{?it.currency}}
+            <div class="trades line collapse-toggle">
+                {{~it.currency :trade:tindex}}
+                    <span class="inline-block block-link trade hover-highlight pointer" data-type="item" data-id="{{=trade.currency.id}}" title="{{=trade.currency.name}}"><img src="{{=trade.currency.icon}}" class="icon small"><span class="text">{{=Math.ceil(trade.amount).toLocaleString()}}</span></span>
+                {{~}}
+            </div>
+        {{?}}
+
+        {{~it.vendors :vendor:sindex}}
+            <h4 class="block-link pointer hover-highlight collapse-toggle" data-type="npc" data-id="{{=vendor.npc.id}}">
+                <span class="highlight">{{=vendor.npc.name}}</span>
+                <span class="deemphasize right">{{=vendor.npc.location}}</span>
+            </h4>
+            <div class="collapse-toggle shop-entry">
+                {{~vendor.items :item:iindex}}
+                    {{=gt.item.vendorLinkTemplate(item)}}
+                {{~}}
+            </div>
+        {{~}}
+    </script>
+
     <script id="block-group-template" type="text/x-dot-template">
         <div class="midline">
             <div class="menu tab">
                 <div data-page="contents-page" class="button">Contents{{?it.contents.length}} ({{=it.contents.length}})&#x200E;{{?}}</div>
-                {{?it.shops || it.craftShops}}<div data-page="shops-page" class="button">Shops</div>{{?}}
+                {{?it.shops || it.craftShops || it.materiaShops}}<div data-page="shops-page" class="button">Shops</div>{{?}}
                 {{?it.craftSet}}<div data-page="crafting-page" class="button">Crafting</div>{{?}}
             </div>
         </div>
@@ -536,6 +558,21 @@
                                 {{=gt.item.attributeValueTemplate(b)}}
                             {{~}}
                         </div>
+
+                        {{?it.aggregateStats.melds && it.aggregateStats.melds.length}}
+                            <div class="subsection collapse-toggle">
+                                <hr>
+                                {{~it.aggregateStats.melds :meld:mindex}}
+                                    <div class="block-link hover-highlight pointer line" data-type="item" data-id="{{=meld.item.id}}">
+                                        <img src="{{=meld.item.icon}}" class="icon small">
+                                        <span class="text" title="Estimates based on HQ overmeld success rates and will vary individually.">
+                                            {{=meld.amount.toLocaleString()}}{{?meld.estimate && meld.estimate != meld.amount}}~{{=gt.util.round1(meld.estimate).toLocaleString()}}{{?}}
+                                        </span>
+                                        <span class="highlight text">{{=meld.item.name}}</span>
+                                    </div>
+                                {{~}}
+                            </div>
+                        {{?}}
                     </div>
                 {{?}}
 
@@ -635,55 +672,26 @@
                 {{?}}
             </div> <!-- Stats Page End -->
 
-            {{?it.shops || it.craftShops}}
+            {{?(it.shops || it.craftShops || it.materiaShops) && gt.group.shopTemplate}}
                 <div class="shops-page page">
                     {{?it.shops}}
                         <div class="contents-shops subsection collapsible" data-headername="contents-shops">
                             <h3 class="pointer">Shops</h3>
-                            {{?it.shops.currency}}
-                                <div class="trades line collapse-toggle">
-                                    {{~it.shops.currency :trade:tindex}}
-                                        <span class="inline-block block-link trade hover-highlight pointer" data-type="item" data-id="{{=trade.currency.id}}" title="{{=trade.currency.name}}"><img src="{{=trade.currency.icon}}" class="icon small"><span class="text">{{=Math.ceil(trade.amount).toLocaleString()}}</span></span>
-                                    {{~}}
-                                </div>
-                            {{?}}
+                            {{=gt.group.shopTemplate(it.shops)}}
+                        </div>
+                    {{?}}
 
-                            {{~it.shops.vendors :vendor:sindex}}
-                                <h4 class="block-link pointer hover-highlight collapse-toggle" data-type="npc" data-id="{{=vendor.npc.id}}">
-                                    <span class="highlight">{{=vendor.npc.name}}</span>
-                                    <span class="deemphasize right">{{=vendor.npc.location}}</span>
-                                </h4>
-                                <div class="collapse-toggle shop-entry">
-                                    {{~vendor.items :item:iindex}}
-                                        {{=gt.item.vendorLinkTemplate(item)}}
-                                    {{~}}
-                                </div>
-                            {{~}}
+                    {{?it.materiaShops}}
+                        <div class="materia-shops subsection collapsible data-headername="materia-shops">
+                            <h3 class="pointer">Materia Shops</h3>
+                            {{=gt.group.shopTemplate(it.materiaShops)}}
                         </div>
                     {{?}}
 
                     {{?it.craftShops}}
                         <div class="craft-shops subsection collapsible" data-headername="craft-shops">
                             <h3 class="pointer">Crafting Ingredient Shops</h3>
-                            {{?it.craftShops.currency}}
-                                <div class="trades line collapse-toggle">
-                                    {{~it.craftShops.currency :trade:tindex}}
-                                        <span class="inline-block block-link trade hover-highlight pointer" data-type="item" data-id="{{=trade.currency.id}}" title="{{=trade.currency.name}}"><img src="{{=trade.currency.icon}}" class="icon small"><span class="text">{{=Math.ceil(trade.amount).toLocaleString()}}</span></span>
-                                    {{~}}
-                                </div>
-                            {{?}}
-
-                            {{~it.craftShops.vendors :vendor:sindex}}
-                                <h4 class="block-link pointer hover-highlight collapse-toggle" data-type="npc" data-id="{{=vendor.npc.id}}">
-                                    <span class="highlight">{{=vendor.npc.name}}</span>
-                                    <span class="deemphasize right">{{=vendor.npc.location}}</span>
-                                </h4>
-                                <div class="collapse-toggle shop-entry">
-                                    {{~vendor.items :item:iindex}}
-                                        {{=gt.item.vendorLinkTemplate(item)}}
-                                    {{~}}
-                                </div>
-                            {{~}}
+                            {{=gt.group.shopTemplate(it.craftShops)}}
                         </div>
                     {{?}}
                 </div> <!-- Shops Page End -->
@@ -1138,6 +1146,8 @@
                                     {{?it.ingredient_of || it.obj.category == 59}}<label><input type="checkbox"> Market Price</label>{{??}}Market Price{{?}}
                                 </span>
                                 <input type="number" class="market-price" {{?it.marketPrice}}value="{{=it.marketPrice}}"{{?}}>
+
+                                <a href="https://mogboard.com/market/{{=it.id}}" class="right">Open mogboard.</a>
                             </div>
                         </div>
                     {{?}}
@@ -2589,15 +2599,24 @@
             <div class="info-page page">
                 <div class="items subsection">
                     {{~it.items :value:index}}
-                        <div class="line half block-link hover-highlight pointer" data-id="{{=value.id}}" data-type="item">
-                            <img class="icon small" src="{{=value.icon}}">
-                            {{?value.node_slot}}<span class="text">[{{=value.node_slot}}]</span> {{?}}
-                            <span class="highlight text">{{=value.name}}</span>
+                        <div class="line clear">
+                            {{?value.reduce}}
+                                <div class="block-link hover-highlight pointer right" title="Reduces to {{=value.reduce.name}}" data-id="{{=value.reduce.id}}" data-type="item">
+                                    <img class="icon small" src="images/Reduce.png">
+                                    <img class="icon small" src="{{=value.reduce.icon}}">
+                                </div>
+                            {{?}}
+
+                            <div class="block-link hover-highlight pointer" data-id="{{=value.id}}" data-type="item">
+                                <img class="icon small" src="{{=value.icon}}">
+                                {{?value.node_slot}}<span class="text">[{{=value.node_slot}}]</span> {{?}}
+                                <span class="highlight text">{{=value.name}}</span>
+                            </div>
                         </div>
                     {{~}}
                 </div>
 
-                <hr>
+                <hr class="clear">
                 <div class="location right">{{=it.location}}{{?it.timeText}} @ {{=it.timeText}} ET{{?}}</div>
                 <div class="highlight-green">Lv. {{=it.lvl}} {{=it.job}}</div>
 
@@ -3649,6 +3668,11 @@
                     <tr>
                         <td class="value"><input type="checkbox" id="sort-melds"></td><td><label for="sort-melds">Sort Materia Melds</label></td>
                         <td colspan="2" class="deemphasize">Automatically sort new materia melds by tier.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="value"><input type="checkbox" id="isearch-on-activate"></td><td><label for="isearch-on-activate">/isearch On Activate</label></td>
+                        <td colspan="2" class="deemphasize">Copies /isearch to the clipboard whenever an item block is activated.</td>
                     </tr>
                 </table>
             </div>

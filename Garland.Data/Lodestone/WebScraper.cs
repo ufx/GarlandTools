@@ -56,7 +56,7 @@ namespace Garland.Data.Lodestone
 
                     if (ex.Message.Contains("Bad Gateway"))
                     {
-                        Thread.Sleep(9000);
+                        Thread.Sleep(3000);
                         continue;
                     }
                     else
