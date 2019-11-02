@@ -72,6 +72,10 @@ namespace Garland.Data.Modules
 
         Tuple<Saint.Items.Equipment, int> Match(Saint.EquipSlot slot, Saint.Quad key)
         {
+            if (!_equipmentBySlotByModelKey.ContainsKey(slot))
+            {
+                Console.WriteLine(_equipmentBySlotByModelKey.Keys.ToString());
+            }
             var equipmentByModelKey = _equipmentBySlotByModelKey[slot];
 
             // Check for an exact match.

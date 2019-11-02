@@ -13,7 +13,7 @@ namespace Garland.Data.Output
     public class UpdatePackage
     {
         const int PackageSizeLimit = 200 * 1000000;
-        const int BatchSizeLimit = 2 * 1000000;
+        const int BatchSizeLimit = 2 * 100000;
 
         ConcurrentBag<Row> _rows = new ConcurrentBag<Row>();
         string _name;

@@ -115,13 +115,16 @@ namespace Garland.Data.Models
             // Add related NPCs.
             foreach (var sNpc in ENpcs)
             {
-                var npc = builder.Db.NpcsById[sNpc.Key];
-                builder.Db.AddReference(item, "npc", sNpc.Key, true);
-                builder.Db.AddReference(npc, "item", relatedItemIds, false);
+                try
+                {
+                    var npc = builder.Db.NpcsById[sNpc.Key];
+                    builder.Db.AddReference(item, "npc", sNpc.Key, true);
+                    builder.Db.AddReference(npc, "item", relatedItemIds, false);
 
-                JArray shopNpcs = shop.npcs;
-                if (!shopNpcs.Any(t => (int)t == sNpc.Key))
-                    shopNpcs.Add(sNpc.Key);
+                    JArray shopNpcs = shop.npcs;
+                    if (!shopNpcs.Any(t => (int)t == sNpc.Key))
+                        shopNpcs.Add(sNpc.Key);
+                } catch(KeyNotFoundException e) { }
             }
 
             // Finally, add the shop listing.

@@ -267,6 +267,11 @@ namespace Garland.Data.Modules
                     action.cost = sAction.Cost;
                     break;
 
+                case Saint.ActionCostType.Battery:
+                    action.resource = "Battery";
+                    action.cost = sAction.Cost;
+                    break;
+
                 case Saint.ActionCostType.AstrologianCard:
                 case Saint.ActionCostType.AstrologianCard2:
                 case Saint.ActionCostType.AstrologianCard3:

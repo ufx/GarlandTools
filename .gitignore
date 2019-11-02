@@ -13,3 +13,5 @@ Config.json
 /Supplemental/app_data.sqlite
 Updates/
 /Updates/
+.idea
+External/*

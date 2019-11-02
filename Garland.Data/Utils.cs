@@ -2,6 +2,7 @@
 using SaintCoinach.Text;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -126,7 +127,7 @@ namespace Garland.Data
             if (string.IsNullOrEmpty(str))
                 return null;
 
-            return Comma(str).Select(float.Parse).ToArray();
+            return Comma(str).Select(i => float.Parse(i, CultureInfo.InvariantCulture)).ToArray();
         }
 
         public static string[] Tokenize(string[] delimiters, string str)

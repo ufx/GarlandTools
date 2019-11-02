@@ -338,7 +338,8 @@ namespace Garland.Data.Modules
                             var slot = melds - equipment.FreeMateriaSlots;
                             if (sMateria.Tier == 5 && slot > 0)
                                 continue; // Can't overmeld VI past the first slot.
-
+                            if (slot >= 4)
+                                continue; // Hotfix, somehow we might end up working on this slot that doesn't exist in weights.;
                             penalty = OvermeldPenalties[slot, sMateria.Tier];
                             if (weightedIncrease < penalty)
                                 continue;

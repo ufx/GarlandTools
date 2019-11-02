@@ -35,6 +35,7 @@ namespace Garland.Data
             {
                 using (var cmd = conn.CreateCommand())
                 {
+                    cmd.CommandTimeout = 0;
                     cmd.CommandText = sql;
                     using (var reader = cmd.ExecuteReader())
                         action(reader);

@@ -33,6 +33,7 @@ namespace Garland.Data.Models
             {
                 var instruction = new ScriptInstruction();
                 instruction.Index = i;
+                Console.WriteLine(row.GetRaw("Script{Instruction}[" + i + "]"));
                 instruction.Label = (SaintCoinach.Text.XivString)row.GetRaw("Script{Instruction}[" + i + "]");
                 instruction.Argument = (UInt32)row.GetRaw("Script{Arg}[" + i + "]");
                 instructions[i] = instruction;

@@ -154,7 +154,13 @@ namespace Garland.Data.Modules
             // Create the NPCs to use.
             List<dynamic> npcs = new List<dynamic>();
             foreach (var sNpc in gShop.ENpcs)
-                npcs.Add(_builder.Db.NpcsById[sNpc.Key]);
+            {
+                try
+                {
+                    npcs.Add(_builder.Db.NpcsById[sNpc.Key]);
+
+                } catch(KeyNotFoundException e) { }                
+            }
 
             // Shortcut for gil shops.
             if (gShop.GtShopListings.All(l => l.Costs.All(c => c.Item.Key == 1)))
