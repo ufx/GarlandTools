@@ -4639,6 +4639,12 @@
         "id": 27688,
         "slot": "6",
         "scrip": "White Gatherers' Scrip"
+      },
+      {
+        "item": "Sandalwood Sap",
+        "icon": 22638,
+        "id": 28716,
+        "slot": "4"
       }
     ],
     "stars": 1,
@@ -4850,6 +4856,12 @@
         "id": 27705,
         "slot": "7",
         "scrip": "White Gatherers' Scrip"
+      },
+      {
+        "item": "Beryllium Ore",
+        "icon": 21455,
+        "id": 28717,
+        "slot": "5"
       }
     ],
     "stars": 1,
