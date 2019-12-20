@@ -111,7 +111,7 @@ namespace Garland.Data.Modules
 
             // Folklore books
             dynamic folkloreItem = null;
-            if (sGatheringPoint.GatheringSubCategory != null)
+            if (sGatheringPoint.GatheringSubCategory != null && _builder.Db.ItemsById.ContainsKey(sGatheringPoint.GatheringSubCategory.Item.Key))
             {
                 folkloreItem = _builder.Db.ItemsById[sGatheringPoint.GatheringSubCategory.Item.Key];
                 if (folkloreItem.unlocks == null)

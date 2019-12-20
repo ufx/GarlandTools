@@ -167,6 +167,8 @@ namespace Garland.Data.Modules
                 var fishEyes = rLine[11];
                 var ff14anglerId = rLine[12];
 
+                Console.WriteLine(name);
+
                 // Fill item fishing information.
                 var item = GarlandDatabase.Instance.ItemsByName[name];
                 _fishItems.Add(item);
@@ -395,7 +397,7 @@ namespace Garland.Data.Modules
             {
                 foreach (var spot in item.fish.spots)
                 {
-                    if (spot.tmpBait == null)
+                    if (spot.tmpBait == null || spot.spot == null)
                         continue;
 
                     List<string> baitNames = new List<string>();

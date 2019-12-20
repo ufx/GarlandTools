@@ -520,7 +520,7 @@ Springripple Brook
 Copperfish	Butterworm						Light					
 Brass Loach	Wildfowl Fly						Medium	Powerful				
 Maiden Carp	Wildfowl Fly						Medium	Powerful				
-Rainbow Trout							Medium	Powerful				
+Rainbow Trout	Snurble Fly						Medium	Powerful				
 River Crab	Butterworm						Light					
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Bluebell Salmon	Floating Minnow							Powerful				
@@ -536,7 +536,7 @@ Pond Mussel	Butterworm						Light
 Dark Bass	Crow Fly						Medium	Powerful				
 The Assassin	Butterworm	21	23									243
 Verdant Drop												
-Rainbow Trout							Medium	Powerful				
+Rainbow Trout	Crow Fly						Medium	Powerful				
 River Crab	Butterworm						Light					
 Copperfish	Butterworm						Light					
 Black Eel	Butterworm	17	10				Medium	Powerful				
@@ -555,7 +555,7 @@ Mushroom Crab	Common Sculpin				Fog, Clouds							173
 Magicked Mushroom	Common Sculpin			Rain, Thunder	Fog, Clouds							309
 Upper Hathoeva River												
 Copperfish	Butterworm						Light					
-Rainbow Trout							Medium					
+Rainbow Trout	Bloodworm						Medium					
 River Crab	Butterworm						Light					
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Faerie Bass	Midge Basket						Medium	Powerful				
@@ -566,7 +566,7 @@ Velodyna Carp	Streamer							Powerful
 Vip Viper	Butterworm	18	19									244
 Lower Hathoeva River												
 Copperfish	Butterworm						Light					
-Rainbow Trout							Medium	Powerful				
+Rainbow Trout	Bloodworm						Medium	Powerful				
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Faerie Bass	Midge Basket						Medium	Powerful				
 Mudcrab	Honey Worm						Light					
@@ -577,7 +577,7 @@ Yugr'am Salmon	Bass Ball
 Velodyna Carp	Streamer							Powerful				
 Floating Boulder	Bass Ball	0	8		Fog, Clouds							249
 East Hathoeva River												
-Rainbow Trout							Medium	Powerful				
+Rainbow Trout	Bloodworm						Medium	Powerful				
 Faerie Bass	Midge Basket						Medium	Powerful				
 Dark Sleeper	Midge Basket	15	10				Light					
 Copperfish	Butterworm						Light					
@@ -587,32 +587,32 @@ Black Eel	Butterworm	17	10				Medium	Powerful
 Velodyna Carp	Streamer							Powerful				
 The Grinner	Syrphid Basket											250
 Middle Hathoeva River												
-Rainbow Trout							Medium	Powerful				
+Rainbow Trout	Bloodworm						Medium	Powerful				
 Dark Sleeper	Midge Basket	15	10				Light					
-Five-ilm Pleco												
+Five-ilm Pleco	Floating Minnow											
 Yugr'am Salmon	Bass Ball											
 Mitten Crab	Honey Worm						Light					
 Seema	Wildfowl Fly						Medium	Powerful				
-Armored Pleco												
+Armored Pleco	Freshwater Boilie											
 Velodyna Carp	Streamer							Powerful				
 The Sinker	Sinking Minnow	21	3		Clear Skies, Fair Skies							257
 Goblinblood												
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Mudcrab	Honey Worm						Light					
 Dark Bass	Crow Fly						Medium	Powerful				
-Five-ilm Pleco												
-Black Ghost												
+Five-ilm Pleco	Bass Ball											
+Black Ghost	Ala Mhigan Fighting Fish											
 Yugr'am Salmon	Bass Ball											
 Bonytongue	Streamer						Medium	Powerful				
 Silverfish	Honey Worm						Light					
-Goblin Perch												
+Goblin Perch	Silverfish											
 The Gobfather	Silverfish				Thunder, Thunderstorms							258
 Rootslake												
 Bone Crayfish	Moth Pupa						Light					
 Climbing Perch	Bass Ball											
-Root Skipper												
+Root Skipper	Syrphid Basket											
 Mitten Crab	Honey Worm						Light					
-Armored Pleco												
+Armored Pleco	Honey Worm											
 Judgment Staff	Caddisfly Larva				Thunder, Thunderstorms							174
 Son of Levin	Caddisfly Larva				Thunderstorms							272
 Urth's Gift												
@@ -623,13 +623,13 @@ Mitten Crab	Honey Worm						Light
 Velodyna Carp	Streamer							Powerful				
 Southern Pike	Topwater Frog											
 Boxing Pleco	Glowworm											141
-Takitaro												
+Takitaro	Streamer											
 Giant Takitaro	Glowworm				Thunder, Thunderstorms							310
 Namitaro	Topwater Frog				N/A	Giant Takitaro, 1						311
 Murmur Rills												
 Brass Loach	Wildfowl Fly						Medium	Powerful				
 Maiden Carp	Wildfowl Fly						Medium	Powerful				
-Rainbow Trout							Medium	Powerful				
+Rainbow Trout	Bloodworm						Medium	Powerful				
 River Crab	Butterworm						Light					
 Bluebell Salmon	Floating Minnow							Powerful				
 Tri-colored Carp	Butterworm						Medium	Powerful				
@@ -642,34 +642,34 @@ Rainbow Trout	Wildfowl Fly						Medium	Powerful
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Faerie Bass	Midge Basket						Medium					
 Dark Sleeper	Midge Basket	15	10				Light					
-Shadow Catfish												
+Shadow Catfish	Striped Goby											
 Judgeray	Wildfowl Fly	17	21				Heavy					218
 Proud Creek												
 Pond Mussel	Butterworm						Light					
 Mitten Crab	Honey Worm						Light					
 Seema	Wildfowl Fly						Medium	Powerful				
-Golden Loach												
+Golden Loach	Honey Worm											
 Loyal Pleco	Stem Borer						Medium	Powerful				
 Oakroot	Streamer	17	10									
 Southern Pike	Topwater Frog											
-Pirarucu												
+Pirarucu	Streamer											
 Shadowstreak	Topwater Frog	4	10		Fog							283
 Lake Tahtotl												
 Mudcrab	Honey Worm						Light					
 Pond Mussel	Butterworm						Light					
 Bonytongue	Streamer						Medium	Powerful				
 Silverfish	Honey Worm						Light					
-Assassin Betta												
+Assassin Betta	Silverfish				Gloom							
 Boxing Pleco	Glowworm											141
 Goldfish	Silverfish						Light					
-Bowfin												
+Bowfin	Goldfish											
 Cornelia	Rainbow Spoon Lure					Boxing Pleco, 5						296
 The Lavender Beds												
 Pipira	Crayfish Ball						Light					
 Dark Sleeper	Midge Basket	15	10				Light					
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Tri-colored Carp	Butterworm						Medium	Powerful				
-Shadow Catfish												
+Shadow Catfish	Ala Mhigan Fighting Fish											
 Spotted Pleco	Syrphid Basket						Medium	Powerful				
 Bonytongue	Streamer						Medium	Powerful				
 Monke Onke	Ala Mhigan Fighting Fish						Light					
@@ -706,7 +706,7 @@ Lominsan Anchovy	Lugworm						Light
 Razor Clam	Rat Tail						Light					
 Blowfish	Northern Krill						Medium	Powerful				
 Saber Sardine	Heavy Steel Jig											
-Monkfish												
+Monkfish	Heavy Steel Jig											
 Spotted Puffer	Honey Worm						Light					
 Rock Lobster	Northern Krill	17	22				Medium	Powerful				149
 Fingers	Northern Krill	17	18									242
@@ -721,7 +721,7 @@ Rock Lobster	Northern Krill	17	22				Medium	Powerful				149
 Dirty Herry	Northern Krill	20	22									246
 Cape Westwind												
 Merlthor Goby	Lugworm						Light					
-Haraldr Haddock												
+Haraldr Haddock	Heavy Steel Jig											
 Whitelip Oyster	Herring Ball						Light					
 Silver Shark	Merlthor Goby						Medium	Powerful				
 Wahoo	Merlthor Goby						Medium	Powerful				116
@@ -735,15 +735,15 @@ Blindfish	Syrphid Basket						Light
 Grip Killifish	Chocobo Fly						Light					
 Silverfish	Honey Worm						Light					
 Assassin Betta	Silverfish											
-Garpike												
+Garpike	Silverfish				Fog							
 Ndendecki	Assassin Betta	18	5		Fog							301
 Parata's Peace												
 Grip Killifish	Chocobo Fly						Light					
 Silverfish	Honey Worm						Light					
 Ignus Snail	Stem Borer						Light					
 Sludgeskipper	Stem Borer						Light					
-Boltfish												
-Ilsabardian Bass												
+Boltfish	Silverfish											
+Ilsabardian Bass	Topwater Frog											
 Vampire Lampern	Silverfish						Medium	Powerful				
 Bat-o'-Nine-Tails	Silverfish			Rain	Fog, Clouds, Clear Skies, Fair Skies							302
 Upper Soot Creek												
@@ -759,7 +759,7 @@ Dusk Goby	Crayfish Ball						Light
 Brass Loach	Wildfowl Fly						Medium	Powerful				
 Maiden Carp	Wildfowl Fly						Medium	Powerful				
 Dark Bass	Crow Fly						Medium	Powerful				
-Aegis Shrimp												
+Aegis Shrimp	Bass Ball											
 Slime King	Crayfish Ball	19	24									221
 The Clutch												
 Bone Crayfish	Moth Pupa						Light					
@@ -775,7 +775,7 @@ Mudskipper	Midge Basket
 Mudcrab	Honey Worm						Light					
 Acorn Snail	Midge Basket						Light					
 Dark Bass	Crow Fly						Medium	Powerful				
-Aegis Shrimp												
+Aegis Shrimp	Bass Ball											
 Dark Knight	Crow Fly				Fog, Clouds, Dust Storms							212
 North Drybone												
 Dusk Goby	Crayfish Ball						Light					
@@ -783,7 +783,7 @@ Mudskipper	Midge Basket
 Faerie Bass	Midge Basket						Medium	Powerful				
 Acorn Snail	Midge Basket						Light					
 Mudcrab	Honey Worm						Light					
-Bone Cleaner												
+Bone Cleaner	Syrphid Basket											
 Marrow Sucker	Syrphid Basket	20	3		Rain, Showers							227
 South Drybone												
 Dusk Goby	Crayfish Ball						Light					
@@ -791,7 +791,7 @@ Mudskipper	Midge Basket
 Faerie Bass	Midge Basket						Medium	Powerful				
 Acorn Snail	Midge Basket						Light					
 Mudcrab	Honey Worm						Light					
-Bone Cleaner												
+Bone Cleaner	Syrphid Basket											
 Mud Pilgrim	Midge Basket	17	7		Rain, Showers							225
 Yugr'am River												
 Warmwater Trout	Crow Fly						Medium	Powerful				
@@ -799,7 +799,7 @@ Black Eel	Butterworm	17	10				Medium	Powerful
 Dark Bass	Crow Fly						Medium	Powerful				
 Yugr'am Salmon	Bass Ball											
 Mitten Crab	Honey Worm						Light					
-Trader Eel												
+Trader Eel	Honey Worm											
 The Warden's Wand	Honey Worm	17	20		Clear Skies							254
 The Burning Wall												
 Yugr'am Salmon	Bass Ball											
@@ -1489,7 +1489,7 @@ Glass Herring	Live Shrimp											540
 Coeurl Snake Eel	Live Shrimp											546
 Coral Horse	Live Shrimp											
 Ku'er	Blue Bobbit	0	8	Thunder	Clouds							
-The Ruby Dragon	Ku'er											
+The Ruby Dragon	Ku'er	4	8	Thunder	Clouds							
 Hells' Lid												
 Grinning Anchovy	Live Shrimp											539
 Hellyfish	Live Shrimp											541
@@ -1845,11 +1845,309 @@ Horned Turban	Small Gig Head
 Motley Beakfish	Large Gig Head											
 Snailfish	Normal Gig Head					Ichimonji, 10						
 Spiny Lobster	Normal Gig Head											
+The Trivium												
+Crystal Knife	Marble Nymph											
+Laxan Carp	Marble Nymph											
+Asteroidea	Robber Ball											
+Jacketed Snail	Robber Ball											
+Lover's Flower	Marble Nymph											
+The Quadrivium												
+Crystal Knife	Robber Ball											
+Laxan Carp	Baitbugs											
+Sinspitter	Marble Nymph											
+Wandering Catfish	Marble Nymph											
+Crystarium Personal Suites												
+Crystal Knife	Freshwater Boilie											
+Laxan Carp	Fruit Worm											
+Crystarium Tetra	Fruit Worm											
+Skeletonfish	Freshwater Boilie											
+Loose Pendant	Baitbugs	18	22									
+The Derelicts												
+Milky Coral	Short Bill Minnow									1	0	
+Gravel Mussel	Short Bill Minnow									1	0	
+Crimson Sea Spider	Moyebi Shrimp									0	0	
+Bonefish	Squid Strip									0	0	
+Eulmore Butterfly	Squid Strip									0	0	
+Red Hammerhead	Squid Strip										0	
+Winged Dame	Squid Strip	12	19		Clear Skies							
+The Rift of Sighs												
+Eighteyes Eel	Fruit Worm											
+Hard Candy	Robber Ball											
+Abyssal Snail	Robber Ball											
+Water Ball	Marble Nymph											
+Albino Caiman	Marble Nymph											
+The Rusted Reservoir												
+Hard Candy	Robber Ball											
+Abyssal Snail	Robber Ball											
+Water Ball	Marble Nymph											
+Platinum Guppy	Baitbugs				Clear Skies							
+Misty Killifish	Robber Ball											
+The Source												
+Hard Candy	Robber Ball											
+Clean Saucer	Baitbugs											
+Rabbit Skipper	Robber Ball											
+Xanthic Bass	Marble Nymph											
+Albino Rock Crab	Baitbugs											
+Laxan Inkhorn	Jerked Ovim											
+The Unforgiven	Baitbugs				Fog							
+Sullen												
+Hard Candy	Baitbugs											
+Rabbit Skipper	Fruit Worm											
+Xanthic Bass	Fruit Worm											
+Snakeskin Discus	Robber Ball											
+The Isle of Ken												
+Hard Candy	Fruit Worm											
+Clean Saucer	Fruit Worm											
+Albino Garfish	Baitbugs											
+Vicejaw	Robber Ball											
+Northeast Source												
+Lilac Goby	Small Gig Head											
+Purple Ghost	Small Gig Head											
+Gazing Glass	Normal Gig Head											
+Lakelouse	Normal Gig Head											
+Elven Spear	Large Gig Head											
+Source Octopus	Large Gig Head											
+Southeast Source												
+Skykisser	Small Gig Head											
+Viola Clam	Small Gig Head											
+Lakeland Cod	Large Gig Head											
+Geayi	Normal Gig Head											
+Noblefish	Normal Gig Head											
+Misteye	Large Gig Head											
+The Isle of Ken												
+Grey Carp	Small Gig Head											
+Shade Gudgeon	Small Gig Head											
+Lakethistle	Normal Gig Head											
+Platinum Bream	Normal Gig Head											
+Wardenfish	Large Gig Head											
+Finned Eggplant	Large Gig Head											
+Upper Watts River												
+Skulleater	Fruit Worm											
+Toffee Snail	Fruit Worm											
+Watts Trout	Marble Nymph											
+Hucho Taimen	Robber Ball											
+Winged Hatchetfish	Robber Ball											
+White Oil Falls												
+Skulleater	Marble Nymph											
+Watts Trout	Fruit Worm											
+Noble's Fan	Robber Ball											
+White Oil Perch	Metal Spinner											
+Lower Watts River												
+Skulleater	Metal Spinner											
+Toffee Snail	Fruit Worm											
+Watts Trout	Metal Spinner											
+Zebra Catfish	Robber Ball											
+Sharptongue Drip												
+Skulleater	Robber Ball											
+Toffee Snail	Robber Ball											
+Sepia Sole	Marble Nymph											
+Bronze Sole	Marble Nymph				Rain							
+The Western Kholusian Coast												
+South Kholusian Cod	Short Bill Minnow											
+Kholusian Flounder	Squid Strip											
+Shellfracture Kelp	Squid Strip											
+Creamy Oyster	Moyebi Shrimp											
+Rose Shrimp	Short Bill Minnow											
+Razorfish	Short Bill Minnow											
+Kholusian King Crab	Metal Spinner											
+Seagazer Shoals												
+South Kholusian Cod	Squid Strip											
+Kholusian Flounder	Squid Strip											
+Blood Cloud	Short Bill Minnow											
+Shapeshifter	Squid Strip											
+Minstrelfish	Short Bill Minnow											
+The Eastern Kholusian Coast												
+South Kholusian Cod	Squid Strip											
+Shellfracture Kelp	Squid Strip											
+Blood Cloud	Moyebi Shrimp											
+Spearhead Squid	Short Bill Minnow											
+Kholusian Wrasse	Spearhead Squid											
+Weedy Seadragon	Short Bill Minnow											
+Henodus	Spearhead Squid	16	0		Clouds, Fog							
+The River of Sand												
+Shadow Crab	Desert Dessert Frog											
+Desert Dustfish	Desert Dessert Frog											
+Hornhelm	Jerked Ovim											
+Sand Egg	Desert Dessert Frog											
+Web-footed Sand Gecko	Desert Dessert Frog											
+The Horned King	Hornhelm	0	6		Dust Storms							
+The Nabaath Severance												
+Shadow Crab	Desert Dessert Frog											
+Desert Dustfish	Desert Dessert Frog											
+Hornhelm	Jerked Ovim											
+Amber Lamprey	Desert Dessert Frog											
+Desert Saw	Jerked Ovim											
+Areng Dire	Metal Spinner											
+The Hills of Amber												
+Amber Monkfish	Desert Dessert Frog											
+Desert Dustfish	Desert Dessert Frog											
+Web-footed Sand Gecko	Desert Dessert Frog											
+Garik Crab	Jerked Ovim											
+Nabaath Manta	Web-footed Sand Gecko											
+Thorned Lizard	Web-footed Sand Gecko	10	18									
+Handmirror Lake												
+Grey Skipper	Baitbugs											
+Pixie Fish	Fruit Worm											
+Wimple Carp	Robber Ball											
+Lemonfish	Robber Ball											
+Faeshine Clam	Metal Spinner											
+Longmirror Lake												
+Calico Trout	Fruit Worm											
+Official Ball	Marble Nymph											
+Grey Skipper	Fruit Worm											
+Rebel	Marble Nymph											
+Wild Red Betta	Baitbugs											
+Cerulean Loach	Fruit Worm											
+The Sound of Fury	Baitbugs	20	0		Fair Skies, Clear Skies							
+The Haughty One												
+Official Ball	Baitbugs											
+Grey Skipper	Fruit Worm											
+Blood-eyed Frog	Marble Nymph											
+Spotted Ctenopoma	Robber Ball											
+Cerulean Loach	Fruit Worm											
+The Jealous One												
+Spotted Blue-eye	Marble Nymph											
+Grey Skipper	Fruit Worm											
+Blood-eyed Frog	Baitbugs											
+Cerulean Loach	Fruit Worm											
+The Spoiled One												
+Brightmirror Clam	Fruit Worm											
+Grey Skipper	Baitbugs											
+Cherry Herring	Marble Nymph											
+Cerulean Loach	Robber Ball											
+Saint Fathric's Temple												
+Grey Skipper	Fruit Worm											
+Blood-eyed Frog	Baitbugs											
+Cerulean Loach	Fruit Worm											
+Golden Lobster	Marble Nymph											
+Father Collard's Failings												
+Official Ball	Robber Ball											
+Grey Skipper	Fruit Worm											
+Pixie Fish	Fruit Worm											
+Toadhead	Baitbugs				Clear Skies							
 North Lyhe Ghiah												
 Jenanna's Tear	Small Gig Head											
-Shade Axolotl	Small Gig Head											
+Shade Axolotl	Normal Gig Head											
 Little Flirt	Normal Gig Head											
-Daisy Turban	Normal Gig Head											
+Daisy Turban	Small Gig Head											
 Peallaidh	Large Gig Head											
 Voeburt Bichir	Large Gig Head											
+Deepwood Swim												
+Poecilia	Small Gig Head											
+Gilded Batfish	Small Gig Head											
+Petalfish	Normal Gig Head											
+Mirrorfish	Normal Gig Head											
+Glass Eel	Large Gig Head											
+Voeburt Salamander	Large Gig Head											
+Central Longmirror Lake												
+Bedskipper	Small Gig Head											
+Dandyfish	Small Gig Head											
+Sauldia Ruby	Normal Gig Head											
+Mock Pixie	Normal Gig Head											
+Hunter's Arrow	Large Gig Head											
+Fuathgobbler	Large Gig Head											
 Thysm Lran												
+Paradise Crab	Small Gig Head											
+Saint Fathric's Ire	Small Gig Head											
+Queensgown	Normal Gig Head											
+Flowering Kelpie	Normal Gig Head				Fair Skies, Fog							
+Ghoulfish	Large Gig Head											
+Measan Deala	Large Gig Head											
+South Longmirror Lake												
+Big-eye	Normal Gig Head											
+Dohn Horn	Small Gig Head											
+Aquabloom	Small Gig Head											
+Jester Fish	Normal Gig Head											
+Blue Lightning	Large Gig Head											
+Maidenhair	Large Gig Head											
+Lake Tusi Mek'ta												
+Clawbow	Fruit Worm											
+Robber Crab	Robber Ball											
+Yellow Pipira	Fruit Worm											
+Clown Tetra	Robber Ball	9	12									
+Eryops	Clown Tetra	9	12									
+Priest of Yx'Lokwa	Eryops	10	12									
+The Red Chalice												
+Clawbow	Fruit Worm											
+Darkroot	Robber Ball											
+Yellow Pipira	Fruit Worm											
+Oathfish	Baitbugs											
+Diamond Pipira	Robber Ball	12	20		Fair Skies, Clouds							
+The Lozatl												
+Clawbow	Fruit Worm											
+Black Tri-star	Robber Ball											
+Yellow Pipira	Marble Nymph											
+Night's Bass	Robber Ball											
+Rak'tika Trout	Robber Ball											
+South Mjrl's Regret												
+Clawbow	Fruit Worm											
+Robber Crab	Baitbugs											
+Yellow Pipira	Fruit Worm											
+Night's Bass	Robber Ball											
+Rak'tika Trout	Robber Ball											
+Silver Kitten	Robber Ball				Fair Skies, Umbral Wind, Clear Skies							
+Woven Oath												
+Clawbow	Fruit Worm											
+Darkroot	Robber Ball											
+Oathfish	Marble Nymph											
+Darkdweller	Baitbugs	0	8		Fog							
+North Lake Tusi Mek'ta												
+Ankle Snipper	Small Gig Head											
+Treescale	Small Gig Head											
+Ronkan Pleco	Normal Gig Head											
+Gourmand Crab	Normal Gig Head											
+Gatorl's Bead	Large Gig Head											
+Diamondtongue	Large Gig Head											
+The Covered Halls of Dwatl												
+Hermit's Hood	Small Gig Head											
+Hermit Crab	Small Gig Head											
+Megapiranha	Normal Gig Head											
+Everdark Bass	Normal Gig Head											
+Lozatl Pirarucu	Large Gig Head											
+Anpa's Handmaid	Large Gig Head											
+The Flounders' Floor												
+Deep Purple Coral	Squid Strip				Fair Skies, Clouds, Clear Skies							
+Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Caliban	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Bubble Angler	Squid Strip				Fair Skies, Clouds, Clear Skies							
+Ondo Harpoon	Squid Strip				Fair Skies, Clouds, Clear Skies							
+Where the Dry Return												
+Deep Purple Coral	Squid Strip				Fair Skies, Clouds, Clear Skies							
+Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Caliban	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Ondobane	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Stippled Eel	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Northwest Caliban Gorge												
+Sycorax	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Caliban	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Hoodwinker	Short Bill Minnow				Fair Skies							
+Seatrap	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Sweetmeat Mussel	Squid Strip											
+West Caliban Gap												
+Sycorax	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Ancient Shrimp	Squid Strip	12	16		Fair Skies, Clouds, Clear Skies							
+Yeti Crab	Ancient Shrimp	12	16		Fair Skies, Clouds, Clear Skies							
+Aapoak	Ancient Shrimp	12	16		Clear Skies							
+East Caliban Gap												
+Sycorax	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Hoodwinker	Short Bill Minnow				Fair Skies							
+Cyan Sea Devil	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Pancake Octopus	Squid Strip				Fair Skies, Clouds, Clear Skies							
+Purpure												
+Sycorax	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Azure Sea Spider	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Maneater Clam	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Stargazer	Squid Strip				Fair Skies, Clouds, Clear Skies							
+Starchaser	Squid Strip	6	10		Clouds							
+The Norvrandt Slope												
+Prospero Eel	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Sycorax	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
+Azure Sea Spider	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Sweetflesh Oyster	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Rainbow Shrimp	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Predator	Squid Strip				Fair Skies, Clouds, Clear Skies							

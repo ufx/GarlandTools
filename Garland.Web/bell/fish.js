@@ -232,6 +232,11 @@
     "id": 2624,
     "icon": 27054
   },
+  "Freshwater Boilie": {
+    "name": "Freshwater Boilie",
+    "id": 27591,
+    "icon": 27042
+  },
   "Caddisfly Larva": {
     "name": "Caddisfly Larva",
     "id": 2607,
@@ -501,6 +506,92 @@
     "name": "Zagas Khaal",
     "id": 20127,
     "icon": 29310,
+    "mooch": 1
+  },
+  "Marble Nymph": {
+    "name": "Marble Nymph",
+    "id": 27585,
+    "icon": 27038
+  },
+  "Robber Ball": {
+    "name": "Robber Ball",
+    "id": 27587,
+    "icon": 27010
+  },
+  "Baitbugs": {
+    "name": "Baitbugs",
+    "id": 27589,
+    "icon": 27040
+  },
+  "Fruit Worm": {
+    "name": "Fruit Worm",
+    "id": 27582,
+    "icon": 27036
+  },
+  "Short Bill Minnow": {
+    "name": "Short Bill Minnow",
+    "id": 27588,
+    "icon": 27074
+  },
+  "Moyebi Shrimp": {
+    "name": "Moyebi Shrimp",
+    "id": 27583,
+    "icon": 27037
+  },
+  "Squid Strip": {
+    "name": "Squid Strip",
+    "id": 27590,
+    "icon": 27041
+  },
+  "Jerked Ovim": {
+    "name": "Jerked Ovim",
+    "id": 27586,
+    "icon": 27039
+  },
+  "Metal Spinner": {
+    "name": "Metal Spinner",
+    "id": 28634,
+    "icon": 27062
+  },
+  "Spearhead Squid": {
+    "name": "Spearhead Squid",
+    "id": 27457,
+    "icon": 29177,
+    "mooch": 1
+  },
+  "Desert Dessert Frog": {
+    "name": "Desert Dessert Frog",
+    "id": 27584,
+    "icon": 27073
+  },
+  "Hornhelm": {
+    "name": "Hornhelm",
+    "id": 27460,
+    "icon": 29615,
+    "mooch": 1
+  },
+  "Web-footed Sand Gecko": {
+    "name": "Web-footed Sand Gecko",
+    "id": 27461,
+    "icon": 29616,
+    "mooch": 1
+  },
+  "Clown Tetra": {
+    "name": "Clown Tetra",
+    "id": 27490,
+    "icon": 29592,
+    "mooch": 1
+  },
+  "Eryops": {
+    "name": "Eryops",
+    "id": 27491,
+    "icon": 29593,
+    "mooch": 1
+  },
+  "Ancient Shrimp": {
+    "name": "Ancient Shrimp",
+    "id": 27506,
+    "icon": 29186,
     "mooch": 1
   }
 };
@@ -15423,6 +15514,27 @@ gt.bell.fish = [
     "zone": "Central Shroud"
   },
   {
+    "name": "Black Ghost",
+    "patch": 1.0,
+    "bait": [
+      "Midge Basket",
+      "Ala Mhigan Fighting Fish"
+    ],
+    "id": 4964,
+    "icon": 29213,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Goblinblood",
+    "category": "Freshwater Fishing",
+    "lvl": 30,
+    "coords": [
+      27.51,
+      21.48
+    ],
+    "radius": 400,
+    "zone": "South Shroud"
+  },
+  {
     "name": "Mudskipper",
     "patch": 1.0,
     "bait": [
@@ -15740,6 +15852,152 @@ gt.bell.fish = [
     ],
     "radius": 400,
     "zone": "East Shroud"
+  },
+  {
+    "name": "Rainbow Trout",
+    "patch": 1.0,
+    "bait": [
+      "Snurble Fly"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 4940,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Springripple Brook",
+    "category": "Freshwater Fishing",
+    "lvl": 15,
+    "coords": [
+      24.02,
+      25.3
+    ],
+    "radius": 400,
+    "zone": "East Shroud"
+  },
+  {
+    "name": "Rainbow Trout",
+    "patch": 1.0,
+    "bait": [
+      "Crow Fly"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 4940,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Verdant Drop",
+    "category": "Freshwater Fishing",
+    "lvl": 25,
+    "coords": [
+      20.48,
+      21.52
+    ],
+    "radius": 400,
+    "zone": "East Shroud"
+  },
+  {
+    "name": "Rainbow Trout",
+    "patch": 1.0,
+    "bait": [
+      "Bloodworm"
+    ],
+    "id": 4940,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Hathoeva River",
+    "category": "Freshwater Fishing",
+    "lvl": 20,
+    "coords": [
+      18.02,
+      19.02
+    ],
+    "radius": 400,
+    "zone": "South Shroud"
+  },
+  {
+    "name": "Rainbow Trout",
+    "patch": 1.0,
+    "bait": [
+      "Bloodworm"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 4940,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lower Hathoeva River",
+    "category": "Freshwater Fishing",
+    "lvl": 25,
+    "coords": [
+      18.36,
+      24.82
+    ],
+    "radius": 400,
+    "zone": "South Shroud"
+  },
+  {
+    "name": "Rainbow Trout",
+    "patch": 1.0,
+    "bait": [
+      "Bloodworm"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 4940,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "East Hathoeva River",
+    "category": "Freshwater Fishing",
+    "lvl": 25,
+    "coords": [
+      23.86,
+      22.36
+    ],
+    "radius": 400,
+    "zone": "South Shroud"
+  },
+  {
+    "name": "Rainbow Trout",
+    "patch": 1.0,
+    "bait": [
+      "Bloodworm"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 4940,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Middle Hathoeva River",
+    "category": "Freshwater Fishing",
+    "lvl": 30,
+    "coords": [
+      19.96,
+      22.54
+    ],
+    "radius": 200,
+    "zone": "South Shroud"
+  },
+  {
+    "name": "Rainbow Trout",
+    "patch": 1.0,
+    "bait": [
+      "Bloodworm"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 4940,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Murmur Rills",
+    "category": "Freshwater Fishing",
+    "lvl": 15,
+    "coords": [
+      26.38,
+      25.1
+    ],
+    "radius": 400,
+    "zone": "North Shroud"
   },
   {
     "name": "Rainbow Trout",
@@ -16396,6 +16654,86 @@ gt.bell.fish = [
     "zone": "South Shroud"
   },
   {
+    "name": "Five-ilm Pleco",
+    "patch": 1.0,
+    "bait": [
+      "Floating Minnow"
+    ],
+    "id": 4961,
+    "icon": 29269,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Middle Hathoeva River",
+    "category": "Freshwater Fishing",
+    "lvl": 30,
+    "coords": [
+      19.96,
+      22.54
+    ],
+    "radius": 200,
+    "zone": "South Shroud"
+  },
+  {
+    "name": "Five-ilm Pleco",
+    "patch": 1.0,
+    "bait": [
+      "Bass Ball"
+    ],
+    "id": 4961,
+    "icon": 29269,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Goblinblood",
+    "category": "Freshwater Fishing",
+    "lvl": 30,
+    "coords": [
+      27.51,
+      21.48
+    ],
+    "radius": 400,
+    "zone": "South Shroud"
+  },
+  {
+    "name": "Armored Pleco",
+    "patch": 1.0,
+    "bait": [
+      "Freshwater Boilie"
+    ],
+    "id": 4980,
+    "icon": 29236,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Middle Hathoeva River",
+    "category": "Freshwater Fishing",
+    "lvl": 30,
+    "coords": [
+      19.96,
+      22.54
+    ],
+    "radius": 200,
+    "zone": "South Shroud"
+  },
+  {
+    "name": "Armored Pleco",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm"
+    ],
+    "id": 4980,
+    "icon": 29236,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Rootslake",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      18.62,
+      29.05
+    ],
+    "radius": 400,
+    "zone": "South Shroud"
+  },
+  {
     "name": "The Sinker",
     "patch": 2.3,
     "bait": [
@@ -16424,6 +16762,27 @@ gt.bell.fish = [
     "zone": "South Shroud"
   },
   {
+    "name": "Goblin Perch",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish"
+    ],
+    "id": 5000,
+    "icon": 29260,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Goblinblood",
+    "category": "Freshwater Fishing",
+    "lvl": 30,
+    "coords": [
+      27.51,
+      21.48
+    ],
+    "radius": 400,
+    "zone": "South Shroud"
+  },
+  {
     "name": "The Gobfather",
     "patch": 2.3,
     "bait": [
@@ -16444,6 +16803,26 @@ gt.bell.fish = [
     "coords": [
       27.51,
       21.48
+    ],
+    "radius": 400,
+    "zone": "South Shroud"
+  },
+  {
+    "name": "Root Skipper",
+    "patch": 1.0,
+    "bait": [
+      "Syrphid Basket"
+    ],
+    "id": 4972,
+    "icon": 29306,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Rootslake",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      18.62,
+      29.05
     ],
     "radius": 400,
     "zone": "South Shroud"
@@ -16556,6 +16935,26 @@ gt.bell.fish = [
     "zone": "Mor Dhona"
   },
   {
+    "name": "Takitaro",
+    "patch": 1.0,
+    "bait": [
+      "Streamer"
+    ],
+    "id": 5028,
+    "icon": 29226,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Urth's Gift",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      32.55,
+      23.96
+    ],
+    "radius": 400,
+    "zone": "South Shroud"
+  },
+  {
     "name": "Giant Takitaro",
     "patch": 2.4,
     "bait": [
@@ -16639,6 +17038,48 @@ gt.bell.fish = [
     "zone": "North Shroud"
   },
   {
+    "name": "Shadow Catfish",
+    "patch": 1.0,
+    "bait": [
+      "Moth Pupa",
+      "Striped Goby"
+    ],
+    "id": 4963,
+    "icon": 29249,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Fallgourd Float",
+    "category": "Freshwater Fishing",
+    "lvl": 15,
+    "coords": [
+      21.02,
+      24.66
+    ],
+    "radius": 400,
+    "zone": "North Shroud"
+  },
+  {
+    "name": "Shadow Catfish",
+    "patch": 1.0,
+    "bait": [
+      "Midge Basket",
+      "Ala Mhigan Fighting Fish"
+    ],
+    "id": 4963,
+    "icon": 29249,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Lavender Beds",
+    "category": "Freshwater Fishing",
+    "lvl": 30,
+    "coords": [
+      11.01,
+      11.01
+    ],
+    "radius": 3000,
+    "zone": "The Lavender Beds"
+  },
+  {
     "name": "Judgeray",
     "patch": 2.2,
     "bait": [
@@ -16658,6 +17099,46 @@ gt.bell.fish = [
     "coords": [
       21.02,
       24.66
+    ],
+    "radius": 400,
+    "zone": "North Shroud"
+  },
+  {
+    "name": "Golden Loach",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm"
+    ],
+    "id": 4984,
+    "icon": 29258,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Proud Creek",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      20.82,
+      20.82
+    ],
+    "radius": 400,
+    "zone": "North Shroud"
+  },
+  {
+    "name": "Pirarucu",
+    "patch": 1.0,
+    "bait": [
+      "Streamer"
+    ],
+    "id": 5029,
+    "icon": 29224,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Proud Creek",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      20.82,
+      20.82
     ],
     "radius": 400,
     "zone": "North Shroud"
@@ -16685,6 +17166,27 @@ gt.bell.fish = [
     "coords": [
       20.82,
       20.82
+    ],
+    "radius": 400,
+    "zone": "North Shroud"
+  },
+  {
+    "name": "Assassin Betta",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish"
+    ],
+    "id": 5002,
+    "icon": 29238,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lake Tahtotl",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      17.82,
+      19.82
     ],
     "radius": 400,
     "zone": "North Shroud"
@@ -16771,6 +17273,28 @@ gt.bell.fish = [
     ],
     "radius": 200,
     "zone": "Mor Dhona"
+  },
+  {
+    "name": "Bowfin",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish",
+      "Goldfish"
+    ],
+    "id": 5026,
+    "icon": 29290,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lake Tahtotl",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      17.82,
+      19.82
+    ],
+    "radius": 400,
+    "zone": "North Shroud"
   },
   {
     "name": "Cornelia",
@@ -16900,6 +17424,26 @@ gt.bell.fish = [
     "zone": "Western Thanalan"
   },
   {
+    "name": "Monkfish",
+    "patch": 1.0,
+    "bait": [
+      "Heavy Steel Jig"
+    ],
+    "id": 4889,
+    "icon": 29049,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Crescent Cove",
+    "category": "Ocean Fishing",
+    "lvl": 20,
+    "coords": [
+      15.57,
+      19.22
+    ],
+    "radius": 600,
+    "zone": "Western Thanalan"
+  },
+  {
     "name": "Fingers",
     "patch": 2.3,
     "bait": [
@@ -16943,6 +17487,26 @@ gt.bell.fish = [
     "coords": [
       14.57,
       29.55
+    ],
+    "radius": 600,
+    "zone": "Western Thanalan"
+  },
+  {
+    "name": "Haraldr Haddock",
+    "patch": 1.0,
+    "bait": [
+      "Heavy Steel Jig"
+    ],
+    "id": 4899,
+    "icon": 29017,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Cape Westwind",
+    "category": "Ocean Fishing",
+    "lvl": 45,
+    "coords": [
+      9.93,
+      7.37
     ],
     "radius": 600,
     "zone": "Western Thanalan"
@@ -17012,6 +17576,27 @@ gt.bell.fish = [
     "zone": "Western Thanalan"
   },
   {
+    "name": "Garpike",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish"
+    ],
+    "id": 5005,
+    "icon": 29264,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Moondrip",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      18.02,
+      7.07
+    ],
+    "radius": 400,
+    "zone": "Western Thanalan"
+  },
+  {
     "name": "Ndendecki",
     "patch": 2.4,
     "bait": [
@@ -17038,6 +17623,47 @@ gt.bell.fish = [
       7.07
     ],
     "radius": 400,
+    "zone": "Western Thanalan"
+  },
+  {
+    "name": "Boltfish",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish"
+    ],
+    "id": 5004,
+    "icon": 29281,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Parata's Peace",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      15.05,
+      6.39
+    ],
+    "radius": 200,
+    "zone": "Western Thanalan"
+  },
+  {
+    "name": "Ilsabardian Bass",
+    "patch": 1.0,
+    "bait": [
+      "Topwater Frog"
+    ],
+    "id": 5006,
+    "icon": 29305,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Parata's Peace",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      15.05,
+      6.39
+    ],
+    "radius": 200,
     "zone": "Western Thanalan"
   },
   {
@@ -17110,6 +17736,46 @@ gt.bell.fish = [
     "coords": [
       23.42,
       18.22
+    ],
+    "radius": 400,
+    "zone": "Central Thanalan"
+  },
+  {
+    "name": "Aegis Shrimp",
+    "patch": 1.0,
+    "bait": [
+      "Bass Ball"
+    ],
+    "id": 4960,
+    "icon": 29271,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lower Soot Creek",
+    "category": "Freshwater Fishing",
+    "lvl": 10,
+    "coords": [
+      17.14,
+      23.78
+    ],
+    "radius": 400,
+    "zone": "Central Thanalan"
+  },
+  {
+    "name": "Aegis Shrimp",
+    "patch": 1.0,
+    "bait": [
+      "Bass Ball"
+    ],
+    "id": 4960,
+    "icon": 29271,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Unholy Heir",
+    "category": "Freshwater Fishing",
+    "lvl": 15,
+    "coords": [
+      27.83,
+      19.3
     ],
     "radius": 400,
     "zone": "Central Thanalan"
@@ -17188,6 +17854,46 @@ gt.bell.fish = [
     "zone": "Central Thanalan"
   },
   {
+    "name": "Bone Cleaner",
+    "patch": 1.0,
+    "bait": [
+      "Syrphid Basket"
+    ],
+    "id": 4971,
+    "icon": 29289,
+    "func": "fish",
+    "rarity": 1,
+    "title": "North Drybone",
+    "category": "Freshwater Fishing",
+    "lvl": 15,
+    "coords": [
+      13.65,
+      20.7
+    ],
+    "radius": 400,
+    "zone": "Eastern Thanalan"
+  },
+  {
+    "name": "Bone Cleaner",
+    "patch": 1.0,
+    "bait": [
+      "Syrphid Basket"
+    ],
+    "id": 4971,
+    "icon": 29289,
+    "func": "fish",
+    "rarity": 1,
+    "title": "South Drybone",
+    "category": "Freshwater Fishing",
+    "lvl": 15,
+    "coords": [
+      17.22,
+      24.82
+    ],
+    "radius": 400,
+    "zone": "Eastern Thanalan"
+  },
+  {
     "name": "Marrow Sucker",
     "patch": 2.2,
     "bait": [
@@ -17239,6 +17945,26 @@ gt.bell.fish = [
     "coords": [
       17.22,
       24.82
+    ],
+    "radius": 400,
+    "zone": "Eastern Thanalan"
+  },
+  {
+    "name": "Trader Eel",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm"
+    ],
+    "id": 4985,
+    "icon": 29259,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Yugr'am River",
+    "category": "Freshwater Fishing",
+    "lvl": 30,
+    "coords": [
+      25.66,
+      22.66
     ],
     "radius": 400,
     "zone": "Eastern Thanalan"
@@ -25514,7 +26240,7 @@ gt.bell.fish = [
       "Ku'er"
     ],
     "during": {
-      "start": 0,
+      "start": 4,
       "end": 8
     },
     "weather": [
@@ -29422,6 +30148,4021 @@ gt.bell.fish = [
     ],
     "radius": 500,
     "zone": "Shirogane"
+  },
+  {
+    "name": "Crystal Knife",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27417,
+    "icon": 29278,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Trivium",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      8.71,
+      7.46
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Crystal Knife",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27417,
+    "icon": 29278,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Quadrivium",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      10.41,
+      15.61
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Crystal Knife",
+    "patch": 5.0,
+    "bait": [
+      "Freshwater Boilie"
+    ],
+    "id": 27417,
+    "icon": 29278,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Crystarium Personal Suites",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      12.76,
+      16.31
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Laxan Carp",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27411,
+    "icon": 29980,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Trivium",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      8.71,
+      7.46
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Laxan Carp",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27411,
+    "icon": 29980,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Quadrivium",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      10.41,
+      15.61
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Laxan Carp",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27411,
+    "icon": 29980,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Crystarium Personal Suites",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      12.76,
+      16.31
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Asteroidea",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27412,
+    "icon": 29553,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Trivium",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      8.71,
+      7.46
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Jacketed Snail",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27413,
+    "icon": 29554,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Trivium",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      8.71,
+      7.46
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Lover's Flower",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27414,
+    "icon": 29555,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Trivium",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      8.71,
+      7.46
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Sinspitter",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27415,
+    "icon": 29556,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Quadrivium",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      10.41,
+      15.61
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Wandering Catfish",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27416,
+    "icon": 29557,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Quadrivium",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      10.41,
+      15.61
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Crystarium Tetra",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27410,
+    "icon": 29552,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Crystarium Personal Suites",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      12.76,
+      16.31
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Skeletonfish",
+    "patch": 5.0,
+    "bait": [
+      "Freshwater Boilie"
+    ],
+    "id": 27418,
+    "icon": 29558,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Crystarium Personal Suites",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      12.76,
+      16.31
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Loose Pendant",
+    "patch": 5.1,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "during": {
+      "start": 18,
+      "end": 22
+    },
+    "id": 28065,
+    "icon": "t/29995",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Crystarium Personal Suites",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      12.76,
+      16.31
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Milky Coral",
+    "patch": 5.0,
+    "snagging": 1,
+    "fishEyes": 1,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27419,
+    "icon": 29062,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Derelicts",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      11.26,
+      11.26
+    ],
+    "radius": 2400,
+    "zone": "Eulmore - The Buttress"
+  },
+  {
+    "name": "Gravel Mussel",
+    "patch": 5.0,
+    "snagging": 1,
+    "fishEyes": 1,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27420,
+    "icon": 29413,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Derelicts",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      11.26,
+      11.26
+    ],
+    "radius": 2400,
+    "zone": "Eulmore - The Buttress"
+  },
+  {
+    "name": "Crimson Sea Spider",
+    "patch": 5.0,
+    "snagging": 1,
+    "fishEyes": 1,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27421,
+    "icon": 29165,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Derelicts",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      11.26,
+      11.26
+    ],
+    "radius": 2400,
+    "zone": "Eulmore - The Buttress"
+  },
+  {
+    "name": "Bonefish",
+    "patch": 5.0,
+    "snagging": 1,
+    "fishEyes": 1,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27422,
+    "icon": 29166,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Derelicts",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      11.26,
+      11.26
+    ],
+    "radius": 2400,
+    "zone": "Eulmore - The Buttress"
+  },
+  {
+    "name": "Eulmore Butterfly",
+    "patch": 5.0,
+    "snagging": 1,
+    "fishEyes": 1,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27423,
+    "icon": 29167,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Derelicts",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      11.26,
+      11.26
+    ],
+    "radius": 2400,
+    "zone": "Eulmore - The Buttress"
+  },
+  {
+    "name": "Red Hammerhead",
+    "patch": 5.0,
+    "fishEyes": 1,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27424,
+    "icon": 29168,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Derelicts",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      11.26,
+      11.26
+    ],
+    "radius": 2400,
+    "zone": "Eulmore - The Buttress"
+  },
+  {
+    "name": "Winged Dame",
+    "patch": 5.1,
+    "folklore": 1,
+    "bait": [
+      "Squid Strip"
+    ],
+    "during": {
+      "start": 12,
+      "end": 19
+    },
+    "weather": [
+      "Clear Skies"
+    ],
+    "id": 28066,
+    "icon": "t/29194",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Derelicts",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      11.26,
+      11.26
+    ],
+    "radius": 2400,
+    "zone": "Eulmore - The Buttress"
+  },
+  {
+    "name": "Eighteyes Eel",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 26746,
+    "icon": 29298,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rift of Sighs",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      31.03,
+      11.91
+    ],
+    "radius": 1200,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Hard Candy",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27425,
+    "icon": 29316,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rift of Sighs",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      31.03,
+      11.91
+    ],
+    "radius": 1200,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Hard Candy",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27425,
+    "icon": 29316,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rusted Reservoir",
+    "category": "Freshwater Fishing",
+    "lvl": 72,
+    "coords": [
+      11.91,
+      21.52
+    ],
+    "radius": 300,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Hard Candy",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27425,
+    "icon": 29316,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Source",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      12.71,
+      29.63
+    ],
+    "radius": 1500,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Hard Candy",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27425,
+    "icon": 29316,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sullen",
+    "category": "Freshwater Fishing",
+    "lvl": 72,
+    "coords": [
+      19.42,
+      35.83
+    ],
+    "radius": 900,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Abyssal Snail",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27427,
+    "icon": 29560,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rift of Sighs",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      31.03,
+      11.91
+    ],
+    "radius": 1200,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Abyssal Snail",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27427,
+    "icon": 29560,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rusted Reservoir",
+    "category": "Freshwater Fishing",
+    "lvl": 72,
+    "coords": [
+      11.91,
+      21.52
+    ],
+    "radius": 300,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Water Ball",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27426,
+    "icon": 29559,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rift of Sighs",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      31.03,
+      11.91
+    ],
+    "radius": 1200,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Water Ball",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27426,
+    "icon": 29559,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rusted Reservoir",
+    "category": "Freshwater Fishing",
+    "lvl": 72,
+    "coords": [
+      11.91,
+      21.52
+    ],
+    "radius": 300,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Albino Caiman",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27431,
+    "icon": 29563,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rift of Sighs",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      31.03,
+      11.91
+    ],
+    "radius": 1200,
+    "zone": "Lakeland",
+    "scrip": "Yellow Gatherers' Scrip"
+  },
+  {
+    "name": "Platinum Guppy",
+    "patch": 5.0,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "weather": [
+      "Clear Skies"
+    ],
+    "id": 27432,
+    "icon": 29564,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rusted Reservoir",
+    "category": "Freshwater Fishing",
+    "lvl": 72,
+    "coords": [
+      11.91,
+      21.52
+    ],
+    "radius": 300,
+    "zone": "Lakeland",
+    "scrip": "White Gatherers' Scrip"
+  },
+  {
+    "name": "Misty Killifish",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27433,
+    "icon": 29565,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rusted Reservoir",
+    "category": "Freshwater Fishing",
+    "lvl": 72,
+    "coords": [
+      11.91,
+      21.52
+    ],
+    "radius": 300,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Clean Saucer",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27428,
+    "icon": 29702,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Source",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      12.71,
+      29.63
+    ],
+    "radius": 1500,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Rabbit Skipper",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27429,
+    "icon": 29561,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Source",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      12.71,
+      29.63
+    ],
+    "radius": 1500,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Rabbit Skipper",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27429,
+    "icon": 29561,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sullen",
+    "category": "Freshwater Fishing",
+    "lvl": 72,
+    "coords": [
+      19.42,
+      35.83
+    ],
+    "radius": 900,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Xanthic Bass",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27430,
+    "icon": 29562,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Source",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      12.71,
+      29.63
+    ],
+    "radius": 1500,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Xanthic Bass",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27430,
+    "icon": 29562,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sullen",
+    "category": "Freshwater Fishing",
+    "lvl": 72,
+    "coords": [
+      19.42,
+      35.83
+    ],
+    "radius": 900,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Albino Rock Crab",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27434,
+    "icon": 29566,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Source",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      12.71,
+      29.63
+    ],
+    "radius": 1500,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Laxan Inkhorn",
+    "patch": 5.1,
+    "bait": [
+      "Jerked Ovim"
+    ],
+    "id": 28189,
+    "icon": 29418,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Source",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      12.71,
+      29.63
+    ],
+    "radius": 1500,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "The Unforgiven",
+    "patch": 5.1,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "weather": [
+      "Fog"
+    ],
+    "id": 28067,
+    "icon": "t/29996",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Source",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      12.71,
+      29.63
+    ],
+    "radius": 1500,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Snakeskin Discus",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27435,
+    "icon": 29567,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sullen",
+    "category": "Freshwater Fishing",
+    "lvl": 72,
+    "coords": [
+      19.42,
+      35.83
+    ],
+    "radius": 900,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Skulleater",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27438,
+    "icon": 29209,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Watts River",
+    "category": "Freshwater Fishing",
+    "lvl": 78,
+    "coords": [
+      27.03,
+      14.41
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Skulleater",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27438,
+    "icon": 29209,
+    "func": "fish",
+    "rarity": 1,
+    "title": "White Oil Falls",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      29.43,
+      21.42
+    ],
+    "radius": 300,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Skulleater",
+    "patch": 5.0,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "id": 27438,
+    "icon": 29209,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lower Watts River",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      30.23,
+      27.03
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Skulleater",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27438,
+    "icon": 29209,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sharptongue Drip",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      20.62,
+      24.22
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Toffee Snail",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27439,
+    "icon": 29244,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Watts River",
+    "category": "Freshwater Fishing",
+    "lvl": 78,
+    "coords": [
+      27.03,
+      14.41
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Toffee Snail",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27439,
+    "icon": 29244,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lower Watts River",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      30.23,
+      27.03
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Toffee Snail",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27439,
+    "icon": 29244,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sharptongue Drip",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      20.62,
+      24.22
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Watts Trout",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27440,
+    "icon": 29245,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Watts River",
+    "category": "Freshwater Fishing",
+    "lvl": 78,
+    "coords": [
+      27.03,
+      14.41
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Watts Trout",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27440,
+    "icon": 29245,
+    "func": "fish",
+    "rarity": 1,
+    "title": "White Oil Falls",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      29.43,
+      21.42
+    ],
+    "radius": 300,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Watts Trout",
+    "patch": 5.0,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "id": 27440,
+    "icon": 29245,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lower Watts River",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      30.23,
+      27.03
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Hucho Taimen",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27441,
+    "icon": 29570,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Watts River",
+    "category": "Freshwater Fishing",
+    "lvl": 78,
+    "coords": [
+      27.03,
+      14.41
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Winged Hatchetfish",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27442,
+    "icon": 29571,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Watts River",
+    "category": "Freshwater Fishing",
+    "lvl": 78,
+    "coords": [
+      27.03,
+      14.41
+    ],
+    "radius": 1200,
+    "zone": "Kholusia",
+    "scrip": "Yellow Gatherers' Scrip"
+  },
+  {
+    "name": "Noble's Fan",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27443,
+    "icon": 29572,
+    "func": "fish",
+    "rarity": 1,
+    "title": "White Oil Falls",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      29.43,
+      21.42
+    ],
+    "radius": 300,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "White Oil Perch",
+    "patch": 5.1,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "id": 28190,
+    "icon": 29304,
+    "func": "fish",
+    "rarity": 1,
+    "title": "White Oil Falls",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      29.43,
+      21.42
+    ],
+    "radius": 300,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Zebra Catfish",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27444,
+    "icon": 29573,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lower Watts River",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      30.23,
+      27.03
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Sepia Sole",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27445,
+    "icon": 29574,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sharptongue Drip",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      20.62,
+      24.22
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Bronze Sole",
+    "patch": 5.1,
+    "folklore": 1,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "weather": [
+      "Rain"
+    ],
+    "id": 28068,
+    "icon": "t/29997",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Sharptongue Drip",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      20.62,
+      24.22
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "South Kholusian Cod",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27449,
+    "icon": 29012,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Western Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      8.41,
+      35.23
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "South Kholusian Cod",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27449,
+    "icon": 29012,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Seagazer Shoals",
+    "category": "Ocean Fishing",
+    "lvl": 75,
+    "coords": [
+      16.82,
+      35.83
+    ],
+    "radius": 600,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "South Kholusian Cod",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27449,
+    "icon": 29012,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Eastern Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      35.23,
+      35.83
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Kholusian Flounder",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27448,
+    "icon": 29052,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Western Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      8.41,
+      35.23
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Kholusian Flounder",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27448,
+    "icon": 29052,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Seagazer Shoals",
+    "category": "Ocean Fishing",
+    "lvl": 75,
+    "coords": [
+      16.82,
+      35.83
+    ],
+    "radius": 600,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Shellfracture Kelp",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27446,
+    "icon": 29169,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Western Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      8.41,
+      35.23
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Shellfracture Kelp",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27446,
+    "icon": 29169,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Eastern Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      35.23,
+      35.83
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Creamy Oyster",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 26747,
+    "icon": 29916,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Western Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      8.41,
+      35.23
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Rose Shrimp",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27451,
+    "icon": 29008,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Western Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      8.41,
+      35.23
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Razorfish",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27450,
+    "icon": 29171,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Western Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      8.41,
+      35.23
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Kholusian King Crab",
+    "patch": 5.1,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "id": 28193,
+    "icon": 29056,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Western Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      8.41,
+      35.23
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Blood Cloud",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27447,
+    "icon": 29170,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Seagazer Shoals",
+    "category": "Ocean Fishing",
+    "lvl": 75,
+    "coords": [
+      16.82,
+      35.83
+    ],
+    "radius": 600,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Blood Cloud",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27447,
+    "icon": 29170,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Eastern Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      35.23,
+      35.83
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Shapeshifter",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27452,
+    "icon": 29172,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Seagazer Shoals",
+    "category": "Ocean Fishing",
+    "lvl": 75,
+    "coords": [
+      16.82,
+      35.83
+    ],
+    "radius": 600,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Minstrelfish",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27453,
+    "icon": 29173,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Seagazer Shoals",
+    "category": "Ocean Fishing",
+    "lvl": 75,
+    "coords": [
+      16.82,
+      35.83
+    ],
+    "radius": 600,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Spearhead Squid",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27457,
+    "icon": 29177,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Eastern Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      35.23,
+      35.83
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Kholusian Wrasse",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow",
+      "Spearhead Squid"
+    ],
+    "id": 27454,
+    "icon": 29174,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Eastern Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      35.23,
+      35.83
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Weedy Seadragon",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27455,
+    "icon": 29175,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Eastern Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      35.23,
+      35.83
+    ],
+    "radius": 1800,
+    "zone": "Kholusia",
+    "scrip": "Yellow Gatherers' Scrip"
+  },
+  {
+    "name": "Henodus",
+    "patch": 5.0,
+    "folklore": 1,
+    "bait": [
+      "Short Bill Minnow",
+      "Spearhead Squid"
+    ],
+    "during": {
+      "start": 16,
+      "end": 0
+    },
+    "weather": [
+      "Clouds",
+      "Fog"
+    ],
+    "id": 27456,
+    "icon": 29176,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Eastern Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      35.23,
+      35.83
+    ],
+    "radius": 1800,
+    "zone": "Kholusia",
+    "scrip": "White Gatherers' Scrip"
+  },
+  {
+    "name": "Shadow Crab",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog"
+    ],
+    "id": 27458,
+    "icon": 29294,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The River of Sand",
+    "category": "Dunefishing",
+    "lvl": 71,
+    "coords": [
+      31.83,
+      12.71
+    ],
+    "radius": 900,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Shadow Crab",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog"
+    ],
+    "id": 27458,
+    "icon": 29294,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Nabaath Severance",
+    "category": "Dunefishing",
+    "lvl": 72,
+    "coords": [
+      31.03,
+      31.63
+    ],
+    "radius": 1500,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Desert Dustfish",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog"
+    ],
+    "id": 27459,
+    "icon": 29614,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The River of Sand",
+    "category": "Dunefishing",
+    "lvl": 71,
+    "coords": [
+      31.83,
+      12.71
+    ],
+    "radius": 900,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Desert Dustfish",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog"
+    ],
+    "id": 27459,
+    "icon": 29614,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Nabaath Severance",
+    "category": "Dunefishing",
+    "lvl": 72,
+    "coords": [
+      31.03,
+      31.63
+    ],
+    "radius": 1500,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Desert Dustfish",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog"
+    ],
+    "id": 27459,
+    "icon": 29614,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Hills of Amber",
+    "category": "Dunefishing",
+    "lvl": 77,
+    "coords": [
+      15.51,
+      14.81
+    ],
+    "radius": 1200,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Hornhelm",
+    "patch": 5.0,
+    "bait": [
+      "Jerked Ovim"
+    ],
+    "id": 27460,
+    "icon": 29615,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The River of Sand",
+    "category": "Dunefishing",
+    "lvl": 71,
+    "coords": [
+      31.83,
+      12.71
+    ],
+    "radius": 900,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Hornhelm",
+    "patch": 5.0,
+    "bait": [
+      "Jerked Ovim"
+    ],
+    "id": 27460,
+    "icon": 29615,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Nabaath Severance",
+    "category": "Dunefishing",
+    "lvl": 72,
+    "coords": [
+      31.03,
+      31.63
+    ],
+    "radius": 1500,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Sand Egg",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog"
+    ],
+    "id": 27462,
+    "icon": 29617,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The River of Sand",
+    "category": "Dunefishing",
+    "lvl": 71,
+    "coords": [
+      31.83,
+      12.71
+    ],
+    "radius": 900,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Web-footed Sand Gecko",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog"
+    ],
+    "id": 27461,
+    "icon": 29616,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The River of Sand",
+    "category": "Dunefishing",
+    "lvl": 71,
+    "coords": [
+      31.83,
+      12.71
+    ],
+    "radius": 900,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Web-footed Sand Gecko",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog"
+    ],
+    "id": 27461,
+    "icon": 29616,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Hills of Amber",
+    "category": "Dunefishing",
+    "lvl": 77,
+    "coords": [
+      15.51,
+      14.81
+    ],
+    "radius": 1200,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "The Horned King",
+    "patch": 5.1,
+    "folklore": 1,
+    "bait": [
+      "Jerked Ovim",
+      "Hornhelm"
+    ],
+    "during": {
+      "start": 0,
+      "end": 6
+    },
+    "weather": [
+      "Dust Storms"
+    ],
+    "id": 28069,
+    "icon": "t/29620",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The River of Sand",
+    "category": "Dunefishing",
+    "lvl": 71,
+    "coords": [
+      31.83,
+      12.71
+    ],
+    "radius": 900,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Amber Lamprey",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog"
+    ],
+    "id": 27463,
+    "icon": 29248,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Nabaath Severance",
+    "category": "Dunefishing",
+    "lvl": 72,
+    "coords": [
+      31.03,
+      31.63
+    ],
+    "radius": 1500,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Desert Saw",
+    "patch": 5.0,
+    "bait": [
+      "Jerked Ovim"
+    ],
+    "id": 27464,
+    "icon": 29618,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Nabaath Severance",
+    "category": "Dunefishing",
+    "lvl": 72,
+    "coords": [
+      31.03,
+      31.63
+    ],
+    "radius": 1500,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Areng Dire",
+    "patch": 5.1,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "id": 28192,
+    "icon": 29519,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Nabaath Severance",
+    "category": "Dunefishing",
+    "lvl": 72,
+    "coords": [
+      31.03,
+      31.63
+    ],
+    "radius": 1500,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Amber Monkfish",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog"
+    ],
+    "id": 26749,
+    "icon": 29608,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Hills of Amber",
+    "category": "Dunefishing",
+    "lvl": 77,
+    "coords": [
+      15.51,
+      14.81
+    ],
+    "radius": 1200,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Garik Crab",
+    "patch": 5.0,
+    "bait": [
+      "Jerked Ovim"
+    ],
+    "id": 27465,
+    "icon": 29296,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Hills of Amber",
+    "category": "Dunefishing",
+    "lvl": 77,
+    "coords": [
+      15.51,
+      14.81
+    ],
+    "radius": 1200,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Nabaath Manta",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog",
+      "Web-footed Sand Gecko"
+    ],
+    "id": 27466,
+    "icon": 29607,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Hills of Amber",
+    "category": "Dunefishing",
+    "lvl": 77,
+    "coords": [
+      15.51,
+      14.81
+    ],
+    "radius": 1200,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Thorned Lizard",
+    "patch": 5.0,
+    "folklore": 1,
+    "bait": [
+      "Desert Dessert Frog",
+      "Web-footed Sand Gecko"
+    ],
+    "during": {
+      "start": 10,
+      "end": 18
+    },
+    "id": 27467,
+    "icon": 29619,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Hills of Amber",
+    "category": "Dunefishing",
+    "lvl": 77,
+    "coords": [
+      15.51,
+      14.81
+    ],
+    "radius": 1200,
+    "zone": "Amh Araeng",
+    "scrip": "White Gatherers' Scrip"
+  },
+  {
+    "name": "Grey Skipper",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27470,
+    "icon": 29577,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Handmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      4.3,
+      22.32
+    ],
+    "radius": 900,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Grey Skipper",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27470,
+    "icon": 29577,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Longmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      21.02,
+      22.82
+    ],
+    "radius": 2400,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Grey Skipper",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27470,
+    "icon": 29577,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Haughty One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      22.02,
+      9.11
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Grey Skipper",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27470,
+    "icon": 29577,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Jealous One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      25.82,
+      9.01
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Grey Skipper",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27470,
+    "icon": 29577,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Spoiled One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      28.93,
+      13.51
+    ],
+    "radius": 1200,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Grey Skipper",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27470,
+    "icon": 29577,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Saint Fathric's Temple",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      34.93,
+      26.32
+    ],
+    "radius": 900,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Grey Skipper",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27470,
+    "icon": 29577,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Father Collard's Failings",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      31.93,
+      22.32
+    ],
+    "radius": 300,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Pixie Fish",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27471,
+    "icon": 29578,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Handmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      4.3,
+      22.32
+    ],
+    "radius": 900,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Pixie Fish",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27471,
+    "icon": 29578,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Father Collard's Failings",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      31.93,
+      22.32
+    ],
+    "radius": 300,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Wimple Carp",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27474,
+    "icon": 29581,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Handmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      4.3,
+      22.32
+    ],
+    "radius": 900,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Lemonfish",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27475,
+    "icon": 29582,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Handmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      4.3,
+      22.32
+    ],
+    "radius": 900,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Faeshine Clam",
+    "patch": 5.1,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "id": 28191,
+    "icon": 29047,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Handmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      4.3,
+      22.32
+    ],
+    "radius": 900,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Calico Trout",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 26750,
+    "icon": 29300,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Longmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      21.02,
+      22.82
+    ],
+    "radius": 2400,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Official Ball",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27469,
+    "icon": 29576,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Longmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      21.02,
+      22.82
+    ],
+    "radius": 2400,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Official Ball",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27469,
+    "icon": 29576,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Haughty One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      22.02,
+      9.11
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Official Ball",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27469,
+    "icon": 29576,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Father Collard's Failings",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      31.93,
+      22.32
+    ],
+    "radius": 300,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Rebel",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27476,
+    "icon": 29583,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Longmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      21.02,
+      22.82
+    ],
+    "radius": 2400,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Wild Red Betta",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27477,
+    "icon": 29584,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Longmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      21.02,
+      22.82
+    ],
+    "radius": 2400,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Cerulean Loach",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27479,
+    "icon": 29501,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Longmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      21.02,
+      22.82
+    ],
+    "radius": 2400,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Cerulean Loach",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27479,
+    "icon": 29501,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Haughty One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      22.02,
+      9.11
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Cerulean Loach",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27479,
+    "icon": 29501,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Jealous One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      25.82,
+      9.01
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Cerulean Loach",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27479,
+    "icon": 29501,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Spoiled One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      28.93,
+      13.51
+    ],
+    "radius": 1200,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Cerulean Loach",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27479,
+    "icon": 29501,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Saint Fathric's Temple",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      34.93,
+      26.32
+    ],
+    "radius": 900,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "The Sound of Fury",
+    "patch": 5.1,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "during": {
+      "start": 20,
+      "end": 0
+    },
+    "weather": [
+      "Fair Skies",
+      "Clear Skies"
+    ],
+    "id": 28070,
+    "icon": "t/29998",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Longmirror Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 73,
+    "coords": [
+      21.02,
+      22.82
+    ],
+    "radius": 2400,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Blood-eyed Frog",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27472,
+    "icon": 29579,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Haughty One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      22.02,
+      9.11
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Blood-eyed Frog",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27472,
+    "icon": 29579,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Jealous One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      25.82,
+      9.01
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Blood-eyed Frog",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27472,
+    "icon": 29579,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Saint Fathric's Temple",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      34.93,
+      26.32
+    ],
+    "radius": 900,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Spotted Ctenopoma",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27478,
+    "icon": 29585,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Haughty One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      22.02,
+      9.11
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Spotted Blue-eye",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27468,
+    "icon": 29575,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Jealous One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      25.82,
+      9.01
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Brightmirror Clam",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 26748,
+    "icon": 29510,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Spoiled One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      28.93,
+      13.51
+    ],
+    "radius": 1200,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Cherry Herring",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27473,
+    "icon": 29580,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Spoiled One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      28.93,
+      13.51
+    ],
+    "radius": 1200,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Golden Lobster",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27480,
+    "icon": 29586,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Saint Fathric's Temple",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      34.93,
+      26.32
+    ],
+    "radius": 900,
+    "zone": "Il Mheg",
+    "scrip": "Yellow Gatherers' Scrip"
+  },
+  {
+    "name": "Toadhead",
+    "patch": 5.0,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "weather": [
+      "Clear Skies"
+    ],
+    "id": 27481,
+    "icon": 29587,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Father Collard's Failings",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      31.93,
+      22.32
+    ],
+    "radius": 300,
+    "zone": "Il Mheg",
+    "scrip": "White Gatherers' Scrip"
+  },
+  {
+    "name": "Clawbow",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27482,
+    "icon": 29588,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lake Tusi Mek'ta",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      7.41,
+      28.73
+    ],
+    "radius": 1800,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Clawbow",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27482,
+    "icon": 29588,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Red Chalice",
+    "category": "Freshwater Fishing",
+    "lvl": 76,
+    "coords": [
+      9.71,
+      20.82
+    ],
+    "radius": 600,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Clawbow",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27482,
+    "icon": 29588,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Lozatl",
+    "category": "Freshwater Fishing",
+    "lvl": 77,
+    "coords": [
+      16.01,
+      21.52
+    ],
+    "radius": 900,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Clawbow",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27482,
+    "icon": 29588,
+    "func": "fish",
+    "rarity": 1,
+    "title": "South Mjrl's Regret",
+    "category": "Freshwater Fishing",
+    "lvl": 77,
+    "coords": [
+      24.02,
+      31.63
+    ],
+    "radius": 1200,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Clawbow",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27482,
+    "icon": 29588,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Woven Oath",
+    "category": "Freshwater Fishing",
+    "lvl": 80,
+    "coords": [
+      7.81,
+      16.21
+    ],
+    "radius": 300,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Robber Crab",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27484,
+    "icon": 29590,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lake Tusi Mek'ta",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      7.41,
+      28.73
+    ],
+    "radius": 1800,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Robber Crab",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27484,
+    "icon": 29590,
+    "func": "fish",
+    "rarity": 1,
+    "title": "South Mjrl's Regret",
+    "category": "Freshwater Fishing",
+    "lvl": 77,
+    "coords": [
+      24.02,
+      31.63
+    ],
+    "radius": 1200,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Yellow Pipira",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27486,
+    "icon": 29591,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lake Tusi Mek'ta",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      7.41,
+      28.73
+    ],
+    "radius": 1800,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Yellow Pipira",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27486,
+    "icon": 29591,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Red Chalice",
+    "category": "Freshwater Fishing",
+    "lvl": 76,
+    "coords": [
+      9.71,
+      20.82
+    ],
+    "radius": 600,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Yellow Pipira",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27486,
+    "icon": 29591,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Lozatl",
+    "category": "Freshwater Fishing",
+    "lvl": 77,
+    "coords": [
+      16.01,
+      21.52
+    ],
+    "radius": 900,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Yellow Pipira",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27486,
+    "icon": 29591,
+    "func": "fish",
+    "rarity": 1,
+    "title": "South Mjrl's Regret",
+    "category": "Freshwater Fishing",
+    "lvl": 77,
+    "coords": [
+      24.02,
+      31.63
+    ],
+    "radius": 1200,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Clown Tetra",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27490,
+    "icon": 29592,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lake Tusi Mek'ta",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      7.41,
+      28.73
+    ],
+    "radius": 1800,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Eryops",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball",
+      "Clown Tetra"
+    ],
+    "id": 27491,
+    "icon": 29593,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lake Tusi Mek'ta",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      7.41,
+      28.73
+    ],
+    "radius": 1800,
+    "zone": "The Rak'tika Greatwood",
+    "scrip": "Yellow Gatherers' Scrip"
+  },
+  {
+    "name": "Priest of Yx'Lokwa",
+    "patch": 5.1,
+    "folklore": 1,
+    "bait": [
+      "Robber Ball",
+      "Clown Tetra",
+      "Eryops"
+    ],
+    "during": {
+      "start": 10,
+      "end": 12
+    },
+    "id": 28071,
+    "icon": "t/29999",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Lake Tusi Mek'ta",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      7.41,
+      28.73
+    ],
+    "radius": 1800,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Darkroot",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27485,
+    "icon": 29263,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Red Chalice",
+    "category": "Freshwater Fishing",
+    "lvl": 76,
+    "coords": [
+      9.71,
+      20.82
+    ],
+    "radius": 600,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Darkroot",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27485,
+    "icon": 29263,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Woven Oath",
+    "category": "Freshwater Fishing",
+    "lvl": 80,
+    "coords": [
+      7.81,
+      16.21
+    ],
+    "radius": 300,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Oathfish",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "id": 27487,
+    "icon": 29211,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Red Chalice",
+    "category": "Freshwater Fishing",
+    "lvl": 76,
+    "coords": [
+      9.71,
+      20.82
+    ],
+    "radius": 600,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Oathfish",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "id": 27487,
+    "icon": 29211,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Woven Oath",
+    "category": "Freshwater Fishing",
+    "lvl": 80,
+    "coords": [
+      7.81,
+      16.21
+    ],
+    "radius": 300,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Diamond Pipira",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "during": {
+      "start": 12,
+      "end": 20
+    },
+    "id": 27492,
+    "icon": 29594,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Red Chalice",
+    "category": "Freshwater Fishing",
+    "lvl": 76,
+    "coords": [
+      9.71,
+      20.82
+    ],
+    "radius": 600,
+    "zone": "The Rak'tika Greatwood",
+    "scrip": "Yellow Gatherers' Scrip"
+  },
+  {
+    "name": "Black Tri-star",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27483,
+    "icon": 29589,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Lozatl",
+    "category": "Freshwater Fishing",
+    "lvl": 77,
+    "coords": [
+      16.01,
+      21.52
+    ],
+    "radius": 900,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Night's Bass",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27488,
+    "icon": 29206,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Lozatl",
+    "category": "Freshwater Fishing",
+    "lvl": 77,
+    "coords": [
+      16.01,
+      21.52
+    ],
+    "radius": 900,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Night's Bass",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27488,
+    "icon": 29206,
+    "func": "fish",
+    "rarity": 1,
+    "title": "South Mjrl's Regret",
+    "category": "Freshwater Fishing",
+    "lvl": 77,
+    "coords": [
+      24.02,
+      31.63
+    ],
+    "radius": 1200,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Rak'tika Trout",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27489,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Lozatl",
+    "category": "Freshwater Fishing",
+    "lvl": 77,
+    "coords": [
+      16.01,
+      21.52
+    ],
+    "radius": 900,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Rak'tika Trout",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27489,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "South Mjrl's Regret",
+    "category": "Freshwater Fishing",
+    "lvl": 77,
+    "coords": [
+      24.02,
+      31.63
+    ],
+    "radius": 1200,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Silver Kitten",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "id": 27493,
+    "icon": 29595,
+    "func": "fish",
+    "rarity": 1,
+    "title": "South Mjrl's Regret",
+    "category": "Freshwater Fishing",
+    "lvl": 77,
+    "coords": [
+      24.02,
+      31.63
+    ],
+    "radius": 1200,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Darkdweller",
+    "patch": 5.0,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "during": {
+      "start": 0,
+      "end": 8
+    },
+    "weather": [
+      "Fog"
+    ],
+    "id": 27494,
+    "icon": 29596,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Woven Oath",
+    "category": "Freshwater Fishing",
+    "lvl": 80,
+    "coords": [
+      7.81,
+      16.21
+    ],
+    "radius": 300,
+    "zone": "The Rak'tika Greatwood",
+    "scrip": "White Gatherers' Scrip"
+  },
+  {
+    "name": "Deep Purple Coral",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27495,
+    "icon": 29178,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Flounders' Floor",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      11.21,
+      6.61
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Deep Purple Coral",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27495,
+    "icon": 29178,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Where the Dry Return",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      37.74,
+      7.01
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Stormfish",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27497,
+    "icon": 29025,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Flounders' Floor",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      11.21,
+      6.61
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Stormfish",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27497,
+    "icon": 29025,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Where the Dry Return",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      37.74,
+      7.01
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Stormfish",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27497,
+    "icon": 29025,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Northwest Caliban Gorge",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      11.91,
+      10.91
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Stormfish",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27497,
+    "icon": 29025,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Caliban Gap",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      6.21,
+      13.51
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Stormfish",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27497,
+    "icon": 29025,
+    "func": "fish",
+    "rarity": 1,
+    "title": "East Caliban Gap",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      8.51,
+      15.61
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Stormfish",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27497,
+    "icon": 29025,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Purpure",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      33.63,
+      30.63
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Stormfish",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27497,
+    "icon": 29025,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Norvrandt Slope",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      29.03,
+      14.91
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Caliban",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27499,
+    "icon": 29041,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Flounders' Floor",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      11.21,
+      6.61
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Caliban",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27499,
+    "icon": 29041,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Where the Dry Return",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      37.74,
+      7.01
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Caliban",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27499,
+    "icon": 29041,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Northwest Caliban Gorge",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      11.91,
+      10.91
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Bubble Angler",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27501,
+    "icon": 29181,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Flounders' Floor",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      11.21,
+      6.61
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Ondo Harpoon",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27502,
+    "icon": 29182,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Flounders' Floor",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      11.21,
+      6.61
+    ],
+    "radius": 900,
+    "zone": "The Tempest",
+    "scrip": "White Gatherers' Scrip"
+  },
+  {
+    "name": "Ondobane",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27503,
+    "icon": 29183,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Where the Dry Return",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      37.74,
+      7.01
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Stippled Eel",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27504,
+    "icon": 29184,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Where the Dry Return",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      37.74,
+      7.01
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Sycorax",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27496,
+    "icon": 29059,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Northwest Caliban Gorge",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      11.91,
+      10.91
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Sycorax",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27496,
+    "icon": 29059,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Caliban Gap",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      6.21,
+      13.51
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Sycorax",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27496,
+    "icon": 29059,
+    "func": "fish",
+    "rarity": 1,
+    "title": "East Caliban Gap",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      8.51,
+      15.61
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Sycorax",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27496,
+    "icon": 29059,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Purpure",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      33.63,
+      30.63
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Sycorax",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 27496,
+    "icon": 29059,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Norvrandt Slope",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      29.03,
+      14.91
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Hoodwinker",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "weather": [
+      "Fair Skies"
+    ],
+    "id": 27500,
+    "icon": 29180,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Northwest Caliban Gorge",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      11.91,
+      10.91
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Hoodwinker",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "weather": [
+      "Fair Skies"
+    ],
+    "id": 27500,
+    "icon": 29180,
+    "func": "fish",
+    "rarity": 1,
+    "title": "East Caliban Gap",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      8.51,
+      15.61
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Seatrap",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27505,
+    "icon": 29185,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Northwest Caliban Gorge",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      11.91,
+      10.91
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Sweetmeat Mussel",
+    "patch": 5.1,
+    "folklore": 1,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 28719,
+    "icon": "t/29196",
+    "func": "fish",
+    "rarity": 1,
+    "title": "Northwest Caliban Gorge",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      11.91,
+      10.91
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Ancient Shrimp",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27506,
+    "icon": 29186,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Caliban Gap",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      6.21,
+      13.51
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Yeti Crab",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip",
+      "Ancient Shrimp"
+    ],
+    "id": 27507,
+    "icon": 29187,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Caliban Gap",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      6.21,
+      13.51
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Aapoak",
+    "patch": 5.0,
+    "folklore": 1,
+    "bait": [
+      "Squid Strip",
+      "Ancient Shrimp"
+    ],
+    "during": {
+      "start": 12,
+      "end": 16
+    },
+    "weather": [
+      "Clear Skies"
+    ],
+    "id": 27508,
+    "icon": 29188,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Caliban Gap",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      6.21,
+      13.51
+    ],
+    "radius": 600,
+    "zone": "The Tempest",
+    "scrip": "White Gatherers' Scrip"
+  },
+  {
+    "name": "Cyan Sea Devil",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27509,
+    "icon": 29189,
+    "func": "fish",
+    "rarity": 1,
+    "title": "East Caliban Gap",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      8.51,
+      15.61
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Pancake Octopus",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27510,
+    "icon": 29190,
+    "func": "fish",
+    "rarity": 1,
+    "title": "East Caliban Gap",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      8.51,
+      15.61
+    ],
+    "radius": 300,
+    "zone": "The Tempest",
+    "scrip": "White Gatherers' Scrip"
+  },
+  {
+    "name": "Azure Sea Spider",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27498,
+    "icon": 29179,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Purpure",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      33.63,
+      30.63
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Azure Sea Spider",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27498,
+    "icon": 29179,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Norvrandt Slope",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      29.03,
+      14.91
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Maneater Clam",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27511,
+    "icon": 29806,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Purpure",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      33.63,
+      30.63
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Stargazer",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27512,
+    "icon": 29191,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Purpure",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      33.63,
+      30.63
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Starchaser",
+    "patch": 5.1,
+    "folklore": 1,
+    "bait": [
+      "Squid Strip"
+    ],
+    "during": {
+      "start": 6,
+      "end": 10
+    },
+    "weather": [
+      "Clouds"
+    ],
+    "id": 28072,
+    "icon": "t/29195",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Purpure",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      33.63,
+      30.63
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Prospero Eel",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "id": 26751,
+    "icon": 29205,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Norvrandt Slope",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      29.03,
+      14.91
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Sweetflesh Oyster",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27513,
+    "icon": 29097,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Norvrandt Slope",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      29.03,
+      14.91
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Rainbow Shrimp",
+    "patch": 5.0,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "id": 27514,
+    "icon": 29192,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Norvrandt Slope",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      29.03,
+      14.91
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Predator",
+    "patch": 5.0,
+    "bait": [
+      "Squid Strip"
+    ],
+    "id": 27515,
+    "icon": 29193,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Norvrandt Slope",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      29.03,
+      14.91
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
   }
 ];
 
