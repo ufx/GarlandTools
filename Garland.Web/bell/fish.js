@@ -253,15 +253,30 @@
     "icon": 29238,
     "mooch": 1
   },
+  "Silver Spoon Lure": {
+    "name": "Silver Spoon Lure",
+    "id": 2615,
+    "icon": 27052
+  },
   "Spinner": {
     "name": "Spinner",
     "id": 2620,
     "icon": 27062
   },
+  "Rolling Stone": {
+    "name": "Rolling Stone",
+    "id": 2604,
+    "icon": 27024
+  },
   "Sand Leech": {
     "name": "Sand Leech",
     "id": 2600,
     "icon": 27014
+  },
+  "Sand Gecko": {
+    "name": "Sand Gecko",
+    "id": 2602,
+    "icon": 27012
   },
   "Storm Rider": {
     "name": "Storm Rider",
@@ -269,15 +284,11 @@
     "icon": 29606,
     "mooch": 1
   },
-  "Stonefly Nymph": {
-    "name": "Stonefly Nymph",
-    "id": 12704,
-    "icon": 27028
-  },
-  "Brute Leech": {
-    "name": "Brute Leech",
-    "id": 12711,
-    "icon": 22635
+  "Sandfish": {
+    "name": "Sandfish",
+    "id": 4977,
+    "icon": 29234,
+    "mooch": 1
   },
   "Abalathian Smelt": {
     "name": "Abalathian Smelt",
@@ -285,15 +296,36 @@
     "icon": 29310,
     "mooch": 1
   },
+  "Brute Leech": {
+    "name": "Brute Leech",
+    "id": 12711,
+    "icon": 22635
+  },
+  "Stonefly Nymph": {
+    "name": "Stonefly Nymph",
+    "id": 12704,
+    "icon": 27028
+  },
   "Hoverworm": {
     "name": "Hoverworm",
     "id": 2605,
     "icon": 27022
   },
+  "Balloon Bug": {
+    "name": "Balloon Bug",
+    "id": 2609,
+    "icon": 27020
+  },
   "Cloud Cutter": {
     "name": "Cloud Cutter",
     "id": 5040,
     "icon": 29655,
+    "mooch": 1
+  },
+  "Saucerfish": {
+    "name": "Saucerfish",
+    "id": 5044,
+    "icon": 29656,
     "mooch": 1
   },
   "Mahar": {
@@ -435,6 +467,11 @@
     "id": 20675,
     "icon": 27013
   },
+  "Nightcrawler": {
+    "name": "Nightcrawler",
+    "id": 20614,
+    "icon": 27032
+  },
   "Balloon Frog": {
     "name": "Balloon Frog",
     "id": 20064,
@@ -446,11 +483,6 @@
     "id": 24207,
     "icon": 29535,
     "mooch": 1
-  },
-  "Nightcrawler": {
-    "name": "Nightcrawler",
-    "id": 20614,
-    "icon": 27032
   },
   "Silkworm": {
     "name": "Silkworm",
@@ -16021,6 +16053,69 @@ gt.bell.fish = [
     "zone": "North Shroud"
   },
   {
+    "name": "Rainbow Trout",
+    "patch": 1.0,
+    "bait": [
+      "Midge Basket"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 4940,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Coerthas River",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      20.46,
+      30.59
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Rainbow Trout",
+    "patch": 1.0,
+    "bait": [
+      "Crow Fly"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 4940,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dragonhead Latrines",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      27.91,
+      16.94
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Rainbow Trout",
+    "patch": 1.0,
+    "bait": [
+      "Crow Fly"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 4940,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Snowcloak",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      3.16,
+      21.3
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
     "name": "Moldva",
     "patch": 2.2,
     "bait": [
@@ -17124,6 +17219,66 @@ gt.bell.fish = [
     "zone": "North Shroud"
   },
   {
+    "name": "Golden Loach",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm"
+    ],
+    "id": 4984,
+    "icon": 29258,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Forgotten Springs",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      15.65,
+      30.95
+    ],
+    "radius": 400,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Golden Loach",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm"
+    ],
+    "id": 4984,
+    "icon": 29258,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Bluefog",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      24.14,
+      26.0
+    ],
+    "radius": 400,
+    "zone": "Northern Thanalan"
+  },
+  {
+    "name": "Golden Loach",
+    "patch": 1.0,
+    "bait": [
+      "Topwater Frog"
+    ],
+    "id": 4984,
+    "icon": 29258,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Daniffen Pass",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      13.25,
+      22.8
+    ],
+    "radius": 300,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
     "name": "Pirarucu",
     "patch": 1.0,
     "bait": [
@@ -17230,6 +17385,27 @@ gt.bell.fish = [
       13.05
     ],
     "radius": 400,
+    "zone": "Mor Dhona"
+  },
+  {
+    "name": "Assassin Betta",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish"
+    ],
+    "id": 5002,
+    "icon": 29238,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Rathefrost",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      18.74,
+      17.68
+    ],
+    "radius": 200,
     "zone": "Mor Dhona"
   },
   {
@@ -17597,6 +17773,48 @@ gt.bell.fish = [
     "zone": "Western Thanalan"
   },
   {
+    "name": "Garpike",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish"
+    ],
+    "id": 5005,
+    "icon": 29264,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Bluefog",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      24.14,
+      26.0
+    ],
+    "radius": 400,
+    "zone": "Northern Thanalan"
+  },
+  {
+    "name": "Garpike",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish"
+    ],
+    "id": 5005,
+    "icon": 29264,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Singing Shards",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      29.15,
+      10.33
+    ],
+    "radius": 600,
+    "zone": "Mor Dhona"
+  },
+  {
     "name": "Ndendecki",
     "patch": 2.4,
     "bait": [
@@ -17647,6 +17865,48 @@ gt.bell.fish = [
     "zone": "Western Thanalan"
   },
   {
+    "name": "Boltfish",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish"
+    ],
+    "id": 5004,
+    "icon": 29281,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Ceruleum Field",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      20.74,
+      23.58
+    ],
+    "radius": 600,
+    "zone": "Northern Thanalan"
+  },
+  {
+    "name": "Boltfish",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish"
+    ],
+    "id": 5004,
+    "icon": 29281,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Tangle",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      14.41,
+      13.31
+    ],
+    "radius": 400,
+    "zone": "Mor Dhona"
+  },
+  {
     "name": "Ilsabardian Bass",
     "patch": 1.0,
     "bait": [
@@ -17670,6 +17930,26 @@ gt.bell.fish = [
     "name": "Ilsabardian Bass",
     "patch": 1.0,
     "bait": [
+      "Topwater Frog"
+    ],
+    "id": 5006,
+    "icon": 29305,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Ceruleum Field",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      20.74,
+      23.58
+    ],
+    "radius": 600,
+    "zone": "Northern Thanalan"
+  },
+  {
+    "name": "Ilsabardian Bass",
+    "patch": 1.0,
+    "bait": [
       "Glowworm"
     ],
     "id": 5006,
@@ -17684,6 +17964,86 @@ gt.bell.fish = [
       13.05
     ],
     "radius": 400,
+    "zone": "Mor Dhona"
+  },
+  {
+    "name": "Ilsabardian Bass",
+    "patch": 1.0,
+    "bait": [
+      "Topwater Frog"
+    ],
+    "id": 5006,
+    "icon": 29305,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Singing Shards",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      29.15,
+      10.33
+    ],
+    "radius": 600,
+    "zone": "Mor Dhona"
+  },
+  {
+    "name": "Ilsabardian Bass",
+    "patch": 1.0,
+    "bait": [
+      "Topwater Frog"
+    ],
+    "id": 5006,
+    "icon": 29305,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Rathefrost",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      18.74,
+      17.68
+    ],
+    "radius": 200,
+    "zone": "Mor Dhona"
+  },
+  {
+    "name": "Ilsabardian Bass",
+    "patch": 1.0,
+    "bait": [
+      "Topwater Frog"
+    ],
+    "id": 5006,
+    "icon": 29305,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Tangle",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      14.41,
+      13.31
+    ],
+    "radius": 400,
+    "zone": "Mor Dhona"
+  },
+  {
+    "name": "Ilsabardian Bass",
+    "patch": 1.0,
+    "bait": [
+      "Topwater Frog"
+    ],
+    "id": 5006,
+    "icon": 29305,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The North Shards",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      30.99,
+      6.21
+    ],
+    "radius": 200,
     "zone": "Mor Dhona"
   },
   {
@@ -17997,6 +18357,26 @@ gt.bell.fish = [
     "zone": "Eastern Thanalan"
   },
   {
+    "name": "Gigantpole",
+    "patch": 1.0,
+    "bait": [
+      "Topwater Frog"
+    ],
+    "id": 6191,
+    "icon": 29317,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Burning Wall",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      29.15,
+      24.7
+    ],
+    "radius": 600,
+    "zone": "Eastern Thanalan"
+  },
+  {
     "name": "Sundisc",
     "patch": 1.0,
     "bait": [
@@ -18046,6 +18426,66 @@ gt.bell.fish = [
     ],
     "radius": 600,
     "zone": "Eastern Thanalan"
+  },
+  {
+    "name": "Plaguefish",
+    "patch": 1.0,
+    "bait": [
+      "Chocobo Fly"
+    ],
+    "id": 4966,
+    "icon": 29288,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Burnt Lizard Creek",
+    "category": "Freshwater Fishing",
+    "lvl": 25,
+    "coords": [
+      21.74,
+      15.09
+    ],
+    "radius": 400,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Plaguefish",
+    "patch": 1.0,
+    "bait": [
+      "Bass Ball"
+    ],
+    "id": 4966,
+    "icon": 29288,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Zahar'ak",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      25.38,
+      21.02
+    ],
+    "radius": 400,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Plaguefish",
+    "patch": 1.0,
+    "bait": [
+      "Chocobo Fly"
+    ],
+    "id": 4966,
+    "icon": 29288,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Forgotten Springs",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      15.65,
+      30.95
+    ],
+    "radius": 400,
+    "zone": "Southern Thanalan"
   },
   {
     "name": "Old Hollow Eyes",
@@ -18124,6 +18564,26 @@ gt.bell.fish = [
     "zone": "Southern Thanalan"
   },
   {
+    "name": "Ropefish",
+    "patch": 1.0,
+    "bait": [
+      "Silver Spoon Lure"
+    ],
+    "id": 4969,
+    "icon": 29242,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Forgotten Springs",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      15.65,
+      30.95
+    ],
+    "radius": 400,
+    "zone": "Southern Thanalan"
+  },
+  {
     "name": "Iron Noose",
     "patch": 2.3,
     "bait": [
@@ -18144,6 +18604,106 @@ gt.bell.fish = [
       30.95
     ],
     "radius": 400,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Sandfish",
+    "patch": 1.0,
+    "bait": [
+      "Freshwater Boilie"
+    ],
+    "id": 4977,
+    "icon": 29234,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sagolii Desert",
+    "category": "Dunefishing",
+    "lvl": 35,
+    "coords": [
+      12.37,
+      36.03
+    ],
+    "radius": 600,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Sand Bream",
+    "patch": 1.0,
+    "bait": [
+      "Rolling Stone"
+    ],
+    "id": 5032,
+    "icon": 29604,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sagolii Desert",
+    "category": "Dunefishing",
+    "lvl": 35,
+    "coords": [
+      12.37,
+      36.03
+    ],
+    "radius": 600,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Sand Bream",
+    "patch": 1.0,
+    "bait": [
+      "Sand Leech"
+    ],
+    "id": 5032,
+    "icon": 29604,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sagolii Dunes",
+    "category": "Dunefishing",
+    "lvl": 35,
+    "coords": [
+      27.31,
+      36.96
+    ],
+    "radius": 600,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Dustfish",
+    "patch": 1.0,
+    "bait": [
+      "Rolling Stone"
+    ],
+    "id": 5034,
+    "icon": 29602,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sagolii Desert",
+    "category": "Dunefishing",
+    "lvl": 35,
+    "coords": [
+      12.37,
+      36.03
+    ],
+    "radius": 600,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Dustfish",
+    "patch": 1.0,
+    "bait": [
+      "Sand Leech"
+    ],
+    "id": 5034,
+    "icon": 29602,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sagolii Dunes",
+    "category": "Dunefishing",
+    "lvl": 35,
+    "coords": [
+      27.31,
+      36.96
+    ],
+    "radius": 600,
     "zone": "Southern Thanalan"
   },
   {
@@ -18182,6 +18742,109 @@ gt.bell.fish = [
     "coords": [
       27.31,
       36.96
+    ],
+    "radius": 600,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Antlion Slug",
+    "patch": 1.0,
+    "bait": [
+      "Sand Gecko"
+    ],
+    "id": 5036,
+    "icon": 29601,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sagolii Desert",
+    "category": "Dunefishing",
+    "lvl": 35,
+    "coords": [
+      12.37,
+      36.03
+    ],
+    "radius": 600,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Antlion Slug",
+    "patch": 1.0,
+    "bait": [
+      "Sand Gecko"
+    ],
+    "id": 5036,
+    "icon": 29601,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sagolii Dunes",
+    "category": "Dunefishing",
+    "lvl": 35,
+    "coords": [
+      27.31,
+      36.96
+    ],
+    "radius": 600,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Dune Manta",
+    "patch": 1.0,
+    "bait": [
+      "Sand Leech",
+      "Storm Rider"
+    ],
+    "id": 5037,
+    "icon": 29607,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sagolii Desert",
+    "category": "Dunefishing",
+    "lvl": 35,
+    "coords": [
+      12.37,
+      36.03
+    ],
+    "radius": 600,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Dune Manta",
+    "patch": 1.0,
+    "bait": [
+      "Sand Leech",
+      "Storm Rider"
+    ],
+    "id": 5037,
+    "icon": 29607,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sagolii Dunes",
+    "category": "Dunefishing",
+    "lvl": 35,
+    "coords": [
+      27.31,
+      36.96
+    ],
+    "radius": 600,
+    "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Sagolii Monkfish",
+    "patch": 1.0,
+    "bait": [
+      "Freshwater Boilie",
+      "Sandfish"
+    ],
+    "id": 5043,
+    "icon": 29608,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sagolii Desert",
+    "category": "Dunefishing",
+    "lvl": 35,
+    "coords": [
+      12.37,
+      36.03
     ],
     "radius": 600,
     "zone": "Southern Thanalan"
@@ -18267,6 +18930,27 @@ gt.bell.fish = [
     "zone": "Southern Thanalan"
   },
   {
+    "name": "Caravan Eel",
+    "patch": 1.0,
+    "bait": [
+      "Sand Leech",
+      "Storm Rider"
+    ],
+    "id": 5045,
+    "icon": 29605,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sagolii Dunes",
+    "category": "Dunefishing",
+    "lvl": 35,
+    "coords": [
+      27.31,
+      36.96
+    ],
+    "radius": 600,
+    "zone": "Southern Thanalan"
+  },
+  {
     "name": "Olgoi-Khorkhoi",
     "patch": 2.3,
     "bait": [
@@ -18289,6 +18973,27 @@ gt.bell.fish = [
     ],
     "radius": 600,
     "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Alligator Garfish",
+    "patch": 1.0,
+    "bait": [
+      "Spinnerbait",
+      "Common Sculpin"
+    ],
+    "id": 5018,
+    "icon": 29219,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Bluefog",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      24.14,
+      26.0
+    ],
+    "radius": 400,
+    "zone": "Northern Thanalan"
   },
   {
     "name": "Hannibal",
@@ -18316,6 +19021,28 @@ gt.bell.fish = [
       26.0
     ],
     "radius": 400,
+    "zone": "Northern Thanalan"
+  },
+  {
+    "name": "Wootz Knifefish",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish",
+      "Goldfish"
+    ],
+    "id": 5019,
+    "icon": 29272,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Ceruleum Field",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      20.74,
+      23.58
+    ],
+    "radius": 600,
     "zone": "Northern Thanalan"
   },
   {
@@ -18377,6 +19104,190 @@ gt.bell.fish = [
     ],
     "radius": 3000,
     "zone": "The Goblet"
+  },
+  {
+    "name": "Crimson Trout",
+    "patch": 1.0,
+    "bait": [
+      "Spinner"
+    ],
+    "id": 4986,
+    "icon": 29240,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Coerthas River",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      20.46,
+      30.59
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Crimson Trout",
+    "patch": 1.0,
+    "bait": [
+      "Wildfowl Fly"
+    ],
+    "id": 4986,
+    "icon": 29240,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Nail",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      15.63,
+      21.4
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Crimson Trout",
+    "patch": 1.0,
+    "bait": [
+      "Spinner"
+    ],
+    "id": 4986,
+    "icon": 29240,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dragonhead Latrines",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      27.91,
+      16.94
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Crimson Trout",
+    "patch": 1.0,
+    "bait": [
+      "Wildfowl Fly"
+    ],
+    "id": 4986,
+    "icon": 29240,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Weeping Saint",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      31.53,
+      7.51
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Crimson Trout",
+    "patch": 1.0,
+    "bait": [
+      "Spinner"
+    ],
+    "id": 4986,
+    "icon": 29240,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Snowcloak",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      3.16,
+      21.3
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Kissing Trout",
+    "patch": 1.0,
+    "bait": [
+      "Moth Pupa",
+      "Striped Goby"
+    ],
+    "id": 5009,
+    "icon": 29266,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Coerthas River",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      20.46,
+      30.59
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Kissing Trout",
+    "patch": 1.0,
+    "bait": [
+      "Moth Pupa",
+      "Striped Goby"
+    ],
+    "id": 5009,
+    "icon": 29266,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Nail",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      15.63,
+      21.4
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Kissing Trout",
+    "patch": 1.0,
+    "bait": [
+      "Moth Pupa",
+      "Striped Goby"
+    ],
+    "id": 5009,
+    "icon": 29266,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dragonhead Latrines",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      27.91,
+      16.94
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Kissing Trout",
+    "patch": 1.0,
+    "bait": [
+      "Brute Leech",
+      "Abalathian Smelt"
+    ],
+    "id": 5009,
+    "icon": 29266,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Exploratory Ice Hole",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      6.45,
+      22.62
+    ],
+    "radius": 200,
+    "zone": "Coerthas Central Highlands"
   },
   {
     "name": "Daniffen's Mark",
@@ -18602,6 +19513,27 @@ gt.bell.fish = [
     "zone": "Coerthas Western Highlands"
   },
   {
+    "name": "Cave Cherax",
+    "patch": 1.0,
+    "bait": [
+      "Moth Pupa",
+      "Striped Goby"
+    ],
+    "id": 5014,
+    "icon": 29227,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Daniffen Pass",
+    "category": "Freshwater Fishing",
+    "lvl": 35,
+    "coords": [
+      13.25,
+      22.8
+    ],
+    "radius": 300,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
     "name": "Charon's Lantern",
     "patch": 2.3,
     "bait": [
@@ -18623,6 +19555,87 @@ gt.bell.fish = [
       22.8
     ],
     "radius": 300,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Northern Pike",
+    "patch": 1.0,
+    "bait": [
+      "Topwater Frog"
+    ],
+    "id": 4997,
+    "icon": 29220,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Nail",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      15.63,
+      21.4
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Northern Pike",
+    "patch": 1.0,
+    "bait": [
+      "Topwater Frog"
+    ],
+    "id": 4997,
+    "icon": 29220,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Exploratory Ice Hole",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      6.45,
+      22.62
+    ],
+    "radius": 200,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Northern Pike",
+    "patch": 1.0,
+    "bait": [
+      "Topwater Frog"
+    ],
+    "id": 4997,
+    "icon": 29220,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Weeping Saint",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      31.53,
+      7.51
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Emperor Fish",
+    "patch": 1.0,
+    "bait": [
+      "Stonefly Nymph",
+      "Abalathian Smelt"
+    ],
+    "id": 5025,
+    "icon": 29225,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Nail",
+    "category": "Freshwater Fishing",
+    "lvl": 40,
+    "coords": [
+      15.63,
+      21.4
+    ],
+    "radius": 400,
     "zone": "Coerthas Central Highlands"
   },
   {
@@ -18704,6 +19717,27 @@ gt.bell.fish = [
     "zone": "Coerthas Central Highlands"
   },
   {
+    "name": "Angry Pike",
+    "patch": 1.0,
+    "bait": [
+      "Stonefly Nymph",
+      "Abalathian Smelt"
+    ],
+    "id": 5010,
+    "icon": 29279,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Weeping Saint",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      31.53,
+      7.51
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
     "name": "Darkstar",
     "patch": 2.4,
     "bait": [
@@ -18739,6 +19773,26 @@ gt.bell.fish = [
     "coords": [
       31.53,
       7.51
+    ],
+    "radius": 400,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Wandering Sculpin",
+    "patch": 1.0,
+    "bait": [
+      "Caddisfly Larva"
+    ],
+    "id": 5013,
+    "icon": 29299,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Snowcloak",
+    "category": "Freshwater Fishing",
+    "lvl": 45,
+    "coords": [
+      3.16,
+      21.3
     ],
     "radius": 400,
     "zone": "Coerthas Central Highlands"
@@ -18792,6 +19846,26 @@ gt.bell.fish = [
     "zone": "Coerthas Central Highlands"
   },
   {
+    "name": "Cloud Jellyfish",
+    "patch": 1.0,
+    "bait": [
+      "Balloon Bug"
+    ],
+    "id": 5038,
+    "icon": 29657,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Witchdrop",
+    "category": "Skyfishing",
+    "lvl": 50,
+    "coords": [
+      33.69,
+      18.78
+    ],
+    "radius": 600,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
     "name": "Skyfish",
     "patch": 1.0,
     "bait": [
@@ -18807,6 +19881,26 @@ gt.bell.fish = [
     "coords": [
       14.21,
       13.41
+    ],
+    "radius": 600,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Skyfish",
+    "patch": 1.0,
+    "bait": [
+      "Balloon Bug"
+    ],
+    "id": 5039,
+    "icon": 29653,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Witchdrop",
+    "category": "Skyfishing",
+    "lvl": 50,
+    "coords": [
+      33.69,
+      18.78
     ],
     "radius": 600,
     "zone": "Coerthas Central Highlands"
@@ -18852,6 +19946,48 @@ gt.bell.fish = [
     "zone": "Coerthas Central Highlands"
   },
   {
+    "name": "Blind Manta",
+    "patch": 1.0,
+    "bait": [
+      "Hoverworm",
+      "Cloud Cutter"
+    ],
+    "id": 5041,
+    "icon": 29651,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sea of Clouds",
+    "category": "Skyfishing",
+    "lvl": 45,
+    "coords": [
+      14.21,
+      13.41
+    ],
+    "radius": 600,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Blind Manta",
+    "patch": 1.0,
+    "bait": [
+      "Hoverworm",
+      "Cloud Cutter"
+    ],
+    "id": 5041,
+    "icon": 29651,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Witchdrop",
+    "category": "Skyfishing",
+    "lvl": 50,
+    "coords": [
+      33.69,
+      18.78
+    ],
+    "radius": 600,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
     "name": "Rift Sailor",
     "patch": 1.0,
     "bait": [
@@ -18867,6 +20003,26 @@ gt.bell.fish = [
     "coords": [
       14.21,
       13.41
+    ],
+    "radius": 600,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Rift Sailor",
+    "patch": 1.0,
+    "bait": [
+      "Balloon Bug"
+    ],
+    "id": 5042,
+    "icon": 29652,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Witchdrop",
+    "category": "Skyfishing",
+    "lvl": 50,
+    "coords": [
+      33.69,
+      18.78
     ],
     "radius": 600,
     "zone": "Coerthas Central Highlands"
@@ -18896,6 +20052,49 @@ gt.bell.fish = [
     "coords": [
       14.21,
       13.41
+    ],
+    "radius": 600,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Saucerfish",
+    "patch": 1.0,
+    "bait": [
+      "Hoverworm",
+      "Cloud Cutter"
+    ],
+    "id": 5044,
+    "icon": 29656,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Witchdrop",
+    "category": "Skyfishing",
+    "lvl": 50,
+    "coords": [
+      33.69,
+      18.78
+    ],
+    "radius": 600,
+    "zone": "Coerthas Central Highlands"
+  },
+  {
+    "name": "Rhamphorhynchus",
+    "patch": 1.0,
+    "bait": [
+      "Hoverworm",
+      "Cloud Cutter",
+      "Saucerfish"
+    ],
+    "id": 5046,
+    "icon": 29654,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Witchdrop",
+    "category": "Skyfishing",
+    "lvl": 50,
+    "coords": [
+      33.69,
+      18.78
     ],
     "radius": 600,
     "zone": "Coerthas Central Highlands"
@@ -18958,6 +20157,46 @@ gt.bell.fish = [
     "zone": "Coerthas Central Highlands"
   },
   {
+    "name": "Coerthan Crab",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12718,
+    "icon": 29808,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Riversmeet",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      32.86,
+      27.55
+    ],
+    "radius": 200,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Coerthan Crab",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12718,
+    "icon": 29808,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Clearpool",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      36.78,
+      5.97
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
     "name": "Coerthan Puffer",
     "patch": 3.0,
     "bait": [
@@ -18999,6 +20238,26 @@ gt.bell.fish = [
       27.55
     ],
     "radius": 200,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Cloud Coral",
+    "patch": 3.0,
+    "bait": [
+      "Balloon Bug"
+    ],
+    "id": 12714,
+    "icon": 29062,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Greytail Falls",
+    "category": "Skyfishing",
+    "lvl": 51,
+    "coords": [
+      35.56,
+      27.38
+    ],
+    "radius": 300,
     "zone": "Coerthas Western Highlands"
   },
   {
@@ -19421,6 +20680,47 @@ gt.bell.fish = [
     "scrip": "Yellow Gatherers' Scrip"
   },
   {
+    "name": "Priestfish",
+    "patch": 3.2,
+    "folklore": 1,
+    "bait": [
+      "Brute Leech"
+    ],
+    "id": 14216,
+    "icon": 29096,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Clearpool",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      36.78,
+      5.97
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Ghost Faerie",
+    "patch": 3.55,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 17563,
+    "icon": 29716,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Clearpool",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      36.78,
+      5.97
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
     "name": "Bishopfish",
     "patch": 3.5,
     "folklore": 1,
@@ -19495,6 +20795,66 @@ gt.bell.fish = [
     "zone": "Coerthas Western Highlands"
   },
   {
+    "name": "Ogre Horn Snail",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12725,
+    "icon": 29418,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dragonspit",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      8.71,
+      9.72
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Cherry Trout",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12824,
+    "icon": 29285,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dragonspit",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      8.71,
+      9.72
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Hospitalier Fish",
+    "patch": 3.0,
+    "bait": [
+      "Purse Web Spider"
+    ],
+    "id": 12809,
+    "icon": 29411,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dragonspit",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      8.71,
+      9.72
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
     "name": "Spring Urchin",
     "patch": 3.0,
     "snagging": 1,
@@ -19550,12 +20910,74 @@ gt.bell.fish = [
     "icon": 29804,
     "func": "fish",
     "rarity": 1,
+    "title": "South Banepool",
+    "category": "Freshwater Fishing",
+    "lvl": 53,
+    "coords": [
+      21.78,
+      11.33
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Lake Urchin",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12720,
+    "icon": 29804,
+    "func": "fish",
+    "rarity": 1,
     "title": "Ashpool",
     "category": "Freshwater Fishing",
     "lvl": 52,
     "coords": [
       14.07,
       15.71
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Lake Urchin",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12720,
+    "icon": 29804,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Banepool",
+    "category": "Freshwater Fishing",
+    "lvl": 53,
+    "coords": [
+      13.26,
+      8.84
+    ],
+    "radius": 600,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Ammonite",
+    "patch": 3.0,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12738,
+    "icon": 29811,
+    "func": "fish",
+    "rarity": 1,
+    "title": "South Banepool",
+    "category": "Freshwater Fishing",
+    "lvl": 53,
+    "coords": [
+      21.78,
+      11.33
     ],
     "radius": 300,
     "zone": "Coerthas Western Highlands"
@@ -19619,6 +21041,26 @@ gt.bell.fish = [
       15.71
     ],
     "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Fanged Clam",
+    "patch": 3.0,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12719,
+    "icon": 29806,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Banepool",
+    "category": "Freshwater Fishing",
+    "lvl": 53,
+    "coords": [
+      13.26,
+      8.84
+    ],
+    "radius": 600,
     "zone": "Coerthas Western Highlands"
   },
   {
@@ -19981,6 +21423,28 @@ gt.bell.fish = [
     "zone": "Mor Dhona"
   },
   {
+    "name": "Poxpike",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish",
+      "Goldfish"
+    ],
+    "id": 5024,
+    "icon": 29267,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Rathefrost",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      18.74,
+      17.68
+    ],
+    "radius": 200,
+    "zone": "Mor Dhona"
+  },
+  {
     "name": "Void Bass",
     "patch": 2.4,
     "bait": [
@@ -20057,6 +21521,28 @@ gt.bell.fish = [
       13.31
     ],
     "radius": 400,
+    "zone": "Mor Dhona"
+  },
+  {
+    "name": "Morinabaligi",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish",
+      "Goldfish"
+    ],
+    "id": 5030,
+    "icon": 29287,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The North Shards",
+    "category": "Freshwater Fishing",
+    "lvl": 50,
+    "coords": [
+      30.99,
+      6.21
+    ],
+    "radius": 200,
     "zone": "Mor Dhona"
   },
   {
@@ -20251,6 +21737,126 @@ gt.bell.fish = [
     "zone": "The Dravanian Hinterlands"
   },
   {
+    "name": "Cloudfish",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12731,
+    "icon": 29411,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Voor Sian Siran",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      28.9,
+      34.93
+    ],
+    "radius": 1000,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Cloudfish",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12731,
+    "icon": 29411,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Eddies",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      31.56,
+      39.61
+    ],
+    "radius": 300,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Cloudfish",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12731,
+    "icon": 29411,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Eil Tohm",
+    "category": "Freshwater Fishing",
+    "lvl": 54,
+    "coords": [
+      36.82,
+      30.5
+    ],
+    "radius": 300,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Cloudfish",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12731,
+    "icon": 29411,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Weston Waters",
+    "category": "Freshwater Fishing",
+    "lvl": 54,
+    "coords": [
+      9.18,
+      8.08
+    ],
+    "radius": 500,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Cloudfish",
+    "patch": 3.0,
+    "bait": [
+      "Purse Web Spider"
+    ],
+    "id": 12731,
+    "icon": 29411,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Southern Diadem Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      8.0,
+      30.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
+  },
+  {
+    "name": "Cloudfish",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12731,
+    "icon": 29411,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Northern Diadem Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      10.0,
+      9.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
+  },
+  {
     "name": "Bullfrog",
     "patch": 3.0,
     "bait": [
@@ -20300,6 +21906,26 @@ gt.bell.fish = [
     "icon": 29233,
     "func": "fish",
     "rarity": 1,
+    "title": "Quickspill Delta",
+    "category": "Freshwater Fishing",
+    "lvl": 58,
+    "coords": [
+      11.33,
+      27.55
+    ],
+    "radius": 1200,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Bullfrog",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12730,
+    "icon": 29233,
+    "func": "fish",
+    "rarity": 1,
     "title": "Middle Thaliak River",
     "category": "Freshwater Fishing",
     "lvl": 60,
@@ -20309,6 +21935,66 @@ gt.bell.fish = [
     ],
     "radius": 500,
     "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Bullfrog",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12730,
+    "icon": 29233,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Southern Diadem Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      8.0,
+      30.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
+  },
+  {
+    "name": "Maiboi",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12728,
+    "icon": 29399,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Voor Sian Siran",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      28.9,
+      34.93
+    ],
+    "radius": 1000,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Maiboi",
+    "patch": 3.0,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 12728,
+    "icon": 29399,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Southern Diadem Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      8.0,
+      30.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
   },
   {
     "name": "Bubble Eye",
@@ -20412,6 +22098,106 @@ gt.bell.fish = [
     "zone": "The Sea of Clouds"
   },
   {
+    "name": "Yalm Lobster",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12818,
+    "icon": 29227,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Eddies",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      31.56,
+      39.61
+    ],
+    "radius": 300,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Yalm Lobster",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12818,
+    "icon": 29227,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Delta Quadrant",
+    "category": "Freshwater Fishing",
+    "lvl": 59,
+    "coords": [
+      12.08,
+      31.81
+    ],
+    "radius": 1000,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Yalm Lobster",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12818,
+    "icon": 29227,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Quickspill Delta",
+    "category": "Freshwater Fishing",
+    "lvl": 58,
+    "coords": [
+      11.33,
+      27.55
+    ],
+    "radius": 1200,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Yalm Lobster",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12818,
+    "icon": 29227,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 58,
+    "coords": [
+      22.96,
+      36.36
+    ],
+    "radius": 800,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Yalm Lobster",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12818,
+    "icon": 29227,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Southern Diadem Lake",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      8.0,
+      30.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
+  },
+  {
     "name": "Vanuhead",
     "patch": 3.0,
     "bait": [
@@ -20447,6 +22233,27 @@ gt.bell.fish = [
     ],
     "id": 12829,
     "icon": 29414,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Eddies",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      31.56,
+      39.61
+    ],
+    "radius": 300,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Red Sky Coral",
+    "patch": 3.55,
+    "snagging": 1,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 17564,
+    "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
@@ -20538,6 +22345,249 @@ gt.bell.fish = [
     ],
     "radius": 800,
     "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Buoyant Oviform",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12734,
+    "icon": 29723,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 53,
+    "coords": [
+      15.08,
+      38.59
+    ],
+    "radius": 300,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Buoyant Oviform",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12734,
+    "icon": 29723,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Blue Window",
+    "category": "Cloudfishing",
+    "lvl": 56,
+    "coords": [
+      7.66,
+      11.54
+    ],
+    "radius": 1000,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Buoyant Oviform",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12734,
+    "icon": 29723,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Blustery Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      31.0,
+      11.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
+  },
+  {
+    "name": "Mahu Wai",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12732,
+    "icon": 29713,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 53,
+    "coords": [
+      15.08,
+      38.59
+    ],
+    "radius": 300,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Mahu Wai",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12732,
+    "icon": 29713,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Calm Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      28.0,
+      33.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
+  },
+  {
+    "name": "Mahu Wai",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12732,
+    "icon": 29713,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Blustery Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      31.0,
+      11.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
+  },
+  {
+    "name": "Mitre Slug",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12744,
+    "icon": 29714,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 53,
+    "coords": [
+      15.08,
+      38.59
+    ],
+    "radius": 300,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Mitre Slug",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12744,
+    "icon": 29714,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Calm Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      28.0,
+      33.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
+  },
+  {
+    "name": "Mitre Slug",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12744,
+    "icon": 29714,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Blustery Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      31.0,
+      11.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
+  },
+  {
+    "name": "Blue Cloud Coral",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12736,
+    "icon": 29061,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 53,
+    "coords": [
+      15.08,
+      38.59
+    ],
+    "radius": 300,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Blue Cloud Coral",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12736,
+    "icon": 29061,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Calm Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      28.0,
+      33.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
+  },
+  {
+    "name": "Blue Cloud Coral",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12736,
+    "icon": 29061,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Blustery Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      31.0,
+      11.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
   },
   {
     "name": "Fleece Stingray",
@@ -20714,6 +22764,46 @@ gt.bell.fish = [
     "zone": "The Churning Mists"
   },
   {
+    "name": "Whiteloom",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12735,
+    "icon": 29719,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Blue Window",
+    "category": "Cloudfishing",
+    "lvl": 56,
+    "coords": [
+      7.66,
+      11.54
+    ],
+    "radius": 1000,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Whiteloom",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12735,
+    "icon": 29719,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Calm Cloudtop",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      28.0,
+      33.0
+    ],
+    "radius": 300,
+    "zone": "The Diadem"
+  },
+  {
     "name": "Storm Core",
     "patch": 3.0,
     "bait": [
@@ -20726,6 +22816,86 @@ gt.bell.fish = [
     ],
     "id": 12746,
     "icon": 29718,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Blue Window",
+    "category": "Cloudfishing",
+    "lvl": 56,
+    "coords": [
+      7.66,
+      11.54
+    ],
+    "radius": 1000,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Winged Gurnard",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12822,
+    "icon": 29720,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Blue Window",
+    "category": "Cloudfishing",
+    "lvl": 56,
+    "coords": [
+      7.66,
+      11.54
+    ],
+    "radius": 1000,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Sky Sweeper",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12785,
+    "icon": 29038,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Blue Window",
+    "category": "Cloudfishing",
+    "lvl": 56,
+    "coords": [
+      7.66,
+      11.54
+    ],
+    "radius": 1000,
+    "zone": "The Sea of Clouds"
+  },
+  {
+    "name": "Sky Sweeper",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12785,
+    "icon": 29038,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Habisphere",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      40.2,
+      18.7
+    ],
+    "radius": 300,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Tornado Shark",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12798,
+    "icon": 29011,
     "func": "fish",
     "rarity": 1,
     "title": "The Blue Window",
@@ -21053,6 +23223,46 @@ gt.bell.fish = [
     "zone": "Azys Lla"
   },
   {
+    "name": "Bullwhip",
+    "patch": 3.0,
+    "bait": [
+      "Fiend Worm"
+    ],
+    "id": 12773,
+    "icon": 29757,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Alpha Quadrant",
+    "category": "Aetherfishing",
+    "lvl": 58,
+    "coords": [
+      16.85,
+      12.04
+    ],
+    "radius": 500,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Bullwhip",
+    "patch": 3.0,
+    "bait": [
+      "Fiend Worm"
+    ],
+    "id": 12773,
+    "icon": 29757,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Aetherochemical Spill",
+    "category": "Aetherfishing",
+    "lvl": 59,
+    "coords": [
+      31.13,
+      6.69
+    ],
+    "radius": 300,
+    "zone": "Azys Lla"
+  },
+  {
     "name": "Blood Skipper",
     "patch": 3.0,
     "bait": [
@@ -21099,6 +23309,27 @@ gt.bell.fish = [
     "zone": "Azys Lla"
   },
   {
+    "name": "High Allagan Helmet",
+    "patch": 3.0,
+    "bait": [
+      "Fiend Worm",
+      "Platinum Fish"
+    ],
+    "id": 12775,
+    "icon": 29032,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Alpha Quadrant",
+    "category": "Aetherfishing",
+    "lvl": 58,
+    "coords": [
+      16.85,
+      12.04
+    ],
+    "radius": 500,
+    "zone": "Azys Lla"
+  },
+  {
     "name": "Augmented High Allagan Helmet",
     "patch": 3.3,
     "bait": [
@@ -21120,6 +23351,48 @@ gt.bell.fish = [
     "zone": "Azys Lla"
   },
   {
+    "name": "Aetherochemical Compound #123",
+    "patch": 3.0,
+    "bait": [
+      "Fiend Worm",
+      "Platinum Fish"
+    ],
+    "id": 12788,
+    "icon": 29752,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Aetherochemical Spill",
+    "category": "Aetherfishing",
+    "lvl": 59,
+    "coords": [
+      31.13,
+      6.69
+    ],
+    "radius": 300,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Proto-hropken",
+    "patch": 3.0,
+    "bait": [
+      "Fiend Worm",
+      "Platinum Fish"
+    ],
+    "id": 12801,
+    "icon": 29753,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Aetherochemical Spill",
+    "category": "Aetherfishing",
+    "lvl": 59,
+    "coords": [
+      31.13,
+      6.69
+    ],
+    "radius": 300,
+    "zone": "Azys Lla"
+  },
+  {
     "name": "Aetherochemical Compound #666",
     "patch": 3.4,
     "folklore": 1,
@@ -21138,6 +23411,46 @@ gt.bell.fish = [
     "coords": [
       31.13,
       6.69
+    ],
+    "radius": 300,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Azysfish",
+    "patch": 3.0,
+    "bait": [
+      "Fiend Worm"
+    ],
+    "id": 12778,
+    "icon": 29246,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Hyperstellar Downconverter",
+    "category": "Aetherfishing",
+    "lvl": 60,
+    "coords": [
+      6.9,
+      16.68
+    ],
+    "radius": 200,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Azysfish",
+    "patch": 3.0,
+    "bait": [
+      "Fiend Worm"
+    ],
+    "id": 12778,
+    "icon": 29246,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Flagship",
+    "category": "Aetherfishing",
+    "lvl": 60,
+    "coords": [
+      22.07,
+      22.07
     ],
     "radius": 300,
     "zone": "Azys Lla"
@@ -21188,6 +23501,26 @@ gt.bell.fish = [
       22.07
     ],
     "radius": 300,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Mucous Minnow",
+    "patch": 3.0,
+    "bait": [
+      "Fiend Worm"
+    ],
+    "id": 12807,
+    "icon": 29756,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Hyperstellar Downconverter",
+    "category": "Aetherfishing",
+    "lvl": 60,
+    "coords": [
+      6.9,
+      16.68
+    ],
+    "radius": 200,
     "zone": "Azys Lla"
   },
   {
@@ -21248,6 +23581,66 @@ gt.bell.fish = [
       16.68
     ],
     "radius": 200,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Fountfish",
+    "patch": 3.0,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12791,
+    "icon": 29274,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Delta Quadrant",
+    "category": "Freshwater Fishing",
+    "lvl": 59,
+    "coords": [
+      12.08,
+      31.81
+    ],
+    "radius": 1000,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Fountfish",
+    "patch": 3.0,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12791,
+    "icon": 29274,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Pappus Tree",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      6.77,
+      35.35
+    ],
+    "radius": 300,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Rockclimber",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12811,
+    "icon": 29252,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Delta Quadrant",
+    "category": "Freshwater Fishing",
+    "lvl": 59,
+    "coords": [
+      12.08,
+      31.81
+    ],
+    "radius": 1000,
     "zone": "Azys Lla"
   },
   {
@@ -21344,6 +23737,26 @@ gt.bell.fish = [
       31.81
     ],
     "radius": 1000,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Crystalfin",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12779,
+    "icon": 29256,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Pappus Tree",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      6.77,
+      35.35
+    ],
+    "radius": 300,
     "zone": "Azys Lla"
   },
   {
@@ -21481,6 +23894,46 @@ gt.bell.fish = [
     "zone": "The Churning Mists"
   },
   {
+    "name": "Unidentified Flying Biomass",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12808,
+    "icon": 29031,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Habisphere",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      40.2,
+      18.7
+    ],
+    "radius": 300,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Bomb Puffer",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12806,
+    "icon": 29046,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Habisphere",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      40.2,
+      18.7
+    ],
+    "radius": 300,
+    "zone": "Azys Lla"
+  },
+  {
     "name": "Tupuxuara",
     "patch": 3.0,
     "bait": [
@@ -21526,6 +23979,46 @@ gt.bell.fish = [
     "radius": 300,
     "zone": "Azys Lla",
     "scrip": "Yellow Gatherers' Scrip"
+  },
+  {
+    "name": "Cobrafish",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12813,
+    "icon": 29710,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Habisphere",
+    "category": "Cloudfishing",
+    "lvl": 60,
+    "coords": [
+      40.2,
+      18.7
+    ],
+    "radius": 300,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Cobrafish",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12813,
+    "icon": 29710,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Tharl Oom Khash",
+    "category": "Cloudfishing",
+    "lvl": 55,
+    "coords": [
+      20.26,
+      6.39
+    ],
+    "radius": 400,
+    "zone": "The Churning Mists"
   },
   {
     "name": "Crystal Pigeon",
@@ -21918,6 +24411,26 @@ gt.bell.fish = [
     "zone": "The Dravanian Forelands"
   },
   {
+    "name": "Blueclaw Shrimp",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12722,
+    "icon": 29404,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Quickspill Delta",
+    "category": "Freshwater Fishing",
+    "lvl": 58,
+    "coords": [
+      11.33,
+      27.55
+    ],
+    "radius": 1200,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
     "name": "Grass Carp",
     "patch": 3.0,
     "bait": [
@@ -22072,6 +24585,46 @@ gt.bell.fish = [
     "zone": "The Dravanian Forelands"
   },
   {
+    "name": "Three-lip Carp",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12729,
+    "icon": 29409,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Whilom River",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      30.63,
+      14.82
+    ],
+    "radius": 600,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Three-lip Carp",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12729,
+    "icon": 29409,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Smoldering Wastes",
+    "category": "Freshwater Fishing",
+    "lvl": 52,
+    "coords": [
+      25.28,
+      25.82
+    ],
+    "radius": 600,
+    "zone": "The Dravanian Forelands"
+  },
+  {
     "name": "Dravanian Bass",
     "patch": 3.0,
     "bait": [
@@ -22209,6 +24762,26 @@ gt.bell.fish = [
     "zone": "The Dravanian Forelands"
   },
   {
+    "name": "Dragonhead",
+    "patch": 3.0,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12764,
+    "icon": 29288,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Iron Feast",
+    "category": "Freshwater Fishing",
+    "lvl": 55,
+    "coords": [
+      31.62,
+      6.06
+    ],
+    "radius": 900,
+    "zone": "The Dravanian Forelands"
+  },
+  {
     "name": "Thunderbolt Eel",
     "patch": 3.0,
     "bait": [
@@ -22339,6 +24912,26 @@ gt.bell.fish = [
     "zone": "The Dravanian Forelands"
   },
   {
+    "name": "Lava Crab",
+    "patch": 3.0,
+    "bait": [
+      "Magma Worm"
+    ],
+    "id": 12745,
+    "icon": 29860,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Anyx Old",
+    "category": "Hellfishing",
+    "lvl": 57,
+    "coords": [
+      19.46,
+      10.82
+    ],
+    "radius": 200,
+    "zone": "The Dravanian Forelands"
+  },
+  {
     "name": "Granite Crab",
     "patch": 3.0,
     "bait": [
@@ -22357,6 +24950,26 @@ gt.bell.fish = [
       13.39
     ],
     "radius": 600,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Granite Crab",
+    "patch": 3.0,
+    "bait": [
+      "Magma Worm"
+    ],
+    "id": 12754,
+    "icon": 29854,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Mourn",
+    "category": "Hellfishing",
+    "lvl": 56,
+    "coords": [
+      9.64,
+      7.53
+    ],
+    "radius": 300,
     "zone": "The Dravanian Forelands"
   },
   {
@@ -22421,6 +25034,48 @@ gt.bell.fish = [
     "zone": "The Dravanian Forelands"
   },
   {
+    "name": "Cindersmith",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Magma Worm"
+    ],
+    "id": 12772,
+    "icon": 29857,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Mourn",
+    "category": "Hellfishing",
+    "lvl": 56,
+    "coords": [
+      9.64,
+      7.53
+    ],
+    "radius": 300,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Cindersmith",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Magma Worm"
+    ],
+    "id": 12772,
+    "icon": 29857,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Anyx Old",
+    "category": "Hellfishing",
+    "lvl": 57,
+    "coords": [
+      19.46,
+      10.82
+    ],
+    "radius": 200,
+    "zone": "The Dravanian Forelands"
+  },
+  {
     "name": "Cometoise",
     "patch": 3.0,
     "bait": [
@@ -22440,6 +25095,48 @@ gt.bell.fish = [
       13.39
     ],
     "radius": 600,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Cometoise",
+    "patch": 3.0,
+    "bait": [
+      "Magma Worm",
+      "Granite Crab"
+    ],
+    "id": 12787,
+    "icon": 29855,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Anyx Old",
+    "category": "Hellfishing",
+    "lvl": 57,
+    "coords": [
+      19.46,
+      10.82
+    ],
+    "radius": 200,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Cometoise",
+    "patch": 3.0,
+    "bait": [
+      "Magma Worm",
+      "Granite Crab"
+    ],
+    "id": 12787,
+    "icon": 29855,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Halo",
+    "category": "Hellfishing",
+    "lvl": 60,
+    "coords": [
+      7.66,
+      5.43
+    ],
+    "radius": 200,
     "zone": "The Dravanian Forelands"
   },
   {
@@ -22484,6 +25181,109 @@ gt.bell.fish = [
       13.39
     ],
     "radius": 600,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Aithon's Colt",
+    "patch": 3.0,
+    "bait": [
+      "Magma Worm"
+    ],
+    "id": 12755,
+    "icon": 29858,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Mourn",
+    "category": "Hellfishing",
+    "lvl": 56,
+    "coords": [
+      9.64,
+      7.53
+    ],
+    "radius": 300,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Aithon's Colt",
+    "patch": 3.0,
+    "bait": [
+      "Magma Worm"
+    ],
+    "id": 12755,
+    "icon": 29858,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Anyx Old",
+    "category": "Hellfishing",
+    "lvl": 57,
+    "coords": [
+      19.46,
+      10.82
+    ],
+    "radius": 200,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Magma Tree",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Magma Worm"
+    ],
+    "id": 12759,
+    "icon": 29060,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Mourn",
+    "category": "Hellfishing",
+    "lvl": 56,
+    "coords": [
+      9.64,
+      7.53
+    ],
+    "radius": 300,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Magma Tree",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Magma Worm"
+    ],
+    "id": 12759,
+    "icon": 29060,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Halo",
+    "category": "Hellfishing",
+    "lvl": 60,
+    "coords": [
+      7.66,
+      5.43
+    ],
+    "radius": 200,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Black Magefish",
+    "patch": 3.0,
+    "bait": [
+      "Magma Worm",
+      "Granite Crab"
+    ],
+    "id": 12826,
+    "icon": 29851,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Mourn",
+    "category": "Hellfishing",
+    "lvl": 56,
+    "coords": [
+      9.64,
+      7.53
+    ],
+    "radius": 300,
     "zone": "The Dravanian Forelands"
   },
   {
@@ -22626,6 +25426,28 @@ gt.bell.fish = [
     "zone": "The Dravanian Forelands"
   },
   {
+    "name": "Lava Snail",
+    "patch": 3.2,
+    "snagging": 1,
+    "folklore": 1,
+    "bait": [
+      "Magma Worm"
+    ],
+    "id": 14215,
+    "icon": 29423,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Halo",
+    "category": "Hellfishing",
+    "lvl": 60,
+    "coords": [
+      7.66,
+      5.43
+    ],
+    "radius": 200,
+    "zone": "The Dravanian Forelands"
+  },
+  {
     "name": "The Lord of Lords",
     "patch": 3.5,
     "folklore": 1,
@@ -22731,6 +25553,26 @@ gt.bell.fish = [
     "name": "Sweetfish",
     "patch": 3.0,
     "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12780,
+    "icon": 29395,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 58,
+    "coords": [
+      22.96,
+      36.36
+    ],
+    "radius": 800,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Sweetfish",
+    "patch": 3.0,
+    "bait": [
       "Goblin Jig"
     ],
     "id": 12780,
@@ -22745,6 +25587,106 @@ gt.bell.fish = [
       25.02
     ],
     "radius": 500,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Philosopher's Stone",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12790,
+    "icon": 29419,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 57,
+    "coords": [
+      23.17,
+      23.55
+    ],
+    "radius": 400,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Philosopher's Stone",
+    "patch": 3.0,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12790,
+    "icon": 29419,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Middle Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      20.62,
+      25.02
+    ],
+    "radius": 500,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Shipworm",
+    "patch": 3.0,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12756,
+    "icon": 29805,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 57,
+    "coords": [
+      23.17,
+      23.55
+    ],
+    "radius": 400,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Shipworm",
+    "patch": 3.0,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12756,
+    "icon": 29805,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 58,
+    "coords": [
+      22.96,
+      36.36
+    ],
+    "radius": 800,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Autumn Leaf",
+    "patch": 3.0,
+    "bait": [
+      "Purse Web Spider"
+    ],
+    "id": 12783,
+    "icon": 29417,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 57,
+    "coords": [
+      23.17,
+      23.55
+    ],
+    "radius": 400,
     "zone": "The Dravanian Hinterlands"
   },
   {
@@ -22770,6 +25712,26 @@ gt.bell.fish = [
     "scrip": "Yellow Gatherers' Scrip"
   },
   {
+    "name": "Hinterlands Perch",
+    "patch": 3.0,
+    "bait": [
+      "Bladed Steel Jig"
+    ],
+    "id": 12819,
+    "icon": 29304,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 57,
+    "coords": [
+      23.17,
+      23.55
+    ],
+    "radius": 400,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
     "name": "The Ewer King",
     "patch": 3.3,
     "bait": [
@@ -22788,6 +25750,46 @@ gt.bell.fish = [
       23.55
     ],
     "radius": 400,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Orn Butterfly",
+    "patch": 3.0,
+    "bait": [
+      "Brute Leech"
+    ],
+    "id": 12781,
+    "icon": 29401,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Quickspill Delta",
+    "category": "Freshwater Fishing",
+    "lvl": 58,
+    "coords": [
+      11.33,
+      27.55
+    ],
+    "radius": 1200,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Tigerfish",
+    "patch": 3.0,
+    "bait": [
+      "Brute Leech"
+    ],
+    "id": 12752,
+    "icon": 29412,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Quickspill Delta",
+    "category": "Freshwater Fishing",
+    "lvl": 58,
+    "coords": [
+      11.33,
+      27.55
+    ],
+    "radius": 1200,
     "zone": "The Dravanian Hinterlands"
   },
   {
@@ -22841,6 +25843,46 @@ gt.bell.fish = [
     "zone": "The Dravanian Hinterlands"
   },
   {
+    "name": "Scholar Sculpin",
+    "patch": 3.0,
+    "bait": [
+      "Purse Web Spider"
+    ],
+    "id": 12747,
+    "icon": 29299,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 58,
+    "coords": [
+      22.96,
+      36.36
+    ],
+    "radius": 800,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Scholar Sculpin",
+    "patch": 3.0,
+    "bait": [
+      "Purse Web Spider"
+    ],
+    "id": 12747,
+    "icon": 29299,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Middle Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      20.62,
+      25.02
+    ],
+    "radius": 500,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
     "name": "Loosetongue",
     "patch": 3.0,
     "folklore": 1,
@@ -22879,6 +25921,26 @@ gt.bell.fish = [
     ],
     "id": 14220,
     "icon": 29422,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 58,
+    "coords": [
+      22.96,
+      36.36
+    ],
+    "radius": 800,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Thavnairian Leaf",
+    "patch": 3.55,
+    "bait": [
+      "Stonefly Nymph"
+    ],
+    "id": 17562,
+    "icon": 29275,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Thaliak River",
@@ -23163,6 +26225,26 @@ gt.bell.fish = [
     "zone": "The Churning Mists"
   },
   {
+    "name": "Mogpom",
+    "patch": 3.0,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12758,
+    "icon": 29406,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Greensward",
+    "category": "Freshwater Fishing",
+    "lvl": 54,
+    "coords": [
+      8.75,
+      34.38
+    ],
+    "radius": 600,
+    "zone": "The Churning Mists"
+  },
+  {
     "name": "Moggle Mogpom",
     "patch": 3.4,
     "folklore": 1,
@@ -23244,6 +26326,26 @@ gt.bell.fish = [
     "scrip": "Yellow Gatherers' Scrip"
   },
   {
+    "name": "Hundred Fin",
+    "patch": 3.0,
+    "bait": [
+      "Goblin Jig"
+    ],
+    "id": 12782,
+    "icon": 29416,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Weston Waters",
+    "category": "Freshwater Fishing",
+    "lvl": 54,
+    "coords": [
+      9.18,
+      8.08
+    ],
+    "radius": 500,
+    "zone": "The Churning Mists"
+  },
+  {
     "name": "Lovers' Clam",
     "patch": 3.55,
     "bait": [
@@ -23289,6 +26391,168 @@ gt.bell.fish = [
       8.08
     ],
     "radius": 500,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Gloaming Coral",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12795,
+    "icon": 29060,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Landlord Colony",
+    "category": "Cloudfishing",
+    "lvl": 54,
+    "coords": [
+      29.7,
+      25.36
+    ],
+    "radius": 1200,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Gloaming Coral",
+    "patch": 3.0,
+    "snagging": 1,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12795,
+    "icon": 29060,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sohm Al Summit",
+    "category": "Cloudfishing",
+    "lvl": 55,
+    "coords": [
+      18.45,
+      40.36
+    ],
+    "radius": 1000,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Cloud Rider",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12760,
+    "icon": 29655,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Landlord Colony",
+    "category": "Cloudfishing",
+    "lvl": 54,
+    "coords": [
+      29.7,
+      25.36
+    ],
+    "radius": 1200,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Cloud Rider",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12760,
+    "icon": 29655,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sohm Al Summit",
+    "category": "Cloudfishing",
+    "lvl": 55,
+    "coords": [
+      18.45,
+      40.36
+    ],
+    "radius": 1000,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Cloud Rider",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12760,
+    "icon": 29655,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Tharl Oom Khash",
+    "category": "Cloudfishing",
+    "lvl": 55,
+    "coords": [
+      20.26,
+      6.39
+    ],
+    "radius": 400,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Blue Medusa",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12771,
+    "icon": 29711,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Landlord Colony",
+    "category": "Cloudfishing",
+    "lvl": 54,
+    "coords": [
+      29.7,
+      25.36
+    ],
+    "radius": 1200,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Letter Puffer",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12793,
+    "icon": 29007,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Landlord Colony",
+    "category": "Cloudfishing",
+    "lvl": 54,
+    "coords": [
+      29.7,
+      25.36
+    ],
+    "radius": 1200,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Dragon's Soul",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12797,
+    "icon": 29053,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Landlord Colony",
+    "category": "Cloudfishing",
+    "lvl": 54,
+    "coords": [
+      29.7,
+      25.36
+    ],
+    "radius": 1200,
     "zone": "The Churning Mists"
   },
   {
@@ -23347,6 +26611,46 @@ gt.bell.fish = [
       25.36
     ],
     "radius": 1200,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Gobbie Mask",
+    "patch": 3.0,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 12770,
+    "icon": 29708,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sohm Al Summit",
+    "category": "Cloudfishing",
+    "lvl": 55,
+    "coords": [
+      18.45,
+      40.36
+    ],
+    "radius": 1000,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Star Faerie",
+    "patch": 3.0,
+    "bait": [
+      "Red Balloon"
+    ],
+    "id": 12794,
+    "icon": 29803,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Sohm Al Summit",
+    "category": "Cloudfishing",
+    "lvl": 55,
+    "coords": [
+      18.45,
+      40.36
+    ],
+    "radius": 1000,
     "zone": "The Churning Mists"
   },
   {
@@ -23462,6 +26766,27 @@ gt.bell.fish = [
     ],
     "id": 12835,
     "icon": 29712,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Tharl Oom Khash",
+    "category": "Cloudfishing",
+    "lvl": 55,
+    "coords": [
+      20.26,
+      6.39
+    ],
+    "radius": 400,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Nyctosaur",
+    "patch": 3.2,
+    "folklore": 1,
+    "bait": [
+      "Giant Crane Fly"
+    ],
+    "id": 14214,
+    "icon": 29729,
     "func": "fish",
     "rarity": 1,
     "title": "Tharl Oom Khash",
@@ -24226,6 +27551,26 @@ gt.bell.fish = [
     "zone": "Rhalgr's Reach"
   },
   {
+    "name": "Comet Minnow",
+    "patch": 4.0,
+    "bait": [
+      "Suspending Minnow"
+    ],
+    "id": 20026,
+    "icon": 29453,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Outer Fist",
+    "category": "Freshwater Fishing",
+    "lvl": 62,
+    "coords": [
+      12.16,
+      5.9
+    ],
+    "radius": 300,
+    "zone": "Rhalgr's Reach"
+  },
+  {
     "name": "Balloon Frog",
     "patch": 4.0,
     "bait": [
@@ -24264,6 +27609,46 @@ gt.bell.fish = [
     ],
     "radius": 400,
     "zone": "The Fringes"
+  },
+  {
+    "name": "Lantern Marimo",
+    "patch": 4.0,
+    "bait": [
+      "Suspending Minnow"
+    ],
+    "id": 20065,
+    "icon": 29316,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Outer Fist",
+    "category": "Freshwater Fishing",
+    "lvl": 62,
+    "coords": [
+      12.16,
+      5.9
+    ],
+    "radius": 300,
+    "zone": "Rhalgr's Reach"
+  },
+  {
+    "name": "Gilfish",
+    "patch": 4.0,
+    "bait": [
+      "Nightcrawler"
+    ],
+    "id": 20063,
+    "icon": 29312,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Outer Fist",
+    "category": "Freshwater Fishing",
+    "lvl": 62,
+    "coords": [
+      12.16,
+      5.9
+    ],
+    "radius": 300,
+    "zone": "Rhalgr's Reach"
   },
   {
     "name": "Redtail",
@@ -24319,6 +27704,26 @@ gt.bell.fish = [
     ],
     "radius": 300,
     "zone": "Rhalgr's Reach"
+  },
+  {
+    "name": "Steelhead Trout",
+    "patch": 4.0,
+    "bait": [
+      "Suspending Minnow"
+    ],
+    "id": 20049,
+    "icon": 29497,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Timmon Beck",
+    "category": "Freshwater Fishing",
+    "lvl": 61,
+    "coords": [
+      11.51,
+      18.22
+    ],
+    "radius": 400,
+    "zone": "The Fringes"
   },
   {
     "name": "Death Loach",
