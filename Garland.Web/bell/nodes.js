@@ -332,7 +332,7 @@
       },
       {
         "item": "Coblyn Larva",
-        "icon": 28533,
+        "icon": "t/59433",
         "id": 6199,
         "slot": "7"
       },
@@ -1273,7 +1273,7 @@
       },
       {
         "item": "Kidragora",
-        "icon": 28542,
+        "icon": "t/59442",
         "id": 6209,
         "slot": "7"
       },
@@ -5128,5 +5128,185 @@
     "lvl": 80,
     "id": 626,
     "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Fireheart Cobalt",
+        "icon": 21226,
+        "id": 29968,
+        "slot": "6"
+      }
+    ],
+    "stars": 2,
+    "time": [
+      2,
+      14
+    ],
+    "title": "The Isle of Ken",
+    "zone": "Lakeland",
+    "coords": [
+      4.7,
+      33.8
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 681,
+    "condition": "Perception < 2140",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.2
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Purpure Shell Chip",
+        "icon": 21469,
+        "id": 29970,
+        "slot": "1"
+      }
+    ],
+    "stars": 2,
+    "time": [
+      6,
+      18
+    ],
+    "title": "Purpure",
+    "zone": "The Tempest",
+    "coords": [
+      34.4,
+      31.3
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 682,
+    "condition": "Perception < 2140",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.2
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Merbau Log",
+        "icon": "t/22423",
+        "id": 29972,
+        "slot": "6"
+      }
+    ],
+    "stars": 2,
+    "time": [
+      8,
+      20
+    ],
+    "title": "Anden's Airs",
+    "zone": "Il Mheg",
+    "coords": [
+      36.5,
+      27.4
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 683,
+    "condition": "Perception < 2140",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.2
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Imperial Fern",
+        "icon": 25038,
+        "id": 29978,
+        "slot": "3"
+      }
+    ],
+    "stars": 2,
+    "time": [
+      0,
+      12
+    ],
+    "title": "White Oil Falls",
+    "zone": "Kholusia",
+    "coords": [
+      28.0,
+      21.0
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 684,
+    "condition": "Perception < 2140",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.2
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Duskblooms",
+        "icon": 25022,
+        "id": 29974,
+        "slot": "4"
+      }
+    ],
+    "stars": 2,
+    "time": [
+      4,
+      16
+    ],
+    "title": "The Nabaath Severance",
+    "zone": "Amh Araeng",
+    "coords": [
+      32.2,
+      33.4
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 714,
+    "condition": "Perception < 2140",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.2
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Ashen Alumen",
+        "icon": 22604,
+        "id": 29976,
+        "slot": "2"
+      }
+    ],
+    "stars": 2,
+    "time": [
+      10,
+      22
+    ],
+    "title": "Mount Biran Mines",
+    "zone": "Amh Araeng",
+    "coords": [
+      20.1,
+      8.6
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 713,
+    "condition": "Perception < 2140",
+    "bonus": " Gathering Fortune 0%",
+    "patch": 5.2
   }
 ];

@@ -308,7 +308,8 @@ namespace Garland.Data.Modules
                         iconIndex++;
                     }
 
-                    var column = "FacialFeatureIcon[" + iconIndex + "]";
+                    var column = "FacialFeatureOption[" + iconIndex + "]";
+
                     var icon = (ImageFile)type[column];
                     if (icon == null)
                         continue; // Nothing to show.

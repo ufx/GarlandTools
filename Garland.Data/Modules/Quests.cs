@@ -50,7 +50,7 @@ namespace Garland.Data.Modules
                 quest.sort = sQuest.SortKey;
 
                 // Quest location
-                var questIssuer = sQuest.IssuingENpc;
+                var questIssuer = (sQuest.IssuingENpc?.Locations?.Count() ?? 0) > 0 ? sQuest.IssuingENpc : null;
                 var sPlaceName = sQuest.PlaceName;
                 if (sPlaceName.Name == "" && questIssuer != null)
                     sPlaceName = questIssuer.Locations.First().PlaceName;

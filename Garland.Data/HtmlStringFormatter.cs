@@ -67,11 +67,14 @@ namespace Garland.Data
                         var genericElementArgs = genericElement.Arguments.ToArray();
                         var sheetName = genericElementArgs[0].Accept(this);
                         var sheetKeyRaw = genericElementArgs[1].Accept(this);
-                        var sheetKey = int.Parse(sheetKeyRaw.Trim());
-                        var sheet = DatabaseBuilder.Instance.Realm.GameData.GetSheet(sheetName);
-                        var row = sheet[sheetKey];
-                        var rowIndex = int.Parse(genericElementArgs[2].Accept(this).Trim());
-                        return row[rowIndex].ToString();
+                        if (int.TryParse(sheetKeyRaw.Trim(), out var sheetKey))
+                        {
+                            var sheet = DatabaseBuilder.Instance.Realm.GameData.GetSheet(sheetName);
+                            var row = sheet[sheetKey];
+                            var rowIndex = int.Parse(genericElementArgs[2].Accept(this).Trim());
+                            return row[rowIndex].ToString();
+                        }
+                        return "[???]";
                     }
                     else
                         throw new NotImplementedException();

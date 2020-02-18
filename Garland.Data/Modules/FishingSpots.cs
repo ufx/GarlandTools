@@ -573,10 +573,13 @@ namespace Garland.Data.Modules
         {
             foreach (var sFishingSpot in _builder.Sheet<Saint.FishingSpot>())
             {
-                if (sFishingSpot.Key <= 1 || sFishingSpot.GatheringLevel == 0)
+                if (sFishingSpot.Key <= 1 || sFishingSpot.GatheringLevel == 0 || sFishingSpot.PlaceName == null)
                     continue; // Skip
 
                 if (_hackExcludedFishingSpots.Contains(sFishingSpot.Key))
+                    continue;
+
+                if (sFishingSpot.PlaceName.Name.ToString().Length == 0)
                     continue;
 
                 var name = Utils.Capitalize(sFishingSpot.PlaceName.Name.ToString());
