@@ -101,7 +101,7 @@ namespace Garland.Data
                 new Mobs(),
                 new Quests(),
                 new Talk(),
-                //new FishingSpots(),
+                new FishingSpots(),
                 new Leves(),
                 new Achievements(),
                 new Fates(),

@@ -592,7 +592,8 @@ namespace Garland.Data.Modules
                 spot.lvl = sFishingSpot.GatheringLevel;
                 spot.radius = sFishingSpot.Radius;
 
-                if (sFishingSpot.TerritoryType != null)
+                // Skipping ocean fishing for now
+                if (sFishingSpot.TerritoryType != null && sFishingSpot.TerritoryType.Map.Key != 604)
                 {
                     var locationInfo = _builder.LocationInfoByMapId[sFishingSpot.TerritoryType.Map.Key];
                     spot.x = Math.Round(sFishingSpot.MapX, 2);
