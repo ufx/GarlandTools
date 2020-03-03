@@ -9,10 +9,21 @@
     "id": 2587,
     "icon": 27005
   },
+  "Floating Minnow": {
+    "name": "Floating Minnow",
+    "id": 2611,
+    "icon": 27051
+  },
   "Merlthor Goby": {
     "name": "Merlthor Goby",
     "id": 4869,
     "icon": 29003,
+    "mooch": 1
+  },
+  "Ocean Cloud": {
+    "name": "Ocean Cloud",
+    "id": 4872,
+    "icon": 29005,
     "mooch": 1
   },
   "Harbor Herring": {
@@ -21,10 +32,20 @@
     "icon": 29044,
     "mooch": 1
   },
+  "Goby Ball": {
+    "name": "Goby Ball",
+    "id": 2589,
+    "icon": 27009
+  },
   "Rat Tail": {
     "name": "Rat Tail",
     "id": 2591,
     "icon": 27001
+  },
+  "Steel Jig": {
+    "name": "Steel Jig",
+    "id": 2616,
+    "icon": 27067
   },
   "Moth Pupa": {
     "name": "Moth Pupa",
@@ -40,11 +61,6 @@
     "name": "Sinking Minnow",
     "id": 2617,
     "icon": 27055
-  },
-  "Goby Ball": {
-    "name": "Goby Ball",
-    "id": 2589,
-    "icon": 27009
   },
   "Wildfowl Fly": {
     "name": "Wildfowl Fly",
@@ -173,17 +189,6 @@
     "icon": 29311,
     "mooch": 1
   },
-  "Steel Jig": {
-    "name": "Steel Jig",
-    "id": 2616,
-    "icon": 27067
-  },
-  "Ocean Cloud": {
-    "name": "Ocean Cloud",
-    "id": 4872,
-    "icon": 29005,
-    "mooch": 1
-  },
   "Krill Cage Feeder": {
     "name": "Krill Cage Feeder",
     "id": 2621,
@@ -200,11 +205,6 @@
     "id": 4995,
     "icon": 29250,
     "mooch": 1
-  },
-  "Floating Minnow": {
-    "name": "Floating Minnow",
-    "id": 2611,
-    "icon": 27051
   },
   "Streamer": {
     "name": "Streamer",
@@ -1786,7 +1786,7 @@ gt.bell.fish = [
     "name": "Coral Butterfly",
     "patch": 1.0,
     "bait": [
-      "Pill Bug"
+      "Floating Minnow"
     ],
     "hookset": "Powerful Hookset",
     "id": 4876,
@@ -1807,7 +1807,7 @@ gt.bell.fish = [
     "name": "Coral Butterfly",
     "patch": 1.0,
     "bait": [
-      "Pill Bug"
+      "Floating Minnow"
     ],
     "hookset": "Powerful Hookset",
     "id": 4876,
@@ -1871,8 +1871,8 @@ gt.bell.fish = [
     "name": "Blue Octopus",
     "patch": 1.0,
     "bait": [
-      "Lugworm",
-      "Merlthor Goby"
+      "Pill Bug",
+      "Ocean Cloud"
     ],
     "hookset": "Powerful Hookset",
     "id": 4885,
@@ -2164,7 +2164,7 @@ gt.bell.fish = [
     "name": "Sea Cucumber",
     "patch": 1.0,
     "bait": [
-      "Rat Tail"
+      "Goby Ball"
     ],
     "id": 4873,
     "icon": 29028,
@@ -2244,7 +2244,7 @@ gt.bell.fish = [
     "name": "Angelfish",
     "patch": 1.0,
     "bait": [
-      "Rat Tail"
+      "Steel Jig"
     ],
     "hookset": "Powerful Hookset",
     "id": 4883,
@@ -2292,7 +2292,7 @@ gt.bell.fish = [
       "start": 9,
       "end": 14
     },
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7678,
     "icon": 29069,
     "func": "fish",
@@ -2845,7 +2845,7 @@ gt.bell.fish = [
       "start": 9,
       "end": 14
     },
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7679,
     "icon": 29324,
     "func": "fish",
@@ -3066,7 +3066,7 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7688,
     "icon": 29325,
     "func": "fish",
@@ -4892,7 +4892,7 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7681,
     "icon": 29326,
     "func": "fish",
@@ -5832,7 +5832,7 @@ gt.bell.fish = [
       "start": 21,
       "end": 3
     },
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7712,
     "icon": 29075,
     "func": "fish",
@@ -7453,7 +7453,7 @@ gt.bell.fish = [
       "start": 17,
       "end": 19
     },
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7902,
     "icon": 29373,
     "func": "fish",
@@ -8508,6 +8508,7 @@ gt.bell.fish = [
       "Harbor Herring",
       "Ogre Barracuda"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4920,
     "icon": 29023,
     "func": "fish",
@@ -9579,6 +9580,7 @@ gt.bell.fish = [
     "bait": [
       "Spinnerbait"
     ],
+    "hookset": "Precision Hookset",
     "id": 4998,
     "icon": 29276,
     "func": "fish",
@@ -9603,7 +9605,7 @@ gt.bell.fish = [
       "start": 17,
       "end": 20
     },
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7925,
     "icon": 29365,
     "func": "fish",
@@ -11294,6 +11296,7 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 5003,
     "icon": 29295,
     "func": "fish",
@@ -11314,6 +11317,7 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 5003,
     "icon": 29295,
     "func": "fish",
@@ -11334,6 +11338,7 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 5003,
     "icon": 29295,
     "func": "fish",
@@ -11354,6 +11359,7 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 5003,
     "icon": 29295,
     "func": "fish",
@@ -11374,6 +11380,7 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 5003,
     "icon": 29295,
     "func": "fish",
@@ -11447,7 +11454,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7940,
     "icon": 29371,
     "func": "fish",
@@ -11590,6 +11597,7 @@ gt.bell.fish = [
     "bait": [
       "Glowworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4993,
     "icon": 29278,
     "func": "fish",
@@ -11980,6 +11988,7 @@ gt.bell.fish = [
       "Merlthor Goby",
       "Wahoo"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4912,
     "icon": 29037,
     "func": "fish",
@@ -12235,6 +12244,7 @@ gt.bell.fish = [
       "Clouds",
       "Wind"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7941,
     "icon": 29084,
     "func": "fish",
@@ -14396,6 +14406,7 @@ gt.bell.fish = [
       "start": 4,
       "end": 9
     },
+    "hookset": "Powerful Hookset",
     "id": 5016,
     "icon": 29222,
     "func": "fish",
@@ -14764,7 +14775,7 @@ gt.bell.fish = [
       "Fog",
       "Clouds"
     ],
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7701,
     "icon": 29333,
     "func": "fish",
@@ -15510,6 +15521,7 @@ gt.bell.fish = [
       "start": 18,
       "end": 23
     },
+    "hookset": "Powerful Hookset",
     "id": 7920,
     "icon": 29353,
     "func": "fish",
@@ -15531,6 +15543,7 @@ gt.bell.fish = [
       "Midge Basket",
       "Ala Mhigan Fighting Fish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4964,
     "icon": 29213,
     "func": "fish",
@@ -15552,6 +15565,7 @@ gt.bell.fish = [
       "Midge Basket",
       "Ala Mhigan Fighting Fish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4964,
     "icon": 29213,
     "func": "fish",
@@ -15822,6 +15836,7 @@ gt.bell.fish = [
       "start": 18,
       "end": 21
     },
+    "hookset": "Powerful Hookset",
     "id": 7934,
     "icon": 29354,
     "func": "fish",
@@ -15846,6 +15861,7 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7935,
     "icon": 29344,
     "func": "fish",
@@ -16126,6 +16142,7 @@ gt.bell.fish = [
       "start": 18,
       "end": 2
     },
+    "hookset": "Powerful Hookset",
     "id": 7683,
     "icon": 29323,
     "func": "fish",
@@ -16150,6 +16167,7 @@ gt.bell.fish = [
       "start": 21,
       "end": 23
     },
+    "hookset": "Powerful Hookset",
     "id": 7907,
     "icon": 29347,
     "func": "fish",
@@ -16354,6 +16372,7 @@ gt.bell.fish = [
     "weather": [
       "Rain"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7912,
     "icon": 29360,
     "func": "fish",
@@ -16504,6 +16523,7 @@ gt.bell.fish = [
       "start": 17,
       "end": 10
     },
+    "hookset": "Powerful Hookset",
     "id": 4994,
     "icon": 29263,
     "func": "fish",
@@ -16528,6 +16548,7 @@ gt.bell.fish = [
       "start": 17,
       "end": 10
     },
+    "hookset": "Powerful Hookset",
     "id": 4994,
     "icon": 29263,
     "func": "fish",
@@ -16548,6 +16569,7 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4996,
     "icon": 29221,
     "func": "fish",
@@ -16568,6 +16590,7 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4996,
     "icon": 29221,
     "func": "fish",
@@ -16588,6 +16611,7 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4996,
     "icon": 29221,
     "func": "fish",
@@ -16608,6 +16632,7 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4996,
     "icon": 29221,
     "func": "fish",
@@ -16662,6 +16687,7 @@ gt.bell.fish = [
       "Rain",
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8773,
     "icon": 29387,
     "func": "fish",
@@ -16686,6 +16712,7 @@ gt.bell.fish = [
       "start": 18,
       "end": 19
     },
+    "hookset": "Powerful Hookset",
     "id": 7908,
     "icon": 29342,
     "func": "fish",
@@ -16714,6 +16741,7 @@ gt.bell.fish = [
       "Fog",
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7913,
     "icon": 29352,
     "func": "fish",
@@ -16734,6 +16762,7 @@ gt.bell.fish = [
     "bait": [
       "Syrphid Basket"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7914,
     "icon": 29343,
     "func": "fish",
@@ -16794,6 +16823,7 @@ gt.bell.fish = [
     "bait": [
       "Freshwater Boilie"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4980,
     "icon": 29236,
     "func": "fish",
@@ -16814,6 +16844,7 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4980,
     "icon": 29236,
     "func": "fish",
@@ -16842,6 +16873,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7921,
     "icon": 29341,
     "func": "fish",
@@ -16863,6 +16895,7 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5000,
     "icon": 29260,
     "func": "fish",
@@ -16888,6 +16921,7 @@ gt.bell.fish = [
       "Thunder",
       "Thunderstorms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7922,
     "icon": 29357,
     "func": "fish",
@@ -16908,6 +16942,7 @@ gt.bell.fish = [
     "bait": [
       "Syrphid Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4972,
     "icon": 29306,
     "func": "fish",
@@ -16932,6 +16967,7 @@ gt.bell.fish = [
       "Thunder",
       "Thunderstorms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5023,
     "icon": 29302,
     "func": "fish",
@@ -16955,6 +16991,7 @@ gt.bell.fish = [
     "weather": [
       "Thunderstorms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7936,
     "icon": 29367,
     "func": "fish",
@@ -17035,6 +17072,7 @@ gt.bell.fish = [
     "bait": [
       "Streamer"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5028,
     "icon": 29226,
     "func": "fish",
@@ -17059,6 +17097,7 @@ gt.bell.fish = [
       "Thunder",
       "Thunderstorms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8774,
     "icon": 29382,
     "func": "fish",
@@ -17094,6 +17133,7 @@ gt.bell.fish = [
       "Thunder",
       "Thunderstorms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8775,
     "icon": 29384,
     "func": "fish",
@@ -17118,6 +17158,7 @@ gt.bell.fish = [
       "start": 9,
       "end": 14
     },
+    "hookset": "Powerful Hookset",
     "id": 7699,
     "icon": 29331,
     "func": "fish",
@@ -17184,6 +17225,7 @@ gt.bell.fish = [
       "start": 17,
       "end": 21
     },
+    "hookset": "Powerful Hookset",
     "id": 7695,
     "icon": 29340,
     "func": "fish",
@@ -17204,6 +17246,7 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4984,
     "icon": 29258,
     "func": "fish",
@@ -17224,6 +17267,7 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4984,
     "icon": 29258,
     "func": "fish",
@@ -17244,6 +17288,7 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4984,
     "icon": 29258,
     "func": "fish",
@@ -17264,6 +17309,7 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Precision Hookset",
     "id": 4984,
     "icon": 29258,
     "func": "fish",
@@ -17311,6 +17357,7 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7947,
     "icon": 29346,
     "func": "fish",
@@ -17458,6 +17505,7 @@ gt.bell.fish = [
       "Silverfish",
       "Goldfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5026,
     "icon": 29290,
     "func": "fish",
@@ -17489,6 +17537,7 @@ gt.bell.fish = [
         "icon": 29237
       }
     ],
+    "hookset": "Powerful Hookset",
     "id": 8760,
     "icon": 29377,
     "func": "fish",
@@ -17517,6 +17566,7 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7923,
     "icon": 29375,
     "func": "fish",
@@ -17605,6 +17655,7 @@ gt.bell.fish = [
     "bait": [
       "Heavy Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4889,
     "icon": 29049,
     "func": "fish",
@@ -17629,6 +17680,7 @@ gt.bell.fish = [
       "start": 17,
       "end": 18
     },
+    "hookset": "Powerful Hookset",
     "id": 7906,
     "icon": 29082,
     "func": "fish",
@@ -17703,6 +17755,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4924,
     "icon": 29020,
     "func": "fish",
@@ -17737,6 +17790,7 @@ gt.bell.fish = [
         "icon": 29025
       }
     ],
+    "hookset": "Powerful Hookset",
     "id": 8764,
     "icon": 29092,
     "func": "fish",
@@ -17758,6 +17812,7 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5005,
     "icon": 29264,
     "func": "fish",
@@ -17779,6 +17834,7 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5005,
     "icon": 29264,
     "func": "fish",
@@ -17800,6 +17856,7 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5005,
     "icon": 29264,
     "func": "fish",
@@ -17829,6 +17886,7 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8765,
     "icon": 29391,
     "func": "fish",
@@ -17850,6 +17908,7 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5004,
     "icon": 29281,
     "func": "fish",
@@ -17871,6 +17930,7 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5004,
     "icon": 29281,
     "func": "fish",
@@ -17892,6 +17952,7 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5004,
     "icon": 29281,
     "func": "fish",
@@ -18062,6 +18123,7 @@ gt.bell.fish = [
     "transition": [
       "Rain"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8766,
     "icon": 29380,
     "func": "fish",
@@ -18086,6 +18148,7 @@ gt.bell.fish = [
       "start": 17,
       "end": 3
     },
+    "hookset": "Precision Hookset",
     "id": 7692,
     "icon": 29328,
     "func": "fish",
@@ -18150,6 +18213,7 @@ gt.bell.fish = [
       "start": 19,
       "end": 24
     },
+    "hookset": "Precision Hookset",
     "id": 7698,
     "icon": 29322,
     "func": "fish",
@@ -18199,6 +18263,7 @@ gt.bell.fish = [
       "Clouds",
       "Dust Storms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7689,
     "icon": 29318,
     "func": "fish",
@@ -18295,6 +18360,7 @@ gt.bell.fish = [
       "Rain",
       "Showers"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7702,
     "icon": 29335,
     "func": "fish",
@@ -18315,6 +18381,7 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4985,
     "icon": 29259,
     "func": "fish",
@@ -18342,6 +18409,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7918,
     "icon": 29356,
     "func": "fish",
@@ -18390,6 +18458,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5017,
     "icon": 29262,
     "func": "fish",
@@ -18413,6 +18482,7 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7942,
     "icon": 29369,
     "func": "fish",
@@ -18433,6 +18503,7 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4966,
     "icon": 29288,
     "func": "fish",
@@ -18453,6 +18524,7 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4966,
     "icon": 29288,
     "func": "fish",
@@ -18473,6 +18545,7 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4966,
     "icon": 29288,
     "func": "fish",
@@ -18497,6 +18570,7 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7911,
     "icon": 29363,
     "func": "fish",
@@ -18549,6 +18623,7 @@ gt.bell.fish = [
     "weather": [
       "Heat Waves"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7928,
     "icon": 29349,
     "func": "fish",
@@ -18569,6 +18644,7 @@ gt.bell.fish = [
     "bait": [
       "Silver Spoon Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4969,
     "icon": 29242,
     "func": "fish",
@@ -18592,6 +18668,7 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7929,
     "icon": 29350,
     "func": "fish",
@@ -18835,6 +18912,7 @@ gt.bell.fish = [
       "Freshwater Boilie",
       "Sandfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5043,
     "icon": 29608,
     "func": "fish",
@@ -18863,6 +18941,7 @@ gt.bell.fish = [
     "weather": [
       "Heat Waves"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7931,
     "icon": 29610,
     "func": "fish",
@@ -18895,6 +18974,7 @@ gt.bell.fish = [
       "Fog",
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8768,
     "icon": 29612,
     "func": "fish",
@@ -18915,6 +18995,7 @@ gt.bell.fish = [
     "bait": [
       "Sand Leech"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5033,
     "icon": 29609,
     "func": "fish",
@@ -18936,6 +19017,7 @@ gt.bell.fish = [
       "Sand Leech",
       "Storm Rider"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5045,
     "icon": 29605,
     "func": "fish",
@@ -18960,6 +19042,7 @@ gt.bell.fish = [
     "weather": [
       "Heat Waves"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7930,
     "icon": 29376,
     "func": "fish",
@@ -18981,6 +19064,7 @@ gt.bell.fish = [
       "Spinnerbait",
       "Common Sculpin"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5018,
     "icon": 29219,
     "func": "fish",
@@ -19009,6 +19093,7 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7943,
     "icon": 29345,
     "func": "fish",
@@ -19031,6 +19116,7 @@ gt.bell.fish = [
       "Silverfish",
       "Goldfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5019,
     "icon": 29272,
     "func": "fish",
@@ -19063,6 +19149,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8767,
     "icon": 29383,
     "func": "fish",
@@ -19298,6 +19385,7 @@ gt.bell.fish = [
     "weather": [
       "Blizzards"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7932,
     "icon": 29366,
     "func": "fish",
@@ -19519,6 +19607,7 @@ gt.bell.fish = [
       "Moth Pupa",
       "Striped Goby"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5014,
     "icon": 29227,
     "func": "fish",
@@ -19543,6 +19632,7 @@ gt.bell.fish = [
       "start": 0,
       "end": 4
     },
+    "hookset": "Precision Hookset",
     "id": 7933,
     "icon": 29372,
     "func": "fish",
@@ -19563,6 +19653,7 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Precision Hookset",
     "id": 4997,
     "icon": 29220,
     "func": "fish",
@@ -19583,6 +19674,7 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Precision Hookset",
     "id": 4997,
     "icon": 29220,
     "func": "fish",
@@ -19603,6 +19695,7 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Precision Hookset",
     "id": 4997,
     "icon": 29220,
     "func": "fish",
@@ -19624,6 +19717,7 @@ gt.bell.fish = [
       "Stonefly Nymph",
       "Abalathian Smelt"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5025,
     "icon": 29225,
     "func": "fish",
@@ -19653,6 +19747,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7945,
     "icon": 29359,
     "func": "fish",
@@ -19681,6 +19776,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7944,
     "icon": 29348,
     "func": "fish",
@@ -19702,6 +19798,7 @@ gt.bell.fish = [
       "Brute Leech",
       "Abalathian Smelt"
     ],
+    "hookset": "Precision Hookset",
     "id": 7946,
     "icon": 29370,
     "func": "fish",
@@ -19723,6 +19820,7 @@ gt.bell.fish = [
       "Stonefly Nymph",
       "Abalathian Smelt"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5010,
     "icon": 29279,
     "func": "fish",
@@ -19763,6 +19861,7 @@ gt.bell.fish = [
       "Blizzards",
       "Snow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8769,
     "icon": 29385,
     "func": "fish",
@@ -20042,6 +20141,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7949,
     "icon": 29658,
     "func": "fish",
@@ -20085,6 +20185,7 @@ gt.bell.fish = [
       "Cloud Cutter",
       "Saucerfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5046,
     "icon": 29654,
     "func": "fish",
@@ -20142,6 +20243,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8772,
     "icon": 29659,
     "func": "fish",
@@ -20317,6 +20419,7 @@ gt.bell.fish = [
       "Fair Skies",
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 12799,
     "icon": 29657,
     "func": "fish",
@@ -20342,6 +20445,7 @@ gt.bell.fish = [
       "Snow",
       "Blizzards"
     ],
+    "hookset": "Precision Hookset",
     "id": 12766,
     "icon": 29656,
     "func": "fish",
@@ -20587,6 +20691,7 @@ gt.bell.fish = [
     "weather": [
       "Blizzards"
     ],
+    "hookset": "Precision Hookset",
     "id": 13728,
     "icon": 29716,
     "func": "fish",
@@ -20615,6 +20720,7 @@ gt.bell.fish = [
     "weather": [
       "Blizzards"
     ],
+    "hookset": "Powerful Hookset",
     "id": 16746,
     "icon": 29815,
     "func": "fish",
@@ -20686,6 +20792,7 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Powerful Hookset",
     "id": 14216,
     "icon": 29096,
     "func": "fish",
@@ -20706,6 +20813,7 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 17563,
     "icon": 29716,
     "func": "fish",
@@ -20740,6 +20848,7 @@ gt.bell.fish = [
       "Blizzards",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17577,
     "icon": 29098,
     "func": "fish",
@@ -20780,6 +20889,7 @@ gt.bell.fish = [
     "weather": [
       "Blizzards"
     ],
+    "hookset": "Precision Hookset",
     "id": 17592,
     "icon": 29734,
     "func": "fish",
@@ -20820,6 +20930,7 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12824,
     "icon": 29285,
     "func": "fish",
@@ -20862,6 +20973,7 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Precision Hookset",
     "id": 12823,
     "icon": 29804,
     "func": "fish",
@@ -21092,6 +21204,7 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Powerful Hookset",
     "id": 15439,
     "icon": 29431,
     "func": "fish",
@@ -21136,6 +21249,7 @@ gt.bell.fish = [
       "Stonefly Nymph",
       "Abalathian Smelt"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12748,
     "icon": 29812,
     "func": "fish",
@@ -21157,6 +21271,7 @@ gt.bell.fish = [
       "Purse Web Spider",
       "Ice Faerie"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12817,
     "icon": 29802,
     "func": "fish",
@@ -21198,6 +21313,7 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Powerful Hookset",
     "id": 15628,
     "icon": 29814,
     "func": "fish",
@@ -21322,6 +21438,7 @@ gt.bell.fish = [
       "start": 17,
       "end": 9
     },
+    "hookset": "Powerful Hookset",
     "id": 5027,
     "icon": 29313,
     "func": "fish",
@@ -21349,6 +21466,7 @@ gt.bell.fish = [
     "weather": [
       "Gloom"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7951,
     "icon": 29089,
     "func": "fish",
@@ -21408,6 +21526,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8776,
     "icon": 29379,
     "func": "fish",
@@ -21457,6 +21576,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8759,
     "icon": 29389,
     "func": "fish",
@@ -21480,6 +21600,7 @@ gt.bell.fish = [
     "weather": [
       "Gloom"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5021,
     "icon": 29315,
     "func": "fish",
@@ -21509,6 +21630,7 @@ gt.bell.fish = [
     "weather": [
       "Gloom"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8761,
     "icon": 29378,
     "func": "fish",
@@ -21531,6 +21653,7 @@ gt.bell.fish = [
       "Silverfish",
       "Goldfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5030,
     "icon": 29287,
     "func": "fish",
@@ -21560,6 +21683,7 @@ gt.bell.fish = [
     "weather": [
       "Gloom"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8762,
     "icon": 29386,
     "func": "fish",
@@ -21602,6 +21726,7 @@ gt.bell.fish = [
     "weather": [
       "Gloom"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8763,
     "icon": 29381,
     "func": "fish",
@@ -22032,6 +22157,7 @@ gt.bell.fish = [
       "start": 18,
       "end": 21
     },
+    "hookset": "Powerful Hookset",
     "id": 12802,
     "icon": 29393,
     "func": "fish",
@@ -22057,6 +22183,7 @@ gt.bell.fish = [
       "start": 18,
       "end": 21
     },
+    "hookset": "Powerful Hookset",
     "id": 12802,
     "icon": 29393,
     "func": "fish",
@@ -22083,6 +22210,7 @@ gt.bell.fish = [
       "start": 14,
       "end": 16
     },
+    "hookset": "Powerful Hookset",
     "id": 15635,
     "icon": 29429,
     "func": "fish",
@@ -22284,6 +22412,7 @@ gt.bell.fish = [
     "transition": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17579,
     "icon": 29436,
     "func": "fish",
@@ -22308,6 +22437,7 @@ gt.bell.fish = [
       "Fair Skies",
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 12723,
     "icon": 29715,
     "func": "fish",
@@ -22332,6 +22462,7 @@ gt.bell.fish = [
       "Fair Skies",
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 12723,
     "icon": 29715,
     "func": "fish",
@@ -22769,6 +22900,7 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12735,
     "icon": 29719,
     "func": "fish",
@@ -22789,6 +22921,7 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12735,
     "icon": 29719,
     "func": "fish",
@@ -22814,6 +22947,7 @@ gt.bell.fish = [
       "Fog",
       "Wind"
     ],
+    "hookset": "Precision Hookset",
     "id": 12746,
     "icon": 29718,
     "func": "fish",
@@ -22834,6 +22968,7 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12822,
     "icon": 29720,
     "func": "fish",
@@ -22854,6 +22989,7 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12785,
     "icon": 29038,
     "func": "fish",
@@ -22874,6 +23010,7 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12785,
     "icon": 29038,
     "func": "fish",
@@ -22894,6 +23031,7 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12798,
     "icon": 29011,
     "func": "fish",
@@ -23052,6 +23190,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 13730,
     "icon": 29725,
     "func": "fish",
@@ -23080,6 +23219,7 @@ gt.bell.fish = [
     "transition": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 16743,
     "icon": 29731,
     "func": "fish",
@@ -23315,6 +23455,7 @@ gt.bell.fish = [
       "Fiend Worm",
       "Platinum Fish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12775,
     "icon": 29032,
     "func": "fish",
@@ -23336,6 +23477,7 @@ gt.bell.fish = [
       "Fiend Worm",
       "Platinum Fish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 15637,
     "icon": 29086,
     "func": "fish",
@@ -23357,6 +23499,7 @@ gt.bell.fish = [
       "Fiend Worm",
       "Platinum Fish"
     ],
+    "hookset": "Precision Hookset",
     "id": 12788,
     "icon": 29752,
     "func": "fish",
@@ -23401,6 +23544,7 @@ gt.bell.fish = [
       "Fiend Worm",
       "Platinum Fish"
     ],
+    "hookset": "Precision Hookset",
     "id": 16752,
     "icon": 29760,
     "func": "fish",
@@ -23465,6 +23609,7 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12815,
     "icon": 29751,
     "func": "fish",
@@ -23489,6 +23634,7 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12815,
     "icon": 29751,
     "func": "fish",
@@ -23509,6 +23655,7 @@ gt.bell.fish = [
     "bait": [
       "Fiend Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12807,
     "icon": 29756,
     "func": "fish",
@@ -23537,6 +23684,7 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Precision Hookset",
     "id": 14218,
     "icon": 29613,
     "func": "fish",
@@ -23589,6 +23737,7 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12791,
     "icon": 29274,
     "func": "fish",
@@ -23609,6 +23758,7 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12791,
     "icon": 29274,
     "func": "fish",
@@ -23649,6 +23799,7 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12777,
     "icon": 29214,
     "func": "fish",
@@ -23669,6 +23820,7 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12777,
     "icon": 29214,
     "func": "fish",
@@ -23696,6 +23848,7 @@ gt.bell.fish = [
     "weather": [
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12803,
     "icon": 29224,
     "func": "fish",
@@ -23725,6 +23878,7 @@ gt.bell.fish = [
     "weather": [
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 15638,
     "icon": 29430,
     "func": "fish",
@@ -23768,6 +23922,7 @@ gt.bell.fish = [
     "weather": [
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12751,
     "icon": 29400,
     "func": "fish",
@@ -23792,6 +23947,7 @@ gt.bell.fish = [
       "start": 21,
       "end": 24
     },
+    "hookset": "Precision Hookset",
     "id": 12774,
     "icon": 29396,
     "func": "fish",
@@ -23919,6 +24075,7 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12806,
     "icon": 29046,
     "func": "fish",
@@ -23943,6 +24100,7 @@ gt.bell.fish = [
       "start": 15,
       "end": 18
     },
+    "hookset": "Powerful Hookset",
     "id": 12833,
     "icon": 29709,
     "func": "fish",
@@ -23986,6 +24144,7 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12813,
     "icon": 29710,
     "func": "fish",
@@ -24006,6 +24165,7 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12813,
     "icon": 29710,
     "func": "fish",
@@ -24035,6 +24195,7 @@ gt.bell.fish = [
     "transition": [
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17581,
     "icon": 29735,
     "func": "fish",
@@ -24086,6 +24247,7 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12827,
     "icon": 29754,
     "func": "fish",
@@ -24113,6 +24275,7 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 13727,
     "icon": 29758,
     "func": "fish",
@@ -24141,6 +24304,7 @@ gt.bell.fish = [
     "transition": [
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 16744,
     "icon": 29759,
     "func": "fish",
@@ -24178,6 +24342,7 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Precision Hookset",
     "id": 17589,
     "icon": 29762,
     "func": "fish",
@@ -24528,6 +24693,7 @@ gt.bell.fish = [
       "Fog",
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 15629,
     "icon": 29426,
     "func": "fish",
@@ -24640,6 +24806,7 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12761,
     "icon": 29206,
     "func": "fish",
@@ -24696,6 +24863,7 @@ gt.bell.fish = [
       "start": 21,
       "end": 3
     },
+    "hookset": "Powerful Hookset",
     "id": 12767,
     "icon": 29402,
     "func": "fish",
@@ -24717,6 +24885,7 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12750,
     "icon": 29394,
     "func": "fish",
@@ -24747,6 +24916,7 @@ gt.bell.fish = [
       "Fog",
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 15630,
     "icon": 29427,
     "func": "fish",
@@ -24792,6 +24962,7 @@ gt.bell.fish = [
       "start": 22,
       "end": 4
     },
+    "hookset": "Powerful Hookset",
     "id": 12828,
     "icon": 29205,
     "func": "fish",
@@ -24817,6 +24988,7 @@ gt.bell.fish = [
       "start": 22,
       "end": 4
     },
+    "hookset": "Powerful Hookset",
     "id": 12828,
     "icon": 29205,
     "func": "fish",
@@ -24843,6 +25015,7 @@ gt.bell.fish = [
       "start": 6,
       "end": 12
     },
+    "hookset": "Powerful Hookset",
     "id": 14211,
     "icon": 29424,
     "func": "fish",
@@ -24877,6 +25050,7 @@ gt.bell.fish = [
       "Clouds",
       "Dust Storms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17582,
     "icon": 29437,
     "func": "fish",
@@ -25040,6 +25214,7 @@ gt.bell.fish = [
     "bait": [
       "Magma Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12772,
     "icon": 29857,
     "func": "fish",
@@ -25061,6 +25236,7 @@ gt.bell.fish = [
     "bait": [
       "Magma Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12772,
     "icon": 29857,
     "func": "fish",
@@ -25169,6 +25345,7 @@ gt.bell.fish = [
       "Magma Worm",
       "Granite Crab"
     ],
+    "hookset": "Powerful Hookset",
     "id": 15631,
     "icon": 29861,
     "func": "fish",
@@ -25189,6 +25366,7 @@ gt.bell.fish = [
     "bait": [
       "Magma Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12755,
     "icon": 29858,
     "func": "fish",
@@ -25209,6 +25387,7 @@ gt.bell.fish = [
     "bait": [
       "Magma Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12755,
     "icon": 29858,
     "func": "fish",
@@ -25230,6 +25409,7 @@ gt.bell.fish = [
     "bait": [
       "Magma Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12759,
     "icon": 29060,
     "func": "fish",
@@ -25251,6 +25431,7 @@ gt.bell.fish = [
     "bait": [
       "Magma Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12759,
     "icon": 29060,
     "func": "fish",
@@ -25272,6 +25453,7 @@ gt.bell.fish = [
       "Magma Worm",
       "Granite Crab"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12826,
     "icon": 29851,
     "func": "fish",
@@ -25324,6 +25506,7 @@ gt.bell.fish = [
       "start": 18,
       "end": 5
     },
+    "hookset": "Powerful Hookset",
     "id": 12786,
     "icon": 29856,
     "func": "fish",
@@ -25357,6 +25540,7 @@ gt.bell.fish = [
     "transition": [
       "Clear Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17583,
     "icon": 29864,
     "func": "fish",
@@ -25379,6 +25563,7 @@ gt.bell.fish = [
       "Magma Worm",
       "Granite Crab"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12800,
     "icon": 29853,
     "func": "fish",
@@ -25411,6 +25596,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12832,
     "icon": 29859,
     "func": "fish",
@@ -25464,6 +25650,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17584,
     "icon": 29865,
     "func": "fish",
@@ -25515,6 +25702,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17588,
     "icon": 29863,
     "func": "fish",
@@ -25535,6 +25723,7 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12780,
     "icon": 29395,
     "func": "fish",
@@ -25555,6 +25744,7 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12780,
     "icon": 29395,
     "func": "fish",
@@ -25575,6 +25765,7 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12780,
     "icon": 29395,
     "func": "fish",
@@ -25675,6 +25866,7 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12783,
     "icon": 29417,
     "func": "fish",
@@ -25717,6 +25909,7 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12819,
     "icon": 29304,
     "func": "fish",
@@ -25738,6 +25931,7 @@ gt.bell.fish = [
       "Goblin Jig",
       "Sweetfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 15632,
     "icon": 29338,
     "func": "fish",
@@ -25758,6 +25952,7 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12781,
     "icon": 29401,
     "func": "fish",
@@ -25778,6 +25973,7 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12752,
     "icon": 29412,
     "func": "fish",
@@ -25799,6 +25995,7 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Precision Hookset",
     "id": 14212,
     "icon": 29421,
     "func": "fish",
@@ -25828,6 +26025,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 16748,
     "icon": 29433,
     "func": "fish",
@@ -25893,6 +26091,7 @@ gt.bell.fish = [
       "start": 7,
       "end": 20
     },
+    "hookset": "Powerful Hookset",
     "id": 12830,
     "icon": 29243,
     "func": "fish",
@@ -25919,6 +26118,7 @@ gt.bell.fish = [
       "Fog",
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 14220,
     "icon": 29422,
     "func": "fish",
@@ -25968,6 +26168,7 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17585,
     "icon": 29438,
     "func": "fish",
@@ -26007,6 +26208,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 17590,
     "icon": 29435,
     "func": "fish",
@@ -26032,6 +26234,7 @@ gt.bell.fish = [
       "start": 15,
       "end": 18
     },
+    "hookset": "Powerful Hookset",
     "id": 12831,
     "icon": 29415,
     "func": "fish",
@@ -26057,6 +26260,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12836,
     "icon": 29238,
     "func": "fish",
@@ -26119,6 +26323,7 @@ gt.bell.fish = [
     "transition": [
       "Rain"
     ],
+    "hookset": "Powerful Hookset",
     "id": 16754,
     "icon": 29330,
     "func": "fish",
@@ -26210,6 +26415,7 @@ gt.bell.fish = [
       "start": 8,
       "end": 10
     },
+    "hookset": "Powerful Hookset",
     "id": 15633,
     "icon": 29428,
     "func": "fish",
@@ -26230,6 +26436,7 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12758,
     "icon": 29406,
     "func": "fish",
@@ -26570,6 +26777,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 13731,
     "icon": 29726,
     "func": "fish",
@@ -26639,6 +26847,7 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12794,
     "icon": 29803,
     "func": "fish",
@@ -26663,6 +26872,7 @@ gt.bell.fish = [
       "start": 9,
       "end": 17
     },
+    "hookset": "Powerful Hookset",
     "id": 12821,
     "icon": 29707,
     "func": "fish",
@@ -26692,6 +26902,7 @@ gt.bell.fish = [
     "transition": [
       "Clear Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 16742,
     "icon": 29730,
     "func": "fish",
@@ -26721,6 +26932,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12784,
     "icon": 29704,
     "func": "fish",
@@ -26744,6 +26956,7 @@ gt.bell.fish = [
     "weather": [
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12789,
     "icon": 29232,
     "func": "fish",
@@ -26853,6 +27066,7 @@ gt.bell.fish = [
     "weather": [
       "Gales"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17593,
     "icon": 29733,
     "func": "fish",
@@ -27153,6 +27367,7 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20042,
     "icon": 29465,
     "func": "fish",
@@ -27278,6 +27493,7 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20058,
     "icon": 29212,
     "func": "fish",
@@ -27302,6 +27518,7 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20058,
     "icon": 29212,
     "func": "fish",
@@ -27326,6 +27543,7 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20058,
     "icon": 29212,
     "func": "fish",
@@ -27449,6 +27667,7 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20062,
     "icon": 29286,
     "func": "fish",
@@ -27490,6 +27709,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20060,
     "icon": 29249,
     "func": "fish",
@@ -27511,6 +27731,7 @@ gt.bell.fish = [
       "Midge Larva",
       "Gyr Abanian Trout"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20061,
     "icon": 29224,
     "func": "fish",
@@ -27536,6 +27757,7 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24205,
     "icon": 29533,
     "func": "fish",
@@ -27616,6 +27838,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 20065,
     "icon": 29316,
     "func": "fish",
@@ -27636,6 +27859,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20063,
     "icon": 29312,
     "func": "fish",
@@ -27662,6 +27886,7 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 22392,
     "icon": 29520,
     "func": "fish",
@@ -27691,6 +27916,7 @@ gt.bell.fish = [
     "weather": [
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24206,
     "icon": 29534,
     "func": "fish",
@@ -27856,6 +28082,7 @@ gt.bell.fish = [
       "start": 16,
       "end": 20
     },
+    "hookset": "Powerful Hookset",
     "id": 24207,
     "icon": 29535,
     "func": "fish",
@@ -27882,6 +28109,7 @@ gt.bell.fish = [
       "start": 16,
       "end": 20
     },
+    "hookset": "Powerful Hookset",
     "id": 24990,
     "icon": 29548,
     "func": "fish",
@@ -27942,6 +28170,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 20083,
     "icon": 29417,
     "func": "fish",
@@ -28032,6 +28261,7 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24559,
     "icon": 29249,
     "func": "fish",
@@ -28056,6 +28286,7 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Precision Hookset",
     "id": 23058,
     "icon": 29524,
     "func": "fish",
@@ -28100,6 +28331,7 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20085,
     "icon": 29397,
     "func": "fish",
@@ -28124,6 +28356,7 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20086,
     "icon": 29293,
     "func": "fish",
@@ -28197,6 +28430,7 @@ gt.bell.fish = [
       "start": 12,
       "end": 16
     },
+    "hookset": "Powerful Hookset",
     "id": 23059,
     "icon": 29525,
     "func": "fish",
@@ -28298,6 +28532,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20788,
     "icon": 29282,
     "func": "fish",
@@ -28342,6 +28577,7 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20090,
     "icon": 29260,
     "func": "fish",
@@ -28382,6 +28618,7 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20091,
     "icon": 29251,
     "func": "fish",
@@ -28402,6 +28639,7 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20089,
     "icon": 29205,
     "func": "fish",
@@ -28427,6 +28665,7 @@ gt.bell.fish = [
       "start": 4,
       "end": 8
     },
+    "hookset": "Powerful Hookset",
     "id": 22389,
     "icon": 29518,
     "func": "fish",
@@ -28455,6 +28694,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24209,
     "icon": 29537,
     "func": "fish",
@@ -28495,6 +28735,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20068,
     "icon": 29404,
     "func": "fish",
@@ -28539,6 +28780,7 @@ gt.bell.fish = [
     "weather": [
       "Dust Storms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 23060,
     "icon": 29526,
     "func": "fish",
@@ -28574,6 +28816,7 @@ gt.bell.fish = [
     "weather": [
       "Dust Storms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24991,
     "icon": 29549,
     "func": "fish",
@@ -28594,6 +28837,7 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20045,
     "icon": 29492,
     "func": "fish",
@@ -28614,6 +28858,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20070,
     "icon": 29270,
     "func": "fish",
@@ -28634,6 +28879,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20050,
     "icon": 29498,
     "func": "fish",
@@ -28654,6 +28900,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20050,
     "icon": 29498,
     "func": "fish",
@@ -28720,6 +28967,7 @@ gt.bell.fish = [
       "start": 8,
       "end": 12
     },
+    "hookset": "Powerful Hookset",
     "id": 23061,
     "icon": 29360,
     "func": "fish",
@@ -28740,6 +28988,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20072,
     "icon": 29402,
     "func": "fish",
@@ -28760,6 +29009,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 20071,
     "icon": 29424,
     "func": "fish",
@@ -28783,6 +29033,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 20043,
     "icon": 29466,
     "func": "fish",
@@ -28803,6 +29054,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20789,
     "icon": 29909,
     "func": "fish",
@@ -28830,6 +29082,7 @@ gt.bell.fish = [
     "transition": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24210,
     "icon": 29437,
     "func": "fish",
@@ -28850,6 +29103,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20073,
     "icon": 29400,
     "func": "fish",
@@ -28870,6 +29124,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20073,
     "icon": 29400,
     "func": "fish",
@@ -28890,6 +29145,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20075,
     "icon": 29243,
     "func": "fish",
@@ -28913,6 +29169,7 @@ gt.bell.fish = [
     "weather": [
       "Wind"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20074,
     "icon": 29287,
     "func": "fish",
@@ -28970,6 +29227,7 @@ gt.bell.fish = [
       "Fog",
       "Dust Storms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20076,
     "icon": 29303,
     "func": "fish",
@@ -28990,6 +29248,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20077,
     "icon": 29301,
     "func": "fish",
@@ -29015,6 +29274,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 22391,
     "icon": 29519,
     "func": "fish",
@@ -29043,6 +29303,7 @@ gt.bell.fish = [
     "weather": [
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24211,
     "icon": 29538,
     "func": "fish",
@@ -29063,6 +29324,7 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20079,
     "icon": 29268,
     "func": "fish",
@@ -29087,6 +29349,7 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20141,
     "icon": 29414,
     "func": "fish",
@@ -29107,6 +29370,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20078,
     "icon": 29278,
     "func": "fish",
@@ -29127,6 +29391,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 20019,
     "icon": 29103,
     "func": "fish",
@@ -29187,6 +29452,7 @@ gt.bell.fish = [
     "transition": [
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 24881,
     "icon": 29161,
     "func": "fish",
@@ -29325,6 +29591,7 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 22394,
     "icon": 29917,
     "func": "fish",
@@ -29350,6 +29617,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 23062,
     "icon": 29926,
     "func": "fish",
@@ -29391,6 +29659,7 @@ gt.bell.fish = [
     "weather": [
       "Thunderstorms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24992,
     "icon": 29927,
     "func": "fish",
@@ -29571,6 +29840,7 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20037,
     "icon": 29126,
     "func": "fish",
@@ -29591,6 +29861,7 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20786,
     "icon": 29123,
     "func": "fish",
@@ -29622,6 +29893,7 @@ gt.bell.fish = [
     "transition": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24214,
     "icon": 29159,
     "func": "fish",
@@ -29654,6 +29926,7 @@ gt.bell.fish = [
     "transition": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24993,
     "icon": 29164,
     "func": "fish",
@@ -29889,6 +30162,7 @@ gt.bell.fish = [
     "weather": [
       "Wind"
     ],
+    "hookset": "Powerful Hookset",
     "id": 21176,
     "icon": 29150,
     "func": "fish",
@@ -29911,6 +30185,7 @@ gt.bell.fish = [
       "Live Shrimp",
       "Ruby Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 23054,
     "icon": 29154,
     "func": "fish",
@@ -29931,6 +30206,7 @@ gt.bell.fish = [
     "bait": [
       "Bream Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24560,
     "icon": 29049,
     "func": "fish",
@@ -29960,6 +30236,7 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24882,
     "icon": 29162,
     "func": "fish",
@@ -30073,6 +30350,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20034,
     "icon": 29121,
     "func": "fish",
@@ -30094,6 +30372,7 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 22393,
     "icon": 29153,
     "func": "fish",
@@ -30360,6 +30639,7 @@ gt.bell.fish = [
       "Live Shrimp",
       "Ruby Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20022,
     "icon": 29128,
     "func": "fish",
@@ -30438,6 +30718,7 @@ gt.bell.fish = [
     "weather": [
       "Wind"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24215,
     "icon": 29160,
     "func": "fish",
@@ -30458,6 +30739,7 @@ gt.bell.fish = [
     "bait": [
       "Bream Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20106,
     "icon": 29042,
     "func": "fish",
@@ -30478,6 +30760,7 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20107,
     "icon": 29046,
     "func": "fish",
@@ -30499,6 +30782,7 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20108,
     "icon": 29047,
     "func": "fish",
@@ -30519,6 +30803,7 @@ gt.bell.fish = [
     "bait": [
       "Bream Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20032,
     "icon": 29474,
     "func": "fish",
@@ -30544,6 +30829,7 @@ gt.bell.fish = [
       "start": 5,
       "end": 7
     },
+    "hookset": "Precision Hookset",
     "id": 22390,
     "icon": 29152,
     "func": "fish",
@@ -30679,6 +30965,7 @@ gt.bell.fish = [
       "Live Shrimp",
       "Ruby Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20103,
     "icon": 29024,
     "func": "fish",
@@ -30704,6 +30991,7 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 23066,
     "icon": 29158,
     "func": "fish",
@@ -30904,6 +31192,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20111,
     "icon": 29208,
     "func": "fish",
@@ -30924,6 +31213,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20111,
     "icon": 29208,
     "func": "fish",
@@ -30944,6 +31234,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20111,
     "icon": 29208,
     "func": "fish",
@@ -30964,6 +31255,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20787,
     "icon": 29406,
     "func": "fish",
@@ -30988,6 +31280,7 @@ gt.bell.fish = [
     "weather": [
       "Rain"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24885,
     "icon": 29348,
     "func": "fish",
@@ -31008,6 +31301,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20046,
     "icon": 29495,
     "func": "fish",
@@ -31055,6 +31349,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20137,
     "icon": 29457,
     "func": "fish",
@@ -31075,6 +31370,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20137,
     "icon": 29457,
     "func": "fish",
@@ -31103,6 +31399,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24887,
     "icon": 29545,
     "func": "fish",
@@ -31123,6 +31420,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20118,
     "icon": 29239,
     "func": "fish",
@@ -31342,6 +31640,7 @@ gt.bell.fish = [
       "start": 16,
       "end": 24
     },
+    "hookset": "Powerful Hookset",
     "id": 20021,
     "icon": 29446,
     "func": "fish",
@@ -31371,6 +31670,7 @@ gt.bell.fish = [
     "transition": [
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24216,
     "icon": 29541,
     "func": "fish",
@@ -31395,6 +31695,7 @@ gt.bell.fish = [
       "start": 10,
       "end": 18
     },
+    "hookset": "Powerful Hookset",
     "id": 20122,
     "icon": 29408,
     "func": "fish",
@@ -31515,6 +31816,7 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24890,
     "icon": 29355,
     "func": "fish",
@@ -31659,6 +31961,7 @@ gt.bell.fish = [
       "start": 4,
       "end": 8
     },
+    "hookset": "Precision Hookset",
     "id": 23056,
     "icon": 29522,
     "func": "fish",
@@ -31685,6 +31988,7 @@ gt.bell.fish = [
       "start": 0,
       "end": 4
     },
+    "hookset": "Precision Hookset",
     "id": 24203,
     "icon": 29531,
     "func": "fish",
@@ -31858,6 +32162,7 @@ gt.bell.fish = [
     "transition": [
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24888,
     "icon": 29331,
     "func": "fish",
@@ -31878,6 +32183,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Precision Hookset",
     "id": 20028,
     "icon": 29461,
     "func": "fish",
@@ -31992,6 +32298,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 20036,
     "icon": 29483,
     "func": "fish",
@@ -32016,6 +32323,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 20036,
     "icon": 29483,
     "func": "fish",
@@ -32263,6 +32571,7 @@ gt.bell.fish = [
       "Nightcrawler",
       "Zagas Khaal"
     ],
+    "hookset": "Precision Hookset",
     "id": 20132,
     "icon": 29207,
     "func": "fish",
@@ -32284,6 +32593,7 @@ gt.bell.fish = [
       "Nightcrawler",
       "Zagas Khaal"
     ],
+    "hookset": "Precision Hookset",
     "id": 20132,
     "icon": 29207,
     "func": "fish",
@@ -32335,6 +32645,7 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20138,
     "icon": 29237,
     "func": "fish",
@@ -32355,6 +32666,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Precision Hookset",
     "id": 20129,
     "icon": 29295,
     "func": "fish",
@@ -32375,6 +32687,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Precision Hookset",
     "id": 20129,
     "icon": 29295,
     "func": "fish",
@@ -32395,6 +32708,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Precision Hookset",
     "id": 20129,
     "icon": 29295,
     "func": "fish",
@@ -32520,6 +32834,7 @@ gt.bell.fish = [
     "transition": [
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24893,
     "icon": 29377,
     "func": "fish",
@@ -32540,6 +32855,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Precision Hookset",
     "id": 20023,
     "icon": 29485,
     "func": "fish",
@@ -32560,6 +32876,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Precision Hookset",
     "id": 20131,
     "icon": 29247,
     "func": "fish",
@@ -32688,6 +33005,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20130,
     "icon": 29305,
     "func": "fish",
@@ -32872,6 +33190,7 @@ gt.bell.fish = [
       "Rain",
       "Gales"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24217,
     "icon": 29542,
     "func": "fish",
@@ -32912,6 +33231,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Precision Hookset",
     "id": 20044,
     "icon": 29468,
     "func": "fish",
@@ -33038,6 +33358,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Precision Hookset",
     "id": 20031,
     "icon": 29472,
     "func": "fish",
@@ -33058,6 +33379,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Precision Hookset",
     "id": 20135,
     "icon": 29299,
     "func": "fish",
@@ -33082,6 +33404,7 @@ gt.bell.fish = [
     "weather": [
       "Wind"
     ],
+    "hookset": "Precision Hookset",
     "id": 23070,
     "icon": 29530,
     "func": "fish",
@@ -33222,6 +33545,7 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20080,
     "icon": 29206,
     "func": "fish",
@@ -33333,6 +33657,7 @@ gt.bell.fish = [
     "transition": [
       "Rain"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24891,
     "icon": 29318,
     "func": "fish",
@@ -33450,6 +33775,7 @@ gt.bell.fish = [
       "Live Shrimp",
       "Ruby Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 22396,
     "icon": 29143,
     "func": "fish",
@@ -33472,6 +33798,7 @@ gt.bell.fish = [
       "Live Shrimp",
       "Ruby Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 23063,
     "icon": 29155,
     "func": "fish",
@@ -33493,6 +33820,7 @@ gt.bell.fish = [
     "bait": [
       "Blue Bobbit"
     ],
+    "hookset": "Powerful Hookset",
     "id": 23064,
     "icon": 29156,
     "func": "fish",
@@ -33514,6 +33842,7 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 22395,
     "icon": 29440,
     "func": "fish",
@@ -33680,6 +34009,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27412,
     "icon": 29553,
     "func": "fish",
@@ -33700,6 +34030,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27413,
     "icon": 29554,
     "func": "fish",
@@ -33720,6 +34051,7 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27414,
     "icon": 29555,
     "func": "fish",
@@ -33740,6 +34072,7 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27415,
     "icon": 29556,
     "func": "fish",
@@ -33760,6 +34093,7 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27416,
     "icon": 29557,
     "func": "fish",
@@ -33780,6 +34114,7 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27410,
     "icon": 29552,
     "func": "fish",
@@ -33800,6 +34135,7 @@ gt.bell.fish = [
     "bait": [
       "Freshwater Boilie"
     ],
+    "hookset": "Precision Hookset",
     "id": 27418,
     "icon": 29558,
     "func": "fish",
@@ -33825,6 +34161,7 @@ gt.bell.fish = [
       "start": 18,
       "end": 22
     },
+    "hookset": "Precision Hookset",
     "id": 28065,
     "icon": "t/28470",
     "func": "fish",
@@ -33847,6 +34184,7 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27419,
     "icon": 29062,
     "func": "fish",
@@ -33869,6 +34207,7 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27420,
     "icon": 29413,
     "func": "fish",
@@ -33935,6 +34274,7 @@ gt.bell.fish = [
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Precision Hookset",
     "id": 27423,
     "icon": 29167,
     "func": "fish",
@@ -33984,6 +34324,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 28066,
     "icon": "t/29194",
     "func": "fish",
@@ -34209,6 +34550,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 27432,
     "icon": 29564,
     "func": "fish",
@@ -34270,6 +34612,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27429,
     "icon": 29561,
     "func": "fish",
@@ -34290,6 +34633,7 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27429,
     "icon": 29561,
     "func": "fish",
@@ -34350,6 +34694,7 @@ gt.bell.fish = [
     "bait": [
       "Baitbugs"
     ],
+    "hookset": "Precision Hookset",
     "id": 27434,
     "icon": 29566,
     "func": "fish",
@@ -34370,6 +34715,7 @@ gt.bell.fish = [
     "bait": [
       "Jerked Ovim"
     ],
+    "hookset": "Precision Hookset",
     "id": 28189,
     "icon": 29418,
     "func": "fish",
@@ -34394,6 +34740,7 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 28067,
     "icon": "t/28471",
     "func": "fish",
@@ -34414,6 +34761,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27435,
     "icon": 29567,
     "func": "fish",
@@ -34675,6 +35023,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27443,
     "icon": 29572,
     "func": "fish",
@@ -34695,6 +35044,7 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 28190,
     "icon": 29304,
     "func": "fish",
@@ -34715,6 +35065,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27444,
     "icon": 29573,
     "func": "fish",
@@ -34735,6 +35086,7 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27445,
     "icon": 29574,
     "func": "fish",
@@ -34759,6 +35111,7 @@ gt.bell.fish = [
     "weather": [
       "Rain"
     ],
+    "hookset": "Powerful Hookset",
     "id": 28068,
     "icon": "t/28472",
     "func": "fish",
@@ -34939,6 +35292,7 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27451,
     "icon": 29008,
     "func": "fish",
@@ -35039,6 +35393,7 @@ gt.bell.fish = [
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Precision Hookset",
     "id": 27452,
     "icon": 29172,
     "func": "fish",
@@ -35059,6 +35414,7 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27453,
     "icon": 29173,
     "func": "fish",
@@ -35100,6 +35456,7 @@ gt.bell.fish = [
       "Short Bill Minnow",
       "Spearhead Squid"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27454,
     "icon": 29174,
     "func": "fish",
@@ -35151,6 +35508,7 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27456,
     "icon": 29176,
     "func": "fish",
@@ -35381,6 +35739,7 @@ gt.bell.fish = [
     "weather": [
       "Dust Storms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 28069,
     "icon": "t/29620",
     "func": "fish",
@@ -35401,6 +35760,7 @@ gt.bell.fish = [
     "bait": [
       "Desert Dessert Frog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27463,
     "icon": 29248,
     "func": "fish",
@@ -35421,6 +35781,7 @@ gt.bell.fish = [
     "bait": [
       "Jerked Ovim"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27464,
     "icon": 29618,
     "func": "fish",
@@ -35441,6 +35802,7 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 28192,
     "icon": 29519,
     "func": "fish",
@@ -35528,6 +35890,7 @@ gt.bell.fish = [
       "start": 10,
       "end": 18
     },
+    "hookset": "Powerful Hookset",
     "id": 27467,
     "icon": 29619,
     "func": "fish",
@@ -35689,6 +36052,7 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27471,
     "icon": 29578,
     "func": "fish",
@@ -35709,6 +36073,7 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27471,
     "icon": 29578,
     "func": "fish",
@@ -35729,6 +36094,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27474,
     "icon": 29581,
     "func": "fish",
@@ -35769,6 +36135,7 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 28191,
     "icon": 29047,
     "func": "fish",
@@ -35809,6 +36176,7 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27469,
     "icon": 29576,
     "func": "fish",
@@ -35829,6 +36197,7 @@ gt.bell.fish = [
     "bait": [
       "Baitbugs"
     ],
+    "hookset": "Precision Hookset",
     "id": 27469,
     "icon": 29576,
     "func": "fish",
@@ -35849,6 +36218,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27469,
     "icon": 29576,
     "func": "fish",
@@ -35869,6 +36239,7 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27476,
     "icon": 29583,
     "func": "fish",
@@ -35889,6 +36260,7 @@ gt.bell.fish = [
     "bait": [
       "Baitbugs"
     ],
+    "hookset": "Precision Hookset",
     "id": 27477,
     "icon": 29584,
     "func": "fish",
@@ -36018,6 +36390,7 @@ gt.bell.fish = [
       "Fair Skies",
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 28070,
     "icon": "t/28473",
     "func": "fish",
@@ -36038,6 +36411,7 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27472,
     "icon": 29579,
     "func": "fish",
@@ -36058,6 +36432,7 @@ gt.bell.fish = [
     "bait": [
       "Baitbugs"
     ],
+    "hookset": "Precision Hookset",
     "id": 27472,
     "icon": 29579,
     "func": "fish",
@@ -36078,6 +36453,7 @@ gt.bell.fish = [
     "bait": [
       "Baitbugs"
     ],
+    "hookset": "Precision Hookset",
     "id": 27472,
     "icon": 29579,
     "func": "fish",
@@ -36098,6 +36474,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27478,
     "icon": 29585,
     "func": "fish",
@@ -36118,6 +36495,7 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27468,
     "icon": 29575,
     "func": "fish",
@@ -36178,6 +36556,7 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27480,
     "icon": 29586,
     "func": "fish",
@@ -36203,6 +36582,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 27481,
     "icon": 29587,
     "func": "fish",
@@ -36493,6 +36873,7 @@ gt.bell.fish = [
       "start": 10,
       "end": 12
     },
+    "hookset": "Powerful Hookset",
     "id": 28071,
     "icon": "t/28474",
     "func": "fish",
@@ -36553,6 +36934,7 @@ gt.bell.fish = [
     "bait": [
       "Baitbugs"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27487,
     "icon": 29211,
     "func": "fish",
@@ -36573,6 +36955,7 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27487,
     "icon": 29211,
     "func": "fish",
@@ -36597,6 +36980,7 @@ gt.bell.fish = [
       "start": 12,
       "end": 20
     },
+    "hookset": "Powerful Hookset",
     "id": 27492,
     "icon": 29594,
     "func": "fish",
@@ -36618,6 +37002,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27483,
     "icon": 29589,
     "func": "fish",
@@ -36638,6 +37023,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27488,
     "icon": 29206,
     "func": "fish",
@@ -36658,6 +37044,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27488,
     "icon": 29206,
     "func": "fish",
@@ -36678,6 +37065,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27489,
     "icon": 29204,
     "func": "fish",
@@ -36698,6 +37086,7 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27489,
     "icon": 29204,
     "func": "fish",
@@ -37007,6 +37396,7 @@ gt.bell.fish = [
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Precision Hookset",
     "id": 27501,
     "icon": 29181,
     "func": "fish",
@@ -37027,6 +37417,7 @@ gt.bell.fish = [
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27502,
     "icon": 29182,
     "func": "fish",
@@ -37048,6 +37439,7 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27503,
     "icon": 29183,
     "func": "fish",
@@ -37325,6 +37717,7 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27508,
     "icon": 29188,
     "func": "fish",
@@ -37427,6 +37820,7 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27511,
     "icon": 29806,
     "func": "fish",

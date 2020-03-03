@@ -16,27 +16,27 @@ Malm Kelp	Pill Bug						Light					1
 Finger Shrimp	Lugworm						Light					8
 Ocean Cloud	Pill Bug						Light					12
 Harbor Herring	Pill Bug						Medium	Powerful				15
-Coral Butterfly	Pill Bug						Medium	Powerful				20
-Blue Octopus	Merlthor Goby						Medium	Powerful				45
+Coral Butterfly	Floating Minnow						Medium	Powerful				20
+Blue Octopus	Ocean Cloud						Medium	Powerful				45
 Octomammoth	Harbor Herring	9	17				Heavy	Powerful				230
 Zephyr Drift												
 Merlthor Goby	Lugworm						Light					
 Lominsan Anchovy	Lugworm						Light					
 Finger Shrimp	Lugworm						Light					
 Ocean Cloud	Pill Bug						Light					
-Sea Cucumber	Rat Tail						Light					
+Sea Cucumber	Goby Ball						Light					
 Harbor Herring	Pill Bug						Medium	Powerful				
-Coral Butterfly	Pill Bug						Medium	Powerful				
-Angelfish	Rat Tail						Medium	Powerful				
+Coral Butterfly	Floating Minnow						Medium	Powerful				
+Angelfish	Steel Jig						Medium	Powerful				
 Blue Octopus	Merlthor Goby						Medium	Powerful				
-Zalera	Rat Tail	9	14				Heavy	Powerful				201
+Zalera	Rat Tail	9	14				Heavy	Precision				201
 Rogue River												
 Crayfish	Moth Pupa						Light					
 Chub	Moth Pupa						Light					
 Dwarf Catfish	Moth Pupa						Light					
 Princess Trout	Crayfish Ball						Medium	Powerful				
 La Noscean Perch	Sinking Minnow						Medium	Powerful				
-Beguiler Chub	Moth Pupa	9	14				Heavy	Powerful				202
+Beguiler Chub	Moth Pupa	9	14				Heavy	Precision				202
 West Agelyss River												
 Crayfish	Moth Pupa						Light					
 Chub	Moth Pupa						Light					
@@ -44,7 +44,7 @@ Dwarf Catfish	Moth Pupa						Light
 Princess Trout	Crayfish Ball						Medium	Powerful				
 Gudgeon	Crayfish Ball						Light					
 La Noscean Perch	Sinking Minnow						Medium	Powerful				
-Great Gudgeon	Crayfish Ball						Heavy	Powerful				211
+Great Gudgeon	Crayfish Ball						Heavy	Precision				211
 Summerford												
 Merlthor Goby	Lugworm						Light					
 Finger Shrimp	Lugworm						Light					
@@ -82,7 +82,7 @@ Princess Trout	Crayfish Ball						Medium	Powerful
 Dusk Goby	Crayfish Ball						Light					
 Gudgeon	Crayfish Ball						Light					
 Maiden Carp	Wildfowl Fly						Medium	Powerful				
-Caterwauler	Moth Pupa						Heavy	Powerful				204
+Caterwauler	Moth Pupa						Heavy	Precision				204
 Moraby Bay												
 Merlthor Goby	Lugworm						Light					
 Malm Kelp	Pill Bug						Light					
@@ -131,7 +131,7 @@ Tiger Cod	Rat Tail						Medium	Powerful
 Rothlyt Oyster	Rat Tail						Light					
 Navigator's Dagger	Yumizuno						Medium	Powerful				
 Blue Octopus	Merlthor Goby						Medium	Powerful				
-Jacques the Snipper	Goby Ball	21	3				Heavy	Powerful				235
+Jacques the Snipper	Goby Ball	21	3				Heavy	Precision				235
 Empty Heart												
 Dusk Goby	Crayfish Ball						Light					
 Crimson Crayfish	Crayfish Ball						Light					
@@ -157,7 +157,7 @@ Bone Crayfish	Moth Pupa						Light
 Acorn Snail	Midge Basket						Light					
 Blindfish	Syrphid Basket						Light					
 Lamp Marimo	Chocobo Fly						Light					74
-Cupfish	Syrphid Basket	17	19				Heavy	Powerful				238
+Cupfish	Syrphid Basket	17	19				Heavy	Precision				238
 South Bloodshore												
 Merlthor Goby	Lugworm						Light					
 Coral Butterfly	Pill Bug						Medium	Powerful				
@@ -220,8 +220,8 @@ Dark Sleeper	Midge Basket	15	10				Light
 Mitten Crab	Honey Worm						Light					
 Spotted Puffer	Honey Worm						Light					
 Discus	Honey Worm						Medium	Powerful				
-Kobold Puffer	Spinnerbait						Light					
-The Salter	Honey Worm	17	20				Heavy	Powerful				261
+Kobold Puffer	Spinnerbait						Light	Precision				
+The Salter	Honey Worm	17	20				Heavy	Precision				261
 East Agelyss River												
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Copperfish	Butterworm						Light					
@@ -250,9 +250,9 @@ Mudcrab	Honey Worm						Light
 Lamprey	Copperfish						Light					
 Grip Killifish	Chocobo Fly						Light					
 Silverfish	Honey Worm						Light					
-Sludgeskipper	Stem Borer						Light					
+Sludgeskipper	Stem Borer						Light	Precision				
 Vampire Lampern	Silverfish						Medium	Powerful				
-Mirrorscale	Copperfish	9	16		Clear Skies, Fair Skies		Heavy	Powerful				276
+Mirrorscale	Copperfish	9	16		Clear Skies, Fair Skies		Heavy	Precision				276
 Red Mantis Falls												
 Mitten Crab	Honey Worm						Light					
 Silverfish	Honey Worm						Light					
@@ -293,7 +293,7 @@ Rothlyt Oyster	Rat Tail						Light
 Razor Clam	Rat Tail						Light					
 Blue Octopus	Merlthor Goby						Medium	Powerful				
 Wahoo	Merlthor Goby						Medium	Powerful				116
-Goosefish	Wahoo						Light					
+Goosefish	Wahoo						Light	Powerful				
 Junkmonger	Wahoo	16	2				Heavy	Powerful				207
 The Brewer's Beacon												
 White Coral	Goby Ball						Light					
@@ -302,7 +302,7 @@ Helmet Crab	Rat Tail						Light
 Rothlyt Oyster	Rat Tail						Light					
 Navigator's Dagger	Yumizuno						Medium	Powerful				
 Ogre Barracuda	Harbor Herring						Medium	Powerful				
-Gigant Octopus	Ogre Barracuda						Heavy					
+Gigant Octopus	Ogre Barracuda						Heavy	Powerful				
 Navigator's Brand	Yumizuno	9	14		Clear Skies, Fair Skies		Heavy	Powerful				216
 Halfstone												
 Saber Sardine	Heavy Steel Jig						Light					
@@ -323,7 +323,7 @@ Silver Shark	Merlthor Goby						Medium	Powerful
 Wahoo	Merlthor Goby						Medium	Powerful				116
 Pike Eel	Yumizuno						Medium	Powerful				
 Sunfish	Ocean Cloud						Medium	Powerful				
-Helmsman's Hand	Ocean Cloud	9	15		Fog, Clouds, Wind		Heavy					277
+Helmsman's Hand	Ocean Cloud	9	15		Fog, Clouds, Wind		Heavy	Powerful				277
 The Ship Graveyard												
 Merlthor Goby	Lugworm						Light					
 Red Coral	Herring Ball						Small					
@@ -409,7 +409,7 @@ Ignus Snail	Stem Borer						Light
 Thunderbolt Sculpin	Stem Borer				Rain, Showers		Medium	Powerful				113
 Warmwater Trout	Crow Fly						Medium	Powerful				
 Bronze Lake Trout	Spinnerbait						Medium	Powerful				
-Giant Donko	Spinnerbait	4	9				Light					157
+Giant Donko	Spinnerbait	4	9				Light	Powerful				157
 Thundergut	Stem Borer	19	3		Rain		Heavy	Powerful				273
 Northwest Bronze Lake												
 Jade Eel	Butterworm	17	10				Medium	Powerful				
@@ -462,7 +462,7 @@ Pipira	Crayfish Ball						Light
 Gudgeon	Crayfish Ball						Light					
 Maiden Carp	Wildfowl Fly						Medium	Powerful				
 Moat Carp	Crow Fly						Light					
-Carp Diem	Crow Fly	9	14		Fog, Clouds		Heavy	Powerful				224
+Carp Diem	Crow Fly	9	14		Fog, Clouds		Heavy	Precision				224
 The Vein												
 Copperfish	Butterworm						Light					
 Crayfish	Moth Pupa						Light					
@@ -489,23 +489,23 @@ Monke Onke	Ala Mhigan Fighting Fish						Light
 Mitten Crab	Honey Worm						Light					
 Spotted Pleco	Syrphid Basket						Medium	Powerful				
 Bonytongue	Streamer						Medium	Powerful				
-Levinlight	Syrphid Basket	18	23				Heavy					256
+Levinlight	Syrphid Basket	18	23				Heavy	Powerful				256
 Hopeseed Pond												
 Mudcrab	Honey Worm						Light					
 Black Eel	Butterworm	17	10				Medium	Powerful				
 Ala Mhigan Fighting Fish	Midge Basket						Light					
-Black Ghost	Ala Mhigan Fighting Fish											
+Black Ghost	Ala Mhigan Fighting Fish							Powerful				
 Mudskipper	Midge Basket											
 Clown Loach	Honey Worm						Light					
 Seema	Wildfowl Fly						Medium	Powerful				
-The Green Jester	Honey Worm	18	21									270
+The Green Jester	Honey Worm	18	21					Powerful				270
 Haukke Manor												
 Mudskipper	Midge Basket											
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Mudcrab	Honey Worm						Light					
 Monke Onke	Ala Mhigan Fighting Fish						Light					
 Silverfish	Honey Worm						Light					
-Bloodbath	Silverfish				Thunder							271
+Bloodbath	Silverfish				Thunder			Powerful				271
 Sweetbloom Pier												
 Copperfish	Butterworm						Light					
 Bone Crayfish	Moth Pupa						Light					
@@ -525,7 +525,7 @@ River Crab	Butterworm						Light
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Bluebell Salmon	Floating Minnow							Powerful				
 Eunuch Crayfish	Copperfish						Light					
-Moldva	Ala Mhigan Fighting Fish	18	2									206
+Moldva	Ala Mhigan Fighting Fish	18	2					Powerful				206
 Sanctum of the Twelve												
 Bone Crayfish	Moth Pupa						Light					
 River Crab	Butterworm						Light					
@@ -534,7 +534,7 @@ Moat Carp	Crow Fly						Light
 Tri-colored Carp	Butterworm						Medium	Powerful				
 Pond Mussel	Butterworm						Light					
 Dark Bass	Crow Fly						Medium	Powerful				
-The Assassin	Butterworm	21	23									243
+The Assassin	Butterworm	21	23					Powerful				243
 Verdant Drop												
 Rainbow Trout	Crow Fly						Medium	Powerful				
 River Crab	Butterworm						Light					
@@ -544,15 +544,15 @@ Climbing Perch	Bass Ball
 Yugr'am Salmon	Bass Ball											
 Spotted Pleco	Syrphid Basket						Medium	Powerful				
 Fall Jumper	Copperfish						Medium	Powerful				
-Sylphsbane	Copperfish				Rain							248
+Sylphsbane	Copperfish				Rain			Powerful				248
 Sylphlands												
 Giant Bass	Honey Worm						Medium	Powerful				
 Velodyna Carp	Streamer							Powerful				
-Oakroot	Streamer	17	10									
+Oakroot	Streamer	17	10					Powerful				
 Common Sculpin	Spinnerbait						Light					
-Southern Pike	Topwater Frog											
+Southern Pike	Topwater Frog							Powerful				
 Mushroom Crab	Common Sculpin				Fog, Clouds							173
-Magicked Mushroom	Common Sculpin			Rain, Thunder	Fog, Clouds							309
+Magicked Mushroom	Common Sculpin			Rain, Thunder	Fog, Clouds			Powerful				309
 Upper Hathoeva River												
 Copperfish	Butterworm						Light					
 Rainbow Trout	Bloodworm						Medium					
@@ -563,7 +563,7 @@ Dark Sleeper	Midge Basket	15	10				Light
 Eunuch Crayfish	Copperfish						Light					
 Black Eel	Butterworm	17	10				Medium	Powerful				
 Velodyna Carp	Streamer							Powerful				
-Vip Viper	Butterworm	18	19									244
+Vip Viper	Butterworm	18	19					Powerful				244
 Lower Hathoeva River												
 Copperfish	Butterworm						Light					
 Rainbow Trout	Bloodworm						Medium	Powerful				
@@ -575,7 +575,7 @@ Black Eel	Butterworm	17	10				Medium	Powerful
 Climbing Perch	Bass Ball											
 Yugr'am Salmon	Bass Ball											
 Velodyna Carp	Streamer							Powerful				
-Floating Boulder	Bass Ball	0	8		Fog, Clouds							249
+Floating Boulder	Bass Ball	0	8		Fog, Clouds			Powerful				249
 East Hathoeva River												
 Rainbow Trout	Bloodworm						Medium	Powerful				
 Faerie Bass	Midge Basket						Medium	Powerful				
@@ -585,7 +585,7 @@ Mudcrab	Honey Worm						Light
 Eunuch Crayfish	Copperfish						Light					
 Black Eel	Butterworm	17	10				Medium	Powerful				
 Velodyna Carp	Streamer							Powerful				
-The Grinner	Syrphid Basket											250
+The Grinner	Syrphid Basket							Powerful				250
 Middle Hathoeva River												
 Rainbow Trout	Bloodworm						Medium	Powerful				
 Dark Sleeper	Midge Basket	15	10				Light					
@@ -593,39 +593,39 @@ Five-ilm Pleco	Floating Minnow
 Yugr'am Salmon	Bass Ball											
 Mitten Crab	Honey Worm						Light					
 Seema	Wildfowl Fly						Medium	Powerful				
-Armored Pleco	Freshwater Boilie											
+Armored Pleco	Freshwater Boilie							Powerful				
 Velodyna Carp	Streamer							Powerful				
-The Sinker	Sinking Minnow	21	3		Clear Skies, Fair Skies							257
+The Sinker	Sinking Minnow	21	3		Clear Skies, Fair Skies			Powerful				257
 Goblinblood												
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Mudcrab	Honey Worm						Light					
 Dark Bass	Crow Fly						Medium	Powerful				
 Five-ilm Pleco	Bass Ball											
-Black Ghost	Ala Mhigan Fighting Fish											
+Black Ghost	Ala Mhigan Fighting Fish							Powerful				
 Yugr'am Salmon	Bass Ball											
 Bonytongue	Streamer						Medium	Powerful				
 Silverfish	Honey Worm						Light					
-Goblin Perch	Silverfish											
-The Gobfather	Silverfish				Thunder, Thunderstorms							258
+Goblin Perch	Silverfish							Powerful				
+The Gobfather	Silverfish				Thunder, Thunderstorms			Powerful				258
 Rootslake												
 Bone Crayfish	Moth Pupa						Light					
 Climbing Perch	Bass Ball											
-Root Skipper	Syrphid Basket											
+Root Skipper	Syrphid Basket							Precision				
 Mitten Crab	Honey Worm						Light					
-Armored Pleco	Honey Worm											
-Judgment Staff	Caddisfly Larva				Thunder, Thunderstorms							174
-Son of Levin	Caddisfly Larva				Thunderstorms							272
+Armored Pleco	Honey Worm							Powerful				
+Judgment Staff	Caddisfly Larva				Thunder, Thunderstorms			Powerful				174
+Son of Levin	Caddisfly Larva				Thunderstorms			Powerful				272
 Urth's Gift												
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Monke Onke	Ala Mhigan Fighting Fish						Light					
 Bonytongue	Streamer						Medium	Powerful				
 Mitten Crab	Honey Worm						Light					
 Velodyna Carp	Streamer							Powerful				
-Southern Pike	Topwater Frog											
+Southern Pike	Topwater Frog							Powerful				
 Boxing Pleco	Glowworm											141
-Takitaro	Streamer											
-Giant Takitaro	Glowworm				Thunder, Thunderstorms							310
-Namitaro	Topwater Frog				N/A	Giant Takitaro, 1						311
+Takitaro	Streamer							Powerful				
+Giant Takitaro	Glowworm				Thunder, Thunderstorms			Powerful				310
+Namitaro	Topwater Frog				N/A	Giant Takitaro, 1		Powerful				311
 Murmur Rills												
 Brass Loach	Wildfowl Fly						Medium	Powerful				
 Maiden Carp	Wildfowl Fly						Medium	Powerful				
@@ -633,7 +633,7 @@ Rainbow Trout	Bloodworm						Medium	Powerful
 River Crab	Butterworm						Light					
 Bluebell Salmon	Floating Minnow							Powerful				
 Tri-colored Carp	Butterworm						Medium	Powerful				
-Blue Widow	Floating Minnow	9	14		N/A							222
+Blue Widow	Floating Minnow	9	14		N/A			Powerful				222
 Fallgourd Float												
 Striped Goby	Moth Pupa						Light					
 Brass Loach	Wildfowl Fly						Medium	Powerful				
@@ -643,17 +643,17 @@ Ala Mhigan Fighting Fish	Midge Basket						Light
 Faerie Bass	Midge Basket						Medium					
 Dark Sleeper	Midge Basket	15	10				Light					
 Shadow Catfish	Striped Goby											
-Judgeray	Wildfowl Fly	17	21				Heavy					218
+Judgeray	Wildfowl Fly	17	21				Heavy	Powerful				218
 Proud Creek												
 Pond Mussel	Butterworm						Light					
 Mitten Crab	Honey Worm						Light					
 Seema	Wildfowl Fly						Medium	Powerful				
-Golden Loach	Honey Worm											
+Golden Loach	Honey Worm							Precision				
 Loyal Pleco	Stem Borer						Medium	Powerful				
-Oakroot	Streamer	17	10									
-Southern Pike	Topwater Frog											
+Oakroot	Streamer	17	10					Powerful				
+Southern Pike	Topwater Frog							Powerful				
 Pirarucu	Streamer											
-Shadowstreak	Topwater Frog	4	10		Fog							283
+Shadowstreak	Topwater Frog	4	10		Fog			Powerful				283
 Lake Tahtotl												
 Mudcrab	Honey Worm						Light					
 Pond Mussel	Butterworm						Light					
@@ -662,8 +662,8 @@ Silverfish	Honey Worm						Light
 Assassin Betta	Silverfish				Gloom							
 Boxing Pleco	Glowworm											141
 Goldfish	Silverfish						Light					
-Bowfin	Goldfish											
-Cornelia	Rainbow Spoon Lure					Boxing Pleco, 5						296
+Bowfin	Goldfish							Powerful				
+Cornelia	Rainbow Spoon Lure					Boxing Pleco, 5		Powerful				296
 The Lavender Beds												
 Pipira	Crayfish Ball						Light					
 Dark Sleeper	Midge Basket	15	10				Light					
@@ -673,7 +673,7 @@ Shadow Catfish	Ala Mhigan Fighting Fish
 Spotted Pleco	Syrphid Basket						Medium	Powerful				
 Bonytongue	Streamer						Medium	Powerful				
 Monke Onke	Ala Mhigan Fighting Fish						Light					
-Sweetnewt	Ala Mhigan Fighting Fish	23	4		Fog							259
+Sweetnewt	Ala Mhigan Fighting Fish	23	4		Fog			Powerful				259
 Nophica's Wells												
 Bone Crayfish	Moth Pupa						Light					
 Dusk Goby	Crayfish Ball						Light					
@@ -706,10 +706,10 @@ Lominsan Anchovy	Lugworm						Light
 Razor Clam	Rat Tail						Light					
 Blowfish	Northern Krill						Medium	Powerful				
 Saber Sardine	Heavy Steel Jig											
-Monkfish	Heavy Steel Jig											
+Monkfish	Heavy Steel Jig							Powerful				
 Spotted Puffer	Honey Worm						Light					
 Rock Lobster	Northern Krill	17	22				Medium	Powerful				149
-Fingers	Northern Krill	17	18									242
+Fingers	Northern Krill	17	18					Powerful				242
 The Silver Bazaar												
 Lominsan Anchovy	Lugworm						Light					
 Pebble Crab	Yumizuno						Light					
@@ -728,31 +728,31 @@ Wahoo	Merlthor Goby						Medium	Powerful				116
 Blacklip Oyster	Krill Cage Feeder						Light					
 Plaice	Yumizuno						Medium	Powerful				
 Sea Devil	Yumizuno						Medium	Powerful				
-Titanic Sawfish	Wahoo	9	15		Clear Skies, Fair Skies							180
-Pirate's Bane	Wahoo					Wahoo, 6						300
+Titanic Sawfish	Wahoo	9	15		Clear Skies, Fair Skies			Powerful				180
+Pirate's Bane	Wahoo					Wahoo, 6		Powerful				300
 Moondrip												
 Blindfish	Syrphid Basket						Light					
 Grip Killifish	Chocobo Fly						Light					
 Silverfish	Honey Worm						Light					
 Assassin Betta	Silverfish											
-Garpike	Silverfish				Fog							
-Ndendecki	Assassin Betta	18	5		Fog							301
+Garpike	Silverfish				Fog			Powerful				
+Ndendecki	Assassin Betta	18	5		Fog			Powerful				301
 Parata's Peace												
 Grip Killifish	Chocobo Fly						Light					
 Silverfish	Honey Worm						Light					
 Ignus Snail	Stem Borer						Light					
-Sludgeskipper	Stem Borer						Light					
-Boltfish	Silverfish											
+Sludgeskipper	Stem Borer						Light	Precision				
+Boltfish	Silverfish							Powerful				
 Ilsabardian Bass	Topwater Frog											
 Vampire Lampern	Silverfish						Medium	Powerful				
-Bat-o'-Nine-Tails	Silverfish			Rain	Fog, Clouds, Clear Skies, Fair Skies							302
+Bat-o'-Nine-Tails	Silverfish			Rain	Fog, Clouds, Clear Skies, Fair Skies			Powerful				302
 Upper Soot Creek												
 Bone Crayfish	Moth Pupa						Light					
 Dusk Goby	Crayfish Ball						Light					
 Brass Loach	Wildfowl Fly						Medium	Powerful				
 Maiden Carp	Wildfowl Fly						Medium	Powerful				
 Dark Bass	Crow Fly						Medium	Powerful				
-Dream Goby	Crayfish Ball	17	3									215
+Dream Goby	Crayfish Ball	17	3					Precision				215
 Lower Soot Creek												
 Bone Crayfish	Moth Pupa						Light					
 Dusk Goby	Crayfish Ball						Light					
@@ -760,7 +760,7 @@ Brass Loach	Wildfowl Fly						Medium	Powerful
 Maiden Carp	Wildfowl Fly						Medium	Powerful				
 Dark Bass	Crow Fly						Medium	Powerful				
 Aegis Shrimp	Bass Ball											
-Slime King	Crayfish Ball	19	24									221
+Slime King	Crayfish Ball	19	24					Precision				221
 The Clutch												
 Bone Crayfish	Moth Pupa						Light					
 Dusk Goby	Crayfish Ball						Light					
@@ -776,7 +776,7 @@ Mudcrab	Honey Worm						Light
 Acorn Snail	Midge Basket						Light					
 Dark Bass	Crow Fly						Medium	Powerful				
 Aegis Shrimp	Bass Ball											
-Dark Knight	Crow Fly				Fog, Clouds, Dust Storms							212
+Dark Knight	Crow Fly				Fog, Clouds, Dust Storms			Powerful				212
 North Drybone												
 Dusk Goby	Crayfish Ball						Light					
 Mudskipper	Midge Basket											
@@ -792,15 +792,15 @@ Faerie Bass	Midge Basket						Medium	Powerful
 Acorn Snail	Midge Basket						Light					
 Mudcrab	Honey Worm						Light					
 Bone Cleaner	Syrphid Basket											
-Mud Pilgrim	Midge Basket	17	7		Rain, Showers							225
+Mud Pilgrim	Midge Basket	17	7		Rain, Showers			Powerful				225
 Yugr'am River												
 Warmwater Trout	Crow Fly						Medium	Powerful				
 Black Eel	Butterworm	17	10				Medium	Powerful				
 Dark Bass	Crow Fly						Medium	Powerful				
 Yugr'am Salmon	Bass Ball											
 Mitten Crab	Honey Worm						Light					
-Trader Eel	Honey Worm											
-The Warden's Wand	Honey Worm	17	20		Clear Skies							254
+Trader Eel	Honey Worm							Powerful				
+The Warden's Wand	Honey Worm	17	20		Clear Skies			Powerful				254
 The Burning Wall												
 Yugr'am Salmon	Bass Ball											
 Bonytongue	Streamer						Medium	Powerful				
@@ -808,35 +808,35 @@ Discus	Honey Worm						Medium	Powerful
 Ignus Snail	Stem Borer						Light					
 Loyal Pleco	Stem Borer						Medium	Powerful				
 Knifefish	Glowworm						Medium	Powerful				
-Southern Pike	Topwater Frog											
+Southern Pike	Topwater Frog							Powerful				
 Gigantpole	Topwater Frog											
-Sundisc	Caddisfly Larva	10	15		Clear Skies, Fair Skies							158
-The Thousand-year Itch	Stem Borer				Fog							278
+Sundisc	Caddisfly Larva	10	15		Clear Skies, Fair Skies			Powerful				158
+The Thousand-year Itch	Stem Borer				Fog			Powerful				278
 Burnt Lizard Creek												
 Copperfish	Butterworm						Light					
 Warmwater Trout	Crow Fly						Medium	Powerful				
 Dark Bass	Crow Fly						Medium	Powerful				
 Lamprey	Copperfish						Light					
-Plaguefish	Chocobo Fly											
-Old Hollow Eyes	Copperfish				Fog							247
+Plaguefish	Chocobo Fly							Precision				
+Old Hollow Eyes	Copperfish				Fog			Powerful				247
 Zahar'ak												
 Moat Carp	Crow Fly						Light					
 Mudcrab	Honey Worm						Light					
-Plaguefish	Bass Ball											
+Plaguefish	Bass Ball							Precision				
 Clown Loach	Honey Worm						Light					
 Discus	Honey Worm						Medium	Powerful				
 Ignus Snail	Stem Borer						Light					
 Paglth'an Discus	Glowworm				Heat Waves, Fair Skies, Clear Skies							140
-Discobolus	Glowworm	12	18		Heat Waves							264
+Discobolus	Glowworm	12	18		Heat Waves			Powerful				264
 Forgotten Springs												
 Copperfish	Butterworm						Light					
 Warmwater Trout	Crow Fly						Medium	Powerful				
 Lamprey	Copperfish						Light					
-Plaguefish	Chocobo Fly											
-Ropefish	Silver Spoon Lure											
+Plaguefish	Chocobo Fly							Precision				
+Ropefish	Silver Spoon Lure							Powerful				
 Clown Loach	Honey Worm						Light					
-Golden Loach	Honey Worm											
-Iron Noose	Spinner				Fog							265
+Golden Loach	Honey Worm							Precision				
+Iron Noose	Spinner				Fog			Powerful				265
 Sagolii Desert												
 Sandfish	Freshwater Boilie											
 Sand Bream	Rolling Stone											
@@ -844,39 +844,39 @@ Dustfish	Rolling Stone
 Storm Rider	Sand Leech											
 Antlion Slug	Sand Gecko											
 Dune Manta	Storm Rider											
-Sagolii Monkfish	Sandfish											
-Magic Carpet	Storm Rider	9	16		Heat Waves							267
-Helicoprion	Storm Rider	8	20	Fog, Clouds	Heat Waves							304
+Sagolii Monkfish	Sandfish							Powerful				
+Magic Carpet	Storm Rider	9	16		Heat Waves			Powerful				267
+Helicoprion	Storm Rider	8	20	Fog, Clouds	Heat Waves			Powerful				304
 Sagolii Dunes												
 Sand Bream	Sand Leech											
-Desert Catfish	Sand Leech											
+Desert Catfish	Sand Leech							Powerful				
 Dustfish	Sand Leech											
 Storm Rider	Sand Leech											
 Antlion Slug	Sand Gecko											
 Dune Manta	Storm Rider											
-Caravan Eel	Storm Rider											
-Olgoi-Khorkhoi	Storm Rider				Heat Waves							266
+Caravan Eel	Storm Rider							Powerful				
+Olgoi-Khorkhoi	Storm Rider				Heat Waves			Powerful				266
 Bluefog												
 Bone Crayfish	Moth Pupa						Light					
 Silverfish	Honey Worm						Light					
 Giant Bass	Honey Worm						Medium					
-Golden Loach	Honey Worm											
+Golden Loach	Honey Worm							Precision				
 Ignus Snail	Stem Borer						Light					
-Knifefish	Glowworm						Medium					
+Knifefish	Glowworm						Medium	Powerful				
 Common Sculpin	Spinnerbait						Light					
-Garpike	Silverfish											
-Alligator Garfish	Common Sculpin											
-Hannibal	Common Sculpin	22	4		Fog							279
+Garpike	Silverfish							Powerful				
+Alligator Garfish	Common Sculpin							Powerful				
+Hannibal	Common Sculpin	22	4		Fog			Powerful				279
 Ceruleum Field												
 Grip Killifish	Chocobo Fly						Light					
 Silverfish	Honey Worm						Light					
 Ignus Snail	Stem Borer						Light					
-Sludgeskipper	Stem Borer						Light					
-Boltfish	Silverfish											
+Sludgeskipper	Stem Borer						Light	Precision				
+Boltfish	Silverfish							Powerful				
 Ilsabardian Bass	Topwater Frog											
 Goldfish	Silverfish						Light					
-Wootz Knifefish	Goldfish											
-Wootz Knifefish Zenith	Silverfish	1	4	Clear Skies, Fair Skies	Fog							303
+Wootz Knifefish	Goldfish							Powerful				
+Wootz Knifefish Zenith	Silverfish	1	4	Clear Skies, Fair Skies	Fog			Powerful				303
 The Goblet												
 Brass Loach	Wildfowl Fly						Medium	Powerful				
 Faerie Bass	Midge Basket						Medium	Powerful				
@@ -895,25 +895,25 @@ Seema	Wildfowl Fly						Medium	Powerful
 Giant Bass	Honey Worm						Medium	Powerful				
 Crimson Trout	Spinner											
 Kissing Trout	Striped Goby											
-Daniffen's Mark	Wildfowl Fly				Blizzards							268
+Daniffen's Mark	Wildfowl Fly				Blizzards			Powerful				268
 Daniffen Pass												
 Striped Goby	Moth Pupa						Light					
 Blindfish	Syrphid Basket						Light					
 Lamp Marimo	Chocobo Fly						Light					74
 Abalathian Smelt	Stonefly Nymph											
-Golden Loach	Topwater Frog											
-Cave Cherax	Striped Goby											
-Charon's Lantern	Glowworm	0	4		N/A							269
+Golden Loach	Topwater Frog							Precision				
+Cave Cherax	Striped Goby							Powerful				
+Charon's Lantern	Glowworm	0	4		N/A			Precision				269
 The Nail												
 Striped Goby	Moth Pupa						Light					
 Abalathian Smelt	Stonefly Nymph											
 Giant Bass	Honey Worm						Medium	Powerful				
 Crimson Trout	Wildfowl Fly											
 Bronze Lake Trout	Spinnerbait						Medium	Powerful				
-Northern Pike	Topwater Frog											
+Northern Pike	Topwater Frog							Precision				
 Kissing Trout	Striped Goby											
-Emperor Fish	Abalathian Smelt											
-Starbright	Abalathian Smelt	21	4		Clear Skies, Fair Skies							281
+Emperor Fish	Abalathian Smelt							Powerful				
+Starbright	Abalathian Smelt	21	4		Clear Skies, Fair Skies			Powerful				281
 Dragonhead Latrines												
 Striped Goby	Moth Pupa						Light					
 Rainbow Trout	Crow Fly						Medium	Powerful				
@@ -921,22 +921,22 @@ Abalathian Smelt	Stonefly Nymph
 Seema	Wildfowl Fly						Medium	Powerful				
 Crimson Trout	Spinner											
 Kissing Trout	Striped Goby											
-Dawn Maiden	Wildfowl Fly	5	7		Clear Skies, Fair Skies							280
+Dawn Maiden	Wildfowl Fly	5	7		Clear Skies, Fair Skies			Powerful				280
 Exploratory Ice Hole												
 Lamp Marimo	Chocobo Fly						Light					74
 Abalathian Smelt	Brute Leech											
-Northern Pike	Topwater Frog											
+Northern Pike	Topwater Frog							Precision				
 Kissing Trout	Abalathian Smelt											
-The Matriarch	Abalathian Smelt											282
+The Matriarch	Abalathian Smelt							Precision				282
 The Weeping Saint												
 Lamp Marimo	Chocobo Fly						Light					74
 Abalathian Smelt	Stonefly Nymph											
 Giant Bass	Honey Worm						Medium	Powerful				
 Crimson Trout	Wildfowl Fly											
 Common Sculpin	Spinnerbait						Light					
-Northern Pike	Topwater Frog											
-Angry Pike	Abalathian Smelt											
-Darkstar	Abalathian Smelt	19	4		Blizzards, Snow	Lamp Marimo, 5						305
+Northern Pike	Topwater Frog							Precision				
+Angry Pike	Abalathian Smelt							Powerful				
+Darkstar	Abalathian Smelt	19	4		Blizzards, Snow	Lamp Marimo, 5		Powerful				305
 Snowcloak												
 Rainbow Trout	Crow Fly						Medium	Powerful				
 Seema	Wildfowl Fly						Medium	Powerful				
@@ -949,7 +949,7 @@ Skyfish	Hoverworm
 Cloud Cutter	Hoverworm											
 Blind Manta	Cloud Cutter											
 Rift Sailor	Hoverworm											
-Anomalocaris	Cloud Cutter	10	15		Clear Skies, Fair Skies							285
+Anomalocaris	Cloud Cutter	10	15		Clear Skies, Fair Skies			Powerful				285
 Witchdrop												
 Cloud Jellyfish	Balloon Bug											
 Skyfish	Balloon Bug											
@@ -957,9 +957,9 @@ Cloud Cutter	Hoverworm
 Blind Manta	Cloud Cutter											
 Rift Sailor	Balloon Bug											
 Saucerfish	Cloud Cutter											
-Rhamphorhynchus	Saucerfish											
+Rhamphorhynchus	Saucerfish							Powerful				
 Mahar	Cloud Cutter			Clear Skies, Fair Skies	Blizzards							307
-Shonisaurus	Mahar			N/A	N/A							308
+Shonisaurus	Mahar			N/A	N/A			Powerful				308
 Riversmeet												
 Abalathian Smelt	Stonefly Nymph											
 Coerthan Crab	Stonefly Nymph											
@@ -969,8 +969,8 @@ Greytail Falls
 Cloud Coral	Balloon Bug											
 Skyworm	Giant Crane Fly											
 Glacier Core	Red Balloon				Blizzards, Snow							324
-Warballoon	Skyworm				Fair Skies, Clear Skies						1	399
-Rime Eater	Glacier Core				Snow, Blizzards							366
+Warballoon	Skyworm				Fair Skies, Clear Skies			Precision			1	399
+Rime Eater	Glacier Core				Snow, Blizzards			Precision				366
 Hailfinder	Glacier Core				Blizzards							478
 Unfrozen Pond												
 Abalathian Smelt	Stonefly Nymph											
@@ -978,23 +978,23 @@ Icepick	Goblin Jig							Precision				314
 Ice Faerie	Purse Web Spider											316
 Sorcerer Fish	Stonefly Nymph	8	20									326
 Albino Octopus	Brute Leech	8	17									396
-Coerthan Clione	Brute Leech	0	2		Blizzards							439
-Flarefish	Ice Faerie	10	16		Blizzards							479
+Coerthan Clione	Brute Leech	0	2		Blizzards			Precision				439
+Flarefish	Ice Faerie	10	16		Blizzards			Powerful				479
 Clearpool												
 Abalathian Smelt	Stonefly Nymph											
 Ice Faerie	Purse Web Spider											316
 Coerthan Crab	Stonefly Nymph											
 Hotrod	Brute Leech				Snow, Blizzards							327
 Capelin	Brute Leech	0	6									437
-Priestfish	Brute Leech											
-Ghost Faerie	Stonefly Nymph											
-Bishopfish	Brute Leech	10	14	Snow, Blizzards, Fog	Clear Skies						1	489
-Charibenet	Ice Faerie	0	3		Blizzards	Ice Faerie, 5						504
+Priestfish	Brute Leech							Powerful				
+Ghost Faerie	Stonefly Nymph							Precision				
+Bishopfish	Brute Leech	10	14	Snow, Blizzards, Fog	Clear Skies			Powerful			1	489
+Charibenet	Ice Faerie	0	3		Blizzards	Ice Faerie, 5		Precision				504
 Dragonspit												
 Ogre Horn Snail	Stonefly Nymph											
-Cherry Trout	Bladed Steel Jig											
+Cherry Trout	Bladed Steel Jig							Powerful				
 Hospitalier Fish	Purse Web Spider											
-Spring Urchin	Brute Leech									1		
+Spring Urchin	Brute Leech							Precision		1		
 The Impaler	Brute Leech							Precision		1		463
 South Banepool												
 Abalathian Smelt	Stonefly Nymph											
@@ -1005,17 +1005,17 @@ Ammonite	Goblin Jig
 Seema Patrician	Stonefly Nymph											
 Fanged Clam	Ice Faerie											
 Mountain Kraken	Brute Leech				N/A						1	459
-Magic Bucket	Brute Leech									1		461
+Magic Bucket	Brute Leech							Powerful		1		461
 Captain Nemo	Brute Leech				Blizzards							490
 Ashpool												
 Abalathian Smelt	Stonefly Nymph											
 Ice Faerie	Purse Web Spider											316
 Fanged Clam	Goblin Jig											
 Lake Urchin	Stonefly Nymph									1		
-Gigant Grouper	Abalathian Smelt											
-Battle Galley	Ice Faerie											
+Gigant Grouper	Abalathian Smelt							Powerful				
+Battle Galley	Ice Faerie							Powerful				
 Northern Oyster	Stonefly Nymph											
-La Reale	Brute Leech											464
+La Reale	Brute Leech							Powerful				464
 West Banepool												
 Fanged Clam	Goblin Jig											
 Lake Urchin	Goblin Jig									1		
@@ -1028,12 +1028,12 @@ North Silvertear
 Lamp Marimo	Chocobo Fly						Light					74
 Silverfish	Honey Worm						Light					
 Ignus Snail	Stem Borer						Light					
-Sludgeskipper	Stem Borer						Light					
+Sludgeskipper	Stem Borer						Light	Precision				
 Assassin Betta	Glowworm											
 Ilsabardian Bass	Glowworm											
 Goldfish	Silverfish						Light					
-Heliobatis	Caddisfly Larva	17	9									178
-Aetherlouse	Glowworm	3	13		Gloom							287
+Heliobatis	Caddisfly Larva	17	9					Powerful				178
+Aetherlouse	Glowworm	3	13		Gloom			Powerful				287
 The Deep Tangle												
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Dark Bass	Crow Fly						Medium	Powerful				
@@ -1051,9 +1051,9 @@ Bonytongue	Streamer						Medium	Powerful
 Silverfish	Honey Worm						Light					
 Giant Bass	Honey Worm						Medium	Powerful				
 Knifefish	Glowworm						Medium	Powerful				
-Garpike	Silverfish											
+Garpike	Silverfish							Powerful				
 Ilsabardian Bass	Topwater Frog											
-Blood Red Bonytongue	Silverfish	4	12	Clear Skies, Fair Skies	Fog							312
+Blood Red Bonytongue	Silverfish	4	12	Clear Skies, Fair Skies	Fog			Powerful				312
 Rathefrost												
 Lamp Marimo	Chocobo Fly						Light					74
 Silverfish	Honey Worm						Light					
@@ -1064,17 +1064,17 @@ Assassin Betta	Silverfish
 Ilsabardian Bass	Topwater Frog											
 Goldfish	Silverfish						Light					
 Poxpike	Goldfish											
-Void Bass	Glowworm			Clear Skies, Fair Skies	Gloom							295
+Void Bass	Glowworm			Clear Skies, Fair Skies	Gloom			Powerful				295
 The Tangle												
 Bone Crayfish	Moth Pupa						Light					
 Ala Mhigan Fighting Fish	Midge Basket						Light					
 Silverfish	Honey Worm						Light					
-Sludgeskipper	Stem Borer						Light					
+Sludgeskipper	Stem Borer						Light	Precision				
 Assassin Betta	Ala Mhigan Fighting Fish											
-Boltfish	Silverfish											
+Boltfish	Silverfish							Powerful				
 Ilsabardian Bass	Topwater Frog											
-Cadaver Carp	Rainbow Spoon Lure				Gloom							167
-Ninja Betta	Assassin Betta	18	9		Gloom							297
+Cadaver Carp	Rainbow Spoon Lure				Gloom			Powerful				167
+Ninja Betta	Assassin Betta	18	9		Gloom			Powerful				297
 The North Shards												
 Lamp Marimo	Chocobo Fly						Light					74
 Silverfish	Honey Worm						Light					
@@ -1083,17 +1083,17 @@ Ignus Snail	Stem Borer						Light
 Assassin Betta	Silverfish											
 Ilsabardian Bass	Topwater Frog											
 Goldfish	Silverfish						Light					
-Morinabaligi	Goldfish											
-Canavan	Goldfish	8	18		Gloom							298
-Kuno the Killer	Assassin Betta	N/A	N/A		N/A	Canavan, 1						299
+Morinabaligi	Goldfish							Powerful				
+Canavan	Goldfish	8	18		Gloom			Powerful				298
+Kuno the Killer	Assassin Betta	N/A	N/A		N/A	Canavan, 1		Powerful				299
 Voor Sian Siran												
 Hedgemole Cricket	Stonefly Nymph											357
 Cloudfish	Stonefly Nymph											
 Bullfrog	Bladed Steel Jig											
 Maiboi	Stonefly Nymph											
 Bubble Eye	Stonefly Nymph	10	18									339
-Caiman	Bullfrog	18	21									402
-Inkfish	Brute Leech	14	16								1	471
+Caiman	Bullfrog	18	21					Powerful				402
+Inkfish	Brute Leech	14	16					Powerful			1	471
 The Eddies												
 Hedgemole Cricket	Stonefly Nymph											357
 Cloudfish	Stonefly Nymph											
@@ -1102,9 +1102,9 @@ Yalm Lobster	Bladed Steel Jig
 Vanuhead	Bladed Steel Jig				Clear Skies, Fair Skies							349
 Catkiller	Brute Leech				Fair Skies, Clear Skies							429
 Red Sky Coral	Bladed Steel Jig									1		
-Paikiller	Bullfrog	8	12	Fog	Clear Skies							491
+Paikiller	Bullfrog	8	12	Fog	Clear Skies			Powerful				491
 Cloudtop												
-Starflower	Red Balloon				Fair Skies, Clear Skies							323
+Starflower	Red Balloon				Fair Skies, Clear Skies			Precision				323
 Buoyant Oviform	Red Balloon											
 Mahu Wai	Red Balloon											
 Mitre Slug	Red Balloon											
@@ -1114,74 +1114,74 @@ Cirrostratus	Giant Crane Fly	10	13		Fair Skies, Clear Skies							483
 The Blue Window												
 Buoyant Oviform	Red Balloon											
 Sky Faerie	Red Balloon											353
-Whiteloom	Red Balloon											
-Storm Core	Red Balloon				Clouds, Fog, Wind							346
-Winged Gurnard	Giant Crane Fly											
-Sky Sweeper	Giant Crane Fly											
-Tornado Shark	Giant Crane Fly											
+Whiteloom	Red Balloon							Precision				
+Storm Core	Red Balloon				Clouds, Fog, Wind			Precision				346
+Winged Gurnard	Giant Crane Fly							Powerful				
+Sky Sweeper	Giant Crane Fly							Powerful				
+Tornado Shark	Giant Crane Fly							Powerful				
 The Second One	Giant Crane Fly				Wind							472
 Mok Oogl Island												
-Starflower	Red Balloon				Fair Skies, Clear Skies							323
+Starflower	Red Balloon				Fair Skies, Clear Skies			Precision				323
 Sky Faerie	Red Balloon											353
 Scorpionfly	Giant Crane Fly											410
 Moogle Spirit	Giant Crane Fly				N/A							414
 Vampiric Tapestry	Giant Crane Fly											434
-Heavens Coral	Giant Crane Fly	0	5		Clear Skies, Fair Skies					1		441
-Basking Shark	Sky Faerie			Fog	Clear Skies							476
+Heavens Coral	Giant Crane Fly	0	5		Clear Skies, Fair Skies			Precision		1		441
+Basking Shark	Sky Faerie			Fog	Clear Skies			Powerful				476
 Sea Butterfly	Giant Crane Fly	5	7		Clear Skies	Scorpionfly, 3, Sky Faerie, 3						503
 Alpha Quadrant												
 Platinum Fish	Fiend Worm											
 Bullwhip	Fiend Worm											
 Blood Skipper	Fiend Worm				Thunder							412
-High Allagan Helmet	Platinum Fish											
-Augmented High Allagan Helmet	Platinum Fish											473
+High Allagan Helmet	Platinum Fish							Powerful				
+Augmented High Allagan Helmet	Platinum Fish							Powerful				473
 Aetherochemical Spill												
 Platinum Fish	Fiend Worm											
 Bullwhip	Fiend Worm											
 Blood Skipper	Fiend Worm				Thunder							412
-Aetherochemical Compound #123	Platinum Fish											
+Aetherochemical Compound #123	Platinum Fish							Precision				
 Proto-hropken	Platinum Fish											
-Aetherochemical Compound #666	Platinum Fish										1	485
+Aetherochemical Compound #666	Platinum Fish							Precision			1	485
 Hyperstellar Downconverter												
 Platinum Fish	Fiend Worm											
 Azysfish	Fiend Worm											
-Oil Eel	Platinum Fish				Thunder							415
-Mucous Minnow	Fiend Worm											
-Oliphant's Trunk	Fiend Worm	18	23		Thunder							458
+Oil Eel	Platinum Fish				Thunder			Powerful				415
+Mucous Minnow	Fiend Worm							Powerful				
+Oliphant's Trunk	Fiend Worm	18	23		Thunder			Precision				458
 Ceti	Fiend Worm	18	22	Clouds	Thunder						1	492
 Delta Quadrant												
-Fountfish	Goblin Jig											
+Fountfish	Goblin Jig							Powerful				
 Rockclimber	Bladed Steel Jig											
-Aether Eye	Purse Web Spider											
+Aether Eye	Purse Web Spider							Precision				
 Yalm Lobster	Bladed Steel Jig											
-Euphotic Pirarucu	Brute Leech	18	2		Clouds							403
-Aphotic Pirarucu	Aether Eye	22	2		Clouds							474
+Euphotic Pirarucu	Brute Leech	18	2		Clouds			Powerful				403
+Aphotic Pirarucu	Aether Eye	22	2		Clouds			Powerful				474
 The Pappus Tree												
-Fountfish	Goblin Jig											
+Fountfish	Goblin Jig							Powerful				
 Crystalfin	Bladed Steel Jig											
-Aether Eye	Purse Web Spider											
-Lungfish	Brute Leech				Clouds							351
-Tiny Axolotl	Brute Leech	21	24									374
+Aether Eye	Purse Web Spider							Precision				
+Lungfish	Brute Leech				Clouds			Powerful				351
+Tiny Axolotl	Brute Leech	21	24					Precision				374
 Hundred-eyed Axolotl	Aether Eye	6	10									486
 The Habisphere												
 Sky Faerie	Red Balloon											353
 Rudderfish	Giant Crane Fly											405
 Unidentified Flying Biomass	Red Balloon											
-Bomb Puffer	Giant Crane Fly											
-Sky Sweeper	Giant Crane Fly											
-Tupuxuara	Red Balloon	15	18									433
+Bomb Puffer	Giant Crane Fly							Powerful				
+Sky Sweeper	Giant Crane Fly							Powerful				
+Tupuxuara	Red Balloon	15	18					Powerful				433
 Stupendemys	Rudderfish											425
-Cobrafish	Giant Crane Fly											
-Crystal Pigeon	Rudderfish			Fair Skies	Thunder						1	493
+Cobrafish	Giant Crane Fly							Powerful				
+Crystal Pigeon	Rudderfish			Fair Skies	Thunder			Powerful			1	493
 The Flagship												
 Platinum Fish	Fiend Worm											
 Azysfish	Fiend Worm											
-Oil Eel	Platinum Fish				Thunder							415
+Oil Eel	Platinum Fish				Thunder			Powerful				415
 Jeweled Jellyfish	Platinum Fish	20	3		N/A							416
-Barreleye	Platinum Fish				Thunder						1	427
-Functional Proto-hropken	Platinum Fish				Thunder						1	438
-Allagan Bladeshark	Platinum Fish			Clouds	Thunder							477
-Opabinia	Platinum Fish				Thunder	Functional Proto-hropken, 3						501
+Barreleye	Platinum Fish				Thunder			Powerful			1	427
+Functional Proto-hropken	Platinum Fish				Thunder			Powerful			1	438
+Allagan Bladeshark	Platinum Fish			Clouds	Thunder			Powerful				477
+Opabinia	Platinum Fish				Thunder	Functional Proto-hropken, 3		Precision				501
 The Hundred Throes												
 Whilom Catfish	Goblin Jig											321
 Pipira Pira	Goblin Jig				Dust Storms, Fog, Clouds							341
@@ -1190,109 +1190,109 @@ Grass Carp	Bladed Steel Jig				Dust Storms, Clouds, Fog							340
 Shadowhisker	Brute Leech											
 Dravanian Smelt	Brute Leech											440
 River Shrimp	Brute Leech						Light					
-Scaleripper	Brute Leech				Dust Storms, Fog, Clouds							465
+Scaleripper	Brute Leech				Dust Storms, Fog, Clouds			Powerful				465
 Whilom River												
 Whilom Catfish	Goblin Jig											321
 Rock Mussel	Stonefly Nymph									1		333
 Pipira Pira	Goblin Jig				Dust Storms, Fog, Clouds							341
 Three-lip Carp	Bladed Steel Jig											
 Blueclaw Shrimp	Stonefly Nymph											
-Dravanian Bass	Blueclaw Shrimp	0	6		Dust Storms, Clouds, Fog							361
+Dravanian Bass	Blueclaw Shrimp	0	6		Dust Storms, Clouds, Fog			Powerful				361
 Twin-tongued Carp	Brute Leech	12	16	Clouds, Dust Storms	Clear Skies							480
 The Smoldering Wastes												
 Whilom Catfish	Goblin Jig											321
 Rock Mussel	Stonefly Nymph									1		333
 Blueclaw Shrimp	Stonefly Nymph											
 Three-lip Carp	Bladed Steel Jig											
-Warmwater Bichir	Purse Web Spider	21	3									367
-Marble Oscar	Purse Web Spider											
-The Dreamweaver	Brute Leech	22	2		Dust Storms, Fog, Clouds							466
+Warmwater Bichir	Purse Web Spider	21	3					Powerful				367
+Marble Oscar	Purse Web Spider							Powerful				
+The Dreamweaver	Brute Leech	22	2		Dust Storms, Fog, Clouds			Powerful				466
 The Iron Feast												
 Pipira Pira	Goblin Jig				Dust Storms, Fog, Clouds							341
 Blueclaw Shrimp	Stonefly Nymph											
 Dragonhead	Goblin Jig											
-Caiman	Blueclaw Shrimp	18	21									402
-Thunderbolt Eel	Blueclaw Shrimp	22	4									428
-Amber Salamander	Brute Leech	6	12									451
-Thunderscale	Blueclaw Shrimp	6	8	Clouds, Dust Storms	Thunder							494
+Caiman	Blueclaw Shrimp	18	21					Powerful				402
+Thunderbolt Eel	Blueclaw Shrimp	22	4					Powerful				428
+Amber Salamander	Brute Leech	6	12					Powerful				451
+Thunderscale	Blueclaw Shrimp	6	8	Clouds, Dust Storms	Thunder			Powerful				494
 Mourn												
 Lava Crab	Magma Worm											
 Granite Crab	Magma Worm							Precision				
 Cindersmith	Magma Worm							Precision				
 Cometoise	Granite Crab						Medium	Powerfull				
 Oven Catfish	Granite Crab							Powerfull				
-Meteortoise	Granite Crab				N/A							467
+Meteortoise	Granite Crab				N/A			Powerful				467
 West Mourn												
 Granite Crab	Magma Worm											
-Aithon's Colt	Magma Worm											
-Magma Tree	Magma Worm									1		
-Cindersmith	Magma Worm									1		
-Black Magefish	Granite Crab											
+Aithon's Colt	Magma Worm							Precision				
+Magma Tree	Magma Worm							Precision		1		
+Cindersmith	Magma Worm							Precision		1		
+Black Magefish	Granite Crab							Powerful				
 Hraesvelgr's Tear	Magma Worm	2	6								1	484
 Anyx Old												
 Lava Crab	Magma Worm											
 Granite Crab	Magma Worm											
-Cindersmith	Magma Worm									1		
-Aithon's Colt	Magma Worm											
+Cindersmith	Magma Worm							Precision		1		
+Aithon's Colt	Magma Worm							Precision				
 Cometoise	Granite Crab											
-Magma Louse	Granite Crab	18	5								1	386
-Riddle	Granite Crab	8	16	Clear Skies	Clear Skies						1	495
+Magma Louse	Granite Crab	18	5					Powerful			1	386
+Riddle	Granite Crab	8	16	Clear Skies	Clear Skies			Powerful			1	495
 Halo												
 Granite Crab	Magma Worm											
-Magma Tree	Magma Worm									1		
+Magma Tree	Magma Worm							Precision		1		
 Cometoise	Granite Crab											
-Fossiltongue	Granite Crab										1	400
-Lavalord	Granite Crab	10	16		Heat Waves, Clear Skies, Fair Skies						1	432
+Fossiltongue	Granite Crab							Powerful			1	400
+Lavalord	Granite Crab	10	16		Heat Waves, Clear Skies, Fair Skies			Powerful			1	432
 Lava Snail	Magma Worm									1		
-The Lord of Lords	Granite Crab	8	16		Clear Skies, Fair Skies						1	496
-Problematicus	Granite Crab	10	15		Clear Skies, Fair Skies	Fossiltongue, 3, Granite Crab, 5						500
+The Lord of Lords	Granite Crab	8	16		Clear Skies, Fair Skies			Powerful			1	496
+Problematicus	Granite Crab	10	15		Clear Skies, Fair Skies	Fossiltongue, 3, Granite Crab, 5		Powerful				500
 Thaliak River												
 Hedgemole Cricket	Stonefly Nymph											357
-Sweetfish	Goblin Jig											
+Sweetfish	Goblin Jig							Powerful				
 Philosopher's Stone	Bladed Steel Jig											
 Shipworm	Goblin Jig											
-Autumn Leaf	Purse Web Spider											
+Autumn Leaf	Purse Web Spider							Precision				
 Illuminati Perch	Hedgemole Cricket											404
-Hinterlands Perch	Bladed Steel Jig											
-The Ewer King	Sweetfish											468
+Hinterlands Perch	Bladed Steel Jig							Powerful				
+The Ewer King	Sweetfish							Powerful				468
 Quickspill Delta												
 Blueclaw Shrimp	Bladed Steel Jig											
 Bullfrog	Bladed Steel Jig											
 Hedgemole Cricket	Purse Web Spider											357
 Yalm Lobster	Bladed Steel Jig											
-Orn Butterfly	Brute Leech											
-Tigerfish	Brute Leech											
-Gnomefish	Brute Leech				N/A							452
-Madam Butterfly	Hedgemole Cricket	21	2		Clear Skies							481
+Orn Butterfly	Brute Leech							Powerful				
+Tigerfish	Brute Leech							Powerful				
+Gnomefish	Brute Leech				N/A			Precision				452
+Madam Butterfly	Hedgemole Cricket	21	2		Clear Skies			Powerful				481
 Upper Thaliak River												
 Hedgemole Cricket	Stonefly Nymph											357
 Scholar Sculpin	Purse Web Spider											
-Sweetfish	Bladed Steel Jig											
+Sweetfish	Bladed Steel Jig							Powerful				
 Shipworm	Goblin Jig											
 Yalm Lobster	Bladed Steel Jig											
-Loosetongue	Brute Leech	7	20									430
-Armored Catfish	Brute Leech				Fog, Clouds							460
+Loosetongue	Brute Leech	7	20					Powerful				430
+Armored Catfish	Brute Leech				Fog, Clouds			Powerful				460
 Thavnairian Leaf	Stonefly Nymph											
-The Speaker	Hedgemole Cricket			Clouds, Fog	Showers							497
-Armor Fish	Purse Web Spider	1	4		Clear Skies	Hedgemole Cricket, 6						502
+The Speaker	Hedgemole Cricket			Clouds, Fog	Showers			Powerful				497
+Armor Fish	Purse Web Spider	1	4		Clear Skies	Hedgemole Cricket, 6		Precision				502
 Middle Thaliak River												
 Philosopher's Stone	Goblin Jig											
 Scholar Sculpin	Purse Web Spider											
-Sweetfish	Goblin Jig											
+Sweetfish	Goblin Jig							Powerful				
 Hedgemole Cricket	Stonefly Nymph											357
 Bullfrog	Bladed Steel Jig											
-Thaliak Caiman	Bullfrog	15	18									431
-Berserker Betta	Brute Leech				Clear Skies, Fair Skies							436
+Thaliak Caiman	Bullfrog	15	18					Powerful				431
+Berserker Betta	Brute Leech				Clear Skies, Fair Skies			Powerful				436
 Goblin Bass	Brute Leech	0	5		Clouds, Fog						1	443
-Bobgoblin Bass	Sweetfish	2	6	Rain	Showers							487
+Bobgoblin Bass	Sweetfish	2	6	Rain	Showers			Powerful				487
 Eil Tohm												
 Cloudfish	Stonefly Nymph											
 Lamp Marimo	Chocobo Fly						Light					74
 Kissing Fish	Stonefly Nymph	9	2									343
 Noontide Oscar	Brute Leech	N/A	N/A									368
-Vidofnir	Brute Leech	8	10									469
+Vidofnir	Brute Leech	8	10					Powerful				469
 Greensward												
-Mogpom	Goblin Jig											
+Mogpom	Goblin Jig							Precision				
 Moggle Mogpom	Brute Leech	10	13	Gales	Clear Skies							482
 Weston Waters												
 Cloudfish	Stonefly Nymph											
@@ -1308,7 +1308,7 @@ Cloud Rider	Red Balloon
 Blue Medusa	Red Balloon											
 Letter Puffer	Giant Crane Fly											
 Dragon's Soul	Giant Crane Fly											
-Sunsail	Giant Crane Fly	15	17		Clear Skies, Fair Skies							442
+Sunsail	Giant Crane Fly	15	17		Clear Skies, Fair Skies			Powerful				442
 The Soul of the Martyr	Giant Crane Fly	4	6		Clear Skies, Fair Skies							470
 Sohm Al Summit												
 Sky Faerie	Red Balloon											353
@@ -1316,22 +1316,22 @@ Gloaming Coral	Red Balloon									1
 Cloud Rider	Red Balloon											
 Rudderfish	Giant Crane Fly											405
 Gobbie Mask	Giant Crane Fly											
-Star Faerie	Red Balloon											
-Pteranodon	Giant Crane Fly	9	17									421
-Dimorphodon	Rudderfish			Clear Skies	Gales						1	475
+Star Faerie	Red Balloon							Precision				
+Pteranodon	Giant Crane Fly	9	17					Powerful				421
+Dimorphodon	Rudderfish			Clear Skies	Gales			Powerful			1	475
 Tharl Oom Khash												
 Sky Faerie	Red Balloon											353
 Cloud Rider	Red Balloon											
 Rudderfish	Giant Crane Fly											405
-Manasail	Rudderfish	10	14		Clear Skies, Fair Skies							384
-Brown Bolo	Red Balloon				Clouds							389
-Cobrafish	Giant Crane Fly											
+Manasail	Rudderfish	10	14		Clear Skies, Fair Skies			Powerful				384
+Brown Bolo	Red Balloon				Clouds			Powerful				389
+Cobrafish	Giant Crane Fly							Powerful				
 Storm Chaser	Giant Crane Fly											435
 Nyctosaur	Giant Crane Fly											
 Bloodchaser	Giant Crane Fly			Clear Skies	Gales						1	499
-Raimdellopterus	Rudderfish	6	8		Gales	Rudderfish, 5						505
+Raimdellopterus	Rudderfish	6	8		Gales	Rudderfish, 5		Powerful				505
 Diadem Grotto												
-Thunderbolt Eel	Brute Leech	22	4									428
+Thunderbolt Eel	Brute Leech	22	4					Powerful				428
 Noontide Oscar	Brute Leech	N/A	N/A									368
 Goldsmith Crab	Bladed Steel Jig											450
 Crown Trout	Stonefly Nymph											447
@@ -1350,7 +1350,7 @@ Crown Trout	Stonefly Nymph											447
 Retribution Staff	Purse Web Spider											448
 Calm Cloudtop												
 Mahu Wai	Giant Crane Fly											
-Whiteloom	Red Balloon											
+Whiteloom	Red Balloon							Precision				
 Blue Cloud Coral	Red Balloon									1		
 Mitre Slug	Red Balloon											
 Eurhinosaur	Giant Crane Fly											445
@@ -1368,146 +1368,146 @@ Mitre Slug	Red Balloon
 Blue Cloud Coral	Red Balloon									1		
 Pterodactyl	Giant Crane Fly											444
 Upper Mirage Creek												
-Abalathian Bitterling	Salmon Roe											514
+Abalathian Bitterling	Salmon Roe							Precision				514
 Broken Crab	Salmon Roe											517
 Gyr Abanian Trout	Midge Larva											531
-Miounnefish	Gyr Abanian Trout				Clouds, Fog							518
+Miounnefish	Gyr Abanian Trout				Clouds, Fog			Powerful				518
 Bloodsipper	Gyr Abanian Trout											532
 Hookstealer	Gyr Abanian Trout											
 Rhalgr's Reach												
 Golden Cichlid	Salmon Roe											513
-Temple Carp	Salmon Roe											519
+Temple Carp	Salmon Roe							Precision				519
 Gyr Abanian Trout	Midge Larva											531
 Monk Betta	Gyr Abanian Trout											533
-Electric Catfish	Midge Larva											548
-Pagan Pirarucu	Gyr Abanian Trout											566
-Watcher Catfish	Gyr Abanian Trout				Thunder							
+Electric Catfish	Midge Larva							Powerful				548
+Pagan Pirarucu	Gyr Abanian Trout							Powerful				566
+Watcher Catfish	Gyr Abanian Trout				Thunder			Powerful				
 The Outer Fist												
 Comet Minnow	Suspending Minnow											
 Balloon Frog	Salmon Roe											520
-Lantern Marimo	Suspending Minnow											
+Lantern Marimo	Suspending Minnow							Precision				
 Bloodsipper	Salmon Roe											532
-Gilfish	Nightcrawler											
-Redtail	Balloon Frog				Clouds, Fog							
-Bloodtail Zombie	Balloon Frog	8	12		Clouds							
+Gilfish	Nightcrawler							Precision				
+Redtail	Balloon Frog				Clouds, Fog			Powerful				
+Bloodtail Zombie	Balloon Frog	8	12		Clouds			Powerful				
 Timmon Beck												
 Steelhead Trout	Suspending Minnow											
-Miounnefish	Suspending Minnow				Clouds, Fog							518
+Miounnefish	Suspending Minnow				Clouds, Fog			Powerful				518
 Balloon Frog	Salmon Roe											520
 Death Loach	Salmon Roe											549
 Gyr Abanian Chub	Salmon Roe											
-Hardhead Trout	Stonefly Larva	16	20									
-Xenacanthus	Hardhead Trout											
+Hardhead Trout	Stonefly Larva	16	20					Powerful				
+Xenacanthus	Hardhead Trout							Powerful				
 Dimwold												
-Miounnefish	Stonefly Larva				Clouds, Fog							518
+Miounnefish	Stonefly Larva				Clouds, Fog			Powerful				518
 Bone Melter	Salmon Roe											524
-Fallen Leaf	Suspending Minnow											525
+Fallen Leaf	Suspending Minnow							Precision				525
 Padjali Loach	Salmon Roe											530
 Cave Killifish	Suspending Minnow											553
 Wraithfish	Stonefly Larva	0	4		Fog						1	635
-Chakrafish	Salmon Roe											
-Sapphire Fan	Stonefly Larva				Thunder							761
+Chakrafish	Salmon Roe							Powerful				
+Sapphire Fan	Stonefly Larva				Thunder			Precision				761
 The Comet's Tail												
 Bone Melter	Salmon Roe											524
 Falling Star	Salmon Roe				Clouds, Fog							535
-Capsized Squeaker	Salmon Roe											536
-Nirvana Crab	Salmon Roe				Clouds, Fog							537
+Capsized Squeaker	Salmon Roe							Precision				536
+Nirvana Crab	Salmon Roe				Clouds, Fog			Powerful				537
 Cardinalfish	Suspending Minnow	20	24		Fog							735
 Lake Sphairai	Salmon Roe											762
-The Archbishop	Suspending Minnow	12	16									
+The Archbishop	Suspending Minnow	12	16					Powerful				
 The Velodyna River												
 Velodyna Grass Carp	Nightcrawler											526
 Greenstream Loach	Salmon Roe											528
 Bloodsipper	Salmon Roe											532
 Black Velodyna Carp	Salmon Roe											568
 Deep Velodyna Carp	Salmon Roe											5000
-Velodyna Salmon	Nightcrawler											
+Velodyna Salmon	Nightcrawler							Powerful				
 Downstream Loach	Stonefly Larva				Fog							
 Mirage Creek												
-Highland Perch	Salmon Roe											527
+Highland Perch	Salmon Roe							Powerful				527
 Mirage Chub	Salmon Roe											529
-Gravel Gudgeon	Salmon Roe											538
-Rhalgr's Bolt	Salmon Roe											554
-Mirage Mahi	Stonefly Larva	4	8									747
-Corpse Chub	Suspending Minnow	20	24		Clear Skies							
+Gravel Gudgeon	Salmon Roe							Precision				538
+Rhalgr's Bolt	Salmon Roe							Powerful				554
+Mirage Mahi	Stonefly Larva	4	8					Powerful				747
+Corpse Chub	Suspending Minnow	20	24		Clear Skies			Powerful				
 Grymm & Enid												
 Death Loach	Salmon Roe											549
 Grymm Crab	Nightcrawler											550
-Enid Shrimp	Nightcrawler											567
+Enid Shrimp	Nightcrawler							Precision				567
 Curefish	Salmon Roe											
-Bondsplitter	Suspending Minnow				Dust Storms							763
-Drepanaspis	Suspending Minnow					Bondsplitter, 2						
+Bondsplitter	Suspending Minnow				Dust Storms			Powerful				763
+Drepanaspis	Suspending Minnow					Bondsplitter, 2		Powerful				
 The Slow Wash												
-Idle Goby	Salmon Roe											515
-Rapids Jumper	Nightcrawler											522
+Idle Goby	Salmon Roe							Powerful				515
+Rapids Jumper	Nightcrawler							Powerful				522
 Gyr Abanian Trout	Midge Larva											531
-Heather Charr	Suspending Minnow											547
+Heather Charr	Suspending Minnow							Powerful				547
 Death Loach	Salmon Roe											549
 Invisible Crayfish	Nightcrawler											551
-The Undecided	Gyr Abanian Trout	8	12									764
+The Undecided	Gyr Abanian Trout	8	12					Powerful				764
 Heather Falls												
-Adamantite Bichir	Suspending Minnow											523
+Adamantite Bichir	Suspending Minnow							Powerful				523
 Death Loach	Salmon Roe											549
-Abalathian Salamander	Suspending Minnow											552
-Steelshark	Suspending Minnow				Clear Skies							627
-Purple Buckler	Midge Larva											
-The Last Tear	Salmon Roe			Fog	Fair Skies							
+Abalathian Salamander	Suspending Minnow							Precision				552
+Steelshark	Suspending Minnow				Clear Skies			Precision				627
+Purple Buckler	Midge Larva							Powerful				
+The Last Tear	Salmon Roe			Fog	Fair Skies			Powerful				
 The Ephor												
-Heather Charr	Suspending Minnow											547
-Meditator	Suspending Minnow											612
-Stonytongue	Suspending Minnow											613
-Deemster	Stonefly Larva				Wind							631
+Heather Charr	Suspending Minnow							Powerful				547
+Meditator	Suspending Minnow							Powerful				612
+Stonytongue	Suspending Minnow							Powerful				613
+Deemster	Stonefly Larva				Wind			Powerful				631
 Moksha	Suspending Minnow	N/A	N/A	Clouds, Wind, Fog, Dust Storms	Clear Skies							
 The Bull's Bath												
 Death Loach	Salmon Roe											549
 Invisible Crayfish	Nightcrawler											551
-Bull's Bite	Midge Larva				Clouds, Wind, Fog, Dust Storms							600
-Peeping Pisces	Midge Larva											601
-Meditator	Suspending Minnow											612
-Alligator Snapping Turtle	Suspending Minnow				Clear Skies, Fair Skies							
-Hemon	Suspending Minnow	16	20		Clouds							
+Bull's Bite	Midge Larva				Clouds, Wind, Fog, Dust Storms			Powerful				600
+Peeping Pisces	Midge Larva							Powerful				601
+Meditator	Suspending Minnow							Powerful				612
+Alligator Snapping Turtle	Suspending Minnow				Clear Skies, Fair Skies			Powerful				
+Hemon	Suspending Minnow	16	20		Clouds			Powerful				
 The Arms of Meed												
 Gyr Abanian Trout	Midge Larva											531
-Gigant Bass	Stonefly Larva											602
-Eastern Pike	Suspending Minnow				Clear Skies, Fair Skies							607
-Scimitarfish	Suspending Minnow											614
-Ala Mhigan Ribbon	Suspending Minnow											619
+Gigant Bass	Stonefly Larva							Powerful				602
+Eastern Pike	Suspending Minnow				Clear Skies, Fair Skies			Powerful				607
+Scimitarfish	Suspending Minnow							Powerful				614
+Ala Mhigan Ribbon	Suspending Minnow							Precision				619
 Rockfish	Suspending Minnow	12	16		Clouds, Wind, Fog, Dust Storms					1		
-Lily of the Veil	Suspending Minnow			Clear Skies	Fair Skies							
+Lily of the Veil	Suspending Minnow			Clear Skies	Fair Skies			Precision				
 Loch Seld												
 Rock Saltfish	Silkworm											608
 Saltshield Snapper	Silkworm											611
 Whitehorse	Silkworm											624
 Pearl-eye	Rock Saltfish											626
 Sculptor	Rock Saltfish	12	18		Thunderstorms						1	625
-Saltmill	Rock Saltfish				Clouds, Fog							
-Diamond-eye	Rock Saltfish				Clear Skies							765
-Stethacanthus	Rock Saltfish					Sculptor, 2						
+Saltmill	Rock Saltfish				Clouds, Fog			Powerful				
+Diamond-eye	Rock Saltfish				Clear Skies			Powerful				765
+Stethacanthus	Rock Saltfish					Sculptor, 2		Powerful				
 The Ruby Price												
 Grinning Anchovy	Live Shrimp											539
 Glass Herring	Live Shrimp											540
-Coeurl Snake Eel	Live Shrimp											546
-Coral Horse	Live Shrimp											
-Ku'er	Blue Bobbit	0	8	Thunder	Clouds							
-The Ruby Dragon	Ku'er	4	8	Thunder	Clouds							
+Coeurl Snake Eel	Live Shrimp							Powerful				546
+Coral Horse	Live Shrimp							Precision				
+Ku'er	Blue Bobbit	0	8	Thunder	Clouds			Powerful				
+The Ruby Dragon	Ku'er	4	8	Thunder	Clouds			Powerful				
 Hells' Lid												
 Grinning Anchovy	Live Shrimp											539
 Hellyfish	Live Shrimp											541
 Ruby Shrimp	Live Shrimp											545
 Blockhead	Ruby Shrimp											615
 Liopleurodon	Ruby Shrimp				Thunder			Powerful				618
-Ukiki	Blue Bobbit	8	12		Wind							
-Shrieker	Ruby Shrimp											
-Wicked Wartfish	Bream Lure											
-The Vegetarian	Ruby Shrimp	20	24		Thunder							
+Ukiki	Blue Bobbit	8	12		Wind			Powerful				
+Shrieker	Ruby Shrimp							Powerful				
+Wicked Wartfish	Bream Lure							Powerful				
+The Vegetarian	Ruby Shrimp	20	24		Thunder			Powerful				
 The Isle of Bekko												
 Grinning Anchovy	Live Shrimp											539
 Hellyfish	Live Shrimp											541
 Ruby Shrimp	Live Shrimp											545
 Dafu	Ruby Shrimp											556
 Glass Tuna	Ruby Shrimp											605
-Tawny Wench Shark	Ruby Shrimp	10	16		Clear Skies						1	609
-Usuginu Octopus	Live Shrimp											22393
+Tawny Wench Shark	Ruby Shrimp	10	16		Clear Skies			Powerful			1	609
+Usuginu Octopus	Live Shrimp							Powerful				22393
 Seven Stars	Blue Bobbit	10	16	Thunder	Fair Skies							24883
 Shoal Rock												
 Grinning Anchovy	Live Shrimp											539
@@ -1523,17 +1523,17 @@ Onokoro
 Ruby Shrimp	Live Shrimp											545
 Leaf Tatsunoko	Ruby Shrimp											557
 Glass Flounder	Ruby Shrimp											558
-Blackfin Snake Eel	Ruby Shrimp											621
+Blackfin Snake Eel	Ruby Shrimp							Powerful				621
 Swordfish	Blue Bobbit	8	16		Clouds, Wind			Powerful			1	632
 Giant Plesiosaur	Live Shrimp							Powerful				5003
-Argonautica	Ruby Shrimp				Wind							
+Argonautica	Ruby Shrimp				Wind			Powerful				
 Isari												
 Glass Herring	Live Shrimp											540
-Gliding Fish	Bream Lure											559
-Globefish	Live Shrimp											560
-Fan Clam	Live Shrimp									1		561
-Ruby Meagre	Bream Lure											563
-Triplespine	Blue Bobbit	5	7									748
+Gliding Fish	Bream Lure							Powerful				559
+Globefish	Live Shrimp							Powerful				560
+Fan Clam	Live Shrimp							Powerful		1		561
+Ruby Meagre	Bream Lure							Powerful				563
+Triplespine	Blue Bobbit	5	7					Precision				748
 Shirogane Clam	Live Shrimp											
 Pinhead	Live Shrimp	16	24		Thunder							
 The Isle of Zekki												
@@ -1541,23 +1541,23 @@ Ruby Shrimp	Live Shrimp											545
 Daio Squid	Ruby Shrimp							Powerful				603
 Koromo Octopus	Ruby Shrimp							Powerful				604
 Zekki Grouper	Ruby Shrimp											610
-Zekki Gator	Ruby Shrimp											634
-Rakshasa	Ruby Shrimp				Thunder							769
+Zekki Gator	Ruby Shrimp							Powerful				634
+Rakshasa	Ruby Shrimp				Thunder			Powerful				769
 The Heron's Nest												
 Doman Trout	Nightcrawler											571
-Doman Crayfish	Nightcrawler											575
-Maiden's Heart	Nightcrawler											
-Pomegranate Trout	Nightcrawler				Rain							
+Doman Crayfish	Nightcrawler							Precision				575
+Maiden's Heart	Nightcrawler							Precision				
+Pomegranate Trout	Nightcrawler				Rain			Powerful				
 The Heron's Way												
-River Barramundi	Nightcrawler											564
+River Barramundi	Nightcrawler							Powerful				564
 Doman Trout	Nightcrawler											571
-Doman Crayfish	Nightcrawler											575
+Doman Crayfish	Nightcrawler							Precision				575
 Glarramundi	Suspending Minnow			Fair Skies	Clear Skies							
 Namai												
-Nogoi	Nightcrawler											565
-Hermit's End	Stonefly Larva	20	24		Clear Skies							
+Nogoi	Nightcrawler							Powerful				565
+Hermit's End	Stonefly Larva	20	24		Clear Skies			Powerful				
 The One River (East)												
-Yanxian Koi	Nightcrawler											569
+Yanxian Koi	Nightcrawler							Powerful				569
 Longhair Catfish	Suspending Minnow				N/A			Powerful				570
 Doman Trout	Nightcrawler											571
 Yanxian Barramundi	Nightcrawler							Powerful				572
@@ -1568,28 +1568,28 @@ The One River (West)
 Longhair Catfish	Suspending Minnow				N/A			Powerful				570
 Doman Trout	Nightcrawler											571
 Kotsu Zetsu	Suspending Minnow											616
-Seraphim	Suspending Minnow	16	24									620
-Hagoromo Bijin	Stonefly Larva			Clouds	Clear Skies, Fair Skies							
+Seraphim	Suspending Minnow	16	24					Powerful				620
+Hagoromo Bijin	Stonefly Larva			Clouds	Clear Skies, Fair Skies			Powerful				
 Plum Spring												
 Doman Trout	Nightcrawler											571
 Kotsu Zetsu	Suspending Minnow											616
-Pandamoth	Midge Larva	10	18									617
+Pandamoth	Midge Larva	10	18					Powerful				617
 Silken Koi	Stonefly Larva				Rain			Powerful			1	629
 Plum Gazer	Midge Larva											633
 Hagoromo Koi	Stonefly Larva				Fog						1	771
 Prism Canyon												
 Doman Trout	Nightcrawler											571
-Doman Crayfish	Nightcrawler											575
+Doman Crayfish	Nightcrawler							Precision				575
 Doman Eel	Midge Larva											584
-The Unraveled Bow	Suspending Minnow	12	16		Fog							
+The Unraveled Bow	Suspending Minnow	12	16		Fog			Powerful				
 Prism Lake												
 Yellow Prismfish	Suspending Minnow											598
 Blue Prismfish	Suspending Minnow											599
 Violet Prismfish	Stonefly Larva	0	4					Powerful				
 Red Prismfish	Stonefly Larva	4	8					Powerful				755
 White Goldfish	Red Prismfish	N/A	N/A									758
-Firelight Goldfish	Red Prismfish	N/A	N/A									
-Indigo Prismfish	Violet Prismfish	N/A	N/A									
+Firelight Goldfish	Red Prismfish	N/A	N/A					Precision				
+Indigo Prismfish	Violet Prismfish	N/A	N/A					Precision				
 Green Prismfish	Stonefly Larva	0	16	Clear Skies, Fair Skies	Clear Skies, Fair Skies							
 Warden of the Seven Hues	Stonefly Larva					Indigo Prismfish, 3, Firelight Goldfish, 3, Green Prismfish, 5						
 Mercantile Docks												
@@ -1597,33 +1597,33 @@ Doman Trout	Nightcrawler											571
 Doman Grass Carp	Midge Larva	20	4					Powerful				592
 Lordly Salmon	Midge Larva											597
 Kotsu Zetsu	Suspending Minnow											616
-Suiten Ippeki	Stonefly Larva	16	24	Fair Skies	Showers							
+Suiten Ippeki	Stonefly Larva	16	24	Fair Skies	Showers			Powerful				
 Doma Castle												
 Doman Trout	Nightcrawler											571
-Samurai Fish	Midge Larva											593
+Samurai Fish	Midge Larva							Precision				593
 Blank Oscar	Midge Larva											595
 Dragonfish	Suspending Minnow											596
 Raitonfish	Suspending Minnow				Rain, Showers			Powerful				606
 Bokuden	Stonefly Larva	12	14									23067
 Nem Khaal												
-Killifish	Midge Larva				Clear Skies							574
+Killifish	Midge Larva				Clear Skies			Precision				574
 Zagas Khaal	Nightcrawler											577
 Othardian Trout	Zagas Khaal											576
 Steppe Skipper	Midge Larva							Precision				578
-Dawn Crayfish	Zagas Khaal											580
+Dawn Crayfish	Zagas Khaal							Precision				580
 Garden Skipper	Midge Larva	8	12	Fair Skies	Clear Skies							
 Hak Khaal												
 Zagas Khaal	Nightcrawler											577
-Curtain Pleco	Suspending Minnow											581
-Dry Steppe Skipper	Midge Larva											586
+Curtain Pleco	Suspending Minnow							Powerful				581
+Dry Steppe Skipper	Midge Larva							Precision				586
 Dusk Crayfish	Zagas Khaal											588
 Hak Bitterling	Stonefly Larva	0	4		Rain						1	623
-Banderole	Zagas Khaal	0	8	Fair Skies	Fog							
+Banderole	Zagas Khaal	0	8	Fair Skies	Fog			Powerful				
 Upper Yat Khaal												
-Tail Mountains Minnow	Midge Larva											573
+Tail Mountains Minnow	Midge Larva							Precision				573
 Zagas Khaal	Nightcrawler											577
-Dry Steppe Skipper	Midge Larva											586
-Skytear	Midge Larva											587
+Dry Steppe Skipper	Midge Larva							Precision				586
+Skytear	Midge Larva							Precision				587
 Dusk Crayfish	Zagas Khaal											588
 Sunshell	Midge Larva											
 Fatty Eel	Salmon Roe											
@@ -1633,7 +1633,7 @@ Blade Skipper	Suspending Minnow	4	8		Fog
 Azim Khaat												
 Zagas Khaal	Nightcrawler											577
 Othardian Trout	Zagas Khaal											576
-Sun Bass	Midge Larva											579
+Sun Bass	Midge Larva							Powerful				579
 Hardscale	Suspending Minnow											591
 Sweatfish	Stonefly Larva							Precision				622
 Guppy	Stonefly Larva	16	20		Clear Skies, Fair Skies							
@@ -1641,13 +1641,13 @@ Water Fan	Salmon Roe
 Gigas Catfish	Salmon Roe											
 Greasy Strangler	Salmon Roe											
 Spikefish	Salmon Roe											
-Duskfish	Zagas Khaal	10	15	Rain, Gales	Clouds							
+Duskfish	Zagas Khaal	10	15	Rain, Gales	Clouds			Powerful				
 Tao Khaal												
 Zagas Khaal	Nightcrawler											577
-Dry Steppe Skipper	Midge Larva											586
+Dry Steppe Skipper	Midge Larva							Precision				586
 Dusk Crayfish	Zagas Khaal											588
 Bowfish	Midge Larva											589
-Tao Bitterling	Midge Larva											594
+Tao Bitterling	Midge Larva							Precision				594
 The Word of God	Stonefly Larva	20	24									772
 Fish Offering	Salmon Roe											
 Zagas A'khaal	Salmon Roe											
@@ -1657,22 +1657,22 @@ Lower Yat Khaal
 Zagas Khaal	Nightcrawler											577
 Othardian Trout	Zagas Khaal											576
 Steppe Skipper	Midge Larva							Precision				578
-Dawn Crayfish	Zagas Khaal											580
-Yat Goby	Midge Larva											582
-Jade Sculpin	Midge Larva											590
-Yat Khan	Stonefly Larva				Wind							773
+Dawn Crayfish	Zagas Khaal							Precision				580
+Yat Goby	Midge Larva							Precision				582
+Jade Sculpin	Midge Larva							Precision				590
+Yat Khan	Stonefly Larva				Wind			Precision				773
 Crimson Copperfish	Salmon Roe											
 Dusk Scallop	Salmon Roe											
 Granite Hardscale	Salmon Roe											
 Fishy Fish	Salmon Roe											
 Dotharl Khaa												
 Brassfish	Nightcrawler											585
-Nhaama's Boon	Midge Larva											583
+Nhaama's Boon	Midge Larva							Powerful				583
 Steppe Barramundi	Salmon Roe											
 Arrowhead Snail	Salmon Roe											
 Plump Trout	Salmon Roe											
 Crawling Cog	Salmon Roe											
-Nhaama's Treasure	Suspending Minnow	4	8	Rain	Clear Skies							
+Nhaama's Treasure	Suspending Minnow	4	8	Rain	Clear Skies			Powerful				
 The Unconditional	Stonefly Larva	5	7	Rain	Clear Skies		Heavy					
 Kugane Piers												
 Grinning Anchovy	Live Shrimp											539
@@ -1680,20 +1680,20 @@ Ruby Shrimp	Live Shrimp											545
 Striped Fugu	Ruby Shrimp											562
 Glass Tuna	Ruby Shrimp											605
 Hanatatsu	Ruby Shrimp											630
-Ribbon Eel	Ruby Shrimp											
-Rising Dragon	Ruby Shrimp											
+Ribbon Eel	Ruby Shrimp							Precision				
+Rising Dragon	Ruby Shrimp							Powerful				
 Shirogane												
 Grinning Anchovy	Live Shrimp											539
 Ruby Shrimp	Live Shrimp											545
 Striped Fugu	Ruby Shrimp											562
 Glass Tuna	Ruby Shrimp											605
-The Gambler	Blue Bobbit											
+The Gambler	Blue Bobbit							Powerful				
 The Silver Canal												
-Nogoi	Nightcrawler											565
+Nogoi	Nightcrawler							Powerful				565
 Doman Trout	Nightcrawler											571
-Killifish	Midge Larva				Clear Skies							574
+Killifish	Midge Larva				Clear Skies			Precision				574
 Brassfish	Nightcrawler											585
-Bonsai Fish	Nightcrawler											
+Bonsai Fish	Nightcrawler							Precision				
 Princess Killifish	Nightcrawler	4	6					Precision				
 Ruby Price Depths												
 Wentletrap	Small Gig Head											638
@@ -1848,28 +1848,28 @@ Spiny Lobster	Normal Gig Head
 The Trivium												
 Crystal Knife	Marble Nymph											
 Laxan Carp	Marble Nymph											
-Asteroidea	Robber Ball											
-Jacketed Snail	Robber Ball											
-Lover's Flower	Marble Nymph											
+Asteroidea	Robber Ball							Precision				
+Jacketed Snail	Robber Ball							Precision				
+Lover's Flower	Marble Nymph							Precision				
 The Quadrivium												
 Crystal Knife	Robber Ball											
 Laxan Carp	Baitbugs											
-Sinspitter	Marble Nymph											
-Wandering Catfish	Marble Nymph											
+Sinspitter	Marble Nymph							Precision				
+Wandering Catfish	Marble Nymph							Precision				
 Crystarium Personal Suites												
 Crystal Knife	Freshwater Boilie											
 Laxan Carp	Fruit Worm											
-Crystarium Tetra	Fruit Worm											
-Skeletonfish	Freshwater Boilie											
-Loose Pendant	Baitbugs	18	22									
+Crystarium Tetra	Fruit Worm							Precision				
+Skeletonfish	Freshwater Boilie							Precision				
+Loose Pendant	Baitbugs	18	22					Precision				
 The Derelicts												
-Milky Coral	Short Bill Minnow									1	0	
-Gravel Mussel	Short Bill Minnow									1	0	
+Milky Coral	Short Bill Minnow							Precision		1	0	
+Gravel Mussel	Short Bill Minnow							Precision		1	0	
 Crimson Sea Spider	Moyebi Shrimp									0	0	
 Bonefish	Squid Strip									0	0	
-Eulmore Butterfly	Squid Strip									0	0	
+Eulmore Butterfly	Squid Strip							Precision		0	0	
 Red Hammerhead	Squid Strip										0	
-Winged Dame	Squid Strip	12	19		Clear Skies							
+Winged Dame	Squid Strip	12	19		Clear Skies			Precision				
 The Rift of Sighs												
 Eighteyes Eel	Fruit Worm											
 Hard Candy	Robber Ball											
@@ -1880,26 +1880,26 @@ The Rusted Reservoir
 Hard Candy	Robber Ball											
 Abyssal Snail	Robber Ball											
 Water Ball	Marble Nymph											
-Platinum Guppy	Baitbugs				Clear Skies							
+Platinum Guppy	Baitbugs				Clear Skies			Precision				
 Misty Killifish	Robber Ball											
 The Source												
 Hard Candy	Robber Ball											
 Clean Saucer	Baitbugs											
-Rabbit Skipper	Robber Ball											
+Rabbit Skipper	Robber Ball							Precision				
 Xanthic Bass	Marble Nymph											
-Albino Rock Crab	Baitbugs											
-Laxan Inkhorn	Jerked Ovim											
-The Unforgiven	Baitbugs				Fog							
+Albino Rock Crab	Baitbugs							Precision				
+Laxan Inkhorn	Jerked Ovim							Precision				
+The Unforgiven	Baitbugs				Fog			Powerful				
 Sullen												
 Hard Candy	Baitbugs											
-Rabbit Skipper	Fruit Worm											
+Rabbit Skipper	Fruit Worm							Precision				
 Xanthic Bass	Fruit Worm											
-Snakeskin Discus	Robber Ball											
+Snakeskin Discus	Robber Ball							Precision				
 The Isle of Ken												
 Hard Candy	Fruit Worm											
 Clean Saucer	Fruit Worm											
-Albino Garfish	Baitbugs											
-Vicejaw	Robber Ball											
+Albino Garfish	Baitbugs							Powerful				
+Vicejaw	Robber Ball							Powerful				
 Northeast Source												
 Lilac Goby	Small Gig Head											
 Purple Ghost	Small Gig Head											
@@ -1930,85 +1930,85 @@ Winged Hatchetfish	Robber Ball
 White Oil Falls												
 Skulleater	Marble Nymph											
 Watts Trout	Fruit Worm											
-Noble's Fan	Robber Ball											
-White Oil Perch	Metal Spinner											
+Noble's Fan	Robber Ball							Precision				
+White Oil Perch	Metal Spinner							Powerful				
 Lower Watts River												
 Skulleater	Metal Spinner											
 Toffee Snail	Fruit Worm											
 Watts Trout	Metal Spinner											
-Zebra Catfish	Robber Ball											
+Zebra Catfish	Robber Ball							Precision				
 Sharptongue Drip												
 Skulleater	Robber Ball											
 Toffee Snail	Robber Ball											
-Sepia Sole	Marble Nymph											
-Bronze Sole	Marble Nymph				Rain							
+Sepia Sole	Marble Nymph							Precision				
+Bronze Sole	Marble Nymph				Rain			Powerful				
 The Western Kholusian Coast												
 South Kholusian Cod	Short Bill Minnow											
 Kholusian Flounder	Squid Strip											
 Shellfracture Kelp	Squid Strip											
 Creamy Oyster	Moyebi Shrimp											
-Rose Shrimp	Short Bill Minnow											
+Rose Shrimp	Short Bill Minnow							Precision				
 Razorfish	Short Bill Minnow											
 Kholusian King Crab	Metal Spinner											
 Seagazer Shoals												
 South Kholusian Cod	Squid Strip											
 Kholusian Flounder	Squid Strip											
 Blood Cloud	Short Bill Minnow											
-Shapeshifter	Squid Strip											
-Minstrelfish	Short Bill Minnow											
+Shapeshifter	Squid Strip							Precision				
+Minstrelfish	Short Bill Minnow							Powerful				
 The Eastern Kholusian Coast												
 South Kholusian Cod	Squid Strip											
 Shellfracture Kelp	Squid Strip											
 Blood Cloud	Moyebi Shrimp											
 Spearhead Squid	Short Bill Minnow											
-Kholusian Wrasse	Spearhead Squid											
+Kholusian Wrasse	Spearhead Squid							Powerful				
 Weedy Seadragon	Short Bill Minnow											
-Henodus	Spearhead Squid	16	0		Clouds, Fog							
+Henodus	Spearhead Squid	16	0		Clouds, Fog			Powerful				
 The River of Sand												
 Shadow Crab	Desert Dessert Frog											
 Desert Dustfish	Desert Dessert Frog											
 Hornhelm	Jerked Ovim											
 Sand Egg	Desert Dessert Frog											
 Web-footed Sand Gecko	Desert Dessert Frog											
-The Horned King	Hornhelm	0	6		Dust Storms							
+The Horned King	Hornhelm	0	6		Dust Storms			Powerful				
 The Nabaath Severance												
 Shadow Crab	Desert Dessert Frog											
 Desert Dustfish	Desert Dessert Frog											
 Hornhelm	Jerked Ovim											
-Amber Lamprey	Desert Dessert Frog											
-Desert Saw	Jerked Ovim											
-Areng Dire	Metal Spinner											
+Amber Lamprey	Desert Dessert Frog							Powerful				
+Desert Saw	Jerked Ovim							Powerful				
+Areng Dire	Metal Spinner							Powerful				
 The Hills of Amber												
 Amber Monkfish	Desert Dessert Frog											
 Desert Dustfish	Desert Dessert Frog											
 Web-footed Sand Gecko	Desert Dessert Frog											
 Garik Crab	Jerked Ovim											
 Nabaath Manta	Web-footed Sand Gecko											
-Thorned Lizard	Web-footed Sand Gecko	10	18									
+Thorned Lizard	Web-footed Sand Gecko	10	18					Powerful				
 Handmirror Lake												
 Grey Skipper	Baitbugs											
-Pixie Fish	Fruit Worm											
-Wimple Carp	Robber Ball											
+Pixie Fish	Fruit Worm							Precision				
+Wimple Carp	Robber Ball							Precision				
 Lemonfish	Robber Ball											
-Faeshine Clam	Metal Spinner											
+Faeshine Clam	Metal Spinner							Precision				
 Longmirror Lake												
 Calico Trout	Fruit Worm											
-Official Ball	Marble Nymph											
+Official Ball	Marble Nymph							Precision				
 Grey Skipper	Fruit Worm											
-Rebel	Marble Nymph											
-Wild Red Betta	Baitbugs											
+Rebel	Marble Nymph							Precision				
+Wild Red Betta	Baitbugs							Precision				
 Cerulean Loach	Fruit Worm											
-The Sound of Fury	Baitbugs	20	0		Fair Skies, Clear Skies							
+The Sound of Fury	Baitbugs	20	0		Fair Skies, Clear Skies			Precision				
 The Haughty One												
-Official Ball	Baitbugs											
+Official Ball	Baitbugs							Precision				
 Grey Skipper	Fruit Worm											
-Blood-eyed Frog	Marble Nymph											
-Spotted Ctenopoma	Robber Ball											
+Blood-eyed Frog	Marble Nymph							Precision				
+Spotted Ctenopoma	Robber Ball							Precision				
 Cerulean Loach	Fruit Worm											
 The Jealous One												
-Spotted Blue-eye	Marble Nymph											
+Spotted Blue-eye	Marble Nymph							Precision				
 Grey Skipper	Fruit Worm											
-Blood-eyed Frog	Baitbugs											
+Blood-eyed Frog	Baitbugs							Precision				
 Cerulean Loach	Fruit Worm											
 The Spoiled One												
 Brightmirror Clam	Fruit Worm											
@@ -2017,14 +2017,14 @@ Cherry Herring	Marble Nymph
 Cerulean Loach	Robber Ball											
 Saint Fathric's Temple												
 Grey Skipper	Fruit Worm											
-Blood-eyed Frog	Baitbugs											
+Blood-eyed Frog	Baitbugs							Precision				
 Cerulean Loach	Fruit Worm											
-Golden Lobster	Marble Nymph											
+Golden Lobster	Marble Nymph							Precision				
 Father Collard's Failings												
-Official Ball	Robber Ball											
+Official Ball	Robber Ball							Precision				
 Grey Skipper	Fruit Worm											
-Pixie Fish	Fruit Worm											
-Toadhead	Baitbugs				Clear Skies							
+Pixie Fish	Fruit Worm							Precision				
+Toadhead	Baitbugs				Clear Skies			Precision				
 North Lyhe Ghiah												
 Jenanna's Tear	Small Gig Head											
 Shade Axolotl	Normal Gig Head											
@@ -2066,30 +2066,30 @@ Robber Crab	Robber Ball
 Yellow Pipira	Fruit Worm											
 Clown Tetra	Robber Ball	9	12									
 Eryops	Clown Tetra	9	12									
-Priest of Yx'Lokwa	Eryops	10	12									
+Priest of Yx'Lokwa	Eryops	10	12					Powerful				
 The Red Chalice												
 Clawbow	Fruit Worm											
 Darkroot	Robber Ball											
 Yellow Pipira	Fruit Worm											
-Oathfish	Baitbugs											
-Diamond Pipira	Robber Ball	12	20		Fair Skies, Clouds							
+Oathfish	Baitbugs							Powerful				
+Diamond Pipira	Robber Ball	12	20		Fair Skies, Clouds			Powerful				
 The Lozatl												
 Clawbow	Fruit Worm											
-Black Tri-star	Robber Ball											
+Black Tri-star	Robber Ball							Precision				
 Yellow Pipira	Marble Nymph											
-Night's Bass	Robber Ball											
-Rak'tika Trout	Robber Ball											
+Night's Bass	Robber Ball							Precision				
+Rak'tika Trout	Robber Ball							Precision				
 South Mjrl's Regret												
 Clawbow	Fruit Worm											
 Robber Crab	Baitbugs											
 Yellow Pipira	Fruit Worm											
-Night's Bass	Robber Ball											
-Rak'tika Trout	Robber Ball											
+Night's Bass	Robber Ball							Precision				
+Rak'tika Trout	Robber Ball							Precision				
 Silver Kitten	Robber Ball				Fair Skies, Umbral Wind, Clear Skies							
 Woven Oath												
 Clawbow	Fruit Worm											
 Darkroot	Robber Ball											
-Oathfish	Marble Nymph											
+Oathfish	Marble Nymph							Powerful				
 Darkdweller	Baitbugs	0	8		Fog							
 North Lake Tusi Mek'ta												
 Ankle Snipper	Small Gig Head											
@@ -2109,13 +2109,13 @@ The Flounders' Floor
 Deep Purple Coral	Squid Strip				Fair Skies, Clouds, Clear Skies							
 Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
 Caliban	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
-Bubble Angler	Squid Strip				Fair Skies, Clouds, Clear Skies							
-Ondo Harpoon	Squid Strip				Fair Skies, Clouds, Clear Skies							
+Bubble Angler	Squid Strip				Fair Skies, Clouds, Clear Skies			Precision				
+Ondo Harpoon	Squid Strip				Fair Skies, Clouds, Clear Skies			Powerful				
 Where the Dry Return												
 Deep Purple Coral	Squid Strip				Fair Skies, Clouds, Clear Skies							
 Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
 Caliban	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
-Ondobane	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Ondobane	Short Bill Minnow				Fair Skies, Clouds, Clear Skies			Powerful				
 Stippled Eel	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
 Northwest Caliban Gorge												
 Sycorax	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
@@ -2129,7 +2129,7 @@ Sycorax	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies
 Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
 Ancient Shrimp	Squid Strip	12	16		Fair Skies, Clouds, Clear Skies							
 Yeti Crab	Ancient Shrimp	12	16		Fair Skies, Clouds, Clear Skies							
-Aapoak	Ancient Shrimp	12	16		Clear Skies							
+Aapoak	Ancient Shrimp	12	16		Clear Skies			Powerful				
 East Caliban Gap												
 Sycorax	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
 Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
@@ -2140,7 +2140,7 @@ Purpure
 Sycorax	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
 Stormfish	Moyebi Shrimp				Fair Skies, Clouds, Clear Skies							
 Azure Sea Spider	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
-Maneater Clam	Short Bill Minnow				Fair Skies, Clouds, Clear Skies							
+Maneater Clam	Short Bill Minnow				Fair Skies, Clouds, Clear Skies			Precision				
 Stargazer	Squid Strip				Fair Skies, Clouds, Clear Skies							
 Starchaser	Squid Strip	6	10		Clouds							
 The Norvrandt Slope												
