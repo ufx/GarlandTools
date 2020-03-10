@@ -21953,7 +21953,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 1,
     "coords": [
       8.0,
       30.0
@@ -22073,7 +22073,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 1,
     "coords": [
       8.0,
       30.0
@@ -22113,7 +22113,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 1,
     "coords": [
       8.0,
       30.0
@@ -22317,7 +22317,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 1,
     "coords": [
       8.0,
       30.0
@@ -22529,7 +22529,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Blustery Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       31.0,
       11.0
@@ -22569,7 +22569,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       28.0,
       33.0
@@ -22589,7 +22589,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Blustery Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       31.0,
       11.0
@@ -22629,7 +22629,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       28.0,
       33.0
@@ -22649,7 +22649,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Blustery Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       31.0,
       11.0
@@ -22691,7 +22691,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       28.0,
       33.0
@@ -22712,7 +22712,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Blustery Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       31.0,
       11.0
@@ -22928,7 +22928,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       28.0,
       33.0
@@ -23123,7 +23123,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swirling Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       13.0,
       24.0
@@ -23165,7 +23165,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swirling Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       13.0,
       24.0
@@ -24995,7 +24995,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Diadem Grotto",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 70,
     "coords": [
       14.0,
       34.0
@@ -26395,7 +26395,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Diadem Grotto",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 70,
     "coords": [
       14.0,
       34.0
@@ -27093,7 +27093,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Diadem Grotto",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 70,
     "coords": [
       14.0,
       34.0
@@ -27113,7 +27113,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 1,
     "coords": [
       8.0,
       30.0
@@ -27133,7 +27133,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Diadem Grotto",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 70,
     "coords": [
       14.0,
       34.0
@@ -27153,7 +27153,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 1,
     "coords": [
       8.0,
       30.0
@@ -27193,7 +27193,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Diadem Grotto",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 70,
     "coords": [
       14.0,
       34.0
@@ -27213,7 +27213,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
-    "lvl": 60,
+    "lvl": 1,
     "coords": [
       8.0,
       30.0
@@ -27253,7 +27253,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       28.0,
       33.0
@@ -27273,7 +27273,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swirling Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       13.0,
       24.0
@@ -27293,7 +27293,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       28.0,
       33.0
@@ -27313,7 +27313,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       28.0,
       33.0
@@ -27333,7 +27333,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swirling Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       13.0,
       24.0
@@ -27353,7 +27353,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Blustery Cloudtop",
     "category": "Cloudfishing",
-    "lvl": 60,
+    "lvl": 80,
     "coords": [
       31.0,
       11.0
