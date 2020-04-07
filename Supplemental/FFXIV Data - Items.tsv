@@ -56,6 +56,7 @@ Undyed Velveteen	Desynth	Aged Robe
 Vintage Cooking Sherry	Desynth	Aged Decanter											
 Vitriol	Desynth	Aged Phial											
 Waterproof Cotton Cloth	Desynth	Sweetnewt	The Lone Ripper	Olgoi-Khorkhoi	Shrieker								
+Immaculate wingblade	Desynth	Immaculate necklace of aiming											
 Duskborne Aethersand	Reduce	Fire Moraine	Lightning Moraine	Granular Clay	Highland Oregano								
 Dawnborne Aethersand	Reduce	Bright Fire Rock	Bright Lightning Rock	Peat Moss	Furymint								
 Landborne Aethersand	Reduce	Radiant Fire Moraine	Radiant Lightning Moraine										
@@ -724,11 +725,11 @@ Purple Daisies	Gardening	Daisy Seeds
 White Daisies	Gardening	Daisy Seeds											
 Black Daisies	Gardening	Daisy Seeds											
 Rainbow Daisies	Gardening	Daisy Seeds											
-Abroader Otter	Voyage	Deep-sea site 7											
+Abroader Otter	Voyage	Deep-sea site 7	Sea of Ash 2	Sea of Ash 3	Nald'thal's Pipe								
 Aetherochemical Fiber	Voyage	Sea of Clouds 14	Sea of Clouds 15										
 Althyk Lavender Seeds	Voyage	Sea of Clouds 13	Sea of Clouds 15										
 Antique Leather	Voyage	Sea of Clouds 20											
-Aurelia Polyp	Voyage	Deep-sea site 3	The Umbrella Narrow										
+Aurelia Polyp	Voyage	Deep-sea site 3	The Umbrella Narrow	Glutton's Belly									
 Aurum Regis Sand	Voyage	Glittersand Basin											
 Balsa Wood Lumber	Voyage	Sea of Clouds 08	Sea of Clouds 09	Komura	Flickering Dip								
 Balsa Wood Scrap	Voyage	Sea of Clouds 03	Sea of Clouds 04	The Umbrella Narrow									
@@ -742,8 +743,10 @@ Birch Branch	Voyage	Sea of Clouds 05	Sea of Clouds 11	Sea of Clouds 17	The Umbre
 Birch Log	Voyage	Komura											
 Black Clay	Voyage	Sea of Clouds 10											
 Cassia Log	Voyage	Sea of Clouds 14	Sea of Clouds 15	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 18	Sea of Clouds 19	Sea of Clouds 20	Sea of Clouds 21	Sea of Clouds 23	Sea of Clouds 24	Deep-sea Site 6	Deep-sea Site 7
+Cerulean Crystal Boule	Voyage	The Central Charnel Trench	The Blue Hole										
 Chemically Treated Chimera Hide	Voyage	Sea of Clouds 11	Sea of Clouds 12	Sea of Clouds 13									
 Cloudsbreath Seeds	Voyage	Sea of Clouds 17	Sea of Clouds 21	Sea of Clouds 24									
+Cocobolo Lumber	Voyage	South Isle of Zozonan	Wreckage of the Windwalker	Sea of Ash 1	Sea of Ash 2	The Lone Glove	Coldtoe Isle	The Open Robe	The Blue Hole				
 Copper Voyage Spoil	Voyage	Sea of Clouds 09											
 Craftsman's Command Materia II	Voyage	Sea of Clouds 07	The Umbrella Narrow										
 Craftsman's Command Materia III	Voyage	Sea of Clouds 03	Sea of Clouds 07	Sea of Clouds 17	Deep-sea site 2								
@@ -752,7 +755,9 @@ Craftsman's Competence Materia III	Voyage	Sea of Clouds 03	Sea of Clouds 17	Deep
 Craftsman's Competence Materia IV	Voyage	Sea of Clouds 13	Sea of Clouds 17										
 Craftsman's Cunning Materia III	Voyage	Sea of Clouds 07	The Cobalt Shoals										
 Craftsman's Cunning Materia IV	Voyage	Sea of Clouds 13											
-Crimson Coral	Voyage	The Lightless Basin											
+Crimson Coral	Voyage	The Lightless Basin	The Southern Charnel Trench										
+Cryptomeria Log	Voyage	Wreckage of the Windwalker	Sea of Ash 1	The Central Charnel Trench	Sea of Ash 4	Coldtoe Isle	The Open Robe						
+Crystal Boule	Voyage	Wreckage of the Windwalker	Sunken Valut	Stone Temple									
 Dark Chestnut Branch	Voyage	Sea of Clouds 06	Sea of Clouds 12	Sea of Clouds 18	Sea of Clouds 24	Offender's Rot	Deep-sea site 3						
 Deep-blue Cluster	Voyage	Sea of Clouds 13	Sea of Clouds 19	Sea of Clouds 22	The Central Rimilala Trench	Deep-sea Site 5							
 Deep-blue Crystal	Voyage	Sea of Clouds 07	Sea of Clouds 10	Sea of Clouds 13	The Umbrella Narrow	The Cobalt Shoals							
@@ -769,6 +774,7 @@ Dravanian Mote	Voyage	Sea of Clouds 06	Sea of Clouds 13
 Dusk Leather	Voyage	Sea of Clouds 17	Sea of Clouds 18	Sea of Clouds 19	Sea of Clouds 20	Sea of Clouds 21	Sea of Clouds 22						
 Earth Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 11	Sea of Clouds 13	Sea of Clouds 14	Sea of Clouds 15	Deep-sea site 1					
 Emerald	Voyage	Unidentified Derelict	The Wreckage of Discovery I										
+Emerald Crystal Boule	Voyage	Sea of Ash 3	The Open Robe										
 Empty Cluster	Voyage	Sea of Clouds 16											
 Empty Crystal	Voyage	Sea of Clouds 05	Sea of Clouds 06	The Lightless Basin	Neolith Island	Deep-sea site 3							
 Faded Copy of A World Apart	Voyage	Sea of Clouds 23											
@@ -787,6 +793,8 @@ Glamour Dispeller	Voyage	The Upwell
 Gold Ingot	Voyage	Concealed Bay											
 Gold Ore	Voyage	Sea of Clouds 02	Sea of Clouds 08	Sea of Clouds 14	Sea of Clouds 20	The Wreckage of the Headway							
 Gold Sand	Voyage	Sea of Clouds 19											
+Golden Crystal Boule	Voyage	The Slipped Anchor											
+Golden Ewer	Voyage	Smuggler's Knot	The Blue Hole										
 Grade 6 Dark Matter	Voyage	The Upwell											
 Hardsilver Sand	Voyage	Glittersand Basin											
 Heavens' Eye Materia III	Voyage	Sea of Clouds 23											
@@ -802,11 +810,13 @@ Kamacite Ore	Voyage	Rimiala Shelf
 Lightning Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Clouds 09								
 Magnanimous Mogcrown	Voyage	Sea of Clouds 01	Sea of Clouds 10	Sea of Clouds 11	Sea of Clouds 15								
 Marble	Voyage	Flickering Dip											
-Marine Wax Ester	Voyage	Concealed Bay	Flickering Dip	The Wreckage of Discovery I									
+Marine Wax Ester	Voyage	Concealed Bay	Flickering Dip	The Wreckage of Discovery I	The Southern Charnel Trench								
+Meerkat	Voyage	Coldtoe Isle	The Open Robe										
 Mind Materia III	Voyage	Sea of Clouds 08	Sea of Clouds 19	The Mystic Basin	Offender's Rot								
 Mind Materia IV	Voyage	Sea of Clouds 19											
 Mythrite Sand	Voyage	Sea of Clouds 20	Glittersand Basin										
 Oriental Grass Tuft	Voyage	Sea of Clouds 08	Sea of Clouds 14										
+Pelagic Clay	Voyage	Nald'thal's Pipe											
 Piety Materia II	Voyage	Southern Rimilala Trench											
 Piety Materia III	Voyage	Sea of Clouds 06	Sea of Clouds 19	Deep-sea site 4									
 Piety Materia IV	Voyage	Sea of Clouds 19											
@@ -814,6 +824,7 @@ Piety Materia V	Voyage	Sea of Clouds 19
 Platinum Ingot	Voyage	Concealed Bay	Uncharted depths										
 Platinum Ore	Voyage	Sea of Clouds 03	Sea of Clouds 09	Sea of Clouds 15	Sea of Clouds 21								
 Potters Stone	Voyage	Sea of Clouds 01	Sea of Clouds 10										
+Pure Titanium Ore	Voyage	South Isle of Zozonan	North Isle of Zozonan	The Central Charnel Trench	The Midden Pit	The Lone Glove							
 Quickarm Materia III	Voyage	Sea of Clouds 09	Sea of Clouds 18										
 Quickarm Materia IV	Voyage	Sea of Clouds 18	Kanayama										
 Quicktongue Materia II	Voyage	Sea of Clouds 06	Deep-sea site 1										
@@ -824,6 +835,7 @@ Red Clay	Voyage	Sea of Clouds 07
 Red Moko Grass	Voyage	Sea of Clouds 03	Sea of Clouds 04	Deep-sea Site 3	Deep-sea Site 2	The Ivory Shoals	The Umbrella Narrow						
 Rose Gold Ingot	Voyage	The Wreckage of the Headway											
 Ruby	Voyage	The Wreckage of Discovery I											
+Ruby Crystal Boule	Voyage	The Catacombs of the Father	The Midden Pit	Nald'thal's Pipe									
 Salvaged Necklace	Voyage	Unidentified Derelict											
 Savage Aim Materia III	Voyage	Sea of Clouds 08	Sea of Clouds 15	Sea of Clouds 24	The Mystic Basin								
 Savage Aim Materia IV	Voyage	Sea of Clouds 15											
@@ -833,8 +845,10 @@ Savage Might Materia III	Voyage	Sea of Clouds 05	Sea of Clouds 21	Deep-sea site 
 Savage Might Materia IV	Voyage	Sea of Clouds 21	Kanayama										
 Savage Might Materia V	Voyage	Sea of Clouds 21											
 Scarlet Sap	Voyage	Sea of Clouds 04	Sea of Clouds 10	Sea of Clouds 16	Sea of Clouds 22								
+Sharksucker-class	Voyage	The Southern Charnel Trench	The Central Charnel Trench	Sea of Ash 4	The Slipped Anchor								
 Shrub Seedling	Voyage	Sea of Clouds 02	Sea of Clouds 06	Sea of Clouds 12									
 Siltstone	Voyage	Flickering Dip											
+Silver Dasher	Voyage	The Open Robe											
 Silver Ore	Voyage	Sea of Clouds 17											
 Star Ruby	Voyage	Unidentified Derelict	The Wreckage of Discovery I										
 Star Sapphire	Voyage	Unidentified Derelict											
@@ -844,7 +858,7 @@ Synthetic Fiber	Voyage	Sea of Clouds 11	Sea of Clouds 12
 Synthetic Resin	Voyage	Sea of Clouds 13											
 Tincalconite	Voyage	Sea of Clouds 07											
 Toy Box Schema	Voyage	Sea of Clouds 05	Sea of Clouds 09	Sea of Clouds 14	Sea of Clouds 17	Sea of Clouds 21							
-Unaspected Crystal	Voyage	Sea of Clouds 08	Sea of Clouds 10	Deep-sea site 2	Southern Rimilala Trench								
+Unaspected Crystal	Voyage	Sea of Clouds 08	Sea of Clouds 10	The Ivory Shoals	Deep-sea Site 1	Deep-sea site 2	The Lightless Basin	Southern Rimilala Trench	The Umbrella Narrow	Offender's Rot	Neolith Island	The Cobalt Shoals	Deep-sea Site 4
 Vitality Materia II	Voyage	Deep-sea site 3											
 Vitality Materia III	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 24	Deep-sea site 3	The Central Rimilala Trench							
 Vitality Materia IV	Voyage	Sea of Clouds 15											
@@ -862,3 +876,53 @@ Lunar Kamuy Fife	Instance	The Minstrel's Ballad: Tsukuyomi's Pain
 Euphonious Kamuy Fife	Instance	Hells' Kier (Extreme)											
 Hallowed Kamuy Fife	Instance	The Wreath of Snakes (Extreme)											
 Smilodon Skin	Drop	Smilodon											
+Grade 2 Skybuilders' Switch	Drop	Ageless Melia											
+Grade 2 Skybuilders' Teak Log	Drop	Ageless Melia											
+Grade 2 Skybuilders' Oak Log	Drop	Ageless Melia											
+Grade 2 Skybuilders' Walnut Log	Drop	Ageless Melia											
+Grade 2 Artisanal Skybuilders' Log	Drop	Ageless Melia											
+Grade 2 Skybuilders' Hemp	Drop	Cloudtrap											
+Grade 2 Skybuilders' Mistletoe	Drop	Cloudtrap											
+Grade 2 Skybuilders' Feathers	Drop	Cloudtrap											
+Grade 2 Skybuilders' Resin	Drop	Cloudtrap											
+Grade 2 Artisanal Skybuilders' Hardened Sap	Drop	Cloudtrap											
+Grade 2 Skybuilders' Zinc Orc	Drop	Diadem Beast											
+Grade 2 Skybuilders' Asphaltum	Drop	Diadem Beast											
+Grade 2 Skybuilders' Alumen	Drop	Diadem Beast											
+Grade 2 Skybuilders' Cloud Drop Water	Drop	Diadem Beast											
+Grade 2 Artisanal Skybuilders' Spring Water	Drop	Diadem Beast											
+Grade 2 Skybuilders' Maple Sap	Drop	Diadem Bulb											
+Grade 2 Skybuilders' Straw	Drop	Diadem Bulb											
+Grade 2 Skybuilders' Toads	Drop	Diadem Bulb											
+Grade 2 Skybuilders' Cotton Bolls	Drop	Diadem Bulb											
+Grade 2 Artisanal Skybuilders' Cotton Bolls	Drop	Diadem Bulb											
+Grade 2 Skybuilders' Iron Sand	Drop	Diadem Coblyn											
+Grade 2 Skybuilders' Mica	Drop	Diadem Coblyn											
+Grade 2 Skybuilders' Silex	Drop	Diadem Coblyn											
+Grade 2 Skybuilders' Basalt	Drop	Diadem Coblyn											
+Grade 2 Artisanal Skybuilders' Jade	Drop	Diadem Coblyn											
+Grade 2 Skybuilders' Ore	Drop	Diadem Golem											
+Grade 2 Skybuilders' Cobalt Ore	Drop	Diadem Golem											
+Grade 2 Skybuilders' Mythrite Ore	Drop	Diadem Golem											
+Grade 2 Skybuilders' Darksteel Ore	Drop	Diadem Golem											
+Grade 2 Artisanal Skybuilders' Cloudstone	Drop	Diadem Golem											
+Grade 2 Skybuilders' Rock Salt	Drop	Diadem Urolith											
+Grade 2 Skybuilders' Mythril Sand	Drop	Diadem Urolith											
+Grade 2 Skybuilders' Rocks	Drop	Diadem Urolith											
+Grade 2 Skybuilders' Lutinite	Drop	Diadem Urolith											
+Grade 2 Artisanal Skybuilders' Aurum Regis Sand	Drop	Diadem Urolith											
+Grade 2 Skybuilders' Maple Logs	Drop	Diadem Wood Golem											
+Grade 2 Skybuilders' Beehives	Drop	Diadem Wood Golem											
+Grade 2 Skybuilders' Vines	Drop	Diadem Wood Golem											
+Grade 2 Skybuilders' Wheat	Drop	Diadem Wood Golem											
+Grade 2 Artisanal Skybuilders' Wheat	Drop	Diadem Wood Golem											
+Grade 2 Skybuilders' Copper Sand	Drop	Islekeeper											
+Grade 2 Skybuilders' Pigment	Drop	Islekeeper											
+Grade 2 Skybuilders' Spring Water	Drop	Islekeeper											
+Grade 2 Skybuilders' Crystal-Clear Rock Salt	Drop	Islekeeper											
+Grade 2 Artisanal Skybuilders' Rock Salt	Drop	Islekeeper											
+Grade 2 Skybuilders' Flax	Drop	Proto-Noctilucale											
+Grade 2 Skybuilders' Tea Leaves	Drop	Proto-Noctilucale											
+Grade 2 Skybuilders' Barbgrass	Drop	Proto-Noctilucale											
+Grade 2 Skybuilders' Adders	Drop	Proto-Noctilucale											
+Grade 2 Artisanal Skybuilders' Dawn Lizards	Drop	Proto-Noctilucale											
