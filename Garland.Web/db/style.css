@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin: 0;
     background-color: black;
     font-family: Verdana, Arial, sans-serif;
     font-size: 12px;
@@ -7,7 +7,7 @@ body {
 }
 
 body, .normal-color {
-    text-shadow: 1px 1px 0px #222;  
+    text-shadow: 1px 1px 0 #222;
     color: #ddd;
 }
 
@@ -62,7 +62,6 @@ input[type=checkbox] {
 
 ul {
     margin: 0;
-    margin-left: 0;
     padding-left: 20px;
 }
 
@@ -109,20 +108,36 @@ a:hover {
 /* Animations */
 
 @keyframes spin {
-    from { transform:rotate(0deg); }
-    to { transform:rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes bounce {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0); }
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 @keyframes grow {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.15); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 /* Utility */
@@ -157,7 +172,9 @@ a:hover {
     cursor: default;
 }
 
-.pointer { cursor: pointer; }
+.pointer {
+    cursor: pointer;
+}
 
 .dragging {
     cursor: -moz-grabbing !important;
@@ -165,14 +182,16 @@ a:hover {
     cursor: grabbing !important;
 }
 
-.wait, .wait .pointer { cursor: wait !important; }
+.wait, .wait .pointer {
+    cursor: wait !important;
+}
 
 .highlight {
     color: #C5B69D;
 }
 
 .highlight-green {
-    color: #6CC46C; 
+    color: #6CC46C;
 }
 
 .highlight-yellow {
@@ -195,8 +214,13 @@ a:hover {
     font-style: italic;
 }
 
-.right { float: right; }
-.left { float: left; }
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
 
 .center {
     width: 100%;
@@ -253,7 +277,9 @@ a:hover {
     color: #C5B69D;
 }
 
-.circle-line { text-align: center; }
+.circle-line {
+    text-align: center;
+}
 
 .circle-line .circle {
     width: 8px;
@@ -385,7 +411,7 @@ a:hover {
 }
 
 #list-header .icon {
-    height: 34px;   
+    height: 34px;
     width: 34px;
     margin-right: 8px;
     vertical-align: bottom;
@@ -514,10 +540,23 @@ a:hover {
     box-sizing: border-box;
 }
 
-.block.small .content.main { height: 171px; }
-.block.medium .content.main { height: 423px; }
-.block.large .content.main { height: 675px; }
-.block.xlarge .content.main { height: 927px; overflow-y: auto; overflow-x: hidden; }
+.block.small .content.main {
+    height: 171px;
+}
+
+.block.medium .content.main {
+    height: 423px;
+}
+
+.block.large .content.main {
+    height: 675px;
+}
+
+.block.xlarge .content.main {
+    height: 927px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
 /* Block Settings */
 
@@ -673,7 +712,7 @@ body.unlock-heights .block .content.main,
 
     .sidebar-collapsed #toggle-sidebar {
         -webkit-transform: rotate(180deg);
-        transform: rotate(180deg);      
+        transform: rotate(180deg);
     }
 
     .sidebar-collapsed #minimap {
@@ -904,7 +943,7 @@ body.unlock-heights .block .content.main,
 }
 
 #main .block.active {
-    box-shadow: 0px 0px 3px 3px #A57B18;
+    box-shadow: 0 0 3px 3px #A57B18;
 }
 
 .block .block-title {
@@ -928,7 +967,7 @@ body.unlock-heights .block .content.main,
 
 .block .block-title .icon.title-icon.border {
     border-radius: 4px;
-    border: 1px solid rgba(0, 0, 0, .2);    
+    border: 1px solid rgba(0, 0, 0, .2);
 }
 
 .block .block-title .icon.patch {
@@ -1398,7 +1437,7 @@ body.unlock-heights .block .content.main,
     height: 171px;
     vertical-align: middle;
     background: transparent;
-    text-shadow: 2px 2px 0px #aaa !important;
+    text-shadow: 2px 2px 0 #aaa !important;
     color: #333;
     transition: background-image 3s ease-out;
     position: relative;
@@ -1407,7 +1446,7 @@ body.unlock-heights .block .content.main,
 .block.time .time-period.night {
     background: url(images/EverlastingLight.png);
     background-size: 147%;
-    text-shadow: 1px 1px 0px #777;
+    text-shadow: 1px 1px 0 #777;
 }
 
 .block.time .time-period.morning {
@@ -1517,7 +1556,7 @@ body.unlock-heights .block .content.main,
 .minimap-block.achievement, .block.achievement,
 .minimap-block.action, .block.action {
     background-color: #424242;
-} 
+}
 
 .minimap-block.fate, .block.fate {
     border: 1px solid #2E1738;
@@ -1723,7 +1762,7 @@ body.dirty #dirty-indicator {
     position: relative;
     top: -9px;
     left: 7px;
-} 
+}
 
 #search-section #search-filters-page table {
     width: 100%;
@@ -1773,7 +1812,7 @@ body.dirty #dirty-indicator {
 
 .search-pagination .button {
     color: #FFF5CC;
-    text-shadow: 1px 1px 0px #9C6748;
+    text-shadow: 1px 1px 0 #9C6748;
     margin-left: auto;
     margin-right: auto;
     width: 125px;
@@ -2185,7 +2224,7 @@ body.dirty #dirty-indicator {
     border: 1px solid #423E3A;
     border-top: 2px solid #565656;
     border-radius: 4px;
-    z-index: 1; 
+    z-index: 1;
 }
 
 .sources-uses-page .subsection h2:hover {
@@ -2399,8 +2438,7 @@ body.dirty #dirty-indicator {
 
 .block .materia .line .icon,
 .block .materia .meld-info,
-.block .materia .circle
-{
+.block .materia .circle {
     vertical-align: middle;
 }
 
@@ -2663,11 +2701,10 @@ body .block.expanded .recipe .step .long-name.text {
 
 .recipe .tree .node.depth1,
 .recipe .tree .node.depth2,
-.recipe .tree .node.depth6, 
+.recipe .tree .node.depth6,
 .recipe .tree .node.depth7,
-.recipe .tree .node.depth8, 
-.recipe .tree .node.depth9 
-{
+.recipe .tree .node.depth8,
+.recipe .tree .node.depth9 {
     border-left: 0;
     padding-left: 0;
     margin-left: 0;
@@ -2688,7 +2725,7 @@ body .block.expanded .recipe .step .long-name.text {
     vertical-align: super;
     background-color: transparent;
     color: #ddd;
-    text-shadow: 1px 1px 0px #222;
+    text-shadow: 1px 1px 0 #222;
     border: 0;
     font: inherit;
 }
@@ -3067,7 +3104,8 @@ body .block.expanded .recipe .step .long-name.text {
 
 .browse.block .header-icon {
     text-align: center;
-    height: 140px;
+    max-height: 140px;
+    max-width: 380px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -3287,7 +3325,7 @@ body .block.expanded .recipe .step .long-name.text {
 
 /* Gear Sets */
 
-.block.gearset img.slot-icon { 
+.block.gearset img.slot-icon {
     height: 48px;
 }
 
@@ -3307,7 +3345,7 @@ body .block.expanded .recipe .step .long-name.text {
 
 #popover-container.position-sidebar {
     top: 151px;
-    left: 0px;
+    left: 0;
     max-height: 70%;
     width: 370px;
     border: 1px solid #454545;
@@ -3393,8 +3431,7 @@ body .block.expanded .recipe .step .long-name.text {
 /* Loading */
 
 #header .drawer,
-#sidebar .patch-link
-{
+#sidebar .patch-link {
     display: none;
 }
 
@@ -3569,7 +3606,7 @@ body.loaded #sidebar .patch-link {
         left: 259px;
     }
 
-    .block.equip.end .slot-line >:first-child {
+    .block.equip.end .slot-line > :first-child {
         display: none;
     }
 
@@ -3584,7 +3621,7 @@ body.loaded #sidebar .patch-link {
     body .block.expanded .recipe .step .short-name.text {
         display: inline;
     }
-    
+
     body .block.expanded .recipe .step .long-name.text {
         display: none;
     }
