@@ -52,7 +52,7 @@ gt.skywatcher = {
         var eStart = gt.time.localToEorzea(lStart);
         eStart.setUTCHours(eStart.getUTCHours() - 8); // Show the previous weather for transitions.
 
-        view.initialChangeTime = gt.time.formatTime(lEnd);
+        view.initialChangeTime = gt.time.formatTime(lEnd, gt.time.hoursMinutes);
         view.initialProgressPercent = gt.time.getPercentTimeDifference(lStart, lEnd);
         view.initialTimeRemaining = gt.time.formatCountdown(lEnd);
 
@@ -152,7 +152,7 @@ gt.skywatcher = {
 
         var view = { zone: zone, weather: weather, type: type, lProgressStart: lProgressStart, lProgressEnd: lProgressEnd };
         view.name = gt.skywatcher.getShortZoneName(zone.name);
-        view.initialChangeTime = gt.time.formatTime(lProgressEnd);
+        view.initialChangeTime = gt.time.formatTime(lProgressEnd, gt.time.hoursMinutes) + ' (ET ' + gt.time.formatTime(gt.time.localToEorzea(lProgressEnd), gt.time.hoursMinutesUTC) + ')';
         view.initialProgressPercent = gt.time.getPercentTimeDifference(lProgressStart, lProgressEnd);
         view.initialTimeRemaining = gt.time.formatCountdown(lProgressEnd);
         return view;
