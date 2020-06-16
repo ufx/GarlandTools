@@ -105,7 +105,7 @@ namespace Garland.Data.Modules
 
                     UpdateArea(_builder, npc, level.Map, level.MapX, level.MapY);
                 }
-                else 
+                else
                 {
                     if (_libraNpcIndex.TryGetValue(sNpc.Key, out var lNpc))
                     {
@@ -301,14 +301,14 @@ namespace Garland.Data.Modules
                     if (!facialfeatures[i])
                         continue;
 
-                    var iconIndex = (i * 8) + face - 1;
+                    var iconIndex = face;
                     if (race.Key == 7)
                     {
                         // Hrothgar are shifted up by 1 or 2.
                         iconIndex++;
                     }
 
-                    var column = "FacialFeatureOption[" + iconIndex + "]";
+                    var column = "FacialFeatureOption[" + i + "][" + (iconIndex - 1) + "]";
 
                     var icon = (ImageFile)type[column];
                     if (icon == null)
@@ -492,7 +492,7 @@ namespace Garland.Data.Modules
             throw new NotImplementedException();
         }
 
-        static string GetBodyType (byte type)
+        static string GetBodyType(byte type)
         {
             switch (type)
             {

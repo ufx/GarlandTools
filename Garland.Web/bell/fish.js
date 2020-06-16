@@ -62,6 +62,16 @@
     "id": 2617,
     "icon": 27055
   },
+  "Northern Krill": {
+    "name": "Northern Krill",
+    "id": 2606,
+    "icon": 27023
+  },
+  "Bloodworm": {
+    "name": "Bloodworm",
+    "id": 2590,
+    "icon": 27006
+  },
   "Wildfowl Fly": {
     "name": "Wildfowl Fly",
     "id": 2623,
@@ -78,15 +88,15 @@
     "icon": 29314,
     "mooch": 1
   },
+  "Chocobo Fly": {
+    "name": "Chocobo Fly",
+    "id": 2610,
+    "icon": 27056
+  },
   "Yumizuno": {
     "name": "Yumizuno",
     "id": 2628,
     "icon": 27068
-  },
-  "Northern Krill": {
-    "name": "Northern Krill",
-    "id": 2606,
-    "icon": 27023
   },
   "Spoon Worm": {
     "name": "Spoon Worm",
@@ -102,11 +112,6 @@
     "name": "Crow Fly",
     "id": 2614,
     "icon": 27057
-  },
-  "Chocobo Fly": {
-    "name": "Chocobo Fly",
-    "id": 2610,
-    "icon": 27056
   },
   "Spinnerbait": {
     "name": "Spinnerbait",
@@ -172,6 +177,11 @@
     "id": 2618,
     "icon": 27058
   },
+  "Spinner": {
+    "name": "Spinner",
+    "id": 2620,
+    "icon": 27062
+  },
   "Silverfish": {
     "name": "Silverfish",
     "id": 4978,
@@ -210,11 +220,6 @@
     "name": "Streamer",
     "id": 2627,
     "icon": 27060
-  },
-  "Bloodworm": {
-    "name": "Bloodworm",
-    "id": 2590,
-    "icon": 27006
   },
   "Striped Goby": {
     "name": "Striped Goby",
@@ -257,11 +262,6 @@
     "name": "Silver Spoon Lure",
     "id": 2615,
     "icon": 27052
-  },
-  "Spinner": {
-    "name": "Spinner",
-    "id": 2620,
-    "icon": 27062
   },
   "Rolling Stone": {
     "name": "Rolling Stone",
@@ -377,6 +377,11 @@
     "id": 12707,
     "icon": 27070
   },
+  "Signature Skyball": {
+    "name": "Signature Skyball",
+    "id": 30136,
+    "icon": 27007
+  },
   "Bullfrog": {
     "name": "Bullfrog",
     "id": 12730,
@@ -457,26 +462,26 @@
     "icon": 29204,
     "mooch": 1
   },
-  "Suspending Minnow": {
-    "name": "Suspending Minnow",
-    "id": 20619,
-    "icon": 27072
-  },
-  "Stonefly Larva": {
-    "name": "Stonefly Larva",
-    "id": 20675,
-    "icon": 27013
+  "Balloon Frog": {
+    "name": "Balloon Frog",
+    "id": 20064,
+    "icon": 29233,
+    "mooch": 1
   },
   "Nightcrawler": {
     "name": "Nightcrawler",
     "id": 20614,
     "icon": 27032
   },
-  "Balloon Frog": {
-    "name": "Balloon Frog",
-    "id": 20064,
-    "icon": 29233,
-    "mooch": 1
+  "Stonefly Larva": {
+    "name": "Stonefly Larva",
+    "id": 20675,
+    "icon": 27013
+  },
+  "Suspending Minnow": {
+    "name": "Suspending Minnow",
+    "id": 20619,
+    "icon": 27072
   },
   "Hardhead Trout": {
     "name": "Hardhead Trout",
@@ -550,15 +555,15 @@
     "id": 27587,
     "icon": 27010
   },
-  "Baitbugs": {
-    "name": "Baitbugs",
-    "id": 27589,
-    "icon": 27040
-  },
   "Fruit Worm": {
     "name": "Fruit Worm",
     "id": 27582,
     "icon": 27036
+  },
+  "Baitbugs": {
+    "name": "Baitbugs",
+    "id": 27589,
+    "icon": 27040
   },
   "Short Bill Minnow": {
     "name": "Short Bill Minnow",
@@ -575,11 +580,6 @@
     "id": 27590,
     "icon": 27041
   },
-  "Jerked Ovim": {
-    "name": "Jerked Ovim",
-    "id": 27586,
-    "icon": 27039
-  },
   "Metal Spinner": {
     "name": "Metal Spinner",
     "id": 28634,
@@ -595,6 +595,11 @@
     "name": "Desert Dessert Frog",
     "id": 27584,
     "icon": 27073
+  },
+  "Jerked Ovim": {
+    "name": "Jerked Ovim",
+    "id": 27586,
+    "icon": 27039
   },
   "Hornhelm": {
     "name": "Hornhelm",
@@ -1576,7 +1581,7 @@ gt.bell.fish = [
     "name": "Harbor Herring",
     "patch": 1.0,
     "bait": [
-      "Pill Bug"
+      "Floating Minnow"
     ],
     "hookset": "Powerful Hookset",
     "id": 4874,
@@ -1915,8 +1920,8 @@ gt.bell.fish = [
     "name": "Blue Octopus",
     "patch": 1.0,
     "bait": [
-      "Lugworm",
-      "Merlthor Goby"
+      "Pill Bug",
+      "Ocean Cloud"
     ],
     "hookset": "Powerful Hookset",
     "id": 4885,
@@ -2119,7 +2124,7 @@ gt.bell.fish = [
       "start": 9,
       "end": 14
     },
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7685,
     "icon": 29068,
     "func": "fish",
@@ -2755,7 +2760,7 @@ gt.bell.fish = [
     "name": "La Noscean Perch",
     "patch": 1.0,
     "bait": [
-      "Sinking Minnow"
+      "Floating Minnow"
     ],
     "hookset": "Powerful Hookset",
     "id": 4946,
@@ -2797,7 +2802,7 @@ gt.bell.fish = [
     "name": "La Noscean Perch",
     "patch": 1.0,
     "bait": [
-      "Sinking Minnow"
+      "Floating Minnow"
     ],
     "hookset": "Powerful Hookset",
     "id": 4946,
@@ -2818,7 +2823,7 @@ gt.bell.fish = [
     "name": "La Noscean Perch",
     "patch": 1.0,
     "bait": [
-      "Sinking Minnow"
+      "Floating Minnow"
     ],
     "hookset": "Powerful Hookset",
     "id": 4946,
@@ -3085,7 +3090,7 @@ gt.bell.fish = [
     "name": "White Coral",
     "patch": 1.0,
     "bait": [
-      "Goby Ball"
+      "Pill Bug"
     ],
     "id": 5460,
     "icon": 29062,
@@ -3145,7 +3150,7 @@ gt.bell.fish = [
     "name": "Vongola Clam",
     "patch": 1.0,
     "bait": [
-      "Goby Ball"
+      "Northern Krill"
     ],
     "id": 4875,
     "icon": 29031,
@@ -3225,7 +3230,7 @@ gt.bell.fish = [
     "name": "Ogre Barracuda",
     "patch": 1.0,
     "bait": [
-      "Pill Bug",
+      "Floating Minnow",
       "Harbor Herring"
     ],
     "hookset": "Powerful Hookset",
@@ -3423,8 +3428,8 @@ gt.bell.fish = [
     "name": "Gigantshark",
     "patch": 2.2,
     "bait": [
-      "Pill Bug",
-      "Harbor Herring"
+      "Lugworm",
+      "Merlthor Goby"
     ],
     "weather": [
       "Clear Skies",
@@ -3649,7 +3654,7 @@ gt.bell.fish = [
     "name": "Maiden Carp",
     "patch": 1.0,
     "bait": [
-      "Wildfowl Fly"
+      "Bloodworm"
     ],
     "hookset": "Powerful Hookset",
     "id": 4936,
@@ -4052,7 +4057,7 @@ gt.bell.fish = [
     "name": "River Crab",
     "patch": 1.0,
     "bait": [
-      "Butterworm"
+      "Bloodworm"
     ],
     "id": 4941,
     "icon": 29235,
@@ -4843,7 +4848,7 @@ gt.bell.fish = [
     "name": "Glass Perch",
     "patch": 1.0,
     "bait": [
-      "Butterworm"
+      "Chocobo Fly"
     ],
     "hookset": "Powerful Hookset",
     "id": 4956,
@@ -4871,7 +4876,7 @@ gt.bell.fish = [
       "Clouds",
       "Wind"
     ],
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7682,
     "icon": 29327,
     "func": "fish",
@@ -7647,7 +7652,7 @@ gt.bell.fish = [
     "name": "Fullmoon Sardine",
     "patch": 1.0,
     "bait": [
-      "Spoon Worm"
+      "Steel Jig"
     ],
     "during": {
       "start": 18,
@@ -10620,7 +10625,7 @@ gt.bell.fish = [
     "name": "Thunderbolt Sculpin",
     "patch": 1.0,
     "bait": [
-      "Stem Borer"
+      "Spinner"
     ],
     "weather": [
       "Rain",
@@ -11889,7 +11894,7 @@ gt.bell.fish = [
       "Wahoo"
     ],
     "during": {
-      "start": 7,
+      "start": 8,
       "end": 16
     },
     "hookset": "Powerful Hookset",
@@ -11965,7 +11970,7 @@ gt.bell.fish = [
       "start": 19,
       "end": 3
     },
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7687,
     "icon": 29077,
     "func": "fish",
@@ -12501,7 +12506,7 @@ gt.bell.fish = [
     "name": "Nautilus",
     "patch": 1.0,
     "bait": [
-      "Spoon Worm",
+      "Steel Jig",
       "Fullmoon Sardine"
     ],
     "during": {
@@ -12642,7 +12647,7 @@ gt.bell.fish = [
     "name": "The Captain's Chalice",
     "patch": 2.3,
     "bait": [
-      "Spoon Worm",
+      "Steel Jig",
       "Fullmoon Sardine"
     ],
     "during": {
@@ -14646,7 +14651,8 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "weather": [
-      "Rain"
+      "Rain",
+      "Snow"
     ],
     "hookset": "Powerful Hookset",
     "id": 4905,
@@ -14670,7 +14676,8 @@ gt.bell.fish = [
       "Stem Borer"
     ],
     "weather": [
-      "Rain"
+      "Rain",
+      "Snow"
     ],
     "hookset": "Powerful Hookset",
     "id": 4905,
@@ -14698,7 +14705,8 @@ gt.bell.fish = [
       "end": 2
     },
     "weather": [
-      "Rain"
+      "Rain",
+      "Snow"
     ],
     "hookset": "Powerful Hookset",
     "id": 7713,
@@ -15521,7 +15529,7 @@ gt.bell.fish = [
       "start": 18,
       "end": 23
     },
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7920,
     "icon": 29353,
     "func": "fish",
@@ -17418,7 +17426,8 @@ gt.bell.fish = [
     "name": "Assassin Betta",
     "patch": 1.0,
     "bait": [
-      "Glowworm"
+      "Honey Worm",
+      "Silverfish"
     ],
     "id": 5002,
     "icon": 29238,
@@ -19404,7 +19413,7 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Stonefly Nymph"
+      "Brute Leech"
     ],
     "id": 4937,
     "icon": 29310,
@@ -19484,7 +19493,7 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Stonefly Nymph"
+      "Brute Leech"
     ],
     "id": 4937,
     "icon": 29310,
@@ -19504,7 +19513,7 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Stonefly Nymph"
+      "Syrphid Basket"
     ],
     "id": 4937,
     "icon": 29310,
@@ -19524,7 +19533,7 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Stonefly Nymph"
+      "Syrphid Basket"
     ],
     "id": 4937,
     "icon": 29310,
@@ -19544,7 +19553,7 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Stonefly Nymph"
+      "Syrphid Basket"
     ],
     "id": 4937,
     "icon": 29310,
@@ -19564,7 +19573,7 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Stonefly Nymph"
+      "Syrphid Basket"
     ],
     "id": 4937,
     "icon": 29310,
@@ -19584,7 +19593,7 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Stonefly Nymph"
+      "Syrphid Basket"
     ],
     "id": 4937,
     "icon": 29310,
@@ -19817,7 +19826,7 @@ gt.bell.fish = [
     "name": "Angry Pike",
     "patch": 1.0,
     "bait": [
-      "Stonefly Nymph",
+      "Brute Leech",
       "Abalathian Smelt"
     ],
     "hookset": "Powerful Hookset",
@@ -19839,7 +19848,7 @@ gt.bell.fish = [
     "name": "Darkstar",
     "patch": 2.4,
     "bait": [
-      "Stonefly Nymph",
+      "Brute Leech",
       "Abalathian Smelt"
     ],
     "during": {
@@ -20470,6 +20479,10 @@ gt.bell.fish = [
     "weather": [
       "Blizzards"
     ],
+    "transition": [
+      "Snow",
+      "Blizzards"
+    ],
     "id": 16745,
     "icon": 29661,
     "func": "fish",
@@ -20632,7 +20645,8 @@ gt.bell.fish = [
     "name": "Sorcerer Fish",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph"
+      "Syrphid Basket",
+      "Abalathian Smelt"
     ],
     "during": {
       "start": 8,
@@ -20763,6 +20777,7 @@ gt.bell.fish = [
     "name": "Capelin",
     "patch": 3.0,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Brute Leech"
     ],
@@ -20789,6 +20804,7 @@ gt.bell.fish = [
     "name": "Priestfish",
     "patch": 3.2,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Brute Leech"
     ],
@@ -20842,11 +20858,6 @@ gt.bell.fish = [
     },
     "weather": [
       "Clear Skies"
-    ],
-    "transition": [
-      "Snow",
-      "Blizzards",
-      "Fog"
     ],
     "hookset": "Powerful Hookset",
     "id": 17577,
@@ -21001,6 +21012,27 @@ gt.bell.fish = [
     "icon": 29813,
     "func": "fish",
     "rarity": 2,
+    "title": "Dragonspit",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      8.71,
+      9.72
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Dragonspine",
+    "patch": 5.25,
+    "bait": [
+      "Signature Skyball"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 29678,
+    "icon": 29107,
+    "func": "fish",
+    "rarity": 1,
     "title": "Dragonspit",
     "category": "Freshwater Fishing",
     "lvl": 60,
@@ -21228,6 +21260,9 @@ gt.bell.fish = [
     "weather": [
       "Blizzards"
     ],
+    "transition": [
+      "Snow"
+    ],
     "id": 17578,
     "icon": 29816,
     "func": "fish",
@@ -21246,7 +21281,7 @@ gt.bell.fish = [
     "name": "Gigant Grouper",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph",
+      "Syrphid Basket",
       "Abalathian Smelt"
     ],
     "hookset": "Powerful Hookset",
@@ -21825,7 +21860,7 @@ gt.bell.fish = [
     "name": "Hedgemole Cricket",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph"
+      "Purse Web Spider"
     ],
     "id": 12757,
     "icon": 29801,
@@ -22125,7 +22160,7 @@ gt.bell.fish = [
     "name": "Bubble Eye",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph"
+      "Brute Leech"
     ],
     "during": {
       "start": 10,
@@ -24269,8 +24304,7 @@ gt.bell.fish = [
     "folklore": 1,
     "fishEyes": 1,
     "bait": [
-      "Fiend Worm",
-      "Platinum Fish"
+      "Fiend Worm"
     ],
     "weather": [
       "Thunder"
@@ -24332,8 +24366,7 @@ gt.bell.fish = [
         "name": "Functional Proto-hropken",
         "predatorAmount": 3,
         "bait": [
-          "Fiend Worm",
-          "Platinum Fish"
+          "Fiend Worm"
         ],
         "id": 13727,
         "icon": 29758
@@ -24363,6 +24396,11 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "weather": [
+      "Dust Storms",
+      "Fog",
+      "Clouds"
+    ],
     "id": 12721,
     "icon": 29405,
     "func": "fish",
@@ -24384,6 +24422,11 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "weather": [
+      "Dust Storms",
+      "Fog",
+      "Clouds"
+    ],
     "id": 12721,
     "icon": 29405,
     "func": "fish",
@@ -24404,6 +24447,11 @@ gt.bell.fish = [
     "patch": 3.0,
     "bait": [
       "Goblin Jig"
+    ],
+    "weather": [
+      "Dust Storms",
+      "Fog",
+      "Clouds"
     ],
     "id": 12721,
     "icon": 29405,
@@ -24579,7 +24627,7 @@ gt.bell.fish = [
     "name": "Blueclaw Shrimp",
     "patch": 3.0,
     "bait": [
-      "Bladed Steel Jig"
+      "Stonefly Nymph"
     ],
     "id": 12722,
     "icon": 29404,
@@ -24734,7 +24782,7 @@ gt.bell.fish = [
     "patch": 3.0,
     "snagging": 1,
     "bait": [
-      "Stonefly Nymph"
+      "Goblin Jig"
     ],
     "id": 12733,
     "icon": 29413,
@@ -25048,7 +25096,8 @@ gt.bell.fish = [
     ],
     "transition": [
       "Clouds",
-      "Dust Storms"
+      "Dust Storms",
+      "Fog"
     ],
     "hookset": "Powerful Hookset",
     "id": 17582,
@@ -25449,6 +25498,7 @@ gt.bell.fish = [
   {
     "name": "Black Magefish",
     "patch": 3.0,
+    "fishEyes": 1,
     "bait": [
       "Magma Worm",
       "Granite Crab"
@@ -25588,11 +25638,10 @@ gt.bell.fish = [
       "Granite Crab"
     ],
     "during": {
-      "start": 10,
+      "start": 9,
       "end": 16
     },
     "weather": [
-      "Heat Waves",
       "Clear Skies",
       "Fair Skies"
     ],
@@ -25618,6 +25667,10 @@ gt.bell.fish = [
     "folklore": 1,
     "bait": [
       "Magma Worm"
+    ],
+    "weather": [
+      "Clear Skies",
+      "Fair Skies"
     ],
     "id": 14215,
     "icon": 29423,
@@ -25649,6 +25702,11 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies",
       "Fair Skies"
+    ],
+    "transition": [
+      "Clouds",
+      "Dust Storms",
+      "Fog"
     ],
     "hookset": "Powerful Hookset",
     "id": 17584,
@@ -25947,6 +26005,27 @@ gt.bell.fish = [
     "zone": "The Dravanian Hinterlands"
   },
   {
+    "name": "Thinker's Coral",
+    "patch": 5.25,
+    "bait": [
+      "Signature Skyball"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 29673,
+    "icon": 29061,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Thaliak River",
+    "category": "Freshwater Fishing",
+    "lvl": 57,
+    "coords": [
+      23.17,
+      23.55
+    ],
+    "radius": 400,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
     "name": "Orn Butterfly",
     "patch": 3.0,
     "bait": [
@@ -25993,7 +26072,7 @@ gt.bell.fish = [
     "patch": 3.2,
     "folklore": 1,
     "bait": [
-      "Brute Leech"
+      "Purse Web Spider"
     ],
     "hookset": "Precision Hookset",
     "id": 14212,
@@ -26088,7 +26167,7 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "during": {
-      "start": 7,
+      "start": 13,
       "end": 20
     },
     "hookset": "Powerful Hookset",
@@ -26158,7 +26237,7 @@ gt.bell.fish = [
     "patch": 3.5,
     "folklore": 1,
     "bait": [
-      "Stonefly Nymph",
+      "Purse Web Spider",
       "Hedgemole Cricket"
     ],
     "weather": [
@@ -26188,7 +26267,8 @@ gt.bell.fish = [
     "patch": 3.5,
     "folklore": 1,
     "bait": [
-      "Purse Web Spider"
+      "Purse Web Spider",
+      "Hedgemole Cricket"
     ],
     "during": {
       "start": 1,
@@ -26199,7 +26279,7 @@ gt.bell.fish = [
         "name": "Hedgemole Cricket",
         "predatorAmount": 6,
         "bait": [
-          "Stonefly Nymph"
+          "Purse Web Spider"
         ],
         "id": 12757,
         "icon": 29801
@@ -27049,7 +27129,7 @@ gt.bell.fish = [
       "Rudderfish"
     ],
     "during": {
-      "start": 6,
+      "start": 5,
       "end": 8
     },
     "predator": [
@@ -27512,7 +27592,8 @@ gt.bell.fish = [
     "name": "Miounnefish",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Nightcrawler",
+      "Balloon Frog"
     ],
     "weather": [
       "Clouds",
@@ -27796,7 +27877,7 @@ gt.bell.fish = [
     "name": "Balloon Frog",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Nightcrawler"
     ],
     "id": 20064,
     "icon": 29233,
@@ -27816,7 +27897,7 @@ gt.bell.fish = [
     "name": "Balloon Frog",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Nightcrawler"
     ],
     "id": 20064,
     "icon": 29233,
@@ -27879,7 +27960,7 @@ gt.bell.fish = [
     "patch": 4.2,
     "folklore": 1,
     "bait": [
-      "Salmon Roe",
+      "Nightcrawler",
       "Balloon Frog"
     ],
     "weather": [
@@ -27906,7 +27987,7 @@ gt.bell.fish = [
     "patch": 4.4,
     "folklore": 1,
     "bait": [
-      "Salmon Roe",
+      "Nightcrawler",
       "Balloon Frog"
     ],
     "during": {
@@ -28331,6 +28412,10 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "during": {
+      "start": 16,
+      "end": 19
+    },
     "hookset": "Precision Hookset",
     "id": 20085,
     "icon": 29397,
@@ -28379,10 +28464,11 @@ gt.bell.fish = [
       "Suspending Minnow"
     ],
     "during": {
-      "start": 20,
-      "end": 24
+      "start": 19,
+      "end": 23
     },
     "weather": [
+      "Clouds",
       "Fog"
     ],
     "id": 21174,
@@ -29410,7 +29496,6 @@ gt.bell.fish = [
   {
     "name": "Rockfish",
     "patch": 4.1,
-    "snagging": 1,
     "folklore": 1,
     "bait": [
       "Suspending Minnow"
@@ -29473,6 +29558,7 @@ gt.bell.fish = [
     "bait": [
       "Silkworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20025,
     "icon": 29901,
     "func": "fish",
@@ -29493,6 +29579,7 @@ gt.bell.fish = [
     "bait": [
       "Silkworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20039,
     "icon": 29909,
     "func": "fish",
@@ -29513,6 +29600,7 @@ gt.bell.fish = [
     "bait": [
       "Silkworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 20035,
     "icon": 29906,
     "func": "fish",
@@ -29534,6 +29622,7 @@ gt.bell.fish = [
       "Silkworm",
       "Rock Saltfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20041,
     "icon": 29923,
     "func": "fish",
@@ -29610,6 +29699,7 @@ gt.bell.fish = [
     "name": "Diamond-eye",
     "patch": 4.3,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Silkworm",
       "Rock Saltfish"
@@ -29641,7 +29731,7 @@ gt.bell.fish = [
       "Rock Saltfish"
     ],
     "during": {
-      "start": 12,
+      "start": 16,
       "end": 18
     },
     "predator": [
@@ -30340,12 +30430,11 @@ gt.bell.fish = [
     "patch": 4.0,
     "fishEyes": 1,
     "bait": [
-      "Live Shrimp",
-      "Ruby Shrimp"
+      "Blue Bobbit"
     ],
     "during": {
       "start": 10,
-      "end": 16
+      "end": 18
     },
     "weather": [
       "Clear Skies"
@@ -30370,7 +30459,8 @@ gt.bell.fish = [
     "patch": 4.2,
     "folklore": 1,
     "bait": [
-      "Live Shrimp"
+      "Live Shrimp",
+      "Ruby Shrimp"
     ],
     "hookset": "Powerful Hookset",
     "id": 22393,
@@ -30396,7 +30486,7 @@ gt.bell.fish = [
     ],
     "during": {
       "start": 10,
-      "end": 16
+      "end": 18
     },
     "weather": [
       "Fair Skies"
@@ -30635,9 +30725,9 @@ gt.bell.fish = [
   {
     "name": "Blackfin Snake Eel",
     "patch": 4.0,
+    "fishEyes": 1,
     "bait": [
-      "Live Shrimp",
-      "Ruby Shrimp"
+      "Blue Bobbit"
     ],
     "hookset": "Powerful Hookset",
     "id": 20022,
@@ -30877,6 +30967,10 @@ gt.bell.fish = [
     },
     "weather": [
       "Thunder"
+    ],
+    "transition": [
+      "Clear Skies",
+      "Fair Skies"
     ],
     "id": 24884,
     "icon": 29087,
@@ -31274,6 +31368,7 @@ gt.bell.fish = [
     "name": "Pomegranate Trout",
     "patch": 4.5,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Nightcrawler"
     ],
@@ -32019,7 +32114,6 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "transition": [
-      "Clear Skies",
       "Fair Skies"
     ],
     "id": 24204,
@@ -32083,7 +32177,6 @@ gt.bell.fish = [
       "Fair Skies"
     ],
     "transition": [
-      "Clear Skies",
       "Fair Skies"
     ],
     "id": 24994,
@@ -33180,8 +33273,8 @@ gt.bell.fish = [
       "Zagas Khaal"
     ],
     "during": {
-      "start": 10,
-      "end": 15
+      "start": 8,
+      "end": 16
     },
     "weather": [
       "Clouds"
@@ -33340,6 +33433,33 @@ gt.bell.fish = [
     ],
     "id": 22684,
     "icon": 29059,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Tao Khaal",
+    "category": "Freshwater Fishing",
+    "lvl": 60,
+    "coords": [
+      16.62,
+      14.41
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Elder Gourami",
+    "patch": 4.2,
+    "folklore": 1,
+    "bait": [
+      "Nightcrawler",
+      "Zagas Khaal"
+    ],
+    "weather": [
+      "Fog",
+      "Clouds"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 22398,
+    "icon": 29451,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
@@ -33652,7 +33772,8 @@ gt.bell.fish = [
       "end": 8
     },
     "weather": [
-      "Clear Skies"
+      "Clear Skies",
+      "Fair Skies"
     ],
     "transition": [
       "Rain"
@@ -33967,7 +34088,7 @@ gt.bell.fish = [
     "name": "Laxan Carp",
     "patch": 5.0,
     "bait": [
-      "Baitbugs"
+      "Robber Ball"
     ],
     "id": 27411,
     "icon": "t/28455",
@@ -34091,7 +34212,7 @@ gt.bell.fish = [
     "name": "Wandering Catfish",
     "patch": 5.0,
     "bait": [
-      "Marble Nymph"
+      "Baitbugs"
     ],
     "hookset": "Precision Hookset",
     "id": 27416,
@@ -34180,7 +34301,6 @@ gt.bell.fish = [
     "name": "Milky Coral",
     "patch": 5.0,
     "snagging": 1,
-    "fishEyes": 1,
     "bait": [
       "Short Bill Minnow"
     ],
@@ -34203,7 +34323,6 @@ gt.bell.fish = [
     "name": "Gravel Mussel",
     "patch": 5.0,
     "snagging": 1,
-    "fishEyes": 1,
     "bait": [
       "Short Bill Minnow"
     ],
@@ -34225,8 +34344,6 @@ gt.bell.fish = [
   {
     "name": "Crimson Sea Spider",
     "patch": 5.0,
-    "snagging": 1,
-    "fishEyes": 1,
     "bait": [
       "Moyebi Shrimp"
     ],
@@ -34247,10 +34364,8 @@ gt.bell.fish = [
   {
     "name": "Bonefish",
     "patch": 5.0,
-    "snagging": 1,
-    "fishEyes": 1,
     "bait": [
-      "Squid Strip"
+      "Moyebi Shrimp"
     ],
     "id": 27422,
     "icon": 29166,
@@ -34269,8 +34384,6 @@ gt.bell.fish = [
   {
     "name": "Eulmore Butterfly",
     "patch": 5.0,
-    "snagging": 1,
-    "fishEyes": 1,
     "bait": [
       "Squid Strip"
     ],
@@ -34292,7 +34405,6 @@ gt.bell.fish = [
   {
     "name": "Red Hammerhead",
     "patch": 5.0,
-    "fishEyes": 1,
     "bait": [
       "Squid Strip"
     ],
@@ -34383,7 +34495,7 @@ gt.bell.fish = [
     "name": "Hard Candy",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Metal Spinner"
     ],
     "id": 27425,
     "icon": 29316,
@@ -34483,7 +34595,7 @@ gt.bell.fish = [
     "name": "Water Ball",
     "patch": 5.0,
     "bait": [
-      "Marble Nymph"
+      "Baitbugs"
     ],
     "id": 27426,
     "icon": 29559,
@@ -34523,7 +34635,7 @@ gt.bell.fish = [
     "name": "Albino Caiman",
     "patch": 5.0,
     "bait": [
-      "Marble Nymph"
+      "Robber Ball"
     ],
     "id": 27431,
     "icon": 29563,
@@ -34631,7 +34743,7 @@ gt.bell.fish = [
     "name": "Rabbit Skipper",
     "patch": 5.0,
     "bait": [
-      "Fruit Worm"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 27429,
@@ -34713,7 +34825,7 @@ gt.bell.fish = [
     "name": "Laxan Inkhorn",
     "patch": 5.1,
     "bait": [
-      "Jerked Ovim"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 28189,
@@ -34759,7 +34871,7 @@ gt.bell.fish = [
     "name": "Snakeskin Discus",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Baitbugs"
     ],
     "hookset": "Precision Hookset",
     "id": 27435,
@@ -34780,7 +34892,7 @@ gt.bell.fish = [
     "name": "Skulleater",
     "patch": 5.0,
     "bait": [
-      "Fruit Worm"
+      "Marble Nymph"
     ],
     "id": 27438,
     "icon": 29209,
@@ -34840,7 +34952,7 @@ gt.bell.fish = [
     "name": "Skulleater",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Metal Spinner"
     ],
     "id": 27438,
     "icon": 29209,
@@ -34880,7 +34992,7 @@ gt.bell.fish = [
     "name": "Toffee Snail",
     "patch": 5.0,
     "bait": [
-      "Fruit Worm"
+      "Metal Spinner"
     ],
     "id": 27439,
     "icon": 29244,
@@ -34920,7 +35032,7 @@ gt.bell.fish = [
     "name": "Watts Trout",
     "patch": 5.0,
     "bait": [
-      "Marble Nymph"
+      "Metal Spinner"
     ],
     "id": 27440,
     "icon": 29245,
@@ -35081,6 +35193,32 @@ gt.bell.fish = [
     "zone": "Kholusia"
   },
   {
+    "name": "White Ronso",
+    "patch": 5.2,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "during": {
+      "start": 0,
+      "end": 2
+    },
+    "hookset": "Precision Hookset",
+    "id": 28926,
+    "icon": "t/28476",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Lower Watts River",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      30.23,
+      27.03
+    ],
+    "radius": 1200,
+    "zone": "Kholusia"
+  },
+  {
     "name": "Sepia Sole",
     "patch": 5.0,
     "bait": [
@@ -35150,7 +35288,7 @@ gt.bell.fish = [
     "name": "South Kholusian Cod",
     "patch": 5.0,
     "bait": [
-      "Squid Strip"
+      "Metal Spinner"
     ],
     "id": 27449,
     "icon": 29012,
@@ -35170,7 +35308,7 @@ gt.bell.fish = [
     "name": "South Kholusian Cod",
     "patch": 5.0,
     "bait": [
-      "Squid Strip"
+      "Metal Spinner"
     ],
     "id": 27449,
     "icon": 29012,
@@ -35210,7 +35348,7 @@ gt.bell.fish = [
     "name": "Kholusian Flounder",
     "patch": 5.0,
     "bait": [
-      "Squid Strip"
+      "Metal Spinner"
     ],
     "id": 27448,
     "icon": 29052,
@@ -35250,7 +35388,7 @@ gt.bell.fish = [
     "name": "Shellfracture Kelp",
     "patch": 5.0,
     "bait": [
-      "Squid Strip"
+      "Metal Spinner"
     ],
     "id": 27446,
     "icon": 29169,
@@ -35890,6 +36028,11 @@ gt.bell.fish = [
       "start": 10,
       "end": 18
     },
+    "weather": [
+      "Heat Waves",
+      "Clear Skies",
+      "Fair Skies"
+    ],
     "hookset": "Powerful Hookset",
     "id": 27467,
     "icon": 29619,
@@ -35907,10 +36050,39 @@ gt.bell.fish = [
     "scrip": "White Gatherers' Scrip"
   },
   {
+    "name": "Ambling Caltrop",
+    "patch": 5.2,
+    "folklore": 1,
+    "bait": [
+      "Desert Dessert Frog",
+      "Web-footed Sand Gecko"
+    ],
+    "during": {
+      "start": 12,
+      "end": 16
+    },
+    "weather": [
+      "Clear Skies"
+    ],
+    "id": 28927,
+    "icon": "t/29621",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Hills of Amber",
+    "category": "Dunefishing",
+    "lvl": 77,
+    "coords": [
+      15.51,
+      14.81
+    ],
+    "radius": 1200,
+    "zone": "Amh Araeng"
+  },
+  {
     "name": "Grey Skipper",
     "patch": 5.0,
     "bait": [
-      "Baitbugs"
+      "Fruit Worm"
     ],
     "id": 27470,
     "icon": 29577,
@@ -36092,7 +36264,7 @@ gt.bell.fish = [
     "name": "Wimple Carp",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Baitbugs"
     ],
     "hookset": "Precision Hookset",
     "id": 27474,
@@ -36511,6 +36683,30 @@ gt.bell.fish = [
     "zone": "Il Mheg"
   },
   {
+    "name": "Fae Rainbow",
+    "patch": 5.2,
+    "folklore": 1,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "weather": [
+      "Fog"
+    ],
+    "id": 28928,
+    "icon": "t/28477",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Jealous One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      25.82,
+      9.01
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
     "name": "Brightmirror Clam",
     "patch": 5.0,
     "bait": [
@@ -36576,6 +36772,7 @@ gt.bell.fish = [
     "name": "Toadhead",
     "patch": 5.0,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Baitbugs"
     ],
@@ -36699,10 +36896,30 @@ gt.bell.fish = [
     "zone": "The Rak'tika Greatwood"
   },
   {
+    "name": "Clawbow",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27482,
+    "icon": 29588,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Mjrl's Tears",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      26.02,
+      36.73
+    ],
+    "radius": 600,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
     "name": "Robber Crab",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Baitbugs"
     ],
     "id": 27484,
     "icon": 29590,
@@ -36816,6 +37033,26 @@ gt.bell.fish = [
       31.63
     ],
     "radius": 1200,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Yellow Pipira",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27486,
+    "icon": 29591,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Mjrl's Tears",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      26.02,
+      36.73
+    ],
+    "radius": 600,
     "zone": "The Rak'tika Greatwood"
   },
   {
@@ -37102,6 +37339,38 @@ gt.bell.fish = [
     "zone": "The Rak'tika Greatwood"
   },
   {
+    "name": "Black Jet",
+    "patch": 5.2,
+    "folklore": 1,
+    "bait": [
+      "Robber Ball"
+    ],
+    "during": {
+      "start": 2,
+      "end": 12
+    },
+    "weather": [
+      "Fair Skies"
+    ],
+    "transition": [
+      "Clouds",
+      "Fog"
+    ],
+    "id": 28929,
+    "icon": "t/28478",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Lozatl",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      16.01,
+      21.52
+    ],
+    "radius": 900,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
     "name": "Silver Kitten",
     "patch": 5.0,
     "bait": [
@@ -37125,6 +37394,7 @@ gt.bell.fish = [
     "name": "Darkdweller",
     "patch": 5.0,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Baitbugs"
     ],
@@ -37153,6 +37423,7 @@ gt.bell.fish = [
   {
     "name": "Deep Purple Coral",
     "patch": 5.0,
+    "snagging": 1,
     "bait": [
       "Squid Strip"
     ],
@@ -37173,6 +37444,7 @@ gt.bell.fish = [
   {
     "name": "Deep Purple Coral",
     "patch": 5.0,
+    "snagging": 1,
     "bait": [
       "Squid Strip"
     ],
@@ -37434,6 +37706,35 @@ gt.bell.fish = [
     "scrip": "White Gatherers' Scrip"
   },
   {
+    "name": "Ondo Sigh",
+    "patch": 5.2,
+    "folklore": 1,
+    "bait": [
+      "Squid Strip"
+    ],
+    "during": {
+      "start": 12,
+      "end": 14
+    },
+    "weather": [
+      "Fair Skies",
+      "Clear Skies"
+    ],
+    "id": 28930,
+    "icon": "t/29197",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Flounders' Floor",
+    "category": "Ocean Fishing",
+    "lvl": 80,
+    "coords": [
+      11.21,
+      6.61
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
     "name": "Ondobane",
     "patch": 5.0,
     "bait": [
@@ -37477,6 +37778,7 @@ gt.bell.fish = [
   {
     "name": "Sycorax",
     "patch": 5.0,
+    "snagging": 1,
     "bait": [
       "Short Bill Minnow"
     ],
@@ -37497,6 +37799,7 @@ gt.bell.fish = [
   {
     "name": "Sycorax",
     "patch": 5.0,
+    "snagging": 1,
     "bait": [
       "Moyebi Shrimp"
     ],
@@ -37517,6 +37820,7 @@ gt.bell.fish = [
   {
     "name": "Sycorax",
     "patch": 5.0,
+    "snagging": 1,
     "bait": [
       "Moyebi Shrimp"
     ],
@@ -37537,6 +37841,7 @@ gt.bell.fish = [
   {
     "name": "Sycorax",
     "patch": 5.0,
+    "snagging": 1,
     "bait": [
       "Moyebi Shrimp"
     ],
@@ -37557,6 +37862,7 @@ gt.bell.fish = [
   {
     "name": "Sycorax",
     "patch": 5.0,
+    "snagging": 1,
     "bait": [
       "Moyebi Shrimp"
     ],
@@ -37624,7 +37930,7 @@ gt.bell.fish = [
     "name": "Seatrap",
     "patch": 5.0,
     "bait": [
-      "Short Bill Minnow"
+      "Squid Strip"
     ],
     "id": 27505,
     "icon": 29185,
@@ -37643,6 +37949,7 @@ gt.bell.fish = [
   {
     "name": "Sweetmeat Mussel",
     "patch": 5.1,
+    "snagging": 1,
     "folklore": 1,
     "bait": [
       "Squid Strip"
@@ -37706,6 +38013,7 @@ gt.bell.fish = [
     "name": "Aapoak",
     "patch": 5.0,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Squid Strip",
       "Ancient Shrimp"
@@ -37778,7 +38086,7 @@ gt.bell.fish = [
     "name": "Azure Sea Spider",
     "patch": 5.0,
     "bait": [
-      "Short Bill Minnow"
+      "Squid Strip"
     ],
     "id": 27498,
     "icon": 29179,
@@ -37817,6 +38125,7 @@ gt.bell.fish = [
   {
     "name": "Maneater Clam",
     "patch": 5.0,
+    "snagging": 1,
     "bait": [
       "Short Bill Minnow"
     ],
@@ -37859,6 +38168,7 @@ gt.bell.fish = [
     "name": "Starchaser",
     "patch": 5.1,
     "folklore": 1,
+    "fishEyes": 1,
     "bait": [
       "Squid Strip"
     ],
@@ -37906,6 +38216,7 @@ gt.bell.fish = [
   {
     "name": "Sweetflesh Oyster",
     "patch": 5.0,
+    "snagging": 1,
     "bait": [
       "Short Bill Minnow"
     ],

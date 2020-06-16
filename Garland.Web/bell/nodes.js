@@ -332,7 +332,7 @@
       },
       {
         "item": "Coblyn Larva",
-        "icon": "t/59433",
+        "icon": 59433,
         "id": 6199,
         "slot": "7"
       },
@@ -1273,7 +1273,7 @@
       },
       {
         "item": "Kidragora",
-        "icon": "t/59442",
+        "icon": 59442,
         "id": 6209,
         "slot": "7"
       },
@@ -5195,7 +5195,7 @@
     "items": [
       {
         "item": "Merbau Log",
-        "icon": "t/22423",
+        "icon": 22423,
         "id": 29972,
         "slot": "6"
       }
