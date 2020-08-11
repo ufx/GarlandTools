@@ -91,7 +91,7 @@ namespace Garland.Data.Modules
 
                     var folkloreItem = _builder.Db.ItemsById[sGatheringSubCategory.Item.Key];
                     if (folkloreItem.unlocks == null)
-                       folkloreItem.unlocks = new JArray();
+                        folkloreItem.unlocks = new JArray();
                     folkloreItem.unlocks.Add(sFishParameter.Item.Key);
                     _builder.Db.AddReference(folkloreItem, "item", sFishParameter.Item.Key, false);
                 }
@@ -170,152 +170,158 @@ namespace Garland.Data.Modules
                 Console.WriteLine(name);
 
                 // Fill item fishing information.
-                var item = GarlandDatabase.Instance.ItemsByName[name];
-                _fishItems.Add(item);
-
-                // Some quest fish may not have been previously recognized as a fish.
-                if (item.fish == null)
-                    item.fish = new JObject();
-
-                if (item.fish.spots == null)
-                    item.fish.spots = new JArray();
-
-                dynamic spot = new JObject();
-                if (currentFishingSpot != null)
-                    spot.spot = currentFishingSpot.id;
-                else if (currentNode != null)
-                    spot.node = currentNode.id;
-
-                // Sanity check weather and time restrictions.
-                // Sanity check only applies to normal fishing spots.  The
-                // fields aren't available for spearfishing yet.
-                if (currentFishingSpot != null)
-                    CheckConditions(name, item.fish, ref weather, ref transition, ref start, ref end);
-
-                // Baits & Gigs
-                if (bait.Contains("Gig Head"))
+                try
                 {
-                    if (spot.gig == null)
-                        spot.gig = new JArray();
-                    spot.gig.Add(bait);
-                }
-                else if (!string.IsNullOrEmpty(bait))
-                {
-                    spot.tmpBait = bait;
+                    var item = GarlandDatabase.Instance.ItemsByName[name];
+                    _fishItems.Add(item);
+                    // Some quest fish may not have been previously recognized as a fish.
+                    if (item.fish == null)
+                        item.fish = new JObject();
 
-                    // If not otherwise specified, fish should inherit the time
-                    // and weather restrictions of restricted bait (like predators).
-                    if (!_builder.Db.ItemsByName.TryGetValue(bait, out var baitItem))
-                        throw new InvalidOperationException($"Can't find bait {bait} for {name} at {currentFishingSpot.en.name}.  Is the spelling correct?");
+                    if (item.fish.spots == null)
+                        item.fish.spots = new JArray();
 
-                    if (baitItem.fish != null)
+                    dynamic spot = new JObject();
+                    if (currentFishingSpot != null)
+                        spot.spot = currentFishingSpot.id;
+                    else if (currentNode != null)
+                        spot.node = currentNode.id;
+
+                    // Sanity check weather and time restrictions.
+                    // Sanity check only applies to normal fishing spots.  The
+                    // fields aren't available for spearfishing yet.
+                    if (currentFishingSpot != null)
+                        CheckConditions(name, item.fish, ref weather, ref transition, ref start, ref end);
+
+                    // Baits & Gigs
+                    if (bait.Contains("Gig Head"))
                     {
-                        dynamic baitSpotView = ((JArray)baitItem.fish?.spots)?.FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);
-                        if (baitSpotView == null)
-                            throw new InvalidOperationException($"Can't find mooch {bait} for {name} at {currentFishingSpot.en.name}.  Did you forget to add it to the spot?");
-
-                        InheritConditions(spot, baitSpotView, weather, transition, start, end);
+                        if (spot.gig == null)
+                            spot.gig = new JArray();
+                        spot.gig.Add(bait);
                     }
-                }
-
-                // Time restrictions
-                if (start != "" || end != "")
-                {
-                    spot.during = new JObject();
-                    if (start != "")
-                        spot.during.start = int.Parse(start);
-                    if (end != "")
-                        spot.during.end = int.Parse(end);
-                }
-
-                // Weather restrictions
-                if (transition != "")
-                {
-                    var transitionList = transition.Split(comma, StringSplitOptions.None);
-                    CheckWeather(transitionList);
-                    spot.transition = new JArray(transitionList);
-                }
-
-                if (weather != "")
-                {
-                    var weatherList = weather.Split(comma, StringSplitOptions.None);
-                    CheckWeather(weatherList);
-                    spot.weather = new JArray(weatherList);
-                }
-
-                // Predators
-                if (predator != "")
-                {
-                    var tokens = predator.Split(comma, StringSplitOptions.None);
-                    spot.predator = new JArray();
-                    for (var i = 0; i < tokens.Length; i += 2)
+                    else if (!string.IsNullOrEmpty(bait))
                     {
-                        var predatorName = tokens[i];
-                        spot.predator.Add(BuildPredator(predatorName, tokens[i + 1]));
+                        spot.tmpBait = bait;
 
                         // If not otherwise specified, fish should inherit the time
-                        // and weather restrictions of restricted predators (like bait).
-                        var predatorItem = _builder.Db.ItemsByName[predatorName];
-                        if (predatorItem.fish != null)
-                        {
-                            var predatorSpots = (JArray)predatorItem.fish.spots;
-                            dynamic predatorSpotView = predatorSpots.FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);
-                            if (predatorSpotView == null)
-                            {
-                                // Predators for spearfishing nodes may not exist on this spot/node.
-                                // Fallback to any available spot.
-                                predatorSpotView = predatorSpots.FirstOrDefault();
-                                if (predatorSpotView == null)
-                                    throw new InvalidOperationException($"Can't find predator view for {name} predator {predatorName}.");
-                            }
+                        // and weather restrictions of restricted bait (like predators).
+                        if (!_builder.Db.ItemsByName.TryGetValue(bait, out var baitItem))
+                            throw new InvalidOperationException($"Can't find bait {bait} for {name} at {currentFishingSpot.en.name}.  Is the spelling correct?");
 
-                            InheritConditions(spot, predatorSpotView, weather, transition, start, end);
+                        if (baitItem.fish != null)
+                        {
+                            dynamic baitSpotView = ((JArray)baitItem.fish?.spots)?.FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);
+                            if (baitSpotView == null)
+                                throw new InvalidOperationException($"Can't find mooch {bait} for {name} at {currentFishingSpot.en.name}.  Did you forget to add it to the spot?");
+
+                            InheritConditions(spot, baitSpotView, weather, transition, start, end);
                         }
                     }
+
+                    // Time restrictions
+                    if (start != "" || end != "")
+                    {
+                        spot.during = new JObject();
+                        if (start != "")
+                            spot.during.start = int.Parse(start);
+                        if (end != "")
+                            spot.during.end = int.Parse(end);
+                    }
+
+                    // Weather restrictions
+                    if (transition != "")
+                    {
+                        var transitionList = transition.Split(comma, StringSplitOptions.None);
+                        CheckWeather(transitionList);
+                        spot.transition = new JArray(transitionList);
+                    }
+
+                    if (weather != "")
+                    {
+                        var weatherList = weather.Split(comma, StringSplitOptions.None);
+                        CheckWeather(weatherList);
+                        spot.weather = new JArray(weatherList);
+                    }
+
+                    // Predators
+                    if (predator != "")
+                    {
+                        var tokens = predator.Split(comma, StringSplitOptions.None);
+                        spot.predator = new JArray();
+                        for (var i = 0; i < tokens.Length; i += 2)
+                        {
+                            var predatorName = tokens[i];
+                            spot.predator.Add(BuildPredator(predatorName, tokens[i + 1]));
+
+                            // If not otherwise specified, fish should inherit the time
+                            // and weather restrictions of restricted predators (like bait).
+                            var predatorItem = _builder.Db.ItemsByName[predatorName];
+                            if (predatorItem.fish != null)
+                            {
+                                var predatorSpots = (JArray)predatorItem.fish.spots;
+                                dynamic predatorSpotView = predatorSpots.FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);
+                                if (predatorSpotView == null)
+                                {
+                                    // Predators for spearfishing nodes may not exist on this spot/node.
+                                    // Fallback to any available spot.
+                                    predatorSpotView = predatorSpots.FirstOrDefault();
+                                    if (predatorSpotView == null)
+                                        throw new InvalidOperationException($"Can't find predator view for {name} predator {predatorName}.");
+                                }
+
+                                InheritConditions(spot, predatorSpotView, weather, transition, start, end);
+                            }
+                        }
+                    }
+
+                    // Other properties.
+                    if (hookset != "")
+                        spot.hookset = hookset + " Hookset";
+                    if (gathering != "")
+                        spot.gatheringReq = int.Parse(gathering);
+                    if (snagging != "")
+                        spot.snagging = 1;
+                    if (fishEyes != "")
+                        spot.fishEyes = 1;
+                    if (ff14anglerId != "")
+                        spot.ff14anglerId = int.Parse(ff14anglerId);
+
+                    // Add the fish to this gathering point if it's not otherwise there.
+
+                    if (currentFishingSpot != null && !currentFishingSpotItems.Any(i => (int)i["id"] == (int)item.id))
+                    {
+                        if (item.fishingSpots == null)
+                            item.fishingSpots = new JArray();
+                        item.fishingSpots.Add(currentFishingSpot.id);
+
+                        dynamic obj = new JObject();
+                        obj.id = item.id;
+                        obj.lvl = item.ilvl;
+                        currentFishingSpot.items.Add(obj);
+                        _builder.Db.AddReference(currentFishingSpot, "item", (int)item.id, false);
+                        _builder.Db.AddReference(item, "fishing", (int)currentFishingSpot.id, true);
+                    }
+
+                    if (currentNode != null && !currentNodeItems.Any(i => (int)i["id"] == (int)item.id))
+                    {
+                        if (item.nodes == null)
+                            item.nodes = new JArray();
+                        item.nodes.Add(currentNode.id);
+
+                        dynamic obj = new JObject();
+                        obj.id = item.id;
+                        currentNodeItems.Add(obj);
+                        _builder.Db.AddReference(currentNode, "item", (int)item.id, false);
+                        _builder.Db.AddReference(item, "node", (int)currentNode.id, true);
+                    }
+
+                    item.fish.spots.Add(spot);
                 }
-
-                // Other properties.
-                if (hookset != "")
-                    spot.hookset = hookset + " Hookset";
-                if (gathering != "")
-                    spot.gatheringReq = int.Parse(gathering);
-                if (snagging != "")
-                    spot.snagging = 1;
-                if (fishEyes != "")
-                    spot.fishEyes = 1;
-                if (ff14anglerId != "")
-                    spot.ff14anglerId = int.Parse(ff14anglerId);
-
-                // Add the fish to this gathering point if it's not otherwise there.
-
-                if (currentFishingSpot != null && !currentFishingSpotItems.Any(i => (int)i["id"] == (int)item.id))
+                catch (KeyNotFoundException e)
                 {
-                    if (item.fishingSpots == null)
-                        item.fishingSpots = new JArray();
-                    item.fishingSpots.Add(currentFishingSpot.id);
-
-                    dynamic obj = new JObject();
-                    obj.id = item.id;
-                    obj.lvl = item.ilvl;
-                    currentFishingSpot.items.Add(obj);
-                    _builder.Db.AddReference(currentFishingSpot, "item", (int)item.id, false);
-                    _builder.Db.AddReference(item, "fishing", (int)currentFishingSpot.id, true);
+                    Console.WriteLine("No item found with name" + name);
                 }
-
-                if (currentNode != null && !currentNodeItems.Any(i => (int)i["id"] == (int)item.id))
-                { 
-                    if (item.nodes == null)
-                        item.nodes = new JArray();
-                    item.nodes.Add(currentNode.id);
-
-                    dynamic obj = new JObject();
-                    obj.id = item.id;
-                    currentNodeItems.Add(obj);
-                    _builder.Db.AddReference(currentNode, "item", (int)item.id, false);
-                    _builder.Db.AddReference(item, "node", (int)currentNode.id, true);
-                }
-
-                item.fish.spots.Add(spot);
             }
         }
 
@@ -623,17 +629,24 @@ namespace Garland.Data.Modules
                 JArray items = new JArray();
                 foreach (var sItem in sFishingSpot.Items)
                 {
-                    var item = _builder.Db.ItemsById[sItem.Key];
-                    if (item.fishingSpots == null)
-                        item.fishingSpots = new JArray();
-                    item.fishingSpots.Add(sFishingSpot.Key);
+                    try
+                    {
+                        var item = _builder.Db.ItemsById[sItem.Key];
+                        if (item.fishingSpots == null)
+                            item.fishingSpots = new JArray();
+                        item.fishingSpots.Add(sFishingSpot.Key);
 
-                    dynamic obj = new JObject();
-                    obj.id = sItem.Key;
-                    obj.lvl = sItem.ItemLevel.Key;
-                    items.Add(obj);
-                    _builder.Db.AddReference(spot, "item", sItem.Key, false);
-                    _builder.Db.AddReference(item, "fishing", sFishingSpot.Key, true);
+                        dynamic obj = new JObject();
+                        obj.id = sItem.Key;
+                        obj.lvl = sItem.ItemLevel.Key;
+                        items.Add(obj);
+                        _builder.Db.AddReference(spot, "item", sItem.Key, false);
+                        _builder.Db.AddReference(item, "fishing", sFishingSpot.Key, true);
+                    }
+                    catch (KeyNotFoundException e)
+                    {
+                        Console.WriteLine("No item found for key" + sItem.Key.ToString());
+                    }
                 }
                 spot.items = items;
 

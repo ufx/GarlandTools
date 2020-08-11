@@ -86,6 +86,7 @@ Water Cluster	Reduce	Radiant Astral Moraine	Perlite	Gale Rock
 Water Crystal	Reduce	Radiant Astral Moraine	Perlite	Gale Rock									
 Wind Cluster	Reduce	Clary Sage	Furymint	Highland Oregano	Windtea Leaves	Yanxian Soil	Sweet Marjoram						
 Wind Crystal	Reduce	Clary Sage	Furymint	Highland Oregano	Windtea Leaves	Yanxian Soil	Sweet Marjoram						
+Levinstrike Aethersand	Reduce	Levin Mint											
 Lotus Leaf	Loot	Timeworn Leather Map											
 Ahriman Tears	Loot	Timeworn Leather Map	Unhidden Leather Map										
 Tiny Bulb	Loot	Timeworn Toadskin Map											
@@ -175,10 +176,14 @@ Wooden Cups	Loot	Pyros Lockbox
 Spice Rack	Loot	Pyros Lockbox											
 Ballroom Etiquette - Ideal Gossip	Loot	Heat-warped Lockbox											
 Samurai Barding	Loot	Heat-warped Lockbox											
-Tactical Logogram	Loot	Heat-warped Lockbox											
+Tactical Logogram	Loot	Heat-warped Lockbox	Moisture-warped Lockbox										
 Simple Treehouse	Loot	Hydatos Lockbox											
 Paissa Chronometer	Loot	Hydatos Lockbox											
 Gates of Paradise - The Garden of Ru'Hmet Orchestrion Roll	Loot	Hydatos Lockbox											
+Pot of Sharlayan Aether Oil	Loot	Moisture-warped Lockbox											
+Yukinko Snowflake	Loot	Moisture-warped Lockbox											
+Ballroom Etiquette - Overzealous Affirmations	Loot	Moisture-warped Lockbox											
+Onslaught Orchestrion Roll	Loot	Moisture-warped Lockbox											
 Antiquated Machinist's Boots	Loot	Machinist's Armor Coffer											
 Antiquated Machinist's Brais	Loot	Machinist's Armor Coffer											
 Antiquated Machinist's Gloves	Loot	Machinist's Armor Coffer											
@@ -460,17 +465,6 @@ Taffeta Cloth	Venture	Field Exploration XIII	Field Exploration XVII	Field Explor
 Mameshiba	Venture	Highland Exploration XXII											
 Koala Joey	Venture	Field Exploration XXII											
 Axolotl Eft	Venture	Waterside Exploration XXII											
-Red Roundstone	Node	306											
-Violet Roundstone	Node	314											
-Green Roundstone	Node	308											
-Yellow Roundstone	Node	312											
-Blue Roundstone	Node	310											
-Bitter Foxglove	Node	330											
-Heavensnut	Node	336	328										
-Swordleaf	Node	332											
-Dragon's Wart	Node	334	393										
-Mute Swan Feather	Node	338											
-Tiny Tatsunoko	Node	480											
 Verdant Partition	Instance	Saint Mocianne's Arboretum (Hard)											
 Shinryu's Scale	Instance	The Minstrel's Ballad: Shinryu's Domain											
 Pellitory	Instance	The Aquapolis											
@@ -921,8 +915,10 @@ Grade 2 Skybuilders' Pigment	Drop	Islekeeper
 Grade 2 Skybuilders' Spring Water	Drop	Islekeeper											
 Grade 2 Skybuilders' Crystal-Clear Rock Salt	Drop	Islekeeper											
 Grade 2 Artisanal Skybuilders' Rock Salt	Drop	Islekeeper											
-Grade 2 Skybuilders' Flax	Drop	Proto-Noctilucale											
-Grade 2 Skybuilders' Tea Leaves	Drop	Proto-Noctilucale											
-Grade 2 Skybuilders' Barbgrass	Drop	Proto-Noctilucale											
-Grade 2 Skybuilders' Adders	Drop	Proto-Noctilucale											
-Grade 2 Artisanal Skybuilders' Dawn Lizards	Drop	Proto-Noctilucale											
+Grade 2 Skybuilders' Flax	Drop	Proto-noctilucale											
+Grade 2 Skybuilders' Tea Leaves	Drop	Proto-noctilucale											
+Grade 2 Skybuilders' Barbgrass	Drop	Proto-noctilucale											
+Grade 2 Skybuilders' Adders	Drop	Proto-noctilucale											
+Grade 2 Artisanal Skybuilders' Dawn Lizards	Drop	Proto-noctilucale											
+Cloth Cointe Quaint	Drop	The Lost Canals of Uznair	The Hidden Canals of Uznair	The Shifting Canals of Uznair									
+Eft Tail	Drop	Lentic Mudpuppy											

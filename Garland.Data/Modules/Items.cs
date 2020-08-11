@@ -104,10 +104,6 @@ namespace Garland.Data.Modules
                 if (sItem.ItemUICategory.Key == 58 && !sItem.IsAdvancedMeldingPermitted)
                     item.advancedMeldingForbidden = 1;
 
-                var salvage = sItem.Salvage;
-                if (salvage.Key > 0)
-                    item.desynthSkill = salvage.OptimalSkill;
-
                 item.stackSize = sItem.StackSize;
 
                 if (sItem.RepairClassJob.Key != 0)

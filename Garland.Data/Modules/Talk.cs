@@ -14,6 +14,8 @@ namespace Garland.Data.Modules
 
         public override void Start()
         {
+            // Disabled for now, until we can fix this properly with new sheet
+            return;
             var enpcs = _builder.Realm.GameData.ENpcs;
             var defaultTalkByNpc = new Dictionary<int, HashSet<int>>();
 

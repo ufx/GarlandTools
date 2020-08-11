@@ -217,10 +217,12 @@ namespace Garland.Data.Modules
             }
 
             // Hair & Highlights
+            /*
             var hairstyle = (byte)sNpc.Base["HairStyle"];
             var hairstyleIcon = CustomizeIcon(GetHairstyleCustomizeIndex(tribe.Key, isMale), 100, hairstyle, npc);
             if (hairstyleIcon > 0)
                 appearance.hairStyle = hairstyleIcon;
+              */  
 
             appearance.hairColor = FormatColorCoordinates((byte)sNpc.Base["HairColor"]);
             appearance.hairColorCode = FormatColor((byte)sNpc.Base["HairColor"], GetHairColorMapIndex(tribe.Key, isMale));
@@ -302,13 +304,13 @@ namespace Garland.Data.Modules
                         continue;
 
                     var iconIndex = face;
-                    if (race.Key == 7)
+                    // If it's not hrotgar, shift to -1
+                    if (race.Key != 7)
                     {
-                        // Hrothgar are shifted up by 1 or 2.
-                        iconIndex++;
+                        iconIndex --;
                     }
 
-                    var column = "FacialFeatureOption[" + i + "][" + (iconIndex - 1) + "]";
+                    var column = "FacialFeatureOption[" + iconIndex + "][" + i + "]";
 
                     var icon = (ImageFile)type[column];
                     if (icon == null)

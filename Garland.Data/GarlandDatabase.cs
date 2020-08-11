@@ -13,7 +13,7 @@ namespace Garland.Data
     public class GarlandDatabase
     {
         // NOTE: This section must be updated with every patch!
-        public const decimal NextPatch = 5.25m;
+        public const decimal NextPatch = 5.3m;
         public static Patch[] MajorPatches = new[] {
             new Patch(1m, "Legacy", "Legacy"),
 
@@ -41,6 +41,7 @@ namespace Garland.Data
             new Patch(5m, "Shadowbringers", "Shadowbringers"),
             new Patch(5.1m, "Vows of Virtue, Deeds of Cruelty", "Shadowbringers"),
             new Patch(5.2m, "Echoes of a Fallen Star", "Shadowbringers"),
+            new Patch(5.3m, "Reflections in Crystal", "Shadowbringers"),
         };
 
         public static int LevelCap = -1; // Filled in from Miscellaneous.

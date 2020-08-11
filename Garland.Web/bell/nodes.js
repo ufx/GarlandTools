@@ -3396,8 +3396,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 497,
-    "condition": "Perception < 645",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 645",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3427,8 +3427,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 521,
-    "condition": "Perception < 645",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 645",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3463,8 +3463,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 499,
-    "condition": "Perception < 846",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 846",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3493,8 +3493,8 @@
     "uptime": 120,
     "lvl": 65,
     "id": 498,
-    "condition": "Perception < 780",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 780",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3523,8 +3523,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 500,
-    "condition": "Perception < 829",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 829",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3553,8 +3553,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 501,
-    "condition": "Perception < 796",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 796",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3583,8 +3583,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 524,
-    "condition": "Perception < 1200",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1200",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3613,8 +3613,8 @@
     "uptime": 120,
     "lvl": 65,
     "id": 522,
-    "condition": "Perception < 780",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 780",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3643,8 +3643,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 525,
-    "condition": "Perception < 796",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 796",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3673,8 +3673,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 523,
-    "condition": "Perception < 862",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 862",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3710,8 +3710,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 528,
-    "condition": "Perception < 1200",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1200",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3746,8 +3746,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 526,
-    "condition": "Perception < 829",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 829",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3777,8 +3777,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 527,
-    "condition": "Perception < 1200",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1200",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3814,8 +3814,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 503,
-    "condition": "Perception < 1200",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1200",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3845,8 +3845,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 504,
-    "condition": "Perception < 1200",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1200",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -3874,8 +3874,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 502,
-    "condition": "Perception < 846",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 846",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.0
   },
   {
@@ -4192,8 +4192,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 535,
-    "condition": "Perception < 1350",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.2
   },
   {
@@ -4228,8 +4228,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 536,
-    "condition": "Perception < 1350",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.2
   },
   {
@@ -4264,8 +4264,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 537,
-    "condition": "Perception < 1350",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.2
   },
   {
@@ -4294,8 +4294,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 538,
-    "condition": "Perception < 1350",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.2
   },
   {
@@ -4324,8 +4324,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 555,
-    "condition": "Perception < 1550",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1550",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.4
   },
   {
@@ -4354,8 +4354,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 556,
-    "condition": "Perception < 1550",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1550",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.4
   },
   {
@@ -4384,8 +4384,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 557,
-    "condition": "Perception < 1550",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1550",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.4
   },
   {
@@ -4414,8 +4414,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 558,
-    "condition": "Perception < 1550",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1550",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 4.4
   },
   {
@@ -4445,8 +4445,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 627,
-    "condition": "Perception < 1350",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4476,8 +4476,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 603,
-    "condition": "Perception < 1350",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4506,8 +4506,8 @@
     "uptime": 120,
     "lvl": 75,
     "id": 628,
-    "condition": "Perception < 1312",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1312",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4535,8 +4535,8 @@
     "uptime": 120,
     "lvl": 75,
     "id": 629,
-    "condition": "Perception < 1350",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4565,8 +4565,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 630,
-    "condition": "Perception < 1421",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1421",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4595,8 +4595,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 631,
-    "condition": "Perception < 1491",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1491",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4625,8 +4625,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 632,
-    "condition": "Perception < 1562",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1562",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4662,8 +4662,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 633,
-    "condition": "Perception < 1840",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1840",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4693,8 +4693,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 634,
-    "condition": "Perception < 1840",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1840",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4723,8 +4723,8 @@
     "uptime": 120,
     "lvl": 75,
     "id": 604,
-    "condition": "Perception < 1312",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1312",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4752,8 +4752,8 @@
     "uptime": 120,
     "lvl": 75,
     "id": 605,
-    "condition": "Perception < 1350",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4782,8 +4782,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 606,
-    "condition": "Perception < 1421",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1421",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4812,8 +4812,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 607,
-    "condition": "Perception < 1491",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1491",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4842,8 +4842,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 608,
-    "condition": "Perception < 1562",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1562",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4879,8 +4879,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 609,
-    "condition": "Perception < 1840",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1840",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4910,8 +4910,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 610,
-    "condition": "Perception < 1840",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1840",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.0
   },
   {
@@ -4935,6 +4935,7 @@
         "slot": "5"
       }
     ],
+    "stars": 2,
     "time": [
       0
     ],
@@ -4969,8 +4970,18 @@
         "icon": 20016,
         "id": 16,
         "slot": "4"
+      },
+      {
+        "item": "Levin Mint",
+        "icon": "t/25039",
+        "id": 30592,
+        "reduce": {
+          "item": "Levinstrike Aethersand",
+          "icon": "t/21238"
+        }
       }
     ],
+    "stars": 2,
     "time": [
       4
     ],
@@ -5007,6 +5018,7 @@
         "slot": "2"
       }
     ],
+    "stars": 2,
     "time": [
       8
     ],
@@ -5040,8 +5052,18 @@
         "icon": 20018,
         "id": 17,
         "slot": "7"
+      },
+      {
+        "item": "Levin Mint",
+        "icon": "t/25039",
+        "id": 30592,
+        "reduce": {
+          "item": "Levinstrike Aethersand",
+          "icon": "t/21238"
+        }
       }
     ],
+    "stars": 2,
     "time": [
       12
     ],
@@ -5078,6 +5100,7 @@
         "slot": "3"
       }
     ],
+    "stars": 2,
     "time": [
       16
     ],
@@ -5112,8 +5135,18 @@
         "icon": 20015,
         "id": 15,
         "slot": "6"
+      },
+      {
+        "item": "Levin Mint",
+        "icon": "t/25039",
+        "id": 30592,
+        "reduce": {
+          "item": "Levinstrike Aethersand",
+          "icon": "t/21238"
+        }
       }
     ],
+    "stars": 2,
     "time": [
       20
     ],
@@ -5138,6 +5171,12 @@
         "icon": 21226,
         "id": 29968,
         "slot": "6"
+      },
+      {
+        "item": "Brashgold Ore",
+        "icon": 21226,
+        "id": 30486,
+        "slot": "7"
       }
     ],
     "stars": 2,
@@ -5155,8 +5194,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 681,
-    "condition": "Perception < 2140",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.2
   },
   {
@@ -5185,8 +5224,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 682,
-    "condition": "Perception < 2140",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.2
   },
   {
@@ -5215,8 +5254,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 683,
-    "condition": "Perception < 2140",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.2
   },
   {
@@ -5228,6 +5267,12 @@
         "icon": 25038,
         "id": 29978,
         "slot": "3"
+      },
+      {
+        "item": "Tender Dill",
+        "icon": 25036,
+        "id": 30485,
+        "slot": "4"
       }
     ],
     "stars": 2,
@@ -5245,8 +5290,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 684,
-    "condition": "Perception < 2140",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.2
   },
   {
@@ -5275,8 +5320,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 714,
-    "condition": "Perception < 2140",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.2
   },
   {
@@ -5305,8 +5350,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 713,
-    "condition": "Perception < 2140",
-    "bonus": " Gathering Fortune 0%",
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.2
   }
 ];
