@@ -4933,6 +4933,15 @@
         "icon": 20014,
         "id": 19,
         "slot": "5"
+      },
+      {
+        "item": "Thunder Rock",
+        "icon": "t/21482",
+        "id": 30591,
+        "reduce": {
+          "item": "Levinstrike Aethersand",
+          "icon": "t/21238"
+        }
       }
     ],
     "stars": 2,
@@ -5016,6 +5025,15 @@
         "icon": 20017,
         "id": 18,
         "slot": "2"
+      },
+      {
+        "item": "Thunder Rock",
+        "icon": "t/21482",
+        "id": 30591,
+        "reduce": {
+          "item": "Levinstrike Aethersand",
+          "icon": "t/21238"
+        }
       }
     ],
     "stars": 2,
@@ -5098,6 +5116,15 @@
         "icon": 20013,
         "id": 14,
         "slot": "3"
+      },
+      {
+        "item": "Thunder Rock",
+        "icon": "t/21482",
+        "id": 30591,
+        "reduce": {
+          "item": "Levinstrike Aethersand",
+          "icon": "t/21238"
+        }
       }
     ],
     "stars": 2,
