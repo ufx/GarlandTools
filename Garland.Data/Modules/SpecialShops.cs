@@ -66,6 +66,7 @@ namespace Garland.Data.Modules
                     if (sShop == null || sShop.Key == 0)
                         continue;
 
+                    if (sShop.Sheet.Name == "PreHandler") sShop = (Saint.IXivRow)sShop["Target"];
                     if (sShop is Saint.SpecialShop sSpecialShop)
                     {
                         var shop = _shopsByKey[sShop.Key];

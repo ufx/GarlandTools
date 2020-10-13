@@ -25,6 +25,7 @@ namespace Garland.Data.Modules
             BuildMasterpieceSupplyDuties();
             BuildSatisfactionSupplyDuties();
             BuildGCSupplyAndProvisioningDuties();
+            BuildCollectablesShopItemReward();
         }
 
         void BuildMasterpieceSupplyDuties()
@@ -95,6 +96,14 @@ namespace Garland.Data.Modules
 
                     _builder.Db.AddReference(rewardItem, "item", requiredItemKey, false);
                 }
+            }
+        }
+
+        void BuildCollectablesShopItemReward()
+        {
+            foreach(var sCollectableShopItem in _builder.Sheet2("CollectablesShopItem"))
+            {
+                Console.WriteLine(sCollectableShopItem["Item"]);
             }
         }
 
