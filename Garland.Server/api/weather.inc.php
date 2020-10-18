@@ -125,6 +125,7 @@ $zoneWeather = array('Limsa Lominsa' => array(array('Rate' => 20, 'Weather' => 3
     'The Tempest' => array(array('Rate' => 20, 'Weather' => 3), array('Rate' => 80, 'Weather' => 2), array('Rate' => 100, 'Weather' => 1)),
     'The Crown of the Immaculate' => array(array('Rate' => 100, 'Weather' => 118)),
     'Lyhe Mheg' => array(array('Rate' => 100, 'Weather' => 4)),
-    'The Firmament' => array(array('Rate' => 60, 'Weather' => 15), array('Rate' => 70, 'Weather' => 2), array('Rate' => 75, 'Weather' => 1), array('Rate' => 90, 'Weather' => 3), array('Rate' => 100, 'Weather' => 4)));
+    'The Firmament' => array(array('Rate' => 60, 'Weather' => 15), array('Rate' => 70, 'Weather' => 2), array('Rate' => 75, 'Weather' => 1), array('Rate' => 90, 'Weather' => 3), array('Rate' => 100, 'Weather' => 4)),
+    'Bozjan Southern Front' => array(array('Rate' => 52, 'Weather' => 2), array('Rate' => 64, 'Weather' => 7), array('Rate' => 76, 'Weather' => 5), array('Rate' => 88, 'Weather' => 9), array('Rate' => 100, 'Weather' => 11)));
 
 ?>

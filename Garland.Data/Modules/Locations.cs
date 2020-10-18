@@ -163,6 +163,10 @@ namespace Garland.Data.Modules
             locationsById[2530].weatherRate = 96; // fixme: should be auto-filled
             locationsById[2545].weatherRate = 100; // fixme: should be auto-filled
 
+            // Bozja
+            _builder.Db.AddLocationReference(3534);
+            locationsById[3534].weatherRate = 124; // fixme: should be auto-filled
+
             // Norvrandt
             _builder.Db.AddLocationReference(516); // The Crystarium
             locationsById[516].weatherRate = 112;
