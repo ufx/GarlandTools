@@ -7511,7 +7511,7 @@ gt.equip = {
         { icon: "images/Region Gyr Abania.png", name: "Gyr Abania", page: "GyrAbania", zones: [2403, 2406, 2407, 2408] },
         { icon: "images/Region Kugane.png", name: "Far East", page: "FarEast", zones: [513, 2412, 2409, 2410, 2411] },
         { icon: "images/Region Norvrandt.png", name: "Norvrandt", page: "Norvrandt", zones: [516, 517, 2953, 2954, 2955, 2956, 2957, 2958], },
-        { icon: "images/Aetheryte.png", name: "Others", page: "Others", zones: [67, 2414, 2462, 2530, 2545] }
+        { icon: "images/Aetheryte.png", name: "Others", page: "Others", zones: [67, 2414, 2462, 2530, 2545, 3534] }
     ],
     weatherUpdateKey: null,
     lWeatherStart: null,
@@ -7552,7 +7552,7 @@ gt.equip = {
         var eStart = gt.time.localToEorzea(lStart);
         eStart.setUTCHours(eStart.getUTCHours() - 8); // Show the previous weather for transitions.
 
-        view.initialChangeTime = gt.time.formatTime(lEnd);
+        view.initialChangeTime = gt.time.formatTime(lEnd, gt.time.hoursMinutes);
         view.initialProgressPercent = gt.time.getPercentTimeDifference(lStart, lEnd);
         view.initialTimeRemaining = gt.time.formatCountdown(lEnd);
 
@@ -7652,7 +7652,7 @@ gt.equip = {
 
         var view = { zone: zone, weather: weather, type: type, lProgressStart: lProgressStart, lProgressEnd: lProgressEnd };
         view.name = gt.skywatcher.getShortZoneName(zone.name);
-        view.initialChangeTime = gt.time.formatTime(lProgressEnd);
+        view.initialChangeTime = gt.time.formatTime(lProgressEnd, gt.time.hoursMinutes) + ' (ET ' + gt.time.formatTime(gt.time.localToEorzea(lProgressEnd), gt.time.hoursMinutesUTC) + ')';
         view.initialProgressPercent = gt.time.getPercentTimeDifference(lProgressStart, lProgressEnd);
         view.initialTimeRemaining = gt.time.formatCountdown(lProgressEnd);
         return view;
