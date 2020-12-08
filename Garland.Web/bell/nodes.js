@@ -4748,8 +4748,8 @@
     "title": "The K'mul Astropolis",
     "zone": "The Rak'tika Greatwood",
     "coords": [
-      25.7,
-      28.9
+      24.2,
+      13.7
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -4794,8 +4794,8 @@
     "title": "The K'mul Astropolis",
     "zone": "The Rak'tika Greatwood",
     "coords": [
-      26.9,
-      24.3
+      24.1,
+      15.1
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -4840,8 +4840,8 @@
     "title": "The Exarch Gate",
     "zone": "Lakeland",
     "coords": [
-      36.9,
-      14.9
+      34.3,
+      29.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -4885,8 +4885,8 @@
     "title": "The Bridges",
     "zone": "Lakeland",
     "coords": [
-      25.0,
-      29.0
+      33.3,
+      36.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -4931,8 +4931,8 @@
     "title": "Komra",
     "zone": "Kholusia",
     "coords": [
-      22.1,
-      18.4
+      33.2,
+      16.7
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -4977,8 +4977,8 @@
     "title": "Tomra",
     "zone": "Kholusia",
     "coords": [
-      13.0,
-      13.0
+      18.6,
+      5.9
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -5352,5 +5352,464 @@
     "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
     "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Reef Rock",
+        "icon": 21203,
+        "id": 32984
+      },
+      {
+        "item": "Rarefied Tungsten Ore",
+        "icon": 21203,
+        "id": 32986
+      }
+    ],
+    "stars": 1,
+    "time": [
+      2,
+      14
+    ],
+    "title": "The Ondo Cups",
+    "zone": "The Tempest",
+    "coords": [
+      32.7,
+      20.5
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 766,
+    "patch": 5.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Gyr Abanian Alumen",
+        "icon": 22644,
+        "id": 32987
+      }
+    ],
+    "stars": 1,
+    "time": [
+      10,
+      22
+    ],
+    "title": "Virdjala",
+    "zone": "The Fringes",
+    "coords": [
+      31.5,
+      31.3
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 767,
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Dark Chestnut Sap",
+        "icon": 22654,
+        "id": 32992
+      },
+      {
+        "item": "Rarefied Dark Chestnut Log",
+        "icon": 22420,
+        "id": 32993
+      },
+      {
+        "item": "Rarefied Dark Chestnut Branch",
+        "icon": 22416,
+        "id": 32994
+      }
+    ],
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Smoldering Wastes",
+    "zone": "The Dravanian Forelands",
+    "coords": [
+      29.1,
+      30.0
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 55,
+    "id": 768,
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Dark Chestnut",
+        "icon": 25302,
+        "id": 32995
+      },
+      {
+        "item": "Rarefied Dark Chestnut Resin",
+        "icon": 22674,
+        "id": 32996
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "Avalonia Fallen",
+    "zone": "The Dravanian Forelands",
+    "coords": [
+      16.1,
+      36.4
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 769,
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Larch Log",
+        "icon": 22403,
+        "id": 32997
+      },
+      {
+        "item": "Rarefied Larch Sap",
+        "icon": 22642,
+        "id": 32999
+      }
+    ],
+    "time": [
+      2,
+      14
+    ],
+    "title": "Isari",
+    "zone": "The Ruby Sea",
+    "coords": [
+      5.9,
+      15.7
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 65,
+    "id": 770,
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Shiitake Mushroom",
+        "icon": 25401,
+        "id": 32998
+      }
+    ],
+    "time": [
+      4,
+      16
+    ],
+    "title": "Shoal Rock",
+    "zone": "The Ruby Sea",
+    "coords": [
+      33.0,
+      9.2
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 65,
+    "id": 771,
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Pine Resin",
+        "icon": 22638,
+        "id": 33000
+      },
+      {
+        "item": "Rarefied Pine Log",
+        "icon": 22414,
+        "id": 33001
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "Doma",
+    "zone": "Yanxia",
+    "coords": [
+      18.6,
+      14.3
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 772,
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Pixie Apple",
+        "icon": 25308,
+        "id": 33002
+      },
+      {
+        "item": "Rarefied Miracle Apple Log",
+        "icon": 22404,
+        "id": 33004
+      }
+    ],
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Woolen Way",
+    "zone": "Il Mheg",
+    "coords": [
+      4.0,
+      23.1
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 773,
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied White Oak Log",
+        "icon": 22407,
+        "id": 33003
+      }
+    ],
+    "time": [
+      8,
+      20
+    ],
+    "title": "The Chisel",
+    "zone": "Kholusia",
+    "coords": [
+      27.8,
+      32.7
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 774,
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Sandteak Log",
+        "icon": 22403,
+        "id": 33005
+      },
+      {
+        "item": "Rarefied Amber Cloves",
+        "icon": 25023,
+        "id": 33007
+      }
+    ],
+    "time": [
+      2,
+      14
+    ],
+    "title": "The Central Hills of Amber",
+    "zone": "Amh Araeng",
+    "coords": [
+      18.5,
+      20.4
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 775,
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Kelp",
+        "icon": 25225,
+        "id": 33006
+      },
+      {
+        "item": "Rarefied Coral",
+        "icon": 29062,
+        "id": 33008
+      }
+    ],
+    "stars": 1,
+    "time": [
+      4,
+      14
+    ],
+    "title": "The Norvrandt Slope",
+    "zone": "The Tempest",
+    "coords": [
+      37.4,
+      11.6
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 776,
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Urunday Log",
+        "icon": 22420,
+        "id": 33009
+      }
+    ],
+    "stars": 1,
+    "time": [
+      0,
+      12
+    ],
+    "title": "Heather Falls",
+    "zone": "The Peaks",
+    "coords": [
+      30.5,
+      6.8
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 777,
+    "patch": 5.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Raw Kyanite",
+        "icon": 21472,
+        "id": 32977
+      },
+      {
+        "item": "Rarefied Raw Triphane",
+        "icon": 21474,
+        "id": 32975
+      }
+    ],
+    "time": [
+      6,
+      18
+    ],
+    "title": "Mirage Creek",
+    "zone": "The Fringes",
+    "coords": [
+      29.5,
+      12.9
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 65,
+    "id": 310,
+    "patch": 0.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Pyrite",
+        "icon": 21207,
+        "id": 32970
+      },
+      {
+        "item": "Rarefied Chalcocite",
+        "icon": 21209,
+        "id": 32971
+      },
+      {
+        "item": "Rarefied Limonite",
+        "icon": 21206,
+        "id": 32972
+      }
+    ],
+    "time": [
+      4,
+      16
+    ],
+    "title": "The Smoldering Wastes",
+    "zone": "The Dravanian Forelands",
+    "coords": [
+      30.6,
+      32.1
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 55,
+    "id": 306,
+    "patch": 0.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Abalathian Spring Water",
+        "icon": 22614,
+        "id": 32973
+      },
+      {
+        "item": "Rarefied Aurum Regis Sand",
+        "icon": 21220,
+        "id": 32974
+      }
+    ],
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Blue Window",
+    "zone": "The Sea of Clouds",
+    "coords": [
+      20.6,
+      11.5
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 308,
+    "patch": 0.0
   }
 ];
