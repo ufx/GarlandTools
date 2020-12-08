@@ -985,7 +985,6 @@ Abalathian Smelt	Syrphid Basket											24
 Ice Faerie	Purse Web Spider											316
 Coerthan Crab	Stonefly Nymph											318
 Hotrod	Brute Leech				Blizzards, Snow							327
-Capelin	Brute Leech	0	6								1	437
 Priestfish	Brute Leech							Powerful			1	456
 Ghost Faerie	Stonefly Nymph							Precision				507
 Bishopfish	Brute Leech	10	14		Clear Skies			Powerful			1	489
@@ -1245,7 +1244,7 @@ Halo												70108
 Granite Crab	Magma Worm											354
 Magma Tree	Magma Worm							Precision		1		359
 Cometoise	Granite Crab											387
-Fossiltongue	Granite Crab							Powerful			1	400
+Fossiltongue	Magma Worm							Powerful			1	400
 Lavalord	Granite Crab	9	16		Clear Skies, Fair Skies			Powerful			1	432
 Lava Snail	Magma Worm				Clear Skies, Fair Skies					1		455
 The Lord of Lords	Granite Crab	8	16	Clouds, Dust Storms, Fog	Clear Skies, Fair Skies			Powerful			1	496

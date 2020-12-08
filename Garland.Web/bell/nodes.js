@@ -1545,8 +1545,7 @@
         "item": "Chives",
         "icon": 25035,
         "id": 12884,
-        "slot": "1",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "1"
       },
       {
         "item": "Pearl Sprout Seeds",
@@ -1564,15 +1563,13 @@
         "item": "Pearl Sprouts",
         "icon": 25208,
         "id": 12877,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       },
       {
         "item": "Coerthan Tea Leaves",
         "icon": 25020,
         "id": 12882,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -1599,8 +1596,7 @@
         "item": "Chysahl Greens",
         "icon": 25222,
         "id": 12900,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -1627,8 +1623,7 @@
         "item": "Yellow Copper Ore",
         "icon": 21207,
         "id": 5108,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Dark Matter Cluster",
@@ -1668,8 +1663,7 @@
         "item": "Old World Fig",
         "icon": 25318,
         "id": 12896,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Dark Matter Cluster",
@@ -1703,22 +1697,19 @@
         "item": "Chalcocite",
         "icon": 21209,
         "id": 12941,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Pyrite",
         "icon": 21207,
         "id": 5109,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       },
       {
         "item": "Limonite",
         "icon": 21206,
         "id": 5112,
-        "slot": "4",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "4"
       }
     ],
     "time": [
@@ -1745,15 +1736,13 @@
         "item": "Heavens Lemon",
         "icon": 25305,
         "id": 12889,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Abalathian Mistletoe",
         "icon": 25001,
         "id": 12944,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "time": [
@@ -1780,15 +1769,13 @@
         "item": "Abalathian Rock Salt",
         "icon": 22617,
         "id": 12901,
-        "slot": "1",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "1"
       },
       {
         "item": "Red Quartz",
         "icon": 21456,
         "id": 5159,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -1815,15 +1802,13 @@
         "item": "Dravanian Mistletoe",
         "icon": 25001,
         "id": 12943,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       },
       {
         "item": "Porcini",
         "icon": 25401,
         "id": 12899,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -1850,15 +1835,13 @@
         "item": "Yellow Quartz",
         "icon": 21458,
         "id": 5162,
-        "slot": "4",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "4"
       },
       {
         "item": "Green Quartz",
         "icon": 21459,
         "id": 5161,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -1885,15 +1868,13 @@
         "item": "Cloud Banana",
         "icon": 25319,
         "id": 12897,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Morel",
         "icon": 25408,
         "id": 12898,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -1920,15 +1901,13 @@
         "item": "Cuprite",
         "icon": 21206,
         "id": 12942,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Light Kidney Ore",
         "icon": 21206,
         "id": 5117,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "time": [
@@ -1955,8 +1934,7 @@
         "item": "Adamantite Ore",
         "icon": 21224,
         "id": 12538,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -1983,15 +1961,13 @@
         "item": "Aurum Regis Ore",
         "icon": 21225,
         "id": 12536,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       },
       {
         "item": "Lumythrite Ore",
         "icon": 21221,
         "id": 14148,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -2019,8 +1995,7 @@
         "item": "Seventh Heaven",
         "icon": 22627,
         "id": 12634,
-        "slot": "1",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "1"
       }
     ],
     "stars": 1,
@@ -2048,8 +2023,7 @@
         "item": "Snurbleberry",
         "icon": 25306,
         "id": 12904,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -2077,15 +2051,13 @@
         "item": "Astral Moraine",
         "icon": 21463,
         "id": 5226,
-        "slot": "4",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "4"
       },
       {
         "item": "Violet Quartz",
         "icon": 21461,
         "id": 5163,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 1,
@@ -2113,8 +2085,7 @@
         "item": "Blue Quartz",
         "icon": 21457,
         "id": 5160,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "stars": 1,
@@ -2140,10 +2111,9 @@
     "items": [
       {
         "item": "Sun Mica",
-        "icon": 21226,
+        "icon": 21227,
         "id": 12540,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -2171,8 +2141,7 @@
         "item": "Red Alumen",
         "icon": 22656,
         "id": 12945,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -2200,8 +2169,7 @@
         "item": "Wattle Bark",
         "icon": 23001,
         "id": 12587,
-        "slot": "5",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "5"
       }
     ],
     "stars": 1,
@@ -2229,8 +2197,7 @@
         "item": "Honeydew Almonds",
         "icon": 25017,
         "id": 12902,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -2258,22 +2225,19 @@
         "item": "Vanilla Beans",
         "icon": 25014,
         "id": 4833,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       },
       {
         "item": "Dravanian Paprika",
         "icon": 25018,
         "id": 12903,
-        "slot": "4",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "4"
       },
       {
         "item": "Frost Cotton Boll",
         "icon": 25032,
         "id": 14154,
-        "slot": "5",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "5"
       }
     ],
     "stars": 1,
@@ -2348,7 +2312,7 @@
     "time": [
       0
     ],
-    "title": "Twinpools",
+    "title": "Red Rim",
     "zone": "Coerthas Western Highlands",
     "coords": [
       10.0,
@@ -2415,74 +2379,7 @@
     "time": [
       20
     ],
-    "title": "The Blue Window",
-    "zone": "The Sea of Clouds",
-    "coords": [
-      23.0,
-      12.0
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 60,
-    "id": 335,
-    "patch": 3.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Highland Oregano",
-        "icon": 25015,
-        "id": 12971,
-        "slot": "5",
-        "reduce": {
-          "item": "Duskborne Aethersand",
-          "icon": 22613
-        }
-      },
-      {
-        "item": "Lover's Laurel",
-        "icon": 25009,
-        "id": 15948,
-        "slot": "6",
-        "reduce": {
-          "item": "Light-kissed Aethersand",
-          "icon": 22210
-        }
-      },
-      {
-        "item": "Furymint",
-        "icon": 25016,
-        "id": 12972,
-        "slot": "7",
-        "reduce": {
-          "item": "Dawnborne Aethersand",
-          "icon": 22648
-        }
-      },
-      {
-        "item": "Clary Sage",
-        "icon": 25009,
-        "id": 12973,
-        "slot": "8",
-        "reduce": {
-          "item": "Leafborne Aethersand",
-          "icon": 22649
-        }
-      },
-      {
-        "item": "Wind Cluster",
-        "icon": 20016,
-        "id": 16,
-        "slot": "4"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      20
-    ],
-    "title": "Voor Sian Siran",
+    "title": "Ok' Vundu Mok",
     "zone": "The Sea of Clouds",
     "coords": [
       26.0,
@@ -2616,7 +2513,7 @@
     "time": [
       16
     ],
-    "title": "Four Arms",
+    "title": "Greensward",
     "zone": "The Churning Mists",
     "coords": [
       20.0,
@@ -2681,77 +2578,9 @@
     ],
     "stars": 1,
     "time": [
-      16
-    ],
-    "title": "Eil Tohm",
-    "zone": "The Churning Mists",
-    "coords": [
-      32.0,
-      32.0,
-      1.0
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 60,
-    "id": 392,
-    "patch": 3.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Granular Clay",
-        "icon": 27407,
-        "id": 12968,
-        "slot": "5",
-        "reduce": {
-          "item": "Duskborne Aethersand",
-          "icon": 22613
-        }
-      },
-      {
-        "item": "Lover's Laurel",
-        "icon": 25009,
-        "id": 15948,
-        "slot": "6",
-        "reduce": {
-          "item": "Light-kissed Aethersand",
-          "icon": 22210
-        }
-      },
-      {
-        "item": "Peat Moss",
-        "icon": 27401,
-        "id": 12969,
-        "slot": "4",
-        "reduce": {
-          "item": "Dawnborne Aethersand",
-          "icon": 22648
-        }
-      },
-      {
-        "item": "Black Soil",
-        "icon": 27404,
-        "id": 12970,
-        "slot": "8",
-        "reduce": {
-          "item": "Leafborne Aethersand",
-          "icon": 22649
-        }
-      },
-      {
-        "item": "Earth Cluster",
-        "icon": 20018,
-        "id": 17,
-        "slot": "7"
-      }
-    ],
-    "stars": 1,
-    "time": [
       4
     ],
-    "title": "The Answering Quarter",
+    "title": "Saint Mocianne's Arboretum",
     "zone": "The Dravanian Hinterlands",
     "coords": [
       13.0,
@@ -2818,7 +2647,7 @@
     "time": [
       20
     ],
-    "title": "Red Rim",
+    "title": "Black Iron Bridge",
     "zone": "Coerthas Western Highlands",
     "coords": [
       21.0,
@@ -2885,7 +2714,7 @@
     "time": [
       16
     ],
-    "title": "Voor Sian Siran",
+    "title": "Ok' Gundu",
     "zone": "The Sea of Clouds",
     "coords": [
       34.0,
@@ -3019,7 +2848,7 @@
     "time": [
       12
     ],
-    "title": "Landlord Colony",
+    "title": "The Lost Landlord",
     "zone": "The Churning Mists",
     "coords": [
       29.0,
@@ -3106,15 +2935,13 @@
         "item": "Crystallized Sap",
         "icon": 20018,
         "id": 15647,
-        "slot": "4",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "4"
       },
       {
         "item": "Old-growth Camphorwood Log",
         "icon": 22414,
         "id": 14957,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 1,
@@ -3142,15 +2969,13 @@
         "item": "Smithsonite Ore",
         "icon": 21473,
         "id": 14151,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Meteorite",
         "icon": 21203,
         "id": 15646,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "stars": 1,
@@ -3290,7 +3115,7 @@
     "items": [
       {
         "item": "Luminium Ore",
-        "icon": 21226,
+        "icon": 21227,
         "id": 16725,
         "slot": "6"
       }
@@ -3377,8 +3202,7 @@
         "item": "Raw Triphane",
         "icon": 21474,
         "id": 19968,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 2,
@@ -3408,8 +3232,7 @@
         "item": "Beech Branch",
         "icon": 22417,
         "id": 19936,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "stars": 2,
@@ -3445,8 +3268,7 @@
         "item": "Raw Rhodonite",
         "icon": 21471,
         "id": 19973,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -3475,8 +3297,7 @@
         "item": "Raw Star Spinel",
         "icon": 21475,
         "id": 19970,
-        "slot": "8",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "8"
       }
     ],
     "time": [
@@ -3505,8 +3326,7 @@
         "item": "Raw Imperial Jade",
         "icon": 21252,
         "id": 19972,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -3535,8 +3355,7 @@
         "item": "Raw Azurite",
         "icon": 21472,
         "id": 19971,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -3595,8 +3414,7 @@
         "item": "Bamboo Shoot",
         "icon": 25229,
         "id": 19860,
-        "slot": "8",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "8"
       }
     ],
     "time": [
@@ -3625,8 +3443,7 @@
         "item": "Lotus Root",
         "icon": 25226,
         "id": 19865,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -3655,8 +3472,7 @@
         "item": "Othardian Plum",
         "icon": 25311,
         "id": 19852,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "time": [
@@ -3685,8 +3501,7 @@
         "item": "Rhea",
         "icon": 21651,
         "id": 19991,
-        "slot": "4",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "4"
       },
       {
         "item": "Azim Cotton Boll",
@@ -3728,8 +3543,7 @@
         "item": "Jhammel Ginger",
         "icon": 25012,
         "id": 19857,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "time": [
@@ -3758,8 +3572,7 @@
         "item": "Torreya Log",
         "icon": 22405,
         "id": 19934,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 1,
@@ -3795,8 +3608,7 @@
         "item": "Chromite Ore",
         "icon": 21205,
         "id": 19959,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 1,
@@ -3826,8 +3638,7 @@
         "item": "Palladium Ore",
         "icon": 21217,
         "id": 19958,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 1,
@@ -3913,7 +3724,7 @@
     "time": [
       16
     ],
-    "title": "Doma",
+    "title": "The Glittering Basin",
     "zone": "Yanxia",
     "coords": [
       22.0,
@@ -4007,7 +3818,7 @@
     "time": [
       4
     ],
-    "title": "Abalathia's Skull",
+    "title": "The Queen's Gardens",
     "zone": "The Lochs",
     "coords": [
       28.0,
@@ -4054,7 +3865,7 @@
     "time": [
       20
     ],
-    "title": "Unseen Spirits Laughing",
+    "title": "Valley of the Fallen Rainbow",
     "zone": "Yanxia",
     "coords": [
       37.0,
@@ -4101,7 +3912,7 @@
     "time": [
       12
     ],
-    "title": "Onsal Hakair",
+    "title": "Ragill's Reckoning",
     "zone": "The Azim Steppe",
     "coords": [
       29.0,
@@ -4426,8 +4237,7 @@
         "item": "White Oak Branch",
         "icon": 22416,
         "id": 27816,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "stars": 2,
@@ -4457,8 +4267,7 @@
         "item": "Raw Hematite",
         "icon": 21476,
         "id": 27726,
-        "slot": "8",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "8"
       }
     ],
     "stars": 2,
@@ -4488,8 +4297,7 @@
         "item": "Broad Beans",
         "icon": 25353,
         "id": 27833,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "time": [
@@ -4547,8 +4355,7 @@
         "item": "Russet Popoto",
         "icon": 25204,
         "id": 27822,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -4577,8 +4384,7 @@
         "item": "Mist Spinach",
         "icon": 25206,
         "id": 27828,
-        "slot": "6",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -4607,8 +4413,7 @@
         "item": "Lemonette",
         "icon": 25305,
         "id": 27835,
-        "slot": "2",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "time": [
@@ -4637,8 +4442,7 @@
         "item": "Sandalwood Log",
         "icon": 22401,
         "id": 27688,
-        "slot": "6",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "6"
       },
       {
         "item": "Sandalwood Sap",
@@ -4674,8 +4478,7 @@
         "item": "Ethereal Cocoon",
         "icon": 21661,
         "id": 27761,
-        "slot": "4",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "4"
       }
     ],
     "stars": 1,
@@ -4705,8 +4508,7 @@
         "item": "Raw Diaspore",
         "icon": 21473,
         "id": 27727,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -4764,8 +4566,7 @@
         "item": "Raw Triplite",
         "icon": 21471,
         "id": 27729,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -4794,8 +4595,7 @@
         "item": "Raw Petalite",
         "icon": 21477,
         "id": 27730,
-        "slot": "8",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "8"
       }
     ],
     "time": [
@@ -4824,8 +4624,7 @@
         "item": "Raw Onyx",
         "icon": 21231,
         "id": 27731,
-        "slot": "7",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -4854,8 +4653,7 @@
         "item": "Prismstone",
         "icon": 21232,
         "id": 27705,
-        "slot": "7",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "7"
       },
       {
         "item": "Beryllium Ore",
@@ -4891,8 +4689,7 @@
         "item": "Tungsten Ore",
         "icon": 21203,
         "id": 27704,
-        "slot": "3",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "stars": 1,
@@ -4936,11 +4733,11 @@
       },
       {
         "item": "Thunder Rock",
-        "icon": "t/21482",
+        "icon": 21482,
         "id": 30591,
         "reduce": {
           "item": "Levinstrike Aethersand",
-          "icon": "t/21238"
+          "icon": 21238
         }
       }
     ],
@@ -4948,7 +4745,7 @@
     "time": [
       0
     ],
-    "title": "The Wild Fete",
+    "title": "The K'mul Astropolis",
     "zone": "The Rak'tika Greatwood",
     "coords": [
       25.7,
@@ -4982,11 +4779,11 @@
       },
       {
         "item": "Levin Mint",
-        "icon": "t/25039",
+        "icon": 25039,
         "id": 30592,
         "reduce": {
           "item": "Levinstrike Aethersand",
-          "icon": "t/21238"
+          "icon": 21238
         }
       }
     ],
@@ -4994,7 +4791,7 @@
     "time": [
       4
     ],
-    "title": "The Wild Fete",
+    "title": "The K'mul Astropolis",
     "zone": "The Rak'tika Greatwood",
     "coords": [
       26.9,
@@ -5028,11 +4825,11 @@
       },
       {
         "item": "Thunder Rock",
-        "icon": "t/21482",
+        "icon": 21482,
         "id": 30591,
         "reduce": {
           "item": "Levinstrike Aethersand",
-          "icon": "t/21238"
+          "icon": 21238
         }
       }
     ],
@@ -5040,7 +4837,7 @@
     "time": [
       8
     ],
-    "title": "The Church of the First Light",
+    "title": "The Exarch Gate",
     "zone": "Lakeland",
     "coords": [
       36.9,
@@ -5073,11 +4870,11 @@
       },
       {
         "item": "Levin Mint",
-        "icon": "t/25039",
+        "icon": 25039,
         "id": 30592,
         "reduce": {
           "item": "Levinstrike Aethersand",
-          "icon": "t/21238"
+          "icon": 21238
         }
       }
     ],
@@ -5085,7 +4882,7 @@
     "time": [
       12
     ],
-    "title": "Weed",
+    "title": "The Bridges",
     "zone": "Lakeland",
     "coords": [
       25.0,
@@ -5119,11 +4916,11 @@
       },
       {
         "item": "Thunder Rock",
-        "icon": "t/21482",
+        "icon": 21482,
         "id": 30591,
         "reduce": {
           "item": "Levinstrike Aethersand",
-          "icon": "t/21238"
+          "icon": 21238
         }
       }
     ],
@@ -5131,7 +4928,7 @@
     "time": [
       16
     ],
-    "title": "Amity",
+    "title": "Komra",
     "zone": "Kholusia",
     "coords": [
       22.1,
@@ -5165,11 +4962,11 @@
       },
       {
         "item": "Levin Mint",
-        "icon": "t/25039",
+        "icon": 25039,
         "id": 30592,
         "reduce": {
           "item": "Levinstrike Aethersand",
-          "icon": "t/21238"
+          "icon": 21238
         }
       }
     ],
@@ -5177,7 +4974,7 @@
     "time": [
       20
     ],
-    "title": "Scree",
+    "title": "Tomra",
     "zone": "Kholusia",
     "coords": [
       13.0,
@@ -5195,13 +4992,13 @@
     "items": [
       {
         "item": "Fireheart Cobalt",
-        "icon": 21226,
+        "icon": 21227,
         "id": 29968,
         "slot": "6"
       },
       {
         "item": "Brashgold Ore",
-        "icon": 21226,
+        "icon": 21227,
         "id": 30486,
         "slot": "7"
       }
@@ -5380,5 +5177,180 @@
     "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
     "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
     "patch": 5.2
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Solstice Stone",
+        "icon": 21232,
+        "id": 32952
+      }
+    ],
+    "stars": 3,
+    "time": [
+      2,
+      14
+    ],
+    "title": "Voeburtenburg",
+    "zone": "Il Mheg",
+    "coords": [
+      35.6,
+      8.7
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 759,
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "patch": 5.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Hard Water",
+        "icon": 22689,
+        "id": 32955
+      }
+    ],
+    "stars": 3,
+    "time": [
+      4,
+      16
+    ],
+    "title": "The Duergar's Tewel",
+    "zone": "Kholusia",
+    "coords": [
+      36.1,
+      12.2
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 758,
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Silver Beech Log",
+        "icon": 22412,
+        "id": 32950
+      }
+    ],
+    "stars": 3,
+    "time": [
+      6,
+      18
+    ],
+    "title": "Garik",
+    "zone": "Amh Araeng",
+    "coords": [
+      16.0,
+      11.0
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 762,
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "patch": 5.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Dolomite",
+        "icon": 21225,
+        "id": 32951,
+        "slot": " "
+      }
+    ],
+    "stars": 3,
+    "time": [
+      8,
+      20
+    ],
+    "title": "The Husk",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      7.5,
+      30.1
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 760,
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "patch": 5.4
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raindrop Cotton Boll",
+        "icon": 25040,
+        "id": 32953
+      }
+    ],
+    "stars": 3,
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Isle of Consorts",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      33.6,
+      13.2
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 763,
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Wattle Petribark",
+        "icon": 22418,
+        "id": 32954
+      }
+    ],
+    "stars": 3,
+    "time": [
+      12,
+      0
+    ],
+    "title": "The Hour of Certain Durance",
+    "zone": "Lakeland",
+    "coords": [
+      5.2,
+      26.5
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 761,
+    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
+    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "patch": 5.4
   }
 ];

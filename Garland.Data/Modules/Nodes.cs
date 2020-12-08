@@ -243,7 +243,9 @@ namespace Garland.Data.Modules
                 var item = _builder.Db.ItemsByName[itemName];
 
                 // First match this data to the node object.
-                var node = _builder.Db.NodesById[nodeId];
+                try
+                {
+                var node = _builder.Db.NodesById[nodeId];                
 
                 node.limitType = type;
                 node.uptime = uptime;
@@ -294,18 +296,23 @@ namespace Garland.Data.Modules
                     }
 
                     view.patch = node.patch;
+                    }
+
+                    // Add items to the view.
+                    dynamic itemView = new JObject();
+                    itemView.item = itemName;
+                    itemView.icon = item.icon;
+                    itemView.id = item.id;
+
+                    if (slot != "")
+                        itemView.slot = slot;
+
+                    view.items.Add(itemView);
                 }
-
-                // Add items to the view.
-                dynamic itemView = new JObject();
-                itemView.item = itemName;
-                itemView.icon = item.icon;
-                itemView.id = item.id;
-
-                if (slot != "")
-                    itemView.slot = slot;
-
-                view.items.Add(itemView);
+                catch (KeyNotFoundException e)
+                {
+                    Console.WriteLine(nodeId);
+                }
             }
         }
 
