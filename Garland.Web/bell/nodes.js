@@ -5730,8 +5730,8 @@
       }
     ],
     "time": [
-      6,
-      18
+      8,
+      20
     ],
     "title": "Mirage Creek",
     "zone": "The Fringes",
@@ -5788,7 +5788,8 @@
       {
         "item": "Rarefied Abalathian Spring Water",
         "icon": 22614,
-        "id": 32973
+        "id": 32973,
+        "slot": " "
       },
       {
         "item": "Rarefied Aurum Regis Sand",
@@ -5797,8 +5798,8 @@
       }
     ],
     "time": [
-      10,
-      22
+      2,
+      14
     ],
     "title": "The Blue Window",
     "zone": "The Sea of Clouds",
@@ -5810,6 +5811,151 @@
     "uptime": 120,
     "lvl": 60,
     "id": 308,
+    "patch": 0.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Raw Star Spinel",
+        "icon": 21475,
+        "id": 32976
+      }
+    ],
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Crab Pots",
+    "zone": "The Ruby Sea",
+    "coords": [
+      21.1,
+      34.3
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 65,
+    "id": 312,
+    "patch": 0.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Raw Azurite",
+        "icon": 21472,
+        "id": 32978
+      },
+      {
+        "item": "Rarefied Silvergrace Ore",
+        "icon": 21213,
+        "id": 32979
+      }
+    ],
+    "time": [
+      6,
+      18
+    ],
+    "title": "The Sea of Blades",
+    "zone": "The Azim Steppe",
+    "coords": [
+      35.9,
+      26.4
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 328,
+    "patch": 0.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Titancopper Ore",
+        "icon": 21202,
+        "id": 32980
+      },
+      {
+        "item": "Rarefied Raw Petalite",
+        "icon": 21477,
+        "id": 32982
+      }
+    ],
+    "time": [
+      4,
+      16
+    ],
+    "title": "The Belt",
+    "zone": "Lakeland",
+    "coords": [
+      31.1,
+      24.1
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 330,
+    "patch": 0.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Raw Lazurite",
+        "icon": 21472,
+        "id": 32981
+      }
+    ],
+    "time": [
+      6,
+      18
+    ],
+    "title": "Cleric",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      16.0,
+      18.1
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 332,
+    "patch": 0.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Sea Salt",
+        "icon": 22617,
+        "id": 32983
+      },
+      {
+        "item": "Rarefied Raw Onyx",
+        "icon": 21231,
+        "id": 32985
+      }
+    ],
+    "time": [
+      8,
+      20
+    ],
+    "title": "The Norvrandt Slope",
+    "zone": "The Tempest",
+    "coords": [
+      25.0,
+      4.4
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 334,
     "patch": 0.0
   }
 ];
