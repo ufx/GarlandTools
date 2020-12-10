@@ -72,8 +72,8 @@ namespace Garland.Data.Modules
                 if (sMasterpieceSupplyDuty.ClassJob.Key == 0)
                     continue;
 
-                var sRewardCurrency = (int)sMasterpieceSupplyDuty["Reward{Currency}"];
-                var sRewardItemKey = CURRENCIES[sRewardCurrency];
+                var sRewardCurrency = (ushort)sMasterpieceSupplyDuty["Reward{Currency}"];
+                var sRewardItemKey = CURRENCIES[sRewardCurrency - 1];
                 var sRewardItem = _builder.Sheet<Saint.Item>()[sRewardItemKey];
 
                 foreach (var sCollectableItem in sMasterpieceSupplyDuty.CollectableItems)
@@ -197,11 +197,12 @@ namespace Garland.Data.Modules
                         supply.items = new JArray();
                         for (var i = 0; i < 2; i++)
                         {
-                            var rewardCurrency = (Saint.IXivRow)sSupplyReward["Reward{Currency}[" + i + "]"];
-                            if (rewardCurrency == null || rewardCurrency.Key == 0)
+                            var rewardCurrencyKey = (ushort)sSupplyReward["Reward{Currency}[" + i + "]"];
+                            if (rewardCurrencyKey == 0)
                                 continue;
 
-                            var rewardGameItem = (Saint.Item)rewardCurrency["Item"];
+                            var rewardCurrencyItemKey = CURRENCIES[rewardCurrencyKey - 1];
+                            var rewardGameItem = _builder.Sheet<Saint.Item>()[rewardCurrencyItemKey];
 
                             var rewardLow = (int)(UInt16)sSupplyReward["Quantity{Low}[" + i + "]"];
 

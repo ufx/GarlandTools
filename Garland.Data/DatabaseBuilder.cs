@@ -112,7 +112,7 @@ namespace Garland.Data
                 new OtherItemSources(),
                 new Relics(),
                 itemSourceComplexityModule,
-                //new SupplyDuties(itemSourceComplexityModule),
+                new SupplyDuties(itemSourceComplexityModule),
                 new Maps(),
                 new Territories(),
                 new EquipmentScorer(),
