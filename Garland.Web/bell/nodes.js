@@ -3781,8 +3781,8 @@
     "title": "The Glittering Basin",
     "zone": "Yanxia",
     "coords": [
-      22.0,
-      13.0
+      26.7,
+      25.0
     ],
     "name": "Ephemeral",
     "uptime": 240,
