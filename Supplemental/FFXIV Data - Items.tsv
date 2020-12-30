@@ -57,15 +57,15 @@ Vintage Cooking Sherry	Desynth	Aged Decanter
 Vitriol	Desynth	Aged Phial											
 Waterproof Cotton Cloth	Desynth	Sweetnewt	The Lone Ripper	Olgoi-Khorkhoi	Shrieker								
 Immaculate wingblade	Desynth	Immaculate necklace of aiming											
-Duskborne Aethersand	Reduce	Fire Moraine	Lightning Moraine	Granular Clay	Highland Oregano								
-Dawnborne Aethersand	Reduce	Bright Fire Rock	Bright Lightning Rock	Peat Moss	Furymint								
+Duskborne Aethersand	Reduce	Fire Moraine	Lightning Moraine	Granular Clay	Pot marjoram								
+Dawnborne Aethersand	Reduce	Bright Fire Rock	Bright Lightning Rock	Peat Moss	Water Mint								
 Landborne Aethersand	Reduce	Radiant Fire Moraine	Radiant Lightning Moraine										
-Leafborne Aethersand	Reduce	Black Soil	Clary Sage										
+Leafborne Aethersand	Reduce	Humic Soil	Wild Sage										
 Seaborne Aethersand	Reduce	Thaliak Caiman	Tupuxuara										
 Light-kissed Aethersand	Reduce	Lover's Laurel	Radiant Astral Moraine										
-Dawnlight Aethersand	Reduce	Schorl	Windtea Leaves	Snow Crab									
-Everbright Aethersand	Reduce	Perlite											
-Dusklight Aethersand	Reduce	Doman Yellow	Almandine	False Scad									
+Dawnlight Aethersand	Reduce	Schorl	Countess Tea	Snow Crab									
+Everbright Aethersand	Reduce	Dacite 											
+Dusklight Aethersand	Reduce	Doman Yellow	Rhodolite	False Scad									
 Everdeep Aethersand	Reduce	Sweatfish											
 Everborn Aethersand	Reduce	Torreya Branch											
 Duskglow Aethersand	Reduce	Yanxian Soil	Yanxian Verbena										
@@ -74,18 +74,18 @@ Chiaroglow Aethersand	Reduce	Gale Rock	White Clay	Voeburt Bichir
 Scuroglow Aethersand	Reduce	Sweet Marjoram	Solarite	Poecilia									
 Agewood Aethersand	Reduce	Bog Sage											
 Ageflow Aethersand	Reduce	Predator											
-Earth Cluster	Reduce	Black Soil	Doman Yellow	Granular Clay	Peat Moss	White Clay							
-Earth Crystal	Reduce	Black Soil	Doman Yellow	Granular Clay	Peat Moss	White Clay							
-Fire Cluster	Reduce	Almandine	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine	Shade Quartz							
-Fire Crystal	Reduce	Almandine	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine	Shade Quartz							
+Earth Cluster	Reduce	Humic Soil	Doman Yellow	Granular Clay	Peat Moss	White Clay							
+Earth Crystal	Reduce	Humic Soil	Doman Yellow	Granular Clay	Peat Moss	White Clay							
+Fire Cluster	Reduce	Rhodolite	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine	Shade Quartz							
+Fire Crystal	Reduce	Rhodolite	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine	Shade Quartz							
 Ice Cluster	Reduce	Lover's Laurel	Torreya Branch	Bog Sage									
 Ice Crystal	Reduce	Lover's Laurel	Torreya Branch	Bog Sage									
 Lightning Cluster	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena	Solarite						
 Lightning Crystal	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena	Solarite						
-Water Cluster	Reduce	Radiant Astral Moraine	Perlite	Gale Rock									
-Water Crystal	Reduce	Radiant Astral Moraine	Perlite	Gale Rock									
-Wind Cluster	Reduce	Clary Sage	Furymint	Highland Oregano	Windtea Leaves	Yanxian Soil	Sweet Marjoram						
-Wind Crystal	Reduce	Clary Sage	Furymint	Highland Oregano	Windtea Leaves	Yanxian Soil	Sweet Marjoram						
+Water Cluster	Reduce	Radiant Astral Moraine	Dacite 	Gale Rock									
+Water Crystal	Reduce	Radiant Astral Moraine	Dacite 	Gale Rock									
+Wind Cluster	Reduce	Wild Sage	Water Mint	Pot marjoram	Countess Tea	Yanxian Soil	Sweet Marjoram						
+Wind Crystal	Reduce	Wild Sage	Water Mint	Pot marjoram	Countess Tea	Yanxian Soil	Sweet Marjoram						
 Levinstrike Aethersand	Reduce	Levin Mint	Thunder Rock										
 Lotus Leaf	Loot	Timeworn Leather Map											
 Ahriman Tears	Loot	Timeworn Leather Map	Unhidden Leather Map										
@@ -719,11 +719,11 @@ Purple Daisies	Gardening	Daisy Seeds
 White Daisies	Gardening	Daisy Seeds											
 Black Daisies	Gardening	Daisy Seeds											
 Rainbow Daisies	Gardening	Daisy Seeds											
-Abroader Otter	Voyage	Deep-sea site 7	Sea of Ash 2	Sea of Ash 3	Nald'thal's Pipe								
+Abroader Otter	Voyage	Deep-sea site 7	Sea of Ash 2	Sea of Ash 3	Nald'thal's Pipe	The Isle of Sacrament							
 Aetherochemical Fiber	Voyage	Sea of Clouds 14	Sea of Clouds 15										
 Althyk Lavender Seeds	Voyage	Sea of Clouds 13	Sea of Clouds 15										
 Antique Leather	Voyage	Sea of Clouds 20											
-Aurelia Polyp	Voyage	Deep-sea site 3	The Umbrella Narrow	Glutton's Belly									
+Aurelia Polyp	Voyage	Deep-sea site 3	The Umbrella Narrow	Glutton's Belly	Sea of Jade 1								
 Aurum Regis Sand	Voyage	Glittersand Basin											
 Balsa Wood Lumber	Voyage	Sea of Clouds 08	Sea of Clouds 09	Komura	Flickering Dip								
 Balsa Wood Scrap	Voyage	Sea of Clouds 03	Sea of Clouds 04	The Umbrella Narrow									
@@ -736,6 +736,8 @@ Bear Fat	Voyage	Sea of Clouds 23
 Birch Branch	Voyage	Sea of Clouds 05	Sea of Clouds 11	Sea of Clouds 17	The Umbrella Narrow	Deep-sea site 4							
 Birch Log	Voyage	Komura											
 Black Clay	Voyage	Sea of Clouds 10											
+Black Scorpion	Voyage	Coldtoe Isle											
+Bluespirit Ore	Voyage	Rogo-Tumu-Here's Haunt											
 Cassia Log	Voyage	Sea of Clouds 14	Sea of Clouds 15	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 18	Sea of Clouds 19	Sea of Clouds 20	Sea of Clouds 21	Sea of Clouds 23	Sea of Clouds 24	Deep-sea Site 6	Deep-sea Site 7
 Cerulean Crystal Boule	Voyage	The Central Charnel Trench	The Blue Hole										
 Chemically Treated Chimera Hide	Voyage	Sea of Clouds 11	Sea of Clouds 12	Sea of Clouds 13									
@@ -757,11 +759,13 @@ Deep-blue Cluster	Voyage	Sea of Clouds 13	Sea of Clouds 19	Sea of Clouds 22	The 
 Deep-blue Crystal	Voyage	Sea of Clouds 07	Sea of Clouds 10	Sea of Clouds 13	The Umbrella Narrow	The Cobalt Shoals							
 Deep-green Cluster	Voyage	Sea of Clouds 18	Sea of Clouds 21	Sea of Clouds 24	Komura								
 Deep-green Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 15	Southern Rimilala Trench								
-Deep-red Cluster	Voyage	Sea of Clouds 17	Sea of Clouds 20	Sea of Clouds 23	Kanayama	Glittersand Basin							
+Deep-red Cluster	Voyage	Sea of Clouds 17	Sea of Clouds 20	Sea of Clouds 23	Kanayama	Glittersand Basin	Rogo-Tumu-Here's Haunt						
 Deep-red Crystal	Voyage	Sea of Clouds 05	Deep-sea site 3	Neolith Island	Deep-sea site 3								
 Dexterity Materia II	Voyage	Ivory Shoals											
 Dexterity Materia III	Voyage	Sea of Clouds 01	Sea of Clouds 20										
 Dexterity Materia IV	Voyage	Sea of Clouds 12	Sea of Clouds 20										
+Dimythrite Ore	Voyage	Rogo-Tumu-Here's Repose											
+Dimythrite Sand	Voyage	Sea of Jade 1											
 Dinosaur Fossil	Voyage	Purgatory											
 Dinosaur Leather	Voyage	Sea of Clouds 19											
 Dravanian Mote	Voyage	Sea of Clouds 06	Sea of Clouds 13										
@@ -808,6 +812,7 @@ Marine Wax Ester	Voyage	Concealed Bay	Flickering Dip	The Wreckage of Discovery I
 Meerkat	Voyage	Coldtoe Isle	The Open Robe										
 Mind Materia III	Voyage	Sea of Clouds 08	Sea of Clouds 19	The Mystic Basin	Offender's Rot								
 Mind Materia IV	Voyage	Sea of Clouds 19											
+Miracle Apple Log	Voyage	The Isle of Sacrament											
 Mythrite Sand	Voyage	Sea of Clouds 20	Glittersand Basin										
 Oriental Grass Tuft	Voyage	Sea of Clouds 08	Sea of Clouds 14										
 Pelagic Clay	Voyage	Nald'thal's Pipe											
@@ -820,16 +825,17 @@ Platinum Ore	Voyage	Sea of Clouds 03	Sea of Clouds 09	Sea of Clouds 15	Sea of Cl
 Potters Stone	Voyage	Sea of Clouds 01	Sea of Clouds 10										
 Pure Titanium Ore	Voyage	South Isle of Zozonan	North Isle of Zozonan	The Central Charnel Trench	The Midden Pit	The Lone Glove							
 Quickarm Materia III	Voyage	Sea of Clouds 09	Sea of Clouds 18										
-Quickarm Materia IV	Voyage	Sea of Clouds 18	Kanayama										
+Quickarm Materia IV	Voyage	Sea of Clouds 18	Kanayama	Sea of Clouds 15									
 Quicktongue Materia II	Voyage	Sea of Clouds 06	Deep-sea site 1										
 Quicktongue Materia III	Voyage	Sea of Clouds 02	Sea of Clouds 06	Sea of Clouds 11	Sea of Clouds 21	Southern Rimilala Trench	Deep-sea site 4						
 Quicktongue Materia IV	Voyage	Sea of Clouds 11	Sea of Clouds 21										
 Raw Celestine	Voyage	Sea of Clouds 08	Sea of Clouds 09	Sea of Clouds 10	The Mystic Basin	Kanayama	Deep-sea site 4						
-Red Clay	Voyage	Sea of Clouds 07											
+Red Clay	Voyage	Sea of Clouds 07	The Stone Barbs										
 Red Moko Grass	Voyage	Sea of Clouds 03	Sea of Clouds 04	Deep-sea Site 3	Deep-sea Site 2	The Ivory Shoals	The Umbrella Narrow						
 Rose Gold Ingot	Voyage	The Wreckage of the Headway											
 Ruby	Voyage	The Wreckage of Discovery I											
 Ruby Crystal Boule	Voyage	The Catacombs of the Father	The Midden Pit	Nald'thal's Pipe									
+Salvaged Coinage	Voyage	Glutton's Belly											
 Salvaged Necklace	Voyage	Unidentified Derelict											
 Savage Aim Materia III	Voyage	Sea of Clouds 08	Sea of Clouds 15	Sea of Clouds 24	The Mystic Basin								
 Savage Aim Materia IV	Voyage	Sea of Clouds 15											
@@ -848,7 +854,7 @@ Star Ruby	Voyage	Unidentified Derelict	The Wreckage of Discovery I
 Star Sapphire	Voyage	Unidentified Derelict											
 Strength Materia III	Voyage	Sea of Clouds 09	Sea of Clouds 18	Neolith Island									
 Strength Materia IV	Voyage	Sea of Clouds 18											
-Synthetic Fiber	Voyage	Sea of Clouds 11	Sea of Clouds 12										
+Synthetic Fiber	Voyage	Sea of Clouds 11	Sea of Clouds 12	The Stone Barbs									
 Synthetic Resin	Voyage	Sea of Clouds 13											
 Tincalconite	Voyage	Sea of Clouds 07											
 Toy Box Schema	Voyage	Sea of Clouds 05	Sea of Clouds 09	Sea of Clouds 14	Sea of Clouds 17	Sea of Clouds 21							
@@ -860,6 +866,8 @@ Vitality Materia V	Voyage	Sea of Clouds 24
 Vivianite	Voyage	Sea of Clouds 01	Sea of Clouds 02	Deep-sea site 1	Kanayama	Deep-sea site 4	The Southern Rimilala Trench	Purgatory					
 Voidrake Seeds	Voyage	Sea of Clouds 12	Sea of Clouds 14	Sea of Clouds 16									
 Water Crystal	Voyage	Sea of Clouds 02	Sea of Clouds 04	Sea of Clouds 07	Sea of Clouds 10	Sea of Clouds 12	Sea of Clouds 16	Deep-sea site 2	Deep-sea site 3	Offender's Rot			
+White Ash Log	Voyage	The Stone Barbs											
+White Scorpion	Voyage	The Lone Glove											
 Wind Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Clouds 09	Ivory Shoals	Deep-sea site 2	Deep-sea site 3	The Umbrella Narrow				
 Wind Cluster	Voyage	The Wreckage of the Headway											
 Wind Silk	Voyage	Sea of Clouds 13	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 21								
@@ -922,3 +930,14 @@ Grade 2 Skybuilders' Adders	Drop	Proto-noctilucale
 Grade 2 Artisanal Skybuilders' Dawn Lizards	Drop	Proto-noctilucale											
 Cloth Cointe Quaint	Drop	The Lost Canals of Uznair	The Hidden Canals of Uznair	The Shifting Canals of Uznair									
 Eft Tail	Drop	Lentic Mudpuppy											
+Seiryu's Scale	Instance	The Wreath of Snakes (Extreme)											
+Scarlet Tailfeather	Instance	Hells' Kier (Extreme)											
+Plate of Light	Instance	The Seat of Sacrifice (Extreme)											
+Faded Copy of To the Edge	Instance	The Seat of Sacrifice (Extreme)											
+Immaculate Wingblade	Instance	The Crown of the Immaculate (Extreme)											
+Hades's Auracite	Instance	The Minstrel's Ballad: Hades's Elegy											
+Emerald Plating	Instance	Castrum Marinum (Extreme)											
+Dancing Wing	Instance	The Dancing Plague (Extreme)											
+Celestial Kimono Remnant	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
+Byakko's Mane	Instance	The Jade Stoa (Extreme)											
+Bismarck's Baleen	Instance	The Limitless Blue (Extreme)	The Limitless Blue (Hard)										

@@ -2573,11 +2573,7 @@
         "item": "Highland Oregano",
         "icon": 25015,
         "id": 12971,
-        "slot": "5",
-        "reduce": {
-          "item": "Duskborne Aethersand",
-          "icon": 22613
-        }
+        "slot": "5"
       },
       {
         "item": "Lover's Laurel",
@@ -2593,21 +2589,13 @@
         "item": "Furymint",
         "icon": 25016,
         "id": 12972,
-        "slot": "7",
-        "reduce": {
-          "item": "Dawnborne Aethersand",
-          "icon": 22648
-        }
+        "slot": "7"
       },
       {
         "item": "Clary Sage",
         "icon": 25009,
         "id": 12973,
-        "slot": "8",
-        "reduce": {
-          "item": "Leafborne Aethersand",
-          "icon": 22649
-        }
+        "slot": "8"
       },
       {
         "item": "Wind Cluster",
@@ -2671,11 +2659,7 @@
         "item": "Highland Oregano",
         "icon": 25015,
         "id": 12971,
-        "slot": "5",
-        "reduce": {
-          "item": "Duskborne Aethersand",
-          "icon": 22613
-        }
+        "slot": "5"
       },
       {
         "item": "Lover's Laurel",
@@ -2691,21 +2675,13 @@
         "item": "Furymint",
         "icon": 25016,
         "id": 12972,
-        "slot": "7",
-        "reduce": {
-          "item": "Dawnborne Aethersand",
-          "icon": 22648
-        }
+        "slot": "7"
       },
       {
         "item": "Clary Sage",
         "icon": 25009,
         "id": 12973,
-        "slot": "8",
-        "reduce": {
-          "item": "Leafborne Aethersand",
-          "icon": 22649
-        }
+        "slot": "8"
       },
       {
         "item": "Wind Cluster",
@@ -2799,11 +2775,7 @@
         "item": "Black Soil",
         "icon": 27404,
         "id": 12970,
-        "slot": "8",
-        "reduce": {
-          "item": "Leafborne Aethersand",
-          "icon": 22649
-        }
+        "slot": "8"
       },
       {
         "item": "Earth Cluster",
@@ -2892,11 +2864,7 @@
         "item": "Black Soil",
         "icon": 27404,
         "id": 12970,
-        "slot": "8",
-        "reduce": {
-          "item": "Leafborne Aethersand",
-          "icon": 22649
-        }
+        "slot": "8"
       },
       {
         "item": "Earth Cluster",
@@ -2990,11 +2958,7 @@
         "item": "Black Soil",
         "icon": 27404,
         "id": 12970,
-        "slot": "8",
-        "reduce": {
-          "item": "Leafborne Aethersand",
-          "icon": 22649
-        }
+        "slot": "8"
       },
       {
         "item": "Earth Cluster",
@@ -3486,11 +3450,7 @@
         "item": "Perlite",
         "icon": 21463,
         "id": 20010,
-        "slot": "8",
-        "reduce": {
-          "item": "Everbright Aethersand",
-          "icon": 21006
-        }
+        "slot": "8"
       },
       {
         "item": "Yanxian Soil",
@@ -3533,11 +3493,7 @@
         "item": "Almandine",
         "icon": 21471,
         "id": 20011,
-        "slot": "7",
-        "reduce": {
-          "item": "Dusklight Aethersand",
-          "icon": 21219
-        }
+        "slot": "7"
       },
       {
         "item": "Yanxian Soil",
@@ -3928,11 +3884,7 @@
         "item": "Windtea Leaves",
         "icon": 25022,
         "id": 19916,
-        "slot": "1",
-        "reduce": {
-          "item": "Dawnlight Aethersand",
-          "icon": 22210
-        }
+        "slot": "1"
       },
       {
         "item": "Yanxian Verbena",
