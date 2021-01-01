@@ -625,6 +625,12 @@
     "icon": 29593,
     "mooch": 1
   },
+  "Diamond Pipira": {
+    "name": "Diamond Pipira",
+    "id": 27492,
+    "icon": 29594,
+    "mooch": 1
+  },
   "Ancient Shrimp": {
     "name": "Ancient Shrimp",
     "id": 27506,
@@ -34870,6 +34876,37 @@ gt.bell.fish = [
     "zone": "Lakeland"
   },
   {
+    "name": "Moonlight Guppy",
+    "patch": 5.4,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "during": {
+      "start": 6,
+      "end": 8
+    },
+    "weather": [
+      "Fair Skies"
+    ],
+    "transition": [
+      "Clear Skies"
+    ],
+    "id": 32049,
+    "icon": "t/28486",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Rusted Reservoir",
+    "category": "Freshwater Fishing",
+    "lvl": 72,
+    "coords": [
+      11.91,
+      21.52
+    ],
+    "radius": 300,
+    "zone": "Lakeland"
+  },
+  {
     "name": "Clean Saucer",
     "patch": 5.0,
     "bait": [
@@ -35354,6 +35391,33 @@ gt.bell.fish = [
     "icon": 29304,
     "func": "fish",
     "rarity": 1,
+    "title": "White Oil Falls",
+    "category": "Freshwater Fishing",
+    "lvl": 71,
+    "coords": [
+      29.43,
+      21.42
+    ],
+    "radius": 300,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Steel Fan",
+    "patch": 5.4,
+    "folklore": 1,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "weather": [
+      "Fog"
+    ],
+    "transition": [
+      "Clouds"
+    ],
+    "id": 32050,
+    "icon": "t/28487",
+    "func": "fish",
+    "rarity": 2,
     "title": "White Oil Falls",
     "category": "Freshwater Fishing",
     "lvl": 71,
@@ -35875,6 +35939,35 @@ gt.bell.fish = [
     "radius": 1800,
     "zone": "Kholusia",
     "scrip": "White Gatherers' Scrip"
+  },
+  {
+    "name": "Henodus Grandis",
+    "patch": 5.4,
+    "folklore": 1,
+    "bait": [
+      "Short Bill Minnow",
+      "Spearhead Squid"
+    ],
+    "during": {
+      "start": 22,
+      "end": 0
+    },
+    "weather": [
+      "Clouds"
+    ],
+    "id": 32051,
+    "icon": "t/29198",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Eastern Kholusian Coast",
+    "category": "Ocean Fishing",
+    "lvl": 72,
+    "coords": [
+      35.23,
+      35.83
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
   },
   {
     "name": "Shadow Crab",
@@ -36925,6 +37018,37 @@ gt.bell.fish = [
     "zone": "Il Mheg"
   },
   {
+    "name": "Sunken Tome",
+    "patch": 5.4,
+    "folklore": 1,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "during": {
+      "start": 12,
+      "end": 16
+    },
+    "weather": [
+      "Thunderstorms"
+    ],
+    "transition": [
+      "Fair Skies"
+    ],
+    "id": 32052,
+    "icon": "t/28488",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Haughty One",
+    "category": "Freshwater Fishing",
+    "lvl": 74,
+    "coords": [
+      22.02,
+      9.11
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
     "name": "Spotted Blue-eye",
     "patch": 5.0,
     "bait": [
@@ -37530,6 +37654,38 @@ gt.bell.fish = [
     "scrip": "Yellow Gatherers' Scrip"
   },
   {
+    "name": "Pearl Pipira",
+    "patch": 5.4,
+    "folklore": 1,
+    "bait": [
+      "Robber Ball",
+      "Diamond Pipira"
+    ],
+    "during": {
+      "start": 16,
+      "end": 20
+    },
+    "weather": [
+      "Fog"
+    ],
+    "transition": [
+      "Fair Skies"
+    ],
+    "id": 32053,
+    "icon": "t/28489",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Red Chalice",
+    "category": "Freshwater Fishing",
+    "lvl": 70,
+    "coords": [
+      9.71,
+      20.82
+    ],
+    "radius": 600,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
     "name": "Black Tri-star",
     "patch": 5.0,
     "bait": [
@@ -38094,6 +38250,38 @@ gt.bell.fish = [
     "icon": 29184,
     "func": "fish",
     "rarity": 1,
+    "title": "Where the Dry Return",
+    "category": "Ocean Fishing",
+    "lvl": 79,
+    "coords": [
+      37.74,
+      7.01
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "The Ondotaker",
+    "patch": 5.4,
+    "folklore": 1,
+    "bait": [
+      "Squid Strip"
+    ],
+    "during": {
+      "start": 8,
+      "end": 10
+    },
+    "weather": [
+      "Clouds"
+    ],
+    "transition": [
+      "Clear Skies"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 32054,
+    "icon": "t/29199",
+    "func": "fish",
+    "rarity": 2,
     "title": "Where the Dry Return",
     "category": "Ocean Fishing",
     "lvl": 79,
