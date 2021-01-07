@@ -702,7 +702,8 @@ gt.craft.step.prototype.discoverSource = function(itemSettings) {
     }
 
     if (this.item.reducedFrom) {
-        var reduceItem = gt.model.partialList(gt.item, this.item.reducedFrom)[0] || { name: '???' };
+        const partialList = gt.model.partialList(gt.item, this.item.reducedFrom);
+        const reduceItem = partialList && partialList[0] || { name: '???' };
         this.sourceType = 'reduction';
         this.source = { sourceName: reduceItem.name, longSourceName: reduceItem.name + ' Aetherial Reduction', icon: 'images/Reduce.png' };
         this.sourceView = this.source;
