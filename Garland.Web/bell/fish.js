@@ -37668,9 +37668,6 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
-    "transition": [
-      "Fair Skies"
-    ],
     "id": 32053,
     "icon": "t/28489",
     "func": "fish",

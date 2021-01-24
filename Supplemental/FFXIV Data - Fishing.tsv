@@ -969,7 +969,7 @@ Greytail Falls												40202
 Cloud Coral	Balloon Bug											315
 Skyworm	Giant Crane Fly											317
 Glacier Core	Red Balloon				Blizzards, Snow							324
-Warballoon	Skyworm				Clear Skies, Fair Skies			Precision			1	399
+Warballoon	Skyworm				Clear Skies, Fair Skies			Precision			0	399
 Rime Eater	Glacier Core				Blizzards, Snow			Precision				366
 Hailfinder	Glacier Core			Snow, Blizzards	Blizzards							478
 Unfrozen Pond												40203
@@ -985,9 +985,9 @@ Abalathian Smelt	Syrphid Basket											24
 Ice Faerie	Purse Web Spider											316
 Coerthan Crab	Stonefly Nymph											318
 Hotrod	Brute Leech				Blizzards, Snow							327
-Priestfish	Brute Leech							Powerful			1	456
+Priestfish	Brute Leech							Powerful			0	456
 Ghost Faerie	Stonefly Nymph							Precision				507
-Bishopfish	Brute Leech	10	14		Clear Skies			Powerful			1	489
+Bishopfish	Brute Leech	10	14		Clear Skies			Powerful			0	489
 Charibenet	Ice Faerie	0	3		Blizzards	Ice Faerie, 5		Precision				504
 Dragonspit												40205
 Ogre Horn Snail	Stonefly Nymph											325
@@ -1004,7 +1004,7 @@ Lake Urchin	Stonefly Nymph									1		320
 Ammonite	Goblin Jig											338
 Seema Patrician	Stonefly Nymph											337
 Fanged Clam	Ice Faerie											319
-Mountain Kraken	Brute Leech										1	459
+Mountain Kraken	Brute Leech										0	459
 Magic Bucket	Brute Leech							Powerful		1		461
 Captain Nemo	Brute Leech			Snow	Blizzards							490
 Ashpool												40207
@@ -1023,7 +1023,7 @@ Ice Faerie	Purse Web Spider											316
 Mercy Staff	Brute Leech				Blizzards, Snow							365
 Snowcaller	Brute Leech				Blizzards, Snow							363
 Coerthan Oyster	Brute Leech									1		457
-Merciless	Ice Faerie			Snow, Blizzards	Blizzards						1	488
+Merciless	Ice Faerie			Snow, Blizzards	Blizzards						0	488
 North Silvertear												50101
 Lamp Marimo	Chocobo Fly						Light					74
 Silverfish	Honey Worm						Light					90
@@ -1093,7 +1093,7 @@ Bullfrog	Bladed Steel Jig											330
 Maiboi	Stonefly Nymph											328
 Bubble Eye	Brute Leech	10	18									339
 Caiman	Bullfrog	18	21					Powerful				402
-Inkfish	Brute Leech	14	16					Powerful			1	471
+Inkfish	Brute Leech	14	16					Powerful			0	471
 The Eddies												60102
 Hedgemole Cricket	Stonefly Nymph											357
 Cloudfish	Stonefly Nymph											331
@@ -1143,14 +1143,14 @@ Bullwhip	Fiend Worm											373
 Blood Skipper	Fiend Worm				Thunder							412
 Aetherochemical Compound #123	Platinum Fish							Precision				388
 Proto-hropken	Platinum Fish											401
-Aetherochemical Compound #666	Platinum Fish							Precision			1	485
+Aetherochemical Compound #666	Platinum Fish							Precision			0	485
 Hyperstellar Downconverter												60203
 Platinum Fish	Fiend Worm											376
 Azysfish	Fiend Worm											378
 Oil Eel	Platinum Fish				Thunder			Powerful				415
 Mucous Minnow	Fiend Worm							Powerful				407
 Oliphant's Trunk	Fiend Worm	18	23		Thunder			Precision				458
-Ceti	Fiend Worm	18	22	Clouds	Thunder						1	492
+Ceti	Fiend Worm	18	22	Clouds	Thunder						0	492
 Delta Quadrant												60204
 Fountfish	Goblin Jig							Powerful				391
 Rockclimber	Bladed Steel Jig											411
@@ -1174,14 +1174,14 @@ Sky Sweeper	Giant Crane Fly							Powerful				385
 Tupuxuara	Red Balloon	15	18					Powerful				433
 Stupendemys	Rudderfish											425
 Cobrafish	Giant Crane Fly							Powerful				413
-Crystal Pigeon	Rudderfish			Fair Skies	Thunder			Powerful			1	493
+Crystal Pigeon	Rudderfish			Fair Skies	Thunder			Powerful			0	493
 The Flagship												60207
 Platinum Fish	Fiend Worm											376
 Azysfish	Fiend Worm											378
 Oil Eel	Platinum Fish				Thunder			Powerful				415
 Jeweled Jellyfish	Platinum Fish	20	3									416
-Barreleye	Platinum Fish				Thunder			Powerful			1	427
-Functional Proto-hropken	Fiend Worm				Thunder			Powerful			1	438
+Barreleye	Platinum Fish				Thunder			Powerful			0	427
+Functional Proto-hropken	Fiend Worm				Thunder			Powerful			0	438
 Allagan Bladeshark	Platinum Fish			Clouds	Thunder			Powerful				477
 Opabinia	Platinum Fish				Thunder	Functional Proto-hropken, 3		Precision				501
 The Hundred Throes												70101
@@ -1229,25 +1229,25 @@ Granite Crab	Magma Worm											354
 Aithon's Colt	Magma Worm							Precision				355
 Magma Tree	Magma Worm							Precision		1		359
 Cindersmith	Magma Worm							Precision		1		372
-Black Magefish	Granite Crab							Powerful			1	426
-Hraesvelgr's Tear	Magma Worm	2	6								1	484
+Black Magefish	Granite Crab							Powerful			0	426
+Hraesvelgr's Tear	Magma Worm	2	6								0	484
 Anyx Old												70107
 Lava Crab	Magma Worm											345
 Granite Crab	Magma Worm											354
 Cindersmith	Magma Worm							Precision		1		372
 Aithon's Colt	Magma Worm							Precision				355
 Cometoise	Granite Crab											387
-Magma Louse	Granite Crab	18	5					Powerful			1	386
-Riddle	Granite Crab	8	16	Clear Skies	Clear Skies			Powerful			1	495
+Magma Louse	Granite Crab	18	5					Powerful			0	386
+Riddle	Granite Crab	8	16	Clear Skies	Clear Skies			Powerful			0	495
 Hoplite	Metal Spinner											3311
 Halo												70108
 Granite Crab	Magma Worm											354
 Magma Tree	Magma Worm							Precision		1		359
 Cometoise	Granite Crab											387
-Fossiltongue	Magma Worm							Powerful			1	400
-Lavalord	Granite Crab	9	16		Clear Skies, Fair Skies			Powerful			1	432
+Fossiltongue	Magma Worm							Powerful			0	400
+Lavalord	Granite Crab	9	16		Clear Skies, Fair Skies			Powerful			0	432
 Lava Snail	Magma Worm				Clear Skies, Fair Skies					1		455
-The Lord of Lords	Granite Crab	8	16	Clouds, Dust Storms, Fog	Clear Skies, Fair Skies			Powerful			1	496
+The Lord of Lords	Granite Crab	8	16	Clouds, Dust Storms, Fog	Clear Skies, Fair Skies			Powerful			0	496
 Problematicus	Granite Crab	10	15		Clear Skies, Fair Skies	Fossiltongue, 3, Granite Crab, 5		Powerful				500
 Thaliak River												70201
 Hedgemole Cricket	Stonefly Nymph											357
@@ -1287,7 +1287,7 @@ Hedgemole Cricket	Stonefly Nymph											357
 Bullfrog	Bladed Steel Jig											330
 Thaliak Caiman	Bullfrog	15	18					Powerful				431
 Berserker Betta	Brute Leech				Clear Skies, Fair Skies			Powerful				436
-Goblin Bass	Brute Leech	0	5		Clouds, Fog						1	443
+Goblin Bass	Brute Leech	0	5		Clouds, Fog						0	443
 Bobgoblin Bass	Sweetfish	2	6	Rain	Showers			Powerful				487
 Inkshell	Metal Spinner											3315
 Eil Tohm												70301
@@ -1305,7 +1305,7 @@ Dravanian Squeaker	Stonefly Nymph	16	19									342
 Weston Bowfin	Goblin Jig	8	12									392
 Hundred Fin	Goblin Jig											382
 Lovers' Clam	Bladed Steel Jig						Light					509
-Thousand Fin	Brute Leech			Clouds	Gales						1	498
+Thousand Fin	Brute Leech			Clouds	Gales						0	498
 Landlord Colony												70304
 Sky Faerie	Red Balloon											353
 Gloaming Coral	Red Balloon									1		395
@@ -1323,7 +1323,7 @@ Rudderfish	Giant Crane Fly											405
 Gobbie Mask	Giant Crane Fly											370
 Star Faerie	Red Balloon							Precision				394
 Pteranodon	Giant Crane Fly	9	17					Powerful				421
-Dimorphodon	Rudderfish			Clear Skies	Gales			Powerful			1	475
+Dimorphodon	Rudderfish			Clear Skies	Gales			Powerful			0	475
 Tharl Oom Khash												70306
 Sky Faerie	Red Balloon											353
 Cloud Rider	Red Balloon											360
@@ -1333,7 +1333,7 @@ Brown Bolo	Red Balloon				Clouds			Powerful				389
 Cobrafish	Giant Crane Fly							Powerful				413
 Storm Chaser	Giant Crane Fly											435
 Nyctosaur	Giant Crane Fly											454
-Bloodchaser	Giant Crane Fly			Clear Skies	Gales						1	499
+Bloodchaser	Giant Crane Fly			Clear Skies	Gales						0	499
 Raimdellopterus	Rudderfish	5	8		Gales	Rudderfish, 5		Powerful				505
 Diadem Grotto												80102
 Thunderbolt Eel	Brute Leech	22	4					Powerful				428
@@ -1409,7 +1409,7 @@ Bone Melter	Salmon Roe											524
 Fallen Leaf	Suspending Minnow							Precision				525
 Padjali Loach	Salmon Roe											530
 Cave Killifish	Suspending Minnow											553
-Wraithfish	Stonefly Larva	0	4		Fog						1	635
+Wraithfish	Stonefly Larva	0	4		Fog						0	635
 Chakrafish	Salmon Roe							Powerful				837
 Sapphire Fan	Stonefly Larva				Thunder			Precision				761
 The Comet's Tail												90203
@@ -1484,9 +1484,9 @@ Rock Saltfish	Silkworm							Powerful				608
 Saltshield Snapper	Silkworm							Powerful				611
 Whitehorse	Silkworm							Precision				624
 Pearl-eye	Rock Saltfish							Powerful				626
-Sculptor	Rock Saltfish	12	18		Thunderstorms						1	625
+Sculptor	Rock Saltfish	12	18		Thunderstorms						0	625
 Saltmill	Rock Saltfish				Clouds, Fog			Powerful				752
-Diamond-eye	Rock Saltfish				Clear Skies			Powerful			1	765
+Diamond-eye	Rock Saltfish				Clear Skies			Powerful			0	765
 Stethacanthus	Rock Saltfish	16	18			Sculptor, 2		Powerful				842
 The Ruby Price												100101
 Grinning Anchovy	Live Shrimp											539
@@ -1511,7 +1511,7 @@ Hellyfish	Live Shrimp											541
 Ruby Shrimp	Live Shrimp											545
 Dafu	Ruby Shrimp											556
 Glass Tuna	Ruby Shrimp											605
-Tawny Wench Shark	Blue Bobbit	10	18		Clear Skies			Powerful			1	609
+Tawny Wench Shark	Blue Bobbit	10	18		Clear Skies			Powerful			0	609
 Usuginu Octopus	Ruby Shrimp							Powerful				751
 Seven Stars	Blue Bobbit	10	18	Thunder	Fair Skies							824
 Fatty Herring	Metal Spinner											3314
@@ -1529,8 +1529,8 @@ Onokoro												100105
 Ruby Shrimp	Live Shrimp											545
 Leaf Tatsunoko	Ruby Shrimp											557
 Glass Flounder	Ruby Shrimp											558
-Blackfin Snake Eel	Blue Bobbit							Powerful			1	621
-Swordfish	Blue Bobbit	8	16		Clouds, Wind			Powerful			1	632
+Blackfin Snake Eel	Blue Bobbit							Powerful			0	621
+Swordfish	Blue Bobbit	8	16		Clouds, Wind			Powerful			0	632
 Giant Plesiosaur	Live Shrimp							Powerful				
 Argonautica	Ruby Shrimp				Wind			Powerful				818
 Hook Fish	Metal Spinner											3312
@@ -1554,7 +1554,7 @@ The Heron's Nest												100201
 Doman Trout	Nightcrawler											571
 Doman Crayfish	Nightcrawler							Precision				575
 Maiden's Heart	Nightcrawler							Precision				744
-Pomegranate Trout	Nightcrawler				Rain			Powerful			1	826
+Pomegranate Trout	Nightcrawler				Rain			Powerful			0	826
 The Heron's Way												100202
 River Barramundi	Nightcrawler							Powerful				564
 Doman Trout	Nightcrawler											571
@@ -1581,10 +1581,10 @@ Plum Spring												100210
 Doman Trout	Nightcrawler						Medium					571
 Kotsu Zetsu	Suspending Minnow											616
 Pandamoth	Midge Larva	10	18					Powerful				617
-Silken Koi	Stonefly Larva				Rain			Powerful			1	629
+Silken Koi	Stonefly Larva				Rain			Powerful			0	629
 Plum Gazer	Midge Larva											633
 Petal Shell	Signature Skyball						Light	Precision				
-Hagoromo Koi	Stonefly Larva				Fog						1	771
+Hagoromo Koi	Stonefly Larva				Fog						0	771
 Prism Canyon												100205
 Doman Trout	Nightcrawler											571
 Doman Crayfish	Nightcrawler							Precision				575
@@ -1625,7 +1625,7 @@ Zagas Khaal	Nightcrawler											577
 Curtain Pleco	Suspending Minnow							Powerful				581
 Dry Steppe Skipper	Midge Larva							Precision				586
 Dusk Crayfish	Zagas Khaal											588
-Hak Bitterling	Stonefly Larva	0	4		Rain						1	623
+Hak Bitterling	Stonefly Larva	0	4		Rain						0	623
 Banderole	Zagas Khaal	0	8	Fair Skies	Fog			Powerful				834
 Upper Yat Khaal												100303
 Tail Mountains Minnow	Midge Larva							Precision				573
@@ -2048,7 +2048,7 @@ Father Collard's Failings												120607
 Official Ball	Robber Ball							Precision				3066
 Grey Skipper	Fruit Worm											3067
 Pixie Fish	Fruit Worm							Precision				3068
-Toadhead	Baitbugs				Clear Skies			Precision			1	3078
+Toadhead	Baitbugs				Clear Skies			Precision			0	3078
 North Lyhe Ghiah												120651
 Jenanna's Tear	Small Gig Head											3134
 Shade Axolotl	Normal Gig Head											3136
@@ -2097,7 +2097,7 @@ Darkroot	Robber Ball											3082
 Yellow Pipira	Fruit Worm											3083
 Oathfish	Baitbugs							Powerful				3084
 Diamond Pipira	Robber Ball	12	20					Powerful				3089
-Pearl Pipira	Diamond Pipira	16	20	Fair Skies	Fog							3348
+Pearl Pipira	Diamond Pipira	16	20		Fog							3348
 The Lozatl												120703
 Clawbow	Fruit Worm											3079
 Black Tri-star	Robber Ball							Precision				3080
@@ -2117,7 +2117,7 @@ Woven Oath												120705
 Clawbow	Fruit Worm											3079
 Darkroot	Robber Ball											3082
 Oathfish	Marble Nymph							Powerful				3084
-Darkdweller	Baitbugs	0	8		Fog						1	3091
+Darkdweller	Baitbugs	0	8		Fog						0	3091
 Mjrl's Tears												120706
 Clawbow	Fruit Worm											3079
 Yellow Pipira	Fruit Worm											3083
@@ -2167,7 +2167,7 @@ Sycorax	Moyebi Shrimp									1		3093
 Stormfish	Moyebi Shrimp											3094
 Ancient Shrimp	Squid Strip											3103
 Yeti Crab	Ancient Shrimp											3104
-Aapoak	Ancient Shrimp	12	16		Clear Skies			Powerful			1	3105
+Aapoak	Ancient Shrimp	12	16		Clear Skies			Powerful			0	3105
 East Caliban Gap												120805
 Sycorax	Moyebi Shrimp									1		3093
 Stormfish	Moyebi Shrimp											3094
@@ -2181,7 +2181,7 @@ Stormfish	Moyebi Shrimp											3094
 Azure Sea Spider	Squid Strip											3095
 Maneater Clam	Short Bill Minnow							Precision		1		3108
 Stargazer	Squid Strip											3109
-Starchaser	Squid Strip	6	10		Clouds						1	3186
+Starchaser	Squid Strip	6	10		Clouds						0	3186
 The Norvrandt Slope												120807
 Prospero Eel	Moyebi Shrimp											3006
 Sycorax	Moyebi Shrimp									1		3093
