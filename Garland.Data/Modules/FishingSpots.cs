@@ -134,6 +134,15 @@ namespace Garland.Data.Modules
                 // Line data
                 var name = rLine[0];
 
+                if (_fishingSpotsByName.TryGetValue(name, out var fishingSpot))
+                {
+                    currentNode = null;
+                    currentNodeItems = null;
+                    currentFishingSpot = fishingSpot;
+                    currentFishingSpotItems = fishingSpot.items;
+                    continue;
+                }
+
                 // Name may reference either fishing spot, spearfishing node, or fish - check here.
                 if (_builder.Db.SpearfishingNodesByName.TryGetValue(name, out var node))
                 {
@@ -141,15 +150,6 @@ namespace Garland.Data.Modules
                     currentFishingSpotItems = null;
                     currentNode = node;
                     currentNodeItems = node.items;
-                    continue;
-                }
-
-                if (_fishingSpotsByName.TryGetValue(name, out var fishingSpot))
-                {
-                    currentNode = null;
-                    currentNodeItems = null;
-                    currentFishingSpot = fishingSpot;
-                    currentFishingSpotItems = fishingSpot.items;
                     continue;
                 }
 

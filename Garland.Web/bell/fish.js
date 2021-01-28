@@ -34700,6 +34700,26 @@ gt.bell.fish = [
     "zone": "Lakeland"
   },
   {
+    "name": "Hard Candy",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "id": 27425,
+    "icon": 29316,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Isle of Ken",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      9.21,
+      37.64
+    ],
+    "radius": 900,
+    "zone": "Lakeland"
+  },
+  {
     "name": "Abyssal Snail",
     "patch": 5.0,
     "bait": [
@@ -34927,6 +34947,26 @@ gt.bell.fish = [
     "zone": "Lakeland"
   },
   {
+    "name": "Clean Saucer",
+    "patch": 5.0,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "id": 27428,
+    "icon": 29702,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Isle of Ken",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      9.21,
+      37.64
+    ],
+    "radius": 900,
+    "zone": "Lakeland"
+  },
+  {
     "name": "Rabbit Skipper",
     "patch": 5.0,
     "bait": [
@@ -35092,6 +35132,77 @@ gt.bell.fish = [
     "coords": [
       19.42,
       35.83
+    ],
+    "radius": 900,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Albino Garfish",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 27436,
+    "icon": 29568,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Isle of Ken",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      9.21,
+      37.64
+    ],
+    "radius": 900,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Vicejaw",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 27437,
+    "icon": 29569,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Isle of Ken",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      9.21,
+      37.64
+    ],
+    "radius": 900,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "The Jaws of Undeath",
+    "patch": 5.2,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "during": {
+      "start": 16,
+      "end": 0
+    },
+    "weather": [
+      "Clouds"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 28925,
+    "icon": 28475,
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Isle of Ken",
+    "category": "Freshwater Fishing",
+    "lvl": 75,
+    "coords": [
+      9.21,
+      37.64
     ],
     "radius": 900,
     "zone": "Lakeland"
