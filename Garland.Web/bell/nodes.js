@@ -2204,8 +2204,7 @@
         "item": "Yellow Copper Ore",
         "icon": 21207,
         "id": 5108,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Dark Matter Cluster",
@@ -2239,22 +2238,19 @@
         "item": "Chalcocite",
         "icon": 21209,
         "id": 12941,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Pyrite",
         "icon": 21207,
         "id": 5109,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       },
       {
         "item": "Limonite",
         "icon": 21206,
         "id": 5112,
-        "slot": "4",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "4"
       }
     ],
     "time": [
@@ -2281,15 +2277,13 @@
         "item": "Yellow Quartz",
         "icon": 21458,
         "id": 5162,
-        "slot": "4",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "4"
       },
       {
         "item": "Green Quartz",
         "icon": 21459,
         "id": 5161,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -2316,15 +2310,13 @@
         "item": "Abalathian Rock Salt",
         "icon": 22617,
         "id": 12901,
-        "slot": "1",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "1"
       },
       {
         "item": "Red Quartz",
         "icon": 21456,
         "id": 5159,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -2351,15 +2343,13 @@
         "item": "Cuprite",
         "icon": 21206,
         "id": 12942,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Light Kidney Ore",
         "icon": 21206,
         "id": 5117,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "time": [
@@ -2386,8 +2376,7 @@
         "item": "Adamantite Ore",
         "icon": 21224,
         "id": 12538,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -2414,15 +2403,13 @@
         "item": "Astral Moraine",
         "icon": 21463,
         "id": 5226,
-        "slot": "4",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "4"
       },
       {
         "item": "Violet Quartz",
         "icon": 21461,
         "id": 5163,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 1,
@@ -2450,15 +2437,13 @@
         "item": "Aurum Regis Ore",
         "icon": 21225,
         "id": 12536,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       },
       {
         "item": "Lumythrite Ore",
         "icon": 21221,
         "id": 14148,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -2486,8 +2471,7 @@
         "item": "Sun Mica",
         "icon": 21227,
         "id": 12540,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -2515,8 +2499,7 @@
         "item": "Blue Quartz",
         "icon": 21457,
         "id": 5160,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "stars": 1,
@@ -2544,8 +2527,7 @@
         "item": "Red Alumen",
         "icon": 22656,
         "id": 12945,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -2991,8 +2973,7 @@
         "item": "Chives",
         "icon": 25035,
         "id": 12884,
-        "slot": "1",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "1"
       },
       {
         "item": "Pearl Sprout Seeds",
@@ -3010,15 +2991,13 @@
         "item": "Pearl Sprouts",
         "icon": 25208,
         "id": 12877,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       },
       {
         "item": "Coerthan Tea Leaves",
         "icon": 25020,
         "id": 12882,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -3051,8 +3030,7 @@
         "item": "Old World Fig",
         "icon": 25318,
         "id": 12896,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Dark Matter Cluster",
@@ -3086,15 +3064,13 @@
         "item": "Dravanian Mistletoe",
         "icon": 25001,
         "id": 12943,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       },
       {
         "item": "Porcini",
         "icon": 25401,
         "id": 12899,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -3121,15 +3097,13 @@
         "item": "Heavens Lemon",
         "icon": 25305,
         "id": 12889,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Abalathian Mistletoe",
         "icon": 25001,
         "id": 12944,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "time": [
@@ -3156,15 +3130,13 @@
         "item": "Cloud Banana",
         "icon": 25319,
         "id": 12897,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Morel",
         "icon": 25408,
         "id": 12898,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -3191,8 +3163,7 @@
         "item": "Chysahl Greens",
         "icon": 25222,
         "id": 12900,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -3219,22 +3190,19 @@
         "item": "Vanilla Beans",
         "icon": 25014,
         "id": 4833,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       },
       {
         "item": "Dravanian Paprika",
         "icon": 25018,
         "id": 12903,
-        "slot": "4",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "4"
       },
       {
         "item": "Frost Cotton Boll",
         "icon": 25032,
         "id": 14154,
-        "slot": "5",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "5"
       }
     ],
     "stars": 1,
@@ -3262,8 +3230,7 @@
         "item": "Seventh Heaven",
         "icon": 22627,
         "id": 12634,
-        "slot": "1",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "1"
       }
     ],
     "stars": 1,
@@ -3291,8 +3258,7 @@
         "item": "Honeydew Almonds",
         "icon": 25017,
         "id": 12902,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -3320,8 +3286,7 @@
         "item": "Snurbleberry",
         "icon": 25306,
         "id": 12904,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "stars": 1,
@@ -3349,8 +3314,7 @@
         "item": "Wattle Bark",
         "icon": 23001,
         "id": 12587,
-        "slot": "5",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "5"
       }
     ],
     "stars": 1,
@@ -3378,15 +3342,13 @@
         "item": "Crystallized Sap",
         "icon": 20018,
         "id": 15647,
-        "slot": "4",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "4"
       },
       {
         "item": "Old-growth Camphorwood Log",
         "icon": 22414,
         "id": 14957,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 1,
@@ -3414,15 +3376,13 @@
         "item": "Smithsonite Ore",
         "icon": 21473,
         "id": 14151,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       },
       {
         "item": "Meteorite",
         "icon": 21203,
         "id": 15646,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "stars": 1,
@@ -3583,8 +3543,7 @@
         "item": "Raw Triphane",
         "icon": 21474,
         "id": 19968,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 2,
@@ -3614,8 +3573,7 @@
         "item": "Raw Star Spinel",
         "icon": 21475,
         "id": 19970,
-        "slot": "8",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "8"
       }
     ],
     "time": [
@@ -3650,8 +3608,7 @@
         "item": "Raw Rhodonite",
         "icon": 21471,
         "id": 19973,
-        "slot": "7",
-        "scrip": "Yellow Crafters' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -3680,8 +3637,7 @@
         "item": "Raw Imperial Jade",
         "icon": 21252,
         "id": 19972,
-        "slot": "6",
-        "scrip": "Yellow Crafters' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -3710,8 +3666,7 @@
         "item": "Raw Azurite",
         "icon": 21472,
         "id": 19971,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -3775,8 +3730,7 @@
         "item": "Chromite Ore",
         "icon": 21205,
         "id": 19959,
-        "slot": "6",
-        "scrip": "Yellow Crafters' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 1,
@@ -3806,8 +3760,7 @@
         "item": "Palladium Ore",
         "icon": 21217,
         "id": 19958,
-        "slot": "6",
-        "scrip": "Yellow Crafters' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 1,
@@ -3974,8 +3927,7 @@
         "item": "Beech Branch",
         "icon": 22417,
         "id": 19936,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "stars": 2,
@@ -4005,8 +3957,7 @@
         "item": "Bamboo Shoot",
         "icon": 25229,
         "id": 19860,
-        "slot": "8",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "8"
       }
     ],
     "time": [
@@ -4035,8 +3986,7 @@
         "item": "Othardian Plum",
         "icon": 25311,
         "id": 19852,
-        "slot": "2",
-        "scrip": "Yellow Crafters' Scrip"
+        "slot": "2"
       }
     ],
     "time": [
@@ -4095,8 +4045,7 @@
         "item": "Lotus Root",
         "icon": 25226,
         "id": 19865,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -4131,8 +4080,7 @@
         "item": "Jhammel Ginger",
         "icon": 25012,
         "id": 19857,
-        "slot": "3",
-        "scrip": "Yellow Crafters' Scrip"
+        "slot": "3"
       }
     ],
     "time": [
@@ -4161,8 +4109,7 @@
         "item": "Torreya Log",
         "icon": 22405,
         "id": 19934,
-        "slot": "6",
-        "scrip": "Yellow Crafters' Scrip"
+        "slot": "6"
       }
     ],
     "stars": 1,
@@ -4192,8 +4139,7 @@
         "item": "Rhea",
         "icon": 21651,
         "id": 19991,
-        "slot": "4",
-        "scrip": "Yellow Crafters' Scrip"
+        "slot": "4"
       },
       {
         "item": "Azim Cotton Boll",
@@ -4625,8 +4571,7 @@
         "item": "Raw Hematite",
         "icon": 21476,
         "id": 27726,
-        "slot": "8",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "8"
       }
     ],
     "stars": 2,
@@ -4656,8 +4601,7 @@
         "item": "Raw Diaspore",
         "icon": 21473,
         "id": 27727,
-        "slot": "6",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -4715,8 +4659,7 @@
         "item": "Raw Triplite",
         "icon": 21471,
         "id": 27729,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -4745,8 +4688,7 @@
         "item": "Raw Petalite",
         "icon": 21477,
         "id": 27730,
-        "slot": "8",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "8"
       }
     ],
     "time": [
@@ -4775,8 +4717,7 @@
         "item": "Raw Onyx",
         "icon": 21231,
         "id": 27731,
-        "slot": "7",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -4805,8 +4746,7 @@
         "item": "Prismstone",
         "icon": 21232,
         "id": 27705,
-        "slot": "7",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "7"
       },
       {
         "item": "Beryllium Ore",
@@ -4842,8 +4782,7 @@
         "item": "Tungsten Ore",
         "icon": 21203,
         "id": 27704,
-        "slot": "3",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "stars": 1,
@@ -5010,8 +4949,7 @@
         "item": "White Oak Branch",
         "icon": 22416,
         "id": 27816,
-        "slot": "3",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "3"
       }
     ],
     "stars": 2,
@@ -5041,8 +4979,7 @@
         "item": "Broad Beans",
         "icon": 25353,
         "id": 27833,
-        "slot": "2",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "time": [
@@ -5100,8 +5037,7 @@
         "item": "Russet Popoto",
         "icon": 25204,
         "id": 27822,
-        "slot": "7",
-        "scrip": "Yellow Gatherers' Scrip"
+        "slot": "7"
       }
     ],
     "time": [
@@ -5130,8 +5066,7 @@
         "item": "Mist Spinach",
         "icon": 25206,
         "id": 27828,
-        "slot": "6",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "6"
       }
     ],
     "time": [
@@ -5160,8 +5095,7 @@
         "item": "Lemonette",
         "icon": 25305,
         "id": 27835,
-        "slot": "2",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "2"
       }
     ],
     "time": [
@@ -5190,8 +5124,7 @@
         "item": "Sandalwood Log",
         "icon": 22401,
         "id": 27688,
-        "slot": "6",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "6"
       },
       {
         "item": "Sandalwood Sap",
@@ -5227,8 +5160,7 @@
         "item": "Ethereal Cocoon",
         "icon": 21661,
         "id": 27761,
-        "slot": "4",
-        "scrip": "White Gatherers' Scrip"
+        "slot": "4"
       }
     ],
     "stars": 1,

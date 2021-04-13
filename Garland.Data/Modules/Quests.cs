@@ -178,15 +178,23 @@ namespace Garland.Data.Modules
 
                         rewards.items.Add(o);
 
-                        var item = _builder.Db.ItemsById[sQuestRewardItem.Item.Key];
-                        if (item.quests == null)
-                            item.quests = new JArray();
+                        try
+                        {
+                            var item = _builder.Db.ItemsById[sQuestRewardItem.Item.Key];
+                            if (item.quests == null)
+                                item.quests = new JArray();
+                            JArray quests = item.quests;
 
-                        JArray quests = item.quests;
-                        if (!quests.Any(id => ((int)id) == sQuest.Key))
-                            quests.Add(sQuest.Key);
+                            if (!quests.Any(id => ((int)id) == sQuest.Key))
+                                quests.Add(sQuest.Key);
+                            _builder.Db.AddReference(item, "quest", sQuest.Key, false);
 
-                        _builder.Db.AddReference(item, "quest", sQuest.Key, false);
+                        }
+                        catch (KeyNotFoundException ignored)
+                        {
+                            DatabaseBuilder.PrintLine($"Reward item '{sQuestRewardItem.Item.Key}' not found for Quest '{quest.Key}'.");
+                        }
+
                         _builder.Db.AddReference(quest, "item", sQuestRewardItem.Item.Key, false);
                     }
                 }

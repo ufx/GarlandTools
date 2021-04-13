@@ -791,13 +791,18 @@ namespace Garland.Data.Output
             {
                 if (isNestedOnly && !dataRef.IsNested)
                     continue;
+                try
+                {
+                    dynamic obj = _partialsByLangTypeById[Tuple.Create(lang, dataRef.Type)][dataRef.Id];
+                    if (IsPartialObjectSkipped(dataRef, obj))
+                        continue;
 
-                dynamic obj = _partialsByLangTypeById[Tuple.Create(lang, dataRef.Type)][dataRef.Id];
-                if (IsPartialObjectSkipped(dataRef, obj))
-                    continue;
-
-                var partial = new JsPartial(dataRef.Type, dataRef.Id, obj);
-                partials.Add(partial);
+                    var partial = new JsPartial(dataRef.Type, dataRef.Id, obj);
+                    partials.Add(partial);
+                } catch (KeyNotFoundException ignored)
+                {
+                    DatabaseBuilder.PrintLine($"Couldn't find Partial of type '{dataRef.Type}' with ID '{dataRef.Id}'.");
+                }
             }
             return partials;
         }
