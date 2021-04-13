@@ -53,88 +53,16 @@ namespace Garland.Data.Modules
 
         public override void Start()
         {
-            BuildMasterpieceSupplyDuties();
             BuildSatisfactionSupplyDuties();
             BuildGCSupplyAndProvisioningDuties();
             BuildCollectablesShopItemReward();
-        }
-
-        void BuildMasterpieceSupplyDuties()
-        {
-            // Collectables - Traded by the Collectable Appraiser in Mor Dhona and Idyllshire.
-            var appraiserIds = new int[] { 1012300 }; // Just use this one for now.
-            List<dynamic> appraisers = new List<dynamic>();
-            foreach (var appraiserId in appraiserIds)
-                appraisers.Add(_builder.Db.NpcsById[appraiserId]);
-
-            foreach (var sMasterpieceSupplyDuty in _builder.Sheet<Saint.MasterpieceSupplyDuty>())
-            {
-                if (sMasterpieceSupplyDuty.ClassJob.Key == 0)
-                    continue;
-
-                var sRewardCurrency = (ushort)sMasterpieceSupplyDuty["Reward{Currency}"];
-                var sRewardItemKey = CURRENCIES[sRewardCurrency - 1];
-                var sRewardItem = _builder.Sheet<Saint.Item>()[sRewardItemKey];
-
-                foreach (var sCollectableItem in sMasterpieceSupplyDuty.CollectableItems)
-                {
-                    var requiredItemKey = sCollectableItem.RequiredItem.Key;
-                    if (requiredItemKey == 0)
-                        continue;
-
-                    var item = _builder.Db.ItemsById[requiredItemKey];
-
-                    if (item.masterpiece == null)
-                        item.masterpiece = new JObject();
-
-                    item.masterpiece.rating = new JArray(sCollectableItem.CollectabilityBase, sCollectableItem.CollectabilityBonus, sCollectableItem.CollectabilityHighBonus);
-                    item.masterpiece.amount = sCollectableItem.Quantity;
-                    item.masterpiece.stars = sCollectableItem.Stars;
-                    item.masterpiece.lvl = new JArray(sMasterpieceSupplyDuty.ClassJobLevel, sCollectableItem.MaxClassJobLevel);
-                    item.masterpiece.xp = new JArray(sCollectableItem.CalculateExp(sCollectableItem.MaxClassJobLevel));
-                    item.masterpiece.reward = sRewardItemKey;
-
-                    _builder.Db.AddReference(item, "item", sRewardItemKey, false);
-
-                    if (sCollectableItem.ScripRewards == 0) {
-                        item.masterpiece.rewardAmount = new JArray(0, 0, 0);
-                        continue;
-                    }
-
-                    item.masterpiece.rewardAmount = new JArray(sCollectableItem.CalculateScripRewards());
-
-                    // Add to nodes.
-                    foreach (var nodeView in _builder.Db.NodeViews)
-                    {
-                        foreach (var itemView in nodeView.items)
-                        {
-                            if ((int)itemView.id == requiredItemKey)
-                                itemView.scrip = sRewardItem.Name.ToString();
-                        }
-                    }
-
-                    // Add to fish.
-                    foreach (var fishView in _builder.Db.Fish)
-                    {
-                        if ((int)fishView.id == requiredItemKey)
-                            fishView.scrip = sRewardItem.Name.ToString();
-                    }
-
-                    // Add supply data to reward.
-                    var rewardItem = _builder.Db.ItemsById[sRewardItemKey];
-                    if (rewardItem.supplyReward == null)
-                        rewardItem.supplyReward = new JArray();
-                    rewardItem.supplyReward.Add(BuildSupplyReward(sMasterpieceSupplyDuty, item));
-
-                    _builder.Db.AddReference(rewardItem, "item", requiredItemKey, false);
-                }
-            }
         }
 
         void BuildCollectablesShopItemReward()
         {
             foreach(var sCollectableShopItem in _builder.Sheet2("CollectablesShopItem"))
             {
+                //TODO
                 Console.WriteLine(sCollectableShopItem["Item"]);
             }
         }

@@ -56,7 +56,6 @@ Undyed Velveteen	Desynth	Aged Robe
 Vintage Cooking Sherry	Desynth	Aged Decanter											
 Vitriol	Desynth	Aged Phial											
 Waterproof Cotton Cloth	Desynth	Sweetnewt	The Lone Ripper	Olgoi-Khorkhoi	Shrieker								
-Immaculate wingblade	Desynth	Immaculate necklace of aiming											
 Duskborne Aethersand	Reduce	Fire Moraine	Lightning Moraine	Granular Clay	Pot marjoram								
 Dawnborne Aethersand	Reduce	Bright Fire Rock	Bright Lightning Rock	Peat Moss	Water Mint								
 Landborne Aethersand	Reduce	Radiant Fire Moraine	Radiant Lightning Moraine										
@@ -64,7 +63,7 @@ Leafborne Aethersand	Reduce	Humic Soil	Wild Sage
 Seaborne Aethersand	Reduce	Thaliak Caiman	Tupuxuara										
 Light-kissed Aethersand	Reduce	Lover's Laurel	Radiant Astral Moraine										
 Dawnlight Aethersand	Reduce	Schorl	Countess Tea	Snow Crab									
-Everbright Aethersand	Reduce	Dacite 											
+Everbright Aethersand	Reduce	Dacite											
 Dusklight Aethersand	Reduce	Doman Yellow	Rhodolite	False Scad									
 Everdeep Aethersand	Reduce	Sweatfish											
 Everborn Aethersand	Reduce	Torreya Branch											
@@ -82,13 +81,14 @@ Ice Cluster	Reduce	Lover's Laurel	Torreya Branch	Bog Sage
 Ice Crystal	Reduce	Lover's Laurel	Torreya Branch	Bog Sage									
 Lightning Cluster	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena	Solarite						
 Lightning Crystal	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena	Solarite						
-Water Cluster	Reduce	Radiant Astral Moraine	Dacite 	Gale Rock									
-Water Crystal	Reduce	Radiant Astral Moraine	Dacite 	Gale Rock									
+Water Cluster	Reduce	Radiant Astral Moraine	Dacite	Gale Rock									
+Water Crystal	Reduce	Radiant Astral Moraine	Dacite	Gale Rock									
 Wind Cluster	Reduce	Wild Sage	Water Mint	Pot marjoram	Countess Tea	Yanxian Soil	Sweet Marjoram						
 Wind Crystal	Reduce	Wild Sage	Water Mint	Pot marjoram	Countess Tea	Yanxian Soil	Sweet Marjoram						
-Levinstrike Aethersand	Reduce	Levin Mint	Thunder Rock										
+Levinstrike Aethersand	Reduce	Levin Mint	Thunder Rock	Fuchsia Bloom									
 Lotus Leaf	Loot	Timeworn Leather Map											
 Ahriman Tears	Loot	Timeworn Leather Map	Unhidden Leather Map										
+Moonstone	Loot	Timeworn Leather Map											
 Tiny Bulb	Loot	Timeworn Toadskin Map											
 Cutting Oil	Loot	Timeworn Toadskin Map	Timeworn Peisteskin Map	Unhidden Leather Map									
 Swan Feather	Loot	Timeworn Boarskin Map											
@@ -113,7 +113,7 @@ Morbol Saliva	Loot	Unhidden Leather Map	Timeworn Toadskin Map
 Falconer's Hemp	Loot	Timeworn Wyvernskin Map											
 Antique Rug	Loot	Timeworn Wyvernskin Map											
 Antique Leather	Loot	Timeworn Wyvernskin Map											
-Faded Copy of The Only Path	Loot	Timeworn Dragonskin Map	Unhidden Leather Map										
+Faded Copy of The Only Path	Loot	Timeworn Dragonskin Map	Unhidden Leather Map	Timeworn Wyvernskin Map									
 Paissa Brat	Loot	Timeworn Dragonskin Map											
 Unidentifiable Ore	Loot	Timeworn Dragonskin Map											
 Exquisite Buttons	Loot	Timeworn Goatskin Map	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Unhidden Leather Map							
@@ -124,114 +124,75 @@ Nagxian Leather	Loot	Timeworn Gaganaskin Map
 Moai Statue	Loot	Timeworn Gazelleskin Map											
 Autumnal Maple Tree	Loot	Timeworn Gazelleskin Map											
 Maple Leaf Pile	Loot	Timeworn Gazelleskin Map											
-Waterproof Cloth	Loot	Timeworn Gazelleskin Map	Timeworn Thief's Map										
-Hedgehoglet	Loot	Timeworn Thief's Map											
-The Gold Whisker	Loot	Timeworn Thief's Map											
+Waterproof Cloth	Loot	Timeworn Gazelleskin Map											
 Polarized Glass	Loot	Unhidden Leather Map											
 Indigo Cloth	Loot	Timeworn Zonureskin Map											
 Fireglass Leather	Loot	Timeworn Zonureskin Map											
-Anemos Hat	Loot	Anemos Lockbox											
-Anemos Gloves	Loot	Anemos Lockbox											
-Anemos Chaps	Loot	Anemos Lockbox											
-Anemos Boots	Loot	Anemos Lockbox											
-Anemos Pot Helm	Loot	Anemos Lockbox											
-Anemos Gambison	Loot	Anemos Lockbox											
-Anemos Expeditionary's Gloves	Loot	Anemos Lockbox											
-Anemos Sarouel	Loot	Anemos Lockbox											
-Anemos Expeditionary's Boots	Loot	Anemos Lockbox											
-Anemos Suspenders	Loot	Anemos Lockbox											
-Sharlayan Wardrobe	Loot	Anemos Lockbox											
-Wind-up Fafnir	Loot	Anemos Lockbox											
-Wind-up Mithra	Loot	Anemos Lockbox											
-The Prince of Anemos	Loot	Anemos Lockbox											
-Tyrannosaur Horn	Loot	Anemos Lockbox											
-Red Mage Barding	Loot	Anemos Lockbox											
-Wicked Winds Whisper Orchestrion Roll	Loot	Anemos Lockbox											
-No Quarter Orchestrion Roll	Loot	Anemos Lockbox											
-Protean Crystal	Loot	Anemos Crystal											
-Lizard Tail	Loot	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox									
-Reishi Mushroom	Loot	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox									
-Wind-up Tarutaru	Loot	Pagos Lockbox											
-Pagos Field Dressing	Loot	Pagos Lockbox											
-Pagos Bandana	Loot	Pagos Lockbox											
-Pagos Bolero	Loot	Pagos Lockbox											
-Pagos Boots	Loot	Pagos Lockbox											
-Pagos Circlet	Loot	Pagos Lockbox											
-Pagos Culottes	Loot	Pagos Lockbox											
-Pagos Gaskins	Loot	Pagos Lockbox											
-Pagos Gloves	Loot	Pagos Lockbox											
-Pagos Shirt	Loot	Pagos Lockbox											
-Boutique Batiste	Loot	Pagos Lockbox											
-Crossed Halberds	Loot	Cold-warped Lockbox											
-Golden Hakutaku Eye	Loot	Cold-warped Lockbox											
-Chainmail Hanger	Loot	Cold-warped Lockbox											
-Wind-up Tarutaru	Loot	Cold-warped Lockbox											
-Ballroom Etiquette - Insufficient Petticoats	Loot	Cold-warped Lockbox											
-Adventuring Pack	Loot	Pyros Lockbox											
-Pagos Sage	Loot	Pyros Lockbox	Hydatos Lockbox	Pagos Lockbox									
-Pagos Spring Water	Loot	Pyros Lockbox	Hydatos Lockbox	Pagos Lockbox									
-Glass Jars	Loot	Pyros Lockbox											
-Wooden Plates	Loot	Pyros Lockbox											
-Wooden Cups	Loot	Pyros Lockbox											
-Spice Rack	Loot	Pyros Lockbox											
-Ballroom Etiquette - Ideal Gossip	Loot	Heat-warped Lockbox											
-Samurai Barding	Loot	Heat-warped Lockbox											
-Tactical Logogram	Loot	Heat-warped Lockbox	Moisture-warped Lockbox										
-Simple Treehouse	Loot	Hydatos Lockbox											
-Paissa Chronometer	Loot	Hydatos Lockbox											
-Gates of Paradise - The Garden of Ru'Hmet Orchestrion Roll	Loot	Hydatos Lockbox											
-Pot of Sharlayan Aether Oil	Loot	Moisture-warped Lockbox											
-Yukinko Snowflake	Loot	Moisture-warped Lockbox											
-Ballroom Etiquette - Overzealous Affirmations	Loot	Moisture-warped Lockbox											
-Onslaught Orchestrion Roll	Loot	Moisture-warped Lockbox											
-Antiquated Machinist's Boots	Loot	Machinist's Armor Coffer											
-Antiquated Machinist's Brais	Loot	Machinist's Armor Coffer											
-Antiquated Machinist's Gloves	Loot	Machinist's Armor Coffer											
-Antiquated Machinist's Goggles	Loot	Machinist's Armor Coffer											
-Antiquated Machinist's Shirt	Loot	Machinist's Armor Coffer											
-Ardent Belt of Aiming	Loot	Machinist's Armor Coffer											
-Bard's Chapeau	Loot	Bard's Attire Coffer											
-Bard's Ringbands	Loot	Bard's Attire Coffer											
-Bard's Sandals	Loot	Bard's Attire Coffer											
-Bard's Shirt	Loot	Bard's Attire Coffer											
-Bard's Tights	Loot	Bard's Attire Coffer											
-Hero's Belt of Aiming	Loot	Bard's Attire Coffer											
-Allagan Platinum Piece	Loot	Bronze-trimmed Sack											
+Retainer Fantasia	Loot	Venture Coffer											
+General-purpose Pure White Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Jet Black Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Pastel Pink Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Dark Red Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Dark Brown Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Pastel Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Dark Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Pastel Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Dark Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Pastel Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Dark Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Metallic Silver Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Metallic Gold Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Metallic Red Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Metallic Orange Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Metallic Yellow Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Metallic Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Metallic Sky Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Metallic Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Metallic Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+Allagan Platinum Piece	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
 Baby Opo-opo	Loot	Bronze-trimmed Sack											
-Battledance Materia IV	Loot	Bronze-trimmed Sack											
 Bluebird	Loot	Bronze-trimmed Sack											
-Cherry Confetti	Loot	Bronze-trimmed Sack	Pagos Lockbox										
-Clear Demimateria I	Loot	Bronze-trimmed Sack											
-Clear Demimateria II	Loot	Bronze-trimmed Sack											
-Clear Demimateria III	Loot	Bronze-trimmed Sack											
-Dexterity Materia IV	Loot	Bronze-trimmed Sack											
+Cherry Confetti	Loot	Bronze-trimmed Sack	Anemos Lockbox	Pagos Lockbox									
+Clear Demimateria I	Loot	Bronze-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox							
+Clear Demimateria II	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
+Clear Demimateria III	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
+Savage Aim Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Savage Aim Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
+Savage Might Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Savage Might Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
+Heavens' Eye Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Heavens' Eye Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
+Quickarm Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Quickarm Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
+Quicktongue Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Quicktongue Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
+Battledance Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Battledance Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
+Piety Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Piety Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
 Expeditioner's Coat	Loot	Bronze-trimmed Sack											
 Expeditioner's Moccasins	Loot	Bronze-trimmed Sack											
 Expeditioner's Pantalettes	Loot	Bronze-trimmed Sack											
 Falconer's Shirt	Loot	Bronze-trimmed Sack											
-Flame Tracer	Loot	Bronze-trimmed Sack											
+Flame Tracer	Loot	Bronze-trimmed Sack	Anemos Lockbox										
 Gaelikitten	Loot	Bronze-trimmed Sack											
+Gridanian Sparkler	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Silver-haloed Sack	Anemos Lockbox							
 Gryphonskin Breastguard	Loot	Bronze-trimmed Sack											
 Gryphonskin Pantalettes	Loot	Bronze-trimmed Sack											
-Heavens' Eye Materia IV	Loot	Bronze-trimmed Sack											
-Heavens' Eye Materia V	Loot	Bronze-trimmed Sack											
 High House Boots	Loot	Bronze-trimmed Sack											
 High House Halfboots	Loot	Bronze-trimmed Sack											
 High House Justaucorps	Loot	Bronze-trimmed Sack											
-Intelligence Materia IV	Loot	Bronze-trimmed Sack											
 Lesser Panda	Loot	Bronze-trimmed Sack											
-Lominsan Sparkler	Loot	Bronze-trimmed Sack											
-Magicked Prism (Crimson Star)	Loot	Bronze-trimmed Sack											
-Magicked Prism (Emerald Star)	Loot	Bronze-trimmed Sack											
-Magicked Prism (Harbor Herald)	Loot	Bronze-trimmed Sack											
-Magicked Prism (Immortal Flames)	Loot	Bronze-trimmed Sack											
-Magicked Prism (Indigo Star)	Loot	Bronze-trimmed Sack											
-Magicked Prism (Maelstrom)	Loot	Bronze-trimmed Sack											
-Magicked Prism (Mythril Eye)	Loot	Bronze-trimmed Sack											
-Magicked Prism (The Raven)	Loot	Bronze-trimmed Sack											
-Magicked Prism (Twin Adder)	Loot	Bronze-trimmed Sack											
-Mind Materia IV	Loot	Bronze-trimmed Sack											
-Mind Materia V	Loot	Bronze-trimmed Sack											
+Lominsan Sparkler	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Silver-haloed Sack	Anemos Lockbox							
+Magicked Prism (Crimson Star)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
+Magicked Prism (Emerald Star)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
+Magicked Prism (Harbor Herald)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
+Magicked Prism (Immortal Flames)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
+Magicked Prism (Indigo Star)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox	Southern Front Lockbox							
+Magicked Prism (Maelstrom)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
+Magicked Prism (Mythril Eye)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
+Magicked Prism (The Raven)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
+Magicked Prism (Twin Adder)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
 Minute Mindflayer	Loot	Bronze-trimmed Sack											
 Modern Aesthetics - Samsonian Locks	Loot	Bronze-trimmed Sack											
 Moonfire Caligae	Loot	Bronze-trimmed Sack											
@@ -246,17 +207,8 @@ Palace of the Dead Flooring	Loot	Bronze-trimmed Sack
 Palace of the Dead Interior Wall	Loot	Bronze-trimmed Sack											
 Palace Pedestal	Loot	Bronze-trimmed Sack											
 Peach Confetti	Loot	Bronze-trimmed Sack											
-Piety Materia IV	Loot	Bronze-trimmed Sack											
-Piety Materia V	Loot	Bronze-trimmed Sack											
-Quickarm Materia IV	Loot	Bronze-trimmed Sack											
-Quickarm Materia V	Loot	Bronze-trimmed Sack											
-Quicktongue Materia IV	Loot	Bronze-trimmed Sack											
-Quicktongue Materia V	Loot	Bronze-trimmed Sack											
-Savage Aim Materia IV	Loot	Bronze-trimmed Sack											
-Savage Might Materia IV	Loot	Bronze-trimmed Sack											
-Savage Might Materia V	Loot	Bronze-trimmed Sack											
-Storm Tracer	Loot	Bronze-trimmed Sack											
-Strength Materia IV	Loot	Bronze-trimmed Sack											
+Serpent Tracer	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox									
+Storm Tracer	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox									
 Survival Halfslops	Loot	Bronze-trimmed Sack											
 Survival Hat	Loot	Bronze-trimmed Sack											
 Survival Shirt	Loot	Bronze-trimmed Sack											
@@ -270,48 +222,23 @@ Thavnairian Sarouel	Loot	Bronze-trimmed Sack
 Thavnairian Tights	Loot	Bronze-trimmed Sack											
 Tiny Bulb	Loot	Bronze-trimmed Sack											
 Ugly Duckling	Loot	Bronze-trimmed Sack											
-Ul'dahn Sparkler	Loot	Bronze-trimmed Sack											
+Ul'dahn Sparkler	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Silver-haloed Sack	Anemos Lockbox							
 Unicolt	Loot	Bronze-trimmed Sack											
-Vitality Materia V	Loot	Bronze-trimmed Sack											
 Wind Silk Bottoms	Loot	Bronze-trimmed Sack											
 Wind Silk Coatee	Loot	Bronze-trimmed Sack											
 Wind-up Tonberry	Loot	Bronze-trimmed Sack											
-Battledance Materia IV	Loot	Iron-trimmed Sack											
-Battledance Materia V	Loot	Iron-trimmed Sack											
 Blackbosom Orchestrion Roll	Loot	Iron-trimmed Sack											
 Cherry Confetti	Loot	Iron-trimmed Sack											
-Clear Demimateria II	Loot	Iron-trimmed Sack											
-Clear Demimateria III	Loot	Iron-trimmed Sack											
-Dexterity Materia IV	Loot	Iron-trimmed Sack											
-Dexterity Materia V	Loot	Iron-trimmed Sack											
 Dinosaur Leather Gloves	Loot	Iron-trimmed Sack											
 Dinosaur Leather Shoes	Loot	Iron-trimmed Sack											
 Expeditioner's Cap	Loot	Iron-trimmed Sack											
 Expeditioner's Moccasins	Loot	Iron-trimmed Sack											
 Expeditioner's Tabard	Loot	Iron-trimmed Sack											
 Expeditioner's Thighboots	Loot	Iron-trimmed Sack											
-Gridanian Sparkler	Loot	Iron-trimmed Sack											
 Gryphonskin Breastguard	Loot	Iron-trimmed Sack											
-Heavens' Eye Materia IV	Loot	Iron-trimmed Sack											
-Heavens' Eye Materia V	Loot	Iron-trimmed Sack											
-Intelligence Materia IV	Loot	Iron-trimmed Sack											
-Intelligence Materia V	Loot	Iron-trimmed Sack											
-Lominsan Sparkler	Loot	Iron-trimmed Sack											
-Magicked Prism (Crimson Star)	Loot	Iron-trimmed Sack											
-Magicked Prism (Harbor Herald)	Loot	Iron-trimmed Sack											
-Magicked Prism (Maelstrom)	Loot	Iron-trimmed Sack											
-Magicked Prism (The Raven)	Loot	Iron-trimmed Sack											
-Mind Materia IV	Loot	Iron-trimmed Sack											
-Mind Materia V	Loot	Iron-trimmed Sack											
 Moonfire Trunks	Loot	Iron-trimmed Sack											
 Moonfire Vest	Loot	Iron-trimmed Sack											
 Peach Confetti	Loot	Iron-trimmed Sack											
-Piety Materia IV	Loot	Iron-trimmed Sack											
-Piety Materia V	Loot	Iron-trimmed Sack											
-Quickarm Materia IV	Loot	Iron-trimmed Sack											
-Quickarm Materia V	Loot	Iron-trimmed Sack											
-Quicktongue Materia IV	Loot	Iron-trimmed Sack											
-Quicktongue Materia V	Loot	Iron-trimmed Sack											
 Replica Allagan Boots of Casting	Loot	Iron-trimmed Sack											
 Replica Allagan Boots of Healing	Loot	Iron-trimmed Sack											
 Replica Allagan Breeches of Casting	Loot	Iron-trimmed Sack											
@@ -342,30 +269,14 @@ Replica Heavy Allagan Armor	Loot	Iron-trimmed Sack
 Replica Heavy Allagan Cuisses	Loot	Iron-trimmed Sack											
 Replica Heavy Allagan Flanchard	Loot	Iron-trimmed Sack											
 Replica Heavy Allagan Gauntlets	Loot	Iron-trimmed Sack											
-Savage Aim Materia IV	Loot	Iron-trimmed Sack											
-Savage Aim Materia V	Loot	Iron-trimmed Sack											
-Savage Might Materia IV	Loot	Iron-trimmed Sack											
-Savage Might Materia V	Loot	Iron-trimmed Sack											
-Serpent Tracer	Loot	Iron-trimmed Sack											
-Storm Tracer	Loot	Iron-trimmed Sack											
-Strength Materia IV	Loot	Iron-trimmed Sack											
-Strength Materia V	Loot	Iron-trimmed Sack											
 Survival Halfslops	Loot	Iron-trimmed Sack											
 Survival Shirt	Loot	Iron-trimmed Sack											
-Ul'dahn Sparkler	Loot	Iron-trimmed Sack											
 Uraeus Body Armor	Loot	Iron-trimmed Sack											
-Vitality Materia IV	Loot	Iron-trimmed Sack											
-Vitality Materia V	Loot	Iron-trimmed Sack											
 Wind Silk Bottoms	Loot	Iron-trimmed Sack											
 Wind Silk Wedge Cap	Loot	Iron-trimmed Sack											
-Wind-up Edda	Loot	Iron-trimmed Sack											
+Wind-up Edda	Loot	Iron-trimmed Sack	Silver-trimmed Sack	Gold-trimmed Sack									
 Abigail Barding	Loot	Silver-trimmed Sack											
-General-purpose Dark Purple Dye	Loot	Silver-trimmed Sack											
-General-purpose Metallic Silver Dye	Loot	Silver-trimmed Sack											
-General-purpose Pastel Green Dye	Loot	Silver-trimmed Sack											
-General-purpose Pastel Purple Dye	Loot	Silver-trimmed Sack											
 Inferno Codex	Loot	Silver-trimmed Sack											
-Mind Materia V	Loot	Silver-trimmed Sack											
 Replica Allagan Baghnakhs	Loot	Silver-trimmed Sack											
 Replica Allagan Battleaxe	Loot	Silver-trimmed Sack											
 Replica Allagan Blade	Loot	Silver-trimmed Sack											
@@ -440,7 +351,1879 @@ Night Pegasus Whistle	Loot	Gold-trimmed Sack
 Ona Ramuhda First Edition	Loot	Gold-trimmed Sack											
 Replica High Allagan Blade	Loot	Gold-trimmed Sack											
 The Law of Levin First Edition	Loot	Gold-trimmed Sack											
+Baby Bombfish	Loot	Silver-haloed Sack											
+Baby Brachiosaur	Loot	Silver-haloed Sack											
+Battledance Materia V	Loot	Silver-haloed Sack											
+Black Cherry Blossom Corsage	Loot	Silver-haloed Sack											
+Blissful Barding	Loot	Silver-haloed Sack											
+Bom Boko	Loot	Silver-haloed Sack											
+Castaway Chocobo Chick	Loot	Silver-haloed Sack											
+Clear Demimateria III	Loot	Silver-haloed Sack											
+Dried Green Oldrose	Loot	Silver-haloed Sack											
+Dwarf Rabbit	Loot	Silver-haloed Sack											
+Empyrean Clay	Loot	Silver-haloed Sack											
+Empyrean Pine Log	Loot	Silver-haloed Sack											
+Expanse Barding	Loot	Silver-haloed Sack											
+Falconer's Boots	Loot	Silver-haloed Sack											
+Falconer's Bottoms	Loot	Silver-haloed Sack											
+Falconer's Shirt	Loot	Silver-haloed Sack											
+Gestahl	Loot	Silver-haloed Sack											
+Ghido	Loot	Silver-haloed Sack											
+Hatamoto Card	Loot	Silver-haloed Sack	Gold-haloed Sack										
+Hive Barding	Loot	Silver-haloed Sack											
+Horde Barding	Loot	Silver-haloed Sack											
+Hunting Hawk	Loot	Silver-haloed Sack											
+Ice Barding	Loot	Silver-haloed Sack											
+Korpokkur Kid	Loot	Silver-haloed Sack											
+Levin Barding	Loot	Silver-haloed Sack											
+Miniature Minecart	Loot	Silver-haloed Sack											
+Modern Aesthetics - Gyr Abanian Plait	Loot	Silver-haloed Sack											
+Morpho	Loot	Silver-haloed Sack											
+Odder Otter	Loot	Silver-haloed Sack											
+Oldrose Corsage	Loot	Silver-haloed Sack											
+Parting Ways Orchestrion Roll	Loot	Silver-haloed Sack											
+Reveler's Barding	Loot	Silver-haloed Sack											
+Road Sparrow	Loot	Silver-haloed Sack											
+Sephirotic Barding	Loot	Silver-haloed Sack											
+Shaggy Shoat	Loot	Silver-haloed Sack											
+Sophic Barding	Loot	Silver-haloed Sack											
+Thavnairian Armlets	Loot	Silver-haloed Sack											
+Thavnairian Bolero	Loot	Silver-haloed Sack											
+Thavnairian Headdress	Loot	Silver-haloed Sack											
+Thavnairian Tights	Loot	Silver-haloed Sack											
+Tidal Barding	Loot	Silver-haloed Sack											
+Wanyudo & Katasharin Card	Loot	Silver-haloed Sack	Gold-haloed Sack										
+Wind-up Lakshmi	Loot	Silver-haloed Sack											
+Wind-up Leviathan	Loot	Silver-haloed Sack											
+Wind-up Ramuh	Loot	Silver-haloed Sack											
+Wind-up Shiva	Loot	Silver-haloed Sack											
+Wind-up Susano	Loot	Silver-haloed Sack											
+Zurvanite Barding	Loot	Silver-haloed Sack											
+Ao Dai	Loot	Gold-haloed Sack											
+Baby Bombfish	Loot	Gold-haloed Sack											
+Bibliophobia Orchestrion Roll	Loot	Gold-haloed Sack											
+Empyrean Clay	Loot	Gold-haloed Sack											
+Empyrean Pine Log	Loot	Gold-haloed Sack											
+Flannel Suspenders	Loot	Gold-haloed Sack											
+Ghido	Loot	Gold-haloed Sack											
+Hannish Wool	Loot	Gold-haloed Sack											
+Hiruko Card	Loot	Gold-haloed Sack											
+Hunting Hawk	Loot	Gold-haloed Sack											
+Imagination Orchestrion Roll	Loot	Gold-haloed Sack											
+Korpokkur Kid	Loot	Gold-haloed Sack											
+Morpho	Loot	Gold-haloed Sack											
+New World Headdress	Loot	Gold-haloed Sack											
+Odder Otter	Loot	Gold-haloed Sack											
+Oriental Rice Ball Lunch	Loot	Gold-haloed Sack											
+Quan	Loot	Gold-haloed Sack											
+Thavnairian Wool	Loot	Gold-haloed Sack											
+The Dark's Embrace Orchestrion Roll	Loot	Gold-haloed Sack											
+Tiny Tatsunoko	Loot	Gold-haloed Sack											
+Unbreakable (Duality) Orchestrion Roll	Loot	Gold-haloed Sack											
+Wind-up Bismarck	Loot	Gold-haloed Sack											
+Wind-up Ifrit	Loot	Gold-haloed Sack	Platinum-haloed Sack										
+Wind-up Lakshmi	Loot	Gold-haloed Sack											
+Wind-up Ramuh	Loot	Gold-haloed Sack											
+Wind-up Shiva	Loot	Gold-haloed Sack											
+Wind-up Susano	Loot	Gold-haloed Sack	Platinum-haloed Sack										
+Wind-up Titan	Loot	Gold-haloed Sack											
+Astrometer of the Round	Loot	Platinum-haloed Sack											
+Axe of the Fiend	Loot	Platinum-haloed Sack											
+Axe of the Round	Loot	Platinum-haloed Sack											
+Blade of the Fiend	Loot	Platinum-haloed Sack											
+Bow of the Fiend	Loot	Platinum-haloed Sack											
+Bow of the Round	Loot	Platinum-haloed Sack											
+Cane of the Fiend	Loot	Platinum-haloed Sack											
+Cane of the Round	Loot	Platinum-haloed Sack											
+Claymore of the Round	Loot	Platinum-haloed Sack											
+Codex of the Round	Loot	Platinum-haloed Sack											
+Daggers of the Round	Loot	Platinum-haloed Sack											
 Dodo Horn	Loot	Platinum-haloed Sack											
+Edge of the Fiend	Loot	Platinum-haloed Sack											
+Fire of the Fiend	Loot	Platinum-haloed Sack											
+Fire of the Round	Loot	Platinum-haloed Sack											
+Fists of the Fiend	Loot	Platinum-haloed Sack											
+Grimoire of the Round	Loot	Platinum-haloed Sack											
+Halberd of the Round	Loot	Platinum-haloed Sack											
+Katana of the Fiend	Loot	Platinum-haloed Sack											
+Katana of the Round	Loot	Platinum-haloed Sack											
+Knuckles of the Round	Loot	Platinum-haloed Sack											
+Miniature Heaven-on-High	Loot	Platinum-haloed Sack											
+Pike of the Fiend	Loot	Platinum-haloed Sack											
+Points of the Fiend	Loot	Platinum-haloed Sack											
+Rapier of the Fiend	Loot	Platinum-haloed Sack											
+Rapier of the Round	Loot	Platinum-haloed Sack											
+Shield of the Fiend	Loot	Platinum-haloed Sack											
+Shield of the Round	Loot	Platinum-haloed Sack											
+Song of the Fiend	Loot	Platinum-haloed Sack											
+Staff of the Fiend	Loot	Platinum-haloed Sack											
+Staff of the Round	Loot	Platinum-haloed Sack											
+Star of the Fiend	Loot	Platinum-haloed Sack											
+Sword of the Round	Loot	Platinum-haloed Sack											
+The Open Box Orchestrion Roll	Loot	Platinum-haloed Sack											
+Word of the Fiend	Loot	Platinum-haloed Sack											
+Cracked Cluster	Loot	Anemos Lockbox	Pagos Lockbox										
+Eureka Potion	Loot	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox									
+Savage Aim Materia VI	Loot	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox								
+Savage Might Materia VI	Loot	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox								
+Heavens' Eye Materia VI	Loot	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox								
+Quickarm Materia VI	Loot	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox								
+Quicktongue Materia VI	Loot	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox								
+Battledance Materia VI	Loot	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox								
+Piety Materia VI	Loot	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox								
+Anemos Hat	Loot	Anemos Lockbox											
+Anemos Jacket	Loot	Anemos Lockbox											
+Anemos Gloves	Loot	Anemos Lockbox											
+Anemos Chaps	Loot	Anemos Lockbox											
+Anemos Boots	Loot	Anemos Lockbox											
+Anemos Pot Helm	Loot	Anemos Lockbox											
+Anemos Gambison	Loot	Anemos Lockbox											
+Anemos Expeditionary's Gloves	Loot	Anemos Lockbox											
+Anemos Sarouel	Loot	Anemos Lockbox											
+Anemos Expeditionary's Boots	Loot	Anemos Lockbox											
+Anemos Suspenders	Loot	Anemos Lockbox											
+Sharlayan Cabinet	Loot	Anemos Lockbox											
+Sharlayan Wardrobe	Loot	Anemos Lockbox											
+Wind-up Fafnir	Loot	Anemos Lockbox											
+Wind-up Mithra	Loot	Anemos Lockbox											
+The Prince of Anemos	Loot	Anemos Lockbox											
+Tyrannosaur Horn	Loot	Anemos Lockbox											
+Red Mage Barding	Loot	Anemos Lockbox											
+Wicked Winds Whisper Orchestrion Roll	Loot	Anemos Lockbox											
+No Quarter Orchestrion Roll	Loot	Anemos Lockbox											
+Protean Crystal	Loot	Anemos Crystal											
+Lizard Tail	Loot	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox									
+Reishi Mushroom	Loot	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox									
+Wind-up Tarutaru	Loot	Pagos Lockbox	Cold-warped Lockbox										
+Pagos Bandana	Loot	Pagos Lockbox											
+Pagos Bolero	Loot	Pagos Lockbox											
+Pagos Boots	Loot	Pagos Lockbox											
+Pagos Circlet	Loot	Pagos Lockbox											
+Pagos Culottes	Loot	Pagos Lockbox											
+Pagos Field Dressing	Loot	Pagos Lockbox											
+Pagos Gaskins	Loot	Pagos Lockbox											
+Pagos Gloves	Loot	Pagos Lockbox											
+Pagos Sandals	Loot	Pagos Lockbox											
+Pagos Shirt	Loot	Pagos Lockbox											
+Boutique Batiste	Loot	Pagos Lockbox											
+Boutique Boarded Leather	Loot	Pagos Lockbox											
+Crossed Halberds	Loot	Cold-warped Lockbox											
+Golden Hakutaku Eye	Loot	Cold-warped Lockbox											
+Chainmail Hanger	Loot	Cold-warped Lockbox											
+Ballroom Etiquette - Insufficient Petticoats	Loot	Cold-warped Lockbox											
+Pagos Sage	Loot	Pyros Lockbox	Hydatos Lockbox	Pagos Lockbox									
+Pagos Spring Water	Loot	Pyros Lockbox	Hydatos Lockbox	Pagos Lockbox									
+Adventuring Pack	Loot	Pyros Lockbox											
+Glass Jars	Loot	Pyros Lockbox											
+Spice Rack	Loot	Pyros Lockbox											
+Wooden Plates	Loot	Pyros Lockbox											
+Wooden Cups	Loot	Pyros Lockbox											
+Dhalmel Calf	Loot	Pyros Lockbox	Heat-warped Lockbox										
+Ballroom Etiquette - Ideal Gossip	Loot	Heat-warped Lockbox											
+Samurai Barding	Loot	Heat-warped Lockbox											
+Tactical Logogram	Loot	Heat-warped Lockbox	Moisture-warped Lockbox										
+Gates of Paradise - The Garden of Ru'Hmet Orchestrion Roll	Loot	Hydatos Lockbox											
+Paissa Chronometer	Loot	Hydatos Lockbox											
+Simple Treehouse	Loot	Hydatos Lockbox											
+Yukinko Snowflake	Loot	Hydatos Lockbox	Moisture-warped Lockbox										
+Sharlayan Aether Oil	Loot	Moisture-warped Lockbox											
+Ballroom Etiquette - Overzealous Affirmations	Loot	Moisture-warped Lockbox											
+Onslaught Orchestrion Roll	Loot	Moisture-warped Lockbox											
+Savage Aim Materia VII	Loot	Southern Front Lockbox											
+Savage Aim Materia VIII	Loot	Southern Front Lockbox											
+Savage Might Materia VII	Loot	Southern Front Lockbox											
+Savage Might Materia VIII	Loot	Southern Front Lockbox											
+Heavens' Eye Materia VII	Loot	Southern Front Lockbox											
+Heavens' Eye Materia VIII	Loot	Southern Front Lockbox											
+Quickarm Materia VII	Loot	Southern Front Lockbox											
+Quickarm Materia VIII	Loot	Southern Front Lockbox											
+Quicktongue Materia VII	Loot	Southern Front Lockbox											
+Quicktongue Materia VIII	Loot	Southern Front Lockbox											
+Battledance Materia VII	Loot	Southern Front Lockbox											
+Battledance Materia VIII	Loot	Southern Front Lockbox											
+Piety Materia VII	Loot	Southern Front Lockbox											
+Piety Materia VIII	Loot	Southern Front Lockbox											
+Seeing Horde Blade	Loot	Southern Front Lockbox											
+Seeing Horde Shield	Loot	Southern Front Lockbox											
+Seeing Horde Knuckles	Loot	Southern Front Lockbox											
+Seeing Horde Axe	Loot	Southern Front Lockbox											
+Seeing Horde Spear	Loot	Southern Front Lockbox											
+Seeing Horde Bow	Loot	Southern Front Lockbox											
+Seeing Horde Daggers	Loot	Southern Front Lockbox											
+Seeing Horde Guillotine	Loot	Southern Front Lockbox											
+Seeing Horde Handgonne	Loot	Southern Front Lockbox											
+Seeing Horde Cane	Loot	Southern Front Lockbox											
+Seeing Horde Rod	Loot	Southern Front Lockbox											
+Seeing Horde Grimoire	Loot	Southern Front Lockbox											
+Seeing Horde Codex	Loot	Southern Front Lockbox											
+Seeing Horde Star Globe	Loot	Southern Front Lockbox											
+Seeing Horde Katana	Loot	Southern Front Lockbox											
+Seeing Horde Rapier	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Longsword	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Shield	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Claws	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral War Axe	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Lance	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Greatbow	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Daggers	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Greatsword	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Revolver	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Cane	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Rod	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Grimoire	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Codex	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Ephemeris	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Katana	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Rapier	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Gunblade	Loot	Southern Front Lockbox											
+Shinryu's Ephemeral Chakrams	Loot	Southern Front Lockbox											
+Abroader Otter	Loot	Southern Front Lockbox											
+Axolotl Eft	Loot	Southern Front Lockbox											
+Byakko Cub	Loot	Southern Front Lockbox											
+Dainsleif F1	Loot	Southern Front Lockbox											
+Koala Joey	Loot	Southern Front Lockbox											
+Mameshiba	Loot	Southern Front Lockbox											
+Monkey King	Loot	Southern Front Lockbox											
+Mudpie	Loot	Southern Front Lockbox											
+Private Moai	Loot	Southern Front Lockbox											
+Salt & Pepper Seal	Loot	Southern Front Lockbox											
+Scarlet Peacock	Loot	Southern Front Lockbox											
+Seitei	Loot	Southern Front Lockbox											
+Tengu Doll	Loot	Southern Front Lockbox											
+White Whittret	Loot	Southern Front Lockbox											
+Wind-up Ravana	Loot	Southern Front Lockbox											
+Wind-up Shinryu	Loot	Southern Front Lockbox											
+Wind-up Weapon	Loot	Southern Front Lockbox											
+Byakko Barding	Loot	Southern Front Lockbox											
+Lunar Barding	Loot	Southern Front Lockbox											
+Seiryu Barding	Loot	Southern Front Lockbox											
+Shinryu Barding	Loot	Southern Front Lockbox											
+Suzaku Barding	Loot	Southern Front Lockbox											
+Red Brightlily Corsage	Loot	Southern Front Lockbox											
+Blue Brightlily Corsage	Loot	Southern Front Lockbox											
+Yellow Brightlily Corsage	Loot	Southern Front Lockbox											
+Green Brightlily Corsage	Loot	Southern Front Lockbox											
+Orange Brightlily Corsage	Loot	Southern Front Lockbox											
+Purple Brightlily Corsage	Loot	Southern Front Lockbox											
+White Brightlily Corsage	Loot	Southern Front Lockbox											
+Black Brightlily Corsage	Loot	Southern Front Lockbox											
+Rainbow Brightlily Corsage	Loot	Southern Front Lockbox											
+Red Daisy Corsage	Loot	Southern Front Lockbox											
+Blue Daisy Corsage	Loot	Southern Front Lockbox											
+Yellow Daisy Corsage	Loot	Southern Front Lockbox											
+Green Daisy Corsage	Loot	Southern Front Lockbox											
+Orange Daisy Corsage	Loot	Southern Front Lockbox											
+Purple Daisy Corsage	Loot	Southern Front Lockbox											
+White Daisy Corsage	Loot	Southern Front Lockbox											
+Black Daisy Corsage	Loot	Southern Front Lockbox											
+Rainbow Daisy Corsage	Loot	Southern Front Lockbox											
+Red Tulip Corsage	Loot	Southern Front Lockbox											
+Blue Tulip Corsage	Loot	Southern Front Lockbox											
+Yellow Tulip Corsage	Loot	Southern Front Lockbox											
+Green Tulip Corsage	Loot	Southern Front Lockbox											
+Orange Tulip Corsage	Loot	Southern Front Lockbox											
+Purple Tulip Corsage	Loot	Southern Front Lockbox											
+White Tulip Corsage	Loot	Southern Front Lockbox											
+Black Tulip Corsage	Loot	Southern Front Lockbox											
+Rainbow Tulip Corsage	Loot	Southern Front Lockbox											
+Red Viola Corsage	Loot	Southern Front Lockbox											
+Blue Viola Corsage	Loot	Southern Front Lockbox											
+Yellow Viola Corsage	Loot	Southern Front Lockbox											
+Green Viola Corsage	Loot	Southern Front Lockbox											
+Orange Viola Corsage	Loot	Southern Front Lockbox											
+Purple Viola Corsage	Loot	Southern Front Lockbox											
+White Viola Corsage	Loot	Southern Front Lockbox											
+Black Viola Corsage	Loot	Southern Front Lockbox											
+Rainbow Viola Corsage	Loot	Southern Front Lockbox											
+Hannish Wool Autumn Shirt	Loot	Southern Front Lockbox											
+Quaintrelle's Ruffled Dress	Loot	Southern Front Lockbox											
+Quaintrelle's Ruffled Skirt	Loot	Southern Front Lockbox											
+Quaintrelle's Dress Shoes	Loot	Southern Front Lockbox											
+Rain Boots	Loot	Southern Front Lockbox											
+Rain Hood	Loot	Southern Front Lockbox											
+Raincoat	Loot	Southern Front Lockbox											
+Thavnairian Wool Autumn Dress	Loot	Southern Front Lockbox											
+Thavnairian Wool Autumn Shirt	Loot	Southern Front Lockbox											
+Blazing Inferno Wall Lamp	Loot	Southern Front Lockbox											
+Boundless Expanse Fountain	Loot	Southern Front Lockbox											
+Dainsleif SD	Loot	Southern Front Lockbox											
+Deep Hive Ceiling Fan	Loot	Southern Front Lockbox											
+Diamond Chandelier	Loot	Southern Front Lockbox											
+Helldiver SD	Loot	Southern Front Lockbox											
+Lord of Levin Lamp	Loot	Southern Front Lockbox											
+Nidhogg Miniature	Loot	Southern Front Lockbox											
+Sephirot Tree	Loot	Southern Front Lockbox											
+Sophia Miniature	Loot	Southern Front Lockbox											
+Titanic Cragsoul Lamp	Loot	Southern Front Lockbox											
+Zurvan Miniature	Loot	Southern Front Lockbox											
+Classy Checkered Parasol	Loot	Southern Front Lockbox											
+Gabriel α Identification Key	Loot	Southern Front Lockbox											
+Wind on the Plains Orchestrion Roll	Loot	Southern Front Lockbox											
+Genji Shichishito	Loot	Genji Coffer											
+Genji Shield	Loot	Genji Coffer											
+Genji Greataxe	Loot	Genji Coffer											
+Genji Nagamaki	Loot	Genji Coffer											
+Genji Naginata	Loot	Genji Coffer											
+Genji Chakrams	Loot	Genji Coffer											
+Genji Katana	Loot	Genji Coffer											
+Genji Phurpa	Loot	Genji Coffer											
+Genji Greatbow	Loot	Genji Coffer											
+Genji Arquebus	Loot	Genji Coffer											
+Genji Rod	Loot	Genji Coffer											
+Genji Grimoire	Loot	Genji Coffer											
+Genji Rapier	Loot	Genji Coffer											
+Genji Cane	Loot	Genji Coffer											
+Genji Codex	Loot	Genji Coffer											
+Genji Ephemeris	Loot	Genji Coffer											
+Diamond Sword	Loot	Diamond Weapon Coffer											
+Diamond Shield	Loot	Diamond Weapon Coffer											
+Diamond Axe	Loot	Diamond Weapon Coffer											
+Diamond Greatsword	Loot	Diamond Weapon Coffer											
+Diamond Halberd	Loot	Diamond Weapon Coffer											
+Diamond Knuckles	Loot	Diamond Weapon Coffer											
+Diamond Katana	Loot	Diamond Weapon Coffer											
+Diamond Daggers	Loot	Diamond Weapon Coffer											
+Diamond Bow	Loot	Diamond Weapon Coffer											
+Diamond Musketoon	Loot	Diamond Weapon Coffer											
+Diamond Rod	Loot	Diamond Weapon Coffer											
+Diamond Grimoire	Loot	Diamond Weapon Coffer											
+Diamond Tuck	Loot	Diamond Weapon Coffer											
+Diamond Cane	Loot	Diamond Weapon Coffer											
+Diamond Codex	Loot	Diamond Weapon Coffer											
+Diamond Sextant	Loot	Diamond Weapon Coffer											
+Omega Sword	Loot	Omega Weapon Coffer											
+Omega Shield	Loot	Omega Weapon Coffer											
+Omega Battleaxe	Loot	Omega Weapon Coffer											
+Omega Claymore	Loot	Omega Weapon Coffer											
+Omega Bayonet	Loot	Omega Weapon Coffer											
+Omega Trident	Loot	Omega Weapon Coffer											
+Omega Knuckles	Loot	Omega Weapon Coffer											
+Omega Samurai Blade	Loot	Omega Weapon Coffer											
+Omega Sickles	Loot	Omega Weapon Coffer											
+Omega Bow	Loot	Omega Weapon Coffer											
+Omegafire	Loot	Omega Weapon Coffer											
+Omega Chakrams	Loot	Omega Weapon Coffer											
+Omega Rod	Loot	Omega Weapon Coffer											
+Omega Grimoire	Loot	Omega Weapon Coffer											
+Omega Smallsword	Loot	Omega Weapon Coffer											
+Omega Cane	Loot	Omega Weapon Coffer											
+Omega Codex	Loot	Omega Weapon Coffer											
+Omega Torquetum	Loot	Omega Weapon Coffer											
+Edengrace Bastard Sword	Loot	Edengrace Weapon Coffer											
+Edengrace Shield	Loot	Edengrace Weapon Coffer											
+Edengrace Battleaxe	Loot	Edengrace Weapon Coffer											
+Edengrace Greatsword	Loot	Edengrace Weapon Coffer											
+Edengrace Manatrigger	Loot	Edengrace Weapon Coffer											
+Edengrace Spear	Loot	Edengrace Weapon Coffer											
+Edengrace Knuckles	Loot	Edengrace Weapon Coffer											
+Edengrace Blade	Loot	Edengrace Weapon Coffer											
+Edengrace Knives	Loot	Edengrace Weapon Coffer											
+Edengrace Harp Bow	Loot	Edengrace Weapon Coffer											
+Edengrace Revolver	Loot	Edengrace Weapon Coffer											
+Edengrace Tathlums	Loot	Edengrace Weapon Coffer											
+Edengrace Rod	Loot	Edengrace Weapon Coffer											
+Book of Grace	Loot	Edengrace Weapon Coffer											
+Edengrace Rapier	Loot	Edengrace Weapon Coffer											
+Edengrace Cane	Loot	Edengrace Weapon Coffer											
+Word of Grace	Loot	Edengrace Weapon Coffer											
+Edengrace Planisphere	Loot	Edengrace Weapon Coffer											
+Edengrace Armet of Fending	Loot	Edengrace Head Gear Coffer											
+Edengrace Helm of Maiming	Loot	Edengrace Head Gear Coffer											
+Edengrace Temple Chain of Striking	Loot	Edengrace Head Gear Coffer											
+Edengrace Circlet of Scouting	Loot	Edengrace Head Gear Coffer											
+Edengrace Helm of Aiming	Loot	Edengrace Head Gear Coffer											
+Edengrace Circlet of Casting	Loot	Edengrace Head Gear Coffer											
+Edengrace Temple Chain of Healing	Loot	Edengrace Head Gear Coffer											
+Edengrace Mail of Fending	Loot	Edengrace Chest Gear Coffer											
+Edengrace Mail of Maiming	Loot	Edengrace Chest Gear Coffer											
+Edengrace Robe of Striking	Loot	Edengrace Chest Gear Coffer											
+Edengrace Jacket of Scouting	Loot	Edengrace Chest Gear Coffer											
+Edengrace Mail of Aiming	Loot	Edengrace Chest Gear Coffer											
+Edengrace Jacket of Casting	Loot	Edengrace Chest Gear Coffer											
+Edengrace Robe of Healing	Loot	Edengrace Chest Gear Coffer											
+Edengrace Gauntlets of Fending	Loot	Edengrace Hand Gear Coffer											
+Edengrace Gauntlets of Maiming	Loot	Edengrace Hand Gear Coffer											
+Edengrace Armlets of Striking	Loot	Edengrace Hand Gear Coffer											
+Edengrace Halfgloves of Scouting	Loot	Edengrace Hand Gear Coffer											
+Edengrace Gauntlets of Aiming	Loot	Edengrace Hand Gear Coffer											
+Edengrace Halfgloves of Casting	Loot	Edengrace Hand Gear Coffer											
+Edengrace Armlets of Healing	Loot	Edengrace Hand Gear Coffer											
+Edengrace Trousers of Fending	Loot	Edengrace Leg Gear Coffer											
+Edengrace Trousers of Maiming	Loot	Edengrace Leg Gear Coffer											
+Edengrace Pantaloons of Striking	Loot	Edengrace Leg Gear Coffer											
+Edengrace Breeches of Scouting	Loot	Edengrace Leg Gear Coffer											
+Edengrace Trousers of Aiming	Loot	Edengrace Leg Gear Coffer											
+Edengrace Breeches of Casting	Loot	Edengrace Leg Gear Coffer											
+Edengrace Pantaloons of Healing	Loot	Edengrace Leg Gear Coffer											
+Edengrace Greaves of Fending	Loot	Edengrace Foot Gear Coffer											
+Edengrace Greaves of Maiming	Loot	Edengrace Foot Gear Coffer											
+Edengrace Sandals of Striking	Loot	Edengrace Foot Gear Coffer											
+Edengrace Thighboots of Scouting	Loot	Edengrace Foot Gear Coffer											
+Edengrace Greaves of Aiming	Loot	Edengrace Foot Gear Coffer											
+Edengrace Thighboots of Casting	Loot	Edengrace Foot Gear Coffer											
+Edengrace Sandals of Healing	Loot	Edengrace Foot Gear Coffer											
+Edengrace Tassets of Fending	Loot	Edengrace Waist Gear Coffer											
+Edengrace Tassets of Maiming	Loot	Edengrace Waist Gear Coffer											
+Edengrace Tassets of Striking	Loot	Edengrace Waist Gear Coffer											
+Edengrace Tassets of Scouting	Loot	Edengrace Waist Gear Coffer											
+Edengrace Tassets of Aiming	Loot	Edengrace Waist Gear Coffer											
+Edengrace Tassets of Casting	Loot	Edengrace Waist Gear Coffer											
+Edengrace Tassets of Healing	Loot	Edengrace Waist Gear Coffer											
+Edengrace Earring of Fending	Loot	Edengrace Earring Coffer											
+Edengrace Earring of Slaying	Loot	Edengrace Earring Coffer											
+Edengrace Earring of Aiming	Loot	Edengrace Earring Coffer											
+Edengrace Earring of Casting	Loot	Edengrace Earring Coffer											
+Edengrace Earring of Healing	Loot	Edengrace Earring Coffer											
+Edengrace Choker of Fending	Loot	Edengrace Necklace Coffer											
+Edengrace Choker of Slaying	Loot	Edengrace Necklace Coffer											
+Edengrace Choker of Aiming	Loot	Edengrace Necklace Coffer											
+Edengrace Choker of Casting	Loot	Edengrace Necklace Coffer											
+Edengrace Choker of Healing	Loot	Edengrace Necklace Coffer											
+Edengrace Bracelet of Fending	Loot	Edengrace Bracelet Coffer											
+Edengrace Bracelet of Slaying	Loot	Edengrace Bracelet Coffer											
+Edengrace Bracelet of Aiming	Loot	Edengrace Bracelet Coffer											
+Edengrace Bracelet of Casting	Loot	Edengrace Bracelet Coffer											
+Edengrace Bracelet of Healing	Loot	Edengrace Bracelet Coffer											
+Edengrace Ring of Fending	Loot	Edengrace Ring Coffer											
+Edengrace Ring of Slaying	Loot	Edengrace Ring Coffer											
+Edengrace Ring of Aiming	Loot	Edengrace Ring Coffer											
+Edengrace Ring of Casting	Loot	Edengrace Ring Coffer											
+Edengrace Ring of Healing	Loot	Edengrace Ring Coffer											
+Edenchoir Bastard Sword	Loot	Edenchoir Weapon Coffer											
+Edenchoir Scutum	Loot	Edenchoir Weapon Coffer											
+Edenchoir Jamadhars	Loot	Edenchoir Weapon Coffer											
+Edenchoir Battleaxe	Loot	Edenchoir Weapon Coffer											
+Edenchoir Fork	Loot	Edenchoir Weapon Coffer											
+Edenchoir Harp Bow	Loot	Edenchoir Weapon Coffer											
+Edenchoir Daggers	Loot	Edenchoir Weapon Coffer											
+Edenchoir Greatsword	Loot	Edenchoir Weapon Coffer											
+Edenchoir Arquebus	Loot	Edenchoir Weapon Coffer											
+Edenchoir Cane	Loot	Edenchoir Weapon Coffer											
+Edenchoir Rod	Loot	Edenchoir Weapon Coffer											
+Edenchoir Index	Loot	Edenchoir Weapon Coffer											
+Edenchoir Codex	Loot	Edenchoir Weapon Coffer											
+Edenchoir Torquetum	Loot	Edenchoir Weapon Coffer											
+Edenchoir Samurai Blade	Loot	Edenchoir Weapon Coffer											
+Edenchoir Rapier	Loot	Edenchoir Weapon Coffer											
+Edenchoir Gunblade	Loot	Edenchoir Weapon Coffer											
+Edenchoir Chakrams	Loot	Edenchoir Weapon Coffer											
+Edenchoir Helm of Fending	Loot	Edenchoir Head Gear Coffer											
+Edenchoir Helm of Maiming	Loot	Edenchoir Head Gear Coffer											
+Edenchoir Eyepatch of Striking	Loot	Edenchoir Head Gear Coffer											
+Edenchoir Eyepatch of Scouting	Loot	Edenchoir Head Gear Coffer											
+Edenchoir Chapeau of Aiming	Loot	Edenchoir Head Gear Coffer											
+Edenchoir Hat of Casting	Loot	Edenchoir Head Gear Coffer											
+Edenchoir Wings of Healing	Loot	Edenchoir Head Gear Coffer											
+Edenchoir Mail of Fending	Loot	Edenchoir Chest Gear Coffer											
+Edenchoir Mail of Maiming	Loot	Edenchoir Chest Gear Coffer											
+Edenchoir Gambison of Striking	Loot	Edenchoir Chest Gear Coffer											
+Edenchoir Gambison of Scouting	Loot	Edenchoir Chest Gear Coffer											
+Edenchoir Gambison of Aiming	Loot	Edenchoir Chest Gear Coffer											
+Edenchoir Tunic of Casting	Loot	Edenchoir Chest Gear Coffer											
+Edenchoir Tunic of Healing	Loot	Edenchoir Chest Gear Coffer											
+Edenchoir Gauntlets of Fending	Loot	Edenchoir Hand Gear Coffer											
+Edenchoir Gauntlets of Maiming	Loot	Edenchoir Hand Gear Coffer											
+Edenchoir Gauntlets of Striking	Loot	Edenchoir Hand Gear Coffer											
+Edenchoir Gauntlets of Scouting	Loot	Edenchoir Hand Gear Coffer											
+Edenchoir Vambraces of Aiming	Loot	Edenchoir Hand Gear Coffer											
+Edenchoir Armlets of Casting	Loot	Edenchoir Hand Gear Coffer											
+Edenchoir Armlets of Healing	Loot	Edenchoir Hand Gear Coffer											
+Edenchoir Cuisses of Fending	Loot	Edenchoir Leg Gear Coffer											
+Edenchoir Cuisses of Maiming	Loot	Edenchoir Leg Gear Coffer											
+Edenchoir Trousers of Striking	Loot	Edenchoir Leg Gear Coffer											
+Edenchoir Breeches of Scouting	Loot	Edenchoir Leg Gear Coffer											
+Edenchoir Trousers of Aiming	Loot	Edenchoir Leg Gear Coffer											
+Edenchoir Breeches of Casting	Loot	Edenchoir Leg Gear Coffer											
+Edenchoir Breeches of Healing	Loot	Edenchoir Leg Gear Coffer											
+Edenchoir Sollerets of Fending	Loot	Edenchoir Foot Gear Coffer											
+Edenchoir Sollerets of Maiming	Loot	Edenchoir Foot Gear Coffer											
+Edenchoir Sollerets of Striking	Loot	Edenchoir Foot Gear Coffer											
+Edenchoir Sollerets of Scouting	Loot	Edenchoir Foot Gear Coffer											
+Edenchoir Shoes of Aiming	Loot	Edenchoir Foot Gear Coffer											
+Edenchoir Boots of Casting	Loot	Edenchoir Foot Gear Coffer											
+Edenchoir Boots of Healing	Loot	Edenchoir Foot Gear Coffer											
+Edenchoir Tassets of Fending	Loot	Edenchoir Waist Gear Coffer											
+Edenchoir Tassets of Maiming	Loot	Edenchoir Waist Gear Coffer											
+Edenchoir Tassets of Striking	Loot	Edenchoir Waist Gear Coffer											
+Edenchoir Tassets of Scouting	Loot	Edenchoir Waist Gear Coffer											
+Edenchoir Tassets of Aiming	Loot	Edenchoir Waist Gear Coffer											
+Edenchoir Tassets of Casting	Loot	Edenchoir Waist Gear Coffer											
+Edenchoir Tassets of Healing	Loot	Edenchoir Waist Gear Coffer											
+Edenchoir Earrings of Fending	Loot	Edenchoir Earring Coffer											
+Edenchoir Earrings of Slaying	Loot	Edenchoir Earring Coffer											
+Edenchoir Earrings of Aiming	Loot	Edenchoir Earring Coffer											
+Edenchoir Earrings of Casting	Loot	Edenchoir Earring Coffer											
+Edenchoir Earrings of Healing	Loot	Edenchoir Earring Coffer											
+Edenchoir Choker of Fending	Loot	Edenchoir Necklace Coffer											
+Edenchoir Choker of Slaying	Loot	Edenchoir Necklace Coffer											
+Edenchoir Choker of Aiming	Loot	Edenchoir Necklace Coffer											
+Edenchoir Choker of Casting	Loot	Edenchoir Necklace Coffer											
+Edenchoir Choker of Healing	Loot	Edenchoir Necklace Coffer											
+Edenchoir Wristband of Fending	Loot	Edenchoir Bracelet Coffer											
+Edenchoir Wristband of Slaying	Loot	Edenchoir Bracelet Coffer											
+Edenchoir Wristband of Aiming	Loot	Edenchoir Bracelet Coffer											
+Edenchoir Wristband of Casting	Loot	Edenchoir Bracelet Coffer											
+Edenchoir Wristband of Healing	Loot	Edenchoir Bracelet Coffer											
+Edenchoir Ring of Fending	Loot	Edenchoir Ring Coffer											
+Edenchoir Ring of Slaying	Loot	Edenchoir Ring Coffer											
+Edenchoir Ring of Aiming	Loot	Edenchoir Ring Coffer											
+Edenchoir Ring of Casting	Loot	Edenchoir Ring Coffer											
+Edenchoir Ring of Healing	Loot	Edenchoir Ring Coffer											
+Edenmorn Bastard Sword	Loot	Edenmorn Weapon Coffer											
+Edenmorn Scutum	Loot	Edenmorn Weapon Coffer											
+Edenmorn Sainti	Loot	Edenmorn Weapon Coffer											
+Edenmorn Battleaxe	Loot	Edenmorn Weapon Coffer											
+Edenmorn Halberd	Loot	Edenmorn Weapon Coffer											
+Edenmorn Cavalry Bow	Loot	Edenmorn Weapon Coffer											
+Edenmorn Main Gauches	Loot	Edenmorn Weapon Coffer											
+Edenmorn Zweihander	Loot	Edenmorn Weapon Coffer											
+Edenmorn Pistol	Loot	Edenmorn Weapon Coffer											
+Edenmorn Cane	Loot	Edenmorn Weapon Coffer											
+Edenmorn Rod	Loot	Edenmorn Weapon Coffer											
+Edenmorn Index	Loot	Edenmorn Weapon Coffer											
+Edenmorn Codex	Loot	Edenmorn Weapon Coffer											
+Edenmorn Torquetum	Loot	Edenmorn Weapon Coffer											
+Edenmorn Samurai Blade	Loot	Edenmorn Weapon Coffer											
+Edenmorn Rapier	Loot	Edenmorn Weapon Coffer											
+Edenmorn Gunblade	Loot	Edenmorn Weapon Coffer											
+Edenmorn Chakrams	Loot	Edenmorn Weapon Coffer											
+Edenmorn Mask of Fending	Loot	Edenmorn Head Gear Coffer											
+Edenmorn Mask of Maiming	Loot	Edenmorn Head Gear Coffer											
+Edenmorn Eye Mask of Striking	Loot	Edenmorn Head Gear Coffer											
+Edenmorn Eye Mask of Scouting	Loot	Edenmorn Head Gear Coffer											
+Edenmorn Mask of Aiming	Loot	Edenmorn Head Gear Coffer											
+Edenmorn Hat of Casting	Loot	Edenmorn Head Gear Coffer											
+Edenmorn Hat of Healing	Loot	Edenmorn Head Gear Coffer											
+Edenmorn Coat of Fending	Loot	Edenmorn Chest Gear Coffer											
+Edenmorn Coat of Maiming	Loot	Edenmorn Chest Gear Coffer											
+Edenmorn Bolero of Striking	Loot	Edenmorn Chest Gear Coffer											
+Edenmorn Bolero of Scouting	Loot	Edenmorn Chest Gear Coffer											
+Edenmorn Coat of Aiming	Loot	Edenmorn Chest Gear Coffer											
+Edenmorn Gown of Casting	Loot	Edenmorn Chest Gear Coffer											
+Edenmorn Gown of Healing	Loot	Edenmorn Chest Gear Coffer											
+Edenmorn Armguards of Fending	Loot	Edenmorn Hand Gear Coffer											
+Edenmorn Armguards of Maiming	Loot	Edenmorn Hand Gear Coffer											
+Edenmorn Fingerless Gloves of Striking	Loot	Edenmorn Hand Gear Coffer											
+Edenmorn Fingerless Gloves of Scouting	Loot	Edenmorn Hand Gear Coffer											
+Edenmorn Armguards of Aiming	Loot	Edenmorn Hand Gear Coffer											
+Edenmorn Dress Sleeves of Casting	Loot	Edenmorn Hand Gear Coffer											
+Edenmorn Dress Sleeves of Healing	Loot	Edenmorn Hand Gear Coffer											
+Edenmorn Hose of Fending	Loot	Edenmorn Leg Gear Coffer											
+Edenmorn Hose of Maiming	Loot	Edenmorn Leg Gear Coffer											
+Edenmorn Hose of Striking	Loot	Edenmorn Leg Gear Coffer											
+Edenmorn Hose of Scouting	Loot	Edenmorn Leg Gear Coffer											
+Edenmorn Hose of Aiming	Loot	Edenmorn Leg Gear Coffer											
+Edenmorn Chausses of Casting	Loot	Edenmorn Leg Gear Coffer											
+Edenmorn Chausses of Healing	Loot	Edenmorn Leg Gear Coffer											
+Edenmorn Sabatons of Fending	Loot	Edenmorn Foot Gear Coffer											
+Edenmorn Sabatons of Maiming	Loot	Edenmorn Foot Gear Coffer											
+Edenmorn Thighboots of Striking	Loot	Edenmorn Foot Gear Coffer											
+Edenmorn Thighboots of Scouting	Loot	Edenmorn Foot Gear Coffer											
+Edenmorn Sabatons of Aiming	Loot	Edenmorn Foot Gear Coffer											
+Edenmorn Boots of Casting	Loot	Edenmorn Foot Gear Coffer											
+Edenmorn Boots of Healing	Loot	Edenmorn Foot Gear Coffer											
+Edenmorn Leather Belt of Fending	Loot	Edenmorn Waist Gear Coffer											
+Edenmorn Leather Belt of Maiming	Loot	Edenmorn Waist Gear Coffer											
+Edenmorn Leather Belt of Striking	Loot	Edenmorn Waist Gear Coffer											
+Edenmorn Leather Belt of Scouting	Loot	Edenmorn Waist Gear Coffer											
+Edenmorn Leather Belt of Aiming	Loot	Edenmorn Waist Gear Coffer											
+Edenmorn Leather Belt of Casting	Loot	Edenmorn Waist Gear Coffer											
+Edenmorn Leather Belt of Healing	Loot	Edenmorn Waist Gear Coffer											
+Edenmorn Earrings of Fending	Loot	Edenmorn Earring Coffer											
+Edenmorn Earrings of Slaying	Loot	Edenmorn Earring Coffer											
+Edenmorn Earrings of Aiming	Loot	Edenmorn Earring Coffer											
+Edenmorn Earrings of Casting	Loot	Edenmorn Earring Coffer											
+Edenmorn Earrings of Healing	Loot	Edenmorn Earring Coffer											
+Edenmorn Necklace of Fending	Loot	Edenmorn Necklace Coffer											
+Edenmorn Necklace of Slaying	Loot	Edenmorn Necklace Coffer											
+Edenmorn Necklace of Aiming	Loot	Edenmorn Necklace Coffer											
+Edenmorn Necklace of Casting	Loot	Edenmorn Necklace Coffer											
+Edenmorn Necklace of Healing	Loot	Edenmorn Necklace Coffer											
+Edenmorn Wristlet of Fending	Loot	Edenmorn Bracelet Coffer											
+Edenmorn Wristlet of Slaying	Loot	Edenmorn Bracelet Coffer											
+Edenmorn Wristlet of Aiming	Loot	Edenmorn Bracelet Coffer											
+Edenmorn Wristlet of Casting	Loot	Edenmorn Bracelet Coffer											
+Edenmorn Wristlet of Healing	Loot	Edenmorn Bracelet Coffer											
+Edenmorn Ring of Fending	Loot	Edenmorn Ring Coffer											
+Edenmorn Ring of Slaying	Loot	Edenmorn Ring Coffer											
+Edenmorn Ring of Aiming	Loot	Edenmorn Ring Coffer											
+Edenmorn Ring of Casting	Loot	Edenmorn Ring Coffer											
+Edenmorn Ring of Healing	Loot	Edenmorn Ring Coffer											
+Antiquated Galatyn	Loot	Chivalrous Armor Coffer											
+Antiquated Evalach	Loot	Chivalrous Armor Coffer											
+Antiquated Chivalrous Circlet	Loot	Chivalrous Armor Coffer											
+Antiquated Chivalrous Surcoat	Loot	Chivalrous Armor Coffer											
+Antiquated Chivalrous Gauntlets	Loot	Chivalrous Armor Coffer											
+Antiquated Chivalrous Cuisses	Loot	Chivalrous Armor Coffer											
+Antiquated Chivalrous Sollerets	Loot	Chivalrous Armor Coffer											
+Antiquated Sudarshana Chakra	Loot	Pacifist's Attire Coffer											
+Antiquated Pacifist's Circlet	Loot	Pacifist's Attire Coffer											
+Antiquated Pacifist's Vest	Loot	Pacifist's Attire Coffer											
+Antiquated Pacifist's Armguards	Loot	Pacifist's Attire Coffer											
+Antiquated Pacifist's Gaskins	Loot	Pacifist's Attire Coffer											
+Antiquated Pacifist's Boots	Loot	Pacifist's Attire Coffer											
+Antiquated Farsha	Loot	Brutal Armor Coffer											
+Antiquated Brutal Visor	Loot	Brutal Armor Coffer											
+Antiquated Brutal Lorica	Loot	Brutal Armor Coffer											
+Antiquated Brutal Gauntlets	Loot	Brutal Armor Coffer											
+Antiquated Brutal Breeches	Loot	Brutal Armor Coffer											
+Antiquated Brutal Sollerets	Loot	Brutal Armor Coffer											
+Antiquated Failnaught	Loot	Storyteller's Attire Coffer											
+Antiquated Storyteller's Chapeau	Loot	Storyteller's Attire Coffer											
+Antiquated Storyteller's Coat	Loot	Storyteller's Attire Coffer											
+Antiquated Storyteller's Gloves	Loot	Storyteller's Attire Coffer											
+Antiquated Storyteller's Bottoms	Loot	Storyteller's Attire Coffer											
+Antiquated Storyteller's Boots	Loot	Storyteller's Attire Coffer											
+Antiquated Aymur	Loot	Seventh Heaven Attire Coffer											
+Antiquated Seventh Heaven Circlet	Loot	Seventh Heaven Attire Coffer											
+Antiquated Seventh Heaven Top	Loot	Seventh Heaven Attire Coffer											
+Antiquated Seventh Heaven Fingerless Gloves	Loot	Seventh Heaven Attire Coffer											
+Antiquated Seventh Heaven Bottoms	Loot	Seventh Heaven Attire Coffer											
+Antiquated Seventh Heaven Thighboots	Loot	Seventh Heaven Attire Coffer											
+Antiquated Vanargand	Loot	Seventh Hell Attire Coffer											
+Antiquated Seventh Hell Petasos	Loot	Seventh Hell Attire Coffer											
+Antiquated Seventh Hell Coat	Loot	Seventh Hell Attire Coffer											
+Antiquated Seventh Hell Gloves	Loot	Seventh Hell Attire Coffer											
+Antiquated Seventh Hell Breeches	Loot	Seventh Hell Attire Coffer											
+Antiquated Seventh Hell Thighboots	Loot	Seventh Hell Attire Coffer											
+Antiquated Lemegeton	Loot	Channeler's Attire Coffer											
+Antiquated Channeler's Horn	Loot	Channeler's Attire Coffer											
+Antiquated Channeler's Vest	Loot	Channeler's Attire Coffer											
+Antiquated Channeler's Armlets	Loot	Channeler's Attire Coffer											
+Antiquated Channeler's Halfslops	Loot	Channeler's Attire Coffer											
+Antiquated Channeler's Boots	Loot	Channeler's Attire Coffer											
+Antiquated Organum	Loot	Orator's Attire Coffer											
+Antiquated Orator's Mortarboard	Loot	Orator's Attire Coffer											
+Antiquated Orator's Coat	Loot	Orator's Attire Coffer											
+Antiquated Orator's Cuffs	Loot	Orator's Attire Coffer											
+Antiquated Orator's Bottoms	Loot	Orator's Attire Coffer											
+Antiquated Orator's Shoes	Loot	Orator's Attire Coffer											
+Antiquated Nagi	Loot	Kage-kakushi Garb Coffer											
+Antiquated Kage-kakushi Somen	Loot	Kage-kakushi Garb Coffer											
+Antiquated Kage-kakushi Chainmail	Loot	Kage-kakushi Garb Coffer											
+Antiquated Kage-kakushi Tekko	Loot	Kage-kakushi Garb Coffer											
+Antiquated Kage-kakushi Hakama	Loot	Kage-kakushi Garb Coffer											
+Antiquated Kage-kakushi Kyahan	Loot	Kage-kakushi Garb Coffer											
+Antiquated Caladbolg	Loot	Abyss Armor Coffer											
+Antiquated Abyss Burgeonet	Loot	Abyss Armor Coffer											
+Antiquated Abyss Cuirass	Loot	Abyss Armor Coffer											
+Antiquated Abyss Gauntlets	Loot	Abyss Armor Coffer											
+Antiquated Abyss Flanchard	Loot	Abyss Armor Coffer											
+Antiquated Abyss Sollerets	Loot	Abyss Armor Coffer											
+Antiquated Outsider	Loot	Gunner's Armor Coffer											
+Antiquated Gunner's Goggles	Loot	Gunner's Armor Coffer											
+Antiquated Gunner's Coat	Loot	Gunner's Armor Coffer											
+Antiquated Gunner's Gloves	Loot	Gunner's Armor Coffer											
+Antiquated Gunner's Trousers	Loot	Gunner's Armor Coffer											
+Antiquated Gunner's Thighboots	Loot	Gunner's Armor Coffer											
+Antiquated Pleiades	Loot	Constellation Attire Coffer											
+Antiquated Constellation Turban	Loot	Constellation Attire Coffer											
+Antiquated Constellation Top	Loot	Constellation Attire Coffer											
+Antiquated Constellation Armlets	Loot	Constellation Attire Coffer											
+Antiquated Constellation Gaskins	Loot	Constellation Attire Coffer											
+Antiquated Constellation Sandals	Loot	Constellation Attire Coffer											
+Antiquated Kiku-ichimonji	Loot	Myochin Armor Coffer											
+Antiquated Myochin Jingasa	Loot	Myochin Armor Coffer											
+Antiquated Myochin Haori	Loot	Myochin Armor Coffer											
+Antiquated Myochin Tekko	Loot	Myochin Armor Coffer											
+Antiquated Myochin Hakama	Loot	Myochin Armor Coffer											
+Antiquated Myochin Geta	Loot	Myochin Armor Coffer											
+Antiquated Murgleis	Loot	Duelist's Attire Coffer											
+Antiquated Duelist's Chapeau	Loot	Duelist's Attire Coffer											
+Antiquated Duelist's Tabard	Loot	Duelist's Attire Coffer											
+Antiquated Duelist's Gloves	Loot	Duelist's Attire Coffer											
+Antiquated Duelist's Breeches	Loot	Duelist's Attire Coffer											
+Antiquated Duelist's Thighboots	Loot	Duelist's Attire Coffer											
+Antiquated Ryunohige	Loot	Trueblood Attire Coffer											
+Antiquated Trueblood Armet	Loot	Trueblood Attire Coffer											
+Antiquated Trueblood Mail	Loot	Trueblood Attire Coffer											
+Antiquated Trueblood Gauntlets	Loot	Trueblood Attire Coffer											
+Antiquated Trueblood Brais	Loot	Trueblood Attire Coffer											
+Antiquated Trueblood Greaves	Loot	Trueblood Attire Coffer											
+Nameless Hachigane	Loot	Nameless Armor Coffer											
+Nameless Togi	Loot	Nameless Armor Coffer											
+Nameless Tekko	Loot	Nameless Armor Coffer											
+Nameless Hakama	Loot	Nameless Armor Coffer											
+Nameless Kyahan	Loot	Nameless Armor Coffer											
+Red Hat	Loot	Red Attire Coffer											
+Red Bliaud	Loot	Red Attire Coffer											
+Red Gloves	Loot	Red Attire Coffer											
+Red Gaskins	Loot	Red Attire Coffer											
+Red Boots	Loot	Red Attire Coffer											
+True Blue Hat	Loot	True Blue Attire Coffer											
+True Blue Coat	Loot	True Blue Attire Coffer											
+True Blue Gloves	Loot	True Blue Attire Coffer											
+True Blue Trousers	Loot	True Blue Attire Coffer											
+True Blue Boots	Loot	True Blue Attire Coffer											
+Magus's Mask	Loot	Magus's Attire Coffer											
+Magus's Jacket	Loot	Magus's Attire Coffer											
+Magus's Gloves	Loot	Magus's Attire Coffer											
+Magus's Trousers	Loot	Magus's Attire Coffer											
+Magus's Shoes	Loot	Magus's Attire Coffer											
+Mirage Hat	Loot	Mirage Gear Coffer											
+Mirage Coatee	Loot	Mirage Gear Coffer											
+Mirage Gloves	Loot	Mirage Gear Coffer											
+Mirage Bottoms	Loot	Mirage Gear Coffer											
+Mirage Boots	Loot	Mirage Gear Coffer											
+Outsider's Circlet	Loot	Outsider's Attire Coffer											
+Outsider's Jacket	Loot	Outsider's Attire Coffer											
+Outsider's Gloves	Loot	Outsider's Attire Coffer											
+Outsider's Chaps	Loot	Outsider's Attire Coffer											
+Outsider's Boots	Loot	Outsider's Attire Coffer											
+Softstepper's Turban	Loot	Softstepper's Attire Coffer											
+Softstepper's Bolero	Loot	Softstepper's Attire Coffer											
+Softstepper's Gloves	Loot	Softstepper's Attire Coffer											
+Softstepper's Sarouel	Loot	Softstepper's Attire Coffer											
+Softstepper's Babouches	Loot	Softstepper's Attire Coffer											
+Augmented Hellfire Mask of Fending	Loot	Hellfire Armor of Fending Coffer											
+Augmented Hellfire Armor of Fending	Loot	Hellfire Armor of Fending Coffer											
+Augmented Hellfire Gauntlets of Fending	Loot	Hellfire Armor of Fending Coffer											
+Augmented Hellfire Belt of Fending	Loot	Hellfire Armor of Fending Coffer											
+Augmented Hellfire Breeches of Fending	Loot	Hellfire Armor of Fending Coffer											
+Augmented Hellfire Sabatons of Fending	Loot	Hellfire Armor of Fending Coffer											
+Augmented Slipstream Helm of Maiming	Loot	Slipstream Armor of Maiming Coffer											
+Augmented Slipstream Mail of Maiming	Loot	Slipstream Armor of Maiming Coffer											
+Augmented Slipstream Gauntlets of Maiming	Loot	Slipstream Armor of Maiming Coffer											
+Augmented Slipstream Belt of Maiming	Loot	Slipstream Armor of Maiming Coffer											
+Augmented Slipstream Breeches of Maiming	Loot	Slipstream Armor of Maiming Coffer											
+Augmented Slipstream Sabatons of Maiming	Loot	Slipstream Armor of Maiming Coffer											
+Augmented Hellfire Mask of Striking	Loot	Hellfire Armor of Striking Coffer											
+Augmented Hellfire Mail of Striking	Loot	Hellfire Armor of Striking Coffer											
+Augmented Hellfire Gauntlets of Striking	Loot	Hellfire Armor of Striking Coffer											
+Augmented Hellfire Belt of Striking	Loot	Hellfire Armor of Striking Coffer											
+Augmented Hellfire Breeches of Striking	Loot	Hellfire Armor of Striking Coffer											
+Augmented Hellfire Sabatons of Striking	Loot	Hellfire Armor of Striking Coffer											
+Augmented Torrent Mask of Aiming	Loot	Torrent Attire of Aiming Coffer											
+Augmented Torrent Tabard of Aiming	Loot	Torrent Attire of Aiming Coffer											
+Augmented Torrent Armguards of Aiming	Loot	Torrent Attire of Aiming Coffer											
+Augmented Torrent Belt of Aiming	Loot	Torrent Attire of Aiming Coffer											
+Augmented Torrent Tights of Aiming	Loot	Torrent Attire of Aiming Coffer											
+Augmented Torrent Boots of Aiming	Loot	Torrent Attire of Aiming Coffer											
+Augmented Torrent Halfmask of Scouting	Loot	Torrent Attire of Scouting Coffer											
+Augmented Torrent Tabard of Scouting	Loot	Torrent Attire of Scouting Coffer											
+Augmented Torrent Armguards of Scouting	Loot	Torrent Attire of Scouting Coffer											
+Augmented Torrent Belt of Scouting	Loot	Torrent Attire of Scouting Coffer											
+Augmented Torrent Tights of Scouting	Loot	Torrent Attire of Scouting Coffer											
+Augmented Torrent Boots of Scouting	Loot	Torrent Attire of Scouting Coffer											
+Augmented Hailstorm Crown of Casting	Loot	Hailstorm Attire of Casting Coffer											
+Augmented Hailstorm Coat of Casting	Loot	Hailstorm Attire of Casting Coffer											
+Augmented Hailstorm Gloves of Casting	Loot	Hailstorm Attire of Casting Coffer											
+Augmented Hailstorm Belt of Casting	Loot	Hailstorm Attire of Casting Coffer											
+Augmented Hailstorm Bottoms of Casting	Loot	Hailstorm Attire of Casting Coffer											
+Augmented Hailstorm Boots of Casting	Loot	Hailstorm Attire of Casting Coffer											
+Augmented Hailstorm Crown of Healing	Loot	Hailstorm Attire of Healing Coffer											
+Augmented Hailstorm Coat of Healing	Loot	Hailstorm Attire of Healing Coffer											
+Augmented Hailstorm Gloves of Healing	Loot	Hailstorm Attire of Healing Coffer											
+Augmented Hailstorm Belt of Healing	Loot	Hailstorm Attire of Healing Coffer											
+Augmented Hailstorm Bottoms of Healing	Loot	Hailstorm Attire of Healing Coffer											
+Augmented Hailstorm Boots of Healing	Loot	Hailstorm Attire of Healing Coffer											
+Augmented Primal Earrings of Fending	Loot	Primal Accessories of Fending Coffer											
+Augmented Primal Choker of Fending	Loot	Primal Accessories of Fending Coffer											
+Augmented Primal Bracelet of Fending	Loot	Primal Accessories of Fending Coffer											
+Augmented Primal Ring of Fending	Loot	Primal Accessories of Fending Coffer											
+Augmented Primal Earrings of Slaying	Loot	Primal Accessories of Slaying Coffer											
+Augmented Primal Choker of Slaying	Loot	Primal Accessories of Slaying Coffer											
+Augmented Primal Bracelet of Slaying	Loot	Primal Accessories of Slaying Coffer											
+Augmented Primal Ring of Slaying	Loot	Primal Accessories of Slaying Coffer											
+Augmented Primal Earrings of Aiming	Loot	Primal Accessories of Aiming Coffer											
+Augmented Primal Choker of Aiming	Loot	Primal Accessories of Aiming Coffer											
+Augmented Primal Bracelet of Aiming	Loot	Primal Accessories of Aiming Coffer											
+Augmented Primal Ring of Aiming	Loot	Primal Accessories of Aiming Coffer											
+Augmented Primal Earrings of Casting	Loot	Primal Accessories of Casting Coffer											
+Augmented Primal Choker of Casting	Loot	Primal Accessories of Casting Coffer											
+Augmented Primal Bracelet of Casting	Loot	Primal Accessories of Casting Coffer											
+Augmented Primal Ring of Casting	Loot	Primal Accessories of Casting Coffer											
+Augmented Primal Earrings of Healing	Loot	Primal Accessories of Healing Coffer											
+Augmented Primal Choker of Healing	Loot	Primal Accessories of Healing Coffer											
+Augmented Primal Bracelet of Healing	Loot	Primal Accessories of Healing Coffer											
+Augmented Primal Ring of Healing	Loot	Primal Accessories of Healing Coffer											
+Hero's Belt of Fending	Loot	Valor Armor Coffer	Warrior's Armor Coffer	Dark Knight's Armor Coffer									
+Hero's Belt of Maiming	Loot	Wyrm's Armor Coffer											
+Hero's Belt of Striking	Loot	Melee Attire Coffer	Koga Garb Coffer										
+Hero's Belt of Aiming	Loot	Bard's Attire Coffer	Junior Machinist's Armor Coffer										
+Hero's Belt of Casting	Loot	Sorcerer's Attire Coffer	Summoner's Attire Coffer										
+Hero's Belt of Healing	Loot	Cleric's Attire Coffer	Argute Attire Coffer	Astrologian's Attire Coffer									
+Valor Coronet	Loot	Valor Armor Coffer											
+Valor Surcoat	Loot	Valor Armor Coffer											
+Valor Gauntlets	Loot	Valor Armor Coffer											
+Valor Cuisses	Loot	Valor Armor Coffer											
+Valor Sollerets	Loot	Valor Armor Coffer											
+Melee Circlet	Loot	Melee Attire Coffer											
+Melee Cyclas	Loot	Melee Attire Coffer											
+Melee Gloves	Loot	Melee Attire Coffer											
+Melee Gaskins	Loot	Melee Attire Coffer											
+Melee Boots	Loot	Melee Attire Coffer											
+Warrior's Burgeonet	Loot	Warrior's Armor Coffer											
+Warrior's Cuirass	Loot	Warrior's Armor Coffer											
+Warrior's Gauntlets	Loot	Warrior's Armor Coffer											
+Warrior's Breeches	Loot	Warrior's Armor Coffer											
+Warrior's Jackboots	Loot	Warrior's Armor Coffer											
+Wyrm's Armet	Loot	Wyrm's Armor Coffer											
+Wyrm's Mail	Loot	Wyrm's Armor Coffer											
+Wyrm's Gauntlets	Loot	Wyrm's Armor Coffer											
+Wyrm's Breeches	Loot	Wyrm's Armor Coffer											
+Wyrm's Greaves	Loot	Wyrm's Armor Coffer											
+Bard's Chapeau	Loot	Bard's Attire Coffer											
+Bard's Ringbands	Loot	Bard's Attire Coffer											
+Bard's Sandals	Loot	Bard's Attire Coffer											
+Bard's Shirt	Loot	Bard's Attire Coffer											
+Bard's Tights	Loot	Bard's Attire Coffer											
+Koga Hatsuburi	Loot	Koga Garb Coffer											
+Koga Chainmail	Loot	Koga Garb Coffer											
+Koga Hakama	Loot	Koga Garb Coffer											
+Koga Tekko	Loot	Koga Garb Coffer											
+Koga Kyahan	Loot	Koga Garb Coffer											
+Cleric's Circlet	Loot	Cleric's Attire Coffer											
+Cleric's Robe	Loot	Cleric's Attire Coffer											
+Cleric's Gloves	Loot	Cleric's Attire Coffer											
+Cleric's Culottes	Loot	Cleric's Attire Coffer											
+Cleric's Boots	Loot	Cleric's Attire Coffer											
+Sorcerer's Petasos	Loot	Sorcerer's Attire Coffer											
+Sorcerer's Coat	Loot	Sorcerer's Attire Coffer											
+Sorcerer's Gloves	Loot	Sorcerer's Attire Coffer											
+Sorcerer's Tonban	Loot	Sorcerer's Attire Coffer											
+Sorcerer's Crakows	Loot	Sorcerer's Attire Coffer											
+Summoner's Horn	Loot	Summoner's Attire Coffer											
+Summoner's Doublet	Loot	Summoner's Attire Coffer											
+Summoner's Ringbands	Loot	Summoner's Attire Coffer											
+Summoner's Waistclout	Loot	Summoner's Attire Coffer											
+Summoner's Thighboots	Loot	Summoner's Attire Coffer											
+Argute Mortarboard	Loot	Argute Attire Coffer											
+Argute Gown	Loot	Argute Attire Coffer											
+Argute Gloves	Loot	Argute Attire Coffer											
+Argute Culottes	Loot	Argute Attire Coffer											
+Argute Boots	Loot	Argute Attire Coffer											
+Heavy Wolfram Helm	Loot	Dark Knight's Armor Coffer											
+Heavy Wolfram Cuirass	Loot	Dark Knight's Armor Coffer											
+Heavy Wolfram Gauntlets	Loot	Dark Knight's Armor Coffer											
+Heavy Wolfram Cuisses	Loot	Dark Knight's Armor Coffer											
+Heavy Wolfram Sabatons	Loot	Dark Knight's Armor Coffer											
+Cashmere Hat of Aiming	Loot	Junior Machinist's Armor Coffer											
+Saurian Tabard of Aiming	Loot	Junior Machinist's Armor Coffer											
+Saurian Gloves of Aiming	Loot	Junior Machinist's Armor Coffer											
+Cashmere Skirt of Aiming	Loot	Junior Machinist's Armor Coffer											
+Saurian Boots of Aiming	Loot	Junior Machinist's Armor Coffer											
+Gold Spectacles	Loot	Astrologian's Attire Coffer											
+Cashmere Robe of Healing	Loot	Astrologian's Attire Coffer											
+Saurian Gloves of Healing	Loot	Astrologian's Attire Coffer											
+Cashmere Skirt of Healing	Loot	Astrologian's Attire Coffer											
+Saurian Boots of Healing	Loot	Astrologian's Attire Coffer											
+Fabled Belt of Fending	Loot	Creed Armor Coffer	Ravager's Armor Coffer	Chaos Armor Coffer									
+Fabled Belt of Maiming	Loot	Dragonlancer's Armor Coffer											
+Fabled Belt of Striking	Loot	Tantra Armor Coffer											
+Fabled Belt of Scouting	Loot	Iga Garb Coffer											
+Fabled Belt of Aiming	Loot	Aoidos' Attire Coffer	Machinist's Armor Coffer										
+Fabled Belt of Casting	Loot	Goetia Attire Coffer	Caller's Attire Coffer										
+Fabled Belt of Healing	Loot	Orison Attire Coffer	Savant's Attire Coffer	Welkin Attire Coffer									
+Creed Wings	Loot	Creed Armor Coffer											
+Creed Cuirass	Loot	Creed Armor Coffer											
+Creed Gauntlets	Loot	Creed Armor Coffer											
+Creed Cuisses	Loot	Creed Armor Coffer											
+Creed Sabatons	Loot	Creed Armor Coffer											
+Tantra Tantour	Loot	Tantra Armor Coffer											
+Tantra Chestwrap	Loot	Tantra Armor Coffer											
+Tantra Wristwraps	Loot	Tantra Armor Coffer											
+Tantra Galligaskins	Loot	Tantra Armor Coffer											
+Tantra Gaiters	Loot	Tantra Armor Coffer											
+Ravager's Helm	Loot	Ravager's Armor Coffer											
+Ravager's Cuirass	Loot	Ravager's Armor Coffer											
+Ravager's Chains	Loot	Ravager's Armor Coffer											
+Ravager's Breeches	Loot	Ravager's Armor Coffer											
+Ravager's Warboots	Loot	Ravager's Armor Coffer											
+Dragonlancer's Mesail	Loot	Dragonlancer's Armor Coffer											
+Dragonlancer's Plackart	Loot	Dragonlancer's Armor Coffer											
+Dragonlancer's Vambraces	Loot	Dragonlancer's Armor Coffer											
+Dragonlancer's Cuissots	Loot	Dragonlancer's Armor Coffer											
+Dragonlancer's Schynbalds	Loot	Dragonlancer's Armor Coffer											
+Aoidos' Turban	Loot	Aoidos' Attire Coffer											
+Aoidos' Cloak	Loot	Aoidos' Attire Coffer											
+Aoidos' Shoulder Gloves	Loot	Aoidos' Attire Coffer											
+Aoidos' Tights	Loot	Aoidos' Attire Coffer											
+Aoidos' Thighboots	Loot	Aoidos' Attire Coffer											
+Iga Zukin	Loot	Iga Garb Coffer											
+Iga Ningi	Loot	Iga Garb Coffer											
+Iga Tekko	Loot	Iga Garb Coffer											
+Iga Hakama	Loot	Iga Garb Coffer											
+Iga Kyahan	Loot	Iga Garb Coffer											
+Orison Hood	Loot	Orison Attire Coffer											
+Orison Robe	Loot	Orison Attire Coffer											
+Orison Fingerless Gloves	Loot	Orison Attire Coffer											
+Orison Skirt	Loot	Orison Attire Coffer											
+Orison Thighboots	Loot	Orison Attire Coffer											
+Goetia Tricorne	Loot	Goetia Attire Coffer											
+Goetia Coat	Loot	Goetia Attire Coffer											
+Goetia Gloves	Loot	Goetia Attire Coffer											
+Goetia Chausses	Loot	Goetia Attire Coffer											
+Goetia Thighboots	Loot	Goetia Attire Coffer											
+Caller's Horn	Loot	Caller's Attire Coffer											
+Caller's Himation	Loot	Caller's Attire Coffer											
+Caller's Armlets	Loot	Caller's Attire Coffer											
+Caller's Loincloth	Loot	Caller's Attire Coffer											
+Caller's Sandals	Loot	Caller's Attire Coffer											
+Savant's Top Hat	Loot	Savant's Attire Coffer											
+Savant's Overcoat	Loot	Savant's Attire Coffer											
+Savant's Aethercell Gloves	Loot	Savant's Attire Coffer											
+Savant's Culottes	Loot	Savant's Attire Coffer											
+Savant's Boots	Loot	Savant's Attire Coffer											
+Chaos Burgeonet	Loot	Chaos Armor Coffer											
+Chaos Cuirass	Loot	Chaos Armor Coffer											
+Chaos Gauntlets	Loot	Chaos Armor Coffer											
+Chaos Flanchard	Loot	Chaos Armor Coffer											
+Chaos Sollerets	Loot	Chaos Armor Coffer											
+Machinist's Goggles	Loot	Machinist's Armor Coffer											
+Machinist's Shirt	Loot	Machinist's Armor Coffer											
+Machinist's Gloves	Loot	Machinist's Armor Coffer											
+Machinist's Brais	Loot	Machinist's Armor Coffer											
+Machinist's Boots	Loot	Machinist's Armor Coffer											
+Welkin Hat	Loot	Welkin Attire Coffer											
+Welkin Robe	Loot	Welkin Attire Coffer											
+Welkin Half Sleeves	Loot	Welkin Attire Coffer											
+Welkin Breeches	Loot	Welkin Attire Coffer											
+Welkin Shoes	Loot	Welkin Attire Coffer											
+Augmented Shire Custodian's Earrings	Loot	Shire Custodian's Accessories Coffer											
+Augmented Shire Custodian's Choker	Loot	Shire Custodian's Accessories Coffer											
+Augmented Shire Custodian's Bracelet	Loot	Shire Custodian's Accessories Coffer											
+Augmented Shire Custodian's Ring	Loot	Shire Custodian's Accessories Coffer											
+Filibuster's Ring of Fending	Loot	Shire Custodian's Accessories Coffer											
+Augmented Shire Pankratiast's Earring	Loot	Shire Pankratiast's Accessories Coffer											
+Augmented Shire Pankratiast's Choker	Loot	Shire Pankratiast's Accessories Coffer											
+Augmented Shire Pankratiast's Bracelets	Loot	Shire Pankratiast's Accessories Coffer											
+Augmented Shire Pankratiast's Ring	Loot	Shire Pankratiast's Accessories Coffer											
+Filibuster's Ring of Slaying	Loot	Shire Pankratiast's Accessories Coffer											
+Augmented Shire Conservator's Earrings	Loot	Shire Conservator's Accessories Coffer											
+Augmented Shire Conservator's Choker	Loot	Shire Conservator's Accessories Coffer											
+Augmented Shire Conservator's Bracelet	Loot	Shire Conservator's Accessories Coffer											
+Augmented Shire Conservator's Ring	Loot	Shire Conservator's Accessories Coffer											
+Filibuster's Ring of Aiming	Loot	Shire Conservator's Accessories Coffer											
+Augmented Shire Philosopher's Earring	Loot	Shire Philosopher's Accessories Coffer											
+Augmented Shire Philosopher's Choker	Loot	Shire Philosopher's Accessories Coffer											
+Augmented Shire Philosopher's Bracelets	Loot	Shire Philosopher's Accessories Coffer											
+Augmented Shire Philosopher's Ring	Loot	Shire Philosopher's Accessories Coffer											
+Filibuster's Ring of Casting	Loot	Shire Philosopher's Accessories Coffer											
+Augmented Shire Preceptor's Earrings	Loot	Shire Preceptor's Accessories Coffer											
+Augmented Shire Preceptor's Choker	Loot	Shire Preceptor's Accessories Coffer											
+Augmented Shire Preceptor's Bracelets	Loot	Shire Preceptor's Accessories Coffer											
+Augmented Shire Preceptor's Ring	Loot	Shire Preceptor's Accessories Coffer											
+Filibuster's Ring of Healing	Loot	Shire Preceptor's Accessories Coffer											
+Deepgold Anelace	Loot	White Oak Weapon Coffer											
+Deepgold Kite Shield	Loot	White Oak Weapon Coffer											
+Deepgold Battleaxe	Loot	White Oak Weapon Coffer											
+Deepgold Claymore	Loot	White Oak Weapon Coffer											
+Deepgold Gunblade	Loot	White Oak Weapon Coffer											
+White Oak Partisan	Loot	White Oak Weapon Coffer											
+Deepgold Katars	Loot	White Oak Weapon Coffer											
+Deepgold Blade	Loot	White Oak Weapon Coffer											
+Deepgold Cinquedeas	Loot	White Oak Weapon Coffer											
+White Oak Composite Bow	Loot	White Oak Weapon Coffer											
+Deepgold Revolver	Loot	White Oak Weapon Coffer											
+Deepgold War Quoits	Loot	White Oak Weapon Coffer											
+White Oak Rod	Loot	White Oak Weapon Coffer											
+Smilodonskin Grimoire	Loot	White Oak Weapon Coffer											
+Stonegold Degen	Loot	White Oak Weapon Coffer											
+White Oak Cane	Loot	White Oak Weapon Coffer											
+Smilodonskin Codex	Loot	White Oak Weapon Coffer											
+Stonegold Astrometer	Loot	White Oak Weapon Coffer											
+Deepgold Helm of Fending	Loot	White Oak Head Gear Coffer											
+Stonegold Circlet of Maiming	Loot	White Oak Head Gear Coffer											
+Brightlinen Hood of Striking	Loot	White Oak Head Gear Coffer											
+Deepgold Mask of Scouting	Loot	White Oak Head Gear Coffer											
+Brightlinen Hood of Aiming	Loot	White Oak Head Gear Coffer											
+Brightlinen Cap of Casting	Loot	White Oak Head Gear Coffer											
+Brightlinen Cap of Healing	Loot	White Oak Head Gear Coffer											
+Deepgold Cuirass of Fending	Loot	White Oak Chest Gear Coffer											
+Brightlinen Tabard of Maiming	Loot	White Oak Chest Gear Coffer											
+Brightlinen Himation of Striking	Loot	White Oak Chest Gear Coffer											
+Brightlinen Gambison of Scouting	Loot	White Oak Chest Gear Coffer											
+Brightlinen Himation of Aiming	Loot	White Oak Chest Gear Coffer											
+Brightlinen Cyclas of Casting	Loot	White Oak Chest Gear Coffer											
+Brightlinen Cyclas of Healing	Loot	White Oak Chest Gear Coffer											
+Deepgold Gauntlets of Fending	Loot	White Oak Hand Gear Coffer											
+Smilodonskin Gloves of Maiming	Loot	White Oak Hand Gear Coffer											
+Brightlinen Long Gloves of Striking	Loot	White Oak Hand Gear Coffer											
+Smilodonskin Gloves of Scouting	Loot	White Oak Hand Gear Coffer											
+Brightlinen Long Gloves of Aiming	Loot	White Oak Hand Gear Coffer											
+Smilodonskin Armguards of Casting	Loot	White Oak Hand Gear Coffer											
+Smilodonskin Armguards of Healing	Loot	White Oak Hand Gear Coffer											
+Smilodonskin Trousers of Fending	Loot	White Oak Leg Gear Coffer											
+Smilodonskin Trousers of Maiming	Loot	White Oak Leg Gear Coffer											
+Brightlinen Bottoms of Striking	Loot	White Oak Leg Gear Coffer											
+Brightlinen Hose of Scouting	Loot	White Oak Leg Gear Coffer											
+Brightlinen Bottoms of Aiming	Loot	White Oak Leg Gear Coffer											
+Brightlinen Hose of Casting	Loot	White Oak Leg Gear Coffer											
+Brightlinen Hose of Healing	Loot	White Oak Leg Gear Coffer											
+Deepgold Sollerets of Fending	Loot	White Oak Foot Gear Coffer											
+Smilodonskin Leggings of Maiming	Loot	White Oak Foot Gear Coffer											
+Smilodonskin Open-toed Boots of Striking	Loot	White Oak Foot Gear Coffer											
+Smilodonskin Boots of Scouting	Loot	White Oak Foot Gear Coffer											
+Smilodonskin Open-toed Boots of Aiming	Loot	White Oak Foot Gear Coffer											
+Smilodonskin Boots of Casting	Loot	White Oak Foot Gear Coffer											
+Smilodonskin Boots of Healing	Loot	White Oak Foot Gear Coffer											
+Deepgold Plate Belt of Fending	Loot	White Oak Waist Gear Coffer											
+Deepgold Plate Belt of Maiming	Loot	White Oak Waist Gear Coffer											
+Deepgold Plate Belt of Striking	Loot	White Oak Waist Gear Coffer											
+Deepgold Plate Belt of Scouting	Loot	White Oak Waist Gear Coffer											
+Deepgold Plate Belt of Aiming	Loot	White Oak Waist Gear Coffer											
+Deepgold Plate Belt of Casting	Loot	White Oak Waist Gear Coffer											
+Deepgold Plate Belt of Healing	Loot	White Oak Waist Gear Coffer											
+Hematite Earrings of Fending	Loot	White Oak Earring Coffer											
+Hematite Earrings of Slaying	Loot	White Oak Earring Coffer											
+Hematite Earrings of Aiming	Loot	White Oak Earring Coffer											
+Hematite Earrings of Casting	Loot	White Oak Earring Coffer											
+Hematite Earrings of Healing	Loot	White Oak Earring Coffer											
+Hematite Choker of Fending	Loot	White Oak Necklace Coffer											
+Hematite Choker of Slaying	Loot	White Oak Necklace Coffer											
+Hematite Choker of Aiming	Loot	White Oak Necklace Coffer											
+Hematite Choker of Casting	Loot	White Oak Necklace Coffer											
+Hematite Choker of Healing	Loot	White Oak Necklace Coffer											
+Islewolf Bracelet of Fending	Loot	White Oak Bracelet Coffer											
+Islewolf Bracelet of Slaying	Loot	White Oak Bracelet Coffer											
+Islewolf Bracelet of Aiming	Loot	White Oak Bracelet Coffer											
+Islewolf Bracelet of Casting	Loot	White Oak Bracelet Coffer											
+Islewolf Bracelet of Healing	Loot	White Oak Bracelet Coffer											
+Islewolf Ring of Fending	Loot	White Oak Ring Coffer											
+Islewolf Ring of Slaying	Loot	White Oak Ring Coffer											
+Islewolf Ring of Aiming	Loot	White Oak Ring Coffer											
+Islewolf Ring of Casting	Loot	White Oak Ring Coffer											
+Islewolf Ring of Healing	Loot	White Oak Ring Coffer											
+Deepgold Sword	Loot	Deepgold Weapon Coffer											
+Deepgold Shield	Loot	Deepgold Weapon Coffer											
+Deepgold Axe	Loot	Deepgold Weapon Coffer											
+Deepgold Greatsword	Loot	Deepgold Weapon Coffer											
+Deepgold Bayonet	Loot	Deepgold Weapon Coffer											
+Applewood Spear	Loot	Deepgold Weapon Coffer											
+Deepgold Knuckles	Loot	Deepgold Weapon Coffer											
+Deepgold Uchigatana	Loot	Deepgold Weapon Coffer											
+Deepgold Daggers	Loot	Deepgold Weapon Coffer											
+Applewood Longbow	Loot	Deepgold Weapon Coffer											
+Deepgold Arquebus	Loot	Deepgold Weapon Coffer											
+Deepgold Chakrams	Loot	Deepgold Weapon Coffer											
+Applewood Staff	Loot	Deepgold Weapon Coffer											
+Gliderskin Grimoire	Loot	Deepgold Weapon Coffer											
+Stonegold Rapier	Loot	Deepgold Weapon Coffer											
+Applewood Cane	Loot	Deepgold Weapon Coffer											
+Gliderskin Codex	Loot	Deepgold Weapon Coffer											
+Stonegold Orrery	Loot	Deepgold Weapon Coffer											
+Deepgold Wings of Fending	Loot	Deepgold Head Gear Coffer											
+Iridescent Hood of Maiming	Loot	Deepgold Head Gear Coffer											
+Iridescent Hat of Striking	Loot	Deepgold Head Gear Coffer											
+Iridescent Hat of Scouting	Loot	Deepgold Head Gear Coffer											
+Iridescent Hat of Aiming	Loot	Deepgold Head Gear Coffer											
+Iridescent Hat of Casting	Loot	Deepgold Head Gear Coffer											
+Iridescent Hat of Healing	Loot	Deepgold Head Gear Coffer											
+Deepgold Mail of Fending	Loot	Deepgold Chest Gear Coffer											
+Deepgold Surcoat of Maiming	Loot	Deepgold Chest Gear Coffer											
+Iridescent Acton of Striking	Loot	Deepgold Chest Gear Coffer											
+Iridescent Acton of Scouting	Loot	Deepgold Chest Gear Coffer											
+Iridescent Acton of Aiming	Loot	Deepgold Chest Gear Coffer											
+Iridescent Top of Casting	Loot	Deepgold Chest Gear Coffer											
+Iridescent Top of Healing	Loot	Deepgold Chest Gear Coffer											
+Deepgold Gloves of Fending	Loot	Deepgold Hand Gear Coffer											
+Deepgold Gauntlets of Maiming	Loot	Deepgold Hand Gear Coffer											
+Gliderskin Gloves of Striking	Loot	Deepgold Hand Gear Coffer											
+Gliderskin Gloves of Scouting	Loot	Deepgold Hand Gear Coffer											
+Gliderskin Gloves of Aiming	Loot	Deepgold Hand Gear Coffer											
+Gliderskin Gloves of Casting	Loot	Deepgold Hand Gear Coffer											
+Gliderskin Gloves of Healing	Loot	Deepgold Hand Gear Coffer											
+Gliderskin Breeches of Fending	Loot	Deepgold Leg Gear Coffer											
+Gliderskin Breeches of Maiming	Loot	Deepgold Leg Gear Coffer											
+Iridescent Bottoms of Striking	Loot	Deepgold Leg Gear Coffer											
+Iridescent Bottoms of Scouting	Loot	Deepgold Leg Gear Coffer											
+Iridescent Bottoms of Aiming	Loot	Deepgold Leg Gear Coffer											
+Iridescent Bottoms of Casting	Loot	Deepgold Leg Gear Coffer											
+Iridescent Bottoms of Healing	Loot	Deepgold Leg Gear Coffer											
+Gliderskin Thighboots of Fending	Loot	Deepgold Foot Gear Coffer											
+Deepgold Sollerets of Maiming	Loot	Deepgold Foot Gear Coffer											
+Gliderskin Thighboots of Striking	Loot	Deepgold Foot Gear Coffer											
+Gliderskin Thighboots of Scouting	Loot	Deepgold Foot Gear Coffer											
+Gliderskin Boots of Aiming	Loot	Deepgold Foot Gear Coffer											
+Gliderskin Boots of Casting	Loot	Deepgold Foot Gear Coffer											
+Gliderskin Boots of Healing	Loot	Deepgold Foot Gear Coffer											
+Deepgold Tassets of Fending	Loot	Deepgold Waist Gear Coffer											
+Deepgold Tassets of Maiming	Loot	Deepgold Waist Gear Coffer											
+Deepgold Tassets of Striking	Loot	Deepgold Waist Gear Coffer											
+Deepgold Tassets of Scouting	Loot	Deepgold Waist Gear Coffer											
+Deepgold Tassets of Aiming	Loot	Deepgold Waist Gear Coffer											
+Deepgold Tassets of Casting	Loot	Deepgold Waist Gear Coffer											
+Deepgold Tassets of Healing	Loot	Deepgold Waist Gear Coffer											
+Diaspore Earrings of Fending	Loot	Deepgold Earring Coffer											
+Diaspore Earrings of Slaying	Loot	Deepgold Earring Coffer											
+Diaspore Earrings of Aiming	Loot	Deepgold Earring Coffer											
+Diaspore Earrings of Casting	Loot	Deepgold Earring Coffer											
+Diaspore Earrings of Healing	Loot	Deepgold Earring Coffer											
+Diaspore Choker of Fending	Loot	Deepgold Necklace Coffer											
+Diaspore Choker of Slaying	Loot	Deepgold Necklace Coffer											
+Diaspore Choker of Aiming	Loot	Deepgold Necklace Coffer											
+Diaspore Choker of Casting	Loot	Deepgold Necklace Coffer											
+Diaspore Choker of Healing	Loot	Deepgold Necklace Coffer											
+Diaspore Bracelet of Fending	Loot	Deepgold Bracelet Coffer											
+Diaspore Bracelet of Slaying	Loot	Deepgold Bracelet Coffer											
+Diaspore Bracelet of Aiming	Loot	Deepgold Bracelet Coffer											
+Diaspore Bracelet of Casting	Loot	Deepgold Bracelet Coffer											
+Diaspore Bracelet of Healing	Loot	Deepgold Bracelet Coffer											
+Diaspore Ring of Fending	Loot	Deepgold Ring Coffer											
+Diaspore Ring of Slaying	Loot	Deepgold Ring Coffer											
+Diaspore Ring of Aiming	Loot	Deepgold Ring Coffer											
+Diaspore Ring of Casting	Loot	Deepgold Ring Coffer											
+Diaspore Ring of Healing	Loot	Deepgold Ring Coffer											
+Bluespirit Sword	Loot	Bluespirit Weapon Coffer											
+Bluespirit Tower Shield	Loot	Bluespirit Weapon Coffer											
+Bluespirit Axe	Loot	Bluespirit Weapon Coffer											
+Bluespirit Guillotine	Loot	Bluespirit Weapon Coffer											
+Bluespirit Gunblade	Loot	Bluespirit Weapon Coffer											
+Bluespirit Spear	Loot	Bluespirit Weapon Coffer											
+Bluespirit Baghnakhs	Loot	Bluespirit Weapon Coffer											
+Bluespirit Uchigatana	Loot	Bluespirit Weapon Coffer											
+Bluespirit Daggers	Loot	Bluespirit Weapon Coffer											
+Bluespirit Longbow	Loot	Bluespirit Weapon Coffer											
+Bluespirit Handgonne	Loot	Bluespirit Weapon Coffer											
+Bluespirit Glaives	Loot	Bluespirit Weapon Coffer											
+Bluespirit Rod	Loot	Bluespirit Weapon Coffer											
+Bluespirit Grimoire	Loot	Bluespirit Weapon Coffer											
+Bluespirit Rapier	Loot	Bluespirit Weapon Coffer											
+Bluespirit Cane	Loot	Bluespirit Weapon Coffer											
+Bluespirit Codex	Loot	Bluespirit Weapon Coffer											
+Bluespirit Star Globe	Loot	Bluespirit Weapon Coffer											
+Bluespirit Helm of Fending	Loot	Bluespirit Head Gear Coffer											
+Bluespirit Helm of Maiming	Loot	Bluespirit Head Gear Coffer											
+Pixie Cotton Hat of Striking	Loot	Bluespirit Head Gear Coffer											
+Atrociraptorskin Headgear of Scouting	Loot	Bluespirit Head Gear Coffer											
+Atrociraptorskin Headgear of Aiming	Loot	Bluespirit Head Gear Coffer											
+Bluespirit Headgear of Casting	Loot	Bluespirit Head Gear Coffer											
+Pixie Cotton Hood of Healing	Loot	Bluespirit Head Gear Coffer											
+Bluespirit Cuirass of Fending	Loot	Bluespirit Chest Gear Coffer											
+Bluespirit Cuirass of Maiming	Loot	Bluespirit Chest Gear Coffer											
+Pixie Cotton Acton of Striking	Loot	Bluespirit Chest Gear Coffer											
+Atrociraptorskin Corselet of Scouting	Loot	Bluespirit Chest Gear Coffer											
+Atrociraptorskin Corselet of Aiming	Loot	Bluespirit Chest Gear Coffer											
+Atrociraptorskin Coat of Casting	Loot	Bluespirit Chest Gear Coffer											
+Pixie Cotton Robe of Healing	Loot	Bluespirit Chest Gear Coffer											
+Bluespirit Gauntlets of Fending	Loot	Bluespirit Hand Gear Coffer											
+Bluespirit Gauntlets of Maiming	Loot	Bluespirit Hand Gear Coffer											
+Pixie Cotton Sleeves of Striking	Loot	Bluespirit Hand Gear Coffer											
+Atrociraptorskin Armguard of Scouting	Loot	Bluespirit Hand Gear Coffer											
+Atrociraptorskin Armguard of Aiming	Loot	Bluespirit Hand Gear Coffer											
+Atrociraptorskin Bracers of Casting	Loot	Bluespirit Hand Gear Coffer											
+Atrociraptorskin Armguards of Healing	Loot	Bluespirit Hand Gear Coffer											
+Atrociraptorskin Breeches of Fending	Loot	Bluespirit Leg Gear Coffer											
+Atrociraptorskin Breeches of Maiming	Loot	Bluespirit Leg Gear Coffer											
+Pixie Cotton Culottes of Striking	Loot	Bluespirit Leg Gear Coffer											
+Pixie Cotton Brais of Scouting	Loot	Bluespirit Leg Gear Coffer											
+Pixie Cotton Brais of Aiming	Loot	Bluespirit Leg Gear Coffer											
+Pixie Cotton Slops of Casting	Loot	Bluespirit Leg Gear Coffer											
+Pixie Cotton Slops of Healing	Loot	Bluespirit Leg Gear Coffer											
+Bluespirit Sabatons of Fending	Loot	Bluespirit Foot Gear Coffer											
+Bluespirit Sabatons of Maiming	Loot	Bluespirit Foot Gear Coffer											
+Atrociraptorskin Thighboots of Striking	Loot	Bluespirit Foot Gear Coffer											
+Atrociraptorskin Leg Guards of Scouting	Loot	Bluespirit Foot Gear Coffer											
+Atrociraptorskin Leg Guards of Aiming	Loot	Bluespirit Foot Gear Coffer											
+Bluespirit Greaves of Casting	Loot	Bluespirit Foot Gear Coffer											
+Atrociraptorskin Boots of Healing	Loot	Bluespirit Foot Gear Coffer											
+Bluespirit Plate Belt of Fending	Loot	Bluespirit Waist Gear Coffer											
+Bluespirit Plate Belt of Maiming	Loot	Bluespirit Waist Gear Coffer											
+Bluespirit Plate Belt of Striking	Loot	Bluespirit Waist Gear Coffer											
+Bluespirit Plate Belt of Scouting	Loot	Bluespirit Waist Gear Coffer											
+Bluespirit Plate Belt of Aiming	Loot	Bluespirit Waist Gear Coffer											
+Bluespirit Plate Belt of Casting	Loot	Bluespirit Waist Gear Coffer											
+Bluespirit Plate Belt of Healing	Loot	Bluespirit Waist Gear Coffer											
+White Ash Earring of Fending	Loot	Bluespirit Earring Coffer											
+White Ash Earring of Slaying	Loot	Bluespirit Earring Coffer											
+White Ash Earring of Aiming	Loot	Bluespirit Earring Coffer											
+White Ash Earring of Casting	Loot	Bluespirit Earring Coffer											
+White Ash Earring of Healing	Loot	Bluespirit Earring Coffer											
+Atrociraptorskin Necklace of Fending	Loot	Bluespirit Necklace Coffer											
+Atrociraptorskin Necklace of Slaying	Loot	Bluespirit Necklace Coffer											
+Atrociraptorskin Necklace of Aiming	Loot	Bluespirit Necklace Coffer											
+Atrociraptorskin Necklace of Casting	Loot	Bluespirit Necklace Coffer											
+Atrociraptorskin Necklace of Healing	Loot	Bluespirit Necklace Coffer											
+Atrociraptorskin Amulet of Fending	Loot	Bluespirit Bracelet Coffer											
+Atrociraptorskin Amulet of Slaying	Loot	Bluespirit Bracelet Coffer											
+Atrociraptorskin Amulet of Aiming	Loot	Bluespirit Bracelet Coffer											
+Atrociraptorskin Amulet of Casting	Loot	Bluespirit Bracelet Coffer											
+Atrociraptorskin Amulet of Healing	Loot	Bluespirit Bracelet Coffer											
+Lazurite Ring of Fending	Loot	Bluespirit Ring Coffer											
+Lazurite Ring of Slaying	Loot	Bluespirit Ring Coffer											
+Lazurite Ring of Aiming	Loot	Bluespirit Ring Coffer											
+Lazurite Ring of Casting	Loot	Bluespirit Ring Coffer											
+Lazurite Ring of Healing	Loot	Bluespirit Ring Coffer											
+Titanbronze Kilij	Loot	Titanbronze Weapon Coffer											
+Titanbronze Tower Shield	Loot	Titanbronze Weapon Coffer											
+Titanbronze Battleaxe	Loot	Titanbronze Weapon Coffer											
+Titanbronze Guillotine	Loot	Titanbronze Weapon Coffer											
+Titanbronze Bayonet	Loot	Titanbronze Weapon Coffer											
+Sandteak Fauchard	Loot	Titanbronze Weapon Coffer											
+Titanbronze Fists	Loot	Titanbronze Weapon Coffer											
+Titanbronze Uchigatana	Loot	Titanbronze Weapon Coffer											
+Titanbronze Daggers	Loot	Titanbronze Weapon Coffer											
+Sandteak Longbow	Loot	Titanbronze Weapon Coffer											
+Titanbronze Musketoon	Loot	Titanbronze Weapon Coffer											
+Titanbronze Chakrams	Loot	Titanbronze Weapon Coffer											
+Sandteak Rod	Loot	Titanbronze Weapon Coffer											
+Zonureskin Grimoire	Loot	Titanbronze Weapon Coffer											
+Titanbronze Rapier	Loot	Titanbronze Weapon Coffer											
+Sandteak Cane	Loot	Titanbronze Weapon Coffer											
+Zonureskin Codex	Loot	Titanbronze Weapon Coffer											
+Titanbronze Star Globe	Loot	Titanbronze Weapon Coffer											
+Titanbronze Headgear of Fending	Loot	Titanbronze Head Gear Coffer											
+Titanbronze Headgear of Maiming	Loot	Titanbronze Head Gear Coffer											
+Ovim Wool Ushanka of Striking	Loot	Titanbronze Head Gear Coffer											
+Titanbronze Headband of Scouting	Loot	Titanbronze Head Gear Coffer											
+Ovim Wool Ushanka of Aiming	Loot	Titanbronze Head Gear Coffer											
+Ovim Wool Muffed Met of Casting	Loot	Titanbronze Head Gear Coffer											
+Ovim Wool Muffed Met of Healing	Loot	Titanbronze Head Gear Coffer											
+Zonureskin Coat of Fending	Loot	Titanbronze Chest Gear Coffer											
+Zonureskin Coat of Maiming	Loot	Titanbronze Chest Gear Coffer											
+Ovim Wool Coat of Striking	Loot	Titanbronze Chest Gear Coffer											
+Ovim Wool Jacket of Scouting	Loot	Titanbronze Chest Gear Coffer											
+Ovim Wool Tunic of Aiming	Loot	Titanbronze Chest Gear Coffer											
+Ovim Wool Tunic of Casting	Loot	Titanbronze Chest Gear Coffer											
+Ovim Wool Coat of Healing	Loot	Titanbronze Chest Gear Coffer											
+Zonureskin Fingerless Gloves of Fending	Loot	Titanbronze Hand Gear Coffer											
+Zonureskin Fingerless Gloves of Maiming	Loot	Titanbronze Hand Gear Coffer											
+Zonureskin Fingerless Gloves of Striking	Loot	Titanbronze Hand Gear Coffer											
+Zonureskin Fingerless Gloves of Scouting	Loot	Titanbronze Hand Gear Coffer											
+Zonureskin Fingerless Gloves of Aiming	Loot	Titanbronze Hand Gear Coffer											
+Zonureskin Fingerless Gloves of Casting	Loot	Titanbronze Hand Gear Coffer											
+Zonureskin Fingerless Gloves of Healing	Loot	Titanbronze Hand Gear Coffer											
+Ovim Wool Bottoms of Fending	Loot	Titanbronze Leg Gear Coffer											
+Ovim Wool Bottoms of Maiming	Loot	Titanbronze Leg Gear Coffer											
+Ovim Wool Skirt of Striking	Loot	Titanbronze Leg Gear Coffer											
+Ovim Wool Bottoms of Scouting	Loot	Titanbronze Leg Gear Coffer											
+Ovim Wool Bottoms of Aiming	Loot	Titanbronze Leg Gear Coffer											
+Ovim Wool Bottoms of Casting	Loot	Titanbronze Leg Gear Coffer											
+Ovim Wool Skirt of Healing	Loot	Titanbronze Leg Gear Coffer											
+Zonureskin Caligae of Fending	Loot	Titanbronze Foot Gear Coffer											
+Zonureskin Caligae of Maiming	Loot	Titanbronze Foot Gear Coffer											
+Zonureskin Caligae of Striking	Loot	Titanbronze Foot Gear Coffer											
+Zonureskin Caligae of Scouting	Loot	Titanbronze Foot Gear Coffer											
+Zonureskin Sandals of Aiming	Loot	Titanbronze Foot Gear Coffer											
+Zonureskin Sandals of Casting	Loot	Titanbronze Foot Gear Coffer											
+Zonureskin Caligae of Healing	Loot	Titanbronze Foot Gear Coffer											
+Titanbronze Tassets of Fending	Loot	Titanbronze Waist Gear Coffer											
+Titanbronze Tassets of Maiming	Loot	Titanbronze Waist Gear Coffer											
+Titanbronze Tassets of Striking	Loot	Titanbronze Waist Gear Coffer											
+Titanbronze Tassets of Scouting	Loot	Titanbronze Waist Gear Coffer											
+Titanbronze Tassets of Aiming	Loot	Titanbronze Waist Gear Coffer											
+Titanbronze Tassets of Casting	Loot	Titanbronze Waist Gear Coffer											
+Titanbronze Tassets of Healing	Loot	Titanbronze Waist Gear Coffer											
+Triplite Earrings of Fending	Loot	Titanbronze Earring Coffer											
+Triplite Earrings of Slaying	Loot	Titanbronze Earring Coffer											
+Triplite Earrings of Aiming	Loot	Titanbronze Earring Coffer											
+Triplite Earrings of Casting	Loot	Titanbronze Earring Coffer											
+Triplite Earrings of Healing	Loot	Titanbronze Earring Coffer											
+Triplite Choker of Fending	Loot	Titanbronze Necklace Coffer											
+Triplite Choker of Slaying	Loot	Titanbronze Necklace Coffer											
+Triplite Choker of Aiming	Loot	Titanbronze Necklace Coffer											
+Triplite Choker of Casting	Loot	Titanbronze Necklace Coffer											
+Triplite Choker of Healing	Loot	Titanbronze Necklace Coffer											
+Triplite Bracelet of Fending	Loot	Titanbronze Bracelet Coffer											
+Triplite Bracelet of Slaying	Loot	Titanbronze Bracelet Coffer											
+Triplite Bracelet of Aiming	Loot	Titanbronze Bracelet Coffer											
+Triplite Bracelet of Casting	Loot	Titanbronze Bracelet Coffer											
+Triplite Bracelet of Healing	Loot	Titanbronze Bracelet Coffer											
+Triplite Ring of Fending	Loot	Titanbronze Ring Coffer											
+Triplite Ring of Slaying	Loot	Titanbronze Ring Coffer											
+Triplite Ring of Aiming	Loot	Titanbronze Ring Coffer											
+Triplite Ring of Casting	Loot	Titanbronze Ring Coffer											
+Triplite Ring of Healing	Loot	Titanbronze Ring Coffer											
+Dwarven Mythril Pikenstock	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Shield	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Hammer	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Guillotine	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Manatrigger	Loot	High Mythril Weapon Coffer											
+Dwarven Lignum Lance	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Knuckles	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Uchigatana	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Rotaries	Loot	High Mythril Weapon Coffer											
+Dwarven Lignum Bow	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Pistol	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Glaives	Loot	High Mythril Weapon Coffer											
+Dwarven Lignum Pole	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Grimoire	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Rapier	Loot	High Mythril Weapon Coffer											
+Dwarven Lignum Cane	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Codex	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Planisphere	Loot	High Mythril Weapon Coffer											
+Dwarven Mythril Helm of Fending	Loot	High Mythril Head Gear Coffer											
+Dwarven Mythril Helm of Maiming	Loot	High Mythril Head Gear Coffer											
+Dwarven Mythril Helm of Striking	Loot	High Mythril Head Gear Coffer											
+Dwarven Cotton Turban of Scouting	Loot	High Mythril Head Gear Coffer											
+Dwarven Cotton Turban of Aiming	Loot	High Mythril Head Gear Coffer											
+Dwarven Cotton Petasos of Casting	Loot	High Mythril Head Gear Coffer											
+Dwarven Cotton Petasos of Healing	Loot	High Mythril Head Gear Coffer											
+Dwarven Mythril Chainmail of Fending	Loot	High Mythril Chest Gear Coffer											
+Dwarven Mythril Chainmail of Maiming	Loot	High Mythril Chest Gear Coffer											
+Dwarven Mythril Chainmail of Striking	Loot	High Mythril Chest Gear Coffer											
+Swallowskin Jacket of Scouting	Loot	High Mythril Chest Gear Coffer											
+Swallowskin Robe of Aiming	Loot	High Mythril Chest Gear Coffer											
+Swallowskin Robe of Casting	Loot	High Mythril Chest Gear Coffer											
+Swallowskin Robe of Healing	Loot	High Mythril Chest Gear Coffer											
+Swallowskin Gloves of Fending	Loot	High Mythril Hand Gear Coffer											
+Swallowskin Gloves of Maiming	Loot	High Mythril Hand Gear Coffer											
+Swallowskin Gloves of Striking	Loot	High Mythril Hand Gear Coffer											
+Swallowskin Gloves of Scouting	Loot	High Mythril Hand Gear Coffer											
+Swallowskin Gloves of Aiming	Loot	High Mythril Hand Gear Coffer											
+Swallowskin Gloves of Casting	Loot	High Mythril Hand Gear Coffer											
+Swallowskin Gloves of Healing	Loot	High Mythril Hand Gear Coffer											
+Dwarven Cotton Gaskins of Fending	Loot	High Mythril Leg Gear Coffer											
+Dwarven Cotton Gaskins of Maiming	Loot	High Mythril Leg Gear Coffer											
+Dwarven Cotton Gaskins of Striking	Loot	High Mythril Leg Gear Coffer											
+Dwarven Cotton Gaskins of Scouting	Loot	High Mythril Leg Gear Coffer											
+Dwarven Cotton Gaskins of Aiming	Loot	High Mythril Leg Gear Coffer											
+Dwarven Cotton Gaskins of Casting	Loot	High Mythril Leg Gear Coffer											
+Dwarven Cotton Gaskins of Healing	Loot	High Mythril Leg Gear Coffer											
+Dwarven Mythril Shoes of Fending	Loot	High Mythril Foot Gear Coffer											
+Dwarven Mythril Shoes of Maiming	Loot	High Mythril Foot Gear Coffer											
+Swallowskin Shoes of Striking	Loot	High Mythril Foot Gear Coffer											
+Dwarven Mythril Shoes of Scouting	Loot	High Mythril Foot Gear Coffer											
+Dwarven Mythril Shoes of Aiming	Loot	High Mythril Foot Gear Coffer											
+Swallowskin Shoes of Casting	Loot	High Mythril Foot Gear Coffer											
+Swallowskin Shoes of Healing	Loot	High Mythril Foot Gear Coffer											
+Dwarven Mythril Plate Belt of Fending	Loot	High Mythril Waist Gear Coffer											
+Dwarven Mythril Plate Belt of Maiming	Loot	High Mythril Waist Gear Coffer											
+Dwarven Mythril Plate Belt of Striking	Loot	High Mythril Waist Gear Coffer											
+Dwarven Mythril Plate Belt of Scouting	Loot	High Mythril Waist Gear Coffer											
+Dwarven Mythril Plate Belt of Aiming	Loot	High Mythril Waist Gear Coffer											
+Dwarven Mythril Plate Belt of Casting	Loot	High Mythril Waist Gear Coffer											
+Dwarven Mythril Plate Belt of Healing	Loot	High Mythril Waist Gear Coffer											
+Petalite Earrings of Fending	Loot	High Mythril Earring Coffer											
+Petalite Earrings of Slaying	Loot	High Mythril Earring Coffer											
+Petalite Earrings of Aiming	Loot	High Mythril Earring Coffer											
+Petalite Earrings of Casting	Loot	High Mythril Earring Coffer											
+Petalite Earrings of Healing	Loot	High Mythril Earring Coffer											
+Petalite Choker of Fending	Loot	High Mythril Necklace Coffer											
+Petalite Choker of Slaying	Loot	High Mythril Necklace Coffer											
+Petalite Choker of Aiming	Loot	High Mythril Necklace Coffer											
+Petalite Choker of Casting	Loot	High Mythril Necklace Coffer											
+Petalite Choker of Healing	Loot	High Mythril Necklace Coffer											
+Petalite Bracelet of Fending	Loot	High Mythril Bracelet Coffer											
+Petalite Bracelet of Slaying	Loot	High Mythril Bracelet Coffer											
+Petalite Bracelet of Aiming	Loot	High Mythril Bracelet Coffer											
+Petalite Bracelet of Casting	Loot	High Mythril Bracelet Coffer											
+Petalite Bracelet of Healing	Loot	High Mythril Bracelet Coffer											
+Petalite Ring of Fending	Loot	High Mythril Ring Coffer											
+Petalite Ring of Slaying	Loot	High Mythril Ring Coffer											
+Petalite Ring of Aiming	Loot	High Mythril Ring Coffer											
+Petalite Ring of Casting	Loot	High Mythril Ring Coffer											
+Petalite Ring of Healing	Loot	High Mythril Ring Coffer											
+Dai-ryumyaku Hachigane of Fending	Loot	Dai-ryumyaku Armor of Fending Coffer											
+Dai-ryumyaku Jufuku of Fending	Loot	Dai-ryumyaku Armor of Fending Coffer											
+Dai-ryumyaku Kote of Fending	Loot	Dai-ryumyaku Armor of Fending Coffer											
+Dai-ryumyaku Obi of Fending	Loot	Dai-ryumyaku Armor of Fending Coffer											
+Dai-ryumyaku Jui of Fending	Loot	Dai-ryumyaku Armor of Fending Coffer											
+Dai-ryumyaku Sune-ate of Fending	Loot	Dai-ryumyaku Armor of Fending Coffer											
+Dai-ryumyaku Hachigane of Maiming	Loot	Dai-ryumyaku Armor of Maiming Coffer											
+Dai-ryumyaku Jufuku of Maiming	Loot	Dai-ryumyaku Armor of Maiming Coffer											
+Dai-ryumyaku Kote of Maiming	Loot	Dai-ryumyaku Armor of Maiming Coffer											
+Dai-ryumyaku Obi of Maiming	Loot	Dai-ryumyaku Armor of Maiming Coffer											
+Dai-ryumyaku Tsutsu-hakama of Maiming	Loot	Dai-ryumyaku Armor of Maiming Coffer											
+Dai-ryumyaku Sune-ate of Maiming	Loot	Dai-ryumyaku Armor of Maiming Coffer											
+Dai-ryumyaku Hachigane of Striking	Loot	Dai-ryumyaku Armor of Striking Coffer											
+Dai-ryumyaku Togi of Striking	Loot	Dai-ryumyaku Armor of Striking Coffer											
+Dai-ryumyaku Kote of Striking	Loot	Dai-ryumyaku Armor of Striking Coffer											
+Dai-ryumyaku Obi of Striking	Loot	Dai-ryumyaku Armor of Striking Coffer											
+Dai-ryumyaku Tsutsu-hakama of Striking	Loot	Dai-ryumyaku Armor of Striking Coffer											
+Dai-ryumyaku Sune-ate of Striking	Loot	Dai-ryumyaku Armor of Striking Coffer											
+Dai-ryumyaku Hachigane of Aiming	Loot	Dai-ryumyaku Armor of Aiming Coffer											
+Dai-ryumyaku Jufuku of Aiming	Loot	Dai-ryumyaku Armor of Aiming Coffer											
+Dai-ryumyaku Kote of Aiming	Loot	Dai-ryumyaku Armor of Aiming Coffer											
+Dai-ryumyaku Obi of Aiming	Loot	Dai-ryumyaku Armor of Aiming Coffer											
+Dai-ryumyaku Jui of Aiming	Loot	Dai-ryumyaku Armor of Aiming Coffer											
+Dai-ryumyaku Sune-ate of Aiming	Loot	Dai-ryumyaku Armor of Aiming Coffer											
+Dai-ryumyaku Hachigane of Scouting	Loot	Dai-ryumyaku Armor of Scouting Coffer											
+Dai-ryumyaku Togi of Scouting	Loot	Dai-ryumyaku Armor of Scouting Coffer											
+Dai-ryumyaku Kote of Scouting	Loot	Dai-ryumyaku Armor of Scouting Coffer											
+Dai-ryumyaku Obi of Scouting	Loot	Dai-ryumyaku Armor of Scouting Coffer											
+Dai-ryumyaku Tsutsu-hakama of Scouting	Loot	Dai-ryumyaku Armor of Scouting Coffer											
+Dai-ryumyaku Sune-ate of Scouting	Loot	Dai-ryumyaku Armor of Scouting Coffer											
+Dai-ryumyaku Seibo of Casting	Loot	Dai-ryumyaku Armor of Casting Coffer											
+Dai-ryumyaku Dogi of Casting	Loot	Dai-ryumyaku Armor of Casting Coffer											
+Dai-ryumyaku Kote of Casting	Loot	Dai-ryumyaku Armor of Casting Coffer											
+Dai-ryumyaku Obi of Casting	Loot	Dai-ryumyaku Armor of Casting Coffer											
+Dai-ryumyaku Tsutsu-hakama of Casting	Loot	Dai-ryumyaku Armor of Casting Coffer											
+Dai-ryumyaku Choka of Casting	Loot	Dai-ryumyaku Armor of Casting Coffer											
+Dai-ryumyaku Hitai-ate of Healing	Loot	Dai-ryumyaku Armor of Healing Coffer											
+Dai-ryumyaku Dogi of Healing	Loot	Dai-ryumyaku Armor of Healing Coffer											
+Dai-ryumyaku Kote of Healing	Loot	Dai-ryumyaku Armor of Healing Coffer											
+Dai-ryumyaku Obi of Healing	Loot	Dai-ryumyaku Armor of Healing Coffer											
+Dai-ryumyaku Tsutsu-hakama of Healing	Loot	Dai-ryumyaku Armor of Healing Coffer											
+Dai-ryumyaku Choka of Healing	Loot	Dai-ryumyaku Armor of Healing Coffer											
+Dai-ryumyaku Earring of Fending	Loot	Dai-ryumyaku Accessories of Fending Coffer											
+Dai-ryumyaku Necklace of Fending	Loot	Dai-ryumyaku Accessories of Fending Coffer											
+Dai-ryumyaku Bracelet of Fending	Loot	Dai-ryumyaku Accessories of Fending Coffer											
+Dai-ryumyaku Ring of Fending	Loot	Dai-ryumyaku Accessories of Fending Coffer											
+Dai-ryumyaku Earring of Slaying	Loot	Dai-ryumyaku Accessories of Slaying Coffer											
+Dai-ryumyaku Necklace of Slaying	Loot	Dai-ryumyaku Accessories of Slaying Coffer											
+Dai-ryumyaku Bracelet of Slaying	Loot	Dai-ryumyaku Accessories of Slaying Coffer											
+Dai-ryumyaku Ring of Slaying	Loot	Dai-ryumyaku Accessories of Slaying Coffer											
+Dai-ryumyaku Earring of Aiming	Loot	Dai-ryumyaku Accessories of Aiming Coffer											
+Dai-ryumyaku Necklace of Aiming	Loot	Dai-ryumyaku Accessories of Aiming Coffer											
+Dai-ryumyaku Bracelet of Aiming	Loot	Dai-ryumyaku Accessories of Aiming Coffer											
+Dai-ryumyaku Ring of Aiming	Loot	Dai-ryumyaku Accessories of Aiming Coffer											
+Dai-ryumyaku Earring of Casting	Loot	Dai-ryumyaku Accessories of Casting Coffer											
+Dai-ryumyaku Necklace of Casting	Loot	Dai-ryumyaku Accessories of Casting Coffer											
+Dai-ryumyaku Bracelet of Casting	Loot	Dai-ryumyaku Accessories of Casting Coffer											
+Dai-ryumyaku Ring of Casting	Loot	Dai-ryumyaku Accessories of Casting Coffer											
+Dai-ryumyaku Earring of Healing	Loot	Dai-ryumyaku Accessories of Healing Coffer											
+Dai-ryumyaku Necklace of Healing	Loot	Dai-ryumyaku Accessories of Healing Coffer											
+Dai-ryumyaku Bracelet of Healing	Loot	Dai-ryumyaku Accessories of Healing Coffer											
+Dai-ryumyaku Ring of Healing	Loot	Dai-ryumyaku Accessories of Healing Coffer											
+Homura Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Mitsuba Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Mikazuki Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Odenta Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Yaita Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Otegine Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Jikki Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Kanesada Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Niokiyotsuna Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Kujakuo Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Ikkansai Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Gyosei Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Makibi Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Kinyoshu Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Shishio Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Byakurenge Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Koyoshu Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Kontengi Kai	Loot	Dai-ryumyaku Weapon Coffer											
+Augmented Scaevan Ear Cuff of Fending	Loot	Scaevan Accessories of Fending Coffer											
+Augmented Scaevan Choker of Fending	Loot	Scaevan Accessories of Fending Coffer											
+Augmented Scaevan Bracelet of Fending	Loot	Scaevan Accessories of Fending Coffer											
+Augmented Scaevan Ring of Fending	Loot	Scaevan Accessories of Fending Coffer											
+Alliance Ring of Fending	Loot	Scaevan Accessories of Fending Coffer											
+Augmented Scaevan Ear Cuff of Slaying	Loot	Scaevan Accessories of Slaying Coffer											
+Augmented Scaevan Choker of Slaying	Loot	Scaevan Accessories of Slaying Coffer											
+Augmented Scaevan Bracelet of Slaying	Loot	Scaevan Accessories of Slaying Coffer											
+Augmented Scaevan Ring of Slaying	Loot	Scaevan Accessories of Slaying Coffer											
+Alliance Ring of Slaying	Loot	Scaevan Accessories of Slaying Coffer											
+Augmented Scaevan Ear Cuff of Aiming	Loot	Scaevan Accessories of Aiming Coffer											
+Augmented Scaevan Choker of Aiming	Loot	Scaevan Accessories of Aiming Coffer											
+Augmented Scaevan Bracelet of Aiming	Loot	Scaevan Accessories of Aiming Coffer											
+Augmented Scaevan Ring of Aiming	Loot	Scaevan Accessories of Aiming Coffer											
+Alliance Ring of Aiming	Loot	Scaevan Accessories of Aiming Coffer											
+Augmented Scaevan Ear Cuff of Casting	Loot	Scaevan Accessories of Casting Coffer											
+Augmented Scaevan Choker of Casting	Loot	Scaevan Accessories of Casting Coffer											
+Augmented Scaevan Bracelet of Casting	Loot	Scaevan Accessories of Casting Coffer											
+Augmented Scaevan Ring of Casting	Loot	Scaevan Accessories of Casting Coffer											
+Alliance Ring of Casting	Loot	Scaevan Accessories of Casting Coffer											
+Augmented Scaevan Ear Cuff of Healing	Loot	Scaevan Accessories of Healing Coffer											
+Augmented Scaevan Choker of Healing	Loot	Scaevan Accessories of Healing Coffer											
+Augmented Scaevan Bracelet of Healing	Loot	Scaevan Accessories of Healing Coffer											
+Augmented Scaevan Ring of Healing	Loot	Scaevan Accessories of Healing Coffer											
+Alliance Ring of Healing	Loot	Scaevan Accessories of Healing Coffer											
+Idealized Chevalier's Temple Chain	Loot	Idealized Head Gear Coffer											
+Idealized Bhikku Knotcap	Loot	Idealized Head Gear Coffer											
+Idealized Boii Burgeonet	Loot	Idealized Head Gear Coffer											
+Idealized Pteroslaver Armet	Loot	Idealized Head Gear Coffer											
+Idealized Fili Chapeau	Loot	Idealized Head Gear Coffer											
+Idealized Ebers Hood	Loot	Idealized Head Gear Coffer											
+Idealized Wicce Petasos	Loot	Idealized Head Gear Coffer											
+Idealized Beckoner's Horn	Loot	Idealized Head Gear Coffer											
+Idealized Arbatel Mortarboard	Loot	Idealized Head Gear Coffer											
+Idealized Hattori Somen	Loot	Idealized Head Gear Coffer											
+Idealized Bale Burgeonet	Loot	Idealized Head Gear Coffer											
+Idealized Gunslinger's Hat	Loot	Idealized Head Gear Coffer											
+Idealized Soothsayer's Turban	Loot	Idealized Head Gear Coffer											
+Idealized Kasuga Hanbo	Loot	Idealized Head Gear Coffer											
+Idealized Estoqueur's Tricorne	Loot	Idealized Head Gear Coffer											
+Idealized Bodyguard's Blinder	Loot	Idealized Head Gear Coffer											
+Idealized Dancer's Headdress	Loot	Idealized Head Gear Coffer											
+Idealized Chevalier's Cuirass	Loot	Idealized Chest Gear Coffer											
+Idealized Bhikku Cyclas	Loot	Idealized Chest Gear Coffer											
+Idealized Boii Tunic	Loot	Idealized Chest Gear Coffer											
+Idealized Pteroslaver Mail	Loot	Idealized Chest Gear Coffer											
+Idealized Fili Gilet	Loot	Idealized Chest Gear Coffer											
+Idealized Ebers Robe	Loot	Idealized Chest Gear Coffer											
+Idealized Wicce Coat	Loot	Idealized Chest Gear Coffer											
+Idealized Beckoner's Coat	Loot	Idealized Chest Gear Coffer											
+Idealized Arbatel Cloak	Loot	Idealized Chest Gear Coffer											
+Idealized Hattori Chainmail	Loot	Idealized Chest Gear Coffer											
+Idealized Bale Cuirass	Loot	Idealized Chest Gear Coffer											
+Idealized Gunslinger's Coat	Loot	Idealized Chest Gear Coffer											
+Idealized Soothsayer's Chiton	Loot	Idealized Chest Gear Coffer											
+Idealized Kasuga Haori	Loot	Idealized Chest Gear Coffer											
+Idealized Estoqueur's Bliaud	Loot	Idealized Chest Gear Coffer											
+Idealized Bodyguard's Coat	Loot	Idealized Chest Gear Coffer											
+Idealized Dancer's Casaque	Loot	Idealized Chest Gear Coffer											
+Idealized Chevalier's Gauntlets	Loot	Idealized Hand Gear Coffer											
+Idealized Bhikku Gloves	Loot	Idealized Hand Gear Coffer											
+Idealized Boii Gauntlets	Loot	Idealized Hand Gear Coffer											
+Idealized Pteroslaver Gauntlets	Loot	Idealized Hand Gear Coffer											
+Idealized Fili Armlets	Loot	Idealized Hand Gear Coffer											
+Idealized Ebers Armlets	Loot	Idealized Hand Gear Coffer											
+Idealized Wicce Wrist Torque	Loot	Idealized Hand Gear Coffer											
+Idealized Beckoner's Fingerless Gloves	Loot	Idealized Hand Gear Coffer											
+Idealized Arbatel Gloves	Loot	Idealized Hand Gear Coffer											
+Idealized Hattori Tekko	Loot	Idealized Hand Gear Coffer											
+Idealized Bale Gauntlets	Loot	Idealized Hand Gear Coffer											
+Idealized Gunslinger's Halfgloves	Loot	Idealized Hand Gear Coffer											
+Idealized Soothsayer's Armlets	Loot	Idealized Hand Gear Coffer											
+Idealized Kasuga Kote	Loot	Idealized Hand Gear Coffer											
+Idealized Estoqueur's Gloves	Loot	Idealized Hand Gear Coffer											
+Idealized Bodyguard's Fingerless Gloves	Loot	Idealized Hand Gear Coffer											
+Idealized Dancer's Armlets	Loot	Idealized Hand Gear Coffer											
+Idealized Chevalier's Poleyns	Loot	Idealized Leg Gear Coffer											
+Idealized Bhikku Poleyns	Loot	Idealized Leg Gear Coffer											
+Idealized Boii Brais	Loot	Idealized Leg Gear Coffer											
+Idealized Pteroslaver Subligar	Loot	Idealized Leg Gear Coffer											
+Idealized Fili Bottoms	Loot	Idealized Leg Gear Coffer											
+Idealized Ebers Skirt	Loot	Idealized Leg Gear Coffer											
+Idealized Wicce Bottoms	Loot	Idealized Leg Gear Coffer											
+Idealized Beckoner's Sarouel	Loot	Idealized Leg Gear Coffer											
+Idealized Arbatel Bottoms	Loot	Idealized Leg Gear Coffer											
+Idealized Hattori Trousers	Loot	Idealized Leg Gear Coffer											
+Idealized Bale Flanchard	Loot	Idealized Leg Gear Coffer											
+Idealized Gunslinger's Bottoms	Loot	Idealized Leg Gear Coffer											
+Idealized Soothsayer's Skirt	Loot	Idealized Leg Gear Coffer											
+Idealized Kasuga Tsutsu-hakama	Loot	Idealized Leg Gear Coffer											
+Idealized Estoqueur's Bottoms	Loot	Idealized Leg Gear Coffer											
+Idealized Bodyguard's Trousers	Loot	Idealized Leg Gear Coffer											
+Idealized Dancer's Bottoms	Loot	Idealized Leg Gear Coffer											
+Idealized Chevalier's Sollerets	Loot	Idealized Foot Gear Coffer											
+Idealized Bhikku Boots	Loot	Idealized Foot Gear Coffer											
+Idealized Boii Boots	Loot	Idealized Foot Gear Coffer											
+Idealized Pteroslaver Greaves	Loot	Idealized Foot Gear Coffer											
+Idealized Fili Shoes	Loot	Idealized Foot Gear Coffer											
+Idealized Ebers Thighboots	Loot	Idealized Foot Gear Coffer											
+Idealized Wicce Shoes	Loot	Idealized Foot Gear Coffer											
+Idealized Beckoner's Crakows	Loot	Idealized Foot Gear Coffer											
+Idealized Arbatel Thighboots	Loot	Idealized Foot Gear Coffer											
+Idealized Hattori Kyahan	Loot	Idealized Foot Gear Coffer											
+Idealized Bale Sollerets	Loot	Idealized Foot Gear Coffer											
+Idealized Gunslinger's Thighboots	Loot	Idealized Foot Gear Coffer											
+Idealized Soothsayer's Sandals	Loot	Idealized Foot Gear Coffer											
+Idealized Kasuga Zori	Loot	Idealized Foot Gear Coffer											
+Idealized Estoqueur's Thighboots	Loot	Idealized Foot Gear Coffer											
+Idealized Bodyguard's Thighboots	Loot	Idealized Foot Gear Coffer											
+Idealized Dancer's Shoes	Loot	Idealized Foot Gear Coffer											
+Carnage Sword	Loot	Level 18 Weapon Coffer											
+Iron Lantern Shield	Loot	Level 18 Weapon Coffer											
+Inferno Axe	Loot	Level 18 Weapon Coffer											
+Iron Lance	Loot	Level 18 Weapon Coffer											
+Hard Leather Cesti	Loot	Level 18 Weapon Coffer											
+Iron Daggers	Loot	Level 18 Weapon Coffer											
+Elm Longbow	Loot	Level 18 Weapon Coffer											
+Staghorn Staff	Loot	Level 18 Weapon Coffer											
+Engraved Hard Leather Grimoire	Loot	Level 18 Weapon Coffer											
+Elm Crook	Loot	Level 18 Weapon Coffer											
+Iron Shortsword	Loot	Level 21 Weapon Coffer											
+Iron Scutum	Loot	Level 21 Weapon Coffer											
+Iron Bill	Loot	Level 21 Weapon Coffer											
+Iron Guisarme	Loot	Level 21 Weapon Coffer											
+Spiked Knuckles	Loot	Level 21 Weapon Coffer											
+Iron Pugiones	Loot	Level 21 Weapon Coffer											
+Elm Velocity Bow	Loot	Level 21 Weapon Coffer											
+Sanguine Horn Staff	Loot	Level 21 Weapon Coffer											
+Yew Picatrix	Loot	Level 21 Weapon Coffer											
+Pastoral Yew Cane	Loot	Level 21 Weapon Coffer											
+Steel Broadsword	Loot	Level 24 Weapon Coffer											
+Viper-crested Round Shield	Loot	Level 24 Weapon Coffer											
+Thunderstorm Axe	Loot	Level 24 Weapon Coffer											
+Silver Battle Fork	Loot	Level 24 Weapon Coffer											
+Toadskin Cesti	Loot	Level 24 Weapon Coffer											
+Steel Daggers	Loot	Level 24 Weapon Coffer											
+Wrapped Elm Longbow	Loot	Level 24 Weapon Coffer											
+Toothed Staghorn Staff	Loot	Level 24 Weapon Coffer											
+Goatskin Grimoire	Loot	Level 24 Weapon Coffer											
+Yew Crook	Loot	Level 24 Weapon Coffer											
+Elm Macuahuitl	Loot	Level 28 Weapon Coffer											
+Goatskin Targe	Loot	Level 28 Weapon Coffer											
+Spiked Steel Labrys	Loot	Level 28 Weapon Coffer											
+Steel Halberd	Loot	Level 28 Weapon Coffer											
+Steel Claws	Loot	Level 28 Weapon Coffer											
+Steel Knives	Loot	Level 28 Weapon Coffer											
+Ash Composite Bow	Loot	Level 28 Weapon Coffer											
+Silver Scepter	Loot	Level 28 Weapon Coffer											
+Engraved Goatskin Grimoire	Loot	Level 28 Weapon Coffer											
+Yew Wand	Loot	Level 28 Weapon Coffer											
+Walnut Macuahuitl	Loot	Level 34 Weapon Coffer											
+Decorated Buckler	Loot	Level 34 Weapon Coffer											
+Steel Bhuj	Loot	Level 34 Weapon Coffer											
+Heavy Steel Lance	Loot	Level 34 Weapon Coffer											
+Boarskin Himantes	Loot	Level 34 Weapon Coffer											
+Steel Baselards	Loot	Level 34 Weapon Coffer											
+Oak Longbow	Loot	Level 34 Weapon Coffer											
+Toothed Goathorn Staff	Loot	Level 34 Weapon Coffer											
+Book of Silver	Loot	Level 34 Weapon Coffer											
+Oak Radical	Loot	Level 34 Weapon Coffer											
+Steel Longsword	Loot	Level 36 Weapon Coffer											
+Decorated Iron Scutum	Loot	Level 36 Weapon Coffer											
+Spiked Mythril Labrys	Loot	Level 36 Weapon Coffer											
+Yarzonshell Harpoon	Loot	Level 36 Weapon Coffer											
+Mythril Claws	Loot	Level 36 Weapon Coffer											
+Mythril Knives	Loot	Level 36 Weapon Coffer											
+Mythril Cavalry Bow	Loot	Level 36 Weapon Coffer											
+Fire Brand	Loot	Level 36 Weapon Coffer											
+Embossed Book of Silver	Loot	Level 36 Weapon Coffer											
+Pastoral Oak Cane	Loot	Level 36 Weapon Coffer											
+Plumed Oak Macuahuitl	Loot	Level 40 Weapon Coffer											
+Raptorskin Targe	Loot	Level 40 Weapon Coffer											
+Mythril Bhuj	Loot	Level 40 Weapon Coffer											
+Mythril Lance	Loot	Level 40 Weapon Coffer											
+Tortoiseshell Hora	Loot	Level 40 Weapon Coffer											
+Mythril Baselards	Loot	Level 40 Weapon Coffer											
+Oak Composite Bow	Loot	Level 40 Weapon Coffer											
+Lightning Brand	Loot	Level 40 Weapon Coffer											
+Book of Mythril	Loot	Level 40 Weapon Coffer											
+Wand of Frost	Loot	Level 40 Weapon Coffer											
+Cobalt Shamshir	Loot	Level 45 Weapon Coffer											
+Eagle-crested Round Shield	Loot	Level 45 Weapon Coffer											
+Buccaneer's Bardiche	Loot	Level 45 Weapon Coffer											
+Cobalt Trident	Loot	Level 45 Weapon Coffer											
+Peisteskin Cesti	Loot	Level 45 Weapon Coffer											
+Mythril Pugiones	Loot	Level 45 Weapon Coffer											
+Yew Longbow	Loot	Level 45 Weapon Coffer											
+Water Brand	Loot	Level 45 Weapon Coffer											
+Book of Electrum	Loot	Level 45 Weapon Coffer											
+Wand of Flames	Loot	Level 45 Weapon Coffer											
+Cobalt Winglet	Loot	Level 49 Weapon Coffer											
+Cobalt Bladed Lantern Shield	Loot	Level 49 Weapon Coffer											
+Spiked Cobalt Labrys	Loot	Level 49 Weapon Coffer											
+Hart Guisarme	Loot	Level 49 Weapon Coffer											
+Cobalt Claws	Loot	Level 49 Weapon Coffer											
+Cobalt Baselards	Loot	Level 49 Weapon Coffer											
+Crab Bow	Loot	Level 49 Weapon Coffer											
+Ivory Staff	Loot	Level 49 Weapon Coffer											
+Embossed Book of Electrum	Loot	Level 49 Weapon Coffer											
+Pastoral Mahogany Cane	Loot	Level 49 Weapon Coffer											
+Giantsgall Longsword	Loot	Level 70 Weapon Coffer											
+Darksteel Scutum	Loot	Level 70 Weapon Coffer											
+Giantsgall War Axe	Loot	Level 70 Weapon Coffer											
+Giantsgall Trident	Loot	Level 70 Weapon Coffer											
+Giantsgall Claws	Loot	Level 70 Weapon Coffer											
+Giantsgall Cleavers	Loot	Level 70 Weapon Coffer											
+Giantsgall Longbow	Loot	Level 70 Weapon Coffer											
+Giantsgall Longstaff	Loot	Level 70 Weapon Coffer											
+Cantamina Thavnaria	Loot	Level 70 Weapon Coffer											
+Giantsgall Cane	Loot	Level 70 Weapon Coffer											
+Medica Thavnaria	Loot	Level 70 Weapon Coffer											
+Break Blade	Loot	Level 90 Weapon Coffer											
+Onion Shield	Loot	Level 90 Weapon Coffer											
+Dual Haken	Loot	Level 90 Weapon Coffer											
+Holy Lance	Loot	Level 90 Weapon Coffer											
+Hellish Claws	Loot	Level 90 Weapon Coffer											
+Air Knives	Loot	Level 90 Weapon Coffer											
+Elfin Bow	Loot	Level 90 Weapon Coffer											
+Elder Staff	Loot	Level 90 Weapon Coffer											
+Omnitome	Loot	Level 90 Weapon Coffer											
+Omnirod	Loot	Level 90 Weapon Coffer											
+Cognitome	Loot	Level 90 Weapon Coffer											
+Burtgang	Loot	Level 110 Weapon Coffer											
+Noct Hoplon	Loot	Level 110 Weapon Coffer											
+Conquerer	Loot	Level 110 Weapon Coffer											
+Liberator	Loot	Level 110 Weapon Coffer											
+Glanzfaust	Loot	Level 110 Weapon Coffer											
+Vajras	Loot	Level 110 Weapon Coffer											
+Rosenbogen	Loot	Level 110 Weapon Coffer											
+Laevateinn	Loot	Level 110 Weapon Coffer											
+Book of Spades	Loot	Level 110 Weapon Coffer											
+Yagrush	Loot	Level 110 Weapon Coffer											
+Book of Diamonds	Loot	Level 110 Weapon Coffer											
+Hellhound Helm	Loot	Hellhound Attire Coffer											
+Hellhound Armor	Loot	Hellhound Attire Coffer											
+Hellhound Gauntlets	Loot	Hellhound Attire Coffer											
+Hellhound Cuisses	Loot	Hellhound Attire Coffer											
+Hellhound Sabatons	Loot	Hellhound Attire Coffer											
+Grey Hound Helm	Loot	Grey Hound Armor Coffer											
+Grey Hound Armor	Loot	Grey Hound Armor Coffer											
+Grey Hound Gauntlets	Loot	Grey Hound Armor Coffer											
+Grey Hound Cuisses	Loot	Grey Hound Armor Coffer											
+Grey Hound Sabatons	Loot	Grey Hound Armor Coffer											
+Barghest Helm	Loot	Barghest Attire Coffer											
+Barghest Armor	Loot	Barghest Attire Coffer											
+Barghest Gauntlets	Loot	Barghest Attire Coffer											
+Barghest Cuisses	Loot	Barghest Attire Coffer											
+Barghest Sabatons	Loot	Barghest Attire Coffer											
+Moddey Dhoo Helm	Loot	Moddey Dhoo Attire Coffer											
+Moddey Dhoo Armor	Loot	Moddey Dhoo Attire Coffer											
+Moddey Dhoo Gauntlets	Loot	Moddey Dhoo Attire Coffer											
+Moddey Dhoo Cuisses	Loot	Moddey Dhoo Attire Coffer											
+Moddey Dhoo Sabatons	Loot	Moddey Dhoo Attire Coffer											
+Koro Kabuto	Loot	Koro Armor Coffer											
+Koro Oyoroi	Loot	Koro Armor Coffer											
+Koro Kote	Loot	Koro Armor Coffer											
+Koro Tsutsu-hakama	Loot	Koro Armor Coffer											
+Koro Sune-ate	Loot	Koro Armor Coffer											
+Gunro Kabuto	Loot	Gunro Armor Coffer											
+Gunro Oyoroi	Loot	Gunro Armor Coffer											
+Gunro Kote	Loot	Gunro Armor Coffer											
+Gunro Tsutsu-hakama	Loot	Gunro Armor Coffer											
+Gunro Sune-ate	Loot	Gunro Armor Coffer											
+Skysteel Saw	Loot	Skysteel Prototype Coffer											
+Skysteel Cross-pein Hammer	Loot	Skysteel Prototype Coffer											
+Skysteel Raising Hammer	Loot	Skysteel Prototype Coffer											
+Skysteel Lapidary Hammer	Loot	Skysteel Prototype Coffer											
+Skysteel Round Knife	Loot	Skysteel Prototype Coffer											
+Skysteel Needle	Loot	Skysteel Prototype Coffer											
+Skysteel Alembic	Loot	Skysteel Prototype Coffer											
+Skysteel Frypan	Loot	Skysteel Prototype Coffer											
+Skysteel Pickaxe	Loot	Skysteel Prototype Coffer											
+Skysteel Hatchet	Loot	Skysteel Prototype Coffer											
+Skysteel Fishing Rod	Loot	Skysteel Prototype Coffer											
+Millfiend's Costume Cap	Loot	Millfiend's Costume Coffer											
+Millfiend's Costume Apron	Loot	Millfiend's Costume Coffer											
+Millfiend's Costume Halfgloves	Loot	Millfiend's Costume Coffer											
+Millfiend's Costume Kecks	Loot	Millfiend's Costume Coffer											
+Millfiend's Costume Workboots	Loot	Millfiend's Costume Coffer											
+Forgefiend's Costume Goggles	Loot	Forgefiend's Costume Coffer											
+Forgefiend's Costume Apron	Loot	Forgefiend's Costume Coffer											
+Forgefiend's Costume Work Gloves	Loot	Forgefiend's Costume Coffer											
+Forgefiend's Costume Trousers	Loot	Forgefiend's Costume Coffer											
+Forgefiend's Costume Leggings	Loot	Forgefiend's Costume Coffer											
+Hammerfiend's Costume Visor	Loot	Hammerfiend's Costume Coffer											
+Hammerfiend's Costume Apron	Loot	Hammerfiend's Costume Coffer											
+Hammerfiend's Costume Work Gloves	Loot	Hammerfiend's Costume Coffer											
+Hammerfiend's Costume Trousers	Loot	Hammerfiend's Costume Coffer											
+Hammerfiend's Costume Workboots	Loot	Hammerfiend's Costume Coffer											
+Gemfiend's Costume Monocle	Loot	Gemfiend's Costume Coffer											
+Gemfiend's Costume Vest	Loot	Gemfiend's Costume Coffer											
+Gemfiend's Costume Shortgloves	Loot	Gemfiend's Costume Coffer											
+Gemfiend's Costume Trousers	Loot	Gemfiend's Costume Coffer											
+Gemfiend's Costume Boots	Loot	Gemfiend's Costume Coffer											
+Hidefiend's Costume Cap	Loot	Hidefiend's Costume Coffer											
+Hidefiend's Costume Jacket	Loot	Hidefiend's Costume Coffer											
+Hidefiend's Costume Armlets	Loot	Hidefiend's Costume Coffer											
+Hidefiend's Costume Kecks	Loot	Hidefiend's Costume Coffer											
+Hidefiend's Costume Thighboots	Loot	Hidefiend's Costume Coffer											
+Boltfiend's Costume Top Hat	Loot	Boltfiend's Costume Coffer											
+Boltfiend's Costume Swallowtail	Loot	Boltfiend's Costume Coffer											
+Boltfiend's Costume Fingerstalls	Loot	Boltfiend's Costume Coffer											
+Boltfiend's Costume Slacks	Loot	Boltfiend's Costume Coffer											
+Boltfiend's Costume Boots	Loot	Boltfiend's Costume Coffer											
+Cauldronfiend's Costume Spectacles	Loot	Cauldronfiend's Costume Coffer											
+Cauldronfiend's Costume Coat	Loot	Cauldronfiend's Costume Coffer											
+Cauldronfiend's Costume Gloves	Loot	Cauldronfiend's Costume Coffer											
+Cauldronfiend's Costume Kecks	Loot	Cauldronfiend's Costume Coffer											
+Cauldronfiend's Costume Shoes	Loot	Cauldronfiend's Costume Coffer											
+Galleyfiend's Costume Toque	Loot	Galleyfiend's Costume Coffer											
+Galleyfiend's Costume Apron	Loot	Galleyfiend's Costume Coffer											
+Galleyfiend's Costume Mittens	Loot	Galleyfiend's Costume Coffer											
+Galleyfiend's Costume Trousers	Loot	Galleyfiend's Costume Coffer											
+Galleyfiend's Costume Pattens	Loot	Galleyfiend's Costume Coffer											
+Minefiend's Costume Helmet	Loot	Minefiend's Costume Coffer											
+Minefiend's Costume Work Shirt	Loot	Minefiend's Costume Coffer											
+Minefiend's Costume Work Gloves	Loot	Minefiend's Costume Coffer											
+Minefiend's Costume Slops	Loot	Minefiend's Costume Coffer											
+Minefiend's Costume Workboots	Loot	Minefiend's Costume Coffer											
+Fieldfiend's Costume Hat	Loot	Fieldfiend's Costume Coffer											
+Fieldfiend's Costume Shirt	Loot	Fieldfiend's Costume Coffer											
+Fieldfiend's Costume Halfgloves	Loot	Fieldfiend's Costume Coffer											
+Fieldfiend's Costume Slops	Loot	Fieldfiend's Costume Coffer											
+Fieldfiend's Costume Workboots	Loot	Fieldfiend's Costume Coffer											
+Tacklefiend's Costume Hat	Loot	Tacklefiend's Costume Coffer											
+Tacklefiend's Costume Jacket	Loot	Tacklefiend's Costume Coffer											
+Tacklefiend's Costume Work Gloves	Loot	Tacklefiend's Costume Coffer											
+Tacklefiend's Costume Slops	Loot	Tacklefiend's Costume Coffer											
+Tacklefiend's Costume Workboots	Loot	Tacklefiend's Costume Coffer											
+Scion Traveler's Mask	Loot	Scion Traveler's Attire Coffer											
+Scion Traveler's Jacket	Loot	Scion Traveler's Attire Coffer											
+Scion Traveler's Gloves	Loot	Scion Traveler's Attire Coffer											
+Scion Traveler's Trousers	Loot	Scion Traveler's Attire Coffer											
+Scion Traveler's Boots	Loot	Scion Traveler's Attire Coffer											
+Kupo Knit Cap	Loot	Coffer o' Kupos											
+Kupo Jacket	Loot	Coffer o' Kupos											
+Kupo Trousers	Loot	Coffer o' Kupos											
+Kupo Shoes	Loot	Coffer o' Kupos											
+Hraesvelgr Hat	Loot	Hraesvelgr Attire Coffer											
+Hraesvelgr Jacket	Loot	Hraesvelgr Attire Coffer											
+Hraesvelgr Gloves	Loot	Hraesvelgr Attire Coffer											
+Hraesvelgr Trousers	Loot	Hraesvelgr Attire Coffer											
+Hraesvelgr Boots	Loot	Hraesvelgr Attire Coffer											
+Cashmere Hood	Loot	Cashmere Attire Coffer											
+Cashmere Poncho	Loot	Cashmere Attire Coffer											
+Cashmere Slops	Loot	Cashmere Attire Coffer											
+Fur-lined Saurian Boots	Loot	Cashmere Attire Coffer											
+Casual Jacket	Loot	Casual Attire Coffer											
+Casual Halfslops	Loot	Casual Attire Coffer											
+Casual Boots	Loot	Casual Attire Coffer											
+Endless Summer Glasses	Loot	Endless Summer Coffer											
+Endless Summer Top	Loot	Endless Summer Coffer											
+Endless Summer Bottom	Loot	Endless Summer Coffer											
+Endless Summer Sandals	Loot	Endless Summer Coffer											
+Exclusive Eastern Journey Battle Staff	Loot	Eastern Journey Attire Coffer											
+Exclusive Eastern Journey Circlet	Loot	Eastern Journey Attire Coffer											
+Exclusive Eastern Journey Jacket	Loot	Eastern Journey Attire Coffer											
+Exclusive Eastern Journey Armlets	Loot	Eastern Journey Attire Coffer											
+Exclusive Eastern Journey Bottoms	Loot	Eastern Journey Attire Coffer											
+Exclusive Eastern Journey Shoes	Loot	Eastern Journey Attire Coffer											
+Ahriman Card	Loot	Bronze Triad Card											
+Coblyn Card	Loot	Bronze Triad Card											
+Goobbue Card	Loot	Bronze Triad Card											
+Magitek Death Claw Card	Loot	Bronze Triad Card											
+Pudding Card	Loot	Bronze Triad Card											
+Spriggan Card	Loot	Bronze Triad Card											
+Blue Dragon Card	Loot	Bronze Triad Card											
+Chimera Card	Loot	Bronze Triad Card											
+Delivery Moogle Card	Loot	Bronze Triad Card											
+Liquid Flame Card	Loot	Bronze Triad Card											
+Scarface Bugaal Ja Card	Loot	Bronze Triad Card											
+Succubus Card	Loot	Bronze Triad Card											
+Behemoth Card	Loot	Bronze Triad Card											
+Tozol Huatotl Card	Loot	Bronze Triad Card											
+Waukkeon Card	Loot	Bronze Triad Card											
+Amalj'aa Card	Loot	Silver Triad Card											
+Ixal Card	Loot	Silver Triad Card											
+Kobold Card	Loot	Silver Triad Card											
+Sylph Card	Loot	Silver Triad Card											
+Tataru Taru Card	Loot	Silver Triad Card											
+Siren Card	Loot	Silver Triad Card											
+Ferdiad Card	Loot	Silver Triad Card											
+Garuda Card	Loot	Silver Triad Card											
+Good King Moggle Mog XII Card	Loot	Silver Triad Card											
+Ifrit Card	Loot	Silver Triad Card											
+Titan Card	Loot	Silver Triad Card											
+Urianger Card	Loot	Silver Triad Card											
+Lahabrea Card	Loot	Silver Triad Card	Platinum Triad Card	Bronze Rowena Cup Classic Card	Bronze Durai Memorial Card	Silver Durai Memorial Card	Silver Tournament of Champions Card						
+Minfilia Card	Loot	Silver Triad Card											
+Baderon Tenfingers Card	Loot	Gold Triad Card											
+Gerolt Card	Loot	Gold Triad Card											
+Hoary Boulder & Coultenet Card	Loot	Gold Triad Card											
+Momodi Modi Card	Loot	Gold Triad Card											
+Mother Miounne Card	Loot	Gold Triad Card											
+Cid Garlond Card	Loot	Gold Triad Card											
+Leviathan Card	Loot	Gold Triad Card	Bronze Rowena Cup Classic Card	Silver Rowena Cup Classic Card	Gold Rowena Cup Classic Card								
+Ramuh Card	Loot	Gold Triad Card	Silver Tournament of Champions Card										
+Shiva Card	Loot	Gold Triad Card	Platinum Triad Card	Bronze Spinner's Pull Card									
+The Ultima Weapon Card	Loot	Gold Triad Card	Platinum Triad Card	Gold Spinner's Pull Card	Gold Tournament of Champions Card								
+Kan-E-Senna Card	Loot	Gold Triad Card											
+Merlwyb Bloefhiswyn Card	Loot	Gold Triad Card											
+Raubahn Aldynn Card	Loot	Gold Triad Card											
+Warrior of Light Card	Loot	Gold Triad Card											
+Zidane Tribal Card	Loot	Gold Triad Card											
+Brachiosaur Card	Loot	Mythril Triad Card											
+Coeurlregina Card	Loot	Mythril Triad Card											
+Gilgamesh & Enkidu Card	Loot	Mythril Triad Card											
+Pipin Tarupin Card	Loot	Mythril Triad Card											
+Vedrfolnir Card	Loot	Mythril Triad Card											
+Odin Card	Loot	Mythril Triad Card	Bronze Durai Memorial Card										
+Bartz Klauser Card	Loot	Mythril Triad Card											
+Onion Knight Card	Loot	Mythril Triad Card											
+Terra Branford Card	Loot	Mythril Triad Card											
+Magitek Gunship Card	Loot	Imperial Triad Card											
+Magitek Vanguard Card	Loot	Imperial Triad Card											
+Magitek Predator Card	Loot	Imperial Triad Card											
+Magitek Sky Armor Card	Loot	Imperial Triad Card											
+Armored Weapon Card	Loot	Imperial Triad Card											
+Regula van Hydrus Card	Loot	Imperial Triad Card											
+Hobgoblin Card	Loot	Dream Triad Card											
+Fuath Card	Loot	Dream Triad Card											
+Iguana Card	Loot	Dream Triad Card											
+Eros Card	Loot	Dream Triad Card											
+Leannan Sith Card	Loot	Dream Triad Card											
+Philia Card	Loot	Dream Triad Card											
+Storge Card	Loot	Dream Triad Card											
+Titania Card	Loot	Dream Triad Card											
+Innocence Card	Loot	Dream Triad Card											
+Oracle of Light Card	Loot	Dream Triad Card											
+Archaeotania Card	Loot	Dream Triad Card											
+Alphinaud & Alisaie Card	Loot	Platinum Triad Card											
+F'lhaminn Card	Loot	Platinum Triad Card											
+Louisoix Leveilleur Card	Loot	Platinum Triad Card											
+Hraesvelgr Card	Loot	Platinum Triad Card											
+Nanamo Ul Namo Card	Loot	Platinum Triad Card	Silver Durai Memorial Card										
+Firion Card	Loot	Platinum Triad Card	Bronze Durai Memorial Card	Silver Durai Memorial Card	Gold Durai Memorial Card								
+Cecil Harvey Card	Loot	Platinum Triad Card	Bronze Spinner's Pull Card	Silver Spinner's Pull Card	Gold Spinner's Pull Card								
+Tidus Card	Loot	Platinum Triad Card	Bronze Rowena Cup Classic Card	Silver Rowena Cup Classic Card	Gold Rowena Cup Classic Card								
+Lightning Card	Loot	Platinum Triad Card	Bronze Tournament of Champions Card	Silver Tournament of Champions Card	Gold Tournament of Champions Card								
 Mossy Stone Sword	Venture	Field Exploration XII	Field Exploration XIV										
 Mossy Stone Claws	Venture	Field Exploration XII	Field Exploration XIV										
 Mossy Stone Spear	Venture	Field Exploration XII	Field Exploration XIV										
@@ -465,8 +2248,6 @@ Taffeta Cloth	Venture	Field Exploration XIII	Field Exploration XVII	Field Explor
 Mameshiba	Venture	Highland Exploration XXII											
 Koala Joey	Venture	Field Exploration XXII											
 Axolotl Eft	Venture	Waterside Exploration XXII											
-Verdant Partition	Instance	Saint Mocianne's Arboretum (Hard)											
-Shinryu's Scale	Instance	The Minstrel's Ballad: Shinryu's Domain											
 Pellitory	Instance	The Aquapolis											
 Thavnairian Armlets	Instance	The Aquapolis											
 Thavnairian Babouches	Instance	The Aquapolis											
@@ -519,133 +2300,6 @@ Luminous Fiber	Instance	The Aquapolis
 Plundered Treasure	Instance	The Aquapolis											
 Wool Top	Instance	The Aquapolis											
 New World Macrame	Instance	The Aquapolis											
-Astrometer of the Round	Loot	Platinum-haloed Sack											
-Axe of the Fiend	Loot	Platinum-haloed Sack											
-Axe of the Round	Loot	Platinum-haloed Sack											
-Blade of the Fiend	Loot	Platinum-haloed Sack											
-Bow of the Fiend	Loot	Platinum-haloed Sack											
-Bow of the Round	Loot	Platinum-haloed Sack											
-Cane of the Fiend	Loot	Platinum-haloed Sack											
-Cane of the Round	Loot	Platinum-haloed Sack											
-Claymore of the Round	Loot	Platinum-haloed Sack											
-Codex of the Round	Loot	Platinum-haloed Sack											
-Daggers of the Round	Loot	Platinum-haloed Sack											
-Dodo Horn	Loot	Platinum-haloed Sack											
-Edge of the Fiend	Loot	Platinum-haloed Sack											
-Fire of the Fiend	Loot	Platinum-haloed Sack											
-Fire of the Round	Loot	Platinum-haloed Sack											
-Fists of the Fiend	Loot	Platinum-haloed Sack											
-Grimoire of the Round	Loot	Platinum-haloed Sack											
-Halberd of the Round	Loot	Platinum-haloed Sack											
-Katana of the Fiend	Loot	Platinum-haloed Sack											
-Katana of the Round	Loot	Platinum-haloed Sack											
-Knuckles of the Round	Loot	Platinum-haloed Sack											
-Miniature Heaven-on-High	Loot	Platinum-haloed Sack											
-Pike of the Fiend	Loot	Platinum-haloed Sack											
-Points of the Fiend	Loot	Platinum-haloed Sack											
-Rapier of the Fiend	Loot	Platinum-haloed Sack											
-Rapier of the Round	Loot	Platinum-haloed Sack											
-Shield of the Fiend	Loot	Platinum-haloed Sack											
-Shield of the Round	Loot	Platinum-haloed Sack											
-Song of the Fiend	Loot	Platinum-haloed Sack											
-Staff of the Fiend	Loot	Platinum-haloed Sack											
-Staff of the Round	Loot	Platinum-haloed Sack											
-Star of the Fiend	Loot	Platinum-haloed Sack											
-Sword of the Round	Loot	Platinum-haloed Sack											
-The Open Box Orchestrion Roll	Loot	Platinum-haloed Sack											
-Wind-up Ifrit	Loot	Platinum-haloed Sack											
-Wind-up Titan	Loot	Platinum-haloed Sack											
-Word of the Fiend	Loot	Platinum-haloed Sack											
-Ao Dai	Loot	Gold-haloed Sack											
-Baby Bombfish	Loot	Gold-haloed Sack											
-Bibliophobia Orchestrion Roll	Loot	Gold-haloed Sack											
-Empyrean Clay	Loot	Gold-haloed Sack											
-Empyrean Pine Log	Loot	Gold-haloed Sack											
-Flannel Suspenders	Loot	Gold-haloed Sack											
-General-purpose Dark Blue Dye	Loot	Gold-haloed Sack											
-General-purpose Pure White Dye	Loot	Gold-haloed Sack											
-Ghido	Loot	Gold-haloed Sack											
-Hannish Wool	Loot	Gold-haloed Sack											
-Hatamoto Card	Loot	Gold-haloed Sack											
-Hiruko Card	Loot	Gold-haloed Sack											
-Hunting Hawk	Loot	Gold-haloed Sack											
-Imagination Orchestrion Roll	Loot	Gold-haloed Sack											
-Korpokkur Kid	Loot	Gold-haloed Sack											
-Morpho	Loot	Gold-haloed Sack											
-New World Headdress	Loot	Gold-haloed Sack											
-Odder Otter	Loot	Gold-haloed Sack											
-Oriental Rice Ball Lunch	Loot	Gold-haloed Sack											
-Quan	Loot	Gold-haloed Sack											
-Thavnairian Wool	Loot	Gold-haloed Sack											
-The Dark's Embrace Orchestrion Roll	Loot	Gold-haloed Sack											
-Tiny Tatsunoko	Loot	Gold-haloed Sack											
-Unbreakable (Duality) Orchestrion Roll	Loot	Gold-haloed Sack											
-Wanyudo & Katasharin Card	Loot	Gold-haloed Sack											
-Wind-up Bismarck	Loot	Gold-haloed Sack											
-Wind-up Ifrit	Loot	Gold-haloed Sack											
-Wind-up Lakshmi	Loot	Gold-haloed Sack											
-Wind-up Ramuh	Loot	Gold-haloed Sack											
-Wind-up Shiva	Loot	Gold-haloed Sack											
-Wind-up Susano	Loot	Gold-haloed Sack											
-Wind-up Titan	Loot	Gold-haloed Sack											
-Baby Bombfish	Loot	Silver-haloed Sack											
-Baby Brachiosaur	Loot	Silver-haloed Sack											
-Battledance Materia V	Loot	Silver-haloed Sack											
-Black Cherry Blossom Corsage	Loot	Silver-haloed Sack											
-Blissful Barding	Loot	Silver-haloed Sack											
-Bom Boko	Loot	Silver-haloed Sack											
-Castaway Chocobo Chick	Loot	Silver-haloed Sack											
-Clear Demimateria III	Loot	Silver-haloed Sack											
-Dried Green Oldrose	Loot	Silver-haloed Sack											
-Dwarf Rabbit	Loot	Silver-haloed Sack											
-Empyrean Clay	Loot	Silver-haloed Sack											
-Empyrean Pine Log	Loot	Silver-haloed Sack											
-Expanse Barding	Loot	Silver-haloed Sack											
-Falconer's Boots	Loot	Silver-haloed Sack											
-Falconer's Bottoms	Loot	Silver-haloed Sack											
-Falconer's Shirt	Loot	Silver-haloed Sack											
-Gestahl	Loot	Silver-haloed Sack											
-Ghido	Loot	Silver-haloed Sack											
-Hatamoto Card	Loot	Silver-haloed Sack											
-Hive Barding	Loot	Silver-haloed Sack											
-Horde Barding	Loot	Silver-haloed Sack											
-Hunting Hawk	Loot	Silver-haloed Sack											
-Ice Barding	Loot	Silver-haloed Sack											
-Intelligence Materia V	Loot	Silver-haloed Sack											
-Korpokkur Kid	Loot	Silver-haloed Sack											
-Levin Barding	Loot	Silver-haloed Sack											
-Lominsan Sparkler	Loot	Silver-haloed Sack											
-Magicked Prism (Crimson Star)	Loot	Silver-haloed Sack											
-Magicked Prism (Emerald Star)	Loot	Silver-haloed Sack											
-Magicked Prism (Harbor Herald)	Loot	Silver-haloed Sack											
-Magicked Prism (Immortal Flames)	Loot	Silver-haloed Sack											
-Magicked Prism (Twin Adder)	Loot	Silver-haloed Sack											
-Miniature Minecart	Loot	Silver-haloed Sack											
-Modern Aesthetics - Gyr Abanian Plait	Loot	Silver-haloed Sack											
-Morpho	Loot	Silver-haloed Sack											
-Odder Otter	Loot	Silver-haloed Sack											
-Oldrose Corsage	Loot	Silver-haloed Sack											
-Parting Ways Orchestrion Roll	Loot	Silver-haloed Sack											
-Reveler's Barding	Loot	Silver-haloed Sack											
-Road Sparrow	Loot	Silver-haloed Sack											
-Sephirotic Barding	Loot	Silver-haloed Sack											
-Shaggy Shoat	Loot	Silver-haloed Sack											
-Sophic Barding	Loot	Silver-haloed Sack											
-Strength Materia V	Loot	Silver-haloed Sack	Pagos Lockbox	Anemos Lockbox	Hydatos Lockbox								
-Thavnairian Armlets	Loot	Silver-haloed Sack											
-Thavnairian Bolero	Loot	Silver-haloed Sack											
-Thavnairian Headdress	Loot	Silver-haloed Sack											
-Thavnairian Tights	Loot	Silver-haloed Sack											
-Tidal Barding	Loot	Silver-haloed Sack											
-Ul'dahn Sparkler	Loot	Silver-haloed Sack											
-Vitality Materia V	Loot	Silver-haloed Sack											
-Wanyudo & Katasharin Card	Loot	Silver-haloed Sack											
-Wind-up Lakshmi	Loot	Silver-haloed Sack											
-Wind-up Leviathan	Loot	Silver-haloed Sack											
-Wind-up Ramuh	Loot	Silver-haloed Sack											
-Wind-up Shiva	Loot	Silver-haloed Sack											
-Wind-up Susano	Loot	Silver-haloed Sack											
-Zurvanite Barding	Loot	Silver-haloed Sack											
 Bronze-trimmed Sack	Instance	The Palace of the Dead (Floors 1-10)	The Palace of the Dead (Floors 11-20)	The Palace of the Dead (Floors 21-30)	The Palace of the Dead (Floors 31-40)	The Palace of the Dead (Floors 41-50)							
 Iron-trimmed Sack	Instance	The Palace of the Dead (Floors 51-60)	The Palace of the Dead (Floors 61-70)	The Palace of the Dead (Floors 71-80)	The Palace of the Dead (Floors 81-90)	The Palace of the Dead (Floors 91-100)							
 Silver-trimmed Sack	Instance	The Palace of the Dead (Floors 101-110)	The Palace of the Dead (Floors 111-120)	The Palace of the Dead (Floors 121-130)	The Palace of the Dead (Floors 131-140)	The Palace of the Dead (Floors 141-150)							
@@ -678,15 +2332,15 @@ Whisperfine Fleece	Instance	The Lost Canals of Uznair	The Shifting Altars of Uzn
 Divine Chandelier	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair										
 Birdbath	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair										
 Little Chef's Playset	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair										
-Capybara Pup	Instance	The Lost Canals of Uznair	The Shifting Altars of Uznair	The Hidden Canals of Uznair									
+Capybara Pup	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair	The Shifting Altars of Uznair									
+Hedgehoglet	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair	The Shifting Altars of Uznair									
+The Gold Whisker	Instance	The Shifting Altars of Uznair											
 Neo Aetherstone - Foot Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3										
 Neo Aetherstone - Hand Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3										
 Neo Aetherstone - Headgear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 2										
 Neo Aetherstone - Leg Gear	Instance	The Final Coil of Bahamut - Turn 2											
 Neo Aetherstone - Body Gear	Instance	The Final Coil of Bahamut - Turn 4											
-Uraeus Skin	Instance	The Wanderer's Palace											
-Dodore Wing	Instance	The Aurum Vale											
-Mossy Horn	Instance	The Aurum Vale											
+Allagan Melon	Gardening	Allagan Melon Seeds											
 Blue Oldroses	Gardening	Oldrose Seeds											
 Yellow Oldroses	Gardening	Oldrose Seeds											
 Green Oldroses	Gardening	Oldrose Seeds											
@@ -761,9 +2415,6 @@ Deep-green Cluster	Voyage	Sea of Clouds 18	Sea of Clouds 21	Sea of Clouds 24	Kom
 Deep-green Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 15	Southern Rimilala Trench								
 Deep-red Cluster	Voyage	Sea of Clouds 17	Sea of Clouds 20	Sea of Clouds 23	Kanayama	Glittersand Basin	Rogo-Tumu-Here's Haunt						
 Deep-red Crystal	Voyage	Sea of Clouds 05	Deep-sea site 3	Neolith Island	Deep-sea site 3								
-Dexterity Materia II	Voyage	Ivory Shoals											
-Dexterity Materia III	Voyage	Sea of Clouds 01	Sea of Clouds 20										
-Dexterity Materia IV	Voyage	Sea of Clouds 12	Sea of Clouds 20										
 Dimythrite Ore	Voyage	Rogo-Tumu-Here's Repose											
 Dimythrite Sand	Voyage	Sea of Jade 1											
 Dinosaur Fossil	Voyage	Purgatory											
@@ -776,6 +2427,7 @@ Emerald Crystal Boule	Voyage	Sea of Ash 3	The Open Robe
 Empty Cluster	Voyage	Sea of Clouds 16											
 Empty Crystal	Voyage	Sea of Clouds 05	Sea of Clouds 06	The Lightless Basin	Neolith Island	Deep-sea site 3							
 Faded Copy of A World Apart	Voyage	Sea of Clouds 23											
+Faded Copy of Ambient Abyss	Voyage	The Mystic Basin	Deep-sea Site 5	The Rimilala Shelf	Flickering Dip								
 Far Eastern Coin	Voyage	Sea of Clouds 16											
 Ferberite	Voyage	Sea of Clouds 01	Sea of Clouds 07	Sea of Clouds 13	Sea of Clouds 19	Sea of Clouds 23							
 Fine Alumen	Voyage	Sea of Clouds 04	Sea of Clouds 07	Sea of Clouds 13									
@@ -799,9 +2451,6 @@ Heavens' Eye Materia III	Voyage	Sea of Clouds 23
 Heavens' Eye Materia IV	Voyage	Sea of Clouds 12	Sea of Clouds 14	Sea of Clouds 23									
 Heavens' Eye Materia V	Voyage	Sea of Clouds 23											
 Ice Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 11	Sea of Clouds 13	Sea of Clouds 14	Sea of Clouds 15	Deep-sea site 1	Neolith Island	Sunken Vault			
-Intelligence Materia III	Voyage	Sea of Clouds 23											
-Intelligence Materia IV	Voyage	Sea of Clouds 11	Sea of Clouds 14	Sea of Clouds 23									
-Intelligence Materia V	Voyage	Sea of Clouds 23											
 Iron Giant Core	Voyage	Sea of Clouds 08	Sea of Clouds 14	Sea of Clouds 18	Sea of Clouds 19	Sea of Clouds 20	Sea of Clouds 22						
 Iron Voyage Spoil	Voyage	Sea of Clouds 24											
 Kamacite Ore	Voyage	Rimiala Shelf											
@@ -809,9 +2458,7 @@ Lightning Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea 
 Magnanimous Mogcrown	Voyage	Sea of Clouds 01	Sea of Clouds 10	Sea of Clouds 11	Sea of Clouds 15								
 Marble	Voyage	Flickering Dip											
 Marine Wax Ester	Voyage	Concealed Bay	Flickering Dip	The Wreckage of Discovery I	The Southern Charnel Trench								
-Meerkat	Voyage	Coldtoe Isle	The Open Robe										
-Mind Materia III	Voyage	Sea of Clouds 08	Sea of Clouds 19	The Mystic Basin	Offender's Rot								
-Mind Materia IV	Voyage	Sea of Clouds 19											
+Meerkat	Voyage	Coldtoe Isle	The Open Robe	The Stone Barbs									
 Miracle Apple Log	Voyage	The Isle of Sacrament											
 Mythrite Sand	Voyage	Sea of Clouds 20	Glittersand Basin										
 Oriental Grass Tuft	Voyage	Sea of Clouds 08	Sea of Clouds 14										
@@ -845,24 +2492,18 @@ Savage Might Materia III	Voyage	Sea of Clouds 05	Sea of Clouds 21	Deep-sea site 
 Savage Might Materia IV	Voyage	Sea of Clouds 21	Kanayama										
 Savage Might Materia V	Voyage	Sea of Clouds 21											
 Scarlet Sap	Voyage	Sea of Clouds 04	Sea of Clouds 10	Sea of Clouds 16	Sea of Clouds 22								
-Sharksucker-class	Voyage	The Southern Charnel Trench	The Central Charnel Trench	Sea of Ash 4	The Slipped Anchor								
+Sharksucker-class Insubmersible	Voyage	The Southern Charnel Trench	The Central Charnel Trench	Sea of Ash 4	The Slipped Anchor								
 Shrub Seedling	Voyage	Sea of Clouds 02	Sea of Clouds 06	Sea of Clouds 12									
 Siltstone	Voyage	Flickering Dip											
-Silver Dasher	Voyage	The Open Robe											
+Silver Dasher	Voyage	The Open Robe	Rogo-Tumu-Here's Haunt										
 Silver Ore	Voyage	Sea of Clouds 17											
 Star Ruby	Voyage	Unidentified Derelict	The Wreckage of Discovery I										
 Star Sapphire	Voyage	Unidentified Derelict											
-Strength Materia III	Voyage	Sea of Clouds 09	Sea of Clouds 18	Neolith Island									
-Strength Materia IV	Voyage	Sea of Clouds 18											
 Synthetic Fiber	Voyage	Sea of Clouds 11	Sea of Clouds 12	The Stone Barbs									
 Synthetic Resin	Voyage	Sea of Clouds 13											
 Tincalconite	Voyage	Sea of Clouds 07											
 Toy Box Schema	Voyage	Sea of Clouds 05	Sea of Clouds 09	Sea of Clouds 14	Sea of Clouds 17	Sea of Clouds 21							
 Unaspected Crystal	Voyage	Sea of Clouds 08	Sea of Clouds 10	The Ivory Shoals	Deep-sea Site 1	Deep-sea site 2	The Lightless Basin	Southern Rimilala Trench	The Umbrella Narrow	Offender's Rot	Neolith Island	The Cobalt Shoals	Deep-sea Site 4
-Vitality Materia II	Voyage	Deep-sea site 3											
-Vitality Materia III	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 24	Deep-sea site 3	The Central Rimilala Trench							
-Vitality Materia IV	Voyage	Sea of Clouds 15											
-Vitality Materia V	Voyage	Sea of Clouds 24											
 Vivianite	Voyage	Sea of Clouds 01	Sea of Clouds 02	Deep-sea site 1	Kanayama	Deep-sea site 4	The Southern Rimilala Trench	Purgatory					
 Voidrake Seeds	Voyage	Sea of Clouds 12	Sea of Clouds 14	Sea of Clouds 16									
 Water Crystal	Voyage	Sea of Clouds 02	Sea of Clouds 04	Sea of Clouds 07	Sea of Clouds 10	Sea of Clouds 12	Sea of Clouds 16	Deep-sea site 2	Deep-sea site 3	Offender's Rot			
@@ -872,64 +2513,13 @@ Wind Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Cl
 Wind Cluster	Voyage	The Wreckage of the Headway											
 Wind Silk	Voyage	Sea of Clouds 13	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 21								
 Cold-warped Lockbox	Other	Eureka Pagos, Mutated Mobs	Mutated Anubys										
-Frosted Protean Crystal	Other	Eureka Pagos, Crystal Forge 											
+Frosted Protean Crystal	Other	Eureka Pagos, Crystal Forge											
+Verdant Partition	Instance	Saint Mocianne's Arboretum (Hard)											
+Shinryu's Scale	Instance	The Minstrel's Ballad: Shinryu's Domain											
 Auspicious Kamuy Fife	Instance	The Jade Stoa (Extreme)											
 Lunar Kamuy Fife	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
 Euphonious Kamuy Fife	Instance	Hells' Kier (Extreme)											
 Hallowed Kamuy Fife	Instance	The Wreath of Snakes (Extreme)											
-Smilodon Skin	Drop	Smilodon											
-Grade 2 Skybuilders' Switch	Drop	Ageless Melia											
-Grade 2 Skybuilders' Teak Log	Drop	Ageless Melia											
-Grade 2 Skybuilders' Oak Log	Drop	Ageless Melia											
-Grade 2 Skybuilders' Walnut Log	Drop	Ageless Melia											
-Grade 2 Artisanal Skybuilders' Log	Drop	Ageless Melia											
-Grade 2 Skybuilders' Hemp	Drop	Cloudtrap											
-Grade 2 Skybuilders' Mistletoe	Drop	Cloudtrap											
-Grade 2 Skybuilders' Feathers	Drop	Cloudtrap											
-Grade 2 Skybuilders' Resin	Drop	Cloudtrap											
-Grade 2 Artisanal Skybuilders' Hardened Sap	Drop	Cloudtrap											
-Grade 2 Skybuilders' Zinc Orc	Drop	Diadem Beast											
-Grade 2 Skybuilders' Asphaltum	Drop	Diadem Beast											
-Grade 2 Skybuilders' Alumen	Drop	Diadem Beast											
-Grade 2 Skybuilders' Cloud Drop Water	Drop	Diadem Beast											
-Grade 2 Artisanal Skybuilders' Spring Water	Drop	Diadem Beast											
-Grade 2 Skybuilders' Maple Sap	Drop	Diadem Bulb											
-Grade 2 Skybuilders' Straw	Drop	Diadem Bulb											
-Grade 2 Skybuilders' Toads	Drop	Diadem Bulb											
-Grade 2 Skybuilders' Cotton Bolls	Drop	Diadem Bulb											
-Grade 2 Artisanal Skybuilders' Cotton Bolls	Drop	Diadem Bulb											
-Grade 2 Skybuilders' Iron Sand	Drop	Diadem Coblyn											
-Grade 2 Skybuilders' Mica	Drop	Diadem Coblyn											
-Grade 2 Skybuilders' Silex	Drop	Diadem Coblyn											
-Grade 2 Skybuilders' Basalt	Drop	Diadem Coblyn											
-Grade 2 Artisanal Skybuilders' Jade	Drop	Diadem Coblyn											
-Grade 2 Skybuilders' Ore	Drop	Diadem Golem											
-Grade 2 Skybuilders' Cobalt Ore	Drop	Diadem Golem											
-Grade 2 Skybuilders' Mythrite Ore	Drop	Diadem Golem											
-Grade 2 Skybuilders' Darksteel Ore	Drop	Diadem Golem											
-Grade 2 Artisanal Skybuilders' Cloudstone	Drop	Diadem Golem											
-Grade 2 Skybuilders' Rock Salt	Drop	Diadem Urolith											
-Grade 2 Skybuilders' Mythril Sand	Drop	Diadem Urolith											
-Grade 2 Skybuilders' Rocks	Drop	Diadem Urolith											
-Grade 2 Skybuilders' Lutinite	Drop	Diadem Urolith											
-Grade 2 Artisanal Skybuilders' Aurum Regis Sand	Drop	Diadem Urolith											
-Grade 2 Skybuilders' Maple Logs	Drop	Diadem Wood Golem											
-Grade 2 Skybuilders' Beehives	Drop	Diadem Wood Golem											
-Grade 2 Skybuilders' Vines	Drop	Diadem Wood Golem											
-Grade 2 Skybuilders' Wheat	Drop	Diadem Wood Golem											
-Grade 2 Artisanal Skybuilders' Wheat	Drop	Diadem Wood Golem											
-Grade 2 Skybuilders' Copper Sand	Drop	Islekeeper											
-Grade 2 Skybuilders' Pigment	Drop	Islekeeper											
-Grade 2 Skybuilders' Spring Water	Drop	Islekeeper											
-Grade 2 Skybuilders' Crystal-Clear Rock Salt	Drop	Islekeeper											
-Grade 2 Artisanal Skybuilders' Rock Salt	Drop	Islekeeper											
-Grade 2 Skybuilders' Flax	Drop	Proto-noctilucale											
-Grade 2 Skybuilders' Tea Leaves	Drop	Proto-noctilucale											
-Grade 2 Skybuilders' Barbgrass	Drop	Proto-noctilucale											
-Grade 2 Skybuilders' Adders	Drop	Proto-noctilucale											
-Grade 2 Artisanal Skybuilders' Dawn Lizards	Drop	Proto-noctilucale											
-Cloth Cointe Quaint	Drop	The Lost Canals of Uznair	The Hidden Canals of Uznair	The Shifting Canals of Uznair									
-Eft Tail	Drop	Lentic Mudpuppy											
 Seiryu's Scale	Instance	The Wreath of Snakes (Extreme)											
 Scarlet Tailfeather	Instance	Hells' Kier (Extreme)											
 Plate of Light	Instance	The Seat of Sacrifice (Extreme)											
@@ -941,3 +2531,121 @@ Dancing Wing	Instance	The Dancing Plague (Extreme)
 Celestial Kimono Remnant	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
 Byakko's Mane	Instance	The Jade Stoa (Extreme)											
 Bismarck's Baleen	Instance	The Limitless Blue (Extreme)	The Limitless Blue (Hard)										
+#zok mess, to sort													
+Clionid Larva	Instance	Akadaemia Anyder											
+Shadows Withal Orchestrion Roll	Instance	Akadaemia Anyder											
+Battle Orchestrion Roll	Instance	Alphascape V1.0											
+Primogenitor Orchestrion Roll	Instance	Alphascape V2.0											
+eScape Orchestrion Roll	Instance	Alphascape V3.0											
+Heartless Orchestrion Roll	Instance	Alphascape V4.0											
+OMG	Instance	Alphascape V4.0	Alphascape V4.0 (Savage)										
+Mortal Instants Orchestrion Roll	Instance	Amaurot											
+Shoebill	Instance	Amaurot											
+Ancient One	Instance	Anamnesis Anyder											
+Floundering in the Depths Orchestrion Roll	Instance	Anamnesis Anyder											
+Fury Orchestrion Roll	Instance	Brayflox's Longstop (Hard)											
+Alienus Orchestrion Roll	Instance	Castrum Abania											
+Faded Copy of The Black Wolf Stalks Again	Instance	Castrum Marinum (Extreme)											
+Faded Copy of Ultima (The Primals)	Instance	Cinder Drift (Extreme)											
+Below Orchestrion Roll	Instance	Copperbell Mines											
+Abomination Orchestrion Roll	Instance	Cutter's Cry											
+Figments Orchestrion Roll	Instance	Dohn Mheg											
+Tiny Echevore	Instance	Dohn Mheg											
+Gates of the Moon Orchestrion Roll	Instance	Doma Castle											
+Omega Squared Orchestrion Roll	Instance	Deltascape V1.0	Deltascape V2.0	Deltascape V3.0									
+Decisions Orchestrion Roll	Instance	Deltascape V4.0											
+The Darkhold Orchestrion Roll	Instance	Dzemael Darkhold											
+Force Your Way Orchestrion Roll	Instance	Eden's Gate: Resurrection	Eden's Gate: Descent										
+Blinding Indigo Orchestrion Roll	Instance	Eden's Gate: Inundation											
+Eden Minor	Instance	Eden's Gate: Sepulture	Eden's Gate: Sepulture (Savage)										
+Landslide Orchestrion Roll	Instance	Eden's Gate: Sepulture											
+Don't Be Afraid Orchestrion Roll	Instance	Eden's Promise: Litany											
+The Legendary Beast Orchestrion Roll	Instance	Eden's Promise: Anamorphosis											
+Promises to Keep Orchestrion Roll	Instance	Eden's Promise: Eternity											
+The Extreme Orchestrion Roll	Instance	Eden's Promise: Eternity (Savage)											
+Wind-up Gaia	Instance	Eden's Promise: Eternity	Eden's Promise: Eternity (Savage)										
+Twice Stricken Orchestrion Roll	Instance	Eden's Verse: Fulmination											
+Primal Angel Orchestrion Roll	Instance	Eden's Verse: Furor											
+Return to Oblivion Orchestrion Roll	Instance	Eden's Verse: Refulgence											
+Wind-up Ryne	Instance	Eden's Verse: Refulgence	Eden's Verse: Refulgence (Savage)										
+The Ludus Orchestrion Roll	Instance	Halatali											
+Beneath Bloodied Banners Orchestrion Roll	Instance	Halatali (Hard)											
+The Maiden's Lament Orchestrion Roll	Instance	Haukke Manor											
+Faded Copy of Sunrise	Instance	Hells' Kier (Extreme)											
+Black Hayate	Instance	Holminster Switch											
+To Fire and Sword Orchestrion Roll	Instance	Holminster Switch											
+Armadillo Bowler	Instance	Malikah's Well											
+Deep Down Orchestrion Roll	Instance	Malikah's Well											
+Drippy	Instance	Matoya's Relict											
+Freshly Glazed Porxie Orchestrion Roll	Instance	Matoya's Relict											
+Forgiven Hate	Instance	Mt. Gulg											
+In the Belly of the Beast Orchestrion Roll	Instance	Mt. Gulg											
+Upon the Rocks Orchestrion Roll	Instance	Pharos Sirius (Hard)											
+From Mud Orchestrion Roll	Instance	Saint Mocianne's Arboretum (Hard)											
+Mudpie	Instance	Saint Mocianne's Arboretum (Hard)											
+A Battle Decisively Orchestrion Roll	Instance	Sigmascape V1.0	Sigmascape V2.0	Sigmascape V3.0									
+Dancing Mad - Movement I Orchestrion Roll	Instance	Sigmascape V4.0											
+Dancing Mad - Movement II Orchestrion Roll	Instance	Sigmascape V4.0											
+Dancing Mad - Movement III Orchestrion Roll	Instance	Sigmascape V4.0											
+Wind-up Kefka	Instance	Sigmascape V4.0	Sigmascape V4.0 (Savage)										
+Dancing Calcabrina Orchestrion Roll	Instance	The Antitower											
+A Land Long Dead Orchestrion Roll	Instance	The Burn											
+Alien Manifestation Orchestrion Roll	Instance	The Copied Factory											
+Bipolar Nightmare Orchestrion Roll	Instance	The Copied Factory											
+City Ruins (Rays of Light) Orchestrion Roll	Instance	The Copied Factory											
+Pod 054	Instance	The Copied Factory											
+Pod 316	Instance	The Copied Factory											
+Song of the Ancients (Atonement) Orchestrion Roll	Instance	The Copied Factory											
+Weight of the World (Prelude Version) Orchestrion Roll	Instance	The Copied Factory											
+Dangerous Words Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah											
+Insatiable Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah											
+On Our Fates Alight Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah											
+Sungold Talos	Instance	The Dungeons of Lyhe Ghiah											
+Tomorrow and Tomorrow - Reprise Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah											
+Wind-up Fuath	Instance	The Dungeons of Lyhe Ghiah											
+A Pall Most Murderous Orchestrion Roll	Instance	The Ghimlyt Dark											
+Wind-up Weapon	Instance	The Ghimlyt Dark											
+Little Leannan	Instance	The Grand Cosmos											
+The Grand Cosmos Orchestrion Roll	Instance	The Grand Cosmos											
+Poogie	Instance	The Great Hunt (Extreme)											
+Proof of a Hero - Monster Hunter: World Version Orchestrion Roll	Instance	The Great Hunt (Extreme)											
+Ephemeral Necromancer	Instance	The Heroes' Gauntlet											
+Where All Roads Lead Orchestrion Roll	Instance	The Heroes' Gauntlet											
+The Ancient City Orchestrion Roll	Instance	The Lost City of Amdapor (Hard)											
+Faded Copy of Invincible	Instance	The Minstrel's Ballad: Hades's Elegy											
+Faded Copy of Under the Moonlight	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
+A Man Consumed Orchestrion Roll	Instance	The Orbonne Monastery											
+Antipyretic Orchestrion Roll	Instance	The Orbonne Monastery											
+Pressure (No. 1) Orchestrion Roll	Instance	The Orbonne Monastery											
+Ultima's Perfection Orchestrion Roll	Instance	The Orbonne Monastery											
+Under the Stars Orchestrion Roll	Instance	The Orbonne Monastery											
+Wind-up Ramza	Instance	The Orbonne Monastery											
+2B Automaton	Instance	The Puppets' Bunker											
+2P Automaton	Instance	The Puppets' Bunker											
+End of the Unknown Orchestrion Roll	Instance	The Puppets' Bunker											
+Fortress of Lies Orchestrion Roll	Instance	The Puppets' Bunker											
+Grandma - Destruction Orchestrion Roll	Instance	The Puppets' Bunker											
+Torn from the Heavens/The Dark Colossus Destroys All (Medley Version) Orchestrion Roll	Instance	The Puppets' Bunker											
+Chameleon	Instance	The Qitana Ravel											
+Unwound Orchestrion Roll	Instance	The Qitana Ravel											
+Apoplexy Orchestrion Roll	Instance	The Ridorana Lighthouse											
+Construct 8	Instance	The Ridorana Lighthouse											
+Flash of Steel Orchestrion Roll	Instance	The Ridorana Lighthouse											
+The Mystery of Giruvegan Orchestrion Roll	Instance	The Ridorana Lighthouse											
+Everywhere and Nowhere Orchestrion Roll	Instance	The Shifting Oubliettes of Lyhe Ghiah											
+Golden Beaver	Instance	The Shifting Oubliettes of Lyhe Ghiah											
+Unmatching Pieces Orchestrion Roll	Instance	The Shifting Oubliettes of Lyhe Ghiah											
+Earth, Wind, and Water Orchestrion Roll	Instance	The Swallow's Compass											
+Monkey King	Instance	The Swallow's Compass											
+A Long Fall Orchestrion Roll	Instance	The Twinning											
+A Tonberry’s Tears Orchestrion Roll	Instance	The Wanderer's Palace											
+Tricksome Orchestrion Roll	Instance	The Wanderer's Palace (Hard)											
+Faded Copy of From the Dragon's Wake	Instance	The Wreath of Snakes (Extreme)											
+Tengu Doll	Venture	Field Exploration XXII											
+Mystic Weapon	Venture	Field Exploration XXV											
+Wind-up Hobgoblin	Venture	Highland Exploration XXV											
+Domakin	Venture	Waterside Exploration XXV											
+Bacon Bits	Venture	Woodland Exploration XXV											
+Hard to Miss Orchestrion Roll	Voyage	Tangaroa's Prow											
+Nemesis Orchestrion Roll	Voyage	Moergynn's Forge											
+Syldrion-class Insubmersible	Voyage	Sea of Jade 4											
