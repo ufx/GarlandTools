@@ -4450,8 +4450,8 @@
         "icon": 21482,
         "id": 30591,
         "reduce": {
-          "item": "Levinstrike Aethersand",
-          "icon": 21238
+          "item": "Earth Cluster",
+          "icon": 20018
         }
       }
     ],
@@ -4496,8 +4496,8 @@
         "icon": 21482,
         "id": 30591,
         "reduce": {
-          "item": "Levinstrike Aethersand",
-          "icon": 21238
+          "item": "Earth Cluster",
+          "icon": 20018
         }
       }
     ],
@@ -4542,8 +4542,8 @@
         "icon": 21482,
         "id": 30591,
         "reduce": {
-          "item": "Levinstrike Aethersand",
-          "icon": 21238
+          "item": "Earth Cluster",
+          "icon": 20018
         }
       }
     ],
@@ -4828,8 +4828,8 @@
         "icon": 25039,
         "id": 30592,
         "reduce": {
-          "item": "Levinstrike Aethersand",
-          "icon": 21238
+          "item": "Lightning Cluster",
+          "icon": 20017
         }
       }
     ],
@@ -4874,8 +4874,8 @@
         "icon": 25039,
         "id": 30592,
         "reduce": {
-          "item": "Levinstrike Aethersand",
-          "icon": 21238
+          "item": "Lightning Cluster",
+          "icon": 20017
         }
       }
     ],
@@ -4920,8 +4920,8 @@
         "icon": 25039,
         "id": 30592,
         "reduce": {
-          "item": "Levinstrike Aethersand",
-          "icon": 21238
+          "item": "Lightning Cluster",
+          "icon": 20017
         }
       }
     ],

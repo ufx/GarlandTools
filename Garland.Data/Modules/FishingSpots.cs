@@ -543,6 +543,7 @@ namespace Garland.Data.Modules
 
             view.title = fishingSpot.en.name;
             view.category = GetFishingSpotCategoryName((int)fishingSpot.category);
+            view.spot = (int)spotView.spot;
             view.lvl = fishingSpot.lvl;
 
             if (fishingSpot.x != null)

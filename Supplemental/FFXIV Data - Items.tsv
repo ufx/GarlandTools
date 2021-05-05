@@ -26,7 +26,7 @@ Dried Ether	Desynth	Aged Phial
 Elm Lumber	Desynth	Aged Spear											
 Fieldcraft Demimateria I	Desynth												
 Fieldcraft Demimateria II	Desynth												
-Fieldcraft Demimateria III	Desynth	Best Man's Gaiters	Best Man's Jacket	Best Man's Slacks	Bridesmaid's Dress	Bridesmaid's Sandals	Bridesmaid's Tights	Handmaster's Earrings					
+Fieldcraft Demimateria III	Desynth	Best Man's Gaiters	Best Man's Jacket	Best Man's Slacks	Bridesmaid's Dress	Bridesmaid's Sandals	Bridesmaid's Tights	Handmaster's Earrings	Dinosaur Leather Gloves	Imperial Shadow Visor			
 Garnet	Desynth	Aged Ring											
 Glass Fiber	Desynth	Handmaster's Earrings											
 Gold Roselle Capeline	Desynth	Toramafish											
@@ -73,86 +73,270 @@ Chiaroglow Aethersand	Reduce	Gale Rock	White Clay	Voeburt Bichir
 Scuroglow Aethersand	Reduce	Sweet Marjoram	Solarite	Poecilia									
 Agewood Aethersand	Reduce	Bog Sage											
 Ageflow Aethersand	Reduce	Predator											
-Earth Cluster	Reduce	Humic Soil	Doman Yellow	Granular Clay	Peat Moss	White Clay							
-Earth Crystal	Reduce	Humic Soil	Doman Yellow	Granular Clay	Peat Moss	White Clay							
+Earth Cluster	Reduce	Humic Soil	Doman Yellow	Granular Clay	Peat Moss	White Clay	Thunder Rock						
+Earth Crystal	Reduce	Humic Soil	Doman Yellow	Granular Clay	Peat Moss	White Clay	Thunder Rock						
 Fire Cluster	Reduce	Rhodolite	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine	Shade Quartz							
 Fire Crystal	Reduce	Rhodolite	Bright Fire Rock	Fire Moraine	Radiant Fire Moraine	Shade Quartz							
-Ice Cluster	Reduce	Lover's Laurel	Torreya Branch	Bog Sage									
-Ice Crystal	Reduce	Lover's Laurel	Torreya Branch	Bog Sage									
-Lightning Cluster	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena	Solarite						
-Lightning Crystal	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena	Solarite						
-Water Cluster	Reduce	Radiant Astral Moraine	Dacite	Gale Rock									
-Water Crystal	Reduce	Radiant Astral Moraine	Dacite	Gale Rock									
+Ice Cluster	Reduce	Lover's Laurel	Torreya Branch	Bog Sage	Voeburt Bichir	Fuchsia Bloom							
+Ice Crystal	Reduce	Lover's Laurel	Torreya Branch	Bog Sage	Voeburt Bichir	Fuchsia Bloom							
+Lightning Cluster	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena	Solarite	Levin Mint					
+Lightning Crystal	Reduce	Bright Lightning Rock	Lightning Moraine	Radiant Lightning Moraine	Schorl	Yanxian Verbena	Solarite	Levin Mint					
+Water Cluster	Reduce	Radiant Astral Moraine	Dacite	Gale Rock	Poecilia								
+Water Crystal	Reduce	Radiant Astral Moraine	Dacite	Gale Rock	Poecilia								
 Wind Cluster	Reduce	Wild Sage	Water Mint	Pot marjoram	Countess Tea	Yanxian Soil	Sweet Marjoram						
 Wind Crystal	Reduce	Wild Sage	Water Mint	Pot marjoram	Countess Tea	Yanxian Soil	Sweet Marjoram						
 Levinstrike Aethersand	Reduce	Levin Mint	Thunder Rock	Fuchsia Bloom									
-Lotus Leaf	Loot	Timeworn Leather Map											
+Fire Shard	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map	Timeworn Boarskin Map	Timeworn Peisteskin Map							
+Ice Shard	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map	Timeworn Boarskin Map	Timeworn Peisteskin Map							
+Wind Shard	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map	Timeworn Boarskin Map	Timeworn Peisteskin Map							
+Earth Shard	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map	Timeworn Boarskin Map	Timeworn Peisteskin Map							
+Lightning Shard	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map	Timeworn Boarskin Map	Timeworn Peisteskin Map							
+Water Shard	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map	Timeworn Boarskin Map	Timeworn Peisteskin Map							
+Faded Copy of The Only Path	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Unhidden Leather Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map							
 Ahriman Tears	Loot	Timeworn Leather Map	Unhidden Leather Map										
-Moonstone	Loot	Timeworn Leather Map											
-Tiny Bulb	Loot	Timeworn Toadskin Map											
+Lotus Leaf	Loot	Timeworn Leather Map											
+Moonstone	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Unhidden Leather Map	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Peisteskin Map	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map						
+Aetherial Mythril Spectacles	Loot	Timeworn Leather Map											
+Aetherial Linen Turban	Loot	Timeworn Leather Map											
+Aetherial Linen Hat	Loot	Timeworn Leather Map											
+Aetherial Heavy Steel Armor	Loot	Timeworn Leather Map											
+Aetherial Linen Cowl	Loot	Timeworn Leather Map											
+Aetherial Linen Robe	Loot	Timeworn Leather Map											
+Aetherial Linen Shirt	Loot	Timeworn Leather Map											
+Aetherial Boarskin Ringbands	Loot	Timeworn Leather Map											
+Aetherial Fingerless Boarskin Gloves	Loot	Timeworn Leather Map											
+Aetherial Heavy Steel Gauntlets	Loot	Timeworn Leather Map											
+Aetherial Mythril Gauntlets	Loot	Timeworn Leather Map											
+Aetherial Boarskin Satchel Belt	Loot	Timeworn Leather Map											
+Aetherial Linen Longsash	Loot	Timeworn Leather Map											
+Aetherial Reinforced Steel Plate Belt	Loot	Timeworn Leather Map											
+Aetherial Linen Sarouel	Loot	Timeworn Leather Map											
+Aetherial Linen Tights	Loot	Timeworn Leather Map											
+Aetherial Linen Trousers	Loot	Timeworn Leather Map											
+Aetherial Boarskin Crakows	Loot	Timeworn Leather Map											
+Aetherial Heavy Steel Flanchard	Loot	Timeworn Leather Map											
+Aetherial Steel-plated Caligae	Loot	Timeworn Leather Map											
+Aetherial Toadskin Duckbills	Loot	Timeworn Leather Map											
+Aldgoat Horn	Loot	Timeworn Leather Map											
+Walnut Lumber	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Oak Lumber	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Iron Ingot	Loot	Timeworn Leather Map											
+Steel Ingot	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Steel Rivets	Loot	Timeworn Leather Map											
+Mythril Ingot	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Silver Ingot	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Siltstone Whetstone	Loot	Timeworn Leather Map											
+Electrum Ingot	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map									
+Hard Leather	Loot	Timeworn Leather Map											
+Aldgoat Leather	Loot	Timeworn Leather Map	Timeworn Toadskin Map										
+Toad Leather	Loot	Timeworn Leather Map											
+Boar Lether	Loot	Timeworn Leather Map											
+Peiste Leather	Loot	Timeworn Leather Map											
+Undyed Velveteen	Loot	Timeworn Leather Map											
+Linen Yarn	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Undyed Linen	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Woolen Yarn	Loot	Timeworn Leather Map											
+Horn Glue	Loot	Timeworn Leather Map											
+Growth Formula Gamma	Loot	Timeworn Leather Map											
+Hi-Ether	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Hi-Potion	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Hi-Potion of Strength	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Hi-Potion of Dexterity	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Hi-Potion of Vitality	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Hi-Potion of Intelligence	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Hi-Potion of Mind	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Cordial	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map									
+Blue Fox Hide	Loot	Timeworn Goatskin Map	Timeworn Peisteskin Map	Timeworn Dragonskin Map	Timeworn Wyvernskin Map								
+Exquisite Buttons	Loot	Timeworn Goatskin Map	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Unhidden Leather Map							
+Aetherial Mythril Celata	Loot	Timeworn Goatskin Map											
+Aetherial Ranger's Hat	Loot	Timeworn Goatskin Map											
+Aetherial Mythril Cuirass	Loot	Timeworn Goatskin Map											
+Aetherial Mythril Haubergeon	Loot	Timeworn Goatskin Map											
+Aetherial Woolen Shirt	Loot	Timeworn Goatskin Map											
+Aetherial Mythril Plate Belt	Loot	Timeworn Goatskin Map											
+Aetherial Peisteskin Hunting Belt	Loot	Timeworn Goatskin Map											
+Aetherial Woolen Sash	Loot	Timeworn Goatskin Map											
+Aetherial Fingerless Raptorskin Gloves	Loot	Timeworn Goatskin Map											
+Aetherial Woolen Dress Gloves	Loot	Timeworn Goatskin Map											
+Aetherial Boarskin Skirt	Loot	Timeworn Goatskin Map											
+Aetherial High Mythril Flanchard	Loot	Timeworn Goatskin Map											
+Aetherial Padded Linen Trousers	Loot	Timeworn Goatskin Map											
+Aetherial Woolen Dress Shoes	Loot	Timeworn Goatskin Map											
+Aetherial Woolen Kecks	Loot	Timeworn Goatskin Map											
+Aetherial Boarskin Duckbills	Loot	Timeworn Goatskin Map											
+Aetherial Mythril Sabatons	Loot	Timeworn Goatskin Map											
+Aetherial Peisteskin Crakows	Loot	Timeworn Goatskin Map											
+Aetherial Red Coral Ring	Loot	Timeworn Goatskin Map											
+Cactuar Needle	Loot	Timeworn Goatskin Map											
+Hippogryph Sinew	Loot	Timeworn Goatskin Map											
+Red Coral	Loot	Timeworn Goatskin Map											
+Mahogany Lumber	Loot	Timeworn Goatskin Map											
+Cobalt Ingot	Loot	Timeworn Goatskin Map											
+Steel Plate	Loot	Timeworn Goatskin Map											
+Mythril Plate	Loot	Timeworn Goatskin Map											
+Raptor Leather	Loot	Timeworn Goatskin Map											
+Undyed Woolen Cloth	Loot	Timeworn Goatskin Map	Timeworn Toadskin Map										
+Undyed Felt	Loot	Timeworn Goatskin Map											
+Clear Glass Lens	Loot	Timeworn Goatskin Map											
+Enchanted Mythril Ink	Loot	Timeworn Goatskin Map											
 Cutting Oil	Loot	Timeworn Toadskin Map	Timeworn Peisteskin Map	Unhidden Leather Map									
+Cobalt Plate	Loot	Timeworn Toadskin Map											
+Tiny Bulb	Loot	Timeworn Toadskin Map											
+Morbol Saliva	Loot	Timeworn Toadskin Map	Unhidden Leather Map										
+Aetherial Cobalt Sabatons	Loot	Timeworn Toadskin Map											
+Aetherial Electrum Wristlets	Loot	Timeworn Toadskin Map											
+Rosewood Lumber	Loot	Timeworn Toadskin Map											
 Swan Feather	Loot	Timeworn Boarskin Map											
 Mariner Cotton Cloth	Loot	Timeworn Boarskin Map	Unhidden Leather Map										
 Eagle Feather	Loot	Timeworn Boarskin Map											
 Wind-up Tonberry	Loot	Timeworn Boarskin Map											
-Frosted Glass Lens	Loot	Timeworn Peisteskin Map	Unhidden Leather Map										
-Chinchilla Hide	Loot	Timeworn Peisteskin Map	Unhidden Leather Map										
-Blue Fox Hide	Loot	Timeworn Goatskin Map	Timeworn Peisteskin Map	Timeworn Dragonskin Map	Timeworn Wyvernskin Map								
+Aqueous Whetstone	Loot	Timeworn Boarskin Map	Unhidden Leather Map										
+Belah'dian Silver	Loot	Timeworn Boarskin Map	Timeworn Peisteskin Map	Unhidden Leather Map									
+Raptor Sinew	Loot	Timeworn Boarskin Map											
 Bluebird	Loot	Timeworn Peisteskin Map	Timeworn Dragonskin Map										
-Nutkin	Loot	Unhidden Leather Map											
+Chinchilla Hide	Loot	Timeworn Peisteskin Map	Unhidden Leather Map										
+Dress Material	Loot	Timeworn Peisteskin Map	Unhidden Leather Map										
+Frosted Glass Lens	Loot	Timeworn Peisteskin Map	Unhidden Leather Map										
+Astral Rock	Loot	Timeworn Peisteskin Map											
+Coeurl Skin	Loot	Timeworn Peisteskin Map											
+Minium	Loot	Timeworn Peisteskin Map											
+Treant Sap	Loot	Timeworn Peisteskin Map											
+Vampire Plant	Loot	Timeworn Peisteskin Map											
+Astral Eye	Loot	Timeworn Peisteskin Map											
+Undyed Felt	Loot	Timeworn Peisteskin Map											
+Mega-Potion of Strength	Loot	Timeworn Peisteskin Map											
+Mega-Potion of Dexterity	Loot	Timeworn Peisteskin Map											
+Mega-Potion of Vitality	Loot	Timeworn Peisteskin Map											
+Mega-Potion of Intelligence	Loot	Timeworn Peisteskin Map											
+Mega-Potion of Mind	Loot	Timeworn Peisteskin Map											
+Fire Cluster	Loot	Unhidden Leather Map											
+Ice Cluster	Loot	Unhidden Leather Map											
+Wind Cluster	Loot	Unhidden Leather Map											
+Earth Cluster	Loot	Unhidden Leather Map											
+Lightning Cluster	Loot	Unhidden Leather Map											
+Water Cluster	Loot	Unhidden Leather Map											
+Imitation Mistbeard Mask	Loot	Unhidden Leather Map											
+Imperial Shadow Visor	Loot	Unhidden Leather Map											
 Mist Silk	Loot	Unhidden Leather Map											
+Nutkin	Loot	Unhidden Leather Map											
+Polarized Glass	Loot	Unhidden Leather Map											
+Spriggan Cap	Loot	Unhidden Leather Map											
+Animal Fat	Loot	Unhidden Leather Map											
+Grade 3 La Noscean Topsoil	Loot	Unhidden Leather Map											
+Grade 3 Shroud Topsoil	Loot	Unhidden Leather Map											
+Grade 3 Thanalan Topsoil	Loot	Unhidden Leather Map											
+Fire Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
+Ice Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
+Wind Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
+Earth Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
+Lightning Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
+Water Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
+Yeti Fang	Loot	Timeworn Archaeoskin Map											
+Holy Cedar Lumber	Loot	Timeworn Archaeoskin Map											
+Dark Chestnut Lumber	Loot	Timeworn Archaeoskin Map											
+Mythrite Rivets	Loot	Timeworn Archaeoskin Map											
+Mythrite Ingot	Loot	Timeworn Archaeoskin Map											
+Titanium Nugget	Loot	Timeworn Archaeoskin Map											
+Titanium Rivets	Loot	Timeworn Archaeoskin Map											
+Wyvern Leather	Loot	Timeworn Archaeoskin Map											
+Dhalmel Leather	Loot	Timeworn Archaeoskin Map											
+Rainbow Thread	Loot	Timeworn Archaeoskin Map											
+Holy Rainbow Cloth	Loot	Timeworn Archaeoskin Map											
+Ramie Thread	Loot	Timeworn Archaeoskin Map											
+Ramie Cloth	Loot	Timeworn Archaeoskin Map											
+Holy Water	Loot	Timeworn Archaeoskin Map											
+Enchanted Hardsilver Ink	Loot	Timeworn Archaeoskin Map											
+Draconian Potion of Strength	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map									
+Draconian Potion of Dexterity	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map									
+Draconian Potion of Vitality	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map									
+Draconian Potion of Intelligence	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map									
+Draconian Potion of Mind	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map									
+Antique Leather	Loot	Timeworn Wyvernskin Map											
+Antique Rug	Loot	Timeworn Wyvernskin Map											
 Atomos Corpulence	Loot	Timeworn Wyvernskin Map											
+Falconer's Hemp	Loot	Timeworn Wyvernskin Map											
 Steel Wheel Bearing	Loot	Timeworn Wyvernskin Map											
+Paissa Brat	Loot	Timeworn Dragonskin Map											
+Rush Grass	Loot	Timeworn Dragonskin Map											
 Thavnairian Leather	Loot	Timeworn Dragonskin Map											
 Thavnairian Silk	Loot	Timeworn Dragonskin Map											
-Rush Grass	Loot	Timeworn Dragonskin Map											
-Unhidden Leather Map	Loot	Timeworn Peisteskin Map	Timeworn Dragonskin Map										
-Imperial Shadow Visor	Loot	Unhidden Leather Map											
-Dress Material	Loot	Unhidden Leather Map											
-Morbol Saliva	Loot	Unhidden Leather Map	Timeworn Toadskin Map										
-Falconer's Hemp	Loot	Timeworn Wyvernskin Map											
-Antique Rug	Loot	Timeworn Wyvernskin Map											
-Antique Leather	Loot	Timeworn Wyvernskin Map											
-Faded Copy of The Only Path	Loot	Timeworn Dragonskin Map	Unhidden Leather Map	Timeworn Wyvernskin Map									
-Paissa Brat	Loot	Timeworn Dragonskin Map											
 Unidentifiable Ore	Loot	Timeworn Dragonskin Map											
-Exquisite Buttons	Loot	Timeworn Goatskin Map	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Unhidden Leather Map							
-Stygian Ash	Loot	Timeworn Gazelleskin Map	Timeworn Gaganaskin Map										
-Unmoving Maneki Moogle	Loot	Timeworn Gaganaskin Map											
-Taoist's Wool	Loot	Timeworn Gaganaskin Map											
+Unidentifiable Shell	Loot	Timeworn Dragonskin Map											
+Holy Linen	Loot	Timeworn Gaganaskin Map											
+Leather Cointe Quaint	Loot	Timeworn Gaganaskin Map											
 Nagxian Leather	Loot	Timeworn Gaganaskin Map											
+Taoist's Wool	Loot	Timeworn Gaganaskin Map											
+Autumnal Ginkgo Tree	Loot	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map										
+Autumnal Maple Tree	Loot	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map										
+Ginkgo Leaf Pile	Loot	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map										
+Maple Leaf Pile	Loot	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map										
+Stygian Ash	Loot	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map										
+Little Chef's Playset	Loot	Timeworn Gaganaskin Map	Fête Present										
+Unmoving Maneki Moogle	Loot	Timeworn Gaganaskin Map											
+Dzo Horn	Loot	Timeworn Gaganaskin Map											
+Muud Suud Horn	Loot	Timeworn Gaganaskin Map											
+Larch Lumber	Loot	Timeworn Gaganaskin Map											
+Pine Lumber	Loot	Timeworn Gaganaskin Map											
+High Steel Nugget	Loot	Timeworn Gaganaskin Map											
+High Steel Ingot	Loot	Timeworn Gaganaskin Map											
+Oroshigane Ingot	Loot	Timeworn Gaganaskin Map											
+Tama-hagane Ingot	Loot	Timeworn Gaganaskin Map											
+Koppranickel Nugget	Loot	Timeworn Gaganaskin Map											
+Triphane	Loot	Timeworn Gaganaskin Map											
+Kyanite	Loot	Timeworn Gaganaskin Map											
+Gagana Leather	Loot	Timeworn Gaganaskin Map											
+Gyuki Leather	Loot	Timeworn Gaganaskin Map											
+Bloodhempen Yarn	Loot	Timeworn Gaganaskin Map											
+Ruby Cotton Yarn	Loot	Timeworn Gaganaskin Map											
+Kudzu Thread	Loot	Timeworn Gaganaskin Map											
+Commanding Craftsman's Tea	Loot	Timeworn Gaganaskin Map											
+Competent Craftsman's Tea	Loot	Timeworn Gaganaskin Map											
+Cunning Craftsman's Tea	Loot	Timeworn Gaganaskin Map											
+Enchanted Koppranickel Ink	Loot	Timeworn Gaganaskin Map											
+Enchanted Durium Ink	Loot	Timeworn Gaganaskin Map											
+Grade 1 Reisui of Strength	Loot	Timeworn Gaganaskin Map											
+Grade 1 Reisui of Dexterity	Loot	Timeworn Gaganaskin Map											
+Grade 1 Reisui of Vitality	Loot	Timeworn Gaganaskin Map											
+Grade 1 Reisui of Intelligence	Loot	Timeworn Gaganaskin Map											
+Grade 1 Reisui of Mind	Loot	Timeworn Gaganaskin Map											
+Growth Formula Eta	Loot	Timeworn Gaganaskin Map											
 Moai Statue	Loot	Timeworn Gazelleskin Map											
-Autumnal Maple Tree	Loot	Timeworn Gazelleskin Map											
-Maple Leaf Pile	Loot	Timeworn Gazelleskin Map											
 Waterproof Cloth	Loot	Timeworn Gazelleskin Map											
-Polarized Glass	Loot	Unhidden Leather Map											
-Indigo Cloth	Loot	Timeworn Zonureskin Map											
+Fine Glass Fiber	Loot	Timeworn Gliderskin Map											
+Steer Hide	Loot	Timeworn Gliderskin Map											
+Calf Leather	Loot	Timeworn Zonureskin Map											
+Cloth-softening Powder	Loot	Timeworn Zonureskin Map											
 Fireglass Leather	Loot	Timeworn Zonureskin Map											
+Indigo Cloth	Loot	Timeworn Zonureskin Map											
+Seacloth	Loot	Timeworn Zonureskin Map											
+Shell Leather	Loot	Timeworn Zonureskin Map											
 Retainer Fantasia	Loot	Venture Coffer											
-General-purpose Pure White Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Jet Black Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Pastel Pink Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Dark Red Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Dark Brown Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Pastel Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Dark Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Pastel Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Dark Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Pastel Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Dark Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Metallic Silver Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Metallic Gold Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Metallic Red Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Metallic Orange Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Metallic Yellow Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Metallic Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Metallic Sky Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Metallic Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
-General-purpose Metallic Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox								
+General-purpose Pure White Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Jet Black Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Pastel Pink Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Dark Red Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Dark Brown Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Pastel Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Dark Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Pastel Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Dark Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Pastel Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Dark Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Metallic Silver Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Metallic Gold Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Metallic Red Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Metallic Orange Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Metallic Yellow Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Metallic Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Metallic Sky Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Metallic Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Metallic Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
 Allagan Platinum Piece	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
 Baby Opo-opo	Loot	Bronze-trimmed Sack											
 Bluebird	Loot	Bronze-trimmed Sack											
-Cherry Confetti	Loot	Bronze-trimmed Sack	Anemos Lockbox	Pagos Lockbox									
+Cherry Confetti	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox								
+Peach Confetti	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Clear Demimateria I	Loot	Bronze-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox							
 Clear Demimateria II	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
 Clear Demimateria III	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
@@ -167,23 +351,26 @@ Quickarm Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pag
 Quicktongue Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Quicktongue Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
 Battledance Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
-Battledance Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
+Battledance Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-haloed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox					
 Piety Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Piety Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
 Expeditioner's Coat	Loot	Bronze-trimmed Sack											
 Expeditioner's Moccasins	Loot	Bronze-trimmed Sack											
 Expeditioner's Pantalettes	Loot	Bronze-trimmed Sack											
 Falconer's Shirt	Loot	Bronze-trimmed Sack											
-Flame Tracer	Loot	Bronze-trimmed Sack	Anemos Lockbox										
+Flame Tracer	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox									
+Serpent Tracer	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox									
+Storm Tracer	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox									
 Gaelikitten	Loot	Bronze-trimmed Sack											
 Gridanian Sparkler	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Silver-haloed Sack	Anemos Lockbox							
+Lominsan Sparkler	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Silver-haloed Sack	Anemos Lockbox							
+Ul'dahn Sparkler	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Silver-haloed Sack	Anemos Lockbox							
 Gryphonskin Breastguard	Loot	Bronze-trimmed Sack											
 Gryphonskin Pantalettes	Loot	Bronze-trimmed Sack											
 High House Boots	Loot	Bronze-trimmed Sack											
 High House Halfboots	Loot	Bronze-trimmed Sack											
 High House Justaucorps	Loot	Bronze-trimmed Sack											
 Lesser Panda	Loot	Bronze-trimmed Sack											
-Lominsan Sparkler	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Silver-haloed Sack	Anemos Lockbox							
 Magicked Prism (Crimson Star)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
 Magicked Prism (Emerald Star)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
 Magicked Prism (Harbor Herald)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
@@ -194,11 +381,11 @@ Magicked Prism (Mythril Eye)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-t
 Magicked Prism (The Raven)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
 Magicked Prism (Twin Adder)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
 Minute Mindflayer	Loot	Bronze-trimmed Sack											
-Modern Aesthetics - Samsonian Locks	Loot	Bronze-trimmed Sack											
-Moonfire Caligae	Loot	Bronze-trimmed Sack											
-Moonfire Halter	Loot	Bronze-trimmed Sack											
-Moonfire Hat	Loot	Bronze-trimmed Sack											
-Moonfire Tanga	Loot	Bronze-trimmed Sack											
+Modern Aesthetics - Samsonian Locks	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack									
+Moonfire Caligae	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Moonfire Halter	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Moonfire Hat	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Moonfire Tanga	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Mummy's Little Mummy	Loot	Bronze-trimmed Sack											
 Nutkin	Loot	Bronze-trimmed Sack											
 Page 63	Loot	Bronze-trimmed Sack											
@@ -206,12 +393,9 @@ Paissa Brat	Loot	Bronze-trimmed Sack
 Palace of the Dead Flooring	Loot	Bronze-trimmed Sack											
 Palace of the Dead Interior Wall	Loot	Bronze-trimmed Sack											
 Palace Pedestal	Loot	Bronze-trimmed Sack											
-Peach Confetti	Loot	Bronze-trimmed Sack											
-Serpent Tracer	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox									
-Storm Tracer	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox									
-Survival Halfslops	Loot	Bronze-trimmed Sack											
-Survival Hat	Loot	Bronze-trimmed Sack											
-Survival Shirt	Loot	Bronze-trimmed Sack											
+Survival Halfslops	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Survival Hat	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
+Survival Shirt	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Thavnairian Armlets	Loot	Bronze-trimmed Sack											
 Thavnairian Babouches	Loot	Bronze-trimmed Sack											
 Thavnairian Bolero	Loot	Bronze-trimmed Sack											
@@ -222,23 +406,21 @@ Thavnairian Sarouel	Loot	Bronze-trimmed Sack
 Thavnairian Tights	Loot	Bronze-trimmed Sack											
 Tiny Bulb	Loot	Bronze-trimmed Sack											
 Ugly Duckling	Loot	Bronze-trimmed Sack											
-Ul'dahn Sparkler	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Silver-haloed Sack	Anemos Lockbox							
 Unicolt	Loot	Bronze-trimmed Sack											
 Wind Silk Bottoms	Loot	Bronze-trimmed Sack											
 Wind Silk Coatee	Loot	Bronze-trimmed Sack											
 Wind-up Tonberry	Loot	Bronze-trimmed Sack											
 Blackbosom Orchestrion Roll	Loot	Iron-trimmed Sack											
-Cherry Confetti	Loot	Iron-trimmed Sack											
 Dinosaur Leather Gloves	Loot	Iron-trimmed Sack											
 Dinosaur Leather Shoes	Loot	Iron-trimmed Sack											
 Expeditioner's Cap	Loot	Iron-trimmed Sack											
+Expeditioner's Gloves	Loot	Iron-trimmed Sack											
 Expeditioner's Moccasins	Loot	Iron-trimmed Sack											
 Expeditioner's Tabard	Loot	Iron-trimmed Sack											
 Expeditioner's Thighboots	Loot	Iron-trimmed Sack											
 Gryphonskin Breastguard	Loot	Iron-trimmed Sack											
 Moonfire Trunks	Loot	Iron-trimmed Sack											
 Moonfire Vest	Loot	Iron-trimmed Sack											
-Peach Confetti	Loot	Iron-trimmed Sack											
 Replica Allagan Boots of Casting	Loot	Iron-trimmed Sack											
 Replica Allagan Boots of Healing	Loot	Iron-trimmed Sack											
 Replica Allagan Breeches of Casting	Loot	Iron-trimmed Sack											
@@ -275,8 +457,23 @@ Uraeus Body Armor	Loot	Iron-trimmed Sack
 Wind Silk Bottoms	Loot	Iron-trimmed Sack											
 Wind Silk Wedge Cap	Loot	Iron-trimmed Sack											
 Wind-up Edda	Loot	Iron-trimmed Sack	Silver-trimmed Sack	Gold-trimmed Sack									
-Abigail Barding	Loot	Silver-trimmed Sack											
+Abigail Barding	Loot	Silver-trimmed Sack	Gold-trimmed Sack										
+Inferno Blade	Loot	Silver-trimmed Sack											
+Inferno Claws 	Loot	Silver-trimmed Sack											
+Inferno Battleaxe	Loot	Silver-trimmed Sack											
+Inferno Harpoon	Loot	Silver-trimmed Sack											
+Inferno Bow	Loot	Silver-trimmed Sack											
+Inferno Cane	Loot	Silver-trimmed Sack											
+Inferno Cudgel	Loot	Silver-trimmed Sack											
+Inferno Grimoire	Loot	Silver-trimmed Sack											
 Inferno Codex	Loot	Silver-trimmed Sack											
+Inferno Kris	Loot	Silver-trimmed Sack											
+Inferno Faussar	Loot	Silver-trimmed Sack											
+Inferno Musketoon	Loot	Silver-trimmed Sack											
+Inferno Star Globe	Loot	Silver-trimmed Sack											
+Inferno Rod	Loot	Silver-trimmed Sack											
+Inferno Katana	Loot	Silver-trimmed Sack											
+Inferno Rapier	Loot	Silver-trimmed Sack											
 Replica Allagan Baghnakhs	Loot	Silver-trimmed Sack											
 Replica Allagan Battleaxe	Loot	Silver-trimmed Sack											
 Replica Allagan Blade	Loot	Silver-trimmed Sack											
@@ -292,9 +489,9 @@ Replica Allagan Round Shield	Loot	Silver-trimmed Sack
 Replica Allagan Scepter	Loot	Silver-trimmed Sack											
 Replica Allagan Spear	Loot	Silver-trimmed Sack											
 Replica Allagan Star Globe	Loot	Silver-trimmed Sack											
+Replica High Allagan Headgear of Striking	Loot	Silver-trimmed Sack											
 Replica High Allagan Gauntlets of Striking	Loot	Silver-trimmed Sack											
 Tremor Culverin	Loot	Silver-trimmed Sack											
-Abigail Barding	Loot	Gold-trimmed Sack											
 Dead Hive Battleaxe	Loot	Gold-trimmed Sack											
 Dead Hive Bow	Loot	Gold-trimmed Sack											
 Dead Hive Cane	Loot	Gold-trimmed Sack											
@@ -353,7 +550,6 @@ Replica High Allagan Blade	Loot	Gold-trimmed Sack
 The Law of Levin First Edition	Loot	Gold-trimmed Sack											
 Baby Bombfish	Loot	Silver-haloed Sack											
 Baby Brachiosaur	Loot	Silver-haloed Sack											
-Battledance Materia V	Loot	Silver-haloed Sack											
 Black Cherry Blossom Corsage	Loot	Silver-haloed Sack											
 Blissful Barding	Loot	Silver-haloed Sack											
 Bom Boko	Loot	Silver-haloed Sack											
@@ -559,24 +755,6 @@ Seeing Horde Codex	Loot	Southern Front Lockbox
 Seeing Horde Star Globe	Loot	Southern Front Lockbox											
 Seeing Horde Katana	Loot	Southern Front Lockbox											
 Seeing Horde Rapier	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Longsword	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Shield	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Claws	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral War Axe	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Lance	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Greatbow	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Daggers	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Greatsword	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Revolver	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Cane	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Rod	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Grimoire	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Codex	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Ephemeris	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Katana	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Rapier	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Gunblade	Loot	Southern Front Lockbox											
-Shinryu's Ephemeral Chakrams	Loot	Southern Front Lockbox											
 Abroader Otter	Loot	Southern Front Lockbox											
 Axolotl Eft	Loot	Southern Front Lockbox											
 Byakko Cub	Loot	Southern Front Lockbox											
@@ -639,9 +817,9 @@ Hannish Wool Autumn Shirt	Loot	Southern Front Lockbox
 Quaintrelle's Ruffled Dress	Loot	Southern Front Lockbox											
 Quaintrelle's Ruffled Skirt	Loot	Southern Front Lockbox											
 Quaintrelle's Dress Shoes	Loot	Southern Front Lockbox											
-Rain Boots	Loot	Southern Front Lockbox											
 Rain Hood	Loot	Southern Front Lockbox											
 Raincoat	Loot	Southern Front Lockbox											
+Rain Boots	Loot	Southern Front Lockbox											
 Thavnairian Wool Autumn Dress	Loot	Southern Front Lockbox											
 Thavnairian Wool Autumn Shirt	Loot	Southern Front Lockbox											
 Blazing Inferno Wall Lamp	Loot	Southern Front Lockbox											
@@ -659,6 +837,80 @@ Zurvan Miniature	Loot	Southern Front Lockbox
 Classy Checkered Parasol	Loot	Southern Front Lockbox											
 Gabriel α Identification Key	Loot	Southern Front Lockbox											
 Wind on the Plains Orchestrion Roll	Loot	Southern Front Lockbox											
+Gunmetal Black Dye	Loot	Fête Present											
+Pearl White Dye	Loot	Fête Present											
+Metallic Brass Dye	Loot	Fête Present											
+Ruby Red Dye	Loot	Fête Present											
+Cherry Pink Dye	Loot	Fête Present											
+Canary Yellow Dye	Loot	Fête Present											
+Vanilla Yellow Dye	Loot	Fête Present											
+Dragoon Blue Dye	Loot	Fête Present											
+Turquoise Blue Dye	Loot	Fête Present											
+Fête Token	Loot	Fête Present											
+Antelope Stag Horn	Loot	Fête Present											
+Peacelover's Attire Coffer	Loot	Fête Present											
+Atrophied Atomos	Loot	Fête Present											
+Bullpup	Loot	Fête Present											
+Cerberpup	Loot	Fête Present											
+Dwarf Rabbit	Loot	Fête Present											
+Gaelikitten	Loot	Fête Present											
+Morpho	Loot	Fête Present											
+Nutkin	Loot	Fête Present											
+Owlet	Loot	Fête Present											
+Ugly Duckling	Loot	Fête Present											
+Ballroom Etiquette - Emphatic Elucidation	Loot	Fête Present											
+Ballroom Etiquette - Intelligent Impressions	Loot	Fête Present											
+Ballroom Etiquette - The Winsome Wallflower	Loot	Fête Present											
+Modern Aesthetics - Controlled Chaos	Loot	Fête Present											
+Modern Aesthetics - Modern Legend	Loot	Fête Present											
+Modern Aesthetics - Saintly Style	Loot	Fête Present											
+Born of the Boughs - The Theme of Gridania Orchestrion Roll	Loot	Fête Present											
+Fealty Orchestrion Roll	Loot	Fête Present											
+Hearthward Orchestrion Roll	Loot	Fête Present											
+Heavens' Ward Orchestrion Roll	Loot	Fête Present											
+Navigator's Glory - The Theme of Limsa Lominsa Orchestrion Roll	Loot	Fête Present											
+Paradise Found Orchestrion Roll	Loot	Fête Present											
+Stone and Steel Orchestrion Roll	Loot	Fête Present											
+The Twin Faces of Fate - The Theme of Ul'dah Orchestrion Roll	Loot	Fête Present											
+Tricksome Orchestrion Roll	Loot	Fête Present											
+Upon the Rocks Orchestrion Roll	Loot	Fête Present											
+What Is Love? Orchestrion Roll	Loot	Fête Present											
+Calming Checkered Parasol	Loot	Fête Present											
+Cheerful Checkered Parasol	Loot	Fête Present											
+Parasol	Loot	Fête Present											
+Pastoral Dot Parasol	Loot	Fête Present											
+Sky Blue Parasol	Loot	Fête Present											
+Expanse Barding	Loot	Fête Present											
+Hive Barding	Loot	Fête Present											
+Horde Barding	Loot	Fête Present											
+Ice Barding	Loot	Fête Present											
+Levin Barding	Loot	Fête Present											
+Sephirotic Barding	Loot	Fête Present											
+Sophic Barding	Loot	Fête Present											
+Tidal Barding	Loot	Fête Present											
+Zurvanite Barding	Loot	Fête Present											
+Craftsman's Apron	Loot	Fête Present											
+Craftsman's Singlet	Loot	Fête Present											
+Craftsman's Coverall Bottoms	Loot	Fête Present											
+Craftsman's Leather Shoes	Loot	Fête Present											
+Skyworker's Singlet	Loot	Fête Present											
+Skyworker's Bottoms	Loot	Fête Present											
+Skyworker's Boots	Loot	Fête Present											
+Apron Rack	Loot	Fête Present											
+Azure Dragoon Portrait	Loot	Fête Present											
+Birdbath	Loot	Fête Present											
+Brick Garden Circle	Loot	Fête Present											
+Fête Party Balloons	Loot	Fête Present											
+Fête Skyrise Balloon	Loot	Fête Present											
+Fortemps Sofa	Loot	Fête Present											
+Garment Rack	Loot	Fête Present											
+Ishgardian Display Stand	Loot	Fête Present											
+Ishgardian Stove	Loot	Fête Present											
+Lord Commander Portrait	Loot	Fête Present											
+Plush Pile	Loot	Fête Present											
+Stuffed Cait Sith	Loot	Fête Present											
+Stuffed Estinien	Loot	Fête Present											
+Verdant Partition	Loot	Fête Present											
 Genji Shichishito	Loot	Genji Coffer											
 Genji Shield	Loot	Genji Coffer											
 Genji Greataxe	Loot	Genji Coffer											
@@ -2048,6 +2300,16 @@ Gunro Oyoroi	Loot	Gunro Armor Coffer
 Gunro Kote	Loot	Gunro Armor Coffer											
 Gunro Tsutsu-hakama	Loot	Gunro Armor Coffer											
 Gunro Sune-ate	Loot	Gunro Armor Coffer											
+Shadowstalker's Helm	Loot	Shadowstalker's Attire Coffer											
+Shadowstalker's Armor	Loot	Shadowstalker's Attire Coffer											
+Shadowstalker's Gauntlets	Loot	Shadowstalker's Attire Coffer											
+Shadowstalker's Breeches	Loot	Shadowstalker's Attire Coffer											
+Shadowstalker's Sabatons	Loot	Shadowstalker's Attire Coffer											
+Shadowcleaver's Helm	Loot	Shadowcleaver's Attire Coffer											
+Shadowcleaver's Armor	Loot	Shadowcleaver's Attire Coffer											
+Shadowcleaver's Gauntlets	Loot	Shadowcleaver's Attire Coffer											
+Shadowcleaver's Breeches	Loot	Shadowcleaver's Attire Coffer											
+Shadowcleaver's Sabatons	Loot	Shadowcleaver's Attire Coffer											
 Skysteel Saw	Loot	Skysteel Prototype Coffer											
 Skysteel Cross-pein Hammer	Loot	Skysteel Prototype Coffer											
 Skysteel Raising Hammer	Loot	Skysteel Prototype Coffer											
@@ -2135,6 +2397,11 @@ Fur-lined Saurian Boots	Loot	Cashmere Attire Coffer
 Casual Jacket	Loot	Casual Attire Coffer											
 Casual Halfslops	Loot	Casual Attire Coffer											
 Casual Boots	Loot	Casual Attire Coffer											
+Peacelover's Hat	Loot	Peacelover's Attire Coffer											
+Peacelover's Shirt	Loot	Peacelover's Attire Coffer											
+Peacelover's Gloves	Loot	Peacelover's Attire Coffer											
+Peacelover's Pantaloons	Loot	Peacelover's Attire Coffer											
+Peacelover's Longboots	Loot	Peacelover's Attire Coffer											
 Endless Summer Glasses	Loot	Endless Summer Coffer											
 Endless Summer Top	Loot	Endless Summer Coffer											
 Endless Summer Bottom	Loot	Endless Summer Coffer											
@@ -2224,30 +2491,52 @@ Firion Card	Loot	Platinum Triad Card	Bronze Durai Memorial Card	Silver Durai Mem
 Cecil Harvey Card	Loot	Platinum Triad Card	Bronze Spinner's Pull Card	Silver Spinner's Pull Card	Gold Spinner's Pull Card								
 Tidus Card	Loot	Platinum Triad Card	Bronze Rowena Cup Classic Card	Silver Rowena Cup Classic Card	Gold Rowena Cup Classic Card								
 Lightning Card	Loot	Platinum Triad Card	Bronze Tournament of Champions Card	Silver Tournament of Champions Card	Gold Tournament of Champions Card								
-Mossy Stone Sword	Venture	Field Exploration XII	Field Exploration XIV										
-Mossy Stone Claws	Venture	Field Exploration XII	Field Exploration XIV										
-Mossy Stone Spear	Venture	Field Exploration XII	Field Exploration XIV										
-Mossy Stone Rod	Venture	Field Exploration XII	Field Exploration XIV										
-Mossy Stone Staff	Venture	Field Exploration XII	Field Exploration XIV										
-Mossy Stone Bow	Venture	Field Exploration XII	Field Exploration XIV										
-Mossy Stone Axe	Venture	Field Exploration XII	Field Exploration XIV										
-Littlefoot	Venture	Woodland Exploration XIV	Woodland Exploration XV	Woodland Exploration XVI									
-Gestahl	Venture	Waterside Exploration XVIII											
-Miniature Minecart	Venture	Highland Exploration XIV	Highland Exploration XVIII										
-Iron Giant Scrap	Venture	Field Exploration XVIII											
-Steel Mainspring	Venture	Highland Exploration XVIII											
-Minute Mindflayer	Venture	Field Exploration XIII	Highland Exploration XIII										
-Tiny Tapir	Venture	Field Exploration XIV											
-Gysahl Ring	Venture	Field Exploration X											
-Lupin Seedling	Venture	Woodland Exploration XVIII	Woodland Exploration XIX										
-Odder Otter	Venture	Woodland Exploration XX	Highland Exploration XX	Waterside Exploration XX	Highland Exploration XXII								
-Light Steel Plate	Venture	Field Exploration XIII	Highland Exploration XIII	Waterside Exploration XIII									
-Weathered Tome	Venture	Woodland Exploration XIV											
-Faded Tome	Venture	Waterside Exploration XII											
-Taffeta Cloth	Venture	Field Exploration XIII	Field Exploration XVII	Field Exploration XVIII	Highland Exploration XIII								
-Mameshiba	Venture	Highland Exploration XXII											
-Koala Joey	Venture	Field Exploration XXII											
-Axolotl Eft	Venture	Waterside Exploration XXII											
+# DUNGEONS													
+Guidance Node Card	Instance	The Fractal Continuum (Hard)											
+Genbu Card	Instance	Hells' Lid											
+Qitian Dasheng Card	Instance	The Swallow's Compass											
+Tokkapchi Card	Instance	Saint Mocianne's Arboretum (Hard)											
+Mist Dragon Card	Instance	The Burn											
+Prometheus Card	Instance	The Ghimlyt Dark											
+Philia Card	Instance	Holminster Switch											
+Eros Card	Instance	The Qitana Ravel											
+Storge Card	Instance	Malikah's Well											
+Seeker of Solitude Card	Instance	The Grand Cosmos											
+Unknown	Instance	Anamnesis Anyder											
+Mother Porxie	Instance	Matoya's Relict											
+Lunar Bahamut Card	Instance	Paglth'an											
+# TRIALS													
+## Normal mode													
+Byakko Card	Instance	The Jade Stoa	The Jade Stoa (Extreme)										
+Tsukuyomi Card	Instance	Castrum Fluminis	The Minstrel's Ballad: Tsukuyomi's Pain										
+Suzaku Card	Instance	Hells' Kier	Hells' Kier (Extreme)										
+Seiryu Card	Instance	The Wreath of Snakes	The Wreath of Snakes (Extreme)										
+Stormblood Gilgamesh Card	Instance	Kugane Ohashi											
+Titania Card	Instance	The Dancing Plague	The Dancing Plague (Extreme)										
+Innocence Card	Instance	The Crown Of The Immaculate	The Crown Of The Immaculate (Extreme)										
+Hades Card	Instance	The Dying Gasp	The Minstrel's Ballad: Hades's Elegy										
+The Ruby Weapon Card	Instance	Cinder Drift	Cinder Drift (Extreme)										
+Shadowbringers Warrior of Light Card	Instance	The Seat of Sacrifice	The Seat of Sacrifice (Extreme)										
+Emerald Weapon Card	Instance	Castrum Marinum	Castrum Marinum (Extreme)										
+Diamond Weapon Card	Instance	The Cloud Deck	The Cloud Deck (Extreme)										
+## Extreme mode													
+Byakko Totem	Instance	The Jade Stoa (Extreme)											
+Lunar Totem	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
+Suzaku Totem	Instance	Hells' Kier (Extreme)											
+Seiryu Totem	Instance	The Wreath of Snakes (Extreme)											
+King Totem	Instance	The Dancing Plague (Extreme)											
+Immaculate Totem	Instance	The Crown Of The Immaculate (Extreme)											
+Hades Totem	Instance	The Minstrel's Ballad: Hades's Elegy											
+Ruby Totem	Instance	Cinder Drift (Extreme)											
+High Legatus Idol	Instance	Memoria Misera (Extreme)											
+Varis yae Galvus Card	Instance	Memoria Misera (Extreme)											
+Totem of Light	Instance	The Seat of Sacrifice (Extreme)											
+Emerald Totem	Instance	Castrum Marinum (Extreme)											
+Diamond Totem	Instance	The Cloud Deck (Extreme)											
+# RAIDS													
+Omega Card	Instance	Alphascape V3.0	Alphascape V4.0	Alphascape V4.0 (Savage)									
+Eden's Promise Card	Instance	Eden's Promise: Eternity	Eden's Promise: Eternity (Savage)										
+# TREASURE MAP DUNGEONS													
 Pellitory	Instance	The Aquapolis											
 Thavnairian Armlets	Instance	The Aquapolis											
 Thavnairian Babouches	Instance	The Aquapolis											
@@ -2335,11 +2624,22 @@ Little Chef's Playset	Instance	The Lost Canals of Uznair	The Shifting Altars of 
 Capybara Pup	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair	The Shifting Altars of Uznair									
 Hedgehoglet	Instance	The Lost Canals of Uznair	The Hidden Canals of Uznair	The Shifting Altars of Uznair									
 The Gold Whisker	Instance	The Shifting Altars of Uznair											
-Neo Aetherstone - Foot Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3										
-Neo Aetherstone - Hand Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3										
-Neo Aetherstone - Headgear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 2										
-Neo Aetherstone - Leg Gear	Instance	The Final Coil of Bahamut - Turn 2											
-Neo Aetherstone - Body Gear	Instance	The Final Coil of Bahamut - Turn 4											
+A Better Tomorrow Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah	The Shifting Oubliettes of Lyhe Ghiah										
+Calf Leather	Instance	The Dungeons of Lyhe Ghiah											
+Cloth-softening Powder	Instance	The Dungeons of Lyhe Ghiah	The Shifting Oubliettes of Lyhe Ghiah										
+Dangerous Words Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah											
+Frontier Cloth	Instance	The Dungeons of Lyhe Ghiah	The Shifting Oubliettes of Lyhe Ghiah										
+Insatiable Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah											
+On Our Fates Alight Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah											
+Seacloth	Instance	The Dungeons of Lyhe Ghiah	The Shifting Oubliettes of Lyhe Ghiah										
+Shell Leather	Instance	The Dungeons of Lyhe Ghiah	The Shifting Oubliettes of Lyhe Ghiah										
+Sungold Talos	Instance	The Dungeons of Lyhe Ghiah											
+Tomorrow and Tomorrow - Reprise Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah	The Shifting Oubliettes of Lyhe Ghiah										
+Wind-up Fuath	Instance	The Dungeons of Lyhe Ghiah											
+Ballroom Etiquette - Decadent Decoration	Instance	The Shifting Oubliettes of Lyhe Ghiah											
+Everywhere and Nowhere Orchestrion Roll	Instance	The Shifting Oubliettes of Lyhe Ghiah											
+Golden Beaver	Instance	The Shifting Oubliettes of Lyhe Ghiah											
+Unmatching Pieces	Instance	The Shifting Oubliettes of Lyhe Ghiah											
 Allagan Melon	Gardening	Allagan Melon Seeds											
 Blue Oldroses	Gardening	Oldrose Seeds											
 Yellow Oldroses	Gardening	Oldrose Seeds											
@@ -2373,6 +2673,35 @@ Purple Daisies	Gardening	Daisy Seeds
 White Daisies	Gardening	Daisy Seeds											
 Black Daisies	Gardening	Daisy Seeds											
 Rainbow Daisies	Gardening	Daisy Seeds											
+Mossy Stone Sword	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Claws	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Spear	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Rod	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Staff	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Bow	Venture	Field Exploration XII	Field Exploration XIV										
+Mossy Stone Axe	Venture	Field Exploration XII	Field Exploration XIV										
+Littlefoot	Venture	Woodland Exploration XIV	Woodland Exploration XV	Woodland Exploration XVI									
+Gestahl	Venture	Waterside Exploration XVIII											
+Miniature Minecart	Venture	Highland Exploration XIV	Highland Exploration XVIII										
+Iron Giant Scrap	Venture	Field Exploration XVIII											
+Steel Mainspring	Venture	Highland Exploration XVIII											
+Minute Mindflayer	Venture	Field Exploration XIII	Highland Exploration XIII										
+Tiny Tapir	Venture	Field Exploration XIV											
+Gysahl Ring	Venture	Field Exploration X											
+Lupin Seedling	Venture	Woodland Exploration XVIII	Woodland Exploration XIX										
+Odder Otter	Venture	Woodland Exploration XX	Highland Exploration XX	Waterside Exploration XX	Highland Exploration XXII								
+Light Steel Plate	Venture	Field Exploration XIII	Highland Exploration XIII	Waterside Exploration XIII									
+Weathered Tome	Venture	Woodland Exploration XIV											
+Faded Tome	Venture	Waterside Exploration XII											
+Taffeta Cloth	Venture	Field Exploration XIII	Field Exploration XVII	Field Exploration XVIII	Highland Exploration XIII								
+Mameshiba	Venture	Highland Exploration XXII											
+Koala Joey	Venture	Field Exploration XXII											
+Axolotl Eft	Venture	Waterside Exploration XXII											
+Tengu Doll	Venture	Field Exploration XXII											
+Mystic Weapon	Venture	Field Exploration XXV											
+Wind-up Hobgoblin	Venture	Highland Exploration XXV											
+Domakin	Venture	Waterside Exploration XXV											
+Bacon Bits	Venture	Woodland Exploration XXV											
 Abroader Otter	Voyage	Deep-sea site 7	Sea of Ash 2	Sea of Ash 3	Nald'thal's Pipe	The Isle of Sacrament							
 Aetherochemical Fiber	Voyage	Sea of Clouds 14	Sea of Clouds 15										
 Althyk Lavender Seeds	Voyage	Sea of Clouds 13	Sea of Clouds 15										
@@ -2453,7 +2782,7 @@ Heavens' Eye Materia V	Voyage	Sea of Clouds 23
 Ice Crystal	Voyage	Sea of Clouds 03	Sea of Clouds 06	Sea of Clouds 11	Sea of Clouds 13	Sea of Clouds 14	Sea of Clouds 15	Deep-sea site 1	Neolith Island	Sunken Vault			
 Iron Giant Core	Voyage	Sea of Clouds 08	Sea of Clouds 14	Sea of Clouds 18	Sea of Clouds 19	Sea of Clouds 20	Sea of Clouds 22						
 Iron Voyage Spoil	Voyage	Sea of Clouds 24											
-Kamacite Ore	Voyage	Rimiala Shelf											
+Kamacite Ore	Voyage	Rimiala Shelf	Flickering Dip										
 Lightning Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Clouds 09								
 Magnanimous Mogcrown	Voyage	Sea of Clouds 01	Sea of Clouds 10	Sea of Clouds 11	Sea of Clouds 15								
 Marble	Voyage	Flickering Dip											
@@ -2512,84 +2841,140 @@ White Scorpion	Voyage	The Lone Glove
 Wind Crystal	Voyage	Sea of Clouds 01	Sea of Clouds 05	Sea of Clouds 08	Sea of Clouds 09	Ivory Shoals	Deep-sea site 2	Deep-sea site 3	The Umbrella Narrow				
 Wind Cluster	Voyage	The Wreckage of the Headway											
 Wind Silk	Voyage	Sea of Clouds 13	Sea of Clouds 16	Sea of Clouds 17	Sea of Clouds 21								
+Hard to Miss Orchestrion Roll	Voyage	Tangaroa's Prow											
+Nemesis Orchestrion Roll	Voyage	Moergynn's Forge											
+Syldrion-class Insubmersible	Voyage	Sea of Jade 4											
 Cold-warped Lockbox	Other	Eureka Pagos, Mutated Mobs	Mutated Anubys										
 Frosted Protean Crystal	Other	Eureka Pagos, Crystal Forge											
-Verdant Partition	Instance	Saint Mocianne's Arboretum (Hard)											
-Shinryu's Scale	Instance	The Minstrel's Ballad: Shinryu's Domain											
-Auspicious Kamuy Fife	Instance	The Jade Stoa (Extreme)											
-Lunar Kamuy Fife	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
-Euphonious Kamuy Fife	Instance	Hells' Kier (Extreme)											
-Hallowed Kamuy Fife	Instance	The Wreath of Snakes (Extreme)											
-Seiryu's Scale	Instance	The Wreath of Snakes (Extreme)											
-Scarlet Tailfeather	Instance	Hells' Kier (Extreme)											
-Plate of Light	Instance	The Seat of Sacrifice (Extreme)											
-Faded Copy of To the Edge	Instance	The Seat of Sacrifice (Extreme)											
-Immaculate Wingblade	Instance	The Crown of the Immaculate (Extreme)											
-Hades's Auracite	Instance	The Minstrel's Ballad: Hades's Elegy											
-Emerald Plating	Instance	Castrum Marinum (Extreme)											
-Dancing Wing	Instance	The Dancing Plague (Extreme)											
-Celestial Kimono Remnant	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
-Byakko's Mane	Instance	The Jade Stoa (Extreme)											
-Bismarck's Baleen	Instance	The Limitless Blue (Extreme)	The Limitless Blue (Hard)										
-#zok mess, to sort													
-Clionid Larva	Instance	Akadaemia Anyder											
-Shadows Withal Orchestrion Roll	Instance	Akadaemia Anyder											
-Battle Orchestrion Roll	Instance	Alphascape V1.0											
-Primogenitor Orchestrion Roll	Instance	Alphascape V2.0											
-eScape Orchestrion Roll	Instance	Alphascape V3.0											
-Heartless Orchestrion Roll	Instance	Alphascape V4.0											
-OMG	Instance	Alphascape V4.0	Alphascape V4.0 (Savage)										
-Mortal Instants Orchestrion Roll	Instance	Amaurot											
-Shoebill	Instance	Amaurot											
-Ancient One	Instance	Anamnesis Anyder											
-Floundering in the Depths Orchestrion Roll	Instance	Anamnesis Anyder											
-Fury Orchestrion Roll	Instance	Brayflox's Longstop (Hard)											
-Alienus Orchestrion Roll	Instance	Castrum Abania											
-Faded Copy of The Black Wolf Stalks Again	Instance	Castrum Marinum (Extreme)											
-Faded Copy of Ultima (The Primals)	Instance	Cinder Drift (Extreme)											
+# Improper way to add those instance rewards, to improve when it'll be possible													
+# DUNGEONS													
 Below Orchestrion Roll	Instance	Copperbell Mines											
-Abomination Orchestrion Roll	Instance	Cutter's Cry											
-Figments Orchestrion Roll	Instance	Dohn Mheg											
-Tiny Echevore	Instance	Dohn Mheg											
-Gates of the Moon Orchestrion Roll	Instance	Doma Castle											
-Omega Squared Orchestrion Roll	Instance	Deltascape V1.0	Deltascape V2.0	Deltascape V3.0									
-Decisions Orchestrion Roll	Instance	Deltascape V4.0											
-The Darkhold Orchestrion Roll	Instance	Dzemael Darkhold											
-Force Your Way Orchestrion Roll	Instance	Eden's Gate: Resurrection	Eden's Gate: Descent										
-Blinding Indigo Orchestrion Roll	Instance	Eden's Gate: Inundation											
-Eden Minor	Instance	Eden's Gate: Sepulture	Eden's Gate: Sepulture (Savage)										
-Landslide Orchestrion Roll	Instance	Eden's Gate: Sepulture											
-Don't Be Afraid Orchestrion Roll	Instance	Eden's Promise: Litany											
-The Legendary Beast Orchestrion Roll	Instance	Eden's Promise: Anamorphosis											
-Promises to Keep Orchestrion Roll	Instance	Eden's Promise: Eternity											
-The Extreme Orchestrion Roll	Instance	Eden's Promise: Eternity (Savage)											
-Wind-up Gaia	Instance	Eden's Promise: Eternity	Eden's Promise: Eternity (Savage)										
-Twice Stricken Orchestrion Roll	Instance	Eden's Verse: Fulmination											
-Primal Angel Orchestrion Roll	Instance	Eden's Verse: Furor											
-Return to Oblivion Orchestrion Roll	Instance	Eden's Verse: Refulgence											
-Wind-up Ryne	Instance	Eden's Verse: Refulgence	Eden's Verse: Refulgence (Savage)										
 The Ludus Orchestrion Roll	Instance	Halatali											
-Beneath Bloodied Banners Orchestrion Roll	Instance	Halatali (Hard)											
 The Maiden's Lament Orchestrion Roll	Instance	Haukke Manor											
-Faded Copy of Sunrise	Instance	Hells' Kier (Extreme)											
-Black Hayate	Instance	Holminster Switch											
-To Fire and Sword Orchestrion Roll	Instance	Holminster Switch											
-Armadillo Bowler	Instance	Malikah's Well											
-Deep Down Orchestrion Roll	Instance	Malikah's Well											
-Drippy	Instance	Matoya's Relict											
-Freshly Glazed Porxie Orchestrion Roll	Instance	Matoya's Relict											
-Forgiven Hate	Instance	Mt. Gulg											
-In the Belly of the Beast Orchestrion Roll	Instance	Mt. Gulg											
+Abomination Orchestrion Roll	Instance	Cutter's Cry											
+The Darkhold Orchestrion Roll	Instance	Dzemael Darkhold											
+A Tonberry’s Tears Orchestrion Roll	Instance	The Wanderer's Palace											
+Beneath Bloodied Banners Orchestrion Roll	Instance	Halatali (Hard)											
+Fury Orchestrion Roll	Instance	Brayflox's Longstop (Hard)											
 Upon the Rocks Orchestrion Roll	Instance	Pharos Sirius (Hard)											
+Tricksome Orchestrion Roll	Instance	The Wanderer's Palace (Hard)											
+Dancing Calcabrina Orchestrion Roll	Instance	The Antitower											
+The Ancient City Orchestrion Roll	Instance	The Lost City of Amdapor (Hard)											
+Gates of the Moon Orchestrion Roll	Instance	Doma Castle											
+Alienus Orchestrion Roll	Instance	Castrum Abania											
+Earth, Wind, and Water Orchestrion Roll	Instance	The Swallow's Compass											
+Monkey King	Instance	The Swallow's Compass											
+A Land Long Dead Orchestrion Roll	Instance	The Burn											
 From Mud Orchestrion Roll	Instance	Saint Mocianne's Arboretum (Hard)											
 Mudpie	Instance	Saint Mocianne's Arboretum (Hard)											
+Verdant Partition	Instance	Saint Mocianne's Arboretum (Hard)											
+A Pall Most Murderous Orchestrion Roll	Instance	The Ghimlyt Dark											
+Wind-up Weapon	Instance	The Ghimlyt Dark											
+Black Hayate	Instance	Holminster Switch											
+To Fire and Sword Orchestrion Roll	Instance	Holminster Switch											
+Figments Orchestrion Roll	Instance	Dohn Mheg											
+Tiny Echevore	Instance	Dohn Mheg											
+Chameleon	Instance	The Qitana Ravel											
+Unwound Orchestrion Roll	Instance	The Qitana Ravel											
+Armadillo Bowler	Instance	Malikah's Well											
+Deep Down Orchestrion Roll	Instance	Malikah's Well											
+Forgiven Hate	Instance	Mt. Gulg											
+In the Belly of the Beast Orchestrion Roll	Instance	Mt. Gulg											
+Mortal Instants Orchestrion Roll	Instance	Amaurot											
+Shoebill	Instance	Amaurot											
+A Long Fall Orchestrion Roll	Instance	The Twinning											
+Clionid Larva	Instance	Akadaemia Anyder											
+Shadows Withal Orchestrion Roll	Instance	Akadaemia Anyder											
+Cosmos Decoration	Instance	The Grand Cosmos											
+Cosmos Partition	Instance	The Grand Cosmos											
+Little Leannan	Instance	The Grand Cosmos											
+The Grand Cosmos Orchestrion Roll	Instance	The Grand Cosmos											
+Ancient One	Instance	Anamnesis Anyder											
+Floundering in the Depths Orchestrion Roll	Instance	Anamnesis Anyder											
+Ephemeral Necromancer	Instance	The Heroes' Gauntlet											
+Where All Roads Lead Orchestrion Roll	Instance	The Heroes' Gauntlet											
+Drippy	Instance	Matoya's Relict											
+Freshly Glazed Porxie Orchestrion Roll	Instance	Matoya's Relict											
+Magitek Predator F1	Instance	Paglth'an											
+Seven Flames Orchestrion Roll	Instance	Paglth'an											
+# TRIALS													
+Bismarck's Baleen	Instance	The Limitless Blue (Hard)	The Limitless Blue (Extreme)										
+Celestial Kimono Remnant	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
+Faded Copy of Under the Moonlight	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
+Lunar Kamuy Fife	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
+Poogie	Instance	The Great Hunt (Extreme)											
+Proof of a Hero - Monster Hunter: World Version Orchestrion Roll	Instance	The Great Hunt (Extreme)											
+Auspicious Kamuy Fife	Instance	The Jade Stoa (Extreme)											
+Byakko's Mane	Instance	The Jade Stoa (Extreme)											
+Euphonious Kamuy Fife	Instance	Hells' Kier (Extreme)											
+Faded Copy of Sunrise	Instance	Hells' Kier (Extreme)											
+Scarlet Tailfeather	Instance	Hells' Kier (Extreme)											
+Faded Copy of From the Dragon's Wake	Instance	The Wreath of Snakes (Extreme)											
+Hallowed Kamuy Fife	Instance	The Wreath of Snakes (Extreme)											
+Seiryu's Scale	Instance	The Wreath of Snakes (Extreme)											
+Yojimbo Barding	Instance	Kugane Ohashi											
+Dancing Wing	Instance	The Dancing Plague (Extreme)											
+Fae Gwiber Trumpet	Instance	The Dancing Plague (Extreme)											
+Faded Copy of What Angel Wakes Me	Instance	The Dancing Plague (Extreme)											
+Faded Copy of Insanity	Instance	The Crown of the Immaculate (Extreme)											
+Immaculate Wingblade	Instance	The Crown of the Immaculate (Extreme)											
+Innocent Gwiber Trumpet	Instance	The Crown of the Immaculate (Extreme)											
+Faded Copy of Invincible	Instance	The Minstrel's Ballad: Hades's Elegy											
+Hades's Auracite	Instance	The Minstrel's Ballad: Hades's Elegy											
+Shadow Gwiber Trumpet	Instance	The Minstrel's Ballad: Hades's Elegy											
+Faded Copy of Ultima (The Primals)	Instance	Cinder Drift (Extreme)											
+Ruby Gwiber Trumpet	Instance	Cinder Drift (Extreme)											
+Ruby Plating	Instance	Cinder Drift (Extreme)											
+Faded Copy of To the Edge	Instance	The Seat of Sacrifice (Extreme)											
+Gwiber of Light Trumpet	Instance	The Seat of Sacrifice (Extreme)											
+Plate of Light	Instance	The Seat of Sacrifice (Extreme)											
+Emerald Gwiber Trumpet	Instance	Castrum Marinum (Extreme)											
+Emerald Plating	Instance	Castrum Marinum (Extreme)											
+Faded Copy of The Black Wolf Stalks Again	Instance	Castrum Marinum (Extreme)											
+Diamond Gwiber Trumpet	Instance	The Cloud Deck (Extreme)											
+Diamond Plating	Instance	The Cloud Deck (Extreme)											
+Faded Copy of In the Arms of War	Instance	The Cloud Deck (Extreme)											
+# RAIDS													
+Neo Aetherstone - Foot Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3										
+Neo Aetherstone - Hand Gear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 3										
+Neo Aetherstone - Headgear	Instance	The Final Coil of Bahamut - Turn 1	The Final Coil of Bahamut - Turn 2										
+Neo Aetherstone - Leg Gear	Instance	The Final Coil of Bahamut - Turn 2											
+Neo Aetherstone - Body Gear	Instance	The Final Coil of Bahamut - Turn 4											
+Omega Squared Orchestrion Roll	Instance	Deltascape V1.0	Deltascape V2.0	Deltascape V3.0									
+Decisions Orchestrion Roll	Instance	Deltascape V4.0											
 A Battle Decisively Orchestrion Roll	Instance	Sigmascape V1.0	Sigmascape V2.0	Sigmascape V3.0									
 Dancing Mad - Movement I Orchestrion Roll	Instance	Sigmascape V4.0											
 Dancing Mad - Movement II Orchestrion Roll	Instance	Sigmascape V4.0											
 Dancing Mad - Movement III Orchestrion Roll	Instance	Sigmascape V4.0											
 Wind-up Kefka	Instance	Sigmascape V4.0	Sigmascape V4.0 (Savage)										
-Dancing Calcabrina Orchestrion Roll	Instance	The Antitower											
-A Land Long Dead Orchestrion Roll	Instance	The Burn											
+Battle Orchestrion Roll	Instance	Alphascape V1.0											
+Primogenitor Orchestrion Roll	Instance	Alphascape V2.0											
+eScape Orchestrion Roll	Instance	Alphascape V3.0											
+Heartless Orchestrion Roll	Instance	Alphascape V4.0											
+OMG	Instance	Alphascape V4.0	Alphascape V4.0 (Savage)										
+Apoplexy Orchestrion Roll	Instance	The Ridorana Lighthouse											
+Construct 8	Instance	The Ridorana Lighthouse											
+Flash of Steel Orchestrion Roll	Instance	The Ridorana Lighthouse											
+The Mystery of Giruvegan Orchestrion Roll	Instance	The Ridorana Lighthouse											
+A Man Consumed Orchestrion Roll	Instance	The Orbonne Monastery											
+Antipyretic Orchestrion Roll	Instance	The Orbonne Monastery											
+Pressure (No. 1) Orchestrion Roll	Instance	The Orbonne Monastery											
+Ultima's Perfection Orchestrion Roll	Instance	The Orbonne Monastery											
+Under the Stars Orchestrion Roll	Instance	The Orbonne Monastery											
+Wind-up Ramza	Instance	The Orbonne Monastery											
+Force Your Way Orchestrion Roll	Instance	Eden's Gate: Resurrection	Eden's Gate: Descent										
+Blinding Indigo Orchestrion Roll	Instance	Eden's Gate: Inundation											
+Eden Minor	Instance	Eden's Gate: Sepulture	Eden's Gate: Sepulture (Savage)										
+Landslide Orchestrion Roll	Instance	Eden's Gate: Sepulture											
+Twice Stricken Orchestrion Roll	Instance	Eden's Verse: Fulmination											
+Primal Angel Orchestrion Roll	Instance	Eden's Verse: Furor											
+Return to Oblivion Orchestrion Roll	Instance	Eden's Verse: Refulgence											
+Wind-up Ryne	Instance	Eden's Verse: Refulgence	Eden's Verse: Refulgence (Savage)										
+Don't Be Afraid Orchestrion Roll	Instance	Eden's Promise: Litany											
+The Legendary Beast Orchestrion Roll	Instance	Eden's Promise: Anamorphosis											
+Promises to Keep Orchestrion Roll	Instance	Eden's Promise: Eternity											
+The Extreme Orchestrion Roll	Instance	Eden's Promise: Eternity (Savage)											
+Wind-up Gaia	Instance	Eden's Promise: Eternity	Eden's Promise: Eternity (Savage)										
 Alien Manifestation Orchestrion Roll	Instance	The Copied Factory											
 Bipolar Nightmare Orchestrion Roll	Instance	The Copied Factory											
 City Ruins (Rays of Light) Orchestrion Roll	Instance	The Copied Factory											
@@ -2597,55 +2982,20 @@ Pod 054	Instance	The Copied Factory
 Pod 316	Instance	The Copied Factory											
 Song of the Ancients (Atonement) Orchestrion Roll	Instance	The Copied Factory											
 Weight of the World (Prelude Version) Orchestrion Roll	Instance	The Copied Factory											
-Dangerous Words Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah											
-Insatiable Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah											
-On Our Fates Alight Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah											
-Sungold Talos	Instance	The Dungeons of Lyhe Ghiah											
-Tomorrow and Tomorrow - Reprise Orchestrion Roll	Instance	The Dungeons of Lyhe Ghiah											
-Wind-up Fuath	Instance	The Dungeons of Lyhe Ghiah											
-A Pall Most Murderous Orchestrion Roll	Instance	The Ghimlyt Dark											
-Wind-up Weapon	Instance	The Ghimlyt Dark											
-Little Leannan	Instance	The Grand Cosmos											
-The Grand Cosmos Orchestrion Roll	Instance	The Grand Cosmos											
-Poogie	Instance	The Great Hunt (Extreme)											
-Proof of a Hero - Monster Hunter: World Version Orchestrion Roll	Instance	The Great Hunt (Extreme)											
-Ephemeral Necromancer	Instance	The Heroes' Gauntlet											
-Where All Roads Lead Orchestrion Roll	Instance	The Heroes' Gauntlet											
-The Ancient City Orchestrion Roll	Instance	The Lost City of Amdapor (Hard)											
-Faded Copy of Invincible	Instance	The Minstrel's Ballad: Hades's Elegy											
-Faded Copy of Under the Moonlight	Instance	The Minstrel's Ballad: Tsukuyomi's Pain											
-A Man Consumed Orchestrion Roll	Instance	The Orbonne Monastery											
-Antipyretic Orchestrion Roll	Instance	The Orbonne Monastery											
-Pressure (No. 1) Orchestrion Roll	Instance	The Orbonne Monastery											
-Ultima's Perfection Orchestrion Roll	Instance	The Orbonne Monastery											
-Under the Stars Orchestrion Roll	Instance	The Orbonne Monastery											
-Wind-up Ramza	Instance	The Orbonne Monastery											
 2B Automaton	Instance	The Puppets' Bunker											
 2P Automaton	Instance	The Puppets' Bunker											
 End of the Unknown Orchestrion Roll	Instance	The Puppets' Bunker											
 Fortress of Lies Orchestrion Roll	Instance	The Puppets' Bunker											
 Grandma - Destruction Orchestrion Roll	Instance	The Puppets' Bunker											
 Torn from the Heavens/The Dark Colossus Destroys All (Medley Version) Orchestrion Roll	Instance	The Puppets' Bunker											
-Chameleon	Instance	The Qitana Ravel											
-Unwound Orchestrion Roll	Instance	The Qitana Ravel											
-Apoplexy Orchestrion Roll	Instance	The Ridorana Lighthouse											
-Construct 8	Instance	The Ridorana Lighthouse											
-Flash of Steel Orchestrion Roll	Instance	The Ridorana Lighthouse											
-The Mystery of Giruvegan Orchestrion Roll	Instance	The Ridorana Lighthouse											
-Everywhere and Nowhere Orchestrion Roll	Instance	The Shifting Oubliettes of Lyhe Ghiah											
-Golden Beaver	Instance	The Shifting Oubliettes of Lyhe Ghiah											
-Unmatching Pieces Orchestrion Roll	Instance	The Shifting Oubliettes of Lyhe Ghiah											
-Earth, Wind, and Water Orchestrion Roll	Instance	The Swallow's Compass											
-Monkey King	Instance	The Swallow's Compass											
-A Long Fall Orchestrion Roll	Instance	The Twinning											
-A Tonberry’s Tears Orchestrion Roll	Instance	The Wanderer's Palace											
-Tricksome Orchestrion Roll	Instance	The Wanderer's Palace (Hard)											
-Faded Copy of From the Dragon's Wake	Instance	The Wreath of Snakes (Extreme)											
-Tengu Doll	Venture	Field Exploration XXII											
-Mystic Weapon	Venture	Field Exploration XXV											
-Wind-up Hobgoblin	Venture	Highland Exploration XXV											
-Domakin	Venture	Waterside Exploration XXV											
-Bacon Bits	Venture	Woodland Exploration XXV											
-Hard to Miss Orchestrion Roll	Voyage	Tangaroa's Prow											
-Nemesis Orchestrion Roll	Voyage	Moergynn's Forge											
-Syldrion-class Insubmersible	Voyage	Sea of Jade 4											
+2B Card	Instance	The Tower at Paradigm's Breach											
+9S Automaton	Instance	The Tower at Paradigm's Breach											
+Emil (Despair) Orchestrion Roll	Instance	The Tower at Paradigm's Breach											
+Kainé (Final Fantasy Main Theme Version) Orchestrion Roll	Instance	The Tower at Paradigm's Breach											
+Modern Aesthetics - Battle-ready Bobs	Instance	The Tower at Paradigm's Breach											
+Modern Aesthetics - Scanning for Style	Instance	The Tower at Paradigm's Breach											
+Mourning Orchestrion Roll	Instance	The Tower at Paradigm's Breach											
+Smaller Stubby	Instance	The Tower at Paradigm's Breach											
+Stuffed Android Units	Instance	The Tower at Paradigm's Breach											
+The Sound of the End Orchestrion Roll	Instance	The Tower at Paradigm's Breach											
+The Sound of the End: 8bit Orchestrion Roll	Instance	The Tower at Paradigm's Breach											

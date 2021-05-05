@@ -133,6 +133,16 @@
     "id": 2597,
     "icon": 27002
   },
+  "Glowworm": {
+    "name": "Glowworm",
+    "id": 2603,
+    "icon": 27021
+  },
+  "Stonefly Nymph": {
+    "name": "Stonefly Nymph",
+    "id": 12704,
+    "icon": 27028
+  },
   "Heavy Steel Jig": {
     "name": "Heavy Steel Jig",
     "id": 2619,
@@ -177,6 +187,11 @@
     "id": 2618,
     "icon": 27058
   },
+  "Mythril Spoon Lure": {
+    "name": "Mythril Spoon Lure",
+    "id": 2622,
+    "icon": 27066
+  },
   "Spinner": {
     "name": "Spinner",
     "id": 2620,
@@ -187,11 +202,6 @@
     "id": 4978,
     "icon": 29312,
     "mooch": 1
-  },
-  "Glowworm": {
-    "name": "Glowworm",
-    "id": 2603,
-    "icon": 27021
   },
   "Goldfish": {
     "name": "Goldfish",
@@ -237,11 +247,6 @@
     "id": 2624,
     "icon": 27054
   },
-  "Freshwater Boilie": {
-    "name": "Freshwater Boilie",
-    "id": 27591,
-    "icon": 27042
-  },
   "Caddisfly Larva": {
     "name": "Caddisfly Larva",
     "id": 2607,
@@ -263,10 +268,20 @@
     "id": 2615,
     "icon": 27052
   },
+  "Freshwater Boilie": {
+    "name": "Freshwater Boilie",
+    "id": 27591,
+    "icon": 27042
+  },
   "Rolling Stone": {
     "name": "Rolling Stone",
     "id": 2604,
     "icon": 27024
+  },
+  "Saltwater Boilie": {
+    "name": "Saltwater Boilie",
+    "id": 27592,
+    "icon": 27043
   },
   "Sand Leech": {
     "name": "Sand Leech",
@@ -296,25 +311,15 @@
     "icon": 29310,
     "mooch": 1
   },
-  "Brute Leech": {
-    "name": "Brute Leech",
-    "id": 12711,
-    "icon": 22635
-  },
-  "Stonefly Nymph": {
-    "name": "Stonefly Nymph",
-    "id": 12704,
-    "icon": 27028
+  "Balloon Bug": {
+    "name": "Balloon Bug",
+    "id": 2609,
+    "icon": 27020
   },
   "Hoverworm": {
     "name": "Hoverworm",
     "id": 2605,
     "icon": 27022
-  },
-  "Balloon Bug": {
-    "name": "Balloon Bug",
-    "id": 2609,
-    "icon": 27020
   },
   "Cloud Cutter": {
     "name": "Cloud Cutter",
@@ -334,10 +339,20 @@
     "icon": 29660,
     "mooch": 1
   },
+  "Metal Spinner": {
+    "name": "Metal Spinner",
+    "id": 28634,
+    "icon": 27062
+  },
   "Purse Web Spider": {
     "name": "Purse Web Spider",
     "id": 12705,
     "icon": 22619
+  },
+  "Brute Leech": {
+    "name": "Brute Leech",
+    "id": 12711,
+    "icon": 22635
   },
   "Giant Crane Fly": {
     "name": "Giant Crane Fly",
@@ -394,10 +409,11 @@
     "icon": 29404,
     "mooch": 1
   },
-  "Metal Spinner": {
-    "name": "Metal Spinner",
-    "id": 28634,
-    "icon": 27062
+  "Aether Eye": {
+    "name": "Aether Eye",
+    "id": 12777,
+    "icon": 29214,
+    "mooch": 1
   },
   "Sky Faerie": {
     "name": "Sky Faerie",
@@ -416,11 +432,10 @@
     "icon": 29312,
     "mooch": 1
   },
-  "Aether Eye": {
-    "name": "Aether Eye",
-    "id": 12777,
-    "icon": 29214,
-    "mooch": 1
+  "Versatile Lure": {
+    "name": "Versatile Lure",
+    "id": 29717,
+    "icon": 27051
   },
   "Rudderfish": {
     "name": "Rudderfish",
@@ -451,6 +466,11 @@
     "icon": 29395,
     "mooch": 1
   },
+  "Nightcrawler": {
+    "name": "Nightcrawler",
+    "id": 20614,
+    "icon": 27032
+  },
   "Salmon Roe": {
     "name": "Salmon Roe",
     "id": 20613,
@@ -472,11 +492,6 @@
     "id": 20064,
     "icon": 29233,
     "mooch": 1
-  },
-  "Nightcrawler": {
-    "name": "Nightcrawler",
-    "id": 20614,
-    "icon": 27032
   },
   "Stonefly Larva": {
     "name": "Stonefly Larva",
@@ -510,6 +525,11 @@
     "id": 20617,
     "icon": 27035
   },
+  "Bream Lure": {
+    "name": "Bream Lure",
+    "id": 20618,
+    "icon": 27071
+  },
   "Blue Bobbit": {
     "name": "Blue Bobbit",
     "id": 20676,
@@ -526,11 +546,6 @@
     "id": 20112,
     "icon": 29008,
     "mooch": 1
-  },
-  "Bream Lure": {
-    "name": "Bream Lure",
-    "id": 20618,
-    "icon": 27071
   },
   "Red Prismfish": {
     "name": "Red Prismfish",
@@ -555,30 +570,30 @@
     "id": 27585,
     "icon": 27038
   },
-  "Robber Ball": {
-    "name": "Robber Ball",
-    "id": 27587,
-    "icon": 27010
-  },
   "Fruit Worm": {
     "name": "Fruit Worm",
     "id": 27582,
     "icon": 27036
+  },
+  "Robber Ball": {
+    "name": "Robber Ball",
+    "id": 27587,
+    "icon": 27010
   },
   "Baitbugs": {
     "name": "Baitbugs",
     "id": 27589,
     "icon": 27040
   },
-  "Short Bill Minnow": {
-    "name": "Short Bill Minnow",
-    "id": 27588,
-    "icon": 27074
-  },
   "Moyebi Shrimp": {
     "name": "Moyebi Shrimp",
     "id": 27583,
     "icon": 27037
+  },
+  "Short Bill Minnow": {
+    "name": "Short Bill Minnow",
+    "id": 27588,
+    "icon": 27074
   },
   "Squid Strip": {
     "name": "Squid Strip",
@@ -605,6 +620,12 @@
     "name": "Hornhelm",
     "id": 27460,
     "icon": 29615,
+    "mooch": 1
+  },
+  "Desert Saw": {
+    "name": "Desert Saw",
+    "id": 27464,
+    "icon": 29618,
     "mooch": 1
   },
   "Web-footed Sand Gecko": {
@@ -646,12 +667,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
     "category": "Ocean Fishing",
+    "spot": 36,
     "lvl": 1,
     "coords": [
       10.31,
@@ -666,12 +689,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
     "category": "Ocean Fishing",
+    "spot": 35,
     "lvl": 1,
     "coords": [
       7.69,
@@ -686,12 +711,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
     "category": "Ocean Fishing",
+    "spot": 37,
     "lvl": 1,
     "coords": [
       18.7,
@@ -706,12 +733,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
     "category": "Ocean Fishing",
+    "spot": 38,
     "lvl": 5,
     "coords": [
       14.65,
@@ -726,12 +755,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
     "category": "Ocean Fishing",
+    "spot": 44,
     "lvl": 5,
     "coords": [
       26.91,
@@ -746,12 +777,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
     "category": "Ocean Fishing",
+    "spot": 45,
     "lvl": 10,
     "coords": [
       35.27,
@@ -766,12 +799,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
     "category": "Ocean Fishing",
+    "spot": 46,
     "lvl": 15,
     "coords": [
       26.42,
@@ -786,12 +821,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 51,
     "lvl": 25,
     "coords": [
       32.93,
@@ -806,12 +843,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
     "category": "Ocean Fishing",
+    "spot": 52,
     "lvl": 30,
     "coords": [
       32.89,
@@ -826,12 +865,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
     "category": "Ocean Fishing",
+    "spot": 108,
     "lvl": 50,
     "coords": [
       37.24,
@@ -846,12 +887,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "North Isle of Endless Summer",
     "category": "Ocean Fishing",
+    "spot": 156,
     "lvl": 50,
     "coords": [
       36.03,
@@ -866,12 +909,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
     "category": "Ocean Fishing",
+    "spot": 59,
     "lvl": 10,
     "coords": [
       33.85,
@@ -886,12 +931,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Skull Valley",
     "category": "Ocean Fishing",
+    "spot": 60,
     "lvl": 15,
     "coords": [
       26.69,
@@ -906,12 +953,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
     "category": "Ocean Fishing",
+    "spot": 62,
     "lvl": 40,
     "coords": [
       14.47,
@@ -926,12 +975,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
     "category": "Ocean Fishing",
+    "spot": 65,
     "lvl": 45,
     "coords": [
       15.57,
@@ -946,12 +997,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Reaver Hide",
     "category": "Ocean Fishing",
+    "spot": 102,
     "lvl": 50,
     "coords": [
       13.77,
@@ -966,12 +1019,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Mist",
     "category": "Ocean Fishing",
+    "spot": 104,
     "lvl": 30,
     "coords": [
       11.01,
@@ -986,12 +1041,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Vesper Bay",
     "category": "Ocean Fishing",
+    "spot": 70,
     "lvl": 15,
     "coords": [
       11.53,
@@ -1006,12 +1063,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4869,
     "icon": 29003,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
     "category": "Ocean Fishing",
+    "spot": 74,
     "lvl": 45,
     "coords": [
       9.93,
@@ -1026,12 +1085,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4870,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
     "category": "Ocean Fishing",
+    "spot": 36,
     "lvl": 1,
     "coords": [
       10.31,
@@ -1046,12 +1107,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4870,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
     "category": "Ocean Fishing",
+    "spot": 35,
     "lvl": 1,
     "coords": [
       7.69,
@@ -1066,12 +1129,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4870,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
     "category": "Ocean Fishing",
+    "spot": 37,
     "lvl": 1,
     "coords": [
       18.7,
@@ -1086,12 +1151,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4870,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Candlekeep Quay",
     "category": "Ocean Fishing",
+    "spot": 49,
     "lvl": 10,
     "coords": [
       20.62,
@@ -1106,12 +1173,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4870,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
     "category": "Ocean Fishing",
+    "spot": 59,
     "lvl": 10,
     "coords": [
       33.85,
@@ -1126,12 +1195,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4870,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Reaver Hide",
     "category": "Ocean Fishing",
+    "spot": 102,
     "lvl": 50,
     "coords": [
       13.77,
@@ -1146,12 +1217,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4870,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Vesper Bay",
     "category": "Ocean Fishing",
+    "spot": 70,
     "lvl": 15,
     "coords": [
       11.53,
@@ -1166,12 +1239,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4870,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Crescent Cove",
     "category": "Ocean Fishing",
+    "spot": 71,
     "lvl": 20,
     "coords": [
       15.57,
@@ -1186,12 +1261,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4870,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Bazaar",
     "category": "Ocean Fishing",
+    "spot": 69,
     "lvl": 25,
     "coords": [
       14.57,
@@ -1206,12 +1283,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4776,
     "icon": 29063,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
     "category": "Ocean Fishing",
+    "spot": 36,
     "lvl": 1,
     "coords": [
       10.31,
@@ -1226,12 +1305,14 @@ gt.bell.fish = [
     "bait": [
       "Pill Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 4776,
     "icon": 29063,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
     "category": "Ocean Fishing",
+    "spot": 35,
     "lvl": 1,
     "coords": [
       7.69,
@@ -1246,12 +1327,14 @@ gt.bell.fish = [
     "bait": [
       "Pill Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 4776,
     "icon": 29063,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
     "category": "Ocean Fishing",
+    "spot": 44,
     "lvl": 5,
     "coords": [
       26.91,
@@ -1266,12 +1349,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4871,
     "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
     "category": "Ocean Fishing",
+    "spot": 36,
     "lvl": 1,
     "coords": [
       10.31,
@@ -1286,12 +1371,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4871,
     "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
     "category": "Ocean Fishing",
+    "spot": 35,
     "lvl": 1,
     "coords": [
       7.69,
@@ -1306,12 +1393,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4871,
     "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
     "category": "Ocean Fishing",
+    "spot": 37,
     "lvl": 1,
     "coords": [
       18.7,
@@ -1326,32 +1415,14 @@ gt.bell.fish = [
     "bait": [
       "Lugworm"
     ],
-    "id": 4871,
-    "icon": 29008,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Summerford",
-    "category": "Ocean Fishing",
-    "lvl": 5,
-    "coords": [
-      14.65,
-      15.69
-    ],
-    "radius": 600,
-    "zone": "Middle La Noscea"
-  },
-  {
-    "name": "Finger Shrimp",
-    "patch": 1.0,
-    "bait": [
-      "Lugworm"
-    ],
+    "hookset": "Precision Hookset",
     "id": 4871,
     "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
     "category": "Ocean Fishing",
+    "spot": 107,
     "lvl": 50,
     "coords": [
       37.64,
@@ -1366,12 +1437,14 @@ gt.bell.fish = [
     "bait": [
       "Pill Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 4872,
     "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
     "category": "Ocean Fishing",
+    "spot": 36,
     "lvl": 1,
     "coords": [
       10.31,
@@ -1386,12 +1459,14 @@ gt.bell.fish = [
     "bait": [
       "Pill Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 4872,
     "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
     "category": "Ocean Fishing",
+    "spot": 35,
     "lvl": 1,
     "coords": [
       7.69,
@@ -1406,12 +1481,14 @@ gt.bell.fish = [
     "bait": [
       "Pill Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 4872,
     "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
     "category": "Ocean Fishing",
+    "spot": 37,
     "lvl": 1,
     "coords": [
       18.7,
@@ -1426,12 +1503,14 @@ gt.bell.fish = [
     "bait": [
       "Pill Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 4872,
     "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
     "category": "Ocean Fishing",
+    "spot": 38,
     "lvl": 5,
     "coords": [
       14.65,
@@ -1446,12 +1525,14 @@ gt.bell.fish = [
     "bait": [
       "Pill Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 4872,
     "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
     "category": "Ocean Fishing",
+    "spot": 44,
     "lvl": 5,
     "coords": [
       26.91,
@@ -1466,12 +1547,14 @@ gt.bell.fish = [
     "bait": [
       "Pill Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 4872,
     "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
     "category": "Ocean Fishing",
+    "spot": 45,
     "lvl": 10,
     "coords": [
       35.27,
@@ -1486,12 +1569,14 @@ gt.bell.fish = [
     "bait": [
       "Pill Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 4872,
     "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
     "category": "Ocean Fishing",
+    "spot": 46,
     "lvl": 15,
     "coords": [
       26.42,
@@ -1506,12 +1591,14 @@ gt.bell.fish = [
     "bait": [
       "Pill Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 4872,
     "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
     "category": "Ocean Fishing",
+    "spot": 62,
     "lvl": 40,
     "coords": [
       14.47,
@@ -1533,6 +1620,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
     "category": "Ocean Fishing",
+    "spot": 36,
     "lvl": 1,
     "coords": [
       10.31,
@@ -1554,6 +1642,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
     "category": "Ocean Fishing",
+    "spot": 35,
     "lvl": 1,
     "coords": [
       7.69,
@@ -1575,6 +1664,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Zephyr Drift",
     "category": "Ocean Fishing",
+    "spot": 37,
     "lvl": 1,
     "coords": [
       18.7,
@@ -1596,6 +1686,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Summerford",
     "category": "Ocean Fishing",
+    "spot": 38,
     "lvl": 5,
     "coords": [
       14.65,
@@ -1617,6 +1708,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Cedarwood",
     "category": "Ocean Fishing",
+    "spot": 45,
     "lvl": 10,
     "coords": [
       35.27,
@@ -1638,6 +1730,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Moraby Drydocks",
     "category": "Ocean Fishing",
+    "spot": 46,
     "lvl": 15,
     "coords": [
       26.42,
@@ -1659,6 +1752,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 53,
     "lvl": 35,
     "coords": [
       33.03,
@@ -1680,6 +1774,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
     "category": "Ocean Fishing",
+    "spot": 107,
     "lvl": 50,
     "coords": [
       37.64,
@@ -1701,6 +1796,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swiftperch",
     "category": "Ocean Fishing",
+    "spot": 59,
     "lvl": 10,
     "coords": [
       33.85,
@@ -1722,6 +1818,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Brewer's Beacon",
     "category": "Ocean Fishing",
+    "spot": 64,
     "lvl": 15,
     "coords": [
       30.15,
@@ -1743,6 +1840,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mist",
     "category": "Ocean Fishing",
+    "spot": 104,
     "lvl": 30,
     "coords": [
       11.01,
@@ -1764,6 +1862,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Vesper Bay",
     "category": "Ocean Fishing",
+    "spot": 70,
     "lvl": 15,
     "coords": [
       11.53,
@@ -1785,6 +1884,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
     "category": "Ocean Fishing",
+    "spot": 36,
     "lvl": 1,
     "coords": [
       10.31,
@@ -1806,6 +1906,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
     "category": "Ocean Fishing",
+    "spot": 35,
     "lvl": 1,
     "coords": [
       7.69,
@@ -1827,6 +1928,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Zephyr Drift",
     "category": "Ocean Fishing",
+    "spot": 37,
     "lvl": 1,
     "coords": [
       18.7,
@@ -1848,6 +1950,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "South Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 51,
     "lvl": 25,
     "coords": [
       32.93,
@@ -1870,6 +1973,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Limsa Lominsa Upper Decks",
     "category": "Ocean Fishing",
+    "spot": 36,
     "lvl": 1,
     "coords": [
       10.31,
@@ -1892,6 +1996,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Limsa Lominsa Lower Decks",
     "category": "Ocean Fishing",
+    "spot": 35,
     "lvl": 1,
     "coords": [
       7.69,
@@ -1914,6 +2019,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Zephyr Drift",
     "category": "Ocean Fishing",
+    "spot": 37,
     "lvl": 1,
     "coords": [
       18.7,
@@ -1936,6 +2042,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Summerford",
     "category": "Ocean Fishing",
+    "spot": 38,
     "lvl": 5,
     "coords": [
       14.65,
@@ -1958,6 +2065,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Moraby Bay",
     "category": "Ocean Fishing",
+    "spot": 44,
     "lvl": 5,
     "coords": [
       26.91,
@@ -1980,6 +2088,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Cedarwood",
     "category": "Ocean Fishing",
+    "spot": 45,
     "lvl": 10,
     "coords": [
       35.27,
@@ -2002,6 +2111,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Moraby Drydocks",
     "category": "Ocean Fishing",
+    "spot": 46,
     "lvl": 15,
     "coords": [
       26.42,
@@ -2024,6 +2134,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "South Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 51,
     "lvl": 25,
     "coords": [
       32.93,
@@ -2046,6 +2157,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swiftperch",
     "category": "Ocean Fishing",
+    "spot": 59,
     "lvl": 10,
     "coords": [
       33.85,
@@ -2068,6 +2180,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Skull Valley",
     "category": "Ocean Fishing",
+    "spot": 60,
     "lvl": 15,
     "coords": [
       26.69,
@@ -2090,6 +2203,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mist",
     "category": "Ocean Fishing",
+    "spot": 104,
     "lvl": 30,
     "coords": [
       11.01,
@@ -2112,6 +2226,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Vesper Bay",
     "category": "Ocean Fishing",
+    "spot": 70,
     "lvl": 15,
     "coords": [
       11.53,
@@ -2137,6 +2252,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Limsa Lominsa Upper Decks",
     "category": "Ocean Fishing",
+    "spot": 36,
     "lvl": 1,
     "coords": [
       10.31,
@@ -2163,6 +2279,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Limsa Lominsa Lower Decks",
     "category": "Ocean Fishing",
+    "spot": 35,
     "lvl": 1,
     "coords": [
       7.69,
@@ -2177,12 +2294,14 @@ gt.bell.fish = [
     "bait": [
       "Goby Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4873,
     "icon": 29028,
     "func": "fish",
     "rarity": 1,
     "title": "Zephyr Drift",
     "category": "Ocean Fishing",
+    "spot": 37,
     "lvl": 1,
     "coords": [
       18.7,
@@ -2197,12 +2316,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4873,
     "icon": 29028,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
     "category": "Ocean Fishing",
+    "spot": 44,
     "lvl": 5,
     "coords": [
       26.91,
@@ -2217,12 +2338,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4873,
     "icon": 29028,
     "func": "fish",
     "rarity": 1,
     "title": "Oschon's Torch",
     "category": "Ocean Fishing",
+    "spot": 47,
     "lvl": 10,
     "coords": [
       24.5,
@@ -2237,12 +2360,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4873,
     "icon": 29028,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
     "category": "Ocean Fishing",
+    "spot": 48,
     "lvl": 20,
     "coords": [
       17.38,
@@ -2264,6 +2389,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Zephyr Drift",
     "category": "Ocean Fishing",
+    "spot": 37,
     "lvl": 1,
     "coords": [
       18.7,
@@ -2285,6 +2411,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Costa del Sol",
     "category": "Ocean Fishing",
+    "spot": 52,
     "lvl": 30,
     "coords": [
       32.89,
@@ -2310,6 +2437,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Zephyr Drift",
     "category": "Ocean Fishing",
+    "spot": 37,
     "lvl": 1,
     "coords": [
       18.7,
@@ -2324,12 +2452,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4925,
     "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "Rogue River",
     "category": "Freshwater Fishing",
+    "spot": 39,
     "lvl": 1,
     "coords": [
       22.1,
@@ -2344,12 +2474,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4925,
     "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "West Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 40,
     "lvl": 1,
     "coords": [
       20.22,
@@ -2364,12 +2496,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4925,
     "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "The Mourning Widow",
     "category": "Freshwater Fishing",
+    "spot": 43,
     "lvl": 1,
     "coords": [
       24.78,
@@ -2384,12 +2518,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4925,
     "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "Jadeite Flood",
     "category": "Freshwater Fishing",
+    "spot": 90,
     "lvl": 5,
     "coords": [
       12.61,
@@ -2404,12 +2540,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4925,
     "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 91,
     "lvl": 5,
     "coords": [
       10.73,
@@ -2424,12 +2562,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4925,
     "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "Whispering Gorge",
     "category": "Freshwater Fishing",
+    "spot": 81,
     "lvl": 5,
     "coords": [
       16.55,
@@ -2444,12 +2584,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4925,
     "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 100,
     "lvl": 5,
     "coords": [
       8.91,
@@ -2464,12 +2606,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4925,
     "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
     "category": "Freshwater Fishing",
+    "spot": 2,
     "lvl": 5,
     "coords": [
       22.9,
@@ -2484,12 +2628,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4925,
     "icon": 29208,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
     "category": "Freshwater Fishing",
+    "spot": 73,
     "lvl": 10,
     "coords": [
       17.18,
@@ -2499,97 +2645,19 @@ gt.bell.fish = [
     "zone": "Western Thanalan"
   },
   {
-    "name": "Chub",
-    "patch": 1.0,
-    "bait": [
-      "Moth Pupa"
-    ],
-    "id": 4926,
-    "icon": 29247,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Rogue River",
-    "category": "Freshwater Fishing",
-    "lvl": 1,
-    "coords": [
-      22.1,
-      22.18
-    ],
-    "radius": 400,
-    "zone": "Middle La Noscea"
-  },
-  {
-    "name": "Chub",
-    "patch": 1.0,
-    "bait": [
-      "Moth Pupa"
-    ],
-    "id": 4926,
-    "icon": 29247,
-    "func": "fish",
-    "rarity": 1,
-    "title": "West Agelyss River",
-    "category": "Freshwater Fishing",
-    "lvl": 1,
-    "coords": [
-      20.22,
-      18.02
-    ],
-    "radius": 400,
-    "zone": "Middle La Noscea"
-  },
-  {
-    "name": "Chub",
-    "patch": 1.0,
-    "bait": [
-      "Moth Pupa"
-    ],
-    "id": 4926,
-    "icon": 29247,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Nym River",
-    "category": "Freshwater Fishing",
-    "lvl": 5,
-    "coords": [
-      18.24,
-      14.87
-    ],
-    "radius": 400,
-    "zone": "Middle La Noscea"
-  },
-  {
-    "name": "Chub",
-    "patch": 1.0,
-    "bait": [
-      "Moth Pupa"
-    ],
-    "id": 4926,
-    "icon": 29247,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Mourning Widow",
-    "category": "Freshwater Fishing",
-    "lvl": 1,
-    "coords": [
-      24.78,
-      23.02
-    ],
-    "radius": 400,
-    "zone": "Lower La Noscea"
-  },
-  {
     "name": "Dwarf Catfish",
     "patch": 1.0,
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4928,
     "icon": 29253,
     "func": "fish",
     "rarity": 1,
     "title": "Rogue River",
     "category": "Freshwater Fishing",
+    "spot": 39,
     "lvl": 1,
     "coords": [
       22.1,
@@ -2604,12 +2672,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4928,
     "icon": 29253,
     "func": "fish",
     "rarity": 1,
     "title": "West Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 40,
     "lvl": 1,
     "coords": [
       20.22,
@@ -2624,12 +2694,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4928,
     "icon": 29253,
     "func": "fish",
     "rarity": 1,
     "title": "Nym River",
     "category": "Freshwater Fishing",
+    "spot": 41,
     "lvl": 5,
     "coords": [
       18.24,
@@ -2644,12 +2716,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4928,
     "icon": 29253,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
     "category": "Freshwater Fishing",
+    "spot": 42,
     "lvl": 15,
     "coords": [
       20.8,
@@ -2664,12 +2738,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4928,
     "icon": 29253,
     "func": "fish",
     "rarity": 1,
     "title": "The Mourning Widow",
     "category": "Freshwater Fishing",
+    "spot": 43,
     "lvl": 1,
     "coords": [
       24.78,
@@ -2691,6 +2767,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rogue River",
     "category": "Freshwater Fishing",
+    "spot": 39,
     "lvl": 1,
     "coords": [
       22.1,
@@ -2712,6 +2789,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "West Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 40,
     "lvl": 1,
     "coords": [
       20.22,
@@ -2733,6 +2811,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Nym River",
     "category": "Freshwater Fishing",
+    "spot": 41,
     "lvl": 5,
     "coords": [
       18.24,
@@ -2754,6 +2833,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Mourning Widow",
     "category": "Freshwater Fishing",
+    "spot": 43,
     "lvl": 1,
     "coords": [
       24.78,
@@ -2775,6 +2855,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rogue River",
     "category": "Freshwater Fishing",
+    "spot": 39,
     "lvl": 1,
     "coords": [
       22.1,
@@ -2796,6 +2877,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "West Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 40,
     "lvl": 1,
     "coords": [
       20.22,
@@ -2817,6 +2899,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Nym River",
     "category": "Freshwater Fishing",
+    "spot": 41,
     "lvl": 5,
     "coords": [
       18.24,
@@ -2838,6 +2921,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Woad Whisper Canyon",
     "category": "Freshwater Fishing",
+    "spot": 42,
     "lvl": 15,
     "coords": [
       20.8,
@@ -2863,6 +2947,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Rogue River",
     "category": "Freshwater Fishing",
+    "spot": 39,
     "lvl": 1,
     "coords": [
       22.1,
@@ -2872,17 +2957,19 @@ gt.bell.fish = [
     "zone": "Middle La Noscea"
   },
   {
-    "name": "Gudgeon",
+    "name": "Chub",
     "patch": 1.0,
     "bait": [
-      "Crayfish Ball"
+      "Moth Pupa"
     ],
-    "id": 4934,
-    "icon": 29251,
+    "hookset": "Precision Hookset",
+    "id": 4926,
+    "icon": 29247,
     "func": "fish",
     "rarity": 1,
     "title": "West Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 40,
     "lvl": 1,
     "coords": [
       20.22,
@@ -2892,17 +2979,19 @@ gt.bell.fish = [
     "zone": "Middle La Noscea"
   },
   {
-    "name": "Gudgeon",
+    "name": "Chub",
     "patch": 1.0,
     "bait": [
-      "Crayfish Ball"
+      "Moth Pupa"
     ],
-    "id": 4934,
-    "icon": 29251,
+    "hookset": "Precision Hookset",
+    "id": 4926,
+    "icon": 29247,
     "func": "fish",
     "rarity": 1,
     "title": "Nym River",
     "category": "Freshwater Fishing",
+    "spot": 41,
     "lvl": 5,
     "coords": [
       18.24,
@@ -2912,17 +3001,19 @@ gt.bell.fish = [
     "zone": "Middle La Noscea"
   },
   {
-    "name": "Gudgeon",
+    "name": "Chub",
     "patch": 1.0,
     "bait": [
-      "Crayfish Ball"
+      "Moth Pupa"
     ],
-    "id": 4934,
-    "icon": 29251,
+    "hookset": "Precision Hookset",
+    "id": 4926,
+    "icon": 29247,
     "func": "fish",
     "rarity": 1,
     "title": "The Mourning Widow",
     "category": "Freshwater Fishing",
+    "spot": 43,
     "lvl": 1,
     "coords": [
       24.78,
@@ -2937,12 +3028,80 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
+    "id": 4934,
+    "icon": 29251,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Agelyss River",
+    "category": "Freshwater Fishing",
+    "spot": 40,
+    "lvl": 1,
+    "coords": [
+      20.22,
+      18.02
+    ],
+    "radius": 400,
+    "zone": "Middle La Noscea"
+  },
+  {
+    "name": "Gudgeon",
+    "patch": 1.0,
+    "bait": [
+      "Crayfish Ball"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 4934,
+    "icon": 29251,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Nym River",
+    "category": "Freshwater Fishing",
+    "spot": 41,
+    "lvl": 5,
+    "coords": [
+      18.24,
+      14.87
+    ],
+    "radius": 400,
+    "zone": "Middle La Noscea"
+  },
+  {
+    "name": "Gudgeon",
+    "patch": 1.0,
+    "bait": [
+      "Crayfish Ball"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 4934,
+    "icon": 29251,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Mourning Widow",
+    "category": "Freshwater Fishing",
+    "spot": 43,
+    "lvl": 1,
+    "coords": [
+      24.78,
+      23.02
+    ],
+    "radius": 400,
+    "zone": "Lower La Noscea"
+  },
+  {
+    "name": "Gudgeon",
+    "patch": 1.0,
+    "bait": [
+      "Crayfish Ball"
+    ],
+    "hookset": "Precision Hookset",
     "id": 4934,
     "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Jadeite Flood",
     "category": "Freshwater Fishing",
+    "spot": 90,
     "lvl": 5,
     "coords": [
       12.61,
@@ -2957,12 +3116,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4934,
     "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 91,
     "lvl": 5,
     "coords": [
       10.73,
@@ -2977,12 +3138,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4934,
     "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Whispering Gorge",
     "category": "Freshwater Fishing",
+    "spot": 81,
     "lvl": 5,
     "coords": [
       16.55,
@@ -2997,12 +3160,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4934,
     "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 100,
     "lvl": 5,
     "coords": [
       8.91,
@@ -3017,12 +3182,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4934,
     "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
     "category": "Freshwater Fishing",
+    "spot": 2,
     "lvl": 5,
     "coords": [
       22.9,
@@ -3037,12 +3204,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4934,
     "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "The Mirror",
     "category": "Freshwater Fishing",
+    "spot": 3,
     "lvl": 15,
     "coords": [
       26.54,
@@ -3057,12 +3226,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4934,
     "icon": 29251,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
     "category": "Freshwater Fishing",
+    "spot": 72,
     "lvl": 5,
     "coords": [
       24.5,
@@ -3084,6 +3255,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "West Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 40,
     "lvl": 1,
     "coords": [
       20.22,
@@ -3098,12 +3270,14 @@ gt.bell.fish = [
     "bait": [
       "Pill Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 5460,
     "icon": 29062,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
     "category": "Ocean Fishing",
+    "spot": 38,
     "lvl": 5,
     "coords": [
       14.65,
@@ -3118,12 +3292,14 @@ gt.bell.fish = [
     "bait": [
       "Goby Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 5460,
     "icon": 29062,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
     "category": "Ocean Fishing",
+    "spot": 59,
     "lvl": 10,
     "coords": [
       33.85,
@@ -3138,12 +3314,14 @@ gt.bell.fish = [
     "bait": [
       "Goby Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 5460,
     "icon": 29062,
     "func": "fish",
     "rarity": 1,
     "title": "The Brewer's Beacon",
     "category": "Ocean Fishing",
+    "spot": 64,
     "lvl": 15,
     "coords": [
       30.15,
@@ -3158,12 +3336,14 @@ gt.bell.fish = [
     "bait": [
       "Northern Krill"
     ],
+    "hookset": "Precision Hookset",
     "id": 4875,
     "icon": 29031,
     "func": "fish",
     "rarity": 1,
     "title": "Summerford",
     "category": "Ocean Fishing",
+    "spot": 38,
     "lvl": 5,
     "coords": [
       14.65,
@@ -3178,12 +3358,14 @@ gt.bell.fish = [
     "bait": [
       "Goby Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4875,
     "icon": 29031,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
     "category": "Ocean Fishing",
+    "spot": 44,
     "lvl": 5,
     "coords": [
       26.91,
@@ -3198,12 +3380,14 @@ gt.bell.fish = [
     "bait": [
       "Goby Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4875,
     "icon": 29031,
     "func": "fish",
     "rarity": 1,
     "title": "Oschon's Torch",
     "category": "Ocean Fishing",
+    "spot": 47,
     "lvl": 10,
     "coords": [
       24.5,
@@ -3218,12 +3402,14 @@ gt.bell.fish = [
     "bait": [
       "Goby Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4875,
     "icon": 29031,
     "func": "fish",
     "rarity": 1,
     "title": "Candlekeep Quay",
     "category": "Ocean Fishing",
+    "spot": 49,
     "lvl": 10,
     "coords": [
       20.62,
@@ -3246,6 +3432,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Summerford",
     "category": "Ocean Fishing",
+    "spot": 38,
     "lvl": 5,
     "coords": [
       14.65,
@@ -3268,6 +3455,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 53,
     "lvl": 35,
     "coords": [
       33.03,
@@ -3290,6 +3478,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
     "category": "Ocean Fishing",
+    "spot": 107,
     "lvl": 50,
     "coords": [
       37.64,
@@ -3312,6 +3501,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Brewer's Beacon",
     "category": "Ocean Fishing",
+    "spot": 64,
     "lvl": 15,
     "coords": [
       30.15,
@@ -3334,6 +3524,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Summerford",
     "category": "Ocean Fishing",
+    "spot": 38,
     "lvl": 5,
     "coords": [
       14.65,
@@ -3356,6 +3547,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "South Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 51,
     "lvl": 25,
     "coords": [
       32.93,
@@ -3378,6 +3570,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Costa del Sol",
     "category": "Ocean Fishing",
+    "spot": 52,
     "lvl": 30,
     "coords": [
       32.89,
@@ -3400,6 +3593,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
     "category": "Ocean Fishing",
+    "spot": 62,
     "lvl": 40,
     "coords": [
       14.47,
@@ -3422,6 +3616,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Cape Westwind",
     "category": "Ocean Fishing",
+    "spot": 74,
     "lvl": 45,
     "coords": [
       9.93,
@@ -3434,8 +3629,8 @@ gt.bell.fish = [
     "name": "Gigantshark",
     "patch": 2.2,
     "bait": [
-      "Lugworm",
-      "Merlthor Goby"
+      "Floating Minnow",
+      "Harbor Herring"
     ],
     "weather": [
       "Clear Skies",
@@ -3448,6 +3643,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Summerford",
     "category": "Ocean Fishing",
+    "spot": 38,
     "lvl": 5,
     "coords": [
       14.65,
@@ -3462,12 +3658,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4931,
     "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Nym River",
     "category": "Freshwater Fishing",
+    "spot": 41,
     "lvl": 5,
     "coords": [
       18.24,
@@ -3482,12 +3680,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4931,
     "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
     "category": "Freshwater Fishing",
+    "spot": 42,
     "lvl": 15,
     "coords": [
       20.8,
@@ -3502,12 +3702,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4931,
     "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "The Mourning Widow",
     "category": "Freshwater Fishing",
+    "spot": 43,
     "lvl": 1,
     "coords": [
       24.78,
@@ -3522,12 +3724,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4931,
     "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
     "category": "Freshwater Fishing",
+    "spot": 50,
     "lvl": 15,
     "coords": [
       22.0,
@@ -3542,12 +3746,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4931,
     "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
     "category": "Freshwater Fishing",
+    "spot": 72,
     "lvl": 5,
     "coords": [
       24.5,
@@ -3562,12 +3768,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4931,
     "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 75,
     "lvl": 5,
     "coords": [
       23.42,
@@ -3582,12 +3790,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4931,
     "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 76,
     "lvl": 10,
     "coords": [
       17.14,
@@ -3602,12 +3812,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4931,
     "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "The Clutch",
     "category": "Freshwater Fishing",
+    "spot": 96,
     "lvl": 10,
     "coords": [
       29.55,
@@ -3622,12 +3834,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4931,
     "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "North Drybone",
     "category": "Freshwater Fishing",
+    "spot": 78,
     "lvl": 15,
     "coords": [
       13.65,
@@ -3642,12 +3856,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4931,
     "icon": 29273,
     "func": "fish",
     "rarity": 1,
     "title": "South Drybone",
     "category": "Freshwater Fishing",
+    "spot": 79,
     "lvl": 15,
     "coords": [
       17.22,
@@ -3669,6 +3885,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Nym River",
     "category": "Freshwater Fishing",
+    "spot": 41,
     "lvl": 5,
     "coords": [
       18.24,
@@ -3690,6 +3907,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Mourning Widow",
     "category": "Freshwater Fishing",
+    "spot": 43,
     "lvl": 1,
     "coords": [
       24.78,
@@ -3711,6 +3929,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Jadeite Flood",
     "category": "Freshwater Fishing",
+    "spot": 90,
     "lvl": 5,
     "coords": [
       12.61,
@@ -3732,6 +3951,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 91,
     "lvl": 5,
     "coords": [
       10.73,
@@ -3753,6 +3973,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Whispering Gorge",
     "category": "Freshwater Fishing",
+    "spot": 81,
     "lvl": 5,
     "coords": [
       16.55,
@@ -3774,6 +3995,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 100,
     "lvl": 5,
     "coords": [
       8.91,
@@ -3795,6 +4017,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Vein",
     "category": "Freshwater Fishing",
+    "spot": 2,
     "lvl": 5,
     "coords": [
       22.9,
@@ -3816,6 +4039,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Mirror",
     "category": "Freshwater Fishing",
+    "spot": 3,
     "lvl": 15,
     "coords": [
       26.54,
@@ -3837,6 +4061,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sweetbloom Pier",
     "category": "Freshwater Fishing",
+    "spot": 6,
     "lvl": 15,
     "coords": [
       9.03,
@@ -3858,6 +4083,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Springripple Brook",
     "category": "Freshwater Fishing",
+    "spot": 8,
     "lvl": 15,
     "coords": [
       24.02,
@@ -3879,6 +4105,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Murmur Rills",
     "category": "Freshwater Fishing",
+    "spot": 18,
     "lvl": 15,
     "coords": [
       26.38,
@@ -3900,6 +4127,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Fallgourd Float",
     "category": "Freshwater Fishing",
+    "spot": 19,
     "lvl": 15,
     "coords": [
       21.02,
@@ -3921,6 +4149,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Nophica's Wells",
     "category": "Freshwater Fishing",
+    "spot": 72,
     "lvl": 5,
     "coords": [
       24.5,
@@ -3942,6 +4171,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 75,
     "lvl": 5,
     "coords": [
       23.42,
@@ -3963,6 +4193,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 76,
     "lvl": 10,
     "coords": [
       17.14,
@@ -3984,6 +4215,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Clutch",
     "category": "Freshwater Fishing",
+    "spot": 96,
     "lvl": 10,
     "coords": [
       29.55,
@@ -4005,6 +4237,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Unholy Heir",
     "category": "Freshwater Fishing",
+    "spot": 77,
     "lvl": 15,
     "coords": [
       27.83,
@@ -4026,6 +4259,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Coerthas River",
     "category": "Freshwater Fishing",
+    "spot": 26,
     "lvl": 35,
     "coords": [
       20.46,
@@ -4051,6 +4285,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Nym River",
     "category": "Freshwater Fishing",
+    "spot": 41,
     "lvl": 5,
     "coords": [
       18.24,
@@ -4065,12 +4300,14 @@ gt.bell.fish = [
     "bait": [
       "Bloodworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4941,
     "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
     "category": "Freshwater Fishing",
+    "spot": 42,
     "lvl": 15,
     "coords": [
       20.8,
@@ -4085,12 +4322,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4941,
     "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
     "category": "Freshwater Fishing",
+    "spot": 66,
     "lvl": 20,
     "coords": [
       13.59,
@@ -4105,12 +4344,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4941,
     "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
     "category": "Freshwater Fishing",
+    "spot": 67,
     "lvl": 20,
     "coords": [
       9.05,
@@ -4125,12 +4366,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4941,
     "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Bronze Lake Shallows",
     "category": "Freshwater Fishing",
+    "spot": 98,
     "lvl": 30,
     "coords": [
       33.57,
@@ -4145,12 +4388,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4941,
     "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
     "category": "Freshwater Fishing",
+    "spot": 6,
     "lvl": 15,
     "coords": [
       9.03,
@@ -4165,12 +4410,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4941,
     "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Springripple Brook",
     "category": "Freshwater Fishing",
+    "spot": 8,
     "lvl": 15,
     "coords": [
       24.02,
@@ -4185,12 +4432,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4941,
     "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
     "category": "Freshwater Fishing",
+    "spot": 10,
     "lvl": 20,
     "coords": [
       17.68,
@@ -4205,12 +4454,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4941,
     "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Verdant Drop",
     "category": "Freshwater Fishing",
+    "spot": 7,
     "lvl": 25,
     "coords": [
       20.48,
@@ -4225,12 +4476,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4941,
     "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 11,
     "lvl": 20,
     "coords": [
       18.02,
@@ -4245,12 +4498,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4941,
     "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Murmur Rills",
     "category": "Freshwater Fishing",
+    "spot": 18,
     "lvl": 15,
     "coords": [
       26.38,
@@ -4265,12 +4520,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
     "category": "Freshwater Fishing",
+    "spot": 42,
     "lvl": 15,
     "coords": [
       20.8,
@@ -4285,12 +4542,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
     "category": "Freshwater Fishing",
+    "spot": 50,
     "lvl": 15,
     "coords": [
       22.0,
@@ -4305,12 +4564,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 55,
     "lvl": 40,
     "coords": [
       20.2,
@@ -4325,12 +4586,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
     "category": "Freshwater Fishing",
+    "spot": 56,
     "lvl": 40,
     "coords": [
       20.48,
@@ -4345,12 +4608,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
     "category": "Freshwater Fishing",
+    "spot": 57,
     "lvl": 40,
     "coords": [
       16.84,
@@ -4365,12 +4630,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
     "category": "Freshwater Fishing",
+    "spot": 67,
     "lvl": 20,
     "coords": [
       9.05,
@@ -4385,12 +4652,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
     "category": "Freshwater Fishing",
+    "spot": 2,
     "lvl": 5,
     "coords": [
       22.9,
@@ -4405,12 +4674,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
     "category": "Freshwater Fishing",
+    "spot": 6,
     "lvl": 15,
     "coords": [
       9.03,
@@ -4425,12 +4696,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Springripple Brook",
     "category": "Freshwater Fishing",
+    "spot": 8,
     "lvl": 15,
     "coords": [
       24.02,
@@ -4445,12 +4718,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Verdant Drop",
     "category": "Freshwater Fishing",
+    "spot": 7,
     "lvl": 25,
     "coords": [
       20.48,
@@ -4465,12 +4740,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 11,
     "lvl": 20,
     "coords": [
       18.02,
@@ -4485,12 +4762,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 13,
     "lvl": 25,
     "coords": [
       18.36,
@@ -4505,12 +4784,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "East Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 14,
     "lvl": 25,
     "coords": [
       23.86,
@@ -4525,12 +4806,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
     "category": "Freshwater Fishing",
+    "spot": 72,
     "lvl": 5,
     "coords": [
       24.5,
@@ -4545,12 +4828,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
     "category": "Freshwater Fishing",
+    "spot": 73,
     "lvl": 10,
     "coords": [
       17.18,
@@ -4565,12 +4850,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Burnt Lizard Creek",
     "category": "Freshwater Fishing",
+    "spot": 83,
     "lvl": 25,
     "coords": [
       21.74,
@@ -4585,12 +4872,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Forgotten Springs",
     "category": "Freshwater Fishing",
+    "spot": 85,
     "lvl": 35,
     "coords": [
       15.65,
@@ -4605,12 +4894,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4948,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
     "category": "Freshwater Fishing",
+    "spot": 106,
     "lvl": 30,
     "coords": [
       11.01,
@@ -4626,12 +4917,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4952,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Woad Whisper Canyon",
     "category": "Freshwater Fishing",
+    "spot": 42,
     "lvl": 15,
     "coords": [
       20.8,
@@ -4647,12 +4940,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4952,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
     "category": "Freshwater Fishing",
+    "spot": 50,
     "lvl": 15,
     "coords": [
       22.0,
@@ -4668,12 +4963,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4952,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
     "category": "Freshwater Fishing",
+    "spot": 2,
     "lvl": 5,
     "coords": [
       22.9,
@@ -4689,12 +4986,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4952,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
     "category": "Freshwater Fishing",
+    "spot": 6,
     "lvl": 15,
     "coords": [
       9.03,
@@ -4710,12 +5009,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4952,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Springripple Brook",
     "category": "Freshwater Fishing",
+    "spot": 8,
     "lvl": 15,
     "coords": [
       24.02,
@@ -4731,12 +5032,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4952,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 11,
     "lvl": 20,
     "coords": [
       18.02,
@@ -4752,12 +5055,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4952,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 13,
     "lvl": 25,
     "coords": [
       18.36,
@@ -4773,12 +5078,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4952,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "East Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 14,
     "lvl": 25,
     "coords": [
       23.86,
@@ -4794,12 +5101,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4952,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
     "category": "Freshwater Fishing",
+    "spot": 72,
     "lvl": 5,
     "coords": [
       24.5,
@@ -4815,12 +5124,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4952,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
     "category": "Freshwater Fishing",
+    "spot": 73,
     "lvl": 10,
     "coords": [
       17.18,
@@ -4836,12 +5147,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4952,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
     "category": "Freshwater Fishing",
+    "spot": 106,
     "lvl": 30,
     "coords": [
       11.01,
@@ -4863,6 +5176,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Woad Whisper Canyon",
     "category": "Freshwater Fishing",
+    "spot": 42,
     "lvl": 15,
     "coords": [
       20.8,
@@ -4889,6 +5203,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Woad Whisper Canyon",
     "category": "Freshwater Fishing",
+    "spot": 42,
     "lvl": 15,
     "coords": [
       20.8,
@@ -4910,6 +5225,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Mourning Widow",
     "category": "Freshwater Fishing",
+    "spot": 43,
     "lvl": 1,
     "coords": [
       24.78,
@@ -4931,6 +5247,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Moraby Bay",
     "category": "Ocean Fishing",
+    "spot": 44,
     "lvl": 5,
     "coords": [
       26.91,
@@ -4952,6 +5269,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Cedarwood",
     "category": "Ocean Fishing",
+    "spot": 45,
     "lvl": 10,
     "coords": [
       35.27,
@@ -4973,6 +5291,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Oschon's Torch",
     "category": "Ocean Fishing",
+    "spot": 47,
     "lvl": 10,
     "coords": [
       24.5,
@@ -4994,6 +5313,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Candlekeep Quay",
     "category": "Ocean Fishing",
+    "spot": 49,
     "lvl": 10,
     "coords": [
       20.62,
@@ -5015,6 +5335,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Moraby Drydocks",
     "category": "Ocean Fishing",
+    "spot": 46,
     "lvl": 15,
     "coords": [
       26.42,
@@ -5036,6 +5357,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swiftperch",
     "category": "Ocean Fishing",
+    "spot": 59,
     "lvl": 10,
     "coords": [
       33.85,
@@ -5050,12 +5372,14 @@ gt.bell.fish = [
     "bait": [
       "Yumizuno"
     ],
+    "hookset": "Precision Hookset",
     "id": 4878,
     "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Bay",
     "category": "Ocean Fishing",
+    "spot": 44,
     "lvl": 5,
     "coords": [
       26.91,
@@ -5070,12 +5394,14 @@ gt.bell.fish = [
     "bait": [
       "Yumizuno"
     ],
+    "hookset": "Precision Hookset",
     "id": 4878,
     "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
     "category": "Ocean Fishing",
+    "spot": 45,
     "lvl": 10,
     "coords": [
       35.27,
@@ -5090,12 +5416,14 @@ gt.bell.fish = [
     "bait": [
       "Yumizuno"
     ],
+    "hookset": "Precision Hookset",
     "id": 4878,
     "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Oschon's Torch",
     "category": "Ocean Fishing",
+    "spot": 47,
     "lvl": 10,
     "coords": [
       24.5,
@@ -5110,12 +5438,14 @@ gt.bell.fish = [
     "bait": [
       "Yumizuno"
     ],
+    "hookset": "Precision Hookset",
     "id": 4878,
     "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Candlekeep Quay",
     "category": "Ocean Fishing",
+    "spot": 49,
     "lvl": 10,
     "coords": [
       20.62,
@@ -5130,12 +5460,14 @@ gt.bell.fish = [
     "bait": [
       "Yumizuno"
     ],
+    "hookset": "Precision Hookset",
     "id": 4878,
     "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
     "category": "Ocean Fishing",
+    "spot": 46,
     "lvl": 15,
     "coords": [
       26.42,
@@ -5150,12 +5482,14 @@ gt.bell.fish = [
     "bait": [
       "Yumizuno"
     ],
+    "hookset": "Precision Hookset",
     "id": 4878,
     "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
     "category": "Ocean Fishing",
+    "spot": 48,
     "lvl": 20,
     "coords": [
       17.38,
@@ -5170,12 +5504,14 @@ gt.bell.fish = [
     "bait": [
       "Yumizuno"
     ],
+    "hookset": "Precision Hookset",
     "id": 4878,
     "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
     "category": "Ocean Fishing",
+    "spot": 59,
     "lvl": 10,
     "coords": [
       33.85,
@@ -5190,12 +5526,14 @@ gt.bell.fish = [
     "bait": [
       "Yumizuno"
     ],
+    "hookset": "Precision Hookset",
     "id": 4878,
     "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "Vesper Bay",
     "category": "Ocean Fishing",
+    "spot": 70,
     "lvl": 15,
     "coords": [
       11.53,
@@ -5210,12 +5548,14 @@ gt.bell.fish = [
     "bait": [
       "Yumizuno"
     ],
+    "hookset": "Precision Hookset",
     "id": 4878,
     "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Bazaar",
     "category": "Ocean Fishing",
+    "spot": 69,
     "lvl": 25,
     "coords": [
       14.57,
@@ -5237,6 +5577,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Moraby Bay",
     "category": "Ocean Fishing",
+    "spot": 44,
     "lvl": 5,
     "coords": [
       26.91,
@@ -5258,6 +5599,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Cedarwood",
     "category": "Ocean Fishing",
+    "spot": 45,
     "lvl": 10,
     "coords": [
       35.27,
@@ -5279,6 +5621,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Oschon's Torch",
     "category": "Ocean Fishing",
+    "spot": 47,
     "lvl": 10,
     "coords": [
       24.5,
@@ -5300,6 +5643,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Candlekeep Quay",
     "category": "Ocean Fishing",
+    "spot": 49,
     "lvl": 10,
     "coords": [
       20.62,
@@ -5321,6 +5665,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Moraby Drydocks",
     "category": "Ocean Fishing",
+    "spot": 46,
     "lvl": 15,
     "coords": [
       26.42,
@@ -5342,6 +5687,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swiftperch",
     "category": "Ocean Fishing",
+    "spot": 59,
     "lvl": 10,
     "coords": [
       33.85,
@@ -5363,6 +5709,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Skull Valley",
     "category": "Ocean Fishing",
+    "spot": 60,
     "lvl": 15,
     "coords": [
       26.69,
@@ -5384,6 +5731,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Vesper Bay",
     "category": "Ocean Fishing",
+    "spot": 70,
     "lvl": 15,
     "coords": [
       11.53,
@@ -5405,6 +5753,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Silver Bazaar",
     "category": "Ocean Fishing",
+    "spot": 69,
     "lvl": 25,
     "coords": [
       14.57,
@@ -5419,12 +5768,14 @@ gt.bell.fish = [
     "bait": [
       "Northern Krill"
     ],
+    "hookset": "Precision Hookset",
     "id": 4897,
     "icon": 29053,
     "func": "fish",
     "rarity": 1,
     "title": "Cedarwood",
     "category": "Ocean Fishing",
+    "spot": 45,
     "lvl": 10,
     "coords": [
       35.27,
@@ -5439,12 +5790,14 @@ gt.bell.fish = [
     "bait": [
       "Northern Krill"
     ],
+    "hookset": "Precision Hookset",
     "id": 4897,
     "icon": 29053,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
     "category": "Ocean Fishing",
+    "spot": 108,
     "lvl": 50,
     "coords": [
       37.24,
@@ -5459,12 +5812,14 @@ gt.bell.fish = [
     "bait": [
       "Northern Krill"
     ],
+    "hookset": "Precision Hookset",
     "id": 4897,
     "icon": 29053,
     "func": "fish",
     "rarity": 1,
     "title": "North Isle of Endless Summer",
     "category": "Ocean Fishing",
+    "spot": 156,
     "lvl": 50,
     "coords": [
       36.03,
@@ -5489,6 +5844,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Cedarwood",
     "category": "Ocean Fishing",
+    "spot": 45,
     "lvl": 10,
     "coords": [
       35.27,
@@ -5503,12 +5859,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4881,
     "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Oschon's Torch",
     "category": "Ocean Fishing",
+    "spot": 47,
     "lvl": 10,
     "coords": [
       24.5,
@@ -5523,12 +5881,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4881,
     "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Candlekeep Quay",
     "category": "Ocean Fishing",
+    "spot": 49,
     "lvl": 10,
     "coords": [
       20.62,
@@ -5543,12 +5903,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4881,
     "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Moraby Drydocks",
     "category": "Ocean Fishing",
+    "spot": 46,
     "lvl": 15,
     "coords": [
       26.42,
@@ -5563,12 +5925,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4881,
     "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Swiftperch",
     "category": "Ocean Fishing",
+    "spot": 59,
     "lvl": 10,
     "coords": [
       33.85,
@@ -5583,12 +5947,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4881,
     "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Skull Valley",
     "category": "Ocean Fishing",
+    "spot": 60,
     "lvl": 15,
     "coords": [
       26.69,
@@ -5603,12 +5969,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4881,
     "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "The Brewer's Beacon",
     "category": "Ocean Fishing",
+    "spot": 64,
     "lvl": 15,
     "coords": [
       30.15,
@@ -5623,12 +5991,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4881,
     "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "Vesper Bay",
     "category": "Ocean Fishing",
+    "spot": 70,
     "lvl": 15,
     "coords": [
       11.53,
@@ -5643,12 +6013,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4881,
     "icon": 29015,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Bazaar",
     "category": "Ocean Fishing",
+    "spot": 69,
     "lvl": 25,
     "coords": [
       14.57,
@@ -5674,6 +6046,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Oschon's Torch",
     "category": "Ocean Fishing",
+    "spot": 47,
     "lvl": 10,
     "coords": [
       24.5,
@@ -5695,6 +6068,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Oschon's Torch",
     "category": "Ocean Fishing",
+    "spot": 47,
     "lvl": 10,
     "coords": [
       24.5,
@@ -5716,6 +6090,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Candlekeep Quay",
     "category": "Ocean Fishing",
+    "spot": 49,
     "lvl": 10,
     "coords": [
       20.62,
@@ -5737,6 +6112,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
     "category": "Ocean Fishing",
+    "spot": 108,
     "lvl": 50,
     "coords": [
       37.24,
@@ -5758,6 +6134,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Isle of Endless Summer",
     "category": "Ocean Fishing",
+    "spot": 156,
     "lvl": 50,
     "coords": [
       36.03,
@@ -5783,6 +6160,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Candlekeep Quay",
     "category": "Ocean Fishing",
+    "spot": 49,
     "lvl": 10,
     "coords": [
       20.62,
@@ -5804,6 +6182,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Moraby Drydocks",
     "category": "Ocean Fishing",
+    "spot": 46,
     "lvl": 15,
     "coords": [
       26.42,
@@ -5825,6 +6204,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Brewer's Beacon",
     "category": "Ocean Fishing",
+    "spot": 64,
     "lvl": 15,
     "coords": [
       30.15,
@@ -5850,6 +6230,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Moraby Drydocks",
     "category": "Ocean Fishing",
+    "spot": 46,
     "lvl": 15,
     "coords": [
       26.42,
@@ -5864,12 +6245,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4933,
     "icon": 29207,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
     "category": "Freshwater Fishing",
+    "spot": 50,
     "lvl": 15,
     "coords": [
       22.0,
@@ -5884,12 +6267,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4933,
     "icon": 29207,
     "func": "fish",
     "rarity": 1,
     "title": "Hidden Falls",
     "category": "Freshwater Fishing",
+    "spot": 54,
     "lvl": 35,
     "coords": [
       30.83,
@@ -5904,12 +6289,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4933,
     "icon": 29207,
     "func": "fish",
     "rarity": 1,
     "title": "Fool Falls",
     "category": "Freshwater Fishing",
+    "spot": 67,
     "lvl": 20,
     "coords": [
       9.05,
@@ -5924,12 +6311,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4933,
     "icon": 29207,
     "func": "fish",
     "rarity": 1,
     "title": "Bronze Lake Shallows",
     "category": "Freshwater Fishing",
+    "spot": 98,
     "lvl": 30,
     "coords": [
       33.57,
@@ -5951,6 +6340,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Empty Heart",
     "category": "Freshwater Fishing",
+    "spot": 50,
     "lvl": 15,
     "coords": [
       22.0,
@@ -5972,6 +6362,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Oakwood",
     "category": "Freshwater Fishing",
+    "spot": 66,
     "lvl": 20,
     "coords": [
       13.59,
@@ -5993,6 +6384,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Bronze Lake Shallows",
     "category": "Freshwater Fishing",
+    "spot": 98,
     "lvl": 30,
     "coords": [
       33.57,
@@ -6014,6 +6406,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 11,
     "lvl": 20,
     "coords": [
       18.02,
@@ -6035,6 +6428,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 13,
     "lvl": 25,
     "coords": [
       18.36,
@@ -6056,6 +6450,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "East Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 14,
     "lvl": 25,
     "coords": [
       23.86,
@@ -6070,12 +6465,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4943,
     "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
     "category": "Freshwater Fishing",
+    "spot": 19,
     "lvl": 15,
     "coords": [
       21.02,
@@ -6097,6 +6494,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Footfalls",
     "category": "Freshwater Fishing",
+    "spot": 73,
     "lvl": 10,
     "coords": [
       17.18,
@@ -6118,6 +6516,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Drybone",
     "category": "Freshwater Fishing",
+    "spot": 78,
     "lvl": 15,
     "coords": [
       13.65,
@@ -6139,6 +6538,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "South Drybone",
     "category": "Freshwater Fishing",
+    "spot": 79,
     "lvl": 15,
     "coords": [
       17.22,
@@ -6160,6 +6560,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Goblet",
     "category": "Freshwater Fishing",
+    "spot": 106,
     "lvl": 30,
     "coords": [
       11.01,
@@ -6174,12 +6575,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4944,
     "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
     "category": "Freshwater Fishing",
+    "spot": 50,
     "lvl": 15,
     "coords": [
       22.0,
@@ -6194,12 +6597,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4944,
     "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "Blind Iron Mines",
     "category": "Freshwater Fishing",
+    "spot": 97,
     "lvl": 20,
     "coords": [
       27.45,
@@ -6214,12 +6619,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4944,
     "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
     "category": "Freshwater Fishing",
+    "spot": 10,
     "lvl": 20,
     "coords": [
       17.68,
@@ -6234,12 +6641,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4944,
     "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
     "category": "Freshwater Fishing",
+    "spot": 73,
     "lvl": 10,
     "coords": [
       17.18,
@@ -6254,12 +6663,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4944,
     "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "The Unholy Heir",
     "category": "Freshwater Fishing",
+    "spot": 77,
     "lvl": 15,
     "coords": [
       27.83,
@@ -6274,12 +6685,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4944,
     "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "North Drybone",
     "category": "Freshwater Fishing",
+    "spot": 78,
     "lvl": 15,
     "coords": [
       13.65,
@@ -6294,12 +6707,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4944,
     "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "South Drybone",
     "category": "Freshwater Fishing",
+    "spot": 79,
     "lvl": 15,
     "coords": [
       17.22,
@@ -6314,12 +6729,14 @@ gt.bell.fish = [
     "bait": [
       "Crow Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4947,
     "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
     "category": "Freshwater Fishing",
+    "spot": 50,
     "lvl": 15,
     "coords": [
       22.0,
@@ -6334,12 +6751,14 @@ gt.bell.fish = [
     "bait": [
       "Crow Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4947,
     "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Jadeite Flood",
     "category": "Freshwater Fishing",
+    "spot": 90,
     "lvl": 5,
     "coords": [
       12.61,
@@ -6354,12 +6773,14 @@ gt.bell.fish = [
     "bait": [
       "Crow Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4947,
     "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 91,
     "lvl": 5,
     "coords": [
       10.73,
@@ -6374,12 +6795,14 @@ gt.bell.fish = [
     "bait": [
       "Crow Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4947,
     "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Whispering Gorge",
     "category": "Freshwater Fishing",
+    "spot": 81,
     "lvl": 5,
     "coords": [
       16.55,
@@ -6394,12 +6817,14 @@ gt.bell.fish = [
     "bait": [
       "Crow Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4947,
     "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 100,
     "lvl": 5,
     "coords": [
       8.91,
@@ -6414,12 +6839,14 @@ gt.bell.fish = [
     "bait": [
       "Crow Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4947,
     "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "The Mirror",
     "category": "Freshwater Fishing",
+    "spot": 3,
     "lvl": 15,
     "coords": [
       26.54,
@@ -6434,12 +6861,14 @@ gt.bell.fish = [
     "bait": [
       "Crow Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4947,
     "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
     "category": "Freshwater Fishing",
+    "spot": 10,
     "lvl": 20,
     "coords": [
       17.68,
@@ -6454,12 +6883,14 @@ gt.bell.fish = [
     "bait": [
       "Crow Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4947,
     "icon": 29286,
     "func": "fish",
     "rarity": 1,
     "title": "Zahar'ak",
     "category": "Freshwater Fishing",
+    "spot": 84,
     "lvl": 35,
     "coords": [
       25.38,
@@ -6474,12 +6905,14 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4970,
     "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "Empty Heart",
     "category": "Freshwater Fishing",
+    "spot": 50,
     "lvl": 15,
     "coords": [
       22.0,
@@ -6494,12 +6927,14 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4970,
     "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
     "category": "Freshwater Fishing",
+    "spot": 57,
     "lvl": 40,
     "coords": [
       16.84,
@@ -6514,12 +6949,14 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4970,
     "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "Moondrip",
     "category": "Freshwater Fishing",
+    "spot": 103,
     "lvl": 45,
     "coords": [
       18.02,
@@ -6534,12 +6971,14 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4970,
     "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "Parata's Peace",
     "category": "Freshwater Fishing",
+    "spot": 95,
     "lvl": 50,
     "coords": [
       15.05,
@@ -6554,12 +6993,14 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4970,
     "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "Ceruleum Field",
     "category": "Freshwater Fishing",
+    "spot": 88,
     "lvl": 45,
     "coords": [
       20.74,
@@ -6586,6 +7027,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Empty Heart",
     "category": "Freshwater Fishing",
+    "spot": 50,
     "lvl": 15,
     "coords": [
       22.0,
@@ -6600,12 +7042,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4880,
     "icon": 29032,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
     "category": "Ocean Fishing",
+    "spot": 48,
     "lvl": 20,
     "coords": [
       17.38,
@@ -6620,12 +7064,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4880,
     "icon": 29032,
     "func": "fish",
     "rarity": 1,
     "title": "The Brewer's Beacon",
     "category": "Ocean Fishing",
+    "spot": 64,
     "lvl": 15,
     "coords": [
       30.15,
@@ -6640,12 +7086,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4884,
     "icon": 29030,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
     "category": "Ocean Fishing",
+    "spot": 48,
     "lvl": 20,
     "coords": [
       17.38,
@@ -6660,12 +7108,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4884,
     "icon": 29030,
     "func": "fish",
     "rarity": 1,
     "title": "Skull Valley",
     "category": "Ocean Fishing",
+    "spot": 60,
     "lvl": 15,
     "coords": [
       26.69,
@@ -6680,12 +7130,14 @@ gt.bell.fish = [
     "bait": [
       "Rat Tail"
     ],
+    "hookset": "Precision Hookset",
     "id": 4884,
     "icon": 29030,
     "func": "fish",
     "rarity": 1,
     "title": "Crescent Cove",
     "category": "Ocean Fishing",
+    "spot": 71,
     "lvl": 20,
     "coords": [
       15.57,
@@ -6707,6 +7159,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Salt Strand",
     "category": "Ocean Fishing",
+    "spot": 48,
     "lvl": 20,
     "coords": [
       17.38,
@@ -6728,6 +7181,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Costa del Sol",
     "category": "Ocean Fishing",
+    "spot": 52,
     "lvl": 30,
     "coords": [
       32.89,
@@ -6749,6 +7203,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
     "category": "Ocean Fishing",
+    "spot": 107,
     "lvl": 50,
     "coords": [
       37.64,
@@ -6770,6 +7225,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
     "category": "Ocean Fishing",
+    "spot": 108,
     "lvl": 50,
     "coords": [
       37.24,
@@ -6791,6 +7247,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Isle of Endless Summer",
     "category": "Ocean Fishing",
+    "spot": 156,
     "lvl": 50,
     "coords": [
       36.03,
@@ -6812,6 +7269,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mist",
     "category": "Ocean Fishing",
+    "spot": 104,
     "lvl": 30,
     "coords": [
       11.01,
@@ -6833,6 +7291,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Crescent Cove",
     "category": "Ocean Fishing",
+    "spot": 71,
     "lvl": 20,
     "coords": [
       15.57,
@@ -6847,12 +7306,14 @@ gt.bell.fish = [
     "bait": [
       "Shrimp Cage Feeder"
     ],
+    "hookset": "Precision Hookset",
     "id": 4890,
     "icon": 29040,
     "func": "fish",
     "rarity": 1,
     "title": "The Salt Strand",
     "category": "Ocean Fishing",
+    "spot": 48,
     "lvl": 20,
     "coords": [
       17.38,
@@ -6867,12 +7328,14 @@ gt.bell.fish = [
     "bait": [
       "Shrimp Cage Feeder"
     ],
+    "hookset": "Precision Hookset",
     "id": 4890,
     "icon": 29040,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 51,
     "lvl": 25,
     "coords": [
       32.93,
@@ -6894,6 +7357,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Salt Strand",
     "category": "Ocean Fishing",
+    "spot": 48,
     "lvl": 20,
     "coords": [
       17.38,
@@ -6915,6 +7379,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 53,
     "lvl": 35,
     "coords": [
       33.03,
@@ -6936,6 +7401,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Salt Strand",
     "category": "Ocean Fishing",
+    "spot": 48,
     "lvl": 20,
     "coords": [
       17.38,
@@ -6966,6 +7432,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Salt Strand",
     "category": "Ocean Fishing",
+    "spot": 48,
     "lvl": 20,
     "coords": [
       17.38,
@@ -6980,12 +7447,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Blind Iron Mines",
     "category": "Freshwater Fishing",
+    "spot": 97,
     "lvl": 20,
     "coords": [
       27.45,
@@ -7000,12 +7469,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Mirror",
     "category": "Freshwater Fishing",
+    "spot": 3,
     "lvl": 15,
     "coords": [
       26.54,
@@ -7020,12 +7491,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
     "category": "Freshwater Fishing",
+    "spot": 6,
     "lvl": 15,
     "coords": [
       9.03,
@@ -7040,12 +7513,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
     "category": "Freshwater Fishing",
+    "spot": 10,
     "lvl": 20,
     "coords": [
       17.68,
@@ -7060,12 +7535,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Rootslake",
     "category": "Freshwater Fishing",
+    "spot": 16,
     "lvl": 35,
     "coords": [
       18.62,
@@ -7080,12 +7557,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Nophica's Wells",
     "category": "Freshwater Fishing",
+    "spot": 72,
     "lvl": 5,
     "coords": [
       24.5,
@@ -7100,12 +7579,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 75,
     "lvl": 5,
     "coords": [
       23.42,
@@ -7120,12 +7601,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 76,
     "lvl": 10,
     "coords": [
       17.14,
@@ -7140,12 +7623,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Clutch",
     "category": "Freshwater Fishing",
+    "spot": 96,
     "lvl": 10,
     "coords": [
       29.55,
@@ -7160,12 +7645,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Unholy Heir",
     "category": "Freshwater Fishing",
+    "spot": 77,
     "lvl": 15,
     "coords": [
       27.83,
@@ -7180,12 +7667,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Bluefog",
     "category": "Freshwater Fishing",
+    "spot": 89,
     "lvl": 40,
     "coords": [
       24.14,
@@ -7200,12 +7689,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4929,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Tangle",
     "category": "Freshwater Fishing",
+    "spot": 24,
     "lvl": 50,
     "coords": [
       14.41,
@@ -7220,12 +7711,14 @@ gt.bell.fish = [
     "bait": [
       "Syrphid Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4938,
     "icon": 29214,
     "func": "fish",
     "rarity": 1,
     "title": "Blind Iron Mines",
     "category": "Freshwater Fishing",
+    "spot": 97,
     "lvl": 20,
     "coords": [
       27.45,
@@ -7240,12 +7733,14 @@ gt.bell.fish = [
     "bait": [
       "Syrphid Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4938,
     "icon": 29214,
     "func": "fish",
     "rarity": 1,
     "title": "Moondrip",
     "category": "Freshwater Fishing",
+    "spot": 103,
     "lvl": 45,
     "coords": [
       18.02,
@@ -7260,12 +7755,14 @@ gt.bell.fish = [
     "bait": [
       "Syrphid Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4938,
     "icon": 29214,
     "func": "fish",
     "rarity": 1,
     "title": "Daniffen Pass",
     "category": "Freshwater Fishing",
+    "spot": 31,
     "lvl": 35,
     "coords": [
       13.25,
@@ -7280,12 +7777,14 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 5544,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Blind Iron Mines",
     "category": "Freshwater Fishing",
+    "spot": 97,
     "lvl": 20,
     "coords": [
       27.45,
@@ -7300,12 +7799,14 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 5544,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Daniffen Pass",
     "category": "Freshwater Fishing",
+    "spot": 31,
     "lvl": 35,
     "coords": [
       13.25,
@@ -7320,12 +7821,14 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 5544,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Exploratory Ice Hole",
     "category": "Freshwater Fishing",
+    "spot": 32,
     "lvl": 40,
     "coords": [
       6.45,
@@ -7340,12 +7843,14 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 5544,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "The Weeping Saint",
     "category": "Freshwater Fishing",
+    "spot": 29,
     "lvl": 45,
     "coords": [
       31.53,
@@ -7360,12 +7865,14 @@ gt.bell.fish = [
     "bait": [
       "Chocobo Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 5544,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
     "category": "Freshwater Fishing",
+    "spot": 22,
     "lvl": 45,
     "coords": [
       25.08,
@@ -7378,14 +7885,16 @@ gt.bell.fish = [
     "name": "Lamp Marimo",
     "patch": 1.0,
     "bait": [
-      "Chocobo Fly"
+      "Glowworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 5544,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Singing Shards",
     "category": "Freshwater Fishing",
+    "spot": 93,
     "lvl": 45,
     "coords": [
       29.15,
@@ -7398,14 +7907,16 @@ gt.bell.fish = [
     "name": "Lamp Marimo",
     "patch": 1.0,
     "bait": [
-      "Chocobo Fly"
+      "Glowworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 5544,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
     "category": "Freshwater Fishing",
+    "spot": 23,
     "lvl": 50,
     "coords": [
       18.74,
@@ -7418,14 +7929,16 @@ gt.bell.fish = [
     "name": "Lamp Marimo",
     "patch": 1.0,
     "bait": [
-      "Chocobo Fly"
+      "Glowworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 5544,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
     "category": "Freshwater Fishing",
+    "spot": 94,
     "lvl": 50,
     "coords": [
       30.99,
@@ -7438,14 +7951,16 @@ gt.bell.fish = [
     "name": "Lamp Marimo",
     "patch": 1.0,
     "bait": [
-      "Chocobo Fly"
+      "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 5544,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Eil Tohm",
     "category": "Freshwater Fishing",
+    "spot": 129,
     "lvl": 54,
     "coords": [
       36.82,
@@ -7471,6 +7986,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Blind Iron Mines",
     "category": "Freshwater Fishing",
+    "spot": 97,
     "lvl": 20,
     "coords": [
       27.45,
@@ -7485,12 +8001,14 @@ gt.bell.fish = [
     "bait": [
       "Shrimp Cage Feeder"
     ],
+    "hookset": "Precision Hookset",
     "id": 5461,
     "icon": 29061,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 51,
     "lvl": 25,
     "coords": [
       32.93,
@@ -7505,12 +8023,14 @@ gt.bell.fish = [
     "bait": [
       "Shrimp Cage Feeder"
     ],
+    "hookset": "Precision Hookset",
     "id": 5461,
     "icon": 29061,
     "func": "fish",
     "rarity": 1,
     "title": "Halfstone",
     "category": "Ocean Fishing",
+    "spot": 61,
     "lvl": 35,
     "coords": [
       17.56,
@@ -7532,6 +8052,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "South Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 51,
     "lvl": 25,
     "coords": [
       32.93,
@@ -7553,6 +8074,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Costa del Sol",
     "category": "Ocean Fishing",
+    "spot": 52,
     "lvl": 30,
     "coords": [
       32.89,
@@ -7574,6 +8096,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mist",
     "category": "Ocean Fishing",
+    "spot": 104,
     "lvl": 30,
     "coords": [
       11.01,
@@ -7592,12 +8115,14 @@ gt.bell.fish = [
       "start": 18,
       "end": 6
     },
+    "hookset": "Precision Hookset",
     "id": 4898,
     "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "South Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 51,
     "lvl": 25,
     "coords": [
       32.93,
@@ -7616,12 +8141,14 @@ gt.bell.fish = [
       "start": 18,
       "end": 6
     },
+    "hookset": "Precision Hookset",
     "id": 4898,
     "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "Costa del Sol",
     "category": "Ocean Fishing",
+    "spot": 52,
     "lvl": 30,
     "coords": [
       32.89,
@@ -7640,12 +8167,14 @@ gt.bell.fish = [
       "start": 18,
       "end": 6
     },
+    "hookset": "Precision Hookset",
     "id": 4898,
     "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
     "category": "Ocean Fishing",
+    "spot": 62,
     "lvl": 40,
     "coords": [
       14.47,
@@ -7664,12 +8193,14 @@ gt.bell.fish = [
       "start": 18,
       "end": 6
     },
+    "hookset": "Precision Hookset",
     "id": 4898,
     "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
     "category": "Ocean Fishing",
+    "spot": 101,
     "lvl": 45,
     "coords": [
       17.14,
@@ -7688,12 +8219,14 @@ gt.bell.fish = [
       "start": 18,
       "end": 6
     },
+    "hookset": "Precision Hookset",
     "id": 4898,
     "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
     "category": "Ocean Fishing",
+    "spot": 63,
     "lvl": 50,
     "coords": [
       12.81,
@@ -7712,12 +8245,14 @@ gt.bell.fish = [
       "start": 18,
       "end": 6
     },
+    "hookset": "Precision Hookset",
     "id": 4898,
     "icon": 29055,
     "func": "fish",
     "rarity": 1,
     "title": "Mist",
     "category": "Ocean Fishing",
+    "spot": 104,
     "lvl": 30,
     "coords": [
       11.01,
@@ -7743,6 +8278,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "South Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 51,
     "lvl": 25,
     "coords": [
       32.93,
@@ -7768,6 +8304,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "South Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 51,
     "lvl": 25,
     "coords": [
       32.93,
@@ -7789,6 +8326,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Costa del Sol",
     "category": "Ocean Fishing",
+    "spot": 52,
     "lvl": 30,
     "coords": [
       32.89,
@@ -7810,6 +8348,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mist",
     "category": "Ocean Fishing",
+    "spot": 104,
     "lvl": 30,
     "coords": [
       11.01,
@@ -7831,6 +8370,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Silver Bazaar",
     "category": "Ocean Fishing",
+    "spot": 69,
     "lvl": 25,
     "coords": [
       14.57,
@@ -7852,6 +8392,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Costa del Sol",
     "category": "Ocean Fishing",
+    "spot": 52,
     "lvl": 30,
     "coords": [
       32.89,
@@ -7873,6 +8414,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 53,
     "lvl": 35,
     "coords": [
       33.03,
@@ -7894,6 +8436,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
     "category": "Ocean Fishing",
+    "spot": 107,
     "lvl": 50,
     "coords": [
       37.64,
@@ -7915,6 +8458,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mist",
     "category": "Ocean Fishing",
+    "spot": 104,
     "lvl": 30,
     "coords": [
       11.01,
@@ -7936,6 +8480,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Costa del Sol",
     "category": "Ocean Fishing",
+    "spot": 52,
     "lvl": 30,
     "coords": [
       32.89,
@@ -7957,6 +8502,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Halfstone",
     "category": "Ocean Fishing",
+    "spot": 61,
     "lvl": 35,
     "coords": [
       17.56,
@@ -7978,6 +8524,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
     "category": "Ocean Fishing",
+    "spot": 62,
     "lvl": 40,
     "coords": [
       14.47,
@@ -8003,6 +8550,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Costa del Sol",
     "category": "Ocean Fishing",
+    "spot": 52,
     "lvl": 30,
     "coords": [
       32.89,
@@ -8028,6 +8576,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
     "category": "Ocean Fishing",
+    "spot": 108,
     "lvl": 50,
     "coords": [
       37.24,
@@ -8053,6 +8602,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Isle of Endless Summer",
     "category": "Ocean Fishing",
+    "spot": 156,
     "lvl": 50,
     "coords": [
       36.03,
@@ -8083,6 +8633,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Costa del Sol",
     "category": "Ocean Fishing",
+    "spot": 52,
     "lvl": 30,
     "coords": [
       32.89,
@@ -8097,12 +8648,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4894,
     "icon": 29029,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 53,
     "lvl": 35,
     "coords": [
       33.03,
@@ -8117,12 +8670,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4894,
     "icon": 29029,
     "func": "fish",
     "rarity": 1,
     "title": "Halfstone",
     "category": "Ocean Fishing",
+    "spot": 61,
     "lvl": 35,
     "coords": [
       17.56,
@@ -8137,12 +8692,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4900,
     "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 53,
     "lvl": 35,
     "coords": [
       33.03,
@@ -8157,12 +8714,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4900,
     "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "Halfstone",
     "category": "Ocean Fishing",
+    "spot": 61,
     "lvl": 35,
     "coords": [
       17.56,
@@ -8177,12 +8736,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4900,
     "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
     "category": "Ocean Fishing",
+    "spot": 101,
     "lvl": 45,
     "coords": [
       17.14,
@@ -8197,12 +8758,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4900,
     "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
     "category": "Ocean Fishing",
+    "spot": 74,
     "lvl": 45,
     "coords": [
       9.93,
@@ -8224,6 +8787,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 53,
     "lvl": 35,
     "coords": [
       33.03,
@@ -8245,6 +8809,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
     "category": "Ocean Fishing",
+    "spot": 107,
     "lvl": 50,
     "coords": [
       37.64,
@@ -8266,6 +8831,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Halfstone",
     "category": "Ocean Fishing",
+    "spot": 61,
     "lvl": 35,
     "coords": [
       17.56,
@@ -8280,12 +8846,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 5462,
     "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "North Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 53,
     "lvl": 35,
     "coords": [
       33.03,
@@ -8300,12 +8868,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 5462,
     "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
     "category": "Ocean Fishing",
+    "spot": 107,
     "lvl": 50,
     "coords": [
       37.64,
@@ -8320,12 +8890,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 5462,
     "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
     "category": "Ocean Fishing",
+    "spot": 62,
     "lvl": 40,
     "coords": [
       14.47,
@@ -8340,12 +8912,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 5462,
     "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
     "category": "Ocean Fishing",
+    "spot": 65,
     "lvl": 45,
     "coords": [
       15.57,
@@ -8360,12 +8934,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 5462,
     "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
     "category": "Ocean Fishing",
+    "spot": 101,
     "lvl": 45,
     "coords": [
       17.14,
@@ -8380,12 +8956,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 5462,
     "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
     "category": "Ocean Fishing",
+    "spot": 63,
     "lvl": 50,
     "coords": [
       12.81,
@@ -8400,12 +8978,14 @@ gt.bell.fish = [
     "bait": [
       "Herring Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 5462,
     "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Reaver Hide",
     "category": "Ocean Fishing",
+    "spot": 102,
     "lvl": 50,
     "coords": [
       13.77,
@@ -8429,6 +9009,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 53,
     "lvl": 35,
     "coords": [
       33.03,
@@ -8452,6 +9033,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
     "category": "Ocean Fishing",
+    "spot": 107,
     "lvl": 50,
     "coords": [
       37.64,
@@ -8480,6 +9062,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "North Bloodshore",
     "category": "Ocean Fishing",
+    "spot": 53,
     "lvl": 35,
     "coords": [
       33.03,
@@ -8503,6 +9086,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Forecastle)",
     "category": "Ocean Fishing",
+    "spot": 107,
     "lvl": 50,
     "coords": [
       37.64,
@@ -8526,6 +9110,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Brewer's Beacon",
     "category": "Ocean Fishing",
+    "spot": 64,
     "lvl": 15,
     "coords": [
       30.15,
@@ -8556,6 +9141,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Rhotano Sea (Privateer Forecastle)",
     "category": "Ocean Fishing",
+    "spot": 107,
     "lvl": 50,
     "coords": [
       37.64,
@@ -8581,6 +9167,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
     "category": "Ocean Fishing",
+    "spot": 108,
     "lvl": 50,
     "coords": [
       37.24,
@@ -8606,6 +9193,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Reaver Hide",
     "category": "Ocean Fishing",
+    "spot": 102,
     "lvl": 50,
     "coords": [
       13.77,
@@ -8631,6 +9219,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Crescent Cove",
     "category": "Ocean Fishing",
+    "spot": 71,
     "lvl": 20,
     "coords": [
       15.57,
@@ -8656,6 +9245,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Silver Bazaar",
     "category": "Ocean Fishing",
+    "spot": 69,
     "lvl": 25,
     "coords": [
       14.57,
@@ -8678,6 +9268,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
     "category": "Ocean Fishing",
+    "spot": 108,
     "lvl": 50,
     "coords": [
       37.24,
@@ -8700,6 +9291,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Isle of Endless Summer",
     "category": "Ocean Fishing",
+    "spot": 156,
     "lvl": 50,
     "coords": [
       36.03,
@@ -8722,6 +9314,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Skull Valley",
     "category": "Ocean Fishing",
+    "spot": 60,
     "lvl": 15,
     "coords": [
       26.69,
@@ -8744,6 +9337,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
     "category": "Ocean Fishing",
+    "spot": 62,
     "lvl": 40,
     "coords": [
       14.47,
@@ -8759,12 +9353,14 @@ gt.bell.fish = [
       "Lugworm",
       "Merlthor Goby"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4904,
     "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
     "category": "Ocean Fishing",
+    "spot": 65,
     "lvl": 45,
     "coords": [
       15.57,
@@ -8787,6 +9383,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Reaver Hide",
     "category": "Ocean Fishing",
+    "spot": 102,
     "lvl": 50,
     "coords": [
       13.77,
@@ -8809,6 +9406,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Cape Westwind",
     "category": "Ocean Fishing",
+    "spot": 74,
     "lvl": 45,
     "coords": [
       9.93,
@@ -8832,6 +9430,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
     "category": "Ocean Fishing",
+    "spot": 108,
     "lvl": 50,
     "coords": [
       37.24,
@@ -8855,6 +9454,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Isle of Endless Summer",
     "category": "Ocean Fishing",
+    "spot": 156,
     "lvl": 50,
     "coords": [
       36.03,
@@ -8878,6 +9478,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Ship Graveyard",
     "category": "Ocean Fishing",
+    "spot": 65,
     "lvl": 45,
     "coords": [
       15.57,
@@ -8901,6 +9502,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhotano Sea (Privateer Sterncastle)",
     "category": "Ocean Fishing",
+    "spot": 108,
     "lvl": 50,
     "coords": [
       37.24,
@@ -8924,6 +9526,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Isle of Endless Summer",
     "category": "Ocean Fishing",
+    "spot": 156,
     "lvl": 50,
     "coords": [
       36.03,
@@ -8947,6 +9550,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Ship Graveyard",
     "category": "Ocean Fishing",
+    "spot": 65,
     "lvl": 45,
     "coords": [
       15.57,
@@ -8983,6 +9587,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Rhotano Sea (Privateer Sterncastle)",
     "category": "Ocean Fishing",
+    "spot": 108,
     "lvl": 50,
     "coords": [
       37.24,
@@ -9001,12 +9606,14 @@ gt.bell.fish = [
       "start": 15,
       "end": 10
     },
+    "hookset": "Precision Hookset",
     "id": 4945,
     "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "Hidden Falls",
     "category": "Freshwater Fishing",
+    "spot": 54,
     "lvl": 35,
     "coords": [
       30.83,
@@ -9025,12 +9632,14 @@ gt.bell.fish = [
       "start": 15,
       "end": 10
     },
+    "hookset": "Precision Hookset",
     "id": 4945,
     "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
     "category": "Freshwater Fishing",
+    "spot": 6,
     "lvl": 15,
     "coords": [
       9.03,
@@ -9049,12 +9658,14 @@ gt.bell.fish = [
       "start": 15,
       "end": 10
     },
+    "hookset": "Precision Hookset",
     "id": 4945,
     "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 11,
     "lvl": 20,
     "coords": [
       18.02,
@@ -9073,12 +9684,14 @@ gt.bell.fish = [
       "start": 15,
       "end": 10
     },
+    "hookset": "Precision Hookset",
     "id": 4945,
     "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "East Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 14,
     "lvl": 25,
     "coords": [
       23.86,
@@ -9097,12 +9710,14 @@ gt.bell.fish = [
       "start": 15,
       "end": 10
     },
+    "hookset": "Precision Hookset",
     "id": 4945,
     "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 12,
     "lvl": 30,
     "coords": [
       19.96,
@@ -9121,12 +9736,14 @@ gt.bell.fish = [
       "start": 15,
       "end": 10
     },
+    "hookset": "Precision Hookset",
     "id": 4945,
     "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
     "category": "Freshwater Fishing",
+    "spot": 19,
     "lvl": 15,
     "coords": [
       21.02,
@@ -9145,12 +9762,14 @@ gt.bell.fish = [
       "start": 15,
       "end": 10
     },
+    "hookset": "Precision Hookset",
     "id": 4945,
     "icon": 29277,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
     "category": "Freshwater Fishing",
+    "spot": 105,
     "lvl": 30,
     "coords": [
       11.01,
@@ -9165,12 +9784,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Hidden Falls",
     "category": "Freshwater Fishing",
+    "spot": 54,
     "lvl": 35,
     "coords": [
       30.83,
@@ -9185,12 +9806,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 55,
     "lvl": 40,
     "coords": [
       20.2,
@@ -9205,12 +9828,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
     "category": "Freshwater Fishing",
+    "spot": 56,
     "lvl": 40,
     "coords": [
       20.48,
@@ -9225,12 +9850,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
     "category": "Freshwater Fishing",
+    "spot": 58,
     "lvl": 45,
     "coords": [
       15.35,
@@ -9245,12 +9872,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 68,
     "lvl": 35,
     "coords": [
       28.15,
@@ -9265,12 +9894,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 155,
     "lvl": 35,
     "coords": [
       19.42,
@@ -9285,12 +9916,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Everschade",
     "category": "Freshwater Fishing",
+    "spot": 4,
     "lvl": 30,
     "coords": [
       15.61,
@@ -9305,12 +9938,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 12,
     "lvl": 30,
     "coords": [
       19.96,
@@ -9325,12 +9960,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Rootslake",
     "category": "Freshwater Fishing",
+    "spot": 16,
     "lvl": 35,
     "coords": [
       18.62,
@@ -9345,12 +9982,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Urth's Gift",
     "category": "Freshwater Fishing",
+    "spot": 17,
     "lvl": 45,
     "coords": [
       32.55,
@@ -9365,12 +10004,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Proud Creek",
     "category": "Freshwater Fishing",
+    "spot": 20,
     "lvl": 40,
     "coords": [
       20.82,
@@ -9385,12 +10026,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "Yugr'am River",
     "category": "Freshwater Fishing",
+    "spot": 80,
     "lvl": 30,
     "coords": [
       25.66,
@@ -9405,12 +10048,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4974,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
     "category": "Freshwater Fishing",
+    "spot": 25,
     "lvl": 45,
     "coords": [
       12.91,
@@ -9425,12 +10070,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4983,
     "icon": 29297,
     "func": "fish",
     "rarity": 1,
     "title": "Hidden Falls",
     "category": "Freshwater Fishing",
+    "spot": 54,
     "lvl": 35,
     "coords": [
       30.83,
@@ -9445,12 +10092,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4983,
     "icon": 29297,
     "func": "fish",
     "rarity": 1,
     "title": "Crescent Cove",
     "category": "Ocean Fishing",
+    "spot": 71,
     "lvl": 20,
     "coords": [
       15.57,
@@ -9472,6 +10121,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hidden Falls",
     "category": "Freshwater Fishing",
+    "spot": 54,
     "lvl": 35,
     "coords": [
       30.83,
@@ -9493,6 +10143,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "East Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 55,
     "lvl": 40,
     "coords": [
       20.2,
@@ -9514,6 +10165,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Raincatcher Gully",
     "category": "Freshwater Fishing",
+    "spot": 56,
     "lvl": 40,
     "coords": [
       20.48,
@@ -9535,6 +10187,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Red Mantis Falls",
     "category": "Freshwater Fishing",
+    "spot": 58,
     "lvl": 45,
     "coords": [
       15.35,
@@ -9556,6 +10209,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Burning Wall",
     "category": "Freshwater Fishing",
+    "spot": 82,
     "lvl": 40,
     "coords": [
       29.15,
@@ -9577,6 +10231,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Zahar'ak",
     "category": "Freshwater Fishing",
+    "spot": 84,
     "lvl": 35,
     "coords": [
       25.38,
@@ -9598,6 +10253,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hidden Falls",
     "category": "Freshwater Fishing",
+    "spot": 54,
     "lvl": 35,
     "coords": [
       30.83,
@@ -9623,6 +10279,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Hidden Falls",
     "category": "Freshwater Fishing",
+    "spot": 54,
     "lvl": 35,
     "coords": [
       30.83,
@@ -9637,12 +10294,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 55,
     "lvl": 40,
     "coords": [
       20.2,
@@ -9657,12 +10316,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Everschade",
     "category": "Freshwater Fishing",
+    "spot": 4,
     "lvl": 30,
     "coords": [
       15.61,
@@ -9677,12 +10338,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Hopeseed Pond",
     "category": "Freshwater Fishing",
+    "spot": 5,
     "lvl": 35,
     "coords": [
       14.81,
@@ -9697,12 +10360,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Haukke Manor",
     "category": "Freshwater Fishing",
+    "spot": 92,
     "lvl": 35,
     "coords": [
       10.87,
@@ -9717,12 +10382,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Springripple Brook",
     "category": "Freshwater Fishing",
+    "spot": 8,
     "lvl": 15,
     "coords": [
       24.02,
@@ -9737,12 +10404,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 11,
     "lvl": 20,
     "coords": [
       18.02,
@@ -9757,12 +10426,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 13,
     "lvl": 25,
     "coords": [
       18.36,
@@ -9777,12 +10448,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Goblinblood",
     "category": "Freshwater Fishing",
+    "spot": 15,
     "lvl": 30,
     "coords": [
       27.51,
@@ -9797,12 +10470,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Urth's Gift",
     "category": "Freshwater Fishing",
+    "spot": 17,
     "lvl": 45,
     "coords": [
       32.55,
@@ -9817,12 +10492,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
     "category": "Freshwater Fishing",
+    "spot": 19,
     "lvl": 15,
     "coords": [
       21.02,
@@ -9837,12 +10514,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
     "category": "Freshwater Fishing",
+    "spot": 105,
     "lvl": 30,
     "coords": [
       11.01,
@@ -9857,12 +10536,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
     "category": "Freshwater Fishing",
+    "spot": 25,
     "lvl": 45,
     "coords": [
       12.91,
@@ -9875,14 +10556,16 @@ gt.bell.fish = [
     "name": "Ala Mhigan Fighting Fish",
     "patch": 1.0,
     "bait": [
-      "Midge Basket"
+      "Crow Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4942,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "The Tangle",
     "category": "Freshwater Fishing",
+    "spot": 24,
     "lvl": 50,
     "coords": [
       14.41,
@@ -9898,12 +10581,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4965,
     "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 55,
     "lvl": 40,
     "coords": [
       20.2,
@@ -9919,12 +10604,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4965,
     "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
     "category": "Freshwater Fishing",
+    "spot": 56,
     "lvl": 40,
     "coords": [
       20.48,
@@ -9940,12 +10627,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4965,
     "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
     "category": "Freshwater Fishing",
+    "spot": 57,
     "lvl": 40,
     "coords": [
       16.84,
@@ -9961,12 +10650,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4965,
     "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "Burnt Lizard Creek",
     "category": "Freshwater Fishing",
+    "spot": 83,
     "lvl": 25,
     "coords": [
       21.74,
@@ -9982,12 +10673,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4965,
     "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "Forgotten Springs",
     "category": "Freshwater Fishing",
+    "spot": 85,
     "lvl": 35,
     "coords": [
       15.65,
@@ -10003,12 +10696,14 @@ gt.bell.fish = [
       "Butterworm",
       "Copperfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4965,
     "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
     "category": "Freshwater Fishing",
+    "spot": 106,
     "lvl": 30,
     "coords": [
       11.01,
@@ -10024,12 +10719,14 @@ gt.bell.fish = [
       "Midge Basket",
       "Ala Mhigan Fighting Fish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4975,
     "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 55,
     "lvl": 40,
     "coords": [
       20.2,
@@ -10045,12 +10742,14 @@ gt.bell.fish = [
       "Midge Basket",
       "Ala Mhigan Fighting Fish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4975,
     "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "Everschade",
     "category": "Freshwater Fishing",
+    "spot": 4,
     "lvl": 30,
     "coords": [
       15.61,
@@ -10066,12 +10765,14 @@ gt.bell.fish = [
       "Midge Basket",
       "Ala Mhigan Fighting Fish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4975,
     "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "Haukke Manor",
     "category": "Freshwater Fishing",
+    "spot": 92,
     "lvl": 35,
     "coords": [
       10.87,
@@ -10087,12 +10788,14 @@ gt.bell.fish = [
       "Midge Basket",
       "Ala Mhigan Fighting Fish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4975,
     "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "Urth's Gift",
     "category": "Freshwater Fishing",
+    "spot": 17,
     "lvl": 45,
     "coords": [
       32.55,
@@ -10108,12 +10811,14 @@ gt.bell.fish = [
       "Midge Basket",
       "Ala Mhigan Fighting Fish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4975,
     "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
     "category": "Freshwater Fishing",
+    "spot": 105,
     "lvl": 30,
     "coords": [
       11.01,
@@ -10129,12 +10834,14 @@ gt.bell.fish = [
       "Midge Basket",
       "Ala Mhigan Fighting Fish"
     ],
+    "hookset": "Precision Hookset",
     "id": 4975,
     "icon": 29218,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
     "category": "Freshwater Fishing",
+    "spot": 25,
     "lvl": 45,
     "coords": [
       12.91,
@@ -10156,6 +10863,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "East Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 55,
     "lvl": 40,
     "coords": [
       20.2,
@@ -10177,6 +10885,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Raincatcher Gully",
     "category": "Freshwater Fishing",
+    "spot": 56,
     "lvl": 40,
     "coords": [
       20.48,
@@ -10198,6 +10907,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Proud Creek",
     "category": "Freshwater Fishing",
+    "spot": 20,
     "lvl": 40,
     "coords": [
       20.82,
@@ -10219,6 +10929,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Burning Wall",
     "category": "Freshwater Fishing",
+    "spot": 82,
     "lvl": 40,
     "coords": [
       29.15,
@@ -10233,12 +10944,14 @@ gt.bell.fish = [
     "bait": [
       "Snurble Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4999,
     "icon": 29274,
     "func": "fish",
     "rarity": 1,
     "title": "East Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 55,
     "lvl": 40,
     "coords": [
       20.2,
@@ -10253,12 +10966,14 @@ gt.bell.fish = [
     "bait": [
       "Snurble Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 4999,
     "icon": 29274,
     "func": "fish",
     "rarity": 1,
     "title": "Raincatcher Gully",
     "category": "Freshwater Fishing",
+    "spot": 56,
     "lvl": 40,
     "coords": [
       20.48,
@@ -10280,6 +10995,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "East Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 55,
     "lvl": 40,
     "coords": [
       20.2,
@@ -10301,6 +11017,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Raincatcher Gully",
     "category": "Freshwater Fishing",
+    "spot": 56,
     "lvl": 40,
     "coords": [
       20.48,
@@ -10322,6 +11039,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Red Mantis Falls",
     "category": "Freshwater Fishing",
+    "spot": 58,
     "lvl": 45,
     "coords": [
       15.35,
@@ -10347,6 +11065,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "East Agelyss River",
     "category": "Freshwater Fishing",
+    "spot": 55,
     "lvl": 40,
     "coords": [
       20.2,
@@ -10368,6 +11087,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Raincatcher Gully",
     "category": "Freshwater Fishing",
+    "spot": 56,
     "lvl": 40,
     "coords": [
       20.48,
@@ -10389,6 +11109,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northeast Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 68,
     "lvl": 35,
     "coords": [
       28.15,
@@ -10410,6 +11131,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Long Climb",
     "category": "Freshwater Fishing",
+    "spot": 99,
     "lvl": 40,
     "coords": [
       15.89,
@@ -10431,6 +11153,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northwest Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 155,
     "lvl": 35,
     "coords": [
       19.42,
@@ -10452,6 +11175,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sylphlands",
     "category": "Freshwater Fishing",
+    "spot": 9,
     "lvl": 45,
     "coords": [
       26.02,
@@ -10466,12 +11190,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4981,
     "icon": 29268,
     "func": "fish",
     "rarity": 1,
     "title": "Bluefog",
     "category": "Freshwater Fishing",
+    "spot": 89,
     "lvl": 40,
     "coords": [
       24.14,
@@ -10493,6 +11219,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Coerthas River",
     "category": "Freshwater Fishing",
+    "spot": 26,
     "lvl": 35,
     "coords": [
       20.46,
@@ -10514,6 +11241,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Nail",
     "category": "Freshwater Fishing",
+    "spot": 28,
     "lvl": 40,
     "coords": [
       15.63,
@@ -10535,6 +11263,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Weeping Saint",
     "category": "Freshwater Fishing",
+    "spot": 29,
     "lvl": 45,
     "coords": [
       31.53,
@@ -10556,6 +11285,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Deep Tangle",
     "category": "Freshwater Fishing",
+    "spot": 25,
     "lvl": 45,
     "coords": [
       12.91,
@@ -10568,7 +11298,7 @@ gt.bell.fish = [
     "name": "Giant Bass",
     "patch": 1.0,
     "bait": [
-      "Honey Worm"
+      "Mythril Spoon Lure"
     ],
     "hookset": "Powerful Hookset",
     "id": 4981,
@@ -10577,6 +11307,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Singing Shards",
     "category": "Freshwater Fishing",
+    "spot": 93,
     "lvl": 45,
     "coords": [
       29.15,
@@ -10598,6 +11329,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rathefrost",
     "category": "Freshwater Fishing",
+    "spot": 23,
     "lvl": 50,
     "coords": [
       18.74,
@@ -10619,6 +11351,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The North Shards",
     "category": "Freshwater Fishing",
+    "spot": 94,
     "lvl": 50,
     "coords": [
       30.99,
@@ -10644,6 +11377,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Raincatcher Gully",
     "category": "Freshwater Fishing",
+    "spot": 56,
     "lvl": 40,
     "coords": [
       20.48,
@@ -10669,6 +11403,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Long Climb",
     "category": "Freshwater Fishing",
+    "spot": 99,
     "lvl": 40,
     "coords": [
       15.89,
@@ -10693,6 +11428,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Raincatcher Gully",
     "category": "Freshwater Fishing",
+    "spot": 56,
     "lvl": 40,
     "coords": [
       20.48,
@@ -10707,12 +11443,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
     "category": "Freshwater Fishing",
+    "spot": 57,
     "lvl": 40,
     "coords": [
       16.84,
@@ -10727,12 +11465,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Hopeseed Pond",
     "category": "Freshwater Fishing",
+    "spot": 5,
     "lvl": 35,
     "coords": [
       14.81,
@@ -10747,12 +11487,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Haukke Manor",
     "category": "Freshwater Fishing",
+    "spot": 92,
     "lvl": 35,
     "coords": [
       10.87,
@@ -10767,12 +11509,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 13,
     "lvl": 25,
     "coords": [
       18.36,
@@ -10787,12 +11531,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "East Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 14,
     "lvl": 25,
     "coords": [
       23.86,
@@ -10807,12 +11553,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Goblinblood",
     "category": "Freshwater Fishing",
+    "spot": 15,
     "lvl": 30,
     "coords": [
       27.51,
@@ -10827,12 +11575,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
     "category": "Freshwater Fishing",
+    "spot": 21,
     "lvl": 50,
     "coords": [
       17.82,
@@ -10847,12 +11597,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
     "category": "Freshwater Fishing",
+    "spot": 73,
     "lvl": 10,
     "coords": [
       17.18,
@@ -10867,12 +11619,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "The Unholy Heir",
     "category": "Freshwater Fishing",
+    "spot": 77,
     "lvl": 15,
     "coords": [
       27.83,
@@ -10887,12 +11641,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "North Drybone",
     "category": "Freshwater Fishing",
+    "spot": 78,
     "lvl": 15,
     "coords": [
       13.65,
@@ -10907,12 +11663,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "South Drybone",
     "category": "Freshwater Fishing",
+    "spot": 79,
     "lvl": 15,
     "coords": [
       17.22,
@@ -10927,12 +11685,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Zahar'ak",
     "category": "Freshwater Fishing",
+    "spot": 84,
     "lvl": 35,
     "coords": [
       25.38,
@@ -10945,14 +11705,16 @@ gt.bell.fish = [
     "name": "Mudcrab",
     "patch": 1.0,
     "bait": [
-      "Honey Worm"
+      "Glowworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4950,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Singing Shards",
     "category": "Freshwater Fishing",
+    "spot": 93,
     "lvl": 45,
     "coords": [
       29.15,
@@ -10967,12 +11729,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "The Juggernaut",
     "category": "Freshwater Fishing",
+    "spot": 57,
     "lvl": 40,
     "coords": [
       16.84,
@@ -10987,12 +11751,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
     "category": "Freshwater Fishing",
+    "spot": 58,
     "lvl": 45,
     "coords": [
       15.35,
@@ -11007,12 +11773,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 68,
     "lvl": 35,
     "coords": [
       28.15,
@@ -11027,12 +11795,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 155,
     "lvl": 35,
     "coords": [
       19.42,
@@ -11047,12 +11817,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Haukke Manor",
     "category": "Freshwater Fishing",
+    "spot": 92,
     "lvl": 35,
     "coords": [
       10.87,
@@ -11067,12 +11839,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Goblinblood",
     "category": "Freshwater Fishing",
+    "spot": 15,
     "lvl": 30,
     "coords": [
       27.51,
@@ -11087,12 +11861,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
     "category": "Freshwater Fishing",
+    "spot": 21,
     "lvl": 50,
     "coords": [
       17.82,
@@ -11107,12 +11883,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Moondrip",
     "category": "Freshwater Fishing",
+    "spot": 103,
     "lvl": 45,
     "coords": [
       18.02,
@@ -11127,12 +11905,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Parata's Peace",
     "category": "Freshwater Fishing",
+    "spot": 95,
     "lvl": 50,
     "coords": [
       15.05,
@@ -11147,12 +11927,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Bluefog",
     "category": "Freshwater Fishing",
+    "spot": 89,
     "lvl": 40,
     "coords": [
       24.14,
@@ -11167,12 +11949,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Ceruleum Field",
     "category": "Freshwater Fishing",
+    "spot": 88,
     "lvl": 45,
     "coords": [
       20.74,
@@ -11187,12 +11971,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
     "category": "Freshwater Fishing",
+    "spot": 106,
     "lvl": 30,
     "coords": [
       11.01,
@@ -11207,12 +11993,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
     "category": "Freshwater Fishing",
+    "spot": 22,
     "lvl": 45,
     "coords": [
       25.08,
@@ -11227,12 +12015,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Singing Shards",
     "category": "Freshwater Fishing",
+    "spot": 93,
     "lvl": 45,
     "coords": [
       29.15,
@@ -11247,12 +12037,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
     "category": "Freshwater Fishing",
+    "spot": 23,
     "lvl": 50,
     "coords": [
       18.74,
@@ -11267,12 +12059,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "The Tangle",
     "category": "Freshwater Fishing",
+    "spot": 24,
     "lvl": 50,
     "coords": [
       14.41,
@@ -11287,12 +12081,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4978,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
     "category": "Freshwater Fishing",
+    "spot": 94,
     "lvl": 50,
     "coords": [
       30.99,
@@ -11314,6 +12110,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Juggernaut",
     "category": "Freshwater Fishing",
+    "spot": 57,
     "lvl": 40,
     "coords": [
       16.84,
@@ -11335,6 +12132,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Parata's Peace",
     "category": "Freshwater Fishing",
+    "spot": 95,
     "lvl": 50,
     "coords": [
       15.05,
@@ -11356,6 +12154,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Ceruleum Field",
     "category": "Freshwater Fishing",
+    "spot": 88,
     "lvl": 45,
     "coords": [
       20.74,
@@ -11377,6 +12176,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Silvertear",
     "category": "Freshwater Fishing",
+    "spot": 22,
     "lvl": 45,
     "coords": [
       25.08,
@@ -11398,6 +12198,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Tangle",
     "category": "Freshwater Fishing",
+    "spot": 24,
     "lvl": 50,
     "coords": [
       14.41,
@@ -11420,6 +12221,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Juggernaut",
     "category": "Freshwater Fishing",
+    "spot": 57,
     "lvl": 40,
     "coords": [
       16.84,
@@ -11442,6 +12244,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Parata's Peace",
     "category": "Freshwater Fishing",
+    "spot": 95,
     "lvl": 50,
     "coords": [
       15.05,
@@ -11472,6 +12275,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Juggernaut",
     "category": "Freshwater Fishing",
+    "spot": 57,
     "lvl": 40,
     "coords": [
       16.84,
@@ -11486,12 +12290,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4979,
     "icon": 29255,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
     "category": "Freshwater Fishing",
+    "spot": 58,
     "lvl": 45,
     "coords": [
       15.35,
@@ -11506,12 +12312,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4979,
     "icon": 29255,
     "func": "fish",
     "rarity": 1,
     "title": "Hopeseed Pond",
     "category": "Freshwater Fishing",
+    "spot": 5,
     "lvl": 35,
     "coords": [
       14.81,
@@ -11526,12 +12334,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4979,
     "icon": 29255,
     "func": "fish",
     "rarity": 1,
     "title": "Zahar'ak",
     "category": "Freshwater Fishing",
+    "spot": 84,
     "lvl": 35,
     "coords": [
       25.38,
@@ -11546,12 +12356,14 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4979,
     "icon": 29255,
     "func": "fish",
     "rarity": 1,
     "title": "Forgotten Springs",
     "category": "Freshwater Fishing",
+    "spot": 85,
     "lvl": 35,
     "coords": [
       15.65,
@@ -11573,6 +12385,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Red Mantis Falls",
     "category": "Freshwater Fishing",
+    "spot": 58,
     "lvl": 45,
     "coords": [
       15.35,
@@ -11594,6 +12407,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Burning Wall",
     "category": "Freshwater Fishing",
+    "spot": 82,
     "lvl": 40,
     "coords": [
       29.15,
@@ -11615,6 +12429,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Bluefog",
     "category": "Freshwater Fishing",
+    "spot": 89,
     "lvl": 40,
     "coords": [
       24.14,
@@ -11627,7 +12442,7 @@ gt.bell.fish = [
     "name": "Knifefish",
     "patch": 1.0,
     "bait": [
-      "Glowworm"
+      "Stem Borer"
     ],
     "hookset": "Powerful Hookset",
     "id": 4993,
@@ -11636,6 +12451,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Deep Tangle",
     "category": "Freshwater Fishing",
+    "spot": 25,
     "lvl": 45,
     "coords": [
       12.91,
@@ -11648,7 +12464,7 @@ gt.bell.fish = [
     "name": "Knifefish",
     "patch": 1.0,
     "bait": [
-      "Glowworm"
+      "Stem Borer"
     ],
     "hookset": "Powerful Hookset",
     "id": 4993,
@@ -11657,6 +12473,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Singing Shards",
     "category": "Freshwater Fishing",
+    "spot": 93,
     "lvl": 45,
     "coords": [
       29.15,
@@ -11678,6 +12495,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rathefrost",
     "category": "Freshwater Fishing",
+    "spot": 23,
     "lvl": 50,
     "coords": [
       18.74,
@@ -11693,12 +12511,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 5011,
     "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "Red Mantis Falls",
     "category": "Freshwater Fishing",
+    "spot": 58,
     "lvl": 45,
     "coords": [
       15.35,
@@ -11714,12 +12534,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 5011,
     "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
     "category": "Freshwater Fishing",
+    "spot": 21,
     "lvl": 50,
     "coords": [
       17.82,
@@ -11735,12 +12557,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 5011,
     "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "Ceruleum Field",
     "category": "Freshwater Fishing",
+    "spot": 88,
     "lvl": 45,
     "coords": [
       20.74,
@@ -11756,12 +12580,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 5011,
     "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
     "category": "Freshwater Fishing",
+    "spot": 106,
     "lvl": 30,
     "coords": [
       11.01,
@@ -11777,12 +12603,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 5011,
     "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
     "category": "Freshwater Fishing",
+    "spot": 22,
     "lvl": 45,
     "coords": [
       25.08,
@@ -11798,12 +12626,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 5011,
     "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
     "category": "Freshwater Fishing",
+    "spot": 23,
     "lvl": 50,
     "coords": [
       18.74,
@@ -11819,12 +12649,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Precision Hookset",
     "id": 5011,
     "icon": 29311,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
     "category": "Freshwater Fishing",
+    "spot": 94,
     "lvl": 50,
     "coords": [
       30.99,
@@ -11848,6 +12680,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Red Mantis Falls",
     "category": "Freshwater Fishing",
+    "spot": 58,
     "lvl": 45,
     "coords": [
       15.35,
@@ -11883,6 +12716,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Red Mantis Falls",
     "category": "Freshwater Fishing",
+    "spot": 58,
     "lvl": 45,
     "coords": [
       15.35,
@@ -11910,6 +12744,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Isle of Endless Summer",
     "category": "Ocean Fishing",
+    "spot": 156,
     "lvl": 50,
     "coords": [
       36.03,
@@ -11937,6 +12772,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "North Isle of Endless Summer",
     "category": "Ocean Fishing",
+    "spot": 156,
     "lvl": 50,
     "coords": [
       36.03,
@@ -11958,6 +12794,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swiftperch",
     "category": "Ocean Fishing",
+    "spot": 59,
     "lvl": 10,
     "coords": [
       33.85,
@@ -11983,6 +12820,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Swiftperch",
     "category": "Ocean Fishing",
+    "spot": 59,
     "lvl": 10,
     "coords": [
       33.85,
@@ -12006,6 +12844,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Skull Valley",
     "category": "Ocean Fishing",
+    "spot": 60,
     "lvl": 15,
     "coords": [
       26.69,
@@ -12033,6 +12872,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Skull Valley",
     "category": "Ocean Fishing",
+    "spot": 60,
     "lvl": 15,
     "coords": [
       26.69,
@@ -12062,6 +12902,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Brewer's Beacon",
     "category": "Ocean Fishing",
+    "spot": 64,
     "lvl": 15,
     "coords": [
       30.15,
@@ -12076,12 +12917,14 @@ gt.bell.fish = [
     "bait": [
       "Heavy Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4887,
     "icon": 29004,
     "func": "fish",
     "rarity": 1,
     "title": "Halfstone",
     "category": "Ocean Fishing",
+    "spot": 61,
     "lvl": 35,
     "coords": [
       17.56,
@@ -12096,12 +12939,14 @@ gt.bell.fish = [
     "bait": [
       "Heavy Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4887,
     "icon": 29004,
     "func": "fish",
     "rarity": 1,
     "title": "Crescent Cove",
     "category": "Ocean Fishing",
+    "spot": 71,
     "lvl": 20,
     "coords": [
       15.57,
@@ -12123,6 +12968,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Halfstone",
     "category": "Ocean Fishing",
+    "spot": 61,
     "lvl": 35,
     "coords": [
       17.56,
@@ -12137,12 +12983,14 @@ gt.bell.fish = [
     "bait": [
       "Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4893,
     "icon": 29026,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Bazaar",
     "category": "Ocean Fishing",
+    "spot": 69,
     "lvl": 25,
     "coords": [
       14.57,
@@ -12167,6 +13015,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Halfstone",
     "category": "Ocean Fishing",
+    "spot": 61,
     "lvl": 35,
     "coords": [
       17.56,
@@ -12188,6 +13037,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
     "category": "Ocean Fishing",
+    "spot": 62,
     "lvl": 40,
     "coords": [
       14.47,
@@ -12209,6 +13059,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Ship Graveyard",
     "category": "Ocean Fishing",
+    "spot": 65,
     "lvl": 45,
     "coords": [
       15.57,
@@ -12231,6 +13082,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isles of Umbra Northshore",
     "category": "Ocean Fishing",
+    "spot": 62,
     "lvl": 40,
     "coords": [
       14.47,
@@ -12262,6 +13114,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Isles of Umbra Northshore",
     "category": "Ocean Fishing",
+    "spot": 62,
     "lvl": 40,
     "coords": [
       14.47,
@@ -12276,12 +13129,14 @@ gt.bell.fish = [
     "bait": [
       "Krill Cage Feeder"
     ],
+    "hookset": "Precision Hookset",
     "id": 5466,
     "icon": 29058,
     "func": "fish",
     "rarity": 1,
     "title": "The Ship Graveyard",
     "category": "Ocean Fishing",
+    "spot": 65,
     "lvl": 45,
     "coords": [
       15.57,
@@ -12296,12 +13151,14 @@ gt.bell.fish = [
     "bait": [
       "Krill Cage Feeder"
     ],
+    "hookset": "Precision Hookset",
     "id": 5466,
     "icon": 29058,
     "func": "fish",
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
     "category": "Ocean Fishing",
+    "spot": 101,
     "lvl": 45,
     "coords": [
       17.14,
@@ -12316,12 +13173,14 @@ gt.bell.fish = [
     "bait": [
       "Krill Cage Feeder"
     ],
+    "hookset": "Precision Hookset",
     "id": 5466,
     "icon": 29058,
     "func": "fish",
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
     "category": "Ocean Fishing",
+    "spot": 63,
     "lvl": 50,
     "coords": [
       12.81,
@@ -12336,12 +13195,14 @@ gt.bell.fish = [
     "bait": [
       "Krill Cage Feeder"
     ],
+    "hookset": "Precision Hookset",
     "id": 5466,
     "icon": 29058,
     "func": "fish",
     "rarity": 1,
     "title": "Reaver Hide",
     "category": "Ocean Fishing",
+    "spot": 102,
     "lvl": 50,
     "coords": [
       13.77,
@@ -12356,12 +13217,14 @@ gt.bell.fish = [
     "bait": [
       "Krill Cage Feeder"
     ],
+    "hookset": "Precision Hookset",
     "id": 5466,
     "icon": 29058,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
     "category": "Ocean Fishing",
+    "spot": 74,
     "lvl": 45,
     "coords": [
       9.93,
@@ -12383,6 +13246,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Ship Graveyard",
     "category": "Ocean Fishing",
+    "spot": 65,
     "lvl": 45,
     "coords": [
       15.57,
@@ -12404,6 +13268,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
     "category": "Ocean Fishing",
+    "spot": 63,
     "lvl": 50,
     "coords": [
       12.81,
@@ -12425,6 +13290,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Ship Graveyard",
     "category": "Ocean Fishing",
+    "spot": 65,
     "lvl": 45,
     "coords": [
       15.57,
@@ -12446,6 +13312,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
     "category": "Ocean Fishing",
+    "spot": 63,
     "lvl": 50,
     "coords": [
       12.81,
@@ -12467,6 +13334,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Cape Westwind",
     "category": "Ocean Fishing",
+    "spot": 74,
     "lvl": 45,
     "coords": [
       9.93,
@@ -12500,6 +13368,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Ship Graveyard",
     "category": "Ocean Fishing",
+    "spot": 65,
     "lvl": 45,
     "coords": [
       15.57,
@@ -12526,6 +13395,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
     "category": "Ocean Fishing",
+    "spot": 101,
     "lvl": 45,
     "coords": [
       17.14,
@@ -12552,6 +13422,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
     "category": "Ocean Fishing",
+    "spot": 63,
     "lvl": 50,
     "coords": [
       12.81,
@@ -12578,6 +13449,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mist",
     "category": "Ocean Fishing",
+    "spot": 104,
     "lvl": 30,
     "coords": [
       11.01,
@@ -12599,6 +13471,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sapsa Spawning Grounds",
     "category": "Ocean Fishing",
+    "spot": 101,
     "lvl": 45,
     "coords": [
       17.14,
@@ -12620,6 +13493,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
     "category": "Ocean Fishing",
+    "spot": 63,
     "lvl": 50,
     "coords": [
       12.81,
@@ -12641,6 +13515,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Cape Westwind",
     "category": "Ocean Fishing",
+    "spot": 74,
     "lvl": 45,
     "coords": [
       9.93,
@@ -12667,6 +13542,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Sapsa Spawning Grounds",
     "category": "Ocean Fishing",
+    "spot": 101,
     "lvl": 45,
     "coords": [
       17.14,
@@ -12693,6 +13569,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isles of Umbra Southshore",
     "category": "Ocean Fishing",
+    "spot": 63,
     "lvl": 50,
     "coords": [
       12.81,
@@ -12724,6 +13601,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Isles of Umbra Southshore",
     "category": "Ocean Fishing",
+    "spot": 63,
     "lvl": 50,
     "coords": [
       12.81,
@@ -12759,6 +13637,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Isles of Umbra Southshore",
     "category": "Ocean Fishing",
+    "spot": 63,
     "lvl": 50,
     "coords": [
       12.81,
@@ -12782,6 +13661,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Reaver Hide",
     "category": "Ocean Fishing",
+    "spot": 102,
     "lvl": 50,
     "coords": [
       13.77,
@@ -12817,6 +13697,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Reaver Hide",
     "category": "Ocean Fishing",
+    "spot": 102,
     "lvl": 50,
     "coords": [
       13.77,
@@ -12842,6 +13723,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Oakwood",
     "category": "Freshwater Fishing",
+    "spot": 66,
     "lvl": 20,
     "coords": [
       13.59,
@@ -12867,6 +13749,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Fool Falls",
     "category": "Freshwater Fishing",
+    "spot": 67,
     "lvl": 20,
     "coords": [
       9.05,
@@ -12892,6 +13775,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Bronze Lake Shallows",
     "category": "Freshwater Fishing",
+    "spot": 98,
     "lvl": 30,
     "coords": [
       33.57,
@@ -12917,6 +13801,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northeast Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 68,
     "lvl": 35,
     "coords": [
       28.15,
@@ -12942,6 +13827,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northwest Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 155,
     "lvl": 35,
     "coords": [
       19.42,
@@ -12956,12 +13842,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4954,
     "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
     "category": "Freshwater Fishing",
+    "spot": 66,
     "lvl": 20,
     "coords": [
       13.59,
@@ -12976,12 +13864,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4954,
     "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Bronze Lake Shallows",
     "category": "Freshwater Fishing",
+    "spot": 98,
     "lvl": 30,
     "coords": [
       33.57,
@@ -12996,12 +13886,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4954,
     "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Northeast Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 68,
     "lvl": 35,
     "coords": [
       28.15,
@@ -13016,12 +13908,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4954,
     "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 155,
     "lvl": 35,
     "coords": [
       19.42,
@@ -13036,12 +13930,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4954,
     "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Sanctum of the Twelve",
     "category": "Freshwater Fishing",
+    "spot": 10,
     "lvl": 20,
     "coords": [
       17.68,
@@ -13056,12 +13952,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4954,
     "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Proud Creek",
     "category": "Freshwater Fishing",
+    "spot": 20,
     "lvl": 40,
     "coords": [
       20.82,
@@ -13076,12 +13974,14 @@ gt.bell.fish = [
     "bait": [
       "Butterworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4954,
     "icon": 29307,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
     "category": "Freshwater Fishing",
+    "spot": 21,
     "lvl": 50,
     "coords": [
       17.82,
@@ -13103,6 +14003,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Oakwood",
     "category": "Freshwater Fishing",
+    "spot": 66,
     "lvl": 20,
     "coords": [
       13.59,
@@ -13124,6 +14025,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Fool Falls",
     "category": "Freshwater Fishing",
+    "spot": 67,
     "lvl": 20,
     "coords": [
       9.05,
@@ -13145,6 +14047,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Long Climb",
     "category": "Freshwater Fishing",
+    "spot": 99,
     "lvl": 40,
     "coords": [
       15.89,
@@ -13166,6 +14069,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Yugr'am River",
     "category": "Freshwater Fishing",
+    "spot": 80,
     "lvl": 30,
     "coords": [
       25.66,
@@ -13187,6 +14091,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Burnt Lizard Creek",
     "category": "Freshwater Fishing",
+    "spot": 83,
     "lvl": 25,
     "coords": [
       21.74,
@@ -13208,6 +14113,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Forgotten Springs",
     "category": "Freshwater Fishing",
+    "spot": 85,
     "lvl": 35,
     "coords": [
       15.65,
@@ -13229,6 +14135,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Oakwood",
     "category": "Freshwater Fishing",
+    "spot": 66,
     "lvl": 20,
     "coords": [
       13.59,
@@ -13250,6 +14157,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Fool Falls",
     "category": "Freshwater Fishing",
+    "spot": 67,
     "lvl": 20,
     "coords": [
       9.05,
@@ -13271,6 +14179,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northeast Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 68,
     "lvl": 35,
     "coords": [
       28.15,
@@ -13292,6 +14201,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northwest Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 155,
     "lvl": 35,
     "coords": [
       19.42,
@@ -13313,6 +14223,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Oakwood",
     "category": "Freshwater Fishing",
+    "spot": 66,
     "lvl": 20,
     "coords": [
       13.59,
@@ -13334,6 +14245,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Fool Falls",
     "category": "Freshwater Fishing",
+    "spot": 67,
     "lvl": 20,
     "coords": [
       9.05,
@@ -13355,6 +14267,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sanctum of the Twelve",
     "category": "Freshwater Fishing",
+    "spot": 10,
     "lvl": 20,
     "coords": [
       17.68,
@@ -13376,6 +14289,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Goblinblood",
     "category": "Freshwater Fishing",
+    "spot": 15,
     "lvl": 30,
     "coords": [
       27.51,
@@ -13397,6 +14311,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 75,
     "lvl": 5,
     "coords": [
       23.42,
@@ -13418,6 +14333,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 76,
     "lvl": 10,
     "coords": [
       17.14,
@@ -13439,6 +14355,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Clutch",
     "category": "Freshwater Fishing",
+    "spot": 96,
     "lvl": 10,
     "coords": [
       29.55,
@@ -13460,6 +14377,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Unholy Heir",
     "category": "Freshwater Fishing",
+    "spot": 77,
     "lvl": 15,
     "coords": [
       27.83,
@@ -13481,6 +14399,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Yugr'am River",
     "category": "Freshwater Fishing",
+    "spot": 80,
     "lvl": 30,
     "coords": [
       25.66,
@@ -13502,6 +14421,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Burnt Lizard Creek",
     "category": "Freshwater Fishing",
+    "spot": 83,
     "lvl": 25,
     "coords": [
       21.74,
@@ -13516,12 +14436,14 @@ gt.bell.fish = [
     "bait": [
       "Crow Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4959,
     "icon": 29206,
     "func": "fish",
     "rarity": 1,
     "title": "The Goblet",
     "category": "Freshwater Fishing",
+    "spot": 106,
     "lvl": 30,
     "coords": [
       11.01,
@@ -13543,6 +14465,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Deep Tangle",
     "category": "Freshwater Fishing",
+    "spot": 25,
     "lvl": 45,
     "coords": [
       12.91,
@@ -13557,12 +14480,14 @@ gt.bell.fish = [
     "bait": [
       "Spinnerbait"
     ],
+    "hookset": "Precision Hookset",
     "id": 4995,
     "icon": 29250,
     "func": "fish",
     "rarity": 1,
     "title": "Oakwood",
     "category": "Freshwater Fishing",
+    "spot": 66,
     "lvl": 20,
     "coords": [
       13.59,
@@ -13577,12 +14502,14 @@ gt.bell.fish = [
     "bait": [
       "Spinnerbait"
     ],
+    "hookset": "Precision Hookset",
     "id": 4995,
     "icon": 29250,
     "func": "fish",
     "rarity": 1,
     "title": "Sylphlands",
     "category": "Freshwater Fishing",
+    "spot": 9,
     "lvl": 45,
     "coords": [
       26.02,
@@ -13597,12 +14524,14 @@ gt.bell.fish = [
     "bait": [
       "Spinnerbait"
     ],
+    "hookset": "Precision Hookset",
     "id": 4995,
     "icon": 29250,
     "func": "fish",
     "rarity": 1,
     "title": "Bluefog",
     "category": "Freshwater Fishing",
+    "spot": 89,
     "lvl": 40,
     "coords": [
       24.14,
@@ -13617,12 +14546,14 @@ gt.bell.fish = [
     "bait": [
       "Spinnerbait"
     ],
+    "hookset": "Precision Hookset",
     "id": 4995,
     "icon": 29250,
     "func": "fish",
     "rarity": 1,
     "title": "The Weeping Saint",
     "category": "Freshwater Fishing",
+    "spot": 29,
     "lvl": 45,
     "coords": [
       31.53,
@@ -13645,6 +14576,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Oakwood",
     "category": "Freshwater Fishing",
+    "spot": 66,
     "lvl": 20,
     "coords": [
       13.59,
@@ -13675,6 +14607,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Oakwood",
     "category": "Freshwater Fishing",
+    "spot": 66,
     "lvl": 20,
     "coords": [
       13.59,
@@ -13696,6 +14629,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Fool Falls",
     "category": "Freshwater Fishing",
+    "spot": 67,
     "lvl": 20,
     "coords": [
       9.05,
@@ -13717,6 +14651,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Springripple Brook",
     "category": "Freshwater Fishing",
+    "spot": 8,
     "lvl": 15,
     "coords": [
       24.02,
@@ -13738,6 +14673,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Murmur Rills",
     "category": "Freshwater Fishing",
+    "spot": 18,
     "lvl": 15,
     "coords": [
       26.38,
@@ -13760,6 +14696,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Fool Falls",
     "category": "Freshwater Fishing",
+    "spot": 67,
     "lvl": 20,
     "coords": [
       9.05,
@@ -13782,6 +14719,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Verdant Drop",
     "category": "Freshwater Fishing",
+    "spot": 7,
     "lvl": 25,
     "coords": [
       20.48,
@@ -13807,6 +14745,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Fool Falls",
     "category": "Freshwater Fishing",
+    "spot": 67,
     "lvl": 20,
     "coords": [
       9.05,
@@ -13832,6 +14771,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Bronze Lake Shallows",
     "category": "Freshwater Fishing",
+    "spot": 98,
     "lvl": 30,
     "coords": [
       33.57,
@@ -13853,6 +14793,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northeast Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 68,
     "lvl": 35,
     "coords": [
       28.15,
@@ -13874,6 +14815,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northwest Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 155,
     "lvl": 35,
     "coords": [
       19.42,
@@ -13895,6 +14837,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Everschade",
     "category": "Freshwater Fishing",
+    "spot": 4,
     "lvl": 30,
     "coords": [
       15.61,
@@ -13916,6 +14859,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Goblinblood",
     "category": "Freshwater Fishing",
+    "spot": 15,
     "lvl": 30,
     "coords": [
       27.51,
@@ -13937,6 +14881,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Urth's Gift",
     "category": "Freshwater Fishing",
+    "spot": 17,
     "lvl": 45,
     "coords": [
       32.55,
@@ -13958,6 +14903,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lake Tahtotl",
     "category": "Freshwater Fishing",
+    "spot": 21,
     "lvl": 50,
     "coords": [
       17.82,
@@ -13979,6 +14925,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Lavender Beds",
     "category": "Freshwater Fishing",
+    "spot": 105,
     "lvl": 30,
     "coords": [
       11.01,
@@ -14000,6 +14947,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Burning Wall",
     "category": "Freshwater Fishing",
+    "spot": 82,
     "lvl": 40,
     "coords": [
       29.15,
@@ -14012,7 +14960,7 @@ gt.bell.fish = [
     "name": "Bonytongue",
     "patch": 1.0,
     "bait": [
-      "Streamer"
+      "Mythril Spoon Lure"
     ],
     "hookset": "Powerful Hookset",
     "id": 4973,
@@ -14021,6 +14969,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Singing Shards",
     "category": "Freshwater Fishing",
+    "spot": 93,
     "lvl": 45,
     "coords": [
       29.15,
@@ -14042,6 +14991,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northeast Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 68,
     "lvl": 35,
     "coords": [
       28.15,
@@ -14063,6 +15013,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Long Climb",
     "category": "Freshwater Fishing",
+    "spot": 99,
     "lvl": 40,
     "coords": [
       15.89,
@@ -14084,6 +15035,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northwest Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 155,
     "lvl": 35,
     "coords": [
       19.42,
@@ -14105,6 +15057,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Nail",
     "category": "Freshwater Fishing",
+    "spot": 28,
     "lvl": 40,
     "coords": [
       15.63,
@@ -14127,6 +15080,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northeast Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 68,
     "lvl": 35,
     "coords": [
       28.15,
@@ -14149,6 +15103,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northwest Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 155,
     "lvl": 35,
     "coords": [
       19.42,
@@ -14174,6 +15129,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Northeast Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 68,
     "lvl": 35,
     "coords": [
       28.15,
@@ -14199,6 +15155,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Northwest Bronze Lake",
     "category": "Freshwater Fishing",
+    "spot": 155,
     "lvl": 35,
     "coords": [
       19.42,
@@ -14213,12 +15170,14 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 4989,
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "The Long Climb",
     "category": "Freshwater Fishing",
+    "spot": 99,
     "lvl": 40,
     "coords": [
       15.89,
@@ -14233,12 +15192,14 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 4989,
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "Parata's Peace",
     "category": "Freshwater Fishing",
+    "spot": 95,
     "lvl": 50,
     "coords": [
       15.05,
@@ -14253,12 +15214,14 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 4989,
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "The Burning Wall",
     "category": "Freshwater Fishing",
+    "spot": 82,
     "lvl": 40,
     "coords": [
       29.15,
@@ -14273,12 +15236,14 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 4989,
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "Zahar'ak",
     "category": "Freshwater Fishing",
+    "spot": 84,
     "lvl": 35,
     "coords": [
       25.38,
@@ -14293,12 +15258,14 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 4989,
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "Bluefog",
     "category": "Freshwater Fishing",
+    "spot": 89,
     "lvl": 40,
     "coords": [
       24.14,
@@ -14313,12 +15280,14 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 4989,
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "Ceruleum Field",
     "category": "Freshwater Fishing",
+    "spot": 88,
     "lvl": 45,
     "coords": [
       20.74,
@@ -14333,12 +15302,14 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 4989,
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
     "category": "Freshwater Fishing",
+    "spot": 22,
     "lvl": 45,
     "coords": [
       25.08,
@@ -14353,12 +15324,14 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 4989,
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
     "category": "Freshwater Fishing",
+    "spot": 25,
     "lvl": 45,
     "coords": [
       12.91,
@@ -14371,14 +15344,16 @@ gt.bell.fish = [
     "name": "Ignus Snail",
     "patch": 1.0,
     "bait": [
-      "Stem Borer"
+      "Glowworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4989,
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
     "category": "Freshwater Fishing",
+    "spot": 23,
     "lvl": 50,
     "coords": [
       18.74,
@@ -14393,12 +15368,14 @@ gt.bell.fish = [
     "bait": [
       "Stem Borer"
     ],
+    "hookset": "Precision Hookset",
     "id": 4989,
     "icon": 29308,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
     "category": "Freshwater Fishing",
+    "spot": 94,
     "lvl": 50,
     "coords": [
       30.99,
@@ -14424,6 +15401,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Long Climb",
     "category": "Freshwater Fishing",
+    "spot": 99,
     "lvl": 40,
     "coords": [
       15.89,
@@ -14452,6 +15430,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Long Climb",
     "category": "Freshwater Fishing",
+    "spot": 99,
     "lvl": 40,
     "coords": [
       15.89,
@@ -14482,6 +15461,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Mist",
     "category": "Ocean Fishing",
+    "spot": 104,
     "lvl": 30,
     "coords": [
       11.01,
@@ -14496,12 +15476,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4932,
     "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Jadeite Flood",
     "category": "Freshwater Fishing",
+    "spot": 90,
     "lvl": 5,
     "coords": [
       12.61,
@@ -14516,12 +15498,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4932,
     "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 91,
     "lvl": 5,
     "coords": [
       10.73,
@@ -14536,12 +15520,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4932,
     "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Whispering Gorge",
     "category": "Freshwater Fishing",
+    "spot": 81,
     "lvl": 5,
     "coords": [
       16.55,
@@ -14556,12 +15542,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4932,
     "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 100,
     "lvl": 5,
     "coords": [
       8.91,
@@ -14576,12 +15564,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4932,
     "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
     "category": "Freshwater Fishing",
+    "spot": 2,
     "lvl": 5,
     "coords": [
       22.9,
@@ -14596,12 +15586,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4932,
     "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "The Mirror",
     "category": "Freshwater Fishing",
+    "spot": 3,
     "lvl": 15,
     "coords": [
       26.54,
@@ -14616,12 +15608,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4932,
     "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
     "category": "Freshwater Fishing",
+    "spot": 6,
     "lvl": 15,
     "coords": [
       9.03,
@@ -14636,12 +15630,14 @@ gt.bell.fish = [
     "bait": [
       "Crayfish Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4932,
     "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
     "category": "Freshwater Fishing",
+    "spot": 105,
     "lvl": 30,
     "coords": [
       11.01,
@@ -14667,6 +15663,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Jadeite Flood",
     "category": "Freshwater Fishing",
+    "spot": 90,
     "lvl": 5,
     "coords": [
       12.61,
@@ -14692,6 +15689,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Whispering Gorge",
     "category": "Freshwater Fishing",
+    "spot": 81,
     "lvl": 5,
     "coords": [
       16.55,
@@ -14721,6 +15719,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Jadeite Flood",
     "category": "Freshwater Fishing",
+    "spot": 90,
     "lvl": 5,
     "coords": [
       12.61,
@@ -14742,6 +15741,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Lower Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 91,
     "lvl": 5,
     "coords": [
       10.73,
@@ -14767,6 +15767,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Whispering Gorge",
     "category": "Freshwater Fishing",
+    "spot": 81,
     "lvl": 5,
     "coords": [
       16.55,
@@ -14796,6 +15797,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Upper Black Tea Brook",
     "category": "Freshwater Fishing",
+    "spot": 100,
     "lvl": 5,
     "coords": [
       8.91,
@@ -14810,12 +15812,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4927,
     "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "The Vein",
     "category": "Freshwater Fishing",
+    "spot": 2,
     "lvl": 5,
     "coords": [
       22.9,
@@ -14830,12 +15834,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4927,
     "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "Sweetbloom Pier",
     "category": "Freshwater Fishing",
+    "spot": 6,
     "lvl": 15,
     "coords": [
       9.03,
@@ -14850,12 +15856,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4927,
     "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
     "category": "Freshwater Fishing",
+    "spot": 19,
     "lvl": 15,
     "coords": [
       21.02,
@@ -14870,12 +15878,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4927,
     "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "Coerthas River",
     "category": "Freshwater Fishing",
+    "spot": 26,
     "lvl": 35,
     "coords": [
       20.46,
@@ -14890,12 +15900,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4927,
     "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "Daniffen Pass",
     "category": "Freshwater Fishing",
+    "spot": 31,
     "lvl": 35,
     "coords": [
       13.25,
@@ -14910,12 +15922,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4927,
     "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "The Nail",
     "category": "Freshwater Fishing",
+    "spot": 28,
     "lvl": 40,
     "coords": [
       15.63,
@@ -14930,12 +15944,14 @@ gt.bell.fish = [
     "bait": [
       "Moth Pupa"
     ],
+    "hookset": "Precision Hookset",
     "id": 4927,
     "icon": 29230,
     "func": "fish",
     "rarity": 1,
     "title": "Dragonhead Latrines",
     "category": "Freshwater Fishing",
+    "spot": 30,
     "lvl": 40,
     "coords": [
       27.91,
@@ -14957,6 +15973,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Vein",
     "category": "Freshwater Fishing",
+    "spot": 2,
     "lvl": 5,
     "coords": [
       22.9,
@@ -14978,6 +15995,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Mirror",
     "category": "Freshwater Fishing",
+    "spot": 3,
     "lvl": 15,
     "coords": [
       26.54,
@@ -14999,6 +16017,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Springripple Brook",
     "category": "Freshwater Fishing",
+    "spot": 8,
     "lvl": 15,
     "coords": [
       24.02,
@@ -15020,6 +16039,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Murmur Rills",
     "category": "Freshwater Fishing",
+    "spot": 18,
     "lvl": 15,
     "coords": [
       26.38,
@@ -15041,6 +16061,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Fallgourd Float",
     "category": "Freshwater Fishing",
+    "spot": 19,
     "lvl": 15,
     "coords": [
       21.02,
@@ -15062,6 +16083,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Nophica's Wells",
     "category": "Freshwater Fishing",
+    "spot": 72,
     "lvl": 5,
     "coords": [
       24.5,
@@ -15083,6 +16105,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 75,
     "lvl": 5,
     "coords": [
       23.42,
@@ -15104,6 +16127,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 76,
     "lvl": 10,
     "coords": [
       17.14,
@@ -15125,6 +16149,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Clutch",
     "category": "Freshwater Fishing",
+    "spot": 96,
     "lvl": 10,
     "coords": [
       29.55,
@@ -15146,6 +16171,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Goblet",
     "category": "Freshwater Fishing",
+    "spot": 106,
     "lvl": 30,
     "coords": [
       11.01,
@@ -15161,12 +16187,14 @@ gt.bell.fish = [
       "Moth Pupa",
       "Striped Goby"
     ],
+    "hookset": "Precision Hookset",
     "id": 7705,
     "icon": 29336,
     "func": "fish",
     "rarity": 2,
     "title": "The Vein",
     "category": "Freshwater Fishing",
+    "spot": 2,
     "lvl": 5,
     "coords": [
       22.9,
@@ -15188,6 +16216,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Mirror",
     "category": "Freshwater Fishing",
+    "spot": 3,
     "lvl": 15,
     "coords": [
       26.54,
@@ -15209,6 +16238,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sanctum of the Twelve",
     "category": "Freshwater Fishing",
+    "spot": 10,
     "lvl": 20,
     "coords": [
       17.68,
@@ -15230,6 +16260,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Murmur Rills",
     "category": "Freshwater Fishing",
+    "spot": 18,
     "lvl": 15,
     "coords": [
       26.38,
@@ -15251,6 +16282,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Lavender Beds",
     "category": "Freshwater Fishing",
+    "spot": 105,
     "lvl": 30,
     "coords": [
       11.01,
@@ -15279,6 +16311,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Mirror",
     "category": "Freshwater Fishing",
+    "spot": 3,
     "lvl": 15,
     "coords": [
       26.54,
@@ -15304,6 +16337,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Everschade",
     "category": "Freshwater Fishing",
+    "spot": 4,
     "lvl": 30,
     "coords": [
       15.61,
@@ -15329,6 +16363,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hopeseed Pond",
     "category": "Freshwater Fishing",
+    "spot": 5,
     "lvl": 35,
     "coords": [
       14.81,
@@ -15354,6 +16389,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Verdant Drop",
     "category": "Freshwater Fishing",
+    "spot": 7,
     "lvl": 25,
     "coords": [
       20.48,
@@ -15379,6 +16415,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 11,
     "lvl": 20,
     "coords": [
       18.02,
@@ -15404,6 +16441,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 13,
     "lvl": 25,
     "coords": [
       18.36,
@@ -15429,6 +16467,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "East Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 14,
     "lvl": 25,
     "coords": [
       23.86,
@@ -15454,6 +16493,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Yugr'am River",
     "category": "Freshwater Fishing",
+    "spot": 80,
     "lvl": 30,
     "coords": [
       25.66,
@@ -15475,6 +16515,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Everschade",
     "category": "Freshwater Fishing",
+    "spot": 4,
     "lvl": 30,
     "coords": [
       15.61,
@@ -15496,6 +16537,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Verdant Drop",
     "category": "Freshwater Fishing",
+    "spot": 7,
     "lvl": 25,
     "coords": [
       20.48,
@@ -15517,6 +16559,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Lavender Beds",
     "category": "Freshwater Fishing",
+    "spot": 105,
     "lvl": 30,
     "coords": [
       11.01,
@@ -15542,6 +16585,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Everschade",
     "category": "Freshwater Fishing",
+    "spot": 4,
     "lvl": 30,
     "coords": [
       15.61,
@@ -15564,6 +16608,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hopeseed Pond",
     "category": "Freshwater Fishing",
+    "spot": 5,
     "lvl": 35,
     "coords": [
       14.81,
@@ -15586,6 +16631,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Goblinblood",
     "category": "Freshwater Fishing",
+    "spot": 15,
     "lvl": 30,
     "coords": [
       27.51,
@@ -15600,12 +16646,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4939,
     "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "Hopeseed Pond",
     "category": "Freshwater Fishing",
+    "spot": 5,
     "lvl": 35,
     "coords": [
       14.81,
@@ -15620,12 +16668,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4939,
     "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "Haukke Manor",
     "category": "Freshwater Fishing",
+    "spot": 92,
     "lvl": 35,
     "coords": [
       10.87,
@@ -15640,12 +16690,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4939,
     "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "The Footfalls",
     "category": "Freshwater Fishing",
+    "spot": 73,
     "lvl": 10,
     "coords": [
       17.18,
@@ -15660,12 +16712,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4939,
     "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "The Unholy Heir",
     "category": "Freshwater Fishing",
+    "spot": 77,
     "lvl": 15,
     "coords": [
       27.83,
@@ -15680,12 +16734,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4939,
     "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "North Drybone",
     "category": "Freshwater Fishing",
+    "spot": 78,
     "lvl": 15,
     "coords": [
       13.65,
@@ -15700,12 +16756,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4939,
     "icon": 29291,
     "func": "fish",
     "rarity": 1,
     "title": "South Drybone",
     "category": "Freshwater Fishing",
+    "spot": 79,
     "lvl": 15,
     "coords": [
       17.22,
@@ -15727,6 +16785,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hopeseed Pond",
     "category": "Freshwater Fishing",
+    "spot": 5,
     "lvl": 35,
     "coords": [
       14.81,
@@ -15748,6 +16807,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Middle Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 12,
     "lvl": 30,
     "coords": [
       19.96,
@@ -15769,6 +16829,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Proud Creek",
     "category": "Freshwater Fishing",
+    "spot": 20,
     "lvl": 40,
     "coords": [
       20.82,
@@ -15790,6 +16851,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Coerthas River",
     "category": "Freshwater Fishing",
+    "spot": 26,
     "lvl": 35,
     "coords": [
       20.46,
@@ -15811,6 +16873,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Dragonhead Latrines",
     "category": "Freshwater Fishing",
+    "spot": 30,
     "lvl": 40,
     "coords": [
       27.91,
@@ -15832,6 +16895,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Snowcloak",
     "category": "Freshwater Fishing",
+    "spot": 33,
     "lvl": 45,
     "coords": [
       3.16,
@@ -15857,6 +16921,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Hopeseed Pond",
     "category": "Freshwater Fishing",
+    "spot": 5,
     "lvl": 35,
     "coords": [
       14.81,
@@ -15882,6 +16947,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Haukke Manor",
     "category": "Freshwater Fishing",
+    "spot": 92,
     "lvl": 35,
     "coords": [
       10.87,
@@ -15901,12 +16967,14 @@ gt.bell.fish = [
       "start": 21,
       "end": 3
     },
+    "hookset": "Precision Hookset",
     "id": 7694,
     "icon": 29329,
     "func": "fish",
     "rarity": 2,
     "title": "Sweetbloom Pier",
     "category": "Freshwater Fishing",
+    "spot": 6,
     "lvl": 15,
     "coords": [
       9.03,
@@ -15928,6 +16996,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Springripple Brook",
     "category": "Freshwater Fishing",
+    "spot": 8,
     "lvl": 15,
     "coords": [
       24.02,
@@ -15949,6 +17018,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Verdant Drop",
     "category": "Freshwater Fishing",
+    "spot": 7,
     "lvl": 25,
     "coords": [
       20.48,
@@ -15963,12 +17033,14 @@ gt.bell.fish = [
     "bait": [
       "Bloodworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4940,
     "icon": 29204,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 11,
     "lvl": 20,
     "coords": [
       18.02,
@@ -15990,6 +17062,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 13,
     "lvl": 25,
     "coords": [
       18.36,
@@ -16011,6 +17084,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "East Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 14,
     "lvl": 25,
     "coords": [
       23.86,
@@ -16032,6 +17106,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Middle Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 12,
     "lvl": 30,
     "coords": [
       19.96,
@@ -16053,6 +17128,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Murmur Rills",
     "category": "Freshwater Fishing",
+    "spot": 18,
     "lvl": 15,
     "coords": [
       26.38,
@@ -16074,6 +17150,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Fallgourd Float",
     "category": "Freshwater Fishing",
+    "spot": 19,
     "lvl": 15,
     "coords": [
       21.02,
@@ -16095,6 +17172,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Coerthas River",
     "category": "Freshwater Fishing",
+    "spot": 26,
     "lvl": 35,
     "coords": [
       20.46,
@@ -16116,6 +17194,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Dragonhead Latrines",
     "category": "Freshwater Fishing",
+    "spot": 30,
     "lvl": 40,
     "coords": [
       27.91,
@@ -16137,6 +17216,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Snowcloak",
     "category": "Freshwater Fishing",
+    "spot": 33,
     "lvl": 45,
     "coords": [
       3.16,
@@ -16163,6 +17243,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Springripple Brook",
     "category": "Freshwater Fishing",
+    "spot": 8,
     "lvl": 15,
     "coords": [
       24.02,
@@ -16188,6 +17269,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Sanctum of the Twelve",
     "category": "Freshwater Fishing",
+    "spot": 10,
     "lvl": 20,
     "coords": [
       17.68,
@@ -16202,12 +17284,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4962,
     "icon": 29252,
     "func": "fish",
     "rarity": 1,
     "title": "Verdant Drop",
     "category": "Freshwater Fishing",
+    "spot": 7,
     "lvl": 25,
     "coords": [
       20.48,
@@ -16222,12 +17306,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4962,
     "icon": 29252,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 13,
     "lvl": 25,
     "coords": [
       18.36,
@@ -16242,12 +17328,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4962,
     "icon": 29252,
     "func": "fish",
     "rarity": 1,
     "title": "Rootslake",
     "category": "Freshwater Fishing",
+    "spot": 16,
     "lvl": 35,
     "coords": [
       18.62,
@@ -16262,12 +17350,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4967,
     "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "Verdant Drop",
     "category": "Freshwater Fishing",
+    "spot": 7,
     "lvl": 25,
     "coords": [
       20.48,
@@ -16282,12 +17372,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4967,
     "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 13,
     "lvl": 25,
     "coords": [
       18.36,
@@ -16302,12 +17394,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4967,
     "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 12,
     "lvl": 30,
     "coords": [
       19.96,
@@ -16322,12 +17416,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4967,
     "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "Goblinblood",
     "category": "Freshwater Fishing",
+    "spot": 15,
     "lvl": 30,
     "coords": [
       27.51,
@@ -16342,12 +17438,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4967,
     "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "Yugr'am River",
     "category": "Freshwater Fishing",
+    "spot": 80,
     "lvl": 30,
     "coords": [
       25.66,
@@ -16362,12 +17460,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4967,
     "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "The Burning Wall",
     "category": "Freshwater Fishing",
+    "spot": 82,
     "lvl": 40,
     "coords": [
       29.15,
@@ -16393,6 +17493,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Verdant Drop",
     "category": "Freshwater Fishing",
+    "spot": 7,
     "lvl": 25,
     "coords": [
       20.48,
@@ -16414,6 +17515,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sylphlands",
     "category": "Freshwater Fishing",
+    "spot": 9,
     "lvl": 45,
     "coords": [
       26.02,
@@ -16435,6 +17537,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 11,
     "lvl": 20,
     "coords": [
       18.02,
@@ -16456,6 +17559,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 13,
     "lvl": 25,
     "coords": [
       18.36,
@@ -16477,6 +17581,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "East Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 14,
     "lvl": 25,
     "coords": [
       23.86,
@@ -16498,6 +17603,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Middle Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 12,
     "lvl": 30,
     "coords": [
       19.96,
@@ -16519,6 +17625,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Urth's Gift",
     "category": "Freshwater Fishing",
+    "spot": 17,
     "lvl": 45,
     "coords": [
       32.55,
@@ -16544,6 +17651,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sylphlands",
     "category": "Freshwater Fishing",
+    "spot": 9,
     "lvl": 45,
     "coords": [
       26.02,
@@ -16569,6 +17677,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Proud Creek",
     "category": "Freshwater Fishing",
+    "spot": 20,
     "lvl": 40,
     "coords": [
       20.82,
@@ -16590,6 +17699,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sylphlands",
     "category": "Freshwater Fishing",
+    "spot": 9,
     "lvl": 45,
     "coords": [
       26.02,
@@ -16611,6 +17721,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Urth's Gift",
     "category": "Freshwater Fishing",
+    "spot": 17,
     "lvl": 45,
     "coords": [
       32.55,
@@ -16632,6 +17743,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Proud Creek",
     "category": "Freshwater Fishing",
+    "spot": 20,
     "lvl": 40,
     "coords": [
       20.82,
@@ -16653,6 +17765,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Burning Wall",
     "category": "Freshwater Fishing",
+    "spot": 82,
     "lvl": 40,
     "coords": [
       29.15,
@@ -16672,12 +17785,14 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5022,
     "icon": 29293,
     "func": "fish",
     "rarity": 1,
     "title": "Sylphlands",
     "category": "Freshwater Fishing",
+    "spot": 9,
     "lvl": 45,
     "coords": [
       26.02,
@@ -16708,6 +17823,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Sylphlands",
     "category": "Freshwater Fishing",
+    "spot": 9,
     "lvl": 45,
     "coords": [
       26.02,
@@ -16733,6 +17849,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Upper Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 11,
     "lvl": 20,
     "coords": [
       18.02,
@@ -16762,6 +17879,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 13,
     "lvl": 25,
     "coords": [
       18.36,
@@ -16783,6 +17901,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "East Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 14,
     "lvl": 25,
     "coords": [
       23.86,
@@ -16797,12 +17916,14 @@ gt.bell.fish = [
     "bait": [
       "Floating Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 4961,
     "icon": 29269,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 12,
     "lvl": 30,
     "coords": [
       19.96,
@@ -16817,12 +17938,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4961,
     "icon": 29269,
     "func": "fish",
     "rarity": 1,
     "title": "Goblinblood",
     "category": "Freshwater Fishing",
+    "spot": 15,
     "lvl": 30,
     "coords": [
       27.51,
@@ -16835,7 +17958,7 @@ gt.bell.fish = [
     "name": "Armored Pleco",
     "patch": 1.0,
     "bait": [
-      "Freshwater Boilie"
+      "Honey Worm"
     ],
     "hookset": "Powerful Hookset",
     "id": 4980,
@@ -16844,6 +17967,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Middle Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 12,
     "lvl": 30,
     "coords": [
       19.96,
@@ -16865,6 +17989,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rootslake",
     "category": "Freshwater Fishing",
+    "spot": 16,
     "lvl": 35,
     "coords": [
       18.62,
@@ -16894,6 +18019,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Middle Hathoeva River",
     "category": "Freshwater Fishing",
+    "spot": 12,
     "lvl": 30,
     "coords": [
       19.96,
@@ -16916,6 +18042,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Goblinblood",
     "category": "Freshwater Fishing",
+    "spot": 15,
     "lvl": 30,
     "coords": [
       27.51,
@@ -16942,6 +18069,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Goblinblood",
     "category": "Freshwater Fishing",
+    "spot": 15,
     "lvl": 30,
     "coords": [
       27.51,
@@ -16963,6 +18091,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rootslake",
     "category": "Freshwater Fishing",
+    "spot": 16,
     "lvl": 35,
     "coords": [
       18.62,
@@ -16988,6 +18117,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rootslake",
     "category": "Freshwater Fishing",
+    "spot": 16,
     "lvl": 35,
     "coords": [
       18.62,
@@ -17012,6 +18142,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Rootslake",
     "category": "Freshwater Fishing",
+    "spot": 16,
     "lvl": 35,
     "coords": [
       18.62,
@@ -17026,12 +18157,14 @@ gt.bell.fish = [
     "bait": [
       "Glowworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5008,
     "icon": 29237,
     "func": "fish",
     "rarity": 1,
     "title": "Urth's Gift",
     "category": "Freshwater Fishing",
+    "spot": 17,
     "lvl": 45,
     "coords": [
       32.55,
@@ -17046,12 +18179,14 @@ gt.bell.fish = [
     "bait": [
       "Glowworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5008,
     "icon": 29237,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
     "category": "Freshwater Fishing",
+    "spot": 21,
     "lvl": 50,
     "coords": [
       17.82,
@@ -17066,12 +18201,14 @@ gt.bell.fish = [
     "bait": [
       "Glowworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5008,
     "icon": 29237,
     "func": "fish",
     "rarity": 1,
     "title": "The Deep Tangle",
     "category": "Freshwater Fishing",
+    "spot": 25,
     "lvl": 45,
     "coords": [
       12.91,
@@ -17093,6 +18230,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Urth's Gift",
     "category": "Freshwater Fishing",
+    "spot": 17,
     "lvl": 45,
     "coords": [
       32.55,
@@ -17118,6 +18256,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Urth's Gift",
     "category": "Freshwater Fishing",
+    "spot": 17,
     "lvl": 45,
     "coords": [
       32.55,
@@ -17154,6 +18293,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Urth's Gift",
     "category": "Freshwater Fishing",
+    "spot": 17,
     "lvl": 45,
     "coords": [
       32.55,
@@ -17179,6 +18319,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Murmur Rills",
     "category": "Freshwater Fishing",
+    "spot": 18,
     "lvl": 15,
     "coords": [
       26.38,
@@ -17194,12 +18335,14 @@ gt.bell.fish = [
       "Moth Pupa",
       "Striped Goby"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4963,
     "icon": 29249,
     "func": "fish",
     "rarity": 1,
     "title": "Fallgourd Float",
     "category": "Freshwater Fishing",
+    "spot": 19,
     "lvl": 15,
     "coords": [
       21.02,
@@ -17215,12 +18358,14 @@ gt.bell.fish = [
       "Midge Basket",
       "Ala Mhigan Fighting Fish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4963,
     "icon": 29249,
     "func": "fish",
     "rarity": 1,
     "title": "The Lavender Beds",
     "category": "Freshwater Fishing",
+    "spot": 105,
     "lvl": 30,
     "coords": [
       11.01,
@@ -17246,6 +18391,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Fallgourd Float",
     "category": "Freshwater Fishing",
+    "spot": 19,
     "lvl": 15,
     "coords": [
       21.02,
@@ -17267,6 +18413,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Proud Creek",
     "category": "Freshwater Fishing",
+    "spot": 20,
     "lvl": 40,
     "coords": [
       20.82,
@@ -17288,6 +18435,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Forgotten Springs",
     "category": "Freshwater Fishing",
+    "spot": 85,
     "lvl": 35,
     "coords": [
       15.65,
@@ -17309,6 +18457,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Bluefog",
     "category": "Freshwater Fishing",
+    "spot": 89,
     "lvl": 40,
     "coords": [
       24.14,
@@ -17330,6 +18479,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Daniffen Pass",
     "category": "Freshwater Fishing",
+    "spot": 31,
     "lvl": 35,
     "coords": [
       13.25,
@@ -17344,12 +18494,14 @@ gt.bell.fish = [
     "bait": [
       "Streamer"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5029,
     "icon": 29224,
     "func": "fish",
     "rarity": 1,
     "title": "Proud Creek",
     "category": "Freshwater Fishing",
+    "spot": 20,
     "lvl": 40,
     "coords": [
       20.82,
@@ -17378,6 +18530,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Proud Creek",
     "category": "Freshwater Fishing",
+    "spot": 20,
     "lvl": 40,
     "coords": [
       20.82,
@@ -17393,12 +18546,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5002,
     "icon": 29238,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tahtotl",
     "category": "Freshwater Fishing",
+    "spot": 21,
     "lvl": 50,
     "coords": [
       17.82,
@@ -17414,12 +18569,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5002,
     "icon": 29238,
     "func": "fish",
     "rarity": 1,
     "title": "Moondrip",
     "category": "Freshwater Fishing",
+    "spot": 103,
     "lvl": 45,
     "coords": [
       18.02,
@@ -17435,12 +18592,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5002,
     "icon": 29238,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
     "category": "Freshwater Fishing",
+    "spot": 22,
     "lvl": 45,
     "coords": [
       25.08,
@@ -17456,12 +18615,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5002,
     "icon": 29238,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
     "category": "Freshwater Fishing",
+    "spot": 23,
     "lvl": 50,
     "coords": [
       18.74,
@@ -17474,15 +18635,17 @@ gt.bell.fish = [
     "name": "Assassin Betta",
     "patch": 1.0,
     "bait": [
-      "Midge Basket",
+      "Crow Fly",
       "Ala Mhigan Fighting Fish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5002,
     "icon": 29238,
     "func": "fish",
     "rarity": 1,
     "title": "The Tangle",
     "category": "Freshwater Fishing",
+    "spot": 24,
     "lvl": 50,
     "coords": [
       14.41,
@@ -17498,12 +18661,14 @@ gt.bell.fish = [
       "Honey Worm",
       "Silverfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5002,
     "icon": 29238,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
     "category": "Freshwater Fishing",
+    "spot": 94,
     "lvl": 50,
     "coords": [
       30.99,
@@ -17527,6 +18692,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lake Tahtotl",
     "category": "Freshwater Fishing",
+    "spot": 21,
     "lvl": 50,
     "coords": [
       17.82,
@@ -17559,6 +18725,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Lake Tahtotl",
     "category": "Freshwater Fishing",
+    "spot": 21,
     "lvl": 50,
     "coords": [
       17.82,
@@ -17588,6 +18755,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Lavender Beds",
     "category": "Freshwater Fishing",
+    "spot": 105,
     "lvl": 30,
     "coords": [
       11.01,
@@ -17606,12 +18774,14 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 7714,
     "icon": 29339,
     "func": "fish",
     "rarity": 2,
     "title": "Nophica's Wells",
     "category": "Freshwater Fishing",
+    "spot": 72,
     "lvl": 5,
     "coords": [
       24.5,
@@ -17630,12 +18800,14 @@ gt.bell.fish = [
       "start": 21,
       "end": 3
     },
+    "hookset": "Powerful Hookset",
     "id": 7706,
     "icon": 29337,
     "func": "fish",
     "rarity": 2,
     "title": "The Footfalls",
     "category": "Freshwater Fishing",
+    "spot": 73,
     "lvl": 10,
     "coords": [
       17.18,
@@ -17650,12 +18822,14 @@ gt.bell.fish = [
     "bait": [
       "Heavy Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7711,
     "icon": 29067,
     "func": "fish",
     "rarity": 2,
     "title": "Vesper Bay",
     "category": "Ocean Fishing",
+    "spot": 70,
     "lvl": 15,
     "coords": [
       11.53,
@@ -17677,6 +18851,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Crescent Cove",
     "category": "Ocean Fishing",
+    "spot": 71,
     "lvl": 20,
     "coords": [
       15.57,
@@ -17702,6 +18877,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Crescent Cove",
     "category": "Ocean Fishing",
+    "spot": 71,
     "lvl": 20,
     "coords": [
       15.57,
@@ -17720,12 +18896,14 @@ gt.bell.fish = [
       "start": 20,
       "end": 22
     },
+    "hookset": "Powerful Hookset",
     "id": 7910,
     "icon": 29081,
     "func": "fish",
     "rarity": 2,
     "title": "The Silver Bazaar",
     "category": "Ocean Fishing",
+    "spot": 69,
     "lvl": 25,
     "coords": [
       14.57,
@@ -17740,12 +18918,14 @@ gt.bell.fish = [
     "bait": [
       "Heavy Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4899,
     "icon": 29017,
     "func": "fish",
     "rarity": 1,
     "title": "Cape Westwind",
     "category": "Ocean Fishing",
+    "spot": 74,
     "lvl": 45,
     "coords": [
       9.93,
@@ -17777,6 +18957,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Cape Westwind",
     "category": "Ocean Fishing",
+    "spot": 74,
     "lvl": 45,
     "coords": [
       9.93,
@@ -17812,6 +18993,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Cape Westwind",
     "category": "Ocean Fishing",
+    "spot": 74,
     "lvl": 45,
     "coords": [
       9.93,
@@ -17819,72 +19001,6 @@ gt.bell.fish = [
     ],
     "radius": 600,
     "zone": "Western Thanalan"
-  },
-  {
-    "name": "Garpike",
-    "patch": 1.0,
-    "bait": [
-      "Honey Worm",
-      "Silverfish"
-    ],
-    "hookset": "Powerful Hookset",
-    "id": 5005,
-    "icon": 29264,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Moondrip",
-    "category": "Freshwater Fishing",
-    "lvl": 45,
-    "coords": [
-      18.02,
-      7.07
-    ],
-    "radius": 400,
-    "zone": "Western Thanalan"
-  },
-  {
-    "name": "Garpike",
-    "patch": 1.0,
-    "bait": [
-      "Honey Worm",
-      "Silverfish"
-    ],
-    "hookset": "Powerful Hookset",
-    "id": 5005,
-    "icon": 29264,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Bluefog",
-    "category": "Freshwater Fishing",
-    "lvl": 40,
-    "coords": [
-      24.14,
-      26.0
-    ],
-    "radius": 400,
-    "zone": "Northern Thanalan"
-  },
-  {
-    "name": "Garpike",
-    "patch": 1.0,
-    "bait": [
-      "Honey Worm",
-      "Silverfish"
-    ],
-    "hookset": "Powerful Hookset",
-    "id": 5005,
-    "icon": 29264,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Singing Shards",
-    "category": "Freshwater Fishing",
-    "lvl": 45,
-    "coords": [
-      29.15,
-      10.33
-    ],
-    "radius": 600,
-    "zone": "Mor Dhona"
   },
   {
     "name": "Ndendecki",
@@ -17908,6 +19024,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Moondrip",
     "category": "Freshwater Fishing",
+    "spot": 103,
     "lvl": 45,
     "coords": [
       18.02,
@@ -17930,6 +19047,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Parata's Peace",
     "category": "Freshwater Fishing",
+    "spot": 95,
     "lvl": 50,
     "coords": [
       15.05,
@@ -17952,6 +19070,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Ceruleum Field",
     "category": "Freshwater Fishing",
+    "spot": 88,
     "lvl": 45,
     "coords": [
       20.74,
@@ -17974,6 +19093,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Tangle",
     "category": "Freshwater Fishing",
+    "spot": 24,
     "lvl": 50,
     "coords": [
       14.41,
@@ -17988,12 +19108,14 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5006,
     "icon": 29305,
     "func": "fish",
     "rarity": 1,
     "title": "Parata's Peace",
     "category": "Freshwater Fishing",
+    "spot": 95,
     "lvl": 50,
     "coords": [
       15.05,
@@ -18008,12 +19130,14 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5006,
     "icon": 29305,
     "func": "fish",
     "rarity": 1,
     "title": "Ceruleum Field",
     "category": "Freshwater Fishing",
+    "spot": 88,
     "lvl": 45,
     "coords": [
       20.74,
@@ -18028,12 +19152,14 @@ gt.bell.fish = [
     "bait": [
       "Glowworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5006,
     "icon": 29305,
     "func": "fish",
     "rarity": 1,
     "title": "North Silvertear",
     "category": "Freshwater Fishing",
+    "spot": 22,
     "lvl": 45,
     "coords": [
       25.08,
@@ -18046,14 +19172,16 @@ gt.bell.fish = [
     "name": "Ilsabardian Bass",
     "patch": 1.0,
     "bait": [
-      "Topwater Frog"
+      "Glowworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5006,
     "icon": 29305,
     "func": "fish",
     "rarity": 1,
     "title": "Singing Shards",
     "category": "Freshwater Fishing",
+    "spot": 93,
     "lvl": 45,
     "coords": [
       29.15,
@@ -18066,14 +19194,16 @@ gt.bell.fish = [
     "name": "Ilsabardian Bass",
     "patch": 1.0,
     "bait": [
-      "Topwater Frog"
+      "Glowworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5006,
     "icon": 29305,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
     "category": "Freshwater Fishing",
+    "spot": 23,
     "lvl": 50,
     "coords": [
       18.74,
@@ -18088,12 +19218,14 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5006,
     "icon": 29305,
     "func": "fish",
     "rarity": 1,
     "title": "The Tangle",
     "category": "Freshwater Fishing",
+    "spot": 24,
     "lvl": 50,
     "coords": [
       14.41,
@@ -18106,14 +19238,16 @@ gt.bell.fish = [
     "name": "Ilsabardian Bass",
     "patch": 1.0,
     "bait": [
-      "Topwater Frog"
+      "Glowworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5006,
     "icon": 29305,
     "func": "fish",
     "rarity": 1,
     "title": "The North Shards",
     "category": "Freshwater Fishing",
+    "spot": 94,
     "lvl": 50,
     "coords": [
       30.99,
@@ -18145,6 +19279,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Parata's Peace",
     "category": "Freshwater Fishing",
+    "spot": 95,
     "lvl": 50,
     "coords": [
       15.05,
@@ -18170,6 +19305,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Upper Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 75,
     "lvl": 5,
     "coords": [
       23.42,
@@ -18184,12 +19320,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4960,
     "icon": 29271,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 76,
     "lvl": 10,
     "coords": [
       17.14,
@@ -18204,12 +19342,14 @@ gt.bell.fish = [
     "bait": [
       "Bass Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 4960,
     "icon": 29271,
     "func": "fish",
     "rarity": 1,
     "title": "The Unholy Heir",
     "category": "Freshwater Fishing",
+    "spot": 77,
     "lvl": 15,
     "coords": [
       27.83,
@@ -18235,6 +19375,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Lower Soot Creek",
     "category": "Freshwater Fishing",
+    "spot": 76,
     "lvl": 10,
     "coords": [
       17.14,
@@ -18253,12 +19394,14 @@ gt.bell.fish = [
       "start": 17,
       "end": 21
     },
+    "hookset": "Precision Hookset",
     "id": 7703,
     "icon": 29319,
     "func": "fish",
     "rarity": 2,
     "title": "The Clutch",
     "category": "Freshwater Fishing",
+    "spot": 96,
     "lvl": 10,
     "coords": [
       29.55,
@@ -18285,6 +19428,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Unholy Heir",
     "category": "Freshwater Fishing",
+    "spot": 77,
     "lvl": 15,
     "coords": [
       27.83,
@@ -18299,12 +19443,14 @@ gt.bell.fish = [
     "bait": [
       "Syrphid Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4971,
     "icon": 29289,
     "func": "fish",
     "rarity": 1,
     "title": "North Drybone",
     "category": "Freshwater Fishing",
+    "spot": 78,
     "lvl": 15,
     "coords": [
       13.65,
@@ -18319,12 +19465,14 @@ gt.bell.fish = [
     "bait": [
       "Syrphid Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4971,
     "icon": 29289,
     "func": "fish",
     "rarity": 1,
     "title": "South Drybone",
     "category": "Freshwater Fishing",
+    "spot": 79,
     "lvl": 15,
     "coords": [
       17.22,
@@ -18347,12 +19495,14 @@ gt.bell.fish = [
       "Rain",
       "Showers"
     ],
+    "hookset": "Powerful Hookset",
     "id": 7704,
     "icon": 29334,
     "func": "fish",
     "rarity": 2,
     "title": "North Drybone",
     "category": "Freshwater Fishing",
+    "spot": 78,
     "lvl": 15,
     "coords": [
       13.65,
@@ -18382,6 +19532,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "South Drybone",
     "category": "Freshwater Fishing",
+    "spot": 79,
     "lvl": 15,
     "coords": [
       17.22,
@@ -18403,6 +19554,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Yugr'am River",
     "category": "Freshwater Fishing",
+    "spot": 80,
     "lvl": 30,
     "coords": [
       25.66,
@@ -18431,6 +19583,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Yugr'am River",
     "category": "Freshwater Fishing",
+    "spot": 80,
     "lvl": 30,
     "coords": [
       25.66,
@@ -18445,12 +19598,14 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 6191,
     "icon": 29317,
     "func": "fish",
     "rarity": 1,
     "title": "The Burning Wall",
     "category": "Freshwater Fishing",
+    "spot": 82,
     "lvl": 40,
     "coords": [
       29.15,
@@ -18480,6 +19635,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Burning Wall",
     "category": "Freshwater Fishing",
+    "spot": 82,
     "lvl": 40,
     "coords": [
       29.15,
@@ -18504,6 +19660,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Burning Wall",
     "category": "Freshwater Fishing",
+    "spot": 82,
     "lvl": 40,
     "coords": [
       29.15,
@@ -18525,6 +19682,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Burnt Lizard Creek",
     "category": "Freshwater Fishing",
+    "spot": 83,
     "lvl": 25,
     "coords": [
       21.74,
@@ -18546,6 +19704,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Zahar'ak",
     "category": "Freshwater Fishing",
+    "spot": 84,
     "lvl": 35,
     "coords": [
       25.38,
@@ -18567,6 +19726,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Forgotten Springs",
     "category": "Freshwater Fishing",
+    "spot": 85,
     "lvl": 35,
     "coords": [
       15.65,
@@ -18592,6 +19752,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Burnt Lizard Creek",
     "category": "Freshwater Fishing",
+    "spot": 83,
     "lvl": 25,
     "coords": [
       21.74,
@@ -18611,12 +19772,14 @@ gt.bell.fish = [
       "Fair Skies",
       "Heat Waves"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5007,
     "icon": 29241,
     "func": "fish",
     "rarity": 1,
     "title": "Zahar'ak",
     "category": "Freshwater Fishing",
+    "spot": 84,
     "lvl": 35,
     "coords": [
       25.38,
@@ -18645,6 +19808,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Zahar'ak",
     "category": "Freshwater Fishing",
+    "spot": 84,
     "lvl": 35,
     "coords": [
       25.38,
@@ -18666,6 +19830,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Forgotten Springs",
     "category": "Freshwater Fishing",
+    "spot": 85,
     "lvl": 35,
     "coords": [
       15.65,
@@ -18690,6 +19855,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Forgotten Springs",
     "category": "Freshwater Fishing",
+    "spot": 85,
     "lvl": 35,
     "coords": [
       15.65,
@@ -18704,12 +19870,14 @@ gt.bell.fish = [
     "bait": [
       "Freshwater Boilie"
     ],
+    "hookset": "Precision Hookset",
     "id": 4977,
     "icon": 29234,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Desert",
     "category": "Dunefishing",
+    "spot": 86,
     "lvl": 35,
     "coords": [
       12.37,
@@ -18724,12 +19892,14 @@ gt.bell.fish = [
     "bait": [
       "Rolling Stone"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5032,
     "icon": 29604,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Desert",
     "category": "Dunefishing",
+    "spot": 86,
     "lvl": 35,
     "coords": [
       12.37,
@@ -18742,14 +19912,16 @@ gt.bell.fish = [
     "name": "Sand Bream",
     "patch": 1.0,
     "bait": [
-      "Sand Leech"
+      "Saltwater Boilie"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5032,
     "icon": 29604,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Dunes",
     "category": "Dunefishing",
+    "spot": 87,
     "lvl": 35,
     "coords": [
       27.31,
@@ -18762,14 +19934,16 @@ gt.bell.fish = [
     "name": "Dustfish",
     "patch": 1.0,
     "bait": [
-      "Rolling Stone"
+      "Freshwater Boilie"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5034,
     "icon": 29602,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Desert",
     "category": "Dunefishing",
+    "spot": 86,
     "lvl": 35,
     "coords": [
       12.37,
@@ -18782,14 +19956,16 @@ gt.bell.fish = [
     "name": "Dustfish",
     "patch": 1.0,
     "bait": [
-      "Sand Leech"
+      "Saltwater Boilie"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5034,
     "icon": 29602,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Dunes",
     "category": "Dunefishing",
+    "spot": 87,
     "lvl": 35,
     "coords": [
       27.31,
@@ -18804,12 +19980,14 @@ gt.bell.fish = [
     "bait": [
       "Sand Leech"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5035,
     "icon": 29606,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Desert",
     "category": "Dunefishing",
+    "spot": 86,
     "lvl": 35,
     "coords": [
       12.37,
@@ -18824,12 +20002,14 @@ gt.bell.fish = [
     "bait": [
       "Sand Leech"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5035,
     "icon": 29606,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Dunes",
     "category": "Dunefishing",
+    "spot": 87,
     "lvl": 35,
     "coords": [
       27.31,
@@ -18844,12 +20024,14 @@ gt.bell.fish = [
     "bait": [
       "Sand Gecko"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5036,
     "icon": 29601,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Desert",
     "category": "Dunefishing",
+    "spot": 86,
     "lvl": 35,
     "coords": [
       12.37,
@@ -18864,12 +20046,14 @@ gt.bell.fish = [
     "bait": [
       "Sand Gecko"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5036,
     "icon": 29601,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Dunes",
     "category": "Dunefishing",
+    "spot": 87,
     "lvl": 35,
     "coords": [
       27.31,
@@ -18885,12 +20069,14 @@ gt.bell.fish = [
       "Sand Leech",
       "Storm Rider"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5037,
     "icon": 29607,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Desert",
     "category": "Dunefishing",
+    "spot": 86,
     "lvl": 35,
     "coords": [
       12.37,
@@ -18906,12 +20092,14 @@ gt.bell.fish = [
       "Sand Leech",
       "Storm Rider"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5037,
     "icon": 29607,
     "func": "fish",
     "rarity": 1,
     "title": "Sagolii Dunes",
     "category": "Dunefishing",
+    "spot": 87,
     "lvl": 35,
     "coords": [
       27.31,
@@ -18934,6 +20122,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sagolii Desert",
     "category": "Dunefishing",
+    "spot": 86,
     "lvl": 35,
     "coords": [
       12.37,
@@ -18963,6 +20152,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Sagolii Desert",
     "category": "Dunefishing",
+    "spot": 86,
     "lvl": 35,
     "coords": [
       12.37,
@@ -18996,6 +20186,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Sagolii Desert",
     "category": "Dunefishing",
+    "spot": 86,
     "lvl": 35,
     "coords": [
       12.37,
@@ -19008,7 +20199,7 @@ gt.bell.fish = [
     "name": "Desert Catfish",
     "patch": 1.0,
     "bait": [
-      "Sand Leech"
+      "Rolling Stone"
     ],
     "hookset": "Powerful Hookset",
     "id": 5033,
@@ -19017,6 +20208,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sagolii Dunes",
     "category": "Dunefishing",
+    "spot": 87,
     "lvl": 35,
     "coords": [
       27.31,
@@ -19039,6 +20231,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sagolii Dunes",
     "category": "Dunefishing",
+    "spot": 87,
     "lvl": 35,
     "coords": [
       27.31,
@@ -19064,6 +20257,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Sagolii Dunes",
     "category": "Dunefishing",
+    "spot": 87,
     "lvl": 35,
     "coords": [
       27.31,
@@ -19071,6 +20265,52 @@ gt.bell.fish = [
     ],
     "radius": 600,
     "zone": "Southern Thanalan"
+  },
+  {
+    "name": "Garpike",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 5005,
+    "icon": 29264,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Bluefog",
+    "category": "Freshwater Fishing",
+    "spot": 89,
+    "lvl": 40,
+    "coords": [
+      24.14,
+      26.0
+    ],
+    "radius": 400,
+    "zone": "Northern Thanalan"
+  },
+  {
+    "name": "Garpike",
+    "patch": 1.0,
+    "bait": [
+      "Honey Worm",
+      "Silverfish"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 5005,
+    "icon": 29264,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Singing Shards",
+    "category": "Freshwater Fishing",
+    "spot": 93,
+    "lvl": 45,
+    "coords": [
+      29.15,
+      10.33
+    ],
+    "radius": 600,
+    "zone": "Mor Dhona"
   },
   {
     "name": "Alligator Garfish",
@@ -19086,6 +20326,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Bluefog",
     "category": "Freshwater Fishing",
+    "spot": 89,
     "lvl": 40,
     "coords": [
       24.14,
@@ -19115,6 +20356,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Bluefog",
     "category": "Freshwater Fishing",
+    "spot": 89,
     "lvl": 40,
     "coords": [
       24.14,
@@ -19138,6 +20380,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Ceruleum Field",
     "category": "Freshwater Fishing",
+    "spot": 88,
     "lvl": 45,
     "coords": [
       20.74,
@@ -19171,6 +20414,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Ceruleum Field",
     "category": "Freshwater Fishing",
+    "spot": 88,
     "lvl": 45,
     "coords": [
       20.74,
@@ -19193,12 +20437,14 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Precision Hookset",
     "id": 7919,
     "icon": 29611,
     "func": "fish",
     "rarity": 2,
     "title": "The Goblet",
     "category": "Freshwater Fishing",
+    "spot": 106,
     "lvl": 30,
     "coords": [
       11.01,
@@ -19213,12 +20459,14 @@ gt.bell.fish = [
     "bait": [
       "Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4986,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "Coerthas River",
     "category": "Freshwater Fishing",
+    "spot": 26,
     "lvl": 35,
     "coords": [
       20.46,
@@ -19233,12 +20481,14 @@ gt.bell.fish = [
     "bait": [
       "Wildfowl Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4986,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The Nail",
     "category": "Freshwater Fishing",
+    "spot": 28,
     "lvl": 40,
     "coords": [
       15.63,
@@ -19253,12 +20503,14 @@ gt.bell.fish = [
     "bait": [
       "Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4986,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "Dragonhead Latrines",
     "category": "Freshwater Fishing",
+    "spot": 30,
     "lvl": 40,
     "coords": [
       27.91,
@@ -19273,12 +20525,14 @@ gt.bell.fish = [
     "bait": [
       "Wildfowl Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4986,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The Weeping Saint",
     "category": "Freshwater Fishing",
+    "spot": 29,
     "lvl": 45,
     "coords": [
       31.53,
@@ -19293,12 +20547,14 @@ gt.bell.fish = [
     "bait": [
       "Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 4986,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "Snowcloak",
     "category": "Freshwater Fishing",
+    "spot": 33,
     "lvl": 45,
     "coords": [
       3.16,
@@ -19314,12 +20570,14 @@ gt.bell.fish = [
       "Moth Pupa",
       "Striped Goby"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5009,
     "icon": 29266,
     "func": "fish",
     "rarity": 1,
     "title": "Coerthas River",
     "category": "Freshwater Fishing",
+    "spot": 26,
     "lvl": 35,
     "coords": [
       20.46,
@@ -19335,12 +20593,14 @@ gt.bell.fish = [
       "Moth Pupa",
       "Striped Goby"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5009,
     "icon": 29266,
     "func": "fish",
     "rarity": 1,
     "title": "The Nail",
     "category": "Freshwater Fishing",
+    "spot": 28,
     "lvl": 40,
     "coords": [
       15.63,
@@ -19356,12 +20616,14 @@ gt.bell.fish = [
       "Moth Pupa",
       "Striped Goby"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5009,
     "icon": 29266,
     "func": "fish",
     "rarity": 1,
     "title": "Dragonhead Latrines",
     "category": "Freshwater Fishing",
+    "spot": 30,
     "lvl": 40,
     "coords": [
       27.91,
@@ -19374,15 +20636,17 @@ gt.bell.fish = [
     "name": "Kissing Trout",
     "patch": 1.0,
     "bait": [
-      "Brute Leech",
+      "Honey Worm",
       "Abalathian Smelt"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5009,
     "icon": 29266,
     "func": "fish",
     "rarity": 1,
     "title": "Exploratory Ice Hole",
     "category": "Freshwater Fishing",
+    "spot": 32,
     "lvl": 40,
     "coords": [
       6.45,
@@ -19407,6 +20671,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Coerthas River",
     "category": "Freshwater Fishing",
+    "spot": 26,
     "lvl": 35,
     "coords": [
       20.46,
@@ -19419,14 +20684,16 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Brute Leech"
+      "Glowworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4937,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Daniffen Pass",
     "category": "Freshwater Fishing",
+    "spot": 31,
     "lvl": 35,
     "coords": [
       13.25,
@@ -19439,14 +20706,16 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Stonefly Nymph"
+      "Syrphid Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4937,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "The Nail",
     "category": "Freshwater Fishing",
+    "spot": 28,
     "lvl": 40,
     "coords": [
       15.63,
@@ -19459,14 +20728,16 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Stonefly Nymph"
+      "Glowworm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4937,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Dragonhead Latrines",
     "category": "Freshwater Fishing",
+    "spot": 30,
     "lvl": 40,
     "coords": [
       27.91,
@@ -19479,14 +20750,16 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Brute Leech"
+      "Honey Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 4937,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Exploratory Ice Hole",
     "category": "Freshwater Fishing",
+    "spot": 32,
     "lvl": 40,
     "coords": [
       6.45,
@@ -19499,14 +20772,16 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Brute Leech"
+      "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 4937,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "The Weeping Saint",
     "category": "Freshwater Fishing",
+    "spot": 29,
     "lvl": 45,
     "coords": [
       31.53,
@@ -19519,14 +20794,16 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Syrphid Basket"
+      "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 4937,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Riversmeet",
     "category": "Freshwater Fishing",
+    "spot": 109,
     "lvl": 50,
     "coords": [
       32.86,
@@ -19539,14 +20816,16 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Syrphid Basket"
+      "Freshwater Boilie"
     ],
+    "hookset": "Precision Hookset",
     "id": 4937,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Unfrozen Pond",
     "category": "Freshwater Fishing",
+    "spot": 111,
     "lvl": 52,
     "coords": [
       28.44,
@@ -19559,14 +20838,16 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Syrphid Basket"
+      "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 4937,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Clearpool",
     "category": "Freshwater Fishing",
+    "spot": 112,
     "lvl": 60,
     "coords": [
       36.78,
@@ -19579,14 +20860,16 @@ gt.bell.fish = [
     "name": "Abalathian Smelt",
     "patch": 1.0,
     "bait": [
-      "Syrphid Basket"
+      "Freshwater Boilie"
     ],
+    "hookset": "Precision Hookset",
     "id": 4937,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
     "category": "Freshwater Fishing",
+    "spot": 114,
     "lvl": 53,
     "coords": [
       21.78,
@@ -19601,12 +20884,14 @@ gt.bell.fish = [
     "bait": [
       "Syrphid Basket"
     ],
+    "hookset": "Precision Hookset",
     "id": 4937,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
     "category": "Freshwater Fishing",
+    "spot": 115,
     "lvl": 52,
     "coords": [
       14.07,
@@ -19629,6 +20914,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Daniffen Pass",
     "category": "Freshwater Fishing",
+    "spot": 31,
     "lvl": 35,
     "coords": [
       13.25,
@@ -19654,6 +20940,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Daniffen Pass",
     "category": "Freshwater Fishing",
+    "spot": 31,
     "lvl": 35,
     "coords": [
       13.25,
@@ -19668,13 +20955,14 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
-    "hookset": "Precision Hookset",
+    "hookset": "Powerful Hookset",
     "id": 4997,
     "icon": 29220,
     "func": "fish",
     "rarity": 1,
     "title": "The Nail",
     "category": "Freshwater Fishing",
+    "spot": 28,
     "lvl": 40,
     "coords": [
       15.63,
@@ -19689,13 +20977,14 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
-    "hookset": "Precision Hookset",
+    "hookset": "Powerful Hookset",
     "id": 4997,
     "icon": 29220,
     "func": "fish",
     "rarity": 1,
     "title": "Exploratory Ice Hole",
     "category": "Freshwater Fishing",
+    "spot": 32,
     "lvl": 40,
     "coords": [
       6.45,
@@ -19710,13 +20999,14 @@ gt.bell.fish = [
     "bait": [
       "Topwater Frog"
     ],
-    "hookset": "Precision Hookset",
+    "hookset": "Powerful Hookset",
     "id": 4997,
     "icon": 29220,
     "func": "fish",
     "rarity": 1,
     "title": "The Weeping Saint",
     "category": "Freshwater Fishing",
+    "spot": 29,
     "lvl": 45,
     "coords": [
       31.53,
@@ -19729,7 +21019,7 @@ gt.bell.fish = [
     "name": "Emperor Fish",
     "patch": 1.0,
     "bait": [
-      "Stonefly Nymph",
+      "Syrphid Basket",
       "Abalathian Smelt"
     ],
     "hookset": "Powerful Hookset",
@@ -19739,6 +21029,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Nail",
     "category": "Freshwater Fishing",
+    "spot": 28,
     "lvl": 40,
     "coords": [
       15.63,
@@ -19751,7 +21042,7 @@ gt.bell.fish = [
     "name": "Starbright",
     "patch": 2.3,
     "bait": [
-      "Stonefly Nymph",
+      "Syrphid Basket",
       "Abalathian Smelt"
     ],
     "during": {
@@ -19769,6 +21060,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Nail",
     "category": "Freshwater Fishing",
+    "spot": 28,
     "lvl": 40,
     "coords": [
       15.63,
@@ -19798,6 +21090,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Dragonhead Latrines",
     "category": "Freshwater Fishing",
+    "spot": 30,
     "lvl": 40,
     "coords": [
       27.91,
@@ -19810,7 +21103,7 @@ gt.bell.fish = [
     "name": "The Matriarch",
     "patch": 2.3,
     "bait": [
-      "Brute Leech",
+      "Honey Worm",
       "Abalathian Smelt"
     ],
     "hookset": "Precision Hookset",
@@ -19820,6 +21113,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Exploratory Ice Hole",
     "category": "Freshwater Fishing",
+    "spot": 32,
     "lvl": 40,
     "coords": [
       6.45,
@@ -19832,7 +21126,7 @@ gt.bell.fish = [
     "name": "Angry Pike",
     "patch": 1.0,
     "bait": [
-      "Brute Leech",
+      "Stonefly Nymph",
       "Abalathian Smelt"
     ],
     "hookset": "Powerful Hookset",
@@ -19842,6 +21136,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Weeping Saint",
     "category": "Freshwater Fishing",
+    "spot": 29,
     "lvl": 45,
     "coords": [
       31.53,
@@ -19854,7 +21149,7 @@ gt.bell.fish = [
     "name": "Darkstar",
     "patch": 2.4,
     "bait": [
-      "Brute Leech",
+      "Stonefly Nymph",
       "Abalathian Smelt"
     ],
     "during": {
@@ -19883,6 +21178,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Weeping Saint",
     "category": "Freshwater Fishing",
+    "spot": 29,
     "lvl": 45,
     "coords": [
       31.53,
@@ -19897,12 +21193,14 @@ gt.bell.fish = [
     "bait": [
       "Caddisfly Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5013,
     "icon": 29299,
     "func": "fish",
     "rarity": 1,
     "title": "Snowcloak",
     "category": "Freshwater Fishing",
+    "spot": 33,
     "lvl": 45,
     "coords": [
       3.16,
@@ -19925,12 +21223,14 @@ gt.bell.fish = [
       "Blizzards",
       "Snow"
     ],
+    "hookset": "Precision Hookset",
     "id": 8770,
     "icon": 29388,
     "func": "fish",
     "rarity": 2,
     "title": "Snowcloak",
     "category": "Freshwater Fishing",
+    "spot": 33,
     "lvl": 45,
     "coords": [
       3.16,
@@ -19943,14 +21243,16 @@ gt.bell.fish = [
     "name": "Cloud Jellyfish",
     "patch": 1.0,
     "bait": [
-      "Hoverworm"
+      "Balloon Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 5038,
     "icon": 29657,
     "func": "fish",
     "rarity": 1,
     "title": "Sea of Clouds",
     "category": "Skyfishing",
+    "spot": 34,
     "lvl": 45,
     "coords": [
       14.21,
@@ -19965,12 +21267,14 @@ gt.bell.fish = [
     "bait": [
       "Balloon Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 5038,
     "icon": 29657,
     "func": "fish",
     "rarity": 1,
     "title": "Witchdrop",
     "category": "Skyfishing",
+    "spot": 27,
     "lvl": 50,
     "coords": [
       33.69,
@@ -19983,14 +21287,16 @@ gt.bell.fish = [
     "name": "Skyfish",
     "patch": 1.0,
     "bait": [
-      "Hoverworm"
+      "Balloon Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 5039,
     "icon": 29653,
     "func": "fish",
     "rarity": 1,
     "title": "Sea of Clouds",
     "category": "Skyfishing",
+    "spot": 34,
     "lvl": 45,
     "coords": [
       14.21,
@@ -20005,12 +21311,14 @@ gt.bell.fish = [
     "bait": [
       "Balloon Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 5039,
     "icon": 29653,
     "func": "fish",
     "rarity": 1,
     "title": "Witchdrop",
     "category": "Skyfishing",
+    "spot": 27,
     "lvl": 50,
     "coords": [
       33.69,
@@ -20025,12 +21333,14 @@ gt.bell.fish = [
     "bait": [
       "Hoverworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5040,
     "icon": 29655,
     "func": "fish",
     "rarity": 1,
     "title": "Sea of Clouds",
     "category": "Skyfishing",
+    "spot": 34,
     "lvl": 45,
     "coords": [
       14.21,
@@ -20045,12 +21355,14 @@ gt.bell.fish = [
     "bait": [
       "Hoverworm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5040,
     "icon": 29655,
     "func": "fish",
     "rarity": 1,
     "title": "Witchdrop",
     "category": "Skyfishing",
+    "spot": 27,
     "lvl": 50,
     "coords": [
       33.69,
@@ -20066,12 +21378,14 @@ gt.bell.fish = [
       "Hoverworm",
       "Cloud Cutter"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5041,
     "icon": 29651,
     "func": "fish",
     "rarity": 1,
     "title": "Sea of Clouds",
     "category": "Skyfishing",
+    "spot": 34,
     "lvl": 45,
     "coords": [
       14.21,
@@ -20087,12 +21401,14 @@ gt.bell.fish = [
       "Hoverworm",
       "Cloud Cutter"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5041,
     "icon": 29651,
     "func": "fish",
     "rarity": 1,
     "title": "Witchdrop",
     "category": "Skyfishing",
+    "spot": 27,
     "lvl": 50,
     "coords": [
       33.69,
@@ -20105,14 +21421,16 @@ gt.bell.fish = [
     "name": "Rift Sailor",
     "patch": 1.0,
     "bait": [
-      "Hoverworm"
+      "Balloon Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 5042,
     "icon": 29652,
     "func": "fish",
     "rarity": 1,
     "title": "Sea of Clouds",
     "category": "Skyfishing",
+    "spot": 34,
     "lvl": 45,
     "coords": [
       14.21,
@@ -20127,12 +21445,14 @@ gt.bell.fish = [
     "bait": [
       "Balloon Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 5042,
     "icon": 29652,
     "func": "fish",
     "rarity": 1,
     "title": "Witchdrop",
     "category": "Skyfishing",
+    "spot": 27,
     "lvl": 50,
     "coords": [
       33.69,
@@ -20163,6 +21483,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Sea of Clouds",
     "category": "Skyfishing",
+    "spot": 34,
     "lvl": 45,
     "coords": [
       14.21,
@@ -20178,12 +21499,14 @@ gt.bell.fish = [
       "Hoverworm",
       "Cloud Cutter"
     ],
+    "hookset": "Precision Hookset",
     "id": 5044,
     "icon": 29656,
     "func": "fish",
     "rarity": 1,
     "title": "Witchdrop",
     "category": "Skyfishing",
+    "spot": 27,
     "lvl": 50,
     "coords": [
       33.69,
@@ -20207,6 +21530,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Witchdrop",
     "category": "Skyfishing",
+    "spot": 27,
     "lvl": 50,
     "coords": [
       33.69,
@@ -20229,12 +21553,14 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 8771,
     "icon": 29660,
     "func": "fish",
     "rarity": 2,
     "title": "Witchdrop",
     "category": "Skyfishing",
+    "spot": 27,
     "lvl": 50,
     "coords": [
       33.69,
@@ -20265,6 +21591,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Witchdrop",
     "category": "Skyfishing",
+    "spot": 27,
     "lvl": 50,
     "coords": [
       33.69,
@@ -20277,14 +21604,16 @@ gt.bell.fish = [
     "name": "Coerthan Crab",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 12718,
     "icon": 29808,
     "func": "fish",
     "rarity": 1,
     "title": "Riversmeet",
     "category": "Freshwater Fishing",
+    "spot": 109,
     "lvl": 50,
     "coords": [
       32.86,
@@ -20297,14 +21626,17 @@ gt.bell.fish = [
     "name": "Coerthan Crab",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph"
+      "Stonefly Nymph",
+      "Abalathian Smelt"
     ],
+    "hookset": "Precision Hookset",
     "id": 12718,
     "icon": 29808,
     "func": "fish",
     "rarity": 1,
     "title": "Clearpool",
     "category": "Freshwater Fishing",
+    "spot": 112,
     "lvl": 60,
     "coords": [
       36.78,
@@ -20323,12 +21655,14 @@ gt.bell.fish = [
       "Blizzards",
       "Snow"
     ],
+    "hookset": "Precision Hookset",
     "id": 12762,
     "icon": 29276,
     "func": "fish",
     "rarity": 1,
     "title": "Riversmeet",
     "category": "Freshwater Fishing",
+    "spot": 109,
     "lvl": 50,
     "coords": [
       32.86,
@@ -20343,12 +21677,14 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Precision Hookset",
     "id": 15626,
     "icon": 29425,
     "func": "fish",
     "rarity": 2,
     "title": "Riversmeet",
     "category": "Freshwater Fishing",
+    "spot": 109,
     "lvl": 50,
     "coords": [
       32.86,
@@ -20363,12 +21699,14 @@ gt.bell.fish = [
     "bait": [
       "Balloon Bug"
     ],
+    "hookset": "Precision Hookset",
     "id": 12714,
     "icon": 29062,
     "func": "fish",
     "rarity": 1,
     "title": "Greytail Falls",
     "category": "Skyfishing",
+    "spot": 110,
     "lvl": 51,
     "coords": [
       35.56,
@@ -20383,12 +21721,14 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 12716,
     "icon": 29722,
     "func": "fish",
     "rarity": 1,
     "title": "Greytail Falls",
     "category": "Skyfishing",
+    "spot": 110,
     "lvl": 51,
     "coords": [
       35.56,
@@ -20407,12 +21747,14 @@ gt.bell.fish = [
       "Blizzards",
       "Snow"
     ],
+    "hookset": "Precision Hookset",
     "id": 12724,
     "icon": 29706,
     "func": "fish",
     "rarity": 1,
     "title": "Greytail Falls",
     "category": "Skyfishing",
+    "spot": 110,
     "lvl": 51,
     "coords": [
       35.56,
@@ -20440,6 +21782,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Greytail Falls",
     "category": "Skyfishing",
+    "spot": 110,
     "lvl": 51,
     "coords": [
       35.56,
@@ -20466,6 +21809,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Greytail Falls",
     "category": "Skyfishing",
+    "spot": 110,
     "lvl": 51,
     "coords": [
       35.56,
@@ -20488,12 +21832,14 @@ gt.bell.fish = [
       "Snow",
       "Blizzards"
     ],
+    "hookset": "Precision Hookset",
     "id": 16745,
     "icon": 29661,
     "func": "fish",
     "rarity": 2,
     "title": "Greytail Falls",
     "category": "Skyfishing",
+    "spot": 110,
     "lvl": 51,
     "coords": [
       35.56,
@@ -20515,6 +21861,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Unfrozen Pond",
     "category": "Freshwater Fishing",
+    "spot": 111,
     "lvl": 52,
     "coords": [
       28.44,
@@ -20527,7 +21874,7 @@ gt.bell.fish = [
     "name": "Icepick",
     "patch": 3.0,
     "bait": [
-      "Goblin Jig"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 12713,
@@ -20536,6 +21883,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "South Banepool",
     "category": "Freshwater Fishing",
+    "spot": 114,
     "lvl": 53,
     "coords": [
       21.78,
@@ -20548,14 +21896,16 @@ gt.bell.fish = [
     "name": "Ice Faerie",
     "patch": 3.0,
     "bait": [
-      "Purse Web Spider"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 12715,
     "icon": 29803,
     "func": "fish",
     "rarity": 1,
     "title": "Unfrozen Pond",
     "category": "Freshwater Fishing",
+    "spot": 111,
     "lvl": 52,
     "coords": [
       28.44,
@@ -20570,12 +21920,14 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12715,
     "icon": 29803,
     "func": "fish",
     "rarity": 1,
     "title": "Clearpool",
     "category": "Freshwater Fishing",
+    "spot": 112,
     "lvl": 60,
     "coords": [
       36.78,
@@ -20590,12 +21942,14 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12715,
     "icon": 29803,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
     "category": "Freshwater Fishing",
+    "spot": 114,
     "lvl": 53,
     "coords": [
       21.78,
@@ -20610,12 +21964,14 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12715,
     "icon": 29803,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
     "category": "Freshwater Fishing",
+    "spot": 115,
     "lvl": 52,
     "coords": [
       14.07,
@@ -20628,14 +21984,16 @@ gt.bell.fish = [
     "name": "Ice Faerie",
     "patch": 3.0,
     "bait": [
-      "Purse Web Spider"
+      "Caddisfly Larva"
     ],
+    "hookset": "Precision Hookset",
     "id": 12715,
     "icon": 29803,
     "func": "fish",
     "rarity": 1,
     "title": "West Banepool",
     "category": "Freshwater Fishing",
+    "spot": 116,
     "lvl": 53,
     "coords": [
       13.26,
@@ -20648,19 +22006,21 @@ gt.bell.fish = [
     "name": "Sorcerer Fish",
     "patch": 3.0,
     "bait": [
-      "Syrphid Basket",
+      "Freshwater Boilie",
       "Abalathian Smelt"
     ],
     "during": {
       "start": 8,
       "end": 20
     },
+    "hookset": "Powerful Hookset",
     "id": 12726,
     "icon": 29807,
     "func": "fish",
     "rarity": 1,
     "title": "Unfrozen Pond",
     "category": "Freshwater Fishing",
+    "spot": 111,
     "lvl": 52,
     "coords": [
       28.44,
@@ -20673,18 +22033,21 @@ gt.bell.fish = [
     "name": "Albino Octopus",
     "patch": 3.0,
     "bait": [
-      "Brute Leech"
+      "Metal Spinner",
+      "Ice Faerie"
     ],
     "during": {
       "start": 8,
       "end": 17
     },
+    "hookset": "Powerful Hookset",
     "id": 12796,
     "icon": 29705,
     "func": "fish",
     "rarity": 1,
     "title": "Unfrozen Pond",
     "category": "Freshwater Fishing",
+    "spot": 111,
     "lvl": 52,
     "coords": [
       28.44,
@@ -20714,6 +22077,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Unfrozen Pond",
     "category": "Freshwater Fishing",
+    "spot": 111,
     "lvl": 52,
     "coords": [
       28.44,
@@ -20726,7 +22090,7 @@ gt.bell.fish = [
     "name": "Flarefish",
     "patch": 3.4,
     "bait": [
-      "Purse Web Spider",
+      "Metal Spinner",
       "Ice Faerie"
     ],
     "during": {
@@ -20743,6 +22107,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Unfrozen Pond",
     "category": "Freshwater Fishing",
+    "spot": 111,
     "lvl": 52,
     "coords": [
       28.44,
@@ -20755,18 +22120,21 @@ gt.bell.fish = [
     "name": "Hotrod",
     "patch": 3.0,
     "bait": [
-      "Brute Leech"
+      "Purse Web Spider",
+      "Ice Faerie"
     ],
     "weather": [
       "Blizzards",
       "Snow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12727,
     "icon": 29810,
     "func": "fish",
     "rarity": 1,
     "title": "Clearpool",
     "category": "Freshwater Fishing",
+    "spot": 112,
     "lvl": 60,
     "coords": [
       36.78,
@@ -20790,6 +22158,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Clearpool",
     "category": "Freshwater Fishing",
+    "spot": 112,
     "lvl": 60,
     "coords": [
       36.78,
@@ -20802,7 +22171,7 @@ gt.bell.fish = [
     "name": "Ghost Faerie",
     "patch": 3.55,
     "bait": [
-      "Stonefly Nymph"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 17563,
@@ -20811,6 +22180,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Clearpool",
     "category": "Freshwater Fishing",
+    "spot": 112,
     "lvl": 60,
     "coords": [
       36.78,
@@ -20841,6 +22211,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Clearpool",
     "category": "Freshwater Fishing",
+    "spot": 112,
     "lvl": 60,
     "coords": [
       36.78,
@@ -20882,6 +22253,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Clearpool",
     "category": "Freshwater Fishing",
+    "spot": 112,
     "lvl": 60,
     "coords": [
       36.78,
@@ -20896,12 +22268,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12725,
     "icon": 29418,
     "func": "fish",
     "rarity": 1,
     "title": "Dragonspit",
     "category": "Freshwater Fishing",
+    "spot": 113,
     "lvl": 60,
     "coords": [
       8.71,
@@ -20923,6 +22297,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Dragonspit",
     "category": "Freshwater Fishing",
+    "spot": 113,
     "lvl": 60,
     "coords": [
       8.71,
@@ -20937,12 +22312,14 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12809,
     "icon": 29411,
     "func": "fish",
     "rarity": 1,
     "title": "Dragonspit",
     "category": "Freshwater Fishing",
+    "spot": 113,
     "lvl": 60,
     "coords": [
       8.71,
@@ -20966,6 +22343,29 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Dragonspit",
     "category": "Freshwater Fishing",
+    "spot": 113,
+    "lvl": 60,
+    "coords": [
+      8.71,
+      9.72
+    ],
+    "radius": 300,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Dragonspine",
+    "patch": 5.25,
+    "bait": [
+      "Signature Skyball"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 29678,
+    "icon": 29107,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dragonspit",
+    "category": "Freshwater Fishing",
+    "spot": 113,
     "lvl": 60,
     "coords": [
       8.71,
@@ -20989,27 +22389,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Dragonspit",
     "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      8.71,
-      9.72
-    ],
-    "radius": 300,
-    "zone": "Coerthas Western Highlands"
-  },
-  {
-    "name": "Dragonspine",
-    "patch": 5.25,
-    "bait": [
-      "Signature Skyball"
-    ],
-    "hookset": "Precision Hookset",
-    "id": 29678,
-    "icon": 29107,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Dragonspit",
-    "category": "Freshwater Fishing",
+    "spot": 113,
     "lvl": 60,
     "coords": [
       8.71,
@@ -21023,14 +22403,16 @@ gt.bell.fish = [
     "patch": 3.0,
     "snagging": 1,
     "bait": [
-      "Stonefly Nymph"
+      "Brute Leech"
     ],
+    "hookset": "Precision Hookset",
     "id": 12720,
     "icon": 29804,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
     "category": "Freshwater Fishing",
+    "spot": 114,
     "lvl": 53,
     "coords": [
       21.78,
@@ -21044,14 +22426,16 @@ gt.bell.fish = [
     "patch": 3.0,
     "snagging": 1,
     "bait": [
-      "Stonefly Nymph"
+      "Brute Leech"
     ],
+    "hookset": "Precision Hookset",
     "id": 12720,
     "icon": 29804,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
     "category": "Freshwater Fishing",
+    "spot": 115,
     "lvl": 52,
     "coords": [
       14.07,
@@ -21067,12 +22451,14 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12720,
     "icon": 29804,
     "func": "fish",
     "rarity": 1,
     "title": "West Banepool",
     "category": "Freshwater Fishing",
+    "spot": 116,
     "lvl": 53,
     "coords": [
       13.26,
@@ -21087,12 +22473,14 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12738,
     "icon": 29811,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
     "category": "Freshwater Fishing",
+    "spot": 114,
     "lvl": 53,
     "coords": [
       21.78,
@@ -21105,14 +22493,16 @@ gt.bell.fish = [
     "name": "Seema Patrician",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph"
+      "Goblin Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12737,
     "icon": 29300,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
     "category": "Freshwater Fishing",
+    "spot": 114,
     "lvl": 53,
     "coords": [
       21.78,
@@ -21125,15 +22515,16 @@ gt.bell.fish = [
     "name": "Fanged Clam",
     "patch": 3.0,
     "bait": [
-      "Purse Web Spider",
-      "Ice Faerie"
+      "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12719,
     "icon": 29806,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
     "category": "Freshwater Fishing",
+    "spot": 114,
     "lvl": 53,
     "coords": [
       21.78,
@@ -21148,12 +22539,14 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12719,
     "icon": 29806,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
     "category": "Freshwater Fishing",
+    "spot": 115,
     "lvl": 52,
     "coords": [
       14.07,
@@ -21168,12 +22561,14 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12719,
     "icon": 29806,
     "func": "fish",
     "rarity": 1,
     "title": "West Banepool",
     "category": "Freshwater Fishing",
+    "spot": 116,
     "lvl": 53,
     "coords": [
       13.26,
@@ -21190,12 +22585,14 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Powerful Hookset",
     "id": 14219,
     "icon": 29027,
     "func": "fish",
     "rarity": 1,
     "title": "South Banepool",
     "category": "Freshwater Fishing",
+    "spot": 114,
     "lvl": 53,
     "coords": [
       21.78,
@@ -21218,6 +22615,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "South Banepool",
     "category": "Freshwater Fishing",
+    "spot": 114,
     "lvl": 53,
     "coords": [
       21.78,
@@ -21238,12 +22636,14 @@ gt.bell.fish = [
     "transition": [
       "Snow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17578,
     "icon": 29816,
     "func": "fish",
     "rarity": 2,
     "title": "South Banepool",
     "category": "Freshwater Fishing",
+    "spot": 114,
     "lvl": 53,
     "coords": [
       21.78,
@@ -21256,8 +22656,7 @@ gt.bell.fish = [
     "name": "Gigant Grouper",
     "patch": 3.0,
     "bait": [
-      "Syrphid Basket",
-      "Abalathian Smelt"
+      "Goblin Jig"
     ],
     "hookset": "Powerful Hookset",
     "id": 12748,
@@ -21266,6 +22665,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Ashpool",
     "category": "Freshwater Fishing",
+    "spot": 115,
     "lvl": 52,
     "coords": [
       14.07,
@@ -21288,6 +22688,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Ashpool",
     "category": "Freshwater Fishing",
+    "spot": 115,
     "lvl": 52,
     "coords": [
       14.07,
@@ -21300,14 +22701,16 @@ gt.bell.fish = [
     "name": "Northern Oyster",
     "patch": 4.5,
     "bait": [
-      "Stonefly Nymph"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 24557,
     "icon": 29503,
     "func": "fish",
     "rarity": 1,
     "title": "Ashpool",
     "category": "Freshwater Fishing",
+    "spot": 115,
     "lvl": 52,
     "coords": [
       14.07,
@@ -21330,6 +22733,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Ashpool",
     "category": "Freshwater Fishing",
+    "spot": 115,
     "lvl": 52,
     "coords": [
       14.07,
@@ -21348,12 +22752,14 @@ gt.bell.fish = [
       "Blizzards",
       "Snow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12765,
     "icon": 29302,
     "func": "fish",
     "rarity": 1,
     "title": "West Banepool",
     "category": "Freshwater Fishing",
+    "spot": 116,
     "lvl": 53,
     "coords": [
       13.26,
@@ -21366,18 +22772,21 @@ gt.bell.fish = [
     "name": "Snowcaller",
     "patch": 3.0,
     "bait": [
-      "Brute Leech"
+      "Caddisfly Larva",
+      "Ice Faerie"
     ],
     "weather": [
       "Blizzards",
       "Snow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12763,
     "icon": 29057,
     "func": "fish",
     "rarity": 1,
     "title": "West Banepool",
     "category": "Freshwater Fishing",
+    "spot": 116,
     "lvl": 53,
     "coords": [
       13.26,
@@ -21394,12 +22803,14 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Precision Hookset",
     "id": 14217,
     "icon": 29097,
     "func": "fish",
     "rarity": 1,
     "title": "West Banepool",
     "category": "Freshwater Fishing",
+    "spot": 116,
     "lvl": 53,
     "coords": [
       13.26,
@@ -21414,7 +22825,7 @@ gt.bell.fish = [
     "folklore": 1,
     "fishEyes": 1,
     "bait": [
-      "Purse Web Spider",
+      "Caddisfly Larva",
       "Ice Faerie"
     ],
     "weather": [
@@ -21424,12 +22835,14 @@ gt.bell.fish = [
       "Snow",
       "Blizzards"
     ],
+    "hookset": "Powerful Hookset",
     "id": 16756,
     "icon": 29367,
     "func": "fish",
     "rarity": 2,
     "title": "West Banepool",
     "category": "Freshwater Fishing",
+    "spot": 116,
     "lvl": 53,
     "coords": [
       13.26,
@@ -21455,6 +22868,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "North Silvertear",
     "category": "Freshwater Fishing",
+    "spot": 22,
     "lvl": 45,
     "coords": [
       25.08,
@@ -21483,6 +22897,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "North Silvertear",
     "category": "Freshwater Fishing",
+    "spot": 22,
     "lvl": 45,
     "coords": [
       25.08,
@@ -21504,12 +22919,14 @@ gt.bell.fish = [
     "transition": [
       "Gloom"
     ],
+    "hookset": "Precision Hookset",
     "id": 8758,
     "icon": 29390,
     "func": "fish",
     "rarity": 2,
     "title": "The Deep Tangle",
     "category": "Freshwater Fishing",
+    "spot": 25,
     "lvl": 45,
     "coords": [
       12.91,
@@ -21543,6 +22960,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Singing Shards",
     "category": "Freshwater Fishing",
+    "spot": 93,
     "lvl": 45,
     "coords": [
       29.15,
@@ -21559,12 +22977,14 @@ gt.bell.fish = [
       "Silverfish",
       "Goldfish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 5024,
     "icon": 29267,
     "func": "fish",
     "rarity": 1,
     "title": "Rathefrost",
     "category": "Freshwater Fishing",
+    "spot": 23,
     "lvl": 50,
     "coords": [
       18.74,
@@ -21593,6 +23013,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Rathefrost",
     "category": "Freshwater Fishing",
+    "spot": 23,
     "lvl": 50,
     "coords": [
       18.74,
@@ -21617,6 +23038,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Tangle",
     "category": "Freshwater Fishing",
+    "spot": 24,
     "lvl": 50,
     "coords": [
       14.41,
@@ -21629,7 +23051,7 @@ gt.bell.fish = [
     "name": "Ninja Betta",
     "patch": 2.4,
     "bait": [
-      "Midge Basket",
+      "Crow Fly",
       "Ala Mhigan Fighting Fish",
       "Assassin Betta"
     ],
@@ -21647,6 +23069,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Tangle",
     "category": "Freshwater Fishing",
+    "spot": 24,
     "lvl": 50,
     "coords": [
       14.41,
@@ -21670,6 +23093,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The North Shards",
     "category": "Freshwater Fishing",
+    "spot": 94,
     "lvl": 50,
     "coords": [
       30.99,
@@ -21700,6 +23124,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The North Shards",
     "category": "Freshwater Fishing",
+    "spot": 94,
     "lvl": 50,
     "coords": [
       30.99,
@@ -21743,6 +23168,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The North Shards",
     "category": "Freshwater Fishing",
+    "spot": 94,
     "lvl": 50,
     "coords": [
       30.99,
@@ -21755,14 +23181,16 @@ gt.bell.fish = [
     "name": "Hedgemole Cricket",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 12757,
     "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "Voor Sian Siran",
     "category": "Freshwater Fishing",
+    "spot": 135,
     "lvl": 52,
     "coords": [
       28.9,
@@ -21777,12 +23205,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12757,
     "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
     "category": "Freshwater Fishing",
+    "spot": 136,
     "lvl": 60,
     "coords": [
       31.56,
@@ -21797,12 +23227,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12757,
     "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 125,
     "lvl": 57,
     "coords": [
       23.17,
@@ -21817,12 +23249,14 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12757,
     "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "Quickspill Delta",
     "category": "Freshwater Fishing",
+    "spot": 126,
     "lvl": 58,
     "coords": [
       11.33,
@@ -21837,12 +23271,14 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12757,
     "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 127,
     "lvl": 58,
     "coords": [
       22.96,
@@ -21857,12 +23293,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12757,
     "icon": 29801,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 128,
     "lvl": 60,
     "coords": [
       20.62,
@@ -21877,12 +23315,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12731,
     "icon": 29411,
     "func": "fish",
     "rarity": 1,
     "title": "Voor Sian Siran",
     "category": "Freshwater Fishing",
+    "spot": 135,
     "lvl": 52,
     "coords": [
       28.9,
@@ -21897,12 +23337,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12731,
     "icon": 29411,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
     "category": "Freshwater Fishing",
+    "spot": 136,
     "lvl": 60,
     "coords": [
       31.56,
@@ -21917,12 +23359,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12731,
     "icon": 29411,
     "func": "fish",
     "rarity": 1,
     "title": "Eil Tohm",
     "category": "Freshwater Fishing",
+    "spot": 129,
     "lvl": 54,
     "coords": [
       36.82,
@@ -21937,12 +23381,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12731,
     "icon": 29411,
     "func": "fish",
     "rarity": 1,
     "title": "Weston Waters",
     "category": "Freshwater Fishing",
+    "spot": 131,
     "lvl": 54,
     "coords": [
       9.18,
@@ -21957,12 +23403,14 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12731,
     "icon": 29411,
     "func": "fish",
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
+    "spot": 10018,
     "lvl": 1,
     "coords": [
       8.0,
@@ -21977,12 +23425,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12731,
     "icon": 29411,
     "func": "fish",
     "rarity": 1,
     "title": "Northern Diadem Lake",
     "category": "Freshwater Fishing",
+    "spot": 10019,
     "lvl": 60,
     "coords": [
       10.0,
@@ -21997,12 +23447,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12730,
     "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "Voor Sian Siran",
     "category": "Freshwater Fishing",
+    "spot": 135,
     "lvl": 52,
     "coords": [
       28.9,
@@ -22017,12 +23469,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12730,
     "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
     "category": "Freshwater Fishing",
+    "spot": 136,
     "lvl": 60,
     "coords": [
       31.56,
@@ -22037,12 +23491,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12730,
     "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "Quickspill Delta",
     "category": "Freshwater Fishing",
+    "spot": 126,
     "lvl": 58,
     "coords": [
       11.33,
@@ -22057,12 +23513,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12730,
     "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 128,
     "lvl": 60,
     "coords": [
       20.62,
@@ -22077,12 +23535,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12730,
     "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
+    "spot": 10018,
     "lvl": 1,
     "coords": [
       8.0,
@@ -22097,12 +23557,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12728,
     "icon": 29399,
     "func": "fish",
     "rarity": 1,
     "title": "Voor Sian Siran",
     "category": "Freshwater Fishing",
+    "spot": 135,
     "lvl": 52,
     "coords": [
       28.9,
@@ -22117,12 +23579,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12728,
     "icon": 29399,
     "func": "fish",
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
+    "spot": 10018,
     "lvl": 1,
     "coords": [
       8.0,
@@ -22141,12 +23605,14 @@ gt.bell.fish = [
       "start": 10,
       "end": 18
     },
+    "hookset": "Powerful Hookset",
     "id": 12739,
     "icon": 29408,
     "func": "fish",
     "rarity": 1,
     "title": "Voor Sian Siran",
     "category": "Freshwater Fishing",
+    "spot": 135,
     "lvl": 52,
     "coords": [
       28.9,
@@ -22173,6 +23639,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Voor Sian Siran",
     "category": "Freshwater Fishing",
+    "spot": 135,
     "lvl": 52,
     "coords": [
       28.9,
@@ -22199,6 +23666,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Iron Feast",
     "category": "Freshwater Fishing",
+    "spot": 120,
     "lvl": 55,
     "coords": [
       31.62,
@@ -22226,6 +23694,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Voor Sian Siran",
     "category": "Freshwater Fishing",
+    "spot": 135,
     "lvl": 52,
     "coords": [
       28.9,
@@ -22238,14 +23707,16 @@ gt.bell.fish = [
     "name": "Yalm Lobster",
     "patch": 3.0,
     "bait": [
-      "Bladed Steel Jig"
+      "Brute Leech"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12818,
     "icon": 29227,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
     "category": "Freshwater Fishing",
+    "spot": 136,
     "lvl": 60,
     "coords": [
       31.56,
@@ -22258,14 +23729,17 @@ gt.bell.fish = [
     "name": "Yalm Lobster",
     "patch": 3.0,
     "bait": [
-      "Bladed Steel Jig"
+      "Purse Web Spider",
+      "Aether Eye"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12818,
     "icon": 29227,
     "func": "fish",
     "rarity": 1,
     "title": "Delta Quadrant",
     "category": "Freshwater Fishing",
+    "spot": 143,
     "lvl": 59,
     "coords": [
       12.08,
@@ -22280,12 +23754,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12818,
     "icon": 29227,
     "func": "fish",
     "rarity": 1,
     "title": "Quickspill Delta",
     "category": "Freshwater Fishing",
+    "spot": 126,
     "lvl": 58,
     "coords": [
       11.33,
@@ -22300,12 +23776,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12818,
     "icon": 29227,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 127,
     "lvl": 58,
     "coords": [
       22.96,
@@ -22326,6 +23804,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
+    "spot": 10018,
     "lvl": 1,
     "coords": [
       8.0,
@@ -22344,12 +23823,14 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12749,
     "icon": 29398,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
     "category": "Freshwater Fishing",
+    "spot": 136,
     "lvl": 60,
     "coords": [
       31.56,
@@ -22362,18 +23843,21 @@ gt.bell.fish = [
     "name": "Catkiller",
     "patch": 3.0,
     "bait": [
-      "Brute Leech"
+      "Bladed Steel Jig",
+      "Bullfrog"
     ],
     "weather": [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12829,
     "icon": 29414,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
     "category": "Freshwater Fishing",
+    "spot": 136,
     "lvl": 60,
     "coords": [
       31.56,
@@ -22387,14 +23871,16 @@ gt.bell.fish = [
     "patch": 3.55,
     "snagging": 1,
     "bait": [
-      "Bladed Steel Jig"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 17564,
     "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "The Eddies",
     "category": "Freshwater Fishing",
+    "spot": 136,
     "lvl": 60,
     "coords": [
       31.56,
@@ -22428,6 +23914,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Eddies",
     "category": "Freshwater Fishing",
+    "spot": 136,
     "lvl": 60,
     "coords": [
       31.56,
@@ -22453,6 +23940,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Cloudtop",
     "category": "Cloudfishing",
+    "spot": 137,
     "lvl": 53,
     "coords": [
       15.08,
@@ -22478,6 +23966,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mok Oogl Island",
     "category": "Cloudfishing",
+    "spot": 139,
     "lvl": 56,
     "coords": [
       15.33,
@@ -22492,12 +23981,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12734,
     "icon": 29723,
     "func": "fish",
     "rarity": 1,
     "title": "Cloudtop",
     "category": "Cloudfishing",
+    "spot": 137,
     "lvl": 53,
     "coords": [
       15.08,
@@ -22512,12 +24003,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12734,
     "icon": 29723,
     "func": "fish",
     "rarity": 1,
     "title": "The Blue Window",
     "category": "Cloudfishing",
+    "spot": 138,
     "lvl": 56,
     "coords": [
       7.66,
@@ -22538,6 +24031,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Blustery Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10020,
     "lvl": 80,
     "coords": [
       31.0,
@@ -22552,12 +24046,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12732,
     "icon": 29713,
     "func": "fish",
     "rarity": 1,
     "title": "Cloudtop",
     "category": "Cloudfishing",
+    "spot": 137,
     "lvl": 53,
     "coords": [
       15.08,
@@ -22578,6 +24074,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10021,
     "lvl": 80,
     "coords": [
       28.0,
@@ -22598,6 +24095,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Blustery Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10020,
     "lvl": 80,
     "coords": [
       31.0,
@@ -22612,12 +24110,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12744,
     "icon": 29714,
     "func": "fish",
     "rarity": 1,
     "title": "Cloudtop",
     "category": "Cloudfishing",
+    "spot": 137,
     "lvl": 53,
     "coords": [
       15.08,
@@ -22638,6 +24138,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10021,
     "lvl": 80,
     "coords": [
       28.0,
@@ -22658,6 +24159,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Blustery Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10020,
     "lvl": 80,
     "coords": [
       31.0,
@@ -22673,12 +24175,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12736,
     "icon": 29061,
     "func": "fish",
     "rarity": 1,
     "title": "Cloudtop",
     "category": "Cloudfishing",
+    "spot": 137,
     "lvl": 53,
     "coords": [
       15.08,
@@ -22700,6 +24204,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10021,
     "lvl": 80,
     "coords": [
       28.0,
@@ -22721,6 +24226,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Blustery Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10020,
     "lvl": 80,
     "coords": [
       31.0,
@@ -22740,12 +24246,14 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 14213,
     "icon": 29728,
     "func": "fish",
     "rarity": 1,
     "title": "Cloudtop",
     "category": "Cloudfishing",
+    "spot": 137,
     "lvl": 53,
     "coords": [
       15.08,
@@ -22769,12 +24277,14 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 16750,
     "icon": 29732,
     "func": "fish",
     "rarity": 2,
     "title": "Cloudtop",
     "category": "Cloudfishing",
+    "spot": 137,
     "lvl": 53,
     "coords": [
       15.08,
@@ -22789,12 +24299,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12753,
     "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "The Blue Window",
     "category": "Cloudfishing",
+    "spot": 138,
     "lvl": 56,
     "coords": [
       7.66,
@@ -22807,14 +24319,16 @@ gt.bell.fish = [
     "name": "Sky Faerie",
     "patch": 3.0,
     "bait": [
-      "Red Balloon"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 12753,
     "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "Mok Oogl Island",
     "category": "Cloudfishing",
+    "spot": 139,
     "lvl": 56,
     "coords": [
       15.33,
@@ -22829,12 +24343,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12753,
     "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "The Habisphere",
     "category": "Cloudfishing",
+    "spot": 145,
     "lvl": 60,
     "coords": [
       40.2,
@@ -22847,14 +24363,16 @@ gt.bell.fish = [
     "name": "Sky Faerie",
     "patch": 3.0,
     "bait": [
-      "Red Balloon"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 12753,
     "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "Landlord Colony",
     "category": "Cloudfishing",
+    "spot": 132,
     "lvl": 54,
     "coords": [
       29.7,
@@ -22869,12 +24387,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12753,
     "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "Sohm Al Summit",
     "category": "Cloudfishing",
+    "spot": 133,
     "lvl": 55,
     "coords": [
       18.45,
@@ -22887,14 +24407,16 @@ gt.bell.fish = [
     "name": "Sky Faerie",
     "patch": 3.0,
     "bait": [
-      "Red Balloon"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 12753,
     "icon": 29716,
     "func": "fish",
     "rarity": 1,
     "title": "Tharl Oom Khash",
     "category": "Cloudfishing",
+    "spot": 134,
     "lvl": 55,
     "coords": [
       20.26,
@@ -22916,6 +24438,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Blue Window",
     "category": "Cloudfishing",
+    "spot": 138,
     "lvl": 56,
     "coords": [
       7.66,
@@ -22937,6 +24460,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10021,
     "lvl": 80,
     "coords": [
       28.0,
@@ -22963,6 +24487,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Blue Window",
     "category": "Cloudfishing",
+    "spot": 138,
     "lvl": 56,
     "coords": [
       7.66,
@@ -22984,6 +24509,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Blue Window",
     "category": "Cloudfishing",
+    "spot": 138,
     "lvl": 56,
     "coords": [
       7.66,
@@ -22996,7 +24522,8 @@ gt.bell.fish = [
     "name": "Sky Sweeper",
     "patch": 3.0,
     "bait": [
-      "Giant Crane Fly"
+      "Red Balloon",
+      "Sky Faerie"
     ],
     "hookset": "Powerful Hookset",
     "id": 12785,
@@ -23005,6 +24532,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Blue Window",
     "category": "Cloudfishing",
+    "spot": 138,
     "lvl": 56,
     "coords": [
       7.66,
@@ -23026,6 +24554,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Habisphere",
     "category": "Cloudfishing",
+    "spot": 145,
     "lvl": 60,
     "coords": [
       40.2,
@@ -23047,6 +24576,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Blue Window",
     "category": "Cloudfishing",
+    "spot": 138,
     "lvl": 56,
     "coords": [
       7.66,
@@ -23065,12 +24595,14 @@ gt.bell.fish = [
     "weather": [
       "Wind"
     ],
+    "hookset": "Powerful Hookset",
     "id": 15636,
     "icon": 29065,
     "func": "fish",
     "rarity": 2,
     "title": "The Blue Window",
     "category": "Cloudfishing",
+    "spot": 138,
     "lvl": 56,
     "coords": [
       7.66,
@@ -23085,12 +24617,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 30490,
     "icon": 29745,
     "func": "fish",
     "rarity": 1,
     "title": "The Blue Window",
     "category": "Cloudfishing",
+    "spot": 138,
     "lvl": 56,
     "coords": [
       7.66,
@@ -23103,14 +24637,16 @@ gt.bell.fish = [
     "name": "Scorpionfly",
     "patch": 3.0,
     "bait": [
-      "Giant Crane Fly"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 12810,
     "icon": 29721,
     "func": "fish",
     "rarity": 1,
     "title": "Mok Oogl Island",
     "category": "Cloudfishing",
+    "spot": 139,
     "lvl": 56,
     "coords": [
       15.33,
@@ -23125,12 +24661,14 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12814,
     "icon": 29702,
     "func": "fish",
     "rarity": 1,
     "title": "Mok Oogl Island",
     "category": "Cloudfishing",
+    "spot": 139,
     "lvl": 56,
     "coords": [
       15.33,
@@ -23151,6 +24689,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swirling Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10022,
     "lvl": 80,
     "coords": [
       13.0,
@@ -23165,12 +24704,14 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12834,
     "icon": 29701,
     "func": "fish",
     "rarity": 1,
     "title": "Mok Oogl Island",
     "category": "Cloudfishing",
+    "spot": 139,
     "lvl": 56,
     "coords": [
       15.33,
@@ -23191,6 +24732,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swirling Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10022,
     "lvl": 80,
     "coords": [
       13.0,
@@ -23222,6 +24764,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mok Oogl Island",
     "category": "Cloudfishing",
+    "spot": 139,
     "lvl": 56,
     "coords": [
       15.33,
@@ -23235,7 +24778,7 @@ gt.bell.fish = [
     "patch": 3.4,
     "folklore": 1,
     "bait": [
-      "Red Balloon",
+      "Metal Spinner",
       "Sky Faerie"
     ],
     "weather": [
@@ -23251,6 +24794,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Mok Oogl Island",
     "category": "Cloudfishing",
+    "spot": 139,
     "lvl": 56,
     "coords": [
       15.33,
@@ -23275,7 +24819,7 @@ gt.bell.fish = [
         "name": "Scorpionfly",
         "predatorAmount": 3,
         "bait": [
-          "Giant Crane Fly"
+          "Metal Spinner"
         ],
         "id": 12810,
         "icon": 29721
@@ -23284,7 +24828,7 @@ gt.bell.fish = [
         "name": "Sky Faerie",
         "predatorAmount": 3,
         "bait": [
-          "Red Balloon"
+          "Metal Spinner"
         ],
         "id": 12753,
         "icon": 29716
@@ -23293,12 +24837,14 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 17591,
     "icon": 29662,
     "func": "fish",
     "rarity": 2,
     "title": "Mok Oogl Island",
     "category": "Cloudfishing",
+    "spot": 139,
     "lvl": 56,
     "coords": [
       15.33,
@@ -23313,12 +24859,14 @@ gt.bell.fish = [
     "bait": [
       "Fiend Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12776,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Alpha Quadrant",
     "category": "Aetherfishing",
+    "spot": 140,
     "lvl": 58,
     "coords": [
       16.85,
@@ -23333,12 +24881,14 @@ gt.bell.fish = [
     "bait": [
       "Fiend Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12776,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Aetherochemical Spill",
     "category": "Aetherfishing",
+    "spot": 141,
     "lvl": 59,
     "coords": [
       31.13,
@@ -23353,12 +24903,14 @@ gt.bell.fish = [
     "bait": [
       "Fiend Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12776,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "Hyperstellar Downconverter",
     "category": "Aetherfishing",
+    "spot": 142,
     "lvl": 60,
     "coords": [
       6.9,
@@ -23373,12 +24925,14 @@ gt.bell.fish = [
     "bait": [
       "Fiend Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12776,
     "icon": 29312,
     "func": "fish",
     "rarity": 1,
     "title": "The Flagship",
     "category": "Aetherfishing",
+    "spot": 146,
     "lvl": 60,
     "coords": [
       22.07,
@@ -23393,12 +24947,14 @@ gt.bell.fish = [
     "bait": [
       "Fiend Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12773,
     "icon": 29757,
     "func": "fish",
     "rarity": 1,
     "title": "Alpha Quadrant",
     "category": "Aetherfishing",
+    "spot": 140,
     "lvl": 58,
     "coords": [
       16.85,
@@ -23413,12 +24969,14 @@ gt.bell.fish = [
     "bait": [
       "Fiend Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12773,
     "icon": 29757,
     "func": "fish",
     "rarity": 1,
     "title": "Aetherochemical Spill",
     "category": "Aetherfishing",
+    "spot": 141,
     "lvl": 59,
     "coords": [
       31.13,
@@ -23436,12 +24994,14 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12812,
     "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "Alpha Quadrant",
     "category": "Aetherfishing",
+    "spot": 140,
     "lvl": 58,
     "coords": [
       16.85,
@@ -23459,12 +25019,14 @@ gt.bell.fish = [
     "weather": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12812,
     "icon": 29295,
     "func": "fish",
     "rarity": 1,
     "title": "Aetherochemical Spill",
     "category": "Aetherfishing",
+    "spot": 141,
     "lvl": 59,
     "coords": [
       31.13,
@@ -23487,6 +25049,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Alpha Quadrant",
     "category": "Aetherfishing",
+    "spot": 140,
     "lvl": 58,
     "coords": [
       16.85,
@@ -23501,12 +25064,14 @@ gt.bell.fish = [
     "bait": [
       "Signature Skyball"
     ],
+    "hookset": "Powerful Hookset",
     "id": 31134,
     "icon": 29462,
     "func": "fish",
     "rarity": 1,
     "title": "Alpha Quadrant",
     "category": "Aetherfishing",
+    "spot": 140,
     "lvl": 58,
     "coords": [
       16.85,
@@ -23529,6 +25094,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Alpha Quadrant",
     "category": "Aetherfishing",
+    "spot": 140,
     "lvl": 58,
     "coords": [
       16.85,
@@ -23551,6 +25117,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Aetherochemical Spill",
     "category": "Aetherfishing",
+    "spot": 141,
     "lvl": 59,
     "coords": [
       31.13,
@@ -23566,12 +25133,14 @@ gt.bell.fish = [
       "Fiend Worm",
       "Platinum Fish"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12801,
     "icon": 29753,
     "func": "fish",
     "rarity": 1,
     "title": "Aetherochemical Spill",
     "category": "Aetherfishing",
+    "spot": 141,
     "lvl": 59,
     "coords": [
       31.13,
@@ -23596,6 +25165,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Aetherochemical Spill",
     "category": "Aetherfishing",
+    "spot": 141,
     "lvl": 59,
     "coords": [
       31.13,
@@ -23610,12 +25180,14 @@ gt.bell.fish = [
     "bait": [
       "Fiend Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12778,
     "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "Hyperstellar Downconverter",
     "category": "Aetherfishing",
+    "spot": 142,
     "lvl": 60,
     "coords": [
       6.9,
@@ -23630,12 +25202,14 @@ gt.bell.fish = [
     "bait": [
       "Fiend Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12778,
     "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "The Flagship",
     "category": "Aetherfishing",
+    "spot": 146,
     "lvl": 60,
     "coords": [
       22.07,
@@ -23661,6 +25235,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hyperstellar Downconverter",
     "category": "Aetherfishing",
+    "spot": 142,
     "lvl": 60,
     "coords": [
       6.9,
@@ -23686,6 +25261,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Flagship",
     "category": "Aetherfishing",
+    "spot": 146,
     "lvl": 60,
     "coords": [
       22.07,
@@ -23698,7 +25274,8 @@ gt.bell.fish = [
     "name": "Mucous Minnow",
     "patch": 3.0,
     "bait": [
-      "Fiend Worm"
+      "Fiend Worm",
+      "Platinum Fish"
     ],
     "hookset": "Powerful Hookset",
     "id": 12807,
@@ -23707,6 +25284,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hyperstellar Downconverter",
     "category": "Aetherfishing",
+    "spot": 142,
     "lvl": 60,
     "coords": [
       6.9,
@@ -23736,6 +25314,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hyperstellar Downconverter",
     "category": "Aetherfishing",
+    "spot": 142,
     "lvl": 60,
     "coords": [
       6.9,
@@ -23762,12 +25341,14 @@ gt.bell.fish = [
     "transition": [
       "Clouds"
     ],
+    "hookset": "Precision Hookset",
     "id": 17580,
     "icon": 29611,
     "func": "fish",
     "rarity": 2,
     "title": "Hyperstellar Downconverter",
     "category": "Aetherfishing",
+    "spot": 142,
     "lvl": 60,
     "coords": [
       6.9,
@@ -23789,6 +25370,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Delta Quadrant",
     "category": "Freshwater Fishing",
+    "spot": 143,
     "lvl": 59,
     "coords": [
       12.08,
@@ -23810,6 +25392,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Pappus Tree",
     "category": "Freshwater Fishing",
+    "spot": 144,
     "lvl": 60,
     "coords": [
       6.77,
@@ -23824,12 +25407,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12811,
     "icon": 29252,
     "func": "fish",
     "rarity": 1,
     "title": "Delta Quadrant",
     "category": "Freshwater Fishing",
+    "spot": 143,
     "lvl": 59,
     "coords": [
       12.08,
@@ -23851,6 +25436,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Delta Quadrant",
     "category": "Freshwater Fishing",
+    "spot": 143,
     "lvl": 59,
     "coords": [
       12.08,
@@ -23872,6 +25458,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Pappus Tree",
     "category": "Freshwater Fishing",
+    "spot": 144,
     "lvl": 60,
     "coords": [
       6.77,
@@ -23900,6 +25487,29 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Delta Quadrant",
     "category": "Freshwater Fishing",
+    "spot": 143,
+    "lvl": 59,
+    "coords": [
+      12.08,
+      31.81
+    ],
+    "radius": 1000,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Pickled Pom",
+    "patch": 5.41,
+    "bait": [
+      "Signature Skyball"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 31771,
+    "icon": 29406,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Delta Quadrant",
+    "category": "Freshwater Fishing",
+    "spot": 143,
     "lvl": 59,
     "coords": [
       12.08,
@@ -23930,6 +25540,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Delta Quadrant",
     "category": "Freshwater Fishing",
+    "spot": 143,
     "lvl": 59,
     "coords": [
       12.08,
@@ -23944,12 +25555,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12779,
     "icon": 29256,
     "func": "fish",
     "rarity": 1,
     "title": "The Pappus Tree",
     "category": "Freshwater Fishing",
+    "spot": 144,
     "lvl": 60,
     "coords": [
       6.77,
@@ -23974,6 +25587,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Pappus Tree",
     "category": "Freshwater Fishing",
+    "spot": 144,
     "lvl": 60,
     "coords": [
       6.77,
@@ -23999,6 +25613,29 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Pappus Tree",
     "category": "Freshwater Fishing",
+    "spot": 144,
+    "lvl": 60,
+    "coords": [
+      6.77,
+      35.35
+    ],
+    "radius": 300,
+    "zone": "Azys Lla"
+  },
+  {
+    "name": "Flintstrike",
+    "patch": 5.41,
+    "bait": [
+      "Signature Skyball"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 31770,
+    "icon": 29450,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Pappus Tree",
+    "category": "Freshwater Fishing",
+    "spot": 144,
     "lvl": 60,
     "coords": [
       6.77,
@@ -24019,12 +25656,14 @@ gt.bell.fish = [
       "start": 6,
       "end": 10
     },
+    "hookset": "Precision Hookset",
     "id": 16753,
     "icon": 29761,
     "func": "fish",
     "rarity": 2,
     "title": "The Pappus Tree",
     "category": "Freshwater Fishing",
+    "spot": 144,
     "lvl": 60,
     "coords": [
       6.77,
@@ -24039,12 +25678,14 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12805,
     "icon": 29717,
     "func": "fish",
     "rarity": 1,
     "title": "The Habisphere",
     "category": "Cloudfishing",
+    "spot": 145,
     "lvl": 60,
     "coords": [
       40.2,
@@ -24057,14 +25698,16 @@ gt.bell.fish = [
     "name": "Rudderfish",
     "patch": 3.0,
     "bait": [
-      "Giant Crane Fly"
+      "Versatile Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12805,
     "icon": 29717,
     "func": "fish",
     "rarity": 1,
     "title": "Sohm Al Summit",
     "category": "Cloudfishing",
+    "spot": 133,
     "lvl": 55,
     "coords": [
       18.45,
@@ -24079,12 +25722,14 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12805,
     "icon": 29717,
     "func": "fish",
     "rarity": 1,
     "title": "Tharl Oom Khash",
     "category": "Cloudfishing",
+    "spot": 134,
     "lvl": 55,
     "coords": [
       20.26,
@@ -24099,12 +25744,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12808,
     "icon": 29031,
     "func": "fish",
     "rarity": 1,
     "title": "The Habisphere",
     "category": "Cloudfishing",
+    "spot": 145,
     "lvl": 60,
     "coords": [
       40.2,
@@ -24117,7 +25764,7 @@ gt.bell.fish = [
     "name": "Bomb Puffer",
     "patch": 3.0,
     "bait": [
-      "Giant Crane Fly"
+      "Red Balloon"
     ],
     "hookset": "Powerful Hookset",
     "id": 12806,
@@ -24126,6 +25773,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Habisphere",
     "category": "Cloudfishing",
+    "spot": 145,
     "lvl": 60,
     "coords": [
       40.2,
@@ -24151,6 +25799,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Habisphere",
     "category": "Cloudfishing",
+    "spot": 145,
     "lvl": 60,
     "coords": [
       40.2,
@@ -24164,15 +25813,16 @@ gt.bell.fish = [
     "patch": 3.0,
     "folklore": 1,
     "bait": [
-      "Giant Crane Fly",
-      "Rudderfish"
+      "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12825,
     "icon": 29703,
     "func": "fish",
     "rarity": 1,
     "title": "The Habisphere",
     "category": "Cloudfishing",
+    "spot": 145,
     "lvl": 60,
     "coords": [
       40.2,
@@ -24185,7 +25835,8 @@ gt.bell.fish = [
     "name": "Cobrafish",
     "patch": 3.0,
     "bait": [
-      "Giant Crane Fly"
+      "Giant Crane Fly",
+      "Rudderfish"
     ],
     "hookset": "Powerful Hookset",
     "id": 12813,
@@ -24194,6 +25845,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Habisphere",
     "category": "Cloudfishing",
+    "spot": 145,
     "lvl": 60,
     "coords": [
       40.2,
@@ -24206,7 +25858,8 @@ gt.bell.fish = [
     "name": "Cobrafish",
     "patch": 3.0,
     "bait": [
-      "Giant Crane Fly"
+      "Giant Crane Fly",
+      "Rudderfish"
     ],
     "hookset": "Powerful Hookset",
     "id": 12813,
@@ -24215,6 +25868,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Tharl Oom Khash",
     "category": "Cloudfishing",
+    "spot": 134,
     "lvl": 55,
     "coords": [
       20.26,
@@ -24245,6 +25899,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Habisphere",
     "category": "Cloudfishing",
+    "spot": 145,
     "lvl": 60,
     "coords": [
       40.2,
@@ -24257,19 +25912,20 @@ gt.bell.fish = [
     "name": "Jeweled Jellyfish",
     "patch": 3.0,
     "bait": [
-      "Fiend Worm",
-      "Platinum Fish"
+      "Fiend Worm"
     ],
     "during": {
       "start": 20,
       "end": 3
     },
+    "hookset": "Precision Hookset",
     "id": 12816,
     "icon": 29755,
     "func": "fish",
     "rarity": 1,
     "title": "The Flagship",
     "category": "Aetherfishing",
+    "spot": 146,
     "lvl": 60,
     "coords": [
       22.07,
@@ -24297,6 +25953,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Flagship",
     "category": "Aetherfishing",
+    "spot": 146,
     "lvl": 60,
     "coords": [
       22.07,
@@ -24323,6 +25980,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Flagship",
     "category": "Aetherfishing",
+    "spot": 146,
     "lvl": 60,
     "coords": [
       22.07,
@@ -24352,6 +26010,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Flagship",
     "category": "Aetherfishing",
+    "spot": 146,
     "lvl": 60,
     "coords": [
       22.07,
@@ -24389,6 +26048,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Flagship",
     "category": "Aetherfishing",
+    "spot": 146,
     "lvl": 60,
     "coords": [
       22.07,
@@ -24401,19 +26061,21 @@ gt.bell.fish = [
     "name": "Whilom Catfish",
     "patch": 3.0,
     "bait": [
-      "Goblin Jig"
+      "Bladed Steel Jig"
     ],
     "weather": [
       "Clouds",
       "Dust Storms",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12721,
     "icon": 29405,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
     "category": "Freshwater Fishing",
+    "spot": 117,
     "lvl": 52,
     "coords": [
       31.39,
@@ -24433,12 +26095,14 @@ gt.bell.fish = [
       "Dust Storms",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12721,
     "icon": 29405,
     "func": "fish",
     "rarity": 1,
     "title": "Whilom River",
     "category": "Freshwater Fishing",
+    "spot": 118,
     "lvl": 52,
     "coords": [
       30.63,
@@ -24458,12 +26122,14 @@ gt.bell.fish = [
       "Dust Storms",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12721,
     "icon": 29405,
     "func": "fish",
     "rarity": 1,
     "title": "The Smoldering Wastes",
     "category": "Freshwater Fishing",
+    "spot": 119,
     "lvl": 52,
     "coords": [
       25.28,
@@ -24483,12 +26149,14 @@ gt.bell.fish = [
       "Dust Storms",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12741,
     "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
     "category": "Freshwater Fishing",
+    "spot": 117,
     "lvl": 52,
     "coords": [
       31.39,
@@ -24508,12 +26176,14 @@ gt.bell.fish = [
       "Dust Storms",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12741,
     "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "Whilom River",
     "category": "Freshwater Fishing",
+    "spot": 118,
     "lvl": 52,
     "coords": [
       30.63,
@@ -24533,12 +26203,14 @@ gt.bell.fish = [
       "Dust Storms",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12741,
     "icon": 29212,
     "func": "fish",
     "rarity": 1,
     "title": "The Iron Feast",
     "category": "Freshwater Fishing",
+    "spot": 120,
     "lvl": 55,
     "coords": [
       31.62,
@@ -24551,14 +26223,16 @@ gt.bell.fish = [
     "name": "Blueclaw Shrimp",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph"
+      "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12722,
     "icon": 29404,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
     "category": "Freshwater Fishing",
+    "spot": 117,
     "lvl": 52,
     "coords": [
       31.39,
@@ -24571,14 +26245,16 @@ gt.bell.fish = [
     "name": "Blueclaw Shrimp",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph"
+      "Purse Web Spider"
     ],
+    "hookset": "Precision Hookset",
     "id": 12722,
     "icon": 29404,
     "func": "fish",
     "rarity": 1,
     "title": "Whilom River",
     "category": "Freshwater Fishing",
+    "spot": 118,
     "lvl": 52,
     "coords": [
       30.63,
@@ -24593,12 +26269,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12722,
     "icon": 29404,
     "func": "fish",
     "rarity": 1,
     "title": "The Smoldering Wastes",
     "category": "Freshwater Fishing",
+    "spot": 119,
     "lvl": 52,
     "coords": [
       25.28,
@@ -24613,12 +26291,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12722,
     "icon": 29404,
     "func": "fish",
     "rarity": 1,
     "title": "The Iron Feast",
     "category": "Freshwater Fishing",
+    "spot": 120,
     "lvl": 55,
     "coords": [
       31.62,
@@ -24633,12 +26313,14 @@ gt.bell.fish = [
     "bait": [
       "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12722,
     "icon": 29404,
     "func": "fish",
     "rarity": 1,
     "title": "Quickspill Delta",
     "category": "Freshwater Fishing",
+    "spot": 126,
     "lvl": 58,
     "coords": [
       11.33,
@@ -24658,12 +26340,14 @@ gt.bell.fish = [
       "Dust Storms",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12740,
     "icon": 29407,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
     "category": "Freshwater Fishing",
+    "spot": 117,
     "lvl": 52,
     "coords": [
       31.39,
@@ -24676,14 +26360,16 @@ gt.bell.fish = [
     "name": "Shadowhisker",
     "patch": 3.0,
     "bait": [
-      "Brute Leech"
+      "Versatile Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12769,
     "icon": 29265,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
     "category": "Freshwater Fishing",
+    "spot": 117,
     "lvl": 52,
     "coords": [
       31.39,
@@ -24698,12 +26384,14 @@ gt.bell.fish = [
     "bait": [
       "Brute Leech"
     ],
+    "hookset": "Precision Hookset",
     "id": 13729,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
     "category": "Freshwater Fishing",
+    "spot": 117,
     "lvl": 52,
     "coords": [
       31.39,
@@ -24716,14 +26404,16 @@ gt.bell.fish = [
     "name": "River Shrimp",
     "patch": 3.55,
     "bait": [
-      "Brute Leech"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 17566,
     "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "The Hundred Throes",
     "category": "Freshwater Fishing",
+    "spot": 117,
     "lvl": 52,
     "coords": [
       31.39,
@@ -24751,6 +26441,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Hundred Throes",
     "category": "Freshwater Fishing",
+    "spot": 117,
     "lvl": 52,
     "coords": [
       31.39,
@@ -24764,14 +26455,16 @@ gt.bell.fish = [
     "patch": 3.0,
     "snagging": 1,
     "bait": [
-      "Stonefly Nymph"
+      "Goblin Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12733,
     "icon": 29413,
     "func": "fish",
     "rarity": 1,
     "title": "Whilom River",
     "category": "Freshwater Fishing",
+    "spot": 118,
     "lvl": 52,
     "coords": [
       30.63,
@@ -24785,14 +26478,16 @@ gt.bell.fish = [
     "patch": 3.0,
     "snagging": 1,
     "bait": [
-      "Goblin Jig"
+      "Stonefly Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 12733,
     "icon": 29413,
     "func": "fish",
     "rarity": 1,
     "title": "The Smoldering Wastes",
     "category": "Freshwater Fishing",
+    "spot": 119,
     "lvl": 52,
     "coords": [
       25.28,
@@ -24807,12 +26502,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12729,
     "icon": 29409,
     "func": "fish",
     "rarity": 1,
     "title": "Whilom River",
     "category": "Freshwater Fishing",
+    "spot": 118,
     "lvl": 52,
     "coords": [
       30.63,
@@ -24827,12 +26524,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12729,
     "icon": 29409,
     "func": "fish",
     "rarity": 1,
     "title": "The Smoldering Wastes",
     "category": "Freshwater Fishing",
+    "spot": 119,
     "lvl": 52,
     "coords": [
       25.28,
@@ -24845,7 +26544,7 @@ gt.bell.fish = [
     "name": "Dravanian Bass",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph",
+      "Purse Web Spider",
       "Blueclaw Shrimp"
     ],
     "during": {
@@ -24864,6 +26563,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Whilom River",
     "category": "Freshwater Fishing",
+    "spot": 118,
     "lvl": 52,
     "coords": [
       30.63,
@@ -24890,12 +26590,14 @@ gt.bell.fish = [
       "Clouds",
       "Dust Storms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 16747,
     "icon": 29432,
     "func": "fish",
     "rarity": 2,
     "title": "Whilom River",
     "category": "Freshwater Fishing",
+    "spot": 118,
     "lvl": 52,
     "coords": [
       30.63,
@@ -24908,7 +26610,7 @@ gt.bell.fish = [
     "name": "Warmwater Bichir",
     "patch": 3.0,
     "bait": [
-      "Purse Web Spider"
+      "Brute Leech"
     ],
     "during": {
       "start": 21,
@@ -24921,6 +26623,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Smoldering Wastes",
     "category": "Freshwater Fishing",
+    "spot": 119,
     "lvl": 52,
     "coords": [
       25.28,
@@ -24933,7 +26636,7 @@ gt.bell.fish = [
     "name": "Marble Oscar",
     "patch": 3.0,
     "bait": [
-      "Purse Web Spider"
+      "Metal Spinner"
     ],
     "hookset": "Powerful Hookset",
     "id": 12750,
@@ -24942,6 +26645,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Smoldering Wastes",
     "category": "Freshwater Fishing",
+    "spot": 119,
     "lvl": 52,
     "coords": [
       25.28,
@@ -24973,6 +26677,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Smoldering Wastes",
     "category": "Freshwater Fishing",
+    "spot": 119,
     "lvl": 52,
     "coords": [
       25.28,
@@ -24987,12 +26692,14 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12764,
     "icon": 29288,
     "func": "fish",
     "rarity": 1,
     "title": "The Iron Feast",
     "category": "Freshwater Fishing",
+    "spot": 120,
     "lvl": 55,
     "coords": [
       31.62,
@@ -25019,6 +26726,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Iron Feast",
     "category": "Freshwater Fishing",
+    "spot": 120,
     "lvl": 55,
     "coords": [
       31.62,
@@ -25044,6 +26752,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Diadem Grotto",
     "category": "Freshwater Fishing",
+    "spot": 10017,
     "lvl": 70,
     "coords": [
       14.0,
@@ -25070,6 +26779,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Iron Feast",
     "category": "Freshwater Fishing",
+    "spot": 120,
     "lvl": 55,
     "coords": [
       31.62,
@@ -25105,6 +26815,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Iron Feast",
     "category": "Freshwater Fishing",
+    "spot": 120,
     "lvl": 55,
     "coords": [
       31.62,
@@ -25117,14 +26828,16 @@ gt.bell.fish = [
     "name": "Lava Crab",
     "patch": 3.0,
     "bait": [
-      "Magma Worm"
+      "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12745,
     "icon": 29860,
     "func": "fish",
     "rarity": 1,
     "title": "Mourn",
     "category": "Hellfishing",
+    "spot": 121,
     "lvl": 55,
     "coords": [
       13.14,
@@ -25139,12 +26852,14 @@ gt.bell.fish = [
     "bait": [
       "Magma Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12745,
     "icon": 29860,
     "func": "fish",
     "rarity": 1,
     "title": "Anyx Old",
     "category": "Hellfishing",
+    "spot": 123,
     "lvl": 57,
     "coords": [
       19.46,
@@ -25166,6 +26881,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mourn",
     "category": "Hellfishing",
+    "spot": 121,
     "lvl": 55,
     "coords": [
       13.14,
@@ -25180,12 +26896,14 @@ gt.bell.fish = [
     "bait": [
       "Magma Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12754,
     "icon": 29854,
     "func": "fish",
     "rarity": 1,
     "title": "West Mourn",
     "category": "Hellfishing",
+    "spot": 122,
     "lvl": 56,
     "coords": [
       9.64,
@@ -25200,12 +26918,14 @@ gt.bell.fish = [
     "bait": [
       "Magma Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12754,
     "icon": 29854,
     "func": "fish",
     "rarity": 1,
     "title": "Anyx Old",
     "category": "Hellfishing",
+    "spot": 123,
     "lvl": 57,
     "coords": [
       19.46,
@@ -25220,12 +26940,14 @@ gt.bell.fish = [
     "bait": [
       "Magma Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 12754,
     "icon": 29854,
     "func": "fish",
     "rarity": 1,
     "title": "Halo",
     "category": "Hellfishing",
+    "spot": 124,
     "lvl": 60,
     "coords": [
       7.66,
@@ -25247,6 +26969,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mourn",
     "category": "Hellfishing",
+    "spot": 121,
     "lvl": 55,
     "coords": [
       13.14,
@@ -25269,6 +26992,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "West Mourn",
     "category": "Hellfishing",
+    "spot": 122,
     "lvl": 56,
     "coords": [
       9.64,
@@ -25291,6 +27015,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Anyx Old",
     "category": "Hellfishing",
+    "spot": 123,
     "lvl": 57,
     "coords": [
       19.46,
@@ -25306,13 +27031,14 @@ gt.bell.fish = [
       "Magma Worm",
       "Granite Crab"
     ],
-    "hookset": "Powerfull Hookset",
+    "hookset": "Powerful Hookset",
     "id": 12787,
     "icon": 29855,
     "func": "fish",
     "rarity": 1,
     "title": "Mourn",
     "category": "Hellfishing",
+    "spot": 121,
     "lvl": 55,
     "coords": [
       13.14,
@@ -25328,12 +27054,14 @@ gt.bell.fish = [
       "Magma Worm",
       "Granite Crab"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12787,
     "icon": 29855,
     "func": "fish",
     "rarity": 1,
     "title": "Anyx Old",
     "category": "Hellfishing",
+    "spot": 123,
     "lvl": 57,
     "coords": [
       19.46,
@@ -25349,12 +27077,14 @@ gt.bell.fish = [
       "Magma Worm",
       "Granite Crab"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12787,
     "icon": 29855,
     "func": "fish",
     "rarity": 1,
     "title": "Halo",
     "category": "Hellfishing",
+    "spot": 124,
     "lvl": 60,
     "coords": [
       7.66,
@@ -25370,13 +27100,14 @@ gt.bell.fish = [
       "Magma Worm",
       "Granite Crab"
     ],
-    "hookset": "Powerfull Hookset",
+    "hookset": "Powerful Hookset",
     "id": 12820,
     "icon": 29852,
     "func": "fish",
     "rarity": 1,
     "title": "Mourn",
     "category": "Hellfishing",
+    "spot": 121,
     "lvl": 55,
     "coords": [
       13.14,
@@ -25400,6 +27131,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Mourn",
     "category": "Hellfishing",
+    "spot": 121,
     "lvl": 55,
     "coords": [
       13.14,
@@ -25421,6 +27153,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "West Mourn",
     "category": "Hellfishing",
+    "spot": 122,
     "lvl": 56,
     "coords": [
       9.64,
@@ -25442,6 +27175,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Anyx Old",
     "category": "Hellfishing",
+    "spot": 123,
     "lvl": 57,
     "coords": [
       19.46,
@@ -25464,6 +27198,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "West Mourn",
     "category": "Hellfishing",
+    "spot": 122,
     "lvl": 56,
     "coords": [
       9.64,
@@ -25486,6 +27221,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Halo",
     "category": "Hellfishing",
+    "spot": 124,
     "lvl": 60,
     "coords": [
       7.66,
@@ -25509,6 +27245,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "West Mourn",
     "category": "Hellfishing",
+    "spot": 122,
     "lvl": 56,
     "coords": [
       9.64,
@@ -25529,12 +27266,14 @@ gt.bell.fish = [
       "start": 2,
       "end": 6
     },
+    "hookset": "Precision Hookset",
     "id": 16751,
     "icon": 29862,
     "func": "fish",
     "rarity": 2,
     "title": "West Mourn",
     "category": "Hellfishing",
+    "spot": 122,
     "lvl": 56,
     "coords": [
       9.64,
@@ -25562,6 +27301,29 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Anyx Old",
     "category": "Hellfishing",
+    "spot": 123,
+    "lvl": 57,
+    "coords": [
+      19.46,
+      10.82
+    ],
+    "radius": 200,
+    "zone": "The Dravanian Forelands"
+  },
+  {
+    "name": "Hoplite",
+    "patch": 5.3,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 30488,
+    "icon": 29857,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Anyx Old",
+    "category": "Hellfishing",
+    "spot": 123,
     "lvl": 57,
     "coords": [
       19.46,
@@ -25596,26 +27358,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Anyx Old",
     "category": "Hellfishing",
-    "lvl": 57,
-    "coords": [
-      19.46,
-      10.82
-    ],
-    "radius": 200,
-    "zone": "The Dravanian Forelands"
-  },
-  {
-    "name": "Hoplite",
-    "patch": 5.3,
-    "bait": [
-      "Metal Spinner"
-    ],
-    "id": 30488,
-    "icon": 29857,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Anyx Old",
-    "category": "Hellfishing",
+    "spot": 123,
     "lvl": 57,
     "coords": [
       19.46,
@@ -25638,6 +27381,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Halo",
     "category": "Hellfishing",
+    "spot": 124,
     "lvl": 60,
     "coords": [
       7.66,
@@ -25670,6 +27414,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Halo",
     "category": "Hellfishing",
+    "spot": 124,
     "lvl": 60,
     "coords": [
       7.66,
@@ -25690,12 +27435,14 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 14215,
     "icon": 29423,
     "func": "fish",
     "rarity": 1,
     "title": "Halo",
     "category": "Hellfishing",
+    "spot": 124,
     "lvl": 60,
     "coords": [
       7.66,
@@ -25733,6 +27480,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Halo",
     "category": "Hellfishing",
+    "spot": 124,
     "lvl": 60,
     "coords": [
       7.66,
@@ -25784,6 +27532,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Halo",
     "category": "Hellfishing",
+    "spot": 124,
     "lvl": 60,
     "coords": [
       7.66,
@@ -25796,7 +27545,7 @@ gt.bell.fish = [
     "name": "Sweetfish",
     "patch": 3.0,
     "bait": [
-      "Goblin Jig"
+      "Bladed Steel Jig"
     ],
     "hookset": "Powerful Hookset",
     "id": 12780,
@@ -25805,6 +27554,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 125,
     "lvl": 57,
     "coords": [
       23.17,
@@ -25826,6 +27576,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 127,
     "lvl": 58,
     "coords": [
       22.96,
@@ -25847,6 +27598,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Middle Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 128,
     "lvl": 60,
     "coords": [
       20.62,
@@ -25861,12 +27613,14 @@ gt.bell.fish = [
     "bait": [
       "Bladed Steel Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12790,
     "icon": 29419,
     "func": "fish",
     "rarity": 1,
     "title": "Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 125,
     "lvl": 57,
     "coords": [
       23.17,
@@ -25881,12 +27635,14 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12790,
     "icon": 29419,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 128,
     "lvl": 60,
     "coords": [
       20.62,
@@ -25901,12 +27657,14 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12756,
     "icon": 29805,
     "func": "fish",
     "rarity": 1,
     "title": "Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 125,
     "lvl": 57,
     "coords": [
       23.17,
@@ -25921,12 +27679,14 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Precision Hookset",
     "id": 12756,
     "icon": 29805,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 127,
     "lvl": 58,
     "coords": [
       22.96,
@@ -25948,6 +27708,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 125,
     "lvl": 57,
     "coords": [
       23.17,
@@ -25963,12 +27724,14 @@ gt.bell.fish = [
       "Stonefly Nymph",
       "Hedgemole Cricket"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12804,
     "icon": 29260,
     "func": "fish",
     "rarity": 1,
     "title": "Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 125,
     "lvl": 57,
     "coords": [
       23.17,
@@ -25981,7 +27744,7 @@ gt.bell.fish = [
     "name": "Hinterlands Perch",
     "patch": 3.0,
     "bait": [
-      "Bladed Steel Jig"
+      "Metal Spinner"
     ],
     "hookset": "Powerful Hookset",
     "id": 12819,
@@ -25990,28 +27753,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Thaliak River",
     "category": "Freshwater Fishing",
-    "lvl": 57,
-    "coords": [
-      23.17,
-      23.55
-    ],
-    "radius": 400,
-    "zone": "The Dravanian Hinterlands"
-  },
-  {
-    "name": "The Ewer King",
-    "patch": 3.3,
-    "bait": [
-      "Goblin Jig",
-      "Sweetfish"
-    ],
-    "hookset": "Powerful Hookset",
-    "id": 15632,
-    "icon": 29338,
-    "func": "fish",
-    "rarity": 2,
-    "title": "Thaliak River",
-    "category": "Freshwater Fishing",
+    "spot": 125,
     "lvl": 57,
     "coords": [
       23.17,
@@ -26033,6 +27775,30 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 125,
+    "lvl": 57,
+    "coords": [
+      23.17,
+      23.55
+    ],
+    "radius": 400,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "The Ewer King",
+    "patch": 3.3,
+    "bait": [
+      "Bladed Steel Jig",
+      "Sweetfish"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 15632,
+    "icon": 29338,
+    "func": "fish",
+    "rarity": 2,
+    "title": "Thaliak River",
+    "category": "Freshwater Fishing",
+    "spot": 125,
     "lvl": 57,
     "coords": [
       23.17,
@@ -26054,6 +27820,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Quickspill Delta",
     "category": "Freshwater Fishing",
+    "spot": 126,
     "lvl": 58,
     "coords": [
       11.33,
@@ -26066,7 +27833,8 @@ gt.bell.fish = [
     "name": "Tigerfish",
     "patch": 3.0,
     "bait": [
-      "Brute Leech"
+      "Bladed Steel Jig",
+      "Bullfrog"
     ],
     "hookset": "Powerful Hookset",
     "id": 12752,
@@ -26075,6 +27843,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Quickspill Delta",
     "category": "Freshwater Fishing",
+    "spot": 126,
     "lvl": 58,
     "coords": [
       11.33,
@@ -26097,6 +27866,29 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Quickspill Delta",
     "category": "Freshwater Fishing",
+    "spot": 126,
+    "lvl": 58,
+    "coords": [
+      11.33,
+      27.55
+    ],
+    "radius": 1200,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Dravanian Scallop",
+    "patch": 5.5,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33219,
+    "icon": 29916,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Quickspill Delta",
+    "category": "Freshwater Fishing",
+    "spot": 126,
     "lvl": 58,
     "coords": [
       11.33,
@@ -26127,6 +27919,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Quickspill Delta",
     "category": "Freshwater Fishing",
+    "spot": 126,
     "lvl": 58,
     "coords": [
       11.33,
@@ -26139,14 +27932,16 @@ gt.bell.fish = [
     "name": "Scholar Sculpin",
     "patch": 3.0,
     "bait": [
-      "Purse Web Spider"
+      "Goblin Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12747,
     "icon": 29299,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 127,
     "lvl": 58,
     "coords": [
       22.96,
@@ -26161,12 +27956,14 @@ gt.bell.fish = [
     "bait": [
       "Purse Web Spider"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12747,
     "icon": 29299,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 128,
     "lvl": 60,
     "coords": [
       20.62,
@@ -26193,6 +27990,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 127,
     "lvl": 58,
     "coords": [
       22.96,
@@ -26219,6 +28017,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 127,
     "lvl": 58,
     "coords": [
       22.96,
@@ -26231,14 +28030,16 @@ gt.bell.fish = [
     "name": "Thavnairian Leaf",
     "patch": 3.55,
     "bait": [
-      "Stonefly Nymph"
+      "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17562,
     "icon": 29275,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 127,
     "lvl": 58,
     "coords": [
       22.96,
@@ -26269,6 +28070,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Upper Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 127,
     "lvl": 58,
     "coords": [
       22.96,
@@ -26310,6 +28112,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Upper Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 127,
     "lvl": 58,
     "coords": [
       22.96,
@@ -26336,6 +28139,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Middle Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 128,
     "lvl": 60,
     "coords": [
       20.62,
@@ -26362,6 +28166,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Middle Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 128,
     "lvl": 60,
     "coords": [
       20.62,
@@ -26386,12 +28191,36 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 13732,
     "icon": 29280,
     "func": "fish",
     "rarity": 1,
     "title": "Middle Thaliak River",
     "category": "Freshwater Fishing",
+    "spot": 128,
+    "lvl": 60,
+    "coords": [
+      20.62,
+      25.02
+    ],
+    "radius": 500,
+    "zone": "The Dravanian Hinterlands"
+  },
+  {
+    "name": "Inkshell",
+    "patch": 5.3,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 30492,
+    "icon": 29510,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Middle Thaliak River",
+    "category": "Freshwater Fishing",
+    "spot": 128,
     "lvl": 60,
     "coords": [
       20.62,
@@ -26425,26 +28254,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Middle Thaliak River",
     "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      20.62,
-      25.02
-    ],
-    "radius": 500,
-    "zone": "The Dravanian Hinterlands"
-  },
-  {
-    "name": "Inkshell",
-    "patch": 5.3,
-    "bait": [
-      "Metal Spinner"
-    ],
-    "id": 30492,
-    "icon": 29510,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Middle Thaliak River",
-    "category": "Freshwater Fishing",
+    "spot": 128,
     "lvl": 60,
     "coords": [
       20.62,
@@ -26457,18 +28267,20 @@ gt.bell.fish = [
     "name": "Kissing Fish",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph"
+      "Brute Leech"
     ],
     "during": {
       "start": 9,
       "end": 2
     },
+    "hookset": "Precision Hookset",
     "id": 12743,
     "icon": 29410,
     "func": "fish",
     "rarity": 1,
     "title": "Eil Tohm",
     "category": "Freshwater Fishing",
+    "spot": 129,
     "lvl": 54,
     "coords": [
       36.82,
@@ -26481,14 +28293,16 @@ gt.bell.fish = [
     "name": "Noontide Oscar",
     "patch": 3.0,
     "bait": [
-      "Brute Leech"
+      "Purse Web Spider"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12768,
     "icon": 29403,
     "func": "fish",
     "rarity": 1,
     "title": "Eil Tohm",
     "category": "Freshwater Fishing",
+    "spot": 129,
     "lvl": 54,
     "coords": [
       36.82,
@@ -26509,6 +28323,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Diadem Grotto",
     "category": "Freshwater Fishing",
+    "spot": 10017,
     "lvl": 70,
     "coords": [
       14.0,
@@ -26535,6 +28350,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Eil Tohm",
     "category": "Freshwater Fishing",
+    "spot": 129,
     "lvl": 54,
     "coords": [
       36.82,
@@ -26547,7 +28363,7 @@ gt.bell.fish = [
     "name": "Mogpom",
     "patch": 3.0,
     "bait": [
-      "Goblin Jig"
+      "Versatile Lure"
     ],
     "hookset": "Precision Hookset",
     "id": 12758,
@@ -26556,6 +28372,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Greensward",
     "category": "Freshwater Fishing",
+    "spot": 130,
     "lvl": 54,
     "coords": [
       8.75,
@@ -26581,12 +28398,14 @@ gt.bell.fish = [
     "transition": [
       "Gales"
     ],
+    "hookset": "Precision Hookset",
     "id": 16749,
     "icon": 29434,
     "func": "fish",
     "rarity": 2,
     "title": "Greensward",
     "category": "Freshwater Fishing",
+    "spot": 130,
     "lvl": 54,
     "coords": [
       8.75,
@@ -26605,12 +28424,14 @@ gt.bell.fish = [
       "start": 16,
       "end": 19
     },
+    "hookset": "Precision Hookset",
     "id": 12742,
     "icon": 29397,
     "func": "fish",
     "rarity": 1,
     "title": "Weston Waters",
     "category": "Freshwater Fishing",
+    "spot": 131,
     "lvl": 54,
     "coords": [
       9.18,
@@ -26629,12 +28450,14 @@ gt.bell.fish = [
       "start": 8,
       "end": 12
     },
+    "hookset": "Powerful Hookset",
     "id": 12792,
     "icon": 29302,
     "func": "fish",
     "rarity": 1,
     "title": "Weston Waters",
     "category": "Freshwater Fishing",
+    "spot": 131,
     "lvl": 54,
     "coords": [
       9.18,
@@ -26649,12 +28472,14 @@ gt.bell.fish = [
     "bait": [
       "Goblin Jig"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12782,
     "icon": 29416,
     "func": "fish",
     "rarity": 1,
     "title": "Weston Waters",
     "category": "Freshwater Fishing",
+    "spot": 131,
     "lvl": 54,
     "coords": [
       9.18,
@@ -26667,14 +28492,38 @@ gt.bell.fish = [
     "name": "Lovers' Clam",
     "patch": 3.55,
     "bait": [
-      "Bladed Steel Jig"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 17565,
     "icon": 29419,
     "func": "fish",
     "rarity": 1,
     "title": "Weston Waters",
     "category": "Freshwater Fishing",
+    "spot": 131,
+    "lvl": 54,
+    "coords": [
+      9.18,
+      8.08
+    ],
+    "radius": 500,
+    "zone": "The Churning Mists"
+  },
+  {
+    "name": "Illuminati Mask",
+    "patch": 4.3,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 23075,
+    "icon": 29708,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Weston Waters",
+    "category": "Freshwater Fishing",
+    "spot": 131,
     "lvl": 54,
     "coords": [
       9.18,
@@ -26697,12 +28546,14 @@ gt.bell.fish = [
     "transition": [
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17586,
     "icon": 29439,
     "func": "fish",
     "rarity": 2,
     "title": "Weston Waters",
     "category": "Freshwater Fishing",
+    "spot": 131,
     "lvl": 54,
     "coords": [
       9.18,
@@ -26718,12 +28569,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12795,
     "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Landlord Colony",
     "category": "Cloudfishing",
+    "spot": 132,
     "lvl": 54,
     "coords": [
       29.7,
@@ -26739,12 +28592,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Precision Hookset",
     "id": 12795,
     "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Sohm Al Summit",
     "category": "Cloudfishing",
+    "spot": 133,
     "lvl": 55,
     "coords": [
       18.45,
@@ -26759,12 +28614,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12760,
     "icon": 29655,
     "func": "fish",
     "rarity": 1,
     "title": "Landlord Colony",
     "category": "Cloudfishing",
+    "spot": 132,
     "lvl": 54,
     "coords": [
       29.7,
@@ -26779,12 +28636,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12760,
     "icon": 29655,
     "func": "fish",
     "rarity": 1,
     "title": "Sohm Al Summit",
     "category": "Cloudfishing",
+    "spot": 133,
     "lvl": 55,
     "coords": [
       18.45,
@@ -26799,12 +28658,14 @@ gt.bell.fish = [
     "bait": [
       "Red Balloon"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12760,
     "icon": 29655,
     "func": "fish",
     "rarity": 1,
     "title": "Tharl Oom Khash",
     "category": "Cloudfishing",
+    "spot": 134,
     "lvl": 55,
     "coords": [
       20.26,
@@ -26817,14 +28678,17 @@ gt.bell.fish = [
     "name": "Blue Medusa",
     "patch": 3.0,
     "bait": [
-      "Red Balloon"
+      "Metal Spinner",
+      "Sky Faerie"
     ],
+    "hookset": "Precision Hookset",
     "id": 12771,
     "icon": 29711,
     "func": "fish",
     "rarity": 1,
     "title": "Landlord Colony",
     "category": "Cloudfishing",
+    "spot": 132,
     "lvl": 54,
     "coords": [
       29.7,
@@ -26839,12 +28703,14 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12793,
     "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "Landlord Colony",
     "category": "Cloudfishing",
+    "spot": 132,
     "lvl": 54,
     "coords": [
       29.7,
@@ -26857,14 +28723,16 @@ gt.bell.fish = [
     "name": "Dragon's Soul",
     "patch": 3.0,
     "bait": [
-      "Giant Crane Fly"
+      "Versatile Lure"
     ],
+    "hookset": "Precision Hookset",
     "id": 12797,
     "icon": 29053,
     "func": "fish",
     "rarity": 1,
     "title": "Landlord Colony",
     "category": "Cloudfishing",
+    "spot": 132,
     "lvl": 54,
     "coords": [
       29.7,
@@ -26895,6 +28763,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Landlord Colony",
     "category": "Cloudfishing",
+    "spot": 132,
     "lvl": 54,
     "coords": [
       29.7,
@@ -26918,12 +28787,14 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 15634,
     "icon": 29074,
     "func": "fish",
     "rarity": 2,
     "title": "Landlord Colony",
     "category": "Cloudfishing",
+    "spot": 132,
     "lvl": 54,
     "coords": [
       29.7,
@@ -26938,12 +28809,14 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Precision Hookset",
     "id": 12770,
     "icon": 29708,
     "func": "fish",
     "rarity": 1,
     "title": "Sohm Al Summit",
     "category": "Cloudfishing",
+    "spot": 133,
     "lvl": 55,
     "coords": [
       18.45,
@@ -26956,7 +28829,8 @@ gt.bell.fish = [
     "name": "Star Faerie",
     "patch": 3.0,
     "bait": [
-      "Red Balloon"
+      "Versatile Lure",
+      "Rudderfish"
     ],
     "hookset": "Precision Hookset",
     "id": 12794,
@@ -26965,6 +28839,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sohm Al Summit",
     "category": "Cloudfishing",
+    "spot": 133,
     "lvl": 55,
     "coords": [
       18.45,
@@ -26990,6 +28865,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sohm Al Summit",
     "category": "Cloudfishing",
+    "spot": 133,
     "lvl": 55,
     "coords": [
       18.45,
@@ -27004,7 +28880,7 @@ gt.bell.fish = [
     "folklore": 1,
     "fishEyes": 1,
     "bait": [
-      "Giant Crane Fly",
+      "Versatile Lure",
       "Rudderfish"
     ],
     "weather": [
@@ -27020,6 +28896,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Sohm Al Summit",
     "category": "Cloudfishing",
+    "spot": 133,
     "lvl": 55,
     "coords": [
       18.45,
@@ -27032,8 +28909,8 @@ gt.bell.fish = [
     "name": "Manasail",
     "patch": 3.0,
     "bait": [
-      "Giant Crane Fly",
-      "Rudderfish"
+      "Metal Spinner",
+      "Sky Faerie"
     ],
     "during": {
       "start": 10,
@@ -27050,6 +28927,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Tharl Oom Khash",
     "category": "Cloudfishing",
+    "spot": 134,
     "lvl": 55,
     "coords": [
       20.26,
@@ -27074,6 +28952,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Tharl Oom Khash",
     "category": "Cloudfishing",
+    "spot": 134,
     "lvl": 55,
     "coords": [
       20.26,
@@ -27086,14 +28965,16 @@ gt.bell.fish = [
     "name": "Storm Chaser",
     "patch": 3.0,
     "bait": [
-      "Giant Crane Fly"
+      "Versatile Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 12835,
     "icon": 29712,
     "func": "fish",
     "rarity": 1,
     "title": "Tharl Oom Khash",
     "category": "Cloudfishing",
+    "spot": 134,
     "lvl": 55,
     "coords": [
       20.26,
@@ -27109,12 +28990,14 @@ gt.bell.fish = [
     "bait": [
       "Giant Crane Fly"
     ],
+    "hookset": "Powerful Hookset",
     "id": 14214,
     "icon": 29729,
     "func": "fish",
     "rarity": 1,
     "title": "Tharl Oom Khash",
     "category": "Cloudfishing",
+    "spot": 134,
     "lvl": 55,
     "coords": [
       20.26,
@@ -27137,12 +29020,14 @@ gt.bell.fish = [
     "transition": [
       "Clear Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 17587,
     "icon": 29736,
     "func": "fish",
     "rarity": 2,
     "title": "Tharl Oom Khash",
     "category": "Cloudfishing",
+    "spot": 134,
     "lvl": 55,
     "coords": [
       20.26,
@@ -27184,6 +29069,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Tharl Oom Khash",
     "category": "Cloudfishing",
+    "spot": 134,
     "lvl": 55,
     "coords": [
       20.26,
@@ -27204,6 +29090,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Diadem Grotto",
     "category": "Freshwater Fishing",
+    "spot": 10017,
     "lvl": 70,
     "coords": [
       14.0,
@@ -27224,6 +29111,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
+    "spot": 10018,
     "lvl": 1,
     "coords": [
       8.0,
@@ -27244,6 +29132,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Diadem Grotto",
     "category": "Freshwater Fishing",
+    "spot": 10017,
     "lvl": 70,
     "coords": [
       14.0,
@@ -27264,6 +29153,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
+    "spot": 10018,
     "lvl": 1,
     "coords": [
       8.0,
@@ -27284,6 +29174,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northern Diadem Lake",
     "category": "Freshwater Fishing",
+    "spot": 10019,
     "lvl": 60,
     "coords": [
       10.0,
@@ -27304,6 +29195,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Diadem Grotto",
     "category": "Freshwater Fishing",
+    "spot": 10017,
     "lvl": 70,
     "coords": [
       14.0,
@@ -27324,6 +29216,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Southern Diadem Lake",
     "category": "Freshwater Fishing",
+    "spot": 10018,
     "lvl": 1,
     "coords": [
       8.0,
@@ -27344,6 +29237,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Northern Diadem Lake",
     "category": "Freshwater Fishing",
+    "spot": 10019,
     "lvl": 60,
     "coords": [
       10.0,
@@ -27364,6 +29258,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10021,
     "lvl": 80,
     "coords": [
       28.0,
@@ -27384,6 +29279,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swirling Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10022,
     "lvl": 80,
     "coords": [
       13.0,
@@ -27404,6 +29300,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10021,
     "lvl": 80,
     "coords": [
       28.0,
@@ -27424,6 +29321,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Calm Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10021,
     "lvl": 80,
     "coords": [
       28.0,
@@ -27444,6 +29342,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Swirling Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10022,
     "lvl": 80,
     "coords": [
       13.0,
@@ -27464,6 +29363,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Blustery Cloudtop",
     "category": "Cloudfishing",
+    "spot": 10020,
     "lvl": 80,
     "coords": [
       31.0,
@@ -27476,7 +29376,7 @@ gt.bell.fish = [
     "name": "Abalathian Bitterling",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Nightcrawler"
     ],
     "hookset": "Precision Hookset",
     "id": 20042,
@@ -27485,6 +29385,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 182,
     "lvl": 61,
     "coords": [
       11.01,
@@ -27499,12 +29400,14 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20055,
     "icon": 29235,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 182,
     "lvl": 61,
     "coords": [
       11.01,
@@ -27519,12 +29422,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20056,
     "icon": 29204,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 182,
     "lvl": 61,
     "coords": [
       11.01,
@@ -27539,12 +29444,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20056,
     "icon": 29204,
     "func": "fish",
     "rarity": 1,
     "title": "Rhalgr's Reach",
     "category": "Freshwater Fishing",
+    "spot": 183,
     "lvl": 62,
     "coords": [
       11.26,
@@ -27559,12 +29466,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20056,
     "icon": 29204,
     "func": "fish",
     "rarity": 1,
     "title": "The Slow Wash",
     "category": "Freshwater Fishing",
+    "spot": 191,
     "lvl": 61,
     "coords": [
       23.62,
@@ -27579,12 +29488,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20056,
     "icon": 29204,
     "func": "fish",
     "rarity": 1,
     "title": "The Arms of Meed",
     "category": "Freshwater Fishing",
+    "spot": 195,
     "lvl": 70,
     "coords": [
       9.21,
@@ -27611,6 +29522,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 182,
     "lvl": 61,
     "coords": [
       11.01,
@@ -27637,6 +29549,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Timmon Beck",
     "category": "Freshwater Fishing",
+    "spot": 185,
     "lvl": 61,
     "coords": [
       11.51,
@@ -27662,6 +29575,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Dimwold",
     "category": "Freshwater Fishing",
+    "spot": 186,
     "lvl": 62,
     "coords": [
       9.61,
@@ -27677,12 +29591,14 @@ gt.bell.fish = [
       "Midge Larva",
       "Gyr Abanian Trout"
     ],
+    "hookset": "Precision Hookset",
     "id": 20057,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 182,
     "lvl": 61,
     "coords": [
       11.01,
@@ -27697,12 +29613,14 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20057,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "The Outer Fist",
     "category": "Freshwater Fishing",
+    "spot": 184,
     "lvl": 62,
     "coords": [
       12.16,
@@ -27717,12 +29635,14 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20057,
     "icon": 29292,
     "func": "fish",
     "rarity": 1,
     "title": "The Velodyna River",
     "category": "Freshwater Fishing",
+    "spot": 188,
     "lvl": 61,
     "coords": [
       17.92,
@@ -27739,12 +29659,14 @@ gt.bell.fish = [
       "Midge Larva",
       "Gyr Abanian Trout"
     ],
+    "hookset": "Precision Hookset",
     "id": 23057,
     "icon": 29523,
     "func": "fish",
     "rarity": 2,
     "title": "Upper Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 182,
     "lvl": 61,
     "coords": [
       11.01,
@@ -27757,14 +29679,16 @@ gt.bell.fish = [
     "name": "Golden Cichlid",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Versatile Lure"
     ],
+    "hookset": "Precision Hookset",
     "id": 20029,
     "icon": 29463,
     "func": "fish",
     "rarity": 1,
     "title": "Rhalgr's Reach",
     "category": "Freshwater Fishing",
+    "spot": 183,
     "lvl": 62,
     "coords": [
       11.26,
@@ -27786,6 +29710,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhalgr's Reach",
     "category": "Freshwater Fishing",
+    "spot": 183,
     "lvl": 62,
     "coords": [
       11.26,
@@ -27801,12 +29726,14 @@ gt.bell.fish = [
       "Midge Larva",
       "Gyr Abanian Trout"
     ],
+    "hookset": "Precision Hookset",
     "id": 20059,
     "icon": 29216,
     "func": "fish",
     "rarity": 1,
     "title": "Rhalgr's Reach",
     "category": "Freshwater Fishing",
+    "spot": 183,
     "lvl": 62,
     "coords": [
       11.26,
@@ -27819,7 +29746,7 @@ gt.bell.fish = [
     "name": "Electric Catfish",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Nightcrawler"
     ],
     "hookset": "Powerful Hookset",
     "id": 20060,
@@ -27828,6 +29755,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhalgr's Reach",
     "category": "Freshwater Fishing",
+    "spot": 183,
     "lvl": 62,
     "coords": [
       11.26,
@@ -27850,6 +29778,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Rhalgr's Reach",
     "category": "Freshwater Fishing",
+    "spot": 183,
     "lvl": 62,
     "coords": [
       11.26,
@@ -27876,6 +29805,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Rhalgr's Reach",
     "category": "Freshwater Fishing",
+    "spot": 183,
     "lvl": 62,
     "coords": [
       11.26,
@@ -27888,14 +29818,16 @@ gt.bell.fish = [
     "name": "Comet Minnow",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20026,
     "icon": 29453,
     "func": "fish",
     "rarity": 1,
     "title": "The Outer Fist",
     "category": "Freshwater Fishing",
+    "spot": 184,
     "lvl": 62,
     "coords": [
       12.16,
@@ -27908,14 +29840,16 @@ gt.bell.fish = [
     "name": "Balloon Frog",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20064,
     "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "The Outer Fist",
     "category": "Freshwater Fishing",
+    "spot": 184,
     "lvl": 62,
     "coords": [
       12.16,
@@ -27930,12 +29864,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20064,
     "icon": 29233,
     "func": "fish",
     "rarity": 1,
     "title": "Timmon Beck",
     "category": "Freshwater Fishing",
+    "spot": 185,
     "lvl": 61,
     "coords": [
       11.51,
@@ -27957,6 +29893,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Outer Fist",
     "category": "Freshwater Fishing",
+    "spot": 184,
     "lvl": 62,
     "coords": [
       12.16,
@@ -27978,6 +29915,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Outer Fist",
     "category": "Freshwater Fishing",
+    "spot": 184,
     "lvl": 62,
     "coords": [
       12.16,
@@ -27991,7 +29929,7 @@ gt.bell.fish = [
     "patch": 4.2,
     "folklore": 1,
     "bait": [
-      "Nightcrawler",
+      "Salmon Roe",
       "Balloon Frog"
     ],
     "weather": [
@@ -28005,6 +29943,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Outer Fist",
     "category": "Freshwater Fishing",
+    "spot": 184,
     "lvl": 62,
     "coords": [
       12.16,
@@ -28018,7 +29957,7 @@ gt.bell.fish = [
     "patch": 4.4,
     "folklore": 1,
     "bait": [
-      "Nightcrawler",
+      "Salmon Roe",
       "Balloon Frog"
     ],
     "during": {
@@ -28035,6 +29974,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Outer Fist",
     "category": "Freshwater Fishing",
+    "spot": 184,
     "lvl": 62,
     "coords": [
       12.16,
@@ -28049,12 +29989,14 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20049,
     "icon": 29497,
     "func": "fish",
     "rarity": 1,
     "title": "Timmon Beck",
     "category": "Freshwater Fishing",
+    "spot": 185,
     "lvl": 61,
     "coords": [
       11.51,
@@ -28069,12 +30011,14 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20066,
     "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Timmon Beck",
     "category": "Freshwater Fishing",
+    "spot": 185,
     "lvl": 61,
     "coords": [
       11.51,
@@ -28089,12 +30033,14 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20066,
     "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Grymm & Enid",
     "category": "Freshwater Fishing",
+    "spot": 190,
     "lvl": 61,
     "coords": [
       6.21,
@@ -28107,14 +30053,16 @@ gt.bell.fish = [
     "name": "Death Loach",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 20066,
     "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "The Slow Wash",
     "category": "Freshwater Fishing",
+    "spot": 191,
     "lvl": 61,
     "coords": [
       23.62,
@@ -28129,12 +30077,14 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20066,
     "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "Heather Falls",
     "category": "Freshwater Fishing",
+    "spot": 192,
     "lvl": 65,
     "coords": [
       32.63,
@@ -28147,14 +30097,16 @@ gt.bell.fish = [
     "name": "Death Loach",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 20066,
     "icon": 29215,
     "func": "fish",
     "rarity": 1,
     "title": "The Bull's Bath",
     "category": "Freshwater Fishing",
+    "spot": 194,
     "lvl": 68,
     "coords": [
       20.58,
@@ -28167,14 +30119,16 @@ gt.bell.fish = [
     "name": "Gyr Abanian Chub",
     "patch": 4.1,
     "bait": [
-      "Salmon Roe"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 20785,
     "icon": 29247,
     "func": "fish",
     "rarity": 1,
     "title": "Timmon Beck",
     "category": "Freshwater Fishing",
+    "spot": 185,
     "lvl": 61,
     "coords": [
       11.51,
@@ -28201,6 +30155,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Timmon Beck",
     "category": "Freshwater Fishing",
+    "spot": 185,
     "lvl": 61,
     "coords": [
       11.51,
@@ -28228,6 +30183,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Timmon Beck",
     "category": "Freshwater Fishing",
+    "spot": 185,
     "lvl": 61,
     "coords": [
       11.51,
@@ -28242,12 +30198,14 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20082,
     "icon": 29289,
     "func": "fish",
     "rarity": 1,
     "title": "Dimwold",
     "category": "Freshwater Fishing",
+    "spot": 186,
     "lvl": 62,
     "coords": [
       9.61,
@@ -28262,12 +30220,14 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20082,
     "icon": 29289,
     "func": "fish",
     "rarity": 1,
     "title": "The Comet's Tail",
     "category": "Freshwater Fishing",
+    "spot": 187,
     "lvl": 62,
     "coords": [
       13.91,
@@ -28289,6 +30249,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Dimwold",
     "category": "Freshwater Fishing",
+    "spot": 186,
     "lvl": 62,
     "coords": [
       9.61,
@@ -28301,14 +30262,16 @@ gt.bell.fish = [
     "name": "Padjali Loach",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Stonefly Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20136,
     "icon": 29488,
     "func": "fish",
     "rarity": 1,
     "title": "Dimwold",
     "category": "Freshwater Fishing",
+    "spot": 186,
     "lvl": 62,
     "coords": [
       9.61,
@@ -28323,12 +30286,14 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 20081,
     "icon": 29246,
     "func": "fish",
     "rarity": 1,
     "title": "Dimwold",
     "category": "Freshwater Fishing",
+    "spot": 186,
     "lvl": 62,
     "coords": [
       9.61,
@@ -28352,12 +30317,14 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20142,
     "icon": 29256,
     "func": "fish",
     "rarity": 1,
     "title": "Dimwold",
     "category": "Freshwater Fishing",
+    "spot": 186,
     "lvl": 62,
     "coords": [
       9.61,
@@ -28370,7 +30337,7 @@ gt.bell.fish = [
     "name": "Chakrafish",
     "patch": 4.5,
     "bait": [
-      "Salmon Roe"
+      "Metal Spinner"
     ],
     "hookset": "Powerful Hookset",
     "id": 24559,
@@ -28379,6 +30346,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Dimwold",
     "category": "Freshwater Fishing",
+    "spot": 186,
     "lvl": 62,
     "coords": [
       9.61,
@@ -28404,6 +30372,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Dimwold",
     "category": "Freshwater Fishing",
+    "spot": 186,
     "lvl": 62,
     "coords": [
       9.61,
@@ -28416,18 +30385,20 @@ gt.bell.fish = [
     "name": "Falling Star",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Metal Spinner"
     ],
     "weather": [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Precision Hookset",
     "id": 20084,
     "icon": 29718,
     "func": "fish",
     "rarity": 1,
     "title": "The Comet's Tail",
     "category": "Freshwater Fishing",
+    "spot": 187,
     "lvl": 62,
     "coords": [
       13.91,
@@ -28453,6 +30424,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Comet's Tail",
     "category": "Freshwater Fishing",
+    "spot": 187,
     "lvl": 62,
     "coords": [
       13.91,
@@ -28465,7 +30437,7 @@ gt.bell.fish = [
     "name": "Nirvana Crab",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Suspending Minnow"
     ],
     "weather": [
       "Clouds",
@@ -28478,6 +30450,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Comet's Tail",
     "category": "Freshwater Fishing",
+    "spot": 187,
     "lvl": 62,
     "coords": [
       13.91,
@@ -28501,12 +30474,14 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 21174,
     "icon": 29515,
     "func": "fish",
     "rarity": 1,
     "title": "The Comet's Tail",
     "category": "Freshwater Fishing",
+    "spot": 187,
     "lvl": 62,
     "coords": [
       13.91,
@@ -28519,14 +30494,16 @@ gt.bell.fish = [
     "name": "Lake Sphairai",
     "patch": 4.3,
     "bait": [
-      "Salmon Roe"
+      "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 23072,
     "icon": 29261,
     "func": "fish",
     "rarity": 1,
     "title": "The Comet's Tail",
     "category": "Freshwater Fishing",
+    "spot": 187,
     "lvl": 62,
     "coords": [
       13.91,
@@ -28553,6 +30530,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Comet's Tail",
     "category": "Freshwater Fishing",
+    "spot": 187,
     "lvl": 62,
     "coords": [
       13.91,
@@ -28565,14 +30543,16 @@ gt.bell.fish = [
     "name": "Velodyna Grass Carp",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20087,
     "icon": 29407,
     "func": "fish",
     "rarity": 1,
     "title": "The Velodyna River",
     "category": "Freshwater Fishing",
+    "spot": 188,
     "lvl": 61,
     "coords": [
       17.92,
@@ -28585,14 +30565,16 @@ gt.bell.fish = [
     "name": "Greenstream Loach",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20033,
     "icon": 29479,
     "func": "fish",
     "rarity": 1,
     "title": "The Velodyna River",
     "category": "Freshwater Fishing",
+    "spot": 188,
     "lvl": 61,
     "coords": [
       17.92,
@@ -28605,34 +30587,16 @@ gt.bell.fish = [
     "name": "Black Velodyna Carp",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20088,
     "icon": 29210,
     "func": "fish",
     "rarity": 1,
     "title": "The Velodyna River",
     "category": "Freshwater Fishing",
-    "lvl": 61,
-    "coords": [
-      17.92,
-      9.51
-    ],
-    "radius": 600,
-    "zone": "The Fringes"
-  },
-  {
-    "name": "Deep Velodyna Carp",
-    "patch": 4.0,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 17949,
-    "icon": 29210,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Velodyna River",
-    "category": "Freshwater Fishing",
+    "spot": 188,
     "lvl": 61,
     "coords": [
       17.92,
@@ -28645,7 +30609,7 @@ gt.bell.fish = [
     "name": "Velodyna Salmon",
     "patch": 4.1,
     "bait": [
-      "Nightcrawler"
+      "Metal Spinner"
     ],
     "hookset": "Powerful Hookset",
     "id": 20788,
@@ -28654,6 +30618,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Velodyna River",
     "category": "Freshwater Fishing",
+    "spot": 188,
     "lvl": 61,
     "coords": [
       17.92,
@@ -28672,12 +30637,36 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24208,
     "icon": 29536,
     "func": "fish",
     "rarity": 2,
     "title": "The Velodyna River",
     "category": "Freshwater Fishing",
+    "spot": 188,
+    "lvl": 61,
+    "coords": [
+      17.92,
+      9.51
+    ],
+    "radius": 600,
+    "zone": "The Fringes"
+  },
+  {
+    "name": "Deep Velodyna Carp",
+    "patch": 4.0,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 17949,
+    "icon": 29210,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Velodyna River",
+    "category": "Freshwater Fishing",
+    "spot": 188,
     "lvl": 61,
     "coords": [
       17.92,
@@ -28699,6 +30688,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 189,
     "lvl": 62,
     "coords": [
       27.53,
@@ -28713,12 +30703,14 @@ gt.bell.fish = [
     "bait": [
       "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20047,
     "icon": 29496,
     "func": "fish",
     "rarity": 1,
     "title": "Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 189,
     "lvl": 62,
     "coords": [
       27.53,
@@ -28740,6 +30732,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 189,
     "lvl": 62,
     "coords": [
       27.53,
@@ -28761,6 +30754,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 189,
     "lvl": 62,
     "coords": [
       27.53,
@@ -28787,6 +30781,29 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 189,
+    "lvl": 62,
+    "coords": [
+      27.53,
+      16.42
+    ],
+    "radius": 400,
+    "zone": "The Fringes"
+  },
+  {
+    "name": "Scarlet Frog",
+    "patch": 5.5,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33221,
+    "icon": 29228,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Mirage Creek",
+    "category": "Freshwater Fishing",
+    "spot": 189,
     "lvl": 62,
     "coords": [
       27.53,
@@ -28816,6 +30833,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Mirage Creek",
     "category": "Freshwater Fishing",
+    "spot": 189,
     "lvl": 62,
     "coords": [
       27.53,
@@ -28828,14 +30846,16 @@ gt.bell.fish = [
     "name": "Grymm Crab",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 20067,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "Grymm & Enid",
     "category": "Freshwater Fishing",
+    "spot": 190,
     "lvl": 61,
     "coords": [
       6.21,
@@ -28857,6 +30877,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Grymm & Enid",
     "category": "Freshwater Fishing",
+    "spot": 190,
     "lvl": 61,
     "coords": [
       6.21,
@@ -28869,14 +30890,16 @@ gt.bell.fish = [
     "name": "Curefish",
     "patch": 4.3,
     "bait": [
-      "Salmon Roe"
+      "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 23071,
     "icon": 29288,
     "func": "fish",
     "rarity": 1,
     "title": "Grymm & Enid",
     "category": "Freshwater Fishing",
+    "spot": 190,
     "lvl": 61,
     "coords": [
       6.21,
@@ -28902,6 +30925,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Grymm & Enid",
     "category": "Freshwater Fishing",
+    "spot": 190,
     "lvl": 61,
     "coords": [
       6.21,
@@ -28938,6 +30962,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Grymm & Enid",
     "category": "Freshwater Fishing",
+    "spot": 190,
     "lvl": 61,
     "coords": [
       6.21,
@@ -28950,7 +30975,7 @@ gt.bell.fish = [
     "name": "Idle Goby",
     "patch": 4.0,
     "bait": [
-      "Salmon Roe"
+      "Metal Spinner"
     ],
     "hookset": "Powerful Hookset",
     "id": 20045,
@@ -28959,6 +30984,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Slow Wash",
     "category": "Freshwater Fishing",
+    "spot": 191,
     "lvl": 61,
     "coords": [
       23.62,
@@ -28980,6 +31006,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Slow Wash",
     "category": "Freshwater Fishing",
+    "spot": 191,
     "lvl": 61,
     "coords": [
       23.62,
@@ -29001,6 +31028,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Slow Wash",
     "category": "Freshwater Fishing",
+    "spot": 191,
     "lvl": 61,
     "coords": [
       23.62,
@@ -29013,7 +31041,7 @@ gt.bell.fish = [
     "name": "Heather Charr",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Salmon Roe"
     ],
     "hookset": "Powerful Hookset",
     "id": 20050,
@@ -29022,6 +31050,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Ephor",
     "category": "Freshwater Fishing",
+    "spot": 193,
     "lvl": 70,
     "coords": [
       32.03,
@@ -29034,14 +31063,16 @@ gt.bell.fish = [
     "name": "Invisible Crayfish",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 20069,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Slow Wash",
     "category": "Freshwater Fishing",
+    "spot": 191,
     "lvl": 61,
     "coords": [
       23.62,
@@ -29056,12 +31087,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20069,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "The Bull's Bath",
     "category": "Freshwater Fishing",
+    "spot": 194,
     "lvl": 68,
     "coords": [
       20.58,
@@ -29089,6 +31122,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Slow Wash",
     "category": "Freshwater Fishing",
+    "spot": 191,
     "lvl": 61,
     "coords": [
       23.62,
@@ -29110,6 +31144,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Heather Falls",
     "category": "Freshwater Fishing",
+    "spot": 192,
     "lvl": 65,
     "coords": [
       32.63,
@@ -29122,7 +31157,7 @@ gt.bell.fish = [
     "name": "Abalathian Salamander",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Nightcrawler"
     ],
     "hookset": "Precision Hookset",
     "id": 20071,
@@ -29131,6 +31166,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Heather Falls",
     "category": "Freshwater Fishing",
+    "spot": 192,
     "lvl": 65,
     "coords": [
       32.63,
@@ -29143,7 +31179,7 @@ gt.bell.fish = [
     "name": "Steelshark",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Stonefly Larva"
     ],
     "weather": [
       "Clear Skies"
@@ -29155,6 +31191,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Heather Falls",
     "category": "Freshwater Fishing",
+    "spot": 192,
     "lvl": 65,
     "coords": [
       32.63,
@@ -29167,7 +31204,7 @@ gt.bell.fish = [
     "name": "Purple Buckler",
     "patch": 4.1,
     "bait": [
-      "Midge Larva"
+      "Metal Spinner"
     ],
     "hookset": "Powerful Hookset",
     "id": 20789,
@@ -29176,6 +31213,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Heather Falls",
     "category": "Freshwater Fishing",
+    "spot": 192,
     "lvl": 65,
     "coords": [
       32.63,
@@ -29204,6 +31242,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Heather Falls",
     "category": "Freshwater Fishing",
+    "spot": 192,
     "lvl": 65,
     "coords": [
       32.63,
@@ -29216,7 +31255,7 @@ gt.bell.fish = [
     "name": "Meditator",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Stonefly Larva"
     ],
     "hookset": "Powerful Hookset",
     "id": 20073,
@@ -29225,6 +31264,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Ephor",
     "category": "Freshwater Fishing",
+    "spot": 193,
     "lvl": 70,
     "coords": [
       32.03,
@@ -29237,7 +31277,13 @@ gt.bell.fish = [
     "name": "Meditator",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Stonefly Larva"
+    ],
+    "weather": [
+      "Clouds",
+      "Dust Storms",
+      "Fog",
+      "Wind"
     ],
     "hookset": "Powerful Hookset",
     "id": 20073,
@@ -29246,6 +31292,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Bull's Bath",
     "category": "Freshwater Fishing",
+    "spot": 194,
     "lvl": 68,
     "coords": [
       20.58,
@@ -29258,7 +31305,7 @@ gt.bell.fish = [
     "name": "Stonytongue",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Versatile Lure"
     ],
     "hookset": "Powerful Hookset",
     "id": 20075,
@@ -29267,6 +31314,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Ephor",
     "category": "Freshwater Fishing",
+    "spot": 193,
     "lvl": 70,
     "coords": [
       32.03,
@@ -29291,6 +31339,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Ephor",
     "category": "Freshwater Fishing",
+    "spot": 193,
     "lvl": 70,
     "coords": [
       32.03,
@@ -29315,12 +31364,14 @@ gt.bell.fish = [
       "Fog",
       "Dust Storms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24212,
     "icon": 29539,
     "func": "fish",
     "rarity": 2,
     "title": "The Ephor",
     "category": "Freshwater Fishing",
+    "spot": 193,
     "lvl": 70,
     "coords": [
       32.03,
@@ -29348,6 +31399,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Bull's Bath",
     "category": "Freshwater Fishing",
+    "spot": 194,
     "lvl": 68,
     "coords": [
       20.58,
@@ -29369,6 +31421,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Bull's Bath",
     "category": "Freshwater Fishing",
+    "spot": 194,
     "lvl": 68,
     "coords": [
       20.58,
@@ -29395,6 +31448,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Bull's Bath",
     "category": "Freshwater Fishing",
+    "spot": 194,
     "lvl": 68,
     "coords": [
       20.58,
@@ -29424,6 +31478,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Bull's Bath",
     "category": "Freshwater Fishing",
+    "spot": 194,
     "lvl": 68,
     "coords": [
       20.58,
@@ -29436,7 +31491,8 @@ gt.bell.fish = [
     "name": "Gigant Bass",
     "patch": 4.0,
     "bait": [
-      "Stonefly Larva"
+      "Midge Larva",
+      "Gyr Abanian Trout"
     ],
     "hookset": "Powerful Hookset",
     "id": 20079,
@@ -29445,6 +31501,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Arms of Meed",
     "category": "Freshwater Fishing",
+    "spot": 195,
     "lvl": 70,
     "coords": [
       9.21,
@@ -29470,6 +31527,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Arms of Meed",
     "category": "Freshwater Fishing",
+    "spot": 195,
     "lvl": 70,
     "coords": [
       9.21,
@@ -29482,7 +31540,8 @@ gt.bell.fish = [
     "name": "Scimitarfish",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Midge Larva",
+      "Gyr Abanian Trout"
     ],
     "hookset": "Powerful Hookset",
     "id": 20078,
@@ -29491,6 +31550,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Arms of Meed",
     "category": "Freshwater Fishing",
+    "spot": 195,
     "lvl": 70,
     "coords": [
       9.21,
@@ -29503,7 +31563,7 @@ gt.bell.fish = [
     "name": "Ala Mhigan Ribbon",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Stonefly Larva"
     ],
     "hookset": "Precision Hookset",
     "id": 20019,
@@ -29512,6 +31572,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Arms of Meed",
     "category": "Freshwater Fishing",
+    "spot": 195,
     "lvl": 70,
     "coords": [
       9.21,
@@ -29537,12 +31598,14 @@ gt.bell.fish = [
       "Fog",
       "Wind"
     ],
+    "hookset": "Precision Hookset",
     "id": 21175,
     "icon": 29516,
     "func": "fish",
     "rarity": 1,
     "title": "The Arms of Meed",
     "category": "Freshwater Fishing",
+    "spot": 195,
     "lvl": 70,
     "coords": [
       9.21,
@@ -29571,6 +31634,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Arms of Meed",
     "category": "Freshwater Fishing",
+    "spot": 195,
     "lvl": 70,
     "coords": [
       9.21,
@@ -29592,6 +31656,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Loch Seld",
     "category": "Saltfishing",
+    "spot": 196,
     "lvl": 70,
     "coords": [
       21.52,
@@ -29613,6 +31678,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Loch Seld",
     "category": "Saltfishing",
+    "spot": 196,
     "lvl": 70,
     "coords": [
       21.52,
@@ -29634,6 +31700,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Loch Seld",
     "category": "Saltfishing",
+    "spot": 196,
     "lvl": 70,
     "coords": [
       21.52,
@@ -29656,6 +31723,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Loch Seld",
     "category": "Saltfishing",
+    "spot": 196,
     "lvl": 70,
     "coords": [
       21.52,
@@ -29680,12 +31748,14 @@ gt.bell.fish = [
     "weather": [
       "Thunderstorms"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20040,
     "icon": 29922,
     "func": "fish",
     "rarity": 1,
     "title": "Loch Seld",
     "category": "Saltfishing",
+    "spot": 196,
     "lvl": 70,
     "coords": [
       21.52,
@@ -29713,6 +31783,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Loch Seld",
     "category": "Saltfishing",
+    "spot": 196,
     "lvl": 70,
     "coords": [
       21.52,
@@ -29740,6 +31811,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Loch Seld",
     "category": "Saltfishing",
+    "spot": 196,
     "lvl": 70,
     "coords": [
       21.52,
@@ -29782,6 +31854,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Loch Seld",
     "category": "Saltfishing",
+    "spot": 196,
     "lvl": 70,
     "coords": [
       21.52,
@@ -29796,12 +31869,14 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20092,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "The Ruby Price",
     "category": "Ocean Fishing",
+    "spot": 158,
     "lvl": 62,
     "coords": [
       38.44,
@@ -29814,14 +31889,16 @@ gt.bell.fish = [
     "name": "Grinning Anchovy",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 20092,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
     "category": "Ocean Fishing",
+    "spot": 159,
     "lvl": 62,
     "coords": [
       25.82,
@@ -29836,12 +31913,14 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20092,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
     "category": "Ocean Fishing",
+    "spot": 160,
     "lvl": 65,
     "coords": [
       34.63,
@@ -29856,12 +31935,14 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20092,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
     "category": "Ocean Fishing",
+    "spot": 161,
     "lvl": 63,
     "coords": [
       32.63,
@@ -29876,12 +31957,14 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20092,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Kugane Piers",
     "category": "Ocean Fishing",
+    "spot": 157,
     "lvl": 63,
     "coords": [
       10.51,
@@ -29896,12 +31979,14 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20092,
     "icon": 29034,
     "func": "fish",
     "rarity": 1,
     "title": "Shirogane",
     "category": "Ocean Fishing",
+    "spot": 197,
     "lvl": 63,
     "coords": [
       8.51,
@@ -29914,14 +31999,16 @@ gt.bell.fish = [
     "name": "Glass Herring",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp"
+      "Bream Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20093,
     "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "The Ruby Price",
     "category": "Ocean Fishing",
+    "spot": 158,
     "lvl": 62,
     "coords": [
       38.44,
@@ -29934,14 +32021,16 @@ gt.bell.fish = [
     "name": "Glass Herring",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp"
+      "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20093,
     "icon": 29044,
     "func": "fish",
     "rarity": 1,
     "title": "Isari",
     "category": "Ocean Fishing",
+    "spot": 163,
     "lvl": 64,
     "coords": [
       9.01,
@@ -29954,7 +32043,7 @@ gt.bell.fish = [
     "name": "Coeurl Snake Eel",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp"
+      "Bream Lure"
     ],
     "hookset": "Powerful Hookset",
     "id": 20037,
@@ -29963,6 +32052,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Ruby Price",
     "category": "Ocean Fishing",
+    "spot": 158,
     "lvl": 62,
     "coords": [
       38.44,
@@ -29975,7 +32065,7 @@ gt.bell.fish = [
     "name": "Coral Horse",
     "patch": 4.1,
     "bait": [
-      "Live Shrimp"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 20786,
@@ -29984,6 +32074,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Ruby Price",
     "category": "Ocean Fishing",
+    "spot": 158,
     "lvl": 62,
     "coords": [
       38.44,
@@ -30016,6 +32107,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Ruby Price",
     "category": "Ocean Fishing",
+    "spot": 158,
     "lvl": 62,
     "coords": [
       38.44,
@@ -30049,6 +32141,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Ruby Price",
     "category": "Ocean Fishing",
+    "spot": 158,
     "lvl": 62,
     "coords": [
       38.44,
@@ -30063,12 +32156,14 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20094,
     "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
     "category": "Ocean Fishing",
+    "spot": 159,
     "lvl": 62,
     "coords": [
       25.82,
@@ -30083,12 +32178,14 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20094,
     "icon": 29005,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
     "category": "Ocean Fishing",
+    "spot": 160,
     "lvl": 65,
     "coords": [
       34.63,
@@ -30101,14 +32198,16 @@ gt.bell.fish = [
     "name": "Ruby Shrimp",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 20112,
     "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
     "category": "Ocean Fishing",
+    "spot": 159,
     "lvl": 62,
     "coords": [
       25.82,
@@ -30123,12 +32222,14 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20112,
     "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
     "category": "Ocean Fishing",
+    "spot": 160,
     "lvl": 65,
     "coords": [
       34.63,
@@ -30143,12 +32244,14 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20112,
     "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Onokoro",
     "category": "Ocean Fishing",
+    "spot": 162,
     "lvl": 64,
     "coords": [
       22.02,
@@ -30161,14 +32264,16 @@ gt.bell.fish = [
     "name": "Ruby Shrimp",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 20112,
     "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Zekki",
     "category": "Ocean Fishing",
+    "spot": 164,
     "lvl": 70,
     "coords": [
       8.31,
@@ -30183,12 +32288,14 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20112,
     "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Kugane Piers",
     "category": "Ocean Fishing",
+    "spot": 157,
     "lvl": 63,
     "coords": [
       10.51,
@@ -30203,12 +32310,14 @@ gt.bell.fish = [
     "bait": [
       "Live Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 20112,
     "icon": 29008,
     "func": "fish",
     "rarity": 1,
     "title": "Shirogane",
     "category": "Ocean Fishing",
+    "spot": 197,
     "lvl": 63,
     "coords": [
       8.51,
@@ -30221,15 +32330,17 @@ gt.bell.fish = [
     "name": "Blockhead",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp",
+      "Metal Spinner",
       "Ruby Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20109,
     "icon": 29019,
     "func": "fish",
     "rarity": 1,
     "title": "Hells' Lid",
     "category": "Ocean Fishing",
+    "spot": 159,
     "lvl": 62,
     "coords": [
       25.82,
@@ -30243,7 +32354,7 @@ gt.bell.fish = [
     "patch": 4.0,
     "folklore": 1,
     "bait": [
-      "Live Shrimp",
+      "Metal Spinner",
       "Ruby Shrimp"
     ],
     "weather": [
@@ -30256,6 +32367,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hells' Lid",
     "category": "Ocean Fishing",
+    "spot": 159,
     "lvl": 62,
     "coords": [
       25.82,
@@ -30285,6 +32397,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hells' Lid",
     "category": "Ocean Fishing",
+    "spot": 159,
     "lvl": 62,
     "coords": [
       25.82,
@@ -30298,7 +32411,7 @@ gt.bell.fish = [
     "patch": 4.3,
     "folklore": 1,
     "bait": [
-      "Live Shrimp",
+      "Metal Spinner",
       "Ruby Shrimp"
     ],
     "hookset": "Powerful Hookset",
@@ -30308,6 +32421,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hells' Lid",
     "category": "Ocean Fishing",
+    "spot": 159,
     "lvl": 62,
     "coords": [
       25.82,
@@ -30320,7 +32434,7 @@ gt.bell.fish = [
     "name": "Wicked Wartfish",
     "patch": 4.5,
     "bait": [
-      "Bream Lure"
+      "Metal Spinner"
     ],
     "hookset": "Powerful Hookset",
     "id": 24560,
@@ -30329,6 +32443,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hells' Lid",
     "category": "Ocean Fishing",
+    "spot": 159,
     "lvl": 62,
     "coords": [
       25.82,
@@ -30342,7 +32457,7 @@ gt.bell.fish = [
     "patch": 4.5,
     "folklore": 1,
     "bait": [
-      "Live Shrimp",
+      "Metal Spinner",
       "Ruby Shrimp"
     ],
     "during": {
@@ -30359,6 +32474,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Hells' Lid",
     "category": "Ocean Fishing",
+    "spot": 159,
     "lvl": 62,
     "coords": [
       25.82,
@@ -30371,15 +32487,16 @@ gt.bell.fish = [
     "name": "Dafu",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp",
-      "Ruby Shrimp"
+      "Bream Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20099,
     "icon": 29021,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
     "category": "Ocean Fishing",
+    "spot": 160,
     "lvl": 65,
     "coords": [
       34.63,
@@ -30395,12 +32512,14 @@ gt.bell.fish = [
       "Live Shrimp",
       "Ruby Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20110,
     "icon": 29018,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Bekko",
     "category": "Ocean Fishing",
+    "spot": 160,
     "lvl": 65,
     "coords": [
       34.63,
@@ -30416,12 +32535,14 @@ gt.bell.fish = [
       "Live Shrimp",
       "Ruby Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20110,
     "icon": 29018,
     "func": "fish",
     "rarity": 1,
     "title": "Kugane Piers",
     "category": "Ocean Fishing",
+    "spot": 157,
     "lvl": 63,
     "coords": [
       10.51,
@@ -30437,12 +32558,14 @@ gt.bell.fish = [
       "Live Shrimp",
       "Ruby Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20110,
     "icon": 29018,
     "func": "fish",
     "rarity": 1,
     "title": "Shirogane",
     "category": "Ocean Fishing",
+    "spot": 197,
     "lvl": 63,
     "coords": [
       8.51,
@@ -30472,6 +32595,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Isle of Bekko",
     "category": "Ocean Fishing",
+    "spot": 160,
     "lvl": 65,
     "coords": [
       34.63,
@@ -30495,6 +32619,29 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Isle of Bekko",
     "category": "Ocean Fishing",
+    "spot": 160,
+    "lvl": 65,
+    "coords": [
+      34.63,
+      20.22
+    ],
+    "radius": 2000,
+    "zone": "The Ruby Sea"
+  },
+  {
+    "name": "Fatty Herring",
+    "patch": 5.3,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 30491,
+    "icon": 29044,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Isle of Bekko",
+    "category": "Ocean Fishing",
+    "spot": 160,
     "lvl": 65,
     "coords": [
       34.63,
@@ -30520,32 +32667,14 @@ gt.bell.fish = [
     "transition": [
       "Thunder"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24883,
     "icon": 29163,
     "func": "fish",
     "rarity": 2,
     "title": "The Isle of Bekko",
     "category": "Ocean Fishing",
-    "lvl": 65,
-    "coords": [
-      34.63,
-      20.22
-    ],
-    "radius": 2000,
-    "zone": "The Ruby Sea"
-  },
-  {
-    "name": "Fatty Herring",
-    "patch": 5.3,
-    "bait": [
-      "Metal Spinner"
-    ],
-    "id": 30491,
-    "icon": 29044,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Isle of Bekko",
-    "category": "Ocean Fishing",
+    "spot": 160,
     "lvl": 65,
     "coords": [
       34.63,
@@ -30559,14 +32688,16 @@ gt.bell.fish = [
     "patch": 4.0,
     "snagging": 1,
     "bait": [
-      "Live Shrimp"
+      "Bream Lure"
     ],
+    "hookset": "Precision Hookset",
     "id": 20095,
     "icon": 29060,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
     "category": "Ocean Fishing",
+    "spot": 161,
     "lvl": 63,
     "coords": [
       32.63,
@@ -30580,14 +32711,16 @@ gt.bell.fish = [
     "patch": 4.0,
     "snagging": 1,
     "bait": [
-      "Live Shrimp"
+      "Bream Lure"
     ],
+    "hookset": "Precision Hookset",
     "id": 20096,
     "icon": 29061,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
     "category": "Ocean Fishing",
+    "spot": 161,
     "lvl": 63,
     "coords": [
       32.63,
@@ -30601,14 +32734,16 @@ gt.bell.fish = [
     "patch": 4.0,
     "snagging": 1,
     "bait": [
-      "Live Shrimp"
+      "Bream Lure"
     ],
+    "hookset": "Precision Hookset",
     "id": 20097,
     "icon": 29062,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
     "category": "Ocean Fishing",
+    "spot": 161,
     "lvl": 63,
     "coords": [
       32.63,
@@ -30623,12 +32758,14 @@ gt.bell.fish = [
     "bait": [
       "Blue Bobbit"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20098,
     "icon": 29016,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
     "category": "Ocean Fishing",
+    "spot": 161,
     "lvl": 63,
     "coords": [
       32.63,
@@ -30644,13 +32781,14 @@ gt.bell.fish = [
     "bait": [
       "Blue Bobbit"
     ],
-    "hookset": "Precision Hookset",
+    "hookset": "Powerful Hookset",
     "id": 20048,
     "icon": 29139,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
     "category": "Ocean Fishing",
+    "spot": 161,
     "lvl": 63,
     "coords": [
       32.63,
@@ -30672,6 +32810,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Shoal Rock",
     "category": "Ocean Fishing",
+    "spot": 161,
     "lvl": 63,
     "coords": [
       32.63,
@@ -30684,14 +32823,16 @@ gt.bell.fish = [
     "name": "Ruby Laver",
     "patch": 4.5,
     "bait": [
-      "Live Shrimp"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 24558,
     "icon": 29063,
     "func": "fish",
     "rarity": 1,
     "title": "Shoal Rock",
     "category": "Ocean Fishing",
+    "spot": 161,
     "lvl": 63,
     "coords": [
       32.63,
@@ -30711,12 +32852,14 @@ gt.bell.fish = [
       "start": 16,
       "end": 20
     },
+    "hookset": "Powerful Hookset",
     "id": 23065,
     "icon": 29157,
     "func": "fish",
     "rarity": 2,
     "title": "Shoal Rock",
     "category": "Ocean Fishing",
+    "spot": 161,
     "lvl": 63,
     "coords": [
       32.63,
@@ -30729,15 +32872,16 @@ gt.bell.fish = [
     "name": "Leaf Tatsunoko",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp",
-      "Ruby Shrimp"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 20101,
     "icon": 29053,
     "func": "fish",
     "rarity": 1,
     "title": "Onokoro",
     "category": "Ocean Fishing",
+    "spot": 162,
     "lvl": 64,
     "coords": [
       22.02,
@@ -30750,15 +32894,16 @@ gt.bell.fish = [
     "name": "Glass Flounder",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp",
-      "Ruby Shrimp"
+      "Bream Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20102,
     "icon": 29052,
     "func": "fish",
     "rarity": 1,
     "title": "Onokoro",
     "category": "Ocean Fishing",
+    "spot": 162,
     "lvl": 64,
     "coords": [
       22.02,
@@ -30781,6 +32926,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Onokoro",
     "category": "Ocean Fishing",
+    "spot": 162,
     "lvl": 64,
     "coords": [
       22.02,
@@ -30812,6 +32958,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Onokoro",
     "category": "Ocean Fishing",
+    "spot": 162,
     "lvl": 64,
     "coords": [
       22.02,
@@ -30833,6 +32980,29 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Onokoro",
     "category": "Ocean Fishing",
+    "spot": 162,
+    "lvl": 64,
+    "coords": [
+      22.02,
+      11.01
+    ],
+    "radius": 1000,
+    "zone": "The Ruby Sea"
+  },
+  {
+    "name": "Hook Fish",
+    "patch": 5.3,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 30489,
+    "icon": 29009,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Onokoro",
+    "category": "Ocean Fishing",
+    "spot": 162,
     "lvl": 64,
     "coords": [
       22.02,
@@ -30859,26 +33029,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Onokoro",
     "category": "Ocean Fishing",
-    "lvl": 64,
-    "coords": [
-      22.02,
-      11.01
-    ],
-    "radius": 1000,
-    "zone": "The Ruby Sea"
-  },
-  {
-    "name": "Hook Fish",
-    "patch": 5.3,
-    "bait": [
-      "Metal Spinner"
-    ],
-    "id": 30489,
-    "icon": 29009,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Onokoro",
-    "category": "Ocean Fishing",
+    "spot": 162,
     "lvl": 64,
     "coords": [
       22.02,
@@ -30900,6 +33051,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isari",
     "category": "Ocean Fishing",
+    "spot": 163,
     "lvl": 64,
     "coords": [
       9.01,
@@ -30912,7 +33064,7 @@ gt.bell.fish = [
     "name": "Globefish",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp"
+      "Metal Spinner"
     ],
     "hookset": "Powerful Hookset",
     "id": 20107,
@@ -30921,6 +33073,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isari",
     "category": "Ocean Fishing",
+    "spot": 163,
     "lvl": 64,
     "coords": [
       9.01,
@@ -30943,6 +33096,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isari",
     "category": "Ocean Fishing",
+    "spot": 163,
     "lvl": 64,
     "coords": [
       9.01,
@@ -30955,7 +33109,7 @@ gt.bell.fish = [
     "name": "Ruby Meagre",
     "patch": 4.0,
     "bait": [
-      "Bream Lure"
+      "Blue Bobbit"
     ],
     "hookset": "Powerful Hookset",
     "id": 20032,
@@ -30964,6 +33118,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isari",
     "category": "Ocean Fishing",
+    "spot": 163,
     "lvl": 64,
     "coords": [
       9.01,
@@ -30990,6 +33145,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Isari",
     "category": "Ocean Fishing",
+    "spot": 163,
     "lvl": 64,
     "coords": [
       9.01,
@@ -31002,14 +33158,16 @@ gt.bell.fish = [
     "name": "Shirogane Clam",
     "patch": 4.3,
     "bait": [
-      "Live Shrimp"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 23074,
     "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "Isari",
     "category": "Ocean Fishing",
+    "spot": 163,
     "lvl": 64,
     "coords": [
       9.01,
@@ -31036,12 +33194,14 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24884,
     "icon": 29087,
     "func": "fish",
     "rarity": 2,
     "title": "Isari",
     "category": "Ocean Fishing",
+    "spot": 163,
     "lvl": 64,
     "coords": [
       9.01,
@@ -31054,8 +33214,7 @@ gt.bell.fish = [
     "name": "Daio Squid",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp",
-      "Ruby Shrimp"
+      "Bream Lure"
     ],
     "hookset": "Powerful Hookset",
     "id": 20104,
@@ -31064,6 +33223,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Isle of Zekki",
     "category": "Ocean Fishing",
+    "spot": 164,
     "lvl": 70,
     "coords": [
       8.31,
@@ -31076,8 +33236,7 @@ gt.bell.fish = [
     "name": "Koromo Octopus",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp",
-      "Ruby Shrimp"
+      "Bream Lure"
     ],
     "hookset": "Powerful Hookset",
     "id": 20105,
@@ -31086,6 +33245,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Isle of Zekki",
     "category": "Ocean Fishing",
+    "spot": 164,
     "lvl": 70,
     "coords": [
       8.31,
@@ -31098,15 +33258,16 @@ gt.bell.fish = [
     "name": "Zekki Grouper",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp",
-      "Ruby Shrimp"
+      "Blue Bobbit"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20038,
     "icon": 29133,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Zekki",
     "category": "Ocean Fishing",
+    "spot": 164,
     "lvl": 70,
     "coords": [
       8.31,
@@ -31119,7 +33280,7 @@ gt.bell.fish = [
     "name": "Zekki Gator",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp",
+      "Metal Spinner",
       "Ruby Shrimp"
     ],
     "hookset": "Powerful Hookset",
@@ -31129,6 +33290,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Isle of Zekki",
     "category": "Ocean Fishing",
+    "spot": 164,
     "lvl": 70,
     "coords": [
       8.31,
@@ -31142,7 +33304,7 @@ gt.bell.fish = [
     "patch": 4.3,
     "folklore": 1,
     "bait": [
-      "Live Shrimp",
+      "Metal Spinner",
       "Ruby Shrimp"
     ],
     "weather": [
@@ -31155,6 +33317,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Isle of Zekki",
     "category": "Ocean Fishing",
+    "spot": 164,
     "lvl": 70,
     "coords": [
       8.31,
@@ -31167,14 +33330,16 @@ gt.bell.fish = [
     "name": "Doman Trout",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20123,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The Heron's Nest",
     "category": "Freshwater Fishing",
+    "spot": 165,
     "lvl": 64,
     "coords": [
       34.83,
@@ -31189,12 +33354,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20123,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The Heron's Way",
     "category": "Freshwater Fishing",
+    "spot": 166,
     "lvl": 64,
     "coords": [
       35.83,
@@ -31207,14 +33374,16 @@ gt.bell.fish = [
     "name": "Doman Trout",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20123,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (East)",
     "category": "Freshwater Fishing",
+    "spot": 172,
     "lvl": 65,
     "coords": [
       20.02,
@@ -31229,12 +33398,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20123,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (West)",
     "category": "Freshwater Fishing",
+    "spot": 173,
     "lvl": 70,
     "coords": [
       11.01,
@@ -31249,12 +33420,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20123,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "Plum Spring",
     "category": "Freshwater Fishing",
+    "spot": 174,
     "lvl": 70,
     "coords": [
       36.03,
@@ -31267,14 +33440,16 @@ gt.bell.fish = [
     "name": "Doman Trout",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20123,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Canyon",
     "category": "Freshwater Fishing",
+    "spot": 169,
     "lvl": 67,
     "coords": [
       31.73,
@@ -31289,12 +33464,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20123,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "Mercantile Docks",
     "category": "Freshwater Fishing",
+    "spot": 171,
     "lvl": 67,
     "coords": [
       11.41,
@@ -31309,12 +33486,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20123,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "Doma Castle",
     "category": "Freshwater Fishing",
+    "spot": 170,
     "lvl": 67,
     "coords": [
       14.41,
@@ -31329,12 +33508,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20123,
     "icon": 29240,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Canal",
     "category": "Freshwater Fishing",
+    "spot": 198,
     "lvl": 65,
     "coords": [
       10.71,
@@ -31347,7 +33528,7 @@ gt.bell.fish = [
     "name": "Doman Crayfish",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Stonefly Larva"
     ],
     "hookset": "Precision Hookset",
     "id": 20111,
@@ -31356,6 +33537,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Heron's Nest",
     "category": "Freshwater Fishing",
+    "spot": 165,
     "lvl": 64,
     "coords": [
       34.83,
@@ -31377,6 +33559,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Heron's Way",
     "category": "Freshwater Fishing",
+    "spot": 166,
     "lvl": 64,
     "coords": [
       35.83,
@@ -31389,7 +33572,7 @@ gt.bell.fish = [
     "name": "Doman Crayfish",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Stonefly Larva"
     ],
     "hookset": "Precision Hookset",
     "id": 20111,
@@ -31398,6 +33581,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Prism Canyon",
     "category": "Freshwater Fishing",
+    "spot": 169,
     "lvl": 67,
     "coords": [
       31.73,
@@ -31410,7 +33594,7 @@ gt.bell.fish = [
     "name": "Maiden's Heart",
     "patch": 4.1,
     "bait": [
-      "Nightcrawler"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 20787,
@@ -31419,6 +33603,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Heron's Nest",
     "category": "Freshwater Fishing",
+    "spot": 165,
     "lvl": 64,
     "coords": [
       34.83,
@@ -31445,6 +33630,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Heron's Nest",
     "category": "Freshwater Fishing",
+    "spot": 165,
     "lvl": 64,
     "coords": [
       34.83,
@@ -31457,7 +33643,7 @@ gt.bell.fish = [
     "name": "River Barramundi",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Versatile Lure"
     ],
     "hookset": "Powerful Hookset",
     "id": 20046,
@@ -31466,6 +33652,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Heron's Way",
     "category": "Freshwater Fishing",
+    "spot": 166,
     "lvl": 64,
     "coords": [
       35.83,
@@ -31487,12 +33674,14 @@ gt.bell.fish = [
     "transition": [
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24886,
     "icon": 29544,
     "func": "fish",
     "rarity": 2,
     "title": "The Heron's Way",
     "category": "Freshwater Fishing",
+    "spot": 166,
     "lvl": 64,
     "coords": [
       35.83,
@@ -31514,6 +33703,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Namai",
     "category": "Freshwater Fishing",
+    "spot": 167,
     "lvl": 64,
     "coords": [
       29.53,
@@ -31535,6 +33725,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Silver Canal",
     "category": "Freshwater Fishing",
+    "spot": 198,
     "lvl": 65,
     "coords": [
       10.71,
@@ -31564,6 +33755,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Namai",
     "category": "Freshwater Fishing",
+    "spot": 167,
     "lvl": 64,
     "coords": [
       29.53,
@@ -31576,7 +33768,7 @@ gt.bell.fish = [
     "name": "Yanxian Koi",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Stonefly Larva"
     ],
     "hookset": "Powerful Hookset",
     "id": 20118,
@@ -31585,6 +33777,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The One River (East)",
     "category": "Freshwater Fishing",
+    "spot": 172,
     "lvl": 65,
     "coords": [
       20.02,
@@ -31606,6 +33799,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The One River (East)",
     "category": "Freshwater Fishing",
+    "spot": 172,
     "lvl": 65,
     "coords": [
       20.02,
@@ -31618,7 +33812,7 @@ gt.bell.fish = [
     "name": "Longhair Catfish",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Stonefly Larva"
     ],
     "hookset": "Powerful Hookset",
     "id": 20120,
@@ -31627,6 +33821,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The One River (West)",
     "category": "Freshwater Fishing",
+    "spot": 173,
     "lvl": 70,
     "coords": [
       11.01,
@@ -31639,7 +33834,7 @@ gt.bell.fish = [
     "name": "Yanxian Barramundi",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Stonefly Larva"
     ],
     "hookset": "Powerful Hookset",
     "id": 20020,
@@ -31648,6 +33843,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The One River (East)",
     "category": "Freshwater Fishing",
+    "spot": 172,
     "lvl": 65,
     "coords": [
       20.02,
@@ -31662,12 +33858,14 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20119,
     "icon": 29224,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (East)",
     "category": "Freshwater Fishing",
+    "spot": 172,
     "lvl": 65,
     "coords": [
       20.02,
@@ -31680,14 +33878,16 @@ gt.bell.fish = [
     "name": "Kotsu Zetsu",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Stonefly Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20119,
     "icon": 29224,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (West)",
     "category": "Freshwater Fishing",
+    "spot": 173,
     "lvl": 70,
     "coords": [
       11.01,
@@ -31700,14 +33900,16 @@ gt.bell.fish = [
     "name": "Kotsu Zetsu",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20119,
     "icon": 29224,
     "func": "fish",
     "rarity": 1,
     "title": "Plum Spring",
     "category": "Freshwater Fishing",
+    "spot": 174,
     "lvl": 70,
     "coords": [
       36.03,
@@ -31720,14 +33922,16 @@ gt.bell.fish = [
     "name": "Kotsu Zetsu",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20119,
     "icon": 29224,
     "func": "fish",
     "rarity": 1,
     "title": "Mercantile Docks",
     "category": "Freshwater Fishing",
+    "spot": 171,
     "lvl": 67,
     "coords": [
       11.41,
@@ -31740,14 +33944,16 @@ gt.bell.fish = [
     "name": "Othardian Salmon",
     "patch": 4.5,
     "bait": [
-      "Nightcrawler"
+      "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24561,
     "icon": 29203,
     "func": "fish",
     "rarity": 1,
     "title": "The One River (East)",
     "category": "Freshwater Fishing",
+    "spot": 172,
     "lvl": 65,
     "coords": [
       20.02,
@@ -31773,12 +33979,14 @@ gt.bell.fish = [
     "transition": [
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24889,
     "icon": 29546,
     "func": "fish",
     "rarity": 2,
     "title": "The One River (East)",
     "category": "Freshwater Fishing",
+    "spot": 172,
     "lvl": 65,
     "coords": [
       20.02,
@@ -31791,7 +33999,7 @@ gt.bell.fish = [
     "name": "Seraphim",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Versatile Lure"
     ],
     "during": {
       "start": 16,
@@ -31804,6 +34012,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The One River (West)",
     "category": "Freshwater Fishing",
+    "spot": 173,
     "lvl": 70,
     "coords": [
       11.01,
@@ -31833,6 +34042,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The One River (West)",
     "category": "Freshwater Fishing",
+    "spot": 173,
     "lvl": 70,
     "coords": [
       11.01,
@@ -31858,6 +34068,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Plum Spring",
     "category": "Freshwater Fishing",
+    "spot": 174,
     "lvl": 70,
     "coords": [
       36.03,
@@ -31884,6 +34095,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Plum Spring",
     "category": "Freshwater Fishing",
+    "spot": 174,
     "lvl": 70,
     "coords": [
       36.03,
@@ -31898,12 +34110,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20121,
     "icon": 29401,
     "func": "fish",
     "rarity": 1,
     "title": "Plum Spring",
     "category": "Freshwater Fishing",
+    "spot": 174,
     "lvl": 70,
     "coords": [
       36.03,
@@ -31925,6 +34139,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Plum Spring",
     "category": "Freshwater Fishing",
+    "spot": 174,
     "lvl": 70,
     "coords": [
       36.03,
@@ -31944,12 +34159,14 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 23068,
     "icon": 29528,
     "func": "fish",
     "rarity": 2,
     "title": "Plum Spring",
     "category": "Freshwater Fishing",
+    "spot": 174,
     "lvl": 70,
     "coords": [
       36.03,
@@ -31962,14 +34179,16 @@ gt.bell.fish = [
     "name": "Doman Eel",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Versatile Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20124,
     "icon": 29257,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Canyon",
     "category": "Freshwater Fishing",
+    "spot": 169,
     "lvl": 67,
     "coords": [
       31.73,
@@ -31999,6 +34218,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Prism Canyon",
     "category": "Freshwater Fishing",
+    "spot": 169,
     "lvl": 67,
     "coords": [
       31.73,
@@ -32013,12 +34233,14 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20052,
     "icon": 29458,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
     "category": "Freshwater Fishing",
+    "spot": 168,
     "lvl": 67,
     "coords": [
       28.63,
@@ -32033,12 +34255,14 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20053,
     "icon": 29459,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
     "category": "Freshwater Fishing",
+    "spot": 168,
     "lvl": 67,
     "coords": [
       28.63,
@@ -32065,6 +34289,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Prism Lake",
     "category": "Freshwater Fishing",
+    "spot": 168,
     "lvl": 67,
     "coords": [
       28.63,
@@ -32091,6 +34316,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Prism Lake",
     "category": "Freshwater Fishing",
+    "spot": 168,
     "lvl": 67,
     "coords": [
       28.63,
@@ -32111,12 +34337,14 @@ gt.bell.fish = [
       "start": 4,
       "end": 8
     },
+    "hookset": "Powerful Hookset",
     "id": 23055,
     "icon": 29407,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
     "category": "Freshwater Fishing",
+    "spot": 168,
     "lvl": 67,
     "coords": [
       28.63,
@@ -32144,6 +34372,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Prism Lake",
     "category": "Freshwater Fishing",
+    "spot": 168,
     "lvl": 67,
     "coords": [
       28.63,
@@ -32171,6 +34400,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Prism Lake",
     "category": "Freshwater Fishing",
+    "spot": 168,
     "lvl": 67,
     "coords": [
       28.63,
@@ -32197,12 +34427,14 @@ gt.bell.fish = [
     "transition": [
       "Fair Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 24204,
     "icon": 29532,
     "func": "fish",
     "rarity": 1,
     "title": "Prism Lake",
     "category": "Freshwater Fishing",
+    "spot": 168,
     "lvl": 67,
     "coords": [
       28.63,
@@ -32260,12 +34492,14 @@ gt.bell.fish = [
     "transition": [
       "Fair Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 24994,
     "icon": 29550,
     "func": "fish",
     "rarity": 2,
     "title": "Prism Lake",
     "category": "Freshwater Fishing",
+    "spot": 168,
     "lvl": 67,
     "coords": [
       28.63,
@@ -32291,6 +34525,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Mercantile Docks",
     "category": "Freshwater Fishing",
+    "spot": 171,
     "lvl": 67,
     "coords": [
       11.41,
@@ -32303,14 +34538,38 @@ gt.bell.fish = [
     "name": "Lordly Salmon",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Versatile Lure"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20117,
     "icon": 29282,
     "func": "fish",
     "rarity": 1,
     "title": "Mercantile Docks",
     "category": "Freshwater Fishing",
+    "spot": 171,
+    "lvl": 67,
+    "coords": [
+      11.41,
+      14.01
+    ],
+    "radius": 1000,
+    "zone": "Yanxia"
+  },
+  {
+    "name": "White Clam",
+    "patch": 5.5,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33222,
+    "icon": 28437,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Mercantile Docks",
+    "category": "Freshwater Fishing",
+    "spot": 171,
     "lvl": 67,
     "coords": [
       11.41,
@@ -32343,6 +34602,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Mercantile Docks",
     "category": "Freshwater Fishing",
+    "spot": 171,
     "lvl": 67,
     "coords": [
       11.41,
@@ -32355,7 +34615,7 @@ gt.bell.fish = [
     "name": "Samurai Fish",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Versatile Lure"
     ],
     "hookset": "Precision Hookset",
     "id": 20028,
@@ -32364,6 +34624,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Doma Castle",
     "category": "Freshwater Fishing",
+    "spot": 170,
     "lvl": 67,
     "coords": [
       14.41,
@@ -32378,12 +34639,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20115,
     "icon": 29403,
     "func": "fish",
     "rarity": 1,
     "title": "Doma Castle",
     "category": "Freshwater Fishing",
+    "spot": 170,
     "lvl": 67,
     "coords": [
       14.41,
@@ -32396,14 +34659,16 @@ gt.bell.fish = [
     "name": "Dragonfish",
     "patch": 4.0,
     "bait": [
-      "Suspending Minnow"
+      "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20116,
     "icon": 29243,
     "func": "fish",
     "rarity": 1,
     "title": "Doma Castle",
     "category": "Freshwater Fishing",
+    "spot": 170,
     "lvl": 67,
     "coords": [
       14.41,
@@ -32429,6 +34694,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Doma Castle",
     "category": "Freshwater Fishing",
+    "spot": 170,
     "lvl": 67,
     "coords": [
       14.41,
@@ -32448,12 +34714,14 @@ gt.bell.fish = [
       "start": 12,
       "end": 14
     },
+    "hookset": "Precision Hookset",
     "id": 23067,
     "icon": 29527,
     "func": "fish",
     "rarity": 2,
     "title": "Doma Castle",
     "category": "Freshwater Fishing",
+    "spot": 170,
     "lvl": 67,
     "coords": [
       14.41,
@@ -32478,6 +34746,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Nem Khaal",
     "category": "Freshwater Fishing",
+    "spot": 175,
     "lvl": 60,
     "coords": [
       32.43,
@@ -32502,6 +34771,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Silver Canal",
     "category": "Freshwater Fishing",
+    "spot": 198,
     "lvl": 65,
     "coords": [
       10.71,
@@ -32511,17 +34781,86 @@ gt.bell.fish = [
     "zone": "Shirogane"
   },
   {
+    "name": "Othardian Trout",
+    "patch": 4.0,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 20126,
+    "icon": 29245,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Nem Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 175,
+    "lvl": 60,
+    "coords": [
+      32.43,
+      30.43
+    ],
+    "radius": 200,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Othardian Trout",
+    "patch": 4.0,
+    "bait": [
+      "Nightcrawler",
+      "Zagas Khaal"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 20126,
+    "icon": 29245,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Azim Khaat",
+    "category": "Freshwater Fishing",
+    "spot": 178,
+    "lvl": 60,
+    "coords": [
+      21.62,
+      22.42
+    ],
+    "radius": 1000,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Othardian Trout",
+    "patch": 4.0,
+    "bait": [
+      "Midge Larva"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 20126,
+    "icon": 29245,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lower Yat Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 180,
+    "lvl": 60,
+    "coords": [
+      22.62,
+      28.43
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
     "name": "Zagas Khaal",
     "patch": 4.0,
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20127,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Nem Khaal",
     "category": "Freshwater Fishing",
+    "spot": 175,
     "lvl": 60,
     "coords": [
       32.43,
@@ -32536,12 +34875,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20127,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Hak Khaal",
     "category": "Freshwater Fishing",
+    "spot": 176,
     "lvl": 60,
     "coords": [
       29.03,
@@ -32556,12 +34897,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20127,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 177,
     "lvl": 60,
     "coords": [
       17.94,
@@ -32576,12 +34919,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20127,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
     "category": "Freshwater Fishing",
+    "spot": 178,
     "lvl": 60,
     "coords": [
       21.62,
@@ -32596,12 +34941,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20127,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
     "category": "Freshwater Fishing",
+    "spot": 179,
     "lvl": 60,
     "coords": [
       16.62,
@@ -32611,93 +34958,10 @@ gt.bell.fish = [
     "zone": "The Azim Steppe"
   },
   {
-    "name": "Zagas Khaal",
-    "patch": 4.0,
-    "bait": [
-      "Nightcrawler"
-    ],
-    "id": 20127,
-    "icon": 29310,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Lower Yat Khaal",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      22.62,
-      28.43
-    ],
-    "radius": 300,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Othardian Trout",
-    "patch": 4.0,
-    "bait": [
-      "Nightcrawler",
-      "Zagas Khaal"
-    ],
-    "id": 20126,
-    "icon": 29245,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Nem Khaal",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      32.43,
-      30.43
-    ],
-    "radius": 200,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Othardian Trout",
-    "patch": 4.0,
-    "bait": [
-      "Nightcrawler",
-      "Zagas Khaal"
-    ],
-    "id": 20126,
-    "icon": 29245,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Azim Khaat",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      21.62,
-      22.42
-    ],
-    "radius": 1000,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Othardian Trout",
-    "patch": 4.0,
-    "bait": [
-      "Nightcrawler",
-      "Zagas Khaal"
-    ],
-    "id": 20126,
-    "icon": 29245,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Lower Yat Khaal",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      22.62,
-      28.43
-    ],
-    "radius": 300,
-    "zone": "The Azim Steppe"
-  },
-  {
     "name": "Steppe Skipper",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Stonefly Larva"
     ],
     "hookset": "Precision Hookset",
     "id": 20128,
@@ -32706,6 +34970,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Nem Khaal",
     "category": "Freshwater Fishing",
+    "spot": 175,
     "lvl": 60,
     "coords": [
       32.43,
@@ -32727,6 +34992,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 180,
     "lvl": 60,
     "coords": [
       22.62,
@@ -32749,6 +35015,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Nem Khaal",
     "category": "Freshwater Fishing",
+    "spot": 175,
     "lvl": 60,
     "coords": [
       32.43,
@@ -32761,8 +35028,7 @@ gt.bell.fish = [
     "name": "Dawn Crayfish",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler",
-      "Zagas Khaal"
+      "Midge Larva"
     ],
     "hookset": "Precision Hookset",
     "id": 20132,
@@ -32771,6 +35037,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 180,
     "lvl": 60,
     "coords": [
       22.62,
@@ -32796,12 +35063,14 @@ gt.bell.fish = [
     "transition": [
       "Fair Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 24892,
     "icon": 29547,
     "func": "fish",
     "rarity": 2,
     "title": "Nem Khaal",
     "category": "Freshwater Fishing",
+    "spot": 175,
     "lvl": 60,
     "coords": [
       32.43,
@@ -32823,6 +35092,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hak Khaal",
     "category": "Freshwater Fishing",
+    "spot": 176,
     "lvl": 60,
     "coords": [
       29.03,
@@ -32835,7 +35105,7 @@ gt.bell.fish = [
     "name": "Dry Steppe Skipper",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Versatile Lure"
     ],
     "hookset": "Precision Hookset",
     "id": 20129,
@@ -32844,6 +35114,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Hak Khaal",
     "category": "Freshwater Fishing",
+    "spot": 176,
     "lvl": 60,
     "coords": [
       29.03,
@@ -32865,6 +35136,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 177,
     "lvl": 60,
     "coords": [
       17.94,
@@ -32886,6 +35158,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Tao Khaal",
     "category": "Freshwater Fishing",
+    "spot": 179,
     "lvl": 60,
     "coords": [
       16.62,
@@ -32898,15 +35171,16 @@ gt.bell.fish = [
     "name": "Dusk Crayfish",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler",
-      "Zagas Khaal"
+      "Salmon Roe"
     ],
+    "hookset": "Precision Hookset",
     "id": 20133,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Hak Khaal",
     "category": "Freshwater Fishing",
+    "spot": 176,
     "lvl": 60,
     "coords": [
       29.03,
@@ -32922,12 +35196,14 @@ gt.bell.fish = [
       "Nightcrawler",
       "Zagas Khaal"
     ],
+    "hookset": "Precision Hookset",
     "id": 20133,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 177,
     "lvl": 60,
     "coords": [
       17.94,
@@ -32943,12 +35219,14 @@ gt.bell.fish = [
       "Nightcrawler",
       "Zagas Khaal"
     ],
+    "hookset": "Precision Hookset",
     "id": 20133,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
     "category": "Freshwater Fishing",
+    "spot": 179,
     "lvl": 60,
     "coords": [
       16.62,
@@ -32972,12 +35250,14 @@ gt.bell.fish = [
     "weather": [
       "Rain"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20030,
     "icon": 29464,
     "func": "fish",
     "rarity": 1,
     "title": "Hak Khaal",
     "category": "Freshwater Fishing",
+    "spot": 176,
     "lvl": 60,
     "coords": [
       29.03,
@@ -33011,6 +35291,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Hak Khaal",
     "category": "Freshwater Fishing",
+    "spot": 176,
     "lvl": 60,
     "coords": [
       29.03,
@@ -33032,6 +35313,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 177,
     "lvl": 60,
     "coords": [
       17.94,
@@ -33053,86 +35335,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Upper Yat Khaal",
     "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      17.94,
-      18.82
-    ],
-    "radius": 300,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Sunshell",
-    "patch": 4.3,
-    "bait": [
-      "Midge Larva"
-    ],
-    "id": 22668,
-    "icon": 29107,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Upper Yat Khaal",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      17.94,
-      18.82
-    ],
-    "radius": 300,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Fatty Eel",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22675,
-    "icon": 29215,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Upper Yat Khaal",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      17.94,
-      18.82
-    ],
-    "radius": 300,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Leatherscale",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22685,
-    "icon": 29475,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Upper Yat Khaal",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      17.94,
-      18.82
-    ],
-    "radius": 300,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Appleseed",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22692,
-    "icon": 29490,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Upper Yat Khaal",
-    "category": "Freshwater Fishing",
+    "spot": 177,
     "lvl": 60,
     "coords": [
       17.94,
@@ -33155,12 +35358,98 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 24218,
     "icon": 29543,
     "func": "fish",
     "rarity": 2,
     "title": "Upper Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 177,
+    "lvl": 60,
+    "coords": [
+      17.94,
+      18.82
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Sunshell",
+    "patch": 4.3,
+    "bait": [
+      "Midge Larva"
+    ],
+    "id": 22668,
+    "icon": 29107,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Yat Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 177,
+    "lvl": 60,
+    "coords": [
+      17.94,
+      18.82
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Fatty Eel",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22675,
+    "icon": 29215,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Yat Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 177,
+    "lvl": 60,
+    "coords": [
+      17.94,
+      18.82
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Leatherscale",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22685,
+    "icon": 29475,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Yat Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 177,
+    "lvl": 60,
+    "coords": [
+      17.94,
+      18.82
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Appleseed",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22692,
+    "icon": 29490,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Upper Yat Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 177,
     "lvl": 60,
     "coords": [
       17.94,
@@ -33182,6 +35471,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Azim Khaat",
     "category": "Freshwater Fishing",
+    "spot": 178,
     "lvl": 60,
     "coords": [
       21.62,
@@ -33196,12 +35486,14 @@ gt.bell.fish = [
     "bait": [
       "Suspending Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20140,
     "icon": 29267,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
     "category": "Freshwater Fishing",
+    "spot": 178,
     "lvl": 60,
     "coords": [
       21.62,
@@ -33224,6 +35516,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Azim Khaat",
     "category": "Freshwater Fishing",
+    "spot": 178,
     "lvl": 60,
     "coords": [
       21.62,
@@ -33247,92 +35540,14 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 21178,
     "icon": 29444,
     "func": "fish",
     "rarity": 1,
     "title": "Azim Khaat",
     "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      21.62,
-      22.42
-    ],
-    "radius": 1000,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Water Fan",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22670,
-    "icon": 29047,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Azim Khaat",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      21.62,
-      22.42
-    ],
-    "radius": 1000,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Gigas Catfish",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22678,
-    "icon": 29217,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Azim Khaat",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      21.62,
-      22.42
-    ],
-    "radius": 1000,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Greasy Strangler",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22681,
-    "icon": 29205,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Azim Khaat",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      21.62,
-      22.42
-    ],
-    "radius": 1000,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Spikefish",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22687,
-    "icon": 29501,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Azim Khaat",
-    "category": "Freshwater Fishing",
+    "spot": 178,
     "lvl": 60,
     "coords": [
       21.62,
@@ -33367,6 +35582,91 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Azim Khaat",
     "category": "Freshwater Fishing",
+    "spot": 178,
+    "lvl": 60,
+    "coords": [
+      21.62,
+      22.42
+    ],
+    "radius": 1000,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Water Fan",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22670,
+    "icon": 29047,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Azim Khaat",
+    "category": "Freshwater Fishing",
+    "spot": 178,
+    "lvl": 60,
+    "coords": [
+      21.62,
+      22.42
+    ],
+    "radius": 1000,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Gigas Catfish",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22678,
+    "icon": 29217,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Azim Khaat",
+    "category": "Freshwater Fishing",
+    "spot": 178,
+    "lvl": 60,
+    "coords": [
+      21.62,
+      22.42
+    ],
+    "radius": 1000,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Greasy Strangler",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22681,
+    "icon": 29205,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Azim Khaat",
+    "category": "Freshwater Fishing",
+    "spot": 178,
+    "lvl": 60,
+    "coords": [
+      21.62,
+      22.42
+    ],
+    "radius": 1000,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Spikefish",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22687,
+    "icon": 29501,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Azim Khaat",
+    "category": "Freshwater Fishing",
+    "spot": 178,
     "lvl": 60,
     "coords": [
       21.62,
@@ -33381,12 +35681,14 @@ gt.bell.fish = [
     "bait": [
       "Midge Larva"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20134,
     "icon": 29272,
     "func": "fish",
     "rarity": 1,
     "title": "Tao Khaal",
     "category": "Freshwater Fishing",
+    "spot": 179,
     "lvl": 60,
     "coords": [
       16.62,
@@ -33408,111 +35710,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Tao Khaal",
     "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      16.62,
-      14.41
-    ],
-    "radius": 300,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "The Word of God",
-    "patch": 4.3,
-    "folklore": 1,
-    "bait": [
-      "Stonefly Larva"
-    ],
-    "during": {
-      "start": 20,
-      "end": 24
-    },
-    "id": 23069,
-    "icon": 29529,
-    "func": "fish",
-    "rarity": 2,
-    "title": "Tao Khaal",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      16.62,
-      14.41
-    ],
-    "radius": 300,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Fish Offering",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22674,
-    "icon": 29395,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Tao Khaal",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      16.62,
-      14.41
-    ],
-    "radius": 300,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Zagas A'khaal",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22677,
-    "icon": 29310,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Tao Khaal",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      16.62,
-      14.41
-    ],
-    "radius": 300,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Steppe Sweetfish",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22680,
-    "icon": 29500,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Tao Khaal",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      16.62,
-      14.41
-    ],
-    "radius": 300,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Moon Oyster",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22684,
-    "icon": 29059,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Tao Khaal",
-    "category": "Freshwater Fishing",
+    "spot": 179,
     "lvl": 60,
     "coords": [
       16.62,
@@ -33540,6 +35738,118 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Tao Khaal",
     "category": "Freshwater Fishing",
+    "spot": 179,
+    "lvl": 60,
+    "coords": [
+      16.62,
+      14.41
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "The Word of God",
+    "patch": 4.3,
+    "folklore": 1,
+    "bait": [
+      "Stonefly Larva"
+    ],
+    "during": {
+      "start": 20,
+      "end": 24
+    },
+    "hookset": "Precision Hookset",
+    "id": 23069,
+    "icon": 29529,
+    "func": "fish",
+    "rarity": 2,
+    "title": "Tao Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 179,
+    "lvl": 60,
+    "coords": [
+      16.62,
+      14.41
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Fish Offering",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22674,
+    "icon": 29395,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Tao Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 179,
+    "lvl": 60,
+    "coords": [
+      16.62,
+      14.41
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Zagas A'khaal",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22677,
+    "icon": 29310,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Tao Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 179,
+    "lvl": 60,
+    "coords": [
+      16.62,
+      14.41
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Steppe Sweetfish",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22680,
+    "icon": 29500,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Tao Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 179,
+    "lvl": 60,
+    "coords": [
+      16.62,
+      14.41
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Moon Oyster",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22684,
+    "icon": 29059,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Tao Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 179,
     "lvl": 60,
     "coords": [
       16.62,
@@ -33561,6 +35871,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 180,
     "lvl": 60,
     "coords": [
       22.62,
@@ -33582,6 +35893,29 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 180,
+    "lvl": 60,
+    "coords": [
+      22.62,
+      28.43
+    ],
+    "radius": 300,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Fragrant Sweetfish",
+    "patch": 5.5,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33223,
+    "icon": 29395,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lower Yat Khaal",
+    "category": "Freshwater Fishing",
+    "spot": 180,
     "lvl": 60,
     "coords": [
       22.62,
@@ -33607,6 +35941,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Lower Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 180,
     "lvl": 60,
     "coords": [
       22.62,
@@ -33627,6 +35962,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 180,
     "lvl": 60,
     "coords": [
       22.62,
@@ -33647,6 +35983,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 180,
     "lvl": 60,
     "coords": [
       22.62,
@@ -33667,6 +36004,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 180,
     "lvl": 60,
     "coords": [
       22.62,
@@ -33687,6 +36025,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Yat Khaal",
     "category": "Freshwater Fishing",
+    "spot": 180,
     "lvl": 60,
     "coords": [
       22.62,
@@ -33701,12 +36040,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20125,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "Dotharl Khaa",
     "category": "Freshwater Fishing",
+    "spot": 181,
     "lvl": 60,
     "coords": [
       12.51,
@@ -33721,12 +36062,14 @@ gt.bell.fish = [
     "bait": [
       "Nightcrawler"
     ],
+    "hookset": "Precision Hookset",
     "id": 20125,
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
     "title": "The Silver Canal",
     "category": "Freshwater Fishing",
+    "spot": 198,
     "lvl": 65,
     "coords": [
       10.71,
@@ -33748,86 +36091,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Dotharl Khaa",
     "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      12.51,
-      33.23
-    ],
-    "radius": 200,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Steppe Barramundi",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22669,
-    "icon": 29495,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Dotharl Khaa",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      12.51,
-      33.23
-    ],
-    "radius": 200,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Arrowhead Snail",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22671,
-    "icon": 29101,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Dotharl Khaa",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      12.51,
-      33.23
-    ],
-    "radius": 200,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Plump Trout",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22691,
-    "icon": 29245,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Dotharl Khaa",
-    "category": "Freshwater Fishing",
-    "lvl": 60,
-    "coords": [
-      12.51,
-      33.23
-    ],
-    "radius": 200,
-    "zone": "The Azim Steppe"
-  },
-  {
-    "name": "Crawling Cog",
-    "patch": 4.3,
-    "bait": [
-      "Salmon Roe"
-    ],
-    "id": 22693,
-    "icon": 29491,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Dotharl Khaa",
-    "category": "Freshwater Fishing",
+    "spot": 181,
     "lvl": 60,
     "coords": [
       12.51,
@@ -33861,6 +36125,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Dotharl Khaa",
     "category": "Freshwater Fishing",
+    "spot": 181,
     "lvl": 60,
     "coords": [
       12.51,
@@ -33886,12 +36151,98 @@ gt.bell.fish = [
     "transition": [
       "Rain"
     ],
+    "hookset": "Precision Hookset",
     "id": 24995,
     "icon": 29551,
     "func": "fish",
     "rarity": 2,
     "title": "Dotharl Khaa",
     "category": "Freshwater Fishing",
+    "spot": 181,
+    "lvl": 60,
+    "coords": [
+      12.51,
+      33.23
+    ],
+    "radius": 200,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Steppe Barramundi",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22669,
+    "icon": 29495,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dotharl Khaa",
+    "category": "Freshwater Fishing",
+    "spot": 181,
+    "lvl": 60,
+    "coords": [
+      12.51,
+      33.23
+    ],
+    "radius": 200,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Arrowhead Snail",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22671,
+    "icon": 29101,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dotharl Khaa",
+    "category": "Freshwater Fishing",
+    "spot": 181,
+    "lvl": 60,
+    "coords": [
+      12.51,
+      33.23
+    ],
+    "radius": 200,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Plump Trout",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22691,
+    "icon": 29245,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dotharl Khaa",
+    "category": "Freshwater Fishing",
+    "spot": 181,
+    "lvl": 60,
+    "coords": [
+      12.51,
+      33.23
+    ],
+    "radius": 200,
+    "zone": "The Azim Steppe"
+  },
+  {
+    "name": "Crawling Cog",
+    "patch": 4.3,
+    "bait": [
+      "Salmon Roe"
+    ],
+    "id": 22693,
+    "icon": 29491,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Dotharl Khaa",
+    "category": "Freshwater Fishing",
+    "spot": 181,
     "lvl": 60,
     "coords": [
       12.51,
@@ -33907,12 +36258,14 @@ gt.bell.fish = [
       "Live Shrimp",
       "Ruby Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20113,
     "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "Kugane Piers",
     "category": "Ocean Fishing",
+    "spot": 157,
     "lvl": 63,
     "coords": [
       10.51,
@@ -33928,12 +36281,14 @@ gt.bell.fish = [
       "Live Shrimp",
       "Ruby Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20113,
     "icon": 29007,
     "func": "fish",
     "rarity": 1,
     "title": "Shirogane",
     "category": "Ocean Fishing",
+    "spot": 197,
     "lvl": 63,
     "coords": [
       8.51,
@@ -33950,12 +36305,14 @@ gt.bell.fish = [
       "Live Shrimp",
       "Ruby Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 20054,
     "icon": 29123,
     "func": "fish",
     "rarity": 1,
     "title": "Kugane Piers",
     "category": "Ocean Fishing",
+    "spot": 157,
     "lvl": 63,
     "coords": [
       10.51,
@@ -33979,6 +36336,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Kugane Piers",
     "category": "Ocean Fishing",
+    "spot": 157,
     "lvl": 63,
     "coords": [
       10.51,
@@ -34002,6 +36360,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Kugane Piers",
     "category": "Ocean Fishing",
+    "spot": 157,
     "lvl": 63,
     "coords": [
       10.51,
@@ -34024,6 +36383,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Shirogane",
     "category": "Ocean Fishing",
+    "spot": 197,
     "lvl": 63,
     "coords": [
       8.51,
@@ -34046,6 +36406,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Silver Canal",
     "category": "Freshwater Fishing",
+    "spot": 198,
     "lvl": 65,
     "coords": [
       10.71,
@@ -34072,6 +36433,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Silver Canal",
     "category": "Freshwater Fishing",
+    "spot": 198,
     "lvl": 65,
     "coords": [
       10.71,
@@ -34086,12 +36448,14 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27417,
     "icon": 29278,
     "func": "fish",
     "rarity": 1,
     "title": "The Trivium",
     "category": "Freshwater Fishing",
+    "spot": 199,
     "lvl": 70,
     "coords": [
       8.71,
@@ -34104,14 +36468,16 @@ gt.bell.fish = [
     "name": "Crystal Knife",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Fruit Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27417,
     "icon": 29278,
     "func": "fish",
     "rarity": 1,
     "title": "The Quadrivium",
     "category": "Freshwater Fishing",
+    "spot": 200,
     "lvl": 70,
     "coords": [
       10.41,
@@ -34124,14 +36490,16 @@ gt.bell.fish = [
     "name": "Crystal Knife",
     "patch": 5.0,
     "bait": [
-      "Freshwater Boilie"
+      "Fruit Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27417,
     "icon": 29278,
     "func": "fish",
     "rarity": 1,
     "title": "Crystarium Personal Suites",
     "category": "Freshwater Fishing",
+    "spot": 201,
     "lvl": 70,
     "coords": [
       12.76,
@@ -34144,14 +36512,16 @@ gt.bell.fish = [
     "name": "Laxan Carp",
     "patch": 5.0,
     "bait": [
-      "Marble Nymph"
+      "Fruit Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27411,
     "icon": 28455,
     "func": "fish",
     "rarity": 1,
     "title": "The Trivium",
     "category": "Freshwater Fishing",
+    "spot": 199,
     "lvl": 70,
     "coords": [
       8.71,
@@ -34164,14 +36534,16 @@ gt.bell.fish = [
     "name": "Laxan Carp",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Fruit Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27411,
     "icon": 28455,
     "func": "fish",
     "rarity": 1,
     "title": "The Quadrivium",
     "category": "Freshwater Fishing",
+    "spot": 200,
     "lvl": 70,
     "coords": [
       10.41,
@@ -34186,12 +36558,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27411,
     "icon": 28455,
     "func": "fish",
     "rarity": 1,
     "title": "Crystarium Personal Suites",
     "category": "Freshwater Fishing",
+    "spot": 201,
     "lvl": 70,
     "coords": [
       12.76,
@@ -34213,27 +36587,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Trivium",
     "category": "Freshwater Fishing",
-    "lvl": 70,
-    "coords": [
-      8.71,
-      7.46
-    ],
-    "radius": 600,
-    "zone": "The Crystarium"
-  },
-  {
-    "name": "Jacketed Snail",
-    "patch": 5.0,
-    "bait": [
-      "Robber Ball"
-    ],
-    "hookset": "Precision Hookset",
-    "id": 27413,
-    "icon": 29554,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Trivium",
-    "category": "Freshwater Fishing",
+    "spot": 199,
     "lvl": 70,
     "coords": [
       8.71,
@@ -34255,6 +36609,62 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Trivium",
     "category": "Freshwater Fishing",
+    "spot": 199,
+    "lvl": 70,
+    "coords": [
+      8.71,
+      7.46
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Jacketed Snail",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27413,
+    "icon": 29554,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Trivium",
+    "category": "Freshwater Fishing",
+    "spot": 199,
+    "lvl": 70,
+    "coords": [
+      8.71,
+      7.46
+    ],
+    "radius": 600,
+    "zone": "The Crystarium"
+  },
+  {
+    "name": "Aster Trivi",
+    "patch": 5.5,
+    "folklore": 1,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "during": {
+      "start": 22,
+      "end": 24
+    },
+    "weather": [
+      "Clear Skies"
+    ],
+    "transition": [
+      "Clear Skies"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33316,
+    "icon": "t/28491",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Trivium",
+    "category": "Freshwater Fishing",
+    "spot": 199,
     "lvl": 70,
     "coords": [
       8.71,
@@ -34276,6 +36686,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Quadrivium",
     "category": "Freshwater Fishing",
+    "spot": 200,
     "lvl": 70,
     "coords": [
       10.41,
@@ -34288,7 +36699,7 @@ gt.bell.fish = [
     "name": "Wandering Catfish",
     "patch": 5.0,
     "bait": [
-      "Baitbugs"
+      "Marble Nymph"
     ],
     "hookset": "Precision Hookset",
     "id": 27416,
@@ -34297,6 +36708,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Quadrivium",
     "category": "Freshwater Fishing",
+    "spot": 200,
     "lvl": 70,
     "coords": [
       10.41,
@@ -34327,6 +36739,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Quadrivium",
     "category": "Freshwater Fishing",
+    "spot": 200,
     "lvl": 70,
     "coords": [
       10.41,
@@ -34348,6 +36761,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Crystarium Personal Suites",
     "category": "Freshwater Fishing",
+    "spot": 201,
     "lvl": 70,
     "coords": [
       12.76,
@@ -34360,7 +36774,7 @@ gt.bell.fish = [
     "name": "Skeletonfish",
     "patch": 5.0,
     "bait": [
-      "Freshwater Boilie"
+      "Marble Nymph"
     ],
     "hookset": "Precision Hookset",
     "id": 27418,
@@ -34369,6 +36783,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Crystarium Personal Suites",
     "category": "Freshwater Fishing",
+    "spot": 201,
     "lvl": 70,
     "coords": [
       12.76,
@@ -34395,6 +36810,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Crystarium Personal Suites",
     "category": "Freshwater Fishing",
+    "spot": 201,
     "lvl": 70,
     "coords": [
       12.76,
@@ -34408,7 +36824,7 @@ gt.bell.fish = [
     "patch": 5.0,
     "snagging": 1,
     "bait": [
-      "Short Bill Minnow"
+      "Moyebi Shrimp"
     ],
     "hookset": "Precision Hookset",
     "id": 27419,
@@ -34417,6 +36833,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Derelicts",
     "category": "Ocean Fishing",
+    "spot": 214,
     "lvl": 72,
     "coords": [
       11.26,
@@ -34439,26 +36856,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Derelicts",
     "category": "Ocean Fishing",
-    "lvl": 72,
-    "coords": [
-      11.26,
-      11.26
-    ],
-    "radius": 2400,
-    "zone": "Eulmore - The Buttress"
-  },
-  {
-    "name": "Crimson Sea Spider",
-    "patch": 5.0,
-    "bait": [
-      "Moyebi Shrimp"
-    ],
-    "id": 27421,
-    "icon": 29165,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Derelicts",
-    "category": "Ocean Fishing",
+    "spot": 214,
     "lvl": 72,
     "coords": [
       11.26,
@@ -34473,12 +36871,36 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 27422,
     "icon": 29166,
     "func": "fish",
     "rarity": 1,
     "title": "The Derelicts",
     "category": "Ocean Fishing",
+    "spot": 214,
+    "lvl": 72,
+    "coords": [
+      11.26,
+      11.26
+    ],
+    "radius": 2400,
+    "zone": "Eulmore - The Buttress"
+  },
+  {
+    "name": "Crimson Sea Spider",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27421,
+    "icon": 29165,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Derelicts",
+    "category": "Ocean Fishing",
+    "spot": 214,
     "lvl": 72,
     "coords": [
       11.26,
@@ -34500,6 +36922,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Derelicts",
     "category": "Ocean Fishing",
+    "spot": 214,
     "lvl": 72,
     "coords": [
       11.26,
@@ -34514,12 +36937,14 @@ gt.bell.fish = [
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27424,
     "icon": 29168,
     "func": "fish",
     "rarity": 1,
     "title": "The Derelicts",
     "category": "Ocean Fishing",
+    "spot": 214,
     "lvl": 72,
     "coords": [
       11.26,
@@ -34549,6 +36974,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Derelicts",
     "category": "Ocean Fishing",
+    "spot": 214,
     "lvl": 72,
     "coords": [
       11.26,
@@ -34563,32 +36989,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 26746,
     "icon": 29298,
     "func": "fish",
     "rarity": 1,
     "title": "The Rift of Sighs",
     "category": "Freshwater Fishing",
-    "lvl": 71,
-    "coords": [
-      31.03,
-      11.91
-    ],
-    "radius": 1200,
-    "zone": "Lakeland"
-  },
-  {
-    "name": "Hard Candy",
-    "patch": 5.0,
-    "bait": [
-      "Robber Ball"
-    ],
-    "id": 27425,
-    "icon": 29316,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Rift of Sighs",
-    "category": "Freshwater Fishing",
+    "spot": 202,
     "lvl": 71,
     "coords": [
       31.03,
@@ -34603,12 +37011,36 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
+    "id": 27425,
+    "icon": 29316,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rift of Sighs",
+    "category": "Freshwater Fishing",
+    "spot": 202,
+    "lvl": 71,
+    "coords": [
+      31.03,
+      11.91
+    ],
+    "radius": 1200,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Hard Candy",
+    "patch": 5.0,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Precision Hookset",
     "id": 27425,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "The Rusted Reservoir",
     "category": "Freshwater Fishing",
+    "spot": 203,
     "lvl": 72,
     "coords": [
       11.91,
@@ -34621,14 +37053,16 @@ gt.bell.fish = [
     "name": "Hard Candy",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27425,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "The Source",
     "category": "Freshwater Fishing",
+    "spot": 204,
     "lvl": 71,
     "coords": [
       12.71,
@@ -34643,12 +37077,14 @@ gt.bell.fish = [
     "bait": [
       "Baitbugs"
     ],
+    "hookset": "Precision Hookset",
     "id": 27425,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "Sullen",
     "category": "Freshwater Fishing",
+    "spot": 205,
     "lvl": 72,
     "coords": [
       19.42,
@@ -34661,14 +37097,16 @@ gt.bell.fish = [
     "name": "Hard Candy",
     "patch": 5.0,
     "bait": [
-      "Fruit Worm"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27425,
     "icon": 29316,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Ken",
     "category": "Freshwater Fishing",
+    "spot": 206,
     "lvl": 75,
     "coords": [
       9.21,
@@ -34681,14 +37119,16 @@ gt.bell.fish = [
     "name": "Abyssal Snail",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27427,
     "icon": 29560,
     "func": "fish",
     "rarity": 1,
     "title": "The Rift of Sighs",
     "category": "Freshwater Fishing",
+    "spot": 202,
     "lvl": 71,
     "coords": [
       31.03,
@@ -34701,14 +37141,16 @@ gt.bell.fish = [
     "name": "Abyssal Snail",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27427,
     "icon": 29560,
     "func": "fish",
     "rarity": 1,
     "title": "The Rusted Reservoir",
     "category": "Freshwater Fishing",
+    "spot": 203,
     "lvl": 72,
     "coords": [
       11.91,
@@ -34723,12 +37165,14 @@ gt.bell.fish = [
     "bait": [
       "Baitbugs"
     ],
+    "hookset": "Precision Hookset",
     "id": 27426,
     "icon": 29559,
     "func": "fish",
     "rarity": 1,
     "title": "The Rift of Sighs",
     "category": "Freshwater Fishing",
+    "spot": 202,
     "lvl": 71,
     "coords": [
       31.03,
@@ -34743,12 +37187,14 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27426,
     "icon": 29559,
     "func": "fish",
     "rarity": 1,
     "title": "The Rusted Reservoir",
     "category": "Freshwater Fishing",
+    "spot": 203,
     "lvl": 72,
     "coords": [
       11.91,
@@ -34763,12 +37209,14 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27431,
     "icon": 29563,
     "func": "fish",
     "rarity": 1,
     "title": "The Rift of Sighs",
     "category": "Freshwater Fishing",
+    "spot": 202,
     "lvl": 71,
     "coords": [
       31.03,
@@ -34798,12 +37246,35 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Rift of Sighs",
     "category": "Freshwater Fishing",
+    "spot": 202,
     "lvl": 71,
     "coords": [
       31.03,
       11.91
     ],
     "radius": 1200,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Misty Killifish",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27433,
+    "icon": 29565,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Rusted Reservoir",
+    "category": "Freshwater Fishing",
+    "spot": 203,
+    "lvl": 72,
+    "coords": [
+      11.91,
+      21.52
+    ],
+    "radius": 300,
     "zone": "Lakeland"
   },
   {
@@ -34823,26 +37294,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Rusted Reservoir",
     "category": "Freshwater Fishing",
-    "lvl": 72,
-    "coords": [
-      11.91,
-      21.52
-    ],
-    "radius": 300,
-    "zone": "Lakeland"
-  },
-  {
-    "name": "Misty Killifish",
-    "patch": 5.0,
-    "bait": [
-      "Robber Ball"
-    ],
-    "id": 27433,
-    "icon": 29565,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Rusted Reservoir",
-    "category": "Freshwater Fishing",
+    "spot": 203,
     "lvl": 72,
     "coords": [
       11.91,
@@ -34868,12 +37320,14 @@ gt.bell.fish = [
     "transition": [
       "Clear Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 32049,
     "icon": 28486,
     "func": "fish",
     "rarity": 2,
     "title": "The Rusted Reservoir",
     "category": "Freshwater Fishing",
+    "spot": 203,
     "lvl": 72,
     "coords": [
       11.91,
@@ -34886,14 +37340,16 @@ gt.bell.fish = [
     "name": "Clean Saucer",
     "patch": 5.0,
     "bait": [
-      "Baitbugs"
+      "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27428,
     "icon": 29702,
     "func": "fish",
     "rarity": 1,
     "title": "The Source",
     "category": "Freshwater Fishing",
+    "spot": 204,
     "lvl": 71,
     "coords": [
       12.71,
@@ -34908,12 +37364,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27428,
     "icon": 29702,
     "func": "fish",
     "rarity": 1,
     "title": "The Isle of Ken",
     "category": "Freshwater Fishing",
+    "spot": 206,
     "lvl": 75,
     "coords": [
       9.21,
@@ -34926,7 +37384,7 @@ gt.bell.fish = [
     "name": "Rabbit Skipper",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Fruit Worm"
     ],
     "hookset": "Precision Hookset",
     "id": 27429,
@@ -34935,6 +37393,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Source",
     "category": "Freshwater Fishing",
+    "spot": 204,
     "lvl": 71,
     "coords": [
       12.71,
@@ -34956,6 +37415,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sullen",
     "category": "Freshwater Fishing",
+    "spot": 205,
     "lvl": 72,
     "coords": [
       19.42,
@@ -34970,12 +37430,14 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27430,
     "icon": 29562,
     "func": "fish",
     "rarity": 1,
     "title": "The Source",
     "category": "Freshwater Fishing",
+    "spot": 204,
     "lvl": 71,
     "coords": [
       12.71,
@@ -34990,12 +37452,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27430,
     "icon": 29562,
     "func": "fish",
     "rarity": 1,
     "title": "Sullen",
     "category": "Freshwater Fishing",
+    "spot": 205,
     "lvl": 72,
     "coords": [
       19.42,
@@ -35017,6 +37481,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Source",
     "category": "Freshwater Fishing",
+    "spot": 204,
     "lvl": 71,
     "coords": [
       12.71,
@@ -35038,6 +37503,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Source",
     "category": "Freshwater Fishing",
+    "spot": 204,
     "lvl": 71,
     "coords": [
       12.71,
@@ -35063,6 +37529,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Source",
     "category": "Freshwater Fishing",
+    "spot": 204,
     "lvl": 71,
     "coords": [
       12.71,
@@ -35084,6 +37551,36 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sullen",
     "category": "Freshwater Fishing",
+    "spot": 205,
+    "lvl": 72,
+    "coords": [
+      19.42,
+      35.83
+    ],
+    "radius": 900,
+    "zone": "Lakeland"
+  },
+  {
+    "name": "Python Discus",
+    "patch": 5.5,
+    "folklore": 1,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "weather": [
+      "Thunderstorms"
+    ],
+    "transition": [
+      "Rain"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33317,
+    "icon": "t/28494",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Sullen",
+    "category": "Freshwater Fishing",
+    "spot": 205,
     "lvl": 72,
     "coords": [
       19.42,
@@ -35096,7 +37593,7 @@ gt.bell.fish = [
     "name": "Albino Garfish",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Marble Nymph"
     ],
     "hookset": "Powerful Hookset",
     "id": 27436,
@@ -35105,6 +37602,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Isle of Ken",
     "category": "Freshwater Fishing",
+    "spot": 206,
     "lvl": 75,
     "coords": [
       9.21,
@@ -35117,7 +37615,7 @@ gt.bell.fish = [
     "name": "Vicejaw",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Baitbugs"
     ],
     "hookset": "Powerful Hookset",
     "id": 27437,
@@ -35126,6 +37624,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Isle of Ken",
     "category": "Freshwater Fishing",
+    "spot": 206,
     "lvl": 75,
     "coords": [
       9.21,
@@ -35143,7 +37642,7 @@ gt.bell.fish = [
     ],
     "during": {
       "start": 16,
-      "end": 0
+      "end": 24
     },
     "weather": [
       "Clouds"
@@ -35155,6 +37654,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Isle of Ken",
     "category": "Freshwater Fishing",
+    "spot": 206,
     "lvl": 75,
     "coords": [
       9.21,
@@ -35167,14 +37667,16 @@ gt.bell.fish = [
     "name": "Skulleater",
     "patch": 5.0,
     "bait": [
-      "Marble Nymph"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27438,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Watts River",
     "category": "Freshwater Fishing",
+    "spot": 207,
     "lvl": 78,
     "coords": [
       27.03,
@@ -35187,14 +37689,16 @@ gt.bell.fish = [
     "name": "Skulleater",
     "patch": 5.0,
     "bait": [
-      "Marble Nymph"
+      "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27438,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "White Oil Falls",
     "category": "Freshwater Fishing",
+    "spot": 208,
     "lvl": 71,
     "coords": [
       29.43,
@@ -35209,12 +37713,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27438,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Watts River",
     "category": "Freshwater Fishing",
+    "spot": 209,
     "lvl": 71,
     "coords": [
       30.23,
@@ -35229,12 +37735,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27438,
     "icon": 29209,
     "func": "fish",
     "rarity": 1,
     "title": "Sharptongue Drip",
     "category": "Freshwater Fishing",
+    "spot": 210,
     "lvl": 71,
     "coords": [
       20.62,
@@ -35247,14 +37755,16 @@ gt.bell.fish = [
     "name": "Toffee Snail",
     "patch": 5.0,
     "bait": [
-      "Fruit Worm"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27439,
     "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Watts River",
     "category": "Freshwater Fishing",
+    "spot": 207,
     "lvl": 78,
     "coords": [
       27.03,
@@ -35269,12 +37779,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27439,
     "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Watts River",
     "category": "Freshwater Fishing",
+    "spot": 209,
     "lvl": 71,
     "coords": [
       30.23,
@@ -35287,14 +37799,16 @@ gt.bell.fish = [
     "name": "Toffee Snail",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27439,
     "icon": 29244,
     "func": "fish",
     "rarity": 1,
     "title": "Sharptongue Drip",
     "category": "Freshwater Fishing",
+    "spot": 210,
     "lvl": 71,
     "coords": [
       20.62,
@@ -35309,12 +37823,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27440,
     "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Watts River",
     "category": "Freshwater Fishing",
+    "spot": 207,
     "lvl": 78,
     "coords": [
       27.03,
@@ -35329,12 +37845,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27440,
     "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "White Oil Falls",
     "category": "Freshwater Fishing",
+    "spot": 208,
     "lvl": 71,
     "coords": [
       29.43,
@@ -35349,12 +37867,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27440,
     "icon": 29245,
     "func": "fish",
     "rarity": 1,
     "title": "Lower Watts River",
     "category": "Freshwater Fishing",
+    "spot": 209,
     "lvl": 71,
     "coords": [
       30.23,
@@ -35367,14 +37887,16 @@ gt.bell.fish = [
     "name": "Hucho Taimen",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Baitbugs"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27441,
     "icon": 29570,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Watts River",
     "category": "Freshwater Fishing",
+    "spot": 207,
     "lvl": 78,
     "coords": [
       27.03,
@@ -35389,12 +37911,14 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27442,
     "icon": 29571,
     "func": "fish",
     "rarity": 1,
     "title": "Upper Watts River",
     "category": "Freshwater Fishing",
+    "spot": 207,
     "lvl": 78,
     "coords": [
       27.03,
@@ -35417,6 +37941,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Upper Watts River",
     "category": "Freshwater Fishing",
+    "spot": 207,
     "lvl": 78,
     "coords": [
       27.03,
@@ -35429,7 +37954,7 @@ gt.bell.fish = [
     "name": "Noble's Fan",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Marble Nymph"
     ],
     "hookset": "Precision Hookset",
     "id": 27443,
@@ -35438,6 +37963,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "White Oil Falls",
     "category": "Freshwater Fishing",
+    "spot": 208,
     "lvl": 71,
     "coords": [
       29.43,
@@ -35459,6 +37985,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "White Oil Falls",
     "category": "Freshwater Fishing",
+    "spot": 208,
     "lvl": 71,
     "coords": [
       29.43,
@@ -35480,12 +38007,14 @@ gt.bell.fish = [
     "transition": [
       "Clouds"
     ],
+    "hookset": "Precision Hookset",
     "id": 32050,
     "icon": 28487,
     "func": "fish",
     "rarity": 2,
     "title": "White Oil Falls",
     "category": "Freshwater Fishing",
+    "spot": 208,
     "lvl": 71,
     "coords": [
       29.43,
@@ -35498,7 +38027,7 @@ gt.bell.fish = [
     "name": "Zebra Catfish",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Marble Nymph"
     ],
     "hookset": "Precision Hookset",
     "id": 27444,
@@ -35507,6 +38036,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Lower Watts River",
     "category": "Freshwater Fishing",
+    "spot": 209,
     "lvl": 71,
     "coords": [
       30.23,
@@ -35533,6 +38063,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Lower Watts River",
     "category": "Freshwater Fishing",
+    "spot": 209,
     "lvl": 71,
     "coords": [
       30.23,
@@ -35554,6 +38085,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Sharptongue Drip",
     "category": "Freshwater Fishing",
+    "spot": 210,
     "lvl": 71,
     "coords": [
       20.62,
@@ -35579,6 +38111,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Sharptongue Drip",
     "category": "Freshwater Fishing",
+    "spot": 210,
     "lvl": 71,
     "coords": [
       20.62,
@@ -35593,12 +38126,14 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27449,
     "icon": 29012,
     "func": "fish",
     "rarity": 1,
     "title": "The Western Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 211,
     "lvl": 72,
     "coords": [
       8.41,
@@ -35613,12 +38148,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27449,
     "icon": 29012,
     "func": "fish",
     "rarity": 1,
     "title": "Seagazer Shoals",
     "category": "Ocean Fishing",
+    "spot": 212,
     "lvl": 75,
     "coords": [
       16.82,
@@ -35633,12 +38170,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27449,
     "icon": 29012,
     "func": "fish",
     "rarity": 1,
     "title": "The Eastern Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 213,
     "lvl": 72,
     "coords": [
       35.23,
@@ -35651,14 +38190,16 @@ gt.bell.fish = [
     "name": "Kholusian Flounder",
     "patch": 5.0,
     "bait": [
-      "Squid Strip"
+      "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27448,
     "icon": 29052,
     "func": "fish",
     "rarity": 1,
     "title": "The Western Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 211,
     "lvl": 72,
     "coords": [
       8.41,
@@ -35673,12 +38214,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27448,
     "icon": 29052,
     "func": "fish",
     "rarity": 1,
     "title": "Seagazer Shoals",
     "category": "Ocean Fishing",
+    "spot": 212,
     "lvl": 75,
     "coords": [
       16.82,
@@ -35691,14 +38234,16 @@ gt.bell.fish = [
     "name": "Shellfracture Kelp",
     "patch": 5.0,
     "bait": [
-      "Squid Strip"
+      "Moyebi Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 27446,
     "icon": 29169,
     "func": "fish",
     "rarity": 1,
     "title": "The Western Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 211,
     "lvl": 72,
     "coords": [
       8.41,
@@ -35713,12 +38258,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27446,
     "icon": 29169,
     "func": "fish",
     "rarity": 1,
     "title": "The Eastern Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 213,
     "lvl": 72,
     "coords": [
       35.23,
@@ -35733,12 +38280,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 26747,
     "icon": 29916,
     "func": "fish",
     "rarity": 1,
     "title": "The Western Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 211,
     "lvl": 72,
     "coords": [
       8.41,
@@ -35760,6 +38309,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Western Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 211,
     "lvl": 72,
     "coords": [
       8.41,
@@ -35774,12 +38324,14 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27450,
     "icon": 29171,
     "func": "fish",
     "rarity": 1,
     "title": "The Western Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 211,
     "lvl": 72,
     "coords": [
       8.41,
@@ -35794,12 +38346,14 @@ gt.bell.fish = [
     "bait": [
       "Metal Spinner"
     ],
+    "hookset": "Powerful Hookset",
     "id": 28193,
     "icon": 29056,
     "func": "fish",
     "rarity": 1,
     "title": "The Western Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 211,
     "lvl": 72,
     "coords": [
       8.41,
@@ -35815,12 +38369,41 @@ gt.bell.fish = [
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Precision Hookset",
     "id": 30487,
     "icon": 28013,
     "func": "fish",
     "rarity": 1,
     "title": "The Western Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 211,
+    "lvl": 72,
+    "coords": [
+      8.41,
+      35.23
+    ],
+    "radius": 1800,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Steel Razor",
+    "patch": 5.5,
+    "folklore": 1,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "during": {
+      "start": 6,
+      "end": 8
+    },
+    "hookset": "Precision Hookset",
+    "id": 33318,
+    "icon": "t/28037",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Western Kholusian Coast",
+    "category": "Ocean Fishing",
+    "spot": 211,
     "lvl": 72,
     "coords": [
       8.41,
@@ -35833,14 +38416,16 @@ gt.bell.fish = [
     "name": "Blood Cloud",
     "patch": 5.0,
     "bait": [
-      "Short Bill Minnow"
+      "Moyebi Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27447,
     "icon": 29170,
     "func": "fish",
     "rarity": 1,
     "title": "Seagazer Shoals",
     "category": "Ocean Fishing",
+    "spot": 212,
     "lvl": 75,
     "coords": [
       16.82,
@@ -35855,12 +38440,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27447,
     "icon": 29170,
     "func": "fish",
     "rarity": 1,
     "title": "The Eastern Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 213,
     "lvl": 72,
     "coords": [
       35.23,
@@ -35882,6 +38469,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Seagazer Shoals",
     "category": "Ocean Fishing",
+    "spot": 212,
     "lvl": 75,
     "coords": [
       16.82,
@@ -35894,7 +38482,7 @@ gt.bell.fish = [
     "name": "Minstrelfish",
     "patch": 5.0,
     "bait": [
-      "Short Bill Minnow"
+      "Squid Strip"
     ],
     "hookset": "Powerful Hookset",
     "id": 27453,
@@ -35903,6 +38491,41 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Seagazer Shoals",
     "category": "Ocean Fishing",
+    "spot": 212,
+    "lvl": 75,
+    "coords": [
+      16.82,
+      35.83
+    ],
+    "radius": 600,
+    "zone": "Kholusia"
+  },
+  {
+    "name": "Shadeshifter",
+    "patch": 5.5,
+    "folklore": 1,
+    "bait": [
+      "Squid Strip"
+    ],
+    "during": {
+      "start": 10,
+      "end": 14
+    },
+    "weather": [
+      "Gales"
+    ],
+    "transition": [
+      "Clear Skies",
+      "Fair Skies"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33319,
+    "icon": "t/28036",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Seagazer Shoals",
+    "category": "Ocean Fishing",
+    "spot": 212,
     "lvl": 75,
     "coords": [
       16.82,
@@ -35917,12 +38540,14 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27457,
     "icon": 29177,
     "func": "fish",
     "rarity": 1,
     "title": "The Eastern Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 213,
     "lvl": 72,
     "coords": [
       35.23,
@@ -35945,6 +38570,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Eastern Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 213,
     "lvl": 72,
     "coords": [
       35.23,
@@ -35959,12 +38585,14 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27455,
     "icon": 29175,
     "func": "fish",
     "rarity": 1,
     "title": "The Eastern Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 213,
     "lvl": 72,
     "coords": [
       35.23,
@@ -35996,6 +38624,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Eastern Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 213,
     "lvl": 72,
     "coords": [
       35.23,
@@ -36019,12 +38648,14 @@ gt.bell.fish = [
     "weather": [
       "Clouds"
     ],
+    "hookset": "Powerful Hookset",
     "id": 32051,
     "icon": 29198,
     "func": "fish",
     "rarity": 2,
     "title": "The Eastern Kholusian Coast",
     "category": "Ocean Fishing",
+    "spot": 213,
     "lvl": 72,
     "coords": [
       35.23,
@@ -36037,14 +38668,16 @@ gt.bell.fish = [
     "name": "Shadow Crab",
     "patch": 5.0,
     "bait": [
-      "Desert Dessert Frog"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27458,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "The River of Sand",
     "category": "Dunefishing",
+    "spot": 215,
     "lvl": 71,
     "coords": [
       31.83,
@@ -36059,12 +38692,14 @@ gt.bell.fish = [
     "bait": [
       "Desert Dessert Frog"
     ],
+    "hookset": "Precision Hookset",
     "id": 27458,
     "icon": 29294,
     "func": "fish",
     "rarity": 1,
     "title": "The Nabaath Severance",
     "category": "Dunefishing",
+    "spot": 217,
     "lvl": 72,
     "coords": [
       31.03,
@@ -36077,14 +38712,16 @@ gt.bell.fish = [
     "name": "Desert Dustfish",
     "patch": 5.0,
     "bait": [
-      "Desert Dessert Frog"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27459,
     "icon": 29614,
     "func": "fish",
     "rarity": 1,
     "title": "The River of Sand",
     "category": "Dunefishing",
+    "spot": 215,
     "lvl": 71,
     "coords": [
       31.83,
@@ -36099,12 +38736,14 @@ gt.bell.fish = [
     "bait": [
       "Desert Dessert Frog"
     ],
+    "hookset": "Precision Hookset",
     "id": 27459,
     "icon": 29614,
     "func": "fish",
     "rarity": 1,
     "title": "The Nabaath Severance",
     "category": "Dunefishing",
+    "spot": 217,
     "lvl": 72,
     "coords": [
       31.03,
@@ -36117,14 +38756,16 @@ gt.bell.fish = [
     "name": "Desert Dustfish",
     "patch": 5.0,
     "bait": [
-      "Desert Dessert Frog"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27459,
     "icon": 29614,
     "func": "fish",
     "rarity": 1,
     "title": "The Hills of Amber",
     "category": "Dunefishing",
+    "spot": 216,
     "lvl": 77,
     "coords": [
       15.51,
@@ -36134,17 +38775,19 @@ gt.bell.fish = [
     "zone": "Amh Araeng"
   },
   {
-    "name": "Hornhelm",
+    "name": "Sand Egg",
     "patch": 5.0,
     "bait": [
-      "Jerked Ovim"
+      "Desert Dessert Frog"
     ],
-    "id": 27460,
-    "icon": 29615,
+    "hookset": "Precision Hookset",
+    "id": 27462,
+    "icon": 29617,
     "func": "fish",
     "rarity": 1,
     "title": "The River of Sand",
     "category": "Dunefishing",
+    "spot": 215,
     "lvl": 71,
     "coords": [
       31.83,
@@ -36159,12 +38802,36 @@ gt.bell.fish = [
     "bait": [
       "Jerked Ovim"
     ],
+    "hookset": "Powerful Hookset",
+    "id": 27460,
+    "icon": 29615,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The River of Sand",
+    "category": "Dunefishing",
+    "spot": 215,
+    "lvl": 71,
+    "coords": [
+      31.83,
+      12.71
+    ],
+    "radius": 900,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Hornhelm",
+    "patch": 5.0,
+    "bait": [
+      "Jerked Ovim"
+    ],
+    "hookset": "Powerful Hookset",
     "id": 27460,
     "icon": 29615,
     "func": "fish",
     "rarity": 1,
     "title": "The Nabaath Severance",
     "category": "Dunefishing",
+    "spot": 217,
     "lvl": 72,
     "coords": [
       31.03,
@@ -36174,37 +38841,19 @@ gt.bell.fish = [
     "zone": "Amh Araeng"
   },
   {
-    "name": "Sand Egg",
-    "patch": 5.0,
-    "bait": [
-      "Desert Dessert Frog"
-    ],
-    "id": 27462,
-    "icon": 29617,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The River of Sand",
-    "category": "Dunefishing",
-    "lvl": 71,
-    "coords": [
-      31.83,
-      12.71
-    ],
-    "radius": 900,
-    "zone": "Amh Araeng"
-  },
-  {
     "name": "Web-footed Sand Gecko",
     "patch": 5.0,
     "bait": [
       "Desert Dessert Frog"
     ],
+    "hookset": "Precision Hookset",
     "id": 27461,
     "icon": 29616,
     "func": "fish",
     "rarity": 1,
     "title": "The River of Sand",
     "category": "Dunefishing",
+    "spot": 215,
     "lvl": 71,
     "coords": [
       31.83,
@@ -36219,12 +38868,14 @@ gt.bell.fish = [
     "bait": [
       "Desert Dessert Frog"
     ],
+    "hookset": "Precision Hookset",
     "id": 27461,
     "icon": 29616,
     "func": "fish",
     "rarity": 1,
     "title": "The Hills of Amber",
     "category": "Dunefishing",
+    "spot": 216,
     "lvl": 77,
     "coords": [
       15.51,
@@ -36255,6 +38906,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The River of Sand",
     "category": "Dunefishing",
+    "spot": 215,
     "lvl": 71,
     "coords": [
       31.83,
@@ -36276,6 +38928,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Nabaath Severance",
     "category": "Dunefishing",
+    "spot": 217,
     "lvl": 72,
     "coords": [
       31.03,
@@ -36297,6 +38950,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Nabaath Severance",
     "category": "Dunefishing",
+    "spot": 217,
     "lvl": 72,
     "coords": [
       31.03,
@@ -36318,6 +38972,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Nabaath Severance",
     "category": "Dunefishing",
+    "spot": 217,
     "lvl": 72,
     "coords": [
       31.03,
@@ -36327,37 +38982,55 @@ gt.bell.fish = [
     "zone": "Amh Araeng"
   },
   {
-    "name": "Amber Monkfish",
-    "patch": 5.0,
+    "name": "Nabaath Saw",
+    "patch": 5.5,
+    "folklore": 1,
     "bait": [
-      "Desert Dessert Frog"
+      "Jerked Ovim",
+      "Desert Saw"
     ],
-    "id": 26749,
-    "icon": 29608,
+    "during": {
+      "start": 6,
+      "end": 10
+    },
+    "weather": [
+      "Heat Waves"
+    ],
+    "transition": [
+      "Clear Skies",
+      "Fair Skies",
+      "Heat Waves"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 33320,
+    "icon": "t/29623",
     "func": "fish",
-    "rarity": 1,
-    "title": "The Hills of Amber",
+    "rarity": 2,
+    "title": "The Nabaath Severance",
     "category": "Dunefishing",
-    "lvl": 77,
+    "spot": 217,
+    "lvl": 72,
     "coords": [
-      15.51,
-      14.81
+      31.03,
+      31.63
     ],
-    "radius": 1200,
+    "radius": 1500,
     "zone": "Amh Araeng"
   },
   {
     "name": "Garik Crab",
     "patch": 5.0,
     "bait": [
-      "Jerked Ovim"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27465,
     "icon": 29296,
     "func": "fish",
     "rarity": 1,
     "title": "The Hills of Amber",
     "category": "Dunefishing",
+    "spot": 216,
     "lvl": 77,
     "coords": [
       15.51,
@@ -36373,12 +39046,36 @@ gt.bell.fish = [
       "Desert Dessert Frog",
       "Web-footed Sand Gecko"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27466,
     "icon": 29607,
     "func": "fish",
     "rarity": 1,
     "title": "The Hills of Amber",
     "category": "Dunefishing",
+    "spot": 216,
+    "lvl": 77,
+    "coords": [
+      15.51,
+      14.81
+    ],
+    "radius": 1200,
+    "zone": "Amh Araeng"
+  },
+  {
+    "name": "Amber Monkfish",
+    "patch": 5.0,
+    "bait": [
+      "Desert Dessert Frog"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 26749,
+    "icon": 29608,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Hills of Amber",
+    "category": "Dunefishing",
+    "spot": 216,
     "lvl": 77,
     "coords": [
       15.51,
@@ -36411,6 +39108,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Hills of Amber",
     "category": "Dunefishing",
+    "spot": 216,
     "lvl": 77,
     "coords": [
       15.51,
@@ -36434,12 +39132,14 @@ gt.bell.fish = [
     "weather": [
       "Clear Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 28927,
     "icon": 29621,
     "func": "fish",
     "rarity": 2,
     "title": "The Hills of Amber",
     "category": "Dunefishing",
+    "spot": 216,
     "lvl": 77,
     "coords": [
       15.51,
@@ -36454,12 +39154,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27470,
     "icon": 29577,
     "func": "fish",
     "rarity": 1,
     "title": "Handmirror Lake",
     "category": "Freshwater Fishing",
+    "spot": 218,
     "lvl": 73,
     "coords": [
       4.3,
@@ -36472,14 +39174,16 @@ gt.bell.fish = [
     "name": "Grey Skipper",
     "patch": 5.0,
     "bait": [
-      "Fruit Worm"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27470,
     "icon": 29577,
     "func": "fish",
     "rarity": 1,
     "title": "Longmirror Lake",
     "category": "Freshwater Fishing",
+    "spot": 219,
     "lvl": 73,
     "coords": [
       21.02,
@@ -36492,14 +39196,16 @@ gt.bell.fish = [
     "name": "Grey Skipper",
     "patch": 5.0,
     "bait": [
-      "Fruit Worm"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27470,
     "icon": 29577,
     "func": "fish",
     "rarity": 1,
     "title": "The Haughty One",
     "category": "Freshwater Fishing",
+    "spot": 220,
     "lvl": 74,
     "coords": [
       22.02,
@@ -36514,12 +39220,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27470,
     "icon": 29577,
     "func": "fish",
     "rarity": 1,
     "title": "The Jealous One",
     "category": "Freshwater Fishing",
+    "spot": 221,
     "lvl": 74,
     "coords": [
       25.82,
@@ -36532,14 +39240,16 @@ gt.bell.fish = [
     "name": "Grey Skipper",
     "patch": 5.0,
     "bait": [
-      "Baitbugs"
+      "Metal Spinner"
     ],
+    "hookset": "Precision Hookset",
     "id": 27470,
     "icon": 29577,
     "func": "fish",
     "rarity": 1,
     "title": "The Spoiled One",
     "category": "Freshwater Fishing",
+    "spot": 223,
     "lvl": 74,
     "coords": [
       28.93,
@@ -36554,12 +39264,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27470,
     "icon": 29577,
     "func": "fish",
     "rarity": 1,
     "title": "Saint Fathric's Temple",
     "category": "Freshwater Fishing",
+    "spot": 224,
     "lvl": 74,
     "coords": [
       34.93,
@@ -36574,12 +39286,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27470,
     "icon": 29577,
     "func": "fish",
     "rarity": 1,
     "title": "Father Collard's Failings",
     "category": "Freshwater Fishing",
+    "spot": 222,
     "lvl": 75,
     "coords": [
       31.93,
@@ -36592,7 +39306,7 @@ gt.bell.fish = [
     "name": "Pixie Fish",
     "patch": 5.0,
     "bait": [
-      "Fruit Worm"
+      "Marble Nymph"
     ],
     "hookset": "Precision Hookset",
     "id": 27471,
@@ -36601,6 +39315,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Handmirror Lake",
     "category": "Freshwater Fishing",
+    "spot": 218,
     "lvl": 73,
     "coords": [
       4.3,
@@ -36622,6 +39337,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Father Collard's Failings",
     "category": "Freshwater Fishing",
+    "spot": 222,
     "lvl": 75,
     "coords": [
       31.93,
@@ -36631,10 +39347,32 @@ gt.bell.fish = [
     "zone": "Il Mheg"
   },
   {
+    "name": "Lemonfish",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27475,
+    "icon": 29582,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Handmirror Lake",
+    "category": "Freshwater Fishing",
+    "spot": 218,
+    "lvl": 73,
+    "coords": [
+      4.3,
+      22.32
+    ],
+    "radius": 900,
+    "zone": "Il Mheg"
+  },
+  {
     "name": "Wimple Carp",
     "patch": 5.0,
     "bait": [
-      "Baitbugs"
+      "Robber Ball"
     ],
     "hookset": "Precision Hookset",
     "id": 27474,
@@ -36643,26 +39381,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Handmirror Lake",
     "category": "Freshwater Fishing",
-    "lvl": 73,
-    "coords": [
-      4.3,
-      22.32
-    ],
-    "radius": 900,
-    "zone": "Il Mheg"
-  },
-  {
-    "name": "Lemonfish",
-    "patch": 5.0,
-    "bait": [
-      "Robber Ball"
-    ],
-    "id": 27475,
-    "icon": 29582,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Handmirror Lake",
-    "category": "Freshwater Fishing",
+    "spot": 218,
     "lvl": 73,
     "coords": [
       4.3,
@@ -36684,6 +39403,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Handmirror Lake",
     "category": "Freshwater Fishing",
+    "spot": 218,
     "lvl": 73,
     "coords": [
       4.3,
@@ -36713,6 +39433,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Handmirror Lake",
     "category": "Freshwater Fishing",
+    "spot": 218,
     "lvl": 73,
     "coords": [
       4.3,
@@ -36727,12 +39448,146 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 26750,
     "icon": 29300,
     "func": "fish",
     "rarity": 1,
     "title": "Longmirror Lake",
     "category": "Freshwater Fishing",
+    "spot": 219,
+    "lvl": 73,
+    "coords": [
+      21.02,
+      22.82
+    ],
+    "radius": 2400,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Cerulean Loach",
+    "patch": 5.0,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27479,
+    "icon": 29501,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Longmirror Lake",
+    "category": "Freshwater Fishing",
+    "spot": 219,
+    "lvl": 73,
+    "coords": [
+      21.02,
+      22.82
+    ],
+    "radius": 2400,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Cerulean Loach",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27479,
+    "icon": 29501,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Haughty One",
+    "category": "Freshwater Fishing",
+    "spot": 220,
+    "lvl": 74,
+    "coords": [
+      22.02,
+      9.11
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Cerulean Loach",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27479,
+    "icon": 29501,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Jealous One",
+    "category": "Freshwater Fishing",
+    "spot": 221,
+    "lvl": 74,
+    "coords": [
+      25.82,
+      9.01
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Cerulean Loach",
+    "patch": 5.0,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27479,
+    "icon": 29501,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Spoiled One",
+    "category": "Freshwater Fishing",
+    "spot": 223,
+    "lvl": 74,
+    "coords": [
+      28.93,
+      13.51
+    ],
+    "radius": 1200,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Cerulean Loach",
+    "patch": 5.0,
+    "bait": [
+      "Fruit Worm"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27479,
+    "icon": 29501,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Saint Fathric's Temple",
+    "category": "Freshwater Fishing",
+    "spot": 224,
+    "lvl": 74,
+    "coords": [
+      34.93,
+      26.32
+    ],
+    "radius": 900,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Official Ball",
+    "patch": 5.0,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27469,
+    "icon": 29576,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Longmirror Lake",
+    "category": "Freshwater Fishing",
+    "spot": 219,
     "lvl": 73,
     "coords": [
       21.02,
@@ -36752,29 +39607,9 @@ gt.bell.fish = [
     "icon": 29576,
     "func": "fish",
     "rarity": 1,
-    "title": "Longmirror Lake",
-    "category": "Freshwater Fishing",
-    "lvl": 73,
-    "coords": [
-      21.02,
-      22.82
-    ],
-    "radius": 2400,
-    "zone": "Il Mheg"
-  },
-  {
-    "name": "Official Ball",
-    "patch": 5.0,
-    "bait": [
-      "Baitbugs"
-    ],
-    "hookset": "Precision Hookset",
-    "id": 27469,
-    "icon": 29576,
-    "func": "fish",
-    "rarity": 1,
     "title": "The Haughty One",
     "category": "Freshwater Fishing",
+    "spot": 220,
     "lvl": 74,
     "coords": [
       22.02,
@@ -36787,7 +39622,7 @@ gt.bell.fish = [
     "name": "Official Ball",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Marble Nymph"
     ],
     "hookset": "Precision Hookset",
     "id": 27469,
@@ -36796,6 +39631,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Father Collard's Failings",
     "category": "Freshwater Fishing",
+    "spot": 222,
     "lvl": 75,
     "coords": [
       31.93,
@@ -36817,6 +39653,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Longmirror Lake",
     "category": "Freshwater Fishing",
+    "spot": 219,
     "lvl": 73,
     "coords": [
       21.02,
@@ -36838,6 +39675,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Longmirror Lake",
     "category": "Freshwater Fishing",
+    "spot": 219,
     "lvl": 73,
     "coords": [
       21.02,
@@ -36847,103 +39685,25 @@ gt.bell.fish = [
     "zone": "Il Mheg"
   },
   {
-    "name": "Cerulean Loach",
-    "patch": 5.0,
+    "name": "Fuchsia Bloom",
+    "patch": 5.3,
     "bait": [
-      "Fruit Worm"
+      "Robber Ball"
     ],
-    "id": 27479,
-    "icon": 29501,
+    "hookset": "Precision Hookset",
+    "id": 30593,
+    "icon": 28479,
     "func": "fish",
     "rarity": 1,
     "title": "Longmirror Lake",
     "category": "Freshwater Fishing",
+    "spot": 219,
     "lvl": 73,
     "coords": [
       21.02,
       22.82
     ],
     "radius": 2400,
-    "zone": "Il Mheg"
-  },
-  {
-    "name": "Cerulean Loach",
-    "patch": 5.0,
-    "bait": [
-      "Fruit Worm"
-    ],
-    "id": 27479,
-    "icon": 29501,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Haughty One",
-    "category": "Freshwater Fishing",
-    "lvl": 74,
-    "coords": [
-      22.02,
-      9.11
-    ],
-    "radius": 600,
-    "zone": "Il Mheg"
-  },
-  {
-    "name": "Cerulean Loach",
-    "patch": 5.0,
-    "bait": [
-      "Fruit Worm"
-    ],
-    "id": 27479,
-    "icon": 29501,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Jealous One",
-    "category": "Freshwater Fishing",
-    "lvl": 74,
-    "coords": [
-      25.82,
-      9.01
-    ],
-    "radius": 600,
-    "zone": "Il Mheg"
-  },
-  {
-    "name": "Cerulean Loach",
-    "patch": 5.0,
-    "bait": [
-      "Robber Ball"
-    ],
-    "id": 27479,
-    "icon": 29501,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Spoiled One",
-    "category": "Freshwater Fishing",
-    "lvl": 74,
-    "coords": [
-      28.93,
-      13.51
-    ],
-    "radius": 1200,
-    "zone": "Il Mheg"
-  },
-  {
-    "name": "Cerulean Loach",
-    "patch": 5.0,
-    "bait": [
-      "Fruit Worm"
-    ],
-    "id": 27479,
-    "icon": 29501,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Saint Fathric's Temple",
-    "category": "Freshwater Fishing",
-    "lvl": 74,
-    "coords": [
-      34.93,
-      26.32
-    ],
-    "radius": 900,
     "zone": "Il Mheg"
   },
   {
@@ -36968,26 +39728,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Longmirror Lake",
     "category": "Freshwater Fishing",
-    "lvl": 73,
-    "coords": [
-      21.02,
-      22.82
-    ],
-    "radius": 2400,
-    "zone": "Il Mheg"
-  },
-  {
-    "name": "Fuchsia Bloom",
-    "patch": 5.3,
-    "bait": [
-      "Robber Ball"
-    ],
-    "id": 30593,
-    "icon": 28479,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Longmirror Lake",
-    "category": "Freshwater Fishing",
+    "spot": 219,
     "lvl": 73,
     "coords": [
       21.02,
@@ -37000,7 +39741,7 @@ gt.bell.fish = [
     "name": "Blood-eyed Frog",
     "patch": 5.0,
     "bait": [
-      "Marble Nymph"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 27472,
@@ -37009,6 +39750,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Haughty One",
     "category": "Freshwater Fishing",
+    "spot": 220,
     "lvl": 74,
     "coords": [
       22.02,
@@ -37021,7 +39763,7 @@ gt.bell.fish = [
     "name": "Blood-eyed Frog",
     "patch": 5.0,
     "bait": [
-      "Baitbugs"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 27472,
@@ -37030,6 +39772,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Jealous One",
     "category": "Freshwater Fishing",
+    "spot": 221,
     "lvl": 74,
     "coords": [
       25.82,
@@ -37042,7 +39785,7 @@ gt.bell.fish = [
     "name": "Blood-eyed Frog",
     "patch": 5.0,
     "bait": [
-      "Baitbugs"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 27472,
@@ -37051,6 +39794,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Saint Fathric's Temple",
     "category": "Freshwater Fishing",
+    "spot": 224,
     "lvl": 74,
     "coords": [
       34.93,
@@ -37063,7 +39807,7 @@ gt.bell.fish = [
     "name": "Spotted Ctenopoma",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Marble Nymph"
     ],
     "hookset": "Precision Hookset",
     "id": 27478,
@@ -37072,6 +39816,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Haughty One",
     "category": "Freshwater Fishing",
+    "spot": 220,
     "lvl": 74,
     "coords": [
       22.02,
@@ -37097,12 +39842,14 @@ gt.bell.fish = [
     "transition": [
       "Fair Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 32052,
     "icon": 28488,
     "func": "fish",
     "rarity": 2,
     "title": "The Haughty One",
     "category": "Freshwater Fishing",
+    "spot": 220,
     "lvl": 74,
     "coords": [
       22.02,
@@ -37115,7 +39862,7 @@ gt.bell.fish = [
     "name": "Spotted Blue-eye",
     "patch": 5.0,
     "bait": [
-      "Marble Nymph"
+      "Baitbugs"
     ],
     "hookset": "Precision Hookset",
     "id": 27468,
@@ -37124,6 +39871,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Jealous One",
     "category": "Freshwater Fishing",
+    "spot": 221,
     "lvl": 74,
     "coords": [
       25.82,
@@ -37146,12 +39894,14 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 28928,
     "icon": 28477,
     "func": "fish",
     "rarity": 2,
     "title": "The Jealous One",
     "category": "Freshwater Fishing",
+    "spot": 221,
     "lvl": 74,
     "coords": [
       25.82,
@@ -37166,12 +39916,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 26748,
     "icon": 29510,
     "func": "fish",
     "rarity": 1,
     "title": "The Spoiled One",
     "category": "Freshwater Fishing",
+    "spot": 223,
     "lvl": 74,
     "coords": [
       28.93,
@@ -37186,12 +39938,37 @@ gt.bell.fish = [
     "bait": [
       "Marble Nymph"
     ],
+    "hookset": "Precision Hookset",
     "id": 27473,
     "icon": 29580,
     "func": "fish",
     "rarity": 1,
     "title": "The Spoiled One",
     "category": "Freshwater Fishing",
+    "spot": 223,
+    "lvl": 74,
+    "coords": [
+      28.93,
+      13.51
+    ],
+    "radius": 1200,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Dammroen Herring",
+    "patch": 5.5,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33321,
+    "icon": "t/28493",
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Spoiled One",
+    "category": "Freshwater Fishing",
+    "spot": 223,
     "lvl": 74,
     "coords": [
       28.93,
@@ -37213,6 +39990,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Saint Fathric's Temple",
     "category": "Freshwater Fishing",
+    "spot": 224,
     "lvl": 74,
     "coords": [
       34.93,
@@ -37242,6 +40020,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Saint Fathric's Temple",
     "category": "Freshwater Fishing",
+    "spot": 224,
     "lvl": 74,
     "coords": [
       34.93,
@@ -37268,6 +40047,40 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Father Collard's Failings",
     "category": "Freshwater Fishing",
+    "spot": 222,
+    "lvl": 75,
+    "coords": [
+      31.93,
+      22.32
+    ],
+    "radius": 300,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Celestial",
+    "patch": 5.5,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "during": {
+      "start": 7,
+      "end": 17
+    },
+    "weather": [
+      "Clear Skies"
+    ],
+    "transition": [
+      "Thunderstorms"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33322,
+    "icon": "t/28498",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Father Collard's Failings",
+    "category": "Freshwater Fishing",
+    "spot": 222,
     "lvl": 75,
     "coords": [
       31.93,
@@ -37282,12 +40095,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27482,
     "icon": 29588,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tusi Mek'ta",
     "category": "Freshwater Fishing",
+    "spot": 225,
     "lvl": 70,
     "coords": [
       7.41,
@@ -37302,12 +40117,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27482,
     "icon": 29588,
     "func": "fish",
     "rarity": 1,
     "title": "The Red Chalice",
     "category": "Freshwater Fishing",
+    "spot": 226,
     "lvl": 70,
     "coords": [
       9.71,
@@ -37322,12 +40139,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27482,
     "icon": 29588,
     "func": "fish",
     "rarity": 1,
     "title": "The Lozatl",
     "category": "Freshwater Fishing",
+    "spot": 227,
     "lvl": 70,
     "coords": [
       16.01,
@@ -37342,12 +40161,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27482,
     "icon": 29588,
     "func": "fish",
     "rarity": 1,
     "title": "South Mjrl's Regret",
     "category": "Freshwater Fishing",
+    "spot": 228,
     "lvl": 70,
     "coords": [
       24.02,
@@ -37362,12 +40183,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27482,
     "icon": 29588,
     "func": "fish",
     "rarity": 1,
     "title": "Woven Oath",
     "category": "Freshwater Fishing",
+    "spot": 229,
     "lvl": 80,
     "coords": [
       7.81,
@@ -37382,12 +40205,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27482,
     "icon": 29588,
     "func": "fish",
     "rarity": 1,
     "title": "Mjrl's Tears",
     "category": "Freshwater Fishing",
+    "spot": 245,
     "lvl": 70,
     "coords": [
       26.02,
@@ -37397,57 +40222,19 @@ gt.bell.fish = [
     "zone": "The Rak'tika Greatwood"
   },
   {
-    "name": "Robber Crab",
-    "patch": 5.0,
-    "bait": [
-      "Baitbugs"
-    ],
-    "id": 27484,
-    "icon": 29590,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Lake Tusi Mek'ta",
-    "category": "Freshwater Fishing",
-    "lvl": 70,
-    "coords": [
-      7.41,
-      28.73
-    ],
-    "radius": 1800,
-    "zone": "The Rak'tika Greatwood"
-  },
-  {
-    "name": "Robber Crab",
-    "patch": 5.0,
-    "bait": [
-      "Baitbugs"
-    ],
-    "id": 27484,
-    "icon": 29590,
-    "func": "fish",
-    "rarity": 1,
-    "title": "South Mjrl's Regret",
-    "category": "Freshwater Fishing",
-    "lvl": 70,
-    "coords": [
-      24.02,
-      31.63
-    ],
-    "radius": 1200,
-    "zone": "The Rak'tika Greatwood"
-  },
-  {
     "name": "Yellow Pipira",
     "patch": 5.0,
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27486,
     "icon": 29591,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tusi Mek'ta",
     "category": "Freshwater Fishing",
+    "spot": 225,
     "lvl": 70,
     "coords": [
       7.41,
@@ -37462,12 +40249,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27486,
     "icon": 29591,
     "func": "fish",
     "rarity": 1,
     "title": "The Red Chalice",
     "category": "Freshwater Fishing",
+    "spot": 226,
     "lvl": 70,
     "coords": [
       9.71,
@@ -37480,14 +40269,16 @@ gt.bell.fish = [
     "name": "Yellow Pipira",
     "patch": 5.0,
     "bait": [
-      "Marble Nymph"
+      "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27486,
     "icon": 29591,
     "func": "fish",
     "rarity": 1,
     "title": "The Lozatl",
     "category": "Freshwater Fishing",
+    "spot": 227,
     "lvl": 70,
     "coords": [
       16.01,
@@ -37502,12 +40293,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27486,
     "icon": 29591,
     "func": "fish",
     "rarity": 1,
     "title": "South Mjrl's Regret",
     "category": "Freshwater Fishing",
+    "spot": 228,
     "lvl": 70,
     "coords": [
       24.02,
@@ -37522,12 +40315,14 @@ gt.bell.fish = [
     "bait": [
       "Fruit Worm"
     ],
+    "hookset": "Precision Hookset",
     "id": 27486,
     "icon": 29591,
     "func": "fish",
     "rarity": 1,
     "title": "Mjrl's Tears",
     "category": "Freshwater Fishing",
+    "spot": 245,
     "lvl": 70,
     "coords": [
       26.02,
@@ -37537,17 +40332,63 @@ gt.bell.fish = [
     "zone": "The Rak'tika Greatwood"
   },
   {
-    "name": "Clown Tetra",
+    "name": "Robber Crab",
     "patch": 5.0,
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
+    "id": 27484,
+    "icon": 29590,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Lake Tusi Mek'ta",
+    "category": "Freshwater Fishing",
+    "spot": 225,
+    "lvl": 70,
+    "coords": [
+      7.41,
+      28.73
+    ],
+    "radius": 1800,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Robber Crab",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27484,
+    "icon": 29590,
+    "func": "fish",
+    "rarity": 1,
+    "title": "South Mjrl's Regret",
+    "category": "Freshwater Fishing",
+    "spot": 228,
+    "lvl": 70,
+    "coords": [
+      24.02,
+      31.63
+    ],
+    "radius": 1200,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Clown Tetra",
+    "patch": 5.0,
+    "bait": [
+      "Baitbugs"
+    ],
+    "hookset": "Precision Hookset",
     "id": 27490,
     "icon": 29592,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tusi Mek'ta",
     "category": "Freshwater Fishing",
+    "spot": 225,
     "lvl": 70,
     "coords": [
       7.41,
@@ -37560,15 +40401,17 @@ gt.bell.fish = [
     "name": "Eryops",
     "patch": 5.0,
     "bait": [
-      "Robber Ball",
+      "Baitbugs",
       "Clown Tetra"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27491,
     "icon": 29593,
     "func": "fish",
     "rarity": 1,
     "title": "Lake Tusi Mek'ta",
     "category": "Freshwater Fishing",
+    "spot": 225,
     "lvl": 70,
     "coords": [
       7.41,
@@ -37582,7 +40425,7 @@ gt.bell.fish = [
     "patch": 5.1,
     "folklore": 1,
     "bait": [
-      "Robber Ball",
+      "Baitbugs",
       "Clown Tetra",
       "Eryops"
     ],
@@ -37597,6 +40440,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Lake Tusi Mek'ta",
     "category": "Freshwater Fishing",
+    "spot": 225,
     "lvl": 70,
     "coords": [
       7.41,
@@ -37606,50 +40450,10 @@ gt.bell.fish = [
     "zone": "The Rak'tika Greatwood"
   },
   {
-    "name": "Darkroot",
-    "patch": 5.0,
-    "bait": [
-      "Robber Ball"
-    ],
-    "id": 27485,
-    "icon": 29263,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Red Chalice",
-    "category": "Freshwater Fishing",
-    "lvl": 70,
-    "coords": [
-      9.71,
-      20.82
-    ],
-    "radius": 600,
-    "zone": "The Rak'tika Greatwood"
-  },
-  {
-    "name": "Darkroot",
-    "patch": 5.0,
-    "bait": [
-      "Robber Ball"
-    ],
-    "id": 27485,
-    "icon": 29263,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Woven Oath",
-    "category": "Freshwater Fishing",
-    "lvl": 80,
-    "coords": [
-      7.81,
-      16.21
-    ],
-    "radius": 300,
-    "zone": "The Rak'tika Greatwood"
-  },
-  {
     "name": "Oathfish",
     "patch": 5.0,
     "bait": [
-      "Baitbugs"
+      "Marble Nymph"
     ],
     "hookset": "Powerful Hookset",
     "id": 27487,
@@ -37658,6 +40462,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Red Chalice",
     "category": "Freshwater Fishing",
+    "spot": 226,
     "lvl": 70,
     "coords": [
       9.71,
@@ -37679,6 +40484,51 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "Woven Oath",
     "category": "Freshwater Fishing",
+    "spot": 229,
+    "lvl": 80,
+    "coords": [
+      7.81,
+      16.21
+    ],
+    "radius": 300,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Darkroot",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 27485,
+    "icon": 29263,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Red Chalice",
+    "category": "Freshwater Fishing",
+    "spot": 226,
+    "lvl": 70,
+    "coords": [
+      9.71,
+      20.82
+    ],
+    "radius": 600,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Darkroot",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 27485,
+    "icon": 29263,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Woven Oath",
+    "category": "Freshwater Fishing",
+    "spot": 229,
     "lvl": 80,
     "coords": [
       7.81,
@@ -37704,6 +40554,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Red Chalice",
     "category": "Freshwater Fishing",
+    "spot": 226,
     "lvl": 70,
     "coords": [
       9.71,
@@ -37727,18 +40578,108 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Powerful Hookset",
     "id": 32053,
     "icon": 28489,
     "func": "fish",
     "rarity": 2,
     "title": "The Red Chalice",
     "category": "Freshwater Fishing",
+    "spot": 226,
     "lvl": 70,
     "coords": [
       9.71,
       20.82
     ],
     "radius": 600,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Rak'tika Trout",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27489,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Lozatl",
+    "category": "Freshwater Fishing",
+    "spot": 227,
+    "lvl": 70,
+    "coords": [
+      16.01,
+      21.52
+    ],
+    "radius": 900,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Rak'tika Trout",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27489,
+    "icon": 29204,
+    "func": "fish",
+    "rarity": 1,
+    "title": "South Mjrl's Regret",
+    "category": "Freshwater Fishing",
+    "spot": 228,
+    "lvl": 70,
+    "coords": [
+      24.02,
+      31.63
+    ],
+    "radius": 1200,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Night's Bass",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27488,
+    "icon": 29206,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Lozatl",
+    "category": "Freshwater Fishing",
+    "spot": 227,
+    "lvl": 70,
+    "coords": [
+      16.01,
+      21.52
+    ],
+    "radius": 900,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Night's Bass",
+    "patch": 5.0,
+    "bait": [
+      "Robber Ball"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27488,
+    "icon": 29206,
+    "func": "fish",
+    "rarity": 1,
+    "title": "South Mjrl's Regret",
+    "category": "Freshwater Fishing",
+    "spot": 228,
+    "lvl": 70,
+    "coords": [
+      24.02,
+      31.63
+    ],
+    "radius": 1200,
     "zone": "The Rak'tika Greatwood"
   },
   {
@@ -37754,96 +40695,13 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Lozatl",
     "category": "Freshwater Fishing",
+    "spot": 227,
     "lvl": 70,
     "coords": [
       16.01,
       21.52
     ],
     "radius": 900,
-    "zone": "The Rak'tika Greatwood"
-  },
-  {
-    "name": "Night's Bass",
-    "patch": 5.0,
-    "bait": [
-      "Robber Ball"
-    ],
-    "hookset": "Precision Hookset",
-    "id": 27488,
-    "icon": 29206,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Lozatl",
-    "category": "Freshwater Fishing",
-    "lvl": 70,
-    "coords": [
-      16.01,
-      21.52
-    ],
-    "radius": 900,
-    "zone": "The Rak'tika Greatwood"
-  },
-  {
-    "name": "Night's Bass",
-    "patch": 5.0,
-    "bait": [
-      "Robber Ball"
-    ],
-    "hookset": "Precision Hookset",
-    "id": 27488,
-    "icon": 29206,
-    "func": "fish",
-    "rarity": 1,
-    "title": "South Mjrl's Regret",
-    "category": "Freshwater Fishing",
-    "lvl": 70,
-    "coords": [
-      24.02,
-      31.63
-    ],
-    "radius": 1200,
-    "zone": "The Rak'tika Greatwood"
-  },
-  {
-    "name": "Rak'tika Trout",
-    "patch": 5.0,
-    "bait": [
-      "Robber Ball"
-    ],
-    "hookset": "Precision Hookset",
-    "id": 27489,
-    "icon": 29204,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Lozatl",
-    "category": "Freshwater Fishing",
-    "lvl": 70,
-    "coords": [
-      16.01,
-      21.52
-    ],
-    "radius": 900,
-    "zone": "The Rak'tika Greatwood"
-  },
-  {
-    "name": "Rak'tika Trout",
-    "patch": 5.0,
-    "bait": [
-      "Robber Ball"
-    ],
-    "hookset": "Precision Hookset",
-    "id": 27489,
-    "icon": 29204,
-    "func": "fish",
-    "rarity": 1,
-    "title": "South Mjrl's Regret",
-    "category": "Freshwater Fishing",
-    "lvl": 70,
-    "coords": [
-      24.02,
-      31.63
-    ],
-    "radius": 1200,
     "zone": "The Rak'tika Greatwood"
   },
   {
@@ -37864,12 +40722,14 @@ gt.bell.fish = [
       "Clouds",
       "Fog"
     ],
+    "hookset": "Precision Hookset",
     "id": 28929,
     "icon": 28478,
     "func": "fish",
     "rarity": 2,
     "title": "The Lozatl",
     "category": "Freshwater Fishing",
+    "spot": 227,
     "lvl": 70,
     "coords": [
       16.01,
@@ -37884,12 +40744,14 @@ gt.bell.fish = [
     "bait": [
       "Robber Ball"
     ],
+    "hookset": "Precision Hookset",
     "id": 27493,
     "icon": 29595,
     "func": "fish",
     "rarity": 1,
     "title": "South Mjrl's Regret",
     "category": "Freshwater Fishing",
+    "spot": 228,
     "lvl": 70,
     "coords": [
       24.02,
@@ -37923,6 +40785,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "South Mjrl's Regret",
     "category": "Freshwater Fishing",
+    "spot": 228,
     "lvl": 70,
     "coords": [
       24.02,
@@ -37946,12 +40809,14 @@ gt.bell.fish = [
     "weather": [
       "Fog"
     ],
+    "hookset": "Precision Hookset",
     "id": 27494,
     "icon": 29596,
     "func": "fish",
     "rarity": 1,
     "title": "Woven Oath",
     "category": "Freshwater Fishing",
+    "spot": 229,
     "lvl": 80,
     "coords": [
       7.81,
@@ -37961,18 +40826,79 @@ gt.bell.fish = [
     "zone": "The Rak'tika Greatwood"
   },
   {
-    "name": "Deep Purple Coral",
-    "patch": 5.0,
-    "snagging": 1,
+    "name": "Deephaunt",
+    "patch": 5.5,
+    "folklore": 1,
     "bait": [
-      "Squid Strip"
+      "Baitbugs"
     ],
-    "id": 27495,
-    "icon": 29178,
+    "during": {
+      "start": 2,
+      "end": 6
+    },
+    "weather": [
+      "Fog"
+    ],
+    "transition": [
+      "Clouds"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33323,
+    "icon": "t/28496",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Woven Oath",
+    "category": "Freshwater Fishing",
+    "spot": 229,
+    "lvl": 80,
+    "coords": [
+      7.81,
+      16.21
+    ],
+    "radius": 300,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Golden Pipira",
+    "patch": 5.5,
+    "folklore": 1,
+    "bait": [
+      "Robber Ball"
+    ],
+    "during": {
+      "start": 6,
+      "end": 7
+    },
+    "hookset": "Powerful Hookset",
+    "id": 33324,
+    "icon": "t/28492",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Mjrl's Tears",
+    "category": "Freshwater Fishing",
+    "spot": 245,
+    "lvl": 70,
+    "coords": [
+      26.02,
+      36.73
+    ],
+    "radius": 600,
+    "zone": "The Rak'tika Greatwood"
+  },
+  {
+    "name": "Stormfish",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 27497,
+    "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "The Flounders' Floor",
     "category": "Ocean Fishing",
+    "spot": 230,
     "lvl": 80,
     "coords": [
       11.21,
@@ -37982,18 +40908,19 @@ gt.bell.fish = [
     "zone": "The Tempest"
   },
   {
-    "name": "Deep Purple Coral",
+    "name": "Stormfish",
     "patch": 5.0,
-    "snagging": 1,
     "bait": [
-      "Squid Strip"
+      "Moyebi Shrimp"
     ],
-    "id": 27495,
-    "icon": 29178,
+    "hookset": "Powerful Hookset",
+    "id": 27497,
+    "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "Where the Dry Return",
     "category": "Ocean Fishing",
+    "spot": 231,
     "lvl": 79,
     "coords": [
       37.74,
@@ -38008,52 +40935,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
-    "id": 27497,
-    "icon": 29025,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Flounders' Floor",
-    "category": "Ocean Fishing",
-    "lvl": 80,
-    "coords": [
-      11.21,
-      6.61
-    ],
-    "radius": 900,
-    "zone": "The Tempest"
-  },
-  {
-    "name": "Stormfish",
-    "patch": 5.0,
-    "bait": [
-      "Moyebi Shrimp"
-    ],
-    "id": 27497,
-    "icon": 29025,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Where the Dry Return",
-    "category": "Ocean Fishing",
-    "lvl": 79,
-    "coords": [
-      37.74,
-      7.01
-    ],
-    "radius": 300,
-    "zone": "The Tempest"
-  },
-  {
-    "name": "Stormfish",
-    "patch": 5.0,
-    "bait": [
-      "Moyebi Shrimp"
-    ],
+    "hookset": "Powerful Hookset",
     "id": 27497,
     "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Caliban Gorge",
     "category": "Ocean Fishing",
+    "spot": 232,
     "lvl": 79,
     "coords": [
       11.91,
@@ -38068,12 +40957,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27497,
     "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "West Caliban Gap",
     "category": "Ocean Fishing",
+    "spot": 233,
     "lvl": 80,
     "coords": [
       6.21,
@@ -38088,12 +40979,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27497,
     "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "East Caliban Gap",
     "category": "Ocean Fishing",
+    "spot": 234,
     "lvl": 80,
     "coords": [
       8.51,
@@ -38108,12 +41001,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27497,
     "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "Purpure",
     "category": "Ocean Fishing",
+    "spot": 235,
     "lvl": 79,
     "coords": [
       33.63,
@@ -38128,12 +41023,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27497,
     "icon": 29025,
     "func": "fish",
     "rarity": 1,
     "title": "The Norvrandt Slope",
     "category": "Ocean Fishing",
+    "spot": 236,
     "lvl": 80,
     "coords": [
       29.03,
@@ -38143,17 +41040,20 @@ gt.bell.fish = [
     "zone": "The Tempest"
   },
   {
-    "name": "Caliban",
+    "name": "Deep Purple Coral",
     "patch": 5.0,
+    "snagging": 1,
     "bait": [
-      "Moyebi Shrimp"
+      "Short Bill Minnow"
     ],
-    "id": 27499,
-    "icon": 29041,
+    "hookset": "Precision Hookset",
+    "id": 27495,
+    "icon": 29178,
     "func": "fish",
     "rarity": 1,
     "title": "The Flounders' Floor",
     "category": "Ocean Fishing",
+    "spot": 230,
     "lvl": 80,
     "coords": [
       11.21,
@@ -38163,17 +41063,20 @@ gt.bell.fish = [
     "zone": "The Tempest"
   },
   {
-    "name": "Caliban",
+    "name": "Deep Purple Coral",
     "patch": 5.0,
+    "snagging": 1,
     "bait": [
-      "Moyebi Shrimp"
+      "Squid Strip"
     ],
-    "id": 27499,
-    "icon": 29041,
+    "hookset": "Precision Hookset",
+    "id": 27495,
+    "icon": 29178,
     "func": "fish",
     "rarity": 1,
     "title": "Where the Dry Return",
     "category": "Ocean Fishing",
+    "spot": 231,
     "lvl": 79,
     "coords": [
       37.74,
@@ -38188,12 +41091,58 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Powerful Hookset",
+    "id": 27499,
+    "icon": 29041,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Flounders' Floor",
+    "category": "Ocean Fishing",
+    "spot": 230,
+    "lvl": 80,
+    "coords": [
+      11.21,
+      6.61
+    ],
+    "radius": 900,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Caliban",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 27499,
+    "icon": 29041,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Where the Dry Return",
+    "category": "Ocean Fishing",
+    "spot": 231,
+    "lvl": 79,
+    "coords": [
+      37.74,
+      7.01
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Caliban",
+    "patch": 5.0,
+    "bait": [
+      "Moyebi Shrimp"
+    ],
+    "hookset": "Powerful Hookset",
     "id": 27499,
     "icon": 29041,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Caliban Gorge",
     "category": "Ocean Fishing",
+    "spot": 232,
     "lvl": 79,
     "coords": [
       11.91,
@@ -38215,6 +41164,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Flounders' Floor",
     "category": "Ocean Fishing",
+    "spot": 230,
     "lvl": 80,
     "coords": [
       11.21,
@@ -38236,6 +41186,7 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "The Flounders' Floor",
     "category": "Ocean Fishing",
+    "spot": 230,
     "lvl": 80,
     "coords": [
       11.21,
@@ -38259,12 +41210,14 @@ gt.bell.fish = [
       "Clear Skies",
       "Fair Skies"
     ],
+    "hookset": "Precision Hookset",
     "id": 28930,
     "icon": 29197,
     "func": "fish",
     "rarity": 2,
     "title": "The Flounders' Floor",
     "category": "Ocean Fishing",
+    "spot": 230,
     "lvl": 80,
     "coords": [
       11.21,
@@ -38274,18 +41227,19 @@ gt.bell.fish = [
     "zone": "The Tempest"
   },
   {
-    "name": "Ondobane",
+    "name": "Stippled Eel",
     "patch": 5.0,
     "bait": [
       "Short Bill Minnow"
     ],
-    "hookset": "Powerful Hookset",
-    "id": 27503,
-    "icon": 29183,
+    "hookset": "Precision Hookset",
+    "id": 27504,
+    "icon": 29184,
     "func": "fish",
     "rarity": 1,
     "title": "Where the Dry Return",
     "category": "Ocean Fishing",
+    "spot": 231,
     "lvl": 79,
     "coords": [
       37.74,
@@ -38295,17 +41249,19 @@ gt.bell.fish = [
     "zone": "The Tempest"
   },
   {
-    "name": "Stippled Eel",
+    "name": "Ondobane",
     "patch": 5.0,
     "bait": [
-      "Short Bill Minnow"
+      "Squid Strip"
     ],
-    "id": 27504,
-    "icon": 29184,
+    "hookset": "Powerful Hookset",
+    "id": 27503,
+    "icon": 29183,
     "func": "fish",
     "rarity": 1,
     "title": "Where the Dry Return",
     "category": "Ocean Fishing",
+    "spot": 231,
     "lvl": 79,
     "coords": [
       37.74,
@@ -38338,6 +41294,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "Where the Dry Return",
     "category": "Ocean Fishing",
+    "spot": 231,
     "lvl": 79,
     "coords": [
       37.74,
@@ -38353,12 +41310,14 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27496,
     "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Caliban Gorge",
     "category": "Ocean Fishing",
+    "spot": 232,
     "lvl": 79,
     "coords": [
       11.91,
@@ -38374,12 +41333,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 27496,
     "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "West Caliban Gap",
     "category": "Ocean Fishing",
+    "spot": 233,
     "lvl": 80,
     "coords": [
       6.21,
@@ -38395,12 +41356,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 27496,
     "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "East Caliban Gap",
     "category": "Ocean Fishing",
+    "spot": 234,
     "lvl": 80,
     "coords": [
       8.51,
@@ -38416,12 +41379,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 27496,
     "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "Purpure",
     "category": "Ocean Fishing",
+    "spot": 235,
     "lvl": 79,
     "coords": [
       33.63,
@@ -38437,12 +41402,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 27496,
     "icon": 29059,
     "func": "fish",
     "rarity": 1,
     "title": "The Norvrandt Slope",
     "category": "Ocean Fishing",
+    "spot": 236,
     "lvl": 80,
     "coords": [
       29.03,
@@ -38460,12 +41427,14 @@ gt.bell.fish = [
     "weather": [
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27500,
     "icon": 29180,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Caliban Gorge",
     "category": "Ocean Fishing",
+    "spot": 232,
     "lvl": 79,
     "coords": [
       11.91,
@@ -38478,17 +41447,19 @@ gt.bell.fish = [
     "name": "Hoodwinker",
     "patch": 5.0,
     "bait": [
-      "Short Bill Minnow"
+      "Squid Strip"
     ],
     "weather": [
       "Fair Skies"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27500,
     "icon": 29180,
     "func": "fish",
     "rarity": 1,
     "title": "East Caliban Gap",
     "category": "Ocean Fishing",
+    "spot": 234,
     "lvl": 80,
     "coords": [
       8.51,
@@ -38503,12 +41474,14 @@ gt.bell.fish = [
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Precision Hookset",
     "id": 27505,
     "icon": 29185,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Caliban Gorge",
     "category": "Ocean Fishing",
+    "spot": 232,
     "lvl": 79,
     "coords": [
       11.91,
@@ -38525,12 +41498,44 @@ gt.bell.fish = [
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Precision Hookset",
     "id": 28719,
     "icon": 29196,
     "func": "fish",
     "rarity": 1,
     "title": "Northwest Caliban Gorge",
     "category": "Ocean Fishing",
+    "spot": 232,
+    "lvl": 79,
+    "coords": [
+      11.91,
+      10.91
+    ],
+    "radius": 300,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Mora Tecta",
+    "patch": 5.5,
+    "folklore": 1,
+    "bait": [
+      "Short Bill Minnow"
+    ],
+    "during": {
+      "start": 22,
+      "end": 24
+    },
+    "weather": [
+      "Fair Skies"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 33325,
+    "icon": "t/28035",
+    "func": "fish",
+    "rarity": 2,
+    "title": "Northwest Caliban Gorge",
+    "category": "Ocean Fishing",
+    "spot": 232,
     "lvl": 79,
     "coords": [
       11.91,
@@ -38543,14 +41548,16 @@ gt.bell.fish = [
     "name": "Ancient Shrimp",
     "patch": 5.0,
     "bait": [
-      "Squid Strip"
+      "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27506,
     "icon": 29186,
     "func": "fish",
     "rarity": 1,
     "title": "West Caliban Gap",
     "category": "Ocean Fishing",
+    "spot": 233,
     "lvl": 80,
     "coords": [
       6.21,
@@ -38563,15 +41570,17 @@ gt.bell.fish = [
     "name": "Yeti Crab",
     "patch": 5.0,
     "bait": [
-      "Squid Strip",
+      "Short Bill Minnow",
       "Ancient Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 27507,
     "icon": 29187,
     "func": "fish",
     "rarity": 1,
     "title": "West Caliban Gap",
     "category": "Ocean Fishing",
+    "spot": 233,
     "lvl": 80,
     "coords": [
       6.21,
@@ -38586,7 +41595,7 @@ gt.bell.fish = [
     "folklore": 1,
     "fishEyes": 1,
     "bait": [
-      "Squid Strip",
+      "Short Bill Minnow",
       "Ancient Shrimp"
     ],
     "during": {
@@ -38603,6 +41612,38 @@ gt.bell.fish = [
     "rarity": 1,
     "title": "West Caliban Gap",
     "category": "Ocean Fishing",
+    "spot": 233,
+    "lvl": 80,
+    "coords": [
+      6.21,
+      13.51
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
+    "name": "Maru Crab",
+    "patch": 5.5,
+    "folklore": 1,
+    "bait": [
+      "Short Bill Minnow",
+      "Ancient Shrimp"
+    ],
+    "during": {
+      "start": 16,
+      "end": 20
+    },
+    "weather": [
+      "Clouds"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33326,
+    "icon": "t/28034",
+    "func": "fish",
+    "rarity": 2,
+    "title": "West Caliban Gap",
+    "category": "Ocean Fishing",
+    "spot": 233,
     "lvl": 80,
     "coords": [
       6.21,
@@ -38617,12 +41658,14 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27509,
     "icon": 29189,
     "func": "fish",
     "rarity": 1,
     "title": "East Caliban Gap",
     "category": "Ocean Fishing",
+    "spot": 234,
     "lvl": 80,
     "coords": [
       8.51,
@@ -38637,12 +41680,14 @@ gt.bell.fish = [
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Precision Hookset",
     "id": 27510,
     "icon": 29190,
     "func": "fish",
     "rarity": 1,
     "title": "East Caliban Gap",
     "category": "Ocean Fishing",
+    "spot": 234,
     "lvl": 80,
     "coords": [
       8.51,
@@ -38668,12 +41713,14 @@ gt.bell.fish = [
     "transition": [
       "Clouds"
     ],
+    "hookset": "Precision Hookset",
     "id": 30438,
     "icon": 28014,
     "func": "fish",
     "rarity": 2,
     "title": "East Caliban Gap",
     "category": "Ocean Fishing",
+    "spot": 234,
     "lvl": 80,
     "coords": [
       8.51,
@@ -38683,17 +41730,42 @@ gt.bell.fish = [
     "zone": "The Tempest"
   },
   {
+    "name": "Maneater Clam",
+    "patch": 5.0,
+    "snagging": 1,
+    "bait": [
+      "Squid Strip"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 27511,
+    "icon": 29806,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Purpure",
+    "category": "Ocean Fishing",
+    "spot": 235,
+    "lvl": 79,
+    "coords": [
+      33.63,
+      30.63
+    ],
+    "radius": 600,
+    "zone": "The Tempest"
+  },
+  {
     "name": "Azure Sea Spider",
     "patch": 5.0,
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Precision Hookset",
     "id": 27498,
     "icon": 29179,
     "func": "fish",
     "rarity": 1,
     "title": "Purpure",
     "category": "Ocean Fishing",
+    "spot": 235,
     "lvl": 79,
     "coords": [
       33.63,
@@ -38708,12 +41780,14 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27498,
     "icon": 29179,
     "func": "fish",
     "rarity": 1,
     "title": "The Norvrandt Slope",
     "category": "Ocean Fishing",
+    "spot": 236,
     "lvl": 80,
     "coords": [
       29.03,
@@ -38723,39 +41797,19 @@ gt.bell.fish = [
     "zone": "The Tempest"
   },
   {
-    "name": "Maneater Clam",
-    "patch": 5.0,
-    "snagging": 1,
-    "bait": [
-      "Short Bill Minnow"
-    ],
-    "hookset": "Precision Hookset",
-    "id": 27511,
-    "icon": 29806,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Purpure",
-    "category": "Ocean Fishing",
-    "lvl": 79,
-    "coords": [
-      33.63,
-      30.63
-    ],
-    "radius": 600,
-    "zone": "The Tempest"
-  },
-  {
     "name": "Stargazer",
     "patch": 5.0,
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Precision Hookset",
     "id": 27512,
     "icon": 29191,
     "func": "fish",
     "rarity": 1,
     "title": "Purpure",
     "category": "Ocean Fishing",
+    "spot": 235,
     "lvl": 79,
     "coords": [
       33.63,
@@ -38779,12 +41833,14 @@ gt.bell.fish = [
     "weather": [
       "Clouds"
     ],
+    "hookset": "Precision Hookset",
     "id": 28072,
     "icon": 29195,
     "func": "fish",
     "rarity": 2,
     "title": "Purpure",
     "category": "Ocean Fishing",
+    "spot": 235,
     "lvl": 79,
     "coords": [
       33.63,
@@ -38799,12 +41855,14 @@ gt.bell.fish = [
     "bait": [
       "Moyebi Shrimp"
     ],
+    "hookset": "Precision Hookset",
     "id": 26751,
     "icon": 29205,
     "func": "fish",
     "rarity": 1,
     "title": "The Norvrandt Slope",
     "category": "Ocean Fishing",
+    "spot": 236,
     "lvl": 80,
     "coords": [
       29.03,
@@ -38820,12 +41878,14 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27513,
     "icon": 29097,
     "func": "fish",
     "rarity": 1,
     "title": "The Norvrandt Slope",
     "category": "Ocean Fishing",
+    "spot": 236,
     "lvl": 80,
     "coords": [
       29.03,
@@ -38840,12 +41900,14 @@ gt.bell.fish = [
     "bait": [
       "Short Bill Minnow"
     ],
+    "hookset": "Precision Hookset",
     "id": 27514,
     "icon": 29192,
     "func": "fish",
     "rarity": 1,
     "title": "The Norvrandt Slope",
     "category": "Ocean Fishing",
+    "spot": 236,
     "lvl": 80,
     "coords": [
       29.03,
@@ -38860,12 +41922,14 @@ gt.bell.fish = [
     "bait": [
       "Squid Strip"
     ],
+    "hookset": "Powerful Hookset",
     "id": 27515,
     "icon": 29193,
     "func": "fish",
     "rarity": 1,
     "title": "The Norvrandt Slope",
     "category": "Ocean Fishing",
+    "spot": 236,
     "lvl": 80,
     "coords": [
       29.03,
@@ -38895,6 +41959,7 @@ gt.bell.fish = [
     "rarity": 2,
     "title": "The Norvrandt Slope",
     "category": "Ocean Fishing",
+    "spot": 236,
     "lvl": 80,
     "coords": [
       29.03,
