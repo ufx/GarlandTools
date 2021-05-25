@@ -717,6 +717,7 @@ Tiger Cod	Rat Tail						Medium	Powerful				30
 Rothlyt Oyster	Rat Tail						Light	Precision				35
 Hammerhead Shark	Steel Jig						Medium	Powerful				70
 Indigo Herring	Spoon Worm						Medium	Powerful				75
+Haraldr Haddock	Heavy Steel Jig						Medium	Powerful				85
 Rock Lobster	Northern Krill	17	22				Medium	Powerful				149
 Dirty Herry	Northern Krill	20	22				Heavy	Powerful				246
 Cape Westwind												30106
@@ -1023,6 +1024,7 @@ Ice Faerie	Caddisfly Larva						Light	Precision				316
 Mercy Staff	Brute Leech				Blizzards, Snow		Medium	Powerful				365
 Snowcaller	Ice Faerie				Blizzards, Snow		Medium	Powerful				363
 Coerthan Oyster	Brute Leech						Light	Precision		1		457
+Warmscale Pleco	Metal Spinner						Medium	Powerful				776
 Merciless	Ice Faerie			Snow, Blizzards	Blizzards		Heavy	Powerful			0	488
 North Silvertear												50101
 Lamp Marimo	Chocobo Fly						Light	Precision				74
@@ -1690,7 +1692,7 @@ White Goldfish	Red Prismfish	4	8				Medium	Powerful				758
 Firelight Goldfish	Red Prismfish	4	8				Light	Precision				759
 Indigo Prismfish	Violet Prismfish	0	4				Light	Precision				806
 Green Prismfish	Stonefly Larva	0	16	Fair Skies	Clear Skies, Fair Skies		Light	Precision				807
-Warden of the Seven Hues	Stonefly Larva					Indigo Prismfish, 3, Firelight Goldfish, 3, Green Prismfish, 5	Heavy	Precision				844
+Warden of the Seven Hues	Stonefly Larva					Indigo Prismfish, 3, Firelight Goldfish, 3, Green Prismfish, 5	Heavy	Powerful				844
 Mercantile Docks												100207
 Doman Trout	Nightcrawler						Medium	Powerful				571
 Doman Grass Carp	Midge Larva	20	4				Heavy	Powerful				592
@@ -1763,10 +1765,10 @@ Dusk Crayfish	Salmon Roe						Light	Precision				588
 Hak Bitterling	Stonefly Larva	0	4		Rain		Medium	Powerful			0	623
 Banderole	Zagas Khaal	0	8	Fair Skies	Fog		Heavy	Powerful				834
 Upper Yat Khaal												100303
-Tail Mountains Minnow	Midge Larva						Light	Precision				573
 Zagas Khaal	Nightcrawler						Light	Precision				577
+Tail Mountains Minnow	Zagas Khaal						Light	Precision				573
 Dry Steppe Skipper	Midge Larva						Light	Precision				586
-Skytear	Midge Larva						Light	Precision				587
+Skytear	Versatile Lure						Light	Precision				587
 Dusk Crayfish	Zagas Khaal						Light	Precision				588
 Blade Skipper	Suspending Minnow	4	8		Fog		Heavy	Powerful				821
 Sunshell	Midge Larva											779
@@ -1776,7 +1778,7 @@ Appleseed	Salmon Roe											803
 Azim Khaat												100304
 Zagas Khaal	Nightcrawler						Light	Precision				577
 Othardian Trout	Zagas Khaal						Medium	Powerful				576
-Sun Bass	Midge Larva						Medium	Powerful				579
+Sun Bass	Suspending Minnow						Medium	Powerful				579
 Hardscale	Suspending Minnow						Medium	Powerful				591
 Sweatfish	Stonefly Larva						Light	Precision				622
 Guppy	Stonefly Larva	16	20		Clear Skies, Fair Skies		Light	Precision				739
@@ -1787,10 +1789,10 @@ Greasy Strangler	Salmon Roe											792
 Spikefish	Salmon Roe											798
 Tao Khaal												100305
 Zagas Khaal	Nightcrawler						Light	Precision				577
-Dry Steppe Skipper	Midge Larva						Light	Precision				586
+Dry Steppe Skipper	Versatile Lure						Light	Precision				586
 Dusk Crayfish	Zagas Khaal						Light	Precision				588
-Bowfish	Midge Larva						Medium	Powerful				589
-Tao Bitterling	Midge Larva						Light	Precision				594
+Bowfish	Versatile Lure						Medium	Powerful				589
+Tao Bitterling	Versatile Lure						Light	Precision				594
 Elder Gourami	Zagas Khaal				Fog, Clouds		Medium	Powerful				756
 The Word of God	Stonefly Larva	20	24				Heavy	Precision				772
 Fish Offering	Salmon Roe											785
@@ -1798,11 +1800,11 @@ Zagas A'khaal	Salmon Roe											788
 Steppe Sweetfish	Salmon Roe											791
 Moon Oyster	Salmon Roe											795
 Lower Yat Khaal												100306
-Othardian Trout	Midge Larva						Medium	Powerful				576
+Othardian Trout	Salmon Roe						Medium	Powerful				576
 Steppe Skipper	Midge Larva						Light	Precision				578
-Dawn Crayfish	Midge Larva						Light	Precision				580
-Yat Goby	Midge Larva						Light	Precision				582
-Jade Sculpin	Midge Larva						Light	Precision				590
+Dawn Crayfish	Suspending Minnow						Light	Precision				580
+Yat Goby	Metal Spinner						Light	Precision				582
+Jade Sculpin	Suspending Minnow						Light	Precision				590
 Fragrant Sweetfish	Metal Spinner						Light	Precision				
 Yat Khan	Stonefly Larva				Wind		Heavy	Precision				773
 Crimson Copperfish	Salmon Roe											787
@@ -1810,7 +1812,7 @@ Dusk Scallop	Salmon Roe											797
 Granite Hardscale	Salmon Roe											801
 Fishy Fish	Salmon Roe											805
 Dotharl Khaa												100307
-Brassfish	Nightcrawler						Light	Precision				585
+Brassfish	Salmon Roe						Light	Precision				585
 Nhaama's Boon	Midge Larva						Medium	Powerful				583
 Nhaama's Treasure	Suspending Minnow	4	8	Rain	Clear Skies, Fair Skies		Heavy	Powerful				832
 The Unconditional	Stonefly Larva	5	7	Rain	Clear Skies		Heavy	Precision				845
@@ -1840,8 +1842,8 @@ Flamefish	Large Gig Head											725
 Eternal Eye	Small Gig Head					Glaring Perch, 7						727
 Soul of the Stallion	Small Gig Head					Glaring Perch, 7						728
 Kugane Piers												110101
-Grinning Anchovy	Live Shrimp						Light	Precision				539
-Ruby Shrimp	Live Shrimp						Light	Precision				545
+Grinning Anchovy	Metal Spinner						Light	Precision				539
+Ruby Shrimp	Metal Spinner						Light	Precision				545
 Striped Fugu	Ruby Shrimp						Medium	Powerful				562
 Glass Tuna	Ruby Shrimp						Medium	Powerful				605
 Hanatatsu	Ruby Shrimp						Medium	Powerful				630
@@ -1854,10 +1856,10 @@ Striped Fugu	Ruby Shrimp						Medium	Powerful				562
 Glass Tuna	Ruby Shrimp						Medium	Powerful				605
 The Gambler	Blue Bobbit						Heavy	Powerful				767
 The Silver Canal												110202
-Nogoi	Nightcrawler						Medium	Powerful				565
-Doman Trout	Nightcrawler						Medium	Powerful				571
+Nogoi	Stonefly Larva						Medium	Powerful				565
+Doman Trout	Metal Spinner						Medium	Powerful				571
 Killifish	Midge Larva				Clear Skies		Light	Precision				574
-Brassfish	Nightcrawler						Light	Precision				585
+Brassfish	Midge Larva						Light	Precision				585
 Bonsai Fish	Nightcrawler						Light	Precision				753
 Princess Killifish	Nightcrawler	4	6				Heavy	Precision				816
 The Trivium												120101
@@ -2115,7 +2117,7 @@ Lake Tusi Mek'ta												120701
 Clawbow	Fruit Worm						Light	Precision				3079
 Yellow Pipira	Fruit Worm						Light	Precision				3083
 Robber Crab	Robber Ball						Light	Precision				3081
-Clown Tetra	Baitbugs						Light	Precision				3087
+Clown Tetra	Robber Ball						Light	Precision				3087
 Eryops	Clown Tetra						Medium	Powerful				3088
 Priest of Yx'Lokwa	Eryops	10	12				Heavy	Powerful				3185
 The Red Chalice												120702

@@ -18887,20 +18887,16 @@ gt.bell.fish = [
     "zone": "Western Thanalan"
   },
   {
-    "name": "Dirty Herry",
-    "patch": 2.3,
+    "name": "Haraldr Haddock",
+    "patch": 1.0,
     "bait": [
-      "Northern Krill"
+      "Heavy Steel Jig"
     ],
-    "during": {
-      "start": 20,
-      "end": 22
-    },
     "hookset": "Powerful Hookset",
-    "id": 7910,
-    "icon": 29081,
+    "id": 4899,
+    "icon": 29017,
     "func": "fish",
-    "rarity": 2,
+    "rarity": 1,
     "title": "The Silver Bazaar",
     "category": "Ocean Fishing",
     "spot": 69,
@@ -18930,6 +18926,32 @@ gt.bell.fish = [
     "coords": [
       9.93,
       7.37
+    ],
+    "radius": 600,
+    "zone": "Western Thanalan"
+  },
+  {
+    "name": "Dirty Herry",
+    "patch": 2.3,
+    "bait": [
+      "Northern Krill"
+    ],
+    "during": {
+      "start": 20,
+      "end": 22
+    },
+    "hookset": "Powerful Hookset",
+    "id": 7910,
+    "icon": 29081,
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Silver Bazaar",
+    "category": "Ocean Fishing",
+    "spot": 69,
+    "lvl": 25,
+    "coords": [
+      14.57,
+      29.55
     ],
     "radius": 600,
     "zone": "Western Thanalan"
@@ -22806,6 +22828,28 @@ gt.bell.fish = [
     "hookset": "Precision Hookset",
     "id": 14217,
     "icon": 29097,
+    "func": "fish",
+    "rarity": 1,
+    "title": "West Banepool",
+    "category": "Freshwater Fishing",
+    "spot": 116,
+    "lvl": 53,
+    "coords": [
+      13.26,
+      8.84
+    ],
+    "radius": 600,
+    "zone": "Coerthas Western Highlands"
+  },
+  {
+    "name": "Warmscale Pleco",
+    "patch": 4.3,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Powerful Hookset",
+    "id": 23073,
+    "icon": 29236,
     "func": "fish",
     "rarity": 1,
     "title": "West Banepool",
@@ -31955,7 +31999,7 @@ gt.bell.fish = [
     "name": "Grinning Anchovy",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 20092,
@@ -32286,7 +32330,7 @@ gt.bell.fish = [
     "name": "Ruby Shrimp",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 20112,
@@ -32532,7 +32576,7 @@ gt.bell.fish = [
     "name": "Glass Tuna",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp",
+      "Metal Spinner",
       "Ruby Shrimp"
     ],
     "hookset": "Powerful Hookset",
@@ -33506,7 +33550,7 @@ gt.bell.fish = [
     "name": "Doman Trout",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Metal Spinner"
     ],
     "hookset": "Powerful Hookset",
     "id": 20123,
@@ -33716,7 +33760,7 @@ gt.bell.fish = [
     "name": "Nogoi",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Stonefly Larva"
     ],
     "hookset": "Powerful Hookset",
     "id": 20137,
@@ -34492,7 +34536,7 @@ gt.bell.fish = [
     "transition": [
       "Fair Skies"
     ],
-    "hookset": "Precision Hookset",
+    "hookset": "Powerful Hookset",
     "id": 24994,
     "icon": 29550,
     "func": "fish",
@@ -34829,7 +34873,7 @@ gt.bell.fish = [
     "name": "Othardian Trout",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Salmon Roe"
     ],
     "hookset": "Powerful Hookset",
     "id": 20126,
@@ -35028,7 +35072,7 @@ gt.bell.fish = [
     "name": "Dawn Crayfish",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Suspending Minnow"
     ],
     "hookset": "Precision Hookset",
     "id": 20132,
@@ -35149,7 +35193,7 @@ gt.bell.fish = [
     "name": "Dry Steppe Skipper",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Versatile Lure"
     ],
     "hookset": "Precision Hookset",
     "id": 20129,
@@ -35304,7 +35348,8 @@ gt.bell.fish = [
     "name": "Tail Mountains Minnow",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Nightcrawler",
+      "Zagas Khaal"
     ],
     "hookset": "Precision Hookset",
     "id": 20023,
@@ -35326,7 +35371,7 @@ gt.bell.fish = [
     "name": "Skytear",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Versatile Lure"
     ],
     "hookset": "Precision Hookset",
     "id": 20131,
@@ -35462,7 +35507,7 @@ gt.bell.fish = [
     "name": "Sun Bass",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Suspending Minnow"
     ],
     "hookset": "Powerful Hookset",
     "id": 20130,
@@ -35679,7 +35724,7 @@ gt.bell.fish = [
     "name": "Bowfish",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Versatile Lure"
     ],
     "hookset": "Powerful Hookset",
     "id": 20134,
@@ -35701,7 +35746,7 @@ gt.bell.fish = [
     "name": "Tao Bitterling",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Versatile Lure"
     ],
     "hookset": "Precision Hookset",
     "id": 20044,
@@ -35862,7 +35907,7 @@ gt.bell.fish = [
     "name": "Yat Goby",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "id": 20031,
@@ -35884,7 +35929,7 @@ gt.bell.fish = [
     "name": "Jade Sculpin",
     "patch": 4.0,
     "bait": [
-      "Midge Larva"
+      "Suspending Minnow"
     ],
     "hookset": "Precision Hookset",
     "id": 20135,
@@ -36038,7 +36083,7 @@ gt.bell.fish = [
     "name": "Brassfish",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Salmon Roe"
     ],
     "hookset": "Precision Hookset",
     "id": 20125,
@@ -36060,7 +36105,7 @@ gt.bell.fish = [
     "name": "Brassfish",
     "patch": 4.0,
     "bait": [
-      "Nightcrawler"
+      "Midge Larva"
     ],
     "hookset": "Precision Hookset",
     "id": 20125,
@@ -36255,7 +36300,7 @@ gt.bell.fish = [
     "name": "Striped Fugu",
     "patch": 4.0,
     "bait": [
-      "Live Shrimp",
+      "Metal Spinner",
       "Ruby Shrimp"
     ],
     "hookset": "Powerful Hookset",
@@ -36302,7 +36347,7 @@ gt.bell.fish = [
     "patch": 4.0,
     "folklore": 1,
     "bait": [
-      "Live Shrimp",
+      "Metal Spinner",
       "Ruby Shrimp"
     ],
     "hookset": "Powerful Hookset",
@@ -36326,7 +36371,7 @@ gt.bell.fish = [
     "patch": 4.2,
     "folklore": 1,
     "bait": [
-      "Live Shrimp",
+      "Metal Spinner",
       "Ruby Shrimp"
     ],
     "hookset": "Precision Hookset",
@@ -36350,7 +36395,7 @@ gt.bell.fish = [
     "patch": 4.3,
     "folklore": 1,
     "bait": [
-      "Live Shrimp",
+      "Metal Spinner",
       "Ruby Shrimp"
     ],
     "hookset": "Powerful Hookset",
@@ -40379,7 +40424,7 @@ gt.bell.fish = [
     "name": "Clown Tetra",
     "patch": 5.0,
     "bait": [
-      "Baitbugs"
+      "Robber Ball"
     ],
     "hookset": "Precision Hookset",
     "id": 27490,
@@ -40401,7 +40446,7 @@ gt.bell.fish = [
     "name": "Eryops",
     "patch": 5.0,
     "bait": [
-      "Baitbugs",
+      "Robber Ball",
       "Clown Tetra"
     ],
     "hookset": "Powerful Hookset",
@@ -40425,7 +40470,7 @@ gt.bell.fish = [
     "patch": 5.1,
     "folklore": 1,
     "bait": [
-      "Baitbugs",
+      "Robber Ball",
       "Clown Tetra",
       "Eryops"
     ],

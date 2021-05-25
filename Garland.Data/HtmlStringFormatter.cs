@@ -121,7 +121,7 @@ namespace Garland.Data
                     return "[???]";
 
                 default:
-                    throw new NotImplementedException();
+                    return "";
             }
         }
 

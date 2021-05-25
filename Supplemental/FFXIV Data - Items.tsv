@@ -141,11 +141,11 @@ Horn Glue	Loot	Timeworn Leather Map
 Growth Formula Gamma	Loot	Timeworn Leather Map											
 Hi-Ether	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
 Hi-Potion	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
-Hi-Potion of Strength	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
-Hi-Potion of Dexterity	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
-Hi-Potion of Vitality	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
-Hi-Potion of Intelligence	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
-Hi-Potion of Mind	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Hi-Potion of Strength	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map									
+Hi-Potion of Dexterity	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map									
+Hi-Potion of Vitality	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map									
+Hi-Potion of Intelligence	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map									
+Hi-Potion of Mind	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map									
 Cordial	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map									
 Blue Fox Hide	Loot	Timeworn Goatskin Map	Timeworn Peisteskin Map	Timeworn Dragonskin Map	Timeworn Wyvernskin Map								
 Exquisite Buttons	Loot	Timeworn Goatskin Map	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Unhidden Leather Map							
@@ -172,7 +172,7 @@ Cactuar Needle	Loot	Timeworn Goatskin Map
 Hippogryph Sinew	Loot	Timeworn Goatskin Map											
 Red Coral	Loot	Timeworn Goatskin Map											
 Mahogany Lumber	Loot	Timeworn Goatskin Map											
-Cobalt Ingot	Loot	Timeworn Goatskin Map											
+Cobalt Ingot	Loot	Timeworn Goatskin Map	Timeworn Toadskin Map										
 Steel Plate	Loot	Timeworn Goatskin Map											
 Mythril Plate	Loot	Timeworn Goatskin Map											
 Raptor Leather	Loot	Timeworn Goatskin Map											
@@ -232,6 +232,7 @@ Wind Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Drag
 Earth Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
 Lightning Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
 Water Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
+Pneumite	Loot	Timeworn Archaeoskin Map											
 Yeti Fang	Loot	Timeworn Archaeoskin Map											
 Holy Cedar Lumber	Loot	Timeworn Archaeoskin Map											
 Dark Chestnut Lumber	Loot	Timeworn Archaeoskin Map											
@@ -245,6 +246,7 @@ Rainbow Thread	Loot	Timeworn Archaeoskin Map
 Holy Rainbow Cloth	Loot	Timeworn Archaeoskin Map											
 Ramie Thread	Loot	Timeworn Archaeoskin Map											
 Ramie Cloth	Loot	Timeworn Archaeoskin Map											
+Growth Formula Epsilon	Loot	Timeworn Archaeoskin Map											
 Holy Water	Loot	Timeworn Archaeoskin Map											
 Enchanted Hardsilver Ink	Loot	Timeworn Archaeoskin Map											
 Draconian Potion of Strength	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map									
@@ -257,12 +259,21 @@ Antique Rug	Loot	Timeworn Wyvernskin Map
 Atomos Corpulence	Loot	Timeworn Wyvernskin Map											
 Falconer's Hemp	Loot	Timeworn Wyvernskin Map											
 Steel Wheel Bearing	Loot	Timeworn Wyvernskin Map											
+Unidentifiable Ore	Loot	Timeworn Wyvernskin Map	Timeworn Dragonskin Map										
+Unidentifiable Shell	Loot	Timeworn Wyvernskin Map	Timeworn Dragonskin Map										
+On Windy Meadows Orchestrion Roll	Loot	Timeworn Wyvernskin Map											
+Birch Lumber	Loot	Timeworn Wyvernskin Map											
+Adamantite Nugget	Loot	Timeworn Wyvernskin Map											
+Adamantite Rivets	Loot	Timeworn Wyvernskin Map											
+Hardsilver Ingot	Loot	Timeworn Wyvernskin Map											
+Dragon Leather	Loot	Timeworn Wyvernskin Map											
+Hallowed Ramie Cloth	Loot	Timeworn Wyvernskin Map											
+Chimerical Felt	Loot	Timeworn Wyvernskin Map											
+Hallowed Water	Loot	Timeworn Wyvernskin Map											
 Paissa Brat	Loot	Timeworn Dragonskin Map											
 Rush Grass	Loot	Timeworn Dragonskin Map											
 Thavnairian Leather	Loot	Timeworn Dragonskin Map											
 Thavnairian Silk	Loot	Timeworn Dragonskin Map											
-Unidentifiable Ore	Loot	Timeworn Dragonskin Map											
-Unidentifiable Shell	Loot	Timeworn Dragonskin Map											
 Holy Linen	Loot	Timeworn Gaganaskin Map											
 Leather Cointe Quaint	Loot	Timeworn Gaganaskin Map											
 Nagxian Leather	Loot	Timeworn Gaganaskin Map											
@@ -273,9 +284,11 @@ Ginkgo Leaf Pile	Loot	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map
 Maple Leaf Pile	Loot	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map										
 Stygian Ash	Loot	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map										
 Little Chef's Playset	Loot	Timeworn Gaganaskin Map	Fête Present										
+Plush Pile	Loot	Timeworn Gaganaskin Map											
 Unmoving Maneki Moogle	Loot	Timeworn Gaganaskin Map											
 Dzo Horn	Loot	Timeworn Gaganaskin Map											
 Muud Suud Horn	Loot	Timeworn Gaganaskin Map											
+Beech Lumber	Loot	Timeworn Gaganaskin Map											
 Larch Lumber	Loot	Timeworn Gaganaskin Map											
 Pine Lumber	Loot	Timeworn Gaganaskin Map											
 High Steel Nugget	Loot	Timeworn Gaganaskin Map											
@@ -284,12 +297,14 @@ Oroshigane Ingot	Loot	Timeworn Gaganaskin Map
 Tama-hagane Ingot	Loot	Timeworn Gaganaskin Map											
 Koppranickel Nugget	Loot	Timeworn Gaganaskin Map											
 Triphane	Loot	Timeworn Gaganaskin Map											
+Slate Whetstone	Loot	Timeworn Gaganaskin Map											
 Kyanite	Loot	Timeworn Gaganaskin Map											
 Gagana Leather	Loot	Timeworn Gaganaskin Map											
 Gyuki Leather	Loot	Timeworn Gaganaskin Map											
 Bloodhempen Yarn	Loot	Timeworn Gaganaskin Map											
 Ruby Cotton Yarn	Loot	Timeworn Gaganaskin Map											
 Kudzu Thread	Loot	Timeworn Gaganaskin Map											
+Worsted Yarn	Loot	Timeworn Gaganaskin Map											
 Commanding Craftsman's Tea	Loot	Timeworn Gaganaskin Map											
 Competent Craftsman's Tea	Loot	Timeworn Gaganaskin Map											
 Cunning Craftsman's Tea	Loot	Timeworn Gaganaskin Map											
@@ -336,10 +351,10 @@ Allagan Platinum Piece	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox
 Baby Opo-opo	Loot	Bronze-trimmed Sack											
 Bluebird	Loot	Bronze-trimmed Sack											
 Cherry Confetti	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox								
-Peach Confetti	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
-Clear Demimateria I	Loot	Bronze-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox							
-Clear Demimateria II	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
-Clear Demimateria III	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
+Peach Confetti	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-haloed Sack	Gold-haloed Sack								
+Clear Demimateria I	Loot	Bronze-trimmed Sack	Silver-haloed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
+Clear Demimateria II	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-haloed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox					
+Clear Demimateria III	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-haloed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox					
 Savage Aim Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Savage Aim Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
 Savage Might Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
@@ -354,7 +369,7 @@ Battledance Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack
 Battledance Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-haloed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox					
 Piety Materia IV	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Piety Materia V	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
-Expeditioner's Coat	Loot	Bronze-trimmed Sack											
+Expeditioner's Coat	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Expeditioner's Moccasins	Loot	Bronze-trimmed Sack											
 Expeditioner's Pantalettes	Loot	Bronze-trimmed Sack											
 Falconer's Shirt	Loot	Bronze-trimmed Sack											
@@ -393,6 +408,7 @@ Paissa Brat	Loot	Bronze-trimmed Sack
 Palace of the Dead Flooring	Loot	Bronze-trimmed Sack											
 Palace of the Dead Interior Wall	Loot	Bronze-trimmed Sack											
 Palace Pedestal	Loot	Bronze-trimmed Sack											
+Survival Boots	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Survival Halfslops	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Survival Hat	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Survival Shirt	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
@@ -407,10 +423,10 @@ Thavnairian Tights	Loot	Bronze-trimmed Sack
 Tiny Bulb	Loot	Bronze-trimmed Sack											
 Ugly Duckling	Loot	Bronze-trimmed Sack											
 Unicolt	Loot	Bronze-trimmed Sack											
-Wind Silk Bottoms	Loot	Bronze-trimmed Sack											
+Wind Silk Bottoms	Loot	Bronze-trimmed Sack	Iron-trimmed Sack										
 Wind Silk Coatee	Loot	Bronze-trimmed Sack											
 Wind-up Tonberry	Loot	Bronze-trimmed Sack											
-Blackbosom Orchestrion Roll	Loot	Iron-trimmed Sack											
+Blackbosom Orchestrion Roll	Loot	Iron-trimmed Sack	Silver-trimmed Sack										
 Dinosaur Leather Gloves	Loot	Iron-trimmed Sack											
 Dinosaur Leather Shoes	Loot	Iron-trimmed Sack											
 Expeditioner's Cap	Loot	Iron-trimmed Sack											
@@ -451,10 +467,7 @@ Replica Heavy Allagan Armor	Loot	Iron-trimmed Sack
 Replica Heavy Allagan Cuisses	Loot	Iron-trimmed Sack											
 Replica Heavy Allagan Flanchard	Loot	Iron-trimmed Sack											
 Replica Heavy Allagan Gauntlets	Loot	Iron-trimmed Sack											
-Survival Halfslops	Loot	Iron-trimmed Sack											
-Survival Shirt	Loot	Iron-trimmed Sack											
 Uraeus Body Armor	Loot	Iron-trimmed Sack											
-Wind Silk Bottoms	Loot	Iron-trimmed Sack											
 Wind Silk Wedge Cap	Loot	Iron-trimmed Sack											
 Wind-up Edda	Loot	Iron-trimmed Sack	Silver-trimmed Sack	Gold-trimmed Sack									
 Abigail Barding	Loot	Silver-trimmed Sack	Gold-trimmed Sack										
@@ -489,9 +502,42 @@ Replica Allagan Round Shield	Loot	Silver-trimmed Sack
 Replica Allagan Scepter	Loot	Silver-trimmed Sack											
 Replica Allagan Spear	Loot	Silver-trimmed Sack											
 Replica Allagan Star Globe	Loot	Silver-trimmed Sack											
+Replica High Allagan Trousers of Fending	Loot	Silver-trimmed Sack											
+Replica High Allagan Sabatons of Maiming	Loot	Silver-trimmed Sack											
 Replica High Allagan Headgear of Striking	Loot	Silver-trimmed Sack											
 Replica High Allagan Gauntlets of Striking	Loot	Silver-trimmed Sack											
+Replica High Allagan Sabatons of Striking	Loot	Silver-trimmed Sack											
+The Greater Key of Tremors	Loot	Silver-trimmed Sack											
+The Holy Key of Tremors	Loot	Silver-trimmed Sack											
+Tremor Axe	Loot	Silver-trimmed Sack											
+Tremor Bow	Loot	Silver-trimmed Sack											
+Tremor Cane	Loot	Silver-trimmed Sack											
+Tremor Cleavers	Loot	Silver-trimmed Sack											
+Tremor Cudgel	Loot	Silver-trimmed Sack											
 Tremor Culverin	Loot	Silver-trimmed Sack											
+Tremor Foil	Loot	Silver-trimmed Sack											
+Tremor Guillotine	Loot	Silver-trimmed Sack											
+Tremor Katana	Loot	Silver-trimmed Sack											
+Tremor Knuckles	Loot	Silver-trimmed Sack											
+Tremor Shield	Loot	Silver-trimmed Sack											
+Tremor Spear	Loot	Silver-trimmed Sack											
+Tremor Staff	Loot	Silver-trimmed Sack											
+Tremor Star Globe	Loot	Silver-trimmed Sack											
+Abandon of the Vortex	Loot	Silver-trimmed Sack											
+Beak of the Vortex	Loot	Silver-trimmed Sack											
+Blood of the Vortex	Loot	Silver-trimmed Sack											
+Gaze of the Vortex	Loot	Silver-trimmed Sack											
+Heart of the Vortex	Loot	Silver-trimmed Sack											
+Honor of the Vortex	Loot	Silver-trimmed Sack											
+Lift of the Vortex	Loot	Silver-trimmed Sack											
+Spine of the Vortex	Loot	Silver-trimmed Sack											
+Pain of the Vortex	Loot	Silver-trimmed Sack											
+Plumes of the Vortex	Loot	Silver-trimmed Sack											
+Scream of the Vortex	Loot	Silver-trimmed Sack											
+Talons of the Vortex	Loot	Silver-trimmed Sack											
+Van of the Vortex	Loot	Silver-trimmed Sack											
+Wile of the Vortex	Loot	Silver-trimmed Sack											
+Will of the Vortex	Loot	Silver-trimmed Sack											
 Dead Hive Battleaxe	Loot	Gold-trimmed Sack											
 Dead Hive Bow	Loot	Gold-trimmed Sack											
 Dead Hive Cane	Loot	Gold-trimmed Sack											
@@ -554,7 +600,6 @@ Black Cherry Blossom Corsage	Loot	Silver-haloed Sack
 Blissful Barding	Loot	Silver-haloed Sack											
 Bom Boko	Loot	Silver-haloed Sack											
 Castaway Chocobo Chick	Loot	Silver-haloed Sack											
-Clear Demimateria III	Loot	Silver-haloed Sack											
 Dried Green Oldrose	Loot	Silver-haloed Sack											
 Dwarf Rabbit	Loot	Silver-haloed Sack											
 Empyrean Clay	Loot	Silver-haloed Sack											
@@ -598,6 +643,8 @@ Zurvanite Barding	Loot	Silver-haloed Sack
 Ao Dai	Loot	Gold-haloed Sack											
 Baby Bombfish	Loot	Gold-haloed Sack											
 Bibliophobia Orchestrion Roll	Loot	Gold-haloed Sack											
+Cropped Wool Slops	Loot	Gold-haloed Sack											
+Down the Up Staircase Orchestrion Roll	Loot	Gold-haloed Sack											
 Empyrean Clay	Loot	Gold-haloed Sack											
 Empyrean Pine Log	Loot	Gold-haloed Sack											
 Flannel Suspenders	Loot	Gold-haloed Sack											
@@ -612,6 +659,7 @@ New World Headdress	Loot	Gold-haloed Sack
 Odder Otter	Loot	Gold-haloed Sack											
 Oriental Rice Ball Lunch	Loot	Gold-haloed Sack											
 Quan	Loot	Gold-haloed Sack											
+Riptide Orchestrion Roll	Loot	Gold-haloed Sack											
 Thavnairian Wool	Loot	Gold-haloed Sack											
 The Dark's Embrace Orchestrion Roll	Loot	Gold-haloed Sack											
 Tiny Tatsunoko	Loot	Gold-haloed Sack											
@@ -893,6 +941,7 @@ Craftsman's Apron	Loot	Fête Present
 Craftsman's Singlet	Loot	Fête Present											
 Craftsman's Coverall Bottoms	Loot	Fête Present											
 Craftsman's Leather Shoes	Loot	Fête Present											
+Skyworker's Helmet	Loot	Fête Present											
 Skyworker's Singlet	Loot	Fête Present											
 Skyworker's Bottoms	Loot	Fête Present											
 Skyworker's Boots	Loot	Fête Present											
