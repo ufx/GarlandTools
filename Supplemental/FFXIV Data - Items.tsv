@@ -124,7 +124,7 @@ Oak Lumber	Loot	Timeworn Leather Map	Timeworn Goatskin Map
 Iron Ingot	Loot	Timeworn Leather Map											
 Steel Ingot	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
 Steel Rivets	Loot	Timeworn Leather Map											
-Mythril Ingot	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
+Mythril Ingot	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map									
 Silver Ingot	Loot	Timeworn Leather Map	Timeworn Goatskin Map										
 Siltstone Whetstone	Loot	Timeworn Leather Map											
 Electrum Ingot	Loot	Timeworn Leather Map	Timeworn Goatskin Map	Timeworn Toadskin Map									
@@ -182,10 +182,13 @@ Clear Glass Lens	Loot	Timeworn Goatskin Map
 Enchanted Mythril Ink	Loot	Timeworn Goatskin Map											
 Cutting Oil	Loot	Timeworn Toadskin Map	Timeworn Peisteskin Map	Unhidden Leather Map									
 Cobalt Plate	Loot	Timeworn Toadskin Map											
+Rush Grass	Loot	Timeworn Toadskin Map	Timeworn Dragonskin Map										
 Tiny Bulb	Loot	Timeworn Toadskin Map											
 Morbol Saliva	Loot	Timeworn Toadskin Map	Unhidden Leather Map										
 Aetherial Cobalt Sabatons	Loot	Timeworn Toadskin Map											
+Aetherial Red Coral Necklace	Loot	Timeworn Toadskin Map											
 Aetherial Electrum Wristlets	Loot	Timeworn Toadskin Map											
+Pudding Flesh	Loot	Timeworn Toadskin Map											
 Rosewood Lumber	Loot	Timeworn Toadskin Map											
 Swan Feather	Loot	Timeworn Boarskin Map											
 Mariner Cotton Cloth	Loot	Timeworn Boarskin Map	Unhidden Leather Map										
@@ -232,7 +235,7 @@ Wind Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Drag
 Earth Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
 Lightning Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
 Water Crystal	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map	Timeworn Dragonskin Map	Timeworn Gaganaskin Map	Timeworn Gazelleskin Map	Timeworn Gliderskin Map	Timeworn Zonureskin Map					
-Pneumite	Loot	Timeworn Archaeoskin Map											
+Pneumite	Loot	Timeworn Archaeoskin Map	Timeworn Wyvernskin Map										
 Yeti Fang	Loot	Timeworn Archaeoskin Map											
 Holy Cedar Lumber	Loot	Timeworn Archaeoskin Map											
 Dark Chestnut Lumber	Loot	Timeworn Archaeoskin Map											
@@ -261,17 +264,22 @@ Falconer's Hemp	Loot	Timeworn Wyvernskin Map
 Steel Wheel Bearing	Loot	Timeworn Wyvernskin Map											
 Unidentifiable Ore	Loot	Timeworn Wyvernskin Map	Timeworn Dragonskin Map										
 Unidentifiable Shell	Loot	Timeworn Wyvernskin Map	Timeworn Dragonskin Map										
+Calamity Unbound Orchestrion Roll	Loot	Timeworn Wyvernskin Map											
 On Windy Meadows Orchestrion Roll	Loot	Timeworn Wyvernskin Map											
+Twilight over Thanalan Orchestrion Roll	Loot	Timeworn Wyvernskin Map											
+Dragon Fang	Loot	Timeworn Wyvernskin Map											
 Birch Lumber	Loot	Timeworn Wyvernskin Map											
+Hallowed Chestnut Lumber	Loot	Timeworn Wyvernskin Map											
 Adamantite Nugget	Loot	Timeworn Wyvernskin Map											
 Adamantite Rivets	Loot	Timeworn Wyvernskin Map											
 Hardsilver Ingot	Loot	Timeworn Wyvernskin Map											
 Dragon Leather	Loot	Timeworn Wyvernskin Map											
 Hallowed Ramie Cloth	Loot	Timeworn Wyvernskin Map											
+Crawler Silk	Loot	Timeworn Wyvernskin Map											
 Chimerical Felt	Loot	Timeworn Wyvernskin Map											
 Hallowed Water	Loot	Timeworn Wyvernskin Map											
+Growth Formula Zeta	Loot	Timeworn Wyvernskin Map											
 Paissa Brat	Loot	Timeworn Dragonskin Map											
-Rush Grass	Loot	Timeworn Dragonskin Map											
 Thavnairian Leather	Loot	Timeworn Dragonskin Map											
 Thavnairian Silk	Loot	Timeworn Dragonskin Map											
 Holy Linen	Loot	Timeworn Gaganaskin Map											
@@ -327,26 +335,26 @@ Indigo Cloth	Loot	Timeworn Zonureskin Map
 Seacloth	Loot	Timeworn Zonureskin Map											
 Shell Leather	Loot	Timeworn Zonureskin Map											
 Retainer Fantasia	Loot	Venture Coffer											
-General-purpose Pure White Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Jet Black Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Pastel Pink Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Dark Red Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Dark Brown Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Pastel Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Dark Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Pastel Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Dark Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Pastel Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Dark Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Metallic Silver Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Metallic Gold Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Metallic Red Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Metallic Orange Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Metallic Yellow Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Metallic Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Metallic Sky Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Metallic Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
-General-purpose Metallic Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present							
+General-purpose Pure White Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Jet Black Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Pastel Pink Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Dark Red Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Dark Brown Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Pastel Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Dark Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Pastel Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Dark Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Pastel Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Dark Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Metallic Silver Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Metallic Gold Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Metallic Red Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Metallic Orange Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Metallic Yellow Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Metallic Green Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Metallic Sky Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Metallic Blue Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
+General-purpose Metallic Purple Dye	Loot	Venture Coffer	Silver-trimmed Sack	Gold-haloed Sack	Southern Front Lockbox	Fête Present	Zadnor Lockbox						
 Allagan Platinum Piece	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Anemos Lockbox	Pagos Lockbox	Pyros Lockbox	Hydatos Lockbox						
 Baby Opo-opo	Loot	Bronze-trimmed Sack											
 Bluebird	Loot	Bronze-trimmed Sack											
@@ -383,6 +391,7 @@ Ul'dahn Sparkler	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	
 Gryphonskin Breastguard	Loot	Bronze-trimmed Sack											
 Gryphonskin Pantalettes	Loot	Bronze-trimmed Sack											
 High House Boots	Loot	Bronze-trimmed Sack											
+High House Bustle	Loot	Bronze-trimmed Sack											
 High House Halfboots	Loot	Bronze-trimmed Sack											
 High House Justaucorps	Loot	Bronze-trimmed Sack											
 Lesser Panda	Loot	Bronze-trimmed Sack											
@@ -390,7 +399,7 @@ Magicked Prism (Crimson Star)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-
 Magicked Prism (Emerald Star)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
 Magicked Prism (Harbor Herald)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
 Magicked Prism (Immortal Flames)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
-Magicked Prism (Indigo Star)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox	Southern Front Lockbox							
+Magicked Prism (Indigo Star)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox	Southern Front Lockbox	Zadnor Lockbox						
 Magicked Prism (Maelstrom)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
 Magicked Prism (Mythril Eye)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
 Magicked Prism (The Raven)	Loot	Bronze-trimmed Sack	Iron-trimmed Sack	Silver-trimmed Sack	Anemos Lockbox								
@@ -623,7 +632,7 @@ Morpho	Loot	Silver-haloed Sack
 Odder Otter	Loot	Silver-haloed Sack											
 Oldrose Corsage	Loot	Silver-haloed Sack											
 Parting Ways Orchestrion Roll	Loot	Silver-haloed Sack											
-Reveler's Barding	Loot	Silver-haloed Sack											
+Reveler's Barding	Loot	Silver-haloed Sack	Zadnor Lockbox										
 Road Sparrow	Loot	Silver-haloed Sack											
 Sephirotic Barding	Loot	Silver-haloed Sack											
 Shaggy Shoat	Loot	Silver-haloed Sack											
@@ -773,20 +782,20 @@ Yukinko Snowflake	Loot	Hydatos Lockbox	Moisture-warped Lockbox
 Sharlayan Aether Oil	Loot	Moisture-warped Lockbox											
 Ballroom Etiquette - Overzealous Affirmations	Loot	Moisture-warped Lockbox											
 Onslaught Orchestrion Roll	Loot	Moisture-warped Lockbox											
-Savage Aim Materia VII	Loot	Southern Front Lockbox											
-Savage Aim Materia VIII	Loot	Southern Front Lockbox											
-Savage Might Materia VII	Loot	Southern Front Lockbox											
-Savage Might Materia VIII	Loot	Southern Front Lockbox											
-Heavens' Eye Materia VII	Loot	Southern Front Lockbox											
-Heavens' Eye Materia VIII	Loot	Southern Front Lockbox											
-Quickarm Materia VII	Loot	Southern Front Lockbox											
-Quickarm Materia VIII	Loot	Southern Front Lockbox											
-Quicktongue Materia VII	Loot	Southern Front Lockbox											
-Quicktongue Materia VIII	Loot	Southern Front Lockbox											
-Battledance Materia VII	Loot	Southern Front Lockbox											
-Battledance Materia VIII	Loot	Southern Front Lockbox											
-Piety Materia VII	Loot	Southern Front Lockbox											
-Piety Materia VIII	Loot	Southern Front Lockbox											
+Savage Aim Materia VII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Savage Aim Materia VIII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Savage Might Materia VII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Savage Might Materia VIII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Heavens' Eye Materia VII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Heavens' Eye Materia VIII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Quickarm Materia VII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Quickarm Materia VIII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Quicktongue Materia VII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Quicktongue Materia VIII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Battledance Materia VII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Battledance Materia VIII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Piety Materia VII	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Piety Materia VIII	Loot	Southern Front Lockbox	Zadnor Lockbox										
 Seeing Horde Blade	Loot	Southern Front Lockbox											
 Seeing Horde Shield	Loot	Southern Front Lockbox											
 Seeing Horde Knuckles	Loot	Southern Front Lockbox											
@@ -803,25 +812,26 @@ Seeing Horde Codex	Loot	Southern Front Lockbox
 Seeing Horde Star Globe	Loot	Southern Front Lockbox											
 Seeing Horde Katana	Loot	Southern Front Lockbox											
 Seeing Horde Rapier	Loot	Southern Front Lockbox											
-Abroader Otter	Loot	Southern Front Lockbox											
-Axolotl Eft	Loot	Southern Front Lockbox											
-Byakko Cub	Loot	Southern Front Lockbox											
+Abroader Otter	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Aurelia Polyp	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Axolotl Eft	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Byakko Cub	Loot	Southern Front Lockbox	Zadnor Lockbox										
 Dainsleif F1	Loot	Southern Front Lockbox											
-Koala Joey	Loot	Southern Front Lockbox											
-Mameshiba	Loot	Southern Front Lockbox											
-Monkey King	Loot	Southern Front Lockbox											
-Mudpie	Loot	Southern Front Lockbox											
-Private Moai	Loot	Southern Front Lockbox											
-Salt & Pepper Seal	Loot	Southern Front Lockbox											
-Scarlet Peacock	Loot	Southern Front Lockbox											
-Seitei	Loot	Southern Front Lockbox											
+Koala Joey	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Mameshiba	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Monkey King	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Mudpie	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Private Moai	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Salt & Pepper Seal	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Scarlet Peacock	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Seitei	Loot	Southern Front Lockbox	Zadnor Lockbox										
 Tengu Doll	Loot	Southern Front Lockbox											
-White Whittret	Loot	Southern Front Lockbox											
+White Whittret	Loot	Southern Front Lockbox	Zadnor Lockbox										
 Wind-up Ravana	Loot	Southern Front Lockbox											
-Wind-up Shinryu	Loot	Southern Front Lockbox											
-Wind-up Weapon	Loot	Southern Front Lockbox											
-Byakko Barding	Loot	Southern Front Lockbox											
-Lunar Barding	Loot	Southern Front Lockbox											
+Wind-up Shinryu	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Wind-up Weapon	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Byakko Barding	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Lunar Barding	Loot	Southern Front Lockbox	Zadnor Lockbox										
 Seiryu Barding	Loot	Southern Front Lockbox											
 Shinryu Barding	Loot	Southern Front Lockbox											
 Suzaku Barding	Loot	Southern Front Lockbox											
@@ -861,15 +871,16 @@ Purple Viola Corsage	Loot	Southern Front Lockbox
 White Viola Corsage	Loot	Southern Front Lockbox											
 Black Viola Corsage	Loot	Southern Front Lockbox											
 Rainbow Viola Corsage	Loot	Southern Front Lockbox											
-Hannish Wool Autumn Shirt	Loot	Southern Front Lockbox											
-Quaintrelle's Ruffled Dress	Loot	Southern Front Lockbox											
-Quaintrelle's Ruffled Skirt	Loot	Southern Front Lockbox											
-Quaintrelle's Dress Shoes	Loot	Southern Front Lockbox											
-Rain Hood	Loot	Southern Front Lockbox											
-Raincoat	Loot	Southern Front Lockbox											
-Rain Boots	Loot	Southern Front Lockbox											
-Thavnairian Wool Autumn Dress	Loot	Southern Front Lockbox											
-Thavnairian Wool Autumn Shirt	Loot	Southern Front Lockbox											
+Hannish Wool Autumn Shirt	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Quaintrelle's Hat	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Quaintrelle's Ruffled Dress	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Quaintrelle's Ruffled Skirt	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Quaintrelle's Dress Shoes	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Rain Hood	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Raincoat	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Rain Boots	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Thavnairian Wool Autumn Dress	Loot	Southern Front Lockbox	Zadnor Lockbox										
+Thavnairian Wool Autumn Shirt	Loot	Southern Front Lockbox	Zadnor Lockbox										
 Blazing Inferno Wall Lamp	Loot	Southern Front Lockbox											
 Boundless Expanse Fountain	Loot	Southern Front Lockbox											
 Dainsleif SD	Loot	Southern Front Lockbox											
@@ -878,6 +889,7 @@ Diamond Chandelier	Loot	Southern Front Lockbox
 Helldiver SD	Loot	Southern Front Lockbox											
 Lord of Levin Lamp	Loot	Southern Front Lockbox											
 Nidhogg Miniature	Loot	Southern Front Lockbox											
+Raging Vortex Couch	Loot	Southern Front Lockbox											
 Sephirot Tree	Loot	Southern Front Lockbox											
 Sophia Miniature	Loot	Southern Front Lockbox											
 Titanic Cragsoul Lamp	Loot	Southern Front Lockbox											
@@ -885,6 +897,73 @@ Zurvan Miniature	Loot	Southern Front Lockbox
 Classy Checkered Parasol	Loot	Southern Front Lockbox											
 Gabriel α Identification Key	Loot	Southern Front Lockbox											
 Wind on the Plains Orchestrion Roll	Loot	Southern Front Lockbox											
+Ballroom Etiquette - Good Will Seeking	Loot	Zadnor Lockbox											
+Bozjan Barding	Loot	Zadnor Lockbox											
+Modern Aesthetics - Both Ways	Loot	Zadnor Lockbox											
+Sharksucker-class Insubmersible	Loot	Zadnor Lockbox											
+Blade of the Goddess	Loot	Zadnor Lockbox											
+Fists of the Goddess	Loot	Zadnor Lockbox											
+Axe of the Goddess	Loot	Zadnor Lockbox											
+Pike of the Goddess	Loot	Zadnor Lockbox											
+Bow of the Goddess	Loot	Zadnor Lockbox											
+Points of the Goddess	Loot	Zadnor Lockbox											
+Edge of the Goddess	Loot	Zadnor Lockbox											
+Fire of the Goddess	Loot	Zadnor Lockbox											
+Cane of the Goddess	Loot	Zadnor Lockbox											
+Pole of the Goddess	Loot	Zadnor Lockbox											
+Word of the Goddess	Loot	Zadnor Lockbox											
+Song of the Goddess	Loot	Zadnor Lockbox											
+Star of the Goddess	Loot	Zadnor Lockbox											
+Katana of the Goddess	Loot	Zadnor Lockbox											
+Rapier of the Goddess	Loot	Zadnor Lockbox											
+Shield of the Goddess	Loot	Zadnor Lockbox											
+Adventurer's Hooded Vest	Loot	Zadnor Lockbox											
+Adventuring Sweater	Loot	Zadnor Lockbox											
+Ala Mhigan Gown	Loot	Zadnor Lockbox											
+Hooded Fireglass Leather Vest	Loot	Zadnor Lockbox											
+Summer Indigo Shirt	Loot	Zadnor Lockbox											
+Cropped Summer Indigo Slops	Loot	Zadnor Lockbox											
+Steerhide Shoes	Loot	Zadnor Lockbox											
+Expanse Barding	Loot	Zadnor Lockbox											
+Horde Barding	Loot	Zadnor Lockbox											
+Reveler's Barding	Loot	Zadnor Lockbox											
+Sephirotic Barding	Loot	Zadnor Lockbox											
+Sophic Barding	Loot	Zadnor Lockbox											
+Zurvanite Barding	Loot	Zadnor Lockbox											
+Red Arum Corsage	Loot	Zadnor Lockbox											
+Blue Arum Corsage	Loot	Zadnor Lockbox											
+Yellow Arum Corsage	Loot	Zadnor Lockbox											
+Green Arum Corsage	Loot	Zadnor Lockbox											
+Orange Arum Corsage	Loot	Zadnor Lockbox											
+Purple Arum Corsage	Loot	Zadnor Lockbox											
+White Arum Corsage	Loot	Zadnor Lockbox											
+Black Arum Corsage	Loot	Zadnor Lockbox											
+Rainbow Arum Corsage	Loot	Zadnor Lockbox											
+Red Dahlia Corsage	Loot	Zadnor Lockbox											
+Blue Dahlia Corsage	Loot	Zadnor Lockbox											
+Yellow Dahlia Corsage	Loot	Zadnor Lockbox											
+Green Dahlia Corsage	Loot	Zadnor Lockbox											
+Orange Dahlia Corsage	Loot	Zadnor Lockbox											
+Purple Dahlia Corsage	Loot	Zadnor Lockbox											
+White Dahlia Corsage	Loot	Zadnor Lockbox											
+Black Dahlia Corsage	Loot	Zadnor Lockbox											
+Rainbow Dahlia Corsage	Loot	Zadnor Lockbox											
+Red Lily of the Valley Corsage	Loot	Zadnor Lockbox											
+Blue Lily of the Valley Corsage	Loot	Zadnor Lockbox											
+Yellow Lily of the Valley Corsage	Loot	Zadnor Lockbox											
+Green Lily of the Valley Corsage	Loot	Zadnor Lockbox											
+Orange Lily of the Valley Corsage	Loot	Zadnor Lockbox											
+Purple Lily of the Valley Corsage	Loot	Zadnor Lockbox											
+White Lily of the Valley Corsage	Loot	Zadnor Lockbox											
+Black Lily of the Valley Corsage	Loot	Zadnor Lockbox											
+Rainbow Lily of the Valley Corsage	Loot	Zadnor Lockbox											
+Byakko Sideboard	Loot	Zadnor Lockbox											
+Byakko Throne	Loot	Zadnor Lockbox											
+Seiryu Statuette	Loot	Zadnor Lockbox											
+Shinryu's Wing	Loot	Zadnor Lockbox											
+Stuffed Peerifool	Loot	Zadnor Lockbox											
+Stuffed Tsukuyomi	Loot	Zadnor Lockbox											
+Suzaku Wall Hanging	Loot	Zadnor Lockbox											
 Gunmetal Black Dye	Loot	Fête Present											
 Pearl White Dye	Loot	Fête Present											
 Metallic Brass Dye	Loot	Fête Present											
@@ -902,10 +981,12 @@ Bullpup	Loot	Fête Present
 Cerberpup	Loot	Fête Present											
 Dwarf Rabbit	Loot	Fête Present											
 Gaelikitten	Loot	Fête Present											
+Miniature White Knight	Loot	Fête Present											
 Morpho	Loot	Fête Present											
 Nutkin	Loot	Fête Present											
 Owlet	Loot	Fête Present											
 Ugly Duckling	Loot	Fête Present											
+Ballroom Etiquette - Concealing Meals	Loot	Fête Present											
 Ballroom Etiquette - Emphatic Elucidation	Loot	Fête Present											
 Ballroom Etiquette - Intelligent Impressions	Loot	Fête Present											
 Ballroom Etiquette - The Winsome Wallflower	Loot	Fête Present											
@@ -933,6 +1014,7 @@ Hive Barding	Loot	Fête Present
 Horde Barding	Loot	Fête Present											
 Ice Barding	Loot	Fête Present											
 Levin Barding	Loot	Fête Present											
+Machinist Barding	Loot	Fête Present											
 Sephirotic Barding	Loot	Fête Present											
 Sophic Barding	Loot	Fête Present											
 Tidal Barding	Loot	Fête Present											
@@ -2535,7 +2617,7 @@ Alphinaud & Alisaie Card	Loot	Platinum Triad Card
 F'lhaminn Card	Loot	Platinum Triad Card											
 Louisoix Leveilleur Card	Loot	Platinum Triad Card											
 Hraesvelgr Card	Loot	Platinum Triad Card											
-Nanamo Ul Namo Card	Loot	Platinum Triad Card	Silver Durai Memorial Card										
+Nanamo Ul Namo Card	Loot	Platinum Triad Card	Silver Durai Memorial Card	Gold Rowena Cup Classic Card									
 Firion Card	Loot	Platinum Triad Card	Bronze Durai Memorial Card	Silver Durai Memorial Card	Gold Durai Memorial Card								
 Cecil Harvey Card	Loot	Platinum Triad Card	Bronze Spinner's Pull Card	Silver Spinner's Pull Card	Gold Spinner's Pull Card								
 Tidus Card	Loot	Platinum Triad Card	Bronze Rowena Cup Classic Card	Silver Rowena Cup Classic Card	Gold Rowena Cup Classic Card								
