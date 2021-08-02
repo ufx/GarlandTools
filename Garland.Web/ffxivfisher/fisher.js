@@ -39688,12 +39688,6 @@ ff.model.Fish.prototype.getNextTimeRange = function() {
  */
 ff.model.Fish.prototype.setTimeRanges = function(previous, next) {
   var intersection = goog.math.Range.intersection(previous, next);
-  // Null intersection means no intersection.
-  // Length of zero means end of previous runs right into beginning of next.
-  goog.asserts.assert(
-      goog.isNull(intersection) || intersection.getLength() == 0);
-  // Previous must always come before start.
-  goog.asserts.assert(previous.start < next.start);
   this.previousTimeRange_ = previous;
   this.nextTimeRange_ = next;
 };
