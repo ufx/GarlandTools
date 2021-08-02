@@ -39235,6 +39235,7 @@ ff.model.LocationEnum = {
   "The Red Chalice": new ff.model.Location(ff.model.AreaEnum.THE_RAKTIKA_GREATWOOD, "The Red Chalice"),
   "The Lozatl": new ff.model.Location(ff.model.AreaEnum.THE_RAKTIKA_GREATWOOD, "The Lozatl"),
   "South Mjrl's Regret": new ff.model.Location(ff.model.AreaEnum.THE_RAKTIKA_GREATWOOD, "South Mjrl's Regret"),
+  "Mjrl's Tears": new ff.model.Location(ff.model.AreaEnum.THE_RAKTIKA_GREATWOOD, "Mjrl's Tears"),
   "Woven Oath": new ff.model.Location(ff.model.AreaEnum.THE_RAKTIKA_GREATWOOD, "Woven Oath"),
   "The Flounders' Floor": new ff.model.Location(ff.model.AreaEnum.THE_TEMPEST, "The Flounders' Floor"),
   "Where the Dry Return": new ff.model.Location(ff.model.AreaEnum.THE_TEMPEST, "Where the Dry Return"),
