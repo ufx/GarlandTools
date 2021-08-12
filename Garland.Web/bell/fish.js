@@ -432,16 +432,16 @@
     "icon": 29312,
     "mooch": 1
   },
-  "Versatile Lure": {
-    "name": "Versatile Lure",
-    "id": 29717,
-    "icon": 27051
-  },
   "Rudderfish": {
     "name": "Rudderfish",
     "id": 12805,
     "icon": 29717,
     "mooch": 1
+  },
+  "Versatile Lure": {
+    "name": "Versatile Lure",
+    "id": 29717,
+    "icon": 27051
   },
   "Magma Worm": {
     "name": "Magma Worm",
@@ -590,11 +590,6 @@
     "id": 27583,
     "icon": 27037
   },
-  "Short Bill Minnow": {
-    "name": "Short Bill Minnow",
-    "id": 27588,
-    "icon": 27074
-  },
   "Squid Strip": {
     "name": "Squid Strip",
     "id": 27590,
@@ -605,6 +600,11 @@
     "id": 28925,
     "icon": 28475,
     "mooch": 1
+  },
+  "Short Bill Minnow": {
+    "name": "Short Bill Minnow",
+    "id": 27588,
+    "icon": 27074
   },
   "Spearhead Squid": {
     "name": "Spearhead Squid",
@@ -5849,7 +5849,7 @@ gt.bell.fish = [
     "weather": [
       "Rain"
     ],
-    "hookset": "Powerful Hookset",
+    "hookset": "Precision Hookset",
     "id": 7710,
     "icon": 29074,
     "func": "fish",
@@ -10956,6 +10956,12 @@ gt.bell.fish = [
     "bait": [
       "Snurble Fly"
     ],
+    "weather": [
+      "Clear Skies",
+      "Clouds",
+      "Fair Skies",
+      "Fog"
+    ],
     "hookset": "Precision Hookset",
     "id": 4999,
     "icon": 29274,
@@ -10977,6 +10983,12 @@ gt.bell.fish = [
     "patch": 1.0,
     "bait": [
       "Snurble Fly"
+    ],
+    "weather": [
+      "Clear Skies",
+      "Clouds",
+      "Fair Skies",
+      "Fog"
     ],
     "hookset": "Precision Hookset",
     "id": 4999,
@@ -19581,6 +19593,10 @@ gt.bell.fish = [
     "bait": [
       "Honey Worm"
     ],
+    "during": {
+      "start": 17,
+      "end": 10
+    },
     "hookset": "Powerful Hookset",
     "id": 4985,
     "icon": 29259,
@@ -20879,15 +20895,15 @@ gt.bell.fish = [
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
-    "title": "Unfrozen Pond",
+    "title": "Clearpool",
     "category": "Freshwater Fishing",
-    "spot": 111,
-    "lvl": 52,
+    "spot": 112,
+    "lvl": 60,
     "coords": [
-      28.44,
-      17.9
+      36.78,
+      5.97
     ],
-    "radius": 600,
+    "radius": 300,
     "zone": "Coerthas Western Highlands"
   },
   {
@@ -21660,7 +21676,6 @@ gt.bell.fish = [
     "name": "Coerthan Crab",
     "patch": 3.0,
     "bait": [
-      "Freshwater Boilie",
       "Stonefly Nymph",
       "Abalathian Smelt"
     ],
@@ -21669,15 +21684,15 @@ gt.bell.fish = [
     "icon": 29808,
     "func": "fish",
     "rarity": 1,
-    "title": "Unfrozen Pond",
+    "title": "Clearpool",
     "category": "Freshwater Fishing",
-    "spot": 111,
-    "lvl": 52,
+    "spot": 112,
+    "lvl": 60,
     "coords": [
-      28.44,
-      17.9
+      36.78,
+      5.97
     ],
-    "radius": 600,
+    "radius": 300,
     "zone": "Coerthas Western Highlands"
   },
   {
@@ -21959,15 +21974,15 @@ gt.bell.fish = [
     "icon": 29803,
     "func": "fish",
     "rarity": 1,
-    "title": "Unfrozen Pond",
+    "title": "Clearpool",
     "category": "Freshwater Fishing",
-    "spot": 111,
-    "lvl": 52,
+    "spot": 112,
+    "lvl": 60,
     "coords": [
-      28.44,
-      17.9
+      36.78,
+      5.97
     ],
-    "radius": 600,
+    "radius": 300,
     "zone": "Coerthas Western Highlands"
   },
   {
@@ -22041,7 +22056,6 @@ gt.bell.fish = [
     "patch": 3.0,
     "bait": [
       "Freshwater Boilie",
-      "Stonefly Nymph",
       "Abalathian Smelt"
     ],
     "during": {
@@ -22069,7 +22083,6 @@ gt.bell.fish = [
     "patch": 3.0,
     "bait": [
       "Metal Spinner",
-      "Purse Web Spider",
       "Ice Faerie"
     ],
     "during": {
@@ -22127,7 +22140,6 @@ gt.bell.fish = [
     "patch": 3.4,
     "bait": [
       "Metal Spinner",
-      "Purse Web Spider",
       "Ice Faerie"
     ],
     "during": {
@@ -22161,29 +22173,29 @@ gt.bell.fish = [
       "Brute Leech"
     ],
     "during": {
-      "start": 0
+      "start": 0,
+      "end": 6
     },
     "hookset": "Precision Hookset",
     "id": 12837,
     "icon": 29310,
     "func": "fish",
     "rarity": 1,
-    "title": "Unfrozen Pond",
+    "title": "Clearpool",
     "category": "Freshwater Fishing",
-    "spot": 111,
-    "lvl": 52,
+    "spot": 112,
+    "lvl": 60,
     "coords": [
-      28.44,
-      17.9
+      36.78,
+      5.97
     ],
-    "radius": 600,
+    "radius": 300,
     "zone": "Coerthas Western Highlands"
   },
   {
     "name": "Hotrod",
     "patch": 3.0,
     "bait": [
-      "Metal Spinner",
       "Purse Web Spider",
       "Ice Faerie"
     ],
@@ -22196,15 +22208,15 @@ gt.bell.fish = [
     "icon": 29810,
     "func": "fish",
     "rarity": 1,
-    "title": "Unfrozen Pond",
+    "title": "Clearpool",
     "category": "Freshwater Fishing",
-    "spot": 111,
-    "lvl": 52,
+    "spot": 112,
+    "lvl": 60,
     "coords": [
-      28.44,
-      17.9
+      36.78,
+      5.97
     ],
-    "radius": 600,
+    "radius": 300,
     "zone": "Coerthas Western Highlands"
   },
   {
@@ -22219,15 +22231,15 @@ gt.bell.fish = [
     "icon": 29096,
     "func": "fish",
     "rarity": 1,
-    "title": "Unfrozen Pond",
+    "title": "Clearpool",
     "category": "Freshwater Fishing",
-    "spot": 111,
-    "lvl": 52,
+    "spot": 112,
+    "lvl": 60,
     "coords": [
-      28.44,
-      17.9
+      36.78,
+      5.97
     ],
-    "radius": 600,
+    "radius": 300,
     "zone": "Coerthas Western Highlands"
   },
   {
@@ -22241,15 +22253,15 @@ gt.bell.fish = [
     "icon": 29716,
     "func": "fish",
     "rarity": 1,
-    "title": "Unfrozen Pond",
+    "title": "Clearpool",
     "category": "Freshwater Fishing",
-    "spot": 111,
-    "lvl": 52,
+    "spot": 112,
+    "lvl": 60,
     "coords": [
-      28.44,
-      17.9
+      36.78,
+      5.97
     ],
-    "radius": 600,
+    "radius": 300,
     "zone": "Coerthas Western Highlands"
   },
   {
@@ -22271,15 +22283,15 @@ gt.bell.fish = [
     "icon": 29098,
     "func": "fish",
     "rarity": 2,
-    "title": "Unfrozen Pond",
+    "title": "Clearpool",
     "category": "Freshwater Fishing",
-    "spot": 111,
-    "lvl": 52,
+    "spot": 112,
+    "lvl": 60,
     "coords": [
-      28.44,
-      17.9
+      36.78,
+      5.97
     ],
-    "radius": 600,
+    "radius": 300,
     "zone": "Coerthas Western Highlands"
   },
   {
@@ -22287,7 +22299,6 @@ gt.bell.fish = [
     "patch": 3.5,
     "folklore": 1,
     "bait": [
-      "Metal Spinner",
       "Purse Web Spider",
       "Ice Faerie"
     ],
@@ -22300,7 +22311,7 @@ gt.bell.fish = [
         "name": "Ice Faerie",
         "predatorAmount": 5,
         "bait": [
-          "Metal Spinner"
+          "Purse Web Spider"
         ],
         "id": 12715,
         "icon": 29803
@@ -22314,15 +22325,15 @@ gt.bell.fish = [
     "icon": 29734,
     "func": "fish",
     "rarity": 2,
-    "title": "Unfrozen Pond",
+    "title": "Clearpool",
     "category": "Freshwater Fishing",
-    "spot": 111,
-    "lvl": 52,
+    "spot": 112,
+    "lvl": 60,
     "coords": [
-      28.44,
-      17.9
+      36.78,
+      5.97
     ],
-    "radius": 600,
+    "radius": 300,
     "zone": "Coerthas Western Highlands"
   },
   {
@@ -25778,7 +25789,7 @@ gt.bell.fish = [
     "name": "Rudderfish",
     "patch": 3.0,
     "bait": [
-      "Versatile Lure"
+      "Giant Crane Fly"
     ],
     "hookset": "Powerful Hookset",
     "id": 12805,
@@ -26687,7 +26698,8 @@ gt.bell.fish = [
     "name": "Warmwater Bichir",
     "patch": 3.0,
     "bait": [
-      "Brute Leech"
+      "Stonefly Nymph",
+      "Blueclaw Shrimp"
     ],
     "during": {
       "start": 21,
@@ -28362,7 +28374,7 @@ gt.bell.fish = [
     "name": "Noontide Oscar",
     "patch": 3.0,
     "bait": [
-      "Purse Web Spider"
+      "Brute Leech"
     ],
     "hookset": "Powerful Hookset",
     "id": 12768,
@@ -28897,7 +28909,7 @@ gt.bell.fish = [
     "name": "Star Faerie",
     "patch": 3.0,
     "bait": [
-      "Versatile Lure",
+      "Giant Crane Fly",
       "Rudderfish"
     ],
     "hookset": "Precision Hookset",
@@ -28947,7 +28959,7 @@ gt.bell.fish = [
     "patch": 3.4,
     "folklore": 1,
     "bait": [
-      "Versatile Lure",
+      "Giant Crane Fly",
       "Rudderfish"
     ],
     "weather": [
@@ -29032,7 +29044,7 @@ gt.bell.fish = [
     "name": "Storm Chaser",
     "patch": 3.0,
     "bait": [
-      "Versatile Lure"
+      "Giant Crane Fly"
     ],
     "hookset": "Powerful Hookset",
     "id": 12835,
@@ -31321,6 +31333,12 @@ gt.bell.fish = [
     "patch": 4.0,
     "bait": [
       "Stonefly Larva"
+    ],
+    "weather": [
+      "Clouds",
+      "Wind",
+      "Fog",
+      "Dust Storms"
     ],
     "hookset": "Powerful Hookset",
     "id": 20073,
@@ -34057,7 +34075,7 @@ gt.bell.fish = [
     "name": "Seraphim",
     "patch": 4.0,
     "bait": [
-      "Versatile Lure"
+      "Stonefly Larva"
     ],
     "during": {
       "start": 16,
@@ -36907,7 +36925,7 @@ gt.bell.fish = [
     "patch": 5.0,
     "snagging": 1,
     "bait": [
-      "Short Bill Minnow"
+      "Moyebi Shrimp"
     ],
     "hookset": "Precision Hookset",
     "id": 27420,
@@ -36973,7 +36991,7 @@ gt.bell.fish = [
     "name": "Eulmore Butterfly",
     "patch": 5.0,
     "bait": [
-      "Squid Strip"
+      "Moyebi Shrimp"
     ],
     "hookset": "Precision Hookset",
     "id": 27423,
@@ -37319,7 +37337,7 @@ gt.bell.fish = [
     "name": "Misty Killifish",
     "patch": 5.0,
     "bait": [
-      "Fruit Worm"
+      "Robber Ball"
     ],
     "hookset": "Precision Hookset",
     "id": 27433,
@@ -38560,7 +38578,7 @@ gt.bell.fish = [
     "name": "Shapeshifter",
     "patch": 5.0,
     "bait": [
-      "Squid Strip"
+      "Moyebi Shrimp"
     ],
     "hookset": "Precision Hookset",
     "id": 27452,
@@ -38582,7 +38600,7 @@ gt.bell.fish = [
     "name": "Minstrelfish",
     "patch": 5.0,
     "bait": [
-      "Squid Strip"
+      "Short Bill Minnow"
     ],
     "hookset": "Powerful Hookset",
     "id": 27453,
@@ -38659,7 +38677,7 @@ gt.bell.fish = [
         "name": "Shapeshifter",
         "predatorAmount": 5,
         "bait": [
-          "Squid Strip"
+          "Moyebi Shrimp"
         ],
         "id": 27452,
         "icon": 29172
@@ -39570,7 +39588,7 @@ gt.bell.fish = [
     "name": "Wimple Carp",
     "patch": 5.0,
     "bait": [
-      "Robber Ball"
+      "Baitbugs"
     ],
     "hookset": "Precision Hookset",
     "id": 27474,
@@ -40057,6 +40075,39 @@ gt.bell.fish = [
     "zone": "Il Mheg"
   },
   {
+    "name": "Sunken Tome",
+    "patch": 5.4,
+    "folklore": 1,
+    "bait": [
+      "Marble Nymph"
+    ],
+    "during": {
+      "start": 12,
+      "end": 16
+    },
+    "weather": [
+      "Thunderstorms"
+    ],
+    "transition": [
+      "Fair Skies"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 32052,
+    "icon": 28488,
+    "func": "fish",
+    "rarity": 2,
+    "title": "The Haughty One",
+    "category": "Freshwater Fishing",
+    "spot": 220,
+    "lvl": 74,
+    "coords": [
+      22.02,
+      9.11
+    ],
+    "radius": 600,
+    "zone": "Il Mheg"
+  },
+  {
     "name": "Spotted Blue-eye",
     "patch": 5.0,
     "bait": [
@@ -40141,6 +40192,29 @@ gt.bell.fish = [
     "icon": 29580,
     "func": "fish",
     "rarity": 1,
+    "title": "The Spoiled One",
+    "category": "Freshwater Fishing",
+    "spot": 223,
+    "lvl": 74,
+    "coords": [
+      28.93,
+      13.51
+    ],
+    "radius": 1200,
+    "zone": "Il Mheg"
+  },
+  {
+    "name": "Dammroen Herring",
+    "patch": 5.5,
+    "folklore": 1,
+    "bait": [
+      "Baitbugs"
+    ],
+    "hookset": "Precision Hookset",
+    "id": 33321,
+    "icon": "t/28493",
+    "func": "fish",
+    "rarity": 2,
     "title": "The Spoiled One",
     "category": "Freshwater Fishing",
     "spot": 223,

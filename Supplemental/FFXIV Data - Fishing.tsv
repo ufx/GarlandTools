@@ -102,7 +102,7 @@ Pebble Crab	Yumizuno						Light	Precision				26
 Tiger Cod	Rat Tail						Medium	Powerful				30
 Blue Octopus	Merlthor Goby						Medium	Powerful				45
 Leafy Seadragon	Northern Krill						Light	Precision				81
-Syldra	Spoon Worm				Rain		Heavy	Powerful				233
+Syldra	Spoon Worm				Rain		Heavy	Precision				233
 Oschon's Torch												10405
 Sea Cucumber	Rat Tail						Light	Precision				14
 Vongola Clam	Goby Ball						Light	Precision				18
@@ -230,7 +230,7 @@ Monke Onke	Copperfish						Light	Precision				86
 Mitten Crab	Honey Worm						Light	Precision				84
 Discus	Honey Worm						Medium	Powerful				105
 Loyal Pleco	Stem Borer						Medium	Powerful				112
-Archerfish	Snurble Fly						Light	Precision				125
+Archerfish	Snurble Fly				Clear Skies, Clouds, Fair Skies, Fog		Light	Precision				125
 Agelyss Carp	Snurble Fly						Medium	Powerful				128
 The Drowned Sniper	Snurble Fly				Clear Skies, Fair Skies		Heavy	Powerful				274
 Raincatcher Gully												10506
@@ -241,7 +241,7 @@ Giant Bass	Honey Worm						Medium	Powerful				95
 Discus	Honey Worm						Medium	Powerful				105
 Loyal Pleco	Stem Borer						Medium	Powerful				112
 Thunderbolt Sculpin	Spinner				Rain, Showers		Medium	Powerful				113
-Archerfish	Snurble Fly						Light	Precision				125
+Archerfish	Snurble Fly				Clear Skies, Clouds, Fair Skies, Fog		Light	Precision				125
 Agelyss Carp	Snurble Fly						Medium	Powerful				128
 The Terpsichorean	Honey Worm				Fog		Heavy	Powerful				275
 The Juggernaut												10507
@@ -800,7 +800,7 @@ Black Eel	Butterworm	17	10				Medium	Powerful				55
 Dark Bass	Crow Fly						Medium	Powerful				56
 Yugr'am Salmon	Bass Ball						Medium	Powerful				71
 Mitten Crab	Honey Worm						Light	Precision				84
-Trader Eel	Honey Worm						Medium	Powerful				103
+Trader Eel	Honey Worm	17	10				Medium	Powerful				103
 The Warden's Wand	Honey Worm	17	20		Clear Skies		Heavy	Powerful				254
 The Burning Wall												30304
 Yugr'am Salmon	Bass Ball						Medium	Powerful				71
@@ -981,9 +981,9 @@ Sorcerer Fish	Abalathian Smelt	8	20				Medium	Powerful				326
 Albino Octopus	Ice Faerie	8	17				Medium	Powerful				396
 Coerthan Clione	Brute Leech	0	2		Blizzards		Light	Precision				439
 Flarefish	Ice Faerie	10	16		Blizzards		Heavy	Powerful				479
-6												40204
+Clearpool												40204
 Abalathian Smelt	Stonefly Nymph						Light	Precision				24
-Capelin	Brute Leech	0					Light	Precision				437
+Capelin	Brute Leech	0	6				Light	Precision				437
 Ice Faerie	Purse Web Spider						Light	Precision				316
 Coerthan Crab	Abalathian Smelt						Light	Precision				318
 Hotrod	Ice Faerie				Blizzards, Snow		Medium	Powerful				327
@@ -1211,7 +1211,7 @@ Whilom Catfish	Goblin Jig				Clouds, Dust Storms, Fog		Medium	Powerful				321
 Rock Mussel	Stonefly Nymph						Light	Precision		1		333
 Blueclaw Shrimp	Stonefly Nymph						Light	Precision				322
 Three-lip Carp	Bladed Steel Jig						Medium	Powerful				329
-Warmwater Bichir	Brute Leech	21	3				Medium	Powerful				367
+Warmwater Bichir	Blueclaw Shrimp	21	3				Medium	Powerful				367
 Marble Oscar	Metal Spinner						Medium	Powerful				350
 The Dreamweaver	Brute Leech	22	2		Clouds, Dust Storms, Fog		Heavy	Powerful				466
 The Iron Feast												70104
@@ -1300,7 +1300,7 @@ Eil Tohm												70301
 Cloudfish	Stonefly Nymph						Light	Precision				331
 Lamp Marimo	Stonefly Nymph						Light	Precision				74
 Kissing Fish	Brute Leech	9	2				Light	Precision				343
-Noontide Oscar	Purse Web Spider						Medium	Powerful				368
+Noontide Oscar	Brute Leech						Medium	Powerful				368
 Vidofnir	Brute Leech	8	10				Heavy	Powerful				469
 Greensward												70302
 Mogpom	Versatile Lure						Light	Precision				358
@@ -1326,7 +1326,7 @@ Sohm Al Summit												70305
 Sky Faerie	Red Balloon						Light	Precision				353
 Gloaming Coral	Red Balloon						Light	Precision		1		395
 Cloud Rider	Red Balloon						Medium	Powerful				360
-Rudderfish	Versatile Lure						Medium	Powerful				405
+Rudderfish	Giant Crane Fly						Medium	Powerful				405
 Gobbie Mask	Giant Crane Fly						Light	Precision				370
 Star Faerie	Rudderfish						Light	Precision				394
 Pteranodon	Giant Crane Fly	9	17				Heavy	Powerful				421
@@ -1338,7 +1338,7 @@ Rudderfish	Giant Crane Fly						Medium	Powerful				405
 Manasail	Sky Faerie	10	14		Clear Skies, Fair Skies		Medium	Powerful				384
 Brown Bolo	Red Balloon				Clouds		Medium	Powerful				389
 Cobrafish	Rudderfish						Medium	Powerful				413
-Storm Chaser	Versatile Lure						Heavy	Powerful				435
+Storm Chaser	Giant Crane Fly						Heavy	Powerful				435
 Nyctosaur	Giant Crane Fly						Heavy	Powerful				454
 Bloodchaser	Giant Crane Fly			Clear Skies	Gales		Heavy	Powerful				499
 Raimdellopterus	Rudderfish	5	8		Gales	Rudderfish, 5	Heavy	Powerful				505
@@ -1467,7 +1467,7 @@ Purple Buckler	Midge Larva						Medium	Powerful				746
 The Last Tear	Salmon Roe			Fog	Fair Skies		Heavy	Powerful				813
 The Ephor												90304
 Heather Charr	Salmon Roe						Medium	Powerful				547
-Meditator	Stonefly Larva						Medium	Powerful				612
+Meditator	Stonefly Larva				Clouds, Wind, Fog, Dust Storms		Medium	Powerful				612
 Stonytongue	Versatile Lure						Medium	Powerful				613
 Deemster	Stonefly Larva				Wind		Heavy	Powerful				631
 Moksha	Suspending Minnow			Clouds, Wind, Fog, Dust Storms	Clear Skies		Heavy	Powerful				815
@@ -1669,7 +1669,7 @@ The One River (West)												100209
 Longhair Catfish	Stonefly Larva						Medium	Powerful				570
 Doman Trout	Nightcrawler						Medium	Powerful				571
 Kotsu Zetsu	Stonefly Larva						Medium	Powerful				616
-Seraphim	Versatile Lure	16	24				Medium	Powerful				620
+Seraphim	Stonefly Larva	16	24				Medium	Powerful				620
 Hagoromo Bijin	Stonefly Larva			Clouds	Clear Skies, Fair Skies		Heavy	Powerful				819
 Plum Spring												100210
 Doman Trout	Nightcrawler						Medium	Powerful				571
@@ -1884,10 +1884,10 @@ Skeletonfish	Marble Nymph						Light	Precision				3015
 Loose Pendant	Baitbugs	18	22				Heavy	Precision				3179
 The Derelicts												120201
 Milky Coral	Moyebi Shrimp						Light	Precision		1		3016
-Gravel Mussel	Short Bill Minnow						Light	Precision		1		3017
+Gravel Mussel	Moyebi Shrimp						Light	Precision		1		3017
 Bonefish	Moyebi Shrimp						Light	Precision				3019
 Crimson Sea Spider	Moyebi Shrimp						Light	Precision				3018
-Eulmore Butterfly	Squid Strip						Light	Precision				3020
+Eulmore Butterfly	Moyebi Shrimp						Light	Precision				3020
 Red Hammerhead	Squid Strip						Medium	Powerful				3021
 Winged Dame	Squid Strip	12	19		Clear Skies		Heavy	Precision				3180
 The Rift of Sighs												120301
@@ -1901,7 +1901,7 @@ The Rusted Reservoir												120302
 Hard Candy	Metal Spinner						Light	Precision				3022
 Abyssal Snail	Metal Spinner						Light	Precision				3024
 Water Ball	Marble Nymph						Light	Precision				3023
-Misty Killifish	Fruit Worm						Light	Precision				3030
+Misty Killifish	Robber Ball						Light	Precision				3030
 Platinum Guppy	Baitbugs				Clear Skies		Light	Precision				3029
 Moonlight Guppy	Baitbugs	6	8	Clear Skies	Fair Skies		Heavy	Precision	1950			3344
 The Source												120303
@@ -1991,8 +1991,8 @@ Seagazer Shoals												120406
 South Kholusian Cod	Metal Spinner						Light	Precision				3046
 Kholusian Flounder	Metal Spinner						Light	Precision				3045
 Blood Cloud	Moyebi Shrimp						Medium	Powerful				3044
-Shapeshifter	Squid Strip						Light	Precision				3049
-Minstrelfish	Squid Strip						Medium	Powerful				3050
+Shapeshifter	Moyebi Shrimp						Light	Precision				3049
+Minstrelfish	Short Bill Minnow						Medium	Powerful				3050
 Shadeshifter	Squid Strip	10	14	Clear Skies, Fair Skies	Gales		Heavy	Precision	2150			
 Aquamaton	Short Bill Minnow	10	16			Shadeshifter, 1, Shapeshifter, 5	Heavy	Powerful	2250			
 The Eastern Kholusian Coast												120407
@@ -2032,7 +2032,7 @@ Handmirror Lake												120601
 Grey Skipper	Fruit Worm						Light	Precision				3067
 Pixie Fish	Marble Nymph						Light	Precision				3068
 Lemonfish	Marble Nymph						Light	Precision				3072
-Wimple Carp	Robber Ball						Light	Precision				3071
+Wimple Carp	Baitbugs						Light	Precision				3071
 Faeshine Clam	Metal Spinner						Light	Precision				3189
 Leannisg	Marble Nymph	6	8		Rain		Heavy	Powerful	1900			3304
 Longmirror Lake												120602
@@ -2051,7 +2051,7 @@ Cerulean Loach	Fruit Worm						Light	Precision				3076
 Blood-eyed Frog	Metal Spinner						Light	Precision				3069
 Official Ball	Marble Nymph						Light	Precision				3066
 Spotted Ctenopoma	Marble Nymph						Light	Precision				3075
-1950	Marble Nymph	12	16	Fair Skies	Thunderstorms		Heavy	Precision				3347
+Sunken Tome	Marble Nymph	12	16	Fair Skies	Thunderstorms		Heavy	Precision	1950			3347
 The Jealous One												120604
 Grey Skipper	Fruit Worm						Light	Precision				3067
 Cerulean Loach	Fruit Worm						Light	Precision				3076
@@ -2063,7 +2063,7 @@ Brightmirror Clam	Fruit Worm						Light	Precision				3003
 Grey Skipper	Metal Spinner						Light	Precision				3067
 Cerulean Loach	Metal Spinner						Light	Precision				3076
 Cherry Herring	Marble Nymph						Light	Precision				3070
-2150	Baitbugs						Heavy	Precision				
+Dammroen Herring	Baitbugs						Heavy	Precision	2150			
 Saint Fathric's Temple												120606
 Grey Skipper	Fruit Worm						Light	Precision				3067
 Cerulean Loach	Fruit Worm						Light	Precision				3076
