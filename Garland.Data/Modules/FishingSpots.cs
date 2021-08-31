@@ -278,6 +278,8 @@ namespace Garland.Data.Modules
                     // Other properties.
                     if (hookset != "")
                         spot.hookset = hookset + " Hookset";
+                    if (tug != "")
+                        spot.tug = tug;
                     if (gathering != "")
                         spot.gatheringReq = int.Parse(gathering);
                     if (snagging != "")
@@ -535,6 +537,9 @@ namespace Garland.Data.Modules
 
             if (spotView.hookset != null)
                 view.hookset = spotView.hookset;
+
+            if (spotView.tug != null)
+                view.tug = spotView.tug;
 
             view.id = item.id;
             view.icon = item.icon;

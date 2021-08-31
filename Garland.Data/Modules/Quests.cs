@@ -126,8 +126,8 @@ namespace Garland.Data.Modules
                 if (sQuest.Rewards.ClassJob.Key > 0)
                     rewards.job = sQuest.Rewards.ClassJob.Key;
 
-                if (sQuest.Rewards.GrandCompanySeals > 0)
-                    rewards.gcseal = sQuest.Rewards.GrandCompanySeals;
+                if (sQuest.AsInt32("CurrencyRewardCount") > 0)
+                    rewards.gcseal = sQuest.AsInt32("CurrencyRewardCount");
 
                 if (sQuest.Rewards.Action.Key > 0)
                 {
