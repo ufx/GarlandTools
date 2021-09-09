@@ -88,6 +88,23 @@
     "icon": 29314,
     "mooch": 1
   },
+  "Striped Goby": {
+    "name": "Striped Goby",
+    "id": 4927,
+    "icon": 29230,
+    "mooch": 1
+  },
+  "Ala Mhigan Fighting Fish": {
+    "name": "Ala Mhigan Fighting Fish",
+    "id": 4942,
+    "icon": 29216,
+    "mooch": 1
+  },
+  "Midge Basket": {
+    "name": "Midge Basket",
+    "id": 2592,
+    "icon": 27002
+  },
   "Chocobo Fly": {
     "name": "Chocobo Fly",
     "id": 2610,
@@ -102,11 +119,6 @@
     "name": "Spoon Worm",
     "id": 2596,
     "icon": 27015
-  },
-  "Midge Basket": {
-    "name": "Midge Basket",
-    "id": 2592,
-    "icon": 27002
   },
   "Crow Fly": {
     "name": "Crow Fly",
@@ -171,12 +183,6 @@
     "id": 2599,
     "icon": 27018
   },
-  "Ala Mhigan Fighting Fish": {
-    "name": "Ala Mhigan Fighting Fish",
-    "id": 4942,
-    "icon": 29216,
-    "mooch": 1
-  },
   "Stem Borer": {
     "name": "Stem Borer",
     "id": 2601,
@@ -230,12 +236,6 @@
     "name": "Streamer",
     "id": 2627,
     "icon": 27060
-  },
-  "Striped Goby": {
-    "name": "Striped Goby",
-    "id": 4927,
-    "icon": 29230,
-    "mooch": 1
   },
   "Bass Ball": {
     "name": "Bass Ball",
@@ -4941,29 +4941,6 @@ gt.bell.fish = [
     "icon": 29314,
     "func": "fish",
     "rarity": 1,
-    "title": "Upper Hathoeva River",
-    "category": "Freshwater Fishing",
-    "spot": 11,
-    "lvl": 20,
-    "coords": [
-      18.02,
-      19.02
-    ],
-    "radius": 400,
-    "zone": "South Shroud"
-  },
-  {
-    "name": "Copperfish",
-    "patch": 1.0,
-    "bait": [
-      "Butterworm"
-    ],
-    "hookset": "Precision Hookset",
-    "tug": "Light",
-    "id": 4948,
-    "icon": 29314,
-    "func": "fish",
-    "rarity": 1,
     "title": "Lower Hathoeva River",
     "category": "Freshwater Fishing",
     "spot": 13,
@@ -5165,8 +5142,8 @@ gt.bell.fish = [
     "name": "Eunuch Crayfish",
     "patch": 1.0,
     "bait": [
-      "Butterworm",
-      "Copperfish"
+      "Moth Pupa",
+      "Striped Goby"
     ],
     "hookset": "Precision Hookset",
     "tug": "Light",
@@ -5189,8 +5166,8 @@ gt.bell.fish = [
     "name": "Eunuch Crayfish",
     "patch": 1.0,
     "bait": [
-      "Butterworm",
-      "Copperfish"
+      "Moth Pupa",
+      "Striped Goby"
     ],
     "hookset": "Precision Hookset",
     "tug": "Light",
@@ -5213,8 +5190,8 @@ gt.bell.fish = [
     "name": "Eunuch Crayfish",
     "patch": 1.0,
     "bait": [
-      "Butterworm",
-      "Copperfish"
+      "Midge Basket",
+      "Ala Mhigan Fighting Fish"
     ],
     "hookset": "Precision Hookset",
     "tug": "Light",
@@ -5237,8 +5214,8 @@ gt.bell.fish = [
     "name": "Eunuch Crayfish",
     "patch": 1.0,
     "bait": [
-      "Butterworm",
-      "Copperfish"
+      "Midge Basket",
+      "Ala Mhigan Fighting Fish"
     ],
     "hookset": "Precision Hookset",
     "tug": "Light",
@@ -5261,8 +5238,8 @@ gt.bell.fish = [
     "name": "Eunuch Crayfish",
     "patch": 1.0,
     "bait": [
-      "Butterworm",
-      "Copperfish"
+      "Midge Basket",
+      "Ala Mhigan Fighting Fish"
     ],
     "hookset": "Precision Hookset",
     "tug": "Light",
@@ -18314,7 +18291,7 @@ gt.bell.fish = [
     "name": "Velodyna Carp",
     "patch": 1.0,
     "bait": [
-      "Streamer"
+      "Sinking Minnow"
     ],
     "hookset": "Powerful Hookset",
     "tug": "Medium",
@@ -21860,7 +21837,7 @@ gt.bell.fish = [
       "Glowworm"
     ],
     "during": {
-      "start": 0,
+      "start": 22,
       "end": 4
     },
     "hookset": "Precision Hookset",
@@ -21953,8 +21930,8 @@ gt.bell.fish = [
     "name": "Emperor Fish",
     "patch": 1.0,
     "bait": [
-      "Syrphid Basket",
-      "Abalathian Smelt"
+      "Moth Pupa",
+      "Striped Goby"
     ],
     "hookset": "Powerful Hookset",
     "tug": "Medium",
@@ -24763,6 +24740,29 @@ gt.bell.fish = [
     "zone": "The Dravanian Forelands"
   },
   {
+    "name": "Cloud Kelp",
+    "patch": 5.5,
+    "bait": [
+      "Metal Spinner"
+    ],
+    "hookset": "Precision Hookset",
+    "tug": "Light",
+    "id": 33220,
+    "icon": 29169,
+    "func": "fish",
+    "rarity": 1,
+    "title": "Voor Sian Siran",
+    "category": "Freshwater Fishing",
+    "spot": 135,
+    "lvl": 52,
+    "coords": [
+      28.9,
+      34.93
+    ],
+    "radius": 1000,
+    "zone": "The Sea of Clouds"
+  },
+  {
     "name": "Inkfish",
     "patch": 3.3,
     "folklore": 1,
@@ -24935,8 +24935,7 @@ gt.bell.fish = [
     "name": "Catkiller",
     "patch": 3.0,
     "bait": [
-      "Bladed Steel Jig",
-      "Bullfrog"
+      "Brute Leech"
     ],
     "weather": [
       "Clear Skies",
@@ -26954,7 +26953,7 @@ gt.bell.fish = [
       "end": 18
     },
     "hookset": "Powerful Hookset",
-    "tug": "Medium",
+    "tug": "Heavy",
     "id": 12833,
     "icon": 29709,
     "func": "fish",
@@ -27077,7 +27076,8 @@ gt.bell.fish = [
     "name": "Jeweled Jellyfish",
     "patch": 3.0,
     "bait": [
-      "Fiend Worm"
+      "Fiend Worm",
+      "Platinum Fish"
     ],
     "during": {
       "start": 20,
@@ -27800,8 +27800,7 @@ gt.bell.fish = [
     "name": "Warmwater Bichir",
     "patch": 3.0,
     "bait": [
-      "Stonefly Nymph",
-      "Blueclaw Shrimp"
+      "Brute Leech"
     ],
     "during": {
       "start": 21,
@@ -28141,7 +28140,7 @@ gt.bell.fish = [
     "name": "Granite Crab",
     "patch": 3.0,
     "bait": [
-      "Magma Worm"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "tug": "Light",
@@ -28163,6 +28162,7 @@ gt.bell.fish = [
   {
     "name": "Cindersmith",
     "patch": 3.0,
+    "snagging": 1,
     "bait": [
       "Magma Worm"
     ],
@@ -28283,7 +28283,7 @@ gt.bell.fish = [
     "name": "Cometoise",
     "patch": 3.0,
     "bait": [
-      "Magma Worm",
+      "Metal Spinner",
       "Granite Crab"
     ],
     "hookset": "Powerful Hookset",
@@ -28612,7 +28612,7 @@ gt.bell.fish = [
     "patch": 3.0,
     "folklore": 1,
     "bait": [
-      "Magma Worm",
+      "Metal Spinner",
       "Granite Crab"
     ],
     "during": {
@@ -28674,7 +28674,7 @@ gt.bell.fish = [
     "patch": 3.5,
     "folklore": 1,
     "bait": [
-      "Magma Worm",
+      "Metal Spinner",
       "Granite Crab"
     ],
     "during": {
@@ -28712,7 +28712,7 @@ gt.bell.fish = [
     "patch": 3.5,
     "folklore": 1,
     "bait": [
-      "Magma Worm",
+      "Metal Spinner",
       "Granite Crab"
     ],
     "during": {
@@ -28733,7 +28733,7 @@ gt.bell.fish = [
         "name": "Granite Crab",
         "predatorAmount": 5,
         "bait": [
-          "Magma Worm"
+          "Metal Spinner"
         ],
         "id": 12754,
         "icon": 29854
@@ -31426,7 +31426,7 @@ gt.bell.fish = [
     "name": "Gyr Abanian Chub",
     "patch": 4.1,
     "bait": [
-      "Salmon Roe"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "tug": "Light",
@@ -31935,7 +31935,7 @@ gt.bell.fish = [
     "name": "Velodyna Salmon",
     "patch": 4.1,
     "bait": [
-      "Nightcrawler"
+      "Metal Spinner"
     ],
     "hookset": "Powerful Hookset",
     "tug": "Medium",
@@ -33454,7 +33454,7 @@ gt.bell.fish = [
     "name": "Coral Horse",
     "patch": 4.1,
     "bait": [
-      "Live Shrimp"
+      "Metal Spinner"
     ],
     "hookset": "Precision Hookset",
     "tug": "Light",
@@ -38257,7 +38257,7 @@ gt.bell.fish = [
     "name": "Wandering Catfish",
     "patch": 5.0,
     "bait": [
-      "Marble Nymph"
+      "Baitbugs"
     ],
     "hookset": "Precision Hookset",
     "tug": "Light",
@@ -43207,7 +43207,7 @@ gt.bell.fish = [
     "name": "Ondobane",
     "patch": 5.0,
     "bait": [
-      "Short Bill Minnow"
+      "Squid Strip"
     ],
     "hookset": "Powerful Hookset",
     "tug": "Medium",
