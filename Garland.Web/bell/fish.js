@@ -82,6 +82,11 @@
     "id": 2594,
     "icon": 27019
   },
+  "Midge Basket": {
+    "name": "Midge Basket",
+    "id": 2592,
+    "icon": 27002
+  },
   "Copperfish": {
     "name": "Copperfish",
     "id": 4948,
@@ -99,11 +104,6 @@
     "id": 4942,
     "icon": 29216,
     "mooch": 1
-  },
-  "Midge Basket": {
-    "name": "Midge Basket",
-    "id": 2592,
-    "icon": 27002
   },
   "Chocobo Fly": {
     "name": "Chocobo Fly",
@@ -1022,7 +1022,7 @@ gt.bell.fish = [
     "name": "Merlthor Goby",
     "patch": 1.0,
     "bait": [
-      "Lugworm"
+      "Pill Bug"
     ],
     "hookset": "Precision Hookset",
     "tug": "Light",
@@ -4795,7 +4795,7 @@ gt.bell.fish = [
     "name": "Copperfish",
     "patch": 1.0,
     "bait": [
-      "Butterworm"
+      "Midge Basket"
     ],
     "hookset": "Precision Hookset",
     "tug": "Light",
@@ -9749,7 +9749,7 @@ gt.bell.fish = [
     "name": "Wahoo",
     "patch": 1.0,
     "bait": [
-      "Lugworm",
+      "Pill Bug",
       "Merlthor Goby"
     ],
     "hookset": "Powerful Hookset",
@@ -11054,7 +11054,7 @@ gt.bell.fish = [
     "name": "Lamprey",
     "patch": 1.0,
     "bait": [
-      "Butterworm",
+      "Midge Basket",
       "Copperfish"
     ],
     "hookset": "Precision Hookset",
@@ -12772,7 +12772,7 @@ gt.bell.fish = [
     "name": "Mirrorscale",
     "patch": 2.3,
     "bait": [
-      "Butterworm",
+      "Midge Basket",
       "Copperfish"
     ],
     "during": {
@@ -14222,7 +14222,7 @@ gt.bell.fish = [
     "name": "Dinichthys",
     "patch": 1.0,
     "bait": [
-      "Lugworm",
+      "Pill Bug",
       "Merlthor Goby",
       "Wahoo"
     ],
@@ -14247,7 +14247,7 @@ gt.bell.fish = [
     "name": "Seahag",
     "patch": 2.4,
     "bait": [
-      "Lugworm",
+      "Pill Bug",
       "Merlthor Goby",
       "Wahoo"
     ],
@@ -25871,7 +25871,7 @@ gt.bell.fish = [
     ],
     "during": {
       "start": 0,
-      "end": 5
+      "end": 6
     },
     "weather": [
       "Clear Skies",
@@ -35435,7 +35435,7 @@ gt.bell.fish = [
     ],
     "during": {
       "start": 0,
-      "end": 6
+      "end": 8
     },
     "weather": [
       "Fair Skies"

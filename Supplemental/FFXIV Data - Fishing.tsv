@@ -245,7 +245,7 @@ Archerfish	Snurble Fly				Clear Skies, Clouds, Fair Skies, Fog		Light	Precision	
 Agelyss Carp	Snurble Fly						Medium	Powerful				128
 The Terpsichorean	Honey Worm				Fog		Heavy	Powerful				275
 The Juggernaut												10507
-Copperfish	Butterworm						Light	Precision				41
+Copperfish	Midge Basket						Light	Precision				41
 Mudcrab	Honey Worm						Light	Precision				44
 Lamprey	Copperfish						Light	Precision				68
 Grip Killifish	Chocobo Fly						Light	Precision				78
@@ -356,7 +356,7 @@ Coelacanthus	Fullmoon Sardine	22	3		Clouds, Fog, Wind		Heavy	Powerful				291
 Endoceras	Fullmoon Sardine	20	4	Clear Skies, Fair Skies	Clouds, Fog, Wind		Heavy	Powerful				292
 Reaver Hide												10609
 Lominsan Anchovy	Lugworm						Light	Precision				5
-Merlthor Goby	Lugworm						Light	Precision				4
+Merlthor Goby	Pill Bug						Light	Precision				4
 Red Coral	Herring Ball						Light	Precision				107
 Wahoo	Merlthor Goby						Medium	Powerful				116
 Blacklip Oyster	Krill Cage Feeder						Light	Precision				120
@@ -1130,7 +1130,7 @@ Sky Faerie	Metal Spinner						Light	Precision				353
 Scorpionfly	Metal Spinner						Light	Precision				410
 Moogle Spirit	Giant Crane Fly						Medium	Powerful				414
 Vampiric Tapestry	Giant Crane Fly						Medium	Powerful				434
-Heavens Coral	Giant Crane Fly	0	5		Clear Skies, Fair Skies		Light	Precision		1		441
+Heavens Coral	Giant Crane Fly	0	6		Clear Skies, Fair Skies		Light	Precision		1		441
 Basking Shark	Sky Faerie			Fog	Clear Skies		Heavy	Powerful				476
 Sea Butterfly	Giant Crane Fly	5	7		Clear Skies	Scorpionfly, 3, Sky Faerie, 3	Heavy	Precision				503
 Alpha Quadrant												60201
@@ -1664,7 +1664,7 @@ Doman Trout	Midge Larva						Medium	Powerful				571
 Yanxian Barramundi	Stonefly Larva						Heavy	Powerful				572
 Kotsu Zetsu	Suspending Minnow						Medium	Powerful				616
 Othardian Salmon	Metal Spinner						Medium	Powerful				839
-Axelrod	Stonefly Larva	0	6	Clouds	Fair Skies		Heavy	Powerful				830
+Axelrod	Stonefly Larva	0	8	Clouds	Fair Skies		Heavy	Powerful				830
 The One River (West)												100209
 Longhair Catfish	Stonefly Larva						Medium	Powerful				570
 Doman Trout	Nightcrawler						Medium	Powerful				571
@@ -1689,7 +1689,7 @@ Yellow Prismfish	Suspending Minnow						Medium	Powerful				598
 Blue Prismfish	Suspending Minnow						Medium	Powerful				599
 Violet Prismfish	Stonefly Larva	0	4				Medium	Powerful				738
 Red Prismfish	Stonefly Larva	4	8				Medium	Powerful				755
-White Goldfish	Red Prismfish	4	8				Medium	Powerful				758
+White Goldfish	Red Prismfish						Medium	Powerful				758
 Firelight Goldfish	Red Prismfish	4	8				Light	Precision				759
 Indigo Prismfish	Violet Prismfish	0	4				Light	Precision				806
 Green Prismfish	Stonefly Larva	0	16	Fair Skies	Clear Skies, Fair Skies		Light	Precision				807
