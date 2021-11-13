@@ -245,6 +245,27 @@ namespace Garland.Data
                 return;
             }
 
+            if (sContentFinderCondition.Content.Key == 55004)
+            {
+                // The Shifting Altars of Uznair
+                obj.fullIcon = 4;
+                return;
+            }
+
+            if (sContentFinderCondition.Content.Key == 55006)
+            {
+                // The Dungeons of Lyhe Ghiah
+                obj.fullIcon = 5;
+                return;
+            }
+
+            if (sContentFinderCondition.Content.Key == 55008)
+            {
+                // The Shifting Oubliettes of Lyhe Ghiah
+                obj.fullIcon = 6;
+                return;
+            }
+
             if (sContentFinderCondition.Image == null)
             {
                 DatabaseBuilder.PrintLine($"Content {sContentFinderCondition.Content.Key} {sContentFinderCondition.Content} has no icon");

@@ -26,6 +26,25 @@ namespace Garland.Data.Modules
             ["Blustery Cloudtop"] = Tuple.Create(1647, 31, 11), // 152
             ["Calm Cloudtop"] = Tuple.Create(1647, 28, 33), // 153
             ["Swirling Cloudtop"] = Tuple.Create(1647, 13, 24), // 154
+            ["Windswept Cloudtop"] = Tuple.Create(3444, 30, 16), // 
+            ["Windbreaking Cloudtop"] = Tuple.Create(3444, 1, 1), // 
+
+            ["The Doman Enclave"] = Tuple.Create(2813, 8, 5), // 
+
+            ["Outer Galadion Bay"] = Tuple.Create(3444, 11, 11), // 237
+            ["Galadion Spectral Current"] = Tuple.Create(3444, 11, 11), // 238
+            ["The Southern Strait of Merlthor"] = Tuple.Create(3445, 11, 11), // 239
+            ["Southern Merlthor Spectral Current"] = Tuple.Create(3445, 11, 11), // 240
+            ["Open Rhotano Sea"] = Tuple.Create(3447, 11, 11), // 241
+            ["Rhotano Spectral Current"] = Tuple.Create(3447, 11, 11), // 242
+            ["The Northern Strait of Merlthor"] = Tuple.Create(3446, 11, 11), // 243
+            ["Northern Merlthor Spectral Current"] = Tuple.Create(3446, 11, 11), // 244
+            ["Cieldalaes Margin"] = Tuple.Create(3641, 11, 11), // 246
+            ["Cieldalaes Spectral Current"] = Tuple.Create(3641, 11, 11), // 247
+            ["Open Bloodbrine Sea"] = Tuple.Create(3642, 11, 11), // 248
+            ["Bloodbrine Spectral Current"] = Tuple.Create(3642, 11, 11), // 249
+            ["Outer Rothlyt Sound"] = Tuple.Create(3643, 11, 11), // 250
+            ["Rothlyt Spectral Current"] = Tuple.Create(3643, 11, 11), // 251
         };
 
         HashSet<int> _hackExcludedFishingSpots = new HashSet<int>() {

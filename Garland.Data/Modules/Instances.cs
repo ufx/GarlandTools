@@ -1,10 +1,12 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Saint = SaintCoinach.Xiv;
+using System.Text.RegularExpressions;
 
 namespace Garland.Data.Modules
 {
@@ -12,10 +14,30 @@ namespace Garland.Data.Modules
     {
         public override string Name => "Instances";
 
+        public Dictionary<string, dynamic> _instanceByName = new Dictionary<string, dynamic>();
+        Dictionary<string, int> _tomestoneIdByName = new Dictionary<string, int>();
+        string _coordsRegex = @"X: ([0-9, \.]*) Y: ([0-9, \.]*)";
+
         public override void Start()
         {
+            // Index tomestone by their names
+            var sTomestonesItems = _builder.Sheet<Saint.TomestonesItem>()
+                    .Where(t => t.Tomestone.Key > 0)
+                    .OrderBy(t => t.Tomestone.Key)
+                    .ToArray();
+
+            _tomestoneIdByName[sTomestonesItems[0].Item.Name] = sTomestonesItems[0].Item.Key;
+            _tomestoneIdByName[sTomestonesItems[1].Item.Name] = sTomestonesItems[1].Item.Key;
+            _tomestoneIdByName[sTomestonesItems[2].Item.Name] = sTomestonesItems[2].Item.Key;
+            
             BuildDutyRoulette();
 
+            BuildInstances();
+            BuildSupplementalInstances();
+        }
+
+        void BuildInstances()
+        {
             var skippedInstances = new[] { 0, 20015, 20016, 50002, 65000, 30048 };
 
             // Index conditions.  Some PvP instances have multiple conditions, but it doesn't matter.
@@ -63,8 +85,16 @@ namespace Garland.Data.Modules
                 instance.categoryIcon = IconDatabase.EnsureEntry("instance/type", sContentFinderCondition.ContentType.Icon);
                 _builder.Localize.Column((JObject)instance, sContentFinderCondition.ContentType, "Name", "category",
                     x => string.IsNullOrEmpty(x) ? Hacks.GetContentTypeNameOverride(sContentFinderCondition.ContentType) : x);
-               
+
                 _builder.Localize.Strings((JObject)instance, sContentFinderConditionTransient, "Description");
+
+                if (instance.en != null)
+                {
+                    if (!string.IsNullOrEmpty((string)instance.en.name))
+                    {
+                        _instanceByName[(string)instance.en.name] = instance;
+                    }
+                }
                 instance.time = (int)sInstanceContent.TimeLimit.TotalMinutes;
                 instance.min_lvl = sContentFinderCondition.RequiredClassJobLevel;
 
@@ -141,7 +171,7 @@ namespace Garland.Data.Modules
 
                     var mobs = new JArray();
                     fight.mobs = mobs;
-                    
+
                     foreach (var sBoss in sFight.PrimaryBNpcs)
                     {
                         _builder.InstanceIdsByMobId[sBoss.Key] = sInstanceContent.Key;
@@ -228,6 +258,238 @@ namespace Garland.Data.Modules
 
                 _builder.Db.Instances.Add(instance);
                 _builder.Db.InstancesById[sInstanceContent.Key] = instance;
+            }
+        }
+
+        /*
+         * Use the supplemental instance drops and chests information to enrich the instance.
+         * 
+         * As the mob data is no longer provided by libra,
+         * all mob dropped things will be added into otherItemRewards.
+         * Before adding this, tripletriad card is added in this way.
+         * 
+         */
+        void BuildSupplementalInstances()
+        {
+            JArray duties = (JArray)Utils.Json(Path.Combine(Config.SupplementalPath, "FFXIV Data - Duties.json"));
+            foreach (dynamic jDuty in duties)
+            {
+                // jump guildhests as it does not drop any thing.
+                if ("guildhest".Equals((string)jDuty.category))
+                {
+                    continue;
+                }
+
+                // avoid accidents
+                if (!_instanceByName.TryGetValue(jDuty.name.Value, out dynamic instance))
+                {
+                    DatabaseBuilder.PrintLine("Failed to find instance named " + jDuty.name);
+                    continue;
+                }
+
+                var otherItemRewards = new JArray();
+
+                if (instance.fights == null)
+                {
+                    if (jDuty.fights != null)
+                    {
+                        var fights = new JArray();
+                        instance.fights = fights;
+
+                        foreach (dynamic jFight in jDuty.fights as JArray)
+                        {
+                            fights.Add(BuildSupplementalFight(instance, jFight, otherItemRewards));
+                        }
+                    }
+                }
+                else
+                {
+                    // TODO: verify the loot and boss name
+                    // currently let's assume it was and is still all correct
+                    // due to it was troublesome to re-identify the mob
+                    // I am trying to find an alternative data source of bnpc
+                }
+
+                // simply rewrite all coffers
+                if (jDuty.chests != null)
+                {
+                    var coffers = new JArray();
+                    instance.coffers = coffers;
+
+                    foreach (dynamic jCoffer in jDuty.chests as JArray)
+                    {
+                        coffers.Add(BuildSupplementalCoffer(instance, jCoffer));
+                    }
+                }
+
+                if (otherItemRewards.Count > 0)
+                {
+                    if (instance.rewards != null)
+                    {
+                        // Build a set first
+                        HashSet<string> rewardSet = new HashSet<string>();
+                        foreach (dynamic item in instance.rewards as JArray)
+                        {
+                            rewardSet.Add(item.Value.ToString());
+                        }
+
+                        foreach (dynamic jItem in otherItemRewards)
+                        {
+                            if (rewardSet.Contains(jItem.Value.ToString()))
+                                continue;
+
+                            rewardSet.Add(jItem.Value.ToString());
+                            instance.rewards.Add(jItem);
+                        }
+                    }
+                    else
+                    {
+                        instance.rewards = otherItemRewards;
+                    }
+                }
+            }
+        }
+
+        // there will be no mob avaliable
+        dynamic BuildSupplementalFight(dynamic instance, dynamic jFight, JArray otherItemRewards)
+        {
+            dynamic fight = new JObject();
+
+            // Type
+            if (jFight.chest != null)
+            {
+                if ("silver".Equals(jFight.chest.Value))
+                {
+                    fight.type = "MidBoss";
+                }
+                else if ("gold".Equals(jFight.chest.Value))
+                {
+                    fight.type = "Boss";
+                }
+            }
+
+            // Currency
+            if (jFight.token != null)
+            {
+                var currencyArray = new JArray();
+                fight.currency = currencyArray;
+                foreach (dynamic jToken in jFight.token as JArray)
+                {
+                    dynamic currency = new JObject();
+                    currencyArray.Add(currency);
+                    currency.id = _tomestoneIdByName[jToken.name.Value];
+                    currency.amount = jToken.amount;
+                }
+            }
+
+            // Treasure
+
+            // Some fights have multiple treasure boxes. what to do?
+            // Seems they were put in together as one , so it cannot use the coffer method
+            // maybe ... split it in the future?
+            if (jFight.treasures != null)
+            {
+                dynamic coffer = new JObject();
+                fight.coffer = coffer;
+                var cofferItems = new JArray();
+                coffer.items = cofferItems;
+
+                foreach (dynamic jTreasureBox in jFight.treasures as JArray)
+                {
+                    foreach (dynamic jTreasureItem in jTreasureBox.items as JArray)
+                    {
+                        if (_builder.Db.ItemsByName.TryGetValue(
+                            SanitizeItemName(jTreasureItem.Value), out dynamic item))
+                        {
+                            cofferItems.Add(item.id);
+                            BuildItemRelationship(item, instance, true);
+                        }
+                        else
+                        {
+                            DatabaseBuilder.PrintLine($"Item named {jTreasureItem.Value} not found.");
+                            continue;
+                        }
+                    }
+                }
+            }
+
+            // Drops
+            if (jFight.drops != null)
+            {
+                foreach (dynamic jDrop in jFight.drops as JArray)
+                {
+                    if (_builder.Db.ItemsByName.TryGetValue(
+                        SanitizeItemName(jDrop.name.Value), out dynamic item))
+                    {
+                        otherItemRewards.Add(item.id);
+                        BuildItemRelationship(item, instance, false);
+                    }
+                    else
+                    {
+                        DatabaseBuilder.PrintLine($"Item named {jDrop.name.Value} not found.");
+                        continue;
+                    }
+                }
+            }
+
+            return fight;
+        }
+
+        dynamic BuildSupplementalCoffer(dynamic instance, dynamic jCoffer)
+        {
+            dynamic coffer = new JObject();
+
+            var cofferItems = new JArray();
+            coffer.items = cofferItems;
+
+            foreach (dynamic jTreasureItem in jCoffer.items as JArray)
+            {
+                if (_builder.Db.ItemsByName.TryGetValue(
+                    SanitizeItemName(jTreasureItem.Value), out dynamic item))
+                {
+                    cofferItems.Add(item.id);
+                    BuildItemRelationship(item, instance, true);
+                }
+                else
+                {
+                    DatabaseBuilder.PrintLine($"Item named {jTreasureItem.Value} not found.");
+                    continue;
+                }
+            }
+
+            if (jCoffer.coord != null)
+            {
+                var coords = new JArray();
+                coffer.coords = coords;
+
+                Match match = Regex.Match(jCoffer.coord.Value, _coordsRegex);
+                coords.Add(float.Parse(match.Groups[1].Value));
+                coords.Add(float.Parse(match.Groups[2].Value));
+            }
+
+            return coffer;
+        }
+
+        // This method needs improvements
+        string SanitizeItemName(string name)
+        {
+            if (name.EndsWith("(2)"))
+                name = name.Substring(0, name.Length - 3).Trim();
+            return name;
+        }
+
+        void BuildItemRelationship(dynamic item, dynamic instance, bool full)
+        {
+            if (item.instances == null)
+                item.instances = new JArray();
+            JArray itemInstances = item.instances;
+            if (!itemInstances.Any(i => (int)i == instance.id.Value))
+                itemInstances.Add(instance.id.Value);
+
+            _builder.Db.AddReference(instance, "item", item.id.Value, false);
+            if (full)
+            {
+                _builder.Db.AddReference(item, "instance", instance.id.Value, true);
             }
         }
 
