@@ -108,6 +108,12 @@ namespace Garland.Data
             return lines.Select(l => l.Split('\t'));
         }
 
+        public static JToken Json(string path)
+        {
+            var lines = System.IO.File.ReadAllText(path);
+            return JToken.Parse(lines);
+        }
+
         private static string[] _comma = new string[] { ", " };
         public static string[] Comma(string str)
         {
