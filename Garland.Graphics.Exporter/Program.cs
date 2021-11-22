@@ -138,11 +138,13 @@ namespace Garland.Graphics.Exporter
 
             /* 
              * Housing
+             * 
              * There is some problem when exporting furniture with xivModdingFramework.
              * see https://github.com/TexTools/xivModdingFramework/issues/37 for more detail.
              * comment this section if you don't want half-completed things being exported.
              * if you want redo this, then remove the gtfiles/model/furnture folder and rerun this.
             */
+            /*
             var furnitureList = _housing.GetUncachedFurnitureList().Result;
             foreach (var furniture in furnitureList)
             {
@@ -158,6 +160,7 @@ namespace Garland.Graphics.Exporter
                     WriteLine($"Unable to export {furniture.Name}: {ex.Message}");
                 }
             }
+            */
         }
 
         static void BatchExportItem(string path, IItemModel item, XivModelInfo secondaryModelInfo, Func<IEnumerable<XivRace>> getRaces)
