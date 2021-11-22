@@ -121,6 +121,22 @@ namespace Garland.Data.Modules
                 case 60506: return "Path";
                 case 60958: return "EurekaNM";
 
+                case 60508: return "Festival";
+                case 60994: return "Rebuild";
+                case 63926: return "Carnival";
+
+                case 60801:
+                case 63914: return "Bozjan Fight";
+
+                case 60802:
+                case 63915: return "Bozjan NM";
+
+                case 60803:
+                case 63916: return "Bozjan Gather";
+
+                case 60804:
+                case 63917: return "Bozjan Defense";
+
                 default:
                     DatabaseBuilder.PrintLine($"Unknown fate type: {key}, {name}, {mapIconId}");
                     return "Unknown";

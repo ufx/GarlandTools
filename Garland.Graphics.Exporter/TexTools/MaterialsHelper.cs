@@ -214,6 +214,7 @@ namespace Garland.Graphics.Exporter.TexTools
                 if (mtrlFile.StartsWith("/"))
                     mtrlFile = mtrlFile.Remove(0, 1);
                 XivMtrl mtrlData = null;
+
                 try
                 {
                     mtrlData = await mtrl.GetMtrlData(mtrlItem, mtrlFile, dxVersion);

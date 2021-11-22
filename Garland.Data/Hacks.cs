@@ -70,6 +70,15 @@ namespace Garland.Data
                 return "Exploration Achievement Rewards";
             else if (si.Label == "FREE_SHOP_GRANDCOMPANY" && si.Argument == 1769906)
                 return "Grand Company Achievement Rewards";
+
+            else if (si.Label == "SPSHOP_HANDLER_ID" && si.Argument == 1770041)
+                return "Skybuilders' Scrips";
+            else if (si.Label == "SPSHOP2_HANDLER_ID" && si.Argument == 1770281)
+                return "Skybuilders' Scrips (Gear/Furnishings)";
+            else if (si.Label == "SPSHOP3_HANDLER_ID" && si.Argument == 1770301)
+                return "Skybuilders' Scrips (Materials/Materia/Items)";
+            else if (si.Label == "SPSHOP4_HANDLER_ID" && si.Argument == 1770343)
+                return "Fête Tokens";
             else
             {
                 DatabaseBuilder.PrintLine($"Unknown shop label {si.Label}, arg {si.Argument}.");
@@ -158,6 +167,23 @@ namespace Garland.Data
             shopsByKey[1769962].ENpcs = new ENpc[] { sENpcs[1027665] }; // Sul Lad, Il Mheg
             shopsByKey[1769963].ENpcs = new ENpc[] { sENpcs[1027709] }; // Nacille, Rak'tika
             shopsByKey[1769964].ENpcs = new ENpc[] { sENpcs[1027766] }; // ??, Tempest
+
+            // Faux Leaves
+            var fauxCommander = new ENpc[] { sENpcs[1033921] };
+            shopsByKey[1770282].Fill("Exchange Faux Leaves", fauxCommander);
+
+            // Faire Voucher
+            shopsByKey[1770286].Name = "Exchange Faire Voucher";
+
+            // TODO: Fill the shop name via territory sheet
+            // e.g. Bozja are at custom/006/CtsMycExorcismTrade_00679
+
+            // Bozja Shops
+            var resistanceSuppliers = new ENpc[] { sENpcs[1034007], // Southern Front Cluster exchange
+                sENpcs[1036895] // Zadnor Cluster exchange
+            };
+
+            shopsByKey[1770087].Fill("Exchange Bozjan clusters for items.", resistanceSuppliers);
         }
 
         public static bool IsMainAttribute (string attribute)
