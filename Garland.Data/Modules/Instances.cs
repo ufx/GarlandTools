@@ -457,14 +457,12 @@ namespace Garland.Data.Modules
                 }
             }
 
-            if (jCoffer.coord != null)
+            if (jCoffer.coords != null)
             {
                 var coords = new JArray();
                 coffer.coords = coords;
-
-                Match match = Regex.Match(jCoffer.coord.Value, _coordsRegex);
-                coords.Add(float.Parse(match.Groups[1].Value));
-                coords.Add(float.Parse(match.Groups[2].Value));
+                coords.Add(jCoffer.coords.x);
+                coords.Add(jCoffer.coords.y);
             }
 
             return coffer;

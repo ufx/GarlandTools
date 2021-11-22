@@ -122,6 +122,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.8 Y: 9.2",
+                "coords": {
+                    "x": "13.8",
+                    "y": "9.2"
+                },
                 "items": [
                     "Plundered Plate Belt",
                     "Plundered Leather Belt",
@@ -135,6 +139,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.2 Y: 14.7",
+                "coords": {
+                    "x": "11.2",
+                    "y": "14.7"
+                },
                 "items": [
                     "Plundered Celata",
                     "Plundered Goggles",
@@ -147,6 +155,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.9 Y: 13.2",
+                "coords": {
+                    "x": "10.9",
+                    "y": "13.2"
+                },
                 "items": [
                     "Plundered Cuirass",
                     "Foestriker's Tabard",
@@ -159,6 +171,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 7.9 Y: 13.7",
+                "coords": {
+                    "x": "7.9",
+                    "y": "13.7"
+                },
                 "items": [
                     "Plundered Falchion",
                     "Plundered Battleaxe",
@@ -291,6 +307,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.2 Y: 7.8",
+                "coords": {
+                    "x": "9.2",
+                    "y": "7.8"
+                },
                 "items": [
                     "Plundered Plate Belt",
                     "Plundered Leather Belt",
@@ -303,6 +323,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 7.9 Y: 9.3",
+                "coords": {
+                    "x": "7.9",
+                    "y": "9.3"
+                },
                 "items": [
                     "Plundered Cuirass",
                     "Foestriker's Tabard",
@@ -315,6 +339,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 4.7 Y: 9.9",
+                "coords": {
+                    "x": "4.7",
+                    "y": "9.9"
+                },
                 "items": [
                     "Plundered Falchion",
                     "Plundered Battleaxe",
@@ -461,6 +489,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.5 Y: 10.4",
+                "coords": {
+                    "x": "12.5",
+                    "y": "10.4"
+                },
                 "items": [
                     "Plundered Plate Belt",
                     "Plundered Leather Belt",
@@ -473,6 +505,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.1 Y: 12.6",
+                "coords": {
+                    "x": "13.1",
+                    "y": "12.6"
+                },
                 "items": [
                     "Plundered Celata",
                     "Plundered Goggles",
@@ -485,6 +521,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.2 Y: 13.4",
+                "coords": {
+                    "x": "9.2",
+                    "y": "13.4"
+                },
                 "items": [
                     "Plundered Cuirass",
                     "Foestriker's Tabard",
@@ -497,6 +537,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.9 Y: 14.5",
+                "coords": {
+                    "x": "9.9",
+                    "y": "14.5"
+                },
                 "items": [
                     "Plundered Falchion",
                     "Plundered Battleaxe",
@@ -622,6 +666,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.3 Y: 9.9",
+                "coords": {
+                    "x": "14.3",
+                    "y": "9.9"
+                },
                 "items": [
                     "Doctore's Scimitar",
                     "Doctore's Bill",
@@ -638,6 +686,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.7 Y: 9.0",
+                "coords": {
+                    "x": "12.7",
+                    "y": "9.0"
+                },
                 "items": [
                     "Doctore's Belt of Resilience",
                     "Doctore's Belt of War",
@@ -650,6 +702,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.0 Y: 9.5",
+                "coords": {
+                    "x": "12.0",
+                    "y": "9.5"
+                },
                 "items": [
                     "Doctore's Chain Coif",
                     "Coeurl's Eye",
@@ -662,6 +718,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.6 Y: 7.4",
+                "coords": {
+                    "x": "11.6",
+                    "y": "7.4"
+                },
                 "items": [
                     "Doctore's Chainmail",
                     "Doctore's Harness",
@@ -674,6 +734,10 @@
             {
                 "name": "Treasure Coffer 5",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.4 Y: 8.6",
+                "coords": {
+                    "x": "10.4",
+                    "y": "8.6"
+                },
                 "items": [
                     "Doctore's Scimitar",
                     "Doctore's Bill",
@@ -690,6 +754,10 @@
             {
                 "name": "Treasure Coffer 6",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.5 Y: 8.9",
+                "coords": {
+                    "x": "9.5",
+                    "y": "8.9"
+                },
                 "items": [
                     "Aetherial Brass Ear Cuffs",
                     "Aetherial Coral Armillae",
@@ -699,6 +767,10 @@
             {
                 "name": "Treasure Coffer 7",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.8 Y: 8.5",
+                "coords": {
+                    "x": "11.8",
+                    "y": "8.5"
+                },
                 "items": [
                     "Doctore's Chainmail",
                     "Doctore's Harness",
@@ -711,6 +783,10 @@
             {
                 "name": "Treasure Coffer 8",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 8.7 Y: 11.2",
+                "coords": {
+                    "x": "8.7",
+                    "y": "11.2"
+                },
                 "items": [
                     "Doctore's Belt of Resilience",
                     "Doctore's Belt of War",
@@ -820,6 +896,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.5 Y: 11.9",
+                "coords": {
+                    "x": "11.5",
+                    "y": "11.9"
+                },
                 "items": [
                     "Warden's Barbut",
                     "Nighthawk Visor",
@@ -833,6 +913,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 8.7 Y: 9.4",
+                "coords": {
+                    "x": "8.7",
+                    "y": "9.4"
+                },
                 "items": [
                     "Frostbite",
                     "Elmlord's Tusk",
@@ -849,6 +933,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.5 Y: 12.3",
+                "coords": {
+                    "x": "10.5",
+                    "y": "12.3"
+                },
                 "items": [
                     "Eternal Shade",
                     "Brigand's Acton",
@@ -861,6 +949,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.0 Y: 11.8",
+                "coords": {
+                    "x": "13.0",
+                    "y": "11.8"
+                },
                 "items": [
                     "Warden's Belt",
                     "Brigand's Belt",
@@ -961,6 +1053,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.0 Y: 13.3",
+                "coords": {
+                    "x": "11.0",
+                    "y": "13.3"
+                },
                 "items": [
                     "Fine Wax"
                 ]
@@ -968,6 +1064,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.9 Y: 10.2",
+                "coords": {
+                    "x": "9.9",
+                    "y": "10.2"
+                },
                 "items": [
                     "Manor Belt of Resilience",
                     "Manor Belt of War",
@@ -980,6 +1080,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.3 Y: 10.1",
+                "coords": {
+                    "x": "10.3",
+                    "y": "10.1"
+                },
                 "items": [
                     "Manor Elmo",
                     "Manor Bandana",
@@ -992,6 +1096,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.1 Y: 11.9",
+                "coords": {
+                    "x": "12.1",
+                    "y": "11.9"
+                },
                 "items": [
                     "Manor Scale Mail",
                     "Manor Shirt",
@@ -1004,6 +1112,10 @@
             {
                 "name": "Treasure Coffer 5",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.2 Y: 13.3",
+                "coords": {
+                    "x": "11.2",
+                    "y": "13.3"
+                },
                 "items": [
                     "Inquisitor's Tuck",
                     "Charred Axe",
@@ -1151,6 +1263,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.8 Y: 9.6",
+                "coords": {
+                    "x": "12.8",
+                    "y": "9.6"
+                },
                 "items": [
                     "Cavalry Tassets",
                     "Infantry Belt",
@@ -1163,6 +1279,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.5 Y: 10.0",
+                "coords": {
+                    "x": "12.5",
+                    "y": "10.0"
+                },
                 "items": [
                     "Cavalry Mask",
                     "Infantry Bandana",
@@ -1175,6 +1295,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.0 Y: 8.3",
+                "coords": {
+                    "x": "12.0",
+                    "y": "8.3"
+                },
                 "items": [
                     "Cavalry Cuirass",
                     "Infantry Shirt",
@@ -1187,6 +1311,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.5 Y: 9.9",
+                "coords": {
+                    "x": "11.5",
+                    "y": "9.9"
+                },
                 "items": [
                     "Gladiator's Ring",
                     "Marauder's Ring",
@@ -1322,6 +1450,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.0 Y: 10.1",
+                "coords": {
+                    "x": "13.0",
+                    "y": "10.1"
+                },
                 "items": [
                     "Fire Shard",
                     "Ice Shard",
@@ -1334,6 +1466,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.0 Y: 12.3",
+                "coords": {
+                    "x": "13.0",
+                    "y": "12.3"
+                },
                 "items": [
                     "Fire Shard",
                     "Ice Shard",
@@ -1346,6 +1482,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.2 Y: 10.3",
+                "coords": {
+                    "x": "14.2",
+                    "y": "10.3"
+                },
                 "items": [
                     "Fire Shard",
                     "Ice Shard",
@@ -1358,6 +1498,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 15.0 Y: 10.4",
+                "coords": {
+                    "x": "15.0",
+                    "y": "10.4"
+                },
                 "items": [
                     "Fire Shard",
                     "Ice Shard",
@@ -1370,6 +1514,10 @@
             {
                 "name": "Treasure Coffer 5",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.9 Y: 11.1",
+                "coords": {
+                    "x": "12.9",
+                    "y": "11.1"
+                },
                 "items": [
                     "Flametongue",
                     "Boar's Bane",
@@ -1389,6 +1537,10 @@
             {
                 "name": "Treasure Coffer 6",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.2 Y: 12.1",
+                "coords": {
+                    "x": "14.2",
+                    "y": "12.1"
+                },
                 "items": [
                     "Qarn Belt of Resilience",
                     "Qarn Belt of War",
@@ -1401,6 +1553,10 @@
             {
                 "name": "Treasure Coffer 7",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 15.1 Y: 10.4",
+                "coords": {
+                    "x": "15.1",
+                    "y": "10.4"
+                },
                 "items": [
                     "Qarn Circlet",
                     "Qarn Goggles",
@@ -1514,6 +1670,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 16.0 Y: 9.9",
+                "coords": {
+                    "x": "16.0",
+                    "y": "9.9"
+                },
                 "items": [
                     "Conquistador Plate Belt",
                     "Penance",
@@ -1526,6 +1686,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 16.7 Y: 7.2",
+                "coords": {
+                    "x": "16.7",
+                    "y": "7.2"
+                },
                 "items": [
                     "Conquistador Elmo",
                     "Poacher's Hat",
@@ -1538,6 +1702,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 8.8 Y: 6.8",
+                "coords": {
+                    "x": "8.8",
+                    "y": "6.8"
+                },
                 "items": [
                     "Kokoroon's Darkshell Mail",
                     "Poacher's Tunic",
@@ -1550,6 +1718,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 6.5 Y: 9.7",
+                "coords": {
+                    "x": "6.5",
+                    "y": "9.7"
+                },
                 "items": [
                     "Crier's Broadsword",
                     "Crier's Bhuj",
@@ -1704,6 +1876,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.3 Y: 12.3",
+                "coords": {
+                    "x": "12.3",
+                    "y": "12.3"
+                },
                 "items": [
                     "Vigil Tassets of Resilience",
                     "Vigil Tassets of War",
@@ -1716,6 +1892,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.0 Y: 10.8",
+                "coords": {
+                    "x": "11.0",
+                    "y": "10.8"
+                },
                 "items": [
                     "Vigil Coif",
                     "Vigil Eyepatch",
@@ -1728,6 +1908,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.7 Y: 8.4",
+                "coords": {
+                    "x": "10.7",
+                    "y": "8.4"
+                },
                 "items": [
                     "Vigil Haubergeon",
                     "Vigil Shirt",
@@ -1862,6 +2046,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.8 Y: 13.7",
+                "coords": {
+                    "x": "12.8",
+                    "y": "13.7"
+                },
                 "items": [
                     "Sentinel's Plate Belt",
                     "Templar's Tassets",
@@ -1876,6 +2064,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 6.9 Y: 11.5",
+                "coords": {
+                    "x": "6.9",
+                    "y": "11.5"
+                },
                 "items": [
                     "Sentinel's Celata",
                     "Templar's Chain Coif",
@@ -1890,6 +2082,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 6.8 Y: 11.6",
+                "coords": {
+                    "x": "6.8",
+                    "y": "11.6"
+                },
                 "items": [
                     "Sentinel's Cuirass",
                     "Templar's Haubergeon",
@@ -2035,6 +2231,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.3 Y: 8.6",
+                "coords": {
+                    "x": "10.3",
+                    "y": "8.6"
+                },
                 "items": [
                     "Aurum Twinbelt of Resilience",
                     "Aurum Twinbelt of War",
@@ -2048,6 +2248,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 8.9 Y: 9.0",
+                "coords": {
+                    "x": "8.9",
+                    "y": "9.0"
+                },
                 "items": [
                     "Aurum Celata",
                     "Aurum Pot Helm",
@@ -2061,6 +2265,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 7.0 Y: 7.0",
+                "coords": {
+                    "x": "7.0",
+                    "y": "7.0"
+                },
                 "items": [
                     "Aurum Cuirass",
                     "Aurum Jacket",
@@ -2075,6 +2283,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 4.5 Y: 8.9",
+                "coords": {
+                    "x": "4.5",
+                    "y": "8.9"
+                },
                 "items": [
                     "Templar's Falchion",
                     "Canopus Bill",
@@ -2211,6 +2423,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.3 Y: 16.5",
+                "coords": {
+                    "x": "13.3",
+                    "y": "16.5"
+                },
                 "items": [
                     "Blunt Aeolian Scimitar",
                     "Coeurl Skin",
@@ -2220,6 +2436,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.5 Y: 8.1",
+                "coords": {
+                    "x": "10.5",
+                    "y": "8.1"
+                },
                 "items": [
                     "Uraeus Skin",
                     "Bloody Lance Head",
@@ -2230,6 +2450,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.6 Y: 8.1",
+                "coords": {
+                    "x": "13.6",
+                    "y": "8.1"
+                },
                 "items": [
                     "Pinprick Pebble",
                     "Hippogryph Skin",
@@ -2240,6 +2464,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.9 Y: 4.8",
+                "coords": {
+                    "x": "11.9",
+                    "y": "4.8"
+                },
                 "items": [
                     "Nymian Orb",
                     "Bite-sized Pudding",
@@ -2448,6 +2676,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.6 Y: 10.1",
+                "coords": {
+                    "x": "9.6",
+                    "y": "10.1"
+                },
                 "items": [
                     "Demon Brick"
                 ]
@@ -2455,6 +2687,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 17.1 Y: 11.1",
+                "coords": {
+                    "x": "17.1",
+                    "y": "11.1"
+                },
                 "items": [
                     "Amdapori Stone"
                 ]
@@ -2591,6 +2827,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.4 Y: 12.3",
+                "coords": {
+                    "x": "10.4",
+                    "y": "12.3"
+                },
                 "items": [
                     "Hoplite Earrings",
                     "Peltast Earrings",
@@ -2607,6 +2847,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.0 Y: 11.0",
+                "coords": {
+                    "x": "12.0",
+                    "y": "11.0"
+                },
                 "items": [
                     "Hoplite Wristlets",
                     "Peltast Wristlets",
@@ -2769,6 +3013,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.8 Y: 12.5",
+                "coords": {
+                    "x": "11.8",
+                    "y": "12.5"
+                },
                 "items": [
                     "Slime Puddle"
                 ]
@@ -2776,6 +3024,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.6 Y: 13.9",
+                "coords": {
+                    "x": "9.6",
+                    "y": "13.9"
+                },
                 "items": [
                     "Hoplite Earrings",
                     "Peltast Earrings",
@@ -2792,6 +3044,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.3 Y: 13.4",
+                "coords": {
+                    "x": "9.3",
+                    "y": "13.4"
+                },
                 "items": [
                     "Hoplite Wristlets",
                     "Peltast Wristlets",
@@ -2936,6 +3192,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.6 Y: 10.2",
+                "coords": {
+                    "x": "12.6",
+                    "y": "10.2"
+                },
                 "items": [
                     "Manor Varnish"
                 ]
@@ -2943,6 +3203,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.3 Y: 12.1",
+                "coords": {
+                    "x": "10.3",
+                    "y": "12.1"
+                },
                 "items": [
                     "Hoplite Earrings",
                     "Peltast Earrings",
@@ -2959,6 +3223,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.8 Y: 12.1",
+                "coords": {
+                    "x": "10.8",
+                    "y": "12.1"
+                },
                 "items": [
                     "Hoplite Wristlets",
                     "Peltast Wristlets",
@@ -3103,6 +3371,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.5 Y: 11.2",
+                "coords": {
+                    "x": "10.5",
+                    "y": "11.2"
+                },
                 "items": [
                     "Darklight Choker of Fending",
                     "Darklight Choker of Maiming",
@@ -3121,6 +3393,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.6 Y: 10.8",
+                "coords": {
+                    "x": "12.6",
+                    "y": "10.8"
+                },
                 "items": [
                     "Darklight Earrings of Fending",
                     "Darklight Earrings of Maiming",
@@ -3266,6 +3542,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.9 Y: 13.9",
+                "coords": {
+                    "x": "12.9",
+                    "y": "13.9"
+                },
                 "items": [
                     "Darklight Earrings of Fending",
                     "Darklight Earrings of Maiming",
@@ -3284,6 +3564,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 5.7 Y: 14.4",
+                "coords": {
+                    "x": "5.7",
+                    "y": "14.4"
+                },
                 "items": [
                     "Darklight Bracelet of Fending",
                     "Darklight Bracelet of Maiming",
@@ -3420,6 +3704,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.5 Y: 9.5",
+                "coords": {
+                    "x": "12.5",
+                    "y": "9.5"
+                },
                 "items": [
                     "Darklight Earrings of Fending",
                     "Darklight Earrings of Maiming",
@@ -3438,6 +3726,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.3 Y: 8.8",
+                "coords": {
+                    "x": "10.3",
+                    "y": "8.8"
+                },
                 "items": [
                     "Darklight Choker of Fending",
                     "Darklight Choker of Maiming",
@@ -3575,6 +3867,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 15.4 Y: 8.3",
+                "coords": {
+                    "x": "15.4",
+                    "y": "8.3"
+                },
                 "items": [
                     "Fire Crystal",
                     "Ice Crystal",
@@ -3587,6 +3883,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 15.4 Y: 8.3",
+                "coords": {
+                    "x": "15.4",
+                    "y": "8.3"
+                },
                 "items": [
                     "Fire Crystal",
                     "Ice Crystal",
@@ -3599,6 +3899,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 15.5 Y: 8.3",
+                "coords": {
+                    "x": "15.5",
+                    "y": "8.3"
+                },
                 "items": [
                     "Wild Banana Shoot"
                 ]
@@ -3606,6 +3910,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 5.3 Y: 10.3",
+                "coords": {
+                    "x": "5.3",
+                    "y": "10.3"
+                },
                 "items": [
                     "Naughty Nanka"
                 ]
@@ -3848,6 +4156,10 @@
             {
                 "name": "Treasure Coffer",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.7 Y: 9.1",
+                "coords": {
+                    "x": "10.7",
+                    "y": "9.1"
+                },
                 "items": [
                     "Stone Vigil Lumber"
                 ]
@@ -4107,6 +4419,10 @@
             {
                 "name": "Treasure Coffer",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 7.5 Y: 16.3",
+                "coords": {
+                    "x": "7.5",
+                    "y": "16.3"
+                },
                 "items": [
                     "Splintered Chest"
                 ]
@@ -4772,6 +5088,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.8 Y: 11.1",
+                "coords": {
+                    "x": "13.8",
+                    "y": "11.1"
+                },
                 "items": [
                     "Ishgardian Knight's Tassets",
                     "Ishgardian Banneret's Tassets",
@@ -4807,6 +5127,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 15.8 Y: 10.3",
+                "coords": {
+                    "x": "15.8",
+                    "y": "10.3"
+                },
                 "items": [
                     "Ishgardian Knight's Helm",
                     "Ishgardian Banneret's Helm",
@@ -4842,6 +5166,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.7 Y: 5.8",
+                "coords": {
+                    "x": "12.7",
+                    "y": "5.8"
+                },
                 "items": [
                     "Ishgardian Knight's Armor",
                     "Ishgardian Banneret's Armor",
@@ -4877,6 +5205,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.3 Y: 5.6",
+                "coords": {
+                    "x": "10.3",
+                    "y": "5.6"
+                },
                 "items": [
                     "Martial Sword",
                     "Martial Axe",
@@ -5062,6 +5394,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.4 Y: 10.3",
+                "coords": {
+                    "x": "13.4",
+                    "y": "10.3"
+                },
                 "items": [
                     "Woad Skyraider's Belt",
                     "Woad Skylancer's Belt",
@@ -5097,6 +5433,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.2 Y: 11.6",
+                "coords": {
+                    "x": "11.2",
+                    "y": "11.6"
+                },
                 "items": [
                     "Woad Skyraider's Helm",
                     "Woad Skylancer's Helm",
@@ -5132,6 +5472,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.4 Y: 5.2",
+                "coords": {
+                    "x": "10.4",
+                    "y": "5.2"
+                },
                 "items": [
                     "Woad Skyraider's Fur",
                     "Woad Skylancer's Fur",
@@ -5167,6 +5511,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.4 Y: 5.2",
+                "coords": {
+                    "x": "10.4",
+                    "y": "5.2"
+                },
                 "items": [
                     "Dissector",
                     "Foolkiller",
@@ -5360,6 +5708,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.0 Y: 10.7",
+                "coords": {
+                    "x": "14.0",
+                    "y": "10.7"
+                },
                 "items": [
                     "Orthodox Plate Belt of Fending",
                     "Orthodox Plate Belt of Maiming",
@@ -5395,6 +5747,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.5 Y: 12.5",
+                "coords": {
+                    "x": "13.5",
+                    "y": "12.5"
+                },
                 "items": [
                     "Orthodox Hairpin of Fending",
                     "Orthodox Hairpin of Maiming",
@@ -5430,6 +5786,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.9 Y: 11.7",
+                "coords": {
+                    "x": "11.9",
+                    "y": "11.7"
+                },
                 "items": [
                     "Orthodox Coat of Fending",
                     "Orthodox Coat of Maiming",
@@ -5465,6 +5825,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.2 Y: 10.1",
+                "coords": {
+                    "x": "12.2",
+                    "y": "10.1"
+                },
                 "items": [
                     "Tyrfing",
                     "Skeggiold",
@@ -5651,6 +6015,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.7 Y: 10.6",
+                "coords": {
+                    "x": "12.7",
+                    "y": "10.6"
+                },
                 "items": [
                     "Halonic Inquisitor's Corset",
                     "Halonic Ostiary's Corset",
@@ -5686,6 +6054,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.5 Y: 10.9",
+                "coords": {
+                    "x": "12.5",
+                    "y": "10.9"
+                },
                 "items": [
                     "Halonic Inquisitor's Helm",
                     "Halonic Ostiary's Helm",
@@ -5721,6 +6093,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.6 Y: 10.9",
+                "coords": {
+                    "x": "9.6",
+                    "y": "10.9"
+                },
                 "items": [
                     "Halonic Inquisitor's Cuirass",
                     "Halonic Ostiary's Cuirass",
@@ -5756,6 +6132,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.0 Y: 10.8",
+                "coords": {
+                    "x": "10.0",
+                    "y": "10.8"
+                },
                 "items": [
                     "Halonic Inquisitor's Sword",
                     "Halonic Inquisitor's Axe",
@@ -5949,6 +6329,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.2 Y: 10.7",
+                "coords": {
+                    "x": "13.2",
+                    "y": "10.7"
+                },
                 "items": [
                     "Sharlayan Custodian's Belt",
                     "Sharlayan Pathmaker's Belt",
@@ -5984,6 +6368,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.2 Y: 12.7",
+                "coords": {
+                    "x": "12.2",
+                    "y": "12.7"
+                },
                 "items": [
                     "Sharlayan Custodian's Helm",
                     "Sharlayan Pathmaker's Helm",
@@ -6019,6 +6407,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 16.2 Y: 10.8",
+                "coords": {
+                    "x": "16.2",
+                    "y": "10.8"
+                },
                 "items": [
                     "Sharlayan Custodian's Coat",
                     "Sharlayan Pathmaker's Coat",
@@ -6054,6 +6446,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 15.7 Y: 10.2",
+                "coords": {
+                    "x": "15.7",
+                    "y": "10.2"
+                },
                 "items": [
                     "Belah'dian Anelace",
                     "Nymian Royal Marine Battleaxe",
@@ -6330,6 +6726,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.3 Y: 14.3",
+                "coords": {
+                    "x": "14.3",
+                    "y": "14.3"
+                },
                 "items": [
                     "Valerian Terror Knight's Plate Belt",
                     "Valerian Dragoon's Plate Belt",
@@ -6365,6 +6765,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.9 Y: 12.9",
+                "coords": {
+                    "x": "12.9",
+                    "y": "12.9"
+                },
                 "items": [
                     "Valerian Terror Knight's Barbut",
                     "Valerian Dragoon's Barbut",
@@ -6400,6 +6804,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.3 Y: 9.2",
+                "coords": {
+                    "x": "14.3",
+                    "y": "9.2"
+                },
                 "items": [
                     "Valerian Terror Knight's Plate Mail",
                     "Valerian Dragoon's Mail",
@@ -6435,6 +6843,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.0 Y: 6.4",
+                "coords": {
+                    "x": "14.0",
+                    "y": "6.4"
+                },
                 "items": [
                     "Baldur Sword",
                     "Baldur Axe",
@@ -6638,6 +7050,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.7 Y: 11.4",
+                "coords": {
+                    "x": "9.7",
+                    "y": "11.4"
+                },
                 "items": [
                     "Valerian Terror Knight's Plate Belt",
                     "Valerian Dragoon's Plate Belt",
@@ -6673,6 +7089,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.1 Y: 10.8",
+                "coords": {
+                    "x": "11.1",
+                    "y": "10.8"
+                },
                 "items": [
                     "Valerian Terror Knight's Barbut",
                     "Valerian Dragoon's Barbut",
@@ -6708,6 +7128,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 7.9 Y: 9.3",
+                "coords": {
+                    "x": "7.9",
+                    "y": "9.3"
+                },
                 "items": [
                     "Valerian Terror Knight's Plate Mail",
                     "Valerian Dragoon's Mail",
@@ -6743,6 +7167,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.5 Y: 9.3",
+                "coords": {
+                    "x": "14.5",
+                    "y": "9.3"
+                },
                 "items": [
                     "Baldur Sword",
                     "Baldur Axe",
@@ -6953,6 +7381,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.0 Y: 10.3",
+                "coords": {
+                    "x": "9.0",
+                    "y": "10.3"
+                },
                 "items": [
                     "Bracelet of the Defiant Duelist",
                     "Bracelet of the Daring Duelist",
@@ -6965,6 +7397,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 7.9 Y: 7.3",
+                "coords": {
+                    "x": "7.9",
+                    "y": "7.3"
+                },
                 "items": [
                     "Ring of the Defiant Duelist",
                     "Ring of the Daring Duelist",
@@ -6977,6 +7413,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.9 Y: 11.2",
+                "coords": {
+                    "x": "10.9",
+                    "y": "11.2"
+                },
                 "items": [
                     "Choker of the Defiant Duelist",
                     "Choker of the Daring Duelist",
@@ -6989,6 +7429,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.1 Y: 9.7",
+                "coords": {
+                    "x": "11.1",
+                    "y": "9.7"
+                },
                 "items": [
                     "Earrings of the Defiant Duelist",
                     "Earrings of the Daring Duelist",
@@ -7139,6 +7583,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.3 Y: 10.0",
+                "coords": {
+                    "x": "11.3",
+                    "y": "10.0"
+                },
                 "items": [
                     "Bracelet of the Defiant Duelist",
                     "Bracelet of the Daring Duelist",
@@ -7151,6 +7599,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.9 Y: 10.5",
+                "coords": {
+                    "x": "10.9",
+                    "y": "10.5"
+                },
                 "items": [
                     "Ring of the Defiant Duelist",
                     "Ring of the Daring Duelist",
@@ -7163,6 +7615,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.7 Y: 9.7",
+                "coords": {
+                    "x": "10.7",
+                    "y": "9.7"
+                },
                 "items": [
                     "Choker of the Defiant Duelist",
                     "Choker of the Daring Duelist",
@@ -7175,6 +7631,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 8.8 Y: 9.6",
+                "coords": {
+                    "x": "8.8",
+                    "y": "9.6"
+                },
                 "items": [
                     "Earrings of the Defiant Duelist",
                     "Earrings of the Daring Duelist",
@@ -7328,6 +7788,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 15.0 Y: 15.8",
+                "coords": {
+                    "x": "15.0",
+                    "y": "15.8"
+                },
                 "items": [
                     "Dravanian Earrings of Fending",
                     "Dravanian Earrings of Slaying",
@@ -7340,6 +7804,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.2 Y: 14.6",
+                "coords": {
+                    "x": "14.2",
+                    "y": "14.6"
+                },
                 "items": [
                     "Dravanian Choker of Fending",
                     "Dravanian Choker of Slaying",
@@ -7352,6 +7820,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 16.4 Y: 9.9",
+                "coords": {
+                    "x": "16.4",
+                    "y": "9.9"
+                },
                 "items": [
                     "Dravanian Bracelet of Fending",
                     "Dravanian Bracelet of Slaying",
@@ -7364,6 +7836,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 16.8 Y: 8.2",
+                "coords": {
+                    "x": "16.8",
+                    "y": "8.2"
+                },
                 "items": [
                     "Dravanian Ring of Fending",
                     "Dravanian Ring of Slaying",
@@ -7516,6 +7992,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.6 Y: 10.3",
+                "coords": {
+                    "x": "12.6",
+                    "y": "10.3"
+                },
                 "items": [
                     "Dravanian Earrings of Fending",
                     "Dravanian Earrings of Slaying",
@@ -7528,6 +8008,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.1 Y: 11.8",
+                "coords": {
+                    "x": "11.1",
+                    "y": "11.8"
+                },
                 "items": [
                     "Dravanian Choker of Fending",
                     "Dravanian Choker of Slaying",
@@ -7540,6 +8024,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.5 Y: 11.6",
+                "coords": {
+                    "x": "10.5",
+                    "y": "11.6"
+                },
                 "items": [
                     "Dravanian Bracelet of Fending",
                     "Dravanian Bracelet of Slaying",
@@ -7552,6 +8040,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.2 Y: 9.4",
+                "coords": {
+                    "x": "12.2",
+                    "y": "9.4"
+                },
                 "items": [
                     "Dravanian Ring of Fending",
                     "Dravanian Ring of Slaying",
@@ -7702,6 +8194,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.6 Y: 12.8",
+                "coords": {
+                    "x": "11.6",
+                    "y": "12.8"
+                },
                 "items": [
                     "Berserker's Earrings",
                     "Viking Earrings",
@@ -7714,6 +8210,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.0 Y: 10.7",
+                "coords": {
+                    "x": "12.0",
+                    "y": "10.7"
+                },
                 "items": [
                     "Berserker's Scarf",
                     "Viking Scarf",
@@ -7726,6 +8226,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.7 Y: 12.8",
+                "coords": {
+                    "x": "12.7",
+                    "y": "12.8"
+                },
                 "items": [
                     "Berserker's Bangles",
                     "Viking Bangles",
@@ -7738,6 +8242,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.0 Y: 13.0",
+                "coords": {
+                    "x": "11.0",
+                    "y": "13.0"
+                },
                 "items": [
                     "Berserker's Ring",
                     "Viking Ring",
@@ -7881,6 +8389,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.4 Y: 11.2",
+                "coords": {
+                    "x": "12.4",
+                    "y": "11.2"
+                },
                 "items": [
                     "Berserker's Earrings",
                     "Viking Earrings",
@@ -7893,6 +8405,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.5 Y: 8.6",
+                "coords": {
+                    "x": "10.5",
+                    "y": "8.6"
+                },
                 "items": [
                     "Berserker's Scarf",
                     "Viking Scarf",
@@ -7905,6 +8421,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 7.2 Y: 10.2",
+                "coords": {
+                    "x": "7.2",
+                    "y": "10.2"
+                },
                 "items": [
                     "Berserker's Bangles",
                     "Viking Bangles",
@@ -7917,6 +8437,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 5.2 Y: 11.2",
+                "coords": {
+                    "x": "5.2",
+                    "y": "11.2"
+                },
                 "items": [
                     "Berserker's Ring",
                     "Viking Ring",
@@ -8073,6 +8597,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.0 Y: 10.9",
+                "coords": {
+                    "x": "11.0",
+                    "y": "10.9"
+                },
                 "items": [
                     "Valkyrie's Earrings of Fending",
                     "Valkyrie's Earrings of Slaying",
@@ -8085,6 +8613,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.9 Y: 10.6",
+                "coords": {
+                    "x": "11.9",
+                    "y": "10.6"
+                },
                 "items": [
                     "Valkyrie's Choker of Fending",
                     "Valkyrie's Choker of Slaying",
@@ -8097,6 +8629,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 15.0 Y: 8.9",
+                "coords": {
+                    "x": "15.0",
+                    "y": "8.9"
+                },
                 "items": [
                     "Valkyrie's Bracelet of Fending",
                     "Valkyrie's Bracelet of Slaying",
@@ -8109,6 +8645,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 16.3 Y: 6.8",
+                "coords": {
+                    "x": "16.3",
+                    "y": "6.8"
+                },
                 "items": [
                     "Valkyrie's Ring of Fending",
                     "Valkyrie's Ring of Slaying",
@@ -8252,6 +8792,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.5 Y: 12.5",
+                "coords": {
+                    "x": "14.5",
+                    "y": "12.5"
+                },
                 "items": [
                     "Valkyrie's Choker of Fending",
                     "Valkyrie's Choker of Slaying",
@@ -8264,6 +8808,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 16.1 Y: 13.1",
+                "coords": {
+                    "x": "16.1",
+                    "y": "13.1"
+                },
                 "items": [
                     "Valkyrie's Earrings of Fending",
                     "Valkyrie's Earrings of Slaying",
@@ -8276,6 +8824,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.5 Y: 10.1",
+                "coords": {
+                    "x": "9.5",
+                    "y": "10.1"
+                },
                 "items": [
                     "Valkyrie's Bracelet of Fending",
                     "Valkyrie's Bracelet of Slaying",
@@ -8288,6 +8840,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.5 Y: 10.8",
+                "coords": {
+                    "x": "10.5",
+                    "y": "10.8"
+                },
                 "items": [
                     "Valkyrie's Ring of Fending",
                     "Valkyrie's Ring of Slaying",
@@ -8438,6 +8994,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.9 Y: 11.5",
+                "coords": {
+                    "x": "10.9",
+                    "y": "11.5"
+                },
                 "items": [
                     "Filibuster's Earring of Fending",
                     "Filibuster's Earring of Slaying",
@@ -8450,6 +9010,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.5 Y: 9.6",
+                "coords": {
+                    "x": "10.5",
+                    "y": "9.6"
+                },
                 "items": [
                     "Filibuster's Choker of Fending",
                     "Filibuster's Choker of Slaying",
@@ -8462,6 +9026,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.6 Y: 10.8",
+                "coords": {
+                    "x": "11.6",
+                    "y": "10.8"
+                },
                 "items": [
                     "Filibuster's Bracelet of Fending",
                     "Filibuster's Bracelet of Slaying",
@@ -8474,6 +9042,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.0 Y: 11.9",
+                "coords": {
+                    "x": "12.0",
+                    "y": "11.9"
+                },
                 "items": [
                     "Filibuster's Ring of Fending",
                     "Filibuster's Ring of Slaying",
@@ -8617,6 +9189,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.7 Y: 12.2",
+                "coords": {
+                    "x": "11.7",
+                    "y": "12.2"
+                },
                 "items": [
                     "Filibuster's Earring of Fending",
                     "Filibuster's Earring of Slaying",
@@ -8629,6 +9205,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.8 Y: 10.9",
+                "coords": {
+                    "x": "12.8",
+                    "y": "10.9"
+                },
                 "items": [
                     "Filibuster's Choker of Fending",
                     "Filibuster's Choker of Slaying",
@@ -8641,6 +9221,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.1 Y: 12.0",
+                "coords": {
+                    "x": "10.1",
+                    "y": "12.0"
+                },
                 "items": [
                     "Filibuster's Bracelet of Fending",
                     "Filibuster's Bracelet of Slaying",
@@ -8653,6 +9237,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 8.8 Y: 11.2",
+                "coords": {
+                    "x": "8.8",
+                    "y": "11.2"
+                },
                 "items": [
                     "Filibuster's Ring of Fending",
                     "Filibuster's Ring of Slaying",
@@ -8795,6 +9383,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.3 Y: 9.2",
+                "coords": {
+                    "x": "11.3",
+                    "y": "9.2"
+                },
                 "items": [
                     "Ghost Barque Belt of Fending",
                     "Ghost Barque Belt of Maiming",
@@ -8849,6 +9441,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.5 Y: 10.6",
+                "coords": {
+                    "x": "9.5",
+                    "y": "10.6"
+                },
                 "items": [
                     "Ghost Barque Circlet of Fending",
                     "Ghost Barque Mask of Maiming",
@@ -8903,6 +9499,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.7 Y: 15.7",
+                "coords": {
+                    "x": "11.7",
+                    "y": "15.7"
+                },
                 "items": [
                     "Ghost Barque Tabard of Fending",
                     "Ghost Barque Chestwrap of Maiming",
@@ -8957,6 +9557,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.7 Y: 18.2",
+                "coords": {
+                    "x": "10.7",
+                    "y": "18.2"
+                },
                 "items": [
                     "Ghost Barque Anelace",
                     "Ghost Barque Battleaxe",
@@ -9156,6 +9760,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.5 Y: 10.1",
+                "coords": {
+                    "x": "10.5",
+                    "y": "10.1"
+                },
                 "items": [
                     "Shisui Obi of Fending",
                     "Shisui Obi of Maiming",
@@ -9210,6 +9818,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.0 Y: 8.6",
+                "coords": {
+                    "x": "11.0",
+                    "y": "8.6"
+                },
                 "items": [
                     "Shisui Mengu of Fending",
                     "Shisui Mengu of Maiming",
@@ -9264,6 +9876,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.4 Y: 5.5",
+                "coords": {
+                    "x": "12.4",
+                    "y": "5.5"
+                },
                 "items": [
                     "Shisui Joi of Fending",
                     "Shisui Joi of Maiming",
@@ -9318,6 +9934,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.6 Y: 4.7",
+                "coords": {
+                    "x": "10.6",
+                    "y": "4.7"
+                },
                 "items": [
                     "Ruby Tide Blade",
                     "Ruby Tide Axe",
@@ -9518,6 +10138,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.7 Y: 14.9",
+                "coords": {
+                    "x": "10.7",
+                    "y": "14.9"
+                },
                 "items": [
                     "Nomad's Belt of Fending",
                     "Nomad's Belt of Maiming",
@@ -9572,6 +10196,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.6 Y: 12.9",
+                "coords": {
+                    "x": "10.6",
+                    "y": "12.9"
+                },
                 "items": [
                     "Nomad's Helm of Fending",
                     "Nomad's Cap of Maiming",
@@ -9626,6 +10254,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.1 Y: 5.8",
+                "coords": {
+                    "x": "11.1",
+                    "y": "5.8"
+                },
                 "items": [
                     "Nomad's Coat of Fending",
                     "Nomad's Coat of Maiming",
@@ -9680,6 +10312,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.9 Y: 3.2",
+                "coords": {
+                    "x": "11.9",
+                    "y": "3.2"
+                },
                 "items": [
                     "The Eminent Dominion",
                     "The Impassible Peak",
@@ -9880,6 +10516,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.4 Y: 13.9",
+                "coords": {
+                    "x": "11.4",
+                    "y": "13.9"
+                },
                 "items": [
                     "Yanxian Obi of Fending",
                     "Yanxian Obi of Maiming",
@@ -9934,6 +10574,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.1 Y: 14.1",
+                "coords": {
+                    "x": "9.1",
+                    "y": "14.1"
+                },
                 "items": [
                     "Yanxian Hachigane of Fending",
                     "Yanxian Hachigane of Maiming",
@@ -9988,6 +10632,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 7.1 Y: 10.3",
+                "coords": {
+                    "x": "7.1",
+                    "y": "10.3"
+                },
                 "items": [
                     "Yanxian Hara-ate of Fending",
                     "Yanxian Togi of Maiming",
@@ -10042,6 +10690,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 6.3 Y: 8.7",
+                "coords": {
+                    "x": "6.3",
+                    "y": "8.7"
+                },
                 "items": [
                     "Onikiri Shin",
                     "Kintoki Shin",
@@ -10252,6 +10904,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.6 Y: 13.1",
+                "coords": {
+                    "x": "10.6",
+                    "y": "13.1"
+                },
                 "items": [
                     "Xenobian Belt",
                     "Valerian Rune Fencer's Belt",
@@ -10306,6 +10962,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.6 Y: 13.4",
+                "coords": {
+                    "x": "12.6",
+                    "y": "13.4"
+                },
                 "items": [
                     "Xenobian Hood",
                     "Valerian Rune Fencer's Wings",
@@ -10360,6 +11020,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 16.2 Y: 9.2",
+                "coords": {
+                    "x": "16.2",
+                    "y": "9.2"
+                },
                 "items": [
                     "Xenobian Surcoat",
                     "Valerian Rune Fencer's Mail",
@@ -10414,6 +11078,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 18.1 Y: 8.6",
+                "coords": {
+                    "x": "18.1",
+                    "y": "8.6"
+                },
                 "items": [
                     "Enhancing Sword",
                     "Sparth",
@@ -10614,6 +11282,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.3 Y: 15.1",
+                "coords": {
+                    "x": "11.3",
+                    "y": "15.1"
+                },
                 "items": [
                     "Arhat Obi of Fending",
                     "Arhat Obi of Maiming",
@@ -10644,6 +11316,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.8 Y: 13.3",
+                "coords": {
+                    "x": "11.8",
+                    "y": "13.3"
+                },
                 "items": [
                     "Arhat Kabuto of Fending",
                     "Arhat Kabuto of Maiming",
@@ -10674,6 +11350,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 8.9 Y: 9.5",
+                "coords": {
+                    "x": "8.9",
+                    "y": "9.5"
+                },
                 "items": [
                     "Arhat Hara-ate of Fending",
                     "Arhat Hara-ate of Maiming",
@@ -10704,6 +11384,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.8 Y: 8.5",
+                "coords": {
+                    "x": "11.8",
+                    "y": "8.5"
+                },
                 "items": [
                     "Blade of the Crimson Lotus",
                     "Axe of the Crimson Lotus",
@@ -10908,6 +11592,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.0 Y: 7.2",
+                "coords": {
+                    "x": "11.0",
+                    "y": "7.2"
+                },
                 "items": [
                     "Arhat Obi of Fending",
                     "Arhat Obi of Maiming",
@@ -10938,6 +11626,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.3 Y: 9.2",
+                "coords": {
+                    "x": "10.3",
+                    "y": "9.2"
+                },
                 "items": [
                     "Arhat Kabuto of Fending",
                     "Arhat Kabuto of Maiming",
@@ -10968,6 +11660,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.1 Y: 14.5",
+                "coords": {
+                    "x": "11.1",
+                    "y": "14.5"
+                },
                 "items": [
                     "Arhat Hara-ate of Fending",
                     "Arhat Hara-ate of Maiming",
@@ -10998,6 +11694,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.6 Y: 15.8",
+                "coords": {
+                    "x": "11.6",
+                    "y": "15.8"
+                },
                 "items": [
                     "Blade of the Crimson Lotus",
                     "Axe of the Crimson Lotus",
@@ -11193,6 +11893,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.6 Y: 14.4",
+                "coords": {
+                    "x": "9.6",
+                    "y": "14.4"
+                },
                 "items": [
                     "Arhat Obi of Fending",
                     "Arhat Obi of Maiming",
@@ -11223,6 +11927,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.4 Y: 13.9",
+                "coords": {
+                    "x": "12.4",
+                    "y": "13.9"
+                },
                 "items": [
                     "Arhat Kabuto of Fending",
                     "Arhat Kabuto of Maiming",
@@ -11253,6 +11961,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.1 Y: 9.4",
+                "coords": {
+                    "x": "12.1",
+                    "y": "9.4"
+                },
                 "items": [
                     "Arhat Hara-ate of Fending",
                     "Arhat Hara-ate of Maiming",
@@ -11283,6 +11995,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.0 Y: 8.0",
+                "coords": {
+                    "x": "14.0",
+                    "y": "8.0"
+                },
                 "items": [
                     "Blade of the Crimson Lotus",
                     "Axe of the Crimson Lotus",
@@ -11481,6 +12197,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.3 Y: 9.9",
+                "coords": {
+                    "x": "13.3",
+                    "y": "9.9"
+                },
                 "items": [
                     "Skallic Belt of Fending",
                     "Skallic Belt of Maiming",
@@ -11538,6 +12258,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.6 Y: 11.7",
+                "coords": {
+                    "x": "14.6",
+                    "y": "11.7"
+                },
                 "items": [
                     "Skallic Goggles of Fending",
                     "Skallic Headgear of Maiming",
@@ -11595,6 +12319,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.9 Y: 11.4",
+                "coords": {
+                    "x": "9.9",
+                    "y": "11.4"
+                },
                 "items": [
                     "Skallic Coat of Fending",
                     "Skallic Coat of Maiming",
@@ -11652,6 +12380,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.2 Y: 10.5",
+                "coords": {
+                    "x": "12.2",
+                    "y": "10.5"
+                },
                 "items": [
                     "Skallic Earring of Fending",
                     "Skallic Earring of Slaying",
@@ -11847,6 +12579,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.9 Y: 12.2",
+                "coords": {
+                    "x": "11.9",
+                    "y": "12.2"
+                },
                 "items": [
                     "Farlander Belt of Fending",
                     "Farlander Belt of Maiming",
@@ -11904,6 +12640,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.8 Y: 9.9",
+                "coords": {
+                    "x": "11.8",
+                    "y": "9.9"
+                },
                 "items": [
                     "Farlander Wings of Fending",
                     "Farlander Hood of Maiming",
@@ -11961,6 +12701,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.5 Y: 6.5",
+                "coords": {
+                    "x": "12.5",
+                    "y": "6.5"
+                },
                 "items": [
                     "Farlander Mail of Fending",
                     "Farlander Surcoat of Maiming",
@@ -12018,6 +12762,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.6 Y: 4.5",
+                "coords": {
+                    "x": "12.6",
+                    "y": "4.5"
+                },
                 "items": [
                     "Farlander Earrings of Fending",
                     "Farlander Earrings of Slaying",
@@ -12213,6 +12961,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.7 Y: 11.0",
+                "coords": {
+                    "x": "10.7",
+                    "y": "11.0"
+                },
                 "items": [
                     "Farlander Belt of Fending",
                     "Farlander Belt of Maiming",
@@ -12270,6 +13022,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.0 Y: 11.7",
+                "coords": {
+                    "x": "9.0",
+                    "y": "11.7"
+                },
                 "items": [
                     "Farlander Wings of Fending",
                     "Farlander Hood of Maiming",
@@ -12327,6 +13083,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.7 Y: 9.6",
+                "coords": {
+                    "x": "12.7",
+                    "y": "9.6"
+                },
                 "items": [
                     "Farlander Mail of Fending",
                     "Farlander Surcoat of Maiming",
@@ -12384,6 +13144,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.6 Y: 12.5",
+                "coords": {
+                    "x": "11.6",
+                    "y": "12.5"
+                },
                 "items": [
                     "Farlander Earrings of Fending",
                     "Farlander Earrings of Slaying",
@@ -12578,6 +13342,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.7 Y: 11.2",
+                "coords": {
+                    "x": "10.7",
+                    "y": "11.2"
+                },
                 "items": [
                     "Bonewicca Protector's Belt",
                     "Bonewicca Skinner's Belt",
@@ -12635,6 +13403,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.2 Y: 7.9",
+                "coords": {
+                    "x": "12.2",
+                    "y": "7.9"
+                },
                 "items": [
                     "Bonewicca Protector's Helm",
                     "Bonewicca Skinner's Visor",
@@ -12692,6 +13464,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.8 Y: 14.3",
+                "coords": {
+                    "x": "9.8",
+                    "y": "14.3"
+                },
                 "items": [
                     "Bonewicca Protector's Coat",
                     "Bonewicca Skinner's Mail",
@@ -12749,6 +13525,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.4 Y: 10.2",
+                "coords": {
+                    "x": "11.4",
+                    "y": "10.2"
+                },
                 "items": [
                     "Bonewicca Earring of Fending",
                     "Bonewicca Earring of Slaying",
@@ -12944,6 +13724,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.1 Y: 13.1",
+                "coords": {
+                    "x": "12.1",
+                    "y": "13.1"
+                },
                 "items": [
                     "Royal Volunteer's Belt of Fending",
                     "Royal Volunteer's Belt of Maiming",
@@ -13001,6 +13785,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.4 Y: 10.7",
+                "coords": {
+                    "x": "11.4",
+                    "y": "10.7"
+                },
                 "items": [
                     "Royal Volunteer's Helm of Fending",
                     "Royal Volunteer's Helm of Maiming",
@@ -13058,6 +13846,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.0 Y: 7.3",
+                "coords": {
+                    "x": "9.0",
+                    "y": "7.3"
+                },
                 "items": [
                     "Royal Volunteer's Gambison of Fending",
                     "Royal Volunteer's Gambison of Maiming",
@@ -13115,6 +13907,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 5.3 Y: 5.1",
+                "coords": {
+                    "x": "5.3",
+                    "y": "5.1"
+                },
                 "items": [
                     "Royal Volunteer's Earrings of Fending",
                     "Royal Volunteer's Earrings of Slaying",
@@ -13309,6 +14105,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.9 Y: 9.7",
+                "coords": {
+                    "x": "9.9",
+                    "y": "9.7"
+                },
                 "items": [
                     "Royal Volunteer's Belt of Fending",
                     "Royal Volunteer's Belt of Maiming",
@@ -13366,6 +14166,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.4 Y: 9.1",
+                "coords": {
+                    "x": "11.4",
+                    "y": "9.1"
+                },
                 "items": [
                     "Royal Volunteer's Helm of Fending",
                     "Royal Volunteer's Helm of Maiming",
@@ -13423,6 +14227,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.9 Y: 6.9",
+                "coords": {
+                    "x": "14.9",
+                    "y": "6.9"
+                },
                 "items": [
                     "Royal Volunteer's Gambison of Fending",
                     "Royal Volunteer's Gambison of Maiming",
@@ -13480,6 +14288,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 17.0 Y: 5.6",
+                "coords": {
+                    "x": "17.0",
+                    "y": "5.6"
+                },
                 "items": [
                     "Royal Volunteer's Earrings of Fending",
                     "Royal Volunteer's Earrings of Slaying",
@@ -13676,6 +14488,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.6 Y: 12.2",
+                "coords": {
+                    "x": "11.6",
+                    "y": "12.2"
+                },
                 "items": [
                     "Alliance Belt of Fending",
                     "Alliance Belt of Maiming",
@@ -13747,6 +14563,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.9 Y: 11.8",
+                "coords": {
+                    "x": "13.9",
+                    "y": "11.8"
+                },
                 "items": [
                     "Alliance Helm of Fending",
                     "Alliance Visor of Maiming",
@@ -13818,6 +14638,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 17.6 Y: 8.9",
+                "coords": {
+                    "x": "17.6",
+                    "y": "8.9"
+                },
                 "items": [
                     "Alliance Coat of Fending",
                     "Alliance Vest of Maiming",
@@ -13889,6 +14713,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 18.5 Y: 7.6",
+                "coords": {
+                    "x": "18.5",
+                    "y": "7.6"
+                },
                 "items": [
                     "Alliance Earring of Fending",
                     "Alliance Earring of Slaying",
@@ -14102,6 +14930,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.1 Y: 13.3",
+                "coords": {
+                    "x": "11.1",
+                    "y": "13.3"
+                },
                 "items": [
                     "Lakeland Belt of Fending",
                     "Lakeland Belt of Maiming",
@@ -14132,6 +14964,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.5 Y: 11.2",
+                "coords": {
+                    "x": "12.5",
+                    "y": "11.2"
+                },
                 "items": [
                     "Lakeland Hood of Fending",
                     "Lakeland Circlet of Maiming",
@@ -14162,6 +14998,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.9 Y: 7.4",
+                "coords": {
+                    "x": "12.9",
+                    "y": "7.4"
+                },
                 "items": [
                     "Lakeland Belt of Fending",
                     "Lakeland Belt of Maiming",
@@ -14192,6 +15032,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.6 Y: 4.7",
+                "coords": {
+                    "x": "12.6",
+                    "y": "4.7"
+                },
                 "items": [
                     "Lakeland Longsword",
                     "Lakeland War Axe",
@@ -14378,6 +15222,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.1 Y: 13.1",
+                "coords": {
+                    "x": "10.1",
+                    "y": "13.1"
+                },
                 "items": [
                     "Voeburtite Belt of Fending",
                     "Voeburtite Belt of Maiming",
@@ -14408,6 +15256,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.3 Y: 10.5",
+                "coords": {
+                    "x": "11.3",
+                    "y": "10.5"
+                },
                 "items": [
                     "Voeburtite Circlet of Fending",
                     "Voeburtite Circlet of Maiming",
@@ -14438,6 +15290,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.1 Y: 11.8",
+                "coords": {
+                    "x": "11.1",
+                    "y": "11.8"
+                },
                 "items": [
                     "Voeburtite Belt of Fending",
                     "Voeburtite Belt of Maiming",
@@ -14468,6 +15324,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.2 Y: 7.8",
+                "coords": {
+                    "x": "12.2",
+                    "y": "7.8"
+                },
                 "items": [
                     "Fae Sword",
                     "Fae Axe",
@@ -14645,6 +15505,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.9 Y: 9.5",
+                "coords": {
+                    "x": "13.9",
+                    "y": "9.5"
+                },
                 "items": [
                     "Ravel Keeper's Sash of Fending",
                     "Ravel Keeper's Sash of Maiming",
@@ -14675,6 +15539,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.1 Y: 7.3",
+                "coords": {
+                    "x": "12.1",
+                    "y": "7.3"
+                },
                 "items": [
                     "Ravel Keeper's Headband of Fending",
                     "Ravel Keeper's Headband of Maiming",
@@ -14705,6 +15573,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.0 Y: 13.2",
+                "coords": {
+                    "x": "12.0",
+                    "y": "13.2"
+                },
                 "items": [
                     "Ravel Keeper's Sash of Fending",
                     "Ravel Keeper's Sash of Maiming",
@@ -14735,6 +15607,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.1 Y: 10.8",
+                "coords": {
+                    "x": "11.1",
+                    "y": "10.8"
+                },
                 "items": [
                     "Ravel Keeper's Sword",
                     "Ravel Keeper's Axe",
@@ -14922,6 +15798,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.9 Y: 11.4",
+                "coords": {
+                    "x": "9.9",
+                    "y": "11.4"
+                },
                 "items": [
                     "Nabaath Belt of Fending",
                     "Nabaath Belt of Maiming",
@@ -14952,6 +15832,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.6 Y: 12.7",
+                "coords": {
+                    "x": "9.6",
+                    "y": "12.7"
+                },
                 "items": [
                     "Nabaath Pot Helm of Fending",
                     "Nabaath Pot Helm of Maiming",
@@ -14982,6 +15866,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.9 Y: 9.4",
+                "coords": {
+                    "x": "10.9",
+                    "y": "9.4"
+                },
                 "items": [
                     "Nabaath Belt of Fending",
                     "Nabaath Belt of Maiming",
@@ -15012,6 +15900,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.9 Y: 7.7",
+                "coords": {
+                    "x": "10.9",
+                    "y": "7.7"
+                },
                 "items": [
                     "Nabaath Sword",
                     "Nabaath Axe",
@@ -15199,6 +16091,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.3 Y: 4.2",
+                "coords": {
+                    "x": "14.3",
+                    "y": "4.2"
+                },
                 "items": [
                     "The Forgiven's Belt of Fending",
                     "The Forgiven's Belt of Maiming",
@@ -15229,6 +16125,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.2 Y: 7.2",
+                "coords": {
+                    "x": "11.2",
+                    "y": "7.2"
+                },
                 "items": [
                     "The Forgiven's Circlet of Fending",
                     "The Forgiven's Circlet of Maiming",
@@ -15259,6 +16159,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.2 Y: 10.9",
+                "coords": {
+                    "x": "10.2",
+                    "y": "10.9"
+                },
                 "items": [
                     "The Forgiven's Belt of Fending",
                     "The Forgiven's Belt of Maiming",
@@ -15289,6 +16193,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.9 Y: 12.0",
+                "coords": {
+                    "x": "10.9",
+                    "y": "12.0"
+                },
                 "items": [
                     "Sword of the Forgiven",
                     "Labrys of the Forgiven",
@@ -15466,6 +16374,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 22.0 Y: 19.0",
+                "coords": {
+                    "x": "22.0",
+                    "y": "19.0"
+                },
                 "items": [
                     "Savage Aim Materia VII",
                     "Savage Might Materia VII",
@@ -15479,6 +16391,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 22.4 Y: 16.9",
+                "coords": {
+                    "x": "22.4",
+                    "y": "16.9"
+                },
                 "items": [
                     "Amaurotine Bracelets of Fending",
                     "Amaurotine Bracelets of Slaying",
@@ -15502,6 +16418,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 21.5 Y: 25.1",
+                "coords": {
+                    "x": "21.5",
+                    "y": "25.1"
+                },
                 "items": [
                     "Savage Aim Materia VII",
                     "Savage Might Materia VII",
@@ -15515,6 +16435,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 21.5 Y: 22.4",
+                "coords": {
+                    "x": "21.5",
+                    "y": "22.4"
+                },
                 "items": [
                     "Amaurotine Earrings of Fending",
                     "Amaurotine Earrings of Slaying",
@@ -15669,6 +16593,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 16.5 Y: 14.9",
+                "coords": {
+                    "x": "16.5",
+                    "y": "14.9"
+                },
                 "items": [
                     "Savage Aim Materia VII",
                     "Savage Might Materia VII",
@@ -15682,6 +16610,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 15.4 Y: 13.6",
+                "coords": {
+                    "x": "15.4",
+                    "y": "13.6"
+                },
                 "items": [
                     "Amaurotine Bracelets of Fending",
                     "Amaurotine Bracelets of Slaying",
@@ -15705,6 +16637,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.1 Y: 9.1",
+                "coords": {
+                    "x": "11.1",
+                    "y": "9.1"
+                },
                 "items": [
                     "Savage Aim Materia VII",
                     "Savage Might Materia VII",
@@ -15718,6 +16654,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.3 Y: 6.8",
+                "coords": {
+                    "x": "11.3",
+                    "y": "6.8"
+                },
                 "items": [
                     "Amaurotine Earrings of Fending",
                     "Amaurotine Earrings of Slaying",
@@ -15871,6 +16811,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 5.1 Y: 12.5",
+                "coords": {
+                    "x": "5.1",
+                    "y": "12.5"
+                },
                 "items": [
                     "Savage Aim Materia VII",
                     "Savage Might Materia VII",
@@ -15884,6 +16828,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 6.0 Y: 11.9",
+                "coords": {
+                    "x": "6.0",
+                    "y": "11.9"
+                },
                 "items": [
                     "Amaurotine Bracelets of Fending",
                     "Amaurotine Bracelets of Slaying",
@@ -15907,6 +16855,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.9 Y: 8.6",
+                "coords": {
+                    "x": "9.9",
+                    "y": "8.6"
+                },
                 "items": [
                     "Savage Aim Materia VII",
                     "Savage Might Materia VII",
@@ -15920,6 +16872,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.6 Y: 6.6",
+                "coords": {
+                    "x": "10.6",
+                    "y": "6.6"
+                },
                 "items": [
                     "Amaurotine Earrings of Fending",
                     "Amaurotine Earrings of Slaying",
@@ -16078,6 +17034,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.6 Y: 13.5",
+                "coords": {
+                    "x": "12.6",
+                    "y": "13.5"
+                },
                 "items": [
                     "Warg Belt of Fending",
                     "Warg Belt of Maiming",
@@ -16115,6 +17075,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.4 Y: 10.7",
+                "coords": {
+                    "x": "12.4",
+                    "y": "10.7"
+                },
                 "items": [
                     "Warg Pelt of Fending",
                     "Warg Pelt of Maiming",
@@ -16152,6 +17116,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.2 Y: 7.2",
+                "coords": {
+                    "x": "12.2",
+                    "y": "7.2"
+                },
                 "items": [
                     "Warg Jacket of Fending",
                     "Warg Jacket of Maiming",
@@ -16189,6 +17157,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.9 Y: 6.4",
+                "coords": {
+                    "x": "11.9",
+                    "y": "6.4"
+                },
                 "items": [
                     "Warg Earring of Fending",
                     "Warg Earring of Slaying",
@@ -16370,6 +17342,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.9 Y: 14.0",
+                "coords": {
+                    "x": "11.9",
+                    "y": "14.0"
+                },
                 "items": [
                     "Anamnesis Belt of Fending",
                     "Anamnesis Belt of Maiming",
@@ -16407,6 +17383,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.3 Y: 11.5",
+                "coords": {
+                    "x": "12.3",
+                    "y": "11.5"
+                },
                 "items": [
                     "Anamnesis Circlet of Fending",
                     "Anamnesis Circlet of Maiming",
@@ -16444,6 +17424,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.6 Y: 6.3",
+                "coords": {
+                    "x": "12.6",
+                    "y": "6.3"
+                },
                 "items": [
                     "Anamnesis Armor of Fending",
                     "Anamnesis Armor of Maiming",
@@ -16481,6 +17465,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.8 Y: 6.9",
+                "coords": {
+                    "x": "10.8",
+                    "y": "6.9"
+                },
                 "items": [
                     "Anamnesis Earrings of Fending",
                     "Anamnesis Earrings of Slaying",
@@ -16660,6 +17648,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.5 Y: 10.1",
+                "coords": {
+                    "x": "9.5",
+                    "y": "10.1"
+                },
                 "items": [
                     "Shadowless Sash of Fending",
                     "Shadowless Sash of Maiming",
@@ -16697,6 +17689,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.7 Y: 13.6",
+                "coords": {
+                    "x": "12.7",
+                    "y": "13.6"
+                },
                 "items": [
                     "Shadowless Mask of Fending",
                     "Shadowless Mask of Maiming",
@@ -16734,6 +17730,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.9 Y: 11.5",
+                "coords": {
+                    "x": "10.9",
+                    "y": "11.5"
+                },
                 "items": [
                     "Shadowless Coat of Fending",
                     "Shadowless Coat of Maiming",
@@ -16771,6 +17771,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.3 Y: 12.1",
+                "coords": {
+                    "x": "13.3",
+                    "y": "12.1"
+                },
                 "items": [
                     "Shadowless Earrings of Fending",
                     "Shadowless Earrings of Slaying",
@@ -16940,6 +17944,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.4 Y: 10.6",
+                "coords": {
+                    "x": "12.4",
+                    "y": "10.6"
+                },
                 "items": [
                     "Heirloom Belt of Fending",
                     "Heirloom Belt of Maiming",
@@ -16977,6 +17985,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.5 Y: 10.2",
+                "coords": {
+                    "x": "10.5",
+                    "y": "10.2"
+                },
                 "items": [
                     "Heirloom Circlet of Fending",
                     "Heirloom Circlet of Maiming",
@@ -17014,6 +18026,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.8 Y: 13.4",
+                "coords": {
+                    "x": "11.8",
+                    "y": "13.4"
+                },
                 "items": [
                     "Heirloom Jacket of Fending",
                     "Heirloom Jacket of Maiming",
@@ -17051,6 +18067,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.7 Y: 11.1",
+                "coords": {
+                    "x": "11.7",
+                    "y": "11.1"
+                },
                 "items": [
                     "Heirloom Earring of Fending",
                     "Heirloom Earring of Slaying",
@@ -17230,6 +18250,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.8 Y: 12.3",
+                "coords": {
+                    "x": "12.8",
+                    "y": "12.3"
+                },
                 "items": [
                     "Paglth'an Sash of Fending",
                     "Paglth'an Sash of Maiming",
@@ -17267,6 +18291,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 15.5 Y: 11.4",
+                "coords": {
+                    "x": "15.5",
+                    "y": "11.4"
+                },
                 "items": [
                     "Paglth'an Helm of Fending",
                     "Paglth'an Helm of Maiming",
@@ -17304,6 +18332,10 @@
             {
                 "name": "Treasure Coffer 3",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 18.0 Y: 9.1",
+                "coords": {
+                    "x": "18.0",
+                    "y": "9.1"
+                },
                 "items": [
                     "Paglth'an Jacket of Fending",
                     "Paglth'an Jacket of Maiming",
@@ -17341,6 +18373,10 @@
             {
                 "name": "Treasure Coffer 4",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 16.6 Y: 10.5",
+                "coords": {
+                    "x": "16.6",
+                    "y": "10.5"
+                },
                 "items": [
                     "Paglth'an Earring of Fending",
                     "Paglth'an Earring of Slaying",
@@ -21429,6 +22465,10 @@
             {
                 "name": "Treasure Coffer",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.5 Y: 4.1",
+                "coords": {
+                    "x": "14.5",
+                    "y": "4.1"
+                },
                 "items": [
                     "X-Potion",
                     "X-Ether",
@@ -21559,6 +22599,10 @@
             {
                 "name": "Treasure Coffer 1",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.7 Y: 10.7",
+                "coords": {
+                    "x": "10.7",
+                    "y": "10.7"
+                },
                 "items": [
                     "X-Potion",
                     "X-Ether",
@@ -21568,6 +22612,10 @@
             {
                 "name": "Treasure Coffer 2",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.0 Y: 11.1",
+                "coords": {
+                    "x": "10.0",
+                    "y": "11.1"
+                },
                 "items": [
                     "X-Potion",
                     "X-Ether",
@@ -21817,6 +22865,10 @@
             {
                 "name": "Treasure Coffer",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.8 Y: 8.3",
+                "coords": {
+                    "x": "9.8",
+                    "y": "8.3"
+                },
                 "items": [
                     "X-Potion",
                     "X-Ether",
@@ -22292,6 +23344,10 @@
             {
                 "name": "Treasure Coffer",
                 "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.8 Y: 8.3",
+                "coords": {
+                    "x": "9.8",
+                    "y": "8.3"
+                },
                 "items": [
                     "X-Potion",
                     "X-Ether",
@@ -24888,7 +25944,42 @@
         "name": "Deltascape V1.0",
         "url": "/lodestone/playguide/db/duty/8e7cf4fcca2/",
         "lvl": "70",
-        "ilvl": "295"
+        "ilvl": "295",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/fdf470b2853/",
+                        "name": "Alte Roite"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer 1",
+                        "items": [
+                            "Deltascape Chain",
+                            "Deltascape Bolt"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 2",
+                        "items": [
+                            "Deltascape Pedal",
+                            "Deltascape Chain",
+                            "Deltascape Bolt",
+                            "Omega Squared Orchestrion Roll"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Poetics",
+                        "amount": "10"
+                    }
+                ]
+            }
+        ]
     },
     {
         "category": "raid",
