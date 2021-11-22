@@ -25,6 +25,11 @@ namespace Garland.Data.Modules
             foreach (var sWeather in _builder.Sheet<Saint.Weather>())
             {
                 var name = sWeather.Name.ToString();
+
+                // This one is corrupted
+                if ("CutScene".Equals(name))
+                    continue;
+
                 var iconPath = Path.Combine(baseIconPath, name + ".png");
                 if (!string.IsNullOrEmpty(name) && !File.Exists(iconPath))
                 {

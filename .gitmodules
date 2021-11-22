@@ -1,3 +1,6 @@
 [submodule "lib/SaintCoinach"]
 	path = lib/SaintCoinach
 	url = https://github.com/xivapi/SaintCoinach
+[submodule "Supplemental/FFXIV-Lodestone-Duty-Scraper"]
+	path = Supplemental/FFXIV-Lodestone-Duty-Scraper
+	url = https://github.com/ClayLivince/FFXIV-Lodestone-Duty-Scraper

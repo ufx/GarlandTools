@@ -14,6 +14,7 @@ using xivModdingFramework.Models.ModelTextures;
 using Color = SharpDX.Color;
 using ColorConverter = System.Windows.Media.ColorConverter;
 using WinColor = System.Windows.Media.Color;
+using System.Threading.Tasks;
 
 namespace Garland.Graphics.Exporter.TexTools
 {
@@ -23,15 +24,15 @@ namespace Garland.Graphics.Exporter.TexTools
         /// Gets the materials for the model
         /// </summary>
         /// <returns>A dictionary containing the mesh number(key) and the associated texture data (value)</returns>
-        public static Dictionary<int, ModelTextureData> GetMaterials(
+        public static async Task<Dictionary<string, ModelTextureData>> GetMaterials(
             DirectoryInfo gameDirectory, IItemModel item, XivMdl mdlData, XivRace race)
         {
-            var textureDataDictionary = new Dictionary<int, ModelTextureData>();
-            var mtrlDictionary = new Dictionary<int, XivMtrl>();
-            var mtrl = new Mtrl(gameDirectory, item.DataFile);
+            var textureDataDictionary = new Dictionary<string, ModelTextureData>();
+            var mtrlDictionary = new Dictionary<string, XivMtrl>();
+            var mtrl = new Mtrl(gameDirectory);
             var mtrlFilePaths = mdlData.PathData.MaterialList;
             var hasColorChangeShader = false;
-            Color? customColor = null;
+            CustomModelColors customColor = new CustomModelColors();
             WinColor winColor;
 
             var materialNum = 0;
@@ -39,21 +40,21 @@ namespace Garland.Graphics.Exporter.TexTools
             {
                 var mtrlItem = new XivGenericItemModel
                 {
-                    Category = item.Category,
-                    ItemCategory = item.ItemCategory,
-                    ItemSubCategory = item.ItemSubCategory,
+                    PrimaryCategory = item.PrimaryCategory,
+                    SecondaryCategory = item.SecondaryCategory,
+                    TertiaryCategory = item.TertiaryCategory,
                     ModelInfo = new XivModelInfo
                     {
-                        Body = item.ModelInfo.Body,
-                        ModelID = item.ModelInfo.ModelID,
-                        ModelType = item.ModelInfo.ModelType,
-                        Variant = item.ModelInfo.Variant
+                        SecondaryID = item.ModelInfo.SecondaryID,
+                        PrimaryID = item.ModelInfo.PrimaryID,
+                        ModelKey = item.ModelInfo.ModelKey,
+                        ImcSubsetID = item.ModelInfo.ImcSubsetID
                     },
                     Name = item.Name
                 };
 
-                var modelID = mtrlItem.ModelInfo.ModelID;
-                var bodyID = mtrlItem.ModelInfo.Body;
+                var modelID = mtrlItem.ModelInfo.PrimaryID;
+                var bodyID = mtrlItem.ModelInfo.SecondaryID;
                 var filePath = mtrlFilePath;
 
                 if (!filePath.Contains("hou") && mtrlFilePath.Count(x => x == '/') > 1)
@@ -92,17 +93,17 @@ namespace Garland.Graphics.Exporter.TexTools
 
                         mtrlItem = new XivGenericItemModel
                         {
-                            Category = XivStrings.Character,
-                            ItemCategory = XivStrings.Body,
+                            PrimaryCategory = XivStrings.Character,
+                            SecondaryCategory = XivStrings.Body,
                             Name = XivStrings.Body,
                             ModelInfo = new XivModelInfo
                             {
-                                Body = int.Parse(body)
+                                SecondaryID = int.Parse(body)
                             }
                         };
 
-                        winColor = (WinColor)ColorConverter.ConvertFromString(Settings.Default.Skin_Color);
-                        customColor = new Color(winColor.R, winColor.G, winColor.B, winColor.A);
+                        //winColor = (WinColor)ColorConverter.ConvertFromString(Settings.Default.Skin_Color);
+                        //customColor.SkinColor = new SharpDX.Color(winColor.R, winColor.G, winColor.B, winColor.A);
 
                         break;
                     // Face
@@ -113,12 +114,12 @@ namespace Garland.Graphics.Exporter.TexTools
 
                         mtrlItem = new XivGenericItemModel
                         {
-                            Category = XivStrings.Character,
-                            ItemCategory = XivStrings.Face,
+                            PrimaryCategory = XivStrings.Character,
+                            SecondaryCategory = XivStrings.Face,
                             Name = XivStrings.Face,
                             ModelInfo = new XivModelInfo
                             {
-                                Body = bodyID
+                                SecondaryID = bodyID
                             }
                         };
 
@@ -131,17 +132,17 @@ namespace Garland.Graphics.Exporter.TexTools
 
                         mtrlItem = new XivGenericItemModel
                         {
-                            Category = XivStrings.Character,
-                            ItemCategory = XivStrings.Hair,
+                            PrimaryCategory = XivStrings.Character,
+                            SecondaryCategory = XivStrings.Hair,
                             Name = XivStrings.Hair,
                             ModelInfo = new XivModelInfo
                             {
-                                Body = bodyID
+                                SecondaryID = bodyID
                             }
                         };
 
-                        winColor = (WinColor)ColorConverter.ConvertFromString(Settings.Default.Hair_Color);
-                        customColor = new Color(winColor.R, winColor.G, winColor.B, winColor.A);
+                        //winColor = (WinColor)ColorConverter.ConvertFromString(Settings.Default.Hair_Color);
+                        //customColor.HairColor = new SharpDX.Color(winColor.R, winColor.G, winColor.B, winColor.A);
 
                         break;
                     // Tail
@@ -153,17 +154,17 @@ namespace Garland.Graphics.Exporter.TexTools
 
                         mtrlItem = new XivGenericItemModel
                         {
-                            Category = XivStrings.Character,
-                            ItemCategory = XivStrings.Tail,
+                            PrimaryCategory = XivStrings.Character,
+                            SecondaryCategory = XivStrings.Tail,
                             Name = XivStrings.Tail,
                             ModelInfo = new XivModelInfo
                             {
-                                Body = bodyID
+                                SecondaryID = bodyID
                             }
                         };
 
-                        winColor = (WinColor)ColorConverter.ConvertFromString(Settings.Default.Hair_Color);
-                        customColor = new Color(winColor.R, winColor.G, winColor.B, winColor.A);
+                        //winColor = (WinColor)ColorConverter.ConvertFromString(Settings.Default.Hair_Color);
+                        //customColor.HairColor = new SharpDX.Color(winColor.R, winColor.G, winColor.B, winColor.A);
 
                         break;
                     // Equipment
@@ -172,7 +173,7 @@ namespace Garland.Graphics.Exporter.TexTools
                         raceString = mtrlFilePath.Substring(mtrlFilePath.IndexOf("c") + 1, 4);
                         race = XivRaces.GetXivRace(raceString);
 
-                        mtrlItem.ModelInfo.ModelID = modelID;
+                        mtrlItem.ModelInfo.PrimaryID = modelID;
                         break;
                     // Accessory
                     case "ca":
@@ -180,28 +181,28 @@ namespace Garland.Graphics.Exporter.TexTools
                         raceString = mtrlFilePath.Substring(mtrlFilePath.IndexOf("c") + 1, 4);
                         race = XivRaces.GetXivRace(raceString);
 
-                        mtrlItem.ModelInfo.ModelID = modelID;
+                        mtrlItem.ModelInfo.PrimaryID = modelID;
                         break;
                     // Weapon
                     case "wb":
                         modelID = int.Parse(mtrlFilePath.Substring(mtrlFilePath.IndexOf("w") + 1, 4));
                         bodyID = int.Parse(mtrlFilePath.Substring(mtrlFilePath.IndexOf("b") + 1, 4));
-                        mtrlItem.ModelInfo.ModelID = modelID;
-                        mtrlItem.ModelInfo.Body = bodyID;
+                        mtrlItem.ModelInfo.PrimaryID = modelID;
+                        mtrlItem.ModelInfo.SecondaryID = bodyID;
                         break;
                     // Monster
                     case "mb":
                         modelID = int.Parse(mtrlFilePath.Substring(mtrlFilePath.IndexOf("_m") + 2, 4));
                         bodyID = int.Parse(mtrlFilePath.Substring(mtrlFilePath.IndexOf("b") + 1, 4));
-                        mtrlItem.ModelInfo.ModelID = modelID;
-                        mtrlItem.ModelInfo.Body = bodyID;
+                        mtrlItem.ModelInfo.PrimaryID = modelID;
+                        mtrlItem.ModelInfo.SecondaryID = bodyID;
                         break;
                     // DemiHuman
                     case "de":
                         modelID = int.Parse(mtrlFilePath.Substring(mtrlFilePath.IndexOf("d") + 1, 4));
                         bodyID = int.Parse(mtrlFilePath.Substring(mtrlFilePath.IndexOf("e") + 1, 4));
-                        mtrlItem.ModelInfo.ModelID = modelID;
-                        mtrlItem.ModelInfo.Body = bodyID;
+                        mtrlItem.ModelInfo.PrimaryID = modelID;
+                        mtrlItem.ModelInfo.SecondaryID = bodyID;
                         break;
                     default:
                         break;
@@ -209,47 +210,67 @@ namespace Garland.Graphics.Exporter.TexTools
 
                 var dxVersion = int.Parse(Settings.Default.DX_Version);
 
-                var mtrlFile = filePath.Remove(0, 1);
-                XivMtrl mtrlData;
+                var mtrlFile = filePath;
+                if (mtrlFile.StartsWith("/"))
+                    mtrlFile = mtrlFile.Remove(0, 1);
+                XivMtrl mtrlData = null;
+
                 try
                 {
-                    mtrlData = mtrl.GetMtrlData(mtrlItem, race, mtrlFile, dxVersion);
+                    mtrlData = await mtrl.GetMtrlData(mtrlItem, mtrlFile, dxVersion);
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
-                    if (mtrlItem.ModelInfo.ModelID == item.ModelInfo.ModelID)
+                    if (mtrlItem.ModelInfo.PrimaryID == item.ModelInfo.PrimaryID)
+                    {
+                        Console.WriteLine(e.Message);
                         throw;
+                    }
+                }
+
+                if (mtrlData == null)
+                {
 
                     // Fall back to material data from the primary model.
-                    mtrlData = mtrl.GetMtrlData(item, race, mtrlFile, dxVersion);
+                    try
+                    {
+                        mtrlData = await mtrl.GetMtrlData(item, mtrlFile, dxVersion);
+                    }
+                    catch (Exception ee)
+                    {
+                        Console.WriteLine(ee.Message);
+                        throw;
+                    }
                 }
 
+                if (mtrlData == null)
+                    continue;
 
                 if (mtrlData.Shader.Contains("colorchange"))
                 {
                     hasColorChangeShader = true;
                 }
 
-                mtrlDictionary.Add(materialNum, mtrlData);
+                mtrlDictionary.Add(mtrlFilePath, mtrlData);
 
                 materialNum++;
             }
 
             foreach (var xivMtrl in mtrlDictionary)
             {
-                var modelTexture = new ModelTexture(gameDirectory, xivMtrl.Value);
 
                 if (hasColorChangeShader)
                 {
-                    var modelMaps = modelTexture.GetModelMaps(null, true);
+                    var modelMaps = await ModelTexture.GetModelMaps(gameDirectory, xivMtrl.Value);
 
                     textureDataDictionary.Add(xivMtrl.Key, modelMaps);
                 }
                 else
                 {
-                    if (item.ItemCategory.Equals(XivStrings.Face))
+                    if (item.SecondaryCategory.Equals(XivStrings.Face))
                     {
                         var path = xivMtrl.Value.MTRLPath;
+                        customColor = new CustomModelColors();
 
                         if (path.Contains("_iri_"))
                         {
@@ -264,10 +285,10 @@ namespace Garland.Graphics.Exporter.TexTools
                             winColor = (WinColor)ColorConverter.ConvertFromString(Settings.Default.Skin_Color);
                         }
 
-                        customColor = new Color(winColor.R, winColor.G, winColor.B, winColor.A);
+                        //customColor = new CustomModelColors(winColor.R, winColor.G, winColor.B, winColor.A);
                     }
 
-                    var modelMaps = modelTexture.GetModelMaps(customColor);
+                    var modelMaps = await ModelTexture.GetModelMaps(gameDirectory, xivMtrl.Value, customColor);
 
                     textureDataDictionary.Add(xivMtrl.Key, modelMaps);
                 }
