@@ -140,7 +140,13 @@ namespace Garland.Data.Output
                     reader.ReadLine();
 
                     while (!reader.EndOfStream)
-                        package._rows.Add(Row.ReadFromBatchFile(reader));
+                    {
+                        var row = Row.ReadFromBatchFile(reader);
+                        if(row != null)
+                        {
+                            package._rows.Add(row);
+                        }                        
+                    }
                 }
             }
             return package;

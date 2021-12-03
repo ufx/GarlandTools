@@ -15,7 +15,13 @@ namespace Garland.Data.Modules
 
         public override void Start()
         {
-            _craftLevesByLeve = _builder.Sheet<Game.CraftLeve>().ToDictionary(d => d.Leve);
+            var craftLeves = _builder.Sheet<Game.CraftLeve>();
+            _craftLevesByLeve = new Dictionary<Game.Leve, Game.CraftLeve>();
+            foreach (var craftLeve in craftLeves)
+            {
+                if (!_craftLevesByLeve.ContainsKey(craftLeve.Leve))
+                    _craftLevesByLeve.Add(craftLeve.Leve, craftLeve);
+            }
             _gatherExpByLvl = _builder.Sheet<Game.GatheringExp>().ToDictionary(d => d.Key);
 
             foreach (var sLeveRewardItem in _builder.Sheet<Game.LeveRewardItem>())

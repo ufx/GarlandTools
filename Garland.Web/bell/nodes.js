@@ -36,6 +36,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 211,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -63,6 +65,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 212,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -90,6 +94,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 213,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -135,6 +141,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 214,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -205,6 +213,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 215,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -244,6 +254,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 216,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -277,6 +289,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 217,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -316,6 +330,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 218,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -349,6 +365,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 219,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -382,6 +400,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 220,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -427,6 +447,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 221,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -472,6 +494,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 222,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -523,6 +547,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 223,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -556,6 +582,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 224,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -595,6 +623,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 225,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -634,6 +664,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 226,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -704,6 +736,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 227,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -743,6 +777,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 230,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.2
   },
   {
@@ -770,6 +806,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 231,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.2
   },
   {
@@ -815,6 +853,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 232,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -860,6 +900,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 233,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.2
   },
   {
@@ -905,6 +947,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 234,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.2
   },
   {
@@ -950,6 +994,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 235,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.2
   },
   {
@@ -1007,6 +1053,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 236,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -1064,6 +1112,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 237,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -1115,6 +1165,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 238,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -1160,6 +1212,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 239,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -1205,6 +1259,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 240,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.2
   },
   {
@@ -1250,6 +1306,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 241,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -1289,6 +1347,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 242,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.2
   },
   {
@@ -1316,6 +1376,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 245,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.3
   },
   {
@@ -1343,6 +1405,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 246,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.3
   },
   {
@@ -1388,6 +1452,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 247,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -1415,6 +1481,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 248,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.0
   },
   {
@@ -1442,6 +1510,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 249,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.45
   },
   {
@@ -1469,6 +1539,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 250,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.45
   },
   {
@@ -1502,6 +1574,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 251,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.5
   },
   {
@@ -1535,6 +1609,8 @@
     "uptime": 180,
     "lvl": 50,
     "id": 252,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 2.5
   },
   {
@@ -1563,6 +1639,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 289,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.4
   },
   {
@@ -1592,6 +1670,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 290,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.4
   },
   {
@@ -1620,6 +1700,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 291,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.4
   },
   {
@@ -1648,6 +1730,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 292,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -1676,6 +1760,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 293,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.4
   },
   {
@@ -1705,6 +1791,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 299,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.4
   },
   {
@@ -1734,6 +1822,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 301,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.4
   },
   {
@@ -2197,112 +2287,6 @@
     "patch": 3.0
   },
   {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Yellow Copper Ore",
-        "icon": 21207,
-        "id": 5108,
-        "slot": "2"
-      },
-      {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      4,
-      16
-    ],
-    "title": "Riversmeet",
-    "zone": "Coerthas Western Highlands",
-    "coords": [
-      29.0,
-      24.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 50,
-    "id": 315,
-    "patch": 3.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Chalcocite",
-        "icon": 21209,
-        "id": 12941,
-        "slot": "2"
-      },
-      {
-        "item": "Pyrite",
-        "icon": 21207,
-        "id": 5109,
-        "slot": "3"
-      },
-      {
-        "item": "Limonite",
-        "icon": 21206,
-        "id": 5112,
-        "slot": "4"
-      }
-    ],
-    "time": [
-      8,
-      20
-    ],
-    "title": "The Smoldering Wastes",
-    "zone": "The Dravanian Forelands",
-    "coords": [
-      27.0,
-      17.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 55,
-    "id": 316,
-    "patch": 3.0
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Yellow Quartz",
-        "icon": 21458,
-        "id": 5162,
-        "slot": "4"
-      },
-      {
-        "item": "Green Quartz",
-        "icon": 21459,
-        "id": 5161,
-        "slot": "6"
-      }
-    ],
-    "time": [
-      6,
-      18
-    ],
-    "title": "Eil Tohm",
-    "zone": "The Churning Mists",
-    "coords": [
-      35.0,
-      21.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 55,
-    "id": 317,
-    "patch": 3.0
-  },
-  {
     "type": "Rocky Outcropping",
     "func": "node",
     "items": [
@@ -2333,39 +2317,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 318,
-    "patch": 3.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Cuprite",
-        "icon": 21206,
-        "id": 12942,
-        "slot": "2"
-      },
-      {
-        "item": "Light Kidney Ore",
-        "icon": 21206,
-        "id": 5117,
-        "slot": "3"
-      }
-    ],
-    "time": [
-      2,
-      14
-    ],
-    "title": "The Ruling Quarter",
-    "zone": "The Dravanian Hinterlands",
-    "coords": [
-      35.0,
-      30.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 319,
+    "condition": "Perception ≥ 631",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -2393,6 +2346,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 320,
+    "condition": "Perception ≥ 656",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -2427,6 +2382,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 321,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -2461,6 +2418,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 323,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -2489,6 +2448,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 324,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -2517,6 +2478,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 325,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -2545,6 +2508,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 326,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3014,6 +2979,8 @@
     "uptime": 120,
     "lvl": 55,
     "id": 339,
+    "condition": "Perception ≥ 617",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3054,6 +3021,8 @@
     "uptime": 120,
     "lvl": 50,
     "id": 340,
+    "condition": "Perception ≥ 327",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3087,6 +3056,8 @@
     "uptime": 120,
     "lvl": 55,
     "id": 341,
+    "condition": "Perception ≥ 612",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3120,6 +3091,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 342,
+    "condition": "Perception ≥ 631",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3153,6 +3126,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 343,
+    "condition": "Perception ≥ 635",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3180,6 +3155,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 344,
+    "condition": "Perception ≥ 656",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3220,6 +3197,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 345,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3248,6 +3227,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 347,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3276,6 +3257,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 348,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3304,6 +3287,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 349,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3332,6 +3317,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 350,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.0
   },
   {
@@ -3366,6 +3353,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 395,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.2
   },
   {
@@ -3400,6 +3389,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 397,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 3.2
   },
   {
@@ -3561,8 +3552,8 @@
     "uptime": 120,
     "lvl": 60,
     "id": 497,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 645",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -3590,8 +3581,8 @@
     "uptime": 120,
     "lvl": 65,
     "id": 498,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 780",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1003",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -3625,8 +3616,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 499,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 846",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1088",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -3654,8 +3645,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 500,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 829",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1067",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -3683,8 +3674,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 501,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 796",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1024",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -3712,8 +3703,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 502,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 846",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1088",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -3748,8 +3739,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 503,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1200",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1206",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -3778,8 +3769,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 504,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1200",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1206",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -3924,36 +3915,6 @@
     "func": "node",
     "items": [
       {
-        "item": "Beech Branch",
-        "icon": 22417,
-        "id": 19936,
-        "slot": "3"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      6,
-      18
-    ],
-    "title": "East End",
-    "zone": "The Fringes",
-    "coords": [
-      10.0,
-      20.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 521,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 645",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
-    "patch": 4.0
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
         "item": "Bamboo Shoot",
         "icon": 25229,
         "id": 19860,
@@ -3974,8 +3935,8 @@
     "uptime": 120,
     "lvl": 65,
     "id": 522,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 780",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1003",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -4003,8 +3964,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 523,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 862",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1109",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -4033,8 +3994,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 524,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1200",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1206",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -4062,8 +4023,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 525,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 796",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1024",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -4097,8 +4058,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 526,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 829",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1067",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -4127,8 +4088,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 527,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1200",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1206",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -4163,8 +4124,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 528,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1200",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1206",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.0
   },
   {
@@ -4199,8 +4160,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 535,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1399",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.2
   },
   {
@@ -4235,8 +4196,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 536,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1399",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.2
   },
   {
@@ -4271,8 +4232,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 537,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1399",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.2
   },
   {
@@ -4301,8 +4262,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 538,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1399",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.2
   },
   {
@@ -4331,8 +4292,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 555,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1550",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1592",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.4
   },
   {
@@ -4361,8 +4322,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 556,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1550",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1592",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.4
   },
   {
@@ -4391,8 +4352,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 557,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1550",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1592",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.4
   },
   {
@@ -4421,8 +4382,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 558,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1550",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1592",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 4.4
   },
   {
@@ -4589,8 +4550,8 @@
     "uptime": 120,
     "lvl": 70,
     "id": 603,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1399",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -4618,8 +4579,8 @@
     "uptime": 120,
     "lvl": 75,
     "id": 604,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1312",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1688",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -4647,8 +4608,8 @@
     "uptime": 120,
     "lvl": 75,
     "id": 605,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1737",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -4676,8 +4637,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 606,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1421",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1828",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -4705,8 +4666,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 607,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1491",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1919",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -4734,8 +4695,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 608,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1562",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2010",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -4770,8 +4731,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 609,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1840",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2105",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -4800,8 +4761,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 610,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1840",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2105",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -4942,36 +4903,6 @@
     "patch": 5.0
   },
   {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "White Oak Branch",
-        "icon": 22416,
-        "id": 27816,
-        "slot": "3"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      10,
-      22
-    ],
-    "title": "Venmont Yards",
-    "zone": "Kholusia",
-    "coords": [
-      12.0,
-      28.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 627,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
-    "patch": 5.0
-  },
-  {
     "type": "Lush Vegetation",
     "func": "node",
     "items": [
@@ -4996,8 +4927,8 @@
     "uptime": 120,
     "lvl": 75,
     "id": 628,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1312",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1688",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -5025,8 +4956,8 @@
     "uptime": 120,
     "lvl": 75,
     "id": 629,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1350",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1737",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -5054,8 +4985,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 630,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1421",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1828",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -5083,8 +5014,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 631,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1491",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 1919",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -5112,8 +5043,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 632,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1562",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2010",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -5148,8 +5079,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 633,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1840",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2105",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -5178,8 +5109,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 634,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 1840",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2105",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.0
   },
   {
@@ -5214,8 +5145,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 681,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.2
   },
   {
@@ -5244,8 +5175,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 682,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.2
   },
   {
@@ -5274,8 +5205,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 683,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.2
   },
   {
@@ -5310,8 +5241,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 684,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.2
   },
   {
@@ -5340,8 +5271,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 713,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.2
   },
   {
@@ -5370,8 +5301,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 714,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2140",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.2
   },
   {
@@ -5399,8 +5330,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 758,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.4
   },
   {
@@ -5428,8 +5359,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 759,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.4
   },
   {
@@ -5458,8 +5389,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 760,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.4
   },
   {
@@ -5487,8 +5418,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 761,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.4
   },
   {
@@ -5516,8 +5447,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 762,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.4
   },
   {
@@ -5545,8 +5476,8 @@
     "uptime": 120,
     "lvl": 80,
     "id": 763,
-    "condition": "Perception <If(IntegerParameter(2))>≥<Else/><</If> 2404",
-    "bonus": "<If(IntegerParameter(2))> HQ Available<Else/>Gathering Fortune 0%</If>",
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
     "patch": 5.4
   },
   {

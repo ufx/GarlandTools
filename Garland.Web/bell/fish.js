@@ -6260,33 +6260,6 @@ gt.bell.fish = [
     "zone": "Western Thanalan"
   },
   {
-    "name": "Mahi-Mahi",
-    "patch": 1.0,
-    "bait": [
-      "Yumizuno"
-    ],
-    "during": {
-      "start": 10,
-      "end": 18
-    },
-    "hookset": "Powerful Hookset",
-    "tug": "Heavy",
-    "id": 4915,
-    "icon": 29050,
-    "func": "fish",
-    "rarity": 1,
-    "title": "Oschon's Torch",
-    "category": "Ocean Fishing",
-    "spot": 47,
-    "lvl": 10,
-    "coords": [
-      24.5,
-      39.72
-    ],
-    "radius": 600,
-    "zone": "Lower La Noscea"
-  },
-  {
     "name": "Silver Sovereign",
     "patch": 2.2,
     "bait": [

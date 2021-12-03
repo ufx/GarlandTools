@@ -106,12 +106,19 @@ namespace Garland.Data
                         var genericElementArgs = genericElement.Arguments.ToArray();
                         var args = genericElement.Arguments.Select(a => a.Accept(this)).ToArray();
                         var sheetName = genericElementArgs[0].Accept(this);
-                        var sheet = DatabaseBuilder.Instance.Realm.GameData.GetSheet(sheetName);
-                        if (genericElementArgs[2] is Parameter sheetKeyParam)
-                            return "[Error]";
-                        var sheetKey = int.Parse(genericElementArgs[2].Accept(this).Trim());
-                        var row = sheet[sheetKey];
-                        return row.ToString();
+                        try
+                        {
+                            var sheet = DatabaseBuilder.Instance.Realm.GameData.GetSheet(sheetName);
+                            if (genericElementArgs[2] is Parameter sheetKeyParam)
+                                return "[Error]";
+                            var sheetKey = int.Parse(genericElementArgs[2].Accept(this).Trim());
+                            var row = sheet[sheetKey];
+                            return row.ToString();
+                        } catch (KeyNotFoundException e)
+                        {
+                            DatabaseBuilder.PrintLine($"Missing sheet for HTML String Formatter: {sheetName}");
+                            return "";
+                        }
                     }
 
                 case TagType.Value:
