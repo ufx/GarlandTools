@@ -294,8 +294,9 @@ namespace Garland.Data.Modules
                 case Saint.ActionCostType.Unknown20:
                     break;
 
+
                 default:
-                    throw new NotImplementedException($"Unknown action cost type {(byte)sAction.CostType} for action {sAction.Name} ({sAction.Key}).");
+                    break;
             }
         }
 

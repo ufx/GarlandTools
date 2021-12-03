@@ -343,6 +343,7 @@ namespace Garland.Data.Modules
 
         void ImportQuestEventIcon(dynamic quest, Saint.Quest sQuest)
         {
+            return;
             var sEventIconType = (Saint.IXivRow)sQuest["EventIconType"];
             var baseIconIndex = (int)(UInt32)sEventIconType.GetRaw(0);
 

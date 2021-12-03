@@ -236,8 +236,10 @@ namespace Garland.Data.Modules
                         item.advancedMeldingForbidden = 1;
                 }
 
+                /** TODO Fix
                 if (sEquipment.RepairItem != null && sEquipment.RepairItem.Key > 0)
                     item.repair_item = sEquipment.RepairItem.Key;
+                */
 
                 if (sEquipment.IsPvP)
                     item.pvp = 1;
@@ -288,6 +290,8 @@ namespace Garland.Data.Modules
                     }
                 }
 
+                /**
+                 * TODO Fix
                 var characterType = sEquipment.GetModelCharacterType();
                 if (characterType != 0 && !Hacks.NoModelCategories.Contains(sEquipment.ItemUICategory.Key))
                 {
@@ -312,6 +316,7 @@ namespace Garland.Data.Modules
                         itemsWithModel.Add(item);
                     }
                 }
+                */
 
                 // ItemSpecialBonus
                 if (sEquipment.ItemSpecialBonus != null && sEquipment.ItemSpecialBonus.Name != "")
