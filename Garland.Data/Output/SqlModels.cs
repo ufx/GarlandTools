@@ -48,6 +48,9 @@ namespace Garland.Data.Output
             var line = reader.ReadLine();
             var metadata = line.Split(' ');
             var rowType = metadata[0];
+            if(rowType == "") {
+                return null;
+            }
             if (rowType == "DataJson")
                 return DataJsonRow.ReadFromBatchFile(metadata, reader);
             else if (rowType == "Search")
@@ -57,7 +60,7 @@ namespace Garland.Data.Output
             else if (rowType == "SearchRecipe")
                 return SearchRecipeRow.ReadFromBatchFile(metadata, reader);
             else
-                throw new NotImplementedException();
+                throw new NotImplementedException($"No reader for Type {rowType}");
         }
     }
 

@@ -99,7 +99,7 @@ namespace Garland.Data
                 new TripleTriad(),
                 new Customize(),
                 new Mobs(),
-                //new Quests(), TODO fix once Quest definition is fixed
+                new Quests(),
                 new Talk(),
                 new FishingSpots(),
                 new Leves(),
