@@ -277,6 +277,99 @@ namespace Garland.Data.Modules
                     action.cost = sAction.Cost;
                     break;
 
+                case Saint.ActionCostType.Soul:
+                    action.resource = "Soul";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Shroud:
+                    action.resource = "Shroud";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.LemureShroud:
+                    action.resource = "Lemure Shroud";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.VoidShroud:
+                    action.resource = "Void Shroud";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Addersgall:
+                    action.resource = "Addersgall";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Addersting:
+                    action.resource = "Addersting";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Arcanum:
+                    switch (sAction.Cost) {
+                        case 1:
+                            action.resource = "Fire Arcanum";
+                            action.cost = sAction.Cost;
+                            break;
+                        case 2:
+                            action.resource = "Earth Arcanum";
+                            action.cost = sAction.Cost;
+                            break;
+                        case 4:
+                            action.resource = "Wind Arcanum";
+                            action.cost = sAction.Cost;
+                            break;
+                    }
+                    break;
+
+                case Saint.ActionCostType.FireAttunement:
+                    action.resource = "Fire Attunement";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.EarthAttunement:
+                    action.resource = "Earth Attunement";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.WindAttunement:
+                    action.resource = "Wind Attunement";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Firstmind:
+                    action.resource = "Firstmind";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Paradox:
+                    action.resource = "Paradox";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.ManaStack:
+                    action.resource = "Mana Stack";
+                    action.cost = sAction.Cost;
+                    break;
+                
+                case Saint.ActionCostType.BeastChakra:
+                    action.resource = "Beast Chakra";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Coda:
+                    action.resource = "Coda";
+                    action.cost = sAction.Cost;
+                    break;
+
+                case Saint.ActionCostType.Enshrouded:
+                    action.resource = "Enshrouded";
+                    action.cost = "Effect";
+                    break;
+
+
                 case Saint.ActionCostType.AstrologianCard:
                 case Saint.ActionCostType.AstrologianCard2:
                 case Saint.ActionCostType.AstrologianCard3:
@@ -289,6 +382,12 @@ namespace Garland.Data.Modules
                 case Saint.ActionCostType.DreadwyrmTrance:
                 case Saint.ActionCostType.AstralFireOrUmbralIce:
                 case Saint.ActionCostType.UnknownDragoon48:
+
+                case Saint.ActionCostType.Unknown83:
+                case Saint.ActionCostType.Unknown80:
+                case Saint.ActionCostType.Unknown77:
+                case Saint.ActionCostType.Unknown70:
+
                     break;
 
                 case Saint.ActionCostType.Unknown20:
