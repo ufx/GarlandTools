@@ -236,10 +236,9 @@ namespace Garland.Data.Modules
                         item.advancedMeldingForbidden = 1;
                 }
 
-                /** TODO Fix
+
                 if (sEquipment.RepairItem != null && sEquipment.RepairItem.Key > 0)
                     item.repair_item = sEquipment.RepairItem.Key;
-                */
 
                 if (sEquipment.IsPvP)
                     item.pvp = 1;
@@ -291,7 +290,8 @@ namespace Garland.Data.Modules
                 }
 
                 /**
-                 * TODO Fix
+                 * TODO Fix -- 
+                 * I just guess the viera male code is 1900, maybe update in SaintCoinach
                 var characterType = sEquipment.GetModelCharacterType();
                 if (characterType != 0 && !Hacks.NoModelCategories.Contains(sEquipment.ItemUICategory.Key))
                 {
