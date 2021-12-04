@@ -12,17 +12,18 @@ namespace Garland.Data.Modules
     public class SupplyDuties : Module
     {
         ItemSourceComplexity _complexity;
+        Saint.IXivSheet<Saint.ParamGrow> _sParamGrow;
 
         public override string Name => "Supply Duties";
 
         private static int[] CURRENCIES = new int[] {
             10309,
-            17833,
-            10311,
-            17834,
-            10307,
             25199,
+            10311,
             25200,
+            10307,
+            33913,
+            33914,
             21072,
             21073,
             21074,
@@ -49,6 +50,7 @@ namespace Garland.Data.Modules
         public SupplyDuties(ItemSourceComplexity complexity)
         {
             _complexity = complexity;
+            _sParamGrow = _builder.Sheet<Saint.ParamGrow>();
         }
 
         public override void Start()
@@ -60,19 +62,148 @@ namespace Garland.Data.Modules
 
         void BuildCollectablesShopItemReward()
         {
-            foreach(var sCollectableShopItem in _builder.Sheet2("CollectablesShopItem"))
+            // Modified from Masterpiece Supply Duty 
+            // Collectables - Traded by the Collectable Appraiser in Mor Dhona and Idyllshire.
+            var appraiserIds = new int[] { 1012300 }; // Just use this one for now.
+            List<dynamic> appraisers = new List<dynamic>();
+            foreach (var appraiserId in appraiserIds)
+                appraisers.Add(_builder.Db.NpcsById[appraiserId]);
+
+            foreach (var sCollectablesShopItem in _builder.Sheet2("CollectablesShopItem"))
             {
-                //TODO
-                Console.WriteLine(sCollectableShopItem["Item"]);
+                // throw outdated 12-22 but 14 fish is still them
+                float key = float.Parse(sCollectablesShopItem.FullKey);
+                if (key < 23)
+                {
+                    if (key >= 15)
+                        continue;
+                    if (key >= 12 && key < 14)
+                        continue;
+                }
+
+                var sItem = (sCollectablesShopItem["Item"] as Saint.Item);
+                if (sItem == null)
+                    continue;
+
+                var requiredItemKey = sItem.Key;
+                if (requiredItemKey == 0)
+                    continue;
+
+                var item = _builder.Db.ItemsById[requiredItemKey];
+
+                var sReward = (Saint.XivRow)sCollectablesShopItem["CollectablesShopRewardScrip"];
+                int sRewardId = Convert.ToInt32(sReward["Currency"]);
+                dynamic rewardScrip = null;
+                try
+                {
+                    rewardScrip = _builder.Db.ItemsById[CURRENCIES[sRewardId - 1]];
+                }
+                catch (ArgumentOutOfRangeException)
+                {
+                    DatabaseBuilder.PrintLine($"Currency {sRewardId} not found for {sItem.Name}.");
+                    continue;
+                }
+
+                if (item.masterpiece == null)
+                    item.masterpiece = new JObject();
+
+                var sRefine = sCollectablesShopItem["CollectablesShopRefine"] as Saint.XivRow;
+
+                item.masterpiece.rating = new JArray(sRefine["LowCollectability"], sRefine["MidCollectability"], sRefine["HighCollectability"]);
+                item.masterpiece.amount = 1;
+                item.masterpiece.stars = sCollectablesShopItem["Stars"];
+                item.masterpiece.lvl = new JArray(sCollectablesShopItem["LevelMin"], sCollectablesShopItem["LevelMax"]);
+                item.masterpiece.xp = new JArray(CalcCollectableExp(sCollectablesShopItem));
+                item.masterpiece.reward = rewardScrip.id;
+
+                _builder.Db.AddReference(item, "item", rewardScrip.id.Value, false);
+
+                if (Convert.ToInt32(sReward["LowReward"]) == 0)
+                {
+                    item.masterpiece.rewardAmount = new JArray(0, 0, 0);
+                    continue;
+                }
+
+                item.masterpiece.rewardAmount = new JArray(sReward["LowReward"], sReward["MidReward"], sReward["HighReward"]);
+
+                // Add to nodes.
+                foreach (var nodeView in _builder.Db.NodeViews)
+                {
+                    foreach (var itemView in nodeView.items)
+                    {
+                        if ((int)itemView.id == requiredItemKey)
+                            itemView.scrip = rewardScrip.en.name.ToString();
+                    }
+                }
+
+                // Add to fish.
+                foreach (var fishView in _builder.Db.Fish)
+                {
+                    if ((int)fishView.id == requiredItemKey)
+                        fishView.scrip = rewardScrip.en.name.ToString();
+                }
+
+                // Add supply data to reward.
+                if (rewardScrip.supplyReward == null)
+                    rewardScrip.supplyReward = new JArray();
+                rewardScrip.supplyReward.Add(BuildSupplyReward(item));
+
+                _builder.Db.AddReference(rewardScrip, "item", requiredItemKey, false);
+
             }
         }
 
-        dynamic BuildSupplyReward(Saint.MasterpieceSupplyDuty sMasterpieceSupplyDuty, dynamic item)
+        dynamic CalcCollectableExp(Saint.XivRow sCollectablesShopItem)
+        {
+            // By some verifications, the exp reward is still calculated in 
+            // the same way as Masterpiece.
+            var exps = new int[3];
+
+            // Constrain level by valid range for this collectable.
+            var level = Math.Max(Convert.ToInt32(sCollectablesShopItem["LevelMin"]),
+                Convert.ToInt32(sCollectablesShopItem["LevelMax"]));
+            // Find the base XP.
+            var paramGrow = _sParamGrow[level];
+            var ratio = ((float)paramGrow.ExpToNext) / 1000;
+
+            var sReward = (Saint.XivRow)sCollectablesShopItem["CollectablesShopRewardScrip"];
+            exps[0] = (int)(ratio * Convert.ToInt32(sReward["ExpRatioLow"]));
+            exps[1] = (int)(ratio * Convert.ToInt32(sReward["ExpRatioMid"]));
+            exps[2] = (int)(ratio * Convert.ToInt32(sReward["ExpRatioHigh"]));
+
+            return exps;
+        }
+
+        dynamic BuildSupplyReward(dynamic item)
         {
             var itemId = (int)item.id;
 
             dynamic obj = new JObject();
-            obj.job = sMasterpieceSupplyDuty.ClassJob.Key;
+            if (item.craft != null)
+                obj.job = item.craft[0].job;
+            else if (item.nodes != null)
+            {
+                dynamic node = _builder.Db.NodesById[item.nodes[0].Value];
+                switch (node.type.Value)
+                {
+                    case 0:
+                    case 1:
+                        obj.job = 16;
+                        break;
+                    case 2:
+                    case 3:
+                        obj.job = 17;
+                        break;
+                    case 4:
+                    case 5:
+                        obj.job = 18;
+                        break;
+                }
+            }
+            else if (item.fish != null)
+            {
+                obj.job = 18;
+            }
             obj.item = item.id;
             obj.reward = new JArray(item.masterpiece.rewardAmount);
             obj.complexity = _complexity.GetHqComplexity(itemId);

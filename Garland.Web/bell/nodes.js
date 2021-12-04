@@ -1900,17 +1900,20 @@
       {
         "item": "Rarefied Pyrite",
         "icon": 21207,
-        "id": 32970
+        "id": 32970,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Chalcocite",
         "icon": 21209,
-        "id": 32971
+        "id": 32971,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Limonite",
         "icon": 21206,
-        "id": 32972
+        "id": 32972,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -2004,12 +2007,14 @@
         "item": "Rarefied Abalathian Spring Water",
         "icon": 22614,
         "id": 32973,
-        "slot": " "
+        "slot": " ",
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Aurum Regis Sand",
         "icon": 21220,
-        "id": 32974
+        "id": 32974,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -2102,12 +2107,14 @@
       {
         "item": "Rarefied Raw Kyanite",
         "icon": 21472,
-        "id": 32977
+        "id": 32977,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Raw Triphane",
         "icon": 21474,
-        "id": 32975
+        "id": 32975,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -2200,7 +2207,8 @@
       {
         "item": "Rarefied Raw Star Spinel",
         "icon": 21475,
-        "id": 32976
+        "id": 32976,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -2574,12 +2582,14 @@
       {
         "item": "Rarefied Raw Azurite",
         "icon": 21472,
-        "id": 32978
+        "id": 32978,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Silvergrace Ore",
         "icon": 21213,
-        "id": 32979
+        "id": 32979,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -2660,12 +2670,14 @@
       {
         "item": "Rarefied Titancopper Ore",
         "icon": 21202,
-        "id": 32980
+        "id": 32980,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Raw Petalite",
         "icon": 21477,
-        "id": 32982
+        "id": 32982,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -2754,7 +2766,8 @@
       {
         "item": "Rarefied Raw Lazurite",
         "icon": 21472,
-        "id": 32981
+        "id": 32981,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -2843,12 +2856,14 @@
       {
         "item": "Rarefied Sea Salt",
         "icon": 22617,
-        "id": 32983
+        "id": 32983,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Raw Onyx",
         "icon": 21231,
-        "id": 32985
+        "id": 32985,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -5487,12 +5502,14 @@
       {
         "item": "Rarefied Reef Rock",
         "icon": 21203,
-        "id": 32984
+        "id": 32984,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Tungsten Ore",
         "icon": 21203,
-        "id": 32986
+        "id": 32986,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -5519,7 +5536,8 @@
       {
         "item": "Rarefied Gyr Abanian Alumen",
         "icon": 22644,
-        "id": 32987
+        "id": 32987,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -5546,17 +5564,20 @@
       {
         "item": "Rarefied Dark Chestnut Sap",
         "icon": 22654,
-        "id": 32992
+        "id": 32992,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Dark Chestnut Log",
         "icon": 22420,
-        "id": 32993
+        "id": 32993,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Dark Chestnut Branch",
         "icon": 22416,
-        "id": 32994
+        "id": 32994,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -5582,12 +5603,14 @@
       {
         "item": "Rarefied Dark Chestnut",
         "icon": 25302,
-        "id": 32995
+        "id": 32995,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Dark Chestnut Resin",
         "icon": 22674,
-        "id": 32996
+        "id": 32996,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -5613,12 +5636,14 @@
       {
         "item": "Rarefied Larch Log",
         "icon": 22403,
-        "id": 32997
+        "id": 32997,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Larch Sap",
         "icon": 22642,
-        "id": 32999
+        "id": 32999,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -5644,7 +5669,8 @@
       {
         "item": "Rarefied Shiitake Mushroom",
         "icon": 25401,
-        "id": 32998
+        "id": 32998,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -5670,12 +5696,14 @@
       {
         "item": "Rarefied Pine Resin",
         "icon": 22638,
-        "id": 33000
+        "id": 33000,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Pine Log",
         "icon": 22414,
-        "id": 33001
+        "id": 33001,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -5701,12 +5729,14 @@
       {
         "item": "Rarefied Pixie Apple",
         "icon": 25308,
-        "id": 33002
+        "id": 33002,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Miracle Apple Log",
         "icon": 22404,
-        "id": 33004
+        "id": 33004,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -5732,7 +5762,8 @@
       {
         "item": "Rarefied White Oak Log",
         "icon": 22407,
-        "id": 33003
+        "id": 33003,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -5758,12 +5789,14 @@
       {
         "item": "Rarefied Sandteak Log",
         "icon": 22403,
-        "id": 33005
+        "id": 33005,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Amber Cloves",
         "icon": 25023,
-        "id": 33007
+        "id": 33007,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "time": [
@@ -5789,12 +5822,14 @@
       {
         "item": "Rarefied Kelp",
         "icon": 25225,
-        "id": 33006
+        "id": 33006,
+        "scrip": "White Gatherers' Scrip"
       },
       {
         "item": "Rarefied Coral",
         "icon": 29062,
-        "id": 33008
+        "id": 33008,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "stars": 1,
@@ -5821,7 +5856,8 @@
       {
         "item": "Rarefied Urunday Log",
         "icon": 22420,
-        "id": 33009
+        "id": 33009,
+        "scrip": "White Gatherers' Scrip"
       }
     ],
     "stars": 1,

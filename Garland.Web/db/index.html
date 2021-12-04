@@ -1536,31 +1536,6 @@
                                     <td>{{=it.masterpiece.rewardAmount[2]}}</td>
                                 </tr>
                             </table>
-
-                            <div class="collapse-toggle line source-link block-link pointer hover-highlight" data-id="1012300" data-type="npc">
-                                <span class="right"><span class="highlight">★</span> Bonus, Level {{=it.masterpiece.lvl[0]}}{{?it.masterpiece.lvl[0]!=it.masterpiece.lvl[1]}}-{{=it.masterpiece.lvl[1]}}{{?}}{{?it.masterpiece.stars}} {{=gt.util.stars(it.masterpiece.stars)}}{{?}}</span>
-                                <div class="overflow-wrapper">
-                                    <span class="highlight">Collectable Appraiser</span>
-                                </div>
-                            </div>
-
-                            <table class="collapse-toggle">
-                                <tr>
-                                    <td><img src="images/Collectable.png" class="icon small">{{=it.masterpiece.rating[0]}}-{{=it.masterpiece.rating[1]-1}}</td>
-                                    <td><img src="images/xp.png" class="icon small">{{=it.masterpiece.xpBonus[0].toLocaleString()}}</td>
-                                    <td><img class="icon small" src="{{=it.masterpiece.rewardItem.icon}}" title="{{=it.masterpiece.rewardItem.name}}">{{=it.masterpiece.rewardAmountBonus[0]}}</td>
-                                </tr>
-                                <tr>
-                                    <td>{{=it.masterpiece.rating[1]}}-{{=it.masterpiece.rating[2]-1}}</td>
-                                    <td>{{=it.masterpiece.xpBonus[1].toLocaleString()}}</td>
-                                    <td>{{=it.masterpiece.rewardAmountBonus[1]}}</td>
-                                </tr>
-                                <tr>
-                                    <td>{{=it.masterpiece.rating[2]}}-</td>
-                                    <td>{{=it.masterpiece.xpBonus[2].toLocaleString()}}</td>
-                                    <td>{{=it.masterpiece.rewardAmountBonus[2]}}</td>
-                                </tr>
-                            </table>
                         </div>
                     {{?}}
 
@@ -1615,6 +1590,7 @@
                             <h2 class="pointer">Supply Rewards <span class="right badge">{{=it.supplyReward.length}}</span></h2>
 
                             {{~it.supplyReward :value:index}}
+                            {{?value.job}}
                                 <div class="line pointer block-link collapse-toggle hover-highlight" data-id="{{=value.item.id}}" data-type="item">
                                     <span class="right">
                                         {{=value.reward}}
@@ -1627,6 +1603,7 @@
                                         <span class="deemphasize">★{{=value.efficiencyScore}}</span>
                                     </div>
                                 </div>
+                            {{?}}
                             {{~}}
                         </div>
                     {{?}}
