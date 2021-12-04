@@ -317,7 +317,7 @@ namespace Garland.Data.Modules
                             action.resource = "Earth Arcanum";
                             action.cost = sAction.Cost;
                             break;
-                        case 4:
+                        case 3:
                             action.resource = "Wind Arcanum";
                             action.cost = sAction.Cost;
                             break;
