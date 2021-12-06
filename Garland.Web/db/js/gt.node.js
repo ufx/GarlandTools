@@ -7,8 +7,8 @@ gt.node = {
     version: 2,
     bonusIndex: null,
     limitedNodeUpdateKey: null,
-    types: ['Mineral Deposit', 'Rocky Outcropping', 'Mature Tree', 'Lush Vegetation', 'Spearfishing'],
-    jobAbbreviations: ['MIN', 'MIN', 'BTN', 'BTN', 'FSH'],
+    types: ['Mineral Deposit', 'Rocky Outcropping', 'Mature Tree', 'Lush Vegetation', 'Spearfishing', 'Spearfishing'],
+    jobAbbreviations: ['MIN', 'MIN', 'BTN', 'BTN', 'FSH', 'FSH'],
     browse: [
         { type: 'icon-list', prop: 'job' },
         { type: 'group', prop: 'region' },
