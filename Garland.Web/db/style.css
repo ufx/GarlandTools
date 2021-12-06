@@ -1271,6 +1271,8 @@ body.unlock-heights .block .content.main,
 
 .skywatcher .menu.icon-group .button.icon-group {
     padding: 1px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .skywatcher .forecast {
@@ -1424,6 +1426,10 @@ body.unlock-heights .block .content.main,
     position: relative;
     top: -1px;
     left: -1px;
+}
+
+.icon.skywatcher-icon.size32 {
+    border: 0;
 }
 
 /* Eorzea Time */
