@@ -581,7 +581,7 @@ gt.display = {
                     break;
 
                 case 'gearset':
-                    $e.append('<img src="images/Main Hand.png" width="' + (radius - 2) + '"px>');
+                    $e.append('<img src="images/slot/Main Hand.png" width="' + (radius - 2) + '"px>');
                     break;
             }
 

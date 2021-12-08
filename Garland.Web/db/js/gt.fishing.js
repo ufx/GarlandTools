@@ -29,13 +29,13 @@ gt.fishing = {
             patch: gt.formatPatch(spot.patch),
             template: gt.fishing.blockTemplate,
             blockClass: 'node',
-            icon: 'images/FSH.png',
+            icon: 'images/job/FSH.png',
             settings: 1,
 
             lvl: spot.lvl,
             zone: spot.zoneid ? gt.location.index[spot.zoneid] : null,
             category: gt.fishing.categories[spot.category],
-            browseIcon: 'images/FSH.png'
+            browseIcon: 'images/job/FSH.png'
         };
 
         var zoneName = view.zone ? view.zone.name : "The Diadem";
@@ -56,7 +56,7 @@ gt.fishing = {
             if (view.zone) {
                 view.map = gt.map.getViewModel({
                     location: view.zone, coords: [spot.x, spot.y], radius: spot.radius, approx: spot.approx,
-                    icon: 'images/FSH.png', iconfilter: 'sepia(100%)'
+                    icon: 'images/job/FSH.png', iconfilter: 'sepia(100%)'
                 });
             }
         }
@@ -82,7 +82,7 @@ gt.fishing = {
             byline: 'Level ' + partial.l + ' ' + gt.fishing.categories[partial.c],
             region: region ? region.name : "Unknown",
             location: zoneName,
-            icon: 'images/FSH.png',
+            icon: 'images/job/FSH.png',
             lvl: partial.l
         };
     },

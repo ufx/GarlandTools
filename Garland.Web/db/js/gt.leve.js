@@ -47,7 +47,7 @@ gt.leve = {
             frameIcon: '../files/icons/leve/frame/' + leve.frame + '.png',
             sourceName: leve.name,
             desc: leve.description,
-            icon: 'images/Leve.png',
+            icon: 'images/marker/Leve.png',
             jobCategory: gt.jobCategories[leve.jobCategory].name,
             lvl: leve.lvl,
             client: leve.client,
@@ -62,7 +62,7 @@ gt.leve = {
         view.subheader = "Level " + leve.lvl + " " + view.jobCategory + " Leve";
 
         if (leve.gc)
-            view.gcIcon = 'images/' + gt.grandCompanies[leve.gc] + '.png';
+            view.gcIcon = 'images/region/flag/' + gt.grandCompanies[leve.gc] + '.png';
 
         if (data) {
             view.levemete = gt.model.partial(gt.npc, leve.levemete);
@@ -118,7 +118,7 @@ gt.leve = {
             sourceName: name,
             jobCategory: gt.jobCategories[partial.j].name,
             lvl: partial.l,
-            icon: 'images/Leve.png'
+            icon: 'images/marker/Leve.png'
         };
 
         var location = gt.location.index[partial.p];
@@ -142,7 +142,7 @@ gt.leve = {
 
     resolveCraftSource: function(step, id) {
         step.sourceType = 'leve';
-        step.sourceView = { id: id, type: 'leve', name: 'Leve', sourceName: 'Leve', icon: 'images/Leve.png' };
+        step.sourceView = { id: id, type: 'leve', name: 'Leve', sourceName: 'Leve', icon: 'images/marker/Leve.png' };
         step.setCategory(['Leve', 'Other']);
     },
 };

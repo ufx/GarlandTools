@@ -120,6 +120,9 @@ gt.map = {
                 view.radius *= map.location.size;
         }
 
+        if (view.radius < 15)
+            view.radius = 15
+
         view.image = '../files/maps/' + view.parent.name + '/' + gt.map.sanitizeLocationName(view.location.name) + '.png';
 
         return view;

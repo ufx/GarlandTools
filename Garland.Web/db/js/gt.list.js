@@ -5,33 +5,33 @@ gt.list = {
     listHeaderTemplate: null,
     current: null,
     specialIcons: {
-        DOL: 'DOL', GATHER: 'DOL', GATHERING: 'DOL', GATHERER: 'DOL',
-        DOH: 'DOH', CRAFT: 'DOH', CRAFTING: 'DOH', CRAFTER: 'DOH',
+        DOL: 'images/job/DOL.png', GATHER: 'images/job/DOL.png', GATHERING: 'images/job/DOL.png', GATHERER: 'images/job/DOL.png',
+        DOH: 'images/job/DOH.png', CRAFT: 'images/job/DOH.png', CRAFTING: 'images/job/DOH.png', CRAFTER: 'images/job/DOH.png',
     
-        SCRIP: 'images/Rowena.png', SCRIPS: 'images/Rowena.png',
+        SCRIP: 'images/marker/Rowena.png', SCRIPS: 'images/marker/Rowena.png',
         'RED SCRIP': '../files/icons/item/65031.png', 'RED SCRIPS': '../files/icons/item/65031.png',
         'YELLOW SCRIP': '../files/icons/item/65044.png',
     
         GLAMOUR: '../files/icons/item/28010.png', GLAM: '../files/icons/item/28010.png', FASHION: '../files/icons/item/28010.png',
     
-        SPIRITBOND: 'images/Convert.png', SPIRITBONDING: 'images/Convert.png',
+        SPIRITBOND: 'images/item/Convert.png', SPIRITBONDING: 'images/item/Convert.png',
     
         VOYAGE: 'images/Voyage.png', VOYAGES: 'images/Voyage.png',
         AIRSHIP: 'images/Voyage.png', AIRSHIPS: 'images/Voyage.png',
         SUB: 'images/Voyage.png', SUBS: 'images/Voyage.png',
         SUBMARINE: 'images/Voyage.png', SUBMARINES: 'images/Voyage.png',
     
-        HOUSE: 'images/House.png', HOUSING: 'images/House.png',
-        MANSION: 'images/House.png', COTTAGE: 'images/House.png',
-        APARTMENT: 'images/House.png',
-        DECORATION: 'images/House.png', DECORATIONS: 'images/House.png',
-        FURNISHING: 'images/House.png', FURNISHINGS: 'images/House.png',
+        HOUSE: 'images/marker/House.png', HOUSING: 'images/marker/House.png',
+        MANSION: 'images/marker/House.png', COTTAGE: 'images/marker/House.png',
+        APARTMENT: 'images/marker/House.png',
+        DECORATION: 'images/marker/House.png', DECORATIONS: 'images/marker/House.png',
+        FURNISHING: 'images/marker/House.png', FURNISHINGS: 'images/marker/House.png',
     
         PATCH: 'LatestPatch',
         DAILY: '../files/icons/event/71222.png', DAILIES: '../files/icons/event/71222.png',
         QUEST: '../files/icons/event/71221.png', QUESTS: '../files/icons/event/71221.png',
         ORCHESTRION: '../files/icons/item/25945.png', ORCH: '../files/icons/item/25945.png',
-        SATISFACTION: 'Satisfaction', DELIVERY: 'Satisfaction',
+        SATISFACTION: 'images/marker/Satisfaction', DELIVERY: 'images/marker/Satisfaction',
     },
 
     initialize: function(data) {

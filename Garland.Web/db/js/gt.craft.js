@@ -705,7 +705,7 @@ gt.craft.step.prototype.discoverSource = function(itemSettings) {
         const partialList = gt.model.partialList(gt.item, this.item.reducedFrom);
         const reduceItem = partialList && partialList[0] || { name: '???' };
         this.sourceType = 'reduction';
-        this.source = { sourceName: reduceItem.name, longSourceName: reduceItem.name + ' Aetherial Reduction', icon: 'images/Reduce.png' };
+        this.source = { sourceName: reduceItem.name, longSourceName: reduceItem.name + ' Aetherial Reduction', icon: 'images/item/Reduce.png' };
         this.sourceView = this.source;
         this.setCategory(['Desynthesis / Reduction', 'Gather']);
         return;
@@ -741,7 +741,7 @@ gt.craft.step.prototype.discoverSource = function(itemSettings) {
 
     if (this.item.desynthedFrom) {
         this.sourceType = 'desynthesis';
-        this.source = { sourceName: 'Desynthesis', longSourceName: 'Desynthesis', icon: 'images/Desynth.png' };
+        this.source = { sourceName: 'Desynthesis', longSourceName: 'Desynthesis', icon: 'images/item/Desynth.png' };
         this.sourceView = this.source;
         this.setCategory(['Desynthesis / Reduction', 'Other']);
         return;

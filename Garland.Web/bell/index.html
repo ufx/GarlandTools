@@ -8,7 +8,7 @@
     <link rel="shortcut icon" type="image/png" href="../favicon.png">
     <link rel="stylesheet" href="style.css">
 
-    <script src="https://browser.sentry-cdn.com/5.5.0/bundle.min.js" crossorigin="anonymous"></script>
+    <script src="../db/ext/sentry.bundle.min.js"></script>
     <script src="../db/ext/jquery-3.1.1.min.js"></script>
     <script src="../db/ext/underscore-1.8.3.min.js"></script>
     <script src="../db/ext/isotope-3.0.1.pkgd.min.js"></script>
@@ -29,7 +29,7 @@
         <table {{?it.main}}id="lmain"{{?}} class="timer-list node-list table-layout {{?!it.main}}user-list{{?}} {{?it.active}}active{{?}} {{?it.hidden}}hidden{{?}}" data-name="{{=it.name}}">
             <thead>
                 <tr class="header">
-                    <td colspan="11"><img class="header-icon" src="../db/images/Clock.svg"> {{=it.name}}</td>
+                    <td colspan="11"><img class="header-icon" src="../db/images/site/Clock.svg"> {{=it.name}}</td>
                 </tr>
                 <tr class="header-labels">
                     <td class="icon"></td>
@@ -49,7 +49,7 @@
 
     <script id="timer-list-block-template" type="text/x-dot-template">
         <div {{?it.main}}id="lmain"{{?}} class="timer-list block-layout {{?!it.main}}user-list{{?}} {{?it.active}}active{{?}} {{?it.hidden}}hidden{{?}}" data-name="{{=it.name}}">
-            <div class="header"><img class="header-icon" src="../db/images/Clock.svg"> {{=it.name}}</div>
+            <div class="header"><img class="header-icon" src="../db/images/site/Clock.svg"> {{=it.name}}</div>
             <div class="node-list"></div>
         </div>
     </script>
@@ -69,9 +69,9 @@
                     {{?entry.scrip}}
                         <img src="../files/icons/item/{{=gt.scrips[entry.scrip]}}.png" class="suffix-icon" title="{{=gt.t(entry.scrip)}}">
                     {{??entry.reduce}}
-                        <img src="../db/images/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
+                        <img src="../db/images/item/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
                     {{??entry.collectable}}
-                        <img src="../db/images/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
+                        <img src="../db/images/item/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
                     {{?}}
                     <span class="valign">{{=gt.t(entry.item)}}</span>
                 </a>
@@ -105,9 +105,9 @@
                     {{?entry.scrip}}
                         <img src="../files/icons/item/{{=gt.scrips[entry.scrip]}}.png" class="suffix-icon" title="{{=gt.t(entry.scrip)}}">
                     {{??entry.reduce}}
-                        <img src="../db/images/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
+                        <img src="../db/images/item/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
                     {{??entry.collectable}}
-                        <img src="../db/images/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
+                        <img src="../db/images/item/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
                     {{?}}
 
                     <a class="entry" href="../db/#item/{{=entry.id}}">{{=gt.t(entry.item)}}</a>
@@ -154,13 +154,13 @@
             <span class="valign">{{=gt.t(it.name)}}{{?it.predatorAmount}} [{{=it.predatorAmount}}]{{?}}</span>
 
             {{?it.collectable}}
-                <img src="../db/images/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
+                <img src="../db/images/item/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
             {{?}}
             {{?it.scrip}}
-                <img src="../files/icons/item/{{=gt.scrips[it.scrip]}}.png" class="suffix-icon" title="{{=gt.t(it.scrip)}}">
+                <img src="../files/icons/item/t/{{=gt.scrips[it.scrip]}}.png" class="suffix-icon" title="{{=gt.t(it.scrip)}}">
             {{?}}
             {{?it.reduce}}
-                <img src="../db/images/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
+                <img src="../db/images/item/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
             {{?}}
             {{?it.folklore}}
                 <img src="../files/icons/item/26164.png" class="suffix-icon" title="{{=gt.t('Tome of Ichthyological Folklore')}}">
@@ -214,13 +214,13 @@
             <td>
                 {{?it.hidden}}<img src="icons/Check.svg" class="suffix-icon">{{?}}
                 {{?it.def.collectable}}
-                    <img src="../db/images/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
+                    <img src="../db/images/item/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
                 {{?}}
                 {{?it.def.scrip}}
-                    <img src="../files/icons/item/{{=gt.scrips[it.def.scrip]}}.png" class="suffix-icon" title="{{=gt.t(it.def.scrip)}}">
+                    <img src="../files/icons/item/t/{{=gt.scrips[it.def.scrip]}}.png" class="suffix-icon" title="{{=gt.t(it.def.scrip)}}">
                 {{?}}
                 {{?it.def.reduce}}
-                    <img src="../db/images/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
+                    <img src="../db/images/item/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
                 {{?}}
 
                 <a class="entry" href="../db/#item/{{=it.id}}">
@@ -417,9 +417,9 @@
 
                 <div class="subheader">{{=gt.t('Tasks')}}</div>
 
-                <div data-filter=".reducible" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Reducible')}}"><img src="../db/images/Reduce.png"></div>
+                <div data-filter=".reducible" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Reducible')}}"><img src="../db/images/item/Reduce.png"></div>
                 <div data-filter=".whitescrips" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('White Scrips')}}"><img src="../files/icons/item/65069.png"></div>
-                <div data-filter=".purplescrips" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Purple Scrips')}}"><img src="../files/icons/item/65087.png"></div>
+                <div data-filter=".purplescrips" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Purple Scrips')}}"><img src="../files/icons/item/t/65087.png"></div>
                 <div data-filter=".hidden" data-invert="1" data-exclusive="task" class="filter button short" title="{{=gt.t('Hidden')}}"><img src="icons/Check.svg"></div>
 
                 <div class="subheader">{{=gt.t('Other')}}</div>
@@ -434,8 +434,9 @@
             <div id="title">
                 <span id="options">
                     <img src="icons/Bell.svg" id="alarm-toggle" class="active">
-                    <img src="../db/images/Flat.png" id="mode-toggle">
-                    <img src="../db/images/Setting.png" id="settings-toggle">
+                    <img src="../db/images/site/Flat.png" id="mode-toggle">
+                    <img src="../db/images/site/Setting.png" id="settings-toggle">
+                    <span id="change-lang" style="margin: auto; padding:8px; border:1px solid #EEEE61; border-radius: 2px">EN</span>
                 </span>
 
                 <a href="/">Garland Bell</a>
@@ -527,7 +528,7 @@
 
             <div id="rotation-section">
                 <div class="header" id="rotation-header">
-                    <img class="header-icon" src="../db/images/Rotation.svg"> 
+                    <img class="header-icon" src="../db/images/3d/Rotation.svg">
                     {{=gt.t('Rotations')}}
                 </div>
                 <div id="rotations">
@@ -740,7 +741,7 @@
 
             <div id="maps-section">
                 <div class="header" id="maps-header">
-                    <img src="../db/images/Location.svg" class="header-icon">
+                    <img src="../db/images/site/Location.svg" class="header-icon">
                     {{=gt.t('Maps')}}
                 </div>
                 <div id="maps"></div>
