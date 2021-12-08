@@ -30,7 +30,7 @@ namespace Garland.UI.Views
         static void OnHtmlChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             WebBrowser wb = d as WebBrowser;
-            if (wb != null)
+            if (wb != null && e.NewValue != null)
                 wb.NavigateToString(e.NewValue as string);
         }
     }
