@@ -3175,30 +3175,30 @@ gt.npc = {
     getPartialIcon: function(partial) {
         if (partial.s) {
             if (partial.r)
-                return 'images/Trader.png'
+                return 'images/marker/Trader.png'
             else
-                return 'images/Shop.png';
+                return 'images/marker/Shop.png';
         }
 
         if (partial.q)
-            return 'images/Quest.png';
+            return 'images/marker/Quest.png';
 
         if (partial.k)
             return 'images/Journal.png';
 
-        return 'images/UnknownNpc.png';
+        return 'images/marker/UnknownNpc.png';
     },
 
     getIcon: function(npc) {
         if (npc.shops) {
             if (npc.trade)
-                return 'images/Trader.png'
+                return 'images/marker/Trader.png'
             else
-                return 'images/Shop.png';
+                return 'images/marker/Shop.png';
         }
 
         if (npc.quests)
-            return 'images/Quest.png';
+            return 'images/marker/Quest.png';
 
         if (npc.talk)
             return 'images/Journal.png';
@@ -3206,7 +3206,7 @@ gt.npc = {
         if (npc.appearance && npc.appearance.hairStyle)
             return '../files/icons/customize/' + npc.appearance.hairStyle + '.png';
         
-        return 'images/UnknownNpc.png';
+        return 'images/marker/UnknownNpc.png';
     },
 
     resolveCraftSource: function(step, id) {
@@ -3275,7 +3275,7 @@ gt.npc.timer.prototype.next = function(now) {
 
 gt.npc.timer.prototype.notify = function() {
     gt.util.showNotification(this.view.name, {
-        icon: 'images/TripleTriad.png',
+        icon: 'images/marker/TripleTriad.png',
         body: this.view.fullLocation || "Available for Triple Triad",
         tag: this.view.id
     });
@@ -3481,12 +3481,15 @@ gt.node = {
             obj: node
         };
 
-        var typePrefix = node.limitType ? (node.limitType + ' ') : '';
+        var typePrefix = '';
 
-        view.icon = 'images/' + view.category + '.png';
+        view.icon = 'images/node/' + view.category + '.png';
+        if (node.limitType) {
+            typePrefix = node.limitType + ' ';
+            view.icon = 'images/node/' + view.category + " Limited" + '.png';
+        }
         view.subheader = "Level " + node.lvl + gt.util.stars(node.stars) + ' ' + typePrefix + view.category;
 
-        var typePrefix = node.limitType ? node.limitType + ' ' : '';
         view.byline = 'Lv. ' + view.lvl + gt.util.stars(view.stars) + ' ' + typePrefix + view.category;
         view.category = typePrefix + view.category;
 
@@ -3504,7 +3507,7 @@ gt.node = {
             if (node.coords) {
                 view.map = gt.map.getViewModel({
                     location: view.zone, coords: node.coords, radius: node.radius, approx: node.radius ? 0 : 1,
-                    icon: view.icon, iconfilter: 'sepia(100%)'
+                    icon: view.icon
                 });
             }
 
@@ -3544,6 +3547,10 @@ gt.node = {
     getPartialViewModel: function(partial) {
         var name = gt.model.name(partial);
         var category = gt.node.types[partial.t];
+        var iconName = category;
+        if (partial.lt){
+            iconName += " Limited";
+        }
         var typePrefix = partial.lt ? (partial.lt + ' ') : '';
         var zone = gt.location.index[partial.z] || { name: 'Unknown' };
         var region = gt.location.index[zone.parentId];
@@ -3555,7 +3562,7 @@ gt.node = {
             sourceName: gt.util.abbr(zone.name) + ', Lv. ' + partial.l,
             longSourceName: name + ', ' + zone.name + ', Lv. ' + partial.l,
             byline: 'Lv. ' + partial.l + gt.util.stars(partial.s) + ' ' + typePrefix + category,
-            icon: 'images/' + category + '.png',
+            icon: 'images/node/' + iconName + '.png',
             job: gt.node.jobAbbreviations[partial.t],
             zone: zone,
             location: zone.name,
@@ -3760,13 +3767,13 @@ gt.fishing = {
             patch: gt.formatPatch(spot.patch),
             template: gt.fishing.blockTemplate,
             blockClass: 'node',
-            icon: 'images/FSH.png',
+            icon: 'images/job/FSH.png',
             settings: 1,
 
             lvl: spot.lvl,
             zone: spot.zoneid ? gt.location.index[spot.zoneid] : null,
             category: gt.fishing.categories[spot.category],
-            browseIcon: 'images/FSH.png'
+            browseIcon: 'images/job/FSH.png'
         };
 
         var zoneName = view.zone ? view.zone.name : "The Diadem";
@@ -3787,7 +3794,7 @@ gt.fishing = {
             if (view.zone) {
                 view.map = gt.map.getViewModel({
                     location: view.zone, coords: [spot.x, spot.y], radius: spot.radius, approx: spot.approx,
-                    icon: 'images/FSH.png', iconfilter: 'sepia(100%)'
+                    icon: 'images/job/FSH.png', iconfilter: 'sepia(100%)'
                 });
             }
         }
@@ -3813,7 +3820,7 @@ gt.fishing = {
             byline: 'Level ' + partial.l + ' ' + gt.fishing.categories[partial.c],
             region: region ? region.name : "Unknown",
             location: zoneName,
-            icon: 'images/FSH.png',
+            icon: 'images/job/FSH.png',
             lvl: partial.l
         };
     },
@@ -5573,7 +5580,7 @@ gt.display = {
                     break;
 
                 case 'gearset':
-                    $e.append('<img src="images/Main Hand.png" width="' + (radius - 2) + '"px>');
+                    $e.append('<img src="images/slot/Main Hand.png" width="' + (radius - 2) + '"px>');
                     break;
             }
 
@@ -5818,33 +5825,33 @@ gt.list = {
     listHeaderTemplate: null,
     current: null,
     specialIcons: {
-        DOL: 'DOL', GATHER: 'DOL', GATHERING: 'DOL', GATHERER: 'DOL',
-        DOH: 'DOH', CRAFT: 'DOH', CRAFTING: 'DOH', CRAFTER: 'DOH',
+        DOL: 'images/job/DOL.png', GATHER: 'images/job/DOL.png', GATHERING: 'images/job/DOL.png', GATHERER: 'images/job/DOL.png',
+        DOH: 'images/job/DOH.png', CRAFT: 'images/job/DOH.png', CRAFTING: 'images/job/DOH.png', CRAFTER: 'images/job/DOH.png',
     
-        SCRIP: 'images/Rowena.png', SCRIPS: 'images/Rowena.png',
+        SCRIP: 'images/marker/Rowena.png', SCRIPS: 'images/marker/Rowena.png',
         'RED SCRIP': '../files/icons/item/65031.png', 'RED SCRIPS': '../files/icons/item/65031.png',
         'YELLOW SCRIP': '../files/icons/item/65044.png',
     
         GLAMOUR: '../files/icons/item/28010.png', GLAM: '../files/icons/item/28010.png', FASHION: '../files/icons/item/28010.png',
     
-        SPIRITBOND: 'images/Convert.png', SPIRITBONDING: 'images/Convert.png',
+        SPIRITBOND: 'images/item/Convert.png', SPIRITBONDING: 'images/item/Convert.png',
     
         VOYAGE: 'images/Voyage.png', VOYAGES: 'images/Voyage.png',
         AIRSHIP: 'images/Voyage.png', AIRSHIPS: 'images/Voyage.png',
         SUB: 'images/Voyage.png', SUBS: 'images/Voyage.png',
         SUBMARINE: 'images/Voyage.png', SUBMARINES: 'images/Voyage.png',
     
-        HOUSE: 'images/House.png', HOUSING: 'images/House.png',
-        MANSION: 'images/House.png', COTTAGE: 'images/House.png',
-        APARTMENT: 'images/House.png',
-        DECORATION: 'images/House.png', DECORATIONS: 'images/House.png',
-        FURNISHING: 'images/House.png', FURNISHINGS: 'images/House.png',
+        HOUSE: 'images/marker/House.png', HOUSING: 'images/marker/House.png',
+        MANSION: 'images/marker/House.png', COTTAGE: 'images/marker/House.png',
+        APARTMENT: 'images/marker/House.png',
+        DECORATION: 'images/marker/House.png', DECORATIONS: 'images/marker/House.png',
+        FURNISHING: 'images/marker/House.png', FURNISHINGS: 'images/marker/House.png',
     
         PATCH: 'LatestPatch',
         DAILY: '../files/icons/event/71222.png', DAILIES: '../files/icons/event/71222.png',
         QUEST: '../files/icons/event/71221.png', QUESTS: '../files/icons/event/71221.png',
         ORCHESTRION: '../files/icons/item/25945.png', ORCH: '../files/icons/item/25945.png',
-        SATISFACTION: 'Satisfaction', DELIVERY: 'Satisfaction',
+        SATISFACTION: 'images/marker/Satisfaction', DELIVERY: 'images/marker/Satisfaction',
     },
 
     initialize: function(data) {
@@ -7049,7 +7056,7 @@ gt.leve = {
             frameIcon: '../files/icons/leve/frame/' + leve.frame + '.png',
             sourceName: leve.name,
             desc: leve.description,
-            icon: 'images/Leve.png',
+            icon: 'images/marker/Leve.png',
             jobCategory: gt.jobCategories[leve.jobCategory].name,
             lvl: leve.lvl,
             client: leve.client,
@@ -7064,7 +7071,7 @@ gt.leve = {
         view.subheader = "Level " + leve.lvl + " " + view.jobCategory + " Leve";
 
         if (leve.gc)
-            view.gcIcon = 'images/' + gt.grandCompanies[leve.gc] + '.png';
+            view.gcIcon = 'images/region/flag/' + gt.grandCompanies[leve.gc] + '.png';
 
         if (data) {
             view.levemete = gt.model.partial(gt.npc, leve.levemete);
@@ -7120,7 +7127,7 @@ gt.leve = {
             sourceName: name,
             jobCategory: gt.jobCategories[partial.j].name,
             lvl: partial.l,
-            icon: 'images/Leve.png'
+            icon: 'images/marker/Leve.png'
         };
 
         var location = gt.location.index[partial.p];
@@ -7144,7 +7151,7 @@ gt.leve = {
 
     resolveCraftSource: function(step, id) {
         step.sourceType = 'leve';
-        step.sourceView = { id: id, type: 'leve', name: 'Leve', sourceName: 'Leve', icon: 'images/Leve.png' };
+        step.sourceView = { id: id, type: 'leve', name: 'Leve', sourceName: 'Leve', icon: 'images/marker/Leve.png' };
         step.setCategory(['Leve', 'Other']);
     },
 };
@@ -7164,7 +7171,7 @@ gt.venture = {
             ilvl: venture.ilvl,
             gathering: venture.gathering,
             amounts: venture.amounts,
-            requireIcon: venture.gathering ? 'images/Gathering.png' : 'images/ilvl.png',
+            requireIcon: venture.gathering ? 'images/Gathering.png' : 'images/item/ilvl.png',
             requireList: venture.gathering ? venture.gathering : venture.ilvl,
             random: venture.random
         };
@@ -7504,15 +7511,15 @@ gt.equip = {
     weatherIndex: null,
     weatherRateIndex: null,
     regions: [
-        { icon: "images/Region La Noscea.png", name: "La Noscea", page: "LaNoscea", zones: [27, 30, 31, 32, 33, 34, 350, 358, 425] },
-        { icon: "images/Region Black Shroud.png", name: "The Black Shroud", page: "TheBlackShroud", zones: [39, 54, 55, 56, 57, 426] },
-        { icon: "images/Region Thanalan.png", name: "Thanalan", page: "Thanalan", zones: [51, 42, 43, 44, 45, 46, 427] },
-        { icon: "images/Region Ishgard.png", name: "Ishgard and Surrounds", page: "Ishgard", zones: [62, 63, 2200, 2100, 2101, 2082, 2000, 2001, 2002, 1647] },
-        { icon: "images/Region Gyr Abania.png", name: "Gyr Abania", page: "GyrAbania", zones: [2403, 2406, 2407, 2408] },
-        { icon: "images/Region Kugane.png", name: "Far East", page: "FarEast", zones: [513, 2412, 2409, 2410, 2411, 3534, 3662] },
-        { icon: "images/Region Ilsabard.png", name: "Ilsabard", page: "Ilsabard", zones: [3707, 3709, 3710, 2414, 2462, 2530, 2545] },
-        { icon: "images/Region Norvrandt.png", name: "Norvrandt", page: "Norvrandt", zones: [516, 517, 2953, 2954, 2955, 2956, 2957, 2958], },
-        { icon: "images/Aetheryte.png", name: "Others", page: "Others", zones: [67, 3706, 3708, 3711, 3712, 3713] }
+        { icon: "images/region/La Noscea.png", name: "La Noscea", page: "LaNoscea", zones: [27, 30, 31, 32, 33, 34, 350, 358, 425] },
+        { icon: "images/region/Black Shroud.png", name: "The Black Shroud", page: "TheBlackShroud", zones: [39, 54, 55, 56, 57, 426] },
+        { icon: "images/region/Thanalan.png", name: "Thanalan", page: "Thanalan", zones: [51, 42, 43, 44, 45, 46, 427] },
+        { icon: "images/region/Ishgard.png", name: "Ishgard and Surrounds", page: "Ishgard", zones: [62, 63, 2200, 2100, 2101, 2082, 2000, 2001, 2002, 1647] },
+        { icon: "images/region/Gyr Abania.png", name: "Gyr Abania", page: "GyrAbania", zones: [2403, 2406, 2407, 2408] },
+        { icon: "images/region/Kugane.png", name: "Far East", page: "FarEast", zones: [513, 2412, 2409, 2410, 2411, 3534, 3662] },
+        { icon: "images/region/Ilsabard.png", name: "Ilsabard", page: "Ilsabard", zones: [3707, 3709, 3710, 2414, 2462, 2530, 2545] },
+        { icon: "images/region/Norvrandt.png", name: "Norvrandt", page: "Norvrandt", zones: [516, 517, 2953, 2954, 2955, 2956, 2957, 2958], },
+        { icon: "images/marker/Aetheryte.png", name: "Others", page: "Others", zones: [67, 3706, 3708, 3711, 3712, 3713] }
     ],
     weatherUpdateKey: null,
     lWeatherStart: null,
@@ -7537,7 +7544,7 @@ gt.equip = {
             name: 'Skywatcher',
             template: gt.skywatcher.blockTemplate,
             blockClass: 'tool noexpand',
-            icon: 'images/Skywatcher.png',
+            icon: 'images/marker/Skywatcher.png',
             subheader: 'Weather Forecast Tool',
             tool: 1,
             settings: 1,
@@ -8588,7 +8595,7 @@ gt.craft.step.prototype.discoverSource = function(itemSettings) {
         const partialList = gt.model.partialList(gt.item, this.item.reducedFrom);
         const reduceItem = partialList && partialList[0] || { name: '???' };
         this.sourceType = 'reduction';
-        this.source = { sourceName: reduceItem.name, longSourceName: reduceItem.name + ' Aetherial Reduction', icon: 'images/Reduce.png' };
+        this.source = { sourceName: reduceItem.name, longSourceName: reduceItem.name + ' Aetherial Reduction', icon: 'images/item/Reduce.png' };
         this.sourceView = this.source;
         this.setCategory(['Desynthesis / Reduction', 'Gather']);
         return;
@@ -8624,7 +8631,7 @@ gt.craft.step.prototype.discoverSource = function(itemSettings) {
 
     if (this.item.desynthedFrom) {
         this.sourceType = 'desynthesis';
-        this.source = { sourceName: 'Desynthesis', longSourceName: 'Desynthesis', icon: 'images/Desynth.png' };
+        this.source = { sourceName: 'Desynthesis', longSourceName: 'Desynthesis', icon: 'images/item/Desynth.png' };
         this.sourceView = this.source;
         this.setCategory(['Desynthesis / Reduction', 'Other']);
         return;
@@ -9582,6 +9589,9 @@ gt.map = {
                 view.radius *= map.location.size;
         }
 
+        if (view.radius < 15)
+            view.radius = 15
+
         view.image = '../files/maps/' + view.parent.name + '/' + gt.map.sanitizeLocationName(view.location.name) + '.png';
 
         return view;
@@ -9779,7 +9789,7 @@ gt.note = {
             displayName: he.encode(data.id),
             template: gt.note.blockTemplate,
             blockClass: 'tool expand-right',
-            icon: 'images/Note.png',
+            icon: 'images/site/Note.png',
             subheader: 'Note Tool',
             tool: 1,
 

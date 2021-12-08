@@ -14,7 +14,7 @@ gt.venture = {
             ilvl: venture.ilvl,
             gathering: venture.gathering,
             amounts: venture.amounts,
-            requireIcon: venture.gathering ? 'images/Gathering.png' : 'images/ilvl.png',
+            requireIcon: venture.gathering ? 'images/Gathering.png' : 'images/item/ilvl.png',
             requireList: venture.gathering ? venture.gathering : venture.ilvl,
             random: venture.random
         };

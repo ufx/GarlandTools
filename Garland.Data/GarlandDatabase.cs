@@ -109,6 +109,8 @@ namespace Garland.Data
         public Dictionary<int, dynamic> VenturesById = new Dictionary<int, dynamic>();
         public Dictionary<int, dynamic> StatusesById = new Dictionary<int, dynamic>();
 
+        public Dictionary<SaintCoinach.Xiv.PlaceName, LocationInfo> LocationIndex;
+
         public static HashSet<string> LocalizedTypes = new HashSet<string>() { "achievement", "action", "fate", "fishing", "instance", "item", "leve", "quest", "npc", "mob", "status" };
 
         // Views

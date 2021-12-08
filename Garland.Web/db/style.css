@@ -601,7 +601,7 @@ body.unlock-heights .block .content.main,
     position: fixed;
     width: 370px;
     height: 100%;
-    background: url(images/DarkTexture.png);
+    background: url(images/3d/DarkTexture.png);
     overflow-y: auto;
     box-sizing: border-box;
     border: 0;
@@ -779,7 +779,7 @@ body.unlock-heights .block .content.main,
 
 #header {
     margin-left: 370px;
-    background: url(images/DarkTexture.png);
+    background: url(images/3d/DarkTexture.png);
     z-index: 5;
 }
 
@@ -1784,12 +1784,12 @@ body.dirty #dirty-indicator {
     margin-bottom: 3px;
     margin-left: 15px;
     display: inline-block;
-    background-image: url(images/Filter.png);
+    background-image: url(images/site/Filter.png);
     background-size: 100% 100%;
 }
 
 #search-filters-button.active {
-    background-image: url(images/FilterActive.png);
+    background-image: url(images/site/FilterActive.png);
 }
 
 #search-filters-page {

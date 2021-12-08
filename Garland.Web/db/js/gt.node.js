@@ -61,12 +61,15 @@ gt.node = {
             obj: node
         };
 
-        var typePrefix = node.limitType ? (node.limitType + ' ') : '';
+        var typePrefix = '';
 
-        view.icon = 'images/' + view.category + '.png';
+        view.icon = 'images/node/' + view.category + '.png';
+        if (node.limitType) {
+            typePrefix = node.limitType + ' ';
+            view.icon = 'images/node/' + view.category + " Limited" + '.png';
+        }
         view.subheader = "Level " + node.lvl + gt.util.stars(node.stars) + ' ' + typePrefix + view.category;
 
-        var typePrefix = node.limitType ? node.limitType + ' ' : '';
         view.byline = 'Lv. ' + view.lvl + gt.util.stars(view.stars) + ' ' + typePrefix + view.category;
         view.category = typePrefix + view.category;
 
@@ -84,7 +87,7 @@ gt.node = {
             if (node.coords) {
                 view.map = gt.map.getViewModel({
                     location: view.zone, coords: node.coords, radius: node.radius, approx: node.radius ? 0 : 1,
-                    icon: view.icon, iconfilter: 'sepia(100%)'
+                    icon: view.icon
                 });
             }
 
@@ -124,6 +127,10 @@ gt.node = {
     getPartialViewModel: function(partial) {
         var name = gt.model.name(partial);
         var category = gt.node.types[partial.t];
+        var iconName = category;
+        if (partial.lt){
+            iconName += " Limited";
+        }
         var typePrefix = partial.lt ? (partial.lt + ' ') : '';
         var zone = gt.location.index[partial.z] || { name: 'Unknown' };
         var region = gt.location.index[zone.parentId];
@@ -135,7 +142,7 @@ gt.node = {
             sourceName: gt.util.abbr(zone.name) + ', Lv. ' + partial.l,
             longSourceName: name + ', ' + zone.name + ', Lv. ' + partial.l,
             byline: 'Lv. ' + partial.l + gt.util.stars(partial.s) + ' ' + typePrefix + category,
-            icon: 'images/' + category + '.png',
+            icon: 'images/node/' + iconName + '.png',
             job: gt.node.jobAbbreviations[partial.t],
             zone: zone,
             location: zone.name,
