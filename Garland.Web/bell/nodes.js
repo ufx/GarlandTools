@@ -6,20 +6,17 @@
       {
         "item": "Spruce Log",
         "icon": 22413,
-        "id": 5395,
-        "slot": "6"
-      },
-      {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "id": 5395
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -29,8 +26,8 @@
     "title": "Providence Point",
     "zone": "Coerthas Central Highlands",
     "coords": [
-      28.0,
-      13.0
+      29.17,
+      12.79
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -47,8 +44,17 @@
       {
         "item": "Vampire Plant",
         "icon": 25001,
-        "id": 5547,
-        "slot": "8"
+        "id": 5547
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -58,8 +64,8 @@
     "title": "Dragonhead",
     "zone": "Coerthas Central Highlands",
     "coords": [
-      26.0,
-      22.0
+      26.58,
+      24.44
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -76,8 +82,17 @@
       {
         "item": "Thavnairian Mistletoe",
         "icon": 25001,
-        "id": 5537,
-        "slot": "2"
+        "id": 5537
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -87,8 +102,8 @@
     "title": "Whitebrim",
     "zone": "Coerthas Central Highlands",
     "coords": [
-      7.0,
-      11.0
+      8.47,
+      13.35
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -103,28 +118,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Prickly Pineapple Seeds",
-        "icon": 27457,
-        "id": 7734,
-        "slot": "1"
-      },
-      {
         "item": "Prickly Pineapple",
         "icon": 25303,
-        "id": 4816,
-        "slot": "4"
+        "id": 4816
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Prickly Pineapple Seeds",
+        "icon": 27457,
+        "id": 7734
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -134,8 +145,8 @@
     "title": "Bloodshore",
     "zone": "Eastern La Noscea",
     "coords": [
-      30.0,
-      27.0
+      30.71,
+      27.01
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -150,52 +161,44 @@
     "func": "node",
     "items": [
       {
-        "item": "Lightning Cluster",
-        "icon": 20017,
-        "id": 18,
-        "slot": "2"
-      },
-      {
         "item": "Fire Cluster",
         "icon": 20013,
-        "id": 14,
-        "slot": "3"
-      },
-      {
-        "item": "Wind Cluster",
-        "icon": 20016,
-        "id": 16,
-        "slot": "4"
-      },
-      {
-        "item": "Water Cluster",
-        "icon": 20014,
-        "id": 19,
-        "slot": "5"
+        "id": 14
       },
       {
         "item": "Ice Cluster",
         "icon": 20015,
-        "id": 15,
-        "slot": "6"
+        "id": 15
+      },
+      {
+        "item": "Wind Cluster",
+        "icon": 20016,
+        "id": 16
       },
       {
         "item": "Earth Cluster",
         "icon": 20018,
-        "id": 17,
-        "slot": "7"
+        "id": 17
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Lightning Cluster",
+        "icon": 20017,
+        "id": 18
+      },
+      {
+        "item": "Water Cluster",
+        "icon": 20014,
+        "id": 19
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "time": [
@@ -206,8 +209,8 @@
     "title": "North Silvertear",
     "zone": "Mor Dhona",
     "coords": [
-      32.0,
-      11.0
+      32.11,
+      13.55
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -222,22 +225,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Mazlaya Greens",
-        "icon": 25016,
-        "id": 10098,
-        "slot": "2"
-      },
-      {
         "item": "Silkworm Cocoon",
         "icon": 21661,
-        "id": 5350,
-        "slot": "4"
+        "id": 5350
+      },
+      {
+        "item": "Mazlaya Greens",
+        "icon": 25016,
+        "id": 10098
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -248,7 +253,7 @@
     "zone": "East Shroud",
     "coords": [
       22.0,
-      26.0
+      26.46
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -265,14 +270,22 @@
       {
         "item": "Trillium",
         "icon": 22627,
-        "id": 5545,
-        "slot": "1"
+        "id": 5545
       },
       {
         "item": "Mazlaya Greens",
         "icon": 25016,
-        "id": 10098,
-        "slot": "2"
+        "id": 10098
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -282,8 +295,8 @@
     "title": "The Bramble Patch",
     "zone": "East Shroud",
     "coords": [
-      17.0,
-      19.0
+      17.68,
+      19.32
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -298,22 +311,29 @@
     "func": "node",
     "items": [
       {
-        "item": "Mazlaya Greens",
-        "icon": 25016,
-        "id": 10098,
-        "slot": "2"
+        "item": "Trillium Bulb",
+        "icon": 22623,
+        "id": 5546
       },
       {
         "item": "Kidragora",
         "icon": 59442,
-        "id": 6209,
-        "slot": "7"
+        "id": 6209
       },
       {
-        "item": "Trillium Bulb",
-        "icon": 22623,
-        "id": 5546,
-        "slot": "8"
+        "item": "Mazlaya Greens",
+        "icon": 25016,
+        "id": 10098
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -323,8 +343,8 @@
     "title": "The Honey Yard",
     "zone": "East Shroud",
     "coords": [
-      13.0,
-      23.0
+      13.81,
+      23.84
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -339,16 +359,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Honey Lemon Seeds",
-        "icon": 27457,
-        "id": 7733,
-        "slot": "1"
-      },
-      {
         "item": "Honey Lemon",
         "icon": 25305,
-        "id": 6147,
-        "slot": "2"
+        "id": 6147
+      },
+      {
+        "item": "Honey Lemon Seeds",
+        "icon": 27457,
+        "id": 7733
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -358,8 +386,8 @@
     "title": "Bloodshore",
     "zone": "Eastern La Noscea",
     "coords": [
-      28.0,
-      32.0
+      27.49,
+      32.79
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -374,16 +402,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Dzemael Tomato Seeds",
-        "icon": 27455,
-        "id": 7724,
-        "slot": "1"
-      },
-      {
         "item": "Dzemael Tomato",
         "icon": 25209,
-        "id": 6148,
-        "slot": "3"
+        "id": 6148
+      },
+      {
+        "item": "Dzemael Tomato Seeds",
+        "icon": 27455,
+        "id": 7724
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -393,8 +429,8 @@
     "title": "Raincatcher Gully",
     "zone": "Eastern La Noscea",
     "coords": [
-      16.0,
-      27.0
+      17.56,
+      27.61
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -409,28 +445,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Mazlaya Greens",
-        "icon": 25016,
-        "id": 10098,
-        "slot": "2"
-      },
-      {
         "item": "Black Truffle",
         "icon": 25403,
-        "id": 4800,
-        "slot": "7"
+        "id": 4800
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Mazlaya Greens",
+        "icon": 25016,
+        "id": 10098
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -440,8 +472,8 @@
     "title": "Drybone",
     "zone": "Eastern Thanalan",
     "coords": [
-      12.0,
-      15.0
+      12.35,
+      15.89
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -456,28 +488,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Gregarious Worm",
-        "icon": 27019,
-        "id": 10095,
-        "slot": "1"
-      },
-      {
         "item": "Darksteel Ore",
         "icon": 21205,
-        "id": 5121,
-        "slot": "3"
+        "id": 5121
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Gregarious Worm",
+        "icon": 27019,
+        "id": 10095
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -487,8 +515,8 @@
     "title": "Dragonhead",
     "zone": "Coerthas Central Highlands",
     "coords": [
-      27.0,
-      19.0
+      27.61,
+      19.96
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -503,34 +531,29 @@
     "func": "node",
     "items": [
       {
-        "item": "Gregarious Worm",
-        "icon": 27019,
-        "id": 10095,
-        "slot": "1"
-      },
-      {
         "item": "Gold Ore",
         "icon": 21212,
-        "id": 5118,
-        "slot": "6"
+        "id": 5118
       },
       {
         "item": "Coblyn Larva",
         "icon": 59433,
-        "id": 6199,
-        "slot": "7"
+        "id": 6199
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Gregarious Worm",
+        "icon": 27019,
+        "id": 10095
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -540,8 +563,8 @@
     "title": "The Burning Wall",
     "zone": "Eastern Thanalan",
     "coords": [
-      28.0,
-      22.0
+      28.09,
+      21.74
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -558,14 +581,17 @@
       {
         "item": "Volcanic Rock Salt",
         "icon": 22617,
-        "id": 6152,
-        "slot": "1"
+        "id": 6152
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -575,8 +601,8 @@
     "title": "Raincatcher Gully",
     "zone": "Eastern La Noscea",
     "coords": [
-      18.0,
-      32.0
+      19.36,
+      33.09
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -593,20 +619,17 @@
       {
         "item": "Astral Rock",
         "icon": 21251,
-        "id": 5158,
-        "slot": "7"
-      },
-      {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "id": 5158
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -616,8 +639,8 @@
     "title": "Dragonhead",
     "zone": "Coerthas Central Highlands",
     "coords": [
-      23.0,
-      26.0
+      23.4,
+      24.68
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -634,20 +657,17 @@
       {
         "item": "Gold Sand",
         "icon": 21214,
-        "id": 5273,
-        "slot": "2"
-      },
-      {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "id": 5273
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -657,8 +677,8 @@
     "title": "Wellwick Wood",
     "zone": "Eastern Thanalan",
     "coords": [
-      25.0,
-      23.0
+      25.58,
+      23.24
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -673,52 +693,44 @@
     "func": "node",
     "items": [
       {
-        "item": "Lightning Cluster",
-        "icon": 20017,
-        "id": 18,
-        "slot": "2"
-      },
-      {
         "item": "Fire Cluster",
         "icon": 20013,
-        "id": 14,
-        "slot": "3"
-      },
-      {
-        "item": "Wind Cluster",
-        "icon": 20016,
-        "id": 16,
-        "slot": "4"
-      },
-      {
-        "item": "Water Cluster",
-        "icon": 20014,
-        "id": 19,
-        "slot": "5"
+        "id": 14
       },
       {
         "item": "Ice Cluster",
         "icon": 20015,
-        "id": 15,
-        "slot": "6"
+        "id": 15
+      },
+      {
+        "item": "Wind Cluster",
+        "icon": 20016,
+        "id": 16
       },
       {
         "item": "Earth Cluster",
         "icon": 20018,
-        "id": 17,
-        "slot": "7"
+        "id": 17
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Lightning Cluster",
+        "icon": 20017,
+        "id": 18
+      },
+      {
+        "item": "Water Cluster",
+        "icon": 20014,
+        "id": 19
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "time": [
@@ -729,8 +741,8 @@
     "title": "North Silvertear",
     "zone": "Mor Dhona",
     "coords": [
-      27.0,
-      10.0
+      27.83,
+      10.93
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -747,20 +759,17 @@
       {
         "item": "Scarlet Sap",
         "icon": 22601,
-        "id": 7590,
-        "slot": "4"
-      },
-      {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "id": 7590
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 2,
@@ -770,8 +779,8 @@
     "title": "Alder Springs",
     "zone": "North Shroud",
     "coords": [
-      16.0,
-      28.0
+      16.62,
+      27.61
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -788,8 +797,17 @@
       {
         "item": "Apricot",
         "icon": 25317,
-        "id": 7592,
-        "slot": "2"
+        "id": 7592
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 2,
@@ -799,8 +817,8 @@
     "title": "Summerford",
     "zone": "Middle La Noscea",
     "coords": [
-      19.0,
-      16.0
+      18.66,
+      16.48
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -817,26 +835,22 @@
       {
         "item": "Blood Orange",
         "icon": 25312,
-        "id": 7595,
-        "slot": "2"
+        "id": 7595
       },
       {
         "item": "Bamboo Stick",
         "icon": 22451,
-        "id": 5365,
-        "slot": "6"
-      },
-      {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "id": 5365
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 2,
@@ -846,8 +860,8 @@
     "title": "Bronze Lake",
     "zone": "Upper La Noscea",
     "coords": [
-      29.0,
-      25.0
+      29.13,
+      25.48
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -862,28 +876,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Mazlaya Greens",
-        "icon": 25016,
-        "id": 10098,
-        "slot": "2"
-      },
-      {
         "item": "Shroud Tea Leaves",
         "icon": 25020,
-        "id": 7591,
-        "slot": "6"
+        "id": 7591
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Mazlaya Greens",
+        "icon": 25016,
+        "id": 10098
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 2,
@@ -893,8 +903,8 @@
     "title": "Sorrel Haven",
     "zone": "Central Shroud",
     "coords": [
-      15.0,
-      19.0
+      15.91,
+      20.5
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -909,28 +919,29 @@
     "func": "node",
     "items": [
       {
-        "item": "Mazlaya Greens",
-        "icon": 25016,
-        "id": 10098,
-        "slot": "2"
-      },
-      {
         "item": "La Noscean Leek",
         "icon": 25216,
-        "id": 7593,
-        "slot": "6"
+        "id": 7593
+      },
+      {
+        "item": "Mazlaya Greens",
+        "icon": 25016,
+        "id": 10098
       },
       {
         "item": "Waterfowl Feather",
         "icon": 21902,
-        "id": 8024,
-        "slot": "?"
+        "id": 8024
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 2,
@@ -940,8 +951,8 @@
     "title": "Quarterstone",
     "zone": "Western La Noscea",
     "coords": [
-      34.0,
-      28.0
+      34.29,
+      28.33
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -956,28 +967,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Mazlaya Greens",
-        "icon": 25016,
-        "id": 10098,
-        "slot": "2"
-      },
-      {
         "item": "Young Cieldalaes Spinach",
         "icon": 25206,
-        "id": 7594,
-        "slot": "6"
+        "id": 7594
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Mazlaya Greens",
+        "icon": 25016,
+        "id": 10098
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 2,
@@ -987,8 +994,8 @@
     "title": "Cedarwood",
     "zone": "Lower La Noscea",
     "coords": [
-      32.0,
-      11.0
+      32.55,
+      12.99
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1003,40 +1010,34 @@
     "func": "node",
     "items": [
       {
-        "item": "Gregarious Worm",
-        "icon": 27019,
-        "id": 10095,
-        "slot": "1"
-      },
-      {
         "item": "Ferberite",
         "icon": 21203,
-        "id": 7588,
-        "slot": "6"
-      },
-      {
-        "item": "Raw Topaz",
-        "icon": 21453,
-        "id": 5149,
-        "slot": "7"
+        "id": 7588
       },
       {
         "item": "Raw Iolite",
         "icon": 21453,
-        "id": 5150,
-        "slot": "8"
+        "id": 5150
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Raw Topaz",
+        "icon": 21453,
+        "id": 5149
+      },
+      {
+        "item": "Gregarious Worm",
+        "icon": 27019,
+        "id": 10095
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 2,
@@ -1046,8 +1047,8 @@
     "title": "Raubahn's Push",
     "zone": "Northern Thanalan",
     "coords": [
-      17.0,
-      20.0
+      17.34,
+      20.18
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1062,40 +1063,34 @@
     "func": "node",
     "items": [
       {
-        "item": "Gregarious Worm",
-        "icon": 27019,
-        "id": 10095,
-        "slot": "1"
-      },
-      {
         "item": "Native Gold",
         "icon": 20816,
-        "id": 7589,
-        "slot": "6"
-      },
-      {
-        "item": "Raw Emerald",
-        "icon": 21453,
-        "id": 5148,
-        "slot": "7"
+        "id": 7589
       },
       {
         "item": "Raw Diamond",
         "icon": 21453,
-        "id": 5147,
-        "slot": "8"
+        "id": 5147
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Raw Emerald",
+        "icon": 21453,
+        "id": 5148
+      },
+      {
+        "item": "Gregarious Worm",
+        "icon": 27019,
+        "id": 10095
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 2,
@@ -1105,8 +1100,8 @@
     "title": "Black Brush",
     "zone": "Central Thanalan",
     "coords": [
-      25.0,
-      16.0
+      25.24,
+      15.89
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1121,34 +1116,29 @@
     "func": "node",
     "items": [
       {
-        "item": "Gregarious Worm",
-        "icon": 27019,
-        "id": 10095,
-        "slot": "1"
-      },
-      {
         "item": "Raw Ruby",
         "icon": 21453,
-        "id": 5146,
-        "slot": "7"
+        "id": 5146
       },
       {
         "item": "Raw Sapphire",
         "icon": 21453,
-        "id": 5151,
-        "slot": "8"
+        "id": 5151
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Gregarious Worm",
+        "icon": 27019,
+        "id": 10095
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 2,
@@ -1158,8 +1148,8 @@
     "title": "Moraby Bay",
     "zone": "Lower La Noscea",
     "coords": [
-      23.0,
-      21.0
+      23.76,
+      21.64
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1174,28 +1164,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Fire Cluster",
-        "icon": 20013,
-        "id": 14,
-        "slot": "3"
-      },
-      {
         "item": "Grade 3 La Noscean Topsoil",
         "icon": 27403,
-        "id": 7760,
-        "slot": "8"
+        "id": 7760
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Fire Cluster",
+        "icon": 20013,
+        "id": 14
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -1205,8 +1191,8 @@
     "title": "Zephyr Drift",
     "zone": "Middle La Noscea",
     "coords": [
-      24.0,
-      27.0
+      24.34,
+      27.03
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1221,28 +1207,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Umbral Rock",
-        "icon": 21213,
-        "id": 7610,
-        "slot": "7"
-      },
-      {
         "item": "Grade 3 Shroud Topsoil",
         "icon": 27406,
-        "id": 7763,
-        "slot": "8"
+        "id": 7763
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Umbral Rock",
+        "icon": 21213,
+        "id": 7610
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -1252,8 +1234,8 @@
     "title": "Lower Paths",
     "zone": "South Shroud",
     "coords": [
-      18.0,
-      31.0
+      16.8,
+      30.67
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1268,28 +1250,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Water Cluster",
-        "icon": 20014,
-        "id": 19,
-        "slot": "5"
-      },
-      {
         "item": "Grade 3 Thanalan Topsoil",
         "icon": 27409,
-        "id": 7766,
-        "slot": "8"
+        "id": 7766
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Water Cluster",
+        "icon": 20014,
+        "id": 19
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -1299,8 +1277,8 @@
     "title": "Hammerlea",
     "zone": "Western Thanalan",
     "coords": [
-      19.0,
-      28.0
+      18.92,
+      28.39
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1317,20 +1295,17 @@
       {
         "item": "Fragrant Log",
         "icon": 22415,
-        "id": 7611,
-        "slot": "6"
-      },
-      {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "id": 7611
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 1,
@@ -1340,8 +1315,8 @@
     "title": "Upper Paths",
     "zone": "South Shroud",
     "coords": [
-      18.0,
-      23.0
+      17.5,
+      23.08
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1358,8 +1333,17 @@
       {
         "item": "Redolent Log",
         "icon": 22415,
-        "id": 8031,
-        "slot": "6"
+        "id": 8031
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 2,
@@ -1369,8 +1353,8 @@
     "title": "Greentear",
     "zone": "Central Shroud",
     "coords": [
-      30.0,
-      21.0
+      30.59,
+      20.18
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1387,8 +1371,7 @@
       {
         "item": "Antumbral Rock",
         "icon": 21213,
-        "id": 8030,
-        "slot": "7"
+        "id": 8030
       }
     ],
     "stars": 2,
@@ -1398,8 +1381,8 @@
     "title": "Wellwick Wood",
     "zone": "Eastern Thanalan",
     "coords": [
-      26.0,
-      18.0
+      26.87,
+      18.56
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1414,28 +1397,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Gregarious Worm",
-        "icon": 27019,
-        "id": 10095,
-        "slot": "1"
-      },
-      {
         "item": "Platinum Ore",
         "icon": 21213,
-        "id": 5120,
-        "slot": "6"
+        "id": 5120
       },
       {
-        "item": "Dark Matter Cluster",
-        "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "item": "Gregarious Worm",
+        "icon": 27019,
+        "id": 10095
       },
       {
         "item": "Unaspected Crystal",
         "icon": 20019,
-        "id": 10099,
-        "slot": "?"
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 3,
@@ -1445,8 +1424,8 @@
     "title": "Broken Water",
     "zone": "Southern Thanalan",
     "coords": [
-      17.0,
-      9.0
+      17.18,
+      10.59
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1463,8 +1442,17 @@
       {
         "item": "Ebony Log",
         "icon": 22402,
-        "id": 5394,
-        "slot": "6"
+        "id": 5394
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 3,
@@ -1474,8 +1462,8 @@
     "title": "Zephyr Drift",
     "zone": "Middle La Noscea",
     "coords": [
-      23.0,
-      26.0
+      24.38,
+      26.42
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1492,8 +1480,17 @@
       {
         "item": "Cypress Log",
         "icon": 22415,
-        "id": 9518,
-        "slot": "6"
+        "id": 9518
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 3,
@@ -1503,8 +1500,8 @@
     "title": "Bentbranch",
     "zone": "Central Shroud",
     "coords": [
-      24.0,
-      31.0
+      24.8,
+      29.63
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1521,8 +1518,7 @@
       {
         "item": "Pumice",
         "icon": 21454,
-        "id": 9519,
-        "slot": "1"
+        "id": 9519
       }
     ],
     "stars": 3,
@@ -1532,8 +1528,8 @@
     "title": "Raincatcher Gully",
     "zone": "Eastern La Noscea",
     "coords": [
-      17.0,
-      26.0
+      17.56,
+      27.53
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1550,14 +1546,12 @@
       {
         "item": "Rosemary",
         "icon": 25002,
-        "id": 10096,
-        "slot": "1"
+        "id": 10096
       },
       {
         "item": "Mazlaya Greens",
         "icon": 25016,
-        "id": 10098,
-        "slot": "2"
+        "id": 10098
       }
     ],
     "stars": 3,
@@ -1567,8 +1561,8 @@
     "title": "Nine Ivies",
     "zone": "East Shroud",
     "coords": [
-      23.0,
-      30.0
+      22.72,
+      30.59
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1583,16 +1577,24 @@
     "func": "node",
     "items": [
       {
-        "item": "Gregarious Worm",
-        "icon": 27019,
-        "id": 10095,
-        "slot": "1"
-      },
-      {
         "item": "Virgin Basilisk Egg",
         "icon": 21215,
-        "id": 10093,
-        "slot": "6"
+        "id": 10093
+      },
+      {
+        "item": "Gregarious Worm",
+        "icon": 27019,
+        "id": 10095
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 3,
@@ -1602,8 +1604,8 @@
     "title": "Bluefog",
     "zone": "Northern Thanalan",
     "coords": [
-      23.0,
-      22.0
+      23.08,
+      24.3
     ],
     "name": "Unspoiled",
     "uptime": 180,
@@ -1614,219 +1616,6 @@
     "patch": 2.5
   },
   {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Tungstite",
-        "icon": 21209,
-        "id": 16724,
-        "slot": "4"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      2,
-      14
-    ],
-    "title": "Twinpools",
-    "zone": "Coerthas Western Highlands",
-    "coords": [
-      10.0,
-      10.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 289,
-    "condition": "Perception ≥ 945",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.4
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Zeolite Ore",
-        "icon": 21210,
-        "id": 16726,
-        "slot": "4"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      8,
-      20
-    ],
-    "title": "The Ruling Quarter",
-    "zone": "The Dravanian Hinterlands",
-    "coords": [
-      17.0,
-      29.0,
-      1.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 290,
-    "condition": "Perception ≥ 945",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.4
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Luminium Ore",
-        "icon": 21227,
-        "id": 16725,
-        "slot": "6"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      6,
-      18
-    ],
-    "title": "Alpha Quadrant",
-    "zone": "Azys Lla",
-    "coords": [
-      5.0,
-      17.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 291,
-    "condition": "Perception ≥ 945",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.4
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Teak Log",
-        "icon": 22403,
-        "id": 5392,
-        "slot": "6"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      0,
-      12
-    ],
-    "title": "The Answering Quarter",
-    "zone": "The Dravanian Hinterlands",
-    "coords": [
-      8.0,
-      29.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 292,
-    "condition": "Perception ≥ 945",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Star Cotton Boll",
-        "icon": 25032,
-        "id": 16721,
-        "slot": "4"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      4,
-      16
-    ],
-    "title": "Delta Quadrant",
-    "zone": "Azys Lla",
-    "coords": [
-      8.0,
-      31.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 293,
-    "condition": "Perception ≥ 945",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.4
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Brown Mushroom",
-        "icon": 25405,
-        "id": 16722,
-        "slot": "7"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      10,
-      22
-    ],
-    "title": "Greensward",
-    "zone": "The Churning Mists",
-    "coords": [
-      12.0,
-      37.0,
-      2.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 299,
-    "condition": "Perception ≥ 945",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.4
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Noble Sage",
-        "icon": 25002,
-        "id": 16723,
-        "slot": "1"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      6,
-      18
-    ],
-    "title": "Chocobo Forest",
-    "zone": "The Dravanian Forelands",
-    "coords": [
-      34.0,
-      30.0,
-      1.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 301,
-    "condition": "Perception ≥ 945",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.4
-  },
-  {
     "type": "Rocky Outcropping",
     "func": "node",
     "items": [
@@ -1834,7 +1623,6 @@
         "item": "Lightning Moraine",
         "icon": 21461,
         "id": 5218,
-        "slot": "4",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -1844,7 +1632,6 @@
         "item": "Radiant Astral Moraine",
         "icon": 21463,
         "id": 15949,
-        "slot": "7",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
@@ -1854,7 +1641,6 @@
         "item": "Radiant Lightning Moraine",
         "icon": 21461,
         "id": 5224,
-        "slot": "6",
         "reduce": {
           "item": "Landborne Aethersand",
           "icon": 21006
@@ -1864,17 +1650,20 @@
         "item": "Bright Lightning Rock",
         "icon": 21475,
         "id": 12967,
-        "slot": "5",
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
         }
       },
       {
+        "item": "Lightning Crystal",
+        "icon": 20011,
+        "id": 12
+      },
+      {
         "item": "Lightning Cluster",
         "icon": 20017,
-        "id": 18,
-        "slot": "2"
+        "id": 18
       }
     ],
     "stars": 1,
@@ -1884,8 +1673,8 @@
     "title": "Black Iron Bridge",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      26.4,
-      22.1
+      22.51,
+      19.94
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -1923,81 +1712,14 @@
     "title": "The Smoldering Wastes",
     "zone": "The Dravanian Forelands",
     "coords": [
-      30.6,
-      32.1
+      30.06,
+      31.62
     ],
     "name": "Unspoiled",
     "uptime": 120,
     "lvl": 55,
     "id": 306,
     "patch": 0.0
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Fire Moraine",
-        "icon": 21456,
-        "id": 5214,
-        "slot": "5",
-        "reduce": {
-          "item": "Duskborne Aethersand",
-          "icon": 22613
-        }
-      },
-      {
-        "item": "Radiant Astral Moraine",
-        "icon": 21463,
-        "id": 15949,
-        "slot": "6",
-        "reduce": {
-          "item": "Light-kissed Aethersand",
-          "icon": 22210
-        }
-      },
-      {
-        "item": "Bright Fire Rock",
-        "icon": 21471,
-        "id": 12966,
-        "slot": "8",
-        "reduce": {
-          "item": "Dawnborne Aethersand",
-          "icon": 22648
-        }
-      },
-      {
-        "item": "Radiant Fire Moraine",
-        "icon": 21456,
-        "id": 5220,
-        "slot": "7",
-        "reduce": {
-          "item": "Landborne Aethersand",
-          "icon": 21006
-        }
-      },
-      {
-        "item": "Fire Cluster",
-        "icon": 20013,
-        "id": 14,
-        "slot": "3"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      4
-    ],
-    "title": "Avalonia Fallen",
-    "zone": "The Dravanian Forelands",
-    "coords": [
-      25.9,
-      19.6
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 60,
-    "id": 307,
-    "patch": 3.0
   },
   {
     "type": "Mineral Deposit",
@@ -2007,7 +1729,6 @@
         "item": "Rarefied Abalathian Spring Water",
         "icon": 22614,
         "id": 32973,
-        "slot": " ",
         "scrip": "White Gatherers' Scrip"
       },
       {
@@ -2024,8 +1745,8 @@
     "title": "The Blue Window",
     "zone": "The Sea of Clouds",
     "coords": [
-      20.6,
-      11.5
+      19.46,
+      9.93
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -2034,86 +1755,19 @@
     "patch": 0.0
   },
   {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Fire Moraine",
-        "icon": 21456,
-        "id": 5214,
-        "slot": "5",
-        "reduce": {
-          "item": "Duskborne Aethersand",
-          "icon": 22613
-        }
-      },
-      {
-        "item": "Radiant Astral Moraine",
-        "icon": 21463,
-        "id": 15949,
-        "slot": "6",
-        "reduce": {
-          "item": "Light-kissed Aethersand",
-          "icon": 22210
-        }
-      },
-      {
-        "item": "Bright Fire Rock",
-        "icon": 21471,
-        "id": 12966,
-        "slot": "8",
-        "reduce": {
-          "item": "Dawnborne Aethersand",
-          "icon": 22648
-        }
-      },
-      {
-        "item": "Radiant Fire Moraine",
-        "icon": 21456,
-        "id": 5220,
-        "slot": "7",
-        "reduce": {
-          "item": "Landborne Aethersand",
-          "icon": 21006
-        }
-      },
-      {
-        "item": "Fire Cluster",
-        "icon": 20013,
-        "id": 14,
-        "slot": "3"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      8
-    ],
-    "title": "The Makers' Quarter",
-    "zone": "The Dravanian Hinterlands",
-    "coords": [
-      29.6,
-      17.0
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 60,
-    "id": 309,
-    "patch": 3.0
-  },
-  {
     "type": "Mineral Deposit",
     "func": "node",
     "items": [
       {
-        "item": "Rarefied Raw Kyanite",
-        "icon": 21472,
-        "id": 32977,
-        "scrip": "White Gatherers' Scrip"
-      },
-      {
         "item": "Rarefied Raw Triphane",
         "icon": 21474,
         "id": 32975,
+        "scrip": "White Gatherers' Scrip"
+      },
+      {
+        "item": "Rarefied Raw Kyanite",
+        "icon": 21472,
+        "id": 32977,
         "scrip": "White Gatherers' Scrip"
       }
     ],
@@ -2124,8 +1778,8 @@
     "title": "Mirage Creek",
     "zone": "The Fringes",
     "coords": [
-      29.5,
-      12.9
+      29.63,
+      12.93
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -2141,7 +1795,6 @@
         "item": "Fire Moraine",
         "icon": 21456,
         "id": 5214,
-        "slot": "5",
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
@@ -2151,53 +1804,54 @@
         "item": "Radiant Astral Moraine",
         "icon": 21463,
         "id": 15949,
-        "slot": "6",
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
         }
       },
       {
-        "item": "Bright Fire Rock",
-        "icon": 21471,
-        "id": 12966,
-        "slot": "8",
-        "reduce": {
-          "item": "Dawnborne Aethersand",
-          "icon": 22648
-        }
-      },
-      {
         "item": "Radiant Fire Moraine",
         "icon": 21456,
         "id": 5220,
-        "slot": "7",
         "reduce": {
           "item": "Landborne Aethersand",
           "icon": 21006
         }
       },
       {
+        "item": "Bright Fire Rock",
+        "icon": 21471,
+        "id": 12966,
+        "reduce": {
+          "item": "Dawnborne Aethersand",
+          "icon": 22648
+        }
+      },
+      {
+        "item": "Fire Crystal",
+        "icon": 20007,
+        "id": 8
+      },
+      {
         "item": "Fire Cluster",
         "icon": 20013,
-        "id": 14,
-        "slot": "3"
+        "id": 14
       }
     ],
     "stars": 1,
     "time": [
-      12
+      4
     ],
-    "title": "The Lost Landlord",
-    "zone": "The Churning Mists",
+    "title": "Avalonia Fallen",
+    "zone": "The Dravanian Forelands",
     "coords": [
-      19.4,
-      36.3
+      24.75,
+      20.45
     ],
     "name": "Ephemeral",
     "uptime": 240,
     "lvl": 60,
-    "id": 311,
+    "id": 307,
     "patch": 3.0
   },
   {
@@ -2218,362 +1872,14 @@
     "title": "The Crab Pots",
     "zone": "The Ruby Sea",
     "coords": [
-      21.1,
-      34.3
+      21.2,
+      34.35
     ],
     "name": "Unspoiled",
     "uptime": 120,
     "lvl": 65,
     "id": 312,
     "patch": 0.0
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Lightning Moraine",
-        "icon": 21461,
-        "id": 5218,
-        "slot": "4",
-        "reduce": {
-          "item": "Duskborne Aethersand",
-          "icon": 22613
-        }
-      },
-      {
-        "item": "Radiant Astral Moraine",
-        "icon": 21463,
-        "id": 15949,
-        "slot": "7",
-        "reduce": {
-          "item": "Light-kissed Aethersand",
-          "icon": 22210
-        }
-      },
-      {
-        "item": "Radiant Lightning Moraine",
-        "icon": 21461,
-        "id": 5224,
-        "slot": "6",
-        "reduce": {
-          "item": "Landborne Aethersand",
-          "icon": 21006
-        }
-      },
-      {
-        "item": "Bright Lightning Rock",
-        "icon": 21475,
-        "id": 12967,
-        "slot": "5",
-        "reduce": {
-          "item": "Dawnborne Aethersand",
-          "icon": 22648
-        }
-      },
-      {
-        "item": "Lightning Cluster",
-        "icon": 20017,
-        "id": 18,
-        "slot": "2"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      16
-    ],
-    "title": "Ok' Gundu",
-    "zone": "The Sea of Clouds",
-    "coords": [
-      26.4,
-      30.5
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 60,
-    "id": 313,
-    "patch": 3.0
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Abalathian Rock Salt",
-        "icon": 22617,
-        "id": 12901,
-        "slot": "1"
-      },
-      {
-        "item": "Red Quartz",
-        "icon": 21456,
-        "id": 5159,
-        "slot": "6"
-      }
-    ],
-    "time": [
-      10,
-      22
-    ],
-    "title": "The Gauntlet",
-    "zone": "The Sea of Clouds",
-    "coords": [
-      7.0,
-      7.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 318,
-    "condition": "Perception ≥ 631",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Adamantite Ore",
-        "icon": 21224,
-        "id": 12538,
-        "slot": "6"
-      }
-    ],
-    "time": [
-      0,
-      12
-    ],
-    "title": "Beta Quadrant",
-    "zone": "Azys Lla",
-    "coords": [
-      23.0,
-      5.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 320,
-    "condition": "Perception ≥ 656",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.0
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Astral Moraine",
-        "icon": 21463,
-        "id": 5226,
-        "slot": "4"
-      },
-      {
-        "item": "Violet Quartz",
-        "icon": 21461,
-        "id": 5163,
-        "slot": "6"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      0,
-      12
-    ],
-    "title": "Riversmeet",
-    "zone": "Coerthas Western Highlands",
-    "coords": [
-      37.0,
-      16.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 321,
-    "condition": "Perception ≥ 829",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Aurum Regis Ore",
-        "icon": 21225,
-        "id": 12536,
-        "slot": "6"
-      },
-      {
-        "item": "Lumythrite Ore",
-        "icon": 21221,
-        "id": 14148,
-        "slot": "2"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      2,
-      14
-    ],
-    "title": "Greensward",
-    "zone": "The Churning Mists",
-    "coords": [
-      11.0,
-      38.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 323,
-    "condition": "Perception ≥ 829",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.0
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Sun Mica",
-        "icon": 21227,
-        "id": 12540,
-        "slot": "2"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      4,
-      16
-    ],
-    "title": "Voor Sian Siran",
-    "zone": "The Sea of Clouds",
-    "coords": [
-      35.0,
-      39.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 324,
-    "condition": "Perception ≥ 829",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.0
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Blue Quartz",
-        "icon": 21457,
-        "id": 5160,
-        "slot": "7"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      6,
-      18
-    ],
-    "title": "The Answering Quarter",
-    "zone": "The Dravanian Hinterlands",
-    "coords": [
-      11.0,
-      16.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 325,
-    "condition": "Perception ≥ 829",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Red Alumen",
-        "icon": 22656,
-        "id": 12945,
-        "slot": "2"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      10,
-      22
-    ],
-    "title": "The Habisphere",
-    "zone": "Azys Lla",
-    "coords": [
-      35.0,
-      16.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 326,
-    "condition": "Perception ≥ 829",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Highland Oregano",
-        "icon": 25015,
-        "id": 12971,
-        "slot": "5"
-      },
-      {
-        "item": "Lover's Laurel",
-        "icon": 25009,
-        "id": 15948,
-        "slot": "6",
-        "reduce": {
-          "item": "Light-kissed Aethersand",
-          "icon": 22210
-        }
-      },
-      {
-        "item": "Furymint",
-        "icon": 25016,
-        "id": 12972,
-        "slot": "7"
-      },
-      {
-        "item": "Clary Sage",
-        "icon": 25009,
-        "id": 12973,
-        "slot": "8"
-      },
-      {
-        "item": "Wind Cluster",
-        "icon": 20016,
-        "id": 16,
-        "slot": "4"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      20
-    ],
-    "title": "Ok' Vundu Mok",
-    "zone": "The Sea of Clouds",
-    "coords": [
-      12.8,
-      21.7
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 60,
-    "id": 327,
-    "patch": 3.0
   },
   {
     "type": "Mineral Deposit",
@@ -2599,69 +1905,14 @@
     "title": "The Sea of Blades",
     "zone": "The Azim Steppe",
     "coords": [
-      35.9,
-      26.4
+      36.01,
+      26.42
     ],
     "name": "Unspoiled",
     "uptime": 120,
     "lvl": 70,
     "id": 328,
     "patch": 0.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Highland Oregano",
-        "icon": 25015,
-        "id": 12971,
-        "slot": "5"
-      },
-      {
-        "item": "Lover's Laurel",
-        "icon": 25009,
-        "id": 15948,
-        "slot": "6",
-        "reduce": {
-          "item": "Light-kissed Aethersand",
-          "icon": 22210
-        }
-      },
-      {
-        "item": "Furymint",
-        "icon": 25016,
-        "id": 12972,
-        "slot": "7"
-      },
-      {
-        "item": "Clary Sage",
-        "icon": 25009,
-        "id": 12973,
-        "slot": "8"
-      },
-      {
-        "item": "Wind Cluster",
-        "icon": 20016,
-        "id": 16,
-        "slot": "4"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      0
-    ],
-    "title": "Red Rim",
-    "zone": "Coerthas Western Highlands",
-    "coords": [
-      24.2,
-      31.6
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 60,
-    "id": 329,
-    "patch": 3.0
   },
   {
     "type": "Mineral Deposit",
@@ -2687,8 +1938,8 @@
     "title": "The Belt",
     "zone": "Lakeland",
     "coords": [
-      31.1,
-      24.1
+      31.25,
+      24.14
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -2697,66 +1948,70 @@
     "patch": 0.0
   },
   {
-    "type": "Lush Vegetation",
+    "type": "Rocky Outcropping",
     "func": "node",
     "items": [
       {
-        "item": "Granular Clay",
-        "icon": 27407,
-        "id": 12968,
-        "slot": "5",
+        "item": "Fire Moraine",
+        "icon": 21456,
+        "id": 5214,
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
         }
       },
       {
-        "item": "Lover's Laurel",
-        "icon": 25009,
-        "id": 15948,
-        "slot": "6",
+        "item": "Radiant Astral Moraine",
+        "icon": 21463,
+        "id": 15949,
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
         }
       },
       {
-        "item": "Peat Moss",
-        "icon": 27401,
-        "id": 12969,
-        "slot": "4",
+        "item": "Radiant Fire Moraine",
+        "icon": 21456,
+        "id": 5220,
+        "reduce": {
+          "item": "Landborne Aethersand",
+          "icon": 21006
+        }
+      },
+      {
+        "item": "Bright Fire Rock",
+        "icon": 21471,
+        "id": 12966,
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
         }
       },
       {
-        "item": "Black Soil",
-        "icon": 27404,
-        "id": 12970,
-        "slot": "8"
+        "item": "Fire Crystal",
+        "icon": 20007,
+        "id": 8
       },
       {
-        "item": "Earth Cluster",
-        "icon": 20018,
-        "id": 17,
-        "slot": "7"
+        "item": "Fire Cluster",
+        "icon": 20013,
+        "id": 14
       }
     ],
     "stars": 1,
     "time": [
       8
     ],
-    "title": "Avalonia Fallen",
-    "zone": "The Dravanian Forelands",
+    "title": "The Makers' Quarter",
+    "zone": "The Dravanian Hinterlands",
     "coords": [
-      15.6,
-      33.3
+      28.45,
+      16.63
     ],
     "name": "Ephemeral",
     "uptime": 240,
     "lvl": 60,
-    "id": 331,
+    "id": 309,
     "patch": 3.0
   },
   {
@@ -2777,77 +2032,14 @@
     "title": "Cleric",
     "zone": "The Rak'tika Greatwood",
     "coords": [
-      16.0,
-      18.1
+      16.5,
+      18.18
     ],
     "name": "Unspoiled",
     "uptime": 120,
     "lvl": 75,
     "id": 332,
     "patch": 0.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Granular Clay",
-        "icon": 27407,
-        "id": 12968,
-        "slot": "5",
-        "reduce": {
-          "item": "Duskborne Aethersand",
-          "icon": 22613
-        }
-      },
-      {
-        "item": "Lover's Laurel",
-        "icon": 25009,
-        "id": 15948,
-        "slot": "6",
-        "reduce": {
-          "item": "Light-kissed Aethersand",
-          "icon": 22210
-        }
-      },
-      {
-        "item": "Peat Moss",
-        "icon": 27401,
-        "id": 12969,
-        "slot": "4",
-        "reduce": {
-          "item": "Dawnborne Aethersand",
-          "icon": 22648
-        }
-      },
-      {
-        "item": "Black Soil",
-        "icon": 27404,
-        "id": 12970,
-        "slot": "8"
-      },
-      {
-        "item": "Earth Cluster",
-        "icon": 20018,
-        "id": 17,
-        "slot": "7"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      16
-    ],
-    "title": "Greensward",
-    "zone": "The Churning Mists",
-    "coords": [
-      12.1,
-      37.0
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 60,
-    "id": 333,
-    "patch": 3.0
   },
   {
     "type": "Mineral Deposit",
@@ -2873,8 +2065,8 @@
     "title": "The Norvrandt Slope",
     "zone": "The Tempest",
     "coords": [
-      25.0,
-      4.4
+      25.12,
+      4.48
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -2883,50 +2075,709 @@
     "patch": 0.0
   },
   {
-    "type": "Lush Vegetation",
+    "type": "Rocky Outcropping",
     "func": "node",
     "items": [
       {
-        "item": "Granular Clay",
-        "icon": 27407,
-        "id": 12968,
-        "slot": "5",
+        "item": "Fire Moraine",
+        "icon": 21456,
+        "id": 5214,
         "reduce": {
           "item": "Duskborne Aethersand",
           "icon": 22613
         }
       },
       {
-        "item": "Lover's Laurel",
-        "icon": 25009,
-        "id": 15948,
-        "slot": "6",
+        "item": "Radiant Astral Moraine",
+        "icon": 21463,
+        "id": 15949,
         "reduce": {
           "item": "Light-kissed Aethersand",
           "icon": 22210
         }
       },
       {
-        "item": "Peat Moss",
-        "icon": 27401,
-        "id": 12969,
-        "slot": "4",
+        "item": "Radiant Fire Moraine",
+        "icon": 21456,
+        "id": 5220,
+        "reduce": {
+          "item": "Landborne Aethersand",
+          "icon": 21006
+        }
+      },
+      {
+        "item": "Bright Fire Rock",
+        "icon": 21471,
+        "id": 12966,
         "reduce": {
           "item": "Dawnborne Aethersand",
           "icon": 22648
         }
       },
       {
+        "item": "Fire Crystal",
+        "icon": 20007,
+        "id": 8
+      },
+      {
+        "item": "Fire Cluster",
+        "icon": 20013,
+        "id": 14
+      }
+    ],
+    "stars": 1,
+    "time": [
+      12
+    ],
+    "title": "The Lost Landlord",
+    "zone": "The Churning Mists",
+    "coords": [
+      18.3,
+      36.63
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 60,
+    "id": 311,
+    "patch": 3.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Lightning Moraine",
+        "icon": 21461,
+        "id": 5218,
+        "reduce": {
+          "item": "Duskborne Aethersand",
+          "icon": 22613
+        }
+      },
+      {
+        "item": "Radiant Astral Moraine",
+        "icon": 21463,
+        "id": 15949,
+        "reduce": {
+          "item": "Light-kissed Aethersand",
+          "icon": 22210
+        }
+      },
+      {
+        "item": "Radiant Lightning Moraine",
+        "icon": 21461,
+        "id": 5224,
+        "reduce": {
+          "item": "Landborne Aethersand",
+          "icon": 21006
+        }
+      },
+      {
+        "item": "Bright Lightning Rock",
+        "icon": 21475,
+        "id": 12967,
+        "reduce": {
+          "item": "Dawnborne Aethersand",
+          "icon": 22648
+        }
+      },
+      {
+        "item": "Lightning Crystal",
+        "icon": 20011,
+        "id": 12
+      },
+      {
+        "item": "Lightning Cluster",
+        "icon": 20017,
+        "id": 18
+      }
+    ],
+    "stars": 1,
+    "time": [
+      16
+    ],
+    "title": "Ok' Gundu",
+    "zone": "The Sea of Clouds",
+    "coords": [
+      24.22,
+      30.69
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 60,
+    "id": 313,
+    "patch": 3.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Abalathian Rock Salt",
+        "icon": 22617,
+        "id": 12901
+      },
+      {
+        "item": "Red Quartz",
+        "icon": 21456,
+        "id": 5159
+      }
+    ],
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Gauntlet",
+    "zone": "The Sea of Clouds",
+    "coords": [
+      5.91,
+      5.74
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 318,
+    "condition": "Perception ≥ 631",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Adamantite Ore",
+        "icon": 21224,
+        "id": 12538
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "Beta Quadrant",
+    "zone": "Azys Lla",
+    "coords": [
+      22.74,
+      3.99
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 320,
+    "condition": "Perception ≥ 656",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Astral Moraine",
+        "icon": 21463,
+        "id": 5226
+      },
+      {
+        "item": "Violet Quartz",
+        "icon": 21461,
+        "id": 5163
+      }
+    ],
+    "stars": 1,
+    "time": [
+      0,
+      12
+    ],
+    "title": "Riversmeet",
+    "zone": "Coerthas Western Highlands",
+    "coords": [
+      37.05,
+      16.29
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 321,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Aurum Regis Ore",
+        "icon": 21225,
+        "id": 12536
+      },
+      {
+        "item": "Lumythrite Ore",
+        "icon": 21221,
+        "id": 14148
+      }
+    ],
+    "stars": 1,
+    "time": [
+      2,
+      14
+    ],
+    "title": "Greensward",
+    "zone": "The Churning Mists",
+    "coords": [
+      7.87,
+      36.61
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 323,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Sun Mica",
+        "icon": 21227,
+        "id": 12540
+      }
+    ],
+    "stars": 1,
+    "time": [
+      4,
+      16
+    ],
+    "title": "Voor Sian Siran",
+    "zone": "The Sea of Clouds",
+    "coords": [
+      36.04,
+      37.43
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 324,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Blue Quartz",
+        "icon": 21457,
+        "id": 5160
+      }
+    ],
+    "stars": 1,
+    "time": [
+      6,
+      18
+    ],
+    "title": "The Answering Quarter",
+    "zone": "The Dravanian Hinterlands",
+    "coords": [
+      9.95,
+      14.57
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 325,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Red Alumen",
+        "icon": 22656,
+        "id": 12945
+      }
+    ],
+    "stars": 1,
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Habisphere",
+    "zone": "Azys Lla",
+    "coords": [
+      35.7,
+      13.96
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 326,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Highland Oregano",
+        "icon": 25015,
+        "id": 12971
+      },
+      {
+        "item": "Pot Marjoram",
+        "icon": 25010,
+        "id": 33148
+      },
+      {
+        "item": "Furymint",
+        "icon": 25016,
+        "id": 12972
+      },
+      {
+        "item": "Water Mint",
+        "icon": 25036,
+        "id": 33149,
+        "reduce": {
+          "item": "Dawnborne Aethersand",
+          "icon": 22648
+        }
+      },
+      {
+        "item": "Clary Sage",
+        "icon": 25009,
+        "id": 12973
+      },
+      {
+        "item": "Wild Sage",
+        "icon": 25034,
+        "id": 33150,
+        "reduce": {
+          "item": "Leafborne Aethersand",
+          "icon": 22649
+        }
+      },
+      {
+        "item": "Lover's Laurel",
+        "icon": 25009,
+        "id": 15948,
+        "reduce": {
+          "item": "Light-kissed Aethersand",
+          "icon": 22210
+        }
+      },
+      {
+        "item": "Wind Crystal",
+        "icon": 20010,
+        "id": 10
+      },
+      {
+        "item": "Wind Cluster",
+        "icon": 20016,
+        "id": 16
+      }
+    ],
+    "stars": 1,
+    "time": [
+      20
+    ],
+    "title": "Ok' Vundu Mok",
+    "zone": "The Sea of Clouds",
+    "coords": [
+      12.31,
+      19.56
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 60,
+    "id": 327,
+    "patch": 3.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Highland Oregano",
+        "icon": 25015,
+        "id": 12971
+      },
+      {
+        "item": "Pot Marjoram",
+        "icon": 25010,
+        "id": 33148
+      },
+      {
+        "item": "Furymint",
+        "icon": 25016,
+        "id": 12972
+      },
+      {
+        "item": "Water Mint",
+        "icon": 25036,
+        "id": 33149,
+        "reduce": {
+          "item": "Dawnborne Aethersand",
+          "icon": 22648
+        }
+      },
+      {
+        "item": "Clary Sage",
+        "icon": 25009,
+        "id": 12973
+      },
+      {
+        "item": "Wild Sage",
+        "icon": 25034,
+        "id": 33150,
+        "reduce": {
+          "item": "Leafborne Aethersand",
+          "icon": 22649
+        }
+      },
+      {
+        "item": "Lover's Laurel",
+        "icon": 25009,
+        "id": 15948,
+        "reduce": {
+          "item": "Light-kissed Aethersand",
+          "icon": 22210
+        }
+      },
+      {
+        "item": "Wind Crystal",
+        "icon": 20010,
+        "id": 10
+      },
+      {
+        "item": "Wind Cluster",
+        "icon": 20016,
+        "id": 16
+      }
+    ],
+    "stars": 1,
+    "time": [
+      0
+    ],
+    "title": "Red Rim",
+    "zone": "Coerthas Western Highlands",
+    "coords": [
+      24.75,
+      28.64
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 60,
+    "id": 329,
+    "patch": 3.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
         "item": "Black Soil",
         "icon": 27404,
-        "id": 12970,
-        "slot": "8"
+        "id": 12970
+      },
+      {
+        "item": "Humic Soil",
+        "icon": 22628,
+        "id": 33147,
+        "reduce": {
+          "item": "Leafborne Aethersand",
+          "icon": 22649
+        }
+      },
+      {
+        "item": "Granular Clay",
+        "icon": 27407,
+        "id": 12968,
+        "reduce": {
+          "item": "Duskborne Aethersand",
+          "icon": 22613
+        }
+      },
+      {
+        "item": "Peat Moss",
+        "icon": 27401,
+        "id": 12969,
+        "reduce": {
+          "item": "Dawnborne Aethersand",
+          "icon": 22648
+        }
+      },
+      {
+        "item": "Lover's Laurel",
+        "icon": 25009,
+        "id": 15948,
+        "reduce": {
+          "item": "Light-kissed Aethersand",
+          "icon": 22210
+        }
+      },
+      {
+        "item": "Earth Crystal",
+        "icon": 20012,
+        "id": 11
       },
       {
         "item": "Earth Cluster",
         "icon": 20018,
-        "id": 17,
-        "slot": "7"
+        "id": 17
+      }
+    ],
+    "stars": 1,
+    "time": [
+      8
+    ],
+    "title": "Avalonia Fallen",
+    "zone": "The Dravanian Forelands",
+    "coords": [
+      16.19,
+      31.36
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 60,
+    "id": 331,
+    "patch": 3.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Black Soil",
+        "icon": 27404,
+        "id": 12970
+      },
+      {
+        "item": "Humic Soil",
+        "icon": 22628,
+        "id": 33147,
+        "reduce": {
+          "item": "Leafborne Aethersand",
+          "icon": 22649
+        }
+      },
+      {
+        "item": "Granular Clay",
+        "icon": 27407,
+        "id": 12968,
+        "reduce": {
+          "item": "Duskborne Aethersand",
+          "icon": 22613
+        }
+      },
+      {
+        "item": "Peat Moss",
+        "icon": 27401,
+        "id": 12969,
+        "reduce": {
+          "item": "Dawnborne Aethersand",
+          "icon": 22648
+        }
+      },
+      {
+        "item": "Lover's Laurel",
+        "icon": 25009,
+        "id": 15948,
+        "reduce": {
+          "item": "Light-kissed Aethersand",
+          "icon": 22210
+        }
+      },
+      {
+        "item": "Earth Crystal",
+        "icon": 20012,
+        "id": 11
+      },
+      {
+        "item": "Earth Cluster",
+        "icon": 20018,
+        "id": 17
+      }
+    ],
+    "stars": 1,
+    "time": [
+      16
+    ],
+    "title": "Greensward",
+    "zone": "The Churning Mists",
+    "coords": [
+      8.6,
+      36.65
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 60,
+    "id": 333,
+    "patch": 3.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Black Soil",
+        "icon": 27404,
+        "id": 12970
+      },
+      {
+        "item": "Humic Soil",
+        "icon": 22628,
+        "id": 33147,
+        "reduce": {
+          "item": "Leafborne Aethersand",
+          "icon": 22649
+        }
+      },
+      {
+        "item": "Granular Clay",
+        "icon": 27407,
+        "id": 12968,
+        "reduce": {
+          "item": "Duskborne Aethersand",
+          "icon": 22613
+        }
+      },
+      {
+        "item": "Peat Moss",
+        "icon": 27401,
+        "id": 12969,
+        "reduce": {
+          "item": "Dawnborne Aethersand",
+          "icon": 22648
+        }
+      },
+      {
+        "item": "Lover's Laurel",
+        "icon": 25009,
+        "id": 15948,
+        "reduce": {
+          "item": "Light-kissed Aethersand",
+          "icon": 22210
+        }
+      },
+      {
+        "item": "Earth Crystal",
+        "icon": 20012,
+        "id": 11
+      },
+      {
+        "item": "Earth Cluster",
+        "icon": 20018,
+        "id": 17
       }
     ],
     "stars": 1,
@@ -2936,8 +2787,8 @@
     "title": "Saint Mocianne's Arboretum",
     "zone": "The Dravanian Hinterlands",
     "coords": [
-      7.4,
-      29.3
+      4.98,
+      26.98
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -2946,38 +2797,87 @@
     "patch": 3.0
   },
   {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Perlite",
+        "icon": 21463,
+        "id": 20010
+      },
+      {
+        "item": "Dacite",
+        "icon": 21458,
+        "id": 33152,
+        "reduce": {
+          "item": "Everbright Aethersand",
+          "icon": 21006
+        }
+      },
+      {
+        "item": "Yanxian Soil",
+        "icon": 21466,
+        "id": 23220,
+        "reduce": {
+          "item": "Duskglow Aethersand",
+          "icon": 21006
+        }
+      },
+      {
+        "item": "Fire Crystal",
+        "icon": 20007,
+        "id": 8
+      },
+      {
+        "item": "Fire Cluster",
+        "icon": 20013,
+        "id": 14
+      }
+    ],
+    "stars": 2,
+    "time": [
+      20
+    ],
+    "title": "Valley of the Fallen Rainbow",
+    "zone": "Yanxia",
+    "coords": [
+      28.97,
+      6.71
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 70,
+    "id": 492,
+    "patch": 4.0
+  },
+  {
     "type": "Lush Vegetation",
     "func": "node",
     "items": [
       {
-        "item": "Chives",
-        "icon": 25035,
-        "id": 12884,
-        "slot": "1"
-      },
-      {
-        "item": "Pearl Sprout Seeds",
-        "icon": 27455,
-        "id": 13767,
-        "slot": "2"
-      },
-      {
-        "item": "Coerthan Tea Seeds",
-        "icon": 27451,
-        "id": 13768,
-        "slot": "3"
-      },
-      {
         "item": "Pearl Sprouts",
         "icon": 25208,
-        "id": 12877,
-        "slot": "6"
+        "id": 12877
       },
       {
         "item": "Coerthan Tea Leaves",
         "icon": 25020,
-        "id": 12882,
-        "slot": "7"
+        "id": 12882
+      },
+      {
+        "item": "Chives",
+        "icon": 25035,
+        "id": 12884
+      },
+      {
+        "item": "Pearl Sprout Seeds",
+        "icon": 27455,
+        "id": 13767
+      },
+      {
+        "item": "Coerthan Tea Seeds",
+        "icon": 27451,
+        "id": 13768
       }
     ],
     "time": [
@@ -2987,8 +2887,8 @@
     "title": "Riversmeet",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      31.0,
-      20.0
+      30.52,
+      17.69
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3003,22 +2903,19 @@
     "func": "node",
     "items": [
       {
-        "item": "Old World Fig Seeds",
-        "icon": 27457,
-        "id": 13765,
-        "slot": "1"
-      },
-      {
         "item": "Old World Fig",
         "icon": 25318,
-        "id": 12896,
-        "slot": "2"
+        "id": 12896
+      },
+      {
+        "item": "Old World Fig Seeds",
+        "icon": 27457,
+        "id": 13765
       },
       {
         "item": "Dark Matter Cluster",
         "icon": 20407,
-        "id": 10335,
-        "slot": "?"
+        "id": 10335
       }
     ],
     "stars": 3,
@@ -3029,8 +2926,8 @@
     "title": "Chocobo Forest",
     "zone": "The Dravanian Forelands",
     "coords": [
-      27.0,
-      14.0
+      25.76,
+      11.76
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3045,16 +2942,14 @@
     "func": "node",
     "items": [
       {
-        "item": "Dravanian Mistletoe",
-        "icon": 25001,
-        "id": 12943,
-        "slot": "3"
-      },
-      {
         "item": "Porcini",
         "icon": 25401,
-        "id": 12899,
-        "slot": "7"
+        "id": 12899
+      },
+      {
+        "item": "Dravanian Mistletoe",
+        "icon": 25001,
+        "id": 12943
       }
     ],
     "time": [
@@ -3064,8 +2959,8 @@
     "title": "Ohl Tahn",
     "zone": "The Churning Mists",
     "coords": [
-      25.0,
-      6.0
+      25.04,
+      7.02
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3082,14 +2977,12 @@
       {
         "item": "Heavens Lemon",
         "icon": 25305,
-        "id": 12889,
-        "slot": "2"
+        "id": 12889
       },
       {
         "item": "Abalathian Mistletoe",
         "icon": 25001,
-        "id": 12944,
-        "slot": "3"
+        "id": 12944
       }
     ],
     "time": [
@@ -3099,8 +2992,8 @@
     "title": "Vundu Ok' Bendu",
     "zone": "The Sea of Clouds",
     "coords": [
-      34.0,
-      19.0
+      35.49,
+      20.28
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3117,14 +3010,12 @@
       {
         "item": "Cloud Banana",
         "icon": 25319,
-        "id": 12897,
-        "slot": "2"
+        "id": 12897
       },
       {
         "item": "Morel",
         "icon": 25408,
-        "id": 12898,
-        "slot": "7"
+        "id": 12898
       }
     ],
     "time": [
@@ -3134,8 +3025,8 @@
     "title": "The Ruling Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
-      19.0,
-      36.0
+      14.65,
+      36.86
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3152,8 +3043,7 @@
       {
         "item": "Chysahl Greens",
         "icon": 25222,
-        "id": 12900,
-        "slot": "6"
+        "id": 12900
       }
     ],
     "time": [
@@ -3163,8 +3053,8 @@
     "title": "Twinpools",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      8.0,
-      9.0
+      6.96,
+      8.73
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -3181,20 +3071,17 @@
       {
         "item": "Vanilla Beans",
         "icon": 25014,
-        "id": 4833,
-        "slot": "3"
+        "id": 4833
       },
       {
         "item": "Dravanian Paprika",
         "icon": 25018,
-        "id": 12903,
-        "slot": "4"
+        "id": 12903
       },
       {
         "item": "Frost Cotton Boll",
         "icon": 25032,
-        "id": 14154,
-        "slot": "5"
+        "id": 14154
       }
     ],
     "stars": 1,
@@ -3205,8 +3092,8 @@
     "title": "Twinpools",
     "zone": "Coerthas Western Highlands",
     "coords": [
-      23.0,
-      21.0
+      21.33,
+      20.36
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3217,14 +3104,67 @@
     "patch": 3.0
   },
   {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Almandine",
+        "icon": 21471,
+        "id": 20011
+      },
+      {
+        "item": "Rhodolite",
+        "icon": 21474,
+        "id": 33153,
+        "reduce": {
+          "item": "Dusklight Aethersand",
+          "icon": 21219
+        }
+      },
+      {
+        "item": "Yanxian Soil",
+        "icon": 21466,
+        "id": 23220,
+        "reduce": {
+          "item": "Duskglow Aethersand",
+          "icon": 21006
+        }
+      },
+      {
+        "item": "Ice Crystal",
+        "icon": 20009,
+        "id": 9
+      },
+      {
+        "item": "Ice Cluster",
+        "icon": 20015,
+        "id": 15
+      }
+    ],
+    "stars": 2,
+    "time": [
+      0
+    ],
+    "title": "The High Bank",
+    "zone": "The Lochs",
+    "coords": [
+      13.25,
+      27.39
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 70,
+    "id": 494,
+    "patch": 4.0
+  },
+  {
     "type": "Lush Vegetation",
     "func": "node",
     "items": [
       {
         "item": "Seventh Heaven",
         "icon": 22627,
-        "id": 12634,
-        "slot": "1"
+        "id": 12634
       }
     ],
     "stars": 1,
@@ -3235,8 +3175,8 @@
     "title": "Greensward",
     "zone": "The Churning Mists",
     "coords": [
-      16.0,
-      36.0
+      16.29,
+      36.67
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3253,8 +3193,7 @@
       {
         "item": "Honeydew Almonds",
         "icon": 25017,
-        "id": 12902,
-        "slot": "2"
+        "id": 12902
       }
     ],
     "stars": 1,
@@ -3265,8 +3204,8 @@
     "title": "The Gauntlet",
     "zone": "The Sea of Clouds",
     "coords": [
-      24.0,
-      6.0
+      21.16,
+      4.45
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3283,8 +3222,7 @@
       {
         "item": "Snurbleberry",
         "icon": 25306,
-        "id": 12904,
-        "slot": "2"
+        "id": 12904
       }
     ],
     "stars": 1,
@@ -3295,8 +3233,8 @@
     "title": "The Makers' Quarter",
     "zone": "The Dravanian Hinterlands",
     "coords": [
-      39.0,
-      26.0
+      38.72,
+      22.79
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3313,8 +3251,7 @@
       {
         "item": "Wattle Bark",
         "icon": 23001,
-        "id": 12587,
-        "slot": "5"
+        "id": 12587
       }
     ],
     "stars": 1,
@@ -3325,8 +3262,8 @@
     "title": "Beta Quadrant",
     "zone": "Azys Lla",
     "coords": [
-      22.0,
-      8.0
+      21.98,
+      7.38
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3341,16 +3278,14 @@
     "func": "node",
     "items": [
       {
-        "item": "Crystallized Sap",
-        "icon": 20018,
-        "id": 15647,
-        "slot": "4"
-      },
-      {
         "item": "Old-growth Camphorwood Log",
         "icon": 22414,
-        "id": 14957,
-        "slot": "6"
+        "id": 14957
+      },
+      {
+        "item": "Crystallized Sap",
+        "icon": 20018,
+        "id": 15647
       }
     ],
     "stars": 1,
@@ -3361,8 +3296,8 @@
     "title": "Ohl Tahn",
     "zone": "The Churning Mists",
     "coords": [
-      11.0,
-      10.0
+      8.29,
+      7.99
     ],
     "name": "Legendary",
     "uptime": 120,
@@ -3377,132 +3312,9 @@
     "func": "node",
     "items": [
       {
-        "item": "Smithsonite Ore",
-        "icon": 21473,
-        "id": 14151,
-        "slot": "2"
-      },
-      {
-        "item": "Meteorite",
-        "icon": 21203,
-        "id": 15646,
-        "slot": "3"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      8,
-      20
-    ],
-    "title": "The Gauntlet",
-    "zone": "The Sea of Clouds",
-    "coords": [
-      38.0,
-      14.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 60,
-    "id": 397,
-    "condition": "Perception ≥ 829",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 3.2
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Perlite",
-        "icon": 21463,
-        "id": 20010,
-        "slot": "8"
-      },
-      {
-        "item": "Yanxian Soil",
-        "icon": 21466,
-        "id": 23220,
-        "slot": "2",
-        "reduce": {
-          "item": "Duskglow Aethersand",
-          "icon": 21006
-        }
-      },
-      {
-        "item": "Fire Crystal",
-        "icon": 20007,
-        "id": 8,
-        "slot": "5"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      20
-    ],
-    "title": "Valley of the Fallen Rainbow",
-    "zone": "Yanxia",
-    "coords": [
-      30.3,
-      4.9
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 70,
-    "id": 492,
-    "patch": 4.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Almandine",
-        "icon": 21471,
-        "id": 20011,
-        "slot": "7"
-      },
-      {
-        "item": "Yanxian Soil",
-        "icon": 21466,
-        "id": 23220,
-        "slot": "2",
-        "reduce": {
-          "item": "Duskglow Aethersand",
-          "icon": 21006
-        }
-      },
-      {
-        "item": "Ice Crystal",
-        "icon": 20009,
-        "id": 9,
-        "slot": "5"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      0
-    ],
-    "title": "The High Bank",
-    "zone": "The Lochs",
-    "coords": [
-      13.0,
-      29.0
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 70,
-    "id": 494,
-    "patch": 4.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
         "item": "Schorl",
         "icon": 21476,
         "id": 20009,
-        "slot": "4",
         "reduce": {
           "item": "Dawnlight Aethersand",
           "icon": 22210
@@ -3512,7 +3324,6 @@
         "item": "Yanxian Soil",
         "icon": 21466,
         "id": 23220,
-        "slot": "2",
         "reduce": {
           "item": "Duskglow Aethersand",
           "icon": 21006
@@ -3521,8 +3332,12 @@
       {
         "item": "Lightning Crystal",
         "icon": 20011,
-        "id": 12,
-        "slot": "5"
+        "id": 12
+      },
+      {
+        "item": "Lightning Cluster",
+        "icon": 20017,
+        "id": 18
       }
     ],
     "stars": 2,
@@ -3532,8 +3347,8 @@
     "title": "Ragill's Reckoning",
     "zone": "The Azim Steppe",
     "coords": [
-      34.2,
-      22.5
+      34.77,
+      24.5
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -3546,1954 +3361,34 @@
     "func": "node",
     "items": [
       {
-        "item": "Raw Triphane",
-        "icon": 21474,
-        "id": 19968,
-        "slot": "6"
+        "item": "Smithsonite Ore",
+        "icon": 21473,
+        "id": 14151
+      },
+      {
+        "item": "Meteorite",
+        "icon": 21203,
+        "id": 15646
       }
     ],
-    "stars": 2,
+    "stars": 1,
     "time": [
-      2,
-      14
+      8,
+      20
     ],
-    "title": "The Striped Hills",
-    "zone": "The Fringes",
+    "title": "The Gauntlet",
+    "zone": "The Sea of Clouds",
     "coords": [
-      26.0,
-      8.6
+      37.26,
+      13.09
     ],
-    "name": "Unspoiled",
+    "name": "Legendary",
     "uptime": 120,
     "lvl": 60,
-    "id": 497,
+    "id": 397,
     "condition": "Perception ≥ 829",
     "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Raw Star Spinel",
-        "icon": 21475,
-        "id": 19970,
-        "slot": "8"
-      }
-    ],
-    "time": [
-      0,
-      12
-    ],
-    "title": "East Othard Coastline",
-    "zone": "The Ruby Sea",
-    "coords": [
-      15.0,
-      5.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 65,
-    "id": 498,
-    "condition": "Perception ≥ 1003",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Pummelite",
-        "icon": 21209,
-        "id": 17944,
-        "slot": "6"
-      },
-      {
-        "item": "Raw Rhodonite",
-        "icon": 21471,
-        "id": 19973,
-        "slot": "7"
-      }
-    ],
-    "time": [
-      8,
-      20
-    ],
-    "title": "Rustrock",
-    "zone": "The Peaks",
-    "coords": [
-      26.0,
-      13.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 499,
-    "condition": "Perception ≥ 1088",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Raw Imperial Jade",
-        "icon": 21252,
-        "id": 19972,
-        "slot": "6"
-      }
-    ],
-    "time": [
-      6,
-      18
-    ],
-    "title": "Valley of the Fallen Rainbow",
-    "zone": "Yanxia",
-    "coords": [
-      30.0,
-      9.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 500,
-    "condition": "Perception ≥ 1067",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Raw Azurite",
-        "icon": 21472,
-        "id": 19971,
-        "slot": "7"
-      }
-    ],
-    "time": [
-      4,
-      16
-    ],
-    "title": "The Towering Still",
-    "zone": "The Azim Steppe",
-    "coords": [
-      5.0,
-      27.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 501,
-    "condition": "Perception ≥ 1024",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Ala Mhigan Salt Crystal",
-        "icon": 22617,
-        "id": 19907,
-        "slot": "1"
-      }
-    ],
-    "time": [
-      0,
-      12
-    ],
-    "title": "Loch Seld",
-    "zone": "The Lochs",
-    "coords": [
-      21.0,
-      29.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 502,
-    "condition": "Perception ≥ 1088",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Gyr Abanian Spring Water",
-        "icon": 22614,
-        "id": 21085,
-        "slot": "1"
-      },
-      {
-        "item": "Chromite Ore",
-        "icon": 21205,
-        "id": 19959,
-        "slot": "6"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      10,
-      22
-    ],
-    "title": "Wightrock",
-    "zone": "The Peaks",
-    "coords": [
-      16.0,
-      34.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 503,
-    "condition": "Perception ≥ 1206",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Palladium Ore",
-        "icon": 21217,
-        "id": 19958,
-        "slot": "6"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      4,
-      16
-    ],
-    "title": "Doma",
-    "zone": "Yanxia",
-    "coords": [
-      20.0,
-      10.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 504,
-    "condition": "Perception ≥ 1206",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Torreya Branch",
-        "icon": 22416,
-        "id": 19937,
-        "slot": "3",
-        "reduce": {
-          "item": "Everborn Aethersand",
-          "icon": 22649
-        }
-      },
-      {
-        "item": "Yanxian Verbena",
-        "icon": 25009,
-        "id": 23221,
-        "slot": "4",
-        "reduce": {
-          "item": "Duskglow Aethersand",
-          "icon": 21006
-        }
-      },
-      {
-        "item": "Ice Crystal",
-        "icon": 20009,
-        "id": 9,
-        "slot": "5"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      4
-    ],
-    "title": "The Queen's Gardens",
-    "zone": "The Lochs",
-    "coords": [
-      28.0,
-      10.0
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 70,
-    "id": 515,
-    "patch": 4.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Windtea Leaves",
-        "icon": 25022,
-        "id": 19916,
-        "slot": "1"
-      },
-      {
-        "item": "Yanxian Verbena",
-        "icon": 25009,
-        "id": 23221,
-        "slot": "3",
-        "reduce": {
-          "item": "Duskglow Aethersand",
-          "icon": 21006
-        }
-      },
-      {
-        "item": "Wind Crystal",
-        "icon": 20010,
-        "id": 10,
-        "slot": "5"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      16
-    ],
-    "title": "The Glittering Basin",
-    "zone": "Yanxia",
-    "coords": [
-      26.7,
-      25.0
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 70,
-    "id": 518,
-    "patch": 4.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Doman Yellow",
-        "icon": 27407,
-        "id": 20012,
-        "slot": "7",
-        "reduce": {
-          "item": "Dusklight Aethersand",
-          "icon": 21219
-        }
-      },
-      {
-        "item": "Yanxian Verbena",
-        "icon": 25009,
-        "id": 23221,
-        "slot": "3",
-        "reduce": {
-          "item": "Duskglow Aethersand",
-          "icon": 21006
-        }
-      },
-      {
-        "item": "Earth Crystal",
-        "icon": 20012,
-        "id": 11,
-        "slot": "5"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      8
-    ],
-    "title": "Nhaama's Retreat",
-    "zone": "The Azim Steppe",
-    "coords": [
-      16.0,
-      28.0
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 70,
-    "id": 520,
-    "patch": 4.0
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Bamboo Shoot",
-        "icon": 25229,
-        "id": 19860,
-        "slot": "8"
-      }
-    ],
-    "time": [
-      10,
-      22
-    ],
-    "title": "The Glittering Basin",
-    "zone": "Yanxia",
-    "coords": [
-      30.0,
-      26.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 65,
-    "id": 522,
-    "condition": "Perception ≥ 1003",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Othardian Plum",
-        "icon": 25311,
-        "id": 19852,
-        "slot": "2"
-      }
-    ],
-    "time": [
-      2,
-      14
-    ],
-    "title": "Onsal Hakair",
-    "zone": "The Azim Steppe",
-    "coords": [
-      27.0,
-      16.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 523,
-    "condition": "Perception ≥ 1109",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Hallowed Basil",
-        "icon": 25010,
-        "id": 19918,
-        "slot": "6"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      6,
-      18
-    ],
-    "title": "Rustrock",
-    "zone": "The Peaks",
-    "coords": [
-      23.0,
-      16.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 524,
-    "condition": "Perception ≥ 1206",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Lotus Root",
-        "icon": 25226,
-        "id": 19865,
-        "slot": "7"
-      }
-    ],
-    "time": [
-      8,
-      20
-    ],
-    "title": "Valley of the Fallen Rainbow",
-    "zone": "Yanxia",
-    "coords": [
-      28.0,
-      8.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 525,
-    "condition": "Perception ≥ 1024",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Rhalgr's Streak",
-        "icon": 25507,
-        "id": 17948,
-        "slot": "1"
-      },
-      {
-        "item": "Jhammel Ginger",
-        "icon": 25012,
-        "id": 19857,
-        "slot": "3"
-      }
-    ],
-    "time": [
-      4,
-      16
-    ],
-    "title": "Abalathia's Skull",
-    "zone": "The Lochs",
-    "coords": [
-      7.0,
-      10.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 526,
-    "condition": "Perception ≥ 1067",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Torreya Log",
-        "icon": 22405,
-        "id": 19934,
-        "slot": "6"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      6,
-      18
-    ],
-    "title": "The High Bank",
-    "zone": "The Lochs",
-    "coords": [
-      11.0,
-      12.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 527,
-    "condition": "Perception ≥ 1206",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Rhea",
-        "icon": 21651,
-        "id": 19991,
-        "slot": "4"
-      },
-      {
-        "item": "Azim Cotton Boll",
-        "icon": 25037,
-        "id": 21086,
-        "slot": "5"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      0,
-      12
-    ],
-    "title": "Onsal Hakair",
-    "zone": "The Azim Steppe",
-    "coords": [
-      20.0,
-      10.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 528,
-    "condition": "Perception ≥ 1206",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Nightsteel Ore",
-        "icon": 21203,
-        "id": 22417,
-        "slot": "3"
-      },
-      {
-        "item": "Hawk's Eye",
-        "icon": 21228,
-        "id": 23179,
-        "slot": "7"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      6,
-      18
-    ],
-    "title": "East Othard Coastline",
-    "zone": "The Ruby Sea",
-    "coords": [
-      11.0,
-      22.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 535,
-    "condition": "Perception ≥ 1399",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.2
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Azim Spring Water",
-        "icon": 22678,
-        "id": 24255,
-        "slot": "1"
-      },
-      {
-        "item": "Silvergrace Ore",
-        "icon": 21213,
-        "id": 22418,
-        "slot": "6"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      8,
-      20
-    ],
-    "title": "Nhaama's Retreat",
-    "zone": "The Azim Steppe",
-    "coords": [
-      24.0,
-      37.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 536,
-    "condition": "Perception ≥ 1399",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.2
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Black Willow Log",
-        "icon": 22402,
-        "id": 22419,
-        "slot": "6"
-      },
-      {
-        "item": "Hardened Veteran Tree Sap",
-        "icon": 22638,
-        "id": 23180,
-        "slot": "4"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      4,
-      16
-    ],
-    "title": "Pike Falls",
-    "zone": "The Fringes",
-    "coords": [
-      15.0,
-      21.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 537,
-    "condition": "Perception ≥ 1399",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.2
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Hingan Flax",
-        "icon": 21673,
-        "id": 22420,
-        "slot": "4"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      2,
-      14
-    ],
-    "title": "Mount Yorn",
-    "zone": "The Peaks",
-    "coords": [
-      24.0,
-      36.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 538,
-    "condition": "Perception ≥ 1399",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.2
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Gyr Abanian Ore",
-        "icon": 21216,
-        "id": 24240,
-        "slot": "3"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      0,
-      12
-    ],
-    "title": "Virdjala",
-    "zone": "The Fringes",
-    "coords": [
-      27.0,
-      30.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 555,
-    "condition": "Perception ≥ 1592",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.4
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Evergleam Ore",
-        "icon": 21223,
-        "id": 24241,
-        "slot": "6"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      10,
-      22
-    ],
-    "title": "Loch Seld",
-    "zone": "The Lochs",
-    "coords": [
-      24.0,
-      12.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 556,
-    "condition": "Perception ≥ 1592",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.4
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Urunday Log",
-        "icon": 22420,
-        "id": 24242,
-        "slot": "6"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      4,
-      16
-    ],
-    "title": "Rustrock",
-    "zone": "The Peaks",
-    "coords": [
-      33.0,
-      10.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 557,
-    "condition": "Perception ≥ 1592",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.4
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Yanxian Cotton Boll",
-        "icon": 21652,
-        "id": 24243,
-        "slot": "4"
-      }
-    ],
-    "stars": 3,
-    "time": [
-      2,
-      14
-    ],
-    "title": "The Glittering Basin",
-    "zone": "Yanxia",
-    "coords": [
-      28.0,
-      34.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 558,
-    "condition": "Perception ≥ 1592",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 4.4
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Gale Rock",
-        "icon": 21473,
-        "id": 27805,
-        "slot": "6",
-        "reduce": {
-          "item": "Chiaroglow Aethersand",
-          "icon": 21235
-        }
-      },
-      {
-        "item": "Water Cluster",
-        "icon": 20014,
-        "id": 19,
-        "slot": "5"
-      },
-      {
-        "item": "Thunder Rock",
-        "icon": 21482,
-        "id": 30591,
-        "reduce": {
-          "item": "Earth Cluster",
-          "icon": 20018
-        }
-      }
-    ],
-    "stars": 2,
-    "time": [
-      0
-    ],
-    "title": "The K'mul Astropolis",
-    "zone": "The Rak'tika Greatwood",
-    "coords": [
-      24.2,
-      13.7
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 80,
-    "id": 597,
-    "patch": 5.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Solarite",
-        "icon": 21467,
-        "id": 27806,
-        "slot": "8",
-        "reduce": {
-          "item": "Scuroglow Aethersand",
-          "icon": 21233
-        }
-      },
-      {
-        "item": "Lightning Cluster",
-        "icon": 20017,
-        "id": 18,
-        "slot": "2"
-      },
-      {
-        "item": "Thunder Rock",
-        "icon": 21482,
-        "id": 30591,
-        "reduce": {
-          "item": "Earth Cluster",
-          "icon": 20018
-        }
-      }
-    ],
-    "stars": 2,
-    "time": [
-      8
-    ],
-    "title": "The Exarch Gate",
-    "zone": "Lakeland",
-    "coords": [
-      34.3,
-      29.0
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 80,
-    "id": 599,
-    "patch": 5.0
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Shade Quartz",
-        "icon": 21462,
-        "id": 27807,
-        "slot": "7",
-        "reduce": {
-          "item": "Agedeep Aethersand",
-          "icon": 21234
-        }
-      },
-      {
-        "item": "Fire Cluster",
-        "icon": 20013,
-        "id": 14,
-        "slot": "3"
-      },
-      {
-        "item": "Thunder Rock",
-        "icon": 21482,
-        "id": 30591,
-        "reduce": {
-          "item": "Earth Cluster",
-          "icon": 20018
-        }
-      }
-    ],
-    "stars": 2,
-    "time": [
-      16
-    ],
-    "title": "Komra",
-    "zone": "Kholusia",
-    "coords": [
-      33.2,
-      16.7
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 80,
-    "id": 601,
-    "patch": 5.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Raw Hematite",
-        "icon": 21476,
-        "id": 27726,
-        "slot": "8"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      2,
-      14
-    ],
-    "title": "Governor's Row",
-    "zone": "Kholusia",
-    "coords": [
-      34.0,
-      23.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 70,
-    "id": 603,
-    "condition": "Perception ≥ 1399",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Raw Diaspore",
-        "icon": 21473,
-        "id": 27727,
-        "slot": "6"
-      }
-    ],
-    "time": [
-      6,
-      18
-    ],
-    "title": "Sextuplet Shallow",
-    "zone": "Il Mheg",
-    "coords": [
-      26.0,
-      13.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 75,
-    "id": 604,
-    "condition": "Perception ≥ 1688",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Raw Lazurite",
-        "icon": 21472,
-        "id": 27728,
-        "slot": "7"
-      }
-    ],
-    "time": [
-      4,
-      16
-    ],
-    "title": "Cleric",
-    "zone": "The Rak'tika Greatwood",
-    "coords": [
-      19.0,
-      20.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 75,
-    "id": 605,
-    "condition": "Perception ≥ 1737",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Raw Triplite",
-        "icon": 21471,
-        "id": 27729,
-        "slot": "7"
-      }
-    ],
-    "time": [
-      0,
-      12
-    ],
-    "title": "Ladle",
-    "zone": "Amh Araeng",
-    "coords": [
-      20.1,
-      28.8
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 606,
-    "condition": "Perception ≥ 1828",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Raw Petalite",
-        "icon": 21477,
-        "id": 27730,
-        "slot": "8"
-      }
-    ],
-    "time": [
-      6,
-      18
-    ],
-    "title": "Weed",
-    "zone": "Lakeland",
-    "coords": [
-      29.0,
-      33.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 607,
-    "condition": "Perception ≥ 1919",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Raw Onyx",
-        "icon": 21231,
-        "id": 27731,
-        "slot": "7"
-      }
-    ],
-    "time": [
-      0,
-      12
-    ],
-    "title": "The Caliban Gorge",
-    "zone": "The Tempest",
-    "coords": [
-      15.8,
-      21.3
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 608,
-    "condition": "Perception ≥ 2010",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Prismstone",
-        "icon": 21232,
-        "id": 27705,
-        "slot": "7"
-      },
-      {
-        "item": "Beryllium Ore",
-        "icon": 21455,
-        "id": 28717,
-        "slot": "5"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      4,
-      16
-    ],
-    "title": "Saint Fathric's Temple",
-    "zone": "Il Mheg",
-    "coords": [
-      30.0,
-      21.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 609,
-    "condition": "Perception ≥ 2105",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Tungsten Ore",
-        "icon": 21203,
-        "id": 27704,
-        "slot": "3"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      10,
-      22
-    ],
-    "title": "Where the Dry Return",
-    "zone": "The Tempest",
-    "coords": [
-      32.7,
-      8.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 610,
-    "condition": "Perception ≥ 2105",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Bog Sage",
-        "icon": 25009,
-        "id": 27810,
-        "reduce": {
-          "item": "Agewood Aethersand",
-          "icon": 21236
-        }
-      },
-      {
-        "item": "Earth Cluster",
-        "icon": 20018,
-        "id": 17,
-        "slot": "7"
-      },
-      {
-        "item": "Levin Mint",
-        "icon": 25039,
-        "id": 30592,
-        "reduce": {
-          "item": "Lightning Cluster",
-          "icon": 20017
-        }
-      }
-    ],
-    "stars": 2,
-    "time": [
-      12
-    ],
-    "title": "The Bridges",
-    "zone": "Lakeland",
-    "coords": [
-      33.3,
-      36.0
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 80,
-    "id": 622,
-    "patch": 5.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Sweet Marjoram",
-        "icon": 25015,
-        "id": 27809,
-        "slot": "6",
-        "reduce": {
-          "item": "Scuroglow Aethersand",
-          "icon": 21233
-        }
-      },
-      {
-        "item": "Wind Cluster",
-        "icon": 20016,
-        "id": 16,
-        "slot": "4"
-      },
-      {
-        "item": "Levin Mint",
-        "icon": 25039,
-        "id": 30592,
-        "reduce": {
-          "item": "Lightning Cluster",
-          "icon": 20017
-        }
-      }
-    ],
-    "stars": 2,
-    "time": [
-      4
-    ],
-    "title": "The K'mul Astropolis",
-    "zone": "The Rak'tika Greatwood",
-    "coords": [
-      24.1,
-      15.1
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 80,
-    "id": 624,
-    "patch": 5.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "White Clay",
-        "icon": 22610,
-        "id": 27808,
-        "slot": "7",
-        "reduce": {
-          "item": "Chiaroglow Aethersand",
-          "icon": 21235
-        }
-      },
-      {
-        "item": "Ice Cluster",
-        "icon": 20015,
-        "id": 15,
-        "slot": "6"
-      },
-      {
-        "item": "Levin Mint",
-        "icon": 25039,
-        "id": 30592,
-        "reduce": {
-          "item": "Lightning Cluster",
-          "icon": 20017
-        }
-      }
-    ],
-    "stars": 2,
-    "time": [
-      20
-    ],
-    "title": "Tomra",
-    "zone": "Kholusia",
-    "coords": [
-      18.6,
-      5.9
-    ],
-    "name": "Ephemeral",
-    "uptime": 240,
-    "lvl": 80,
-    "id": 626,
-    "patch": 5.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Broad Beans",
-        "icon": 25353,
-        "id": 27833,
-        "slot": "2"
-      }
-    ],
-    "time": [
-      0,
-      12
-    ],
-    "title": "Phisor Lran",
-    "zone": "Il Mheg",
-    "coords": [
-      25.0,
-      36.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 75,
-    "id": 628,
-    "condition": "Perception ≥ 1688",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Peppermint",
-        "icon": 25016,
-        "id": 27836,
-        "slot": "6"
-      }
-    ],
-    "time": [
-      10,
-      22
-    ],
-    "title": "Embrasure",
-    "zone": "Lakeland",
-    "coords": [
-      27.0,
-      21.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 75,
-    "id": 629,
-    "condition": "Perception ≥ 1737",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Russet Popoto",
-        "icon": 25204,
-        "id": 27822,
-        "slot": "7"
-      }
-    ],
-    "time": [
-      8,
-      20
-    ],
-    "title": "The Dragging Tail",
-    "zone": "Amh Araeng",
-    "coords": [
-      19.6,
-      17.1
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 630,
-    "condition": "Perception ≥ 1828",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Mist Spinach",
-        "icon": 25206,
-        "id": 27828,
-        "slot": "6"
-      }
-    ],
-    "time": [
-      0,
-      12
-    ],
-    "title": "Bowrest",
-    "zone": "The Rak'tika Greatwood",
-    "coords": [
-      34.7,
-      21.5
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 631,
-    "condition": "Perception ≥ 1919",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Lemonette",
-        "icon": 25305,
-        "id": 27835,
-        "slot": "2"
-      }
-    ],
-    "time": [
-      6,
-      18
-    ],
-    "title": "Sharptongue Drip",
-    "zone": "Kholusia",
-    "coords": [
-      20.0,
-      27.0
-    ],
-    "name": "Unspoiled",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 632,
-    "condition": "Perception ≥ 2010",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Sandalwood Log",
-        "icon": 22401,
-        "id": 27688,
-        "slot": "6"
-      },
-      {
-        "item": "Sandalwood Sap",
-        "icon": 22638,
-        "id": 28716,
-        "slot": "4"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      2,
-      14
-    ],
-    "title": "Mjrl's Regret",
-    "zone": "The Rak'tika Greatwood",
-    "coords": [
-      24.0,
-      36.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 633,
-    "condition": "Perception ≥ 2105",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Ethereal Cocoon",
-        "icon": 21661,
-        "id": 27761,
-        "slot": "4"
-      }
-    ],
-    "stars": 1,
-    "time": [
-      8,
-      20
-    ],
-    "title": "Inviolate Witness",
-    "zone": "Lakeland",
-    "coords": [
-      26.0,
-      11.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 634,
-    "condition": "Perception ≥ 2105",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.0
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Fireheart Cobalt",
-        "icon": 21227,
-        "id": 29968,
-        "slot": "6"
-      },
-      {
-        "item": "Brashgold Ore",
-        "icon": 21227,
-        "id": 30486,
-        "slot": "7"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      2,
-      14
-    ],
-    "title": "The Isle of Ken",
-    "zone": "Lakeland",
-    "coords": [
-      4.7,
-      33.8
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 681,
-    "condition": "Perception ≥ 2316",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.2
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Purpure Shell Chip",
-        "icon": 21469,
-        "id": 29970,
-        "slot": "1"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      6,
-      18
-    ],
-    "title": "Purpure",
-    "zone": "The Tempest",
-    "coords": [
-      34.4,
-      31.3
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 682,
-    "condition": "Perception ≥ 2316",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.2
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Merbau Log",
-        "icon": 22423,
-        "id": 29972,
-        "slot": "6"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      8,
-      20
-    ],
-    "title": "Anden's Airs",
-    "zone": "Il Mheg",
-    "coords": [
-      36.5,
-      27.4
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 683,
-    "condition": "Perception ≥ 2316",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.2
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Imperial Fern",
-        "icon": 25038,
-        "id": 29978,
-        "slot": "3"
-      },
-      {
-        "item": "Tender Dill",
-        "icon": 25036,
-        "id": 30485,
-        "slot": "4"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      0,
-      12
-    ],
-    "title": "White Oil Falls",
-    "zone": "Kholusia",
-    "coords": [
-      28.0,
-      21.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 684,
-    "condition": "Perception ≥ 2316",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.2
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Ashen Alumen",
-        "icon": 22604,
-        "id": 29976,
-        "slot": "2"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      10,
-      22
-    ],
-    "title": "Mount Biran Mines",
-    "zone": "Amh Araeng",
-    "coords": [
-      20.1,
-      8.6
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 713,
-    "condition": "Perception ≥ 2316",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.2
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Duskblooms",
-        "icon": 25022,
-        "id": 29974,
-        "slot": "4"
-      }
-    ],
-    "stars": 2,
-    "time": [
-      4,
-      16
-    ],
-    "title": "The Nabaath Severance",
-    "zone": "Amh Araeng",
-    "coords": [
-      32.2,
-      33.4
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 714,
-    "condition": "Perception ≥ 2316",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.2
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Hard Water",
-        "icon": 22689,
-        "id": 32955
-      }
-    ],
-    "stars": 3,
-    "time": [
-      4,
-      16
-    ],
-    "title": "The Duergar's Tewel",
-    "zone": "Kholusia",
-    "coords": [
-      36.1,
-      12.2
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 758,
-    "condition": "Perception ≥ 2605",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.4
-  },
-  {
-    "type": "Rocky Outcropping",
-    "func": "node",
-    "items": [
-      {
-        "item": "Solstice Stone",
-        "icon": 21232,
-        "id": 32952
-      }
-    ],
-    "stars": 3,
-    "time": [
-      2,
-      14
-    ],
-    "title": "Voeburtenburg",
-    "zone": "Il Mheg",
-    "coords": [
-      35.6,
-      8.7
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 759,
-    "condition": "Perception ≥ 2605",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.4
-  },
-  {
-    "type": "Mineral Deposit",
-    "func": "node",
-    "items": [
-      {
-        "item": "Dolomite",
-        "icon": 21225,
-        "id": 32951,
-        "slot": " "
-      }
-    ],
-    "stars": 3,
-    "time": [
-      8,
-      20
-    ],
-    "title": "The Husk",
-    "zone": "The Rak'tika Greatwood",
-    "coords": [
-      7.5,
-      30.1
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 760,
-    "condition": "Perception ≥ 2605",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.4
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Wattle Petribark",
-        "icon": 22418,
-        "id": 32954
-      }
-    ],
-    "stars": 3,
-    "time": [
-      0,
-      12
-    ],
-    "title": "The Hour of Certain Durance",
-    "zone": "Lakeland",
-    "coords": [
-      5.2,
-      26.5
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 761,
-    "condition": "Perception ≥ 2605",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.4
-  },
-  {
-    "type": "Mature Tree",
-    "func": "node",
-    "items": [
-      {
-        "item": "Silver Beech Log",
-        "icon": 22412,
-        "id": 32950
-      }
-    ],
-    "stars": 3,
-    "time": [
-      6,
-      18
-    ],
-    "title": "Garik",
-    "zone": "Amh Araeng",
-    "coords": [
-      16.0,
-      11.0
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 762,
-    "condition": "Perception ≥ 2605",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.4
-  },
-  {
-    "type": "Lush Vegetation",
-    "func": "node",
-    "items": [
-      {
-        "item": "Raindrop Cotton Boll",
-        "icon": 25040,
-        "id": 32953
-      }
-    ],
-    "stars": 3,
-    "time": [
-      10,
-      22
-    ],
-    "title": "The Isle of Consorts",
-    "zone": "The Rak'tika Greatwood",
-    "coords": [
-      33.6,
-      13.2
-    ],
-    "name": "Legendary",
-    "uptime": 120,
-    "lvl": 80,
-    "id": 763,
-    "condition": "Perception ≥ 2605",
-    "bonus": " Gatherer's Boon Chance +40%",
-    "patch": 5.4
+    "patch": 3.2
   },
   {
     "type": "Mineral Deposit",
@@ -5520,8 +3415,8 @@
     "title": "The Ondo Cups",
     "zone": "The Tempest",
     "coords": [
-      32.7,
-      20.5
+      32.73,
+      20.58
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -5548,8 +3443,8 @@
     "title": "Virdjala",
     "zone": "The Fringes",
     "coords": [
-      31.5,
-      31.3
+      31.59,
+      31.41
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -5587,8 +3482,8 @@
     "title": "The Smoldering Wastes",
     "zone": "The Dravanian Forelands",
     "coords": [
-      29.1,
-      30.0
+      28.48,
+      29.4
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -5620,14 +3515,1913 @@
     "title": "Avalonia Fallen",
     "zone": "The Dravanian Forelands",
     "coords": [
-      16.1,
-      36.4
+      14.74,
+      36.15
     ],
     "name": "Unspoiled",
     "uptime": 120,
     "lvl": 60,
     "id": 769,
     "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Torreya Branch",
+        "icon": 22416,
+        "id": 19937,
+        "reduce": {
+          "item": "Everborn Aethersand",
+          "icon": 22649
+        }
+      },
+      {
+        "item": "Yanxian Verbena",
+        "icon": 25009,
+        "id": 23221,
+        "reduce": {
+          "item": "Duskglow Aethersand",
+          "icon": 21006
+        }
+      },
+      {
+        "item": "Ice Crystal",
+        "icon": 20009,
+        "id": 9
+      },
+      {
+        "item": "Ice Cluster",
+        "icon": 20015,
+        "id": 15
+      }
+    ],
+    "stars": 2,
+    "time": [
+      4
+    ],
+    "title": "The Queen's Gardens",
+    "zone": "The Lochs",
+    "coords": [
+      31.07,
+      26.97
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 70,
+    "id": 515,
+    "patch": 4.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Tungstite",
+        "icon": 21209,
+        "id": 16724
+      }
+    ],
+    "stars": 3,
+    "time": [
+      2,
+      14
+    ],
+    "title": "Twinpools",
+    "zone": "Coerthas Western Highlands",
+    "coords": [
+      8.54,
+      7.72
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 289,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.4
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Zeolite Ore",
+        "icon": 21210,
+        "id": 16726
+      }
+    ],
+    "stars": 3,
+    "time": [
+      8,
+      20
+    ],
+    "title": "The Ruling Quarter",
+    "zone": "The Dravanian Hinterlands",
+    "coords": [
+      15.18,
+      29.61
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 290,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Luminium Ore",
+        "icon": 21227,
+        "id": 16725
+      }
+    ],
+    "stars": 3,
+    "time": [
+      6,
+      18
+    ],
+    "title": "Alpha Quadrant",
+    "zone": "Azys Lla",
+    "coords": [
+      3.5,
+      14.95
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 291,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Teak Log",
+        "icon": 22403,
+        "id": 5392
+      }
+    ],
+    "stars": 3,
+    "time": [
+      0,
+      12
+    ],
+    "title": "The Answering Quarter",
+    "zone": "The Dravanian Hinterlands",
+    "coords": [
+      5.84,
+      27.32
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 292,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Star Cotton Boll",
+        "icon": 25032,
+        "id": 16721
+      }
+    ],
+    "stars": 3,
+    "time": [
+      4,
+      16
+    ],
+    "title": "Delta Quadrant",
+    "zone": "Azys Lla",
+    "coords": [
+      6.16,
+      29.55
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 293,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Brown Mushroom",
+        "icon": 25405,
+        "id": 16722
+      }
+    ],
+    "stars": 3,
+    "time": [
+      10,
+      22
+    ],
+    "title": "Greensward",
+    "zone": "The Churning Mists",
+    "coords": [
+      8.67,
+      37.89
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 299,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.4
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Noble Sage",
+        "icon": 25002,
+        "id": 16723
+      }
+    ],
+    "stars": 3,
+    "time": [
+      6,
+      18
+    ],
+    "title": "Chocobo Forest",
+    "zone": "The Dravanian Forelands",
+    "coords": [
+      34.31,
+      28.22
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 301,
+    "condition": "Perception ≥ 945",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 3.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Triphane",
+        "icon": 21474,
+        "id": 19968
+      }
+    ],
+    "stars": 2,
+    "time": [
+      2,
+      14
+    ],
+    "title": "The Striped Hills",
+    "zone": "The Fringes",
+    "coords": [
+      25.26,
+      8.29
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 60,
+    "id": 497,
+    "condition": "Perception ≥ 829",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Star Spinel",
+        "icon": 21475,
+        "id": 19970
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "East Othard Coastline",
+    "zone": "The Ruby Sea",
+    "coords": [
+      14.91,
+      5.04
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 65,
+    "id": 498,
+    "condition": "Perception ≥ 1003",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Rhodonite",
+        "icon": 21471,
+        "id": 19973
+      },
+      {
+        "item": "Pummelite",
+        "icon": 21209,
+        "id": 17944
+      }
+    ],
+    "time": [
+      8,
+      20
+    ],
+    "title": "Rustrock",
+    "zone": "The Peaks",
+    "coords": [
+      27.01,
+      12.61
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 499,
+    "condition": "Perception ≥ 1088",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Imperial Jade",
+        "icon": 21252,
+        "id": 19972
+      }
+    ],
+    "time": [
+      6,
+      18
+    ],
+    "title": "Valley of the Fallen Rainbow",
+    "zone": "Yanxia",
+    "coords": [
+      29.87,
+      9.35
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 500,
+    "condition": "Perception ≥ 1067",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Azurite",
+        "icon": 21472,
+        "id": 19971
+      }
+    ],
+    "time": [
+      4,
+      16
+    ],
+    "title": "The Towering Still",
+    "zone": "The Azim Steppe",
+    "coords": [
+      4.94,
+      29.55
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 501,
+    "condition": "Perception ≥ 1024",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Ala Mhigan Salt Crystal",
+        "icon": 22617,
+        "id": 19907
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "Loch Seld",
+    "zone": "The Lochs",
+    "coords": [
+      21.2,
+      28.95
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 502,
+    "condition": "Perception ≥ 1088",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Chromite Ore",
+        "icon": 21205,
+        "id": 19959
+      },
+      {
+        "item": "Gyr Abanian Spring Water",
+        "icon": 22614,
+        "id": 21085
+      }
+    ],
+    "stars": 1,
+    "time": [
+      10,
+      22
+    ],
+    "title": "Wightrock",
+    "zone": "The Peaks",
+    "coords": [
+      15.93,
+      33.95
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 503,
+    "condition": "Perception ≥ 1206",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Palladium Ore",
+        "icon": 21217,
+        "id": 19958
+      }
+    ],
+    "stars": 1,
+    "time": [
+      4,
+      16
+    ],
+    "title": "Doma",
+    "zone": "Yanxia",
+    "coords": [
+      20.46,
+      9.71
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 504,
+    "condition": "Perception ≥ 1206",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Windtea Leaves",
+        "icon": 25022,
+        "id": 19916
+      },
+      {
+        "item": "Countess Tea Leaves",
+        "icon": 25015,
+        "id": 33151
+      },
+      {
+        "item": "Yanxian Verbena",
+        "icon": 25009,
+        "id": 23221,
+        "reduce": {
+          "item": "Duskglow Aethersand",
+          "icon": 21006
+        }
+      },
+      {
+        "item": "Wind Crystal",
+        "icon": 20010,
+        "id": 10
+      },
+      {
+        "item": "Wind Cluster",
+        "icon": 20016,
+        "id": 16
+      }
+    ],
+    "stars": 2,
+    "time": [
+      16
+    ],
+    "title": "The Glittering Basin",
+    "zone": "Yanxia",
+    "coords": [
+      32.09,
+      26.69
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 70,
+    "id": 518,
+    "patch": 4.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Doman Yellow",
+        "icon": 27407,
+        "id": 20012,
+        "reduce": {
+          "item": "Dusklight Aethersand",
+          "icon": 21219
+        }
+      },
+      {
+        "item": "Yanxian Verbena",
+        "icon": 25009,
+        "id": 23221,
+        "reduce": {
+          "item": "Duskglow Aethersand",
+          "icon": 21006
+        }
+      },
+      {
+        "item": "Earth Crystal",
+        "icon": 20012,
+        "id": 11
+      },
+      {
+        "item": "Earth Cluster",
+        "icon": 20018,
+        "id": 17
+      }
+    ],
+    "stars": 2,
+    "time": [
+      8
+    ],
+    "title": "Nhaama's Retreat",
+    "zone": "The Azim Steppe",
+    "coords": [
+      25.74,
+      29.85
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 70,
+    "id": 520,
+    "patch": 4.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Bamboo Shoot",
+        "icon": 25229,
+        "id": 19860
+      }
+    ],
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Glittering Basin",
+    "zone": "Yanxia",
+    "coords": [
+      28.83,
+      25.58
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 65,
+    "id": 522,
+    "condition": "Perception ≥ 1003",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Othardian Plum",
+        "icon": 25311,
+        "id": 19852
+      }
+    ],
+    "time": [
+      2,
+      14
+    ],
+    "title": "Onsal Hakair",
+    "zone": "The Azim Steppe",
+    "coords": [
+      27.19,
+      16.29
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 523,
+    "condition": "Perception ≥ 1109",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Hallowed Basil",
+        "icon": 25010,
+        "id": 19918
+      }
+    ],
+    "stars": 1,
+    "time": [
+      6,
+      18
+    ],
+    "title": "Rustrock",
+    "zone": "The Peaks",
+    "coords": [
+      24.08,
+      16.56
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 524,
+    "condition": "Perception ≥ 1206",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Lotus Root",
+        "icon": 25226,
+        "id": 19865
+      }
+    ],
+    "time": [
+      8,
+      20
+    ],
+    "title": "Valley of the Fallen Rainbow",
+    "zone": "Yanxia",
+    "coords": [
+      28.09,
+      7.79
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 525,
+    "condition": "Perception ≥ 1024",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Jhammel Ginger",
+        "icon": 25012,
+        "id": 19857
+      },
+      {
+        "item": "Rhalgr's Streak",
+        "icon": 25507,
+        "id": 17948
+      }
+    ],
+    "time": [
+      4,
+      16
+    ],
+    "title": "Abalathia's Skull",
+    "zone": "The Lochs",
+    "coords": [
+      6.87,
+      8.99
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 526,
+    "condition": "Perception ≥ 1067",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Torreya Log",
+        "icon": 22405,
+        "id": 19934
+      }
+    ],
+    "stars": 1,
+    "time": [
+      6,
+      18
+    ],
+    "title": "The High Bank",
+    "zone": "The Lochs",
+    "coords": [
+      11.89,
+      12.73
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 527,
+    "condition": "Perception ≥ 1206",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rhea",
+        "icon": 21651,
+        "id": 19991
+      },
+      {
+        "item": "Azim Cotton Boll",
+        "icon": 25037,
+        "id": 21086
+      }
+    ],
+    "stars": 1,
+    "time": [
+      0,
+      12
+    ],
+    "title": "Onsal Hakair",
+    "zone": "The Azim Steppe",
+    "coords": [
+      19.72,
+      9.79
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 528,
+    "condition": "Perception ≥ 1206",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Nightsteel Ore",
+        "icon": 21203,
+        "id": 22417
+      },
+      {
+        "item": "Hawk's Eye",
+        "icon": 21228,
+        "id": 23179
+      }
+    ],
+    "stars": 2,
+    "time": [
+      6,
+      18
+    ],
+    "title": "East Othard Coastline",
+    "zone": "The Ruby Sea",
+    "coords": [
+      10.93,
+      22.56
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 535,
+    "condition": "Perception ≥ 1399",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.2
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Silvergrace Ore",
+        "icon": 21213,
+        "id": 22418
+      },
+      {
+        "item": "Azim Spring Water",
+        "icon": 22678,
+        "id": 24255
+      }
+    ],
+    "stars": 2,
+    "time": [
+      8,
+      20
+    ],
+    "title": "Nhaama's Retreat",
+    "zone": "The Azim Steppe",
+    "coords": [
+      24.14,
+      37.22
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 536,
+    "condition": "Perception ≥ 1399",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.2
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Black Willow Log",
+        "icon": 22402,
+        "id": 22419
+      },
+      {
+        "item": "Hardened Veteran Tree Sap",
+        "icon": 22638,
+        "id": 23180
+      }
+    ],
+    "stars": 2,
+    "time": [
+      4,
+      16
+    ],
+    "title": "Pike Falls",
+    "zone": "The Fringes",
+    "coords": [
+      14.89,
+      21.24
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 537,
+    "condition": "Perception ≥ 1399",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.2
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Hingan Flax",
+        "icon": 21673,
+        "id": 22420
+      }
+    ],
+    "stars": 2,
+    "time": [
+      2,
+      14
+    ],
+    "title": "Mount Yorn",
+    "zone": "The Peaks",
+    "coords": [
+      24.74,
+      36.11
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 538,
+    "condition": "Perception ≥ 1399",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.2
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Gyr Abanian Ore",
+        "icon": 21216,
+        "id": 24240
+      }
+    ],
+    "stars": 3,
+    "time": [
+      0,
+      12
+    ],
+    "title": "Virdjala",
+    "zone": "The Fringes",
+    "coords": [
+      27.37,
+      30.25
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 555,
+    "condition": "Perception ≥ 1592",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Evergleam Ore",
+        "icon": 21223,
+        "id": 24241
+      }
+    ],
+    "stars": 3,
+    "time": [
+      10,
+      22
+    ],
+    "title": "Loch Seld",
+    "zone": "The Lochs",
+    "coords": [
+      21.76,
+      13.53
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 556,
+    "condition": "Perception ≥ 1592",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Urunday Log",
+        "icon": 22420,
+        "id": 24242
+      }
+    ],
+    "stars": 3,
+    "time": [
+      4,
+      16
+    ],
+    "title": "Rustrock",
+    "zone": "The Peaks",
+    "coords": [
+      33.37,
+      10.63
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 557,
+    "condition": "Perception ≥ 1592",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.4
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Yanxian Cotton Boll",
+        "icon": 21652,
+        "id": 24243
+      }
+    ],
+    "stars": 3,
+    "time": [
+      2,
+      14
+    ],
+    "title": "The Glittering Basin",
+    "zone": "Yanxia",
+    "coords": [
+      28.35,
+      35.37
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 558,
+    "condition": "Perception ≥ 1592",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 4.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Gale Rock",
+        "icon": 21473,
+        "id": 27805,
+        "reduce": {
+          "item": "Chiaroglow Aethersand",
+          "icon": 21235
+        }
+      },
+      {
+        "item": "Thunder Rock",
+        "icon": 21482,
+        "id": 30591,
+        "reduce": {
+          "item": "Earth Cluster",
+          "icon": 20018
+        }
+      },
+      {
+        "item": "Water Crystal",
+        "icon": 20008,
+        "id": 13
+      },
+      {
+        "item": "Water Cluster",
+        "icon": 20014,
+        "id": 19
+      }
+    ],
+    "stars": 2,
+    "time": [
+      0
+    ],
+    "title": "The K'mul Astropolis",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      22.48,
+      11.87
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 597,
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Solarite",
+        "icon": 21467,
+        "id": 27806,
+        "reduce": {
+          "item": "Scuroglow Aethersand",
+          "icon": 21233
+        }
+      },
+      {
+        "item": "Thunder Rock",
+        "icon": 21482,
+        "id": 30591,
+        "reduce": {
+          "item": "Earth Cluster",
+          "icon": 20018
+        }
+      },
+      {
+        "item": "Lightning Crystal",
+        "icon": 20011,
+        "id": 12
+      },
+      {
+        "item": "Lightning Cluster",
+        "icon": 20017,
+        "id": 18
+      }
+    ],
+    "stars": 2,
+    "time": [
+      8
+    ],
+    "title": "The Exarch Gate",
+    "zone": "Lakeland",
+    "coords": [
+      35.47,
+      30.57
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 599,
+    "patch": 5.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Thunder Rock",
+        "icon": 21482,
+        "id": 30591,
+        "reduce": {
+          "item": "Earth Cluster",
+          "icon": 20018
+        }
+      },
+      {
+        "item": "Shade Quartz",
+        "icon": 21462,
+        "id": 27807,
+        "reduce": {
+          "item": "Agedeep Aethersand",
+          "icon": 21234
+        }
+      },
+      {
+        "item": "Fire Crystal",
+        "icon": 20007,
+        "id": 8
+      },
+      {
+        "item": "Fire Cluster",
+        "icon": 20013,
+        "id": 14
+      }
+    ],
+    "stars": 2,
+    "time": [
+      16
+    ],
+    "title": "Komra",
+    "zone": "Kholusia",
+    "coords": [
+      33.01,
+      18.54
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 601,
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Hematite",
+        "icon": 21476,
+        "id": 27726
+      }
+    ],
+    "stars": 2,
+    "time": [
+      2,
+      14
+    ],
+    "title": "Governor's Row",
+    "zone": "Kholusia",
+    "coords": [
+      33.97,
+      23.22
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 70,
+    "id": 603,
+    "condition": "Perception ≥ 1399",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Diaspore",
+        "icon": 21473,
+        "id": 27727
+      }
+    ],
+    "time": [
+      6,
+      18
+    ],
+    "title": "Sextuplet Shallow",
+    "zone": "Il Mheg",
+    "coords": [
+      26.48,
+      13.29
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 604,
+    "condition": "Perception ≥ 1688",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Lazurite",
+        "icon": 21472,
+        "id": 27728
+      }
+    ],
+    "time": [
+      4,
+      16
+    ],
+    "title": "Cleric",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      19.76,
+      20.54
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 605,
+    "condition": "Perception ≥ 1737",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Triplite",
+        "icon": 21471,
+        "id": 27729
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "Ladle",
+    "zone": "Amh Araeng",
+    "coords": [
+      20.0,
+      28.99
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 606,
+    "condition": "Perception ≥ 1828",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Petalite",
+        "icon": 21477,
+        "id": 27730
+      }
+    ],
+    "time": [
+      6,
+      18
+    ],
+    "title": "Weed",
+    "zone": "Lakeland",
+    "coords": [
+      28.17,
+      33.21
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 607,
+    "condition": "Perception ≥ 1919",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Onyx",
+        "icon": 21231,
+        "id": 27731
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "The Caliban Gorge",
+    "zone": "The Tempest",
+    "coords": [
+      15.99,
+      21.64
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 608,
+    "condition": "Perception ≥ 2010",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Prismstone",
+        "icon": 21232,
+        "id": 27705
+      },
+      {
+        "item": "Beryllium Ore",
+        "icon": 21455,
+        "id": 28717
+      }
+    ],
+    "stars": 1,
+    "time": [
+      4,
+      16
+    ],
+    "title": "Saint Fathric's Temple",
+    "zone": "Il Mheg",
+    "coords": [
+      30.59,
+      20.62
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 609,
+    "condition": "Perception ≥ 2105",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Tungsten Ore",
+        "icon": 21203,
+        "id": 27704
+      }
+    ],
+    "stars": 1,
+    "time": [
+      10,
+      22
+    ],
+    "title": "Where the Dry Return",
+    "zone": "The Tempest",
+    "coords": [
+      32.85,
+      7.69
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 610,
+    "condition": "Perception ≥ 2105",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Bog Sage",
+        "icon": 25009,
+        "id": 27810,
+        "reduce": {
+          "item": "Agewood Aethersand",
+          "icon": 21236
+        }
+      },
+      {
+        "item": "Levin Mint",
+        "icon": 25039,
+        "id": 30592,
+        "reduce": {
+          "item": "Lightning Cluster",
+          "icon": 20017
+        }
+      },
+      {
+        "item": "Earth Crystal",
+        "icon": 20012,
+        "id": 11
+      },
+      {
+        "item": "Earth Cluster",
+        "icon": 20018,
+        "id": 17
+      }
+    ],
+    "stars": 2,
+    "time": [
+      12
+    ],
+    "title": "The Bridges",
+    "zone": "Lakeland",
+    "coords": [
+      31.65,
+      36.55
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 622,
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Sweet Marjoram",
+        "icon": 25015,
+        "id": 27809,
+        "reduce": {
+          "item": "Scuroglow Aethersand",
+          "icon": 21233
+        }
+      },
+      {
+        "item": "Levin Mint",
+        "icon": 25039,
+        "id": 30592,
+        "reduce": {
+          "item": "Lightning Cluster",
+          "icon": 20017
+        }
+      },
+      {
+        "item": "Wind Crystal",
+        "icon": 20010,
+        "id": 10
+      },
+      {
+        "item": "Wind Cluster",
+        "icon": 20016,
+        "id": 16
+      }
+    ],
+    "stars": 2,
+    "time": [
+      4
+    ],
+    "title": "The K'mul Astropolis",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      22.52,
+      13.11
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 624,
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Levin Mint",
+        "icon": 25039,
+        "id": 30592,
+        "reduce": {
+          "item": "Lightning Cluster",
+          "icon": 20017
+        }
+      },
+      {
+        "item": "White Clay",
+        "icon": 22610,
+        "id": 27808,
+        "reduce": {
+          "item": "Chiaroglow Aethersand",
+          "icon": 21235
+        }
+      },
+      {
+        "item": "Ice Crystal",
+        "icon": 20009,
+        "id": 9
+      },
+      {
+        "item": "Ice Cluster",
+        "icon": 20015,
+        "id": 15
+      }
+    ],
+    "stars": 2,
+    "time": [
+      20
+    ],
+    "title": "Tomra",
+    "zone": "Kholusia",
+    "coords": [
+      18.66,
+      7.77
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 80,
+    "id": 626,
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Broad Beans",
+        "icon": 25353,
+        "id": 27833
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "Phisor Lran",
+    "zone": "Il Mheg",
+    "coords": [
+      24.88,
+      36.83
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 628,
+    "condition": "Perception ≥ 1688",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Peppermint",
+        "icon": 25016,
+        "id": 27836
+      }
+    ],
+    "time": [
+      10,
+      22
+    ],
+    "title": "Embrasure",
+    "zone": "Lakeland",
+    "coords": [
+      26.28,
+      20.68
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 75,
+    "id": 629,
+    "condition": "Perception ≥ 1737",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Russet Popoto",
+        "icon": 25204,
+        "id": 27822
+      }
+    ],
+    "time": [
+      8,
+      20
+    ],
+    "title": "The Dragging Tail",
+    "zone": "Amh Araeng",
+    "coords": [
+      19.34,
+      16.92
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 630,
+    "condition": "Perception ≥ 1828",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Mist Spinach",
+        "icon": 25206,
+        "id": 27828
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "Bowrest",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      34.73,
+      21.56
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 631,
+    "condition": "Perception ≥ 1919",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Lemonette",
+        "icon": 25305,
+        "id": 27835
+      }
+    ],
+    "time": [
+      6,
+      18
+    ],
+    "title": "Sharptongue Drip",
+    "zone": "Kholusia",
+    "coords": [
+      20.12,
+      27.35
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 632,
+    "condition": "Perception ≥ 2010",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Sandalwood Log",
+        "icon": 22401,
+        "id": 27688
+      },
+      {
+        "item": "Sandalwood Sap",
+        "icon": 22638,
+        "id": 28716
+      }
+    ],
+    "stars": 1,
+    "time": [
+      2,
+      14
+    ],
+    "title": "Mjrl's Regret",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      24.74,
+      36.94
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 633,
+    "condition": "Perception ≥ 2105",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Ethereal Cocoon",
+        "icon": 21661,
+        "id": 27761
+      }
+    ],
+    "stars": 1,
+    "time": [
+      8,
+      20
+    ],
+    "title": "Inviolate Witness",
+    "zone": "Lakeland",
+    "coords": [
+      26.48,
+      10.11
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 634,
+    "condition": "Perception ≥ 2105",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Brashgold Ore",
+        "icon": 21227,
+        "id": 30486
+      },
+      {
+        "item": "Fireheart Cobalt",
+        "icon": 21227,
+        "id": 29968
+      }
+    ],
+    "stars": 2,
+    "time": [
+      2,
+      14
+    ],
+    "title": "The Isle of Ken",
+    "zone": "Lakeland",
+    "coords": [
+      4.74,
+      34.01
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 681,
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.2
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Purpure Shell Chip",
+        "icon": 21469,
+        "id": 29970
+      }
+    ],
+    "stars": 2,
+    "time": [
+      6,
+      18
+    ],
+    "title": "Purpure",
+    "zone": "The Tempest",
+    "coords": [
+      34.45,
+      31.43
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 682,
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.2
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Merbau Log",
+        "icon": 22423,
+        "id": 29972
+      }
+    ],
+    "stars": 2,
+    "time": [
+      8,
+      20
+    ],
+    "title": "Anden's Airs",
+    "zone": "Il Mheg",
+    "coords": [
+      36.53,
+      27.43
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 683,
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.2
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Tender Dill",
+        "icon": 25036,
+        "id": 30485
+      },
+      {
+        "item": "Imperial Fern",
+        "icon": 25038,
+        "id": 29978
+      }
+    ],
+    "stars": 2,
+    "time": [
+      0,
+      12
+    ],
+    "title": "White Oil Falls",
+    "zone": "Kholusia",
+    "coords": [
+      28.45,
+      21.18
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 684,
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.2
   },
   {
     "type": "Mature Tree",
@@ -5653,8 +5447,8 @@
     "title": "Isari",
     "zone": "The Ruby Sea",
     "coords": [
-      5.9,
-      15.7
+      5.96,
+      15.77
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -5680,8 +5474,8 @@
     "title": "Shoal Rock",
     "zone": "The Ruby Sea",
     "coords": [
-      33.0,
-      9.2
+      33.11,
+      9.23
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -5713,8 +5507,8 @@
     "title": "Doma",
     "zone": "Yanxia",
     "coords": [
-      18.6,
-      14.3
+      18.7,
+      14.37
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -5746,8 +5540,8 @@
     "title": "The Woolen Way",
     "zone": "Il Mheg",
     "coords": [
-      4.0,
-      23.1
+      4.04,
+      23.12
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -5773,8 +5567,8 @@
     "title": "The Chisel",
     "zone": "Kholusia",
     "coords": [
-      27.8,
-      32.7
+      27.95,
+      32.79
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -5806,8 +5600,8 @@
     "title": "The Central Hills of Amber",
     "zone": "Amh Araeng",
     "coords": [
-      18.5,
-      20.4
+      18.6,
+      20.52
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -5840,8 +5634,8 @@
     "title": "The Norvrandt Slope",
     "zone": "The Tempest",
     "coords": [
-      37.4,
-      11.6
+      37.5,
+      11.63
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -5868,13 +5662,899 @@
     "title": "Heather Falls",
     "zone": "The Peaks",
     "coords": [
-      30.5,
-      6.8
+      30.61,
+      6.85
     ],
     "name": "Unspoiled",
     "uptime": 120,
     "lvl": 80,
     "id": 777,
     "patch": 5.4
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Ashen Alumen",
+        "icon": 22604,
+        "id": 29976
+      }
+    ],
+    "stars": 2,
+    "time": [
+      10,
+      22
+    ],
+    "title": "Mount Biran Mines",
+    "zone": "Amh Araeng",
+    "coords": [
+      20.18,
+      8.61
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 713,
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.2
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Duskblooms",
+        "icon": 25022,
+        "id": 29974
+      }
+    ],
+    "stars": 2,
+    "time": [
+      4,
+      16
+    ],
+    "title": "The Nabaath Severance",
+    "zone": "Amh Araeng",
+    "coords": [
+      32.25,
+      33.55
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 714,
+    "condition": "Perception ≥ 2316",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.2
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Hard Water",
+        "icon": 22689,
+        "id": 32955
+      }
+    ],
+    "stars": 3,
+    "time": [
+      4,
+      16
+    ],
+    "title": "The Duergar's Tewel",
+    "zone": "Kholusia",
+    "coords": [
+      36.19,
+      12.29
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 758,
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.4
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Solstice Stone",
+        "icon": 21232,
+        "id": 32952
+      }
+    ],
+    "stars": 3,
+    "time": [
+      2,
+      14
+    ],
+    "title": "Voeburtenburg",
+    "zone": "Il Mheg",
+    "coords": [
+      35.71,
+      8.71
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 759,
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Dolomite",
+        "icon": 21225,
+        "id": 32951
+      }
+    ],
+    "stars": 3,
+    "time": [
+      8,
+      20
+    ],
+    "title": "The Husk",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      7.59,
+      30.23
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 760,
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Wattle Petribark",
+        "icon": 22418,
+        "id": 32954
+      }
+    ],
+    "stars": 3,
+    "time": [
+      0,
+      12
+    ],
+    "title": "The Hour of Certain Durance",
+    "zone": "Lakeland",
+    "coords": [
+      5.24,
+      26.56
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 761,
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Silver Beech Log",
+        "icon": 22412,
+        "id": 32950
+      }
+    ],
+    "stars": 3,
+    "time": [
+      6,
+      18
+    ],
+    "title": "Garik",
+    "zone": "Amh Araeng",
+    "coords": [
+      16.13,
+      10.99
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 762,
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.4
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raindrop Cotton Boll",
+        "icon": 25040,
+        "id": 32953
+      }
+    ],
+    "stars": 3,
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Isle of Consorts",
+    "zone": "The Rak'tika Greatwood",
+    "coords": [
+      33.75,
+      13.31
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 80,
+    "id": 763,
+    "condition": "Perception ≥ 2605",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 5.4
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Lunar Quartz",
+        "icon": 21459,
+        "id": 36285
+      },
+      {
+        "item": "Earth Crystal",
+        "icon": 20012,
+        "id": 11
+      },
+      {
+        "item": "Earth Cluster",
+        "icon": 20018,
+        "id": 17
+      }
+    ],
+    "time": [
+      0
+    ],
+    "title": "The Numbing Brand",
+    "zone": "Mare Lamentorum",
+    "coords": [
+      21.68,
+      34.73
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 90,
+    "id": 827,
+    "patch": 6.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Ghostly Umbral Rock",
+        "icon": 21472,
+        "id": 36286
+      },
+      {
+        "item": "Lightning Crystal",
+        "icon": 20011,
+        "id": 12
+      },
+      {
+        "item": "Lightning Cluster",
+        "icon": 20017,
+        "id": 18
+      }
+    ],
+    "time": [
+      20
+    ],
+    "title": "Forum Patens",
+    "zone": "Garlemald",
+    "coords": [
+      10.11,
+      15.31
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 90,
+    "id": 828,
+    "patch": 6.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Raw Ametrine",
+        "icon": 21475,
+        "id": 36293,
+        "scrip": "White Gatherers' Scrip"
+      },
+      {
+        "item": "Rarefied Sharlayan Rock Salt",
+        "icon": 22688,
+        "id": 36295,
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "Psyche",
+    "zone": "Labyrinthos",
+    "coords": [
+      32.51,
+      21.26
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 85,
+    "id": 829,
+    "patch": 6.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Bismuth Ore",
+        "icon": 21217,
+        "id": 36294,
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      6,
+      18
+    ],
+    "title": "The Drowning Brand",
+    "zone": "Mare Lamentorum",
+    "coords": [
+      16.38,
+      32.65
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 85,
+    "id": 830,
+    "patch": 6.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Phrygian Ore",
+        "icon": 21206,
+        "id": 36296,
+        "scrip": "White Gatherers' Scrip"
+      },
+      {
+        "item": "Rarefied Eblan Alumen",
+        "icon": 22616,
+        "id": 36298,
+        "scrip": "Purple Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      2,
+      14
+    ],
+    "title": "Horrea Campi",
+    "zone": "Garlemald",
+    "coords": [
+      12.79,
+      21.9
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 831,
+    "patch": 6.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Blue Zircon",
+        "icon": 21472,
+        "id": 36297,
+        "scrip": "White Gatherers' Scrip"
+      },
+      {
+        "item": "Rarefied Annite",
+        "icon": 21226,
+        "id": 36299,
+        "scrip": "Purple Gatherers' Scrip"
+      }
+    ],
+    "stars": 1,
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Twelve Wonders",
+    "zone": "Elpis",
+    "coords": [
+      8.25,
+      36.59
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 832,
+    "patch": 6.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Pewter Ore",
+        "icon": 21211,
+        "id": 36300,
+        "scrip": "Purple Gatherers' Scrip"
+      }
+    ],
+    "stars": 1,
+    "time": [
+      4,
+      16
+    ],
+    "title": "Purusa",
+    "zone": "Thavnair",
+    "coords": [
+      32.55,
+      24.96
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 833,
+    "patch": 6.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Stonehard Water",
+        "icon": 22678,
+        "id": 36215
+      },
+      {
+        "item": "Rime Dolomite",
+        "icon": 21225,
+        "id": 36216
+      }
+    ],
+    "stars": 1,
+    "time": [
+      0,
+      12
+    ],
+    "title": "Juturna Platform G",
+    "zone": "Garlemald",
+    "coords": [
+      32.17,
+      34.89
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 834,
+    "condition": "Perception ≥ 3401",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 6.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Stonehard Water",
+        "icon": 22678,
+        "id": 36215
+      },
+      {
+        "item": "Lunar Adamantite Ore",
+        "icon": 21224,
+        "id": 36167
+      }
+    ],
+    "stars": 1,
+    "time": [
+      2,
+      14
+    ],
+    "title": "Kydonia Knolls",
+    "zone": "Mare Lamentorum",
+    "coords": [
+      9.53,
+      23.34
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 835,
+    "condition": "Perception ≥ 3401",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 6.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Stonehard Water",
+        "icon": 22678,
+        "id": 36215
+      },
+      {
+        "item": "Rhodium Sand",
+        "icon": "t/21244",
+        "id": 36179
+      }
+    ],
+    "stars": 1,
+    "time": [
+      4,
+      16
+    ],
+    "title": "Ktisis Hyperboreia",
+    "zone": "Elpis",
+    "coords": [
+      13.57,
+      7.19
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 836,
+    "condition": "Perception ≥ 3401",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 6.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Ewer Clay",
+        "icon": 21465,
+        "id": 36287
+      },
+      {
+        "item": "Wind Crystal",
+        "icon": 20010,
+        "id": 10
+      },
+      {
+        "item": "Wind Cluster",
+        "icon": 20016,
+        "id": 16
+      }
+    ],
+    "time": [
+      8
+    ],
+    "title": "Logistikon Gamma",
+    "zone": "Labyrinthos",
+    "coords": [
+      9.97,
+      34.91
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 90,
+    "id": 849,
+    "patch": 6.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Palm Chippings",
+        "icon": 22418,
+        "id": 36288
+      },
+      {
+        "item": "Fire Crystal",
+        "icon": 20007,
+        "id": 8
+      },
+      {
+        "item": "Fire Cluster",
+        "icon": 20013,
+        "id": 14
+      }
+    ],
+    "time": [
+      12
+    ],
+    "title": "Pavana's Remorse",
+    "zone": "Thavnair",
+    "coords": [
+      25.22,
+      14.35
+    ],
+    "name": "Ephemeral",
+    "uptime": 240,
+    "lvl": 90,
+    "id": 850,
+    "patch": 6.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Palm Log",
+        "icon": 22410,
+        "id": 36303,
+        "scrip": "White Gatherers' Scrip"
+      },
+      {
+        "item": "Rarefied Coconut",
+        "icon": "t/25323",
+        "id": 36305,
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      2,
+      14
+    ],
+    "title": "The Hamsa Hatchery",
+    "zone": "Thavnair",
+    "coords": [
+      14.39,
+      14.53
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 85,
+    "id": 851,
+    "patch": 6.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Red Pine Log",
+        "icon": 22403,
+        "id": 36304,
+        "scrip": "White Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      4,
+      16
+    ],
+    "title": "The Pipe",
+    "zone": "Garlemald",
+    "coords": [
+      35.07,
+      5.82
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 85,
+    "id": 852,
+    "patch": 6.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Sykon",
+        "icon": 25318,
+        "id": 36306,
+        "scrip": "White Gatherers' Scrip"
+      },
+      {
+        "item": "Rarefied Elder Nutmeg",
+        "icon": 25021,
+        "id": 36308,
+        "scrip": "Purple Gatherers' Scrip"
+      }
+    ],
+    "time": [
+      0,
+      12
+    ],
+    "title": "The Hungering Gardens",
+    "zone": "Elpis",
+    "coords": [
+      24.98,
+      5.64
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 853,
+    "patch": 6.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied Dark Rye",
+        "icon": 25359,
+        "id": 36307,
+        "scrip": "White Gatherers' Scrip"
+      },
+      {
+        "item": "Rarefied Iceberg Lettuce",
+        "icon": 25219,
+        "id": 36309,
+        "scrip": "Purple Gatherers' Scrip"
+      }
+    ],
+    "stars": 1,
+    "time": [
+      6,
+      18
+    ],
+    "title": "Logistikon Beta",
+    "zone": "Labyrinthos",
+    "coords": [
+      9.81,
+      22.08
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 854,
+    "patch": 6.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Rarefied AR-Caean Cotton Boll",
+        "icon": 25032,
+        "id": 36310,
+        "scrip": "Purple Gatherers' Scrip"
+      }
+    ],
+    "stars": 1,
+    "time": [
+      8,
+      20
+    ],
+    "title": "The Ragnarok",
+    "zone": "Ultima Thule",
+    "coords": [
+      9.47,
+      33.23
+    ],
+    "name": "Unspoiled",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 855,
+    "patch": 6.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Potent Spice",
+        "icon": 25024,
+        "id": 36214
+      },
+      {
+        "item": "Mempisang Log",
+        "icon": 22405,
+        "id": 36195
+      }
+    ],
+    "stars": 1,
+    "time": [
+      6,
+      18
+    ],
+    "title": "Lethe",
+    "zone": "Elpis",
+    "coords": [
+      33.17,
+      14.77
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 856,
+    "condition": "Perception ≥ 3401",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 6.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Potent Spice",
+        "icon": 25024,
+        "id": 36214
+      },
+      {
+        "item": "Golden Cocoon",
+        "icon": "t/21682",
+        "id": 36207
+      }
+    ],
+    "stars": 1,
+    "time": [
+      8,
+      20
+    ],
+    "title": "The Shroud of the Samgha",
+    "zone": "Thavnair",
+    "coords": [
+      25.3,
+      21.7
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 857,
+    "condition": "Perception ≥ 3401",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 6.0
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Potent Spice",
+        "icon": 25024,
+        "id": 36214
+      },
+      {
+        "item": "Double-edged Herb",
+        "icon": 25201,
+        "id": 36217
+      }
+    ],
+    "stars": 1,
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Tube",
+    "zone": "Ultima Thule",
+    "coords": [
+      28.05,
+      13.11
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 858,
+    "condition": "Perception ≥ 3401",
+    "bonus": " Gatherer's Boon Chance +40%",
+    "patch": 6.0
   }
 ];

@@ -115,6 +115,8 @@ namespace Garland.Data.Modules
 
                 _builder.Db.AddLocationReference((int)location.parentId);
             }
+
+            _builder.Db.LocationIndex = locationIndex;
         }
 
         void HackApplyTownWeatherRates()
