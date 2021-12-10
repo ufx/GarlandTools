@@ -52,7 +52,7 @@ namespace Garland.Data
         }
 
         // Let us do some hacks here for hq icon...
-        public static int EnsureEntryHQ(string type, ImageFile icon, int id)
+        public static int EnsureEntryHQ(string type, ImageFile icon, int id, SaintCoinach.ARealmReversed realm)
         {
             if (icon == null || icon.Path.EndsWith("000000.tex"))
             {
@@ -73,7 +73,7 @@ namespace Garland.Data
 
             // Check the file exists already.
             var iconDirectory = Path.Combine(Config.IconPath, type);
-            var fullPath = Path.Combine(iconDirectory, id.ToString() + "_hr1.png");
+            var fullPath = Path.Combine(iconDirectory, id.ToString() + ".png");
             if (File.Exists(fullPath))
                 return id;
 
@@ -84,7 +84,7 @@ namespace Garland.Data
 
             string iconPath = icon.Path;
             iconPath = iconPath.Replace(".tex", "_hr1.tex");
-            DatabaseBuilder.Instance.Realm.Packs.TryGetFile(iconPath, out var fileHQ);
+            realm.Packs.TryGetFile(iconPath, out var fileHQ);
             if (fileHQ != null)
             {
                 var iconHQ = (ImageFile)fileHQ;
@@ -100,9 +100,9 @@ namespace Garland.Data
             return id;
         }
 
-        public static int EnsureEntryHQ(string type, ImageFile icon)
+        public static int EnsureEntryHQ(string type, ImageFile icon, SaintCoinach.ARealmReversed realm)
         {
-            return EnsureEntryHQ(type, icon, Utils.GetIconId(icon));
+            return EnsureEntryHQ(type, icon, Utils.GetIconId(icon), realm);
         }
     }
 }

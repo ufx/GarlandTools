@@ -275,8 +275,10 @@ gt.bell = {
             patches.push('3');
         if (!_.contains(filters, '.patch-4'))
             patches.push('4');
-        if (!_.contains(filters, '.patch-5'))
+        if (!_.contains(filters, '.patch-5')){
             patches.push('5');
+            patches.push('0');
+        }
         if (!_.contains(filters, '.patch-6'))
             patches.push('6');
 
@@ -341,6 +343,9 @@ gt.bell = {
 
         // Patch filtering.
         if (def.patch) {
+            if (def.patch == 0.0) {
+                def.patch = 5.4;
+            }
             var patch = Number(def.patch).toFixed(1);
             if (!_.any(filters.patches, function(p) { return patch.indexOf(p) == 0; } ))
                 return true;
