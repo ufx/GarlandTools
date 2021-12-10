@@ -435,11 +435,11 @@ namespace Garland.Data.Modules
 
             foreach (var node in _builder.Db.Nodes)
             {
+                // Fill zone id for it, if it don't have one
                 if (node.points != null)
                 {
                     if (node.zoneid == null)
                     {
-                        // Fill zone id for it
                         foreach (dynamic point in node.points)
                         {
                             if (point.zoneid != null)
@@ -453,6 +453,7 @@ namespace Garland.Data.Modules
 
                 if (node.zoneid != null)
                 {
+                    // Add coords and radius to the node
                     if (ExportedPointByBaseId.TryGetValue((int)node.id.Value, out var sExportedBase))
                     {
                         node.radius = sExportedBase.AsInt32("Radius");
@@ -473,6 +474,7 @@ namespace Garland.Data.Modules
                         };
                     }
 
+                    // Add Reference of items
                     foreach (var gi in node.items)
                     {
                         int itemId = gi.id;
@@ -495,6 +497,7 @@ namespace Garland.Data.Modules
                 // This must be after the coords was set
                 if (node.points != null)
                 {
+                    // Union all times of this node
                     HashSet<int> allTimes = new HashSet<int>();
                     var uptime = 0;
                     foreach (dynamic point in node.points)
@@ -507,6 +510,7 @@ namespace Garland.Data.Modules
 
                     }
 
+                    // Add times to node
                     if (allTimes.Count > 0)
                     {
                         node.time = new JArray(allTimes);
