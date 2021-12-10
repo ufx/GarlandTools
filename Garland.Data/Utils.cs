@@ -108,6 +108,12 @@ namespace Garland.Data
             return lines.Select(l => l.Split('\t'));
         }
 
+        public static IEnumerable<string[]> Csv(string path)
+        {
+            var lines = System.IO.File.ReadAllLines(path);
+            return lines.Select(l => l.Split(','));
+        }
+
         public static JToken Json(string path)
         {
             var lines = System.IO.File.ReadAllText(path);

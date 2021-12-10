@@ -12,6 +12,7 @@
             <MenuItem Header="Database">
                 <MenuItem Header="Convert game client files" Click="ConvertFiles_Click" />
                 <Separator/>
+                <MenuItem Header="Calibrate icons based on..." Click="CalibrateIcon_Click" />
                 <MenuItem Header="Fetch item icons" Click="FetchIcons_Click" />
                 <Separator/>
                 <MenuItem Header="Deploy test data to production" Click="DeployTestToProduction_Click" />

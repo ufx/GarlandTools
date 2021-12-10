@@ -10,15 +10,17 @@ using Saint = SaintCoinach.Xiv;
 
 namespace Garland.Data
 {
-    public static class ItemIconDatabase
+    public class ItemIconDatabase
     {
-        // todo: do not keep this a static class so sequential runs work.
+        string _itemIconPath;
+        
+        bool _overwriteIcon = false;
+        Dictionary<UInt16, object> _iconPathsByIconId = new Dictionary<UInt16, object>();
+        public List<Saint.Item> ItemsNeedingIcons = new List<Saint.Item>();
 
-        static string _itemIconPath;
-        static Dictionary<UInt16, object> _iconPathsByIconId = new Dictionary<UInt16, object>();
-        public static List<Saint.Item> ItemsNeedingIcons = new List<Saint.Item>();
-
-        public static void Initialize(IEnumerable<Saint.Item> sItems)
+        public ItemIconDatabase() { }
+        
+        public void Initialize(IEnumerable<Saint.Item> sItems)
         {
             _itemIconPath = Path.Combine(Config.IconPath, "item");
             Directory.CreateDirectory(Path.Combine(_itemIconPath, "t"));
@@ -26,6 +28,8 @@ namespace Garland.Data
             // Load set of existing icon ids.
             foreach (var iconFileName in Directory.EnumerateFiles(_itemIconPath))
             {
+                if (iconFileName.Contains("json"))
+                    continue;
                 var iconId = UInt16.Parse(Path.GetFileNameWithoutExtension(iconFileName));
                 _iconPathsByIconId[iconId] = iconId;
             }
@@ -39,7 +43,7 @@ namespace Garland.Data
             }
         }
 
-        public static object EnsureIcon(Saint.Item sItem)
+        public object EnsureIcon(Saint.Item sItem)
         {
             var iconId = (UInt16)sItem.GetRaw("Icon");
             if (_iconPathsByIconId.TryGetValue(iconId, out var iconPath))
@@ -51,7 +55,7 @@ namespace Garland.Data
 
             // Write the temporary.
             var path = Path.Combine(_itemIconPath, temporaryId) + ".png";
-            if (File.Exists(path))
+            if (File.Exists(path) && !_overwriteIcon)
                 return temporaryId;
 
             var image = sItem.Icon.GetImage();
@@ -60,13 +64,13 @@ namespace Garland.Data
             return temporaryId;
         }
 
-        public static bool HasIcon(UInt16 iconId)
+        public bool HasIcon(UInt16 iconId)
         {
             lock (_iconPathsByIconId)
                 return _iconPathsByIconId.ContainsKey(iconId);
         }
 
-        public static void WriteIcon(UInt16 iconId, byte[] bytes)
+        public void WriteIcon(UInt16 iconId, byte[] bytes)
         {
             lock (_iconPathsByIconId)
             {

@@ -17,6 +17,7 @@ namespace Garland.Data
     {
         SaintCoinach.ARealmReversed _realm;
         GarlandDatabase _db;
+        ItemIconDatabase _itemIconDatabase;
         SQLite.SQLiteConnection _libra;
 
         #region Builder state - to organize
@@ -31,6 +32,7 @@ namespace Garland.Data
         public Localize Localize;
         public SaintCoinach.ARealmReversed Realm => _realm;
         public GarlandDatabase Db => _db;
+        public ItemIconDatabase ItemIconDatabase => _itemIconDatabase;
         public Saint.Item[] ItemsToImport;
         public Dictionary<int, LocationInfo> LocationInfoByMapId = new Dictionary<int, LocationInfo>();
         public Dictionary<int, string> EmoteNamesById = new Dictionary<int, string>();
@@ -53,17 +55,19 @@ namespace Garland.Data
         public void Build(bool fetchIconsOnly)
         {
             OneTimeExports.Run(_realm);
-                
+
             // Miscellaneous initialization
+            _itemIconDatabase = new ItemIconDatabase();
+
             ItemsToImport = Sheet<Saint.Item>()
                 .Where(i => !Hacks.IsItemSkipped(i.Name, i.Key))
                 .ToArray();
 
-            ItemIconDatabase.Initialize(ItemsToImport);
+            _itemIconDatabase.Initialize(ItemsToImport);
 
             if (fetchIconsOnly)
             {
-                new Lodestone.LodestoneIconScraper().FetchIcons();
+                new Lodestone.LodestoneIconScraper(_itemIconDatabase).FetchIcons();
                 PrintLine("All icons fetched.  Stopping.");
                 return;
             }
