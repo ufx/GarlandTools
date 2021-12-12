@@ -10,6 +10,7 @@
             return obj;
 
         if (typeof obj == 'string') {
+            obj = obj.trim();
             var value = gt.locale[lang][obj];
             return value ? value : obj;
         }
@@ -55,7 +56,8 @@
         // weather data
         "Clear Skies":"碧空","Fair Skies":"晴朗","Clouds":"阴云","Fog":"薄雾","Wind":"微风","Gales":"暴风","Rain":"小雨","Showers":"暴雨","Thunder":"打雷","Thunderstorms":"雷雨","Dust Storms":"扬沙","Sandstorms":"沙尘暴","Hot Spells":"高温","Heat Waves":"热浪","Snow":"小雪","Blizzards":"暴雪","Gloom":"妖雾","Auroras":"极光","Darkness":"黑暗","Tension":"绝命","Storm Clouds":"雷云","Rough Seas":"暴风雨","Louring":"阴沉","Eruptions":"烟雾","Irradiance":"极光","Core Radiation":"辉核","Shelf Clouds":"滩云","Oppression":"神意","Umbral Wind":"灵风","Umbral Static":"灵电","Smoke":"烟武","Royal Levin":"兽雷","Hyperelectricity":"雷波","Multiplicity":"神秘","Dragonstorms":"邪天","Subterrain":"晴朗","Concordance":"平衡","Beyond Time":"时光","Demonic Infinity":"鬼气","Dimensional Disruption":"次元","Revelstorms":"豪雨","Eternal Bliss":"极乐","Wyrmstorms":"龙威","Quicklevin":"迅雷","White Cyclones":"白旋风","Ultimania":"幻想","Moonlight":"月夜","Red Moon":"红月下","Scarlet":"朱炎","Flames":"烈焰","Tsunamis":"海啸","Cyclones":"龙卷风","Geostorms":"地震","True Blue":"青空","Umbral Turbulence":"乱灵流","Everlasting Light":"无尽光","Termination":"末日","Dreams":"妖梦","Brilliance":"光天","Umbral Flare":"灵烈火","Umbral Duststorm":"灵飘尘","Umbral Levin":"灵飞电","Umbral Tempest":"灵罡风","Starshower":"流星雨","Delirium":"记忆乱流","Firestorm":"火风暴","Spectral Current":"幻海流","Climactic":"决战",
         // other
-        "Perception": "鉴别力", "Gathering": "获得力", "Gathering Rate": "获得率", "Gathering Fortune": "优质率", "Cooldown": "冷却", "hours": "小时", "maintenance": "维护",
+        "Perception": "鉴别力", "Gathering": "获得力", "Gathering Rate": "获得率", "Gathering Fortune": "优质率", "Cooldown": "冷却",
+        "hours": "小时", "maintenance": "维护", "Gatherer's Boon Chance":"额外获得力",
         "Mining": "采矿工", "Botany": "园艺工", "Fishing": "捕鱼人",
         "Unspoiled": "未知的", "Ephemeral": "限时的", "Legendary": "传说的",
         "Lush Vegetation": "草场", "Mineral Deposit": "矿脉", "Mature Tree": "良材", "Rocky Outcropping":"石场", "Spearfishing":"刺鱼",

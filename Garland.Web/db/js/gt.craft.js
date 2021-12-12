@@ -680,6 +680,16 @@ gt.craft.step.prototype.discoverSource = function(itemSettings) {
         return; // Don't bother with other sources for crystals.
     }
 
+    if (gt.settings.data.preferGathering && this.item.nodes) {
+        gt.node.resolveCraftSource(this);
+        return;
+    }
+
+    if (gt.settings.data.preferCrafting && this.item.craft) {
+        this.setCraftSource(itemSettings);
+        return;
+    }
+
     // Vendors are the easiest and best source.
     if (this.item.vendors) {
         gt.npc.resolveCraftSource(this);

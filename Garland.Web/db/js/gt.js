@@ -4519,6 +4519,8 @@ gt.settings = {
         botanyVentures: 0,
         fisherVentures: 0,
         combatVentures: 0,
+        preferGathering: 0,
+        preferCrafting: 0,
         isearchOnActivate: 0
     },
 
@@ -4690,6 +4692,14 @@ gt.settings = {
             .prop('checked', data.combatVentures)
             .change(gt.settings.preferCombatVenturesChanged);
 
+        $('#prefer-gathering')
+            .prop('checked', data.preferGathering)
+            .change(gt.settings.preferGarheringChanged);
+
+        $('#prefer-crafting')
+            .prop('checked', data.preferCrafting)
+            .change(gt.settings.preferCraftingChanged);
+
         $('#isearch-on-activate')
             .prop('checked', data.isearchOnActivate)
             .change(gt.settings.isearchOnActivateChanged);
@@ -4848,6 +4858,18 @@ gt.settings = {
     preferCombatVenturesChanged: function(e) {
         var value = $(this).is(':checked');
         gt.settings.saveDirty({ combatVentures: value ? 1 : 0 });
+        gt.settings.redisplayMatchingBlocks('.crafting-page');
+    },
+
+    preferGarheringChanged: function(e) {
+        var value = $(this).is(':checked');
+        gt.settings.saveDirty({ preferGathering: value ? 1 : 0 });
+        gt.settings.redisplayMatchingBlocks('.crafting-page');
+    },
+
+    preferCraftingChanged: function(e) {
+        var value = $(this).is(':checked');
+        gt.settings.saveDirty({ preferCrafting: value ? 1 : 0 });
         gt.settings.redisplayMatchingBlocks('.crafting-page');
     },
 
@@ -8568,6 +8590,16 @@ gt.craft.step.prototype.discoverSource = function(itemSettings) {
         this.category = 'Crystal';
         this.type = 'crystal';
         return; // Don't bother with other sources for crystals.
+    }
+
+    if (gt.settings.data.preferGathering && this.item.nodes) {
+        gt.node.resolveCraftSource(this);
+        return;
+    }
+
+    if (gt.settings.data.preferCrafting && this.item.craft) {
+        this.setCraftSource(itemSettings);
+        return;
     }
 
     // Vendors are the easiest and best source.
