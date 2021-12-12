@@ -10,7 +10,7 @@ gt = {
 
     tw: function(str) {
         // So nasty
-        var regex = /[a-zA-Z\s]+[a-zA-Z$]+/;
+        var regex = /[a-zA-Z'\s]+[a-zA-Z'$]+/;
         var word = regex.exec(str)[0];
         var value = str.split(regex)[1];
         return gt.locale.translate(word) + value;
