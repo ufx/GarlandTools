@@ -63,7 +63,7 @@
     <script id="node-content-block-template" type="text/x-dot-template">
         <div class="entry-list">
             {{~it.node.items :entry:itemIndex}}
-                <a class="entry" href="../db/#item/{{=entry.id}}">
+                <a class="entry" target="_blank" href="../db/#item/{{=entry.id}}">
                     <img src="../files/icons/item/{{=entry.icon}}.png" class="icon">
                     {{?entry.slot}}<span class="valign deemphasize">[{{=entry.slot}}]</span> {{?}}
                     {{?entry.scrip}}
@@ -110,7 +110,7 @@
                         <img src="../db/images/item/Collectable.png" class="suffix-icon" title="{{=gt.t('Collectable')}}">
                     {{?}}
 
-                    <a class="entry" href="../db/#item/{{=entry.id}}">{{=gt.t(entry.item)}}</a>
+                    <a class="entry" target="_blank" href="../db/#item/{{=entry.id}}">{{=gt.t(entry.item)}}</a>
 
                     {{?entry.reduce && entry.reduce.item}}
                         <div class="bait">
@@ -149,7 +149,7 @@
     </script>
 
     <script id="fish-entry-block-template" type="text/x-dot-template">
-        <a class="entry" href="../db/#item/{{=it.id}}">
+        <a class="entry" target="_blank" href="../db/#item/{{=it.id}}">
             <img src="../files/icons/item/{{=it.icon}}.png" class="icon">
             <span class="valign">{{=gt.t(it.name)}}{{?it.predatorAmount}} [{{=it.predatorAmount}}]{{?}}</span>
 
@@ -223,7 +223,7 @@
                     <img src="../db/images/item/Reduce.png" class="suffix-icon" title="{{=gt.t('Aetherial Reduction possible')}}">
                 {{?}}
 
-                <a class="entry" href="../db/#item/{{=it.id}}">
+                <a class="entry" target="_blank" href="../db/#item/{{=it.id}}">
                     {{=gt.t(it.def.name)}}{{?it.def.predatorAmount}} [{{=it.def.predatorAmount}}]{{?}}
                 </a>
 
