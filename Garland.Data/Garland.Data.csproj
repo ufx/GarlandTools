@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Garland.Data</RootNamespace>
     <AssemblyName>Garland.Data</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -73,6 +73,7 @@
     <Compile Include="GarlandDatabase.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Hacks.cs" />
+    <Compile Include="Helpers\ItemIconCalibrator.cs" />
     <Compile Include="Helpers\ParamHelper.cs" />
     <Compile Include="HtmlStringFormatter.cs" />
     <Compile Include="IconDatabase.cs" />

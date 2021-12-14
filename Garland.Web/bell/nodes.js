@@ -1719,7 +1719,7 @@
     "uptime": 120,
     "lvl": 55,
     "id": 306,
-    "patch": 0.0
+    "patch": 3.99
   },
   {
     "type": "Mineral Deposit",
@@ -1752,7 +1752,7 @@
     "uptime": 120,
     "lvl": 60,
     "id": 308,
-    "patch": 0.0
+    "patch": 3.99
   },
   {
     "type": "Mineral Deposit",
@@ -1785,7 +1785,7 @@
     "uptime": 120,
     "lvl": 65,
     "id": 310,
-    "patch": 0.0
+    "patch": 4.99
   },
   {
     "type": "Rocky Outcropping",
@@ -1879,7 +1879,7 @@
     "uptime": 120,
     "lvl": 65,
     "id": 312,
-    "patch": 0.0
+    "patch": 4.99
   },
   {
     "type": "Mineral Deposit",
@@ -1912,7 +1912,7 @@
     "uptime": 120,
     "lvl": 70,
     "id": 328,
-    "patch": 0.0
+    "patch": 4.99
   },
   {
     "type": "Mineral Deposit",
@@ -1945,7 +1945,7 @@
     "uptime": 120,
     "lvl": 75,
     "id": 330,
-    "patch": 0.0
+    "patch": 5.4
   },
   {
     "type": "Rocky Outcropping",
@@ -2039,7 +2039,7 @@
     "uptime": 120,
     "lvl": 75,
     "id": 332,
-    "patch": 0.0
+    "patch": 5.4
   },
   {
     "type": "Mineral Deposit",
@@ -2072,7 +2072,7 @@
     "uptime": 120,
     "lvl": 80,
     "id": 334,
-    "patch": 0.0
+    "patch": 5.4
   },
   {
     "type": "Rocky Outcropping",
@@ -6207,7 +6207,7 @@
       },
       {
         "item": "Rhodium Sand",
-        "icon": "t/21244",
+        "icon": 21244,
         "id": 36179
       }
     ],
@@ -6312,7 +6312,7 @@
       },
       {
         "item": "Rarefied Coconut",
-        "icon": "t/25323",
+        "icon": 25323,
         "id": 36305,
         "scrip": "White Gatherers' Scrip"
       }
@@ -6500,7 +6500,7 @@
       },
       {
         "item": "Golden Cocoon",
-        "icon": "t/21682",
+        "icon": 21682,
         "id": 36207
       }
     ],
