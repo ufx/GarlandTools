@@ -1808,7 +1808,10 @@ gt.timer.fish = function(now, def) {
     this.isTimed = def.during || def.weather;
 
     if (def.zone && def.coords)
-        this.map = gt.map.getViewModel(def.zone, def.coords);
+        if (def.zone == "Limsa Lominsa")
+            this.map = gt.map.getViewModel(def.title, def.coords);
+        else
+            this.map = gt.map.getViewModel(def.zone, def.coords);
 
     def.baitTokens = gt.bell.tokenizeBait(def.bait);
 
