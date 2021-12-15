@@ -6207,7 +6207,7 @@
       },
       {
         "item": "Rhodium Sand",
-        "icon": "t/21244",
+        "icon": 21244,
         "id": 36179
       }
     ],
@@ -6312,7 +6312,7 @@
       },
       {
         "item": "Rarefied Coconut",
-        "icon": "t/25323",
+        "icon": 25323,
         "id": 36305,
         "scrip": "White Gatherers' Scrip"
       }
@@ -6500,7 +6500,7 @@
       },
       {
         "item": "Golden Cocoon",
-        "icon": "t/21682",
+        "icon": 21682,
         "id": 36207
       }
     ],
