@@ -135,6 +135,7 @@
     </script>
 
     <script id="fish-bait-template" type="text/x-dot-template">
+
         <div class="bait">
             {{~it.baitTokens :token:index}}
                 {{?token.comma}}
@@ -142,7 +143,9 @@
                 {{??token.arrow}}
                     <span class="valign">➜</span> 
                 {{??}}
-                    <img src="../files/icons/item/{{=token.icon}}.png" class="icon" title="{{=gt.t(token.name)}}{{?token.mooch}} ({{=gt.t('mooch')}}){{?}}">
+                    <a target="_blank" href="../db/#item/{{=token.id}}">
+                        <img src="../files/icons/item/{{=token.icon}}.png" class="icon" title="{{=gt.t(token.name)}}{{?token.mooch}} ({{=gt.t('mooch')}}){{?}}">
+                    </a>
                 {{?}}
             {{~}}
         </div>
