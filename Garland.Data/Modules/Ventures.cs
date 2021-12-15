@@ -45,7 +45,7 @@ namespace Garland.Data.Modules
                         var ilvl3 = sRetainerTaskParameter.AsInt32("ItemLevel{DoW}[1]");
                         var ilvl4 = sRetainerTaskParameter.AsInt32("ItemLevel{DoW}[2]");
                         var ilvl5 = sRetainerTaskParameter.AsInt32("ItemLevel{DoW}[3]");
-                        venture.ilvl = new JArray(sVenture.RequiredItemLevel, ilvl2, ilvl3);
+                        venture.ilvl = new JArray(sVenture.RequiredItemLevel, ilvl2, ilvl3, ilvl4, ilvl5);
                     }
                     else if (classJobCategoryKey == 17 || classJobCategoryKey == 18)
                     {
