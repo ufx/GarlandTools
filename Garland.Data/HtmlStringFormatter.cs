@@ -47,7 +47,7 @@ namespace Garland.Data
 
                 case TagType.Sheet:
                     if (genericText == "<Sheet(Addon,9,0)/>")
-                        return "<img class=\"hq-icon small\" src=\"images/hq.png\">";
+                        return "<img class=\"hq-icon small\" src=\"images/item/hq.png\">";
                     else if (genericText.Contains("GCRank"))
                         return "[GC Rank]";
                     else if (genericText == "<Sheet(Race,PlayerParameter(71),0)/>")
