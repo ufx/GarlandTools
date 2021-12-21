@@ -6038,7 +6038,7 @@
     "func": "node",
     "items": [
       {
-        "item": "Rarefied Phrygian Ore",
+        "item": "Rarefied Phrygian Gold Ore",
         "icon": 21206,
         "id": 36296,
         "scrip": "White Gatherers' Scrip"
