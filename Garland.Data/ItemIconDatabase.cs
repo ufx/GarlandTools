@@ -13,12 +13,15 @@ namespace Garland.Data
     public class ItemIconDatabase
     {
         string _itemIconPath;
+        DatabaseBuilder _builder;
         
         bool _overwriteIcon = false;
         Dictionary<UInt16, object> _iconPathsByIconId = new Dictionary<UInt16, object>();
         public List<Saint.Item> ItemsNeedingIcons = new List<Saint.Item>();
 
-        public ItemIconDatabase() { }
+        public ItemIconDatabase(DatabaseBuilder builder) {
+            _builder = builder;
+        }
         
         public void Initialize(IEnumerable<Saint.Item> sItems)
         {
@@ -58,7 +61,20 @@ namespace Garland.Data
             if (File.Exists(path) && !_overwriteIcon)
                 return temporaryId;
 
-            var image = sItem.Icon.GetImage();
+            System.Drawing.Image image = null;
+
+            string sIconPath = sItem.Icon.Path;
+            sIconPath = sIconPath.Replace(".tex", "_hr1.tex");
+            _builder.Realm.Packs.TryGetFile(sIconPath, out var fileHQ);
+            if (fileHQ != null)
+            {
+                var iconHQ = (ImageFile)fileHQ;
+                image = iconHQ.GetImage();
+            }
+            else
+            {
+                image = sItem.Icon.GetImage();
+            }
             image.Save(path, System.Drawing.Imaging.ImageFormat.Png);
 
             return temporaryId;

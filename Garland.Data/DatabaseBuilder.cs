@@ -57,7 +57,7 @@ namespace Garland.Data
             OneTimeExports.Run(_realm);
 
             // Miscellaneous initialization
-            _itemIconDatabase = new ItemIconDatabase();
+            _itemIconDatabase = new ItemIconDatabase(this);
 
             ItemsToImport = Sheet<Saint.Item>()
                 .Where(i => !Hacks.IsItemSkipped(i.Name, i.Key))
