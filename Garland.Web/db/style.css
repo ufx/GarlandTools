@@ -2143,6 +2143,14 @@ body.dirty #dirty-indicator {
     border: 0;
 }
 
+.block.item .fish-shadow {
+    width: 64px;
+}
+
+.block.item .text.fish-speed {
+    top: 12px;
+}
+
 /* Subsection General */
 
 .subsection {

@@ -5,7 +5,7 @@ gt.fishing = {
     index: {},
     version: 2,
     partialIndex: {},
-    categories: ['Ocean Fishing', 'Freshwater Fishing', 'Dunefishing', 'Skyfishing', 'Cloudfishing', 'Hellfishing', 'Aetherfishing', 'Saltfishing'],
+    categories: ['Ocean Fishing', 'Freshwater Fishing', 'Dunefishing', 'Skyfishing', 'Cloudfishing', 'Hellfishing', 'Aetherfishing', 'Saltfishing', 'Starfishing'],
     browse: [
         { type: 'group', prop: 'region' },
         { type: 'group', prop: 'location' },

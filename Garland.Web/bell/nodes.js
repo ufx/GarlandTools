@@ -2436,7 +2436,11 @@
       {
         "item": "Pot Marjoram",
         "icon": 25010,
-        "id": 33148
+        "id": 33148,
+        "reduce": {
+          "item": "Duskborne Aethersand",
+          "icon": 22613
+        }
       },
       {
         "item": "Furymint",
@@ -2514,7 +2518,11 @@
       {
         "item": "Pot Marjoram",
         "icon": 25010,
-        "id": 33148
+        "id": 33148,
+        "reduce": {
+          "item": "Duskborne Aethersand",
+          "icon": 22613
+        }
       },
       {
         "item": "Furymint",
@@ -4025,7 +4033,11 @@
       {
         "item": "Countess Tea Leaves",
         "icon": 25015,
-        "id": 33151
+        "id": 33151,
+        "reduce": {
+          "item": "Dawnlight Aethersand",
+          "icon": 22210
+        }
       },
       {
         "item": "Yanxian Verbena",
