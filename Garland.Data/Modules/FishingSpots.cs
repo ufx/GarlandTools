@@ -17,6 +17,8 @@ namespace Garland.Data.Modules
         Dictionary<string, dynamic> _fishingSpotsByName = new Dictionary<string, dynamic>();
         List<dynamic> _fishItems = new List<dynamic>();
 
+        string[] _comma = new string[] { ", " };
+
         Dictionary<string, Tuple<int, int, int>> _hackFishingSpotLocations = new Dictionary<string, Tuple<int, int, int>>()
         {
             // Diadem fishing spots have no set coordinates.
@@ -52,6 +54,14 @@ namespace Garland.Data.Modules
             147, 150
         };
 
+        Dictionary<string, int> _statusesByName = new Dictionary<string, int>()
+        {
+            ["Salvage"] = 1172,
+            ["Truth of Oceans"] = 1173,
+            ["Fisher's Intuition"] = 568,
+            ["Spearfisher's Intuition"] = 2891,
+        };
+
         public override string Name => "Fish";
 
         public override void Start()
@@ -59,6 +69,7 @@ namespace Garland.Data.Modules
             BuildFishingSpots();
             BuildFish();
             BuildSupplementalFishData();
+            BuildSupplementalSpearfishData();
             BuildBaitChains();
         }
 
@@ -140,8 +151,6 @@ namespace Garland.Data.Modules
 
         void BuildSupplementalFishData()
         {
-            var comma = new string[] { ", " };
-
             dynamic currentFishingSpot = null;
             JArray currentFishingSpotItems = null;
             dynamic currentNode = null;
@@ -151,7 +160,13 @@ namespace Garland.Data.Modules
             foreach (var rLine in lines.Skip(1))
             {
                 // Line data
-                var name = rLine[0];
+                var name = rLine[0].Trim();
+
+                if (string.IsNullOrEmpty(name))
+                    continue;
+
+                if (name.StartsWith("#"))
+                    continue;
 
                 if (_fishingSpotsByName.TryGetValue(name, out var fishingSpot))
                 {
@@ -173,32 +188,26 @@ namespace Garland.Data.Modules
                 }
 
                 // Fish info
-                var bait = rLine[1];
-                var start = rLine[2];
-                var end = rLine[3];
-                var transition = rLine[4];
-                var weather = rLine[5];
-                var predator = rLine[6];
-                var tug = rLine[7];
-                var hookset = rLine[8];
-                var gathering = rLine[9];
-                var snagging = rLine[10];
-                var fishEyes = rLine[11];
-                var ff14anglerId = rLine[12];
+                var bait = rLine[1].Trim();
+                var start = rLine[2].Trim();
+                var end = rLine[3].Trim();
+                var transition = rLine[4].Trim();
+                var weather = rLine[5].Trim();
+                var predator = rLine[6].Trim();
+                var tug = rLine[7].Trim();
+                var hookset = rLine[8].Trim();
+                var gathering = rLine[9].Trim();
+                var snagging = rLine[10].Trim();
+                var fishEyes = rLine[11].Trim();
+                var ff14anglerId = rLine[12].Trim();
+                var note = rLine[13].Trim();
 
-                Console.WriteLine(name);
+                //Console.WriteLine(name);
 
                 // Fill item fishing information.
                 try
                 {
-                    var item = GarlandDatabase.Instance.ItemsByName[name];
-                    _fishItems.Add(item);
-                    // Some quest fish may not have been previously recognized as a fish.
-                    if (item.fish == null)
-                        item.fish = new JObject();
-
-                    if (item.fish.spots == null)
-                        item.fish.spots = new JArray();
+                    var item = GetFishItem(name);
 
                     dynamic spot = new JObject();
                     if (currentFishingSpot != null)
@@ -223,18 +232,25 @@ namespace Garland.Data.Modules
                     {
                         spot.tmpBait = bait;
 
-                        // If not otherwise specified, fish should inherit the time
-                        // and weather restrictions of restricted bait (like predators).
-                        if (!_builder.Db.ItemsByName.TryGetValue(bait, out var baitItem))
-                            throw new InvalidOperationException($"Can't find bait {bait} for {name} at {currentFishingSpot.en.name}.  Is the spelling correct?");
-
-                        if (baitItem.fish != null)
+                        foreach (string possibleBaitRaw in bait.Split(','))
                         {
-                            dynamic baitSpotView = ((JArray)baitItem.fish?.spots)?.FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);
-                            if (baitSpotView == null)
-                                throw new InvalidOperationException($"Can't find mooch {bait} for {name} at {currentFishingSpot.en.name}.  Did you forget to add it to the spot?");
+                            string possibleBait = possibleBaitRaw.Trim();
+                            // If not otherwise specified, fish should inherit the time
+                            // and weather restrictions of restricted bait (like predators).
+                            if (!_builder.Db.ItemsByName.TryGetValue(possibleBait, out var baitItem))
+                                throw new InvalidOperationException($"Can't find bait {possibleBait} for {name} at {currentFishingSpot.en.name}.  Is the spelling correct?");
 
-                            InheritConditions(spot, baitSpotView, weather, transition, start, end);
+                            if (baitItem.fish != null)
+                            {
+                                if (baitItem.en.name.Value == possibleBait)
+                                    continue;
+
+                                dynamic baitSpotView = ((JArray)baitItem.fish?.spots)?.FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);
+                                if (baitSpotView == null)
+                                    throw new InvalidOperationException($"Can't find mooch {possibleBait} for {name} at {currentFishingSpot.en.name}.  Did you forget to add it to the spot?");
+
+                                InheritConditions(spot, baitSpotView, weather, transition, start, end);
+                            }
                         }
                     }
 
@@ -251,14 +267,14 @@ namespace Garland.Data.Modules
                     // Weather restrictions
                     if (transition != "")
                     {
-                        var transitionList = transition.Split(comma, StringSplitOptions.None);
+                        var transitionList = transition.Split(_comma, StringSplitOptions.None);
                         CheckWeather(transitionList);
                         spot.transition = new JArray(transitionList);
                     }
 
                     if (weather != "")
                     {
-                        var weatherList = weather.Split(comma, StringSplitOptions.None);
+                        var weatherList = weather.Split(_comma, StringSplitOptions.None);
                         CheckWeather(weatherList);
                         spot.weather = new JArray(weatherList);
                     }
@@ -266,7 +282,7 @@ namespace Garland.Data.Modules
                     // Predators
                     if (predator != "")
                     {
-                        var tokens = predator.Split(comma, StringSplitOptions.None);
+                        var tokens = predator.Split(_comma, StringSplitOptions.None);
                         spot.predator = new JArray();
                         for (var i = 0; i < tokens.Length; i += 2)
                         {
@@ -298,7 +314,23 @@ namespace Garland.Data.Modules
                     if (hookset != "")
                         spot.hookset = hookset + " Hookset";
                     if (tug != "")
-                        spot.tug = tug;
+                    {
+                        switch (tug)
+                        {
+                            case "!":
+                                spot.tug = "Light";
+                                break;
+                            case "!!":
+                                spot.tug = "Medium";
+                                break;
+                            case "!!!":
+                                spot.tug = "Heavy";
+                                break;
+                            default:
+                                spot.tug = tug;
+                                break;
+                        }
+                    }
                     if (gathering != "")
                         spot.gatheringReq = int.Parse(gathering);
                     if (snagging != "")
@@ -307,6 +339,8 @@ namespace Garland.Data.Modules
                         spot.fishEyes = 1;
                     if (ff14anglerId != "")
                         spot.ff14anglerId = int.Parse(ff14anglerId);
+                    if (note != "")
+                        spot.note = note;
 
                     // Add the fish to this gathering point if it's not otherwise there.
 
@@ -341,7 +375,190 @@ namespace Garland.Data.Modules
                 }
                 catch (KeyNotFoundException e)
                 {
-                    Console.WriteLine("No item found with name" + name);
+                    DatabaseBuilder.PrintLine($"No item found with name {name}.");
+                }
+            }
+        }
+
+        dynamic GetFishItem(string itemName)
+        {
+            var item = GarlandDatabase.Instance.ItemsByName[itemName];
+            _fishItems.Add(item);
+            // Some quest fish may not have been previously recognized as a fish.
+            if (item.fish == null)
+                item.fish = new JObject();
+
+            if (item.fish.spots == null)
+                item.fish.spots = new JArray();
+
+            return item;
+        }
+
+        void BuildSupplementalSpearfishData()
+        {
+            dynamic currentNode = null;
+            JArray currentNodeItems = null;
+
+            var lines = Utils.Tsv(Path.Combine(Config.SupplementalPath, "FFXIV Data - Spearfishing.tsv"));
+            foreach (var rLine in lines.Skip(1))
+            {
+                
+                    // Line data
+                    var name = rLine[0].Trim();
+
+                    if (string.IsNullOrEmpty(name))
+                        continue;
+
+                    if (name.StartsWith("#"))
+                        continue;
+
+                    var buff = rLine[7].Trim();
+                    var unlock = rLine[8].Trim();
+
+                    // Name may reference either fishing spot, spearfishing node, or fish - check here.
+                    if (_builder.Db.SpearfishingNodesByName.TryGetValue(name, out var node))
+                    {
+                        currentNode = node;
+                        currentNodeItems = node.items;
+                        BuildBuffAndUnlockRequirements(node, "node", node.id.ToString(), unlock, buff);
+                        continue;
+                    }
+                try
+                {
+                    // Fish info
+                    var shadow = rLine[1].Trim();
+                    var speed = rLine[2].Trim();
+                    var start = rLine[3].Trim();
+                    var end = rLine[4].Trim();
+                    var transition = rLine[5].Trim();
+                    var weather = rLine[6].Trim();
+                    var note = rLine[9].Trim();
+
+                    dynamic item = GetFishItem(name);
+
+                    dynamic spot = new JObject();
+                    if (currentNode != null)
+                        spot.node = currentNode.id;
+
+                    // Shadow and Speed
+                    if (shadow != "")
+                    {
+                        spot.shadow = shadow;
+                    }
+                    if (speed != "")
+                    {
+                        if (speed.StartsWith("V. "))
+                            speed = speed.Replace("V. ", "Very ");
+
+                        spot.speed = speed;
+                    }
+
+                    // Time restrictions
+                    if (start != "" || end != "")
+                    {
+                        spot.during = new JObject();
+                        if (start != "")
+                            spot.during.start = int.Parse(start);
+                        if (end != "")
+                            spot.during.end = int.Parse(end);
+                    }
+
+                    // Weather restrictions
+                    if (transition != "")
+                    {
+                        var transitionList = transition.Split(_comma, StringSplitOptions.None);
+                        CheckWeather(transitionList);
+                        spot.transition = new JArray(transitionList);
+                    }
+
+                    if (weather != "")
+                    {
+                        var weatherList = weather.Split(_comma, StringSplitOptions.None);
+                        CheckWeather(weatherList);
+                        spot.weather = new JArray(weatherList);
+                    }
+
+                    BuildBuffAndUnlockRequirements(spot, "item", item.id.ToString(), unlock, buff);
+
+                    // Note
+                    if (note != "")
+                    {
+                        item.fish.note = note;
+                    }
+
+                    if (currentNode != null && !currentNodeItems.Any(i => (int)i["id"] == (int)item.id))
+                    {
+                        if (item.nodes == null)
+                            item.nodes = new JArray();
+                        item.nodes.Add(currentNode.id);
+
+                        dynamic obj = new JObject();
+                        obj.id = item.id;
+                        currentNodeItems.Add(obj);
+                        _builder.Db.AddReference(currentNode, "item", (int)item.id, false);
+                        _builder.Db.AddReference(item, "node", (int)currentNode.id, true);
+                    }
+
+                    item.fish.spots.Add(spot);
+                } catch (KeyNotFoundException e)
+                {
+                    DatabaseBuilder.PrintLine($"No item found with name {name}.");
+                }
+
+            }
+        }
+
+        void BuildBuffAndUnlockRequirements(dynamic sealedObject, string sealedObjectType,
+                                string sealedObjectId, string unlock, string buff)
+        {
+            if (unlock != "")
+            {
+                try
+                {
+                    var conditions = unlock.Split(_comma, StringSplitOptions.None);
+
+                    var jUnlock = new JArray();
+                    foreach (string condition in conditions)
+                    {
+                        string[] frags = condition.Split(':');
+                        string unlockItemName = frags[0].Trim();
+                        int unlockItemQty = int.Parse(frags[1], System.Globalization.NumberStyles.Integer);
+
+                        dynamic nodeUnlock = new JObject();
+                        var unlockItem = _builder.Db.ItemsByName[unlockItemName.Trim()];
+                        nodeUnlock.id = unlockItem.id;
+                        nodeUnlock.amount = unlockItemQty;
+                        _builder.Db.AddReference(sealedObject, "item", (int)unlockItem.id, true);
+                        _builder.Db.AddReference(unlockItem, sealedObjectType, sealedObjectId, false);
+                        jUnlock.Add(nodeUnlock);
+                    }
+
+                    if (jUnlock.Count > 0)
+                    {
+                        sealedObject.predator = jUnlock;
+                    }
+                }
+                catch (Exception unlockEx)
+                {
+                    DatabaseBuilder.PrintLine($"Error occurred when building unlock of {sealedObject}.");
+                }
+            }
+
+            if (buff != "")
+            {
+                try
+                {
+                    _statusesByName.TryGetValue(buff, out int statusId);
+                    _builder.Db.StatusesById.TryGetValue(statusId, out var status);
+
+                    if (status != null)
+                    {
+                        sealedObject.buff = status.id;
+                        _builder.Db.AddReference(sealedObject, "status", status.id.ToString(), false);
+                    }
+                } catch (Exception buffEx)
+                {
+                    DatabaseBuilder.PrintLine($"Error occurred when building required buff of {sealedObject}.");
                 }
             }
         }
@@ -427,18 +644,28 @@ namespace Garland.Data.Modules
                     if (spot.tmpBait == null || spot.spot == null)
                         continue;
 
-                    List<string> baitNames = new List<string>();
-                    var baitObj = BuildBait((string)spot.tmpBait);
-                    spot.bait = new JArray();
-                    foreach (var baitChain in GetBaitChains(spot, baitObj))
+                    spot.baits = new JArray();
+                    List<List<string>> baitChains = new List<List<string>>();
+
+                    foreach (string possibleBaitRaw in spot.tmpBait.Value.Split(','))
                     {
-                        baitNames.Add((string)baitChain.name);
-                        spot.bait.Add((int)baitChain.id);
-                        _builder.Db.AddReference(item, "item", (int)baitChain.id, false);
+                        string possibleBait = possibleBaitRaw.Trim();
+                        List<string> baitNames = new List<string>();
+                        var baitObj = BuildBait(possibleBait);
+                        dynamic bait = new JArray();
+                        foreach (var baitChain in GetBaitChains(spot, baitObj))
+                        {
+                            baitNames.Add((string)baitChain.name);
+                            bait.Add((int)baitChain.id);
+                            _builder.Db.AddReference(item, "item", (int)baitChain.id, false);
+                        }
+
+                        spot.baits.Add(bait);
+                        baitChains.Add(baitNames);
                     }
 
                     var fishingSpot = _builder.Db.FishingSpotsById[(int)spot.spot];
-                    _builder.Db.Fish.Add(BuildFishView(item, spot, fishingSpot, baitNames.ToArray()));
+                    _builder.Db.Fish.Add(BuildFishView(item, spot, fishingSpot, baitChains));
 
                     spot.Remove("tmpBait");
                 }
@@ -457,13 +684,13 @@ namespace Garland.Data.Modules
 
                     if (baitSpot.tmpBait != null)
                     {
-                        var subBait = BuildBait((string)baitSpot.tmpBait);
+                        var subBait = BuildBait(((string)baitSpot.tmpBait).Split(',')[0].Trim());
                         foreach (var subBaitChain in GetBaitChains(baitSpot, subBait))
                             yield return subBaitChain;
                     }
                     else
                     {
-                        foreach (var subBaitId in baitSpot.bait)
+                        foreach (var subBaitId in baitSpot.baits[0])
                         {
                             var subBaitFishItem = _builder.Db.ItemsById[(int)subBaitId];
                             yield return BuildBait((string)subBaitFishItem.en.name);
@@ -503,7 +730,7 @@ namespace Garland.Data.Modules
             // Find the fishing spot for this predator that matches the current spot.
             dynamic predatorSpot = ((JArray)predatorItem.fish.spots).First(s => s["spot"] == spotView.spot);
             view.bait = new JArray();
-            foreach (var baitId in predatorSpot.bait)
+            foreach (var baitId in predatorSpot.baits[0])
             {
                 var bait = GarlandDatabase.Instance.ItemsById[(int)baitId];
                 view.bait.Add(bait.en.name);
@@ -517,7 +744,7 @@ namespace Garland.Data.Modules
             return view;
         }
 
-        dynamic BuildFishView(dynamic item, dynamic spotView, dynamic fishingSpot, string[] baits)
+        dynamic BuildFishView(dynamic item, dynamic spotView, dynamic fishingSpot, List<List<string>> baitChains)
         {
             // Convert item fish data into a view for Bell/ffxivfisher.
             dynamic view = new JObject();
@@ -534,7 +761,7 @@ namespace Garland.Data.Modules
             if (spotView.fishEyes != null)
                 view.fishEyes = 1;
 
-            view.bait = new JArray(baits);
+            view.baits = JArray.FromObject(baitChains);
 
             if (spotView.during != null)
                 view.during = spotView.during;
@@ -694,6 +921,7 @@ namespace Garland.Data.Modules
                 case 5: return "Hellfishing";
                 case 6: return "Aetherfishing";
                 case 7: return "Saltfishing";
+                case 8: return "Starfishing";
                 default: throw new NotImplementedException();
             }
         }

@@ -135,20 +135,21 @@
     </script>
 
     <script id="fish-bait-template" type="text/x-dot-template">
-
-        <div class="bait">
-            {{~it.baitTokens :token:index}}
-                {{?token.comma}}
-                    <span class="comma">, </span>
-                {{??token.arrow}}
-                    <span class="valign">➜</span> 
-                {{??}}
-                    <a target="_blank" href="../db/#item/{{=token.id}}">
-                        <img src="../files/icons/item/{{=token.icon}}.png" class="icon" title="{{=gt.t(token.name)}}{{?token.mooch}} ({{=gt.t('mooch')}}){{?}}">
-                    </a>
-                {{?}}
-            {{~}}
-        </div>
+        {{~it.baitTokens :chain:cindex}}
+            <div class="bait">
+                {{~chain :token:index}}
+                    {{?token.comma}}
+                        <span class="comma">, </span>
+                    {{??token.arrow}}
+                        <span class="valign">➜</span>
+                    {{??}}
+                        <a target="_blank" href="../db/#item/{{=token.id}}">
+                            <img src="../files/icons/item/{{=token.icon}}.png" class="icon" title="{{=gt.t(token.name)}}{{?token.mooch}} ({{=gt.t('mooch')}}){{?}}">
+                        </a>
+                    {{?}}
+                {{~}}
+            </div>
+        {{~}}
     </script>
 
     <script id="fish-entry-block-template" type="text/x-dot-template">

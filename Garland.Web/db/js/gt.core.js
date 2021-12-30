@@ -74,6 +74,15 @@ gt.model = {
         return result.length ? result : null;
     },
 
+    partialListArray: function(module, sourceLists, transform){
+        var result = [];
+        for (var i = 0; i < sourceLists.length; i++) {
+            result.push(gt.model.partialList(module, sourceLists[i], transform))
+        }
+
+        return result.length ? result : null;
+    },
+
     availableView: function(block) {
         var module = gt[block.type];
         if (!module) {

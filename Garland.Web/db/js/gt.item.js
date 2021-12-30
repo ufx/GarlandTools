@@ -28,6 +28,12 @@ gt.item = {
         'Careful Desynthesis': 'C. Desynthesis',
         'Critical Hit Rate': 'Critical Rate'
     },
+    fishShadowHint:{
+        'S': 'Small',
+        'M': 'Average',
+        'L': 'Large',
+        'Map': 'Treasure Map'
+    },
     // TODO: materiaJoinRates comes from core data, only here temporarily until old cache is removed.
     materiaJoinRates: {"nq":[[90,48,28,16],[82,44,26,16],[70,38,22,14],[58,32,20,12],[17,10,7,5],[17,0,0,0],[17,10,7,5],[17,0,0,0],[100,100,100,100],[100,100,100,100]],"hq":[[80,40,20,10],[72,36,18,10],[60,30,16,8],[48,24,12,6],[12,6,3,2],[12,0,0,0],[12,6,3,2],[12,0,0,0],[100,100,100,100],[100,100,100,100]]},
     browse: [ { type: 'sort', prop: 'name' } ],
@@ -476,7 +482,8 @@ gt.item = {
                 icon: '../files/icons/fish/' + item.fish.icon + '.png',
                 spots: item.fish.spots ? [] : null,
                 folklore: item.fish.folklore ? gt.model.partial(gt.item, item.fish.folklore) : null,
-                groups: []
+                groups: [],
+                note: item.fish.note,
             };
 
             if (item.fish.spots) {
@@ -485,43 +492,46 @@ gt.item = {
 
                     // Group fishing spots by bait chain.
                     var group = null;
-                    if (spot.bait || !spot.gig) {
-                        group = _.find(view.fish.groups, function(g) { return _.isEqual(g.baitIds, spot.bait); });
+                    if (spot.baits || !spot.node) {
+                        group = _.find(view.fish.groups, function(g) { return _.isEqual(g.baitIds, spot.baits); });
                         view.fish.predatorType = 'Predator';
+
+                        if (!group) {
+                            group = {
+                                baitIds: spot.baits,
+                                baits: spot.baits ? gt.model.partialListArray(gt.item, spot.baits) : null,
+                                gig: spot.gig,
+                                spots: []
+                            };
+
+                            view.fish.groups.push(group);
+                        }
+
+                        if (spot.hookset) {
+                            if (spot.hookset == "Powerful Hookset")
+                                view.fish.hooksetIcon = 1115;
+                            else
+                                view.fish.hooksetIcon = 1116;
+                        }
                     }
                     else {
-                        group = _.find(view.fish.groups, function(g) { return _.isEqual(g.gig, spot.gig); });
+                        group = _.find(view.fish.groups, function(g) { return _.isEqual(g.node, spot.node); });
                         view.fish.predatorType = 'Shadows';
+
+                        if (!group) {
+                            group = {
+                                speed: spot.speed,
+                                shadow: spot.shadow,
+                                shadowHint: gt.item.fishShadowHint[spot.shadow],
+                                buff: gt.model.partialList(gt.status, spot.buff),
+                                spots: []
+                            };
+
+                            view.fish.groups.push(group);
+                        }
                     }
 
-                    if (!group) {
-                        group = {
-                            baitIds: spot.bait,
-                            bait: spot.bait ? gt.model.partialList(gt.item, spot.bait) : null,
-                            gig: spot.gig,
-                            spots: []
-                        };
-
-                        view.fish.groups.push(group);
-                    }
-
-                    // Push common conditions up to the main fish view.
-                    view.fish.during = spot.during;
-                    view.fish.transition = spot.transition;
-                    view.fish.weather = spot.weather;
-                    view.fish.hookset = spot.hookset;
-                    view.fish.gatheringReq = spot.gatheringReq;
-                    view.fish.snagging = spot.snagging;
-                    view.fish.fishEyes = spot.fishEyes;
-
-                    if (spot.hookset) {
-                        if (spot.hookset == "Powerful Hookset")
-                            view.fish.hooksetIcon = 1115;
-                        else
-                            view.fish.hooksetIcon = 1116;
-                    }
-
-                    if (spot.predator) 
+                    if (spot.predator)
                         view.fish.predator = gt.model.partialList(gt.item, spot.predator, function(v, p) { return { item: v, amount: p.amount }; });
 
                     // List spots beneath the group.
@@ -534,6 +544,16 @@ gt.item = {
                         spotView.spotType = 'node';
                     }
                     group.spots.push(spotView);
+
+
+                    // Push common conditions up to the main fish view.
+                    view.fish.during = spot.during;
+                    view.fish.transition = spot.transition;
+                    view.fish.weather = spot.weather;
+                    view.fish.hookset = spot.hookset;
+                    view.fish.gatheringReq = spot.gatheringReq;
+                    view.fish.snagging = spot.snagging;
+                    view.fish.fishEyes = spot.fishEyes;
                 }
             }
         }

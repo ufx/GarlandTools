@@ -1813,7 +1813,10 @@ gt.timer.fish = function(now, def) {
         else
             this.map = gt.map.getViewModel(def.zone, def.coords);
 
-    def.baitTokens = gt.bell.tokenizeBait(def.bait);
+    def.baitTokens = [];
+    for (var i = 0; i < def.baits.length; i++){
+        def.baitTokens.push(gt.bell.tokenizeBait(def.baits[i]));
+    }
 
     if (def.predator) {
         this.predator = [];
@@ -2816,7 +2819,7 @@ gt.util = {
 
 // gt.data.core.js
 
-gt.scrips = { "Red Gatherers' Scrip": 65029, "Yellow Gatherers' Scrip": 65043, "White Gatherers' Scrip": 65069, "Purple Gatherers' Scrip": "t/65087" };
+gt.scrips = { "Red Gatherers' Scrip": 65029, "Yellow Gatherers' Scrip": 65043, "White Gatherers' Scrip": 65069, "Purple Gatherers' Scrip": 65087 };
 gt.location = { };
 // Stupid, but at least usable. maybe marked inside node.js later.
 gt.location.toPatch = {

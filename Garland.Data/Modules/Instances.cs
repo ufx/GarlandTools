@@ -428,7 +428,7 @@ namespace Garland.Data.Modules
                         SanitizeItemName(jDrop.name.Value), out dynamic item))
                     {
                         otherItemRewards.Add(item.id);
-                        BuildItemRelationship(item, instance, false);
+                        BuildItemRelationship(item, instance, true);
                     }
                     else
                     {

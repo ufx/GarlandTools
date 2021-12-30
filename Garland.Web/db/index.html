@@ -983,25 +983,41 @@
                                 {{~}}
                             {{?}}
 
+                            {{?it.fish.note}}
+                                <div class="line half collapse-toggle">
+                                    <span class="text">{{=it.fish.note}}</span>
+                                </div>
+                            {{?}}
+
                             {{~it.fish.groups :group:gindex}}
                                 <hr class="collapse-toggle">
 
-                                {{?group.bait}}
-                                    {{~group.bait :bait:bindex}}
-                                        <div class="line block-link hover-highlight pointer collapse-toggle" data-id="{{=bait.id}}" data-type="item">
-                                            <img class="icon small" src="{{=bait.icon}}">
-                                            <span class="highlight text">{{=bait.name}}</span>
-                                            <span class="text right">{{?bindex == 0}}Bait{{??}}Mooch{{?}}</span>
-                                        </div>
+                                {{?group.baits}}
+                                    {{~group.baits :baitGroup:bGindex}}
+                                        {{~baitGroup :bait:bindex}}
+                                            <div class="line block-link hover-highlight pointer collapse-toggle" data-id="{{=bait.id}}" data-type="item">
+                                                <img class="icon small" src="{{=bait.icon}}">
+                                                <span class="highlight text">{{=bait.name}}</span>
+                                                <span class="text right">{{?bindex == 0}}Bait{{??}}Mooch{{?}}</span>
+                                            </div>
+                                        {{~}}
+                                        {{?group.baits[bGindex + 1]}}<hr class="collapse-toggle" style="border-bottom: dashed 1px;"/>{{?}}
                                     {{~}}
-                                {{??group.gig}}
-                                    {{~group.gig :gig:gindex}}
-                                        <div class="line collapse-toggle">
-                                            <img class="icon small" src="images/node/{{=gig}}.png">
-                                            <span class="text">{{=gig}}</span>
-                                            <span class="text right">Gig</span>
-                                        </div>
-                                    {{~}}
+                                {{??group.shadow}}
+                                    {{?group.buff}}
+                                        {{~group.buff :buff:bindex}}
+                                            <div class="line half collapse-toggle">
+                                                <img class="icon mini" src="{{=buff.icon}}">
+                                                <span class="text">{{=buff.name}}</span>
+                                            </div>
+                                        {{~}}
+                                    {{?}}
+
+                                    <div class="line collapse-toggle">
+                                        <img class="small fish-shadow" src="images/fish/{{=group.shadow}}.png">
+                                        <span class="text">{{=group.shadowHint}}</span>
+                                        <span class="text right fish-speed">{{=group.speed}}</span>
+                                    </div>
                                 {{??}}
                                     <div class="line collapse-toggle">No bait information is available.</div>
                                 {{?}}
@@ -3440,7 +3456,7 @@
 
                 <h3>FAQ</h3>
                 <div class="question">Can I contribute to the database?</div>
-                Data can be submitted via the <a href="https://docs.google.com/spreadsheets/d/1hEj9KCDv0TT1NiGJ0S7afS4hfGMPb6tetqXQetYETUE/edit" target="_blank">FFXIV Data Spreadsheet</a>.  Please request permission on the sheet with a note on what you'd like to change.
+                Data can be submitted via the <a href="https://docs.google.com/spreadsheets/d/1pMlRaaFnaVnFeKNu_CaKPrWHdMk94pXumscZVBe3pIA/edit" target="_blank">FFXIV Data Spreadsheet</a>.  Please request permission on the sheet with a note on what you'd like to change.
 
                 <div class="separator"></div>
                 <div class="question">Why are there checkboxes next to item sources?</div>

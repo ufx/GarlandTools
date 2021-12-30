@@ -75,18 +75,17 @@ namespace Garland.Graphics.Exporter.TexTools
                 case XivRace.Monster:
                     return "";
 
-                case XivRace.Hrothgar:
-                    return "Hrothgar";
+                case XivRace.Hrothgar_Male:
+                    return "Hrothgar Male";
 
-                case XivRace.Viera:
-                    return "Viera";
+                case XivRace.Hrothgar_Female:
+                    return "Hrothgar Female";
 
-                // Prepare for 6.0 changes
-                //case XivRace.Viera_Male:
-                //    return "Viera Male";
+                case XivRace.Viera_Male:
+                    return "Viera Male";
 
-                //case XivRace.Viera_Female:
-                //    return "Viera Female";
+                case XivRace.Viera_Female:
+                    return "Viera Female";
 
                 case XivRace.DemiHuman:
                 case XivRace.Hyur_Midlander_Male_NPC:
