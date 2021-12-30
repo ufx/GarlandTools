@@ -51133,6 +51133,9 @@ gt.bell.fish = [
         "Calicia"
       ]
     ],
+    "weather": [
+      "Fair Skies"
+    ],
     "hookset": "Powerful Hookset",
     "tug": "Heavy",
     "id": 36472,

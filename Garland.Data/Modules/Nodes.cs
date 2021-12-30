@@ -260,7 +260,7 @@ namespace Garland.Data.Modules
                 node.stars = maxStars;
 
             // Lookup coordinates for spearfishing nodes.
-            if (sGatheringPoint.Base.Type.Key == 4)
+            if (sGatheringPoint.Base.Type.Key == 4 || sGatheringPoint.Base.Type.Key == 5)
             {
                 foreach (var sSpearfishingNotebook in _builder.Sheet("SpearfishingNotebook"))
                 {

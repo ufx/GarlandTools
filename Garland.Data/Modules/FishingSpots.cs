@@ -528,8 +528,8 @@ namespace Garland.Data.Modules
                         var unlockItem = _builder.Db.ItemsByName[unlockItemName.Trim()];
                         nodeUnlock.id = unlockItem.id;
                         nodeUnlock.amount = unlockItemQty;
-                        _builder.Db.AddReference(sealedObject, "item", unlockItem.id.ToString(), false);
-                        _builder.Db.AddReference(unlockItem, sealedObjectType, sealedObjectId, true);
+                        _builder.Db.AddReference(sealedObject, "item", (int)unlockItem.id, true);
+                        _builder.Db.AddReference(unlockItem, sealedObjectType, sealedObjectId, false);
                         jUnlock.Add(nodeUnlock);
                     }
 
