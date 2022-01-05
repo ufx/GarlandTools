@@ -1450,23 +1450,23 @@ body.unlock-heights .block .content.main,
 }
 
 .block.time .time-period.night {
-    background: url(images/EverlastingLight.png);
+    background: url(images/day/EverlastingLight.png);
     background-size: 147%;
     text-shadow: 1px 1px 0 #777;
 }
 
 .block.time .time-period.morning {
-    background: url(images/EverlastingLight.png);
+    background: url(images/day/EverlastingLight.png);
     background-size: 147%;
 }
 
 .block.time .time-period.day {
-    background: url(images/EverlastingLight.png);
+    background: url(images/day/EverlastingLight.png);
     background-size: 147%;
 }
 
 .block.time .time-period.dusk {
-    background: url(images/EverlastingLight.png);
+    background: url(images/day/EverlastingLight.png);
     background-size: 147%;
 }
 
