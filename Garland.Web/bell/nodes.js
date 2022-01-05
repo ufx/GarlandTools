@@ -5922,7 +5922,11 @@
       {
         "item": "Lunar Quartz",
         "icon": 21459,
-        "id": 36285
+        "id": 36285,
+        "reduce": {
+          "item": "Moonlight Aethersand",
+          "icon": 21233
+        }
       },
       {
         "item": "Earth Crystal",
@@ -5957,7 +5961,11 @@
       {
         "item": "Ghostly Umbral Rock",
         "icon": 21472,
-        "id": 36286
+        "id": 36286,
+        "reduce": {
+          "item": "Endstone Aethersand",
+          "icon": 21234
+        }
       },
       {
         "item": "Lightning Crystal",
@@ -6249,7 +6257,11 @@
       {
         "item": "Ewer Clay",
         "icon": 21465,
-        "id": 36287
+        "id": 36287,
+        "reduce": {
+          "item": "Moonlight Aethersand",
+          "icon": 21233
+        }
       },
       {
         "item": "Wind Crystal",
@@ -6284,7 +6296,11 @@
       {
         "item": "Palm Chippings",
         "icon": 22418,
-        "id": 36288
+        "id": 36288,
+        "reduce": {
+          "item": "Endwood Aethersand",
+          "icon": 21236
+        }
       },
       {
         "item": "Fire Crystal",

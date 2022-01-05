@@ -554,7 +554,7 @@ namespace Garland.Data.Modules
                     if (status != null)
                     {
                         sealedObject.buff = status.id;
-                        _builder.Db.AddReference(sealedObject, "status", status.id.ToString(), false);
+                        _builder.Db.AddReference(sealedObject, "status", status.id.ToString(), true);
                     }
                 } catch (Exception buffEx)
                 {
