@@ -23,7 +23,7 @@ namespace Garland.Data.Modules
             Directory.CreateDirectory(_resultMusicPath);
             Directory.CreateDirectory("output");
 
-            var sOrchestrions = _builder.Sheet("Orchestrion");
+            //var sOrchestrions = _builder.Sheet("Orchestrion");
             var sOrchestrionUiparams = _builder.Sheet("OrchestrionUiparam");
 
             foreach (var sItem in _builder.Sheet<Saint.Item>())
@@ -32,7 +32,10 @@ namespace Garland.Data.Modules
                 if (unlock == null)
                     continue;
 
-                var sOrchestrion = sOrchestrions[unlock.GetData(0)];
+                var sOrchestrion = sItem.AdditionalData as Saint.XivRow;
+                if (sOrchestrion == null)
+                    continue;
+
                 var sOrchestrionUiparam = sOrchestrionUiparams[sOrchestrion.Key];
 
                 var item = _builder.Db.ItemsById[sItem.Key];
@@ -77,7 +80,7 @@ namespace Garland.Data.Modules
                 File.WriteAllBytes(baseFileName, sEntry.GetDecoded());
 
                 var ffmpeg = new Process();
-                ffmpeg.StartInfo = new ProcessStartInfo(Config.FfmpegPath, "-ss 00:00:10.0 -t 00:00:15.0 -i output\\input.ogg -acodec libvorbis -b:a 32k output\\output.ogg");
+                ffmpeg.StartInfo = new ProcessStartInfo(Config.FfmpegPath, "-ss 00:00:10.0 -t 00:00:25.0 -i output\\input.ogg -acodec libvorbis -b:a 32k output\\output.ogg");
                 ffmpeg.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 ffmpeg.Start();
                 ffmpeg.WaitForExit();

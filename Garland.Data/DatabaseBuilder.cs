@@ -114,6 +114,7 @@ namespace Garland.Data
                 new Materia(),
                 new WondrousTails(),
                 new OtherItemSources(),
+                new OtherItemInfo(),
                 new Relics(),
                 itemSourceComplexityModule,
                 new SupplyDuties(itemSourceComplexityModule),

@@ -1130,6 +1130,37 @@
                         <div>Note: This is a shortened, inferior sample of the original music recording and contributes significantly to the database entry.</div>
                     </div>
                 {{?}}
+
+                {{?it.fieldnote}}
+                    <div class="fieldnote subsection collapsible">
+                        <h3>Field Note #{{=it.fieldnote.id}}</h3>
+                        <div>
+                            <img class="left icon fieldnote-icon" src="{{=it.fieldnote.icon}}"/>
+                            <div class="highlight fieldnote-name">{{=it.fieldnote.name}}</div>
+                        </div>
+                        <hr>
+                        <img class="right fieldnote-image collapse-toggle" src="{{=it.fieldnote.image}}"/>
+                        <div class="block-description fieldnote-note collapse-toggle">{{=it.fieldnote.description}}</div>
+                        <div class="clear"></div>
+                    </div>
+                {{?}}
+
+                {{?it.ornament}}
+                    <div class="ornament subsection">
+                        <h3>Fashion Accessory</h3>
+                        <img class="left icon fieldnote-icon" src="{{=it.ornament.icon}}"/>
+                        <div class="highlight fieldnote-name">{{=it.ornament.name}}</div>
+                        <div class="block-description">{{=it.ornament.description}}</div>
+                        <img class="right fieldnote-image" src="{{=it.ornament.image}}"/>
+                    </div>
+                {{?}}
+
+                {{?it.achievement}}
+                    <div class="subsection">
+                        <h3>Unlocks Achievement</h3>
+                        {{=gt.search.resultTemplate(it.achievement)}}
+                    </div>
+                {{?}}
             </div> <!-- Stats Page End -->
 
             {{?it.hasSourcesUses}}

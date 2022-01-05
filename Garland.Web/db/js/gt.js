@@ -2445,6 +2445,34 @@ gt.item = {
             };
         }
 
+        // Field Note
+        if (item.fieldnote) {
+            view.fieldnote = {
+                id: item.fieldnote.id,
+                name: item.fieldnote.name,
+                description: item.fieldnote.description,
+                icon: '../files/icons/fieldnote/' + item.fieldnote.icon + '.png',
+                image: '../files/icons/fieldnote/image/' + item.fieldnote.image + '.png',
+                rarity: item.fieldnote.rarity
+            };
+        }
+
+        // Fashion Accessory
+        if (item.ornament) {
+            view.ornament = {
+                id: item.ornament.id,
+                name: item.ornament.name,
+                description: item.ornament.description,
+                icon: '../files/icons/ornament/' + item.ornament.icon + '.png',
+                image: '../files/icons/ornament/image/' + item.ornament.image + '.png'
+            };
+        }
+
+        // Unlock Achievement
+        if (item.achievement) {
+            view.achievement = gt.model.partial(gt.achievement, item.achievement);
+        }
+
         // Gardening
         if (item.grow)
             view.gardening = _.union(view.gardening, gt.model.partialList(gt.item, item.grow, function(v) { v.right = 'Grows'; return v; }));

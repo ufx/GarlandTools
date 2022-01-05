@@ -20269,6 +20269,1947 @@
         ]
     },
     {
+        "category": "dungeon",
+        "version": "Endwalker",
+        "name": "The Tower of Zot",
+        "url": "/lodestone/playguide/db/duty/9c317b74e3a/",
+        "lvl": "81",
+        "ilvl": "500",
+        "chests": [
+            {
+                "name": "Treasure Coffer 1",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.1 Y: 11.1",
+                "coords": {
+                    "x": "10.1",
+                    "y": "11.1"
+                },
+                "items": [
+                    "Manusya Gauntlets of Fending",
+                    "Manusya Gloves of Maiming",
+                    "Manusya Gauntlets of Striking",
+                    "Manusya Gauntlets of Scouting",
+                    "Manusya Gauntlets of Aiming",
+                    "Manusya Gauntlets of Casting",
+                    "Manusya Gauntlets of Healing",
+                    "Manusya Sabatons of Fending",
+                    "Manusya Sabatons of Maiming",
+                    "Manusya Greaves of Striking",
+                    "Manusya Sabatons of Scouting",
+                    "Manusya Sabatons of Aiming",
+                    "Manusya Greaves of Casting",
+                    "Manusya Sabatons of Healing",
+                    "Manusya Amulet of Fending",
+                    "Manusya Amulet of Slaying",
+                    "Manusya Amulet of Aiming",
+                    "Manusya Amulet of Casting",
+                    "Manusya Amulet of Healing",
+                    "Manusya Ring of Fending",
+                    "Manusya Ring of Slaying",
+                    "Manusya Ring of Aiming",
+                    "Manusya Ring of Casting",
+                    "Manusya Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 2",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.5 Y: 10.9",
+                "coords": {
+                    "x": "12.5",
+                    "y": "10.9"
+                },
+                "items": [
+                    "Manusya Helm of Fending",
+                    "Manusya Visor of Maiming",
+                    "Manusya Helm of Striking",
+                    "Manusya Visor of Scouting",
+                    "Manusya Helm of Aiming",
+                    "Manusya Mask of Casting",
+                    "Manusya Mask of Healing",
+                    "Manusya Trousers of Fending",
+                    "Manusya Trousers of Maiming",
+                    "Manusya Sarouel of Striking",
+                    "Manusya Trousers of Scouting",
+                    "Manusya Trousers of Aiming",
+                    "Manusya Sarouel of Casting",
+                    "Manusya Trousers of Healing",
+                    "Manusya Earrings of Fending",
+                    "Manusya Earrings of Slaying",
+                    "Manusya Earrings of Aiming",
+                    "Manusya Earrings of Casting",
+                    "Manusya Earrings of Healing",
+                    "Manusya Choker of Fending",
+                    "Manusya Choker of Slaying",
+                    "Manusya Choker of Aiming",
+                    "Manusya Choker of Casting",
+                    "Manusya Choker of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 3",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.0 Y: 11.4",
+                "coords": {
+                    "x": "12.0",
+                    "y": "11.4"
+                },
+                "items": [
+                    "Manusya Coat of Fending",
+                    "Manusya Mail of Maiming",
+                    "Manusya Jacket of Striking",
+                    "Manusya Chestpiece of Scouting",
+                    "Manusya Coat of Aiming",
+                    "Manusya Jacket of Casting",
+                    "Manusya Chestpiece of Healing",
+                    "Manusya Amulet of Fending",
+                    "Manusya Amulet of Slaying",
+                    "Manusya Amulet of Aiming",
+                    "Manusya Amulet of Casting",
+                    "Manusya Amulet of Healing",
+                    "Manusya Ring of Fending",
+                    "Manusya Ring of Slaying",
+                    "Manusya Ring of Aiming",
+                    "Manusya Ring of Casting",
+                    "Manusya Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 4",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.4 Y: 10.2",
+                "coords": {
+                    "x": "12.4",
+                    "y": "10.2"
+                },
+                "items": [
+                    "Monstrorum Falchion",
+                    "Monstrorum Battleaxe",
+                    "Monstrorum Greatsword",
+                    "Monstrorum Gunblade",
+                    "Monstrorum Fork",
+                    "Monstrorum Sickle",
+                    "Monstrorum Claws",
+                    "Monstrorum Katana",
+                    "Monstrorum Knives",
+                    "Monstrorum Longbow",
+                    "Monstrorum Pistol",
+                    "Monstrorum War Quoits",
+                    "Monstrorum Rod",
+                    "Monstrorum Grimoire",
+                    "Monstrorum Foil",
+                    "Monstrorum Signum",
+                    "Monstrorum Codex",
+                    "Monstrorum Astrometer",
+                    "Monstrorum Syrinxi",
+                    "Monstrorum Shield",
+                    "Manusya Earrings of Fending",
+                    "Manusya Earrings of Slaying",
+                    "Manusya Earrings of Aiming",
+                    "Manusya Earrings of Casting",
+                    "Manusya Earrings of Healing",
+                    "Manusya Choker of Fending",
+                    "Manusya Choker of Slaying",
+                    "Manusya Choker of Aiming",
+                    "Manusya Choker of Casting",
+                    "Manusya Choker of Healing"
+                ]
+            }
+        ],
+        "fights": [
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/92d0af54ff1/",
+                        "name": "Minduruva"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Manusya Helm of Fending",
+                            "Manusya Visor of Maiming",
+                            "Manusya Helm of Striking",
+                            "Manusya Visor of Scouting",
+                            "Manusya Helm of Aiming",
+                            "Manusya Mask of Casting",
+                            "Manusya Mask of Healing",
+                            "Manusya Sabatons of Fending",
+                            "Manusya Sabatons of Maiming",
+                            "Manusya Greaves of Striking",
+                            "Manusya Sabatons of Scouting",
+                            "Manusya Sabatons of Aiming",
+                            "Manusya Greaves of Casting",
+                            "Manusya Sabatons of Healing",
+                            "Manusya Amulet of Fending",
+                            "Manusya Amulet of Slaying",
+                            "Manusya Amulet of Aiming",
+                            "Manusya Amulet of Casting",
+                            "Manusya Amulet of Healing",
+                            "Manusya Ring of Fending",
+                            "Manusya Ring of Slaying",
+                            "Manusya Ring of Aiming",
+                            "Manusya Ring of Casting",
+                            "Manusya Ring of Healing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/4db6e2e136c/",
+                        "name": "Sanduruva"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Manusya Gauntlets of Fending",
+                            "Manusya Gloves of Maiming",
+                            "Manusya Gauntlets of Striking",
+                            "Manusya Gauntlets of Scouting",
+                            "Manusya Gauntlets of Aiming",
+                            "Manusya Gauntlets of Casting",
+                            "Manusya Gauntlets of Healing",
+                            "Manusya Trousers of Fending",
+                            "Manusya Trousers of Maiming",
+                            "Manusya Sarouel of Striking",
+                            "Manusya Trousers of Scouting",
+                            "Manusya Trousers of Aiming",
+                            "Manusya Sarouel of Casting",
+                            "Manusya Trousers of Healing",
+                            "Manusya Earrings of Fending",
+                            "Manusya Earrings of Slaying",
+                            "Manusya Earrings of Aiming",
+                            "Manusya Earrings of Casting",
+                            "Manusya Earrings of Healing",
+                            "Manusya Choker of Fending",
+                            "Manusya Choker of Slaying",
+                            "Manusya Choker of Aiming",
+                            "Manusya Choker of Casting",
+                            "Manusya Choker of Healing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/211e8d39783/",
+                        "name": "Cinduruva"
+                    },
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/6cdb0b8495d/",
+                        "name": "Minduruva"
+                    },
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/834f64ad568/",
+                        "name": "Sanduruva"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Monstrorum Falchion",
+                            "Monstrorum Battleaxe",
+                            "Monstrorum Greatsword",
+                            "Monstrorum Gunblade",
+                            "Monstrorum Fork",
+                            "Monstrorum Sickle",
+                            "Monstrorum Claws",
+                            "Monstrorum Katana",
+                            "Monstrorum Knives",
+                            "Monstrorum Longbow",
+                            "Monstrorum Pistol",
+                            "Monstrorum War Quoits",
+                            "Monstrorum Rod",
+                            "Monstrorum Grimoire",
+                            "Monstrorum Foil",
+                            "Monstrorum Signum",
+                            "Monstrorum Codex",
+                            "Monstrorum Astrometer",
+                            "Monstrorum Syrinxi",
+                            "Monstrorum Shield",
+                            "Manusya Coat of Fending",
+                            "Manusya Mail of Maiming",
+                            "Manusya Jacket of Striking",
+                            "Manusya Chestpiece of Scouting",
+                            "Manusya Coat of Aiming",
+                            "Manusya Jacket of Casting",
+                            "Manusya Chestpiece of Healing",
+                            "Wind-up Magus Sisters",
+                            "Tower of Zot Orchestrion Roll"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "dungeon",
+        "version": "Endwalker",
+        "name": "The Tower of Babil",
+        "url": "/lodestone/playguide/db/duty/3297718033f/",
+        "lvl": "83",
+        "ilvl": "505",
+        "chests": [
+            {
+                "name": "Treasure Coffer 1",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.4 Y: 13.8",
+                "coords": {
+                    "x": "13.4",
+                    "y": "13.8"
+                },
+                "items": [
+                    "Imperial Gloves of Fending",
+                    "Imperial Gloves of Maiming",
+                    "Imperial Gloves of Striking",
+                    "Imperial Gloves of Scouting",
+                    "Imperial Gloves of Aiming",
+                    "Imperial Gloves of Casting",
+                    "Imperial Gloves of Healing",
+                    "Imperial Boots of Fending",
+                    "Imperial Boots of Maiming",
+                    "Imperial Boots of Striking",
+                    "Imperial Boots of Scouting",
+                    "Imperial Boots of Aiming",
+                    "Imperial Boots of Casting",
+                    "Imperial Boots of Healing",
+                    "Imperial Bracelet of Fending",
+                    "Imperial Bracelet of Slaying",
+                    "Imperial Bracelet of Aiming",
+                    "Imperial Bracelet of Casting",
+                    "Imperial Bracelet of Healing",
+                    "Imperial Ring of Fending",
+                    "Imperial Ring of Slaying",
+                    "Imperial Ring of Aiming",
+                    "Imperial Ring of Casting",
+                    "Imperial Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 2",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.8 Y: 13.6",
+                "coords": {
+                    "x": "10.8",
+                    "y": "13.6"
+                },
+                "items": [
+                    "Imperial Cap of Fending",
+                    "Imperial Cap of Maiming",
+                    "Imperial Ushanka of Striking",
+                    "Imperial Hood of Scouting",
+                    "Imperial Cap of Aiming",
+                    "Imperial Ushanka of Casting",
+                    "Imperial Ushanka of Healing",
+                    "Imperial Breeches of Fending",
+                    "Imperial Longkilt of Maiming",
+                    "Imperial Breeches of Striking",
+                    "Imperial Breeches of Scouting",
+                    "Imperial Breeches of Aiming",
+                    "Imperial Bottoms of Casting",
+                    "Imperial Longkilt of Healing",
+                    "Imperial Earring of Fending",
+                    "Imperial Earring of Slaying",
+                    "Imperial Earring of Aiming",
+                    "Imperial Earring of Casting",
+                    "Imperial Earring of Healing",
+                    "Imperial Choker of Fending",
+                    "Imperial Choker of Slaying",
+                    "Imperial Choker of Aiming",
+                    "Imperial Choker of Casting",
+                    "Imperial Choker of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 3",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.2 Y: 11.9",
+                "coords": {
+                    "x": "11.2",
+                    "y": "11.9"
+                },
+                "items": [
+                    "Imperial Coat of Fending",
+                    "Imperial Coat of Maiming",
+                    "Imperial Coat of Striking",
+                    "Imperial Coat of Scouting",
+                    "Imperial Coat of Aiming",
+                    "Imperial Coat of Casting",
+                    "Imperial Coat of Healing",
+                    "Imperial Bracelet of Fending",
+                    "Imperial Bracelet of Slaying",
+                    "Imperial Bracelet of Aiming",
+                    "Imperial Bracelet of Casting",
+                    "Imperial Bracelet of Healing",
+                    "Imperial Ring of Fending",
+                    "Imperial Ring of Slaying",
+                    "Imperial Ring of Aiming",
+                    "Imperial Ring of Casting",
+                    "Imperial Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 4",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.3 Y: 10.8",
+                "coords": {
+                    "x": "10.3",
+                    "y": "10.8"
+                },
+                "items": [
+                    "Imperial Magitek Sword",
+                    "Imperial Magitek Axe",
+                    "Imperial Magitek Guillotine",
+                    "Imperial Magitek Sawback",
+                    "Imperial Magitek Spear",
+                    "Imperial Magitek War Scythe",
+                    "Imperial Magitek Baghnakhs",
+                    "Imperial Magitek Samurai Blade",
+                    "Imperial Magitek Cleavers",
+                    "Imperial Magitek Bow",
+                    "Imperial Magitek Handgonne",
+                    "Imperial Magitek Glaives",
+                    "Imperial Magitek Rod",
+                    "Imperial Magitek Index",
+                    "Imperial Magitek Tuck",
+                    "Imperial Magitek Cane",
+                    "Imperial Magitek Codex",
+                    "Imperial Magitek Planisphere",
+                    "Imperial Magitek Wings",
+                    "Imperial Magitek Shield",
+                    "Imperial Earring of Fending",
+                    "Imperial Earring of Slaying",
+                    "Imperial Earring of Aiming",
+                    "Imperial Earring of Casting",
+                    "Imperial Earring of Healing",
+                    "Imperial Choker of Fending",
+                    "Imperial Choker of Slaying",
+                    "Imperial Choker of Aiming",
+                    "Imperial Choker of Casting",
+                    "Imperial Choker of Healing"
+                ]
+            }
+        ],
+        "fights": [
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/f03fc673468/",
+                        "name": "Barnabas"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Imperial Cap of Fending",
+                            "Imperial Cap of Maiming",
+                            "Imperial Ushanka of Striking",
+                            "Imperial Hood of Scouting",
+                            "Imperial Cap of Aiming",
+                            "Imperial Ushanka of Casting",
+                            "Imperial Ushanka of Healing",
+                            "Imperial Boots of Fending",
+                            "Imperial Boots of Maiming",
+                            "Imperial Boots of Striking",
+                            "Imperial Boots of Scouting",
+                            "Imperial Boots of Aiming",
+                            "Imperial Boots of Casting",
+                            "Imperial Boots of Healing",
+                            "Imperial Bracelet of Fending",
+                            "Imperial Bracelet of Slaying",
+                            "Imperial Bracelet of Aiming",
+                            "Imperial Bracelet of Casting",
+                            "Imperial Bracelet of Healing",
+                            "Imperial Ring of Fending",
+                            "Imperial Ring of Slaying",
+                            "Imperial Ring of Aiming",
+                            "Imperial Ring of Casting",
+                            "Imperial Ring of Healing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/d6c6e66e9f4/",
+                        "name": "Lugae"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Imperial Gloves of Fending",
+                            "Imperial Gloves of Maiming",
+                            "Imperial Gloves of Striking",
+                            "Imperial Gloves of Scouting",
+                            "Imperial Gloves of Aiming",
+                            "Imperial Gloves of Casting",
+                            "Imperial Gloves of Healing",
+                            "Imperial Breeches of Fending",
+                            "Imperial Longkilt of Maiming",
+                            "Imperial Breeches of Striking",
+                            "Imperial Breeches of Scouting",
+                            "Imperial Breeches of Aiming",
+                            "Imperial Bottoms of Casting",
+                            "Imperial Longkilt of Healing",
+                            "Imperial Earring of Fending",
+                            "Imperial Earring of Slaying",
+                            "Imperial Earring of Aiming",
+                            "Imperial Earring of Casting",
+                            "Imperial Earring of Healing",
+                            "Imperial Choker of Fending",
+                            "Imperial Choker of Slaying",
+                            "Imperial Choker of Aiming",
+                            "Imperial Choker of Casting",
+                            "Imperial Choker of Healing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/1afc0bdacd1/",
+                        "name": "Anima"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Imperial Magitek Sword",
+                            "Imperial Magitek Axe",
+                            "Imperial Magitek Guillotine",
+                            "Imperial Magitek Sawback",
+                            "Imperial Magitek Spear",
+                            "Imperial Magitek War Scythe",
+                            "Imperial Magitek Baghnakhs",
+                            "Imperial Magitek Samurai Blade",
+                            "Imperial Magitek Cleavers",
+                            "Imperial Magitek Bow",
+                            "Imperial Magitek Handgonne",
+                            "Imperial Magitek Glaives",
+                            "Imperial Magitek Rod",
+                            "Imperial Magitek Index",
+                            "Imperial Magitek Tuck",
+                            "Imperial Magitek Cane",
+                            "Imperial Magitek Codex",
+                            "Imperial Magitek Planisphere",
+                            "Imperial Magitek Wings",
+                            "Imperial Magitek Shield",
+                            "Imperial Coat of Fending",
+                            "Imperial Coat of Maiming",
+                            "Imperial Coat of Striking",
+                            "Imperial Coat of Scouting",
+                            "Imperial Coat of Aiming",
+                            "Imperial Coat of Casting",
+                            "Imperial Coat of Healing",
+                            "Wind-up Anima",
+                            "Garlemald Express Orchestrion Roll"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "dungeon",
+        "version": "Endwalker",
+        "name": "Vanaspati",
+        "url": "/lodestone/playguide/db/duty/dadcd891cc1/",
+        "lvl": "85",
+        "ilvl": "510",
+        "chests": [
+            {
+                "name": "Treasure Coffer 1",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.0 Y: 7.4",
+                "coords": {
+                    "x": "10.0",
+                    "y": "7.4"
+                },
+                "items": [
+                    "Palaka Vambraces of Fending",
+                    "Palaka Vambraces of Maiming",
+                    "Palaka Vambraces of Striking",
+                    "Palaka Halfgloves of Scouting",
+                    "Palaka Vambraces of Aiming",
+                    "Palaka Halfgloves of Casting",
+                    "Palaka Halfgloves of Healing",
+                    "Palaka Boots of Fending",
+                    "Palaka Boots of Maiming",
+                    "Palaka Pumps of Striking",
+                    "Palaka Pumps of Scouting",
+                    "Palaka Boots of Aiming",
+                    "Palaka Pumps of Casting",
+                    "Palaka Pumps of Healing",
+                    "Palaka Bracelet of Fending",
+                    "Palaka Bracelet of Slaying",
+                    "Palaka Bracelet of Aiming",
+                    "Palaka Bracelet of Casting",
+                    "Palaka Bracelet of Healing",
+                    "Palaka Ring of Fending",
+                    "Palaka Ring of Slaying",
+                    "Palaka Ring of Aiming",
+                    "Palaka Ring of Casting",
+                    "Palaka Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 2",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.6 Y: 6.0",
+                "coords": {
+                    "x": "10.6",
+                    "y": "6.0"
+                },
+                "items": [
+                    "Palaka Helm of Fending",
+                    "Palaka Helm of Maiming",
+                    "Palaka Turban of Striking",
+                    "Palaka Turban of Scouting",
+                    "Palaka Turban of Aiming",
+                    "Palaka Turban of Casting",
+                    "Palaka Turban of Healing",
+                    "Palaka Sarouel of Fending",
+                    "Palaka Sarouel of Maiming",
+                    "Palaka Sarouel of Striking",
+                    "Palaka Sarouel of Scouting",
+                    "Palaka Sarouel of Aiming",
+                    "Palaka Sarouel of Casting",
+                    "Palaka Sarouel of Healing",
+                    "Palaka Earrings of Fending",
+                    "Palaka Earrings of Slaying",
+                    "Palaka Earrings of Aiming",
+                    "Palaka Earrings of Casting",
+                    "Palaka Earrings of Healing",
+                    "Palaka Choker of Fending",
+                    "Palaka Choker of Slaying",
+                    "Palaka Choker of Aiming",
+                    "Palaka Choker of Casting",
+                    "Palaka Choker of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 3",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.2 Y: 9.5",
+                "coords": {
+                    "x": "11.2",
+                    "y": "9.5"
+                },
+                "items": [
+                    "Palaka Jacket of Fending",
+                    "Palaka Jacket of Maiming",
+                    "Palaka Vest of Striking",
+                    "Palaka Vest of Scouting",
+                    "Palaka Vest of Aiming",
+                    "Palaka Vest of Casting",
+                    "Palaka Vest of Healing",
+                    "Palaka Bracelet of Fending",
+                    "Palaka Bracelet of Slaying",
+                    "Palaka Bracelet of Aiming",
+                    "Palaka Bracelet of Casting",
+                    "Palaka Bracelet of Healing",
+                    "Palaka Ring of Fending",
+                    "Palaka Ring of Slaying",
+                    "Palaka Ring of Aiming",
+                    "Palaka Ring of Casting",
+                    "Palaka Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 4",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.9 Y: 7.4",
+                "coords": {
+                    "x": "10.9",
+                    "y": "7.4"
+                },
+                "items": [
+                    "Palaka Shamshir",
+                    "Palaka Bardiche",
+                    "Palaka Claymore",
+                    "Palaka Gunblade",
+                    "Palaka Couse",
+                    "Palaka War Scythe",
+                    "Palaka Sainti",
+                    "Palaka Tulwar",
+                    "Palaka Cleavers",
+                    "Palaka Shortbow",
+                    "Palaka Culverin",
+                    "Palaka Chakrams",
+                    "Palaka Longpole",
+                    "Palaka Grimoire",
+                    "Palaka Smallsword",
+                    "Palaka Wand",
+                    "Palaka Codex",
+                    "Palaka Torquetum",
+                    "Palaka Pendulums",
+                    "Palaka Pelta",
+                    "Palaka Earrings of Fending",
+                    "Palaka Earrings of Slaying",
+                    "Palaka Earrings of Aiming",
+                    "Palaka Earrings of Casting",
+                    "Palaka Earrings of Healing",
+                    "Palaka Choker of Fending",
+                    "Palaka Choker of Slaying",
+                    "Palaka Choker of Aiming",
+                    "Palaka Choker of Casting",
+                    "Palaka Choker of Healing"
+                ]
+            }
+        ],
+        "fights": [
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/fe7fadfb4cf/",
+                        "name": "Terminus Snatcher"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Palaka Helm of Fending",
+                            "Palaka Helm of Maiming",
+                            "Palaka Turban of Striking",
+                            "Palaka Turban of Scouting",
+                            "Palaka Turban of Aiming",
+                            "Palaka Turban of Casting",
+                            "Palaka Turban of Healing",
+                            "Palaka Boots of Fending",
+                            "Palaka Boots of Maiming",
+                            "Palaka Pumps of Striking",
+                            "Palaka Pumps of Scouting",
+                            "Palaka Boots of Aiming",
+                            "Palaka Pumps of Casting",
+                            "Palaka Pumps of Healing",
+                            "Palaka Bracelet of Fending",
+                            "Palaka Bracelet of Slaying",
+                            "Palaka Bracelet of Aiming",
+                            "Palaka Bracelet of Casting",
+                            "Palaka Bracelet of Healing",
+                            "Palaka Ring of Fending",
+                            "Palaka Ring of Slaying",
+                            "Palaka Ring of Aiming",
+                            "Palaka Ring of Casting",
+                            "Palaka Ring of Healing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/7542b4eee2d/",
+                        "name": "Terminus Wrecker"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Palaka Vambraces of Fending",
+                            "Palaka Vambraces of Maiming",
+                            "Palaka Vambraces of Striking",
+                            "Palaka Halfgloves of Scouting",
+                            "Palaka Vambraces of Aiming",
+                            "Palaka Halfgloves of Casting",
+                            "Palaka Halfgloves of Healing",
+                            "Palaka Sarouel of Fending",
+                            "Palaka Sarouel of Maiming",
+                            "Palaka Sarouel of Striking",
+                            "Palaka Sarouel of Scouting",
+                            "Palaka Sarouel of Aiming",
+                            "Palaka Sarouel of Casting",
+                            "Palaka Sarouel of Healing",
+                            "Palaka Earrings of Fending",
+                            "Palaka Earrings of Slaying",
+                            "Palaka Earrings of Aiming",
+                            "Palaka Earrings of Casting",
+                            "Palaka Earrings of Healing",
+                            "Palaka Choker of Fending",
+                            "Palaka Choker of Slaying",
+                            "Palaka Choker of Aiming",
+                            "Palaka Choker of Casting",
+                            "Palaka Choker of Healing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/9c6c6a0e5f8/",
+                        "name": "Svarbhanu"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Palaka Shamshir",
+                            "Palaka Bardiche",
+                            "Palaka Claymore",
+                            "Palaka Gunblade",
+                            "Palaka Couse",
+                            "Palaka War Scythe",
+                            "Palaka Sainti",
+                            "Palaka Tulwar",
+                            "Palaka Cleavers",
+                            "Palaka Shortbow",
+                            "Palaka Culverin",
+                            "Palaka Chakrams",
+                            "Palaka Longpole",
+                            "Palaka Grimoire",
+                            "Palaka Smallsword",
+                            "Palaka Wand",
+                            "Palaka Codex",
+                            "Palaka Torquetum",
+                            "Palaka Pendulums",
+                            "Palaka Pelta",
+                            "Palaka Jacket of Fending",
+                            "Palaka Jacket of Maiming",
+                            "Palaka Vest of Striking",
+                            "Palaka Vest of Scouting",
+                            "Palaka Vest of Aiming",
+                            "Palaka Vest of Casting",
+                            "Palaka Vest of Healing",
+                            "Hippo Calf",
+                            "As the Sky Burns Orchestrion Roll"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "dungeon",
+        "version": "Endwalker",
+        "name": "Ktisis Hyperboreia",
+        "url": "/lodestone/playguide/db/duty/8514a64c969/",
+        "lvl": "87",
+        "ilvl": "515",
+        "chests": [
+            {
+                "name": "Treasure Coffer 1",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.9 Y: 12.2",
+                "coords": {
+                    "x": "9.9",
+                    "y": "12.2"
+                },
+                "items": [
+                    "Ktiseos Vambraces of Fending",
+                    "Ktiseos Vambraces of Maiming",
+                    "Ktiseos Gloves of Striking",
+                    "Ktiseos Gloves of Scouting",
+                    "Ktiseos Gloves of Aiming",
+                    "Ktiseos Gloves of Casting",
+                    "Ktiseos Gloves of Healing",
+                    "Ktiseos Greaves of Fending",
+                    "Ktiseos Greaves of Maiming",
+                    "Ktiseos Sabatons of Striking",
+                    "Ktiseos Sabatons of Scouting",
+                    "Ktiseos Sabatons of Aiming",
+                    "Ktiseos Boots of Casting",
+                    "Ktiseos Boots of Healing",
+                    "Ktiseos Bracelet of Fending",
+                    "Ktiseos Bracelet of Slaying",
+                    "Ktiseos Bracelet of Aiming",
+                    "Ktiseos Bracelet of Casting",
+                    "Ktiseos Bracelet of Healing",
+                    "Ktiseos Ring of Fending",
+                    "Ktiseos Ring of Slaying",
+                    "Ktiseos Ring of Aiming",
+                    "Ktiseos Ring of Casting",
+                    "Ktiseos Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 2",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.1 Y: 12.2",
+                "coords": {
+                    "x": "12.1",
+                    "y": "12.2"
+                },
+                "items": [
+                    "Ktiseos Mask of Fending",
+                    "Ktiseos Mask of Maiming",
+                    "Ktiseos Mask of Striking",
+                    "Ktiseos Mask of Scouting",
+                    "Ktiseos Mask of Aiming",
+                    "Ktiseos Petasos of Casting",
+                    "Ktiseos Petasos of Healing",
+                    "Ktiseos Skirt of Fending",
+                    "Ktiseos Trousers of Maiming",
+                    "Ktiseos Hose of Striking",
+                    "Ktiseos Hose of Scouting",
+                    "Ktiseos Hose of Aiming",
+                    "Ktiseos Bottoms of Casting",
+                    "Ktiseos Bottoms of Healing",
+                    "Ktiseos Earring of Fending",
+                    "Ktiseos Earring of Slaying",
+                    "Ktiseos Earring of Aiming",
+                    "Ktiseos Earring of Casting",
+                    "Ktiseos Earring of Healing",
+                    "Ktiseos Choker of Fending",
+                    "Ktiseos Choker of Slaying",
+                    "Ktiseos Choker of Aiming",
+                    "Ktiseos Choker of Casting",
+                    "Ktiseos Choker of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 3",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.5 Y: 11.1",
+                "coords": {
+                    "x": "11.5",
+                    "y": "11.1"
+                },
+                "items": [
+                    "Ktiseos Coat of Fending",
+                    "Ktiseos Coat of Maiming",
+                    "Ktiseos Coat of Striking",
+                    "Ktiseos Coat of Scouting",
+                    "Ktiseos Coat of Aiming",
+                    "Ktiseos Robe of Casting",
+                    "Ktiseos Robe of Healing",
+                    "Ktiseos Bracelet of Fending",
+                    "Ktiseos Bracelet of Slaying",
+                    "Ktiseos Bracelet of Aiming",
+                    "Ktiseos Bracelet of Casting",
+                    "Ktiseos Bracelet of Healing",
+                    "Ktiseos Ring of Fending",
+                    "Ktiseos Ring of Slaying",
+                    "Ktiseos Ring of Aiming",
+                    "Ktiseos Ring of Casting",
+                    "Ktiseos Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 4",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.9 Y: 11.3",
+                "coords": {
+                    "x": "10.9",
+                    "y": "11.3"
+                },
+                "items": [
+                    "Ktiseos Sword",
+                    "Ktiseos War Axe",
+                    "Ktiseos Greatsword",
+                    "Ktiseos Gunblade",
+                    "Ktiseos Spear",
+                    "Ktiseos Zaghnal",
+                    "Ktiseos Knuckles",
+                    "Ktiseos Blade",
+                    "Ktiseos Main Gauches",
+                    "Ktiseos Compound Bow",
+                    "Ktiseos Revolver",
+                    "Ktiseos Chakrams",
+                    "Ktiseos Rod",
+                    "Ktiseos Index",
+                    "Ktiseos Smallsword",
+                    "Ktiseos Cane",
+                    "Ktiseos Codex",
+                    "Ktiseos Planisphere",
+                    "Ktiseos Wings",
+                    "Ktiseos Shield",
+                    "Ktiseos Earring of Fending",
+                    "Ktiseos Earring of Slaying",
+                    "Ktiseos Earring of Aiming",
+                    "Ktiseos Earring of Casting",
+                    "Ktiseos Earring of Healing",
+                    "Ktiseos Choker of Fending",
+                    "Ktiseos Choker of Slaying",
+                    "Ktiseos Choker of Aiming",
+                    "Ktiseos Choker of Casting",
+                    "Ktiseos Choker of Healing"
+                ]
+            }
+        ],
+        "fights": [
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/7acb0a5b1f6/",
+                        "name": "Lyssa"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Ktiseos Mask of Fending",
+                            "Ktiseos Mask of Maiming",
+                            "Ktiseos Mask of Striking",
+                            "Ktiseos Mask of Scouting",
+                            "Ktiseos Mask of Aiming",
+                            "Ktiseos Petasos of Casting",
+                            "Ktiseos Petasos of Healing",
+                            "Ktiseos Greaves of Fending",
+                            "Ktiseos Greaves of Maiming",
+                            "Ktiseos Sabatons of Striking",
+                            "Ktiseos Sabatons of Scouting",
+                            "Ktiseos Sabatons of Aiming",
+                            "Ktiseos Boots of Casting",
+                            "Ktiseos Boots of Healing",
+                            "Ktiseos Bracelet of Fending",
+                            "Ktiseos Bracelet of Slaying",
+                            "Ktiseos Bracelet of Aiming",
+                            "Ktiseos Bracelet of Casting",
+                            "Ktiseos Bracelet of Healing",
+                            "Ktiseos Ring of Fending",
+                            "Ktiseos Ring of Slaying",
+                            "Ktiseos Ring of Aiming",
+                            "Ktiseos Ring of Casting",
+                            "Ktiseos Ring of Healing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/af3eb95f759/",
+                        "name": "Ladon Lord"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Ktiseos Vambraces of Fending",
+                            "Ktiseos Vambraces of Maiming",
+                            "Ktiseos Gloves of Striking",
+                            "Ktiseos Gloves of Scouting",
+                            "Ktiseos Gloves of Aiming",
+                            "Ktiseos Gloves of Casting",
+                            "Ktiseos Gloves of Healing",
+                            "Ktiseos Skirt of Fending",
+                            "Ktiseos Trousers of Maiming",
+                            "Ktiseos Hose of Striking",
+                            "Ktiseos Hose of Scouting",
+                            "Ktiseos Hose of Aiming",
+                            "Ktiseos Bottoms of Casting",
+                            "Ktiseos Bottoms of Healing",
+                            "Ktiseos Earring of Fending",
+                            "Ktiseos Earring of Slaying",
+                            "Ktiseos Earring of Aiming",
+                            "Ktiseos Earring of Casting",
+                            "Ktiseos Earring of Healing",
+                            "Ktiseos Choker of Fending",
+                            "Ktiseos Choker of Slaying",
+                            "Ktiseos Choker of Aiming",
+                            "Ktiseos Choker of Casting",
+                            "Ktiseos Choker of Healing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/88d20c7b2b9/",
+                        "name": "Hermes"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Ktiseos Sword",
+                            "Ktiseos War Axe",
+                            "Ktiseos Greatsword",
+                            "Ktiseos Gunblade",
+                            "Ktiseos Spear",
+                            "Ktiseos Zaghnal",
+                            "Ktiseos Knuckles",
+                            "Ktiseos Blade",
+                            "Ktiseos Main Gauches",
+                            "Ktiseos Compound Bow",
+                            "Ktiseos Revolver",
+                            "Ktiseos Chakrams",
+                            "Ktiseos Rod",
+                            "Ktiseos Index",
+                            "Ktiseos Smallsword",
+                            "Ktiseos Cane",
+                            "Ktiseos Codex",
+                            "Ktiseos Planisphere",
+                            "Ktiseos Wings",
+                            "Ktiseos Shield",
+                            "Ktiseos Coat of Fending",
+                            "Ktiseos Coat of Maiming",
+                            "Ktiseos Coat of Striking",
+                            "Ktiseos Coat of Scouting",
+                            "Ktiseos Coat of Aiming",
+                            "Ktiseos Robe of Casting",
+                            "Ktiseos Robe of Healing",
+                            "Caduceus",
+                            "Miracle Works Orchestrion Roll"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "dungeon",
+        "version": "Endwalker",
+        "name": "The Aitiascope",
+        "url": "/lodestone/playguide/db/duty/fd65b266f55/",
+        "lvl": "89",
+        "ilvl": "520",
+        "chests": [
+            {
+                "name": "Treasure Coffer 1",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.8 Y: 12.6",
+                "coords": {
+                    "x": "11.8",
+                    "y": "12.6"
+                },
+                "items": [
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 2",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.3 Y: 10.0",
+                "coords": {
+                    "x": "11.3",
+                    "y": "10.0"
+                },
+                "items": [
+                    "Etheirys Bracelet of Fending",
+                    "Etheirys Bracelet of Slaying",
+                    "Etheirys Bracelet of Aiming",
+                    "Etheirys Bracelet of Casting",
+                    "Etheirys Bracelet of Healing",
+                    "Etheirys Ring of Fending",
+                    "Etheirys Ring of Slaying",
+                    "Etheirys Ring of Aiming",
+                    "Etheirys Ring of Casting",
+                    "Etheirys Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 3",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.2 Y: 13.1",
+                "coords": {
+                    "x": "11.2",
+                    "y": "13.1"
+                },
+                "items": [
+                    "Etheirys Earring of Fending",
+                    "Etheirys Earring of Slaying",
+                    "Etheirys Earring of Aiming",
+                    "Etheirys Earring of Casting",
+                    "Etheirys Earring of Healing",
+                    "Etheirys Choker of Fending",
+                    "Etheirys Choker of Slaying",
+                    "Etheirys Choker of Aiming",
+                    "Etheirys Choker of Casting",
+                    "Etheirys Choker of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 4",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.2 Y: 8.9",
+                "coords": {
+                    "x": "11.2",
+                    "y": "8.9"
+                },
+                "items": [
+                    "Etheirys Bracelet of Fending",
+                    "Etheirys Bracelet of Slaying",
+                    "Etheirys Bracelet of Aiming",
+                    "Etheirys Bracelet of Casting",
+                    "Etheirys Bracelet of Healing",
+                    "Etheirys Ring of Fending",
+                    "Etheirys Ring of Slaying",
+                    "Etheirys Ring of Aiming",
+                    "Etheirys Ring of Casting",
+                    "Etheirys Ring of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            }
+        ],
+        "fights": [
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/e45c870c80f/",
+                        "name": "Livia The Undeterred"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Etheirys Earring of Fending",
+                            "Etheirys Earring of Slaying",
+                            "Etheirys Earring of Aiming",
+                            "Etheirys Earring of Casting",
+                            "Etheirys Earring of Healing",
+                            "Etheirys Choker of Fending",
+                            "Etheirys Choker of Slaying",
+                            "Etheirys Choker of Aiming",
+                            "Etheirys Choker of Casting",
+                            "Etheirys Choker of Healing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/4023db39461/",
+                        "name": "Rhitahtyn The Unshakable"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Etheirys Bracelet of Fending",
+                            "Etheirys Bracelet of Slaying",
+                            "Etheirys Bracelet of Aiming",
+                            "Etheirys Bracelet of Casting",
+                            "Etheirys Bracelet of Healing",
+                            "Etheirys Ring of Fending",
+                            "Etheirys Ring of Slaying",
+                            "Etheirys Ring of Aiming",
+                            "Etheirys Ring of Casting",
+                            "Etheirys Ring of Healing",
+                            "Savage Aim Materia IX",
+                            "Savage Might Materia IX",
+                            "Heavens' Eye Materia IX",
+                            "Quickarm Materia IX",
+                            "Quicktongue Materia IX",
+                            "Battledance Materia IX",
+                            "Piety Materia IX"
+                        ]
+                    }
+                ]
+            },
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/53864eef449/",
+                        "name": "Amon The Undying"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Etheirys Earring of Fending",
+                            "Etheirys Earring of Slaying",
+                            "Etheirys Earring of Aiming",
+                            "Etheirys Earring of Casting",
+                            "Etheirys Earring of Healing",
+                            "Etheirys Choker of Fending",
+                            "Etheirys Choker of Slaying",
+                            "Etheirys Choker of Aiming",
+                            "Etheirys Choker of Casting",
+                            "Etheirys Choker of Healing",
+                            "Tiny Troll",
+                            "The Aetherial Sea Orchestrion Roll"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "dungeon",
+        "version": "Endwalker",
+        "name": "The Dead Ends",
+        "url": "/lodestone/playguide/db/duty/ba59c193b71/",
+        "lvl": "90",
+        "ilvl": "540",
+        "chests": [
+            {
+                "name": "Treasure Coffer 1",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.6 Y: 12.8",
+                "coords": {
+                    "x": "11.6",
+                    "y": "12.8"
+                },
+                "items": [
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 2",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.3 Y: 9.3",
+                "coords": {
+                    "x": "10.3",
+                    "y": "9.3"
+                },
+                "items": [
+                    "The Last Bracelet of Fending",
+                    "The Last Bracelet of Slaying",
+                    "The Last Bracelet of Aiming",
+                    "The Last Bracelet of Casting",
+                    "The Last Bracelet of Healing",
+                    "The Last Ring of Fending",
+                    "The Last Ring of Slaying",
+                    "The Last Ring of Aiming",
+                    "The Last Ring of Casting",
+                    "The Last Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 3",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.2 Y: 11.8",
+                "coords": {
+                    "x": "11.2",
+                    "y": "11.8"
+                },
+                "items": [
+                    "The Last Earring of Fending",
+                    "The Last Earring of Slaying",
+                    "The Last Earring of Aiming",
+                    "The Last Earring of Casting",
+                    "The Last Earring of Healing",
+                    "The Last Necklace of Fending",
+                    "The Last Necklace of Slaying",
+                    "The Last Necklace of Aiming",
+                    "The Last Necklace of Casting",
+                    "The Last Necklace of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 4",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.3 Y: 9.3",
+                "coords": {
+                    "x": "9.3",
+                    "y": "9.3"
+                },
+                "items": [
+                    "The Last Bracelet of Fending",
+                    "The Last Bracelet of Slaying",
+                    "The Last Bracelet of Aiming",
+                    "The Last Bracelet of Casting",
+                    "The Last Bracelet of Healing",
+                    "The Last Ring of Fending",
+                    "The Last Ring of Slaying",
+                    "The Last Ring of Aiming",
+                    "The Last Ring of Casting",
+                    "The Last Ring of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            }
+        ],
+        "fights": [
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/a2a791faa17/",
+                        "name": "Caustic Grebuloff"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "The Last Earring of Fending",
+                            "The Last Earring of Slaying",
+                            "The Last Earring of Aiming",
+                            "The Last Earring of Casting",
+                            "The Last Earring of Healing",
+                            "The Last Necklace of Fending",
+                            "The Last Necklace of Slaying",
+                            "The Last Necklace of Aiming",
+                            "The Last Necklace of Casting",
+                            "The Last Necklace of Healing"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "15"
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/c8178f4fec1/",
+                        "name": "Peacekeeper"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "The Last Bracelet of Fending",
+                            "The Last Bracelet of Slaying",
+                            "The Last Bracelet of Aiming",
+                            "The Last Bracelet of Casting",
+                            "The Last Bracelet of Healing",
+                            "The Last Ring of Fending",
+                            "The Last Ring of Slaying",
+                            "The Last Ring of Aiming",
+                            "The Last Ring of Casting",
+                            "The Last Ring of Healing",
+                            "Savage Aim Materia IX",
+                            "Savage Might Materia IX",
+                            "Heavens' Eye Materia IX",
+                            "Quickarm Materia IX",
+                            "Quicktongue Materia IX",
+                            "Battledance Materia IX",
+                            "Piety Materia IX"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "25"
+                    }
+                ]
+            },
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/1b3c642d029/",
+                        "name": "Ra-la"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "The Last Earring of Fending",
+                            "The Last Earring of Slaying",
+                            "The Last Earring of Aiming",
+                            "The Last Earring of Casting",
+                            "The Last Earring of Healing",
+                            "The Last Necklace of Fending",
+                            "The Last Necklace of Slaying",
+                            "The Last Necklace of Aiming",
+                            "The Last Necklace of Casting",
+                            "The Last Necklace of Healing",
+                            "???",
+                            "Of Countless Stars Orchestrion Roll"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "40"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "50"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "dungeon",
+        "version": "Endwalker",
+        "name": "Smileton",
+        "url": "/lodestone/playguide/db/duty/175e6a7245d/",
+        "lvl": "90",
+        "ilvl": "540",
+        "chests": [
+            {
+                "name": "Treasure Coffer 1",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 9.6 Y: 12.8",
+                "coords": {
+                    "x": "9.6",
+                    "y": "12.8"
+                },
+                "items": [
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 2",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.6 Y: 10.8",
+                "coords": {
+                    "x": "11.6",
+                    "y": "10.8"
+                },
+                "items": [
+                    "The Last Bracelet of Fending",
+                    "The Last Bracelet of Slaying",
+                    "The Last Bracelet of Aiming",
+                    "The Last Bracelet of Casting",
+                    "The Last Bracelet of Healing",
+                    "The Last Ring of Fending",
+                    "The Last Ring of Slaying",
+                    "The Last Ring of Aiming",
+                    "The Last Ring of Casting",
+                    "The Last Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 3",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.5 Y: 11.5",
+                "coords": {
+                    "x": "12.5",
+                    "y": "11.5"
+                },
+                "items": [
+                    "The Last Earring of Fending",
+                    "The Last Earring of Slaying",
+                    "The Last Earring of Aiming",
+                    "The Last Earring of Casting",
+                    "The Last Earring of Healing",
+                    "The Last Necklace of Fending",
+                    "The Last Necklace of Slaying",
+                    "The Last Necklace of Aiming",
+                    "The Last Necklace of Casting",
+                    "The Last Necklace of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 4",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.4 Y: 8.4",
+                "coords": {
+                    "x": "11.4",
+                    "y": "8.4"
+                },
+                "items": [
+                    "The Last Bracelet of Fending",
+                    "The Last Bracelet of Slaying",
+                    "The Last Bracelet of Aiming",
+                    "The Last Bracelet of Casting",
+                    "The Last Bracelet of Healing",
+                    "The Last Ring of Fending",
+                    "The Last Ring of Slaying",
+                    "The Last Ring of Aiming",
+                    "The Last Ring of Casting",
+                    "The Last Ring of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            }
+        ],
+        "fights": [
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/ecd090a2cc1/",
+                        "name": "Face"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "The Last Earring of Fending",
+                            "The Last Earring of Slaying",
+                            "The Last Earring of Aiming",
+                            "The Last Earring of Casting",
+                            "The Last Earring of Healing",
+                            "The Last Necklace of Fending",
+                            "The Last Necklace of Slaying",
+                            "The Last Necklace of Aiming",
+                            "The Last Necklace of Casting",
+                            "The Last Necklace of Healing"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "15"
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/9765a3c9d97/",
+                        "name": "Frameworker"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "The Last Bracelet of Fending",
+                            "The Last Bracelet of Slaying",
+                            "The Last Bracelet of Aiming",
+                            "The Last Bracelet of Casting",
+                            "The Last Bracelet of Healing",
+                            "The Last Ring of Fending",
+                            "The Last Ring of Slaying",
+                            "The Last Ring of Aiming",
+                            "The Last Ring of Casting",
+                            "The Last Ring of Healing",
+                            "Savage Aim Materia IX",
+                            "Savage Might Materia IX",
+                            "Heavens' Eye Materia IX",
+                            "Quickarm Materia IX",
+                            "Quicktongue Materia IX",
+                            "Battledance Materia IX",
+                            "Piety Materia IX"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "25"
+                    }
+                ]
+            },
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/cccc3f0b79b/",
+                        "name": "The Big Cheese"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "The Last Earring of Fending",
+                            "The Last Earring of Slaying",
+                            "The Last Earring of Aiming",
+                            "The Last Earring of Casting",
+                            "The Last Earring of Healing",
+                            "The Last Necklace of Fending",
+                            "The Last Necklace of Slaying",
+                            "The Last Necklace of Aiming",
+                            "The Last Necklace of Casting",
+                            "The Last Necklace of Healing",
+                            "Prince Lunatender",
+                            "Carrots of Happiness Orchestrion Roll"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "40"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "50"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "dungeon",
+        "version": "Endwalker",
+        "name": "The Stigma Dreamscape",
+        "url": "/lodestone/playguide/db/duty/25f8ec27427/",
+        "lvl": "90",
+        "ilvl": "540",
+        "chests": [
+            {
+                "name": "Treasure Coffer 1",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.1 Y: 9.3",
+                "coords": {
+                    "x": "14.1",
+                    "y": "9.3"
+                },
+                "items": [
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 2",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.0 Y: 10.2",
+                "coords": {
+                    "x": "11.0",
+                    "y": "10.2"
+                },
+                "items": [
+                    "The Last Bracelet of Fending",
+                    "The Last Bracelet of Slaying",
+                    "The Last Bracelet of Aiming",
+                    "The Last Bracelet of Casting",
+                    "The Last Bracelet of Healing",
+                    "The Last Ring of Fending",
+                    "The Last Ring of Slaying",
+                    "The Last Ring of Aiming",
+                    "The Last Ring of Casting",
+                    "The Last Ring of Healing"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 3",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.4 Y: 12.3",
+                "coords": {
+                    "x": "11.4",
+                    "y": "12.3"
+                },
+                "items": [
+                    "The Last Earring of Fending",
+                    "The Last Earring of Slaying",
+                    "The Last Earring of Aiming",
+                    "The Last Earring of Casting",
+                    "The Last Earring of Healing",
+                    "The Last Necklace of Fending",
+                    "The Last Necklace of Slaying",
+                    "The Last Necklace of Aiming",
+                    "The Last Necklace of Casting",
+                    "The Last Necklace of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 4",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.3 Y: 9.9",
+                "coords": {
+                    "x": "11.3",
+                    "y": "9.9"
+                },
+                "items": [
+                    "The Last Bracelet of Fending",
+                    "The Last Bracelet of Slaying",
+                    "The Last Bracelet of Aiming",
+                    "The Last Bracelet of Casting",
+                    "The Last Bracelet of Healing",
+                    "The Last Ring of Fending",
+                    "The Last Ring of Slaying",
+                    "The Last Ring of Aiming",
+                    "The Last Ring of Casting",
+                    "The Last Ring of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            }
+        ],
+        "fights": [
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/ec6f94d9526/",
+                        "name": "Proto-Omega"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "The Last Earring of Fending",
+                            "The Last Earring of Slaying",
+                            "The Last Earring of Aiming",
+                            "The Last Earring of Casting",
+                            "The Last Earring of Healing",
+                            "The Last Necklace of Fending",
+                            "The Last Necklace of Slaying",
+                            "The Last Necklace of Aiming",
+                            "The Last Necklace of Casting",
+                            "The Last Necklace of Healing"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "15"
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/2e18076e484/",
+                        "name": "Arch-Lambda"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "The Last Bracelet of Fending",
+                            "The Last Bracelet of Slaying",
+                            "The Last Bracelet of Aiming",
+                            "The Last Bracelet of Casting",
+                            "The Last Bracelet of Healing",
+                            "The Last Ring of Fending",
+                            "The Last Ring of Slaying",
+                            "The Last Ring of Aiming",
+                            "The Last Ring of Casting",
+                            "The Last Ring of Healing",
+                            "Savage Aim Materia IX",
+                            "Savage Might Materia IX",
+                            "Heavens' Eye Materia IX",
+                            "Quickarm Materia IX",
+                            "Quicktongue Materia IX",
+                            "Battledance Materia IX",
+                            "Piety Materia IX"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "25"
+                    }
+                ]
+            },
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/d14e7d1105d/",
+                        "name": "Stigma-4"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "The Last Earring of Fending",
+                            "The Last Earring of Slaying",
+                            "The Last Earring of Aiming",
+                            "The Last Earring of Casting",
+                            "The Last Earring of Healing",
+                            "The Last Necklace of Fending",
+                            "The Last Necklace of Slaying",
+                            "The Last Necklace of Aiming",
+                            "The Last Necklace of Casting",
+                            "The Last Necklace of Healing",
+                            "Optimus Omicron"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "40"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "50"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "category": "trial",
         "version": "A Realm Reborn",
         "name": "The Bowl of Embers",
@@ -23657,6 +25598,223 @@
                     {
                         "name": "Allagan Tomestone of Poetics",
                         "amount": "25"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "trial",
+        "version": "Endwalker",
+        "name": "The Dark Inside",
+        "url": "/lodestone/playguide/db/duty/6eed2137942/",
+        "lvl": "83",
+        "ilvl": "-",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/8a25633028b/",
+                        "name": "Zodiark"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "trial",
+        "version": "Endwalker",
+        "name": "The Mothercrystal",
+        "url": "/lodestone/playguide/db/duty/044b34a37ca/",
+        "lvl": "89",
+        "ilvl": "-",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/efc7ed6e4e0/",
+                        "name": "Hydaelyn"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "trial",
+        "version": "Endwalker",
+        "name": "The Final Day",
+        "url": "/lodestone/playguide/db/duty/7b4070f67f6/",
+        "lvl": "90",
+        "ilvl": "540",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/56331727047/",
+                        "name": "The Endsinger"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "10"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "6"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "trial",
+        "version": "Endwalker",
+        "name": "The Minstrel's Ballad: Zodiark's Fall",
+        "url": "/lodestone/playguide/db/duty/f40a8f14d6d/",
+        "lvl": "90",
+        "ilvl": "560",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/73abd25db24/",
+                        "name": "Zodiark"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    },
+                    {
+                        "name": "???"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "15"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "trial",
+        "version": "Endwalker",
+        "name": "The Minstrel's Ballad: Hydaelyn's Call",
+        "url": "/lodestone/playguide/db/duty/0dbba05fd0f/",
+        "lvl": "90",
+        "ilvl": "560",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/a93aa2700bf/",
+                        "name": "Hydaelyn"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    },
+                    {
+                        "name": "???"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???",
+                            "???"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "15"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "8"
                     }
                 ]
             }
