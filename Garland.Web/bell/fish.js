@@ -15204,6 +15204,10 @@ gt.bell.fish = [
         "Fullmoon Sardine"
       ]
     ],
+    "during": {
+      "start": 18,
+      "end": 6
+    },
     "hookset": "Powerful Hookset",
     "tug": "Medium",
     "id": 4906,
@@ -15230,6 +15234,10 @@ gt.bell.fish = [
         "Fullmoon Sardine"
       ]
     ],
+    "during": {
+      "start": 18,
+      "end": 6
+    },
     "hookset": "Powerful Hookset",
     "tug": "Medium",
     "id": 4906,
@@ -15256,6 +15264,10 @@ gt.bell.fish = [
         "Fullmoon Sardine"
       ]
     ],
+    "during": {
+      "start": 18,
+      "end": 6
+    },
     "hookset": "Powerful Hookset",
     "tug": "Medium",
     "id": 4906,
@@ -15387,6 +15399,10 @@ gt.bell.fish = [
         "Fullmoon Sardine"
       ]
     ],
+    "during": {
+      "start": 18,
+      "end": 6
+    },
     "hookset": "Powerful Hookset",
     "tug": "Medium",
     "id": 4918,
@@ -24367,6 +24383,13 @@ gt.bell.fish = [
         "Cloud Cutter",
         "Mahar"
       ]
+    ],
+    "weather": [
+      "Blizzards"
+    ],
+    "transition": [
+      "Clear Skies",
+      "Fair Skies"
     ],
     "hookset": "Powerful Hookset",
     "tug": "Heavy",
@@ -38752,6 +38775,10 @@ gt.bell.fish = [
         "Red Prismfish"
       ]
     ],
+    "during": {
+      "start": 4,
+      "end": 8
+    },
     "hookset": "Powerful Hookset",
     "tug": "Medium",
     "id": 23055,
@@ -38779,6 +38806,10 @@ gt.bell.fish = [
         "Red Prismfish"
       ]
     ],
+    "during": {
+      "start": 4,
+      "end": 8
+    },
     "hookset": "Precision Hookset",
     "tug": "Light",
     "id": 23056,
@@ -38806,6 +38837,10 @@ gt.bell.fish = [
         "Violet Prismfish"
       ]
     ],
+    "during": {
+      "start": 0,
+      "end": 4
+    },
     "hookset": "Precision Hookset",
     "tug": "Light",
     "id": 24203,
@@ -49254,41 +49289,6 @@ gt.bell.fish = [
     "scrip": "White Gatherers' Scrip"
   },
   {
-    "name": "Fate's Design",
-    "patch": 6.0,
-    "baits": [
-      [
-        "Shrimp Ball"
-      ],
-      [
-        "Mackerel Strip"
-      ],
-      [
-        "Versatile Lure"
-      ],
-      [
-        "Shrimp Ball",
-        "Shadowdart Sardine"
-      ]
-    ],
-    "hookset": "Powerful Hookset",
-    "tug": "Medium",
-    "id": 36425,
-    "icon": 28045,
-    "func": "fish",
-    "rarity": 1,
-    "title": "The Thavnairian Coast",
-    "category": "Ocean Fishing",
-    "spot": 262,
-    "lvl": 81,
-    "coords": [
-      9.57,
-      33.39
-    ],
-    "radius": 1800,
-    "zone": "Thavnair"
-  },
-  {
     "name": "Shadowdart Sardine",
     "patch": 6.0,
     "baits": [
@@ -49310,6 +49310,41 @@ gt.bell.fish = [
     "tug": "Medium",
     "id": 36426,
     "icon": 28046,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Thavnairian Coast",
+    "category": "Ocean Fishing",
+    "spot": 262,
+    "lvl": 81,
+    "coords": [
+      9.57,
+      33.39
+    ],
+    "radius": 1800,
+    "zone": "Thavnair"
+  },
+  {
+    "name": "Fate's Design",
+    "patch": 6.0,
+    "baits": [
+      [
+        "Shrimp Ball"
+      ],
+      [
+        "Mackerel Strip"
+      ],
+      [
+        "Versatile Lure"
+      ],
+      [
+        "Shrimp Ball",
+        "Shadowdart Sardine"
+      ]
+    ],
+    "hookset": "Powerful Hookset",
+    "tug": "Medium",
+    "id": 36425,
+    "icon": 28045,
     "func": "fish",
     "rarity": 1,
     "title": "The Thavnairian Coast",
@@ -50861,7 +50896,7 @@ gt.bell.fish = [
     "zone": "Mare Lamentorum"
   },
   {
-    "name": "Feverfish",
+    "name": "Calicia",
     "patch": 6.0,
     "baits": [
       [
@@ -50872,16 +50907,12 @@ gt.bell.fish = [
       ],
       [
         "Versatile Lure"
-      ],
-      [
-        "Grey Worm",
-        "Calicia"
       ]
     ],
-    "hookset": "Powerful Hookset",
-    "tug": "Medium",
-    "id": 36468,
-    "icon": 29315,
+    "hookset": "Precision Hookset",
+    "tug": "Light",
+    "id": 36470,
+    "icon": 29763,
     "func": "fish",
     "rarity": 1,
     "title": "The Chlorophospond",
@@ -50896,7 +50927,7 @@ gt.bell.fish = [
     "zone": "Mare Lamentorum"
   },
   {
-    "name": "Feverfish",
+    "name": "Calicia",
     "patch": 6.0,
     "baits": [
       [
@@ -50907,16 +50938,12 @@ gt.bell.fish = [
       ],
       [
         "Versatile Lure"
-      ],
-      [
-        "Grey Worm",
-        "Calicia"
       ]
     ],
-    "hookset": "Powerful Hookset",
-    "tug": "Medium",
-    "id": 36468,
-    "icon": 29315,
+    "hookset": "Precision Hookset",
+    "tug": "Light",
+    "id": 36470,
+    "icon": 29763,
     "func": "fish",
     "rarity": 1,
     "title": "The Frozen Fissure",
@@ -50931,7 +50958,7 @@ gt.bell.fish = [
     "zone": "Mare Lamentorum"
   },
   {
-    "name": "Calicia",
+    "name": "Feverfish",
     "patch": 6.0,
     "baits": [
       [
@@ -50942,12 +50969,16 @@ gt.bell.fish = [
       ],
       [
         "Versatile Lure"
+      ],
+      [
+        "Grey Worm",
+        "Calicia"
       ]
     ],
-    "hookset": "Precision Hookset",
-    "tug": "Light",
-    "id": 36470,
-    "icon": 29763,
+    "hookset": "Powerful Hookset",
+    "tug": "Medium",
+    "id": 36468,
+    "icon": 29315,
     "func": "fish",
     "rarity": 1,
     "title": "The Chlorophospond",
@@ -50962,7 +50993,7 @@ gt.bell.fish = [
     "zone": "Mare Lamentorum"
   },
   {
-    "name": "Calicia",
+    "name": "Feverfish",
     "patch": 6.0,
     "baits": [
       [
@@ -50973,12 +51004,16 @@ gt.bell.fish = [
       ],
       [
         "Versatile Lure"
+      ],
+      [
+        "Grey Worm",
+        "Calicia"
       ]
     ],
-    "hookset": "Precision Hookset",
-    "tug": "Light",
-    "id": 36470,
-    "icon": 29763,
+    "hookset": "Powerful Hookset",
+    "tug": "Medium",
+    "id": 36468,
+    "icon": 29315,
     "func": "fish",
     "rarity": 1,
     "title": "The Frozen Fissure",

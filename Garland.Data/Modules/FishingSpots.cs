@@ -235,6 +235,8 @@ namespace Garland.Data.Modules
                         foreach (string possibleBaitRaw in bait.Split(','))
                         {
                             string possibleBait = possibleBaitRaw.Trim();
+                            if (name == possibleBait)
+                                continue;
                             // If not otherwise specified, fish should inherit the time
                             // and weather restrictions of restricted bait (like predators).
                             if (!_builder.Db.ItemsByName.TryGetValue(possibleBait, out var baitItem))
@@ -242,9 +244,6 @@ namespace Garland.Data.Modules
 
                             if (baitItem.fish != null)
                             {
-                                if (baitItem.en.name.Value == possibleBait)
-                                    continue;
-
                                 dynamic baitSpotView = ((JArray)baitItem.fish?.spots)?.FirstOrDefault(s => s["spot"] == spot.spot && s["node"] == spot.node);
                                 if (baitSpotView == null)
                                     throw new InvalidOperationException($"Can't find mooch {possibleBait} for {name} at {currentFishingSpot.en.name}.  Did you forget to add it to the spot?");

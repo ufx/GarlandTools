@@ -1814,8 +1814,12 @@ gt.timer.fish = function(now, def) {
             this.map = gt.map.getViewModel(def.zone, def.coords);
 
     def.baitTokens = [];
-    for (var i = 0; i < def.baits.length; i++){
-        def.baitTokens.push(gt.bell.tokenizeBait(def.baits[i]));
+    if (def.baits){
+        for (var i = 0; i < def.baits.length; i++){
+            def.baitTokens.push(gt.bell.tokenizeBait(def.baits[i]));
+        }
+    } else if (def.bait){
+        def.baitTokens = gt.bell.tokenizeBait(def.bait);
     }
 
     if (def.predator) {
