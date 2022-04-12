@@ -6139,7 +6139,7 @@
     "title": "Purusa",
     "zone": "Thavnair",
     "coords": [
-      32.55,
+      32.43,
       24.96
     ],
     "name": "Unspoiled",
@@ -6161,6 +6161,11 @@
         "item": "Rime Dolomite",
         "icon": 21225,
         "id": 36216
+      },
+      {
+        "item": "Raw Eblan Danburite",
+        "icon": 21477,
+        "id": 37279
       }
     ],
     "stars": 1,
@@ -6280,8 +6285,8 @@
     "title": "Logistikon Gamma",
     "zone": "Labyrinthos",
     "coords": [
-      9.97,
-      34.91
+      10.57,
+      34.81
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -6319,8 +6324,8 @@
     "title": "Pavana's Remorse",
     "zone": "Thavnair",
     "coords": [
-      25.22,
-      14.35
+      26.77,
+      15.67
     ],
     "name": "Ephemeral",
     "uptime": 240,
@@ -6446,8 +6451,8 @@
     "title": "Logistikon Beta",
     "zone": "Labyrinthos",
     "coords": [
-      9.81,
-      22.08
+      9.99,
+      22.36
     ],
     "name": "Unspoiled",
     "uptime": 120,
@@ -6530,6 +6535,11 @@
         "item": "Golden Cocoon",
         "icon": 21682,
         "id": 36207
+      },
+      {
+        "item": "Thavnairian Corn",
+        "icon": 25352,
+        "id": 37278
       }
     ],
     "stars": 1,
@@ -6574,8 +6584,8 @@
     "title": "The Tube",
     "zone": "Ultima Thule",
     "coords": [
-      28.05,
-      13.11
+      28.11,
+      13.23
     ],
     "name": "Legendary",
     "uptime": 120,
