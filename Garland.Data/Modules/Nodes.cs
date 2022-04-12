@@ -97,10 +97,10 @@ namespace Garland.Data.Modules
                 {
                     sEndTime = 2400;
                 }
-                point.times = new JArray() {sStartTime / 100};
+                point.times = new JArray() { sStartTime / 100 };
                 point.uptime = ((sEndTime / 100) - (sStartTime / 100)) * 60;
             }
-            else if (sTimeTable != null && ((Saint.XivRow) sTimeTable).Key != 0)
+            else if (sTimeTable != null && ((Saint.XivRow)sTimeTable).Key != 0)
             {
                 node.limitType = "Unspoiled";
                 var sTimeTableRow = sTimeTable as Saint.XivRow;
@@ -114,7 +114,7 @@ namespace Garland.Data.Modules
                     else
                         break;
                 }
-                
+
                 // All three duration is same, we just take first one.
                 var sUptime = sTimeTableRow.As<UInt16>("Duration(m)[0]");
                 // This is confusing
@@ -478,12 +478,21 @@ namespace Garland.Data.Modules
                     foreach (var gi in node.items)
                     {
                         int itemId = gi.id;
-                        var item = _builder.Db.ItemsById[itemId];
-                        if (item.nodes == null)
-                            item.nodes = new JArray();
-                        item.nodes.Add(node.id);
-                        _builder.Db.AddReference(node, "item", itemId, false);
-                        _builder.Db.AddReference(item, "node", (int)node.id, true);
+                        try
+                        {
+                            var item = _builder.Db.ItemsById[itemId];
+                            if (item.nodes == null)
+                                item.nodes = new JArray();
+                            item.nodes.Add(node.id);
+                            _builder.Db.AddReference(node, "item", itemId, false);
+                            _builder.Db.AddReference(item, "node", (int)node.id, true);
+
+                        }
+                        catch (KeyNotFoundException notFound)
+                        {
+                            DatabaseBuilder.PrintLine($"Gathering item {itemId} not found for node {node.id}.");
+                            continue;
+                        }
                     }
                 }
                 else
@@ -584,12 +593,13 @@ namespace Garland.Data.Modules
 
                     view.items.Add(itemView);
                 }
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 System.Diagnostics.Debugger.Break();
             }
-            
-            
+
+
         }
 
         static string TypeToName(int gatheringType)

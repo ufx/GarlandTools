@@ -20,7 +20,11 @@ namespace Garland.Data.Modules
         void BeastTribe()
         {
             foreach (var sBeastTribe in _builder.Sheet<Saint.BeastTribe>().Skip(1))
-                IconDatabase.EnsureEntry("beast", sBeastTribe.Icon, sBeastTribe.Key);
+            {
+                if (sBeastTribe.Icon != null)
+                    IconDatabase.EnsureEntry("beast", sBeastTribe.Icon, sBeastTribe.Key);
+            }
+
         }
 
         void CharacterLevels()

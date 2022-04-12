@@ -7,7 +7,7 @@ gt.patch = {
     categoryIndex: {},
     version: 2,
     browse: [
-        { type: 'group', prop: 'series' },
+        { type: 'group', prop: 'series', sortFunc: function(e) { return 100 - Number.parseFloat(e.entries[0].id); } },
         { type: 'sort', prop: 'id' }
     ],
     majorPatchBrowse: [

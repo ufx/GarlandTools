@@ -540,8 +540,8 @@ You Eat What You Aren't	866	The Sea of Clouds	36, 9	3.01
 A Dream, Perchance to Eat	867	The Sea of Clouds	21, 6	3.01	
 Darkscale Descendeth	868	The Churning Mists	18, 12	3	
 Darkscale Disappeareth	869	The Churning Mists		3	
-Darkscale Devoureth	870	The Churning Mists		3	
-Vedrfolnir Devoteth	871	The Churning Mists		3	Ishgardian Half Barding
+Darkscale Devoureth	870	The Churning Mists	18, 9	3	
+Vedrfolnir Devoteth	871	The Churning Mists	11, 36	3	Ishgardian Half Barding
 End of the Rainbow	872	The Churning Mists		3	
 Rastaban Vibration	873	The Churning Mists	14, 13	3	
 Mogicide	874	The Churning Mists	22, 21	3	
@@ -573,7 +573,7 @@ Do Spinners Dream of Electric Rooks	901	Azys Lla	12, 13	3
 Long Live the Coeurl	902	The Dravanian Forelands		3	
 Coeurls Chase Boys	903	The Dravanian Forelands		3	Coeurlregina Horn
 Coeurls Chase Boys	904	The Dravanian Forelands		3	Coeurlregina Horn
-Coeurls Chase Boys Chase Coeurls	905	The Dravanian Forelands		3	Coeurlregina Horn
+Coeurls Chase Boys Chase Coeurls	905	The Dravanian Forelands	12, 10	3	Coeurlregina Horn
 Coeurls Chase Boys Chase Coeurls	906	The Dravanian Forelands		3	Coeurlregina Horn
 Coeurls Chase Boys Chase Coeurls	907	The Dravanian Forelands		3	Coeurlregina Horn
 Sphenopalatine Ganglioneuralgia	908	Coerthas Western Highlands	22, 27	3.01	
@@ -587,7 +587,7 @@ Sparking Up the Wrong Beach	915	Eastern La Noscea		3.07
 It Came from Beneath the Deep	916	Eastern La Noscea		3.07	
 Life's a Beach	917	Eastern La Noscea		3.07	
 Feeling Groggy	918	Eastern La Noscea		3.07	
-Our Favorite Pastime	932			3.1	
+Our Favorite Pastime	932	Eastern La Noscea	32, 33	3.1	
 The Way of the Samurai	933			3.1	
 Serket Breaker	934			3.1	
 The Key to Amatsu: Kyori	935			3.1	
@@ -748,7 +748,7 @@ Foxy Lady	1106	Yanxia	12, 18	4	Sassho-seki Fragment
 Foxy Lady	1107	Yanxia	16, 13	4	Sassho-seki Fragment
 Foxy Lady	1108	Yanxia	24, 34	4	Sassho-seki Fragment
 Outfoxed	1109	Yanxia	31, 9	4	Sassho-seki Fragment
-Freedom Flies	1110			4	
+Freedom Flies	1110	Yanxia	13, 30	4	
 More to Offer	1111	Yanxia	20, 8	4	
 Showing the Recruits What For	1112	The Fringes	9, 16	4	
 Showing the Officers What For	1113	The Fringes	9, 16	4	
@@ -952,26 +952,26 @@ The Dataqi Chronicles: Decimation	1316	The Azim Steppe	22, 19	4
 The Dataqi Chronicles: Divergence	1318	The Azim Steppe	11, 17	4	
 The Dataqi Chronicles: Declarations	1319	The Azim Steppe	11, 17	4	
 The Dataqi Chronicles: Dominion	1320	The Azim Steppe	11, 17	4	Dataqi Standard
-Unsafety Dance	1332	Eureka Anemos		4.25	
-The Shadow over Anemos	1348	Eureka Anemos		4.25	The Prince of Anemos
-Teles House	1333	Eureka Anemos		4.25	
-The Swarm Never Sets	1328	Eureka Anemos		4.25	Emperor Hairpin
-One Missed Callisto	1344	Eureka Anemos		4.25	
-By Numbers	1347	Eureka Anemos		4.25	
-Disinherit the Wind	1345	Eureka Anemos		4.25	
-Prove your Amemettle	1334	Eureka Anemos		4.25	
-Caym What May	1335	Eureka Anemos		4.25	
-The Killing of a Sacred Bombadier	1336	Eureka Anemos		4.25	
-Short Serket 2	1339	Eureka Anemos		4.25	Scorpion Harness, Wind-up Mithra
-Don't Judge Me, Morbol	1346	Eureka Anemos		4.25	
-When You Ride Alone	1343	Eureka Anemos		4.25	
-Sing, Muse	1337	Eureka Anemos		4.25	
-Simurghasbord	1342	Eureka Anemos		4.25	Strider Boots
-To the Mat	1341	Eureka Anemos		4.25	
-Wine and Honey	1331	Eureka Anemos		4.25	
-I Amarok	1340	Eureka Anemos		4.25	
-Drama Lamashtu	1338	Eureka Anemos		4.25	
-Wail in the Willows	1329	Eureka Anemos	7, 21	4.25	Pazuzu's Feather, Altar to Pazuzu
+Unsafety Dance	1332	Eureka Anemos	14, 22	4.25	
+The Shadow over Anemos	1348	Eureka Anemos	30, 27	4.25	The Prince of Anemos
+Teles House	1333	Eureka Anemos	26, 28	4.25	
+The Swarm Never Sets	1328	Eureka Anemos	17, 22	4.25	Emperor Hairpin
+One Missed Callisto	1344	Eureka Anemos	26, 22	4.25	
+By Numbers	1347	Eureka Anemos	24, 23	4.25	
+Disinherit the Wind	1345	Eureka Anemos	18, 19	4.25	
+Prove your Amemettle	1334	Eureka Anemos	15, 16	4.25	
+Caym What May	1335	Eureka Anemos	14, 13	4.25	
+The Killing of a Sacred Bombadier	1336	Eureka Anemos	28, 20	4.25	
+Short Serket 2	1339	Eureka Anemos	25, 18	4.25	Scorpion Harness, Wind-up Mithra
+Don't Judge Me, Morbol	1346	Eureka Anemos	22, 16	4.25	
+When You Ride Alone	1343	Eureka Anemos	20, 13	4.25	
+Sing, Muse	1337	Eureka Anemos	26, 14	4.25	
+Simurghasbord	1342	Eureka Anemos	29, 13	4.25	Strider Boots
+To the Mat	1341	Eureka Anemos	35, 18	4.25	
+Wine and Honey	1331	Eureka Anemos	36, 22	4.25	
+I Amarok	1340	Eureka Anemos	8, 18	4.25	
+Drama Lamashtu	1338	Eureka Anemos	8, 23	4.25	
+Wail in the Willows	1329	Eureka Anemos	7, 21	4.25	Pazuzu's Feather, Altar to Pazuzu, Pazuzu Card
 Color My World	1349			5	
 Color My World	1350			5	
 Eternity	1351			5	
@@ -1057,8 +1057,8 @@ The Devil in the Deep Blue Sea	1433			5
 The Seashells He Sells	1434			5	
 Pearls Apart	1435			5	
 My Friend's Enemy is Anemone of Mine	1436			5	
-The Nets Best Thing	1437			5	
-Hydrozoan of the Enders	1438			5	
+The Nets Best Thing	1437	The Tempest	18.5, 17.9	5	
+Hydrozoan of the Enders	1438	The Tempest	12.1, 14.0	5	
 A Lot to Swallow	1439			5	
 Natural Prawn Killers	1440			5	
 Barking Mad	1441			5	
@@ -1083,8 +1083,8 @@ Monkeying Around	1459			5
 Shot Through the Hart	1460			5	
 Attack the Block	1461			5	
 Foes Most Formidable	1462			5	
-A Family Most Formidable	1463	Kholusia		5	
-A Finale Most Formidable	1464	Kholusia		5	
+A Family Most Formidable	1463	Kholusia	25.7, 20.8	5	
+A Finale Most Formidable	1464	Kholusia	33.9, 21.1	5	
 Shadow Over Stilltide	1465			5	
 Shadow Over Stilltide	1466			5	
 The Wright Stuff	1467			5	
@@ -1107,12 +1107,12 @@ Back and Fuath	1483			5
 Brute Fuath	1484			5	
 Breaking the Fuath Wall	1485			5	
 Go Fuath a Conqueror	1486			5	
-Fuath to Be Reckoned With	1487			5	
+Fuath to Be Reckoned With	1487	Il Mheg	33.1, 5.6	5	
 Mad Magic	1488			5	
 Bear Necessities	1489			5	
-Weave 'Em and Weep	1490			5	
-Locus Terribilis	1491			5	
-Twice Upon a Time	1492			5	
+Weave 'Em and Weep	1490	Il Mheg	8.1, 31.7	5	
+Locus Terribilis	1491	Il Mheg	10.9, 29.2	5	
+Twice Upon a Time	1492	Il Mheg	10.3, 23.3	5	
 Hedge Mazed	1493			5	
 Thrice Upon a Time	1494			5	
 Once Upon a Time	1495			5	
@@ -1132,13 +1132,13 @@ Little Gate of Horrors	1508	Lakeland	28, 23	5
 Behind Anemone Lines	1509			5	
 Calm a Chameleon	1510			5	
 Scavengers Hunted	1511			5	
-Reptilian Roadblock	1512			5	
+Reptilian Roadblock	1512	Amh Araeng	33.4, 25.1	5	
 Cactus Makes Perfect	1513			5	
 Theft from Above	1514			5	
 Sand and Deliver	1515	Amh Araeng	17.7, 16.2	5	
 This Time, It's Personal	1516			5	
 Armadillo Peccadillo	1517			5	
-The Elderblade	1518			5	
+The Elderblade	1518	Amh Araeng	22.4, 26.0	5	
 Harbingers of Bloom	1519	Amh Araeng	33, 11.6	5	
 Pray Destroy the Waking Sands	1520	Amh Araeng	28.4, 13.9	5	
 Tolba No. 1	1521	Amh Araeng	31.8, 17.3	5	

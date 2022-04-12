@@ -1192,7 +1192,7 @@ gt.patch = {
     categoryIndex: {},
     version: 2,
     browse: [
-        { type: 'group', prop: 'series' },
+        { type: 'group', prop: 'series', sortFunc: function(e) { return 100 - Number.parseFloat(e.entries[0].id); } },
         { type: 'sort', prop: 'id' }
     ],
     majorPatchBrowse: [
@@ -1496,7 +1496,8 @@ gt.browse = {
         }
 
         // Lots of numbers, needs natural sort.
-        var sortedGroup = _.sortByNatural(group, function(e) { return e.header; });
+        var sortedGroup = _.sortByNatural(group, category.sortFunc ? category.sortFunc :
+            category.sortBy? function(e) { return e[category.sortBy]; } : function(e) { return e.header; });
         return category.reverse ? sortedGroup.reverse() : sortedGroup;
     },
 
