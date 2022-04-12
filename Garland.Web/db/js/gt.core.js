@@ -163,6 +163,10 @@ gt.core = {
         gt.xp = data.xp;
         gt.jobs = data.jobs;
         gt.jobCategories = data.jobCategories;
+        gt.jobCategories[0] = {
+            id: 0,
+            name: "All Classes(dummy)"
+        }
         gt.dyes = data.dyes;
         gt.node.bonusIndex = data.nodeBonusIndex;
         gt.location.index = data.locationIndex;

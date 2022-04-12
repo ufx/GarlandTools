@@ -46,7 +46,7 @@ namespace Garland.Data
             new Patch(5.5m, "Death unto Dawn", "Shadowbringers"),
 
             new Patch(6m, "Endwalker", "Endwalker"),
-            new Patch(6.1m, "Endwalker", "Newfound Adventure"),
+            new Patch(6.1m, "Newfound Adventure", "Endwalker"),
         };
 
         public static int LevelCap = -1; // Filled in from Miscellaneous.
