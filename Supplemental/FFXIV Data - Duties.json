@@ -554,7 +554,7 @@
                 "chest": "silver",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/01ff1908e3c/",
+                        "url": "/lodestone/playguide/db/npc/enemy/ea08dc5251c/",
                         "name": "Kottos"
                     }
                 ],
@@ -580,7 +580,7 @@
                 "chest": "silver",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/e910d95a56e/",
+                        "url": "/lodestone/playguide/db/npc/enemy/675d7e8792b/",
                         "name": "Ichorous Ire"
                     }
                 ],
@@ -602,7 +602,7 @@
                 "chest": "gold",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/b396a581fd6/",
+                        "url": "/lodestone/playguide/db/npc/enemy/035e5231d6e/",
                         "name": "Gyges The Great"
                     }
                 ],
@@ -870,10 +870,24 @@
         "chests": [
             {
                 "name": "Treasure Coffer 1",
-                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.5 Y: 11.9",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.3 Y: 13.3",
                 "coords": {
-                    "x": "11.5",
-                    "y": "11.9"
+                    "x": "10.3",
+                    "y": "13.3"
+                },
+                "items": [
+                    "Warden's Leggings",
+                    "Brigand's Leggings",
+                    "Torturer's Duckbills",
+                    "Dungeon Seedling"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 2",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.2 Y: 12.4",
+                "coords": {
+                    "x": "12.2",
+                    "y": "12.4"
                 },
                 "items": [
                     "Warden's Barbut",
@@ -885,31 +899,11 @@
                 ]
             },
             {
-                "name": "Treasure Coffer 2",
-                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 8.7 Y: 9.4",
-                "coords": {
-                    "x": "8.7",
-                    "y": "9.4"
-                },
-                "items": [
-                    "Frostbite",
-                    "Elmlord's Tusk",
-                    "Crimson Tide",
-                    "Howling Talons",
-                    "Antares Needles",
-                    "Bow of Owls",
-                    "Taurus Staff",
-                    "Pupil's Book of Brass",
-                    "Kple Kple",
-                    "Thalassian Targe"
-                ]
-            },
-            {
                 "name": "Treasure Coffer 3",
-                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.5 Y: 12.3",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.4 Y: 10.3",
                 "coords": {
-                    "x": "10.5",
-                    "y": "12.3"
+                    "x": "11.4",
+                    "y": "10.3"
                 },
                 "items": [
                     "Eternal Shade",
@@ -922,16 +916,22 @@
             },
             {
                 "name": "Treasure Coffer 4",
-                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.0 Y: 11.8",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.3 Y: 9.2",
                 "coords": {
-                    "x": "13.0",
-                    "y": "11.8"
+                    "x": "12.3",
+                    "y": "9.2"
                 },
                 "items": [
-                    "Warden's Leggings",
-                    "Brigand's Leggings",
-                    "Torturer's Duckbills",
-                    "Dungeon Seedling"
+                    "Frostbite",
+                    "Elmlord's Tusk",
+                    "Crimson Tide",
+                    "Howling Talons",
+                    "Antares Needles",
+                    "Bow of Owls",
+                    "Taurus Staff",
+                    "Pupil's Book of Brass",
+                    "Kple Kple",
+                    "Thalassian Targe"
                 ]
             }
         ],
@@ -1191,7 +1191,7 @@
                 "chest": "gold",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/edf9243f5c3/",
+                        "url": "/lodestone/playguide/db/npc/enemy/67636a621ee/",
                         "name": "Lady Amandine"
                     }
                 ],
@@ -1389,7 +1389,7 @@
                 "chest": "gold",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/0a48dd19b3c/",
+                        "url": "/lodestone/playguide/db/npc/enemy/add910624d5/",
                         "name": "Aiatar"
                     }
                 ],
@@ -1945,7 +1945,7 @@
                 "chest": "silver",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/1bcc219a710/",
+                        "url": "/lodestone/playguide/db/npc/enemy/65748701bff/",
                         "name": "Koshchei"
                     }
                 ],
@@ -2049,10 +2049,10 @@
             },
             {
                 "name": "Treasure Coffer 2",
-                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 6.9 Y: 11.5",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 6.7 Y: 12.0",
                 "coords": {
-                    "x": "6.9",
-                    "y": "11.5"
+                    "x": "6.7",
+                    "y": "12.0"
                 },
                 "items": [
                     "Sentinel's Celata",
@@ -2067,10 +2067,10 @@
             },
             {
                 "name": "Treasure Coffer 3",
-                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 6.8 Y: 11.6",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 8.4 Y: 12.3",
                 "coords": {
-                    "x": "6.8",
-                    "y": "11.6"
+                    "x": "8.4",
+                    "y": "12.3"
                 },
                 "items": [
                     "Sentinel's Cuirass",
@@ -2610,7 +2610,7 @@
                 "chest": "gold",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/aee1959475b/",
+                        "url": "/lodestone/playguide/db/npc/enemy/e04ed1ac84c/",
                         "name": "Livia Sas Junius"
                     }
                 ],
@@ -2627,7 +2627,7 @@
                 "token": [
                     {
                         "name": "Allagan Tomestone of Poetics",
-                        "amount": "200"
+                        "amount": "100"
                     }
                 ]
             }
@@ -2637,18 +2637,13 @@
         "category": "dungeon",
         "version": "A Realm Reborn",
         "name": "The Praetorium",
-        "url": "/lodestone/playguide/db/duty/2407dbd0cae/",
+        "url": "/lodestone/playguide/db/duty/f6de0165484/",
         "lvl": "50",
         "ilvl": "42",
         "fights": [
             {
                 "chest": "gold",
-                "boss": [
-                    {
-                        "url": "/lodestone/playguide/db/npc/enemy/e6140114939/",
-                        "name": "Lahabrea"
-                    }
-                ],
+                "boss": [],
                 "drops": [
                     {
                         "name": "Gaius van Baelsar Card",
@@ -2662,7 +2657,7 @@
                 "token": [
                     {
                         "name": "Allagan Tomestone of Poetics",
-                        "amount": "200"
+                        "amount": "150"
                     }
                 ]
             }
@@ -5971,12 +5966,7 @@
         "fights": [
             {
                 "chest": "silver",
-                "boss": [
-                    {
-                        "url": "/lodestone/playguide/db/npc/enemy/54fb2c3f380/",
-                        "name": "Einhander"
-                    }
-                ],
+                "boss": [],
                 "treasures": [
                     {
                         "name": "Treasure Coffer",
@@ -6057,6 +6047,10 @@
             {
                 "chest": "gold",
                 "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/54fb2c3f380/",
+                        "name": "Einhander"
+                    },
                     {
                         "url": "/lodestone/playguide/db/npc/enemy/f31ab017ec8/",
                         "name": "Midgardsormr"
@@ -6621,7 +6615,8 @@
                             "Picaroon's Trousers of Scouting",
                             "Bogatyr's Slops of Aiming",
                             "Bogatyr's Slops of Casting",
-                            "Bogatyr's Slops of Healing"
+                            "Bogatyr's Slops of Healing",
+                            "Aftermath Orchestrion Roll"
                         ]
                     }
                 ],
@@ -6919,7 +6914,8 @@
                             "Ishgardian Outrider's Hose",
                             "Ishgardian Bowman's Hose",
                             "Ishgardian Historian's Breeches",
-                            "Ishgardian Chaplain's Breeches"
+                            "Ishgardian Chaplain's Breeches",
+                            "Descent Orchestrion Roll"
                         ]
                     }
                 ]
@@ -8500,7 +8496,8 @@
                             "Valerian Fusilier's Sarouel",
                             "Valerian Wizard's Longkilt",
                             "Valerian Shaman's Smalls",
-                            "Ugly Duckling"
+                            "Ugly Duckling",
+                            "Like a Summer Rain Orchestrion Roll"
                         ]
                     }
                 ],
@@ -20511,7 +20508,12 @@
                 ],
                 "drops": [
                     {
-                        "name": "???"
+                        "name": "Magus Sisters Card",
+                        "url": "/lodestone/playguide/db/item/4ae689c4d73/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
                     }
                 ],
                 "treasures": [
@@ -20788,7 +20790,12 @@
                 ],
                 "drops": [
                     {
-                        "name": "???"
+                        "name": "Anima Card",
+                        "url": "/lodestone/playguide/db/item/20fed3e9450/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
                     }
                 ],
                 "treasures": [
@@ -21337,7 +21344,12 @@
                 ],
                 "drops": [
                     {
-                        "name": "???"
+                        "name": "Hermes Card",
+                        "url": "/lodestone/playguide/db/item/5a4b2491d03/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
                     }
                 ],
                 "treasures": [
@@ -21549,7 +21561,12 @@
                 ],
                 "drops": [
                     {
-                        "name": "???"
+                        "name": "Amon the Undying Card",
+                        "url": "/lodestone/playguide/db/item/04cf4c188a4/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
                     }
                 ],
                 "treasures": [
@@ -21768,7 +21785,7 @@
                             "The Last Necklace of Aiming",
                             "The Last Necklace of Casting",
                             "The Last Necklace of Healing",
-                            "???",
+                            "Starbird",
                             "Of Countless Stars Orchestrion Roll"
                         ]
                     }
@@ -22210,6 +22227,300 @@
         ]
     },
     {
+        "category": "dungeon",
+        "version": "Endwalker",
+        "name": "Alzadaal's Legacy",
+        "url": "/lodestone/playguide/db/duty/d56ff366a07/",
+        "lvl": "90",
+        "ilvl": "560",
+        "chests": [
+            {
+                "name": "Treasure Coffer 1",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 12.4 Y: 14.4",
+                "coords": {
+                    "x": "12.4",
+                    "y": "14.4"
+                },
+                "items": [
+                    "Darbar Gloves of Fending",
+                    "Darbar Gloves of Maiming",
+                    "Darbar Gloves of Striking",
+                    "Darbar Gloves of Scouting",
+                    "Darbar Gloves of Aiming",
+                    "Darbar Mitts of Casting",
+                    "Darbar Mitts of Healing",
+                    "Darbar Bracelet of Fending",
+                    "Darbar Bracelet of Slaying",
+                    "Darbar Bracelet of Aiming",
+                    "Darbar Bracelet of Casting",
+                    "Darbar Bracelet of Healing",
+                    "Darbar Ring of Fending",
+                    "Darbar Ring of Slaying",
+                    "Darbar Ring of Aiming",
+                    "Darbar Ring of Casting",
+                    "Darbar Ring of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 2",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.9 Y: 11.7",
+                "coords": {
+                    "x": "10.9",
+                    "y": "11.7"
+                },
+                "items": [
+                    "Darbar Boots of Fending",
+                    "Darbar Boots of Maiming",
+                    "Darbar Boots of Striking",
+                    "Darbar Thighboots of Scouting",
+                    "Darbar Thighboots of Aiming",
+                    "Darbar Thighboots of Casting",
+                    "Darbar Thighboots of Healing",
+                    "Darbar Earrings of Fending",
+                    "Darbar Earrings of Slaying",
+                    "Darbar Earrings of Aiming",
+                    "Darbar Earrings of Casting",
+                    "Darbar Earrings of Healing",
+                    "Darbar Necklace of Fending",
+                    "Darbar Necklace of Slaying",
+                    "Darbar Necklace of Aiming",
+                    "Darbar Necklace of Casting",
+                    "Darbar Necklace of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 3",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.4 Y: 10.7",
+                "coords": {
+                    "x": "10.4",
+                    "y": "10.7"
+                },
+                "items": [
+                    "Darbar Serpus of Fending",
+                    "Darbar Serpus of Maiming",
+                    "Darbar Serpus of Striking",
+                    "Darbar Serpus of Scouting",
+                    "Darbar Serpus of Aiming",
+                    "Darbar Hat of Casting",
+                    "Darbar Hat of Healing",
+                    "Darbar Bracelet of Fending",
+                    "Darbar Bracelet of Slaying",
+                    "Darbar Bracelet of Aiming",
+                    "Darbar Bracelet of Casting",
+                    "Darbar Bracelet of Healing",
+                    "Darbar Ring of Fending",
+                    "Darbar Ring of Slaying",
+                    "Darbar Ring of Aiming",
+                    "Darbar Ring of Casting",
+                    "Darbar Ring of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 4",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 13.2 Y: 11.3",
+                "coords": {
+                    "x": "13.2",
+                    "y": "11.3"
+                },
+                "items": [
+                    "Darbar Breeches of Fending",
+                    "Darbar Breeches of Maiming",
+                    "Darbar Trousers of Striking",
+                    "Darbar Trousers of Scouting",
+                    "Darbar Bottoms of Aiming",
+                    "Darbar Bottoms of Casting",
+                    "Darbar Bottoms of Healing",
+                    "Darbar Earrings of Fending",
+                    "Darbar Earrings of Slaying",
+                    "Darbar Earrings of Aiming",
+                    "Darbar Earrings of Casting",
+                    "Darbar Earrings of Healing",
+                    "Darbar Necklace of Fending",
+                    "Darbar Necklace of Slaying",
+                    "Darbar Necklace of Aiming",
+                    "Darbar Necklace of Casting",
+                    "Darbar Necklace of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            }
+        ],
+        "fights": [
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/92e5d1216fc/",
+                        "name": "Ambujam"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Darbar Serpus of Fending",
+                            "Darbar Serpus of Maiming",
+                            "Darbar Serpus of Striking",
+                            "Darbar Serpus of Scouting",
+                            "Darbar Serpus of Aiming",
+                            "Darbar Hat of Casting",
+                            "Darbar Hat of Healing",
+                            "Darbar Jacket of Fending",
+                            "Darbar Jacket of Maiming",
+                            "Darbar Doublet of Striking",
+                            "Darbar Doublet of Scouting",
+                            "Darbar Coat of Aiming",
+                            "Darbar Coat of Casting",
+                            "Darbar Coat of Healing",
+                            "Darbar Bracelet of Fending",
+                            "Darbar Bracelet of Slaying",
+                            "Darbar Bracelet of Aiming",
+                            "Darbar Bracelet of Casting",
+                            "Darbar Bracelet of Healing",
+                            "Darbar Ring of Fending",
+                            "Darbar Ring of Slaying",
+                            "Darbar Ring of Aiming",
+                            "Darbar Ring of Casting",
+                            "Darbar Ring of Healing",
+                            "Savage Aim Materia IX",
+                            "Savage Might Materia IX",
+                            "Heavens' Eye Materia IX",
+                            "Quickarm Materia IX",
+                            "Quicktongue Materia IX",
+                            "Battledance Materia IX",
+                            "Piety Materia IX"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "15"
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/d61d17c3ea8/",
+                        "name": "Armored Chariot"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Darbar Gloves of Fending",
+                            "Darbar Gloves of Maiming",
+                            "Darbar Gloves of Striking",
+                            "Darbar Gloves of Scouting",
+                            "Darbar Gloves of Aiming",
+                            "Darbar Mitts of Casting",
+                            "Darbar Mitts of Healing",
+                            "Darbar Boots of Fending",
+                            "Darbar Boots of Maiming",
+                            "Darbar Boots of Striking",
+                            "Darbar Thighboots of Scouting",
+                            "Darbar Thighboots of Aiming",
+                            "Darbar Thighboots of Casting",
+                            "Darbar Thighboots of Healing",
+                            "Darbar Earrings of Fending",
+                            "Darbar Earrings of Slaying",
+                            "Darbar Earrings of Aiming",
+                            "Darbar Earrings of Casting",
+                            "Darbar Earrings of Healing",
+                            "Darbar Necklace of Fending",
+                            "Darbar Necklace of Slaying",
+                            "Darbar Necklace of Aiming",
+                            "Darbar Necklace of Casting",
+                            "Darbar Necklace of Healing"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "25"
+                    }
+                ]
+            },
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/3c2969b2527/",
+                        "name": "Kapikulu"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Darbar Jacket of Fending",
+                            "Darbar Jacket of Maiming",
+                            "Darbar Doublet of Striking",
+                            "Darbar Doublet of Scouting",
+                            "Darbar Coat of Aiming",
+                            "Darbar Coat of Casting",
+                            "Darbar Coat of Healing",
+                            "Darbar Breeches of Fending",
+                            "Darbar Breeches of Maiming",
+                            "Darbar Trousers of Striking",
+                            "Darbar Trousers of Scouting",
+                            "Darbar Bottoms of Aiming",
+                            "Darbar Bottoms of Casting",
+                            "Darbar Bottoms of Healing",
+                            "Teacup Kapikulu",
+                            "The Map Unfolds Orchestrion Roll"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "40"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "50"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "category": "trial",
         "version": "A Realm Reborn",
         "name": "The Bowl of Embers",
@@ -22236,27 +22547,23 @@
     {
         "category": "trial",
         "version": "A Realm Reborn",
-        "name": "Cape Westwind",
-        "url": "/lodestone/playguide/db/duty/d85fe0d02a1/",
-        "lvl": "49",
+        "name": "The Porta Decumana",
+        "url": "/lodestone/playguide/db/duty/f369418dbf8/",
+        "lvl": "50",
         "ilvl": "-",
         "fights": [
             {
                 "chest": "gold",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/a74d25eb883/",
-                        "name": "Rhitahtyn Sas Arvina"
+                        "url": "/lodestone/playguide/db/npc/enemy/07b8b645316/",
+                        "name": "The Ultima Weapon"
                     }
                 ],
-                "drops": [
+                "token": [
                     {
-                        "name": "Rhitahtyn sas Arvina Card",
-                        "url": "/lodestone/playguide/db/item/ccdd323a623/",
-                        "condition": [
-                            "* Must first complete the quest \"Triple Triad Trial.\"",
-                            "* Drops at a fixed rate."
-                        ]
+                        "name": "Allagan Tomestone of Poetics",
+                        "amount": "100"
                     }
                 ]
             }
@@ -23745,18 +24052,22 @@
                             "Sword of the Heavens",
                             "Axe of the Heavens",
                             "Claymore of the Heavens",
+                            "Gunblade of the Heavens",
                             "Halberd of the Heavens",
+                            "Sickle of the Heavens",
                             "Knuckles of the Heavens",
                             "Katana of the Heavens",
                             "Daggers of the Heavens",
                             "Bow of the Heavens",
                             "Heavensfire",
+                            "War Quoits of the Heavens",
                             "Staff of the Heavens",
                             "Grimoire of the Heavens",
                             "Rapier of the Heavens",
                             "Cane of the Heavens",
                             "Codex of the Heavens",
                             "Heavensmeter",
+                            "Milpreves of the Heavens",
                             "Shield of the Heavens",
                             "Heavens Weapon Coffer",
                             "Round Lanner Whistle",
@@ -25606,6 +25917,35 @@
     {
         "category": "trial",
         "version": "Endwalker",
+        "name": "Ultima's Bane (Unreal)",
+        "url": "/lodestone/playguide/db/duty/492d3638dd0/",
+        "lvl": "90",
+        "ilvl": "560",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/780920f4feb/",
+                        "name": "The Ultima Weapon"
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "20"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "trial",
+        "version": "Endwalker",
         "name": "The Dark Inside",
         "url": "/lodestone/playguide/db/duty/6eed2137942/",
         "lvl": "83",
@@ -25621,7 +25961,12 @@
                 ],
                 "drops": [
                     {
-                        "name": "???"
+                        "name": "Zodiark Card",
+                        "url": "/lodestone/playguide/db/item/2346c014fd3/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
                     }
                 ]
             }
@@ -25645,7 +25990,12 @@
                 ],
                 "drops": [
                     {
-                        "name": "???"
+                        "name": "Hydaelyn Card",
+                        "url": "/lodestone/playguide/db/item/d21c4b47fd1/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
                     }
                 ]
             }
@@ -25669,7 +26019,12 @@
                 ],
                 "drops": [
                     {
-                        "name": "???"
+                        "name": "Meteion Card",
+                        "url": "/lodestone/playguide/db/item/9e87c6d1438/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
                     }
                 ],
                 "token": [
@@ -25703,39 +26058,45 @@
                 ],
                 "drops": [
                     {
-                        "name": "???"
+                        "name": "Zodiark Card",
+                        "url": "/lodestone/playguide/db/item/2346c014fd3/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
                     },
                     {
-                        "name": "???"
+                        "name": "Astral Totem",
+                        "url": "/lodestone/playguide/db/item/8975b78f3e6/"
                     }
                 ],
                 "treasures": [
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???"
+                            "Eternal Dark Earrings of Fending",
+                            "Eternal Dark Earrings of Slaying",
+                            "Eternal Dark Earrings of Aiming",
+                            "Eternal Dark Earrings of Casting",
+                            "Eternal Dark Earrings of Healing",
+                            "Eternal Dark Necklace of Fending",
+                            "Eternal Dark Necklace of Slaying",
+                            "Eternal Dark Necklace of Aiming",
+                            "Eternal Dark Necklace of Casting",
+                            "Eternal Dark Necklace of Healing",
+                            "Eternal Dark Bracelets of Fending",
+                            "Eternal Dark Bracelets of Slaying",
+                            "Eternal Dark Bracelets of Aiming",
+                            "Eternal Dark Bracelets of Casting",
+                            "Eternal Dark Bracelets of Healing",
+                            "Eternal Dark Ring of Fending",
+                            "Eternal Dark Ring of Slaying",
+                            "Eternal Dark Ring of Aiming",
+                            "Eternal Dark Ring of Casting",
+                            "Eternal Dark Ring of Healing",
+                            "Crystal of Eternal Darkness",
+                            "Lynx of Eternal Darkness Flute",
+                            "Faded Copy of Endcaller"
                         ]
                     }
                 ],
@@ -25770,40 +26131,46 @@
                 ],
                 "drops": [
                     {
-                        "name": "???"
+                        "name": "Hydaelyn Card",
+                        "url": "/lodestone/playguide/db/item/d21c4b47fd1/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
                     },
                     {
-                        "name": "???"
+                        "name": "Umbral Totem",
+                        "url": "/lodestone/playguide/db/item/a71e8056eb3/"
                     }
                 ],
                 "treasures": [
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???",
-                            "???"
+                            "Bastard Sword of Divine Light",
+                            "Labrys of Divine Light",
+                            "Greatsword of Divine Light",
+                            "Gunblade of Divine Light",
+                            "Partisan of Divine Light",
+                            "War Scythe of Divine Light",
+                            "Sainti of Divine Light",
+                            "Blade of Divine Light",
+                            "Daggers of Divine Light",
+                            "Longbow of Divine Light",
+                            "Pistol of Divine Light",
+                            "Tathlums of Divine Light",
+                            "Rod of Divine Light",
+                            "Grimoire of Divine Light",
+                            "Foil of Divine Light",
+                            "Cane of Divine Light",
+                            "Codex of Divine Light",
+                            "Torquetum of Divine Light",
+                            "Wings of Divine Light",
+                            "Shield of Divine Light",
+                            "Crystal of Divine Light",
+                            "Divine Light Weapon Coffer",
+                            "Lynx of Divine Light Flute",
+                            "Faded Copy of Your Answer"
                         ]
                     }
                 ],
@@ -25815,6 +26182,80 @@
                     {
                         "name": "Allagan Tomestone of Astronomy",
                         "amount": "8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "trial",
+        "version": "Endwalker",
+        "name": "The Minstrel's Ballad: Endsinger's Aria",
+        "url": "/lodestone/playguide/db/duty/0c90d0fd67b/",
+        "lvl": "90",
+        "ilvl": "580",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/da7ab6d4889/",
+                        "name": "The Endsinger"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "Meteion Card",
+                        "url": "/lodestone/playguide/db/item/9e87c6d1438/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
+                    },
+                    {
+                        "name": "Ultimatum Token\u00a0(2)",
+                        "url": "/lodestone/playguide/db/item/9d2c4457a2c/"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Bluefeather Sword",
+                            "Bluefeather Axe",
+                            "Bluefeather Faussar",
+                            "Bluefeather Bayonet",
+                            "Bluefeather Halberd",
+                            "Bluefeather Zaghnal",
+                            "Bluefeather Tonfa",
+                            "Bluefeather Tachi",
+                            "Bluefeather Knives",
+                            "Bluefeather Longbow",
+                            "Bluefeather Musketoon",
+                            "Bluefeather Doomsbanes",
+                            "Bluefeather Rod",
+                            "Bluefeather Grimoire",
+                            "Bluefeather Rapier",
+                            "Bluefeather Wand",
+                            "Bluefeather Codex",
+                            "Bluefeather Torquetum",
+                            "Bluefeather Wings",
+                            "Bluefeather Shield",
+                            "Blue Feather",
+                            "Bluefeather Weapon Coffer",
+                            "Bluefeather Lynx Flute",
+                            "Faded Copy of The Final Day"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "20"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "10"
                     }
                 ]
             }
@@ -32825,6 +33266,460 @@
                 "token": [
                     {
                         "name": "Allagan Tomestone of Poetics",
+                        "amount": "30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "raid",
+        "version": "Endwalker",
+        "name": "Asphodelos: The First Circle",
+        "url": "/lodestone/playguide/db/duty/87c1d270e4a/",
+        "lvl": "90",
+        "ilvl": "565",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/3227fdc18d6/",
+                        "name": "Erichthonios"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "Erichthonios Card",
+                        "url": "/lodestone/playguide/db/item/f710549d976/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer 1",
+                        "items": [
+                            "Unsung Helm of Asphodelos",
+                            "Unsung Armor of Asphodelos",
+                            "Unsung Chausses of Asphodelos",
+                            "Unsung Ring of Asphodelos"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 2",
+                        "items": [
+                            "Unsung Helm of Asphodelos",
+                            "Unsung Gauntlets of Asphodelos",
+                            "Unsung Greaves of Asphodelos",
+                            "Unsung Ring of Asphodelos"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "20"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "raid",
+        "version": "Endwalker",
+        "name": "Asphodelos: The Second Circle",
+        "url": "/lodestone/playguide/db/duty/53197e092c0/",
+        "lvl": "90",
+        "ilvl": "565",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/7d69e1ad638/",
+                        "name": "Hippokampos"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer 1",
+                        "items": [
+                            "Unsung Helm of Asphodelos",
+                            "Unsung Armor of Asphodelos",
+                            "Unsung Greaves of Asphodelos",
+                            "Unsung Ring of Asphodelos"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 2",
+                        "items": [
+                            "Unsung Gauntlets of Asphodelos",
+                            "Unsung Chausses of Asphodelos",
+                            "Unsung Greaves of Asphodelos",
+                            "Unsung Ring of Asphodelos"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "20"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "raid",
+        "version": "Endwalker",
+        "name": "Asphodelos: The Third Circle",
+        "url": "/lodestone/playguide/db/duty/489f861eb7b/",
+        "lvl": "90",
+        "ilvl": "565",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/e142e4dad80/",
+                        "name": "Phoinix"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer 1",
+                        "items": [
+                            "Unsung Helm of Asphodelos",
+                            "Unsung Armor of Asphodelos",
+                            "Unsung Chausses of Asphodelos",
+                            "Unsung Ring of Asphodelos"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 2",
+                        "items": [
+                            "Unsung Armor of Asphodelos",
+                            "Unsung Gauntlets of Asphodelos",
+                            "Unsung Chausses of Asphodelos",
+                            "Unsung Ring of Asphodelos"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 3",
+                        "items": [
+                            "Ancient Shackles Orchestrion Roll"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "20"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "raid",
+        "version": "Endwalker",
+        "name": "Asphodelos: The Fourth Circle",
+        "url": "/lodestone/playguide/db/duty/8766feb6d35/",
+        "lvl": "90",
+        "ilvl": "565",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/26a144410c4/",
+                        "name": "Hesperos"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "Unsung Blade of Asphodelos",
+                        "url": "/lodestone/playguide/db/item/eac97898e30/",
+                        "condition": [
+                            "* This item can only be obtained once per week."
+                        ]
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer 1",
+                        "items": [
+                            "Unsung Armor of Asphodelos",
+                            "Unsung Chausses of Asphodelos",
+                            "Unsung Greaves of Asphodelos",
+                            "Unsung Ring of Asphodelos"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 2",
+                        "items": [
+                            "Unsung Armor of Asphodelos",
+                            "Unsung Gauntlets of Asphodelos",
+                            "Unsung Chausses of Asphodelos",
+                            "Unsung Ring of Asphodelos"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 3",
+                        "items": [
+                            "Nosferatu",
+                            "Hic Svnt Leones Orchestrion Roll"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Aphorism",
+                        "amount": "20"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "raid",
+        "version": "Endwalker",
+        "name": "Asphodelos: The First Circle (Savage)",
+        "url": "/lodestone/playguide/db/duty/4b208ad41f2/",
+        "lvl": "90",
+        "ilvl": "570",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/385fd770e8b/",
+                        "name": "Erichthonios"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "Asphodelos Mythos I",
+                        "url": "/lodestone/playguide/db/item/61ca3b9b905/"
+                    },
+                    {
+                        "name": "Erichthonios Card",
+                        "url": "/lodestone/playguide/db/item/f710549d976/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer 1",
+                        "items": [
+                            "Asphodelos Earring Coffer",
+                            "Asphodelos Necklace Coffer",
+                            "Asphodelos Bracelet Coffer",
+                            "Asphodelos Ring Coffer"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 2",
+                        "items": [
+                            "Asphodelos Earring Coffer",
+                            "Asphodelos Necklace Coffer",
+                            "Asphodelos Bracelet Coffer",
+                            "Asphodelos Ring Coffer"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "raid",
+        "version": "Endwalker",
+        "name": "Asphodelos: The Second Circle (Savage)",
+        "url": "/lodestone/playguide/db/duty/35e4afe3707/",
+        "lvl": "90",
+        "ilvl": "575",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/96ebd6c5a49/",
+                        "name": "Hippokampos"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "Asphodelos Mythos II",
+                        "url": "/lodestone/playguide/db/item/af81c1818da/"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer 1",
+                        "items": [
+                            "Discal Tomestone",
+                            "Asphodelos Head Gear Coffer",
+                            "Asphodelos Hand Gear Coffer",
+                            "Asphodelos Foot Gear Coffer"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 2",
+                        "items": [
+                            "Radiant Coating",
+                            "Asphodelos Head Gear Coffer",
+                            "Asphodelos Hand Gear Coffer",
+                            "Asphodelos Foot Gear Coffer"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "raid",
+        "version": "Endwalker",
+        "name": "Asphodelos: The Third Circle (Savage)",
+        "url": "/lodestone/playguide/db/duty/a0917729fae/",
+        "lvl": "90",
+        "ilvl": "580",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/5dacd37d73e/",
+                        "name": "Phoinix"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "Asphodelos Mythos III",
+                        "url": "/lodestone/playguide/db/item/92dad107e96/"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer 1",
+                        "items": [
+                            "Asphodelos Leg Gear Coffer"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 2",
+                        "items": [
+                            "Radiant Roborant",
+                            "Radiant Twine",
+                            "Asphodelos Head Gear Coffer",
+                            "Asphodelos Hand Gear Coffer",
+                            "Asphodelos Foot Gear Coffer"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "raid",
+        "version": "Endwalker",
+        "name": "Asphodelos: The Fourth Circle (Savage)",
+        "url": "/lodestone/playguide/db/duty/ae08cc4d4bf/",
+        "lvl": "90",
+        "ilvl": "580",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/20032031986/",
+                        "name": "Hesperos"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "Asphodelos Mythos IV",
+                        "url": "/lodestone/playguide/db/item/4782e346592/"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer 1",
+                        "items": [
+                            "Asphodelos Longsword",
+                            "Asphodelos War Hammer",
+                            "Asphodelos Claymore",
+                            "Asphodelos Bayonet",
+                            "Asphodelos Trident",
+                            "Asphodelos War Scythe",
+                            "Asphodelos Knuckles",
+                            "Asphodelos Samurai Blade",
+                            "Asphodelos Daggers",
+                            "Asphodelos Harp Bow",
+                            "Asphodelos Arquebus",
+                            "Asphodelos Tathlums",
+                            "Asphodelos Staff",
+                            "Asphodelos Grimoire",
+                            "Asphodelos Foil",
+                            "Asphodelos Cane",
+                            "Asphodelos Codex",
+                            "Asphodelos Orrery",
+                            "Asphodelos Pendulums",
+                            "Asphodelos Shield",
+                            "Asphodelos Chest Gear Coffer"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 2",
+                        "items": [
+                            "Asphodelos Weapon Coffer",
+                            "Nosferatu",
+                            "Demi-Phoinix Horn"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
                         "amount": "30"
                     }
                 ]
