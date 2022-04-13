@@ -31,7 +31,7 @@ gt.list = {
         DAILY: '../files/icons/event/71222.png', DAILIES: '../files/icons/event/71222.png',
         QUEST: '../files/icons/event/71221.png', QUESTS: '../files/icons/event/71221.png',
         ORCHESTRION: '../files/icons/item/25945.png', ORCH: '../files/icons/item/25945.png',
-        SATISFACTION: 'images/marker/Satisfaction', DELIVERY: 'images/marker/Satisfaction',
+        SATISFACTION: 'images/marker/Satisfaction.png', DELIVERY: 'images/marker/Satisfaction.png',
     },
 
     initialize: function(data) {
