@@ -1528,7 +1528,7 @@
                         </div>
                     {{?}}
 
-                    {{?it.other}}
+                    {{?(it.other && !($.isEmptyObject(it.other)))}}
                         <div class="other subsection collapsible collapsed" data-headername="other">
                             <img src="{{=it.other[0].icon}}" class="subsection-icon">
                             <h2 class="pointer">Other <span class="right badge">{{=it.other.length}}</span></h2>

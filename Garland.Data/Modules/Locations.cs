@@ -182,6 +182,8 @@ namespace Garland.Data.Modules
             _builder.Db.AddLocationReference(2956); // Il Mheg
             _builder.Db.AddLocationReference(2957); // The Rak'Tika Greatwood
             _builder.Db.AddLocationReference(2958); // The Tempest
+
+            _builder.Db.AddLocationReference(4043); // Island Sanctuary ( Unnamed Island
         }
 
         static string ConvertPlaceNameName(Game.PlaceName sPlaceName)
