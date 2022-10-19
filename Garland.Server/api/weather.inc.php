@@ -143,6 +143,7 @@ $zoneWeather = array('Limsa Lominsa' => array(array('Rate' => 20, 'Weather' => 3
     'Restricted Archives' => array(array('Rate' => 10, 'Weather' => 1), array('Rate' => 50, 'Weather' => 2), array('Rate' => 70, 'Weather' => 3), array('Rate' => 85, 'Weather' => 4), array('Rate' => 100, 'Weather' => 15)),
     'Meghaduta Guest Chambers' => array(array('Rate' => 10, 'Weather' => 4), array('Rate' => 25, 'Weather' => 7), array('Rate' => 40, 'Weather' => 1), array('Rate' => 80, 'Weather' => 2), array('Rate' => 100, 'Weather' => 3)),
     'Empyreum' => array(array('Rate' => 5, 'Weather' => 15), array('Rate' => 25, 'Weather' => 2), array('Rate' => 65, 'Weather' => 1), array('Rate' => 80, 'Weather' => 3), array('Rate' => 90, 'Weather' => 4)),
-    'Stygian Insenescence Cells' => array(array('Rate' => 100, 'Weather' => 157)));
+    'Stygian Insenescence Cells' => array(array('Rate' => 100, 'Weather' => 157)),
+    'Elysion' => array(array('Rate' => 15, 'Weather' => 149), array('Rate' => 85, 'Weather' => 2), array('Rate' => 100, 'Weather' => 49)));
 
 ?>
