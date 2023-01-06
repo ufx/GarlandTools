@@ -88,8 +88,8 @@ namespace Garland.Data.Modules
                 {
                     var joinedArgs = string.Join(", ", args);
                     DatabaseBuilder.PrintLine($"Error importing supplemental source '{itemName}' with args '{joinedArgs}': {ex.Message}");
-                    if (System.Diagnostics.Debugger.IsAttached)
-                        System.Diagnostics.Debugger.Break();
+                    //if (System.Diagnostics.Debugger.IsAttached)
+                    //System.Diagnostics.Debugger.Break();
                 }
             }
         }
@@ -100,7 +100,8 @@ namespace Garland.Data.Modules
             if (item.other != null)
                 throw new InvalidOperationException("item.other already exists.");
 
-            item.other = new JArray(sources);
+            if (sources.Length > 0)
+                item.other = new JArray(sources);
         }
 
         void BuildGardening(dynamic item, string[] sources)

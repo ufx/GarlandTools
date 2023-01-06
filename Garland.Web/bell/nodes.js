@@ -6166,9 +6166,19 @@
         "item": "Raw Eblan Danburite",
         "icon": 21477,
         "id": 37279
+      },
+      {
+        "item": "Prime Siderite",
+        "icon": 21472,
+        "id": 37694
+      },
+      {
+        "item": "Sublime Siderite",
+        "icon": "t/21486",
+        "id": 37695
       }
     ],
-    "stars": 1,
+    "stars": 2,
     "time": [
       0,
       12
@@ -6574,9 +6584,19 @@
         "item": "Double-edged Herb",
         "icon": 25201,
         "id": 36217
+      },
+      {
+        "item": "Prime Crystalbloom",
+        "icon": 25039,
+        "id": 37691
+      },
+      {
+        "item": "Sublime Crystalbloom",
+        "icon": "t/25042",
+        "id": 37692
       }
     ],
-    "stars": 1,
+    "stars": 2,
     "time": [
       10,
       22
@@ -6594,5 +6614,179 @@
     "condition": "Perception ≥ 3401",
     "bonus": " Gatherer's Boon Chance +40%",
     "patch": 6.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Rutilated Quartz",
+        "icon": 21474,
+        "id": 37817
+      }
+    ],
+    "stars": 2,
+    "time": [
+      6,
+      18
+    ],
+    "title": "Tertium",
+    "zone": "Garlemald",
+    "coords": [
+      31.95,
+      17.36
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 338,
+    "condition": "Perception ≥ 3800",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 0.0
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Ilmenite",
+        "icon": 21205,
+        "id": 37820
+      }
+    ],
+    "stars": 2,
+    "time": [
+      8,
+      20
+    ],
+    "title": "Sinus Tormenti",
+    "zone": "Mare Lamentorum",
+    "coords": [
+      29.63,
+      22.4
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 346,
+    "condition": "Perception ≥ 3800",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 0.0
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Ash Diatomite",
+        "icon": 22634,
+        "id": 37822
+      }
+    ],
+    "stars": 2,
+    "time": [
+      10,
+      22
+    ],
+    "title": "The Central Circuit",
+    "zone": "Labyrinthos",
+    "coords": [
+      11.15,
+      21.42
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 400,
+    "condition": "Perception ≥ 3800",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 6.2
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Paldao Log",
+        "icon": 22414,
+        "id": 37818
+      }
+    ],
+    "stars": 2,
+    "time": [
+      2,
+      14
+    ],
+    "title": "The Twelve Wonders",
+    "zone": "Elpis",
+    "coords": [
+      9.83,
+      29.85
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 463,
+    "condition": "Perception ≥ 3800",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 6.2
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Haritaki",
+        "icon": 25017,
+        "id": 37819
+      }
+    ],
+    "stars": 2,
+    "time": [
+      0,
+      12
+    ],
+    "title": "The Shroud of the Samgha",
+    "zone": "Thavnair",
+    "coords": [
+      29.13,
+      26.87
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 627,
+    "condition": "Perception ≥ 3800",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 5.0
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Bayberry",
+        "icon": 25015,
+        "id": 37821
+      }
+    ],
+    "stars": 2,
+    "time": [
+      4,
+      16
+    ],
+    "title": "Mornveil Forest",
+    "zone": "Labyrinthos",
+    "coords": [
+      28.15,
+      11.41
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 695,
+    "condition": "Perception ≥ 3800",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 6.2
   }
 ];

@@ -200,9 +200,6 @@ namespace Garland.Data.Modules
 
             AddPointToNode(node, sGatheringPoint);
 
-            if (sGatheringPoint.Base.IsLimited)
-                node.limited = 1;
-
             // Special case for concealed nodes - take the name of the last node,
             // as these are in order in the files.
             var nameModifier = (byte)sGatheringPoint[0];
