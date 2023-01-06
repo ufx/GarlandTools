@@ -7606,10 +7606,10 @@ gt.equip = {
         { icon: "images/region/Thanalan.png", name: "Thanalan", page: "Thanalan", zones: [51, 42, 43, 44, 45, 46, 427] },
         { icon: "images/region/Ishgard.png", name: "Ishgard and Surrounds", page: "Ishgard", zones: [62, 63, 2200, 2100, 2101, 2082, 2000, 2001, 2002, 1647] },
         { icon: "images/region/Gyr Abania.png", name: "Gyr Abania", page: "GyrAbania", zones: [2403, 2406, 2407, 2408] },
-        { icon: "images/region/Kugane.png", name: "Far East", page: "FarEast", zones: [513, 2412, 2409, 2410, 2411, 3534, 3662] },
-        { icon: "images/region/Ilsabard.png", name: "Ilsabard", page: "Ilsabard", zones: [3707, 3709, 3710, 2414, 2462, 2530, 2545] },
+        { icon: "images/region/Kugane.png", name: "Far East", page: "FarEast", zones: [513, 2412, 2409, 2410, 2411, 2414, 2462, 2530, 2545] },
+        { icon: "images/region/Ilsabard.png", name: "Ilsabard", page: "Ilsabard", zones: [3707, 3709, 3710, 3534, 3662] },
         { icon: "images/region/Norvrandt.png", name: "Norvrandt", page: "Norvrandt", zones: [516, 517, 2953, 2954, 2955, 2956, 2957, 2958], },
-        { icon: "images/marker/Aetheryte.png", name: "Others", page: "Others", zones: [67, 3706, 3708, 3711, 3712, 3713] }
+        { icon: "images/marker/Aetheryte.png", name: "Others", page: "Others", zones: [67, 3706, 4043, 3708, 3711, 3712, 3713] }
     ],
     weatherUpdateKey: null,
     lWeatherStart: null,

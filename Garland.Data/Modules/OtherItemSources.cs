@@ -100,7 +100,8 @@ namespace Garland.Data.Modules
             if (item.other != null)
                 throw new InvalidOperationException("item.other already exists.");
 
-            item.other = new JArray(sources);
+            if (sources.Length > 0)
+                item.other = new JArray(sources);
         }
 
         void BuildGardening(dynamic item, string[] sources)

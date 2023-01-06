@@ -29,7 +29,7 @@ namespace Garland.Data.Modules
                 }
                 else if (sItem.ItemAction is OrnamentUnlock sOrnamentUnlock)
                 {
-                    BuildOrnament(sItem, sOrnamentUnlock);
+                    // BuildOrnament(sItem, sOrnamentUnlock); //Disabled with 6.2 since ornament sheet changed too much
                 }
                 else if (sItem.ItemAction is AchievementScroll sAchievementUnlock)
                 {
