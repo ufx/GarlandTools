@@ -6700,7 +6700,7 @@
     "id": 400,
     "condition": "Perception ≥ 3800",
     "bonus": " Gatherer's Boon Chance +30%",
-    "patch": 6.2
+    "patch": 6.28
   },
   {
     "type": "Mature Tree",
@@ -6729,7 +6729,7 @@
     "id": 463,
     "condition": "Perception ≥ 3800",
     "bonus": " Gatherer's Boon Chance +30%",
-    "patch": 6.2
+    "patch": 6.28
   },
   {
     "type": "Mature Tree",
@@ -6787,6 +6787,6 @@
     "id": 695,
     "condition": "Perception ≥ 3800",
     "bonus": " Gatherer's Boon Chance +30%",
-    "patch": 6.2
+    "patch": 6.28
   }
 ];

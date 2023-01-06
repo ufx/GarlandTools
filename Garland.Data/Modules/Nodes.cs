@@ -530,6 +530,11 @@ namespace Garland.Data.Modules
                         BuildNodeView(node);
                     }
                 }
+
+                if (node.limitType != null)
+                {
+                    node.limited = true;
+                }
             }
 
             foreach (dynamic node in nodesToRemove)

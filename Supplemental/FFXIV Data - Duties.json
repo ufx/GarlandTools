@@ -7772,8 +7772,8 @@
                             "Halonic Priest's Breeches",
                             "Paladin's Halonic Inquisitor Arms (IL 142)",
                             "Unicolt",
-                            "Stigma Orchestrion Roll",
-                            "Toll of the Bells Orchestrion Roll"
+                            "Toll of the Bells Orchestrion Roll",
+                            "Stigma Orchestrion Roll"
                         ]
                     }
                 ]
@@ -26220,6 +26220,40 @@
     {
         "category": "trial",
         "version": "Endwalker",
+        "name": "Storm's Crown",
+        "url": "/lodestone/playguide/db/duty/7db24777c99/",
+        "lvl": "90",
+        "ilvl": "585",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/a58e3eabccd/",
+                        "name": "Barbariccia"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "12"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "6"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "trial",
+        "version": "Endwalker",
         "name": "The Minstrel's Ballad: Zodiark's Fall",
         "url": "/lodestone/playguide/db/duty/f40a8f14d6d/",
         "lvl": "90",
@@ -26431,6 +26465,74 @@
                     {
                         "name": "Allagan Tomestone of Causality",
                         "amount": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "trial",
+        "version": "Endwalker",
+        "name": "Storm's Crown (Extreme)",
+        "url": "/lodestone/playguide/db/duty/7aa78623503/",
+        "lvl": "90",
+        "ilvl": "600",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/3f597113565/",
+                        "name": "Barbariccia"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    },
+                    {
+                        "name": "Windswept Archfiend Totem\u00a0(2)",
+                        "url": "/lodestone/playguide/db/item/57a8fbfe012/"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Windswept Battleaxe",
+                            "Windswept Faussar",
+                            "Windswept Gunblade",
+                            "Windswept Spear",
+                            "Windswept Zaghnal",
+                            "Windswept Fists",
+                            "Windswept Blade",
+                            "Windswept Daggers",
+                            "Windswept Bow",
+                            "Windswept Musketoon",
+                            "Windswept Heirsbanes",
+                            "Windswept Rod",
+                            "Windswept Grimoire",
+                            "Windswept Rapier",
+                            "Windswept Cane",
+                            "Windswept Codex",
+                            "Windswept Torquetum",
+                            "Windswept Milpreves",
+                            "Pearl of Winds",
+                            "Windswept Weapon Coffer (IL 615)",
+                            "Paladin's Windswept Arms (IL 615)",
+                            "Lynx of Imperious Wind Flute",
+                            "Faded Copy of Battle with the Four Fiends (Buried Memory)"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "25"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "13"
                     }
                 ]
             }
