@@ -52096,7 +52096,7 @@ gt.bell.fish = [
     "title": "The Wellspring of Regret",
     "category": "Freshwater Fishing",
     "spot": 281,
-    "lvl": 90,
+    "lvl": 84,
     "coords": [
       14.97,
       11.57
@@ -52130,47 +52130,10 @@ gt.bell.fish = [
     "icon": 28530,
     "func": "fish",
     "rarity": 1,
-    "title": "Elegeia",
-    "category": "Freshwater Fishing",
-    "spot": 282,
-    "lvl": 90,
-    "coords": [
-      22.6,
-      8.79
-    ],
-    "radius": 750,
-    "zone": "Ultima Thule"
-  },
-  {
-    "name": "Katoptron",
-    "patch": 6.0,
-    "baits": [
-      [
-        "Gold Salmon Roe"
-      ],
-      [
-        "Leech"
-      ],
-      [
-        "Sky Spoon Lure"
-      ],
-      [
-        "Mayfly"
-      ],
-      [
-        "Versatile Lure"
-      ]
-    ],
-    "hookset": "Powerful Hookset",
-    "tug": "Medium",
-    "id": 36499,
-    "icon": 29254,
-    "func": "fish",
-    "rarity": 1,
     "title": "The Wellspring of Regret",
     "category": "Freshwater Fishing",
     "spot": 281,
-    "lvl": 90,
+    "lvl": 84,
     "coords": [
       14.97,
       11.57
@@ -52204,15 +52167,52 @@ gt.bell.fish = [
     "icon": 29254,
     "func": "fish",
     "rarity": 1,
-    "title": "Elegeia",
+    "title": "The Wellspring of Regret",
     "category": "Freshwater Fishing",
-    "spot": 282,
-    "lvl": 90,
+    "spot": 281,
+    "lvl": 84,
     "coords": [
-      22.6,
-      8.79
+      14.97,
+      11.57
     ],
-    "radius": 750,
+    "radius": 600,
+    "zone": "Ultima Thule"
+  },
+  {
+    "name": "Katoptron",
+    "patch": 6.0,
+    "baits": [
+      [
+        "Gold Salmon Roe"
+      ],
+      [
+        "Leech"
+      ],
+      [
+        "Sky Spoon Lure"
+      ],
+      [
+        "Mayfly"
+      ],
+      [
+        "Versatile Lure"
+      ]
+    ],
+    "hookset": "Powerful Hookset",
+    "tug": "Medium",
+    "id": 36499,
+    "icon": 29254,
+    "func": "fish",
+    "rarity": 1,
+    "title": "The Wellspring of Regret",
+    "category": "Freshwater Fishing",
+    "spot": 281,
+    "lvl": 84,
+    "coords": [
+      14.97,
+      11.57
+    ],
+    "radius": 600,
     "zone": "Ultima Thule"
   },
   {
@@ -52241,7 +52241,7 @@ gt.bell.fish = [
     "title": "The Wellspring of Regret",
     "category": "Freshwater Fishing",
     "spot": 281,
-    "lvl": 90,
+    "lvl": 84,
     "coords": [
       14.97,
       11.57
@@ -52275,7 +52275,7 @@ gt.bell.fish = [
     "title": "The Wellspring of Regret",
     "category": "Freshwater Fishing",
     "spot": 281,
-    "lvl": 90,
+    "lvl": 84,
     "coords": [
       14.97,
       11.57
@@ -52306,15 +52306,15 @@ gt.bell.fish = [
     "icon": 28531,
     "func": "fish",
     "rarity": 1,
-    "title": "Elegeia",
+    "title": "The Wellspring of Regret",
     "category": "Freshwater Fishing",
-    "spot": 282,
-    "lvl": 90,
+    "spot": 281,
+    "lvl": 84,
     "coords": [
-      22.6,
-      8.79
+      14.97,
+      11.57
     ],
-    "radius": 750,
+    "radius": 600,
     "zone": "Ultima Thule"
   },
   {

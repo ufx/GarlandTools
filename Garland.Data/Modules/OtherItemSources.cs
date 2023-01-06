@@ -88,8 +88,8 @@ namespace Garland.Data.Modules
                 {
                     var joinedArgs = string.Join(", ", args);
                     DatabaseBuilder.PrintLine($"Error importing supplemental source '{itemName}' with args '{joinedArgs}': {ex.Message}");
-                    if (System.Diagnostics.Debugger.IsAttached)
-                        System.Diagnostics.Debugger.Break();
+                    //if (System.Diagnostics.Debugger.IsAttached)
+                    //System.Diagnostics.Debugger.Break();
                 }
             }
         }

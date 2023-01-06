@@ -173,7 +173,6 @@
                     "y": "13.7"
                 },
                 "items": [
-                    "Plundered Falchion",
                     "Plundered Battleaxe",
                     "Plundered Guisarme",
                     "Plundered Knuckles",
@@ -182,14 +181,14 @@
                     "Plundered Staff",
                     "Plundered Grimoire",
                     "Plundered Cane",
-                    "Warded Round Shield",
                     "Nightprowler's Targe",
                     "Pirate's Bandana",
                     "Plundered Haubergeon",
                     "Plundered Jacket",
                     "Plundered Bliaud",
                     "Plundered Moccasins",
-                    "Plundered Duckbills"
+                    "Plundered Duckbills",
+                    "Gladiator's Plundered Arms (Lv. 15)"
                 ]
             }
         ],
@@ -264,7 +263,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Plundered Falchion",
                             "Plundered Battleaxe",
                             "Plundered Guisarme",
                             "Plundered Knuckles",
@@ -273,10 +271,10 @@
                             "Plundered Staff",
                             "Plundered Grimoire",
                             "Plundered Cane",
-                            "Warded Round Shield",
                             "Plundered Sabatons",
                             "Foestriker's Boots",
                             "Acolyte's Thighboots",
+                            "Gladiator's Plundered Arms (Lv. 15)",
                             "From the Depths Orchestrion Roll"
                         ]
                     }
@@ -333,7 +331,6 @@
                     "y": "9.9"
                 },
                 "items": [
-                    "Plundered Falchion",
                     "Plundered Battleaxe",
                     "Plundered Guisarme",
                     "Plundered Knuckles",
@@ -342,14 +339,14 @@
                     "Plundered Staff",
                     "Plundered Grimoire",
                     "Plundered Cane",
-                    "Warded Round Shield",
                     "Nightprowler's Targe",
                     "Pirate's Bandana",
                     "Plundered Haubergeon",
                     "Plundered Jacket",
                     "Plundered Bliaud",
                     "Plundered Moccasins",
-                    "Plundered Duckbills"
+                    "Plundered Duckbills",
+                    "Gladiator's Plundered Arms (Lv. 15)"
                 ]
             }
         ],
@@ -445,7 +442,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Plundered Falchion",
                             "Plundered Battleaxe",
                             "Plundered Guisarme",
                             "Plundered Knuckles",
@@ -454,10 +450,10 @@
                             "Plundered Staff",
                             "Plundered Grimoire",
                             "Plundered Cane",
-                            "Warded Round Shield",
                             "Plundered Sabatons",
                             "Foestriker's Boots",
-                            "Acolyte's Thighboots"
+                            "Acolyte's Thighboots",
+                            "Gladiator's Plundered Arms (Lv. 15)"
                         ]
                     }
                 ]
@@ -529,7 +525,6 @@
                     "y": "14.5"
                 },
                 "items": [
-                    "Plundered Falchion",
                     "Plundered Battleaxe",
                     "Plundered Guisarme",
                     "Plundered Knuckles",
@@ -538,14 +533,14 @@
                     "Plundered Staff",
                     "Plundered Grimoire",
                     "Plundered Cane",
-                    "Warded Round Shield",
                     "Nightprowler's Targe",
                     "Pirate's Bandana",
                     "Plundered Haubergeon",
                     "Plundered Jacket",
                     "Plundered Bliaud",
                     "Plundered Moccasins",
-                    "Plundered Duckbills"
+                    "Plundered Duckbills",
+                    "Gladiator's Plundered Arms (Lv. 15)"
                 ]
             }
         ],
@@ -610,7 +605,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Plundered Falchion",
                             "Plundered Battleaxe",
                             "Plundered Guisarme",
                             "Plundered Knuckles",
@@ -619,10 +613,10 @@
                             "Plundered Staff",
                             "Plundered Grimoire",
                             "Plundered Cane",
-                            "Warded Round Shield",
                             "Plundered Sabatons",
                             "Foestriker's Boots",
                             "Acolyte's Thighboots",
+                            "Gladiator's Plundered Arms (Lv. 15)",
                             "Below Orchestrion Roll"
                         ]
                     }
@@ -646,7 +640,6 @@
                     "y": "9.9"
                 },
                 "items": [
-                    "Doctore's Scimitar",
                     "Doctore's Bill",
                     "Doctore's Fork",
                     "Doctore's Hora",
@@ -655,7 +648,7 @@
                     "Doctore's Cudgel",
                     "Doctore's Grimoire",
                     "Doctore's Crook",
-                    "Doctore's Buckler"
+                    "Gladiator's Doctore Arms (Lv. 20)"
                 ]
             },
             {
@@ -714,7 +707,6 @@
                     "y": "8.6"
                 },
                 "items": [
-                    "Doctore's Scimitar",
                     "Doctore's Bill",
                     "Doctore's Fork",
                     "Doctore's Hora",
@@ -723,7 +715,7 @@
                     "Doctore's Cudgel",
                     "Doctore's Grimoire",
                     "Doctore's Crook",
-                    "Doctore's Buckler"
+                    "Gladiator's Doctore Arms (Lv. 20)"
                 ]
             },
             {
@@ -840,7 +832,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Doctore's Scimitar",
                             "Doctore's Bill",
                             "Doctore's Fork",
                             "Doctore's Hora",
@@ -849,10 +840,10 @@
                             "Doctore's Cudgel",
                             "Doctore's Grimoire",
                             "Doctore's Crook",
-                            "Doctore's Buckler",
                             "Aetherial Brass Ear Cuffs",
                             "Aetherial Coral Armillae",
                             "Aetherial Coral Ring",
+                            "Gladiator's Doctore Arms (Lv. 20)",
                             "The Ludus Orchestrion Roll"
                         ]
                     }
@@ -922,7 +913,6 @@
                     "y": "9.2"
                 },
                 "items": [
-                    "Frostbite",
                     "Elmlord's Tusk",
                     "Crimson Tide",
                     "Howling Talons",
@@ -931,7 +921,7 @@
                     "Taurus Staff",
                     "Pupil's Book of Brass",
                     "Kple Kple",
-                    "Thalassian Targe"
+                    "Gladiator's Frostbite Arms (Lv. 24)"
                 ]
             }
         ],
@@ -992,7 +982,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Frostbite",
                             "Elmlord's Tusk",
                             "Crimson Tide",
                             "Howling Talons",
@@ -1004,7 +993,9 @@
                             "Thalassian Targe",
                             "Warden's Leggings",
                             "Brigand's Leggings",
-                            "Torturer's Duckbills"
+                            "Torturer's Duckbills",
+                            "Gladiator's Frostbite Arms (Lv. 24)",
+                            "A Thousand Screams Orchestrion Roll"
                         ]
                     }
                 ]
@@ -1097,7 +1088,6 @@
                     "y": "13.3"
                 },
                 "items": [
-                    "Inquisitor's Tuck",
                     "Charred Axe",
                     "Tidesplitter",
                     "Unbreakable Knuckles",
@@ -1106,7 +1096,7 @@
                     "Tenfinger Tallstaff",
                     "Pupil's Leather Grimoire",
                     "Heart of House d'Arlendre",
-                    "Waning Sun Pelta"
+                    "Gladiator's Inquisitor Arms (Lv. 28)"
                 ]
             }
         ],
@@ -1209,7 +1199,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Inquisitor's Tuck",
                             "Charred Axe",
                             "Tidesplitter",
                             "Unbreakable Knuckles",
@@ -1218,10 +1207,10 @@
                             "Tenfinger Tallstaff",
                             "Pupil's Leather Grimoire",
                             "Heart of House d'Arlendre",
-                            "Waning Sun Pelta",
                             "Manor Scale Greaves",
                             "Manor Sandals",
                             "Manor Shoes",
+                            "Gladiator's Inquisitor Arms (Lv. 28)",
                             "The Maiden's Lament Orchestrion Roll"
                         ]
                     }
@@ -1324,7 +1313,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Longstop Sword",
                             "Longstop Labrys",
                             "Longstop Greatsword",
                             "Longstop Lance",
@@ -1336,7 +1324,7 @@
                             "Longstop Grimoire",
                             "Longstop Crook",
                             "Longstop Globe",
-                            "Longstop Hoplon"
+                            "Paladin's Longstop Arms (Lv. 32)"
                         ]
                     }
                 ]
@@ -1397,7 +1385,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Longstop Sword",
                             "Longstop Labrys",
                             "Longstop Greatsword",
                             "Longstop Lance",
@@ -1409,10 +1396,11 @@
                             "Longstop Grimoire",
                             "Longstop Crook",
                             "Longstop Globe",
-                            "Longstop Hoplon",
                             "Cavalry Sabatons",
                             "Infantry Thighboots",
-                            "Battlemage's Crakows"
+                            "Battlemage's Crakows",
+                            "Paladin's Longstop Arms (Lv. 32)",
+                            "Lipflaps on Longstops Orchestrion Roll"
                         ]
                     }
                 ]
@@ -1499,7 +1487,6 @@
                     "y": "11.1"
                 },
                 "items": [
-                    "Flametongue",
                     "Boar's Bane",
                     "Platoon Sword",
                     "Shellsplitter",
@@ -1511,7 +1498,7 @@
                     "Pupil's Book of Silver",
                     "Bloodcry",
                     "Altair",
-                    "Qarn Kite Shield"
+                    "Paladin's Flametongue Arms (Lv. 35)"
                 ]
             },
             {
@@ -1616,7 +1603,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Flametongue",
                             "Boar's Bane",
                             "Platoon Sword",
                             "Shellsplitter",
@@ -1628,11 +1614,11 @@
                             "Pupil's Book of Silver",
                             "Bloodcry",
                             "Altair",
-                            "Qarn Kite Shield",
                             "Qarn Boots",
                             "Qarn Jackboots",
                             "Qarn Duckbills",
-                            "Belah'dian Glass"
+                            "Belah'dian Glass",
+                            "Paladin's Flametongue Arms (Lv. 35)"
                         ]
                     }
                 ]
@@ -1716,7 +1702,6 @@
                     "y": "9.7"
                 },
                 "items": [
-                    "Crier's Broadsword",
                     "Crier's Bhuj",
                     "Crier's Claymore",
                     "Crier's Halberd",
@@ -1728,7 +1713,7 @@
                     "Crier's Grimoire",
                     "Crier's Radical",
                     "Crier's Star Globe",
-                    "Crier's Scutum"
+                    "Paladin's Crier Arms (Lv. 38)"
                 ]
             }
         ],
@@ -1832,7 +1817,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Crier's Broadsword",
                             "Crier's Bhuj",
                             "Crier's Claymore",
                             "Crier's Halberd",
@@ -1844,10 +1828,10 @@
                             "Crier's Grimoire",
                             "Crier's Radical",
                             "Crier's Star Globe",
-                            "Crier's Scutum",
                             "Conquistador Thighboots",
                             "Engineer's Leggings",
                             "Divining Moccasins",
+                            "Paladin's Crier Arms (Lv. 38)",
                             "Abomination Orchestrion Roll"
                         ]
                     }
@@ -1923,7 +1907,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Ancient Sword",
                             "Eisentaenzer",
                             "Lockheart",
                             "Wyvern Spear",
@@ -1936,7 +1919,7 @@
                             "Dryad Cane",
                             "Ars Notoria",
                             "Capella",
-                            "Vigil Canopus Shield"
+                            "Paladin's Ancient Arms (Lv. 41)"
                         ]
                     }
                 ]
@@ -1996,7 +1979,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Ancient Sword",
                             "Eisentaenzer",
                             "Lockheart",
                             "Wyvern Spear",
@@ -2009,11 +1991,11 @@
                             "Dryad Cane",
                             "Ars Notoria",
                             "Capella",
-                            "Vigil Canopus Shield",
                             "Vigil Sollerets",
                             "Vigil Boots",
                             "Vigil Pattens",
-                            "Ishgardian Steel Ingot"
+                            "Ishgardian Steel Ingot",
+                            "Paladin's Ancient Arms (Lv. 41)"
                         ]
                     }
                 ]
@@ -2097,7 +2079,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Dzemael Winglet",
                             "Dzemael Bardiche",
                             "Dzemael Zweihander",
                             "Dzemael Spear",
@@ -2109,12 +2090,12 @@
                             "The Book of Dzemael",
                             "Dzemael Whispering Rod",
                             "Dzemael Planisphere",
-                            "Scorpion Shield",
                             "Pince-nez",
                             "Coliseum Galerus",
                             "Coliseum Shawl",
                             "Coliseum Subligar",
-                            "Coliseum Loincloth"
+                            "Coliseum Loincloth",
+                            "Paladin's Dzemael Arms (Lv. 44)"
                         ]
                     }
                 ]
@@ -2178,7 +2159,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Dzemael Winglet",
                             "Dzemael Bardiche",
                             "Dzemael Zweihander",
                             "Dzemael Spear",
@@ -2190,11 +2170,11 @@
                             "The Book of Dzemael",
                             "Dzemael Whispering Rod",
                             "Dzemael Planisphere",
-                            "Scorpion Shield",
                             "Sentinel's Sabatons",
                             "Templar's Sollerets",
                             "Buccaneer's Boots",
                             "Harlequin's Boots",
+                            "Paladin's Dzemael Arms (Lv. 44)",
                             "The Darkhold Orchestrion Roll"
                         ]
                     }
@@ -2267,7 +2247,6 @@
                     "y": "8.9"
                 },
                 "items": [
-                    "Templar's Falchion",
                     "Canopus Bill",
                     "Balisarde",
                     "Canopus Guisarme",
@@ -2279,8 +2258,8 @@
                     "Pupil's Book of Mythril",
                     "Astaroth Cane",
                     "Vega",
-                    "Canopus Shield",
-                    "Warlock's Buckler"
+                    "Warlock's Buckler",
+                    "Paladin's Templar Arms (Lv. 47)"
                 ]
             }
         ],
@@ -2365,7 +2344,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Templar's Falchion",
                             "Canopus Bill",
                             "Balisarde",
                             "Canopus Guisarme",
@@ -2377,11 +2355,11 @@
                             "Pupil's Book of Mythril",
                             "Astaroth Cane",
                             "Vega",
-                            "Canopus Shield",
                             "Warlock's Buckler",
                             "Aurum Sabatons",
                             "Aurum Leg Guards",
-                            "Aurum Boots"
+                            "Aurum Boots",
+                            "Paladin's Templar Arms (Lv. 47)"
                         ]
                     }
                 ]
@@ -2465,7 +2443,6 @@
                     "y": "4.8"
                 },
                 "items": [
-                    "Darklight Macuahuitl",
                     "Darklight Bill",
                     "Darklight Greatsword",
                     "Darklight Harpoon",
@@ -2477,9 +2454,9 @@
                     "Darklight Grimoire",
                     "Darklight Kple Kple",
                     "Darklight Planisphere",
-                    "Darklight Kite Shield",
                     "Darklight Square Shield",
                     "Nymian Orb",
+                    "Paladin's Darklight Arms (IL 55)",
                     "Bite-sized Pudding",
                     "A Tonberry's Tears Orchestrion Roll"
                 ]
@@ -2568,7 +2545,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Darklight Macuahuitl",
                             "Darklight Bill",
                             "Darklight Greatsword",
                             "Darklight Harpoon",
@@ -2580,12 +2556,12 @@
                             "Darklight Grimoire",
                             "Darklight Kple Kple",
                             "Darklight Planisphere",
-                            "Darklight Kite Shield",
                             "Darklight Square Shield",
                             "Vermilion Sollerets",
                             "Sipahi Crakows",
                             "Mercenary's Leggings",
-                            "Warlock's Pattens"
+                            "Warlock's Pattens",
+                            "Paladin's Darklight Arms (IL 55)"
                         ]
                     }
                 ],
@@ -2730,7 +2706,6 @@
                     "y": "11.1"
                 },
                 "items": [
-                    "Darklight Macuahuitl",
                     "Darklight Bill",
                     "Darklight Greatsword",
                     "Darklight Harpoon",
@@ -2742,9 +2717,9 @@
                     "Darklight Grimoire",
                     "Darklight Kple Kple",
                     "Darklight Planisphere",
-                    "Darklight Kite Shield",
                     "Darklight Square Shield",
-                    "Amdapori Stone"
+                    "Amdapori Stone",
+                    "Paladin's Darklight Arms (IL 55)"
                 ]
             }
         ],
@@ -2831,7 +2806,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Darklight Macuahuitl",
                             "Darklight Bill",
                             "Darklight Greatsword",
                             "Darklight Harpoon",
@@ -2843,12 +2817,12 @@
                             "Darklight Grimoire",
                             "Darklight Kple Kple",
                             "Darklight Planisphere",
-                            "Darklight Kite Shield",
                             "Darklight Square Shield",
                             "Vermilion Sollerets",
                             "Sipahi Crakows",
                             "Mercenary's Leggings",
-                            "Warlock's Pattens"
+                            "Warlock's Pattens",
+                            "Paladin's Darklight Arms (IL 55)"
                         ]
                     }
                 ],
@@ -5502,7 +5476,7 @@
                 "chest": "silver",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/7c0f2882281/",
+                        "url": "/lodestone/playguide/db/npc/enemy/821d4dfea53/",
                         "name": "Yeti"
                     }
                 ],
@@ -5541,7 +5515,7 @@
                 "chest": "gold",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/d1f9af92b95/",
+                        "url": "/lodestone/playguide/db/npc/enemy/8bc2e80c8ca/",
                         "name": "Fenrir"
                     }
                 ],
@@ -5966,7 +5940,12 @@
         "fights": [
             {
                 "chest": "silver",
-                "boss": [],
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/4afa2d6b3b5/",
+                        "name": "Einhander"
+                    }
+                ],
                 "treasures": [
                     {
                         "name": "Treasure Coffer",
@@ -6046,16 +6025,7 @@
             },
             {
                 "chest": "gold",
-                "boss": [
-                    {
-                        "url": "/lodestone/playguide/db/npc/enemy/54fb2c3f380/",
-                        "name": "Einhander"
-                    },
-                    {
-                        "url": "/lodestone/playguide/db/npc/enemy/f31ab017ec8/",
-                        "name": "Midgardsormr"
-                    }
-                ],
+                "boss": [],
                 "drops": [
                     {
                         "name": "Silver Tears Orchestrion Roll",
@@ -6755,7 +6725,6 @@
                     "y": "5.6"
                 },
                 "items": [
-                    "Martial Sword",
                     "Martial Axe",
                     "Martial Greatsword",
                     "Martial Halberd",
@@ -6770,7 +6739,6 @@
                     "Martial Crook",
                     "Martial Codex",
                     "Martial Planisphere",
-                    "Martial Shield",
                     "Ishgardian Knight's Earrings",
                     "Ishgardian Monastic's Earrings",
                     "Ishgardian Outrider's Earrings",
@@ -6785,7 +6753,8 @@
                     "Snow White Dye",
                     "Goobbue Grey Dye",
                     "Slate Grey Dye",
-                    "Charcoal Grey Dye"
+                    "Charcoal Grey Dye",
+                    "Paladin's Martial Arms (IL 120)"
                 ]
             }
         ],
@@ -6885,7 +6854,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Martial Sword",
                             "Martial Axe",
                             "Martial Greatsword",
                             "Martial Halberd",
@@ -6900,7 +6868,6 @@
                             "Martial Crook",
                             "Martial Codex",
                             "Martial Planisphere",
-                            "Martial Shield",
                             "Ishgardian Knight's Armor",
                             "Ishgardian Banneret's Armor",
                             "Ishgardian Monastic's Cyclas",
@@ -6915,6 +6882,7 @@
                             "Ishgardian Bowman's Hose",
                             "Ishgardian Historian's Breeches",
                             "Ishgardian Chaplain's Breeches",
+                            "Paladin's Martial Arms (IL 120)",
                             "Descent Orchestrion Roll"
                         ]
                     }
@@ -7048,7 +7016,6 @@
                     "y": "5.2"
                 },
                 "items": [
-                    "Dissector",
                     "Foolkiller",
                     "Skofnung",
                     "Ox Tongue",
@@ -7063,7 +7030,6 @@
                     "Prester",
                     "The Black Pullet",
                     "Metamorphosis",
-                    "Woad Skyraider's Shield",
                     "Woad Skyraider's Earrings",
                     "Woad Skywarrior's Earrings",
                     "Woad Skyhunter's Earrings",
@@ -7078,7 +7044,8 @@
                     "Ash Grey Dye",
                     "Lime Green Dye",
                     "Apple Green Dye",
-                    "Shadow Blue Dye"
+                    "Shadow Blue Dye",
+                    "Paladin's Dissector Arms (IL 130)"
                 ]
             }
         ],
@@ -7185,7 +7152,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Dissector",
                             "Foolkiller",
                             "Skofnung",
                             "Ox Tongue",
@@ -7200,7 +7166,6 @@
                             "Prester",
                             "The Black Pullet",
                             "Metamorphosis",
-                            "Woad Skyraider's Shield",
                             "Woad Skyraider's Fur",
                             "Woad Skylancer's Fur",
                             "Woad Skywarrior's Fur",
@@ -7215,6 +7180,7 @@
                             "Woad Skyhunter's Breeches",
                             "Woad Skywicce's Breeches",
                             "Woad Skydruid's Breeches",
+                            "Paladin's Dissector Arms (IL 130)",
                             "Gaelikitten"
                         ]
                     }
@@ -7348,7 +7314,6 @@
                     "y": "10.1"
                 },
                 "items": [
-                    "Tyrfing",
                     "Skeggiold",
                     "Dainslaif",
                     "Grasitha",
@@ -7363,7 +7328,6 @@
                     "Mistilteinn",
                     "Fagrskinna",
                     "Muspell",
-                    "Svalin",
                     "Orthodox Earrings of Fending",
                     "Orthodox Earrings of Slaying",
                     "Orthodox Earrings of Aiming",
@@ -7378,7 +7342,8 @@
                     "Lavender Purple Dye",
                     "Currant Purple Dye",
                     "Iris Purple Dye",
-                    "Grape Purple Dye"
+                    "Grape Purple Dye",
+                    "Paladin's Tyrfing Arms (IL 136)"
                 ]
             }
         ],
@@ -7420,7 +7385,7 @@
                 "chest": "silver",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/3f05c9e5335/",
+                        "url": "/lodestone/playguide/db/npc/enemy/c234c7ff28d/",
                         "name": "Gyascutus"
                     }
                 ],
@@ -7460,7 +7425,7 @@
                 "chest": "gold",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/49024aa9036/",
+                        "url": "/lodestone/playguide/db/npc/enemy/52efb3e031e/",
                         "name": "Nidhogg"
                     }
                 ],
@@ -7478,7 +7443,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Tyrfing",
                             "Skeggiold",
                             "Dainslaif",
                             "Grasitha",
@@ -7493,7 +7457,6 @@
                             "Mistilteinn",
                             "Fagrskinna",
                             "Muspell",
-                            "Svalin",
                             "Orthodox Coat of Fending",
                             "Orthodox Coat of Maiming",
                             "Orthodox Tunic of Striking",
@@ -7508,6 +7471,7 @@
                             "Orthodox Trousers of Aiming",
                             "Orthodox Longkilt of Casting",
                             "Orthodox Longkilt of Healing",
+                            "Paladin's Tyrfing Arms (IL 136)",
                             "Lesser Panda",
                             "Roar of the Wyrm Orchestrion Roll"
                         ]
@@ -7642,7 +7606,6 @@
                     "y": "10.8"
                 },
                 "items": [
-                    "Halonic Inquisitor's Sword",
                     "Halonic Inquisitor's Axe",
                     "Halonic Inquisitor's Greatsword",
                     "Halonic Ostiary's Halberd",
@@ -7657,7 +7620,6 @@
                     "Halonic Priest's Crook",
                     "Halonic Priest's Codex",
                     "Halonic Priest's Planisphere",
-                    "Halonic Inquisitor's Shield",
                     "Halonic Inquisitor's Earrings",
                     "Halonic Friar's Earrings",
                     "Halonic Auditor's Earrings",
@@ -7672,7 +7634,8 @@
                     "Snow White Dye",
                     "Bone White Dye",
                     "Honey Yellow Dye",
-                    "Cream Yellow Dye"
+                    "Cream Yellow Dye",
+                    "Paladin's Halonic Inquisitor Arms (IL 142)"
                 ]
             }
         ],
@@ -7779,7 +7742,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Halonic Inquisitor's Sword",
                             "Halonic Inquisitor's Axe",
                             "Halonic Inquisitor's Greatsword",
                             "Halonic Ostiary's Halberd",
@@ -7794,7 +7756,6 @@
                             "Halonic Priest's Crook",
                             "Halonic Priest's Codex",
                             "Halonic Priest's Planisphere",
-                            "Halonic Inquisitor's Shield",
                             "Halonic Inquisitor's Cuirass",
                             "Halonic Ostiary's Cuirass",
                             "Halonic Friar's Cuirass",
@@ -7809,7 +7770,10 @@
                             "Halonic Auditor's Brais",
                             "Halonic Exorcist's Breeches",
                             "Halonic Priest's Breeches",
-                            "Unicolt"
+                            "Paladin's Halonic Inquisitor Arms (IL 142)",
+                            "Unicolt",
+                            "Toll of the Bells Orchestrion Roll",
+                            "Stigma Orchestrion Roll"
                         ]
                     }
                 ]
@@ -7942,7 +7906,6 @@
                     "y": "10.2"
                 },
                 "items": [
-                    "Belah'dian Anelace",
                     "Nymian Royal Marine Battleaxe",
                     "Belah'dian Claymore",
                     "Thavnairian Partisan",
@@ -7957,7 +7920,6 @@
                     "Thavnairian Cane",
                     "Nymian Royal Marine Codex",
                     "Lewphon's Eye",
-                    "The Southern Sun",
                     "Sharlayan Custodian's Earrings",
                     "Sharlayan Pankratiast's Earrings",
                     "Sharlayan Conservator's Earrings",
@@ -7972,7 +7934,8 @@
                     "Coral Pink Dye",
                     "Blood Red Dye",
                     "Celeste Green Dye",
-                    "Turquoise Green Dye"
+                    "Turquoise Green Dye",
+                    "Paladin's Belah'dian Arms (IL 148)"
                 ]
             }
         ],
@@ -8079,7 +8042,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Belah'dian Anelace",
                             "Nymian Royal Marine Battleaxe",
                             "Belah'dian Claymore",
                             "Thavnairian Partisan",
@@ -8094,7 +8056,6 @@
                             "Thavnairian Cane",
                             "Nymian Royal Marine Codex",
                             "Lewphon's Eye",
-                            "The Southern Sun",
                             "Sharlayan Custodian's Coat",
                             "Sharlayan Pathmaker's Coat",
                             "Sharlayan Pankratiast's Coat",
@@ -8109,6 +8070,7 @@
                             "Sharlayan Conservator's Longkilt",
                             "Sharlayan Philosopher's Longkilt",
                             "Sharlayan Preceptor's Longkilt",
+                            "Paladin's Belah'dian Arms (IL 148)",
                             "Page 63"
                         ]
                     }
@@ -8325,7 +8287,6 @@
                     "y": "6.4"
                 },
                 "items": [
-                    "Baldur Sword",
                     "Baldur Axe",
                     "Baldur Blade",
                     "Baldur Spear",
@@ -8354,7 +8315,8 @@
                     "Seafog Blue Dye",
                     "Peacock Blue Dye",
                     "Rhotano Blue Dye",
-                    "Raptor Blue Dye"
+                    "Raptor Blue Dye",
+                    "Paladin's Baldur Arms (IL 160)"
                 ]
             }
         ],
@@ -8466,7 +8428,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Baldur Sword",
                             "Baldur Axe",
                             "Baldur Blade",
                             "Baldur Spear",
@@ -8481,7 +8442,6 @@
                             "Baldur Cane",
                             "Baldur Codex",
                             "Baldur Planisphere",
-                            "Baldur Shield",
                             "Valerian Terror Knight's Plate Mail",
                             "Valerian Dragoon's Mail",
                             "Valerian Smuggler's Gilet",
@@ -8496,6 +8456,7 @@
                             "Valerian Fusilier's Sarouel",
                             "Valerian Wizard's Longkilt",
                             "Valerian Shaman's Smalls",
+                            "Paladin's Baldur Arms (IL 160)",
                             "Ugly Duckling",
                             "Like a Summer Rain Orchestrion Roll"
                         ]
@@ -8636,7 +8597,6 @@
                     "y": "9.3"
                 },
                 "items": [
-                    "Baldur Sword",
                     "Baldur Axe",
                     "Baldur Blade",
                     "Baldur Spear",
@@ -8665,7 +8625,8 @@
                     "Soot Black Dye",
                     "Dalamud Red Dye",
                     "Sunset Orange Dye",
-                    "Void Blue Dye"
+                    "Void Blue Dye",
+                    "Paladin's Baldur Arms (IL 160)"
                 ]
             }
         ],
@@ -8784,7 +8745,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Baldur Sword",
                             "Baldur Axe",
                             "Baldur Blade",
                             "Baldur Spear",
@@ -8799,7 +8759,6 @@
                             "Baldur Cane",
                             "Baldur Codex",
                             "Baldur Planisphere",
-                            "Baldur Shield",
                             "Valerian Terror Knight's Plate Mail",
                             "Valerian Dragoon's Mail",
                             "Valerian Smuggler's Gilet",
@@ -8814,6 +8773,7 @@
                             "Valerian Fusilier's Sarouel",
                             "Valerian Wizard's Longkilt",
                             "Valerian Shaman's Smalls",
+                            "Paladin's Baldur Arms (IL 160)",
                             "Owlet"
                         ]
                     }
@@ -11652,7 +11612,6 @@
                     "y": "18.2"
                 },
                 "items": [
-                    "Ghost Barque Anelace",
                     "Ghost Barque Battleaxe",
                     "Ghost Barque Claymore",
                     "Ghost Barque Gunblade",
@@ -11669,7 +11628,6 @@
                     "Ghost Barque Cane",
                     "Ghost Barque Codex",
                     "Ghost Barque Astrometer",
-                    "Ghost Barque Shield",
                     "Ghost Barque Earrings of Fending",
                     "Ghost Barque Earrings of Slaying",
                     "Ghost Barque Earrings of Aiming",
@@ -11703,7 +11661,8 @@
                     "Wind Crystal",
                     "Earth Crystal",
                     "Lightning Crystal",
-                    "Water Crystal"
+                    "Water Crystal",
+                    "Paladin's Ghost Barque Arms (IL 260)"
                 ]
             }
         ],
@@ -11793,7 +11752,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Ghost Barque Anelace",
                             "Ghost Barque Battleaxe",
                             "Ghost Barque Claymore",
                             "Ghost Barque Gunblade",
@@ -11810,7 +11768,6 @@
                             "Ghost Barque Cane",
                             "Ghost Barque Codex",
                             "Ghost Barque Astrometer",
-                            "Ghost Barque Shield",
                             "Ghost Barque Tabard of Fending",
                             "Ghost Barque Chestwrap of Maiming",
                             "Ghost Barque Coat of Striking",
@@ -11825,6 +11782,7 @@
                             "Ghost Barque Gaskins of Aiming",
                             "Ghost Barque Bottoms of Casting",
                             "Ghost Barque Brais of Healing",
+                            "Paladin's Ghost Barque Arms (IL 260)",
                             "Ghido",
                             "Dawnbound Orchestrion Roll"
                         ]
@@ -12016,7 +11974,6 @@
                     "y": "4.7"
                 },
                 "items": [
-                    "Ruby Tide Blade",
                     "Ruby Tide Axe",
                     "Ruby Tide Greatsword",
                     "Ruby Tide Gunblade",
@@ -12033,7 +11990,6 @@
                     "Ruby Tide Cane",
                     "Ruby Tide Codex",
                     "Ruby Tide Astrometer",
-                    "Ruby Tide Shield",
                     "Ruby Tide Earrings of Fending",
                     "Ruby Tide Earrings of Slaying",
                     "Ruby Tide Earrings of Aiming",
@@ -12067,7 +12023,8 @@
                     "Wind Crystal",
                     "Earth Crystal",
                     "Lightning Crystal",
-                    "Water Crystal"
+                    "Water Crystal",
+                    "Ruby Tide Paladin's Arms (IL 270)"
                 ]
             }
         ],
@@ -12157,7 +12114,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Ruby Tide Blade",
                             "Ruby Tide Axe",
                             "Ruby Tide Greatsword",
                             "Ruby Tide Gunblade",
@@ -12174,7 +12130,6 @@
                             "Ruby Tide Cane",
                             "Ruby Tide Codex",
                             "Ruby Tide Astrometer",
-                            "Ruby Tide Shield",
                             "Shisui Joi of Fending",
                             "Shisui Joi of Maiming",
                             "Shisui Joi of Striking",
@@ -12189,6 +12144,7 @@
                             "Shisui Kohakama of Aiming",
                             "Shisui Kohakama of Casting",
                             "Shisui Kohakama of Healing",
+                            "Ruby Tide Paladin's Arms (IL 270)",
                             "Bombfish",
                             "The Open Box Orchestrion Roll"
                         ]
@@ -12380,7 +12336,6 @@
                     "y": "3.2"
                 },
                 "items": [
-                    "The Eminent Dominion",
                     "The Impassible Peak",
                     "The Blazing Sun",
                     "The Impassionate Tide",
@@ -12397,7 +12352,6 @@
                     "The Voiceless Moon",
                     "The Heavens Reeling",
                     "The Lone Beacon",
-                    "Mol Shield",
                     "Nomad's Earrings of Fending",
                     "Nomad's Earrings of Slaying",
                     "Nomad's Earrings of Aiming",
@@ -12431,7 +12385,8 @@
                     "Wind Crystal",
                     "Earth Crystal",
                     "Lightning Crystal",
-                    "Water Crystal"
+                    "Water Crystal",
+                    "Mol Paladin's Arms (IL 276)"
                 ]
             }
         ],
@@ -12521,7 +12476,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "The Eminent Dominion",
                             "The Impassible Peak",
                             "The Blazing Sun",
                             "The Impassionate Tide",
@@ -12538,7 +12492,6 @@
                             "The Voiceless Moon",
                             "The Heavens Reeling",
                             "The Lone Beacon",
-                            "Mol Shield",
                             "Nomad's Coat of Fending",
                             "Nomad's Coat of Maiming",
                             "Nomad's Coat of Striking",
@@ -12553,6 +12506,7 @@
                             "Nomad's Breeches of Aiming",
                             "Nomad's Breeches of Casting",
                             "Nomad's Breeches of Healing",
+                            "Mol Paladin's Arms (IL 276)",
                             "Road Sparrow",
                             "Most Unworthy Orchestrion Roll"
                         ]
@@ -12744,7 +12698,6 @@
                     "y": "8.7"
                 },
                 "items": [
-                    "Onikiri Shin",
                     "Kintoki Shin",
                     "Kumokirimaru Shin",
                     "Wakasa Shin",
@@ -12761,7 +12714,6 @@
                     "Masakaki Shin",
                     "Gogyo Sosei Shin",
                     "Tenkan Chishi Shin",
-                    "Yanxian Shield",
                     "Yanxian Earring of Fending",
                     "Yanxian Earring of Slaying",
                     "Yanxian Earring of Aiming",
@@ -12795,7 +12747,8 @@
                     "Wind Crystal",
                     "Earth Crystal",
                     "Lightning Crystal",
-                    "Water Crystal"
+                    "Water Crystal",
+                    "Yanxian Paladin's Arms (IL 282)"
                 ]
             }
         ],
@@ -12895,7 +12848,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Onikiri Shin",
                             "Kintoki Shin",
                             "Kumokirimaru Shin",
                             "Wakasa Shin",
@@ -12912,7 +12864,6 @@
                             "Masakaki Shin",
                             "Gogyo Sosei Shin",
                             "Tenkan Chishi Shin",
-                            "Yanxian Shield",
                             "Yanxian Hara-ate of Fending",
                             "Yanxian Togi of Maiming",
                             "Yanxian Togi of Striking",
@@ -12927,6 +12878,7 @@
                             "Yanxian Haidate of Aiming",
                             "Yanxian Hakama of Casting",
                             "Yanxian Hakama of Healing",
+                            "Yanxian Paladin's Arms (IL 282)",
                             "Mock-up Grynewaht",
                             "Gates of the Moon Orchestrion Roll"
                         ]
@@ -13118,7 +13070,6 @@
                     "y": "8.6"
                 },
                 "items": [
-                    "Enhancing Sword",
                     "Sparth",
                     "Cruadin",
                     "Hrotti",
@@ -13135,7 +13086,6 @@
                     "Deae Gratia",
                     "Ethica",
                     "Rigel",
-                    "Ritter Shield",
                     "Xenobian Paladin's Earrings",
                     "Valerian Brawler's Earrings",
                     "Valerian Archer's Earrings",
@@ -13169,7 +13119,8 @@
                     "Wind Crystal",
                     "Earth Crystal",
                     "Lightning Crystal",
-                    "Water Crystal"
+                    "Water Crystal",
+                    "Paladin's Enhancing Arms (IL 288)"
                 ]
             }
         ],
@@ -13259,7 +13210,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Enhancing Sword",
                             "Sparth",
                             "Cruadin",
                             "Hrotti",
@@ -13276,7 +13226,6 @@
                             "Deae Gratia",
                             "Ethica",
                             "Rigel",
-                            "Ritter Shield",
                             "Xenobian Surcoat",
                             "Valerian Rune Fencer's Mail",
                             "Valerian Brawler's Acton",
@@ -13291,6 +13240,7 @@
                             "Valerian Archer's Bottoms",
                             "Valerian Dark Priest's Bottoms",
                             "Valerian Priest's Bottoms",
+                            "Paladin's Enhancing Arms (IL 288)",
                             "Magitek Avenger F1",
                             "Alienus Orchestrion Roll"
                         ]
@@ -13410,7 +13360,6 @@
                     "y": "8.5"
                 },
                 "items": [
-                    "Blade of the Crimson Lotus",
                     "Axe of the Crimson Lotus",
                     "Greatsword of the Crimson Lotus",
                     "Gunblade of the Crimson Lotus",
@@ -13429,7 +13378,6 @@
                     "Codex of the Crimson Lotus",
                     "Astrometer of the Crimson Lotus",
                     "Dzi of the Crimson Lotus",
-                    "Shield of the Crimson Lotus",
                     "Arhat Earring of Fending",
                     "Arhat Earring of Slaying",
                     "Arhat Earring of Aiming",
@@ -13439,7 +13387,8 @@
                     "Arhat Necklace of Slaying",
                     "Arhat Necklace of Aiming",
                     "Arhat Necklace of Casting",
-                    "Arhat Necklace of Healing"
+                    "Arhat Necklace of Healing",
+                    "Paladin's Crimson Lotus Arms (IL 300)"
                 ]
             }
         ],
@@ -13551,7 +13500,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Blade of the Crimson Lotus",
                             "Axe of the Crimson Lotus",
                             "Greatsword of the Crimson Lotus",
                             "Gunblade of the Crimson Lotus",
@@ -13570,7 +13518,6 @@
                             "Codex of the Crimson Lotus",
                             "Astrometer of the Crimson Lotus",
                             "Dzi of the Crimson Lotus",
-                            "Shield of the Crimson Lotus",
                             "Arhat Hara-ate of Fending",
                             "Arhat Hara-ate of Maiming",
                             "Arhat Togi of Striking",
@@ -13585,6 +13532,7 @@
                             "Arhat Hakama of Aiming",
                             "Arhat Hakama of Casting",
                             "Arhat Hakama of Healing",
+                            "Paladin's Crimson Lotus Arms (IL 300)",
                             "Magitek Predator Identification Key",
                             "Liberty or Death Orchestrion Roll"
                         ]
@@ -13710,7 +13658,6 @@
                     "y": "15.8"
                 },
                 "items": [
-                    "Blade of the Crimson Lotus",
                     "Axe of the Crimson Lotus",
                     "Greatsword of the Crimson Lotus",
                     "Gunblade of the Crimson Lotus",
@@ -13729,7 +13676,6 @@
                     "Codex of the Crimson Lotus",
                     "Astrometer of the Crimson Lotus",
                     "Dzi of the Crimson Lotus",
-                    "Shield of the Crimson Lotus",
                     "Arhat Earring of Fending",
                     "Arhat Earring of Slaying",
                     "Arhat Earring of Aiming",
@@ -13739,7 +13685,8 @@
                     "Arhat Necklace of Slaying",
                     "Arhat Necklace of Aiming",
                     "Arhat Necklace of Casting",
-                    "Arhat Necklace of Healing"
+                    "Arhat Necklace of Healing",
+                    "Paladin's Crimson Lotus Arms (IL 300)"
                 ]
             }
         ],
@@ -13842,7 +13789,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Blade of the Crimson Lotus",
                             "Axe of the Crimson Lotus",
                             "Greatsword of the Crimson Lotus",
                             "Gunblade of the Crimson Lotus",
@@ -13861,7 +13807,6 @@
                             "Codex of the Crimson Lotus",
                             "Astrometer of the Crimson Lotus",
                             "Dzi of the Crimson Lotus",
-                            "Shield of the Crimson Lotus",
                             "Arhat Hara-ate of Fending",
                             "Arhat Hara-ate of Maiming",
                             "Arhat Togi of Striking",
@@ -13876,6 +13821,7 @@
                             "Arhat Hakama of Aiming",
                             "Arhat Hakama of Casting",
                             "Arhat Hakama of Healing",
+                            "Paladin's Crimson Lotus Arms (IL 300)",
                             "Dress-up Yugiri",
                             "Deception Orchestrion Roll"
                         ]
@@ -14001,7 +13947,6 @@
                     "y": "8.0"
                 },
                 "items": [
-                    "Blade of the Crimson Lotus",
                     "Axe of the Crimson Lotus",
                     "Greatsword of the Crimson Lotus",
                     "Gunblade of the Crimson Lotus",
@@ -14020,7 +13965,6 @@
                     "Codex of the Crimson Lotus",
                     "Astrometer of the Crimson Lotus",
                     "Dzi of the Crimson Lotus",
-                    "Shield of the Crimson Lotus",
                     "Arhat Earring of Fending",
                     "Arhat Earring of Slaying",
                     "Arhat Earring of Aiming",
@@ -14030,7 +13974,8 @@
                     "Arhat Necklace of Slaying",
                     "Arhat Necklace of Aiming",
                     "Arhat Necklace of Casting",
-                    "Arhat Necklace of Healing"
+                    "Arhat Necklace of Healing",
+                    "Paladin's Crimson Lotus Arms (IL 300)"
                 ]
             }
         ],
@@ -14136,7 +14081,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Blade of the Crimson Lotus",
                             "Axe of the Crimson Lotus",
                             "Greatsword of the Crimson Lotus",
                             "Gunblade of the Crimson Lotus",
@@ -14155,7 +14099,6 @@
                             "Codex of the Crimson Lotus",
                             "Astrometer of the Crimson Lotus",
                             "Dzi of the Crimson Lotus",
-                            "Shield of the Crimson Lotus",
                             "Arhat Hara-ate of Fending",
                             "Arhat Hara-ate of Maiming",
                             "Arhat Togi of Striking",
@@ -14170,6 +14113,7 @@
                             "Arhat Hakama of Aiming",
                             "Arhat Hakama of Casting",
                             "Arhat Hakama of Healing",
+                            "Paladin's Crimson Lotus Arms (IL 300)",
                             "Ivon Coeurlfist Doll",
                             "Their Deadly Mission Orchestrion Roll"
                         ]
@@ -16923,7 +16867,6 @@
                     "y": "4.7"
                 },
                 "items": [
-                    "Lakeland Longsword",
                     "Lakeland War Axe",
                     "Lakeland Greatsword",
                     "Lakeland Manatrigger",
@@ -16942,7 +16885,6 @@
                     "Lakeland Codex",
                     "Lakeland Astrometer",
                     "Lakeland Wings",
-                    "Lakeland Kite Shield",
                     "Lakeland Earring of Fending",
                     "Lakeland Earring of Slaying",
                     "Lakeland Earring of Aiming",
@@ -16952,7 +16894,8 @@
                     "Lakeland Necklace of Slaying",
                     "Lakeland Necklace of Aiming",
                     "Lakeland Necklace of Casting",
-                    "Lakeland Necklace of Healing"
+                    "Lakeland Necklace of Healing",
+                    "Paladin's Lakeland Arms (IL 390)"
                 ]
             }
         ],
@@ -17063,7 +17006,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Lakeland Longsword",
                             "Lakeland War Axe",
                             "Lakeland Greatsword",
                             "Lakeland Manatrigger",
@@ -17082,7 +17024,6 @@
                             "Lakeland Codex",
                             "Lakeland Astrometer",
                             "Lakeland Wings",
-                            "Lakeland Kite Shield",
                             "Lakeland Amulet of Fending",
                             "Lakeland Amulet of Slaying",
                             "Lakeland Amulet of Aiming",
@@ -17093,6 +17034,7 @@
                             "Lakeland Ring of Aiming",
                             "Lakeland Ring of Casting",
                             "Lakeland Ring of Healing",
+                            "Paladin's Lakeland Arms (IL 390)",
                             "Black Hayate",
                             "To Fire and Sword Orchestrion Roll"
                         ]
@@ -17205,7 +17147,6 @@
                     "y": "7.8"
                 },
                 "items": [
-                    "Fae Sword",
                     "Fae Axe",
                     "Fae Guillotine",
                     "Fae Manatrigger",
@@ -17224,7 +17165,6 @@
                     "Fae Codex",
                     "Fae Planisphere",
                     "Fae Milpreves",
-                    "Fae Shield",
                     "Voeburtite Earring of Fending",
                     "Voeburtite Earring of Slaying",
                     "Voeburtite Earring of Aiming",
@@ -17234,7 +17174,8 @@
                     "Voeburtite Necklace of Slaying",
                     "Voeburtite Necklace of Aiming",
                     "Voeburtite Necklace of Casting",
-                    "Voeburtite Necklace of Healing"
+                    "Voeburtite Necklace of Healing",
+                    "Paladin's Fae Arms (IL 400)"
                 ]
             }
         ],
@@ -17335,7 +17276,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Fae Sword",
                             "Fae Axe",
                             "Fae Guillotine",
                             "Fae Manatrigger",
@@ -17354,7 +17294,6 @@
                             "Fae Codex",
                             "Fae Planisphere",
                             "Fae Milpreves",
-                            "Fae Shield",
                             "Voeburtite Armillae of Fending",
                             "Voeburtite Armillae of Slaying",
                             "Voeburtite Armillae of Aiming",
@@ -17366,6 +17305,7 @@
                             "Voeburtite Ring of Casting",
                             "Voeburtite Ring of Healing",
                             "Dohn Trellis",
+                            "Paladin's Fae Arms (IL 400)",
                             "Tiny Echevore",
                             "Figments Orchestrion Roll"
                         ]
@@ -17478,7 +17418,6 @@
                     "y": "10.8"
                 },
                 "items": [
-                    "Ravel Keeper's Sword",
                     "Ravel Keeper's Axe",
                     "Ravel Keeper's Guillotine",
                     "Ravel Keeper's Sawback",
@@ -17497,7 +17436,6 @@
                     "Ravel Keeper's Codex",
                     "Ravel Keeper's Planisphere",
                     "Ravel Keeper's Wings",
-                    "Ravel Keeper's Shield",
                     "Ravel Keeper's Earring of Fending",
                     "Ravel Keeper's Earring of Slaying",
                     "Ravel Keeper's Earring of Aiming",
@@ -17507,7 +17445,8 @@
                     "Ravel Keeper's Choker of Slaying",
                     "Ravel Keeper's Choker of Aiming",
                     "Ravel Keeper's Choker of Casting",
-                    "Ravel Keeper's Choker of Healing"
+                    "Ravel Keeper's Choker of Healing",
+                    "Ravel Keeper's Paladin Arms (IL 406)"
                 ]
             }
         ],
@@ -17618,7 +17557,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Ravel Keeper's Sword",
                             "Ravel Keeper's Axe",
                             "Ravel Keeper's Guillotine",
                             "Ravel Keeper's Sawback",
@@ -17637,7 +17575,6 @@
                             "Ravel Keeper's Codex",
                             "Ravel Keeper's Planisphere",
                             "Ravel Keeper's Wings",
-                            "Ravel Keeper's Shield",
                             "Ravel Keeper's Bracelet of Fending",
                             "Ravel Keeper's Bracelet of Slaying",
                             "Ravel Keeper's Bracelet of Aiming",
@@ -17649,6 +17586,7 @@
                             "Ravel Keeper's Ring of Casting",
                             "Ravel Keeper's Ring of Healing",
                             "Fallen Tree",
+                            "Ravel Keeper's Paladin Arms (IL 406)",
                             "Chameleon",
                             "Unwound Orchestrion Roll"
                         ]
@@ -17761,7 +17699,6 @@
                     "y": "7.7"
                 },
                 "items": [
-                    "Nabaath Sword",
                     "Nabaath Axe",
                     "Nabaath Blade",
                     "Nabaath Manatrigger",
@@ -17780,7 +17717,6 @@
                     "Nabaath Codex",
                     "Nabaath Planisphere",
                     "Nabaath Pendulums",
-                    "Nabaath Shield",
                     "Nabaath Earrings of Fending",
                     "Nabaath Earrings of Slaying",
                     "Nabaath Earrings of Aiming",
@@ -17790,7 +17726,8 @@
                     "Nabaath Choker of Slaying",
                     "Nabaath Choker of Aiming",
                     "Nabaath Choker of Casting",
-                    "Nabaath Choker of Healing"
+                    "Nabaath Choker of Healing",
+                    "Paladin's Nabaath Arms (IL 412)"
                 ]
             }
         ],
@@ -17901,7 +17838,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Nabaath Sword",
                             "Nabaath Axe",
                             "Nabaath Blade",
                             "Nabaath Manatrigger",
@@ -17920,7 +17856,6 @@
                             "Nabaath Codex",
                             "Nabaath Planisphere",
                             "Nabaath Pendulums",
-                            "Nabaath Shield",
                             "Nabaath Wristband of Fending",
                             "Nabaath Wristband of Slaying",
                             "Nabaath Wristband of Aiming",
@@ -17932,6 +17867,7 @@
                             "Nabaath Leather Ring of Casting",
                             "Nabaath Leather Ring of Healing",
                             "Iron Torch",
+                            "Paladin's Nabaath Arms (IL 412)",
                             "Armadillo Bowler",
                             "Deep Down Orchestrion Roll"
                         ]
@@ -18044,7 +17980,6 @@
                     "y": "12.0"
                 },
                 "items": [
-                    "Sword of the Forgiven",
                     "Labrys of the Forgiven",
                     "Greatsword of the Forgiven",
                     "Manatrigger of the Forgiven",
@@ -18063,7 +17998,6 @@
                     "Codex of the Forgiven",
                     "Planisphere of the Forgiven",
                     "The Forgiven's Pendulums",
-                    "Shield of the Forgiven",
                     "The Forgiven's Earrings of Fending",
                     "The Forgiven's Earrings of Slaying",
                     "The Forgiven's Earrings of Aiming",
@@ -18073,7 +18007,8 @@
                     "The Forgiven's Necklace of Slaying",
                     "The Forgiven's Necklace of Aiming",
                     "The Forgiven's Necklace of Casting",
-                    "The Forgiven's Necklace of Healing"
+                    "The Forgiven's Necklace of Healing",
+                    "Paladin's Forgiven Arms (IL 418)"
                 ]
             }
         ],
@@ -18174,7 +18109,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Sword of the Forgiven",
                             "Labrys of the Forgiven",
                             "Greatsword of the Forgiven",
                             "Manatrigger of the Forgiven",
@@ -18193,7 +18127,6 @@
                             "Codex of the Forgiven",
                             "Planisphere of the Forgiven",
                             "The Forgiven's Pendulums",
-                            "Shield of the Forgiven",
                             "The Forgiven's Bracelet of Fending",
                             "The Forgiven's Bracelet of Slaying",
                             "The Forgiven's Bracelet of Aiming",
@@ -18205,6 +18138,7 @@
                             "The Forgiven's Ring of Casting",
                             "The Forgiven's Ring of Healing",
                             "Gulg Planter",
+                            "Paladin's Forgiven Arms (IL 418)",
                             "Forgiven Hate",
                             "In the Belly of the Beast Orchestrion Roll"
                         ]
@@ -20376,7 +20310,6 @@
                     "y": "10.2"
                 },
                 "items": [
-                    "Monstrorum Falchion",
                     "Monstrorum Battleaxe",
                     "Monstrorum Greatsword",
                     "Monstrorum Gunblade",
@@ -20395,7 +20328,6 @@
                     "Monstrorum Codex",
                     "Monstrorum Astrometer",
                     "Monstrorum Syrinxi",
-                    "Monstrorum Shield",
                     "Manusya Earrings of Fending",
                     "Manusya Earrings of Slaying",
                     "Manusya Earrings of Aiming",
@@ -20405,7 +20337,8 @@
                     "Manusya Choker of Slaying",
                     "Manusya Choker of Aiming",
                     "Manusya Choker of Casting",
-                    "Manusya Choker of Healing"
+                    "Manusya Choker of Healing",
+                    "Paladin's Monstrorum Arms (IL 520)"
                 ]
             }
         ],
@@ -20520,7 +20453,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Monstrorum Falchion",
                             "Monstrorum Battleaxe",
                             "Monstrorum Greatsword",
                             "Monstrorum Gunblade",
@@ -20539,7 +20471,6 @@
                             "Monstrorum Codex",
                             "Monstrorum Astrometer",
                             "Monstrorum Syrinxi",
-                            "Monstrorum Shield",
                             "Manusya Coat of Fending",
                             "Manusya Mail of Maiming",
                             "Manusya Jacket of Striking",
@@ -20547,6 +20478,7 @@
                             "Manusya Coat of Aiming",
                             "Manusya Jacket of Casting",
                             "Manusya Chestpiece of Healing",
+                            "Paladin's Monstrorum Arms (IL 520)",
                             "Wind-up Magus Sisters",
                             "Tower of Zot Orchestrion Roll"
                         ]
@@ -20666,7 +20598,6 @@
                     "y": "10.8"
                 },
                 "items": [
-                    "Imperial Magitek Sword",
                     "Imperial Magitek Axe",
                     "Imperial Magitek Guillotine",
                     "Imperial Magitek Sawback",
@@ -20685,7 +20616,6 @@
                     "Imperial Magitek Codex",
                     "Imperial Magitek Planisphere",
                     "Imperial Magitek Wings",
-                    "Imperial Magitek Shield",
                     "Imperial Earring of Fending",
                     "Imperial Earring of Slaying",
                     "Imperial Earring of Aiming",
@@ -20695,7 +20625,8 @@
                     "Imperial Choker of Slaying",
                     "Imperial Choker of Aiming",
                     "Imperial Choker of Casting",
-                    "Imperial Choker of Healing"
+                    "Imperial Choker of Healing",
+                    "Paladin's Imperial Arms (IL 530)"
                 ]
             }
         ],
@@ -20802,7 +20733,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Imperial Magitek Sword",
                             "Imperial Magitek Axe",
                             "Imperial Magitek Guillotine",
                             "Imperial Magitek Sawback",
@@ -20821,7 +20751,6 @@
                             "Imperial Magitek Codex",
                             "Imperial Magitek Planisphere",
                             "Imperial Magitek Wings",
-                            "Imperial Magitek Shield",
                             "Imperial Coat of Fending",
                             "Imperial Coat of Maiming",
                             "Imperial Coat of Striking",
@@ -20829,6 +20758,7 @@
                             "Imperial Coat of Aiming",
                             "Imperial Coat of Casting",
                             "Imperial Coat of Healing",
+                            "Paladin's Imperial Arms (IL 530)",
                             "Wind-up Anima",
                             "Garlemald Express Orchestrion Roll"
                         ]
@@ -20948,7 +20878,6 @@
                     "y": "7.4"
                 },
                 "items": [
-                    "Palaka Shamshir",
                     "Palaka Bardiche",
                     "Palaka Claymore",
                     "Palaka Gunblade",
@@ -20967,7 +20896,6 @@
                     "Palaka Codex",
                     "Palaka Torquetum",
                     "Palaka Pendulums",
-                    "Palaka Pelta",
                     "Palaka Earrings of Fending",
                     "Palaka Earrings of Slaying",
                     "Palaka Earrings of Aiming",
@@ -20977,7 +20905,8 @@
                     "Palaka Choker of Slaying",
                     "Palaka Choker of Aiming",
                     "Palaka Choker of Casting",
-                    "Palaka Choker of Healing"
+                    "Palaka Choker of Healing",
+                    "Paladin's Palaka Arms (IL 536)"
                 ]
             }
         ],
@@ -21074,7 +21003,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Palaka Shamshir",
                             "Palaka Bardiche",
                             "Palaka Claymore",
                             "Palaka Gunblade",
@@ -21093,7 +21021,6 @@
                             "Palaka Codex",
                             "Palaka Torquetum",
                             "Palaka Pendulums",
-                            "Palaka Pelta",
                             "Palaka Jacket of Fending",
                             "Palaka Jacket of Maiming",
                             "Palaka Vest of Striking",
@@ -21101,6 +21028,7 @@
                             "Palaka Vest of Aiming",
                             "Palaka Vest of Casting",
                             "Palaka Vest of Healing",
+                            "Paladin's Palaka Arms (IL 536)",
                             "Hippo Calf",
                             "As the Sky Burns Orchestrion Roll"
                         ]
@@ -21220,7 +21148,6 @@
                     "y": "11.3"
                 },
                 "items": [
-                    "Ktiseos Sword",
                     "Ktiseos War Axe",
                     "Ktiseos Greatsword",
                     "Ktiseos Gunblade",
@@ -21239,7 +21166,6 @@
                     "Ktiseos Codex",
                     "Ktiseos Planisphere",
                     "Ktiseos Wings",
-                    "Ktiseos Shield",
                     "Ktiseos Earring of Fending",
                     "Ktiseos Earring of Slaying",
                     "Ktiseos Earring of Aiming",
@@ -21249,7 +21175,8 @@
                     "Ktiseos Choker of Slaying",
                     "Ktiseos Choker of Aiming",
                     "Ktiseos Choker of Casting",
-                    "Ktiseos Choker of Healing"
+                    "Ktiseos Choker of Healing",
+                    "Paladin's Ktiseos Arms (IL 542)"
                 ]
             }
         ],
@@ -21356,7 +21283,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Ktiseos Sword",
                             "Ktiseos War Axe",
                             "Ktiseos Greatsword",
                             "Ktiseos Gunblade",
@@ -21375,7 +21301,6 @@
                             "Ktiseos Codex",
                             "Ktiseos Planisphere",
                             "Ktiseos Wings",
-                            "Ktiseos Shield",
                             "Ktiseos Coat of Fending",
                             "Ktiseos Coat of Maiming",
                             "Ktiseos Coat of Striking",
@@ -21383,6 +21308,7 @@
                             "Ktiseos Coat of Aiming",
                             "Ktiseos Robe of Casting",
                             "Ktiseos Robe of Healing",
+                            "Paladin's Ktiseos Arms (IL 542)",
                             "Caduceus",
                             "Miracle Works Orchestrion Roll"
                         ]
@@ -21719,8 +21645,8 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "15"
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "10"
                     }
                 ]
             },
@@ -21758,8 +21684,8 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "25"
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "15"
                     }
                 ]
             },
@@ -21792,12 +21718,12 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "40"
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "25"
                     },
                     {
-                        "name": "Allagan Tomestone of Astronomy",
-                        "amount": "50"
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "20"
                     }
                 ]
             }
@@ -21931,8 +21857,8 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "15"
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "10"
                     }
                 ]
             },
@@ -21970,8 +21896,8 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "25"
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "15"
                     }
                 ]
             },
@@ -22004,12 +21930,12 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "40"
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "25"
                     },
                     {
-                        "name": "Allagan Tomestone of Astronomy",
-                        "amount": "50"
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "20"
                     }
                 ]
             }
@@ -22143,8 +22069,8 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "15"
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "10"
                     }
                 ]
             },
@@ -22182,8 +22108,8 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "25"
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "15"
                     }
                 ]
             },
@@ -22215,12 +22141,12 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "40"
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "25"
                     },
                     {
-                        "name": "Allagan Tomestone of Astronomy",
-                        "amount": "50"
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "20"
                     }
                 ]
             }
@@ -22420,7 +22346,7 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
+                        "name": "Allagan Tomestone of Astronomy",
                         "amount": "15"
                     }
                 ]
@@ -22466,7 +22392,7 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
+                        "name": "Allagan Tomestone of Astronomy",
                         "amount": "25"
                     }
                 ]
@@ -22481,7 +22407,12 @@
                 ],
                 "drops": [
                     {
-                        "name": "???"
+                        "name": "Rampart Card",
+                        "url": "/lodestone/playguide/db/item/653e1bb0e65/",
+                        "condition": [
+                            "* Must first complete the quest \"Triple Triad Trial.\"",
+                            "* Drops at a fixed rate."
+                        ]
                     }
                 ],
                 "treasures": [
@@ -22509,11 +22440,306 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
+                        "name": "Allagan Tomestone of Astronomy",
                         "amount": "40"
                     },
                     {
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "50"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "dungeon",
+        "version": "Endwalker",
+        "name": "The Fell Court of Troia",
+        "url": "/lodestone/playguide/db/duty/d75f0e7733b/",
+        "lvl": "90",
+        "ilvl": "575",
+        "chests": [
+            {
+                "name": "Treasure Coffer 1",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 10.7 Y: 10.0",
+                "coords": {
+                    "x": "10.7",
+                    "y": "10.0"
+                },
+                "items": [
+                    "Troian Vambraces of Fending",
+                    "Troian Vambraces of Maiming",
+                    "Troian Fingerless Gloves of Striking",
+                    "Troian Fingerless Gloves of Scouting",
+                    "Troian Armguards of Aiming",
+                    "Troian Armguards of Casting",
+                    "Troian Armguards of Healing",
+                    "Troian Bracelet of Fending",
+                    "Troian Bracelet of Slaying",
+                    "Troian Bracelet of Aiming",
+                    "Troian Bracelet of Casting",
+                    "Troian Bracelet of Healing",
+                    "Troian Ring of Fending",
+                    "Troian Ring of Slaying",
+                    "Troian Ring of Aiming",
+                    "Troian Ring of Casting",
+                    "Troian Ring of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 2",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 14.3 Y: 8.3",
+                "coords": {
+                    "x": "14.3",
+                    "y": "8.3"
+                },
+                "items": [
+                    "Troian Sabatons of Fending",
+                    "Troian Sabatons of Maiming",
+                    "Troian Leg Wraps of Striking",
+                    "Troian Leg Wraps of Scouting",
+                    "Troian Thighboots of Aiming",
+                    "Troian Thighboots of Casting",
+                    "Troian Thighboots of Healing",
+                    "Troian Earrings of Fending",
+                    "Troian Earrings of Slaying",
+                    "Troian Earrings of Aiming",
+                    "Troian Earrings of Casting",
+                    "Troian Earrings of Healing",
+                    "Troian Choker of Fending",
+                    "Troian Choker of Slaying",
+                    "Troian Choker of Aiming",
+                    "Troian Choker of Casting",
+                    "Troian Choker of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 3",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.8 Y: 11.3",
+                "coords": {
+                    "x": "11.8",
+                    "y": "11.3"
+                },
+                "items": [
+                    "Troian Circlet of Fending",
+                    "Troian Circlet of Maiming",
+                    "Troian Bandana of Striking",
+                    "Troian Bandana of Scouting",
+                    "Troian Field Dressing of Aiming",
+                    "Troian Hat of Casting",
+                    "Troian Hat of Healing",
+                    "Troian Bracelet of Fending",
+                    "Troian Bracelet of Slaying",
+                    "Troian Bracelet of Aiming",
+                    "Troian Bracelet of Casting",
+                    "Troian Bracelet of Healing",
+                    "Troian Ring of Fending",
+                    "Troian Ring of Slaying",
+                    "Troian Ring of Aiming",
+                    "Troian Ring of Casting",
+                    "Troian Ring of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            },
+            {
+                "name": "Treasure Coffer 4",
+                "coord": "Map Coordinates\n\t\t\t\t\t\tX: 11.2 Y: 9.0",
+                "coords": {
+                    "x": "11.2",
+                    "y": "9.0"
+                },
+                "items": [
+                    "Troian Hose of Fending",
+                    "Troian Hose of Maiming",
+                    "Troian Breeches of Striking",
+                    "Troian Breeches of Scouting",
+                    "Troian Longkilt of Aiming",
+                    "Troian Longkilt of Casting",
+                    "Troian Longkilt of Healing",
+                    "Troian Earrings of Fending",
+                    "Troian Earrings of Slaying",
+                    "Troian Earrings of Aiming",
+                    "Troian Earrings of Casting",
+                    "Troian Earrings of Healing",
+                    "Troian Choker of Fending",
+                    "Troian Choker of Slaying",
+                    "Troian Choker of Aiming",
+                    "Troian Choker of Casting",
+                    "Troian Choker of Healing",
+                    "Savage Aim Materia IX",
+                    "Savage Might Materia IX",
+                    "Heavens' Eye Materia IX",
+                    "Quickarm Materia IX",
+                    "Quicktongue Materia IX",
+                    "Battledance Materia IX",
+                    "Piety Materia IX"
+                ]
+            }
+        ],
+        "fights": [
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/72dc50e03cf/",
+                        "name": "Evil Dreamer"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Troian Circlet of Fending",
+                            "Troian Circlet of Maiming",
+                            "Troian Bandana of Striking",
+                            "Troian Bandana of Scouting",
+                            "Troian Field Dressing of Aiming",
+                            "Troian Hat of Casting",
+                            "Troian Hat of Healing",
+                            "Troian Lorica of Fending",
+                            "Troian Lorica of Maiming",
+                            "Troian Top of Striking",
+                            "Troian Top of Scouting",
+                            "Troian Cloak of Aiming",
+                            "Troian Cloak of Casting",
+                            "Troian Cloak of Healing",
+                            "Troian Bracelet of Fending",
+                            "Troian Bracelet of Slaying",
+                            "Troian Bracelet of Aiming",
+                            "Troian Bracelet of Casting",
+                            "Troian Bracelet of Healing",
+                            "Troian Ring of Fending",
+                            "Troian Ring of Slaying",
+                            "Troian Ring of Aiming",
+                            "Troian Ring of Casting",
+                            "Troian Ring of Healing",
+                            "Savage Aim Materia IX",
+                            "Savage Might Materia IX",
+                            "Heavens' Eye Materia IX",
+                            "Quickarm Materia IX",
+                            "Quicktongue Materia IX",
+                            "Battledance Materia IX",
+                            "Piety Materia IX"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
                         "name": "Allagan Tomestone of Astronomy",
+                        "amount": "15"
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/cf789191fc6/",
+                        "name": "Beatrice"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Troian Vambraces of Fending",
+                            "Troian Vambraces of Maiming",
+                            "Troian Fingerless Gloves of Striking",
+                            "Troian Fingerless Gloves of Scouting",
+                            "Troian Armguards of Aiming",
+                            "Troian Armguards of Casting",
+                            "Troian Armguards of Healing",
+                            "Troian Sabatons of Fending",
+                            "Troian Sabatons of Maiming",
+                            "Troian Leg Wraps of Striking",
+                            "Troian Leg Wraps of Scouting",
+                            "Troian Thighboots of Aiming",
+                            "Troian Thighboots of Casting",
+                            "Troian Thighboots of Healing",
+                            "Troian Earrings of Fending",
+                            "Troian Earrings of Slaying",
+                            "Troian Earrings of Aiming",
+                            "Troian Earrings of Casting",
+                            "Troian Earrings of Healing",
+                            "Troian Choker of Fending",
+                            "Troian Choker of Slaying",
+                            "Troian Choker of Aiming",
+                            "Troian Choker of Casting",
+                            "Troian Choker of Healing"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "25"
+                    }
+                ]
+            },
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/25bd99bf256/",
+                        "name": "Scarmiglione"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Troian Lorica of Fending",
+                            "Troian Lorica of Maiming",
+                            "Troian Top of Striking",
+                            "Troian Top of Scouting",
+                            "Troian Cloak of Aiming",
+                            "Troian Cloak of Casting",
+                            "Troian Cloak of Healing",
+                            "Troian Hose of Fending",
+                            "Troian Hose of Maiming",
+                            "Troian Breeches of Striking",
+                            "Troian Breeches of Scouting",
+                            "Troian Longkilt of Aiming",
+                            "Troian Longkilt of Casting",
+                            "Troian Longkilt of Healing",
+                            "Wind-up Scarmiglione",
+                            "Troian Beauty (Endwalker) Orchestrion Roll",
+                            "FINAL FANTASY IV: Battle 2 (Endwalker) Orchestrion Roll"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "40"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Causality",
                         "amount": "50"
                     }
                 ]
@@ -22550,7 +22776,7 @@
         "name": "The Porta Decumana",
         "url": "/lodestone/playguide/db/duty/f369418dbf8/",
         "lvl": "50",
-        "ilvl": "-",
+        "ilvl": "42",
         "fights": [
             {
                 "chest": "gold",
@@ -22583,31 +22809,6 @@
                     {
                         "url": "/lodestone/playguide/db/npc/enemy/47616be7bf8/",
                         "name": "Nabriales"
-                    }
-                ],
-                "token": [
-                    {
-                        "name": "Allagan Tomestone of Poetics",
-                        "amount": "15"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "category": "trial",
-        "version": "A Realm Reborn",
-        "name": "The Steps of Faith",
-        "url": "/lodestone/playguide/db/duty/f80af21461f/",
-        "lvl": "50",
-        "ilvl": "90",
-        "fights": [
-            {
-                "chest": "gold",
-                "boss": [
-                    {
-                        "url": "/lodestone/playguide/db/npc/enemy/c6d6978ab73/",
-                        "name": "Vishap"
                     }
                 ],
                 "token": [
@@ -22861,7 +23062,7 @@
                             "Ifrit's Cane",
                             "Ifrit's Codex",
                             "Ifrit's Star Globe",
-                            "Inferno Weapon Coffer"
+                            "Inferno Weapon Coffer (IL 60)"
                         ]
                     }
                 ],
@@ -22919,7 +23120,7 @@
                             "Garuda's Tail",
                             "Garuda's Embrace",
                             "Garuda's Lift",
-                            "Vortex Weapon Coffer"
+                            "Vortex Weapon Coffer (IL 70)"
                         ]
                     }
                 ],
@@ -22977,7 +23178,7 @@
                             "The Holy Key of Titan",
                             "Star Globe of Crags",
                             "The Wall of Crags",
-                            "Crag Weapon Coffer"
+                            "Crag Weapon Coffer (IL 80)"
                         ]
                     }
                 ],
@@ -23002,7 +23203,7 @@
                 "chest": "gold",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/aab09c47682/",
+                        "url": "/lodestone/playguide/db/npc/enemy/610a791b178/",
                         "name": "Good King Moggle Mog XII"
                     }
                 ],
@@ -23035,7 +23236,7 @@
                             "Mighty Mogrod",
                             "Munificent Mogtome",
                             "Moonlit Moglobe",
-                            "Mogpon Coffer"
+                            "Mogpon Coffer (IL 75)"
                         ]
                     }
                 ],
@@ -23489,7 +23690,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Wave Shamshir",
                             "Wave Axe",
                             "Wave Faussar",
                             "Wave Harpoon",
@@ -23504,14 +23704,12 @@
                             "Wave Cane",
                             "Wave Codex",
                             "Wave Torquetum",
-                            "Tidal Wave Shield",
-                            "Tidal Wave Buckler",
-                            "Wave Shield",
                             "Wave Buckler",
                             "Leviathan's Barb",
                             "Barb of the Whorl",
                             "Mirror of the Whorl",
-                            "Tidal Weapon Coffer",
+                            "Tidal Weapon Coffer (IL 95)",
+                            "Paladin's Tidal Arms (IL 95)",
                             "Enbarr Whistle",
                             "Faded Copy of Wreck to the Seaman",
                             "Faded Copy of Through the Maelstrom"
@@ -23557,7 +23755,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Thunderstrike",
                             "Thunderstorm",
                             "Thunderclap",
                             "Thunderbolt",
@@ -23572,7 +23769,6 @@
                             "Adjudicator's Gavel",
                             "The Law of Levin",
                             "Thunderdome",
-                            "Thunderhead",
                             "Judgment Ring of Fending",
                             "Judgment Ring of Slaying",
                             "Judgment Ring of Aiming",
@@ -23580,7 +23776,8 @@
                             "Judgment Ring of Healing",
                             "Levin Orb",
                             "Large Levin Orb",
-                            "Levin Weapon Coffer",
+                            "Levin Weapon Coffer (IL 100)",
+                            "Paladin's Levin Arms (IL 100)",
                             "Markab Whistle",
                             "Faded Copy of Thunder Rolls"
                         ]
@@ -23629,7 +23826,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "True Ice Brand",
                             "True Ice Axe",
                             "True Ice Breaker",
                             "True Ice Spear",
@@ -23644,7 +23840,6 @@
                             "True Ice Cane",
                             "True Codex of Ice",
                             "True Ice Astrometer",
-                            "True Ice Shield",
                             "True Ice Bracelet of Fending",
                             "True Ice Bracelet of Slaying",
                             "True Ice Bracelet of Aiming",
@@ -23652,7 +23847,8 @@
                             "True Ice Bracelet of Healing",
                             "Ice Tear",
                             "Diamond Tear",
-                            "Ice Weapon Coffer",
+                            "Ice Weapon Coffer (IL 110)",
+                            "Paladin's Ice Arms (IL 110)",
                             "Boreas Whistle",
                             "Faded Copy of Footsteps in the Snow",
                             "Faded Copy of Oblivion"
@@ -23915,7 +24111,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Expanse Sword",
                             "Expanse Battleaxe",
                             "Expanse Greatsword",
                             "Expanse Partisan",
@@ -23930,9 +24125,9 @@
                             "Expanse Cane",
                             "Expanse Codex",
                             "Expanse Astrometer",
-                            "Expanse Shield",
                             "Expanse Baleen",
-                            "Expanse Weapon Coffer",
+                            "Expanse Weapon Coffer (IL 175)",
+                            "Paladin's Expanse Arms (IL 175)",
                             "White Lanner Whistle",
                             "Faded Copy of Limitless Blue",
                             "Faded Copy of Woe That Is Madness"
@@ -23982,7 +24177,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Hive Shamshir",
                             "Hive Battleaxe",
                             "Hive Claymore",
                             "Hive Spear",
@@ -23997,9 +24191,9 @@
                             "Hive Cane",
                             "Hive Codex",
                             "Hive Planisphere",
-                            "Hive Scutum",
                             "Hive Forewing",
-                            "Hive Weapon Coffer",
+                            "Hive Weapon Coffer (IL 190)",
+                            "Paladin's Hive Arms (IL 190)",
                             "Rose Lanner Whistle",
                             "Faded Copy of The Hand That Gives the Rose",
                             "Faded Copy of Unbending Steel"
@@ -24049,7 +24243,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Sword of the Heavens",
                             "Axe of the Heavens",
                             "Claymore of the Heavens",
                             "Gunblade of the Heavens",
@@ -24068,8 +24261,8 @@
                             "Codex of the Heavens",
                             "Heavensmeter",
                             "Milpreves of the Heavens",
-                            "Shield of the Heavens",
-                            "Heavens Weapon Coffer",
+                            "Heavens Weapon Coffer (IL 205)",
+                            "Paladin's Heavens Arms (IL 205)",
                             "Round Lanner Whistle",
                             "Faded Copy of Heroes"
                         ]
@@ -24118,7 +24311,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Horde Blade",
                             "Horde Axe",
                             "Horde Guillotine",
                             "Horde Spear",
@@ -24133,9 +24325,9 @@
                             "Horde Cane",
                             "Horde Codex",
                             "Horde Star Globe",
-                            "Horde Shield",
                             "Nidhogg's Scale",
-                            "Horde Weapon Coffer",
+                            "Horde Weapon Coffer (IL 235)",
+                            "Paladin's Horde Arms (IL 235)",
                             "Dark Lanner Whistle",
                             "Faded Copy of Revenge of the Horde"
                         ]
@@ -24184,7 +24376,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Blade of the Sephirot",
                             "Axe of the Sephirot",
                             "Edge of the Sephirot",
                             "Pike of the Sephirot",
@@ -24199,9 +24390,9 @@
                             "Cane of the Sephirot",
                             "Song of the Sephirot",
                             "Star of the Sephirot",
-                            "Shield of the Sephirot",
                             "Fiend Sap",
-                            "Sephirotic Weapon Coffer",
+                            "Sephirotic Weapon Coffer (IL 220)",
+                            "Paladin's Sephirot Arms (IL 220)",
                             "Warring Lanner Whistle",
                             "Faded Copy of Fiend"
                         ]
@@ -24250,7 +24441,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Sophic Blade",
                             "Sophic Axe",
                             "Sophic Edge",
                             "Sophic Pike",
@@ -24265,9 +24455,9 @@
                             "Sophic Cane",
                             "Sophic Song",
                             "Sophic Star",
-                            "Sophic Shield",
                             "Sophic Bead Fragment",
-                            "Sophic Weapon Coffer",
+                            "Sophic Weapon Coffer (IL 255)",
+                            "Paladin's Sophic Arms (IL 255)",
                             "Sophic Lanner Whistle",
                             "Faded Copy of Equilibrium"
                         ]
@@ -24316,7 +24506,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Zurvanite Blade",
                             "Zurvanite Axe",
                             "Zurvanite Edge",
                             "Zurvanite Pike",
@@ -24331,9 +24520,9 @@
                             "Zurvanite Cane",
                             "Zurvanite Song",
                             "Zurvanite Star",
-                            "Zurvanite Shield",
                             "Zurvanite Carapace Fragment",
-                            "Zurvanite Weapon Coffer",
+                            "Zurvanite Weapon Coffer (IL 265)",
+                            "Paladin's Zurvanite Arms (IL 265)",
                             "Demonic Lanner Whistle",
                             "Faded Copy of Infinity"
                         ]
@@ -24683,7 +24872,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Susano's Longsword",
                             "Susano's War Axe",
                             "Susano's Greatsword",
                             "Susano's Pike",
@@ -24698,9 +24886,9 @@
                             "Susano's Cane",
                             "Susano's Codex",
                             "Susano's Ephemeris",
-                            "Susano's Shield",
                             "Blade of Revelry",
-                            "Susano Weapon Coffer",
+                            "Susano Weapon Coffer (IL 320)",
+                            "Susano's Paladin Arms (IL 320)",
                             "Reveling Kamuy Fife",
                             "Faded Copy of Revelation"
                         ]
@@ -24818,7 +25006,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Shinryu's Longsword",
                             "Shinryu's War Axe",
                             "Shinryu's Greatsword",
                             "Shinryu's Gunblade",
@@ -24835,9 +25022,9 @@
                             "Shinryu's Cane",
                             "Shinryu's Codex",
                             "Shinryu's Ephemeris",
-                            "Shinryu's Shield",
                             "Shinryu's Scale",
-                            "Shinryu Weapon Coffer",
+                            "Shinryu Weapon Coffer (IL 335)",
+                            "Shinryu's Paladin Arms (IL 335)",
                             "Legendary Kamuy Fife",
                             "Faded Copy of The Worm's Tail"
                         ]
@@ -24886,7 +25073,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Tsukuyomi's Longsword",
                             "Tsukuyomi's Greataxe",
                             "Tsukuyomi's Odachi",
                             "Tsukuyomi's Lance",
@@ -24901,11 +25087,11 @@
                             "Tsukuyomi's Cane",
                             "Tsukuyomi's Codex",
                             "Tsukuyomi's Ephemeris",
-                            "Tsukuyomi's Shield",
                             "Celestial Kimono Remnant",
                             "Moonlit Tank Trimmings",
                             "Blue Moon Phasmascape",
-                            "Tsukuyomi Weapon Coffer",
+                            "Tsukuyomi Weapon Coffer (IL 365)",
+                            "Tsukuyomi's Paladin Arms (IL 365)",
                             "Lunar Kamuy Fife",
                             "Faded Copy of Under the Moonlight"
                         ]
@@ -24989,7 +25175,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Byakko's Stone Sword",
                             "Byakko's Greataxe",
                             "Byakko's Greatsword",
                             "Byakko's Lance",
@@ -25004,9 +25189,9 @@
                             "Byakko's Cane",
                             "Byakko's Codex",
                             "Byakko's Ephemeris",
-                            "Byakko's Shield",
                             "Byakko's Mane",
-                            "Byakko Weapon Coffer",
+                            "Byakko Weapon Coffer (IL 355)",
+                            "Byakko's Paladin Arms (IL 355)",
                             "Auspicious Kamuy Fife",
                             "Faded Copy of the Jade Stoa"
                         ]
@@ -25055,7 +25240,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Suzaku's Longsword",
                             "Suzaku's Greataxe",
                             "Suzaku's Odachi",
                             "Suzaku's Lance",
@@ -25070,9 +25254,9 @@
                             "Suzaku's Cane",
                             "Suzaku's Codex",
                             "Suzaku's Ephemeris",
-                            "Suzaku's Shield",
                             "Scarlet Tailfeather",
-                            "Suzaku Weapon Coffer",
+                            "Suzaku Weapon Coffer (IL 385)",
+                            "Suzaku's Paladin Arms (IL 385)",
                             "Euphonious Kamuy Fife",
                             "Faded Copy of Sunrise"
                         ]
@@ -25121,7 +25305,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Seiryu's Longsword",
                             "Seiryu's War Axe",
                             "Seiryu's Spine",
                             "Seiryu's Lance",
@@ -25136,9 +25319,9 @@
                             "Seiryu's Cane",
                             "Seiryu's Codex",
                             "Seiryu's Ephemeris",
-                            "Seiryu's Shield",
                             "Seiryu's Scale",
-                            "Seiryu Weapon Coffer",
+                            "Seiryu Weapon Coffer (IL 395)",
+                            "Seiryu's Paladin Arms (IL 395)",
                             "Hallowed Kamuy Fife",
                             "Faded Copy of From the Dragon's Wake"
                         ]
@@ -25420,7 +25603,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "The King's Sword",
                             "The King's Axe",
                             "The King's Guillotine",
                             "The King's Manatrigger",
@@ -25437,9 +25619,9 @@
                             "The King's Cane",
                             "The King's Codex",
                             "The King's Star Globe",
-                            "The King's Shield",
                             "Dancing Wing",
-                            "Titania Weapon Coffer",
+                            "Titania Weapon Coffer (IL 450)",
+                            "The King's Paladin Arms (IL 450)",
                             "Fae Gwiber Trumpet",
                             "Faded Copy of What Angel Wakes Me"
                         ]
@@ -25557,7 +25739,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Misos",
                             "Thumosis",
                             "Eleos",
                             "Odune",
@@ -25574,9 +25755,9 @@
                             "Kelesis",
                             "Enochlesis",
                             "Himeros",
-                            "Eulabeia",
                             "Hades's Auracite",
-                            "Hades Weapon Coffer",
+                            "Hades Weapon Coffer (IL 465)",
+                            "Paladin's Hades Arms (IL 465)",
                             "Shadow Gwiber Trumpet",
                             "Faded Copy of Invincible"
                         ]
@@ -25625,7 +25806,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Ruby Broadsword",
                             "Ruby Battleaxe",
                             "Ruby Greatsword",
                             "Ruby Sawback",
@@ -25642,9 +25822,9 @@
                             "Ruby Cane",
                             "Ruby Codex",
                             "Ruby Astrometer",
-                            "Ruby Scutum",
                             "Ruby Plating",
-                            "Ruby Weapon Coffer",
+                            "Ruby Weapon Coffer (IL 485)",
+                            "Paladin's Ruby Arms (IL 485)",
                             "Ruby Gwiber Trumpet",
                             "Faded Copy of Ultima (The Primals)"
                         ]
@@ -25693,11 +25873,11 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Idealized Head Gear Coffer",
-                            "Idealized Chest Gear Coffer",
-                            "Idealized Hand Gear Coffer",
-                            "Idealized Leg Gear Coffer",
-                            "Idealized Foot Gear Coffer"
+                            "Idealized Head Gear Coffer (IL 480)",
+                            "Idealized Chest Gear Coffer (IL 480)",
+                            "Idealized Hand Gear Coffer (IL 480)",
+                            "Idealized Leg Gear Coffer (IL 480)",
+                            "Idealized Foot Gear Coffer (IL 480)"
                         ]
                     }
                 ],
@@ -25744,7 +25924,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Sword of Light",
                             "Axe of Light",
                             "Faussar of Light",
                             "Gunblade of Light",
@@ -25761,9 +25940,9 @@
                             "Cane of Light",
                             "Codex of Light",
                             "Globe of Light",
-                            "Shield of Light",
                             "Plate of Light",
-                            "Light Weapon Coffer",
+                            "Light Weapon Coffer (IL 495)",
+                            "Paladin's Light Arms (IL 495)",
                             "Gwiber of Light Trumpet",
                             "Faded Copy of To the Edge"
                         ]
@@ -25812,7 +25991,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Emerald Bastard Sword",
                             "Emerald Battleaxe",
                             "Emerald Greatsword",
                             "Emerald Sawback",
@@ -25829,9 +26007,9 @@
                             "Emerald Cane",
                             "Emerald Codex",
                             "Emerald Torquetum",
-                            "Emerald Shield",
                             "Emerald Plating",
-                            "Emerald Weapon Coffer",
+                            "Emerald Weapon Coffer (IL 515)",
+                            "Paladin's Emerald Arms (IL 515)",
                             "Emerald Gwiber Trumpet",
                             "Faded Copy of The Black Wolf Stalks Again"
                         ]
@@ -25880,7 +26058,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Diamond Zeta Bastard Sword",
                             "Diamond Zeta Battleaxe",
                             "Diamond Zeta Guillotine",
                             "Diamond Zeta Gunblade",
@@ -25897,9 +26074,9 @@
                             "Diamond Zeta Cane",
                             "Diamond Zeta Codex",
                             "Diamond Zeta Planisphere",
-                            "Diamond Zeta Scutum",
                             "Diamond Plating",
-                            "Diamond Zeta Weapon Coffer",
+                            "Diamond Zeta Weapon Coffer (IL 525)",
+                            "Paladin's Diamond Zeta Arms (IL 525)",
                             "Diamond Gwiber Trumpet",
                             "Faded Copy of In the Arms of War"
                         ]
@@ -25917,8 +26094,8 @@
     {
         "category": "trial",
         "version": "Endwalker",
-        "name": "Ultima's Bane (Unreal)",
-        "url": "/lodestone/playguide/db/duty/492d3638dd0/",
+        "name": "Containment Bay S1T7 (Unreal)",
+        "url": "/lodestone/playguide/db/duty/21f82f10d12/",
         "lvl": "90",
         "ilvl": "560",
         "fights": [
@@ -25926,17 +26103,17 @@
                 "chest": "gold",
                 "boss": [
                     {
-                        "url": "/lodestone/playguide/db/npc/enemy/780920f4feb/",
-                        "name": "The Ultima Weapon"
+                        "url": "/lodestone/playguide/db/npc/enemy/cb09a68d42d/",
+                        "name": "Sephirot"
                     }
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
+                        "name": "Allagan Tomestone of Astronomy",
                         "amount": "20"
                     },
                     {
-                        "name": "Allagan Tomestone of Astronomy",
+                        "name": "Allagan Tomestone of Causality",
                         "amount": "10"
                     }
                 ]
@@ -26029,11 +26206,45 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
+                        "name": "Allagan Tomestone of Astronomy",
                         "amount": "10"
                     },
                     {
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "trial",
+        "version": "Endwalker",
+        "name": "Storm's Crown",
+        "url": "/lodestone/playguide/db/duty/7db24777c99/",
+        "lvl": "90",
+        "ilvl": "585",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/a58e3eabccd/",
+                        "name": "Barbariccia"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    }
+                ],
+                "token": [
+                    {
                         "name": "Allagan Tomestone of Astronomy",
+                        "amount": "12"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Causality",
                         "amount": "6"
                     }
                 ]
@@ -26102,11 +26313,11 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
+                        "name": "Allagan Tomestone of Astronomy",
                         "amount": "15"
                     },
                     {
-                        "name": "Allagan Tomestone of Astronomy",
+                        "name": "Allagan Tomestone of Causality",
                         "amount": "8"
                     }
                 ]
@@ -26147,7 +26358,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Bastard Sword of Divine Light",
                             "Labrys of Divine Light",
                             "Greatsword of Divine Light",
                             "Gunblade of Divine Light",
@@ -26166,9 +26376,9 @@
                             "Codex of Divine Light",
                             "Torquetum of Divine Light",
                             "Wings of Divine Light",
-                            "Shield of Divine Light",
                             "Crystal of Divine Light",
-                            "Divine Light Weapon Coffer",
+                            "Divine Light Weapon Coffer (IL 580)",
+                            "Paladin's Divine Light Arms (IL 580)",
                             "Lynx of Divine Light Flute",
                             "Faded Copy of Your Answer"
                         ]
@@ -26176,11 +26386,11 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
+                        "name": "Allagan Tomestone of Astronomy",
                         "amount": "15"
                     },
                     {
-                        "name": "Allagan Tomestone of Astronomy",
+                        "name": "Allagan Tomestone of Causality",
                         "amount": "8"
                     }
                 ]
@@ -26221,7 +26431,6 @@
                     {
                         "name": "Treasure Coffer",
                         "items": [
-                            "Bluefeather Sword",
                             "Bluefeather Axe",
                             "Bluefeather Faussar",
                             "Bluefeather Bayonet",
@@ -26240,9 +26449,9 @@
                             "Bluefeather Codex",
                             "Bluefeather Torquetum",
                             "Bluefeather Wings",
-                            "Bluefeather Shield",
                             "Blue Feather",
-                            "Bluefeather Weapon Coffer",
+                            "Bluefeather Weapon Coffer (IL 595)",
+                            "Paladin's Bluefeather Arms (IL 595)",
                             "Bluefeather Lynx Flute",
                             "Faded Copy of The Final Day"
                         ]
@@ -26250,12 +26459,80 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
+                        "name": "Allagan Tomestone of Astronomy",
                         "amount": "20"
                     },
                     {
-                        "name": "Allagan Tomestone of Astronomy",
+                        "name": "Allagan Tomestone of Causality",
                         "amount": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "trial",
+        "version": "Endwalker",
+        "name": "Storm's Crown (Extreme)",
+        "url": "/lodestone/playguide/db/duty/7aa78623503/",
+        "lvl": "90",
+        "ilvl": "600",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/3f597113565/",
+                        "name": "Barbariccia"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "???"
+                    },
+                    {
+                        "name": "Windswept Archfiend Totem\u00a0(2)",
+                        "url": "/lodestone/playguide/db/item/57a8fbfe012/"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Windswept Battleaxe",
+                            "Windswept Faussar",
+                            "Windswept Gunblade",
+                            "Windswept Spear",
+                            "Windswept Zaghnal",
+                            "Windswept Fists",
+                            "Windswept Blade",
+                            "Windswept Daggers",
+                            "Windswept Bow",
+                            "Windswept Musketoon",
+                            "Windswept Heirsbanes",
+                            "Windswept Rod",
+                            "Windswept Grimoire",
+                            "Windswept Rapier",
+                            "Windswept Cane",
+                            "Windswept Codex",
+                            "Windswept Torquetum",
+                            "Windswept Milpreves",
+                            "Pearl of Winds",
+                            "Windswept Weapon Coffer (IL 615)",
+                            "Paladin's Windswept Arms (IL 615)",
+                            "Lynx of Imperious Wind Flute",
+                            "Faded Copy of Battle with the Four Fiends (Buried Memory)"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "25"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "13"
                     }
                 ]
             }
@@ -26943,17 +27220,17 @@
                             "Allagan Leather",
                             "Allagan Aetherstone - Headgear",
                             "Allagan Aetherstone - Leg Gear",
-                            "Allagan Head Gear Coffer",
-                            "Allagan Hand Gear Coffer",
-                            "Allagan Foot Gear Coffer"
+                            "Allagan Head Gear Coffer (IL 90)",
+                            "Allagan Hand Gear Coffer (IL 90)",
+                            "Allagan Foot Gear Coffer (IL 90)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Allagan Head Gear Coffer",
-                            "Allagan Hand Gear Coffer",
-                            "Allagan Foot Gear Coffer"
+                            "Allagan Head Gear Coffer (IL 90)",
+                            "Allagan Hand Gear Coffer (IL 90)",
+                            "Allagan Foot Gear Coffer (IL 90)"
                         ]
                     }
                 ],
@@ -27022,15 +27299,15 @@
                             "Allagan Leather",
                             "Allagan Aetherstone - Hand Gear",
                             "Allagan Aetherstone - Foot Gear",
-                            "Allagan Leg Gear Coffer"
+                            "Allagan Leg Gear Coffer (IL 90)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Allagan Head Gear Coffer",
-                            "Allagan Hand Gear Coffer",
-                            "Allagan Foot Gear Coffer"
+                            "Allagan Head Gear Coffer (IL 90)",
+                            "Allagan Hand Gear Coffer (IL 90)",
+                            "Allagan Foot Gear Coffer (IL 90)"
                         ]
                     }
                 ],
@@ -27068,14 +27345,13 @@
                             "Allagan Leather",
                             "Allagan Aetherstone - Weaponry",
                             "Allagan Aetherstone - Body Gear",
-                            "Allagan Chest Gear Coffer",
+                            "Allagan Chest Gear Coffer (IL 90)",
                             "Faded Copy of Thunderer"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Allagan Blade",
                             "Allagan Battleaxe",
                             "Allagan Guillotine",
                             "Allagan Spear",
@@ -27088,8 +27364,8 @@
                             "Allagan Cane",
                             "Allagan Grimoire of Healing",
                             "Allagan Star Globe",
-                            "Allagan Round Shield",
-                            "Allagan Weapon Coffer"
+                            "Allagan Weapon Coffer (IL 95)",
+                            "Paladin's Allagan Arms (IL 95)"
                         ]
                     }
                 ],
@@ -27203,17 +27479,17 @@
                         "items": [
                             "High Allagan Aetherstone - Hand Gear",
                             "High Allagan Aetherstone - Leg Gear",
-                            "High Allagan Head Gear Coffer",
-                            "High Allagan Hand Gear Coffer",
-                            "High Allagan Foot Gear Coffer"
+                            "High Allagan Head Gear Coffer (IL 110)",
+                            "High Allagan Hand Gear Coffer (IL 110)",
+                            "High Allagan Foot Gear Coffer (IL 110)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "High Allagan Head Gear Coffer",
-                            "High Allagan Hand Gear Coffer",
-                            "High Allagan Foot Gear Coffer"
+                            "High Allagan Head Gear Coffer (IL 110)",
+                            "High Allagan Hand Gear Coffer (IL 110)",
+                            "High Allagan Foot Gear Coffer (IL 110)"
                         ]
                     }
                 ],
@@ -27264,15 +27540,15 @@
                             "High Allagan Aetherstone - Headgear",
                             "High Allagan Aetherstone - Hand Gear",
                             "High Allagan Aetherstone - Foot Gear",
-                            "High Allagan Leg Gear Coffer"
+                            "High Allagan Leg Gear Coffer (IL 110)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "High Allagan Head Gear Coffer",
-                            "High Allagan Hand Gear Coffer",
-                            "High Allagan Foot Gear Coffer"
+                            "High Allagan Head Gear Coffer (IL 110)",
+                            "High Allagan Hand Gear Coffer (IL 110)",
+                            "High Allagan Foot Gear Coffer (IL 110)"
                         ]
                     }
                 ],
@@ -27307,14 +27583,13 @@
                         "items": [
                             "High Allagan Aetherstone - Weaponry",
                             "High Allagan Aetherstone - Body Gear",
-                            "High Allagan Chest Gear Coffer",
+                            "High Allagan Chest Gear Coffer (IL 110)",
                             "Faded Copy of Rise of the White Raven"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "High Allagan Blade",
                             "High Allagan Battleaxe",
                             "High Allagan Guillotine",
                             "High Allagan Spear",
@@ -27327,8 +27602,8 @@
                             "High Allagan Crook",
                             "High Allagan Grimoire of Healing",
                             "High Allagan Star Globe",
-                            "High Allagan Kite Shield",
-                            "High Allagan Weapon Coffer"
+                            "High Allagan Weapon Coffer (IL 115)",
+                            "Paladin's High Allagan Arms (IL 115)"
                         ]
                     }
                 ],
@@ -27443,17 +27718,17 @@
                         "items": [
                             "Neo Aetherstone - Headgear",
                             "Neo Aetherstone - Leg Gear",
-                            "Dreadwyrm Head Gear Coffer",
-                            "Dreadwyrm Hand Gear Coffer",
-                            "Dreadwyrm Foot Gear Coffer"
+                            "Dreadwyrm Head Gear Coffer (IL 130)",
+                            "Dreadwyrm Hand Gear Coffer (IL 130)",
+                            "Dreadwyrm Foot Gear Coffer (IL 130)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Dreadwyrm Head Gear Coffer",
-                            "Dreadwyrm Hand Gear Coffer",
-                            "Dreadwyrm Foot Gear Coffer"
+                            "Dreadwyrm Head Gear Coffer (IL 130)",
+                            "Dreadwyrm Hand Gear Coffer (IL 130)",
+                            "Dreadwyrm Foot Gear Coffer (IL 130)"
                         ]
                     }
                 ],
@@ -27488,16 +27763,16 @@
                         "items": [
                             "Neo Aetherstone - Hand Gear",
                             "Neo Aetherstone - Foot Gear",
-                            "Dreadwyrm Leg Gear Coffer",
+                            "Dreadwyrm Leg Gear Coffer (IL 130)",
                             "Faded Copy of From the Ashes"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Dreadwyrm Head Gear Coffer",
-                            "Dreadwyrm Hand Gear Coffer",
-                            "Dreadwyrm Foot Gear Coffer"
+                            "Dreadwyrm Head Gear Coffer (IL 130)",
+                            "Dreadwyrm Hand Gear Coffer (IL 130)",
+                            "Dreadwyrm Foot Gear Coffer (IL 130)"
                         ]
                     }
                 ],
@@ -27531,14 +27806,13 @@
                         "name": "Treasure Coffer 1",
                         "items": [
                             "Neo Aetherstone - Body Gear",
-                            "Dreadwyrm Chest Gear Coffer",
+                            "Dreadwyrm Chest Gear Coffer (IL 130)",
                             "Faded Copy of Answers"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Dreadwyrm Blade",
                             "Dreadwyrm Bardiche",
                             "Dreadwyrm Claymore",
                             "Dreadwyrm Spear",
@@ -27553,8 +27827,8 @@
                             "Dreadwyrm Cane",
                             "Dreadwyrm Codex",
                             "Dreadwyrm Torquetum",
-                            "Dreadwyrm Shield",
-                            "Dreadwyrm Weapon Coffer"
+                            "Dreadwyrm Weapon Coffer (IL 135)",
+                            "Paladin's Dreadwyrm Arms (IL 135)"
                         ]
                     }
                 ],
@@ -27668,17 +27942,17 @@
                         "items": [
                             "High Allagan Aetherstone - Hand Gear",
                             "High Allagan Aetherstone - Leg Gear",
-                            "High Allagan Head Gear Coffer",
-                            "High Allagan Hand Gear Coffer",
-                            "High Allagan Foot Gear Coffer"
+                            "High Allagan Head Gear Coffer (IL 110)",
+                            "High Allagan Hand Gear Coffer (IL 110)",
+                            "High Allagan Foot Gear Coffer (IL 110)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "High Allagan Head Gear Coffer",
-                            "High Allagan Hand Gear Coffer",
-                            "High Allagan Foot Gear Coffer"
+                            "High Allagan Head Gear Coffer (IL 110)",
+                            "High Allagan Hand Gear Coffer (IL 110)",
+                            "High Allagan Foot Gear Coffer (IL 110)"
                         ]
                     }
                 ],
@@ -27729,15 +28003,15 @@
                             "High Allagan Aetherstone - Headgear",
                             "High Allagan Aetherstone - Hand Gear",
                             "High Allagan Aetherstone - Foot Gear",
-                            "High Allagan Leg Gear Coffer"
+                            "High Allagan Leg Gear Coffer (IL 110)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "High Allagan Head Gear Coffer",
-                            "High Allagan Hand Gear Coffer",
-                            "High Allagan Foot Gear Coffer"
+                            "High Allagan Head Gear Coffer (IL 110)",
+                            "High Allagan Hand Gear Coffer (IL 110)",
+                            "High Allagan Foot Gear Coffer (IL 110)"
                         ]
                     }
                 ],
@@ -27772,14 +28046,13 @@
                         "items": [
                             "High Allagan Aetherstone - Weaponry",
                             "High Allagan Aetherstone - Body Gear",
-                            "High Allagan Chest Gear Coffer",
+                            "High Allagan Chest Gear Coffer (IL 110)",
                             "Faded Copy of Rise of the White Raven"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "High Allagan Blade",
                             "High Allagan Battleaxe",
                             "High Allagan Guillotine",
                             "High Allagan Spear",
@@ -27792,8 +28065,8 @@
                             "High Allagan Crook",
                             "High Allagan Grimoire of Healing",
                             "High Allagan Star Globe",
-                            "High Allagan Kite Shield",
-                            "High Allagan Weapon Coffer"
+                            "High Allagan Weapon Coffer (IL 115)",
+                            "Paladin's High Allagan Arms (IL 115)"
                         ]
                     }
                 ],
@@ -29047,17 +29320,17 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Gordian Head Gear Coffer",
-                            "Gordian Hand Gear Coffer",
-                            "Gordian Foot Gear Coffer"
+                            "Gordian Head Gear Coffer (IL 210)",
+                            "Gordian Hand Gear Coffer (IL 210)",
+                            "Gordian Foot Gear Coffer (IL 210)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Gordian Head Gear Coffer",
-                            "Gordian Hand Gear Coffer",
-                            "Gordian Foot Gear Coffer"
+                            "Gordian Head Gear Coffer (IL 210)",
+                            "Gordian Hand Gear Coffer (IL 210)",
+                            "Gordian Foot Gear Coffer (IL 210)"
                         ]
                     }
                 ],
@@ -29096,15 +29369,15 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Gordian Leg Gear Coffer"
+                            "Gordian Leg Gear Coffer (IL 210)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Gordian Head Gear Coffer",
-                            "Gordian Hand Gear Coffer",
-                            "Gordian Foot Gear Coffer"
+                            "Gordian Head Gear Coffer (IL 210)",
+                            "Gordian Hand Gear Coffer (IL 210)",
+                            "Gordian Foot Gear Coffer (IL 210)"
                         ]
                     }
                 ],
@@ -29143,7 +29416,6 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Gordian Blade",
                             "Gordian Axe",
                             "Gordian Greatsword",
                             "Gordian Trident",
@@ -29158,16 +29430,16 @@
                             "Gordian Cane",
                             "Gordian Codex",
                             "Gordian Astrometer",
-                            "Gordian Shield",
                             "Gobwalker Shielding",
-                            "Gordian Chest Gear Coffer",
+                            "Gordian Chest Gear Coffer (IL 210)",
+                            "Paladin's Gordian Arms (IL 210)",
                             "Gobwalker Gear"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Gordian Weapon Coffer"
+                            "Gordian Weapon Coffer (IL 210)"
                         ]
                     }
                 ],
@@ -29284,17 +29556,17 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Midan Head Gear Coffer",
-                            "Midan Hand Gear Coffer",
-                            "Midan Foot Gear Coffer"
+                            "Midan Head Gear Coffer (IL 240)",
+                            "Midan Hand Gear Coffer (IL 240)",
+                            "Midan Foot Gear Coffer (IL 240)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Midan Head Gear Coffer",
-                            "Midan Hand Gear Coffer",
-                            "Midan Foot Gear Coffer"
+                            "Midan Head Gear Coffer (IL 240)",
+                            "Midan Hand Gear Coffer (IL 240)",
+                            "Midan Foot Gear Coffer (IL 240)"
                         ]
                     }
                 ],
@@ -29333,15 +29605,15 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Midan Leg Gear Coffer"
+                            "Midan Leg Gear Coffer (IL 240)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Midan Head Gear Coffer",
-                            "Midan Hand Gear Coffer",
-                            "Midan Foot Gear Coffer"
+                            "Midan Head Gear Coffer (IL 240)",
+                            "Midan Hand Gear Coffer (IL 240)",
+                            "Midan Foot Gear Coffer (IL 240)"
                         ]
                     }
                 ],
@@ -29380,7 +29652,6 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Midan Metal Sword",
                             "Midan Metal Axe",
                             "Midan Metal Greatsword",
                             "Midan Metal Spear",
@@ -29395,14 +29666,14 @@
                             "Midan Metal Cane",
                             "Midan Metal Codex",
                             "Midan Metal Astrometer",
-                            "Midan Metal Shield",
-                            "Midan Chest Gear Coffer"
+                            "Midan Chest Gear Coffer (IL 240)",
+                            "Paladin's Midan Arms (IL 245)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Midan Weapon Coffer",
+                            "Midan Weapon Coffer (IL 245)",
                             "Faustlet"
                         ]
                     }
@@ -29525,17 +29796,17 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Alexandrian Head Gear Coffer",
-                            "Alexandrian Hand Gear Coffer",
-                            "Alexandrian Foot Gear Coffer"
+                            "Alexandrian Head Gear Coffer (IL 270)",
+                            "Alexandrian Hand Gear Coffer (IL 270)",
+                            "Alexandrian Foot Gear Coffer (IL 270)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Alexandrian Head Gear Coffer",
-                            "Alexandrian Hand Gear Coffer",
-                            "Alexandrian Foot Gear Coffer"
+                            "Alexandrian Head Gear Coffer (IL 270)",
+                            "Alexandrian Hand Gear Coffer (IL 270)",
+                            "Alexandrian Foot Gear Coffer (IL 270)"
                         ]
                     }
                 ],
@@ -29574,15 +29845,15 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Alexandrian Leg Gear Coffer"
+                            "Alexandrian Leg Gear Coffer (IL 270)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Alexandrian Head Gear Coffer",
-                            "Alexandrian Hand Gear Coffer",
-                            "Alexandrian Foot Gear Coffer"
+                            "Alexandrian Head Gear Coffer (IL 270)",
+                            "Alexandrian Hand Gear Coffer (IL 270)",
+                            "Alexandrian Foot Gear Coffer (IL 270)"
                         ]
                     }
                 ],
@@ -29621,7 +29892,6 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Alexandrian Metal Blade",
                             "Alexandrian Metal Axe",
                             "Alexandrian Metal Guillotine",
                             "Alexandrian Metal Spear",
@@ -29636,14 +29906,14 @@
                             "Alexandrian Metal Cane",
                             "Alexandrian Metal Codex",
                             "Alexandrian Metal Meter",
-                            "Alexandrian Metal Buckler",
-                            "Alexandrian Chest Gear Coffer"
+                            "Alexandrian Chest Gear Coffer (IL 270)",
+                            "Paladin's Alexandrian Arms (IL 275)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Alexandrian Weapon Coffer",
+                            "Alexandrian Weapon Coffer (IL 275)",
                             "Toy Alexander",
                             "Arrhidaeus Master Key"
                         ]
@@ -30829,19 +31099,19 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Genji Earring Coffer",
-                            "Genji Necklace Coffer",
-                            "Genji Bracelet Coffer",
-                            "Genji Ring Coffer"
+                            "Genji Earring Coffer (IL 340)",
+                            "Genji Necklace Coffer (IL 340)",
+                            "Genji Bracelet Coffer (IL 340)",
+                            "Genji Ring Coffer (IL 340)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Genji Earring Coffer",
-                            "Genji Necklace Coffer",
-                            "Genji Bracelet Coffer",
-                            "Genji Ring Coffer"
+                            "Genji Earring Coffer (IL 340)",
+                            "Genji Necklace Coffer (IL 340)",
+                            "Genji Bracelet Coffer (IL 340)",
+                            "Genji Ring Coffer (IL 340)"
                         ]
                     }
                 ],
@@ -30880,17 +31150,17 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Genji Kabuto Coffer",
-                            "Genji Kote Coffer",
-                            "Genji Sune-ate Coffer"
+                            "Genji Kabuto Coffer (IL 340)",
+                            "Genji Kote Coffer (IL 340)",
+                            "Genji Sune-ate Coffer (IL 340)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Genji Kabuto Coffer",
-                            "Genji Kote Coffer",
-                            "Genji Sune-ate Coffer"
+                            "Genji Kabuto Coffer (IL 340)",
+                            "Genji Kote Coffer (IL 340)",
+                            "Genji Sune-ate Coffer (IL 340)"
                         ]
                     }
                 ],
@@ -30929,15 +31199,15 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Genji Tsutsu-hakama Coffer"
+                            "Genji Tsutsu-hakama Coffer (IL 340)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Genji Kabuto Coffer",
-                            "Genji Kote Coffer",
-                            "Genji Sune-ate Coffer"
+                            "Genji Kabuto Coffer (IL 340)",
+                            "Genji Kote Coffer (IL 340)",
+                            "Genji Sune-ate Coffer (IL 340)"
                         ]
                     }
                 ],
@@ -30976,7 +31246,6 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Genji Shichishito",
                             "Genji Greataxe",
                             "Genji Nagamaki",
                             "Genji Naginata",
@@ -30991,14 +31260,14 @@
                             "Genji Cane",
                             "Genji Codex",
                             "Genji Ephemeris",
-                            "Genji Shield",
-                            "Genji Armor Coffer"
+                            "Genji Armor Coffer (IL 340)",
+                            "Paladin's Genji Arms (IL 345)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Genji Weapon Coffer",
+                            "Genji Weapon Coffer (IL 345)",
                             "Wind-up Exdeath",
                             "Alte Roite Prism"
                         ]
@@ -31039,19 +31308,19 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Diamond Earring Coffer",
-                            "Diamond Necklace Coffer",
-                            "Diamond Bracelet Coffer",
-                            "Diamond Ring Coffer"
+                            "Diamond Earring Coffer (IL 370)",
+                            "Diamond Necklace Coffer (IL 370)",
+                            "Diamond Bracelet Coffer (IL 370)",
+                            "Diamond Ring Coffer (IL 370)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Diamond Earring Coffer",
-                            "Diamond Necklace Coffer",
-                            "Diamond Bracelet Coffer",
-                            "Diamond Ring Coffer"
+                            "Diamond Earring Coffer (IL 370)",
+                            "Diamond Necklace Coffer (IL 370)",
+                            "Diamond Bracelet Coffer (IL 370)",
+                            "Diamond Ring Coffer (IL 370)"
                         ]
                     }
                 ],
@@ -31090,17 +31359,17 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Diamond Head Gear Coffer",
-                            "Diamond Hand Gear Coffer",
-                            "Diamond Foot Gear Coffer"
+                            "Diamond Head Gear Coffer (IL 370)",
+                            "Diamond Hand Gear Coffer (IL 370)",
+                            "Diamond Foot Gear Coffer (IL 370)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Diamond Head Gear Coffer",
-                            "Diamond Hand Gear Coffer",
-                            "Diamond Foot Gear Coffer"
+                            "Diamond Head Gear Coffer (IL 370)",
+                            "Diamond Hand Gear Coffer (IL 370)",
+                            "Diamond Foot Gear Coffer (IL 370)"
                         ]
                     }
                 ],
@@ -31139,15 +31408,15 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Diamond Leg Gear Coffer"
+                            "Diamond Leg Gear Coffer (IL 370)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Diamond Head Gear Coffer",
-                            "Diamond Hand Gear Coffer",
-                            "Diamond Foot Gear Coffer"
+                            "Diamond Head Gear Coffer (IL 370)",
+                            "Diamond Hand Gear Coffer (IL 370)",
+                            "Diamond Foot Gear Coffer (IL 370)"
                         ]
                     }
                 ],
@@ -31186,7 +31455,6 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Diamond Sword",
                             "Diamond Axe",
                             "Diamond Greatsword",
                             "Diamond Halberd",
@@ -31201,14 +31469,14 @@
                             "Diamond Cane",
                             "Diamond Codex",
                             "Diamond Sextant",
-                            "Diamond Shield",
-                            "Diamond Chest Gear Coffer"
+                            "Diamond Chest Gear Coffer (IL 370)",
+                            "Paladin's Diamond Arms (IL 375)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Diamond Weapon Coffer",
+                            "Diamond Weapon Coffer (IL 375)",
                             "Wind-up Kefka",
                             "Air Force Identification Key"
                         ]
@@ -31249,19 +31517,19 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Omega Earring Coffer",
-                            "Omega Necklace Coffer",
-                            "Omega Bracelet Coffer",
-                            "Omega Ring Coffer"
+                            "Omega Earring Coffer (IL 400)",
+                            "Omega Necklace Coffer (IL 400)",
+                            "Omega Bracelet Coffer (IL 400)",
+                            "Omega Ring Coffer (IL 400)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Omega Earring Coffer",
-                            "Omega Necklace Coffer",
-                            "Omega Bracelet Coffer",
-                            "Omega Ring Coffer"
+                            "Omega Earring Coffer (IL 400)",
+                            "Omega Necklace Coffer (IL 400)",
+                            "Omega Bracelet Coffer (IL 400)",
+                            "Omega Ring Coffer (IL 400)"
                         ]
                     }
                 ],
@@ -31300,17 +31568,17 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Omega Head Gear Coffer",
-                            "Omega Hand Gear Coffer",
-                            "Omega Foot Gear Coffer"
+                            "Omega Head Gear Coffer (IL 400)",
+                            "Omega Hand Gear Coffer (IL 400)",
+                            "Omega Foot Gear Coffer (IL 400)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Omega Head Gear Coffer",
-                            "Omega Hand Gear Coffer",
-                            "Omega Foot Gear Coffer"
+                            "Omega Head Gear Coffer (IL 400)",
+                            "Omega Hand Gear Coffer (IL 400)",
+                            "Omega Foot Gear Coffer (IL 400)"
                         ]
                     }
                 ],
@@ -31349,15 +31617,15 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Omega Leg Gear Coffer"
+                            "Omega Leg Gear Coffer (IL 400)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Omega Head Gear Coffer",
-                            "Omega Hand Gear Coffer",
-                            "Omega Foot Gear Coffer"
+                            "Omega Head Gear Coffer (IL 400)",
+                            "Omega Hand Gear Coffer (IL 400)",
+                            "Omega Foot Gear Coffer (IL 400)"
                         ]
                     }
                 ],
@@ -31404,7 +31672,6 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Omega Sword",
                             "Omega Battleaxe",
                             "Omega Claymore",
                             "Omega Bayonet",
@@ -31421,14 +31688,14 @@
                             "Omega Cane",
                             "Omega Codex",
                             "Omega Torquetum",
-                            "Omega Shield",
-                            "Omega Chest Gear Coffer"
+                            "Omega Chest Gear Coffer (IL 400)",
+                            "Paladin's Omega Arms (IL 405)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Omega Weapon Coffer",
+                            "Omega Weapon Coffer (IL 405)",
                             "OMG",
                             "Model O Identification Key"
                         ]
@@ -32639,19 +32906,19 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edengrace Earring Coffer",
-                            "Edengrace Necklace Coffer",
-                            "Edengrace Bracelet Coffer",
-                            "Edengrace Ring Coffer"
+                            "Edengrace Earring Coffer (IL 470)",
+                            "Edengrace Necklace Coffer (IL 470)",
+                            "Edengrace Bracelet Coffer (IL 470)",
+                            "Edengrace Ring Coffer (IL 470)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edengrace Earring Coffer",
-                            "Edengrace Necklace Coffer",
-                            "Edengrace Bracelet Coffer",
-                            "Edengrace Ring Coffer"
+                            "Edengrace Earring Coffer (IL 470)",
+                            "Edengrace Necklace Coffer (IL 470)",
+                            "Edengrace Bracelet Coffer (IL 470)",
+                            "Edengrace Ring Coffer (IL 470)"
                         ]
                     }
                 ],
@@ -32690,17 +32957,17 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edengrace Head Gear Coffer",
-                            "Edengrace Hand Gear Coffer",
-                            "Edengrace Foot Gear Coffer"
+                            "Edengrace Head Gear Coffer (IL 470)",
+                            "Edengrace Hand Gear Coffer (IL 470)",
+                            "Edengrace Foot Gear Coffer (IL 470)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edengrace Head Gear Coffer",
-                            "Edengrace Hand Gear Coffer",
-                            "Edengrace Foot Gear Coffer"
+                            "Edengrace Head Gear Coffer (IL 470)",
+                            "Edengrace Hand Gear Coffer (IL 470)",
+                            "Edengrace Foot Gear Coffer (IL 470)"
                         ]
                     }
                 ],
@@ -32739,15 +33006,15 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edengrace Leg Gear Coffer"
+                            "Edengrace Leg Gear Coffer (IL 470)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edengrace Head Gear Coffer",
-                            "Edengrace Hand Gear Coffer",
-                            "Edengrace Foot Gear Coffer"
+                            "Edengrace Head Gear Coffer (IL 470)",
+                            "Edengrace Hand Gear Coffer (IL 470)",
+                            "Edengrace Foot Gear Coffer (IL 470)"
                         ]
                     }
                 ],
@@ -32786,7 +33053,6 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edengrace Bastard Sword",
                             "Edengrace Battleaxe",
                             "Edengrace Greatsword",
                             "Edengrace Manatrigger",
@@ -32803,14 +33069,14 @@
                             "Edengrace Cane",
                             "Word of Grace",
                             "Edengrace Planisphere",
-                            "Edengrace Shield",
-                            "Edengrace Chest Gear Coffer"
+                            "Edengrace Chest Gear Coffer (IL 470)",
+                            "Paladin's Edengrace Arms (IL 475)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edengrace Weapon Coffer",
+                            "Edengrace Weapon Coffer (IL 475)",
                             "Eden Minor",
                             "Skyslipper Key"
                         ]
@@ -32851,19 +33117,19 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edenchoir Earring Coffer",
-                            "Edenchoir Necklace Coffer",
-                            "Edenchoir Bracelet Coffer",
-                            "Edenchoir Ring Coffer"
+                            "Edenchoir Earring Coffer (IL 500)",
+                            "Edenchoir Necklace Coffer (IL 500)",
+                            "Edenchoir Bracelet Coffer (IL 500)",
+                            "Edenchoir Ring Coffer (IL 500)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edenchoir Earring Coffer",
-                            "Edenchoir Necklace Coffer",
-                            "Edenchoir Bracelet Coffer",
-                            "Edenchoir Ring Coffer"
+                            "Edenchoir Earring Coffer (IL 500)",
+                            "Edenchoir Necklace Coffer (IL 500)",
+                            "Edenchoir Bracelet Coffer (IL 500)",
+                            "Edenchoir Ring Coffer (IL 500)"
                         ]
                     }
                 ],
@@ -32910,17 +33176,17 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edenchoir Head Gear Coffer",
-                            "Edenchoir Hand Gear Coffer",
-                            "Edenchoir Foot Gear Coffer"
+                            "Edenchoir Head Gear Coffer (IL 500)",
+                            "Edenchoir Hand Gear Coffer (IL 500)",
+                            "Edenchoir Foot Gear Coffer (IL 500)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edenchoir Head Gear Coffer",
-                            "Edenchoir Hand Gear Coffer",
-                            "Edenchoir Foot Gear Coffer"
+                            "Edenchoir Head Gear Coffer (IL 500)",
+                            "Edenchoir Hand Gear Coffer (IL 500)",
+                            "Edenchoir Foot Gear Coffer (IL 500)"
                         ]
                     }
                 ],
@@ -32959,15 +33225,15 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edenchoir Leg Gear Coffer"
+                            "Edenchoir Leg Gear Coffer (IL 500)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edenchoir Head Gear Coffer",
-                            "Edenchoir Hand Gear Coffer",
-                            "Edenchoir Foot Gear Coffer"
+                            "Edenchoir Head Gear Coffer (IL 500)",
+                            "Edenchoir Hand Gear Coffer (IL 500)",
+                            "Edenchoir Foot Gear Coffer (IL 500)"
                         ]
                     }
                 ],
@@ -33006,7 +33272,6 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edenchoir Bastard Sword",
                             "Edenchoir Battleaxe",
                             "Edenchoir Greatsword",
                             "Edenchoir Gunblade",
@@ -33023,14 +33288,14 @@
                             "Edenchoir Cane",
                             "Edenchoir Codex",
                             "Edenchoir Torquetum",
-                            "Edenchoir Scutum",
-                            "Edenchoir Chest Gear Coffer"
+                            "Edenchoir Chest Gear Coffer (IL 500)",
+                            "Paladin's Edenchoir Arms (IL 505)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edenchoir Weapon Coffer",
+                            "Edenchoir Weapon Coffer (IL 505)",
                             "Wind-up Ryne",
                             "Ramuh Crystal"
                         ]
@@ -33071,19 +33336,19 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edenmorn Earring Coffer",
-                            "Edenmorn Necklace Coffer",
-                            "Edenmorn Bracelet Coffer",
-                            "Edenmorn Ring Coffer"
+                            "Edenmorn Earring Coffer (IL 530)",
+                            "Edenmorn Necklace Coffer (IL 530)",
+                            "Edenmorn Bracelet Coffer (IL 530)",
+                            "Edenmorn Ring Coffer (IL 530)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edenmorn Earring Coffer",
-                            "Edenmorn Necklace Coffer",
-                            "Edenmorn Bracelet Coffer",
-                            "Edenmorn Ring Coffer"
+                            "Edenmorn Earring Coffer (IL 530)",
+                            "Edenmorn Necklace Coffer (IL 530)",
+                            "Edenmorn Bracelet Coffer (IL 530)",
+                            "Edenmorn Ring Coffer (IL 530)"
                         ]
                     }
                 ],
@@ -33122,17 +33387,17 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edenmorn Head Gear Coffer",
-                            "Edenmorn Hand Gear Coffer",
-                            "Edenmorn Foot Gear Coffer"
+                            "Edenmorn Head Gear Coffer (IL 530)",
+                            "Edenmorn Hand Gear Coffer (IL 530)",
+                            "Edenmorn Foot Gear Coffer (IL 530)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edenmorn Head Gear Coffer",
-                            "Edenmorn Hand Gear Coffer",
-                            "Edenmorn Foot Gear Coffer"
+                            "Edenmorn Head Gear Coffer (IL 530)",
+                            "Edenmorn Hand Gear Coffer (IL 530)",
+                            "Edenmorn Foot Gear Coffer (IL 530)"
                         ]
                     }
                 ],
@@ -33171,15 +33436,15 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edenmorn Leg Gear Coffer"
+                            "Edenmorn Leg Gear Coffer (IL 530)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edenmorn Head Gear Coffer",
-                            "Edenmorn Hand Gear Coffer",
-                            "Edenmorn Foot Gear Coffer"
+                            "Edenmorn Head Gear Coffer (IL 530)",
+                            "Edenmorn Hand Gear Coffer (IL 530)",
+                            "Edenmorn Foot Gear Coffer (IL 530)"
                         ]
                     }
                 ],
@@ -33230,7 +33495,6 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Edenmorn Bastard Sword",
                             "Edenmorn Battleaxe",
                             "Edenmorn Zweihander",
                             "Edenmorn Gunblade",
@@ -33249,14 +33513,14 @@
                             "Edenmorn Codex",
                             "Edenmorn Torquetum",
                             "Edenmorn Pendulums",
-                            "Edenmorn Scutum",
-                            "Edenmorn Chest Gear Coffer"
+                            "Edenmorn Chest Gear Coffer (IL 530)",
+                            "Paladin's Edenmorn Arms (IL 535)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Edenmorn Weapon Coffer",
+                            "Edenmorn Weapon Coffer (IL 535)",
                             "Wind-up Gaia",
                             "Eden Crystal",
                             "The Extreme Orchestrion Roll"
@@ -33267,6 +33531,201 @@
                     {
                         "name": "Allagan Tomestone of Poetics",
                         "amount": "30"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "raid",
+        "version": "Endwalker",
+        "name": "Aglaia",
+        "url": "/lodestone/playguide/db/duty/ced36158c27/",
+        "lvl": "90",
+        "ilvl": "565",
+        "fights": [
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/c2674baea42/",
+                        "name": "Byregot"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Panthean Circlet of Fending",
+                            "Panthean Circlet of Maiming",
+                            "Panthean Circlet of Striking",
+                            "Panthean Wimple of Scouting",
+                            "Panthean Wimple of Aiming",
+                            "Panthean Hat of Casting",
+                            "Panthean Hat of Healing",
+                            "Panthean Sollerets of Fending",
+                            "Panthean Sollerets of Maiming",
+                            "Panthean Sollerets of Striking",
+                            "Panthean Sollerets of Scouting",
+                            "Panthean Sollerets of Aiming",
+                            "Panthean Sollerets of Casting",
+                            "Panthean Sollerets of Healing"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "10"
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/7310846f44b/",
+                        "name": "Rhalgr"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Panthean Gauntlets of Fending",
+                            "Panthean Gauntlets of Maiming",
+                            "Panthean Gauntlets of Striking",
+                            "Panthean Armguards of Scouting",
+                            "Panthean Armguards of Aiming",
+                            "Panthean Armguards of Casting",
+                            "Panthean Armguards of Healing",
+                            "Panthean Cuisses of Fending",
+                            "Panthean Hose of Maiming",
+                            "Panthean Hose of Striking",
+                            "Panthean Cuisses of Scouting",
+                            "Panthean Cuisses of Aiming",
+                            "Panthean Skirt of Casting",
+                            "Panthean Skirt of Healing"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "20"
+                    }
+                ]
+            },
+            {
+                "chest": "silver",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/8d3e6fbf536/",
+                        "name": "Azeyma"
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer",
+                        "items": [
+                            "Panthean Cuirass of Fending",
+                            "Panthean Corselet of Maiming",
+                            "Panthean Corselet of Striking",
+                            "Panthean Mail of Scouting",
+                            "Panthean Mail of Aiming",
+                            "Panthean Robe of Casting",
+                            "Panthean Robe of Healing",
+                            "Panthean Sollerets of Fending",
+                            "Panthean Sollerets of Maiming",
+                            "Panthean Sollerets of Striking",
+                            "Panthean Sollerets of Scouting",
+                            "Panthean Sollerets of Aiming",
+                            "Panthean Sollerets of Casting",
+                            "Panthean Sollerets of Healing"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "30"
+                    }
+                ]
+            },
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/b7c4741b917/",
+                        "name": "Nald'thal"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "Aglaia Coin",
+                        "url": "/lodestone/playguide/db/item/da473fcf2f6/"
+                    },
+                    {
+                        "name": "Cracked Anthocluster\u00a0(2)",
+                        "url": "/lodestone/playguide/db/item/c21b9948087/",
+                        "condition": [
+                            "* This item can only be obtained once per week."
+                        ]
+                    }
+                ],
+                "treasures": [
+                    {
+                        "name": "Treasure Coffer 1",
+                        "items": [
+                            "Wind-up Azeyma",
+                            "Nald Card",
+                            "Pilgrimage Orchestrion Roll",
+                            "Radiance Orchestrion Roll",
+                            "In the Balance Orchestrion Roll"
+                        ]
+                    },
+                    {
+                        "name": "Treasure Coffer 2",
+                        "items": [
+                            "Panthean Circlet of Fending",
+                            "Panthean Circlet of Maiming",
+                            "Panthean Circlet of Striking",
+                            "Panthean Wimple of Scouting",
+                            "Panthean Wimple of Aiming",
+                            "Panthean Hat of Casting",
+                            "Panthean Hat of Healing",
+                            "Panthean Cuirass of Fending",
+                            "Panthean Corselet of Maiming",
+                            "Panthean Corselet of Striking",
+                            "Panthean Mail of Scouting",
+                            "Panthean Mail of Aiming",
+                            "Panthean Robe of Casting",
+                            "Panthean Robe of Healing",
+                            "Panthean Gauntlets of Fending",
+                            "Panthean Gauntlets of Maiming",
+                            "Panthean Gauntlets of Striking",
+                            "Panthean Armguards of Scouting",
+                            "Panthean Armguards of Aiming",
+                            "Panthean Armguards of Casting",
+                            "Panthean Armguards of Healing",
+                            "Panthean Cuisses of Fending",
+                            "Panthean Hose of Maiming",
+                            "Panthean Hose of Striking",
+                            "Panthean Cuisses of Scouting",
+                            "Panthean Cuisses of Aiming",
+                            "Panthean Skirt of Casting",
+                            "Panthean Skirt of Healing"
+                        ]
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Astronomy",
+                        "amount": "40"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "20"
                     }
                 ]
             }
@@ -33320,12 +33779,12 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "20"
-                    },
-                    {
                         "name": "Allagan Tomestone of Astronomy",
                         "amount": "10"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "5"
                     }
                 ]
             }
@@ -33369,12 +33828,12 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "20"
-                    },
-                    {
                         "name": "Allagan Tomestone of Astronomy",
                         "amount": "10"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "5"
                     }
                 ]
             }
@@ -33424,12 +33883,12 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "20"
-                    },
-                    {
                         "name": "Allagan Tomestone of Astronomy",
                         "amount": "10"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "5"
                     }
                 ]
             }
@@ -33454,10 +33913,7 @@
                 "drops": [
                     {
                         "name": "Unsung Blade of Asphodelos",
-                        "url": "/lodestone/playguide/db/item/eac97898e30/",
-                        "condition": [
-                            "* This item can only be obtained once per week."
-                        ]
+                        "url": "/lodestone/playguide/db/item/eac97898e30/"
                     }
                 ],
                 "treasures": [
@@ -33489,12 +33945,12 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Aphorism",
-                        "amount": "20"
-                    },
-                    {
                         "name": "Allagan Tomestone of Astronomy",
                         "amount": "10"
+                    },
+                    {
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "5"
                     }
                 ]
             }
@@ -33534,26 +33990,26 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Asphodelos Earring Coffer",
-                            "Asphodelos Necklace Coffer",
-                            "Asphodelos Bracelet Coffer",
-                            "Asphodelos Ring Coffer"
+                            "Asphodelos Earring Coffer (IL 600)",
+                            "Asphodelos Necklace Coffer (IL 600)",
+                            "Asphodelos Bracelet Coffer (IL 600)",
+                            "Asphodelos Ring Coffer (IL 600)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Asphodelos Earring Coffer",
-                            "Asphodelos Necklace Coffer",
-                            "Asphodelos Bracelet Coffer",
-                            "Asphodelos Ring Coffer"
+                            "Asphodelos Earring Coffer (IL 600)",
+                            "Asphodelos Necklace Coffer (IL 600)",
+                            "Asphodelos Bracelet Coffer (IL 600)",
+                            "Asphodelos Ring Coffer (IL 600)"
                         ]
                     }
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Astronomy",
-                        "amount": "30"
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "15"
                     }
                 ]
             }
@@ -33586,25 +34042,25 @@
                         "name": "Treasure Coffer 1",
                         "items": [
                             "Discal Tomestone",
-                            "Asphodelos Head Gear Coffer",
-                            "Asphodelos Hand Gear Coffer",
-                            "Asphodelos Foot Gear Coffer"
+                            "Asphodelos Head Gear Coffer (IL 600)",
+                            "Asphodelos Hand Gear Coffer (IL 600)",
+                            "Asphodelos Foot Gear Coffer (IL 600)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
                             "Radiant Coating",
-                            "Asphodelos Head Gear Coffer",
-                            "Asphodelos Hand Gear Coffer",
-                            "Asphodelos Foot Gear Coffer"
+                            "Asphodelos Head Gear Coffer (IL 600)",
+                            "Asphodelos Hand Gear Coffer (IL 600)",
+                            "Asphodelos Foot Gear Coffer (IL 600)"
                         ]
                     }
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Astronomy",
-                        "amount": "30"
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "15"
                     }
                 ]
             }
@@ -33636,7 +34092,7 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Asphodelos Leg Gear Coffer"
+                            "Asphodelos Leg Gear Coffer (IL 600)"
                         ]
                     },
                     {
@@ -33644,16 +34100,16 @@
                         "items": [
                             "Radiant Roborant",
                             "Radiant Twine",
-                            "Asphodelos Head Gear Coffer",
-                            "Asphodelos Hand Gear Coffer",
-                            "Asphodelos Foot Gear Coffer"
+                            "Asphodelos Head Gear Coffer (IL 600)",
+                            "Asphodelos Hand Gear Coffer (IL 600)",
+                            "Asphodelos Foot Gear Coffer (IL 600)"
                         ]
                     }
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Astronomy",
-                        "amount": "30"
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "15"
                     }
                 ]
             }
@@ -33685,7 +34141,6 @@
                     {
                         "name": "Treasure Coffer 1",
                         "items": [
-                            "Asphodelos Longsword",
                             "Asphodelos War Hammer",
                             "Asphodelos Claymore",
                             "Asphodelos Bayonet",
@@ -33704,14 +34159,14 @@
                             "Asphodelos Codex",
                             "Asphodelos Orrery",
                             "Asphodelos Pendulums",
-                            "Asphodelos Shield",
-                            "Asphodelos Chest Gear Coffer"
+                            "Asphodelos Chest Gear Coffer (IL 600)",
+                            "Paladin's Asphodelos Arms (IL 605)"
                         ]
                     },
                     {
                         "name": "Treasure Coffer 2",
                         "items": [
-                            "Asphodelos Weapon Coffer",
+                            "Asphodelos Weapon Coffer (IL 605)",
                             "Nosferatu",
                             "Demi-Phoinix Horn"
                         ]
@@ -33719,8 +34174,8 @@
                 ],
                 "token": [
                     {
-                        "name": "Allagan Tomestone of Astronomy",
-                        "amount": "30"
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "15"
                     }
                 ]
             }
@@ -33814,6 +34269,37 @@
                     {
                         "name": "Allagan Tomestone of Poetics",
                         "amount": "100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ultimate",
+        "version": "Endwalker",
+        "name": "Dragonsong's Reprise (Ultimate)",
+        "url": "/lodestone/playguide/db/duty/ba184b63c2d/",
+        "lvl": "90",
+        "ilvl": "-",
+        "fights": [
+            {
+                "chest": "gold",
+                "boss": [
+                    {
+                        "url": "/lodestone/playguide/db/npc/enemy/2a053f74490/",
+                        "name": "Dragon-king Thordan"
+                    }
+                ],
+                "drops": [
+                    {
+                        "name": "Dragonsong Token",
+                        "url": "/lodestone/playguide/db/item/fcb6f4ce23c/"
+                    }
+                ],
+                "token": [
+                    {
+                        "name": "Allagan Tomestone of Causality",
+                        "amount": "30"
                     }
                 ]
             }
