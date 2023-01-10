@@ -90,7 +90,11 @@ namespace Garland.Data.Modules
                 if (requiredItemKey == 0)
                     continue;
 
-                var item = _builder.Db.ItemsById[requiredItemKey];
+                if (!_builder.Db.ItemsById.TryGetValue(requiredItemKey, out var item))
+                {
+                    DatabaseBuilder.PrintLine($"Required item {requiredItemKey} not found when building shop.");
+                    continue;
+                }
 
                 var sReward = (Saint.XivRow)sCollectablesShopItem["CollectablesShopRewardScrip"];
                 int sRewardId = Convert.ToInt32(sReward["Currency"]);
