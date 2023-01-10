@@ -5929,6 +5929,11 @@
         }
       },
       {
+        "item": "Earthen Quartz",
+        "icon": 21458,
+        "id": 38937
+      },
+      {
         "item": "Earth Crystal",
         "icon": 20012,
         "id": 11
@@ -5939,6 +5944,7 @@
         "id": 17
       }
     ],
+    "stars": 2,
     "time": [
       0
     ],
@@ -6279,6 +6285,11 @@
         }
       },
       {
+        "item": "Sophora Roots",
+        "icon": "t/25025",
+        "id": 38938
+      },
+      {
         "item": "Wind Crystal",
         "icon": 20010,
         "id": 10
@@ -6289,6 +6300,7 @@
         "id": 16
       }
     ],
+    "stars": 2,
     "time": [
       8
     ],
@@ -6623,6 +6635,11 @@
         "item": "Raw Rutilated Quartz",
         "icon": 21474,
         "id": 37817
+      },
+      {
+        "item": "Raw Zoisite",
+        "icon": 21472,
+        "id": 38934
       }
     ],
     "stars": 2,
@@ -6652,9 +6669,19 @@
         "item": "Ilmenite",
         "icon": 21205,
         "id": 37820
+      },
+      {
+        "item": "Prime Achondrite",
+        "icon": 21210,
+        "id": 39237
+      },
+      {
+        "item": "Sublime Achondrite",
+        "icon": "t/21247",
+        "id": 39238
       }
     ],
-    "stars": 2,
+    "stars": 3,
     "time": [
       8,
       20
@@ -6700,7 +6727,7 @@
     "id": 400,
     "condition": "Perception ≥ 3800",
     "bonus": " Gatherer's Boon Chance +30%",
-    "patch": 6.28
+    "patch": 6.2
   },
   {
     "type": "Mature Tree",
@@ -6710,9 +6737,19 @@
         "item": "Paldao Log",
         "icon": 22414,
         "id": 37818
+      },
+      {
+        "item": "Prime Sphongos",
+        "icon": 25408,
+        "id": 39234
+      },
+      {
+        "item": "Sublime Sphongos",
+        "icon": "t/25411",
+        "id": 39235
       }
     ],
-    "stars": 2,
+    "stars": 3,
     "time": [
       2,
       14
@@ -6729,7 +6766,7 @@
     "id": 463,
     "condition": "Perception ≥ 3800",
     "bonus": " Gatherer's Boon Chance +30%",
-    "patch": 6.28
+    "patch": 6.2
   },
   {
     "type": "Mature Tree",
@@ -6768,6 +6805,11 @@
         "item": "Bayberry",
         "icon": 25015,
         "id": 37821
+      },
+      {
+        "item": "Mornveil Tree Bark",
+        "icon": 22418,
+        "id": 38933
       }
     ],
     "stars": 2,
@@ -6787,6 +6829,6 @@
     "id": 695,
     "condition": "Perception ≥ 3800",
     "bonus": " Gatherer's Boon Chance +30%",
-    "patch": 6.28
+    "patch": 6.2
   }
 ];
