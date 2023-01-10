@@ -81,7 +81,7 @@ namespace Garland.Data.Modules
 
                 var ffmpeg = new Process();
                 ffmpeg.StartInfo = new ProcessStartInfo(Config.FfmpegPath, "-ss 00:00:10.0 -t 00:00:25.0 -i output\\input.ogg -acodec libvorbis -b:a 32k output\\output.ogg");
-                ffmpeg.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                //ffmpeg.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 ffmpeg.Start();
                 ffmpeg.WaitForExit();
 
