@@ -254,7 +254,7 @@
                     <div>{{=it.name}} <span class="right">{{=it.type}}#{{=it.id}}</span></div>
 
                     <div class="block-links">
-                        <a href="http://ffxiv.gamerescape.com/wiki/{{=it.name}}" target="_blank">Open on Gamer Escape</a>.
+                        <a href="http://ffxiv.gamerescape.com/wiki/{{=it.name.replace("?", '').replace(/[!'()*]/g, escape)}}" target="_blank">Open on Gamer Escape</a>.
                     </div>
 
                     <hr>
