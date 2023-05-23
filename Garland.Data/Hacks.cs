@@ -95,6 +95,9 @@ namespace Garland.Data
 
                 case 22357: // Wrapped Present (no icon)
                     return true;
+
+                case 0: // Some weird item added with 6.4
+                    return true;
             }
 
             if (name.Length == 0)

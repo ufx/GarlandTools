@@ -108,10 +108,12 @@ namespace Garland.Data.Modules
                 item.fish.guide = guideText;
                 item.fish.icon = GetFishIcon((UInt16)sFishParameter.Item.GetRaw("Icon"));
 
+                /* Broke with 6.4, todo fix this, prob using the new FishingNoteInfo sheet
                 if (sFishParameter.WeatherRestricted)
                     item.fish.weatherRestricted = 1;
                 if (sFishParameter.TimeRestricted)
                     item.fish.timeRestricted = 1;
+                */
 
                 var sGatheringSubCategory = (Saint.GatheringSubCategory)sFishParameter["GatheringSubCategory"];
                 if (sGatheringSubCategory != null && sGatheringSubCategory.Key > 0)

@@ -674,7 +674,7 @@
     "time": [
       5
     ],
-    "title": "Wellwick Wood",
+    "title": "Yugr'am River",
     "zone": "Eastern Thanalan",
     "coords": [
       25.58,
@@ -1372,6 +1372,16 @@
         "item": "Antumbral Rock",
         "icon": 21213,
         "id": 8030
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 2,
@@ -1519,13 +1529,23 @@
         "item": "Pumice",
         "icon": 21454,
         "id": 9519
+      },
+      {
+        "item": "Unaspected Crystal",
+        "icon": 20019,
+        "id": 10099
+      },
+      {
+        "item": "Dark Matter Cluster",
+        "icon": 20407,
+        "id": 10335
       }
     ],
     "stars": 3,
     "time": [
       1
     ],
-    "title": "Raincatcher Gully",
+    "title": "Red Mantis Falls",
     "zone": "Eastern La Noscea",
     "coords": [
       17.56,
@@ -1690,19 +1710,19 @@
         "item": "Rarefied Pyrite",
         "icon": 21207,
         "id": 32970,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Chalcocite",
         "icon": 21209,
         "id": 32971,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Limonite",
         "icon": 21206,
         "id": 32972,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -1729,13 +1749,13 @@
         "item": "Rarefied Abalathian Spring Water",
         "icon": 22614,
         "id": 32973,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Aurum Regis Sand",
         "icon": 21220,
         "id": 32974,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -1762,13 +1782,13 @@
         "item": "Rarefied Raw Triphane",
         "icon": 21474,
         "id": 32975,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Raw Kyanite",
         "icon": 21472,
         "id": 32977,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -1862,7 +1882,7 @@
         "item": "Rarefied Raw Star Spinel",
         "icon": 21475,
         "id": 32976,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -1889,13 +1909,13 @@
         "item": "Rarefied Raw Azurite",
         "icon": 21472,
         "id": 32978,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Silvergrace Ore",
         "icon": 21213,
         "id": 32979,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -1922,13 +1942,13 @@
         "item": "Rarefied Titancopper Ore",
         "icon": 21202,
         "id": 32980,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Raw Petalite",
         "icon": 21477,
         "id": 32982,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -2022,7 +2042,7 @@
         "item": "Rarefied Raw Lazurite",
         "icon": 21472,
         "id": 32981,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -2049,13 +2069,13 @@
         "item": "Rarefied Sea Salt",
         "icon": 22617,
         "id": 32983,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Raw Onyx",
         "icon": 21231,
         "id": 32985,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -3406,13 +3426,13 @@
         "item": "Rarefied Reef Rock",
         "icon": 21203,
         "id": 32984,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Tungsten Ore",
         "icon": 21203,
         "id": 32986,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "stars": 1,
@@ -3440,7 +3460,7 @@
         "item": "Rarefied Gyr Abanian Alumen",
         "icon": 22644,
         "id": 32987,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "stars": 1,
@@ -3468,19 +3488,19 @@
         "item": "Rarefied Dark Chestnut Sap",
         "icon": 22654,
         "id": 32992,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Dark Chestnut Log",
         "icon": 22420,
         "id": 32993,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Dark Chestnut Branch",
         "icon": 22416,
         "id": 32994,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -3507,13 +3527,13 @@
         "item": "Rarefied Dark Chestnut",
         "icon": 25302,
         "id": 32995,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Dark Chestnut Resin",
         "icon": 22674,
         "id": 32996,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -5443,13 +5463,13 @@
         "item": "Rarefied Larch Log",
         "icon": 22403,
         "id": 32997,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Larch Sap",
         "icon": 22642,
         "id": 32999,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -5476,7 +5496,7 @@
         "item": "Rarefied Shiitake Mushroom",
         "icon": 25401,
         "id": 32998,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -5503,13 +5523,13 @@
         "item": "Rarefied Pine Resin",
         "icon": 22638,
         "id": 33000,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Pine Log",
         "icon": 22414,
         "id": 33001,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -5536,13 +5556,13 @@
         "item": "Rarefied Pixie Apple",
         "icon": 25308,
         "id": 33002,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Miracle Apple Log",
         "icon": 22404,
         "id": 33004,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -5569,7 +5589,7 @@
         "item": "Rarefied White Oak Log",
         "icon": 22407,
         "id": 33003,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -5596,13 +5616,13 @@
         "item": "Rarefied Sandteak Log",
         "icon": 22403,
         "id": 33005,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Amber Cloves",
         "icon": 25023,
         "id": 33007,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -5629,13 +5649,13 @@
         "item": "Rarefied Kelp",
         "icon": 25225,
         "id": 33006,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Coral",
         "icon": 29062,
         "id": 33008,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "stars": 1,
@@ -5663,7 +5683,7 @@
         "item": "Rarefied Urunday Log",
         "icon": 22420,
         "id": 33009,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "stars": 1,
@@ -6007,13 +6027,13 @@
         "item": "Rarefied Raw Ametrine",
         "icon": 21475,
         "id": 36293,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Sharlayan Rock Salt",
         "icon": 22688,
         "id": 36295,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -6040,7 +6060,7 @@
         "item": "Rarefied Bismuth Ore",
         "icon": 21217,
         "id": 36294,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -6067,13 +6087,13 @@
         "item": "Rarefied Phrygian Gold Ore",
         "icon": 21206,
         "id": 36296,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Eblan Alumen",
         "icon": 22616,
         "id": 36298,
-        "scrip": "Purple Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -6100,13 +6120,13 @@
         "item": "Rarefied Blue Zircon",
         "icon": 21472,
         "id": 36297,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Annite",
         "icon": 21226,
         "id": 36299,
-        "scrip": "Purple Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "stars": 1,
@@ -6134,7 +6154,7 @@
         "item": "Rarefied Pewter Ore",
         "icon": 21211,
         "id": 36300,
-        "scrip": "Purple Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "stars": 1,
@@ -6180,7 +6200,7 @@
       },
       {
         "item": "Sublime Siderite",
-        "icon": "t/21486",
+        "icon": 21486,
         "id": 37695
       }
     ],
@@ -6286,7 +6306,7 @@
       },
       {
         "item": "Sophora Roots",
-        "icon": "t/25025",
+        "icon": 25025,
         "id": 38938
       },
       {
@@ -6363,13 +6383,13 @@
         "item": "Rarefied Palm Log",
         "icon": 22410,
         "id": 36303,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Coconut",
         "icon": 25323,
         "id": 36305,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -6396,7 +6416,7 @@
         "item": "Rarefied Red Pine Log",
         "icon": 22403,
         "id": 36304,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -6423,13 +6443,13 @@
         "item": "Rarefied Sykon",
         "icon": 25318,
         "id": 36306,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Elder Nutmeg",
         "icon": 25021,
         "id": 36308,
-        "scrip": "Purple Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "time": [
@@ -6456,13 +6476,13 @@
         "item": "Rarefied Dark Rye",
         "icon": 25359,
         "id": 36307,
-        "scrip": "White Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       },
       {
         "item": "Rarefied Iceberg Lettuce",
         "icon": 25219,
         "id": 36309,
-        "scrip": "Purple Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "stars": 1,
@@ -6490,7 +6510,7 @@
         "item": "Rarefied AR-Caean Cotton Boll",
         "icon": 25032,
         "id": 36310,
-        "scrip": "Purple Gatherers' Scrip"
+        "scrip": "White Crafters' Scrip"
       }
     ],
     "stars": 1,
@@ -6604,7 +6624,7 @@
       },
       {
         "item": "Sublime Crystalbloom",
-        "icon": "t/25042",
+        "icon": 25042,
         "id": 37692
       }
     ],
@@ -6677,7 +6697,7 @@
       },
       {
         "item": "Sublime Achondrite",
-        "icon": "t/21247",
+        "icon": 21247,
         "id": 39238
       }
     ],
@@ -6708,9 +6728,19 @@
         "item": "Ash Diatomite",
         "icon": 22634,
         "id": 37822
+      },
+      {
+        "item": "Prime Chloroschist",
+        "icon": 21252,
+        "id": 39909
+      },
+      {
+        "item": "Sublime Chloroschist",
+        "icon": "t/21337",
+        "id": 39910
       }
     ],
-    "stars": 2,
+    "stars": 3,
     "time": [
       10,
       22
@@ -6745,7 +6775,7 @@
       },
       {
         "item": "Sublime Sphongos",
-        "icon": "t/25411",
+        "icon": 25411,
         "id": 39235
       }
     ],
@@ -6776,9 +6806,19 @@
         "item": "Haritaki",
         "icon": 25017,
         "id": 37819
+      },
+      {
+        "item": "Prime Haritaki",
+        "icon": 25015,
+        "id": 39906
+      },
+      {
+        "item": "Sublime Haritaki",
+        "icon": "t/25043",
+        "id": 39907
       }
     ],
-    "stars": 2,
+    "stars": 3,
     "time": [
       0,
       12
@@ -6830,5 +6870,179 @@
     "condition": "Perception ≥ 3800",
     "bonus": " Gatherer's Boon Chance +30%",
     "patch": 6.2
+  },
+  {
+    "type": "Rocky Outcropping",
+    "func": "node",
+    "items": [
+      {
+        "item": "Maghemite",
+        "icon": 22656,
+        "id": 39708
+      }
+    ],
+    "stars": 3,
+    "time": [
+      6,
+      18
+    ],
+    "title": "Pavana's Remorse",
+    "zone": "Thavnair",
+    "coords": [
+      24.46,
+      13.07
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 932,
+    "condition": "Perception ≥ 4000",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 6.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Softsilver Ore",
+        "icon": 21227,
+        "id": 39706
+      }
+    ],
+    "stars": 3,
+    "time": [
+      4,
+      16
+    ],
+    "title": "Ostrakon Deka-okto",
+    "zone": "Ultima Thule",
+    "coords": [
+      16.98,
+      29.39
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 933,
+    "condition": "Perception ≥ 4000",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 6.4
+  },
+  {
+    "type": "Mineral Deposit",
+    "func": "node",
+    "items": [
+      {
+        "item": "Raw Spodumene",
+        "icon": 21475,
+        "id": 39707
+      }
+    ],
+    "stars": 3,
+    "time": [
+      8,
+      20
+    ],
+    "title": "Lethe",
+    "zone": "Elpis",
+    "coords": [
+      30.29,
+      18.3
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 934,
+    "condition": "Perception ≥ 4000",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 6.4
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Field Mustard",
+        "icon": "t/22696",
+        "id": 39709
+      }
+    ],
+    "stars": 3,
+    "time": [
+      10,
+      22
+    ],
+    "title": "Regio Urbanissima",
+    "zone": "Garlemald",
+    "coords": [
+      17.78,
+      12.49
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 935,
+    "condition": "Perception ≥ 4000",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 6.4
+  },
+  {
+    "type": "Lush Vegetation",
+    "func": "node",
+    "items": [
+      {
+        "item": "Lovingbloom",
+        "icon": "t/25413",
+        "id": 39710
+      }
+    ],
+    "stars": 3,
+    "time": [
+      0,
+      12
+    ],
+    "title": "Lovingway's Darlings",
+    "zone": "Mare Lamentorum",
+    "coords": [
+      25.88,
+      20.42
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 936,
+    "condition": "Perception ≥ 4000",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 6.4
+  },
+  {
+    "type": "Mature Tree",
+    "func": "node",
+    "items": [
+      {
+        "item": "Dark Cherry Log",
+        "icon": 22408,
+        "id": 39705
+      }
+    ],
+    "stars": 3,
+    "time": [
+      2,
+      14
+    ],
+    "title": "The Central Circuit",
+    "zone": "Labyrinthos",
+    "coords": [
+      19.06,
+      35.93
+    ],
+    "name": "Legendary",
+    "uptime": 120,
+    "lvl": 90,
+    "id": 937,
+    "condition": "Perception ≥ 4000",
+    "bonus": " Gatherer's Boon Chance +30%",
+    "patch": 6.4
   }
 ];
