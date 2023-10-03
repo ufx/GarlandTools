@@ -14,7 +14,7 @@ namespace Garland.Data.Modules
     public class Items : Module
     {
         Dictionary<string, List<dynamic>> _itemsBySlotModelId = new Dictionary<string, List<dynamic>>();
-        HashSet<int> _armoireIndex = new HashSet<int>();
+        HashSet<uint> _armoireIndex = new HashSet<uint>();
         List<Saint.Item> _gardeningSeeds = new List<Saint.Item>();
         Saint.BaseParam[] _crafterParams;
         Saint.BaseParam[] _gathererParams;
@@ -48,7 +48,7 @@ namespace Garland.Data.Modules
 
             foreach (var row in _builder.Sheet("Cabinet"))
             {
-                var id = (int)row.GetRaw("Item");
+                var id = (uint)row.GetRaw("Item");
                 if (id > 0)
                     _armoireIndex.Add(id);
             }
@@ -253,7 +253,7 @@ namespace Garland.Data.Modules
                 if (expertSeals > 0)
                     item.delivery = expertSeals;
 
-                if (_armoireIndex.Contains(sItem.Key))
+                if (_armoireIndex.Contains((uint)sItem.Key))
                     item.storable = 1;
 
                 item.slot = sEquipment.EquipSlotCategory.Key;
@@ -473,7 +473,7 @@ namespace Garland.Data.Modules
                 };
 
                 foreach (var sItem in sItems)
-                { 
+                {
                     if (sItem.Key == 0)
                         continue;
 

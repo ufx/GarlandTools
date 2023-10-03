@@ -2517,7 +2517,7 @@
     "title": "Ok' Vundu Mok",
     "zone": "The Sea of Clouds",
     "coords": [
-      12.31,
+      12.33,
       19.56
     ],
     "name": "Ephemeral",
@@ -6908,9 +6908,19 @@
         "item": "Softsilver Ore",
         "icon": 21227,
         "id": 39706
+      },
+      {
+        "item": "Prime Fossilized Dragon's Scale",
+        "icon": 22251,
+        "id": 41416
+      },
+      {
+        "item": "Sublime Fossilized Dragon's Scale",
+        "icon": "t/22266",
+        "id": 41417
       }
     ],
-    "stars": 3,
+    "stars": 4,
     "time": [
       4,
       16
@@ -7024,9 +7034,19 @@
         "item": "Dark Cherry Log",
         "icon": 22408,
         "id": 39705
+      },
+      {
+        "item": "Prime Kukuru Beans",
+        "icon": 25314,
+        "id": 41413
+      },
+      {
+        "item": "Sublime Kukuru Beans",
+        "icon": "t/25329",
+        "id": 41414
       }
     ],
-    "stars": 3,
+    "stars": 4,
     "time": [
       2,
       14

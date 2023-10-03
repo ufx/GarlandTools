@@ -47,7 +47,7 @@ namespace Garland.Data.Modules
                     item.tripletriad.sellMgp = sResident.SaleValue;
 
                 // unlock.TripleTriadCard.Icon is only 40x40 and looks awful.
-                item.tripletriad.plate = IconDatabase.EnsureEntry("triad\\plate", sCard.PlateIcon);
+                //item.tripletriad.plate = IconDatabase.EnsureEntry("triad\\plate", sCard.PlateIcon);
 
                 item.tripletriad.rarity = sResident.TripleTriadCardRarity.Key;
 

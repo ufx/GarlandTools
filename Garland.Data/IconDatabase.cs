@@ -48,6 +48,10 @@ namespace Garland.Data
 
         public static int EnsureEntry(string type, ImageFile icon)
         {
+            if(icon == null)
+            {
+                return 0;
+            }
             return EnsureEntry(type, icon, Utils.GetIconId(icon));
         }
 
